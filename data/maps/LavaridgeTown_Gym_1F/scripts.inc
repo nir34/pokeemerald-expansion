@@ -433,442 +433,454 @@ LavaridgeTown_Gym_1F_EventScript_Infernape::
 # 217 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 # 218 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Hey, how's it going, Champion-\n"
+	.string "嘿，冠军候补的{PLAYER}，\n"
 # 219 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "bound {PLAYER}?\p"
+	.string "最近怎么样？\p"
 # 220 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Lavaridge's Gym Leader Flannery\n"
+	.string "釜炎道馆的馆主亚莎\n"
 # 221 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "uses Fire-type Pokémon.\p"
+	.string "使的是火属性宝可梦。\p"
 # 222 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Her passion for Pokémon burns stronger\n"
+	.string "她对宝可梦的热情比\n"
 # 223 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "and hotter than a volcano.\p"
+	.string "火山还炽热。\p"
 # 224 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Don't get too close to her--you'll burn!\n"
+	.string "别靠她太近——会被烫到！\n"
 # 225 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Hose her down with water and then\l"
+	.string "用水给她浇一浇，\l"
 # 226 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "go for it!$"
+	.string "然后再上！$"
 # 227 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 
 # 228 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
 # 229 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Yow! That was a scorching-hot battle!$"
+	.string "哇！那真是场\n"
 # 230 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "滚烫的对战！$"
 # 231 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ColeIntro:
+
 # 232 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Owowowowow!\n"
+LavaridgeTown_Gym_1F_Text_ColeIntro:
 # 233 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Yikes, it's hot!$"
+	.string "哎哟哟哟！\n"
 # 234 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "哇，好热！$"
 # 235 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ColeDefeat:
+
 # 236 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I'm blinded by sweat in my eyes…$"
+LavaridgeTown_Gym_1F_Text_ColeDefeat:
 # 237 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "汗水迷住了\n"
 # 238 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ColePostBattle:
+	.string "我的眼睛……$"
 # 239 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Being buried in hot sand promotes\n"
+
 # 240 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "circulation.\p"
+LavaridgeTown_Gym_1F_Text_ColePostBattle:
 # 241 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "It's effective for healing pain in\n"
+	.string "埋在热沙里能促进\n"
 # 242 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "your joints.$"
+	.string "血液循环。\p"
 # 243 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "对缓解关节疼痛\n"
 # 244 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_AxleIntro:
+	.string "很有效。$"
 # 245 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I'm trying to relieve my stress.\n"
+
 # 246 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Don't come along and stress me out!$"
+LavaridgeTown_Gym_1F_Text_AxleIntro:
 # 247 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "我正在缓解压力。\n"
 # 248 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_AxleDefeat:
+	.string "别过来给我添压力！$"
 # 249 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I hope Flannery flames you good!$"
+
 # 250 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_1F_Text_AxleDefeat:
 # 251 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_AxlePostBattle:
+	.string "希望亚莎把你\n"
 # 252 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Haaah… Whew…\p"
+	.string "烧个痛快！$"
 # 253 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "If you spend too much time buried in\n"
+
 # 254 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "hot sand, it tuckers you out…$"
+LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 # 255 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "哈啊……呼……\p"
 # 256 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_KeeganIntro:
+	.string "埋在热沙里太久，\n"
 # 257 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "You must be getting tired by now.\n"
+	.string "会把人累坏的……$"
 # 258 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "You'd like to rest in the hot sand,\l"
+
 # 259 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "wouldn't you?\p"
+LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 # 260 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "But you should know that maintaining\n"
+	.string "你现在一定累了吧。\n"
 # 261 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "your willpower is an important ability\l"
+	.string "想在热沙里休息一下，\l"
 # 262 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "for all trainers.$"
+	.string "对吧？\p"
 # 263 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "不过你该知道，保持意志力\n"
 # 264 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
+	.string "是训练家的重要能力。$"
 # 265 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Play with fire, and be burned…$"
+
 # 266 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
 # 267 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
+	.string "玩火，必自焚……$"
 # 268 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Your skill is real…\n"
+
 # 269 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "But our Leader Flannery is strong.\p"
+LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 # 270 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "If you don't watch yourself, you'll be\n"
+	.string "你的本事是真的……\n"
 # 271 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "burned seriously.$"
+	.string "可我们的馆主亚莎很强。\p"
 # 272 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "你要是不留神，会\n"
 # 273 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_GeraldIntro:
+	.string "被烧得很惨。$"
 # 274 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Can your Pokémon withstand\n"
+
 # 275 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "392-degree heat?$"
+LavaridgeTown_Gym_1F_Text_GeraldIntro:
 # 276 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "你的宝可梦挡得住\n"
 # 277 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_GeraldDefeat:
+	.string "392度的高温吗？$"
 # 278 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "It didn't burn hotly enough…$"
+
 # 279 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_1F_Text_GeraldDefeat:
 # 280 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
+	.string "烧得还不够热……$"
 # 281 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "The temperature of magma is\n"
+
 # 282 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "392 degrees.\p"
+LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 # 283 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Your Pokémon beat me, so they should\n"
+	.string "岩浆的温度是\n"
 # 284 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "easily survive in magma.$"
+	.string "392度。\p"
 # 285 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "你的宝可梦打赢了我，\n"
 # 286 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_DanielleIntro:
+	.string "那在岩浆里也能活。$"
 # 287 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Um…\n"
+
 # 288 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Okay, I'll battle with you.$"
+LavaridgeTown_Gym_1F_Text_DanielleIntro:
 # 289 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "呃……\n"
 # 290 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_DanielleDefeat:
+	.string "好吧，我跟你对战。$"
 # 291 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Oh, but you're too strong.$"
+
 # 292 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_1F_Text_DanielleDefeat:
 # 293 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
+	.string "哦，你可太强了。$"
 # 294 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I'm going to be a pretty and strong\n"
+
 # 295 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "trainer just like Flannery.$"
+LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
 # 296 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "我要成为像亚莎那样\n"
 # 297 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JaceIntro:
+	.string "又漂亮又强的训练家。$"
 # 298 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Come on, get with it!\n"
+
 # 299 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Let's go before my feelings cool!$"
+LavaridgeTown_Gym_B1F_Text_JaceIntro:
 # 300 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "来，打起精神！\n"
 # 301 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JaceDefeat:
+	.string "趁我的热情还没凉，来吧！$"
 # 302 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "It's so hot, and yet my heart is\n"
+
 # 303 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "clutched by ice…$"
+LavaridgeTown_Gym_B1F_Text_JaceDefeat:
 # 304 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "这么热，我的心却\n"
 # 305 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JacePostBattle:
+	.string "被冰抓住了……$"
 # 306 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "The way the battling spirit burns\n"
+
 # 307 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "within you, you may stand a chance\l"
+LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 # 308 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "against our LEADER.$"
+	.string "看你心里燃起的\n"
 # 309 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "对战意志，\l"
 # 310 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JeffIntro:
+	.string "也许能打赢我们的馆主。$"
 # 311 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "See how the flames blaze wildly?\n"
+
 # 312 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "They flare in anticipation of my win!$"
+LavaridgeTown_Gym_B1F_Text_JeffIntro:
 # 313 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "看那火焰烧得多旺？\n"
 # 314 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JeffDefeat:
+	.string "它们在预示我的胜利！$"
 # 315 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Something didn't go right.$"
+
 # 316 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 # 317 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
+	.string "有什么地方不对劲。$"
 # 318 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Well, so what? I say so what?\n"
+
 # 319 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I can walk on hot coals barefoot!\p"
+LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 # 320 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "…Don't even think about trying it!$"
+	.string "那又怎样？那又怎样？\n"
 # 321 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "我光脚都能走热炭！\p"
 # 322 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_EliIntro:
+	.string "……你可千万\n"
 # 323 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "As much as I love mountains,\n"
+	.string "别试！$"
 # 324 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I especially love volcanoes.$"
+
 # 325 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_B1F_Text_EliIntro:
 # 326 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_EliDefeat:
+	.string "我有多爱山，\n"
 # 327 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Well, it seems to me I lost without\n"
+	.string "就有多爱火山。$"
 # 328 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "ever being in control.$"
+
 # 329 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+LavaridgeTown_Gym_B1F_Text_EliDefeat:
 # 330 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_B1F_Text_EliPostBattle:
+	.string "看来我从头到尾\n"
 # 331 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I stay here because I became a fan\n"
+	.string "都没能掌握主动。$"
 # 332 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "of Flannery's power.\p"
+
 # 333 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Hehehehe.$"
+LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 # 334 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "我留在这里，是因为\n"
 # 335 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryIntro:
+	.string "成了亚莎力量的粉丝。\p"
 # 336 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Welcome… No, wait.\p"
+	.string "嘿嘿嘿。$"
 # 337 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Puny trainer, how good to see you've\n"
+
 # 338 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "made it here!\p"
+LavaridgeTown_Gym_1F_Text_FlanneryIntro:
 # 339 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I have been entrusted with the…\n"
+	.string "欢迎……不，等等。\p"
 # 340 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "No, wait.\p"
+	.string "渺小的训练家，你居然\n"
 # 341 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I am Flannery, and I'm the Gym\n"
+	.string "走到这里了，真不错！\p"
 # 342 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Leader here!\p"
+	.string "我受人之托……\n"
 # 343 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Uh…\n"
+	.string "不，等等。\p"
 # 344 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Dare not underestimate me, though\l"
+	.string "我是亚莎，这里的\n"
 # 345 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I have been Leader only a short time!\p"
+	.string "道馆馆主！\p"
 # 346 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "With skills inherited from my grand-\n"
+	.string "呃……\n"
 # 347 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "father, I shall, uh…demonstrate the\l"
+	.string "可别小看我，虽然\l"
 # 348 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "hot moves we have honed on this land!$"
+	.string "我当馆主的时间还不长！\p"
 # 349 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "我要用从爷爷那里\n"
 # 350 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
+	.string "继承的本事，呃……\l"
 # 351 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Oh…\n"
+	.string "展示我们在这片\l"
 # 352 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I guess I was trying too hard…\p"
+	.string "土地上磨练的热招式！$"
 # 353 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I… I've only recently become\n"
-# 354 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "a Gym Leader.\p"
-# 355 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I tried too hard to be someone\n"
-# 356 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I'm not.\p"
-# 357 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I have to do things my natural way. If\n"
-# 358 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I don't, my Pokémon will be confused.\p"
-# 359 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Thanks for teaching me that.\n"
-# 360 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "For that, you deserve these.$"
-# 361 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 
+# 354 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
+# 355 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "哦……\n"
+# 356 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我大概是太用力了……\p"
+# 357 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我……我才刚当上\n"
+# 358 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "道馆馆主不久。\p"
+# 359 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我太想成为\n"
+# 360 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "别人了。\p"
+# 361 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我得照自己的方式来。\n"
 # 362 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
+	.string "不然宝可梦会困惑的。\p"
 # 363 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "{PLAYER} received the Heat Badge\n"
+	.string "谢谢你教我这一点。\n"
 # 364 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "from Flannery.$"
+	.string "作为谢礼，这些给你。$"
 # 365 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 
 # 366 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
+LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 # 367 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "If you have the Heat Badge, Pokémon\n"
+	.string "{PLAYER}从亚莎那里\n"
 # 368 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "can use the HM move Strength\l"
+	.string "得到了烈焰徽章。$"
 # 369 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "outside of battle.\p"
+
 # 370 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "And consider these TMs as a token\n"
+LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 # 371 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "of my appreciation.\l"
+	.string "有了烈焰徽章，宝可梦\n"
 # 372 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Don't be shy about taking them!$"
+	.string "就能在战斗外使用\l"
 # 373 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "秘传招式怪力。\p"
 # 374 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_ExplainOverheat:
+	.string "还有，这些学习器\n"
 # 375 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Those are all the fiery TMs that I have,\n"
+	.string "算是我的一点心意。\l"
 # 376 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "and I even threw in my favorite\l"
+	.string "别客气，收下吧！$"
 # 377 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Mega stone.\p"
+
 # 378 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I hope you can put everything to\n"
+LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 # 379 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "good use!$"
+	.string "这些是我所有的\n"
 # 380 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "火属性学习器，\l"
 # 381 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
+	.string "我还附上了自己最喜欢的\l"
 # 382 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Registered Gym Leader Flannery\n"
+	.string "超级石。\p"
 # 383 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "in the PokéNav.$"
+	.string "希望你能把它们\n"
 # 384 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "好好用起来！$"
 # 385 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
+
 # 386 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "What's wrong?\n"
+LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 # 387 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I said I gave you my favorite Mega\l"
+	.string "在宝可梦导航里登录了\n"
 # 388 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "stone, I didn't say I gave you my best\l"
+	.string "道馆馆主亚莎。$"
 # 389 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "one!\p"
+
 # 390 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Hah! I got my Mega stone for Infernape\n"
+LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 # 391 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "from a trainer in Fortree City, I wonder\l"
+	.string "怎么了？\n"
 # 392 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "if he would give you one too?$"
+	.string "我说我给了你最喜欢的\l"
 # 393 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "超级石，可没说\l"
 # 394 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_GymStatue:
+	.string "给你最好的那颗！\p"
 # 395 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Lavaridge Town Pokémon Gym$"
+	.string "哈！我的烈焰猴超级石\n"
 # 396 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "是从茵郁市一个训练家\l"
 # 397 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_GymStatueCertified:
+	.string "那儿得来的，不知道\l"
 # 398 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Lavaridge Town Pokémon Gym\p"
+	.string "他会不会也给你一颗？$"
 # 399 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Flannery's Certified Trainers:\n"
+
 # 400 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "{PLAYER}$"
+LavaridgeTown_Gym_1F_Text_GymStatue:
 # 401 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "釜炎镇宝可梦道馆$"
 # 402 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
+
 # 403 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Flannery: Losing a battle isn't going\n"
+LavaridgeTown_Gym_1F_Text_GymStatueCertified:
 # 404 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "to deflate me.\p"
+	.string "釜炎镇宝可梦道馆\p"
 # 405 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I love Pokémon.\n"
+	.string "亚莎认定的训练家：\n"
 # 406 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I love to battle.\l"
+	.string "{PLAYER}$"
 # 407 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "And… I love this Gym!\p"
+
 # 408 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Let's exchange superhot moves\n"
+LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 # 409 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "in another battle!$"
+	.string "亚莎：输一场对战\n"
 # 410 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "可不会让我泄气。\p"
 # 411 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
+	.string "我爱宝可梦。\n"
 # 412 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Whew!\n"
+	.string "我爱对战。\l"
 # 413 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "On the verge of eruption!$"
+	.string "而且……我爱这个道馆！\p"
 # 414 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "再来一场，交换\n"
 # 415 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
+	.string "超级热的招式吧！$"
 # 416 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Flannery: I lost the match,\n"
+
 # 417 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "but I'm completely satisfied.\p"
+LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
 # 418 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "It's not often I get to enjoy a battle\n"
+	.string "呼！\n"
 # 419 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "this heated.\p"
+	.string "差点就要喷发了！$"
 # 420 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Let's have another one like this\n"
+
 # 421 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "again sometime!$"
+LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 # 422 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-
+	.string "亚莎：这场比赛我输了，\n"
 # 423 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
+	.string "可我完全满足。\p"
 # 424 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Flannery: Losing a battle isn't going\n"
+	.string "能享受这么火热\n"
 # 425 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "to deflate me.\p"
+	.string "的对战，可不常有。\p"
 # 426 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I love Pokémon.\n"
+	.string "下次再来一场\n"
 # 427 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I love to battle.\l"
+	.string "这样的吧！$"
 # 428 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "And… I love this Gym!\p"
-# 429 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Let's exchange superhot moves\n"
-# 430 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "in another battle!\p"
-# 431 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Oh, wait. Do you only have one Pokémon\n"
-# 432 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "that can battle?\p"
-# 433 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "I hate to say this, but when you come\n"
-# 434 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "see me, bring at least two Pokémon.$"
-# 435 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
 
+# 429 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
+# 430 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "亚莎：输一场对战\n"
+# 431 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "可不会让我泄气。\p"
+# 432 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我爱宝可梦。\n"
+# 433 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "我爱对战。\l"
+# 434 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "而且……我爱这个道馆！\p"
+# 435 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "再来一场，交换\n"
 # 436 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-LavaridgeTown_Gym_1F_Text_Infernape:
+	.string "超级热的招式吧！\p"
 # 437 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
-	.string "Infernape: Ewrrrr eeyee!$"
+	.string "哦，等等。你能对战的\n"
+# 438 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "宝可梦只有一只？\p"
+# 439 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "这话不太好说，不过\n"
+# 440 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "来找我时请至少带两只。$"
+# 441 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+
+# 442 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+LavaridgeTown_Gym_1F_Text_Infernape:
+# 443 "data/maps/LavaridgeTown_Gym_1F/scripts.pory"
+	.string "烈焰猴：咿呀啊啊！$"

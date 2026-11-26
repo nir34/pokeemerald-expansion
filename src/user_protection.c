@@ -276,12 +276,7 @@ void CB2_RomHashFail(void)
     InitWindows(textWin);
     DrawStdFrameWithCustomTileAndPalette(0, TRUE, 0x214, 0xE);
     static const u8 romCheckFailMessage[] =_(
-        "{COLOR RED}ERROR! {COLOR DARK_GRAY}ROM integrity check failed!\n"
-        "\n"
-        "Please ensure that the patch was\n"
-        "applied to the correct base ROM.\n"
-        "The game won't start unless this\n"
-        "is done correctly.\n");
+        "{COLOR RED}错误！{COLOR DARK_GRAY}ROM完整性检查失败！\n\n请确认补丁已应用到正确的\n基础ROM上。\n除非正确处理，否则游戏无法启动。\n");
     RomCheckScreenTextPrint(romCheckFailMessage, 1, 0);
     u32 *endAddress = (u32 *)(0x0A000000 - 4);
     if ((*endAddress) == 0xFFFFFFFF)
@@ -333,12 +328,7 @@ void CB2_SaveStateFailure(void)
     InitWindows(textWin);
     DrawStdFrameWithCustomTileAndPalette(0, TRUE, 0x214, 0xE);
     static const u8 romCheckFailMessage[] =_(
-        "{COLOR RED}ERROR! {COLOR DARK_GRAY}Version check failed!\n"
-        "\n"
-        "Version mismatch between RAM\n"
-        "and ROM detected. This is usually\n"
-        "caused by loading a savestate\n"
-        "from a previous version.\n");
+        "{COLOR RED}错误！{COLOR DARK_GRAY}版本检查失败！\n\n检测到RAM与ROM的版本不一致。\n这通常是由于载入了\n旧版本的即时存档造成的。\n");
     RomCheckScreenTextPrint(romCheckFailMessage, 1, 0);
     TransferPlttBuffer();
     *(u16*)PLTT = RGB(17, 18, 31);

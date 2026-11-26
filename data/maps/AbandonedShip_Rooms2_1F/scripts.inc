@@ -105,196 +105,220 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 # 53 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 AbandonedShip_Rooms2_1F_Text_DanIntro:
 # 54 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: While searching for treasures,\n"
+	.string "DAN：我们找宝物的\n"
 # 55 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "we discovered a trainer!$"
+	.string "时候，发现了一个\l"
 # 56 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "训练家！$"
 # 57 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanDefeat:
+
 # 58 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: We couldn't win even though\n"
+AbandonedShip_Rooms2_1F_Text_DanDefeat:
 # 59 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "we worked together…$"
+	.string "DAN：我们联手还是\n"
 # 60 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "打不赢……$"
 # 61 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanPostBattle:
+
 # 62 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: We can't find any treasures…\n"
+AbandonedShip_Rooms2_1F_Text_DanPostBattle:
 # 63 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I wonder if someone got them already?$"
+	.string "DAN：我们什么宝物都\n"
 # 64 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "没找到……\l"
 # 65 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
+	.string "是不是已经被人\l"
 # 66 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: You don't even have two Pokémon.\n"
+	.string "拿走了？$"
 # 67 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "You can't expect to beat us like that.$"
+
 # 68 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
 # 69 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraIntro:
+	.string "DAN：你连两只宝可梦都\n"
 # 70 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh?\n"
+	.string "没有。这样可打不\l"
 # 71 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "We were searching for treasures.\l"
+	.string "赢我们。$"
 # 72 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "But we discovered a trainer instead!$"
+
 # 73 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+AbandonedShip_Rooms2_1F_Text_KiraIntro:
 # 74 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraDefeat:
+	.string "KIRA：哦？\n"
 # 75 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Ooh, so strong!$"
+	.string "我们在找宝物，\l"
 # 76 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "结果发现了个\l"
 # 77 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
+	.string "训练家！$"
 # 78 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Where could the treasures be?\p"
+
 # 79 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I've already decided what I'm buying\n"
+AbandonedShip_Rooms2_1F_Text_KiraDefeat:
 # 80 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "when we find the treasures!$"
+	.string "KIRA：哦，好强！$"
 # 81 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
 # 82 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
+AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
 # 83 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh, you don't have two Pokémon?\n"
+	.string "KIRA：宝物到底在\n"
 # 84 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "We'll have to battle some other time!$"
+	.string "哪儿呢？\p"
 # 85 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "我都已经想好找到\n"
 # 86 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraRegister:
+	.string "宝物要买什么了！$"
 # 87 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh, you make me so angry!\n"
+
 # 88 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I'm going to register you for that!$"
+AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
 # 89 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "KIRA：哦，你没有\n"
 # 90 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
+	.string "两只宝可梦？\l"
 # 91 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: We've been searching for\n"
+	.string "那我们改天再打！$"
 # 92 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "treasures all this time.\p"
+
 # 93 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Our Pokémon have grown stronger, too.\n"
+AbandonedShip_Rooms2_1F_Text_KiraRegister:
 # 94 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Let us show you, okay?$"
+	.string "KIRA：哦，你气死我了！\n"
 # 95 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "我要把你登录下来！$"
 # 96 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
+
 # 97 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: You're strong, as usual!$"
+AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
 # 98 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "DAN：我们一直在找\n"
 # 99 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanPostRematch:
+	.string "宝物。\p"
 # 100 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: We can't find any treasures,\n"
+	.string "我们的宝可梦也变强了。\n"
 # 101 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "we lose at Pokémon…\p"
+	.string "让它们给你看看，\l"
 # 102 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I want to go home… But if I say that,\n"
+	.string "好吗？$"
 # 103 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "she gets all angry with me…$"
+
 # 104 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
 # 105 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
+	.string "DAN：你还是一样强！$"
 # 106 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Dan: You don't even have two Pokémon.\n"
+
 # 107 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "You can't expect to beat us like that.$"
+AbandonedShip_Rooms2_1F_Text_DanPostRematch:
 # 108 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "DAN：宝物找不到，\n"
 # 109 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
+	.string "宝可梦对战也输……\p"
 # 110 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh? We meet again!\p"
+	.string "我想回家……可我要\n"
 # 111 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Just like us, you still haven't given up\n"
+	.string "这么说，她就\l"
 # 112 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "searching for treasures, have you?\p"
+	.string "要生我的气了……$"
 # 113 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Want to make it so the loser has\n"
-# 114 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "to give up searching?$"
-# 115 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
+# 114 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
+# 115 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "DAN：你连两只宝可梦都\n"
 # 116 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
+	.string "没有。这样可打不\l"
 # 117 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh, we lost again…$"
+	.string "赢我们。$"
 # 118 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
 # 119 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
+AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
 # 120 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira We're not leaving until we raise\n"
+	.string "KIRA：哦？又见面了！\p"
 # 121 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "our Pokémon some more and we find\l"
+	.string "跟我们一样，你还是\n"
 # 122 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "the treasures here!$"
+	.string "没放弃找宝物，对吧？\p"
 # 123 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "要不要来一场，输的人\n"
 # 124 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
+	.string "就放弃找宝物？$"
 # 125 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Kira Oh, you don't have two Pokémon?\n"
+
 # 126 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "We'll have to battle some other time!$"
+AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
 # 127 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "KIRA：哦，我们又输了……$"
 # 128 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_JaniIntro:
+
 # 129 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I'm not good at swimming,\n"
+AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
 # 130 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "but I am good at battles!$"
+	.string "KIRA：我们不把宝可梦\n"
 # 131 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-
+	.string "练强、不找到这里的\l"
 # 132 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_JaniDefeat:
+	.string "宝物，是绝不会\l"
 # 133 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Oops.\n"
+	.string "走的！$"
 # 134 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "That didn't go very well.$"
-# 135 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
+# 135 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
 # 136 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
+	.string "KIRA：哦，你没有\n"
 # 137 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Walking around barefoot in this ship\n"
+	.string "两只宝可梦？\l"
 # 138 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "is kind of gross.$"
+	.string "那我们改天再打！$"
 # 139 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
 # 140 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
+AbandonedShip_Rooms2_1F_Text_JaniIntro:
 # 141 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Strength and compassion…\n"
+	.string "我游泳不行，\n"
 # 142 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Those are a trainer's treasures!$"
+	.string "但对战很在行！$"
 # 143 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
 # 144 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
+AbandonedShip_Rooms2_1F_Text_JaniDefeat:
 # 145 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "Ah, there is something about you\n"
+	.string "哎呀。\n"
 # 146 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "that sparkles.$"
+	.string "不太顺利。$"
 # 147 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
 
 # 148 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
+AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
 # 149 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "In a cabin somewhere on board,\n"
+	.string "在这条船上光脚走\n"
 # 150 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
-	.string "I saw something sparkle.$"
+	.string "有点恶心。$"
+# 151 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+
+# 152 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
+# 153 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "力量与慈悲……\n"
+# 154 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "那才是训练家的宝物！$"
+# 155 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+
+# 156 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
+# 157 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "啊，你身上有什么东西\n"
+# 158 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "在闪闪发光。$"
+# 159 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+
+# 160 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
+# 161 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "在船上某个船舱里，\n"
+# 162 "data/maps/AbandonedShip_Rooms2_1F/scripts.pory"
+	.string "我看见有东西在闪光。$"

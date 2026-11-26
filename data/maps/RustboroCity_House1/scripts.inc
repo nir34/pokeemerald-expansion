@@ -105,58 +105,64 @@ RustboroCity_House1_EventScript_Hiker::
 # 53 "data/maps/RustboroCity_House1/scripts.pory"
 RustboroCity_House1_Text_IllTradeIfYouWant:
 # 54 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Huh? My Pokémon is cute?\n"
+	.string "咦？我的宝可梦很可爱？\n"
 # 55 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Sure, I knew that.\p"
+	.string "当然，我早就知道。\p"
 # 56 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "But if you really want, I'm willing\n"
+	.string "不过如果你真想要，\n"
 # 57 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "to trade it to you.\p"
+	.string "我愿意和你交换。\p"
 # 58 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "I'll trade you my {STR_VAR_2} for\n"
+	.string "愿意的话，我可以用\n"
 # 59 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "a {STR_VAR_1} if you want.$"
+	.string "{STR_VAR_2}跟你换\l"
 # 60 "data/maps/RustboroCity_House1/scripts.pory"
-
+	.string "{STR_VAR_1}。$"
 # 61 "data/maps/RustboroCity_House1/scripts.pory"
-RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
+
 # 62 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Eheheh…\n"
+RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 # 63 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Please be good to my Pokémon.$"
+	.string "呵呵……\n"
 # 64 "data/maps/RustboroCity_House1/scripts.pory"
-
+	.string "请好好对待我的宝可梦。$"
 # 65 "data/maps/RustboroCity_House1/scripts.pory"
-RustboroCity_House1_Text_DoesntLookLikeMonToMe:
+
 # 66 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Huh? That doesn't look anything like\n"
+RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 # 67 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "a {STR_VAR_1} to me.$"
+	.string "咦？这看起来一点也不像\n"
 # 68 "data/maps/RustboroCity_House1/scripts.pory"
-
+	.string "{STR_VAR_1}啊。$"
 # 69 "data/maps/RustboroCity_House1/scripts.pory"
-RustboroCity_House1_Text_YouDontWantToThatsOkay:
+
 # 70 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Oh, if you don't want to, that's okay.\n"
+RustboroCity_House1_Text_YouDontWantToThatsOkay:
 # 71 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "But my Pokémon is cute, you know…$"
+	.string "哦，你不想换的话\n"
 # 72 "data/maps/RustboroCity_House1/scripts.pory"
-
+	.string "也没关系。\p"
 # 73 "data/maps/RustboroCity_House1/scripts.pory"
-RustboroCity_House1_Text_AnyPokemonCanBeCute:
+	.string "不过我的宝可梦\n"
 # 74 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "Any Pokémon can be cute if you raise\n"
+	.string "可是很可爱的哦……$"
 # 75 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "it with care and kindness.$"
-# 76 "data/maps/RustboroCity_House1/scripts.pory"
 
+# 76 "data/maps/RustboroCity_House1/scripts.pory"
+RustboroCity_House1_Text_AnyPokemonCanBeCute:
 # 77 "data/maps/RustboroCity_House1/scripts.pory"
-RustboroCity_House1_Text_AllSortsOfPlaces:
+	.string "只要用心又温柔地培养，\n"
 # 78 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "In all sorts of places, there are all\n"
+	.string "任何宝可梦都会变可爱。$"
 # 79 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "sorts of Pokémon and people.\p"
+
 # 80 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "I find that fascinating, so I go to all\n"
+RustboroCity_House1_Text_AllSortsOfPlaces:
 # 81 "data/maps/RustboroCity_House1/scripts.pory"
-	.string "sorts of places.$"
+	.string "各种各样的地方，有各种\n"
+# 82 "data/maps/RustboroCity_House1/scripts.pory"
+	.string "各样的宝可梦和人。\p"
+# 83 "data/maps/RustboroCity_House1/scripts.pory"
+	.string "我觉得很有意思，\n"
+# 84 "data/maps/RustboroCity_House1/scripts.pory"
+	.string "所以到处去旅行。$"

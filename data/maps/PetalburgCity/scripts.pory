@@ -724,128 +724,128 @@ PetalburgCity_EventScript_FishingNotSoGood::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our Wally gone?\p"
-	.string "We have to leave for Verdanturf Town\n"
-	.string "very soon…$"
+	.string "我们家小胜去哪了？\p"
+	.string "我们很快就要出发\n"
+	.string "去绿荫镇了……$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie trainer?\p"
-	.string "Do you know what Pokémon trainers\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of Gym\n"
-	.string "is in the town.$"
+	.string "嗨呀！你该不会是……\n"
+	.string "个新手训练家吧？\p"
+	.string "你知道宝可梦训练家\n"
+	.string "到新城镇会先做什么吗？\p"
+	.string "他们会先看看这个镇上\n"
+	.string "有什么样的道馆。$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is Petalburg City's Gym.$"
+	.string "看吧？这就是橙华市的道馆。$"
 
 PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the Gym's sign. Look for it\n"
-	.string "whenever you're looking for a Gym.$"
+	.string "这是道馆的招牌。\n"
+	.string "找道馆的时候就找它。$"
 
 PetalburgCity_Text_WaterReflection:
-	.string "My face is reflected in the water.\p"
-	.string "It's a shining grin full of hope…\p"
-	.string "Or it could be a look of somber silence\n"
-	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "水面映出了我的脸。\p"
+	.string "那是一张充满希望的\n"
+	.string "闪亮笑容……\p"
+	.string "也可能是与恐惧搏斗、\n"
+	.string "满是阴沉的沉默表情……\p"
+	.string "你的脸上映出了什么？$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six Pokémon.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a storage\n"
-	.string "box over a PC connection.$"
+	.string "假设你有六只宝可梦。\n"
+	.string "如果又抓到一只……\p"
+	.string "它就会被自动传到\n"
+	.string "电脑里的盒子中。$"
 
 PetalburgCity_Text_GymSign:
-	.string "Petalburg City Pokémon Gym\n"
-	.string "Leader: Norman\l"
-	.string "“A man in pursuit of power!”$"
+	.string "橙华市宝可梦道馆\n"
+	.string "馆主：千里\l"
+	.string "“追求力量的男人！”$"
 
 PetalburgCity_Text_CitySign:
-	.string "Petalburg City\n"
-	.string "“Where people mingle with nature.”$"
+	.string "橙华市\n"
+	.string "“人与自然交融的地方。”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "Wally's House$"
+	.string "小胜的家$"
 
 PetalburgCity_Text_AreYouATrainer:
-	.string "Excuse me!\p"
-	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a Pokémon trainer?$"
+	.string "打扰一下！\p"
+	.string "让我猜猜，看你的穿着，\n"
+	.string "你是宝可梦训练家吧？$"
 
 PetalburgCity_Text_WellMaybeNot:
-	.string "… … … … … …\p"
-	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty,\l"
-	.string "so maybe you're a rookie trainer?$"
+	.string "………………\p"
+	.string "嗯，也许不是。\n"
+	.string "你的衣服不太脏，\l"
+	.string "也许你是新手训练家？$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
-	.string "I'm not sure what to make of you yet,\n"
-	.string "but I've got a strange feeling that\l"
-	.string "you might become exactly the type of\l"
-	.string "trainer I'm looking for one day…\p"
-	.string "I was planning on giving these to the\n"
-	.string "next strong trainer I bumped into,\l"
-	.string "but something tells me you could put\l"
-	.string "them to even better use.\p"
-	.string "Here, hopefully these will help you\n"
-	.string "get to the next level.$"
+	.string "我还看不出你的深浅，\n"
+	.string "但我有种奇怪的感觉，\l"
+	.string "也许有一天你会成为\l"
+	.string "我一直在找的那种训练家……\p"
+	.string "我本来打算把这些送给\n"
+	.string "下一个遇到的强训练家，\l"
+	.string "但我觉得你能用得更好。\p"
+	.string "来，希望这些能帮你\n"
+	.string "更上一层楼。$"
 
 PetalburgCity_Text_ExplainExpShare:
-	.string "That Exp. Share will let your\n"
-	.string "Pokémon that didn't participate\l"
-	.string "in battle gain experience.\p"
-	.string "You can use the Hex Orb to give your\n"
-	.string "Pokémon a status condition before a\l"
-	.string "battle begins.\p"
-	.string "Why would you want to do that? Well, I'm\n"
-	.string "sure you'll figure it out.\p"
-	.string "I've taken enough of your time,\n"
-	.string "good luck out there.$"
+	.string "学习装置能让没有\n"
+	.string "参加对战的宝可梦\l"
+	.string "也获得经验值。\p"
+	.string "你可以用六角宝珠在\n"
+	.string "对战前给宝可梦\l"
+	.string "加上异常状态。\p"
+	.string "为什么要那么做？\n"
+	.string "我想你会自己弄明白的。\p"
+	.string "占用你太多时间了，\n"
+	.string "祝你好运。$"
 
 
 PetalburgCity_Text_GettingItchToFish:
-	.string "This is a renowned fishing spot.\n"
-	.string "Are you getting the itch to fish?$"
+	.string "这里是很有名的钓点。\n"
+	.string "你是不是也想钓了？$"
 
 PetalburgCity_Text_GiveYouOneOfMyRods:
-	.string "I hear you, and I like what\n"
-	.string "you're saying!\p"
-	.string "I'll give you one of my fishing rods.$"
+	.string "我听到你的话了，\n"
+	.string "我喜欢你这话！\p"
+	.string "我送你一根鱼竿。$"
 
 PetalburgCity_Text_ThrowInFishingAdvice:
-	.string "And, as an added bonus, I'll even throw\n"
-	.string "in a little fishing advice!\p"
-	.string "First, you want to face the water,\n"
-	.string "then use the rod.\p"
-	.string "Focus your mind…\n"
-	.string "If you get a bite, pull on the rod.\p"
-	.string "Sometimes you can snag something\n"
-	.string "immediately, but with bigger catches,\l"
-	.string "you need to time the pulls on your rod\l"
-	.string "to haul them in.$"
+	.string "另外附赠，我还给你\n"
+	.string "讲点钓鱼的窍门！\p"
+	.string "首先要面向水面，\n"
+	.string "然后使用鱼竿。\p"
+	.string "集中精神……\n"
+	.string "有东西上钩就拉竿。\p"
+	.string "有时一下子就能钓上来，\n"
+	.string "但钓大鱼时，\l"
+	.string "要把握好拉竿的时机\l"
+	.string "才能把它拉上来。$"
 
 PetalburgCity_Text_ThatsTooBadThen:
-	.string "Oh, is that so?\n"
-	.string "That's too bad, then.$"
+	.string "哦，是这样吗？\n"
+	.string "那太可惜了。$"
 
 PetalburgCity_Text_HowsYourFishing:
-	.string "Yo!\n"
-	.string "How's your fishing?$"
+	.string "哟！\n"
+	.string "钓得怎么样？$"
 
 PetalburgCity_Text_GreatHaulInSomeBigOnes:
-	.string "Is that right! That's great!\n"
-	.string "Haul in some big ones!$"
+	.string "是吗！太好了！\n"
+	.string "多钓些大家伙！$"
 
 PetalburgCity_Text_FishingAdvice:
-	.string "Oh, hey, don't get down on yourself!\n"
-	.string "I'll give you a little fishing advice.\p"
-	.string "First, you want to face the water,\n"
-	.string "then use the rod.\p"
-	.string "Focus your mind…\n"
-	.string "If you get a bite, pull the rod.\p"
-	.string "Sometimes you can snag something\n"
-	.string "immediately, but with bigger catches,\l"
-	.string "you need to time the pulls on your rod\l"
-	.string "to haul them in.$"
+	.string "哦，嘿，别灰心！\n"
+	.string "我给你讲讲钓鱼的窍门。\p"
+	.string "首先要面向水面，\n"
+	.string "然后使用鱼竿。\p"
+	.string "集中精神……\n"
+	.string "有东西上钩就拉竿。\p"
+	.string "有时一下子就能钓上来，\n"
+	.string "但钓大鱼时，\l"
+	.string "要把握好拉竿的时机\l"
+	.string "才能把它拉上来。$"
 `

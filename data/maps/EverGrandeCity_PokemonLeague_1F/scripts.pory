@@ -134,29 +134,31 @@ EverGrandeCity_PokemonLeague_1F_EventScript_WomanTrolling::
 	end
 
 EverGrandeCity_PokemonLeague_1F_Text_Trolling:
-	.string "Oh hey, are you here to take on the\n"
-	.string "Pokémon League?\p"
-	.string "Well today I saw Sidney with a Galarian\n"
-	.string "Moltres.\p"
-	.string "What, you want to know more than that?\p"
-	.string "What am I, an NPC written by the\n"
-	.string "creator of this game who knows exactly\l"
-	.string "which team will be there? Sheesh.$"
+	.string "哦嘿，你是来挑战\n"
+	.string "宝可梦联盟的？\p"
+	.string "今天我看到了希德尼\n"
+	.string "带着伽勒尔火焰鸟。\p"
+	.string "什么，你还想知道\n"
+	.string "更多？\p"
+	.string "我是什么，这游戏作者\n"
+	.string "写出来的、知道\l"
+	.string "对面队伍是什么的\l"
+	.string "NPC吗？真是的。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those trainers\n"
-	.string "who have collected all the Gym Badges\l"
-	.string "are permitted to enter.\p"
-	.string "Trainer, let us confirm that you have\n"
-	.string "all the Gym Badges.$"
+	.string "从这里往前，只有集齐\n"
+	.string "所有道馆徽章的训练家\l"
+	.string "才能进入。\p"
+	.string "训练家，让我们确认你\n"
+	.string "集齐了所有徽章。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the Badges.\p"
-	.string "If you're bound for the Pokémon\n"
-	.string "League, you must return with them.$"
+	.string "你还没集齐所有徽章。\p"
+	.string "要去宝可梦联盟，\n"
+	.string "必须带着徽章回来。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "Trainer! Believe in yourself and your\n"
-	.string "Pokémon, and go forth!$"
+	.string "训练家！相信你自己和\n"
+	.string "你的宝可梦，前进吧！$"
 
 `

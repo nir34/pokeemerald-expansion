@@ -256,168 +256,173 @@ SeafloorCavern_Room9_EventScript_Matt::
 	end
 
 SeafloorCavern_Room9_Text_ArchieMasterBall:
-	.string "Master Ball, go!$"
+	.string "大师球，去吧！$"
 
 SeafloorCavern_Room9_Text_ArchieCaputredKyogre:
-	.string "Excellent, Kyogre… Now, there is only\n"
-	.string "one more obstacle that stands in my\l"
-	.string "way…$"
+	.string "好极了，盖欧卡……现在，\n"
+	.string "挡路的只剩一个\l"
+	.string "障碍了……$"
 
 SeafloorCavern_Room9_Text_ArchieAwakenKyogre:
-	.string "Kyogre…\p"
-	.string "Finally, the time has come for you to\n"
-	.string "awaken from your slumber.\p"
-	.string "You should react to the power within\n"
-	.string "this Blue Orb…\p"
-	.string "Awaken, Kyogre, and join me, so that\n"
-	.string "we may expand the sea!$"
+	.string "盖欧卡……\p"
+	.string "终于，你从沉眠中\n"
+	.string "醒来的时刻到了。\p"
+	.string "你该对这颗蓝色宝珠\n"
+	.string "中的力量作出反应……\p"
+	.string "觉醒吧，盖欧卡，与我\n"
+	.string "一起扩张海洋！$"
 
 SeafloorCavern_Room9_Text_YouObstacle:
-	.string "You, {PLAYER}. I respect your abilities\n"
-	.string "as a Pokémon trainer, as you've\l"
-	.string "proven to be a thorn in my side\l"
-	.string "for quite some time now.\p"
-	.string "I only wish that you would have joined\n"
-	.string "us instead…\p"
-	.string "But now, you are nothing but an\n"
-	.string "obstacle that stands between Team\l"
-	.string "Aqua and our dream of expanding the\l"
-	.string "sea!\p" 
-	.string "I'm sorry, {PLAYER}, but I warned you\n"
-	.string "back at our Hideout that if we had to\l"
-	.string "battle again, I wouldn't hold back.\p"
-	.string "Now, prepare to face the wrath of\n"
-	.string "Primal Kyogre!$"
+	.string "你，{PLAYER}。我尊重你\n"
+	.string "作为宝可梦训练家的\l"
+	.string "能力，你已经证明\l"
+	.string "自己是我很久以来\l"
+	.string "的眼中钉。\p"
+	.string "我只希望你能加入\n"
+	.string "我们……\p"
+	.string "可现在，你只是挡在\n"
+	.string "水舰队与扩张海洋\l"
+	.string "的梦想之间的\l"
+	.string "一个障碍……\p"
+	.string "对不起，{PLAYER}，我在\n"
+	.string "基地就警告过你，若再\l"
+	.string "交手，我不会手下留情。\p"
+	.string "现在，准备好承受\n"
+	.string "原始盖欧卡的怒火吧！$"
 
 SeafloorCavern_4F_Text_NotSurprised:
-	.string "I really shouldn't be surprised at this\n"
-	.string "point…$"
+	.string "我现在真不该\n"
+	.string "再吃惊了……$"
 
 SeafloorCavern_4F_TextKyogreAwakened:
-	.string "What's this? Kyogre was powerful\n"
-	.string "enough to escape my Master Ball?\p"
-	.string "That should have been impossible…\n"
-	.string "I wonder what Kyogre will do now that\l"
-	.string "it's been awakened…$"
+	.string "什么？盖欧卡强得足以\n"
+	.string "逃出我的大师球？\p"
+	.string "那本来不该可能的……\n"
+	.string "不知道它觉醒之后\l"
+	.string "会做什么……$"
 
 
 SeafloorCavern_4F_Text_NeverStopArchie:
-	.string "HAHAHA you twerp, you don't have a\n"
-	.string "chance against Archie.$"
+	.string "哈哈哈，小鬼，你根本没\n"
+	.string "机会对抗阿库亚。$"
 
 SeafloorCavern_4F_Text_ShellyAqua:
-	.string "Our goals are finally becoming a\n"
-	.string "reality. Once Archie deals with you,\l"
-	.string "there will be no one to stop us.$"
+	.string "我们的目标终于要\n"
+	.string "实现了。等阿库亚\l"
+	.string "收拾了你，就没人\l"
+	.string "能阻止我们。$"
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "Archie: Hold it right there.$"
+	.string "阿库亚：站住。$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "Archie: Fufufu…\n"
-	.string "So it was you, after all.$"
+	.string "阿库亚：呵呵呵……\n"
+	.string "果然是你。$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "Archie: Behold!\p"
-	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient Pokémon KYOGRE!\p"
-	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "阿库亚：看吧！\p"
+	.string "看那沉睡的古代宝可梦\n"
+	.string "盖欧卡多美！\p"
+	.string "我等这一天\n"
+	.string "等了太久了……$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "Archie: It surprises me, how you've\n"
-	.string "managed to chase me here.\p"
-	.string "But that's all over now.\p"
-	.string "For the realization of my dream,\n"
-	.string "you must disappear now!$"
+	.string "阿库亚：你居然能追到\n"
+	.string "这里，真让我吃惊。\p"
+	.string "不过一切都结束了。\p"
+	.string "为了实现我的梦想，\n"
+	.string "你现在必须消失！$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat:
-	.string "What?!\n"
-	.string "I lost to a mere child like you?!$"
+	.string "什么？！\n"
+	.string "我竟然输给你这样的小孩？！$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "Archie: Fufufu…\p"
-	.string "I commend you. I must recognize that\n"
-	.string "you are truly gifted.\p"
-	.string "But!\n"
-	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "阿库亚：呵呵呵……\p"
+	.string "我赞赏你。必须承认\n"
+	.string "你确实有天赋。\p"
+	.string "可是！\n"
+	.string "我手里有这个！\p"
+	.string "用这颗红色宝珠，我能\n"
+	.string "让盖欧卡……$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
-	.string "by itself!$"
+	.string "红色宝珠突然自己\n"
+	.string "发出了光芒！$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "Archie: What?!\p"
-	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "阿库亚：什么？！\p"
+	.string "我什么都没做。\n"
+	.string "红色宝珠为什么……\p"
+	.string "盖欧卡去哪儿了？$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "嗯？外面成员发来的\n"
+	.string "消息……$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "Yes, what is it?\p"
-	.string "Hm…\n"
-	.string "It's raining heavily?\p"
-	.string "I suppose that makes sense…\n"
-	.string "With Primal Kyogre now unleashed, we\l"
-	.string "should expect to see heavy rains.\p"
-	.string "What?!\p"
-	.string "It's raining far harder than we\n"
-	.string "envisioned? You're in danger?\p"
-	.string "That's concerning…\n"
-	.string "Maybe this is something we should have\l"
-	.string "considered more carefully…\p"
-	.string "Hold your position and monitor\n"
-	.string "the situation!$"
+	.string "好，什么事？\p"
+	.string "Hm……\n"
+	.string "下着大雨？\p"
+	.string "那也说得通……\n"
+	.string "原始盖欧卡已经解放，\l"
+	.string "我们该料到会有\l"
+	.string "暴雨。\p"
+	.string "什么？！\p"
+	.string "雨下得比我们预想的\n"
+	.string "大得多？你们有危险？\p"
+	.string "那可麻烦了……\n"
+	.string "也许这件事我们该\l"
+	.string "更仔细地考虑……\p"
+	.string "守住位置，继续\n"
+	.string "观察情况！$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "Perhaps we've made a mistake… \n"
-	.string "unleashing Primal Kyogre onto the world\l"
-	.string "with no control over it… I thought with\l"
-	.string "the Blue Orb and the Master ball I…$"
+	.string "也许我们做错了……\n"
+	.string "把原始盖欧卡解放到\l"
+	.string "世界上却控制不住它……\l"
+	.string "我本以为有蓝色宝珠\l"
+	.string "和大师球就……$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "Maxie: What have you wrought Archie?\n"
-	.string "You've finally awoken Kyogre,\l"
-	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "马克西：阿库亚，你都\n"
+	.string "干了什么？你终于还是\l"
+	.string "把盖欧卡唤醒了，对吧？\p"
+	.string "这场暴雨要是一直\n"
+	.string "下下去，世界会怎样？\p"
+	.string "世界的陆地会沉进\n"
+	.string "越来越深的海洋……$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "Archie: W-what?!\n"
-	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, Team Magma, that\n"
-	.string "awoke Primal Groudon?$"
+	.string "阿库亚：什、什么？！\n"
+	.string "别跟我摆那副腔调！\p"
+	.string "唤醒原始固拉多的\n"
+	.string "不就是你们熔岩队吗？$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "Maxie: We don't have the time to\n"
-	.string "argue about it here!\p"
-	.string "Get outside and see for yourself!\n"
-	.string "See if what you've wrought is the\l"
-	.string "world that we desired!$"
+	.string "马克西：现在没时间\n"
+	.string "在这里争吵！\p"
+	.string "出去自己看看！\n"
+	.string "看看你造出来的是不是\l"
+	.string "我们想要的世界！$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "Maxie: {PLAYER}, come on, you have\n"
-	.string "to get out of here, too!$"
+	.string "马克西：{PLAYER}，快，\n"
+	.string "你也得离开这里！$"
 
 SeafloorCavern_Text_ShellyDefeat:
-	.string "I failed again…$"
+	.string "我又失败了……$"
 
 SeafloorCavern_Text_ShellyPostBattle:
-	.string "Shelly: You're up, Matt.$"
+	.string "希莉：该你了，马特。$"
 
 SeafloorCavern_Text_MattDefeat:
-	.string "ARGH! Another loss!$"
+	.string "呃啊！又输了！$"
 
 SeafloorCavern_4F_Text_MattPostBattle:
-	.string "Matt: These battles were meaningless\n"
-	.string "anyway, Archie is going to wipe the\l"
-	.string "floor with you, punk.$"
+	.string "马特：这些对战反正也没\n"
+	.string "意义，阿库亚会把你\l"
+	.string "打得稀巴烂，小鬼。$"
 `
 
 script PlayerBackDown {
@@ -565,25 +570,25 @@ script MattLost {
 }
 
 text CantStopArchie {
-	"Matt: Hehehe… Once Archie has control\n"
-	"of Primal Kyogre, there's no one in the\l"
-	"world that will be able to stop him…"
+	"马特：嘿嘿嘿……一旦阿库亚掌控了\n"
+	"原始盖欧卡，这世上就\l"
+	"再也没人能阻止他了……"
 }
 
 text ShellyRevenge {
-	"Shelly: This brat again… I'm getting my\n"
-	"revenge for what happened at the\l"
-	"Weather Institute!"
+	"雪莉：又是这小鬼……我要为\n"
+	"天气研究所的事\l"
+	"报仇雪恨！"
 }
 
 text GoingDown {
-	"Shelly: You're going down!"
+	"雪莉：你完蛋了！"
 }
 
 text MattRevenge{
-	"Matt: Hehehe… I've been waiting to get\n"
-	"you back, punk.\l"
-	"There's no way you're getting past me!"
+	"马特：嘿嘿嘿……小子，我早就\n"
+	"想找你算账了。\l"
+	"你别想从我这儿过去！"
 }
 
 script SetAquaAdminsPermLoc {

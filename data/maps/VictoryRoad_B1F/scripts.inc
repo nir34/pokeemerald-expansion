@@ -223,132 +223,142 @@ VictoryRoad_B1F_EventScript_Halle::
 # 112 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_LooksLikeStatue:
 # 113 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "It looks like a statue of an ancient,\n"
+	.string "看起来像一尊古代强大\n"
 # 114 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "powerful Pokémon…$"
+	.string "宝可梦的雕像……$"
 # 115 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 116 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_SamuelIntro:
 # 117 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "The thought that I'm getting closer to\n"
+	.string "一想到我离宝可梦联盟\n"
 # 118 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "the Pokémon LEAGUE…\p"
+	.string "越来越近……\p"
 # 119 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "I'm getting stage fright…$"
+	.string "我就怯场了……$"
 # 120 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 121 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_SamuelDefeat:
 # 122 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "I couldn't do a thing…$"
+	.string "我什么都做不了……$"
 # 123 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 124 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_SamuelPostBattle:
 # 125 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "The Pokémon LEAGUE became distant\n"
+	.string "宝可梦联盟又变得\n"
 # 126 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "again… What a letdown…$"
+	.string "遥远了……真失望……$"
 # 127 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 128 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_ShannonIntro:
 # 129 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "To win your way through the Pokémon\n"
+	.string "想在宝可梦联盟一路\n"
 # 130 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "LEAGUE, you need the trust of your\l"
+	.string "赢下去，你需要\l"
 # 131 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Pokémon.$"
+	.string "宝可梦的信任。$"
 # 132 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 133 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_ShannonDefeat:
 # 134 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Your relationship is based on\n"
+	.string "你们的关系建立在\n"
 # 135 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "solid trust.$"
+	.string "坚实的信任上。$"
 # 136 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 137 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_Text_ShannonPostBattle:
 # 138 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "By being together all the time, trust\n"
+	.string "一直在一起，宝可梦和\n"
 # 139 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "grows between Pokémon and 训练家S.$"
+	.string "训练家之间的信任\l"
 # 140 "data/maps/VictoryRoad_B1F/scripts.pory"
-
+	.string "就会生长。$"
 # 141 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MichelleIntro:
+
 # 142 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "This isn't the goal. It's only a place\n"
+VictoryRoad_B1F_Text_MichelleIntro:
 # 143 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "on the way to the Pokémon LEAGUE.$"
+	.string "这里不是终点。只是\n"
 # 144 "data/maps/VictoryRoad_B1F/scripts.pory"
-
+	.string "通往宝可梦联盟的\l"
 # 145 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MichelleDefeat:
+	.string "路上的一处地方。$"
 # 146 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "That's the way!$"
+
 # 147 "data/maps/VictoryRoad_B1F/scripts.pory"
-
+VictoryRoad_B1F_Text_MichelleDefeat:
 # 148 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MichellePostBattle:
+	.string "就是这样！$"
 # 149 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "You'll do fine, for sure!\n"
+
 # 150 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Your Pokémon are all eager to go!$"
+VictoryRoad_B1F_Text_MichellePostBattle:
 # 151 "data/maps/VictoryRoad_B1F/scripts.pory"
-
+	.string "你一定没问题！\n"
 # 152 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MitchellIntro:
+	.string "你的宝可梦都\l"
 # 153 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "My Pokémon are cosmically\n"
+	.string "跃跃欲试！$"
 # 154 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "awe inspiring!$"
-# 155 "data/maps/VictoryRoad_B1F/scripts.pory"
 
+# 155 "data/maps/VictoryRoad_B1F/scripts.pory"
+VictoryRoad_B1F_Text_MitchellIntro:
 # 156 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MitchellDefeat:
+	.string "我的宝可梦有着宇宙般\n"
 # 157 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "I've never met anyone like you before.$"
+	.string "令人敬畏的力量！$"
 # 158 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 159 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_MitchellPostBattle:
+VictoryRoad_B1F_Text_MitchellDefeat:
 # 160 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Even outside of battle, I sense\n"
+	.string "我从没见过像你\n"
 # 161 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "incredible power emanating from you\l"
+	.string "这样的人。$"
 # 162 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "and your Pokémon.$"
-# 163 "data/maps/VictoryRoad_B1F/scripts.pory"
 
+# 163 "data/maps/VictoryRoad_B1F/scripts.pory"
+VictoryRoad_B1F_Text_MitchellPostBattle:
 # 164 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_HalleIntro:
+	.string "就算不在对战中，我也\n"
 # 165 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Okay, no need to get your back up!\n"
+	.string "能从你和宝可梦身上\l"
 # 166 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Relax, let's take it easy!$"
+	.string "感到惊人的力量。$"
 # 167 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 168 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_HalleDefeat:
+VictoryRoad_B1F_Text_HalleIntro:
 # 169 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Whoa!\n"
+	.string "好，别紧张！\n"
 # 170 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Wonderful!$"
+	.string "放松，慢慢来！$"
 # 171 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 172 "data/maps/VictoryRoad_B1F/scripts.pory"
-VictoryRoad_B1F_Text_HallePostBattle:
+VictoryRoad_B1F_Text_HalleDefeat:
 # 173 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Sure, this is VICTORY ROAD.\p"
+	.string "哇！\n"
 # 174 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "But it's not all that different from\n"
+	.string "太好了！$"
 # 175 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "the path you've taken so far.\p"
+
 # 176 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "Try to enjoy things the rest of\n"
+VictoryRoad_B1F_Text_HallePostBattle:
 # 177 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "the way!$"
+	.string "当然，这是\n"
+# 178 "data/maps/VictoryRoad_B1F/scripts.pory"
+	.string "冠军之路。\p"
+# 179 "data/maps/VictoryRoad_B1F/scripts.pory"
+	.string "可它和你一路走来的\n"
+# 180 "data/maps/VictoryRoad_B1F/scripts.pory"
+	.string "路也没什么不同。\p"
+# 181 "data/maps/VictoryRoad_B1F/scripts.pory"
+	.string "剩下的路，试着\n"
+# 182 "data/maps/VictoryRoad_B1F/scripts.pory"
+	.string "享受一下吧！$"

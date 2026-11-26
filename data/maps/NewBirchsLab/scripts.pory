@@ -25,16 +25,16 @@ script NewBirchsLab_EventScript_Birch{
 
     if(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
         msgbox(NewBirchsLab_ChangeStarters)
-        dynmultipush("Gen 1", 0)
-        dynmultipush("Gen 2", 1)
-        dynmultipush("Gen 3", 2)
-        dynmultipush("Gen 4", 3)
-        dynmultipush("Gen 5", 4)
-        dynmultipush("Gen 6", 5)
-        dynmultipush("Gen 7", 6)
-        dynmultipush("Gen 8", 7)
-        dynmultipush("Gen 9", 8)
-        dynmultipush("Cancel", MULTI_B_PRESSED)
+        dynmultipush("第1世代", 0)
+        dynmultipush("第2世代", 1)
+        dynmultipush("第3世代", 2)
+        dynmultipush("第4世代", 3)
+        dynmultipush("第5世代", 4)
+        dynmultipush("第6世代", 5)
+        dynmultipush("第7世代", 6)
+        dynmultipush("第8世代", 7)
+        dynmultipush("第9世代", 8)
+        dynmultipush("取消", MULTI_B_PRESSED)
 
         // // setting initial selected to a non-existant ID will always have it point to the first option
         dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
@@ -68,22 +68,22 @@ script NewBirchsLab_EventScript_BirchMonotypeStarters{
     if(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
         msgbox(NewBirchsLab_ChangeStartersMonotypes)
         
-        dynmultipush("Fighting", 0)
-        dynmultipush("Flying", 1)
-        dynmultipush("Poison", 2)
-        dynmultipush("Ground", 3)
-        dynmultipush("Rock", 4)
-        dynmultipush("Bug", 5)
-        dynmultipush("Ghost", 6)
-        dynmultipush("Steel", 7)
-        dynmultipush("Electric", 8)
-        dynmultipush("Psychic", 9)
-        dynmultipush("Ice", 10)
-        dynmultipush("Dragon", 11)
-        dynmultipush("Dark", 12)
-        dynmultipush("Normal", 13)
-        dynmultipush("Fairy", 14)
-        dynmultipush("Cancel", MULTI_B_PRESSED)
+        dynmultipush("格斗", 0)
+        dynmultipush("飞行", 1)
+        dynmultipush("毒", 2)
+        dynmultipush("地面", 3)
+        dynmultipush("岩石", 4)
+        dynmultipush("虫", 5)
+        dynmultipush("幽灵", 6)
+        dynmultipush("钢", 7)
+        dynmultipush("电", 8)
+        dynmultipush("超能力", 9)
+        dynmultipush("冰", 10)
+        dynmultipush("龙", 11)
+        dynmultipush("恶", 12)
+        dynmultipush("普通", 13)
+        dynmultipush("妖精", 14)
+        dynmultipush("取消", MULTI_B_PRESSED)
 
         // // setting initial selected to a non-existant ID will always have it point to the first option
         dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
@@ -117,25 +117,25 @@ script NewBirchsLab_EventScript_SayGenShowing {
     switch(var(VAR_STARTER_GEN))
     {
         case 0:
-            msgbox("Showing starters for Gen 1.")
+            msgbox("正在显示第1世代的初始宝可梦。")
         case 1:
-            msgbox("Showing starters for Gen 2.")
+            msgbox("正在显示第2世代的初始宝可梦。")
         case 2:
-            msgbox("Showing starters for Gen 3.")
+            msgbox("正在显示第3世代的初始宝可梦。")
         case 3:
-            msgbox("Showing starters for Gen 4.")
+            msgbox("正在显示第4世代的初始宝可梦。")
         case 4:
-            msgbox("Showing starters for Gen 5.")
+            msgbox("正在显示第5世代的初始宝可梦。")
         case 5:
-            msgbox("Showing starters for Gen 6.")
+            msgbox("正在显示第6世代的初始宝可梦。")
         case 6:
-            msgbox("Showing starters for Gen 7.")
+            msgbox("正在显示第7世代的初始宝可梦。")
         case 7:
-            msgbox("Showing starters for Gen 8.")
+            msgbox("正在显示第8世代的初始宝可梦。")
         case 8:
-            msgbox("Showing starters for Gen 9.")
+            msgbox("正在显示第9世代的初始宝可梦。")
         default:
-            msgbox("Now showing starters.")
+            msgbox("现在显示初始宝可梦。")
     }
     release
     end
@@ -145,37 +145,37 @@ script  NewBirchsLab_EventScript_SayMonoShowing{
     switch(var(VAR_MONOTYPE_STARTER))
     {
         case 0:
-            msgbox("Showing Fighting-type starters.")
+            msgbox("正在显示格斗属性初始宝可梦。")
         case 1:
-            msgbox("Showing Flying-type starters.")
+            msgbox("正在显示飞行属性初始宝可梦。")
         case 2:
-            msgbox("Showing Poison-type starters.")
+            msgbox("正在显示毒属性初始宝可梦。")
         case 3:
-            msgbox("Showing Ground-type starters.")
+            msgbox("正在显示地面属性初始宝可梦。")
         case 4:
-            msgbox("Showing Rock-type starters.")
+            msgbox("正在显示岩石属性初始宝可梦。")
         case 5:
-            msgbox("Showing Bug-type starters.")
+            msgbox("正在显示虫属性初始宝可梦。")
         case 6:
-            msgbox("Showing Ghost-type starters.")
+            msgbox("正在显示幽灵属性初始宝可梦。")
         case 7:
-            msgbox("Showing Steel-type starters.")
+            msgbox("正在显示钢属性初始宝可梦。")
         case 8:
-            msgbox("Showing Electric-type starters.")
+            msgbox("正在显示电属性初始宝可梦。")
         case 9:
-            msgbox("Showing Psychic-type starters.")
+            msgbox("正在显示超能力属性初始宝可梦。")
         case 10:
-            msgbox("Showing Ice-type starters.")
+            msgbox("正在显示冰属性初始宝可梦。")
         case 11:
-            msgbox("Showing Dragon-type starters.")
+            msgbox("正在显示龙属性初始宝可梦。")
         case 12:
-            msgbox("Showing Dark-type starters.")
+            msgbox("正在显示恶属性初始宝可梦。")
         case 13:
-            msgbox("Showing Normal-type starters.")
+            msgbox("正在显示普通属性初始宝可梦。")
         case 14:
-            msgbox("Showing Fairy-type starters.")
+            msgbox("正在显示妖精属性初始宝可梦。")
         default:
-            msgbox("Showing Normal-type starters.")
+            msgbox("正在显示普通属性初始宝可梦。")
     }
     release
     end
@@ -188,7 +188,7 @@ script NewBirchsLab_EventScript_PokeballOne{
     }
     elif(!flag(FLAG_TOUCHED_BALLS))
     {
-        msgbox("Ask Professor Birch about this!")
+        msgbox("去问问小田卷博士吧！")
     }
     elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
         call(NewBirchsLab_EventScript_HandleGrassStarterChoice)
@@ -200,7 +200,7 @@ script NewBirchsLab_EventScript_PokeballOne{
         }
     }
     else{
-        msgbox("Better not get greedy!")
+        msgbox("还是别太贪心！")
     }
     waitmessage
     releaseall
@@ -210,13 +210,13 @@ script NewBirchsLab_EventScript_PokeballOne{
 script NewBirchsLab_EventScript_HandleGrassStarterChoice{
     bufferstarterinfo(STR_VAR_1, 0)
     showmonpic(VAR_0x8006, 10,3)
-    msgbox("Do you want to choose {STR_VAR_1}?", MSGBOX_YESNO)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES){
         call(NewBirchsLab_GiveStarter)
         
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(1)
             setflag(FLAG_CHOSE_GRASSSTARTER)
@@ -224,7 +224,7 @@ script NewBirchsLab_EventScript_HandleGrassStarterChoice{
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(1)
             setflag(FLAG_CHOSE_GRASSSTARTER)
@@ -232,7 +232,7 @@ script NewBirchsLab_EventScript_HandleGrassStarterChoice{
         }
         else{
             hidemonpic
-            msgbox("No More Room")
+            msgbox("没有位置了")
         }
         // 0=Treecko, 1=Torchic, 2=Mudkip
         setflag(FLAG_SYS_POKEMON_GET)
@@ -264,7 +264,7 @@ script NewBirchsLab_EventScript_PokeballTwo{
     }
     elif(!flag(FLAG_TOUCHED_BALLS))
     {
-        msgbox("Ask Professor Birch about this!")
+        msgbox("去问问小田卷博士吧！")
     }
     elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
         call(NewBirchsLab_EventScript_HandleFireStarterChoice)
@@ -276,7 +276,7 @@ script NewBirchsLab_EventScript_PokeballTwo{
         }
     }
     else{
-        msgbox("Better not get greedy!")
+        msgbox("还是别太贪心！")
     }
     waitmessage
     releaseall
@@ -286,13 +286,13 @@ script NewBirchsLab_EventScript_PokeballTwo{
 script NewBirchsLab_EventScript_HandleFireStarterChoice{
     bufferstarterinfo(STR_VAR_1, 1)
     showmonpic(VAR_0x8006, 10,3)
-    msgbox("Do you want to choose {STR_VAR_1}?", MSGBOX_YESNO)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES){
         call(NewBirchsLab_GiveStarter)
 
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(2)
             setflag(FLAG_CHOSE_FIRESTARTER)
@@ -300,7 +300,7 @@ script NewBirchsLab_EventScript_HandleFireStarterChoice{
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(2)
             setflag(FLAG_CHOSE_FIRESTARTER)
@@ -308,7 +308,7 @@ script NewBirchsLab_EventScript_HandleFireStarterChoice{
         }
         else{
             hidemonpic
-            msgbox("No More Room")
+            msgbox("没有位置了")
         }
         // 0=Treecko, 1=Torchic, 2=Mudkip
         setflag(FLAG_SYS_POKEMON_GET)
@@ -340,7 +340,7 @@ script NewBirchsLab_EventScript_PokeballThree{
     }
     elif(!flag(FLAG_TOUCHED_BALLS))
     {
-        msgbox("Ask Professor Birch about this!")
+        msgbox("去问问小田卷博士吧！")
     }
     elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){    
         call(NewBirchsLab_EventScript_HandleWaterStarterChoice)
@@ -353,7 +353,7 @@ script NewBirchsLab_EventScript_PokeballThree{
         }
     }
     else{
-        msgbox("Better not get greedy!")
+        msgbox("还是别太贪心！")
     }
     waitmessage
     releaseall
@@ -363,13 +363,13 @@ script NewBirchsLab_EventScript_PokeballThree{
 script NewBirchsLab_EventScript_HandleWaterStarterChoice {
     bufferstarterinfo(STR_VAR_1, 2)
     showmonpic(VAR_0x8006, 10,3)
-    msgbox("Do you want to choose {STR_VAR_1}?", MSGBOX_YESNO)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES){
         call(NewBirchsLab_GiveStarter)
         
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(3)
             setflag(FLAG_CHOSE_WATERSTARTER)
@@ -377,7 +377,7 @@ script NewBirchsLab_EventScript_HandleWaterStarterChoice {
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("{PLAYER} received the {STR_VAR_1}!")
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
             waitfanfare
             removeobject(3)
             setflag(FLAG_CHOSE_WATERSTARTER)
@@ -385,7 +385,7 @@ script NewBirchsLab_EventScript_HandleWaterStarterChoice {
         }
         else{
             hidemonpic
-            msgbox("No More Room")
+            msgbox("没有位置了")
         }
         // 0=Treecko, 1=Torchic, 2=Mudkip
         setflag(FLAG_SYS_POKEMON_GET)
@@ -521,7 +521,7 @@ script NewBirchsLab_EventScript_RivalTorchicGoodbyePlayerFemale {
 
  
 script NicknamePartyMon{
-    msgbox("Give a nickname?", MSGBOX_YESNO)
+    msgbox("要起个昵称吗？", MSGBOX_YESNO)
     hidemonpic
     if(var(VAR_RESULT) == YES){
         call(Common_EventScript_GetGiftMonPartySlot)
@@ -532,183 +532,183 @@ script NicknamePartyMon{
 }
  
 script NicknameBoxMon{
-    msgbox("Give a nickname?", MSGBOX_YESNO)
+    msgbox("要起个昵称吗？", MSGBOX_YESNO)
     hidemonpic
     if(var(VAR_RESULT) == YES){
         call(Common_EventScript_NameReceivedBoxMon)
     }
-    msgbox("Transferred to PC.")
+    msgbox("已传送到电脑。")
 }
  
 text NewBirchsLab_NotChosen{
-    "You did not choose this Pokemon."
+    "你没有选择这只宝可梦。"
 }
 
 text NewBirchsLab_NotYet{
-    "Better not touch these yet!\p"
-    "Maybe you should talk to {RIVAL}."
+    "还是先别碰这些！\p"
+    "也许你该去和{RIVAL}谈谈。"
 }
 
 text NewBirchsLab_WelcomePlayerMale{
-    "Hello there! I'm Prof. Birch, and you\n"
-    "must be {PLAYER}. You just missed\l"
-    "{RIVAL}, she stopped by and grabbed\l"
-    "one of my Starter Pokémon and then\l"
-    "rushed out of here.\p" 
-    "I told her to be on the lookout for a\n"
-    "trainer named {PLAYER}, who just moved\l"
-    "into the house next door!\p"
-    "I hope the two of you can be friends\n"
-    "who can start a new Pokémon journey\l"
-    "together.\p"
-    "How about this, I'll give you one of\n"
-    "these Starter Pokémon, and then if you\l"
-    "can beat {RIVAL} with your Pokémon,\l"
-    "come back and I'll give you a Pokédex!\p"
-    "I'll tell you which Starter she chose\n"
-    "after you pick yours, it wouldn't be\l"
-    "fair if you knew before you picked!\p"
-    "I can let you choose from any\n"
-    "Generation of Starter Pokémon, just\l"
-    "ask me if you want to change them."
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，她刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让她留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你她选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "世代的初始宝可梦里选，\l"
+    "想换的话就找我。"
 }
 
 text NewBirchsLab_WelcomePlayerFemale{
-    "Hello there! I'm Prof. Birch, and you\n"
-    "must be {PLAYER}. You just missed\l"
-    "{RIVAL}, he stopped by and grabbed\l"
-    "one of my Starter Pokémon and then\l"
-    "rushed out of here.\p" 
-    "I told him to be on the lookout for a\n"
-    "trainer named {PLAYER}, who just moved\l"
-    "into the house next door!\p"
-    "I hope the two of you can be friends\n"
-    "who can start a new Pokémon journey\l"
-    "together.\p"
-    "How about this, I'll give you one of\n"
-    "these Starter Pokémon, and then if you\l"
-    "can beat {RIVAL} with your Pokémon,\l"
-    "come back and I'll give you a Pokédex!\p"
-    "I'll tell you which Starter he chose\n"
-    "after you pick yours, it wouldn't be\l"
-    "fair if you knew before you picked!\p"
-    "I can let you choose from any\n"
-    "Generation of Starter Pokémon, just\l"
-    "ask me if you want to change them."
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，他刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让他留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你他选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "世代的初始宝可梦里选，\l"
+    "想换的话就找我。"
 }
 
 text NewBirchsLab_WelcomePlayerMaleMonotype {
-    "Hello there! I'm Prof. Birch, and you\n"
-    "must be {PLAYER}. You just missed\l"
-    "{RIVAL}, she stopped by and grabbed\l"
-    "one of my Starter Pokémon and then\l"
-    "rushed out of here.\p" 
-    "I told her to be on the lookout for a\n"
-    "trainer named {PLAYER}, who just moved\l"
-    "into the house next door!\p"
-    "I hope the two of you can be friends\n"
-    "who can start a new Pokémon journey\l"
-    "together.\p"
-    "How about this, I'll give you one of\n"
-    "these Starter Pokémon, and then if you\l"
-    "can beat {RIVAL} with your Pokémon,\l"
-    "come back and I'll give you a Pokédex!\p"
-    "I'll tell you which Starter she chose\n"
-    "after you pick yours, it wouldn't be\l"
-    "fair if you knew before you picked!\p"
-    "I can let you choose from any\n"
-    "Type of Starter Pokémon, just\l"
-    "ask me if you want to change them."
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，她刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让她留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你她选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "属性的初始宝可梦里选，\l"
+    "想换的话就找我。"
 }
 
 text NewBirchsLab_WelcomePlayerFemaleMonotype {
-    "Hello there! I'm Prof. Birch, and you\n"
-    "must be {PLAYER}. You just missed\l"
-    "{RIVAL}, he stopped by and grabbed\l"
-    "one of my Starter Pokémon and then\l"
-    "rushed out of here.\p" 
-    "I told him to be on the lookout for a\n"
-    "trainer named {PLAYER}, who just moved\l"
-    "into the house next door!\p"
-    "I hope the two of you can be friends\n"
-    "who can start a new Pokémon journey\l"
-    "together.\p"
-    "How about this, I'll give you one of\n"
-    "these Starter Pokémon, and then if you\l"
-    "can beat {RIVAL} with your Pokémon,\l"
-    "come back and I'll give you a Pokédex!\p"
-    "I'll tell you which Starter he chose\n"
-    "after you pick yours, it wouldn't be\l"
-    "fair if you knew before you picked!\p"
-    "I can let you choose from any\n"
-    "Type of Starter Pokémon, just\l"
-    "ask me if you want to change them."
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，他刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让他留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你他选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "属性的初始宝可梦里选，\l"
+    "想换的话就找我。"
 }
 
 text NewBirchsLab_Route103PlayerMale
 {
-    "{RIVAL} yelled she was heading to\n"
-    "Route 103 as she ran out the door,\l"
-    "perhaps you should look for her there."
+    "{RIVAL}喊着要出门，\n"
+    "跑去103号道路了，\l"
+    "也许你该去那儿找她。"
 }
 
 text NewBirchsLab_Route103PlayerFemale
 {
-    "{RIVAL} yelled he was heading to\n"
-    "Route 103 as he ran out the door,\l"
-    "perhaps you should look for him there."
+    "{RIVAL}喊着要出门，\n"
+    "跑去103号道路了，\l"
+    "也许你该去那儿找他。"
 }
 
 text NewBirchsLab_RivalStarterTreeckoPlayerMale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Treecko as\l"
-    "her Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了木守宫做\l"
+    "她的初始宝可梦！"
 }
 
 text NewBirchsLab_RivalStarterTreeckoPlayerFemale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Treecko as\l"
-    "his Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了木守宫做\l"
+    "他的初始宝可梦！"
 }
 
 text NewBirchsLab_RivalStarterMudkipPlayerMale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Mudkip as\l"
-    "her Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了水跃鱼做\l"
+    "她的初始宝可梦！"
 }
 
 text NewBirchsLab_RivalStarterMudkipPlayerFemale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Mudkip as\l"
-    "his Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了水跃鱼做\l"
+    "他的初始宝可梦！"
 }
 
 text NewBirchsLab_RivalStarterTorchicPlayerMale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Torchic as\l"
-    "her Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了火稚鸡做\l"
+    "她的初始宝可梦！"
 }
 
 text NewBirchsLab_RivalStarterTorchicPlayerFemale
 {
-    "A great choice, but also an unlucky one!\n"
-    "{RIVAL} chose a Torchic as\l"
-    "his Starter!"
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了火稚鸡做\l"
+    "他的初始宝可梦！"
 }
 
 text NewBirchsLab_ChangeStarters{
-    "Which Generation of Starters would you\n"
-    "like to see? You can change\l"
-    "Generations as many times as you want."
+    "你想看哪个世代的\n"
+    "初始宝可梦？\l"
+    "世代可以随便换多少次。"
 }
 
 text NewBirchsLab_ChangeStartersMonotypes{
-    "Which Type of Starters would you\n"
-    "like to see? You can change\l"
-    "Types as many times as you want."
+    "你想看哪种属性的\n"
+    "初始宝可梦？\l"
+    "属性可以随便换多少次。"
 }

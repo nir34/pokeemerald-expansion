@@ -61,80 +61,80 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 # 31 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
 # 32 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 33 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 34 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "“Trick Master is cool.”\n"
+	.string "“机关大师真酷。”\n"
 # 35 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "… … … … … … … …\p"
 # 36 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 37 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 38 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_CoraIntro:
 # 39 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "It's too much bother to think this out.\n"
+	.string "想这个太麻烦了。\n"
 # 40 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "I only wanted to battle!$"
+	.string "我只想对战！$"
 # 41 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 42 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_CoraDefeat:
 # 43 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "Even though I lost, I still like battling\n"
+	.string "虽然输了，我还是\n"
 # 44 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "the best!$"
+	.string "最喜欢对战！$"
 # 45 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 46 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
 # 47 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "Wouldn't you agree? You would go\n"
+	.string "你不觉得吗？只要有\n"
 # 48 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "anywhere if 训练家S were there.$"
+	.string "训练家，哪儿都去。$"
 # 49 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 50 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_YujiIntro:
 # 51 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "Heh! Boulders like this, I can brush\n"
+	.string "嘿！这种岩石，我一根\n"
 # 52 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "aside with one finger!$"
+	.string "手指就能拨开！$"
 # 53 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 54 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
 # 55 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "I can push boulders, but I can't solve\n"
+	.string "我能推岩石，可解不开\n"
 # 56 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "the puzzle…$"
+	.string "谜题……$"
 # 57 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 58 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
 # 59 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "It's not good enough to be brawny…\n"
+	.string "光有力气不够……\n"
 # 60 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "You have to use your head. Be brainy!$"
+	.string "得动脑子。要聪明！$"
 # 61 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 62 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
 # 63 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "The TRICK HOUSE is getting trickier,\n"
+	.string "机关屋越来越难了，\n"
 # 64 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "isn't it?$"
+	.string "对吧？$"
 # 65 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 66 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:
 # 67 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "Aaak!$"
+	.string "啊——！$"
 # 68 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 69 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
 # 70 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "Has anyone made it to the end?$"
+	.string "有人走到最后了吗？$"

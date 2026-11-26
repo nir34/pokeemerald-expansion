@@ -55,32 +55,34 @@ SootopolisCity_PokemonCenter_1F_EventScript_FormerDoubleEdgeTutor::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_FormerDoubleEdgeTutor:
-	.string "I used to have two great\n"
-	.string "edges… Oh, what happened?$"
+	.string "我以前有两个很棒的\n"
+	.string "刃……唉，怎么了呢？$"
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
-	.string "WALLACE is rumored to be the toughest\n"
-	.string "TRAINER in the whole HOENN region.\p"
-	.string "This town's GYM is led by the TRAINER\n"
-	.string "who taught WALLACE.\p"
-	.string "But the ELITE FOUR… They're said to be\n"
-	.string "even stronger than WALLACE's mentor.\p"
-	.string "How strong could they be?$"
+	.string "传闻亚当是全丰缘最强的\n"
+	.string "训练家。\p"
+	.string "这个镇的道馆由教过亚当\n"
+	.string "的训练家带领。\p"
+	.string "可四天王……据说比亚当\n"
+	.string "的师父还强。\p"
+	.string "他们到底有多强？$"
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
-	.string "Everyone in town has taken refuge\n"
-	.string "and won't come out of their homes.\p"
-	.string "Even I would rather not venture\n"
-	.string "outside.$"
+	.string "镇上的人都躲在家里，\n"
+	.string "不肯出来。\p"
+	.string "连我都不想出门。$"
 
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
-	.string "Whenever, wherever, and whatever\n"
-	.string "happens, I will always be friends with\l"
-	.string "Pokémon.\p"
-	.string "Because it's fun to be with Pokémon!$"
+	.string "不管何时何地发生什么，\n"
+	.string "我都会一直是宝可梦\l"
+	.string "的朋友。\p"
+	.string "因为和宝可梦在一起\n"
+	.string "很开心！$"
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
-	.string "Aren't Pokémon our friends?\p"
-	.string "Why are they going wild this way?$"
+	.string "宝可梦不是我们的\n"
+	.string "朋友吗？\p"
+	.string "它们为什么这样\n"
+	.string "狂乱？$"
 
 `

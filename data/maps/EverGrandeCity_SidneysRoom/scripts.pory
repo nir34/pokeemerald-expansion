@@ -74,25 +74,25 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
-	.string "I'm Sidney of the Elite Four.\p"
-	.string "I'll give you a piece of advice from\n"
-	.string "what I've learned over my years here,\l"
-	.string "and it's really quite simple:\p"
-	.string "If you control the Speed of the battle,\n"
-	.string "you can control the outcome.\p"
-	.string "And me? I control the Speed to make it\n"
-	.string "so I never lose!$"
+	.string "欢迎，挑战者！\n"
+	.string "我是四天王的希德尼。\p"
+	.string "我就把在这里这些年\n"
+	.string "学到的一点告诉你，\l"
+	.string "其实很简单：\p"
+	.string "掌控对战的节奏，\n"
+	.string "就能掌控结果。\p"
+	.string "而我？我掌控节奏，\n"
+	.string "让自己永不落败！$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "哎呀，你瞧？我输了！\n"
+	.string "哎，打得开心，没关系。$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "好，听听这个失败者\n"
+	.string "要说什么。\p"
+	.string "你有走得很远的本事。\n"
+	.string "现在，去下一个房间\l"
+	.string "享受下一场对战吧！$"
 
 `

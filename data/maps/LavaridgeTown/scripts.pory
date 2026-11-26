@@ -283,121 +283,136 @@ LavaridgeTown_MiniMart:
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
-	.string "Hey {PLAYER}! Glad I caught you here.\p"
-	.string "I arrived from Petalburg a little while\n"
-	.string "ago to see if you'd beaten Flannery\l"
-	.string "yet, and look at that, great timing!\p"
-	.string "I just met your Dad at the Petalburg\n"
-	.string "Gym, and he told me that if I bumped\l"
-	.string "into you, I should give you these.$"
+	.string "嘿，{PLAYER}！真高兴\n"
+	.string "在这儿碰上你。\p"
+	.string "我前不久从橙华过来，\n"
+	.string "想看看你有没有\l"
+	.string "打赢亚莎，结果刚好\l"
+	.string "赶上，太巧了！\p"
+	.string "我刚在橙华道馆遇到你\n"
+	.string "爸爸，他说要是我\l"
+	.string "碰见你，就把这些\l"
+	.string "交给你。$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "Those Go-Goggles will let you get\n"
-	.string "through the desert in Route 111.\p"
-	.string "I threw in some Safety Goggles as well,\n"
-	.string "can never have too many goggles,\l"
-	.string "you know?\p"
-	.string "When I spoke to your Dad, he said to\n"
-	.string "give you that Mega Ring so it would be a\l"
-	.string "fair fight when you decided to\l"
-	.string "challenge him.\p"
-	.string "Oh, and one last thing.\p"
-	.string "I spoke with Wally's dad, and he told me\n"
-	.string "he was going to give you the {COLOR GREEN}{SHADOW LIGHT_GREEN}HM03 Surf,\l"
-	.string "but he accidentally dropped it out in\l"
-	.string "the desert somewhere.\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Okay, I think that's everything, I'll see\n"
-	.string "you around, {PLAYER}! Congrats on\l"
-	.string "beating Flannery, but don't get too\l"
-	.string "comfortable because Dawn and I are\l"
-	.string "training hard too!$"
+	.string "这副护目镜能让你\n"
+	.string "穿过111号道路的沙漠。\p"
+	.string "我还附了些安全护目镜，\n"
+	.string "护目镜这种东西\l"
+	.string "多多益善嘛。\p"
+	.string "我跟你说的时候，你爸爸\n"
+	.string "说要给你那个超级环，\l"
+	.string "这样你挑战他时\l"
+	.string "才算公平。\p"
+	.string "哦，还有最后一件事。\p"
+	.string "我跟小胜的爸爸聊过，\n"
+	.string "他说本来要给你\l"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}秘传学习器03冲浪，\l"
+	.string "结果不小心把它掉在\l"
+	.string "沙漠里了。\p"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}好，我想就这些了，\n"
+	.string "回头见，{PLAYER}！\l"
+	.string "恭喜你打赢亚莎，\l"
+	.string "可别松懈，因为\l"
+	.string "小光和我都在拼命\l"
+	.string "训练！$"
 
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-	.string "Hey {PLAYER}! Glad I caught you here.\p"
-	.string "I arrived from Petalburg a little while\n"
-	.string "ago to see if you'd beaten Flannery\l"
-	.string "yet, and look at that, great timing!\p"
-	.string "I just met your Dad at the Petalburg\n"
-	.string "Gym, and he told me that if I bumped\l"
-	.string "into you, I should give you these.$"
+	.string "嘿，{PLAYER}！真高兴\n"
+	.string "在这儿碰上你。\p"
+	.string "我前不久从橙华过来，\n"
+	.string "想看看你有没有\l"
+	.string "打赢亚莎，结果刚好\l"
+	.string "赶上，太巧了！\p"
+	.string "我刚在橙华道馆遇到你\n"
+	.string "爸爸，他说要是我\l"
+	.string "碰见你，就把这些\l"
+	.string "交给你。$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-	.string "Those Go-Goggles will let you get\n"
-	.string "through the desert in Route 111.\p"
-	.string "I threw in some Safety Goggles as well,\n"
-	.string "can never have too many goggles,\l"
-	.string "you know?\p"
-	.string "When I spoke to your Dad, he said to\n"
-	.string "give you that Mega Ring so it would be a\l"
-	.string "fair fight when you decided to\l"
-	.string "challenge him.\p"
-	.string "Oh, and one last thing.\p"
-	.string "I spoke with Wally's dad, and he told me\n"
-	.string "he was going to give you the {COLOR GREEN}{SHADOW LIGHT_GREEN}HM03 Surf,\l"
-	.string "but he accidentally dropped it out in\l"
-	.string "the desert somewhere.\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Okay, I think that's everything, I'll see\n"
-	.string "you around, {PLAYER}! Congrats on\l"
-	.string "beating Flannery, but don't get too\l"
-	.string "comfortable because Dawn and I are\l"
-	.string "training hard too!$"
+	.string "这副护目镜能让你\n"
+	.string "穿过111号道路的沙漠。\p"
+	.string "我还附了些安全护目镜，\n"
+	.string "护目镜这种东西\l"
+	.string "多多益善嘛。\p"
+	.string "我跟你说的时候，你爸爸\n"
+	.string "说要给你那个超级环，\l"
+	.string "这样你挑战他时\l"
+	.string "才算公平。\p"
+	.string "哦，还有最后一件事。\p"
+	.string "我跟小胜的爸爸聊过，\n"
+	.string "他说本来要给你\l"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}秘传学习器03冲浪，\l"
+	.string "结果不小心把它掉在\l"
+	.string "沙漠里了。\p"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}好，我想就这些了，\n"
+	.string "回头见，{PLAYER}！\l"
+	.string "恭喜你打赢亚莎，\l"
+	.string "可别松懈，因为\l"
+	.string "小光和我都在拼命\l"
+	.string "训练！$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
-	.string "We draw as much hot water as we need,\n"
-	.string "and yet the hot springs never run dry.\p"
-	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+	.string "我们想要多少热水\n"
+	.string "就取多少，\l"
+	.string "可温泉从来不会枯竭。\p"
+	.string "很神奇吧？\p"
+	.string "这些温泉出现在活火山\n"
+	.string "附近。地下的水脉\l"
+	.string "被岩浆加热，涌上来\l"
+	.string "就成了温泉。$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
-	.string "Being buried in this hot sand is…\n"
-	.string "Sigh…\p"
-	.string "So warm and heavenly…\p"
-	.string "Eh? Gyaah! Ouch!\p"
-	.string "A Pokémon nipped my backside!$"
+	.string "被这热沙子埋着……\n"
+	.string "唉……\p"
+	.string "又暖和又舒服……\p"
+	.string "咦？哇啊！好痛！\p"
+	.string "有宝可梦咬了我的\n"
+	.string "屁股！$"
 
 LavaridgeTown_Text_OhYouLikeHotSprings:
-	.string "Oh, you like hot springs, do you?\p"
-	.string "That's surprising for one as young\n"
-	.string "as you.$"
+	.string "哦，你喜欢温泉啊？\p"
+	.string "像你这么年轻，\n"
+	.string "还真少见。$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
-	.string "I bathe in the hot springs every day.\p"
-	.string "I want to become a beautiful and strong\n"
-	.string "Gym Leader like Flannery.$"
+	.string "我每天都泡温泉。\p"
+	.string "我想成为像亚莎那样\n"
+	.string "又美丽又强大的\l"
+	.string "道馆馆主。$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
-	.string "If people put Pokémon in hot springs,\n"
-	.string "it might be seriously strange.\p"
-	.string "Why, it might be an electric bath, or\n"
-	.string "a bubble bath, or even a lava bath…$"
+	.string "要是人们把宝可梦\n"
+	.string "放进温泉里，那可真是\l"
+	.string "相当奇怪的事。\p"
+	.string "说不定会变成电浴、\n"
+	.string "泡泡浴，甚至是\l"
+	.string "熔岩浴……$"
 
 LavaridgeTown_Text_HotSpringsClaims:
-	.string "They're claiming that these hot springs\n"
-	.string "are good for calming nervous tension,\l"
-	.string "relieving aching muscles, solving\l"
-	.string "romantic problems, and attracting\l"
-	.string "money…$"
+	.string "他们宣称这些温泉能\n"
+	.string "缓解神经紧张、\l"
+	.string "消除肌肉酸痛、解决\l"
+	.string "感情烦恼，还能\l"
+	.string "招财……$"
 
 LavaridgeTown_Text_TownSign:
-	.string "Lavaridge Town\p"
-	.string "“Pokémon Center Hot Springs\n"
-	.string "An excellent place for relaxing!”$"
+	.string "釜炎镇\p"
+	.string "“宝可梦中心温泉——\n"
+	.string "放松身心的好地方！”$"
 
 LavaridgeTown_Text_GymSign:
-	.string "Lavaridge Town Pokémon Gym\n"
-	.string "Leader: Flannery\l"
-	.string "“One with a fiery passion that burns!”$"
+	.string "釜炎镇宝可梦道馆\n"
+	.string "馆主：亚莎\l"
+	.string "“燃烧的炽热之心！”$"
 
 LavaridgeTown_Text_HerbShopSign:
-	.string "Pokémon Herb Shop\n"
-	.string "“Bitter taste--better cure!”$"
+	.string "宝可梦药草店\n"
+	.string "“味道越苦，药效越好！”$"
 
 LavaridgeTown_Text_Sandygast:
-	.string "Sandygast: Sssssssss!$"
+	.string "沙丘娃：沙啊啊啊啊！$"
 
 `
 script LavaridgeTown_EventScript_EggWoman {
@@ -445,41 +460,41 @@ script LavaridgeTown_EventScript_NoRoomForEgg {
 }
 
 text LavaridgeTown_EggWomanIntro {
-	"Hello, trainer. I have several large\n"
-	"Eggs here with me.\p"
-	"I am currently seeking Yellow Shards,\n"
-	"would you be willing to exchange a\l"
-	"Yellow Shard in exchange for one of\l"
-	"these Eggs?"
+	"你好，训练家。我手上有几颗\n"
+	"很大的蛋。\p"
+	"我现在正需要黄色碎片，\n"
+	"你愿意用一枚黄色碎片\l"
+	"来换其中\l"
+	"一颗蛋吗？"
 }
 
 text LavaridgeTown_EggWomanDeclined
 {
-	"I see. Please come back if you change\n"
-	"your mind."
+	"我明白了。若你改变主意，\n"
+	"请再来。"
 }
 
 text LavaridgeTown_Text_ComeBackWithYellowShard {
-	"It doesn't look like you have a\n"
-	"Yellow Shard. Come back when you do."
+	"看来你没有\n"
+	"黄色碎片。有了再来吧。"
 }
 
 text LavaridgeTown_Text_NoRoomForThisEgg {
-	"Oh? You've too many Pokémon.\n"
-	"There's no room for this Egg…"
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这颗蛋……"
 }
 
 text LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg {
-	"Good! I hope you'll walk plenty with\n"
-	"this here Egg!"
+	"好！希望你能带着\n"
+	"这颗蛋多走走！"
 }
 
 text LavaridgeTown_Text_ReceivedTheEgg {
-	"{PLAYER} received the Egg."
+	"{PLAYER}收到了蛋。"
 }
 
 text LavaridgeTown_ComeBackWithMore {
-	"Please come back if you have more\n"
-	"Yellow Shards you'd like to exchange."
+	"若还有更多想交换的\n"
+	"黄色碎片，请再来。"
 
 }

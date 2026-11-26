@@ -635,150 +635,154 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 # 318 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
 # 319 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 320 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 321 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "“Trick Master is huggable.”\n"
+	.string "“机关大师真好抱。”\n"
 # 322 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "… … … … … … … …\p"
 # 323 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 324 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 325 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
 # 326 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "The Trick Master always vanishes\n"
+	.string "机关大师总是像烟一样\n"
 # 327 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "like smoke. How does he do it?$"
+	.string "消失。他怎么做到的？$"
 # 328 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 329 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_JoshuaDefeat:
 # 330 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Aiyeeeh! You're much too strong!\n"
+	.string "哎呀！你太强了！\n"
 # 331 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "How do you do it?$"
+	.string "你怎么做到的？$"
 # 332 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 333 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_JoshuaPostBattle:
 # 334 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "I wish I could appear and disappear as\n"
+	.string "真希望我也能像烟一样\n"
 # 335 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "if I were smoke, too.$"
+	.string "出现又消失。$"
 # 336 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 337 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_PatriciaIntro:
 # 338 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Going around the same spot…\n"
+	.string "绕着同一个地方转……\n"
 # 339 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "It begets ill fortune…$"
+	.string "会招来厄运……$"
 # 340 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 341 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_PatriciaDefeat:
 # 342 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Defeated!\n"
+	.string "输了！\n"
 # 343 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "It's a bad sign…$"
+	.string "这是凶兆……$"
 # 344 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 345 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_PatriciaPostBattle:
 # 346 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "I've circled the same spot over ten\n"
+	.string "我绕同一个地方转了\n"
 # 347 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "times now… It's ill fortune…$"
+	.string "十多次了……是凶兆……$"
 # 348 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 349 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_AlexisIntro:
 # 350 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Whoever wins will get through here\n"
+	.string "谁赢谁就先过去。\n"
 # 351 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "first. That's the feeling I get.$"
+	.string "我有这种感觉。$"
 # 352 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 353 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_AlexisDefeat:
 # 354 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Oh!\n"
+	.string "哦！\n"
 # 355 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Well, go ahead, then!$"
+	.string "那，你先请！$"
 # 356 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 357 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
 # 358 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "You're solving all the puzzles in the\n"
+	.string "你把机关屋所有谜题都\n"
 # 359 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "TRICK HOUSE. That's the feeling I get.$"
+	.string "解开了。我有这种感觉。$"
 # 360 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 361 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_MarielaIntro:
 # 362 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Nufufufu, here at last!\n"
+	.string "嗯呵呵呵，终于到了！\n"
 # 363 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Let's get right with it!$"
+	.string "那就开始吧！$"
 # 364 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 365 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_MarielaDefeat:
 # 366 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "You're so casual about winning!$"
+	.string "你赢得好随便！$"
 # 367 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 368 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_MarielaPostBattle:
 # 369 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Humph! I'm not upset!\n"
+	.string "哼！我才不生气！\n"
 # 370 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Not me!$"
+	.string "我才不！$"
 # 371 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
 # 372 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_AlvaroIntro:
 # 373 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "I ever so closely watched you coming!$"
+	.string "我一直紧紧盯着你\n"
 # 374 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-
+	.string "过来的！$"
 # 375 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
+
 # 376 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "This outcome I didn't see coming…$"
+Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
 # 377 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-
+	.string "这个结果我可没\n"
 # 378 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
+	.string "料到……$"
 # 379 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Well, anyway, we both picked a weird\n"
+
 # 380 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "place to get acquainted.\p"
+Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
 # 381 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "As one weirdo to another,\n"
+	.string "总之，我们俩都在\n"
 # 382 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "let's do our best!$"
+	.string "奇怪的地方认识了。\p"
 # 383 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-
+	.string "同为怪人，让我们\n"
 # 384 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-Route110_TrickHousePuzzle7_Text_EverettIntro:
+	.string "加油吧！$"
 # 385 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "It's awfully cramped in here…$"
+
 # 386 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-
+Route110_TrickHousePuzzle7_Text_EverettIntro:
 # 387 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-Route110_TrickHousePuzzle7_Text_EverettDefeat:
+	.string "这里挤得难受……$"
 # 388 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "Oh, yes, strong you are.$"
-# 389 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
+# 389 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+Route110_TrickHousePuzzle7_Text_EverettDefeat:
 # 390 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-Route110_TrickHousePuzzle7_Text_EverettPostBattle:
+	.string "哦，是，你很强。$"
 # 391 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "I was hoping to switch places with you\n"
+
 # 392 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	.string "when I beat you, but…$"
+Route110_TrickHousePuzzle7_Text_EverettPostBattle:
+# 393 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+	.string "我本来想打赢你就\n"
+# 394 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+	.string "换位置的，可……$"

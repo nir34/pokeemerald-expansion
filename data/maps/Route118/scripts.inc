@@ -451,212 +451,210 @@ Route118_EventScript_Deandre::
 # 226 "data/maps/Route118/scripts.pory"
 Route118_Text_StevenQuestions:
 # 227 "data/maps/Route118/scripts.pory"
-	.string "Hi, {PLAYER}{KUN}, it's me, Steven!\n"
+	.string "{PLAYER}，是我，大吾！\n"
 # 228 "data/maps/Route118/scripts.pory"
-	.string "We met in the cave near Dewford,\l"
+	.string "我们在武斗附近的\l"
 # 229 "data/maps/Route118/scripts.pory"
-	.string "I hope you've been doing well\l"
+	.string "洞窟见过，希望你\l"
 # 230 "data/maps/Route118/scripts.pory"
-	.string "since then!\p"
+	.string "那之后一切都好！\p"
 # 231 "data/maps/Route118/scripts.pory"
-	.string "I'm glad I bumped into you here.\n"
+	.string "很高兴在这儿碰见你。\n"
 # 232 "data/maps/Route118/scripts.pory"
-	.string "You see, I recently spoke with Drake,\l"
+	.string "我最近和源治聊过，\l"
 # 233 "data/maps/Route118/scripts.pory"
-	.string "and he told me about the increase in\l"
+	.string "他说水舰队和熔岩队\l"
 # 234 "data/maps/Route118/scripts.pory"
-	.string "nefarious activities by Team Aqua and\l"
+	.string "的坏事越来越多了。\p"
 # 235 "data/maps/Route118/scripts.pory"
-	.string "Team Magma.\p"
+	.string "他还提到他遇到\n"
 # 236 "data/maps/Route118/scripts.pory"
-	.string "He also mentioned that he encountered\n"
+	.string "你好几次，\l"
 # 237 "data/maps/Route118/scripts.pory"
-	.string "you on more than one occasion, and he\l"
+	.string "对你一个人就能阻止\l"
 # 238 "data/maps/Route118/scripts.pory"
-	.string "was very impressed by how you were able\l"
+	.string "两个组织非常佩服。\p"
 # 239 "data/maps/Route118/scripts.pory"
-	.string "to stop both groups all on your own.\p"
+	.string "我提起这个，是因为\n"
 # 240 "data/maps/Route118/scripts.pory"
-	.string "I am bringing this up now because there\n"
+	.string "有报告说这两个组织\l"
 # 241 "data/maps/Route118/scripts.pory"
-	.string "have been reports of more disturbances\l"
+	.string "又在引发更多骚动。\p"
 # 242 "data/maps/Route118/scripts.pory"
-	.string "being caused by both organizations.\p"
+	.string "其中之一，据说是要\n"
 # 243 "data/maps/Route118/scripts.pory"
-	.string "One such disturbance is a supposed\n"
+	.string "袭击119号道路前面的\l"
 # 244 "data/maps/Route118/scripts.pory"
-	.string "attack on the Weather Institute, which\l"
+	.string "天气研究所。\p"
 # 245 "data/maps/Route118/scripts.pory"
-	.string "lies further ahead on Route 119.\p"
+	.string "{PLAYER}，你愿意去\n"
 # 246 "data/maps/Route118/scripts.pory"
-	.string "Would you mind investigating this\n"
+	.string "调查一下吗？\p"
 # 247 "data/maps/Route118/scripts.pory"
-	.string "activity, {PLAYER}?\p"
+	.string "………………\p"
 # 248 "data/maps/Route118/scripts.pory"
-	.string "… … … … … …\p"
+	.string "太好了，非常感谢！\n"
 # 249 "data/maps/Route118/scripts.pory"
-	.string "Great, thank you so much!\n"
+	.string "祝你好运，小心点！$"
 # 250 "data/maps/Route118/scripts.pory"
-	.string "Best of luck, and be careful out there!$"
+
 # 251 "data/maps/Route118/scripts.pory"
-
-# 252 "data/maps/Route118/scripts.pory"
 Route118_Text_CanCrossRiversWithSurf:
+# 252 "data/maps/Route118/scripts.pory"
+	.string "就算没有船，只要有一只\n"
 # 253 "data/maps/Route118/scripts.pory"
-	.string "Even if there isn't a boat, you can\n"
+	.string "会冲浪的宝可梦，\l"
 # 254 "data/maps/Route118/scripts.pory"
-	.string "cross rivers and the sea if you have\l"
+	.string "就能渡河过海。\p"
 # 255 "data/maps/Route118/scripts.pory"
-	.string "a Pokémon that knows SURF.\p"
+	.string "宝可梦真是靠得住！$"
 # 256 "data/maps/Route118/scripts.pory"
-	.string "Pokémon can be counted on to do so\n"
+
 # 257 "data/maps/Route118/scripts.pory"
-	.string "much!$"
-# 258 "data/maps/Route118/scripts.pory"
-
-# 259 "data/maps/Route118/scripts.pory"
 Route118_Text_RouteSignMauville:
+# 258 "data/maps/Route118/scripts.pory"
+	.string "118号道路\n"
+# 259 "data/maps/Route118/scripts.pory"
+	.string "{LEFT_ARROW} 紫堇市$"
 # 260 "data/maps/Route118/scripts.pory"
-	.string "ROUTE 118\n"
+
 # 261 "data/maps/Route118/scripts.pory"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
-# 262 "data/maps/Route118/scripts.pory"
-
-# 263 "data/maps/Route118/scripts.pory"
 Route118_Text_RouteSign119:
+# 262 "data/maps/Route118/scripts.pory"
+	.string "118号道路\n"
+# 263 "data/maps/Route118/scripts.pory"
+	.string "{UP_ARROW} 119号道路$"
 # 264 "data/maps/Route118/scripts.pory"
-	.string "ROUTE 118\n"
-# 265 "data/maps/Route118/scripts.pory"
-	.string "{UP_ARROW} ROUTE 119$"
-# 266 "data/maps/Route118/scripts.pory"
 
-# 267 "data/maps/Route118/scripts.pory"
+# 265 "data/maps/Route118/scripts.pory"
 Route118_Text_FormerGoodRod:
+# 266 "data/maps/Route118/scripts.pory"
+	.string "嘿，我猜你是来找\n"
+# 267 "data/maps/Route118/scripts.pory"
+	.string "好钓竿的吧。\p"
 # 268 "data/maps/Route118/scripts.pory"
-	.string "Hey there, I bet you came here looking\n"
+	.string "可惜我把它借给103号\n"
 # 269 "data/maps/Route118/scripts.pory"
-	.string "for the Good Rod.\p"
+	.string "道路的朋友了，\l"
 # 270 "data/maps/Route118/scripts.pory"
-	.string "Sorry to say, I lent it to my buddy over\n"
+	.string "就在机关屋西边，\l"
 # 271 "data/maps/Route118/scripts.pory"
-	.string "on Route 103, he's just west of the\l"
-# 272 "data/maps/Route118/scripts.pory"
-	.string "Trick House, you can't miss him!$"
+	.string "你肯定能找到他！$"
 
 Route118_EventScript_Wake::
-# 277 "data/maps/Route118/scripts.pory"
+# 276 "data/maps/Route118/scripts.pory"
 	lockall
-# 278 "data/maps/Route118/scripts.pory"
+# 277 "data/maps/Route118/scripts.pory"
 	applymovement LOCALID_WAKE, Common_Movement_FacePlayer
-# 279 "data/maps/Route118/scripts.pory"
+# 278 "data/maps/Route118/scripts.pory"
 	goto_if_defeated TRAINER_WAKE, Route118_EventScript_WakeDefeated
-# 280 "data/maps/Route118/scripts.pory"
+# 279 "data/maps/Route118/scripts.pory"
 	goto_if_set FLAG_TEMP_1, Route118_EventScript_WakeRequestBattleAgain
-# 281 "data/maps/Route118/scripts.pory"
+# 280 "data/maps/Route118/scripts.pory"
 	msgbox Wake_Greeting, MSGBOX_YESNO
-# 282 "data/maps/Route118/scripts.pory"
+# 281 "data/maps/Route118/scripts.pory"
 	goto Route118_EventScript_BattleWakePrompt
 	end
 
 
 Route118_EventScript_WakeRequestBattleAgain::
-# 287 "data/maps/Route118/scripts.pory"
+# 286 "data/maps/Route118/scripts.pory"
 	msgbox Wake_ReadyYet, MSGBOX_YESNO
-# 288 "data/maps/Route118/scripts.pory"
+# 287 "data/maps/Route118/scripts.pory"
 	goto Route118_EventScript_BattleWakePrompt
 	end
 
 
 Route118_EventScript_BattleWakePrompt::
-# 293 "data/maps/Route118/scripts.pory"
+# 292 "data/maps/Route118/scripts.pory"
 	call_if_eq VAR_RESULT, YES, Route118_EventScript_BattleWake
-# 294 "data/maps/Route118/scripts.pory"
+# 293 "data/maps/Route118/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, Route118_EventScript_DeclineWakeBattle
-# 295 "data/maps/Route118/scripts.pory"
+# 294 "data/maps/Route118/scripts.pory"
 	closemessage
 	end
 
 
 Route118_EventScript_DeclineWakeBattle::
-# 300 "data/maps/Route118/scripts.pory"
+# 299 "data/maps/Route118/scripts.pory"
 	setflag FLAG_TEMP_1
-# 301 "data/maps/Route118/scripts.pory"
+# 300 "data/maps/Route118/scripts.pory"
 	msgbox Wake_ComeBackWhenReady, MSGBOX_DEFAULT
-# 302 "data/maps/Route118/scripts.pory"
+# 301 "data/maps/Route118/scripts.pory"
 	release
 	end
 
 
 Route118_EventScript_BattleWake::
-# 307 "data/maps/Route118/scripts.pory"
+# 306 "data/maps/Route118/scripts.pory"
 	msgbox Route118_EventScript_BattleWake_Text_0, MSGBOX_DEFAULT
-# 308 "data/maps/Route118/scripts.pory"
+# 307 "data/maps/Route118/scripts.pory"
 	trainerbattle_no_intro TRAINER_WAKE, Wake_Outro
-# 309 "data/maps/Route118/scripts.pory"
+# 308 "data/maps/Route118/scripts.pory"
 	goto Route118_EventScript_WakeGiveItems
 	return
 
 
 Route118_EventScript_WakeGiveItems::
-# 314 "data/maps/Route118/scripts.pory"
+# 313 "data/maps/Route118/scripts.pory"
 	giveitem ITEM_LAPRASITE
-# 315 "data/maps/Route118/scripts.pory"
+# 314 "data/maps/Route118/scripts.pory"
 	giveitem ITEM_DREDNAWITE
-# 316 "data/maps/Route118/scripts.pory"
+# 315 "data/maps/Route118/scripts.pory"
 	giveitem ITEM_GYARADOSITE
-# 317 "data/maps/Route118/scripts.pory"
+# 316 "data/maps/Route118/scripts.pory"
 	giveitem ITEM_FOCUS_SASH
-# 318 "data/maps/Route118/scripts.pory"
+# 317 "data/maps/Route118/scripts.pory"
 	msgbox Wake_ExplainItems
-# 319 "data/maps/Route118/scripts.pory"
+# 318 "data/maps/Route118/scripts.pory"
 	release
 	end
 
 
 Route118_EventScript_WakeDefeated::
-# 324 "data/maps/Route118/scripts.pory"
+# 323 "data/maps/Route118/scripts.pory"
 	msgbox PostBattle_Wake, MSGBOX_DEFAULT
-# 325 "data/maps/Route118/scripts.pory"
+# 324 "data/maps/Route118/scripts.pory"
 	releaseall
 	end
 
 
 Route118_EventScript_BattleWake_Text_0:
-# 307 "data/maps/Route118/scripts.pory"
-	.string "GLUB GLUB GLUB GLUB!$"
+# 306 "data/maps/Route118/scripts.pory"
+	.string "咕噜咕噜咕噜咕噜！$"
 
 Wake_Greeting::
-# 329 "data/maps/Route118/scripts.pory"
-	.string "GLUB GLUB This better be good if\n"
-	.string "you're interrupting my training.\p"
-	.string "… … … … … …\p"
-	.string "GLUB GLUB Who am I?\n"
-	.string "I am Crasher Wake of course, ha-ha!\p"
-	.string "I came over to the Hoenn region\n"
-	.string "because I heard there was plenty of\l"
-	.string "water to train in, but honestly, I'd give\l"
-	.string "it maybe a 7 out of 10.\p"
-	.string "GLUB GLUB Anyway, you wanna battle\n"
-	.string "or not?$"
+# 328 "data/maps/Route118/scripts.pory"
+	.string "咕噜咕噜 你要是来打断我训练，\n"
+	.string "最好有点要紧事。\p"
+	.string "………………\p"
+	.string "咕噜咕噜 我是谁？\n"
+	.string "当然是极限假面，哈哈！\p"
+	.string "我来丰缘地区，是因为\n"
+	.string "听说这里有足够多的\l"
+	.string "水域可以训练，不过老实说，\l"
+	.string "我顶多给7分。\p"
+	.string "咕噜咕噜 总之，你要不要\n"
+	.string "打一场？$"
 
 Wake_ReadyYet::
-# 343 "data/maps/Route118/scripts.pory"
-	.string "GLUB GLUB Ready yet?$"
+# 342 "data/maps/Route118/scripts.pory"
+	.string "咕噜咕噜 准备好了吗？$"
 
 Wake_ComeBackWhenReady::
-# 347 "data/maps/Route118/scripts.pory"
-	.string "GLUB GLUB Suit yourself.$"
+# 346 "data/maps/Route118/scripts.pory"
+	.string "咕噜咕噜 随你便。$"
 
 Wake_Outro::
-# 351 "data/maps/Route118/scripts.pory"
-	.string "Wow, what a fight. I know I'll be leaving\n"
-	.string "these Items in good hands.$"
+# 350 "data/maps/Route118/scripts.pory"
+	.string "哇，打得真痛快。我把这些\n"
+	.string "道具交给你很放心。$"
 
 Wake_ExplainItems::
-# 356 "data/maps/Route118/scripts.pory"
-	.string "Those are the best Mega stones I have.\n"
-	.string "Hope you put them to good use.$"
+# 355 "data/maps/Route118/scripts.pory"
+	.string "那是我最好的超级石。\n"
+	.string "希望你能用好它们。$"
 
 PostBattle_Wake::
-# 361 "data/maps/Route118/scripts.pory"
-	.string "GLUB GLUB What now?!$"
+# 360 "data/maps/Route118/scripts.pory"
+	.string "咕噜咕噜 又怎么了？！$"

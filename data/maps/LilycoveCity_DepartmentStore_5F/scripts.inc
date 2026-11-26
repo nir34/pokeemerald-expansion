@@ -311,34 +311,36 @@ LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl::
 # 156 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
 # 157 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "This place is full of cute DOLLS.\p"
+	.string "这里满是可爱的玩偶。\p"
 # 158 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "I should buy some for me, instead of\n"
+	.string "我不该只给孩子买，\n"
 # 159 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "just for my children.$"
+	.string "也该给自己买点。$"
 # 160 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 
 # 161 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
 # 162 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "I'm not big enough to raise Pokémon,\n"
+	.string "我还不够大，养不了\n"
 # 163 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "so I'm getting a cute DOLL instead.$"
+	.string "宝可梦，所以买个\l"
 # 164 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-
+	.string "可爱的玩偶。$"
 # 165 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
-# 166 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "They sell many cute MATS here.\p"
-# 167 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "I wonder which one I should get?\n"
-# 168 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "Maybe I'll buy them all…$"
-# 169 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 
+# 166 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
+# 167 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "这里卖好多可爱的垫子。\p"
+# 168 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "我该买哪个呢？\n"
+# 169 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "干脆全买了吧……$"
 # 170 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
+
 # 171 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "I think they closed the rooftop\n"
+LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 # 172 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
-	.string "because the weather is wild today.$"
+	.string "我想今天天气这么怪，\n"
+# 173 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "他们把屋顶关了吧。$"

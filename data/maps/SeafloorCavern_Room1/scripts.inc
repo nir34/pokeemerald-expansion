@@ -19,20 +19,20 @@ SeafloorCavern_Room1_EventScript_Grunt1::
 # 10 "data/maps/SeafloorCavern_Room1/scripts.pory"
 SeafloorCavern_Room1_Text_Grunt1Intro:
 # 11 "data/maps/SeafloorCavern_Room1/scripts.pory"
-	.string "We don't need a kid around!\n"
+	.string "我们不需要小鬼！\n"
 # 12 "data/maps/SeafloorCavern_Room1/scripts.pory"
-	.string "Go on home already!$"
+	.string "快回家去！$"
 # 13 "data/maps/SeafloorCavern_Room1/scripts.pory"
 
 # 14 "data/maps/SeafloorCavern_Room1/scripts.pory"
 SeafloorCavern_Room1_Text_Grunt1Defeat:
 # 15 "data/maps/SeafloorCavern_Room1/scripts.pory"
-	.string "I want to go home…$"
+	.string "我想回家……$"
 # 16 "data/maps/SeafloorCavern_Room1/scripts.pory"
 
 # 17 "data/maps/SeafloorCavern_Room1/scripts.pory"
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
 # 18 "data/maps/SeafloorCavern_Room1/scripts.pory"
-	.string "I want to get a promotion so I can\n"
+	.string "我想升职，好使唤\n"
 # 19 "data/maps/SeafloorCavern_Room1/scripts.pory"
-	.string "boss around the GRUNTS…$"
+	.string "那些小兵……$"

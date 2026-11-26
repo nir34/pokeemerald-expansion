@@ -19,23 +19,23 @@ GraniteCave_1F_EventScript_ReceivedFlash::
 	end
 
 GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
-	.string "Hey, you.\n"
-	.string "It gets awfully dark ahead.\l"
-	.string "It'll be tough trying to explore.\p"
-	.string "That guy who came by earlier…\n"
-	.string "Steven, I think it was.\p"
-	.string "He knew how to use Flash, so he ought\n"
-	.string "to be all right, but…\p"
-	.string "Well, for us hikers, helping out those\n"
-	.string "that we meet is our motto.\p"
-	.string "Here you go, I'll pass this on to you.$"
+	.string "喂，你。\n"
+	.string "前面变得好黑。\l"
+	.string "要探索可不容易。\p"
+	.string "刚才走过的那个人……\n"
+	.string "我想他叫大吾。\p"
+	.string "他懂得用闪光，\n"
+	.string "所以应该没事，可是……\p"
+	.string "对我们登山者来说，\n"
+	.string "帮助遇到的人就是信条。\p"
+	.string "来，这个给你。$"
 
 GraniteCave_1F_Text_ExplainFlash:
-	.string "Teach that hidden move Flash to\n"
-	.string "a Pokémon and use it.\p"
-	.string "It lights up even the inky darkness\n"
-	.string "of caves.\p"
-	.string "But, to use it, you need the Gym Badge\n"
-	.string "from Dewford's Pokémon Gym.$"
+	.string "把秘传招式闪光教给\n"
+	.string "一只宝可梦并使用吧。\p"
+	.string "它连洞窟里墨一样的\n"
+	.string "黑暗都能照亮。\p"
+	.string "不过要使用它，你得先拿到\n"
+	.string "武斗宝可梦道馆的徽章。$"
 
 `

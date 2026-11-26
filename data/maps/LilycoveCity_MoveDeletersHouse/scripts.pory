@@ -29,34 +29,36 @@ LilycoveCity_MoveDeletersHouse_EventScript_CantTeachYet::
 
 
 LilycoveCity_MoveDeletersHouse_Text_CantTeachYet:
-	.string "Hm, what's this?\n"
-	.string "It doesn't look like you know anything\l"
-	.string "about relearning moves, so I have\l"
-	.string "nothing to show you.\p"
-	.string "I heard there's a man in Dewford Town\n"
-	.string "who knows a thing or two about this.$"
+	.string "嗯，什么？\n"
+	.string "看来你对重新学招式\l"
+	.string "一无所知，那我也\l"
+	.string "没什么可教你的。\p"
+	.string "我听说武斗镇有人\n"
+	.string "懂一点这些。$"
 
 LilycoveCity_MoveDeletersHouse_Text_ImEggMoveTutor:
-	.string "Oh, hello there young trainer.\n"
-	.string "I've recently undergone a career\l"
-	.string "change.\p"
-	.string "I used to be known as the Move Deleter,\n"
-	.string "but everyone can do that themselves\l"
-	.string "nowadays, so I had to learn a new skill.\p"
-	.string "Now, I can teach you to teach your\n"
-	.string "Pokémon their Egg Moves.\l"
-	.string "Check this out!$"
+	.string "哦，你好啊，年轻的\n"
+	.string "训练家。我最近\l"
+	.string "换了行当。\p"
+	.string "我以前人称招式\n"
+	.string "遗忘师，可现在\l"
+	.string "谁都能自己忘了，\l"
+	.string "所以只好学新本事。\p"
+	.string "现在，我能教你让\n"
+	.string "宝可梦学会蛋招式。\l"
+	.string "瞧好了！$"
 
 LilycoveCity_MoveDeletersHouse_Text_ObtainedEggMoveTutorOption:
-	.string "Obtained the option to relearn\n"
-	.string "Egg Moves!$"
+	.string "获得了重新学习蛋招式\n"
+	.string "的选项！$"
 
 LilycoveCity_MoveDeletersHouse_Text_HowToUseEggMoves:
-	.string "If you go to your party menu, select a\n"
-	.string "Pokémon, then select “Relearn”, you\l"
-	.string "will have a new option: “Egg Moves”,\l"
-	.string "assuming your Pokémon actually has Egg\l"
-	.string "Moves to learn!\p"
-	.string "Isn't that handy?$"
+	.string "去队伍菜单，选一只\n"
+	.string "宝可梦，再选“重新学习”，\l"
+	.string "就会出现新选项\l"
+	.string "“蛋招式”——前提是\l"
+	.string "你的宝可梦真的有\l"
+	.string "蛋招式可学！\p"
+	.string "是不是很方便？$"
 
 `

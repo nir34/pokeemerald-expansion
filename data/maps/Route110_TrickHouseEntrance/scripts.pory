@@ -720,131 +720,140 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-	.string "You're being watched…$"
+	.string "你正被看着……$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这张桌子下面的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这棵树后面的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这个衣柜里的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这扇窗户外的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这个花盆里的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这个碗柜里的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这扇窗户后的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!$"
+	.string "哈？啧……\p"
+	.string "你怎么知道我藏在\n"
+	.string "这个坐垫下的？\l"
+	.string "你真敏锐！$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
-	.string "Behold!\p"
-	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of Hoenn!\l"
-	.string "They call me…\p"
-	.string "The Trick Master!\n"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "看吧！\p"
+	.string "因为我是全丰缘活着的\n"
+	.string "最神秘的男子！\l"
+	.string "大家叫我……\p"
+	.string "机关大师！\n"
+	.string "哇哈哈哈！幸会！$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
-	.string "You, you've come to challenge\n"
-	.string "my Trick House, haven't you?\p"
-	.string "That's why you're here, isn't it?\n"
-	.string "Yes, it is!\p"
-	.string "Consider your challenge accepted!\p"
-	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "你，你是来挑战我的\n"
+	.string "机关屋的吧？\p"
+	.string "你就是为这个来的，\n"
+	.string "对吧？对！\p"
+	.string "那我就接受你的挑战！\p"
+	.string "从那边的卷轴进去，\n"
+	.string "开始你的挑战吧！\p"
+	.string "我在最里面等你！$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
-	.string "It's a scroll.$"
+	.string "是一卷卷轴。$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
-	.string "There is a big hole behind the scroll!\p"
-	.string "Want to go in?$"
+	.string "卷轴后面有个大洞！\p"
+	.string "要进去吗？$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-	.string "There is a note affixed to the scroll…\p"
-	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. Trick Master”$"
+	.string "卷轴上贴着张便条……\p"
+	.string "“我出门旅行了。\n"
+	.string "别找我。机关大师”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
-	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!$"
+	.string "下次我要用这个机关、\n"
+	.string "那个把戏，还有\l"
+	.string "那些计谋……\p"
+	.string "嗯哼哼哼……不客气地说，\n"
+	.string "连我都觉得难！$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
-	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
-	.string "challenges!\p"
-	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!$"
+	.string "哈？什么？！\n"
+	.string "哦，是你啊！\p"
+	.string "我正在设计新的\n"
+	.string "机关挑战！\p"
+	.string "让我多花点时间想，\n"
+	.string "这点要求不过分吧？\l"
+	.string "你不会怪我吧？\l"
+	.string "过阵子再来！$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
-	.string "Ah, it's you! You're here to accept the\n"
-	.string "reward from before, isn't that right?\l"
-	.string "Yes, right I am!\p"
-	.string "Here!\n"
-	.string "I'll give it to you now!$"
+	.string "啊，是你！你是来领\n"
+	.string "之前的奖励的吧？\l"
+	.string "对，就是这样！\p"
+	.string "拿来！\n"
+	.string "现在就给你！$"
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
-	.string "Hah?\n"
-	.string "Did you not come to claim your reward?$"
+	.string "哈？\n"
+	.string "你不是来领奖励的吗？$"
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
-	.string "MECHADOLL 5 I AM!\n"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
-	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?$"
+	.string "我是机械人偶5号！\n"
+	.string "如果你不领走奖励，\l"
+	.string "就不能跟随机关大师。\p"
+	.string "红色帐篷还是蓝色帐篷，\n"
+	.string "你更喜欢哪个？$"
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
-	.string "THEN FAREWELL.$"
+	.string "那么，再见。$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.$"
+	.string "你的电脑状态：又满了。\n"
+	.string "你真麻烦。$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
-	.string "{PLAYER} found a scroll.$"
+	.string "{PLAYER}找到了一卷卷轴。$"
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
-	.string "{PLAYER} memorized the secret code\n"
-	.string "written on the scroll.$"
+	.string "{PLAYER}记住了卷轴上\n"
+	.string "写的密码。$"
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
-	.string "A secret code is written on it.$"
+	.string "上面写着密码。$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
-	.string "on it: “Write the secret code here.”$"
+	.string "门锁着。\p"
+	.string "……仔细一看，上面写着：\l"
+	.string "“在这里写密码。”$"
 `

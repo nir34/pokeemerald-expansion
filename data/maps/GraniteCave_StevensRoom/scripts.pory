@@ -97,46 +97,49 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-	.string "My name is Steven.\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
-	.string "Oh?\n"
-	.string "A Letter for me?$"
+	.string "我叫大吾。\p"
+	.string "我对稀有的石头很感兴趣，\n"
+	.string "所以到处旅行。\p"
+	.string "哦？\n"
+	.string "有我的信？$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-	.string "Steven: Okay, thank you.\n"
-	.string "You went through all this trouble to\l"
-	.string "deliver that. I need to thank you.\p"
-	.string "Let me see…\n"
-	.string "I'll give you this TM.\p"
-	.string "It contains my favorite move,\n"
-	.string "Steel Wing. Also, take these spare\l"
-	.string "Items I have, hopefully they will be\l"
-	.string "helpful!$"
+	.string "大吾：好，谢谢。\n"
+	.string "你特地跑这一趟送来，\l"
+	.string "我得好好谢你。\p"
+	.string "我看看……\n"
+	.string "这个学习器给你。\p"
+	.string "里面是我最喜欢的招式，\n"
+	.string "钢之翼。\p"
+	.string "另外，我还有一些\n"
+	.string "多余的道具，\l"
+	.string "希望它们能派上用场！$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-	.string "Steven: Your Pokémon appear quite\n"
-	.string "capable, so hopefully you can put those\l"
-	.string "Items to good use.\p"
-	.string "I had some spare Sitrus Berries, Heal\n"
-	.string "Balls, Berry Juices, Moon Stones, Throat\l"
-	.string "Sprays, PP Ups, Iron Balls, Wide Lenses,\l"
-	.string "Heat Rocks, Damp Rocks, Smooth Rocks,\l"
-	.string "Icy Rocks, and Leeks to give to you.\p"
-	.string "I know, since we've gotten to know each\n"
-	.string "other, let's register one another in\l"
-	.string "our PokéNavs.\p"
+	.string "大吾：你的宝可梦看起来\n"
+	.string "相当有实力，希望那些\l"
+	.string "道具能派上用场。\p"
+	.string "我有些多余的文柚果、\n"
+	.string "治愈球、树果汁、月之石、\l"
+	.string "喉咙喷雾、PP提升剂、\l"
+	.string "铁球、广角镜、炽热岩石、\l"
+	.string "潮湿岩石、平滑岩石、\l"
+	.string "冰冷岩石和粗大葱，\l"
+	.string "都送给你。\p"
+	.string "既然我们认识了，\n"
+	.string "就在彼此的导航里\l"
+	.string "登录一下吧。\p"
 	.string "… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
-	.string "Registered Steven\n"
-	.string "in the PokéNav.$"
+	.string "在宝可梦导航里\n"
+	.string "登录了大吾。$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-	.string "Now, I've got to hurry along.$"
+	.string "现在，我得赶紧走了。$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
-	.string "Oh, your BAG is full…\n"
-	.string "That's too bad, then.$"
+	.string "哦，你的背包满了……\n"
+	.string "那就太遗憾了。$"
 
 `

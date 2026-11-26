@@ -1299,41 +1299,41 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 # 650 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
 # 651 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Welcome…\n"
+	.string "欢迎……\n"
 # 652 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "You must be commended for your luck…\p"
+	.string "你的好运值得称赞……\p"
 # 653 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Your Pokémon shall be restored\n"
+	.string "你的宝可梦会\n"
 # 654 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "to full health…$"
+	.string "完全回复……$"
 # 655 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 656 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
 # 657 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I urge you to enjoy the rest of your\n"
+	.string "请好好享受剩下的\n"
 # 658 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Battle Choice challenge…$"
+	.string "对战选择挑战……$"
 # 659 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 660 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
 # 661 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Ah, you're a lucky one.\n"
+	.string "啊，你运气真好。\n"
 # 662 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I'm in somewhat-good spirits now.\p"
+	.string "我现在心情还不错。\p"
 # 663 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I will restore one of your Pokémon\n"
+	.string "我会让你的一只宝可梦\n"
 # 664 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "to full health.$"
+	.string "完全回复。$"
 # 665 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 666 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
 # 667 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "The best of luck to you.\n"
+	.string "祝你好运。\n"
 # 668 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Farewell.$"
+	.string "再见。$"
 # 669 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 670 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
@@ -1345,11 +1345,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
 # 673 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
 # 674 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Excuse me…\p"
+	.string "打扰一下……\p"
 # 675 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Would you care for a battle?\n"
+	.string "要不要来场对战？\n"
 # 676 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I'll restore your Pokémon if you win.$"
+	.string "赢了我就帮你回复宝可梦。$"
 # 677 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 678 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
@@ -1357,9 +1357,9 @@ BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
 # 679 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
 # 680 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Very well…\n"
+	.string "很好……\n"
 # 681 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Now, shall we?$"
+	.string "那么，开始吧？$"
 # 682 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 683 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
@@ -1367,9 +1367,9 @@ BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
 # 684 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
 # 685 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I see…\n"
+	.string "我明白了……\n"
 # 686 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "How unsporting of you…$"
+	.string "你真不光明正大……$"
 # 687 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 688 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
@@ -1377,11 +1377,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
 # 689 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
 # 690 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Magnificent…\p"
+	.string "精彩……\p"
 # 691 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "As promised, I shall restore your\n"
+	.string "如约，我会让你的宝可梦\n"
 # 692 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Pokémon to full health.$"
+	.string "完全回复。$"
 # 693 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 694 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
@@ -1389,314 +1389,318 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
 # 695 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
 # 696 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "The best of luck to you.\n"
+	.string "祝你好运。\n"
 # 697 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Farewell.$"
+	.string "再见。$"
 # 698 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 699 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 # 700 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Oh, my!\p"
+	.string "哎呀！\p"
 # 701 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Watch out!$"
+	.string "小心！$"
 # 702 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 703 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
 # 704 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Now, now!\n"
+	.string "喂喂！\n"
 # 705 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "KIRLIA, stop that!$"
+	.string "奇鲁莉安，住手！$"
 # 706 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 707 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
 # 708 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Now, now!\n"
+	.string "喂喂！\n"
 # 709 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "DUSCLOPS, stop that!$"
+	.string "彷徨夜灵，住手！$"
 # 710 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 711 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
 # 712 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "KIRLIA used TOXIC!$"
+	.string "奇鲁莉安使用了剧毒！$"
 # 713 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 714 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
 # 715 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "KIRLIA used HYPNOSIS!$"
+	.string "奇鲁莉安使用了催眠术！$"
 # 716 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 717 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
 # 718 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "KIRLIA used THUNDER WAVE!$"
+	.string "奇鲁莉安使用了电磁波！$"
 # 719 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 720 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
 # 721 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "KIRLIA used WILL-O-WISP!$"
+	.string "奇鲁莉安使用了鬼火！$"
 # 722 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 723 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
 # 724 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "DUSCLOPS used WILL-O-WISP!$"
+	.string "彷徨夜灵使用了鬼火！$"
 # 725 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 726 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
 # 727 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "DUSCLOPS used ICE BEAM!$"
+	.string "彷徨夜灵使用了冰冻光束！$"
 # 728 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 729 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 # 730 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Look here!\n"
+	.string "喂！\n"
 # 731 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "That's quite enough!$"
+	.string "够了！$"
 # 732 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 733 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
 # 734 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I must apologize to you…\p"
+	.string "我必须向你道歉……\p"
 # 735 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "My KIRLIA has a TIMID nature…$"
+	.string "我的奇鲁莉安性格\n"
 # 736 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "是胆小……$"
 # 737 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
+
 # 738 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I must apologize to you…\p"
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
 # 739 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "My DUSCLOPS has a TIMID nature…$"
+	.string "我必须向你道歉……\p"
 # 740 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "我的彷徨夜灵性格\n"
 # 741 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
+	.string "是胆小……$"
 # 742 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "It attacks without warning if it is\n"
+
 # 743 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "startled by another person…\p"
+BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 # 744 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Are you and your Pokémon all right?$"
+	.string "要是被旁人吓到，它会\n"
 # 745 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "突然攻击……\p"
 # 746 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
+	.string "你和你的宝可梦没事吧？$"
 # 747 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I do apologize for what happened…\n"
+
 # 748 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I do hope your Pokémon are fine.$"
+BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
 # 749 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "真抱歉发生了这种事……\n"
 # 750 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_Silence:
+	.string "希望你的宝可梦没事。$"
 # 751 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "… … … … … …\n"
+
 # 752 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "… … … … … …$"
+BattleFrontier_BattlePikeRoomNormal_Text_Silence:
 # 753 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 754 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-# 755 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Welcome…\p"
-# 756 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Here, we will have you battle\n"
-# 757 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "a somewhat-tough 训练家…$"
-# 758 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 759 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
-# 760 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "How wonderful…\p"
-# 761 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "To honor your victory, your Pokémon\n"
-# 762 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "shall be restored to full health…$"
-# 763 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 764 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
-# 765 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I urge you to enjoy the rest of your\n"
-# 766 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Battle Choice challenge…$"
-# 767 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 768 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
-# 769 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I am LUCY…\n"
-# 770 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I am the law here…\l"
-# 771 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "For I am the PIKE QUEEN…\p"
-# 772 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "You already know it, but to advance,\n"
-# 773 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "you must defeat me…\p"
-# 774 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…I'm not one for idle chatter.\n"
-# 775 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Hurry. Come on…$"
-# 776 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 777 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
-# 778 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Your luck…\n"
-# 779 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I hope you didn't use it all up here…$"
-# 780 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 781 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
-# 782 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "LUCY: … … … … … …\n"
-# 783 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Show me your FRONTIER PASS…$"
-# 784 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 785 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
-# 786 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "The Luck Symbol was embossed on\n"
-# 787 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "the FRONTIER PASS!$"
-# 788 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 789 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
-# 790 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…That's all there is…\n"
-# 791 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Disappear already…$"
-# 792 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
-# 793 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
-# 794 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "LUCY: …You again…\p"
-# 795 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "… … … … … …\p"
-# 796 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…I've trampled flowers and braved\n"
-# 797 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "storms to get to where I am…\p"
-# 798 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I don't feel any compulsion to keep\n"
-# 799 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "losing to the same opponent…\p"
-# 800 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 	.string "… … … … … …\n"
+# 754 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "… … … … … …$"
+# 755 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 756 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
+# 757 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "欢迎……\p"
+# 758 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "在这里，你要和一位\n"
+# 759 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "有点强的训练家对战……$"
+# 760 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 761 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
+# 762 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "太好了……\p"
+# 763 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "为表彰你的胜利，你的宝可梦\n"
+# 764 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "会完全回复……$"
+# 765 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 766 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
+# 767 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "请好好享受剩下的\n"
+# 768 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "对战选择挑战……$"
+# 769 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 770 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
+# 771 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "我是露西……\n"
+# 772 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "我是这里的法……\l"
+# 773 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "因为我是管道女王……\p"
+# 774 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "你早就知道，想往前走，\n"
+# 775 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "就必须打败我……\p"
+# 776 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "……我不喜欢废话。\n"
+# 777 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "快点。来吧……$"
+# 778 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 779 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
+# 780 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "你的运气……\n"
+# 781 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "希望你没在这儿用完……$"
+# 782 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 783 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
+# 784 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "露西：… … … … … …\n"
+# 785 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "让我看看你的开拓区通行证……$"
+# 786 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 787 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
+# 788 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "幸运象征被印在了\n"
+# 789 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "开拓区通行证上！$"
+# 790 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 791 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
+# 792 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "……就这些……\n"
+# 793 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "消失吧……$"
+# 794 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+
+# 795 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
+# 796 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "露西：……又是你……\p"
+# 797 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "… … … … … …\p"
+# 798 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "……我踩过花、闯过风暴，\n"
+# 799 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "才走到今天……\p"
+# 800 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "我可没有一直输给同\n"
 # 801 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Fine… I'll do it…$"
+	.string "一个对手的兴致……\p"
 # 802 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "… … … … … …\n"
 # 803 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
+	.string "好吧……我就陪你……$"
 # 804 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Now!\n"
+
 # 805 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Come on!$"
+BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
 # 806 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "来吧！\n"
 # 807 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
+	.string "上啊！$"
 # 808 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "LUCY: … … … … … …\p"
+
 # 809 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…FRONTIER PASS…$"
+BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
 # 810 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "露西：… … … … … …\p"
 # 811 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
+	.string "……开拓区通行证……$"
 # 812 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "The Luck Symbol took on\n"
+
 # 813 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "a golden shine!$"
+BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
 # 814 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "幸运象征泛起了\n"
 # 815 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
+	.string "金色的光芒！$"
 # 816 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…You, I won't forget…\n"
+
 # 817 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "…Ever…$"
+BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
 # 818 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "……你，我不会忘……\n"
 # 819 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
+	.string "……永远……$"
 # 820 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I welcome you…\p"
+
 # 821 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Giggle…\n"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
 # 822 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "You seem to be bereft of luck…\p"
+	.string "欢迎你……\p"
 # 823 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "If only you hadn't chosen this room,\n"
+	.string "嘿嘿……\n"
 # 824 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "your Pokémon could have been healed…$"
+	.string "你好像没什么运气……\p"
 # 825 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "要是你没选这个房间，\n"
 # 826 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
+	.string "你的宝可梦本可以回复……$"
 # 827 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I welcome you…\p"
+
 # 828 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Since you have chosen this room, I will\n"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
 # 829 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "restore one Pokémon to full health…$"
+	.string "欢迎你……\p"
 # 830 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "既然你选了这个房间，我会\n"
 # 831 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
+	.string "让一只宝可梦完全回复……$"
 # 832 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I welcome you…\p"
+
 # 833 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Since you have chosen this room, I will\n"
+BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
 # 834 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "restore two Pokémon to full health…$"
+	.string "欢迎你……\p"
 # 835 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "既然你选了这个房间，我会\n"
 # 836 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-@ Unused
+	.string "让两只宝可梦完全回复……$"
 # 837 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
+
 # 838 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I welcome you…\p"
+@ Unused
 # 839 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Giggle…\n"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
 # 840 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "You should thank your lucky stars…\p"
+	.string "欢迎你……\p"
 # 841 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Since you have chosen this room,\n"
+	.string "嘿嘿……\n"
 # 842 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "all your Pokémon will be restored…$"
+	.string "你该感谢你的幸运星……\p"
 # 843 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-
+	.string "既然你选了这个房间，\n"
 # 844 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
+	.string "你所有宝可梦都会回复……$"
 # 845 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I shall go fetch our master…$"
-# 846 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
+# 846 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
 # 847 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
+	.string "我去请我们的主人来……$"
 # 848 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "Ah, you're a lucky one!\n"
+
 # 849 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I'm in good spirits now.\p"
+BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
 # 850 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "I will restore two of your Pokémon\n"
+	.string "啊，你运气真好！\n"
 # 851 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "to full health!$"
+	.string "我现在心情很好。\p"
+# 852 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "我会让你的两只宝可梦\n"
+# 853 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
+	.string "完全回复！$"

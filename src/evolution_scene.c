@@ -879,7 +879,7 @@ static void Task_EvolutionScene(u8 taskId)
         case MVSTATE_INTRO_MSG_1:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "{mon} is trying to learn {move}"
+                // "{mon}想学会{move}"
                 BufferMoveToLearnIntoBattleTextBuff2();
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE1 - BATTLESTRINGS_TABLE_START]);
                 BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
@@ -889,7 +889,7 @@ static void Task_EvolutionScene(u8 taskId)
         case MVSTATE_INTRO_MSG_2:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "But, {mon} can't learn more than four moves"
+                // "但是，{mon}无法学会\n四个以上的招式"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE2 - BATTLESTRINGS_TABLE_START]);
                 BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
                 gTasks[taskId].tLearnMoveState++;
@@ -898,7 +898,7 @@ static void Task_EvolutionScene(u8 taskId)
         case MVSTATE_INTRO_MSG_3:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "Delete a move to make room for {move}?"
+                // "要忘掉一个招式\n来记住{move}吗？"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE3 - BATTLESTRINGS_TABLE_START]);
                 BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
                 gTasks[taskId].tLearnMoveYesState = MVSTATE_SHOW_MOVE_SELECT;
@@ -916,8 +916,8 @@ static void Task_EvolutionScene(u8 taskId)
             }
             break;
         case MVSTATE_HANDLE_YES_NO:
-            // This Yes/No is used for both the initial "delete move?" prompt
-            // and for the "stop learning move?" prompt
+            // This Yes/No is used for both the initial "要忘记招式吗？" prompt
+            // and for the "要放弃学习招式吗？" prompt
             // What Yes/No do next is determined by tLearnMoveYesState / tLearnMoveNoState
             if (JOY_NEW(DPAD_UP) && sEvoCursorPos != 0)
             {
@@ -1292,7 +1292,7 @@ static void Task_TradeEvolutionScene(u8 taskId)
         case T_MVSTATE_INTRO_MSG_1:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "{mon} is trying to learn {move}"
+                // "{mon}想学会{move}"
                 BufferMoveToLearnIntoBattleTextBuff2();
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE1 - BATTLESTRINGS_TABLE_START]);
                 DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
@@ -1302,7 +1302,7 @@ static void Task_TradeEvolutionScene(u8 taskId)
         case T_MVSTATE_INTRO_MSG_2:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "But, {mon} can't learn more than four moves"
+                // "但是，{mon}无法学会\n四个以上的招式"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE2 - BATTLESTRINGS_TABLE_START]);
                 DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
                 gTasks[taskId].tLearnMoveState++;
@@ -1311,7 +1311,7 @@ static void Task_TradeEvolutionScene(u8 taskId)
         case T_MVSTATE_INTRO_MSG_3:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                // "Delete a move to make room for {move}?"
+                // "要忘掉一个招式\n来记住{move}吗？"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE3 - BATTLESTRINGS_TABLE_START]);
                 DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
                 gTasks[taskId].tLearnMoveYesState = T_MVSTATE_SHOW_MOVE_SELECT;

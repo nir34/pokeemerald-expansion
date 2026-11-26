@@ -733,144 +733,154 @@ Route120_EventScript_Callie::
 # 367 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenGreeting:
 # 368 "data/maps/Route120/scripts.pory"
-	.string "Steven: {PLAYER}{KUN}, hello!\p"
+	.string "大吾：{PLAYER}，你好！\p"
 # 369 "data/maps/Route120/scripts.pory"
-	.string "If you've made it to here, then I trust\n"
+	.string "你能来到这里，看来你已经\n"
 # 370 "data/maps/Route120/scripts.pory"
-	.string "you were able to defeat Team Aqua at\l"
+	.string "在天气研究所打败\l"
 # 371 "data/maps/Route120/scripts.pory"
-	.string "the Weather Institute?\p"
+	.string "水舰队了吧？\p"
 # 372 "data/maps/Route120/scripts.pory"
-	.string "Excellent, I knew leaving it to you\n"
+	.string "太好了，我就知道\n"
 # 373 "data/maps/Route120/scripts.pory"
-	.string "was the right call.\p"
+	.string "交给你没错。\p"
 # 374 "data/maps/Route120/scripts.pory"
-	.string "Anyway, there's something here that\n"
+	.string "话说回来，这里有什么\n"
 # 375 "data/maps/Route120/scripts.pory"
-	.string "you can't see, right?\p"
+	.string "你看不见的东西，对吧？\p"
 # 376 "data/maps/Route120/scripts.pory"
-	.string "Now, if I were to use this device on\n"
+	.string "要是我用这个装置\n"
 # 377 "data/maps/Route120/scripts.pory"
-	.string "the invisible obstacle…\p"
+	.string "对着看不见的障碍……\p"
 # 378 "data/maps/Route120/scripts.pory"
-	.string "No, no. Rather than describing it,\n"
+	.string "不不。与其说明，\n"
 # 379 "data/maps/Route120/scripts.pory"
-	.string "I should just show you.\l"
+	.string "不如直接给你看。\l"
 # 380 "data/maps/Route120/scripts.pory"
-	.string "That would be more fun.\p"
+	.string "那更有趣。\p"
 # 381 "data/maps/Route120/scripts.pory"
-	.string "{PLAYER}{KUN}, are your Pokémon ready for\n"
+	.string "{PLAYER}，你的宝可梦\n"
 # 382 "data/maps/Route120/scripts.pory"
-	.string "battle?$"
+	.string "准备好对战了吗？$"
 # 383 "data/maps/Route120/scripts.pory"
 
 # 384 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenIllWaitHere:
 # 385 "data/maps/Route120/scripts.pory"
-	.string "Steven: No?\p"
+	.string "大吾：没有吗？\p"
 # 386 "data/maps/Route120/scripts.pory"
-	.string "I'll wait here, so you can get ready.$"
+	.string "那我在这儿等，\n"
 # 387 "data/maps/Route120/scripts.pory"
-
+	.string "你去准备吧。$"
 # 388 "data/maps/Route120/scripts.pory"
-Route120_Text_StevenReadyForBattle:
+
 # 389 "data/maps/Route120/scripts.pory"
-	.string "Steven: {PLAYER}{KUN}, are your Pokémon\n"
+Route120_Text_StevenReadyForBattle:
 # 390 "data/maps/Route120/scripts.pory"
-	.string "ready for battle?$"
+	.string "大吾：{PLAYER}，你的宝可梦\n"
 # 391 "data/maps/Route120/scripts.pory"
-
+	.string "准备好对战了吗？$"
 # 392 "data/maps/Route120/scripts.pory"
-Route120_Text_StevenShowMeYourPower:
+
 # 393 "data/maps/Route120/scripts.pory"
-	.string "Steven: {PLAYER}{KUN}, show me your true\n"
+Route120_Text_StevenShowMeYourPower:
 # 394 "data/maps/Route120/scripts.pory"
-	.string "power as a trainer!$"
+	.string "大吾：{PLAYER}，让我看看\n"
 # 395 "data/maps/Route120/scripts.pory"
-
+	.string "你作为训练家的真正实力！$"
 # 396 "data/maps/Route120/scripts.pory"
-Route120_Text_StevenUsedDevonScope:
+
 # 397 "data/maps/Route120/scripts.pory"
-	.string "Steven used the Devon Scope.\p"
+Route120_Text_StevenUsedDevonScope:
 # 398 "data/maps/Route120/scripts.pory"
-	.string "An invisible Pokémon became completely\n"
+	.string "大吾使用了得文透视镜。\p"
 # 399 "data/maps/Route120/scripts.pory"
-	.string "visible!\p"
+	.string "一只看不见的宝可梦\n"
 # 400 "data/maps/Route120/scripts.pory"
-	.string "The startled Pokémon attacked!$"
+	.string "完全显形了！\p"
 # 401 "data/maps/Route120/scripts.pory"
-
+	.string "受惊的宝可梦发动了攻击！$"
 # 402 "data/maps/Route120/scripts.pory"
-Route120_Text_StevenGiveDevonScope:
+
 # 403 "data/maps/Route120/scripts.pory"
-	.string "Steven: I see…\n"
+Route120_Text_StevenGiveDevonScope:
 # 404 "data/maps/Route120/scripts.pory"
-	.string "Your battle style is intriguing.\p"
+	.string "大吾：原来如此……\n"
 # 405 "data/maps/Route120/scripts.pory"
-	.string "Your Pokémon have obviously grown\n"
+	.string "你的战斗方式很有意思。\p"
 # 406 "data/maps/Route120/scripts.pory"
-	.string "since I first met you in Dewford.\p"
+	.string "比起第一次在武斗见你，\n"
 # 407 "data/maps/Route120/scripts.pory"
-	.string "I'd like you to have this\n"
+	.string "你的宝可梦成长了许多。\p"
 # 408 "data/maps/Route120/scripts.pory"
-	.string "Devon Scope.\p"
+	.string "这个得文透视镜\n"
 # 409 "data/maps/Route120/scripts.pory"
-	.string "Who knows, there may be other\n"
+	.string "就送给你吧。\p"
 # 410 "data/maps/Route120/scripts.pory"
-	.string "concealed Pokémon.$"
+	.string "说不定还有别的\n"
 # 411 "data/maps/Route120/scripts.pory"
-
+	.string "隐藏的宝可梦。$"
 # 412 "data/maps/Route120/scripts.pory"
-Route120_Text_StevenGoodbye:
+
 # 413 "data/maps/Route120/scripts.pory"
-	.string "Steven: {PLAYER}{KUN}.\p"
+Route120_Text_StevenGoodbye:
 # 414 "data/maps/Route120/scripts.pory"
-	.string "I enjoy seeing Pokémon and trainers\n"
+	.string "大吾：{PLAYER}。\p"
 # 415 "data/maps/Route120/scripts.pory"
-	.string "who strive together.\p"
+	.string "我喜欢看宝可梦和训练家\n"
 # 416 "data/maps/Route120/scripts.pory"
-	.string "I think you're doing great.\p"
+	.string "一起努力的样子。\p"
 # 417 "data/maps/Route120/scripts.pory"
-	.string "Well, let's meet again somewhere.$"
+	.string "我觉得你做得很好。\p"
 # 418 "data/maps/Route120/scripts.pory"
-
+	.string "那么，我们在某处\n"
 # 419 "data/maps/Route120/scripts.pory"
-Kecleon_Text_SomethingUnseeable:
+	.string "再会吧。$"
 # 420 "data/maps/Route120/scripts.pory"
-	.string "Something unseeable is in the way.$"
+
 # 421 "data/maps/Route120/scripts.pory"
-
+Kecleon_Text_SomethingUnseeable:
 # 422 "data/maps/Route120/scripts.pory"
-Kecleon_Text_WantToUseDevonScope:
+	.string "有看不见的东西\n"
 # 423 "data/maps/Route120/scripts.pory"
-	.string "Something unseeable is in the way.\p"
+	.string "挡在路上。$"
 # 424 "data/maps/Route120/scripts.pory"
-	.string "Want to use the Devon Scope?$"
+
 # 425 "data/maps/Route120/scripts.pory"
-
+Kecleon_Text_WantToUseDevonScope:
 # 426 "data/maps/Route120/scripts.pory"
-Kecleon_Text_UseDevonScopeMonAttacked:
+	.string "有看不见的东西\n"
 # 427 "data/maps/Route120/scripts.pory"
-	.string "{PLAYER} used the Devon Scope.\p"
+	.string "挡在路上。\p"
 # 428 "data/maps/Route120/scripts.pory"
-	.string "An invisible Pokémon became completely\n"
+	.string "要用得文透视镜吗？$"
 # 429 "data/maps/Route120/scripts.pory"
-	.string "visible!\p"
+
 # 430 "data/maps/Route120/scripts.pory"
-	.string "The startled Pokémon attacked!$"
+Kecleon_Text_UseDevonScopeMonAttacked:
 # 431 "data/maps/Route120/scripts.pory"
-
+	.string "{PLAYER}使用了\n"
 # 432 "data/maps/Route120/scripts.pory"
-Route120_Text_RouteSignFortree:
+	.string "得文透视镜。\p"
 # 433 "data/maps/Route120/scripts.pory"
-	.string "ROUTE 120\n"
+	.string "一只看不见的宝可梦\n"
 # 434 "data/maps/Route120/scripts.pory"
-	.string "{LEFT_ARROW} FORTREE CITY$"
+	.string "完全显形了！\p"
 # 435 "data/maps/Route120/scripts.pory"
-
+	.string "受惊的宝可梦发动了攻击！$"
 # 436 "data/maps/Route120/scripts.pory"
-Route120_Text_RouteSign121:
+
 # 437 "data/maps/Route120/scripts.pory"
-	.string "{RIGHT_ARROW} ROUTE 121\n"
+Route120_Text_RouteSignFortree:
 # 438 "data/maps/Route120/scripts.pory"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "120号道路\n"
+# 439 "data/maps/Route120/scripts.pory"
+	.string "{LEFT_ARROW} 茵郁市$"
+# 440 "data/maps/Route120/scripts.pory"
+
+# 441 "data/maps/Route120/scripts.pory"
+Route120_Text_RouteSign121:
+# 442 "data/maps/Route120/scripts.pory"
+	.string "{RIGHT_ARROW} 121号道路\n"
+# 443 "data/maps/Route120/scripts.pory"
+	.string "{LEFT_ARROW} 120号道路$"

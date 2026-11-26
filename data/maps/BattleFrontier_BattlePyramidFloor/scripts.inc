@@ -257,1208 +257,1066 @@ BattlePyramid_Retire::
 # 129 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattleFacility_TrainerBattle_PlaceholderText:
 # 130 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is a sample message.$"
+	.string "这是一条示例文本。$"
 # 131 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 132 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 gText_BattlePyramidConfirmRest::
 # 133 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Your BATTLE PYRAMID quest will be\n"
+	.string "你的对战金字塔进度会被保存，\n"
 # 134 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "saved so that you may quit for now.\l"
+	.string "你可以先退出。\l"
 # 135 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Is that okay?$"
+	.string "这样可以吗？$"
 # 136 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 137 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 gText_BattlePyramidConfirmRetire::
 # 138 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you sure you want to quit your\n"
+	.string "你确定要放弃\n"
 # 139 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "PYRAMID quest?$"
+	.string "金字塔挑战吗？$"
 # 140 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 141 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp1::
 # 142 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This floor's exit is in\n"
+	.string "这一层的出口在\n"
 # 143 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that direction: {UP_ARROW}$"
+	.string "那边：{UP_ARROW}$"
 # 144 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 145 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft1::
 # 146 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This floor's exit is in\n"
+	.string "这一层的出口在\n"
 # 147 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that direction: {LEFT_ARROW}$"
+	.string "那边：{LEFT_ARROW}$"
 # 148 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 149 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight1::
 # 150 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This floor's exit is in\n"
+	.string "这一层的出口在\n"
 # 151 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that direction: {RIGHT_ARROW}$"
+	.string "那边：{RIGHT_ARROW}$"
 # 152 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 153 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown1::
 # 154 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This floor's exit is in\n"
+	.string "这一层的出口在\n"
 # 155 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that direction: {DOWN_ARROW}$"
+	.string "那边：{DOWN_ARROW}$"
 # 156 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 157 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp2::
 # 158 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit on this floor is in\n"
+	.string "这一层的出口在\n"
 # 159 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {UP_ARROW} direction.$"
+	.string "{UP_ARROW}方向。$"
 # 160 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 161 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft2::
 # 162 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit on this floor is in\n"
+	.string "这一层的出口在\n"
 # 163 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {LEFT_ARROW} direction.$"
+	.string "{LEFT_ARROW}方向。$"
 # 164 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 165 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight2::
 # 166 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit on this floor is in\n"
+	.string "这一层的出口在\n"
 # 167 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {RIGHT_ARROW} direction.$"
+	.string "{RIGHT_ARROW}方向。$"
 # 168 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 169 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown2::
 # 170 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit on this floor is in\n"
+	.string "这一层的出口在\n"
 # 171 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {DOWN_ARROW} direction.$"
+	.string "{DOWN_ARROW}方向。$"
 # 172 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 173 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp3::
 # 174 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit is over\n"
+	.string "出口在\n"
 # 175 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that {UP_ARROW} way.$"
+	.string "那个{UP_ARROW}方向。$"
 # 176 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 177 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft3::
 # 178 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit is over\n"
+	.string "出口在\n"
 # 179 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that {LEFT_ARROW} way.$"
+	.string "那个{LEFT_ARROW}方向。$"
 # 180 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 181 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight3::
 # 182 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit is over\n"
+	.string "出口在\n"
 # 183 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that {RIGHT_ARROW} way.$"
+	.string "那个{RIGHT_ARROW}方向。$"
 # 184 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 185 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown3::
 # 186 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit is over\n"
+	.string "出口在\n"
 # 187 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "that {DOWN_ARROW} way.$"
+	.string "那个{DOWN_ARROW}方向。$"
 # 188 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 189 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp4::
 # 190 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor, the exit is somewhere\n"
+	.string "这一层，出口在\n"
 # 191 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "in the {UP_ARROW} direction.$"
+	.string "{UP_ARROW}方向的某处。$"
 # 192 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 193 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft4::
 # 194 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor, the exit is somewhere\n"
+	.string "这一层，出口在\n"
 # 195 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "in the {LEFT_ARROW} direction.$"
+	.string "{LEFT_ARROW}方向的某处。$"
 # 196 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 197 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight4::
 # 198 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor, the exit is somewhere\n"
+	.string "这一层，出口在\n"
 # 199 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "in the {RIGHT_ARROW} direction.$"
+	.string "{RIGHT_ARROW}方向的某处。$"
 # 200 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 201 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown4::
 # 202 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor, the exit is somewhere\n"
+	.string "这一层，出口在\n"
 # 203 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "in the {DOWN_ARROW} direction.$"
+	.string "{DOWN_ARROW}方向的某处。$"
 # 204 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 205 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp5::
 # 206 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit?\n"
+	.string "出口？\n"
 # 207 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "It's that {UP_ARROW} way.$"
+	.string "在那个{UP_ARROW}方向。$"
 # 208 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 209 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft5::
 # 210 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit?\n"
+	.string "出口？\n"
 # 211 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "It's that {LEFT_ARROW} way.$"
+	.string "在那个{LEFT_ARROW}方向。$"
 # 212 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 213 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight5::
 # 214 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit?\n"
+	.string "出口？\n"
 # 215 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "It's that {RIGHT_ARROW} way.$"
+	.string "在那个{RIGHT_ARROW}方向。$"
 # 216 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 217 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown5::
 # 218 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit?\n"
+	.string "出口？\n"
 # 219 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "It's that {DOWN_ARROW} way.$"
+	.string "在那个{DOWN_ARROW}方向。$"
 # 220 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 221 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp6::
 # 222 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit happens to be in\n"
+	.string "出口恰好在\n"
 # 223 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {UP_ARROW} direction.$"
+	.string "{UP_ARROW}方向。$"
 # 224 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 225 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintLeft6::
 # 226 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit happens to be in\n"
+	.string "出口恰好在\n"
 # 227 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {LEFT_ARROW} direction.$"
+	.string "{LEFT_ARROW}方向。$"
 # 228 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 229 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintRight6::
 # 230 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit happens to be in\n"
+	.string "出口恰好在\n"
 # 231 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {RIGHT_ARROW} direction.$"
+	.string "{RIGHT_ARROW}方向。$"
 # 232 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 233 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintDown6::
 # 234 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "The exit happens to be in\n"
+	.string "出口恰好在\n"
 # 235 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the {DOWN_ARROW} direction.$"
+	.string "{DOWN_ARROW}方向。$"
 # 236 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 237 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_EightItemsRemaining1::
 # 238 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
+	.string "你在找道具吗？\p"
 # 239 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are eight items left to\n"
+	.string "还有8件道具没被找到。$"
 # 240 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
+
 # 241 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 242 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SevenItemsRemaining1::
+# 242 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
 # 243 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
+	.string "还有7件道具没被找到。$"
 # 244 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are seven items left to\n"
+
 # 245 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
-# 246 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 247 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixItemsRemaining1::
+# 246 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 247 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "还有6件道具没被找到。$"
 # 248 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
-# 249 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are six items left to\n"
-# 250 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
-# 251 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 252 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 249 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveItemsRemaining1::
+# 250 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 251 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "还有5件道具没被找到。$"
+# 252 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
 # 253 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
+BattlePyramid_Text_FourItemsRemaining1::
 # 254 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are five items left to\n"
+	.string "你在找道具吗？\p"
 # 255 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
+	.string "还有4件道具没被找到。$"
 # 256 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 257 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourItemsRemaining1::
-# 258 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
-# 259 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are four items left to\n"
-# 260 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
-# 261 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 262 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeItemsRemaining1::
-# 263 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
-# 264 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are three items left to\n"
-# 265 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
-# 266 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 258 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 259 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "还有3件道具没被找到。$"
+# 260 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 267 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 261 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoItemsRemaining1::
-# 268 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
-# 269 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are two items left to\n"
-# 270 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
-# 271 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 262 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 263 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "还有2件道具没被找到。$"
+# 264 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 272 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 265 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneItemRemaining1::
+# 266 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 267 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "还有1件道具没被找到。$"
+# 268 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 269 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ZeroItemsRemaining1::
+# 270 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你在找道具吗？\p"
+# 271 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "已经什么都不剩了！$"
+# 272 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
 # 273 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
+BattlePyramid_Text_EightItemsRemaining2::
 # 274 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There is one item left to\n"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
 # 275 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found.$"
+	.string "这里还散落着8件道具。$"
 # 276 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 277 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroItemsRemaining1::
-# 278 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Are you looking for items?\p"
-# 279 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There isn't anything left to\n"
-# 280 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "be found!$"
-# 281 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 282 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_EightItemsRemaining2::
-# 283 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 284 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 285 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are eight items\n"
-# 286 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 287 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 288 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SevenItemsRemaining2::
-# 289 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 290 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 291 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are seven items left\n"
-# 292 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 293 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 278 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 279 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着7件道具。$"
+# 280 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 294 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 281 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixItemsRemaining2::
-# 295 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 296 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 297 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are six items left\n"
-# 298 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 299 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 282 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 283 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着6件道具。$"
+# 284 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 300 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 285 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveItemsRemaining2::
-# 301 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 302 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 303 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are five items left\n"
-# 304 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 305 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 286 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 287 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着5件道具。$"
+# 288 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 306 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 289 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourItemsRemaining2::
-# 307 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 308 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 309 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are four items left\n"
-# 310 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 311 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 290 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 291 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着4件道具。$"
+# 292 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 312 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 293 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeItemsRemaining2::
-# 313 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 314 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 315 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are three items left\n"
-# 316 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 317 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 294 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 295 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着3件道具。$"
+# 296 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 318 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 297 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoItemsRemaining2::
-# 319 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 320 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 321 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are two items left\n"
-# 322 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 323 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 298 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 299 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着2件道具。$"
+# 300 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 324 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 301 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneItemRemaining2::
-# 325 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 326 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 327 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There is just one item\n"
-# 328 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 329 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 302 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 303 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里还散落着1件道具。$"
+# 304 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 330 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 305 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroItemsRemaining2::
-# 331 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Because you won, I'll tell you\n"
-# 332 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a little secret!\p"
-# 333 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There isn't anything left\n"
-# 334 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "lying around here.$"
-# 335 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 306 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "因为你是赢家，我告诉你个小秘密！\p"
+# 307 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里什么都不剩了。$"
+# 308 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 336 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 309 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_EightItemsRemaining3::
+# 310 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 311 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有8件道具等着被发现。$"
+# 312 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 313 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SevenItemsRemaining3::
+# 314 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 315 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有7件道具等着被发现。$"
+# 316 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 317 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SixItemsRemaining3::
+# 318 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 319 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有6件道具等着被发现。$"
+# 320 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 321 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FiveItemsRemaining3::
+# 322 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 323 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有5件道具等着被发现。$"
+# 324 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 325 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FourItemsRemaining3::
+# 326 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 327 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有4件道具等着被发现。$"
+# 328 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 329 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ThreeItemsRemaining3::
+# 330 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 331 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有3件道具等着被发现。$"
+# 332 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 333 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_TwoItemsRemaining3::
+# 334 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的道具还够用吗？\p"
+# 335 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我估计这一层还有2件道具等着被发现。$"
+# 336 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
 # 337 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+BattlePyramid_Text_OneItemRemaining3::
 # 338 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are eight items left\n"
+	.string "你的道具还够用吗？\p"
 # 339 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+	.string "我估计这一层还有1件道具等着被发现。$"
 # 340 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 341 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenItemsRemaining3::
+BattlePyramid_Text_ZeroItemsRemaining3::
 # 342 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+	.string "你的道具还够用吗？\p"
 # 343 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are seven items left\n"
+	.string "我估计这一层没有道具了。\l"
 # 344 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+	.string "你保重！$"
 # 345 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 346 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixItemsRemaining3::
+BattlePyramid_Text_EightItemsRemaining4::
 # 347 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+	.string "你很强，所以给你个提示！\p"
 # 348 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are six items left\n"
+	.string "地上好像还有8件道具。$"
 # 349 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+
 # 350 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+BattlePyramid_Text_SevenItemsRemaining4::
 # 351 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveItemsRemaining3::
+	.string "你很强，所以给你个提示！\p"
 # 352 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+	.string "地上好像还有7件道具。$"
 # 353 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are five items left\n"
+
 # 354 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+BattlePyramid_Text_SixItemsRemaining4::
 # 355 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你很强，所以给你个提示！\p"
 # 356 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourItemsRemaining3::
+	.string "地上好像还有6件道具。$"
 # 357 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
-# 358 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are four items left\n"
-# 359 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
-# 360 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 358 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FiveItemsRemaining4::
+# 359 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你很强，所以给你个提示！\p"
+# 360 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "地上好像还有5件道具。$"
 # 361 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeItemsRemaining3::
+
 # 362 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+BattlePyramid_Text_FourItemsRemaining4::
 # 363 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are three items left\n"
+	.string "你很强，所以给你个提示！\p"
 # 364 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+	.string "地上好像还有4件道具。$"
 # 365 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 366 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoItemsRemaining3::
+BattlePyramid_Text_ThreeItemsRemaining4::
 # 367 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+	.string "你很强，所以给你个提示！\p"
 # 368 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are two items left\n"
+	.string "地上好像还有3件道具。$"
 # 369 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
+
 # 370 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+BattlePyramid_Text_TwoItemsRemaining4::
 # 371 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneItemRemaining3::
+	.string "你很强，所以给你个提示！\p"
 # 372 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+	.string "地上好像还有2件道具。$"
 # 373 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there's but one item left\n"
-# 374 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.$"
-# 375 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 374 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_OneItemRemaining4::
+# 375 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你很强，所以给你个提示！\p"
 # 376 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroItemsRemaining3::
+	.string "地上好像还有1件道具。$"
 # 377 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "How's your stock of items holding up?\p"
+
 # 378 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I reckon there are no more items\n"
+BattlePyramid_Text_ZeroItemsRemaining4::
 # 379 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "waiting to be found on this floor.\l"
+	.string "你很强，所以给你个提示！\p"
 # 380 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You take care now!$"
+	.string "地上好像没有道具了。$"
 # 381 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 382 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_EightItemsRemaining4::
+BattlePyramid_Text_EightItemsRemaining5::
 # 383 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+	.string "我听说这层金字塔里\n"
 # 384 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+	.string "有8件道具……$"
 # 385 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be eight more\n"
-# 386 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
-# 387 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 386 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SevenItemsRemaining5::
+# 387 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我听说这层金字塔里\n"
 # 388 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenItemsRemaining4::
+	.string "有7件道具……$"
 # 389 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+
 # 390 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+BattlePyramid_Text_SixItemsRemaining5::
 # 391 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be seven more\n"
+	.string "我听说这层金字塔里\n"
 # 392 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
+	.string "有6件道具……$"
 # 393 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 394 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixItemsRemaining4::
+BattlePyramid_Text_FiveItemsRemaining5::
 # 395 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+	.string "我听说这层金字塔里\n"
 # 396 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+	.string "有5件道具……$"
 # 397 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be six more\n"
-# 398 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
-# 399 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 398 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FourItemsRemaining5::
+# 399 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我听说这层金字塔里\n"
 # 400 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveItemsRemaining4::
+	.string "有4件道具……$"
 # 401 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+
 # 402 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+BattlePyramid_Text_ThreeItemsRemaining5::
 # 403 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be five more\n"
+	.string "我听说这层金字塔里\n"
 # 404 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
+	.string "有3件道具……$"
 # 405 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 406 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourItemsRemaining4::
+BattlePyramid_Text_TwoItemsRemaining5::
 # 407 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+	.string "我听说这层金字塔里\n"
 # 408 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+	.string "有2件道具……$"
 # 409 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be four more\n"
-# 410 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
-# 411 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 410 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_OneItemRemaining5::
+# 411 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "我听说这层金字塔里\n"
 # 412 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeItemsRemaining4::
+	.string "有1件道具……$"
 # 413 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+
 # 414 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+BattlePyramid_Text_ZeroItemsRemaining5::
 # 415 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be three more\n"
+	.string "我听说这层金字塔里\n"
 # 416 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
+	.string "没有道具了……$"
 # 417 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 418 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoItemsRemaining4::
+BattlePyramid_Text_EightItemsRemaining6::
 # 419 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+	.string "你收集到道具了吗？\p"
 # 420 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+	.string "我相信这一层还有8件道具。$"
 # 421 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be two more\n"
-# 422 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
-# 423 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 422 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SevenItemsRemaining6::
+# 423 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你收集到道具了吗？\p"
 # 424 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneItemRemaining4::
+	.string "我相信这一层还有7件道具。$"
 # 425 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+
 # 426 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+BattlePyramid_Text_SixItemsRemaining6::
 # 427 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appears to be only one more\n"
+	.string "你收集到道具了吗？\p"
 # 428 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "item on the ground.$"
+	.string "我相信这一层还有6件道具。$"
 # 429 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 430 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroItemsRemaining4::
+BattlePyramid_Text_FiveItemsRemaining6::
 # 431 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You're strong, so you've earned\n"
+	.string "你收集到道具了吗？\p"
 # 432 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "a hint!\p"
+	.string "我相信这一层还有5件道具。$"
 # 433 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There appear to be no more\n"
+
 # 434 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on the ground.$"
+BattlePyramid_Text_FourItemsRemaining6::
 # 435 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你收集到道具了吗？\p"
 # 436 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_EightItemsRemaining5::
+	.string "我相信这一层还有4件道具。$"
 # 437 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 438 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are eight items…$"
+BattlePyramid_Text_ThreeItemsRemaining6::
 # 439 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你收集到道具了吗？\p"
 # 440 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenItemsRemaining5::
+	.string "我相信这一层还有3件道具。$"
 # 441 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 442 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are seven items…$"
+BattlePyramid_Text_TwoItemsRemaining6::
 # 443 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你收集到道具了吗？\p"
 # 444 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixItemsRemaining5::
+	.string "我相信这一层还有2件道具。$"
 # 445 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 446 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are six items…$"
+BattlePyramid_Text_OneItemRemaining6::
 # 447 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你收集到道具了吗？\p"
 # 448 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveItemsRemaining5::
+	.string "我相信这一层还有1件道具。$"
 # 449 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 450 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are five items…$"
+BattlePyramid_Text_ZeroItemsRemaining6::
 # 451 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你收集到道具了吗？\p"
 # 452 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourItemsRemaining5::
+	.string "我相信这一层没有道具了。$"
 # 453 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 454 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are four items…$"
+BattlePyramid_Text_SevenTrainersRemaining1::
 # 455 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你真是太棒了！\p"
 # 456 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeItemsRemaining5::
+	.string "不过除我之外还有7个强训练家！$"
 # 457 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 458 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are three items…$"
+BattlePyramid_Text_SixTrainersRemaining1::
 # 459 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你真是太棒了！\p"
 # 460 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoItemsRemaining5::
+	.string "不过除我之外还有6个强训练家！$"
 # 461 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 462 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are two items…$"
+BattlePyramid_Text_FiveTrainersRemaining1::
 # 463 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你真是太棒了！\p"
 # 464 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneItemRemaining5::
+	.string "不过除我之外还有5个强训练家！$"
 # 465 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 466 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there is one item…$"
+BattlePyramid_Text_FourTrainersRemaining1::
 # 467 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你真是太棒了！\p"
 # 468 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroItemsRemaining5::
+	.string "不过除我之外还有4个强训练家！$"
 # 469 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "On this floor of the PYRAMID,\n"
+
 # 470 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I hear there are no items…$"
+BattlePyramid_Text_ThreeTrainersRemaining1::
 # 471 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你真是太棒了！\p"
 # 472 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_EightItemsRemaining6::
+	.string "不过除我之外还有3个强训练家！$"
 # 473 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 474 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are eight more\n"
-# 475 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 476 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 474 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_TwoTrainersRemaining1::
+# 475 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你真是太棒了！\p"
+# 476 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "不过除我之外还有2个强训练家！$"
 # 477 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenItemsRemaining6::
+
 # 478 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
+BattlePyramid_Text_OneTrainersRemaining1::
 # 479 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are seven more\n"
+	.string "你真是太棒了！\p"
 # 480 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
+	.string "不过除我之外还有1个强训练家！$"
 # 481 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 482 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixItemsRemaining6::
-# 483 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 484 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are six more\n"
-# 485 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 486 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 487 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveItemsRemaining6::
-# 488 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 489 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are five more\n"
-# 490 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 491 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 492 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourItemsRemaining6::
-# 493 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 494 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are four more\n"
-# 495 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 496 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 497 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeItemsRemaining6::
-# 498 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 499 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are three more\n"
-# 500 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 501 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 502 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoItemsRemaining6::
-# 503 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 504 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are two more\n"
-# 505 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 506 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 507 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneItemRemaining6::
-# 508 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 509 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there is one more\n"
-# 510 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "item on this floor.$"
-# 511 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 512 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroItemsRemaining6::
-# 513 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Have you collected any items?\p"
-# 514 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I believe there are no more\n"
-# 515 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "items on this floor.$"
-# 516 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 517 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenTrainersRemaining1::
-# 518 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 519 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still seven tough\n"
-# 520 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 521 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 522 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixTrainersRemaining1::
-# 523 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 524 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still six tough\n"
-# 525 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 526 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 527 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveTrainersRemaining1::
-# 528 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 529 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still five tough\n"
-# 530 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 531 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 532 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourTrainersRemaining1::
-# 533 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 534 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still four tough\n"
-# 535 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 536 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 537 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeTrainersRemaining1::
-# 538 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 539 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still three tough\n"
-# 540 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 541 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 542 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoTrainersRemaining1::
-# 543 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 544 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are still two tough\n"
-# 545 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家S other than me!$"
-# 546 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 547 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneTrainersRemaining1::
-# 548 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 549 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there's still one tough\n"
-# 550 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "训练家 other than me!$"
-# 551 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 552 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining1::
-# 553 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You were really awesome!\p"
-# 554 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There's no one left that\n"
-# 555 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "can beat you!$"
-# 556 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 483 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你真是太棒了！\p"
+# 484 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "已经没人能打败你了！$"
+# 485 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 557 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 486 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SevenTrainersRemaining2::
-# 558 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
-# 559 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are seven 训练家S left!\n"
-# 560 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
-# 561 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 487 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 488 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有7个训练家！\n"
+# 489 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 490 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 562 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 491 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining2::
-# 563 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
-# 564 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are six 训练家S left!\n"
-# 565 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
-# 566 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 492 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 493 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有6个训练家！\n"
+# 494 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 495 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 567 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 496 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining2::
-# 568 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
-# 569 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are five 训练家S left!\n"
-# 570 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
-# 571 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 497 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 498 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有5个训练家！\n"
+# 499 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 500 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 572 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 501 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining2::
-# 573 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
-# 574 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are four 训练家S left!\n"
-# 575 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
-# 576 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 502 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 503 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有4个训练家！\n"
+# 504 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 505 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 577 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 506 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining2::
+# 507 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 508 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有3个训练家！\n"
+# 509 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 510 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 511 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_TwoTrainersRemaining2::
+# 512 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 513 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有2个训练家！\n"
+# 514 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 515 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 516 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_OneTrainersRemaining2::
+# 517 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 518 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可还有1个训练家！\n"
+# 519 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "总会有人让你吃瘪的！$"
+# 520 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 521 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ZeroTrainersRemaining2::
+# 522 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "真让人不甘心！\p"
+# 523 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可已经没有训练家\n"
+# 524 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "能挑战你了！$"
+# 525 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 526 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SevenTrainersRemaining3::
+# 527 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 528 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有7个训练家。\n"
+# 529 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 530 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 531 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SixTrainersRemaining3::
+# 532 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 533 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有6个训练家。\n"
+# 534 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 535 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 536 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FiveTrainersRemaining3::
+# 537 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 538 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有5个训练家。\n"
+# 539 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 540 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 541 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FourTrainersRemaining3::
+# 542 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 543 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有4个训练家。\n"
+# 544 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 545 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 546 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ThreeTrainersRemaining3::
+# 547 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 548 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有3个训练家。\n"
+# 549 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 550 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 551 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_TwoTrainersRemaining3::
+# 552 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 553 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有2个训练家。\n"
+# 554 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 555 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 556 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_OneTrainersRemaining3::
+# 557 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 558 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "可这一层还有1个训练家。\n"
+# 559 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能全打赢吗？$"
+# 560 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 561 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ZeroTrainersRemaining3::
+# 562 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "那真是厉害！\p"
+# 563 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你已经打赢这一层\n"
+# 564 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "所有训练家了。$"
+# 565 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 566 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SevenTrainersRemaining4::
+# 567 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "也许你能把这一层剩下的\n"
+# 568 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "7个训练家全扫掉。$"
+# 569 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 570 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_SixTrainersRemaining4::
+# 571 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "也许你能把这一层剩下的\n"
+# 572 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "6个训练家全扫掉。$"
+# 573 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
+# 574 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_FiveTrainersRemaining4::
+# 575 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "也许你能把这一层剩下的\n"
+# 576 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "5个训练家全扫掉。$"
+# 577 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+
 # 578 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
+BattlePyramid_Text_FourTrainersRemaining4::
 # 579 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are three 训练家S left!\n"
+	.string "也许你能把这一层剩下的\n"
 # 580 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
+	.string "4个训练家全扫掉。$"
 # 581 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 582 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoTrainersRemaining2::
+BattlePyramid_Text_ThreeTrainersRemaining4::
 # 583 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
+	.string "也许你能把这一层剩下的\n"
 # 584 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are two 训练家S left!\n"
+	.string "3个训练家全扫掉。$"
 # 585 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Someone will humble you!$"
+
 # 586 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+BattlePyramid_Text_TwoTrainersRemaining4::
 # 587 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneTrainersRemaining2::
+	.string "也许你能把这一层剩下的\n"
 # 588 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
+	.string "2个训练家全扫掉。$"
 # 589 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there's one 训练家 left!\n"
+
 # 590 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "I'm sure you will be humbled!$"
+BattlePyramid_Text_OneTrainersRemaining4::
 # 591 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "也许你能把这一层剩下的\n"
 # 592 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroTrainersRemaining2::
+	.string "1个训练家全扫掉。$"
 # 593 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "This is so upsetting!\p"
-# 594 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are no more 训练家S\n"
-# 595 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "who can engage you!$"
-# 596 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 594 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ZeroTrainersRemaining4::
+# 595 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "现在已经没有一个人\n"
+# 596 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "能打败你了……$"
 # 597 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenTrainersRemaining3::
+
 # 598 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
+BattlePyramid_Text_SevenTrainersRemaining5::
 # 599 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are seven more 训练家S\n"
+	.string "你也许有实力打败\n"
 # 600 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them all?$"
+	.string "剩下的7个高手训练家。$"
 # 601 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 602 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixTrainersRemaining3::
+BattlePyramid_Text_SixTrainersRemaining5::
 # 603 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
+	.string "你也许有实力打败\n"
 # 604 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are six more 训练家S\n"
+	.string "剩下的6个高手训练家。$"
 # 605 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them all?$"
+
 # 606 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+BattlePyramid_Text_FiveTrainersRemaining5::
 # 607 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveTrainersRemaining3::
+	.string "你也许有实力打败\n"
 # 608 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
+	.string "剩下的5个高手训练家。$"
 # 609 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are five more 训练家S\n"
+
 # 610 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them all?$"
+BattlePyramid_Text_FourTrainersRemaining5::
 # 611 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
+	.string "你也许有实力打败\n"
 # 612 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourTrainersRemaining3::
+	.string "剩下的4个高手训练家。$"
 # 613 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
-# 614 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are four more 训练家S\n"
-# 615 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them all?$"
-# 616 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
+# 614 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+BattlePyramid_Text_ThreeTrainersRemaining5::
+# 615 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你也许有实力打败\n"
+# 616 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "剩下的3个高手训练家。$"
 # 617 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeTrainersRemaining3::
+
 # 618 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
+BattlePyramid_Text_TwoTrainersRemaining5::
 # 619 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are three more 训练家S\n"
+	.string "你也许有实力打败\n"
 # 620 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them all?$"
+	.string "剩下的2个高手训练家。$"
 # 621 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 622 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoTrainersRemaining3::
-# 623 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
-# 624 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there are two more 训练家S\n"
-# 625 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you beat them both?$"
-# 626 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 627 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneTrainersRemaining3::
-# 628 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
-# 629 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "But there's still one more 训练家\n"
-# 630 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor. Can you prevail?$"
-# 631 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 632 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroTrainersRemaining3::
-# 633 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "That's pretty impressive!\p"
-# 634 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You've gone through all the 训练家S\n"
-# 635 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "on this floor.$"
-# 636 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 637 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenTrainersRemaining4::
-# 638 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 639 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the seven 训练家S left on this floor.$"
-# 640 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 641 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixTrainersRemaining4::
-# 642 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 643 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the six 训练家S left on this floor.$"
-# 644 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 645 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveTrainersRemaining4::
-# 646 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 647 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the five 训练家S left on this floor.$"
-# 648 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 649 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourTrainersRemaining4::
-# 650 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 651 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the four 训练家S left on this floor.$"
-# 652 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 653 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeTrainersRemaining4::
-# 654 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 655 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the three 训练家S left on this floor.$"
-# 656 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 657 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoTrainersRemaining4::
-# 658 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could sweep through\n"
-# 659 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the two 训练家S left on this floor.$"
-# 660 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 661 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_OneTrainersRemaining4::
-# 662 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Maybe you could complete your sweep\n"
-# 663 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "with the one 训练家 left on this floor.$"
-# 664 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 665 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ZeroTrainersRemaining4::
-# 666 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There isn't a single person left who\n"
-# 667 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "can defeat you now…$"
-# 668 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 669 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SevenTrainersRemaining5::
-# 670 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 671 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the seven expert 训练家S who remain.$"
-# 672 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 673 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_SixTrainersRemaining5::
-# 674 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 675 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the six expert 训练家S who remain.$"
-# 676 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 677 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FiveTrainersRemaining5::
-# 678 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 679 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the five expert 训练家S who remain.$"
-# 680 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 681 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_FourTrainersRemaining5::
-# 682 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 683 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the four expert 训练家S who remain.$"
-# 684 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 685 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_ThreeTrainersRemaining5::
-# 686 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 687 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the three expert 训练家S who remain.$"
-# 688 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 689 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-BattlePyramid_Text_TwoTrainersRemaining5::
-# 690 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 691 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the two expert 训练家S who remain.$"
-# 692 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-
-# 693 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining5::
-# 694 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "You may have what it takes to beat\n"
-# 695 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the one expert 训练家 who remains.$"
-# 696 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 623 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你也许有实力打败\n"
+# 624 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "剩下的1个高手训练家。$"
+# 625 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 697 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 626 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining5::
-# 698 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Your skills are beyond reproach.\p"
-# 699 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There are no more 训练家S here\n"
-# 700 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "who have any chance of beating you.$"
-# 701 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 627 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你的本领无可挑剔。\p"
+# 628 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "这里已经没有训练家\n"
+# 629 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "有机会打败你了。$"
+# 630 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 702 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 631 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SevenTrainersRemaining6::
-# 703 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 704 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the seven remaining 训练家S?$"
-# 705 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 632 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 633 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的7个训练家吗？$"
+# 634 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 706 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 635 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining6::
-# 707 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 708 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the six remaining 训练家S?$"
-# 709 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 636 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 637 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的6个训练家吗？$"
+# 638 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 710 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 639 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining6::
-# 711 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 712 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the five remaining 训练家S?$"
-# 713 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 640 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 641 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的5个训练家吗？$"
+# 642 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 714 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 643 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining6::
-# 715 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 716 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the four remaining 训练家S?$"
-# 717 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 644 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 645 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的4个训练家吗？$"
+# 646 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 718 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 647 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining6::
-# 719 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 720 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the three remaining 训练家S?$"
-# 721 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 648 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 649 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的3个训练家吗？$"
+# 650 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 722 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 651 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoTrainersRemaining6::
-# 723 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 724 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the two remaining 训练家S?$"
-# 725 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 652 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 653 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的2个训练家吗？$"
+# 654 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 726 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 655 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining6::
-# 727 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "Can you keep winning against\n"
-# 728 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "the last remaining 训练家?$"
-# 729 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 656 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "你能继续赢下去，\n"
+# 657 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "打败剩下的1个训练家吗？$"
+# 658 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
-# 730 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+# 659 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining6::
-# 731 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "There aren't any 训练家S left that\n"
-# 732 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	.string "can take you on now…$"
+# 660 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "现在已经没有训练家\n"
+# 661 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+	.string "能跟你交手了……$"

@@ -24,20 +24,20 @@ AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
 	end
 
 AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
-	.string "I'm investigating this ship on behalf\n"
-	.string "of Capt. Stern.\p"
-	.string "He also asked me to find a scanner,\n"
-	.string "but I haven't had any success…$"
+	.string "我是替史登船长来\n"
+	.string "调查这条船的。\p"
+	.string "他也让我找一台扫描仪，\n"
+	.string "可我没什么收获……$"
 
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
-	.string "Oh! That's a scanner!\p"
-	.string "Listen, can I get you to deliver that\n"
-	.string "to Capt. Stern?\p"
-	.string "I want to investigate this ship a\n"
-	.string "little more.$"
+	.string "哦！那是扫描仪！\p"
+	.string "听我说，你能把这个\n"
+	.string "交给史登船长吗？\p"
+	.string "我还想再调查\n"
+	.string "这条船一会儿。$"
 
 AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
-	.string "This ship is called S.S. Cactus.\n"
-	.string "It seems to be from an earlier era.$"
+	.string "这条船叫仙人掌号。\n"
+	.string "好像是更早年代的船。$"
 
 `

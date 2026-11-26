@@ -91,84 +91,84 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian::
 # 46 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
 # 47 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 48 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 49 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "“Trick Master is my life.”\n"
+	.string "“机关大师就是我的命。”\n"
 # 50 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "… … … … … … … …\p"
 # 51 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 52 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 53 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SophiaIntro:
 # 54 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "When I heard there was a strange\n"
+	.string "听说有间怪房子，\n"
 # 55 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "house, I had to check it out.$"
+	.string "我就非得来看看。$"
 # 56 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 57 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
 # 58 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "I've discovered a tough 训练家!$"
+	.string "我发现了一个强\n"
 # 59 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-
+	.string "训练家！$"
 # 60 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
+
 # 61 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "I'm sure having a good time checking\n"
+Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
 # 62 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "this place out.\p"
+	.string "来这儿看看真好玩。\p"
 # 63 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "It's a challenge I've found worth\n"
+	.string "这挑战值得我再\n"
 # 64 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "repeating!$"
+	.string "来一遍！$"
 # 65 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 66 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_BennyIntro:
 # 67 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "Maybe I could get my Bird Pokémon\n"
+	.string "也许我可以让我的\n"
 # 68 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "to fly over the wall…$"
+	.string "鸟宝可梦飞过墙……$"
 # 69 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 70 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
 # 71 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "Gwaaah! I blew it!$"
+	.string "哇啊！我搞砸了！$"
 # 72 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 73 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_BennyPostBattle:
 # 74 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "Ehehehe… I guess I lost because\n"
+	.string "呵呵呵……我大概是因为\n"
 # 75 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "I was trying to cheat.$"
+	.string "想作弊才输的。$"
 # 76 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 77 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SebastianIntro:
 # 78 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "I'm getting dizzy from these rotating\n"
+	.string "这些旋转门转得我\n"
 # 79 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "doors…$"
+	.string "头晕……$"
 # 80 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 81 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SebastianDefeat:
 # 82 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "Everything's spinning around and\n"
+	.string "什么都在转啊转。\n"
 # 83 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "around. I can't take this anymore…$"
+	.string "我受不了了……$"
 # 84 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 85 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle:
 # 86 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "You don't seem to be affected at all.\n"
+	.string "你好像一点都没受影响。\n"
 # 87 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "Or do you have your poker face on?$"
+	.string "还是你在装没事？$"

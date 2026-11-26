@@ -805,602 +805,616 @@ MossdeepCity_Gym_EventScript_Kangaskhan::
 # 403 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_Text_GymGuideAdvice:
 # 404 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Yo, how's it going, 冠军-bound\n"
+	.string "哟，冠军候补{PLAYER}，\n"
 # 405 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "{PLAYER}?\p"
+	.string "近况如何？\p"
 # 406 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "The Gym Leaders here use\n"
+	.string "这里的馆主使用\n"
 # 407 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "PSYCHIC-type Pokémon.\p"
+	.string "超能力属性宝可梦。\p"
 # 408 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "If you go up against them with\n"
+	.string "你要是用格斗或毒属性\n"
 # 409 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "FIGHTING- or POISON-type Pokémon,\l"
+	.string "宝可梦去挑战，\l"
 # 410 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "they'll inflict horrible damage!\p"
+	.string "会被打出可怕的伤害！\p"
 # 411 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Plus, they'll come at you with\n"
+	.string "而且他们还会用出色的\n"
 # 412 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "outstanding combination attacks.\p"
+	.string "组合招式攻过来。\p"
 # 413 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "If you want to win, you'll need to show\n"
+	.string "想赢的话，你得让他们\n"
 # 414 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "them how tight you are with your\l"
+	.string "看到你和宝可梦多默契。\l"
 # 415 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Pokémon. Go for it!$"
+	.string "去吧！$"
 # 416 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 417 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_Text_GymGuidePostVictory:
 # 418 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Wow, you're astounding!\n"
+	.string "哇，你真厉害！\n"
 # 419 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You're one great 训练家!$"
+	.string "是个了不起的训练家！$"
 # 420 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 421 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_Text_PrestonIntro:
 # 422 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Battles hinge on the strength of your\n"
+	.string "对战胜负取决于你\n"
 # 423 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "spirit! The weak-spirited will never win!$"
+	.string "精神的强度！精神弱\l"
 # 424 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "的人永远赢不了！$"
 # 425 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_PrestonDefeat:
+
 # 426 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I lost!\n"
+MossdeepCity_Gym_Text_PrestonDefeat:
 # 427 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I must temper my spirit again!$"
+	.string "我输了！\n"
 # 428 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "我得重新磨练精神！$"
 # 429 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_PrestonPostBattle:
+
 # 430 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "The indecisive lose.\n"
+MossdeepCity_Gym_Text_PrestonPostBattle:
 # 431 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "That's my warning to you.$"
+	.string "犹豫的人会输。\n"
 # 432 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "这是我的忠告。$"
 # 433 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_VirgilIntro:
+
 # 434 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Let me see your talent!$"
+MossdeepCity_Gym_Text_VirgilIntro:
 # 435 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "让我看看你的才能！$"
 # 436 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_VirgilDefeat:
+
 # 437 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You possess spectacular talent!$"
+MossdeepCity_Gym_Text_VirgilDefeat:
 # 438 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "你有惊人的才能！$"
 # 439 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_VirgilPostBattle:
+
 # 440 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "If there are prodigies in the world,\n"
+MossdeepCity_Gym_Text_VirgilPostBattle:
 # 441 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "then our Gym Leaders are them!\p"
+	.string "世上如果说有神童，\n"
 # 442 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "However, you may be even more talented\n"
+	.string "那一定就是我们的馆主！\p"
 # 443 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "than them…$"
+	.string "不过，你可能比他们\n"
 # 444 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "更有才能……$"
 # 445 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_BlakeIntro:
+
 # 446 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Fufufufu… Watch me levitate a POKé\n"
+MossdeepCity_Gym_Text_BlakeIntro:
 # 447 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "BALL telekinetically!\p"
+	.string "呵呵呵呵……看我念力\n"
 # 448 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Wrooooooooaaaar!\n"
+	.string "把精灵球浮起来！\p"
 # 449 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "… … … … … … …\p"
+	.string "呜哦哦哦哦哦！\n"
 # 450 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Sometimes, I'm out of sync…$"
-# 451 "data/maps/MossdeepCity_Gym/scripts.pory"
-
-# 452 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_BlakeDefeat:
-# 453 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "My Pokémon battling skills are out\n"
-# 454 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "of sync, too!$"
-# 455 "data/maps/MossdeepCity_Gym/scripts.pory"
-
-# 456 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_BlakePostBattle:
-# 457 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "A 精灵球 was too heavy to lift\n"
-# 458 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "psychically. But this dust bunny…\p"
-# 459 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Whoooooooooooooooh!\n"
-# 460 "data/maps/MossdeepCity_Gym/scripts.pory"
 	.string "… … … … … …\p"
+# 451 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "有时候，我会\n"
+# 452 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "不太同步……$"
+# 453 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 454 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_BlakeDefeat:
+# 455 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "我的宝可梦对战技术\n"
+# 456 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "也不同步！$"
+# 457 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 458 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_BlakePostBattle:
+# 459 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "精灵球太重了，念力\n"
+# 460 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "举不起来。不过这团\l"
 # 461 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "No, I'm not cheating!\n"
+	.string "灰尘……\p"
 # 462 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I didn't blow on it! Honestly!$"
+	.string "呼哦哦哦哦哦！\n"
 # 463 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "… … … …\p"
 # 464 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_HannahIntro:
+	.string "不，我没作弊！\n"
 # 465 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "When you lose to me, don't be too hard\n"
+	.string "我没吹它！真的！$"
 # 466 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "on yourself.\p"
-# 467 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "It's not that you're weak--I'm just\n"
-# 468 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "too strong!$"
-# 469 "data/maps/MossdeepCity_Gym/scripts.pory"
 
+# 467 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_HannahIntro:
+# 468 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "你输给我的时候，别\n"
+# 469 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "太自责。\p"
 # 470 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_HannahDefeat:
+	.string "不是因为你弱——\n"
 # 471 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You're just too strong!$"
+	.string "只是我太强了！$"
 # 472 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 473 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_HannahPostBattle:
+MossdeepCity_Gym_Text_HannahDefeat:
 # 474 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I'm not going to get down on myself for\n"
+	.string "你实在太强了！$"
 # 475 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "losing. I just need to train harder.\p"
+
 # 476 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Positive thinking--that's my strong\n"
+MossdeepCity_Gym_Text_HannahPostBattle:
 # 477 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "point!$"
+	.string "我不会因为输了就\n"
 # 478 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "沮丧。我只是需要\l"
 # 479 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SamanthaIntro:
+	.string "更拼命地训练。\p"
 # 480 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I see it…\n"
+	.string "积极思考——\n"
 # 481 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I see your future…\p"
+	.string "这是我的强项！$"
 # 482 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "If you can beat me, I will tell you\n"
+
 # 483 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "your future!$"
+MossdeepCity_Gym_Text_SamanthaIntro:
 # 484 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "我看到了……\n"
 # 485 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SamanthaDefeat:
+	.string "我看到你的未来……\p"
 # 486 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I surrender!$"
+	.string "你要是能赢我，我就\n"
 # 487 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "告诉你你的未来！$"
 # 488 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SamanthaPostBattle:
+
 # 489 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You will wage a terrifically intense\n"
+MossdeepCity_Gym_Text_SamanthaDefeat:
 # 490 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "battle with our Gym Leaders…\p"
+	.string "我认输！$"
 # 491 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "The result…\n"
+
 # 492 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You won't hear it from me!$"
+MossdeepCity_Gym_Text_SamanthaPostBattle:
 # 493 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "你将和我们的馆主\n"
 # 494 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MauraIntro:
+	.string "打一场极其激烈的对战……\p"
 # 495 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "The roads you have traveled…\n"
+	.string "结果……\n"
 # 496 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "What you have experienced…\p"
+	.string "我不会告诉你的！$"
 # 497 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Come at me with everything you've\n"
+
 # 498 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "learned!$"
+MossdeepCity_Gym_Text_MauraIntro:
 # 499 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "你走过的路……\n"
 # 500 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MauraDefeat:
+	.string "你经历的事……\p"
 # 501 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You've traveled a path of greatness!$"
+	.string "用你学到的一切\n"
 # 502 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "来对付我吧！$"
 # 503 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MauraPostBattle:
-# 504 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "A bright future awaits those who have\n"
-# 505 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "worked diligently.\p"
-# 506 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "For those who lazed idly, there is\n"
-# 507 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "only despair at the end.\p"
-# 508 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "What goes around comes around…$"
-# 509 "data/maps/MossdeepCity_Gym/scripts.pory"
 
+# 504 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_MauraDefeat:
+# 505 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "你走过了伟大之路！$"
+# 506 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 507 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_MauraPostBattle:
+# 508 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "勤勉的人前方有光明的\n"
+# 509 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "未来。\p"
 # 510 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SylviaIntro:
+	.string "偷懒的人，终点只有\n"
 # 511 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Even at the risk of life, I will win\n"
+	.string "绝望。\p"
 # 512 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "this battle!$"
+	.string "种什么因，得什么果……$"
 # 513 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 514 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SylviaDefeat:
+MossdeepCity_Gym_Text_SylviaIntro:
 # 515 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "What you do…\n"
+	.string "就算赌上性命，我也要\n"
 # 516 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "It horrifies me…$"
+	.string "赢下这场对战！$"
 # 517 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 518 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_SylviaPostBattle:
+MossdeepCity_Gym_Text_SylviaDefeat:
 # 519 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "How dare you beat me…\p"
+	.string "你做的事……\n"
 # 520 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "It won't be my fault if something\n"
+	.string "让我毛骨悚然……$"
 # 521 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "horrible befalls you…$"
+
 # 522 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_SylviaPostBattle:
 # 523 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NateIntro:
+	.string "你竟敢赢我……\p"
 # 524 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Hohoho.\p"
+	.string "你要是遇上什么可怕\n"
 # 525 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You need me to show you how tenacious\n"
+	.string "的事，可不怪我……$"
 # 526 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "the PSYCHIC type can be.$"
-# 527 "data/maps/MossdeepCity_Gym/scripts.pory"
 
+# 527 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_NateIntro:
 # 528 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NateDefeat:
+	.string "呵呵呵。\p"
 # 529 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Oh! My, my!\n"
+	.string "得让你看看超能力属性\n"
 # 530 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Your battle style is fantastic!$"
+	.string "有多难缠。$"
 # 531 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 532 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NatePostBattle:
+MossdeepCity_Gym_Text_NateDefeat:
 # 533 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I… I don't let defeat rattle m-me,\n"
+	.string "哦！哎呀呀！\n"
 # 534 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "however b-badly.$"
+	.string "你的战斗方式太棒了！$"
 # 535 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 536 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_KathleenIntro:
+MossdeepCity_Gym_Text_NatePostBattle:
 # 537 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Let me show you a perfectly awful,\n"
+	.string "我……我不会因为输\n"
 # 538 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "horrifying time!$"
+	.string "得多惨就……就慌的。$"
 # 539 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 540 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_KathleenDefeat:
+MossdeepCity_Gym_Text_KathleenIntro:
 # 541 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "N-nooooo!$"
+	.string "让我给你看一段\n"
 # 542 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "绝顶糟糕、可怕的时光！$"
 # 543 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_KathleenPostBattle:
+
 # 544 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Your vitality is contagious!\n"
+MossdeepCity_Gym_Text_KathleenDefeat:
 # 545 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Get away from me quickly!$"
+	.string "不——要啊！$"
 # 546 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 547 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_CliffordIntro:
+MossdeepCity_Gym_Text_KathleenPostBattle:
 # 548 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "I may be past my prime, but I suggest\n"
+	.string "你的活力会传染！\n"
 # 549 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "you not patronize me.$"
+	.string "快离我远点！$"
 # 550 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 551 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_CliffordDefeat:
+MossdeepCity_Gym_Text_CliffordIntro:
 # 552 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Ah, you overflow with the power\n"
+	.string "我可能过了巅峰期，\n"
 # 553 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "of youth!$"
+	.string "不过劝你别小看我。$"
 # 554 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 555 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_CliffordPostBattle:
+MossdeepCity_Gym_Text_CliffordDefeat:
 # 556 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "It seems that I could not overcome\n"
+	.string "啊，你身上满溢着\n"
 # 557 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "your youthful energy.$"
+	.string "青春的力量！$"
 # 558 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 559 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MaceyIntro:
+MossdeepCity_Gym_Text_CliffordPostBattle:
 # 560 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You're not getting through to the end!\n"
+	.string "看来我敌不过你的\n"
 # 561 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Not if I can help it!$"
+	.string "年轻活力。$"
 # 562 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 563 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MaceyDefeat:
+MossdeepCity_Gym_Text_MaceyIntro:
 # 564 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "How could you be so ludicrously\n"
+	.string "你别想走到最后！\n"
 # 565 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "strong?$"
+	.string "只要我拦得住！$"
 # 566 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 567 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_MaceyPostBattle:
+MossdeepCity_Gym_Text_MaceyDefeat:
 # 568 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Humph! You may be strong, but you're\n"
+	.string "你怎么能强得这么\n"
 # 569 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "not suitable for the PSYCHIC type!\p"
+	.string "荒唐？$"
 # 570 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "The way you battle is somehow brutal!$"
+
 # 571 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_MaceyPostBattle:
 # 572 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NicholasIntro:
+	.string "哼！你也许很强，可不\n"
 # 573 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Wroooar! Have a taste of my super\n"
+	.string "适合超能力属性！\p"
 # 574 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Pokémon hard-battling power!$"
+	.string "你的战斗方式\n"
 # 575 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "莫名野蛮！$"
 # 576 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NicholasDefeat:
+
 # 577 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Oh!\n"
+MossdeepCity_Gym_Text_NicholasIntro:
 # 578 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Done in!$"
+	.string "呜嗷！尝尝我宝可梦\n"
 # 579 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "超强硬战之力！$"
 # 580 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_NicholasPostBattle:
+
 # 581 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "All right! I think I'll develop a special\n"
+MossdeepCity_Gym_Text_NicholasDefeat:
 # 582 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "invincible Pokémon power next.$"
+	.string "哦！\n"
 # 583 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "完蛋了！$"
 # 584 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaIntro:
-# 585 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Hehehe… Were you surprised?\n"
-# 586 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Fufufu… Were you surprised?\p"
-# 587 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: That there are two Gym Leaders?\n"
-# 588 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: That there are two Gym Leaders?\p"
-# 589 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: We're twins!\n"
-# 590 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: We're twins!\p"
-# 591 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: We don't need to talk because…\n"
-# 592 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: We can each determine what…\p"
-# 593 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: The other is thinking…\n"
-# 594 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: All in our minds!\p"
-# 595 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: This combination of ours…\n"
-# 596 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Can you beat it?$"
-# 597 "data/maps/MossdeepCity_Gym/scripts.pory"
 
+# 585 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_NicholasPostBattle:
+# 586 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "好！我想我接下来\n"
+# 587 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "要开发一种无敌的\l"
+# 588 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "宝可梦力量。$"
+# 589 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 590 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_TateAndLizaIntro:
+# 591 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小枫：嘿嘿嘿……你吃惊吗？\n"
+# 592 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小南：呵呵呵……你吃惊吗？\p"
+# 593 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小枫：因为馆主有两个人？\n"
+# 594 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小南：因为馆主有两个人？\p"
+# 595 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小枫：我们是双胞胎！\n"
+# 596 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小南：我们是双胞胎！\p"
+# 597 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小枫：不用说话，因为……\n"
 # 598 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaDefeat:
+	.string "小南：我们能各自知道……\p"
 # 599 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: What?! Our combination…\n"
+	.string "小枫：对方在想什么……\n"
 # 600 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Was shattered!\p"
+	.string "小南：全在心里！\p"
 # 601 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: It can't be helped. You've won…\n"
+	.string "小枫：我们这种组合……\n"
 # 602 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: So, in recognition, take this.$"
+	.string "小南：你打得过吗？$"
 # 603 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 604 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateDefeat:
+MossdeepCity_Gym_Text_TateAndLizaDefeat:
 # 605 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: What?! Our combination\n"
+	.string "小枫：什么？！\n"
 # 606 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Was shattered!$"
+	.string "小枫：我们的组合被打碎了！\p"
 # 607 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：没办法，你赢了……\n"
 # 608 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_LizaDefeat:
+	.string "小南：那么，作为认可，\l"
 # 609 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: It can't be helped, you've won!\n"
+	.string "收下这个。$"
 # 610 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "So, in recognition, take this.$"
+
 # 611 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_TateDefeat:
 # 612 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_ReceivedMindBadge:
+	.string "小枫：什么？！我们的组合\n"
 # 613 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "{PLAYER} received the Mind Badge\n"
+	.string "被打碎了！$"
 # 614 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "from Tate and Liza.$"
+
 # 615 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_LizaDefeat:
 # 616 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
+	.string "小南：没办法，你赢了！\n"
 # 617 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: The Mind Badge lets you use the\n"
+	.string "那么，作为认可，收下这个。$"
 # 618 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "HM move Dive outside of battle.\p"
+
 # 619 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: You should also take this, too.$"
+MossdeepCity_Gym_Text_ReceivedMindBadge:
 # 620 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "从小枫和小南那里\n"
 # 621 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_ExplainCalmMind:
+	.string "得到了心灵徽章。$"
 # 622 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: That TM55 contains…\n"
+
 # 623 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Expanding Force!\p"
+MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 # 624 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: It does way more damage...\n"
+	.string "小南：心灵徽章能让你在\n"
 # 625 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: In Psychic Terrain!\p"
+	.string "战斗外使用秘传潜水。\p"
 # 626 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: And that TM106 contains...\n"
+	.string "小枫：你也该收下这个。$"
 # 627 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Trick Room!\p"
+
 # 628 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: They're both great TMs…\n"
+MossdeepCity_Gym_Text_ExplainCalmMind:
 # 629 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: For Psychic Pokémon!\p"
+	.string "小枫：那个学习器55里是……\n"
 # 630 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "… … … … … …$"
+	.string "小南：广域战力！\p"
 # 631 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小枫：它威力大得多……\n"
 # 632 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_RegisteredTateAndLiza:
+	.string "小南：在精神场地上！\p"
 # 633 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Registered Gym Leaders Tate & Liza\n"
+	.string "小枫：还有学习器106里是……\n"
 # 634 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "in the PokéNav.$"
+	.string "小南：戏法空间！\p"
 # 635 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小枫：两个都是好学习器……\n"
 # 636 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaPostBattle:
+	.string "小南：给超能宝可梦用！\p"
 # 637 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Looks like the bond between you\n"
+	.string "… … … … … …$"
 # 638 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "and your Pokémon is far stronger than\l"
+
 # 639 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "the bond that we share as twins.\p"
+MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 # 640 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: You will become even stronger!\n"
+	.string "已把馆主小枫和小南\n"
 # 641 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "We've battled you, so we know.$"
+	.string "登记进宝可梦导航。$"
 # 642 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 643 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
+MossdeepCity_Gym_Text_TateAndLizaPostBattle:
 # 644 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Hehehe… Were you surprised?\p"
+	.string "小枫：看来你和宝可梦的\n"
 # 645 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: That there are two Gym Leaders?\p"
+	.string "羁绊，比我们双胞胎的\l"
 # 646 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Oops, you have only one…\n"
+	.string "羁绊还要强得多。\p"
 # 647 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Pokémon that can battle.\p"
+	.string "小南：你会变得更强！\n"
 # 648 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: We can't battle that way!\p"
+	.string "我们和你打过，所以知道。$"
 # 649 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: If you want to challenge us,\n"
+
 # 650 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "bring some more Pokémon.$"
+MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 # 651 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小枫：嘿嘿嘿……你吃惊吗？\p"
 # 652 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_GymLeadersPostVictory:
+	.string "小南：因为馆主有两个人？\p"
 # 653 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Looks like we need...\n"
+	.string "小枫：哎呀，你只有一只……\n"
 # 654 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: some more practice?\l"
+	.string "小南：能战斗的宝可梦。\p"
 # 655 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Yea... that is what I was thinking..$"
+	.string "小枫：这样可没法打！\p"
 # 656 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：想挑战我们，就多\n"
 # 657 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_GymStatue:
+	.string "带几只宝可梦来。$"
 # 658 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Mossdeep City Pokémon Gym$"
+
 # 659 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_GymLeadersPostVictory:
 # 660 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_GymStatueCertified:
+	.string "小枫：看来我们需要……\n"
 # 661 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Mossdeep City Pokémon Gym\p"
+	.string "小南：再多练习？\l"
 # 662 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza and Tate's Certified Trainers:\n"
+	.string "小枫：嗯……我也这么想……$"
 # 663 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "{PLAYER}$"
+
 # 664 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+MossdeepCity_Gym_Text_GymStatue:
 # 665 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaPreRematch:
+	.string "绿岭市宝可梦道馆$"
 # 666 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Pokémon…\n"
+
 # 667 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Pokémon…\p"
+MossdeepCity_Gym_Text_GymStatueCertified:
 # 668 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: By changing the party's mix…\n"
+	.string "绿岭市宝可梦道馆\p"
 # 669 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: The battle style changes.\p"
+	.string "小南和小枫认定的训练家：\n"
 # 670 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: But me…\n"
+	.string "{PLAYER}$"
 # 671 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: But me…\p"
+
 # 672 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: I'll always be with Tate!\n"
+MossdeepCity_Gym_Text_TateAndLizaPreRematch:
 # 673 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: I'll always be with Tate!\p"
+	.string "小枫：宝可梦……\n"
 # 674 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: Our combination…\n"
+	.string "小南：宝可梦……\p"
 # 675 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: We'll show you again and again!$"
+	.string "小枫：改变队伍的搭配……\n"
 # 676 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：战斗风格就会变。\p"
 # 677 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
+	.string "小枫：可是我……\n"
 # 678 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: You and your Pokémon…\n"
+	.string "小南：可是我……\p"
 # 679 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: It's as if you were siblings!$"
+	.string "小枫：我永远和小南在一起！\n"
 # 680 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：我永远和小枫在一起！\p"
 # 681 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaPostRematch:
+	.string "小枫：我们的组合……\n"
 # 682 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: You can knock us down,\n"
+	.string "小南：我们会一遍遍给你看！$"
 # 683 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "but we'll never stay down!\p"
+
 # 684 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Because the two of us,\n"
+MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
 # 685 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "we always support each other!$"
+	.string "小枫：你和你的宝可梦……\n"
 # 686 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：就像兄弟姐妹一样！$"
 # 687 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
+
 # 688 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: You're back again…\n"
+MossdeepCity_Gym_Text_TateAndLizaPostRematch:
 # 689 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: You're back again…\p"
+	.string "小枫：你可以打倒我们，\n"
 # 690 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: To give us a rematch.\n"
+	.string "但我们永远不会倒下！\p"
 # 691 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: To give us a rematch.\p"
+	.string "小南：因为我们两个，\n"
 # 692 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: But…\n"
+	.string "永远互相扶持！$"
 # 693 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: For our match…\p"
+
 # 694 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: You brought just one Pokémon!\n"
+MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 # 695 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: You brought just one Pokémon!\p"
+	.string "小枫：你又回来了……\n"
 # 696 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Tate: We need you to bring at least…\n"
+	.string "小南：你又回来了……\p"
 # 697 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Liza: Two Pokémon when you come back.$"
+	.string "小枫：来和我们再战。\n"
 # 698 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小南：来和我们再战。\p"
 # 699 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_Alakazam:
+	.string "小枫：可是……\n"
 # 700 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Alakazam: Pishhhhhh bmmmmmm!$"
+	.string "小南：为了对战……\p"
 # 701 "data/maps/MossdeepCity_Gym/scripts.pory"
-
+	.string "小枫：你只带了一只宝可梦！\n"
 # 702 "data/maps/MossdeepCity_Gym/scripts.pory"
-MossdeepCity_Gym_Text_Kangaskhan:
+	.string "小南：你只带了一只宝可梦！\p"
 # 703 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Kangaskhan: Berrrrr rerhhhh!$"
+	.string "小枫：回来时至少得带……\n"
+# 704 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "小南：两只宝可梦。$"
+# 705 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 706 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_Alakazam:
+# 707 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "胡地：咿咿咿呜！$"
+# 708 "data/maps/MossdeepCity_Gym/scripts.pory"
+
+# 709 "data/maps/MossdeepCity_Gym/scripts.pory"
+MossdeepCity_Gym_Text_Kangaskhan:
+# 710 "data/maps/MossdeepCity_Gym/scripts.pory"
+	.string "袋兽：呜呜呜吼！$"

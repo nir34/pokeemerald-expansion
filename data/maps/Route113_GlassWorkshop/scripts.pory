@@ -22,19 +22,21 @@ Route113_GlassWorkshop_EventScript_NinjaBoy::
 	end
 
 Route113_GlassWorkshop_House2_Text_WantYouToHaveScopeLens:
-	.string "I gave up glass-blowing a long time ago.\p"
-	.string "It used to be a fun hobby with all this\n"
-	.string "soot around here, but I figured it was\l"
-	.string "time to move on.\p"
-	.string "Here, you can have this instead\n"
-	.string "of my old Soot Sack.$"
+	.string "我很久以前就不做\n"
+	.string "玻璃吹制了。\p"
+	.string "周围到处是煤灰的时候，\n"
+	.string "那还是个有趣的爱好，\l"
+	.string "不过我觉得该往前走了。\p"
+	.string "来，这个给你，\n"
+	.string "代替我那个旧集灰袋。$"
 
 Route113_GlassWorkshop_House2_Text_ExplainScopeLens:
-	.string "The Scope Lens raises the chances of\n"
-	.string "getting a Critical Hit. It can be pretty\l"
-	.string "wicked!$"
+	.string "焦点镜能提高击中\n"
+	.string "要害的几率。\l"
+	.string "挺厉害的吧！$"
 
 Route113_GlassWorkshop_House2_Text_NoMoreSoot:
-	.string "No more soot! Only crits!$"
+	.string "再没有煤灰了！\n"
+	.string "只有要害！$"
 
 `

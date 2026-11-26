@@ -48,7 +48,7 @@
 /*
     NOTE: This file is large. Some general groups of functions have
           been labeled with commented headers to make navigation easier.
-          Search for "SECTION:" to locate them. These sections are not
+          Search for "区域：" to locate them. These sections are not
           hard and fast rules, but give a basic idea of where certain
           types of functions are likely located.
 */
@@ -314,7 +314,7 @@ enum {
 };
 
 // Modes for selecting and moving Pokémon in the box.
-// "MULTIPLE" mode allows up to an entire box to be
+// "多个" mode allows up to an entire box to be
 // picked up at once by pressing Select then holding
 // down the A button. While holding A down, the player
 // may move the cursor around to select multiple Pokémon.
@@ -340,7 +340,7 @@ enum {
 
 // IDs for TilemapUtil
 enum {
-    TILEMAPID_PKMN_DATA, // The "Pkmn Data" text at the top of the display
+    TILEMAPID_PKMN_DATA, // The "宝可梦资料" text at the top of the display
     TILEMAPID_PARTY_MENU,
     TILEMAPID_CLOSE_BUTTON,
     TILEMAPID_COUNT
@@ -893,20 +893,20 @@ static void UnkUtil_DmaRun(struct UnkUtilData *);
 void SetMonFormPSS(struct BoxPokemon *boxMon);
 void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
-static const u8 gText_JustOnePkmn[] = _("There is just one Pokémon with you.");
-static const u8 gText_PartyFull[] = _("Your party is full!");
-static const u8 gText_Box[] = _("Box");
+static const u8 gText_JustOnePkmn[] = _("你身边只有一只宝可梦。");
+static const u8 gText_PartyFull[] = _("你的队伍已满！");
+static const u8 gText_Box[] = _("盒子");
 
 struct {
     const u8 *text;
     const u8 *desc;
 } static const sMainMenuTexts[OPTIONS_COUNT] =
 {
-    [OPTION_WITHDRAW]   = {COMPOUND_STRING("Withdraw Pokémon"), COMPOUND_STRING("Move Pokémon stored in Boxes to\nyour party.")},
-    [OPTION_DEPOSIT]    = {COMPOUND_STRING("Deposit Pokémon"),  COMPOUND_STRING("Store Pokémon in your party in Boxes.")},
-    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("Move Pokémon"),     COMPOUND_STRING("Organize the Pokémon in Boxes and\nin your party.")},
-    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("Move Items"),       COMPOUND_STRING("Move items held by any Pokémon\nin a Box or your party.")},
-    [OPTION_EXIT]       = {COMPOUND_STRING("See Ya!"),          COMPOUND_STRING("Return to the previous menu.")}
+    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"), COMPOUND_STRING("把盒子里存放的宝可梦\n移到你的队伍中。")},
+    [OPTION_DEPOSIT]    = {COMPOUND_STRING("存入宝可梦"),  COMPOUND_STRING("把队伍中的宝可梦\n存进盒子。")},
+    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("移动宝可梦"),     COMPOUND_STRING("整理盒子里和队伍中\n的宝可梦。")},
+    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("移动道具"),       COMPOUND_STRING("移动盒子里或队伍中\n宝可梦携带的道具。")},
+    [OPTION_EXIT]       = {COMPOUND_STRING("再见！"),          COMPOUND_STRING("返回上一个菜单。")}
 };
 
 static const struct WindowTemplate sWindowTemplate_MainMenu =
@@ -1083,41 +1083,41 @@ static const struct SpriteTemplate sSpriteTemplate_DisplayMon =
     .callback = SpriteCallbackDummy,
 };
 
-static const u8 gText_PkmnIsSelected[] = _("{DYNAMIC 0} is selected.");
+static const u8 gText_PkmnIsSelected[] = _("已选择{DYNAMIC 0}。");
 
 static const struct StorageMessage sMessages[] =
 {
-    [MSG_EXIT_BOX]             = {COMPOUND_STRING("Exit from the Box?"),         MSG_VAR_NONE},
-    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("What do you want to do?"),    MSG_VAR_NONE},
-    [MSG_PICK_A_THEME]         = {COMPOUND_STRING("Please pick a theme."),       MSG_VAR_NONE},
-    [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("Pick the wallpaper."),        MSG_VAR_NONE},
+    [MSG_EXIT_BOX]             = {COMPOUND_STRING("要退出盒子吗？"),         MSG_VAR_NONE},
+    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("你想做什么？"),    MSG_VAR_NONE},
+    [MSG_PICK_A_THEME]         = {COMPOUND_STRING("请选择主题。"),       MSG_VAR_NONE},
+    [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("选择壁纸。"),        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,                          MSG_VAR_MON_NAME_1},
-    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("Jump to which Box?"),         MSG_VAR_NONE},
-    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("Deposit in which Box?"),      MSG_VAR_NONE},
-    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("{DYNAMIC 0} was deposited."), MSG_VAR_MON_NAME_1},
-    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("The Box is full."),           MSG_VAR_NONE},
-    [MSG_RELEASE_POKE]         = {COMPOUND_STRING("Release this Pokémon?"),      MSG_VAR_NONE},
-    [MSG_WAS_RELEASED]         = {COMPOUND_STRING("{DYNAMIC 0} was released."),  MSG_VAR_RELEASE_MON_1},
-    [MSG_BYE_BYE]              = {COMPOUND_STRING("Bye-bye, {DYNAMIC 0}!"),      MSG_VAR_RELEASE_MON_3},
-    [MSG_MARK_POKE]            = {COMPOUND_STRING("Mark your Pokémon."),         MSG_VAR_NONE},
-    [MSG_LAST_POKE]            = {COMPOUND_STRING("That's your last Pokémon!"),  MSG_VAR_NONE},
+    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳到哪个盒子？"),         MSG_VAR_NONE},
+    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要存入哪个盒子？"),      MSG_VAR_NONE},
+    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("{DYNAMIC 0}已存入。"), MSG_VAR_MON_NAME_1},
+    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("盒子已满。"),           MSG_VAR_NONE},
+    [MSG_RELEASE_POKE]         = {COMPOUND_STRING("要放生这只宝可梦吗？"),      MSG_VAR_NONE},
+    [MSG_WAS_RELEASED]         = {COMPOUND_STRING("{DYNAMIC 0}已被放生。"),  MSG_VAR_RELEASE_MON_1},
+    [MSG_BYE_BYE]              = {COMPOUND_STRING("再见，{DYNAMIC 0}！"),      MSG_VAR_RELEASE_MON_3},
+    [MSG_MARK_POKE]            = {COMPOUND_STRING("给宝可梦做标记。"),         MSG_VAR_NONE},
+    [MSG_LAST_POKE]            = {COMPOUND_STRING("那是你最后的宝可梦！"),  MSG_VAR_NONE},
     [MSG_PARTY_FULL]           = {gText_YourPartysFull,                          MSG_VAR_NONE},
-    [MSG_HOLDING_POKE]         = {COMPOUND_STRING("You're holding a Pokémon!"),  MSG_VAR_NONE},
-    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("Which one will you take?"),   MSG_VAR_NONE},
-    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("You can't release an EGG."),  MSG_VAR_NONE},
-    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("Continue Box operations?"),   MSG_VAR_NONE},
-    [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0} came back!"),     MSG_VAR_MON_NAME_1},
-    [MSG_WORRIED]              = {COMPOUND_STRING("Was it worried about you?"),  MSG_VAR_NONE},
-    [MSG_SURPRISE]             = {COMPOUND_STRING("… … … … !"),                  MSG_VAR_NONE},
-    [MSG_PLEASE_REMOVE_MAIL]   = {COMPOUND_STRING("Please remove the Mail."),    MSG_VAR_NONE},
+    [MSG_HOLDING_POKE]         = {COMPOUND_STRING("你正拿着宝可梦！"),  MSG_VAR_NONE},
+    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("你要拿哪一只？"),   MSG_VAR_NONE},
+    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("不能放生蛋。"),  MSG_VAR_NONE},
+    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续操作盒子吗？"),   MSG_VAR_NONE},
+    [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0}回来了！"),     MSG_VAR_MON_NAME_1},
+    [MSG_WORRIED]              = {COMPOUND_STRING("它是在担心你吗？"),  MSG_VAR_NONE},
+    [MSG_SURPRISE]             = {COMPOUND_STRING("… … … … ！"),                  MSG_VAR_NONE},
+    [MSG_PLEASE_REMOVE_MAIL]   = {COMPOUND_STRING("请取下邮件。"),    MSG_VAR_NONE},
     [MSG_IS_SELECTED2]         = {gText_PkmnIsSelected,                          MSG_VAR_ITEM_NAME},
-    [MSG_GIVE_TO_MON]          = {COMPOUND_STRING("Give to a Pokémon?"),         MSG_VAR_NONE},
-    [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("Placed item in the Bag."),    MSG_VAR_ITEM_NAME},
-    [MSG_BAG_FULL]             = {COMPOUND_STRING("The Bag is full."),           MSG_VAR_NONE},
-    [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("Put this item in the Bag?"),  MSG_VAR_NONE},
-    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("{DYNAMIC 0} is now held."),   MSG_VAR_ITEM_NAME},
-    [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("Changed to {DYNAMIC 0}."),    MSG_VAR_ITEM_NAME},
-    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("Mail can't be stored!"),      MSG_VAR_NONE},
+    [MSG_GIVE_TO_MON]          = {COMPOUND_STRING("要交给宝可梦吗？"),         MSG_VAR_NONE},
+    [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("已把道具放进包包。"),    MSG_VAR_ITEM_NAME},
+    [MSG_BAG_FULL]             = {COMPOUND_STRING("包包已满。"),           MSG_VAR_NONE},
+    [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("要把这个道具放进包包吗？"),  MSG_VAR_NONE},
+    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("现在携带{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
+    [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("已换成{DYNAMIC 0}。"),    MSG_VAR_ITEM_NAME},
+    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("邮件不能存放！"),      MSG_VAR_NONE},
 };
 
 static const struct WindowTemplate sYesNoWindowTemplate =
@@ -4082,21 +4082,21 @@ static void PrintDisplayMonInfo(void)
     }
 }
 
-// Turn the wave animation on the sides of "Pkmn Data" on/off
+// Turn the wave animation on the sides of "宝可梦资料" on/off
 static void UpdateWaveformAnimation(void)
 {
     u16 i;
 
     if (sStorage->displayMonSpecies != SPECIES_NONE)
     {
-        // Start waveform animation and color "Pkmn Data"
+        // Start waveform animation and color "宝可梦资料"
         TilemapUtil_SetRect(TILEMAPID_PKMN_DATA, 0, 0, 8, 2);
         for (i = 0; i < ARRAY_COUNT(sStorage->waveformSprites); i++)
             StartSpriteAnimIfDifferent(sStorage->waveformSprites[i], i * 2 + 1);
     }
     else
     {
-        // Stop waveform animation and gray out "Pkmn Data"
+        // Stop waveform animation and gray out "宝可梦资料"
         TilemapUtil_SetRect(TILEMAPID_PKMN_DATA, 0, 2, 8, 2);
         for (i = 0; i < ARRAY_COUNT(sStorage->waveformSprites); i++)
             StartSpriteAnim(sStorage->waveformSprites[i], i * 2);
@@ -8071,49 +8071,49 @@ static void InitMenu(void)
     sStorage->menuWindow.baseBlock = 92;
 }
 
-static const u8 gPCText_Give[] = _("Give");
+static const u8 gPCText_Give[] = _("交给");
 
 static const u8 *const sMenuTexts[] =
 {
-    [MENU_CANCEL]     = COMPOUND_STRING("Cancel"),
-    [MENU_STORE]      = COMPOUND_STRING("Store"),
-    [MENU_WITHDRAW]   = COMPOUND_STRING("Withdraw"),
-    [MENU_MOVE]       = COMPOUND_STRING("Move"),
-    [MENU_SHIFT]      = COMPOUND_STRING("Shift"),
-    [MENU_PLACE]      = COMPOUND_STRING("Place"),
-    [MENU_SUMMARY]    = COMPOUND_STRING("Summary"),
-    [MENU_RELEASE]    = COMPOUND_STRING("Release"),
-    [MENU_MARK]       = COMPOUND_STRING("Mark"),
-    [MENU_JUMP]       = COMPOUND_STRING("Jump"),
-    [MENU_WALLPAPER]  = COMPOUND_STRING("Wallpaper"),
-    [MENU_NAME]       = COMPOUND_STRING("Name"),
-    [MENU_TAKE]       = COMPOUND_STRING("Take"),
+    [MENU_CANCEL]     = COMPOUND_STRING("取消"),
+    [MENU_STORE]      = COMPOUND_STRING("存入"),
+    [MENU_WITHDRAW]   = COMPOUND_STRING("取出"),
+    [MENU_MOVE]       = COMPOUND_STRING("移动"),
+    [MENU_SHIFT]      = COMPOUND_STRING("切换"),
+    [MENU_PLACE]      = COMPOUND_STRING("放置"),
+    [MENU_SUMMARY]    = COMPOUND_STRING("概要"),
+    [MENU_RELEASE]    = COMPOUND_STRING("放生"),
+    [MENU_MARK]       = COMPOUND_STRING("标记"),
+    [MENU_JUMP]       = COMPOUND_STRING("跳转"),
+    [MENU_WALLPAPER]  = COMPOUND_STRING("壁纸"),
+    [MENU_NAME]       = COMPOUND_STRING("名字"),
+    [MENU_TAKE]       = COMPOUND_STRING("拿取"),
     [MENU_GIVE]       = gPCText_Give,
     [MENU_GIVE_2]     = gPCText_Give,
-    [MENU_SWITCH]     = COMPOUND_STRING("Switch"),
-    [MENU_BAG]        = COMPOUND_STRING("Bag"),
-    [MENU_INFO]       = COMPOUND_STRING("Info"),
-    [MENU_SCENERY_1]  = COMPOUND_STRING("Scenery 1"),
-    [MENU_SCENERY_2]  = COMPOUND_STRING("Scenery 2"),
-    [MENU_SCENERY_3]  = COMPOUND_STRING("Scenery 3"),
-    [MENU_ETCETERA]   = COMPOUND_STRING("ETCETERA"),
-    [MENU_FRIENDS]    = COMPOUND_STRING("FRIENDS"),
-    [MENU_FOREST]     = COMPOUND_STRING("FOREST"),
-    [MENU_CITY]       = COMPOUND_STRING("CITY"),
-    [MENU_DESERT]     = COMPOUND_STRING("DESERT"),
-    [MENU_SAVANNA]    = COMPOUND_STRING("SAVANNA"),
-    [MENU_CRAG]       = COMPOUND_STRING("CRAG"),
-    [MENU_VOLCANO]    = COMPOUND_STRING("VOLCANO"),
-    [MENU_SNOW]       = COMPOUND_STRING("SNOW"),
-    [MENU_CAVE]       = COMPOUND_STRING("CAVE"),
-    [MENU_BEACH]      = COMPOUND_STRING("BEACH"),
-    [MENU_SEAFLOOR]   = COMPOUND_STRING("SEAFLOOR"),
-    [MENU_RIVER]      = COMPOUND_STRING("RIVER"),
-    [MENU_SKY]        = COMPOUND_STRING("SKY"),
-    [MENU_POLKADOT]   = COMPOUND_STRING("POLKA-DOT"),
-    [MENU_POKECENTER] = COMPOUND_STRING("POKéCENTER"),
-    [MENU_MACHINE]    = COMPOUND_STRING("MACHINE"),
-    [MENU_SIMPLE]     = COMPOUND_STRING("SIMPLE"),
+    [MENU_SWITCH]     = COMPOUND_STRING("替换"),
+    [MENU_BAG]        = COMPOUND_STRING("包包"),
+    [MENU_INFO]       = COMPOUND_STRING("信息"),
+    [MENU_SCENERY_1]  = COMPOUND_STRING("风景1"),
+    [MENU_SCENERY_2]  = COMPOUND_STRING("风景2"),
+    [MENU_SCENERY_3]  = COMPOUND_STRING("风景3"),
+    [MENU_ETCETERA]   = COMPOUND_STRING("其他"),
+    [MENU_FRIENDS]    = COMPOUND_STRING("伙伴"),
+    [MENU_FOREST]     = COMPOUND_STRING("森林"),
+    [MENU_CITY]       = COMPOUND_STRING("城市"),
+    [MENU_DESERT]     = COMPOUND_STRING("沙漠"),
+    [MENU_SAVANNA]    = COMPOUND_STRING("草原"),
+    [MENU_CRAG]       = COMPOUND_STRING("岩山"),
+    [MENU_VOLCANO]    = COMPOUND_STRING("火山"),
+    [MENU_SNOW]       = COMPOUND_STRING("雪原"),
+    [MENU_CAVE]       = COMPOUND_STRING("洞窟"),
+    [MENU_BEACH]      = COMPOUND_STRING("海滩"),
+    [MENU_SEAFLOOR]   = COMPOUND_STRING("海底"),
+    [MENU_RIVER]      = COMPOUND_STRING("河流"),
+    [MENU_SKY]        = COMPOUND_STRING("天空"),
+    [MENU_POLKADOT]   = COMPOUND_STRING("圆点"),
+    [MENU_POKECENTER] = COMPOUND_STRING("宝可梦中心"),
+    [MENU_MACHINE]    = COMPOUND_STRING("机械"),
+    [MENU_SIMPLE]     = COMPOUND_STRING("简约"),
 };
 
 static void SetMenuText(u8 textId)

@@ -779,7 +779,7 @@ void BS_SetMaxMoveEffect(void)
                 gPaydayMoney += (gBattleMons[gBattlerAttacker].level * 100);
                 if (payday > gPaydayMoney)
                     gPaydayMoney = 0xFFFF;
-                gBattleCommunication[CURSOR_POSITION] = 1; // add "Coins scattered." message
+                gBattleCommunication[CURSOR_POSITION] = 1; // add "金币散落一地。" message
             }
             // fall through
         case MAX_EFFECT_CONFUSE_FOES:

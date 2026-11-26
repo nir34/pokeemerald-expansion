@@ -127,240 +127,244 @@ MeteorFalls_1F_2R_EventScript_RematchJay::
 # 64 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_NicolasIntro:
 # 65 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "This is where we DRAGON users do our\n"
+	.string "这里是我们龙属性\n"
 # 66 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "training.\p"
+	.string "训练家训练的地方。\p"
 # 67 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "The 冠军 even visits.\n"
+	.string "连冠军都会来。\n"
 # 68 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Now do you see how special it is here?$"
+	.string "你明白这里有多特别了吧？$"
 # 69 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 70 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_NicolasDefeat:
 # 71 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Urgh!\n"
+	.string "唔！\n"
 # 72 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "I didn't expect you to be so strong!$"
+	.string "没想到你这么强！$"
 # 73 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 74 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_NicolasPostBattle:
 # 75 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "The road ahead remains long and harsh.\p"
+	.string "前面的路还漫长\n"
 # 76 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "When will my Pokémon and I become\n"
+	.string "而艰辛。\p"
 # 77 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "the best?$"
+	.string "我和我的宝可梦什么时候\n"
 # 78 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "才能成为最强？$"
 # 79 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_NicolasRegister:
+
 # 80 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "I want to know more about your power.\n"
+MeteorFalls_1F_2R_Text_NicolasRegister:
 # 81 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Let me register you in my PokéNav.$"
+	.string "我想多了解你的实力。\n"
 # 82 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "让我把你登录进导航。$"
 # 83 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_NicolasRematchIntro:
+
 # 84 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Since we met, we have trained hard\n"
+MeteorFalls_1F_2R_Text_NicolasRematchIntro:
 # 85 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "with our sights on number one.\p"
+	.string "自从见面以后，我们\n"
 # 86 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Help us see how much stronger we've\n"
+	.string "一直在以第一为目标\l"
 # 87 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "become!$"
+	.string "拼命训练。\p"
 # 88 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "帮我们看看我们\n"
 # 89 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_NicolasRematchDefeat:
+	.string "变强了多少吧！$"
 # 90 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Urgh!\n"
+
 # 91 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "I didn't expect you to be so strong!$"
+MeteorFalls_1F_2R_Text_NicolasRematchDefeat:
 # 92 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "唔！\n"
 # 93 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_NicolasPostRematch:
+	.string "没想到你这么强！$"
 # 94 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "You've obviously kept up your\n"
+
 # 95 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Pokémon training.\p"
+MeteorFalls_1F_2R_Text_NicolasPostRematch:
 # 96 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "So long as you remain strong, I, too,\n"
+	.string "你显然一直没停下\n"
 # 97 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "can become stronger!$"
+	.string "对宝可梦的训练。\p"
 # 98 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "只要你保持强大，\n"
 # 99 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnIntro:
+	.string "我也能变得更强！$"
 # 100 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: We've always battled Pokémon\n"
+
 # 101 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "together as a twosome.\l"
+MeteorFalls_1F_2R_Text_JohnIntro:
 # 102 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've confidence in ourselves.$"
+	.string "约翰：我们俩一直都是一起\n"
 # 103 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "和宝可梦对战的。\l"
 # 104 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnDefeat:
+	.string "我们对自己有信心。$"
 # 105 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Oh, my.\n"
+
 # 106 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've lost, dear wife.$"
+MeteorFalls_1F_2R_Text_JohnDefeat:
 # 107 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "约翰：哎呀。\n"
 # 108 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnPostBattle:
+	.string "亲爱的，我们输了。$"
 # 109 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: We've been married for\n"
+
 # 110 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "fifty years.\p"
+MeteorFalls_1F_2R_Text_JohnPostBattle:
 # 111 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Come to think of it, I've yet to beat\n"
+	.string "约翰：我们结婚\n"
 # 112 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "my dear wife in a battle.$"
+	.string "五十年了。\p"
 # 113 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "想想看，我到今天都还没\n"
 # 114 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
+	.string "在对战中赢过我妻子。$"
 # 115 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Well, well, what a young 训练家!\p"
+
 # 116 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Will you battle with us? If so, you'll\n"
+MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
 # 117 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "have to return with more Pokémon.$"
+	.string "约翰：哎呀呀，多年轻的\n"
 # 118 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "训练家！\p"
 # 119 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnRegister:
+	.string "要和我们打一场吗？那你\n"
 # 120 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Young 训练家, if the chance\n"
+	.string "得多带些宝可梦再来。$"
 # 121 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "arises, will you battle with us again?$"
+
 # 122 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+MeteorFalls_1F_2R_Text_JohnRegister:
 # 123 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayIntro:
+	.string "约翰：年轻训练家，\n"
 # 124 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: We've been married for\n"
+	.string "有机会的话，再和我们打一场吧？$"
 # 125 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "fifty years.\p"
+
 # 126 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "The bond we share as a couple could\n"
+MeteorFalls_1F_2R_Text_JayIntro:
 # 127 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "never be broken.$"
+	.string "珍：我们结婚五十年了。\p"
 # 128 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "我们夫妻之间的羁绊\n"
 # 129 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayDefeat:
+	.string "是不会断的。$"
 # 130 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Oh, dear.\n"
+
 # 131 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've lost, my dear husband.$"
+MeteorFalls_1F_2R_Text_JayDefeat:
 # 132 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "珍：哎呀。\n"
 # 133 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayPostBattle:
+	.string "亲爱的丈夫，我们输了。$"
 # 134 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Fifty years of marriage…\p"
+
 # 135 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "If we ever argued, we always settled\n"
+MeteorFalls_1F_2R_Text_JayPostBattle:
 # 136 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "it with a Pokémon battle…$"
+	.string "珍：五十年婚姻……\p"
 # 137 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "我们一吵架，就用宝可梦\n"
 # 138 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayNotEnoughMons:
+	.string "对战来解决问题……$"
 # 139 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Well, well, aren't you a young\n"
+
 # 140 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "训练家?\p"
+MeteorFalls_1F_2R_Text_JayNotEnoughMons:
 # 141 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "If you'd care to battle with us, you'll\n"
+	.string "珍：哎呀呀，多年轻的\n"
 # 142 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "have to come back with more Pokémon.$"
+	.string "训练家。\p"
 # 143 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "要是想和我们打，\n"
 # 144 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnRematchIntro:
+	.string "得多带些宝可梦再来。$"
 # 145 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: We've always battled Pokémon\n"
+
 # 146 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "together as a twosome.\l"
+MeteorFalls_1F_2R_Text_JohnRematchIntro:
 # 147 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've confidence in ourselves.$"
+	.string "约翰：我们俩一直都是一起\n"
 # 148 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "和宝可梦对战的。\l"
 # 149 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnRematchDefeat:
+	.string "我们对自己有信心。$"
 # 150 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Oh, my.\n"
+
 # 151 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've lost, dear wife.$"
+MeteorFalls_1F_2R_Text_JohnRematchDefeat:
 # 152 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "约翰：哎呀。\n"
 # 153 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnPostRematch:
+	.string "亲爱的，我们输了。$"
 # 154 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Married for fifty years…\p"
+
 # 155 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "On reflection, the dear wife and I,\n"
+MeteorFalls_1F_2R_Text_JohnPostRematch:
 # 156 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "we battled day in and day out…$"
+	.string "约翰：结婚五十年……\p"
 # 157 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "回想起来，我和妻子\n"
 # 158 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
+	.string "天天都在对战……$"
 # 159 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JOHN: Well, well, what a young 训练家!\p"
+
 # 160 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Will you battle with us? If so, you'll\n"
+MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
 # 161 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "have to return with more Pokémon.$"
+	.string "约翰：哎呀呀，多年轻的\n"
 # 162 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "训练家！\p"
 # 163 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayRematchIntro:
+	.string "要和我们打一场吗？那你\n"
 # 164 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: We've been married for\n"
+	.string "得多带些宝可梦再来。$"
 # 165 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "fifty years.\p"
+
 # 166 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've supported each other all that\n"
+MeteorFalls_1F_2R_Text_JayRematchIntro:
 # 167 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "time. We've made ourselves strong.$"
+	.string "珍：我们结婚五十年了。\p"
 # 168 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "这些年我们互相扶持，\n"
 # 169 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayRematchDefeat:
+	.string "把自己变得更强。$"
 # 170 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Oh, dear.\n"
+
 # 171 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "We've lost, my dear husband.$"
+MeteorFalls_1F_2R_Text_JayRematchDefeat:
 # 172 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-
+	.string "珍：哎呀。\n"
 # 173 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayPostRematch:
+	.string "亲爱的丈夫，我们输了。$"
 # 174 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Fifty years of marriage…\n"
-# 175 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "Many things have happened.\p"
-# 176 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "I hope that we will continue to make\n"
-# 177 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "happy memories together.$"
-# 178 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
+# 175 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+MeteorFalls_1F_2R_Text_JayPostRematch:
+# 176 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "珍：五十年婚姻……\n"
+# 177 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "发生了很多事。\p"
+# 178 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "希望我们以后继续\n"
 # 179 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
+	.string "一起制造快乐的回忆。$"
 # 180 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "JAY: Well, well, aren't you a young\n"
+
 # 181 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "训练家?\p"
+MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
 # 182 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "If you'd care to battle with us, you'll\n"
+	.string "珍：哎呀呀，多年轻的\n"
 # 183 "data/maps/MeteorFalls_1F_2R/scripts.pory"
-	.string "have to come back with more Pokémon.$"
+	.string "训练家。\p"
+# 184 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "要是想和我们打，\n"
+# 185 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "得多带些宝可梦再来。$"

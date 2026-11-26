@@ -145,135 +145,152 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-	.string "{PLAYER}! You made it! I've been\n"
-	.string "wandering around here doing more\l"
-	.string "training, and I knew you'd show up\l"
-	.string "eventually.\p"
-	.string "After you beat me in Mauville and on\n"
-	.string "Route 110, I realized how weak I was,\l"
-	.string "how little I knew about Pokémon…\p"
-	.string "Since then, I've become so much\n"
-	.string "stronger.\p"
-	.string "I've trained extremely hard in hopes of\n"
-	.string "beating you one day, I even defeated\l"
-	.string "all of the Gym Leaders here in Hoenn!\p"
-	.string "However, I have one more goal before I\n"
-	.string "can move on to the Pokémon League…\p"
-	.string "I have to beat you, {PLAYER}!\n"
-	.string "You inspired me to get stronger, so now\l"
-	.string "I'll show you the results of my\l"
-	.string "hard work!$"
+	.string "{PLAYER}！你来了！我一直\n"
+	.string "在这儿四处转着多训练，\l"
+	.string "就知道你早晚\l"
+	.string "会出现。\p"
+	.string "在紫堇和110号道路\n"
+	.string "被你打败后，我才\l"
+	.string "明白自己多弱，\l"
+	.string "对宝可梦了解\l"
+	.string "多浅……\p"
+	.string "从那以后，我变得强了\n"
+	.string "好多。\p"
+	.string "我拼命训练，希望有一天\n"
+	.string "打败你，甚至把丰缘\l"
+	.string "所有道馆馆主都\l"
+	.string "打赢了！\p"
+	.string "可是，去宝可梦联盟\n"
+	.string "之前，我还有一个\l"
+	.string "目标……\p"
+	.string "我必须打败你！\n"
+	.string "{PLAYER}！\p"
+	.string "是你激励我变强的，\n"
+	.string "现在就让你看看\l"
+	.string "我努力的结果！$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
-	.string "All my training, and it still wasn't\n"
-	.string "enough… I won't give up, though! I'll\l"
-	.string "keep training until I can beat you!$"
+	.string "我练了这么久，还是\n"
+	.string "不够……可我\l"
+	.string "不会放弃！我会\l"
+	.string "一直练到能打赢你！$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-	.string "I couldn't beat you this time,\n"
-	.string "either…\p"
-	.string "But one of these days,\n"
-	.string "{PLAYER}, I'm going to catch up to you.\p"
-	.string "And then I'll challenge the Pokémon\n"
-	.string "League!$"
+	.string "这次我也没能\n"
+	.string "打赢你……\p"
+	.string "可总有一天，{PLAYER}，\n"
+	.string "我会追上你。\p"
+	.string "然后去挑战宝可梦\n"
+	.string "联盟！$"
 
 VictoryRoad_1F_Text_WallyGiftFromDad:
-	.string "That was a great battle, but I still\n"
-	.string "clearly have more to learn…\p"
-	.string "Oh! I just remembered, your dad gave me\n"
-	.string "a package with some items to give to\l"
-	.string "you, {PLAYER}.\p"
-	.string "He said to tell you he was sorry he\n"
-	.string "didn't have that one Mega Stone ready\l"
-	.string "when you defeated him, so he threw in\l"
-	.string "some extras to make up for it.\p"
-	.string "Here you go, {PLAYER}.$"
+	.string "这一战真棒，不过我还\n"
+	.string "明显有很多要学……\p"
+	.string "哦！我刚想起来，你爸爸\n"
+	.string "托我带了个包裹，\l"
+	.string "里面有些东西给你，\l"
+	.string "{PLAYER}。\p"
+	.string "他说很抱歉在你打败他\n"
+	.string "的时候没准备好那颗\l"
+	.string "超级石，所以加了\l"
+	.string "几样东西补偿。\p"
+	.string "给你，{PLAYER}。$"
 
 VictoryRoad_1F_Text_WallyTicketsFromDad:
-	.string "Oh I almost forgot, he gave me these to\n"
-	.string "give to you too.\p"
-	.string "I'm not sure where these tickets will\n"
-	.string "take you, but your dad said you can go\l"
-	.string "to the ferry in Lilycove City and use\l"
-	.string "the tickets there.$"
+	.string "哦我差点忘了，他还\n"
+	.string "让我把这个也给你。\p"
+	.string "我不确定这些票会带你\n"
+	.string "去哪儿，不过你爸说\l"
+	.string "你可以去水静市的港口\l"
+	.string "用这些票。$"
 
 VictoryRoad_1F_Text_WallyIntro:
-	.string "Hi! {PLAYER}!\p"
-	.string "I've gotten stronger since that last\n"
-	.string "time! I wanted to show you, {PLAYER}!\p"
-	.string "Okay… Here I come!$"
+	.string "嗨！{PLAYER}！\p"
+	.string "上次之后我变强了！\n"
+	.string "我想让你看看，\l"
+	.string "{PLAYER}！\p"
+	.string "好……我来了！$"
 
 VictoryRoad_1F_Text_WallyDefeat:
-	.string "Wow!\n"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "哇！\n"
+	.string "{PLAYER}，你果然很强！$"
 
 VictoryRoad_1F_Text_WallyPostBattle:
-	.string "I couldn't beat you this time,\n"
-	.string "too… But one of these days, {PLAYER},\l"
-	.string "I'm going to catch up to you…\p"
-	.string "And challenge the Pokémon LEAGUE!$"
+	.string "这次我也没能\n"
+	.string "打赢你……可总有一天，\l"
+	.string "{PLAYER}，我会追上你……\p"
+	.string "然后去挑战宝可梦\n"
+	.string "联盟！$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "我到这里已经两次了，\n"
+	.string "可最后那段路\l"
+	.string "太长了……$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-	.string "My dream ends here again…$"
+	.string "我的梦想又在这里\n"
+	.string "结束了……$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
+	.string "你都走到这儿了。保持\n"
+	.string "这股劲，成为\l"
+	.string "冠军吧！要是有人\l"
+	.string "行，那就是你！$"
 
 VictoryRoad_1F_Text_AlbertIntro:
-	.string "I didn't come all this way to lose now.\n"
-	.string "That possibility doesn't exist!$"
+	.string "我大老远来，可不是\n"
+	.string "为了现在输。那种\l"
+	.string "可能不存在！$"
 
 VictoryRoad_1F_Text_AlbertDefeat:
-	.string "Impossible…\n"
-	.string "I lost?$"
+	.string "不可能……\n"
+	.string "我输了？$"
 
 VictoryRoad_1F_Text_AlbertPostBattle:
-	.string "I lost here…\p"
-	.string "That means I lack the qualifications\n"
-	.string "to become the CHAMPION…$"
+	.string "我在这里输了……\p"
+	.string "这说明我缺少成为\n"
+	.string "冠军的资格……$"
 
 VictoryRoad_1F_Text_HopeIntro:
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of VICTORY.$"
+	.string "这条看起来无尽又艰辛\n"
+	.string "的路，真配得上\l"
+	.string "“胜利”之名。$"
 
 VictoryRoad_1F_Text_HopeDefeat:
-	.string "Your battle style is fantastic…$"
+	.string "你的战斗方式\n"
+	.string "真了不起……$"
 
 VictoryRoad_1F_Text_HopePostBattle:
-	.string "You seem to have the potential for\n"
-	.string "becoming the CHAMPION.$"
+	.string "你好像有成为\n"
+	.string "冠军的潜力。$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
-	.string "I'll tell you if you win!$"
+	.string "冠军之路是什么？\n"
+	.string "你赢了我就告诉你！$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "好！\n"
+	.string "干得好！$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
-	.string "to become the Pokémon CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "平安通过这里——\n"
+	.string "这就是对所有想成为\l"
+	.string "宝可梦冠军的训练家\l"
+	.string "的最后考验。\p"
+	.string "所以它才叫\n"
+	.string "冠军之路。$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
-	.string "I have nothing to say to anyone\n"
-	.string "that's come this far. Come on!$"
+	.string "对走到这里的人，\n"
+	.string "我没什么好说的。\l"
+	.string "来吧！$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "This is a disgrace…$"
+	.string "真丢脸……$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
-	.string "Humph, go right on ahead.\n"
-	.string "See if I care.$"
+	.string "哼，你尽管往前走吧。\n"
+	.string "我才不在乎。$"
 `
 
 
@@ -304,10 +321,10 @@ script VictoryRoad_1F_EventScript_PowerfulMonSummoner {
 script VictoryRoad_1F_EventScript_ChooseRoom {
 	msgbox(VictoryRoad_1F_Text_WhichRoom, MSGBOX_DEFAULT)
 
-	dynmultipush("Entrance Room", 0)
-	dynmultipush("Inner Room", 1)
-	dynmultipush("Stairs Room", 2)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("入口房间", 0)
+	dynmultipush("内部房间", 1)
+	dynmultipush("楼梯房间", 2)
+    dynmultipush("取消", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -338,17 +355,17 @@ script VictoryRoad_1F_EventScript_ChooseRoom {
 script VictoryRoad_1F_EventScript_EntranceRoom {
 	msgbox(VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Great Tusk",   SPECIES_GREAT_TUSK)
-	dynmultipush("Scream Tail",  SPECIES_SCREAM_TAIL)
-	dynmultipush("Brute Bonnet", SPECIES_BRUTE_BONNET)
-	dynmultipush("Flutter Mane", SPECIES_FLUTTER_MANE)
-	dynmultipush("Slither Wing", SPECIES_SLITHER_WING)
-	dynmultipush("Sandy Shocks", SPECIES_SANDY_SHOCKS)
-	dynmultipush("Roaring Moon", SPECIES_ROARING_MOON)
-	dynmultipush("Walking Wake", SPECIES_WALKING_WAKE)
-	dynmultipush("Gouging Fire", SPECIES_GOUGING_FIRE)
-	dynmultipush("Raging Bolt",  SPECIES_RAGING_BOLT)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("雄伟牙",   SPECIES_GREAT_TUSK)
+	dynmultipush("吼叫尾",  SPECIES_SCREAM_TAIL)
+	dynmultipush("猛恶菇", SPECIES_BRUTE_BONNET)
+	dynmultipush("振翼发", SPECIES_FLUTTER_MANE)
+	dynmultipush("爬地翅", SPECIES_SLITHER_WING)
+	dynmultipush("沙铁皮", SPECIES_SANDY_SHOCKS)
+	dynmultipush("轰鸣月", SPECIES_ROARING_MOON)
+	dynmultipush("波荡水", SPECIES_WALKING_WAKE)
+	dynmultipush("破空焰", SPECIES_GOUGING_FIRE)
+	dynmultipush("猛雷鼓",  SPECIES_RAGING_BOLT)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -369,17 +386,17 @@ script VictoryRoad_1F_EventScript_EntranceRoom {
 script VictoryRoad_1F_EventScript_InnerRoom {
 	msgbox(VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Iron Treads",   SPECIES_IRON_TREADS)
-	dynmultipush("Iron Bundle",   SPECIES_IRON_BUNDLE)
-	dynmultipush("Iron Hands",    SPECIES_IRON_HANDS)
-	dynmultipush("Iron Jugulis",  SPECIES_IRON_JUGULIS)
-	dynmultipush("Iron Moth",     SPECIES_IRON_MOTH)
-	dynmultipush("Iron Thorns",   SPECIES_IRON_THORNS)
-	dynmultipush("Iron Valiant",  SPECIES_IRON_VALIANT)
-	dynmultipush("Iron Leaves",   SPECIES_IRON_LEAVES)
-	dynmultipush("Iron Boulder",  SPECIES_IRON_BOULDER)
-	dynmultipush("Iron Crown",    SPECIES_IRON_CROWN)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("铁辙迹",   SPECIES_IRON_TREADS)
+	dynmultipush("铁包袱",   SPECIES_IRON_BUNDLE)
+	dynmultipush("铁臂膀",    SPECIES_IRON_HANDS)
+	dynmultipush("铁脖颈",  SPECIES_IRON_JUGULIS)
+	dynmultipush("铁毒蛾",     SPECIES_IRON_MOTH)
+	dynmultipush("铁荆棘",   SPECIES_IRON_THORNS)
+	dynmultipush("铁武者",  SPECIES_IRON_VALIANT)
+	dynmultipush("铁叶",   SPECIES_IRON_LEAVES)
+	dynmultipush("铁磐岩",  SPECIES_IRON_BOULDER)
+	dynmultipush("铁头壳",    SPECIES_IRON_CROWN)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -400,17 +417,17 @@ script VictoryRoad_1F_EventScript_InnerRoom {
 script VictoryRoad_1F_EventScript_StairsRoom {
 	msgbox(VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Nihilego",    SPECIES_NIHILEGO)
-	dynmultipush("Guzzlord",    SPECIES_GUZZLORD)
-	dynmultipush("Xurkitree",   SPECIES_XURKITREE)
-	dynmultipush("Buzzwole",    SPECIES_BUZZWOLE)
-	dynmultipush("Blacephalon", SPECIES_BLACEPHALON)
-	dynmultipush("Stakataka",   SPECIES_STAKATAKA)
-	dynmultipush("Poipole",     SPECIES_POIPOLE)
-	dynmultipush("Pheromosa",   SPECIES_PHEROMOSA)
-	dynmultipush("Celesteela",  SPECIES_CELESTEELA)
-	dynmultipush("Kartana",     SPECIES_KARTANA)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("虚吾伊德",    SPECIES_NIHILEGO)
+	dynmultipush("恶食大王",    SPECIES_GUZZLORD)
+	dynmultipush("电束木",   SPECIES_XURKITREE)
+	dynmultipush("爆肌蚊",    SPECIES_BUZZWOLE)
+	dynmultipush("砰头小丑", SPECIES_BLACEPHALON)
+	dynmultipush("垒磊石",   SPECIES_STAKATAKA)
+	dynmultipush("毒贝比",     SPECIES_POIPOLE)
+	dynmultipush("费洛美螂",   SPECIES_PHEROMOSA)
+	dynmultipush("铁火辉夜",  SPECIES_CELESTEELA)
+	dynmultipush("纸御剑",     SPECIES_KARTANA)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -461,41 +478,41 @@ script VictoryRoad_1F_EventScript_SummonWomanManNo
 
  
 text VictoryRoad_1F_Text_SummonerIntro {
-	"Hello, young trainer.\p"
-	"I've come to this remote location\n"
-	"because I have learned a powerful\l"
-	"technique that allows me to summon one\l"
-	"Pokémon from a remote location.\p"
-	"Would you like me to summon a Pokémon\n"
-	"here so you can battle it?"
+	"你好，年轻的训练家。\p"
+	"我来到这个偏僻的地方，\n"
+	"是因为学会了一门强力的\l"
+	"技艺，能从这洞穴里几乎\l"
+	"遥远之处的宝可梦。\p"
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
 }
 
 text VictoryRoad_1F_Text_SummonerIntroQuick {
-	"Would you like me to summon a Pokémon\n"
-	"here so you can battle it?"
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
 }
 
 text VictoryRoad_1F_Text_WhichRoom {
-	"Which room would you like me to summon a\n"
-	"Pokémon from?"
+	"你想让我从哪个房间\n"
+	"召唤宝可梦？"
 }
 
 text VictoryRoad_1F_Text_WhichPokemon {
-	"Which Pokémon would you like me to\n"
-	"summon so you can battle?"
+	"你想让我召唤哪只\n"
+	"宝可梦和你对战？"
 }
 
 text VictoryRoad_1F_Text_ConfirmSummon {
-	"So you want me to summon a\n"
-	"{STR_VAR_1} for you to battle?"
+	"那么，你想让我召唤一只\n"
+	"{STR_VAR_1}来和你对战吗？"
 }
 
 text VictoryRoad_1F_Text_VeryWell {
-	"Very well, prepare yourself for battle."
+	"很好，做好对战的准备吧。"
 }
 
 text VictoryRoad_1F_SummonWomanDeclined
 {
-	"I see. Let me know if you change\n"
-	"your mind."
+	"我明白了。若你改变主意，\n"
+	"就告诉我。"
 }

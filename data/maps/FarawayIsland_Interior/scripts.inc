@@ -377,4 +377,6 @@ FarawayIsland_Interior_EventScript_HideMewWhenGrassCut::
 # 189 "data/maps/FarawayIsland_Interior/scripts.pory"
 FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded:
 # 190 "data/maps/FarawayIsland_Interior/scripts.pory"
-	.string "The feeling of being watched faded…$"
+	.string "被注视的感觉\n"
+# 191 "data/maps/FarawayIsland_Interior/scripts.pory"
+	.string "消失了……$"

@@ -110,70 +110,75 @@ VictoryRoad_B1F_EventScript_Halle::
 	end
 
 VictoryRoad_B1F_Text_LooksLikeStatue:
-	.string "It looks like a statue of an ancient,\n"
-	.string "powerful Pokémon…$"
+	.string "看起来像一尊古代强大\n"
+	.string "宝可梦的雕像……$"
 
 VictoryRoad_B1F_Text_SamuelIntro:
-	.string "The thought that I'm getting closer to\n"
-	.string "the Pokémon LEAGUE…\p"
-	.string "I'm getting stage fright…$"
+	.string "一想到我离宝可梦联盟\n"
+	.string "越来越近……\p"
+	.string "我就怯场了……$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "I couldn't do a thing…$"
+	.string "我什么都做不了……$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
-	.string "The Pokémon LEAGUE became distant\n"
-	.string "again… What a letdown…$"
+	.string "宝可梦联盟又变得\n"
+	.string "遥远了……真失望……$"
 
 VictoryRoad_B1F_Text_ShannonIntro:
-	.string "To win your way through the Pokémon\n"
-	.string "LEAGUE, you need the trust of your\l"
-	.string "Pokémon.$"
+	.string "想在宝可梦联盟一路\n"
+	.string "赢下去，你需要\l"
+	.string "宝可梦的信任。$"
 
 VictoryRoad_B1F_Text_ShannonDefeat:
-	.string "Your relationship is based on\n"
-	.string "solid trust.$"
+	.string "你们的关系建立在\n"
+	.string "坚实的信任上。$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
-	.string "By being together all the time, trust\n"
-	.string "grows between Pokémon and TRAINERS.$"
+	.string "一直在一起，宝可梦和\n"
+	.string "训练家之间的信任\l"
+	.string "就会生长。$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the Pokémon LEAGUE.$"
+	.string "这里不是终点。只是\n"
+	.string "通往宝可梦联盟的\l"
+	.string "路上的一处地方。$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
-	.string "That's the way!$"
+	.string "就是这样！$"
 
 VictoryRoad_B1F_Text_MichellePostBattle:
-	.string "You'll do fine, for sure!\n"
-	.string "Your Pokémon are all eager to go!$"
+	.string "你一定没问题！\n"
+	.string "你的宝可梦都\l"
+	.string "跃跃欲试！$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
-	.string "My Pokémon are cosmically\n"
-	.string "awe inspiring!$"
+	.string "我的宝可梦有着宇宙般\n"
+	.string "令人敬畏的力量！$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
-	.string "I've never met anyone like you before.$"
+	.string "我从没见过像你\n"
+	.string "这样的人。$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
-	.string "Even outside of battle, I sense\n"
-	.string "incredible power emanating from you\l"
-	.string "and your Pokémon.$"
+	.string "就算不在对战中，我也\n"
+	.string "能从你和宝可梦身上\l"
+	.string "感到惊人的力量。$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Okay, no need to get your back up!\n"
-	.string "Relax, let's take it easy!$"
+	.string "好，别紧张！\n"
+	.string "放松，慢慢来！$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "Whoa!\n"
-	.string "Wonderful!$"
+	.string "哇！\n"
+	.string "太好了！$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-	.string "Sure, this is VICTORY ROAD.\p"
-	.string "But it's not all that different from\n"
-	.string "the path you've taken so far.\p"
-	.string "Try to enjoy things the rest of\n"
-	.string "the way!$"
+	.string "当然，这是\n"
+	.string "冠军之路。\p"
+	.string "可它和你一路走来的\n"
+	.string "路也没什么不同。\p"
+	.string "剩下的路，试着\n"
+	.string "享受一下吧！$"
 
 `

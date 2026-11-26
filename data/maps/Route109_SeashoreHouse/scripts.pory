@@ -81,43 +81,50 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_DwayneIntro:
-	.string "If you're looking for a battle in the\n"
-	.string "Hot House, you'll find no\l"
-	.string "hotter trainer than me, matey!$"
+	.string "你要是在海边小屋找\n"
+	.string "对战，没人比我更\l"
+	.string "火热，伙计！$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
-	.string "That was a hot battle!\n"
-	.string "I can accept that loss, matey!$"
+	.string "好一场火热对战！\n"
+	.string "我认输，伙计！$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-	.string "Not bad, matey, but you'll have to\n"
-	.string "defeat the other two if you want that\l"
-	.string "coveted reward!$"
+	.string "不错，伙计，不过你想\n"
+	.string "拿那个奖励，还得\l"
+	.string "打赢另外两个！$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
-	.string "Boring battles aren't worth the effort.\p"
-	.string "Fiery hot battles are what toughen up\n"
-	.string "trainers and Pokémon!$"
+	.string "无聊的对战不值得\n"
+	.string "费力气。\p"
+	.string "灼热的对战才能让\n"
+	.string "训练家和宝可梦\l"
+	.string "变强！$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
-	.string "That's hot!$"
+	.string "真是太热了！$"
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
-	.string "You might have what it takes to get\n"
-	.string "this reward, you're a scorching hot\l"
-	.string "battler!$"
+	.string "你这股劲说不定真能\n"
+	.string "拿到这个奖励，\l"
+	.string "你是个火热的\l"
+	.string "对战者！$"
 
 Route109_SeashoreHouse_Text_BrianIntro:
-	.string "Hall of Fame? First of all, buddy,\n"
-	.string "You Will Never Defeat Guitarist Brian!$"
+	.string "名人堂？首先，兄弟，\n"
+	.string "你永远打不赢吉他手\l"
+	.string "布莱恩！$"
 
 Route109_SeashoreHouse_Text_BrianDefeated:
-	.string "Do I have to give you my badges now?\n"
-	.string "My NELO is gonna suffer…$"
+	.string "现在我得把徽章\n"
+	.string "交给你了？\l"
+	.string "我的NELO要受苦了……$"
 
 Route109_SeashoreHouse_Text_BrianPostBattle:
-	.string "Did you know Greedent learns Counter?\n"
-	.string "I found that one out the hard way.$"
+	.string "你知道贪心栗鼠会\n"
+	.string "双倍奉还吗？\l"
+	.string "我可是吃了苦头\l"
+	.string "才知道的。$"
 `
 
 script Route109_SeashoreHouse_EventScript_Owner {
@@ -275,45 +282,45 @@ script Route109_SeashoreHouse_EventScript_AlreadyReceivedPokemon {
 }
 
 text Route109_SeashoreHouse_Text_SeashoreHouseIntro {
-	"I'm the owner of the Hot House.\n"
-	"But you can call me Mr. Sea!\p"
-	"What I love above all is to see hot\n"
-	"Pokémon battles.\p"
-	"Let me see that your heart burns hot!\p"
-	"If you can defeat all the trainers\n"
-	"here, I'll reward your efforts."
+	"我是热焰馆的老板。\n"
+	"你叫我海先生就行！\p"
+	"我最爱看的就是\n"
+	"火热的宝可梦对战。\p"
+	"让我看看你心中的热火！\p"
+	"你要是能打赢这儿所有\n"
+	"训练家，我就奖励你。"
 }
 
 text Route109_SeashoreHouse_Text_ShowMeSomeHotMatches {
-	"Show me some hot matches!\p"
-	"I run this Hot House just for\n"
-	"that reason alone!"
+	"让我看点火热的对战！\p"
+	"我经营这热焰馆，\n"
+	"就为这一个理由！"
 }
 
 text Route109_SeashoreHouse_Text_TakeThisPokemon {
-	"You're blistering hot!\n"
-	"Those battles blazed!\l"
-	"I'm more than just satisfied!\p"
-	"Like my daughter promised, as a reward\n"
-	"for defeating those scorching hot\l"
-	"trainers, please accept this Pokémon."
+	"你真是炙热无比！\n"
+	"那些对战烧得旺！\l"
+	"我可不只是满意！\p"
+	"就像我女儿答应的，作为打赢\n"
+	"那些灼热训练家的奖励，\l"
+	"请收下这只宝可梦。"
 }
 
 text Route109_SeashoreHouse_Text_PlayerReceivedReward {
-	"{PLAYER} received {STR_VAR_1}!"
+	"{PLAYER}得到了{STR_VAR_1}！"
 }
 
 text Route109_SeashoreHouse_Text_PokemonDescribe {
-	"That Pokémon is a blazing hot battler,\n"
-	"just like you!\l"
-	"I know you'll be able to raise it well!\p"
-	"Please come back anytime to challenge\n"
-	"the Hot House again!"
+	"那只宝可梦和你一样，是\n"
+	"炽热的战斗者！\l"
+	"我知道你能培育好它！\p"
+	"随时欢迎再来挑战\n"
+	"热焰馆！"
 }
 
 text Route109_SeashoreHouse_Text_ThanksForCompeting {
-	"Thanks for competing, you're one\n"
-	"blazing hot trainer!\p"
-	"Be sure to come back to try out another\n"
-	"challenge some time!"
+	"谢谢你来参赛，你真是\n"
+	"个火热的训练家！\p"
+	"之后一定要再来试试\n"
+	"别的挑战！"
 }

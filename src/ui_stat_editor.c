@@ -574,24 +574,24 @@ static const u8 sGenderColors[2][3] =
     {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_RED, TEXT_COLOR_RED}
 };
 
-static const u8 sText_MenuTitle[] = _("Stat Editor");
+static const u8 sText_MenuTitle[] = _("能力编辑");
 static const u8 sText_MenuHP[] = _("HP");
-static const u8 sText_MenuAttack[] = _("Attack");
-static const u8 sText_MenuSpAttack[] = _("Sp. Atk");
-static const u8 sText_MenuDefense[] = _("Defense");
-static const u8 sText_MenuSpDefense[] = _("Sp. Def");
-static const u8 sText_MenuSpeed[] = _("Speed");
-static const u8 sText_MenuTotal[] = _("Total");
-static const u8 sText_MenuStat[] = _("Stat");
-static const u8 sText_MenuActual[] = _("Actual");
-static const u8 sText_MenuEV[] = _("EV");
-static const u8 sText_MenuIV[] = _("IV");
+static const u8 sText_MenuAttack[] = _("攻击");
+static const u8 sText_MenuSpAttack[] = _("特攻");
+static const u8 sText_MenuDefense[] = _("防御");
+static const u8 sText_MenuSpDefense[] = _("特防");
+static const u8 sText_MenuSpeed[] = _("速度");
+static const u8 sText_MenuTotal[] = _("合计");
+static const u8 sText_MenuStat[] = _("能力");
+static const u8 sText_MenuActual[] = _("实际");
+static const u8 sText_MenuEV[] = _("努力");
+static const u8 sText_MenuIV[] = _("个体");
 static const u8 sText_MonLevel[]         = _("Lv.{CLEAR 1}{STR_VAR_1}");
 
-static const u8 sText_MenuLRButtonTextMain[]   = _("Cycle Party");
-static const u8 sText_MenuAButtonTextMain[]    = _("Edit Stats");
-static const u8 sText_MenuBButtonTextMain[]    = _("Back");
-static const u8 sText_MenuDPadButtonTextMain[] = _("Change Stat");
+static const u8 sText_MenuLRButtonTextMain[]   = _("切换队伍");
+static const u8 sText_MenuAButtonTextMain[]    = _("编辑能力");
+static const u8 sText_MenuBButtonTextMain[]    = _("返回");
+static const u8 sText_MenuDPadButtonTextMain[] = _("更改能力");
 
 #define BUTTON_Y 4
 static void PrintTitleToWindowMainState()

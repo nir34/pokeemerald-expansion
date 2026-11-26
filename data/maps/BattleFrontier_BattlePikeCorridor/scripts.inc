@@ -119,6 +119,6 @@ BattleFrontier_BattlePikeCorridor_Movement_AttendantEnterCorridor:
 # 60 "data/maps/BattleFrontier_BattlePikeCorridor/scripts.pory"
 BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun:
 # 61 "data/maps/BattleFrontier_BattlePikeCorridor/scripts.pory"
-	.string "Your Battle Choice challenge\n"
+	.string "你的对战选择挑战\n"
 # 62 "data/maps/BattleFrontier_BattlePikeCorridor/scripts.pory"
-	.string "has now begun…$"
+	.string "现在开始了……$"

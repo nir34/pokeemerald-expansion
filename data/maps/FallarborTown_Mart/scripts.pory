@@ -56,24 +56,25 @@ FallarborTown_Mart_EventScript_FormerMetronomeTutor::
 	end
 
 FallarborTown_Mart_Text_FormerMetronomeTutor:
-	.string "I used to have such a great\n"
-	.string "rhythm… Oh, what happened?$"
+	.string "我以前节奏感可好了……\n"
+	.string "唉，到底怎么了呢？$"
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve:
-	.string "I'm having a hard time deciding if I\n"
-	.string "should make my Skitty evolve or not.\p"
-	.string "I only have to use this Moon Stone,\n"
-	.string "but it's so hard to decide…\p"
-	.string "If I make it evolve, it will become\n"
-	.string "much stronger.\p"
-	.string "But it will look so different, too.$"
+	.string "我一直在犹豫要不要\n"
+	.string "让我的向尾喵进化。\p"
+	.string "只要用这块月之石就行，\n"
+	.string "可就是下不了决心……\p"
+	.string "让它进化，它会变得\n"
+	.string "强很多。\p"
+	.string "可样子也会变得\n"
+	.string "完全不一样。$"
 
 FallarborTown_Mart_Text_Skitty:
-	.string "Skitty: Miyao?$"
+	.string "向尾喵：喵哟？$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
-	.string "This Nugget I found here…\n"
-	.string "I suppose I'll have to sell it, seeing\l"
-	.string "as how it has no other use.$"
+	.string "我在这里捡到的金珠……\n"
+	.string "反正也没别的用，\l"
+	.string "看来只能卖掉了。$"
 
 `

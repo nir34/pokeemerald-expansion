@@ -53,133 +53,139 @@ SootopolisCity_Gym_B1F_EventScript_Daphne::
 	end
 
 SootopolisCity_Gym_B1F_Text_AndreaIntro:
-	.string "I'll show you the sublime techniques\n"
-	.string "I learned from our LEADER JUAN!$"
+	.string "让你看看我从馆主阿丹\n"
+	.string "那里学到的超凡技巧！$"
 
 SootopolisCity_Gym_B1F_Text_AndreaDefeat:
-	.string "Please forgive me, JUAN…$"
+	.string "阿丹，请原谅我……$"
 
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
-	.string "Watch what happens if you crack all\n"
-	.string "the floor tiles.$"
+	.string "看看把地砖全部踩碎\n"
+	.string "会发生什么。$"
 
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
-	.string "You came all the way here, but you won't\n"
-	.string "get to see JUAN.\p"
-	.string "Not if you lose to me, you won't!$"
+	.string "你大老远来了，可见不到\n"
+	.string "阿丹。\p"
+	.string "只要输给我，就见不到！$"
 
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
-	.string "You're strong!\n"
-	.string "I was fooled by your cute looks!$"
+	.string "你很强！\n"
+	.string "我被你可爱的外表骗了！$"
 
 SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
-	.string "You might be good enough to avoid\n"
-	.string "being wiped out in one hit by JUAN.$"
+	.string "你也许强得足以不被阿丹\n"
+	.string "一招打垮。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-	.string "The sight of JUAN conducting\n"
-	.string "a battle…\p"
-	.string "The very beauty of it compelled me to\n"
-	.string "become a TRAINER.$"
+	.string "看阿丹指挥对战的样子……\p"
+	.string "那份美让我不由得\n"
+	.string "成为训练家。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-	.string "You battled with more beauty than\n"
-	.string "I could muster…$"
+	.string "你打得比我更有\n"
+	.string "美感……$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
-	.string "The grace you bring to battle is\n"
-	.string "fabulous.\p"
-	.string "Oh… I'm so fortunate to have found\n"
-	.string "Pokémon.$"
+	.string "你在对战中展现的优雅\n"
+	.string "真了不起。\p"
+	.string "哦……我真幸运\n"
+	.string "遇见了宝可梦。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
-	.string "I should teach you how harsh battles\n"
-	.string "can be.$"
+	.string "我该教教你对战能\n"
+	.string "有多残酷。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieDefeat:
-	.string "Oh.\n"
-	.string "You're strong.$"
+	.string "哦。\n"
+	.string "你很强。$"
 
 SootopolisCity_Gym_B1F_Text_ConniePostBattle:
-	.string "I'll tell you something good.\p"
-	.string "If you want to reach JUAN, you\n"
-	.string "need to walk on each floor tile once.$"
+	.string "我告诉你个好消息。\p"
+	.string "想走到阿丹那儿，你得把\n"
+	.string "每块地砖都踩一次。$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
-	.string "The Pokémon GYM of the highest level\n"
-	.string "in the HOENN region…\p"
-	.string "That's the SOOTOPOLIS GYM.$"
+	.string "丰缘地区最高等级的\n"
+	.string "宝可梦道馆……\p"
+	.string "就是琉璃道馆。$"
 
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:
-	.string "What a high level you are!$"
+	.string "你的等级真高！$"
 
 SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
-	.string "Rather than being satisfied by being\n"
-	.string "in a strong GYM, I imagine training in\l"
-	.string "other places will make you stronger.\l"
-	.string "But above all, it looks more fun.$"
+	.string "与其满足于待在强道馆里，\n"
+	.string "我想去别的地方修行\l"
+	.string "会让人更强。\l"
+	.string "而且最重要的是，\l"
+	.string "看起来更好玩。$"
 
 SootopolisCity_Gym_B1F_Text_OliviaIntro:
-	.string "I train my Pokémon together with\n"
-	.string "JUAN.\p"
-	.string "Don't think I'm a pushover.$"
+	.string "我和阿丹一起训练\n"
+	.string "宝可梦。\p"
+	.string "别以为我好欺负。$"
 
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
-	.string "I was beaten…$"
+	.string "我被打败了……$"
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
-	.string "I think you have potential.\n"
-	.string "Why don't you stay and train with us?$"
+	.string "我觉得你有潜力。\n"
+	.string "不如留下来\l"
+	.string "和我们一起训练？$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
-	.string "A graceful glide across the ice while\n"
-	.string "crossing no lines…\p"
-	.string "A TRAINER putting on that performance\n"
-	.string "would be elegantly beautiful!$"
+	.string "优雅地滑过冰面，\n"
+	.string "一条线都不压到……\p"
+	.string "做出那种表演的训练家，\n"
+	.string "一定优雅又美丽！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
-	.string "Well, excuse me?!$"
+	.string "哎呀，你说什么？！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
-	.string "This is really obvious, but how strong\n"
-	.string "you are as a TRAINER has nothing to do\l"
-	.string "with how young or old you are.$"
+	.string "这很明显，但训练家\n"
+	.string "强弱和年龄大小\l"
+	.string "一点关系都没有。$"
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
-	.string "When I'm with my Pokémon, the time\n"
-	.string "flies by before you can say, “Oops!”$"
+	.string "和宝可梦在一起，时间\n"
+	.string "一眨眼就过去了，\l"
+	.string "喊一声“糟了”都来不及。$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
-	.string "Oops!$"
+	.string "糟了！$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
-	.string "I wish I could forget about lost causes\n"
-	.string "before I can manage an “Oops!”$"
+	.string "真希望我在喊出“糟了”\n"
+	.string "之前，就能对\l"
+	.string "没希望的事死心。$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaIntro:
-	.string "I can battle with really rare Pokémon\n"
-	.string "if you'd like.$"
+	.string "你想要的话，我可以\n"
+	.string "用很稀有的宝可梦\l"
+	.string "和你打。$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
-	.string "Oh, there now! Did you have a good look\n"
-	.string "at my Pokémon?$"
+	.string "哎呀，好了！你好好看过\n"
+	.string "我的宝可梦了吗？$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
-	.string "I came to this GYM because JUAN\n"
-	.string "praised me for my darling Pokémon.\p"
-	.string "Oh, if only I'd met JUAN years ago\n"
-	.string "when I was younger…$"
+	.string "我来这个道馆，是因为\n"
+	.string "阿丹夸我的宝可梦\l"
+	.string "可爱。\p"
+	.string "哦，要是我在年轻点时\n"
+	.string "就遇见阿丹就好了……$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
-	.string "Giggle…\n"
-	.string "Your grim look is so charming.$"
+	.string "嘻嘻……\n"
+	.string "你严肃的样子真迷人。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaDefeat:
-	.string "Oh, dear.\n"
-	.string "I went much too easy on you.$"
+	.string "哦，天啊。\n"
+	.string "我对你太手下留情了。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
-	.string "You couldn't lay a finger on JUAN,\n"
-	.string "I'm sure. Giggle…$"
+	.string "你肯定碰都碰不到\n"
+	.string "阿丹。嘻嘻……$"
+
 
 `

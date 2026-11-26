@@ -37,16 +37,18 @@ LilycoveCity_House1_EventScript_Kecleon::
 # 19 "data/maps/LilycoveCity_House1/scripts.pory"
 LilycoveCity_House1_Text_SunnyOnNextRoute:
 # 20 "data/maps/LilycoveCity_House1/scripts.pory"
-	.string "I've heard intense sunlight has\n"
+	.string "我听说东边那条道路\n"
 # 21 "data/maps/LilycoveCity_House1/scripts.pory"
-	.string "reshaped some of the route to the east\l"
+	.string "因为强烈的阳光\l"
 # 22 "data/maps/LilycoveCity_House1/scripts.pory"
-	.string "of here. I wonder if that's true.$"
+	.string "变了样子。\l"
 # 23 "data/maps/LilycoveCity_House1/scripts.pory"
-
+	.string "不知是不是真的。$"
 # 24 "data/maps/LilycoveCity_House1/scripts.pory"
 
 # 25 "data/maps/LilycoveCity_House1/scripts.pory"
-LilycoveCity_House1_Text_Kecleon:
+
 # 26 "data/maps/LilycoveCity_House1/scripts.pory"
-	.string "KECLEON: Ruroro?$"
+LilycoveCity_House1_Text_Kecleon:
+# 27 "data/maps/LilycoveCity_House1/scripts.pory"
+	.string "变隐龙：噜噜噜？$"

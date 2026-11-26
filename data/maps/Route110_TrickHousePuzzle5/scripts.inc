@@ -1809,250 +1809,258 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 # 905 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
 # 906 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 907 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 908 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "“Trick Master is a genius.”\n"
+	.string "“机关大师是天才。”\n"
 # 909 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "… … … … … … … …\p"
 # 910 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 911 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 912 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 # 913 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK…\n"
+	.string "咔嗒咔嗒……\n"
 # 914 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 1 AM I!\p"
+	.string "我乃机械人偶1号！\p"
 # 915 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
+	.string "答对测验，你就能去\n"
 # 916 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
+	.string "机械人偶5号那里。\l"
 # 917 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "然后就能拿到密码。$"
 # 918 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 919 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 # 920 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "机械人偶1号测验。\p"
 # 921 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "One of these Pokémon is not found\n"
+	.string "这些宝可梦有一只不在\n"
 # 922 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "110号道路上。是哪只？$"
 # 923 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 924 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 # 925 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "机械人偶1号测验。\p"
 # 926 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "One of these Pokémon is not of the\n"
+	.string "这些宝可梦有一只不是\n"
 # 927 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "WATER type. Which one is it?$"
+	.string "水属性。是哪只？$"
 # 928 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 929 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
 # 930 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "机械人偶1号测验。\p"
 # 931 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "One of these Pokémon does not use\n"
+	.string "这些宝可梦有一只不会\n"
 # 932 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "吸血。是哪只？$"
 # 933 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 934 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
 # 935 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
+	.string "恭喜。答对了。\n"
 # 936 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "GO THROUGH. PLEASE.$"
+	.string "请通过。$"
 # 937 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 938 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
 # 939 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "BZZZT. DISAPPOINTMENT.\n"
+	.string "哔——。很失望。\n"
 # 940 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "ERROR.$"
+	.string "错误。$"
 # 941 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 942 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
 # 943 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
+	.string "哇哈哈哈哈哈！\n"
 # 944 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK!$"
+	.string "哇哈哈哈哈哈！\l"
 # 945 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "咔嗒咔嗒！$"
 # 946 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
+
 # 947 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
 # 948 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "我们等着你的\n"
 # 949 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
+	.string "下一个挑战。$"
 # 950 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK…\n"
+
 # 951 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 2 AM I!\p"
+Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
 # 952 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
+	.string "咔嗒咔嗒……\n"
 # 953 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "IS SET TOO LOW.$"
+	.string "我乃机械人偶2号！\p"
 # 954 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "机械人偶1号的测验难度\n"
 # 955 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
+	.string "设得太低了。$"
 # 956 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 2 QUIZ.\p"
+
 # 957 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Which of these Pokémon did WALLY\n"
+Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 # 958 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "borrow from your father?$"
+	.string "机械人偶2号测验。\p"
 # 959 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "这些宝可梦里，小胜从\n"
 # 960 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
+	.string "你爸爸那里借的是哪只？$"
 # 961 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 2 QUIZ.\p"
+
 # 962 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Which of these Pokémon was chasing\n"
+Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 # 963 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "小田卷博士?$"
+	.string "机械人偶2号测验。\p"
 # 964 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "这些宝可梦里，哪只\n"
 # 965 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
+	.string "在追小田卷博士？$"
 # 966 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 2 QUIZ.\p"
+
 # 967 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Which of these Pokémon did Team Aqua\n"
+Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 # 968 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "use in PETALBURG FOREST?$"
+	.string "机械人偶2号测验。\p"
 # 969 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "这些宝可梦里，水舰队\n"
 # 970 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
+	.string "在橙华森林用了哪只？$"
 # 971 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK…\n"
+
 # 972 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 3 AM I!\p"
+Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
 # 973 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "咔嗒咔嗒……\n"
 # 974 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "我乃机械人偶3号！\p"
 # 975 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
+	.string "我只看钱的事。$"
 # 976 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 3 QUIZ.\p"
+
 # 977 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Which costs more?\n"
+Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
 # 978 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "机械人偶3号测验。\p"
 # 979 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "哪个更贵？\n"
 # 980 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
+	.string "三张港口邮件还是一瓶\l"
 # 981 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 3 QUIZ.\p"
+	.string "灼伤药？$"
 # 982 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Sell one GREAT BALL and buy\n"
+
 # 983 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "one POTION. How much money remains?$"
+Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
 # 984 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "机械人偶3号测验。\p"
 # 985 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
+	.string "卖掉一个超级球，买\n"
 # 986 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 3 QUIZ.\p"
+	.string "一瓶伤药。还剩多少钱？$"
 # 987 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "Do one REPEL and SODA POP cost\n"
+
 # 988 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "more than one SUPER POTION?$"
+Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
 # 989 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "机械人偶3号测验。\p"
 # 990 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
+	.string "一个驱虫喷雾加一瓶\n"
 # 991 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK…\n"
+	.string "汽水，比一瓶好伤药\l"
 # 992 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 4 THAT IS ME!\p"
+	.string "贵吗？$"
 # 993 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+
 # 994 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
 # 995 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
+	.string "咔嗒咔嗒……\n"
 # 996 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "我就是机械人偶4号！\p"
 # 997 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In Hot House, were there more men\n"
+	.string "我的测验是件艺术品。$"
 # 998 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "or women?$"
+
 # 999 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
 # 1000 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
+	.string "机械人偶4号测验。\p"
 # 1001 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "海边小屋里，男人多\n"
 # 1002 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In LAVARIDGE TOWN, were there more\n"
+	.string "还是女人多？$"
 # 1003 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "elderly men or elderly women?$"
+
 # 1004 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
 # 1005 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
+	.string "机械人偶4号测验。\p"
 # 1006 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "釜炎镇里，老爷爷多\n"
 # 1007 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In the 训练家'S SCHOOL, how many\n"
+	.string "还是老奶奶多？$"
 # 1008 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "girl students were there?$"
+
 # 1009 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
 # 1010 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
+	.string "机械人偶4号测验。\p"
 # 1011 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "CLICKETY-CLACK…\n"
+	.string "训练家学校里，有几个\n"
 # 1012 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 5 AM I!\p"
+	.string "女学生？$"
 # 1013 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
+
 # 1014 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "ACHIEVEMENT AM I.$"
+Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 # 1015 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+	.string "咔嗒咔嗒……\n"
 # 1016 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
+	.string "我乃机械人偶5号！\p"
 # 1017 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "我是主人最棒最骄傲的\n"
 # 1018 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In SLATEPORT's Pokémon FAN CLUB,\n"
+	.string "作品。$"
 # 1019 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "how many Pokémon were there?$"
+
 # 1020 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-
+Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 # 1021 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
+	.string "机械人偶5号测验。\p"
 # 1022 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "凯那的宝可梦同好会里，\n"
 # 1023 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In FORTREE CITY, how many\n"
+	.string "有几只宝可梦？$"
 # 1024 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "tree houses were there?$"
-# 1025 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
+# 1025 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 # 1026 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
+	.string "机械人偶5号测验。\p"
 # 1027 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "茵郁市里有几座\n"
 # 1028 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "On the CYCLING ROAD, how many\n"
+	.string "树屋？$"
 # 1029 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "TRIATHLETES were there?$"
+
+# 1030 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
+# 1031 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+	.string "机械人偶5号测验。\p"
+# 1032 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+	.string "海边自行车道上有几个\n"
+# 1033 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+	.string "铁人三项选手？$"

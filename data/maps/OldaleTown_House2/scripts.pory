@@ -22,17 +22,16 @@ OldaleTown_House2_EventScript_ManNormal::
 	end
 
 OldaleTown_House2_Text_PokemonLevelUp:
-	.string "When Pokémon battle, they eventually\n"
-	.string "level up and become stronger.$"
+	.string "宝可梦对战后会渐渐\n"
+	.string "升级变强。$"
 
 OldaleTown_House2_Text_IfYoureSeeingThis:
-	.string "If you're seeing this message,\n"
-	.string "it means you're a real OG.\l"
-	.string "Here, take this.$"
+	.string "如果你看到这段话，\n"
+	.string "说明你是真正的老玩家。\l"
+	.string "来，这个给你。$"
 
 OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
-	.string "If the Pokémon with you become\n"
-	.string "stronger, you'll be able to go farther\l"
-	.string "away from here.$"
+	.string "带着的宝可梦变强了，\n"
+	.string "你就能走得更远。$"
 
 `

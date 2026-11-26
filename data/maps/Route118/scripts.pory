@@ -224,52 +224,51 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "Hi, {PLAYER}{KUN}, it's me, Steven!\n"
-	.string "We met in the cave near Dewford,\l"
-	.string "I hope you've been doing well\l"
-	.string "since then!\p"
-	.string "I'm glad I bumped into you here.\n"
-	.string "You see, I recently spoke with Drake,\l"
-	.string "and he told me about the increase in\l"
-	.string "nefarious activities by Team Aqua and\l"
-	.string "Team Magma.\p"
-	.string "He also mentioned that he encountered\n"
-	.string "you on more than one occasion, and he\l"
-	.string "was very impressed by how you were able\l"
-	.string "to stop both groups all on your own.\p"
-	.string "I am bringing this up now because there\n"
-	.string "have been reports of more disturbances\l"
-	.string "being caused by both organizations.\p"
-	.string "One such disturbance is a supposed\n"
-	.string "attack on the Weather Institute, which\l"
-	.string "lies further ahead on Route 119.\p"
-	.string "Would you mind investigating this\n"
-	.string "activity, {PLAYER}?\p"
-	.string "… … … … … …\p"
-	.string "Great, thank you so much!\n"
-	.string "Best of luck, and be careful out there!$"
+	.string "{PLAYER}，是我，大吾！\n"
+	.string "我们在武斗附近的\l"
+	.string "洞窟见过，希望你\l"
+	.string "那之后一切都好！\p"
+	.string "很高兴在这儿碰见你。\n"
+	.string "我最近和源治聊过，\l"
+	.string "他说水舰队和熔岩队\l"
+	.string "的坏事越来越多了。\p"
+	.string "他还提到他遇到\n"
+	.string "你好几次，\l"
+	.string "对你一个人就能阻止\l"
+	.string "两个组织非常佩服。\p"
+	.string "我提起这个，是因为\n"
+	.string "有报告说这两个组织\l"
+	.string "又在引发更多骚动。\p"
+	.string "其中之一，据说是要\n"
+	.string "袭击119号道路前面的\l"
+	.string "天气研究所。\p"
+	.string "{PLAYER}，你愿意去\n"
+	.string "调查一下吗？\p"
+	.string "………………\p"
+	.string "太好了，非常感谢！\n"
+	.string "祝你好运，小心点！$"
 
 Route118_Text_CanCrossRiversWithSurf:
-	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a Pokémon that knows SURF.\p"
-	.string "Pokémon can be counted on to do so\n"
-	.string "much!$"
+	.string "就算没有船，只要有一只\n"
+	.string "会冲浪的宝可梦，\l"
+	.string "就能渡河过海。\p"
+	.string "宝可梦真是靠得住！$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "118号道路\n"
+	.string "{LEFT_ARROW} 紫堇市$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "118号道路\n"
+	.string "{UP_ARROW} 119号道路$"
 
 Route118_Text_FormerGoodRod:
-	.string "Hey there, I bet you came here looking\n"
-	.string "for the Good Rod.\p"
-	.string "Sorry to say, I lent it to my buddy over\n"
-	.string "on Route 103, he's just west of the\l"
-	.string "Trick House, you can't miss him!$"
+	.string "嘿，我猜你是来找\n"
+	.string "好钓竿的吧。\p"
+	.string "可惜我把它借给103号\n"
+	.string "道路的朋友了，\l"
+	.string "就在机关屋西边，\l"
+	.string "你肯定能找到他！$"
 
 `
 
@@ -304,7 +303,7 @@ script Route118_EventScript_DeclineWakeBattle {
 }
 
 script Route118_EventScript_BattleWake{
-	msgbox("GLUB GLUB GLUB GLUB!", MSGBOX_DEFAULT)
+	msgbox("咕噜咕噜咕噜咕噜！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_WAKE, Wake_Outro)
 	goto(Route118_EventScript_WakeGiveItems)
 	return
@@ -327,37 +326,37 @@ script Route118_EventScript_WakeDefeated{
 }
 	
 text Wake_Greeting{
-	"GLUB GLUB This better be good if\n"
-	"you're interrupting my training.\p"
-	"… … … … … …\p"
-	"GLUB GLUB Who am I?\n"
-	"I am Crasher Wake of course, ha-ha!\p"
-	"I came over to the Hoenn region\n"
-	"because I heard there was plenty of\l"
-	"water to train in, but honestly, I'd give\l"
-	"it maybe a 7 out of 10.\p"
-	"GLUB GLUB Anyway, you wanna battle\n"
-	"or not?"
+	"咕噜咕噜 你要是来打断我训练，\n"
+	"最好有点要紧事。\p"
+	"………………\p"
+	"咕噜咕噜 我是谁？\n"
+	"当然是极限假面，哈哈！\p"
+	"我来丰缘地区，是因为\n"
+	"听说这里有足够多的\l"
+	"水域可以训练，不过老实说，\l"
+	"我顶多给7分。\p"
+	"咕噜咕噜 总之，你要不要\n"
+	"打一场？"
 }
 
 text Wake_ReadyYet{
-	"GLUB GLUB Ready yet?"
+	"咕噜咕噜 准备好了吗？"
 }
 
 text Wake_ComeBackWhenReady{
-	"GLUB GLUB Suit yourself."
+	"咕噜咕噜 随你便。"
 }
 	
 text Wake_Outro{
-	"Wow, what a fight. I know I'll be leaving\n"
-	"these Items in good hands."
+	"哇，打得真痛快。我把这些\n"
+	"道具交给你很放心。"
 }
 
 text Wake_ExplainItems{
-	"Those are the best Mega stones I have.\n"
-	"Hope you put them to good use."
+	"那是我最好的超级石。\n"
+	"希望你能用好它们。"
 }
 
 text PostBattle_Wake{
-	"GLUB GLUB What now?!"
+	"咕噜咕噜 又怎么了？！"
 }

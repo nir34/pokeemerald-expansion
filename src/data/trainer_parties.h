@@ -17099,7 +17099,7 @@ static const struct TrainerMon sParty_Cap[] = {
 
 static const struct TrainerMon sParty_Sunbird[] = {
     {
-    .nickname = COMPOUND_STRING("Jex"),
+    .nickname = COMPOUND_STRING("杰克斯"),
     .gender = TRAINER_MON_FEMALE,
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
@@ -17111,7 +17111,7 @@ static const struct TrainerMon sParty_Sunbird[] = {
     .moves = {MOVE_STEALTH_ROCK, MOVE_HIDDEN_POWER, MOVE_SLUDGE_WAVE, MOVE_POWER_GEM}
     },
     {
-    .nickname = COMPOUND_STRING("Mr. Fish"),
+    .nickname = COMPOUND_STRING("鱼先生"),
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
     .species = SPECIES_DRACOVISH,
@@ -17122,7 +17122,7 @@ static const struct TrainerMon sParty_Sunbird[] = {
     .moves = {MOVE_CRUNCH, MOVE_PSYCHIC_FANGS, MOVE_FISHIOUS_REND, MOVE_ANCIENT_POWER}
     },
     {
-    .nickname = COMPOUND_STRING("Noodle"),
+    .nickname = COMPOUND_STRING("面条"),
     .gender = TRAINER_MON_FEMALE,
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
@@ -17134,7 +17134,7 @@ static const struct TrainerMon sParty_Sunbird[] = {
     .moves = {MOVE_EXTREME_SPEED, MOVE_DRAGON_DANCE, MOVE_AQUA_TAIL, MOVE_OUTRAGE}
     },
     {
-    .nickname = COMPOUND_STRING("Sylvain"),
+    .nickname = COMPOUND_STRING("希尔万"),
     .gender = TRAINER_MON_MALE,
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
@@ -17146,7 +17146,7 @@ static const struct TrainerMon sParty_Sunbird[] = {
     .moves = {MOVE_NIGHT_SLASH, MOVE_U_TURN, MOVE_PLAY_ROUGH, MOVE_ENERGY_BALL}
     },
     {
-    .nickname = COMPOUND_STRING("OBC Andy"),
+    .nickname = COMPOUND_STRING("安迪"),
     .gender = TRAINER_MON_MALE,
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
@@ -17158,7 +17158,7 @@ static const struct TrainerMon sParty_Sunbird[] = {
     .moves = {MOVE_SNARL, MOVE_HEX, MOVE_HYPER_VOICE, MOVE_TORCH_SONG}
     },
     {
-    .nickname = COMPOUND_STRING("Mochi"),
+    .nickname = COMPOUND_STRING("麻薯"),
     .gender = TRAINER_MON_MALE,
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
@@ -17302,7 +17302,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Po"),
+    .nickname = COMPOUND_STRING("波"),
     .species = SPECIES_URSHIFU_RAPID_STRIKE,
     .nature = NATURE_JOLLY,
     .ev = TRAINER_PARTY_EVS_JOLLY(),
@@ -17313,7 +17313,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Freddy"),
+    .nickname = COMPOUND_STRING("弗雷迪"),
     .species = SPECIES_DARKRAI,
     .nature = NATURE_TIMID,
     .ev = TRAINER_PARTY_EVS_TIMID(),
@@ -17324,7 +17324,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Mettaton"),
+    .nickname = COMPOUND_STRING("镁塔顿"),
     .species = SPECIES_DRAGAPULT,
     .nature = NATURE_TIMID,
     .ev = TRAINER_PARTY_EVS_TIMID(),
@@ -17335,7 +17335,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Scor"),
+    .nickname = COMPOUND_STRING("斯科"),
     .species = SPECIES_CINDERACE,
     .nature = NATURE_JOLLY,
     .ev = TRAINER_PARTY_EVS_JOLLY(),
@@ -17346,7 +17346,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Spoopy"),
+    .nickname = COMPOUND_STRING("幽灵"),
     .species = SPECIES_FLUTTER_MANE,
     .nature = NATURE_TIMID,
     .ev = TRAINER_PARTY_EVS_TIMID(),
@@ -17357,7 +17357,7 @@ static const struct TrainerMon sParty_Danni[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Byron"),
+    .nickname = COMPOUND_STRING("拜伦"),
     .species = SPECIES_MELMETAL,
     .nature = NATURE_ADAMANT,
     .ev = TRAINER_PARTY_EVS_ADAMANT(),
@@ -17381,7 +17381,7 @@ static const struct TrainerMon sParty_MastaJanes[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 200,
-    .nickname = COMPOUND_STRING("Kitty"),
+    .nickname = COMPOUND_STRING("凯蒂"),
     .species = SPECIES_MEOWSCARADA,
     .nature = NATURE_ADAMANT,
     .ev = TRAINER_PARTY_EVS_ADAMANT(),

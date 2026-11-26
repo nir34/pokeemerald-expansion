@@ -159,939 +159,814 @@ InsideOfTruck_EventScript_MovingBox::
 # 80 "data/maps/InsideOfTruck/scripts.pory"
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
 # 81 "data/maps/InsideOfTruck/scripts.pory"
-	.string "The box is printed with a Pokémon logo.\p"
+	.string "箱子上印着宝可梦的标志。\p"
 # 82 "data/maps/InsideOfTruck/scripts.pory"
-	.string "It's a Pokémon brand moving and\n"
+	.string "这是宝可梦品牌的搬家\n"
 # 83 "data/maps/InsideOfTruck/scripts.pory"
-	.string "delivery service.$"
+	.string "和运送服务。$"
 # 84 "data/maps/InsideOfTruck/scripts.pory"
 
 # 85 "data/maps/InsideOfTruck/scripts.pory"
 InsideOfTruck_Text_ReadCarefully:
 # 86 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Please take a moment to read the\n"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}请花点时间仔细阅读\n"
 # 87 "data/maps/InsideOfTruck/scripts.pory"
-	.string "following carefully.$"
+	.string "以下内容。$"
 # 88 "data/maps/InsideOfTruck/scripts.pory"
 
 # 89 "data/maps/InsideOfTruck/scripts.pory"
 InsideOfTruck_Text_WantToUseDefaultSettings:
 # 90 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Would you like to play Pokémon Emerald\n"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}你想用默认设置游玩\n"
 # 91 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Imperium with the default settings?\p"
+	.string "Pokémon Emerald\l"
 # 92 "data/maps/InsideOfTruck/scripts.pory"
-	.string "The default settings are as follows:\p"
+	.string "Imperium 吗？\p"
 # 93 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal difficulty{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - challenging boss\n"
+	.string "默认设置如下：\p"
 # 94 "data/maps/InsideOfTruck/scripts.pory"
-	.string "battles with hard level caps enforced.\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通难度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} —— 有挑战性的\n"
 # 95 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode is ON{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - this\n"
+	.string "BOSS战，并强制\l"
 # 96 "data/maps/InsideOfTruck/scripts.pory"
-	.string "guarantees all Pokémon will have\l"
+	.string "执行严格的等级上限。\p"
 # 97 "data/maps/InsideOfTruck/scripts.pory"
-	.string "perfect IVs, and EVs cannot be\l"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少刷级模式开启{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
 # 98 "data/maps/InsideOfTruck/scripts.pory"
-	.string "obtained.  Boss Pokémon will not have\l"
+	.string "保证所有宝可梦个体值\l"
 # 99 "data/maps/InsideOfTruck/scripts.pory"
-	.string "EVs either.\p"
+	.string "全满，且无法获得\l"
 # 100 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Randomizer {COLOR RED}{SHADOW LIGHT_RED}OFF{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - no additional\n"
+	.string "努力值。BOSS宝可梦\l"
 # 101 "data/maps/InsideOfTruck/scripts.pory"
-	.string "randomization will be enabled.\p"
+	.string "也不会有努力值。\p"
 # 102 "data/maps/InsideOfTruck/scripts.pory"
-	.string "With this information in mind:\n"
+	.string "随机化 {COLOR RED}{SHADOW LIGHT_RED}关闭{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
 # 103 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Would you like to play Pokémon Emerald\l"
+	.string "不启用任何额外\l"
 # 104 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Imperium with the default settings?$"
+	.string "随机化。\p"
 # 105 "data/maps/InsideOfTruck/scripts.pory"
-
+	.string "了解了这些之后：\n"
 # 106 "data/maps/InsideOfTruck/scripts.pory"
-InsideOfTruck_Text_DefaultSettingsSaved:
+	.string "你想用默认设置游玩\l"
 # 107 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Default settings saved.\n"
+	.string "Pokémon Emerald\l"
 # 108 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Good luck!$"
+	.string "Imperium 吗？$"
+# 109 "data/maps/InsideOfTruck/scripts.pory"
+
+# 110 "data/maps/InsideOfTruck/scripts.pory"
+InsideOfTruck_Text_DefaultSettingsSaved:
+# 111 "data/maps/InsideOfTruck/scripts.pory"
+	.string "默认设置已保存。\n"
+# 112 "data/maps/InsideOfTruck/scripts.pory"
+	.string "祝你好运！$"
 
 InsideOfTruck_EventScript_StartSettingsMenu::
-# 112 "data/maps/InsideOfTruck/scripts.pory"
+# 116 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox WhichOption
-# 113 "data/maps/InsideOfTruck/scripts.pory"
+# 117 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_set FLAG_MIN_GRINDING_MODE, InsideOfTruck_EventScript_StartSettingsMenu_2
-# 122 "data/maps/InsideOfTruck/scripts.pory"
+# 126 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_0, 0
-# 123 "data/maps/InsideOfTruck/scripts.pory"
+# 127 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_4, 1
-# 124 "data/maps/InsideOfTruck/scripts.pory"
+# 128 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_2, 2
-# 125 "data/maps/InsideOfTruck/scripts.pory"
+# 129 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, 3
 InsideOfTruck_EventScript_StartSettingsMenu_1:
-# 130 "data/maps/InsideOfTruck/scripts.pory"
+# 134 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultistack 0, 0, TRUE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
-# 132 "data/maps/InsideOfTruck/scripts.pory"
+# 136 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq InsideOfTruck_EventScript_StartSettingsMenu_6
 InsideOfTruck_EventScript_StartSettingsMenu_5:
-# 137 "data/maps/InsideOfTruck/scripts.pory"
+# 141 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_eq InsideOfTruck_EventScript_StartSettingsMenu_9
 InsideOfTruck_EventScript_StartSettingsMenu_8:
-# 142 "data/maps/InsideOfTruck/scripts.pory"
+# 146 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 2
 	goto_if_eq InsideOfTruck_EventScript_StartSettingsMenu_12
 InsideOfTruck_EventScript_StartSettingsMenu_11:
-# 147 "data/maps/InsideOfTruck/scripts.pory"
+# 151 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 3
 	goto_if_eq InsideOfTruck_EventScript_StartSettingsMenu_14
 	return
 
 InsideOfTruck_EventScript_StartSettingsMenu_2:
-# 115 "data/maps/InsideOfTruck/scripts.pory"
+# 119 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_0, 0
-# 116 "data/maps/InsideOfTruck/scripts.pory"
+# 120 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_1, 1
-# 117 "data/maps/InsideOfTruck/scripts.pory"
+# 121 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_2, 2
-# 118 "data/maps/InsideOfTruck/scripts.pory"
+# 122 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, 3
 	goto InsideOfTruck_EventScript_StartSettingsMenu_1
 
 InsideOfTruck_EventScript_StartSettingsMenu_6:
-# 134 "data/maps/InsideOfTruck/scripts.pory"
+# 138 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_DifficultyOptions
 	goto InsideOfTruck_EventScript_StartSettingsMenu_5
 
 InsideOfTruck_EventScript_StartSettingsMenu_9:
-# 139 "data/maps/InsideOfTruck/scripts.pory"
+# 143 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_MinGrindingMode
 	goto InsideOfTruck_EventScript_StartSettingsMenu_8
 
 InsideOfTruck_EventScript_StartSettingsMenu_12:
-# 144 "data/maps/InsideOfTruck/scripts.pory"
+# 148 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_RandomzierOptions
 	goto InsideOfTruck_EventScript_StartSettingsMenu_11
 
 InsideOfTruck_EventScript_StartSettingsMenu_14:
-# 149 "data/maps/InsideOfTruck/scripts.pory"
+# 153 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_SaveSettingsDone
 	return
 
 
 InsideOfTruck_EventScript_DifficultyOptions::
-# 154 "data/maps/InsideOfTruck/scripts.pory"
+# 158 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox WhichDifficulty
-# 155 "data/maps/InsideOfTruck/scripts.pory"
+# 159 "data/maps/InsideOfTruck/scripts.pory"
 	switch VAR_GAME_SETTING_DIFFICULTY_MODE
-# 157 "data/maps/InsideOfTruck/scripts.pory"
+# 161 "data/maps/InsideOfTruck/scripts.pory"
 	case GAME_SETTING_DIFFICULTY_NORMAL_MODE, InsideOfTruck_EventScript_DifficultyOptions_3
-# 162 "data/maps/InsideOfTruck/scripts.pory"
+# 166 "data/maps/InsideOfTruck/scripts.pory"
 	case GAME_SETTING_DIFFICULTY_EASY_MODE, InsideOfTruck_EventScript_DifficultyOptions_4
-# 168 "data/maps/InsideOfTruck/scripts.pory"
+# 172 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_0, GAME_SETTING_DIFFICULTY_NORMAL_MODE
-# 169 "data/maps/InsideOfTruck/scripts.pory"
+# 173 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_1, GAME_SETTING_DIFFICULTY_EASY_MODE
-# 170 "data/maps/InsideOfTruck/scripts.pory"
+# 174 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 InsideOfTruck_EventScript_DifficultyOptions_1:
-# 175 "data/maps/InsideOfTruck/scripts.pory"
+# 179 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
-# 177 "data/maps/InsideOfTruck/scripts.pory"
+# 181 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_7
 InsideOfTruck_EventScript_DifficultyOptions_6:
-# 182 "data/maps/InsideOfTruck/scripts.pory"
+# 186 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, GAME_SETTING_DIFFICULTY_NORMAL_MODE
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_10
 InsideOfTruck_EventScript_DifficultyOptions_9:
-# 202 "data/maps/InsideOfTruck/scripts.pory"
+# 206 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, GAME_SETTING_DIFFICULTY_EASY_MODE
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_12
 	return
 
 InsideOfTruck_EventScript_DifficultyOptions_3:
-# 158 "data/maps/InsideOfTruck/scripts.pory"
+# 162 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_0, GAME_SETTING_DIFFICULTY_NORMAL_MODE
-# 159 "data/maps/InsideOfTruck/scripts.pory"
+# 163 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_1, GAME_SETTING_DIFFICULTY_EASY_MODE
-# 160 "data/maps/InsideOfTruck/scripts.pory"
+# 164 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_DifficultyOptions_1
 
 InsideOfTruck_EventScript_DifficultyOptions_4:
-# 163 "data/maps/InsideOfTruck/scripts.pory"
+# 167 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_2, GAME_SETTING_DIFFICULTY_NORMAL_MODE
-# 164 "data/maps/InsideOfTruck/scripts.pory"
+# 168 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_DifficultyOptions_Text_3, GAME_SETTING_DIFFICULTY_EASY_MODE
-# 165 "data/maps/InsideOfTruck/scripts.pory"
+# 169 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_DifficultyOptions_1
 
 InsideOfTruck_EventScript_DifficultyOptions_7:
-# 179 "data/maps/InsideOfTruck/scripts.pory"
+# 183 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_StartSettingsMenu
 	goto InsideOfTruck_EventScript_DifficultyOptions_6
 
 InsideOfTruck_EventScript_DifficultyOptions_10:
-# 184 "data/maps/InsideOfTruck/scripts.pory"
+# 188 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_NORMAL_MODE
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_14
-# 191 "data/maps/InsideOfTruck/scripts.pory"
+# 195 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalDifficultyYesNo, MSGBOX_YESNO
-# 192 "data/maps/InsideOfTruck/scripts.pory"
+# 196 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_21
 InsideOfTruck_EventScript_DifficultyOptions_20:
-# 197 "data/maps/InsideOfTruck/scripts.pory"
+# 201 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_DifficultyOptions
 	goto InsideOfTruck_EventScript_DifficultyOptions_9
 
 InsideOfTruck_EventScript_DifficultyOptions_12:
-# 204 "data/maps/InsideOfTruck/scripts.pory"
+# 208 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_EASY_MODE
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_17
-# 211 "data/maps/InsideOfTruck/scripts.pory"
+# 215 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox EasyDifficultyYesNo, MSGBOX_YESNO
-# 212 "data/maps/InsideOfTruck/scripts.pory"
+# 216 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_DifficultyOptions_24
 InsideOfTruck_EventScript_DifficultyOptions_23:
-# 217 "data/maps/InsideOfTruck/scripts.pory"
+# 221 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_DifficultyOptions
 	return
 
 InsideOfTruck_EventScript_DifficultyOptions_14:
-# 186 "data/maps/InsideOfTruck/scripts.pory"
+# 190 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalDifficultyCurrentlySelected
-# 187 "data/maps/InsideOfTruck/scripts.pory"
+# 191 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_DifficultyOptions
 	goto InsideOfTruck_EventScript_DifficultyOptions_9
 
 InsideOfTruck_EventScript_DifficultyOptions_17:
-# 206 "data/maps/InsideOfTruck/scripts.pory"
+# 210 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox EasyDifficultyCurrentlySelected
-# 207 "data/maps/InsideOfTruck/scripts.pory"
+# 211 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_DifficultyOptions
 	return
 
 InsideOfTruck_EventScript_DifficultyOptions_21:
-# 194 "data/maps/InsideOfTruck/scripts.pory"
+# 198 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_NORMAL_MODE
-# 195 "data/maps/InsideOfTruck/scripts.pory"
+# 199 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalDifficultyEnabled
 	goto InsideOfTruck_EventScript_DifficultyOptions_20
 
 InsideOfTruck_EventScript_DifficultyOptions_24:
-# 214 "data/maps/InsideOfTruck/scripts.pory"
+# 218 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_EASY_MODE
-# 215 "data/maps/InsideOfTruck/scripts.pory"
+# 219 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox EasyDifficultyEnabled
 	goto InsideOfTruck_EventScript_DifficultyOptions_23
 
 
 InsideOfTruck_EventScript_MinGrindingMode::
-# 223 "data/maps/InsideOfTruck/scripts.pory"
+# 227 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_set FLAG_MIN_GRINDING_MODE, InsideOfTruck_EventScript_MinGrindingMode_2
-# 234 "data/maps/InsideOfTruck/scripts.pory"
+# 238 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox MinGrindingAlreadyOffYesNo, MSGBOX_YESNO
-# 235 "data/maps/InsideOfTruck/scripts.pory"
+# 239 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_MinGrindingMode_7
 InsideOfTruck_EventScript_MinGrindingMode_1:
-# 241 "data/maps/InsideOfTruck/scripts.pory"
+# 245 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_StartSettingsMenu
 	return
 
 InsideOfTruck_EventScript_MinGrindingMode_2:
-# 225 "data/maps/InsideOfTruck/scripts.pory"
+# 229 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox MinGrindingAlreadyOnYesNo, MSGBOX_YESNO
-# 226 "data/maps/InsideOfTruck/scripts.pory"
+# 230 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_MinGrindingMode_5
 	goto InsideOfTruck_EventScript_MinGrindingMode_1
 
 InsideOfTruck_EventScript_MinGrindingMode_5:
-# 228 "data/maps/InsideOfTruck/scripts.pory"
+# 232 "data/maps/InsideOfTruck/scripts.pory"
 	clearflag FLAG_MIN_GRINDING_MODE
-# 229 "data/maps/InsideOfTruck/scripts.pory"
+# 233 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox MinGrindingDisabled
 	goto InsideOfTruck_EventScript_MinGrindingMode_1
 
 InsideOfTruck_EventScript_MinGrindingMode_7:
-# 237 "data/maps/InsideOfTruck/scripts.pory"
+# 241 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_MIN_GRINDING_MODE
-# 238 "data/maps/InsideOfTruck/scripts.pory"
+# 242 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox MinGrindingEnabled
 	goto InsideOfTruck_EventScript_MinGrindingMode_1
 
 
 InsideOfTruck_EventScript_RandomzierOptions::
-# 247 "data/maps/InsideOfTruck/scripts.pory"
+# 251 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox WhichRandomizerOption
-# 248 "data/maps/InsideOfTruck/scripts.pory"
+# 252 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_set FLAG_RANDOMIZER_ENABLED, InsideOfTruck_EventScript_RandomzierOptions_2
-# 255 "data/maps/InsideOfTruck/scripts.pory"
+# 259 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_RandomzierOptions_Text_1, 0
 InsideOfTruck_EventScript_RandomzierOptions_1:
-# 259 "data/maps/InsideOfTruck/scripts.pory"
+# 263 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_set FLAG_RANDOM_ABILITIES_ENABLED, InsideOfTruck_EventScript_RandomzierOptions_6
-# 266 "data/maps/InsideOfTruck/scripts.pory"
+# 270 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_RandomzierOptions_Text_3, 1
 InsideOfTruck_EventScript_RandomzierOptions_5:
-# 280 "data/maps/InsideOfTruck/scripts.pory"
-	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 # 284 "data/maps/InsideOfTruck/scripts.pory"
+	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
+# 288 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
-# 286 "data/maps/InsideOfTruck/scripts.pory"
+# 290 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq InsideOfTruck_EventScript_RandomzierOptions_10
 InsideOfTruck_EventScript_RandomzierOptions_9:
-# 292 "data/maps/InsideOfTruck/scripts.pory"
+# 296 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq InsideOfTruck_EventScript_RandomzierOptions_13
 InsideOfTruck_EventScript_RandomzierOptions_12:
-# 298 "data/maps/InsideOfTruck/scripts.pory"
+# 302 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_eq InsideOfTruck_EventScript_RandomzierOptions_15
 	return
 
 InsideOfTruck_EventScript_RandomzierOptions_2:
-# 250 "data/maps/InsideOfTruck/scripts.pory"
+# 254 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_RandomzierOptions_Text_0, 0
 	goto InsideOfTruck_EventScript_RandomzierOptions_1
 
 InsideOfTruck_EventScript_RandomzierOptions_6:
-# 261 "data/maps/InsideOfTruck/scripts.pory"
+# 265 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_RandomzierOptions_Text_2, 1
 	goto InsideOfTruck_EventScript_RandomzierOptions_5
 
 InsideOfTruck_EventScript_RandomzierOptions_10:
-# 288 "data/maps/InsideOfTruck/scripts.pory"
+# 292 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_StartSettingsMenu
 	goto InsideOfTruck_EventScript_RandomzierOptions_9
 
 InsideOfTruck_EventScript_RandomzierOptions_13:
-# 294 "data/maps/InsideOfTruck/scripts.pory"
+# 298 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions
 	goto InsideOfTruck_EventScript_RandomzierOptions_12
 
 InsideOfTruck_EventScript_RandomzierOptions_15:
-# 300 "data/maps/InsideOfTruck/scripts.pory"
+# 304 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_set FLAG_RANDOM_ABILITIES_ENABLED, InsideOfTruck_EventScript_RandomzierOptions_18
-# 311 "data/maps/InsideOfTruck/scripts.pory"
+# 315 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox RandomAbilitiesAlreadyOffYesNo, MSGBOX_YESNO
-# 312 "data/maps/InsideOfTruck/scripts.pory"
+# 316 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_RandomzierOptions_23
 InsideOfTruck_EventScript_RandomzierOptions_17:
-# 318 "data/maps/InsideOfTruck/scripts.pory"
+# 322 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_RandomzierOptions
 	return
 
 InsideOfTruck_EventScript_RandomzierOptions_18:
-# 302 "data/maps/InsideOfTruck/scripts.pory"
+# 306 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox RandomAbilitiesAlreadyOnYesNo, MSGBOX_YESNO
-# 303 "data/maps/InsideOfTruck/scripts.pory"
+# 307 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_RandomzierOptions_21
 	goto InsideOfTruck_EventScript_RandomzierOptions_17
 
 InsideOfTruck_EventScript_RandomzierOptions_21:
-# 305 "data/maps/InsideOfTruck/scripts.pory"
+# 309 "data/maps/InsideOfTruck/scripts.pory"
 	clearflag FLAG_RANDOM_ABILITIES_ENABLED
-# 306 "data/maps/InsideOfTruck/scripts.pory"
+# 310 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox RandomAbilitiesDisabled
 	goto InsideOfTruck_EventScript_RandomzierOptions_17
 
 InsideOfTruck_EventScript_RandomzierOptions_23:
-# 314 "data/maps/InsideOfTruck/scripts.pory"
+# 318 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_RANDOM_ABILITIES_ENABLED
-# 315 "data/maps/InsideOfTruck/scripts.pory"
+# 319 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox RandomAbilitiesEnabled
 	goto InsideOfTruck_EventScript_RandomzierOptions_17
 
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions::
-# 347 "data/maps/InsideOfTruck/scripts.pory"
+# 351 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox WhichSpeciesRandomizerOption
-# 348 "data/maps/InsideOfTruck/scripts.pory"
+# 352 "data/maps/InsideOfTruck/scripts.pory"
 	goto_if_unset FLAG_RANDOMIZER_ENABLED, InsideOfTruck_EventScript_SpeciesRandomizerOptions_2
-# 357 "data/maps/InsideOfTruck/scripts.pory"
+# 361 "data/maps/InsideOfTruck/scripts.pory"
 	switch VAR_RANDOMIZER_MODE
-# 359 "data/maps/InsideOfTruck/scripts.pory"
+# 363 "data/maps/InsideOfTruck/scripts.pory"
 	case MON_RANDOM, InsideOfTruck_EventScript_SpeciesRandomizerOptions_9
-# 365 "data/maps/InsideOfTruck/scripts.pory"
+# 369 "data/maps/InsideOfTruck/scripts.pory"
 	case MON_RANDOM_BST, InsideOfTruck_EventScript_SpeciesRandomizerOptions_10
-# 371 "data/maps/InsideOfTruck/scripts.pory"
+# 375 "data/maps/InsideOfTruck/scripts.pory"
 	case MON_RANDOM_LEGEND_AWARE, InsideOfTruck_EventScript_SpeciesRandomizerOptions_11
-# 377 "data/maps/InsideOfTruck/scripts.pory"
+# 381 "data/maps/InsideOfTruck/scripts.pory"
 	case MAX_MON_MODE, InsideOfTruck_EventScript_SpeciesRandomizerOptions_12
-# 384 "data/maps/InsideOfTruck/scripts.pory"
+# 388 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0, MON_RANDOM
-# 385 "data/maps/InsideOfTruck/scripts.pory"
+# 389 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1, MON_RANDOM_BST
-# 386 "data/maps/InsideOfTruck/scripts.pory"
+# 390 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2, MON_RANDOM_LEGEND_AWARE
-# 387 "data/maps/InsideOfTruck/scripts.pory"
+# 391 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_1:
-# 395 "data/maps/InsideOfTruck/scripts.pory"
+# 399 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
-# 397 "data/maps/InsideOfTruck/scripts.pory"
+# 401 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_6
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_5:
-# 402 "data/maps/InsideOfTruck/scripts.pory"
+# 406 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MON_RANDOM
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_15
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_14:
-# 427 "data/maps/InsideOfTruck/scripts.pory"
+# 431 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MON_RANDOM_BST
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_18
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_17:
-# 452 "data/maps/InsideOfTruck/scripts.pory"
+# 456 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, MON_RANDOM_LEGEND_AWARE
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_24
 	return
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_2:
-# 350 "data/maps/InsideOfTruck/scripts.pory"
+# 354 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0, MON_RANDOM
-# 351 "data/maps/InsideOfTruck/scripts.pory"
+# 355 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1, MON_RANDOM_BST
-# 352 "data/maps/InsideOfTruck/scripts.pory"
+# 356 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2, MON_RANDOM_LEGEND_AWARE
-# 353 "data/maps/InsideOfTruck/scripts.pory"
+# 357 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_1
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_6:
-# 399 "data/maps/InsideOfTruck/scripts.pory"
+# 403 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_RandomzierOptions
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_5
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_9:
-# 360 "data/maps/InsideOfTruck/scripts.pory"
+# 364 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_3, MON_RANDOM
-# 361 "data/maps/InsideOfTruck/scripts.pory"
+# 365 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1, MON_RANDOM_BST
-# 362 "data/maps/InsideOfTruck/scripts.pory"
+# 366 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2, MON_RANDOM_LEGEND_AWARE
-# 363 "data/maps/InsideOfTruck/scripts.pory"
+# 367 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_1
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_10:
-# 366 "data/maps/InsideOfTruck/scripts.pory"
+# 370 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0, MON_RANDOM
-# 367 "data/maps/InsideOfTruck/scripts.pory"
+# 371 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_4, MON_RANDOM_BST
-# 368 "data/maps/InsideOfTruck/scripts.pory"
+# 372 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2, MON_RANDOM_LEGEND_AWARE
-# 369 "data/maps/InsideOfTruck/scripts.pory"
+# 373 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_1
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_11:
-# 372 "data/maps/InsideOfTruck/scripts.pory"
+# 376 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0, MON_RANDOM
-# 373 "data/maps/InsideOfTruck/scripts.pory"
+# 377 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1, MON_RANDOM_BST
-# 374 "data/maps/InsideOfTruck/scripts.pory"
+# 378 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_5, MON_RANDOM_LEGEND_AWARE
-# 375 "data/maps/InsideOfTruck/scripts.pory"
+# 379 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_1
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_12:
-# 378 "data/maps/InsideOfTruck/scripts.pory"
+# 382 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0, MON_RANDOM
-# 379 "data/maps/InsideOfTruck/scripts.pory"
+# 383 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1, MON_RANDOM_BST
-# 380 "data/maps/InsideOfTruck/scripts.pory"
+# 384 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2, MON_RANDOM_LEGEND_AWARE
-# 381 "data/maps/InsideOfTruck/scripts.pory"
+# 385 "data/maps/InsideOfTruck/scripts.pory"
 	dynmultipush InsideOfTruck_EventScript_StartSettingsMenu_Text_3, MULTI_B_PRESSED
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_1
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_15:
-# 404 "data/maps/InsideOfTruck/scripts.pory"
+# 408 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RANDOMIZER_MODE, MON_RANDOM
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_21
-# 416 "data/maps/InsideOfTruck/scripts.pory"
+# 420 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalSpeciesRandomizerAlreadyOffYesNo, MSGBOX_YESNO
-# 417 "data/maps/InsideOfTruck/scripts.pory"
+# 421 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_32
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_20:
-# 424 "data/maps/InsideOfTruck/scripts.pory"
+# 428 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_14
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_18:
-# 429 "data/maps/InsideOfTruck/scripts.pory"
+# 433 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RANDOMIZER_MODE, MON_RANDOM_BST
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_27
-# 441 "data/maps/InsideOfTruck/scripts.pory"
+# 445 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox ScaledSpeciesRandomizerAlreadyOffYesNo, MSGBOX_YESNO
-# 442 "data/maps/InsideOfTruck/scripts.pory"
+# 446 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_40
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_26:
-# 449 "data/maps/InsideOfTruck/scripts.pory"
+# 453 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_17
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_21:
-# 406 "data/maps/InsideOfTruck/scripts.pory"
+# 410 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalSpeciesRandomizerAlreadyOnYesNo, MSGBOX_YESNO
-# 407 "data/maps/InsideOfTruck/scripts.pory"
+# 411 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_30
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_20
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_24:
-# 454 "data/maps/InsideOfTruck/scripts.pory"
+# 458 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RANDOMIZER_MODE, MON_RANDOM_LEGEND_AWARE
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_35
-# 466 "data/maps/InsideOfTruck/scripts.pory"
+# 470 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox LegendsAwareRandomizerAlreadyOffYesNo, MSGBOX_YESNO
-# 467 "data/maps/InsideOfTruck/scripts.pory"
+# 471 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_44
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_34:
-# 474 "data/maps/InsideOfTruck/scripts.pory"
+# 478 "data/maps/InsideOfTruck/scripts.pory"
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions
 	return
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_27:
-# 431 "data/maps/InsideOfTruck/scripts.pory"
+# 435 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox ScaledSpeciesRandomizerAlreadyOnYesNo, MSGBOX_YESNO
-# 432 "data/maps/InsideOfTruck/scripts.pory"
+# 436 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_38
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_26
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_30:
-# 409 "data/maps/InsideOfTruck/scripts.pory"
+# 413 "data/maps/InsideOfTruck/scripts.pory"
 	clearflag FLAG_RANDOMIZER_ENABLED
-# 410 "data/maps/InsideOfTruck/scripts.pory"
+# 414 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MAX_MON_MODE
-# 411 "data/maps/InsideOfTruck/scripts.pory"
+# 415 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalSpeciesRandomizerDisabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_20
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_32:
-# 419 "data/maps/InsideOfTruck/scripts.pory"
+# 423 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_RANDOMIZER_ENABLED
-# 420 "data/maps/InsideOfTruck/scripts.pory"
+# 424 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MON_RANDOM
-# 421 "data/maps/InsideOfTruck/scripts.pory"
+# 425 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox NormalSpeciesRandomizerEnabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_20
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_35:
-# 456 "data/maps/InsideOfTruck/scripts.pory"
+# 460 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox LegendsAwareRandomizerAlreadyOnYesNo, MSGBOX_YESNO
-# 457 "data/maps/InsideOfTruck/scripts.pory"
+# 461 "data/maps/InsideOfTruck/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq InsideOfTruck_EventScript_SpeciesRandomizerOptions_42
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_34
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_38:
-# 434 "data/maps/InsideOfTruck/scripts.pory"
+# 438 "data/maps/InsideOfTruck/scripts.pory"
 	clearflag FLAG_RANDOMIZER_ENABLED
-# 435 "data/maps/InsideOfTruck/scripts.pory"
+# 439 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MAX_MON_MODE
-# 436 "data/maps/InsideOfTruck/scripts.pory"
+# 440 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox ScaledSpeciesRandomizerDisabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_26
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_40:
-# 444 "data/maps/InsideOfTruck/scripts.pory"
+# 448 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_RANDOMIZER_ENABLED
-# 445 "data/maps/InsideOfTruck/scripts.pory"
+# 449 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MON_RANDOM_BST
-# 446 "data/maps/InsideOfTruck/scripts.pory"
+# 450 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox ScaledSpeciesRandomizerEnabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_26
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_42:
-# 459 "data/maps/InsideOfTruck/scripts.pory"
+# 463 "data/maps/InsideOfTruck/scripts.pory"
 	clearflag FLAG_RANDOMIZER_ENABLED
-# 460 "data/maps/InsideOfTruck/scripts.pory"
+# 464 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MAX_MON_MODE
-# 461 "data/maps/InsideOfTruck/scripts.pory"
+# 465 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox LegendsAwareRandomizerDisabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_34
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_44:
-# 469 "data/maps/InsideOfTruck/scripts.pory"
+# 473 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_RANDOMIZER_ENABLED
-# 470 "data/maps/InsideOfTruck/scripts.pory"
+# 474 "data/maps/InsideOfTruck/scripts.pory"
 	setvar VAR_RANDOMIZER_MODE, MON_RANDOM_LEGEND_AWARE
-# 471 "data/maps/InsideOfTruck/scripts.pory"
+# 475 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox LegendsAwareRandomizerEnabled
 	goto InsideOfTruck_EventScript_SpeciesRandomizerOptions_34
 
 
 InsideOfTruck_EventScript_SaveSettingsDone::
-# 481 "data/maps/InsideOfTruck/scripts.pory"
+# 485 "data/maps/InsideOfTruck/scripts.pory"
 	special ForceBattleStyleSetPleaseGod
-# 482 "data/maps/InsideOfTruck/scripts.pory"
+# 486 "data/maps/InsideOfTruck/scripts.pory"
 	msgbox CustomSettingsSaved
-# 483 "data/maps/InsideOfTruck/scripts.pory"
+# 487 "data/maps/InsideOfTruck/scripts.pory"
 	releaseall
 	end
 
 
 InsideOfTruck_EventScript_StartSettingsMenu_Text_0:
-# 115 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Difficulty Options$"
+# 119 "data/maps/InsideOfTruck/scripts.pory"
+	.string "难度选项$"
 
 InsideOfTruck_EventScript_StartSettingsMenu_Text_1:
-# 116 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode$"
+# 120 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式$"
 
 InsideOfTruck_EventScript_StartSettingsMenu_Text_2:
-# 117 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Randomizer Options$"
+# 121 "data/maps/InsideOfTruck/scripts.pory"
+	.string "随机化选项$"
 
 InsideOfTruck_EventScript_StartSettingsMenu_Text_3:
-# 118 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Done$"
+# 122 "data/maps/InsideOfTruck/scripts.pory"
+	.string "完成$"
 
 InsideOfTruck_EventScript_StartSettingsMenu_Text_4:
-# 123 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode$"
+# 127 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}最少练级模式$"
 
 InsideOfTruck_EventScript_DifficultyOptions_Text_0:
-# 158 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal$"
+# 162 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通$"
 
 InsideOfTruck_EventScript_DifficultyOptions_Text_1:
-# 159 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Easy$"
+# 163 "data/maps/InsideOfTruck/scripts.pory"
+	.string "简单$"
 
 InsideOfTruck_EventScript_DifficultyOptions_Text_2:
-# 163 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Normal$"
+# 167 "data/maps/InsideOfTruck/scripts.pory"
+	.string "普通$"
 
 InsideOfTruck_EventScript_DifficultyOptions_Text_3:
-# 164 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy$"
+# 168 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}简单$"
 
 InsideOfTruck_EventScript_RandomzierOptions_Text_0:
-# 250 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Species$"
+# 254 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}种族$"
 
 InsideOfTruck_EventScript_RandomzierOptions_Text_1:
-# 255 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Species$"
+# 259 "data/maps/InsideOfTruck/scripts.pory"
+	.string "种族$"
 
 InsideOfTruck_EventScript_RandomzierOptions_Text_2:
-# 261 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability$"
+# 265 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}特性$"
 
 InsideOfTruck_EventScript_RandomzierOptions_Text_3:
-# 266 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Ability$"
+# 270 "data/maps/InsideOfTruck/scripts.pory"
+	.string "特性$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_0:
-# 350 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Normal species$"
+# 354 "data/maps/InsideOfTruck/scripts.pory"
+	.string "普通种族$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_1:
-# 351 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Scaled species$"
+# 355 "data/maps/InsideOfTruck/scripts.pory"
+	.string "强度缩放种族$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_2:
-# 352 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Legendary-aware species$"
+# 356 "data/maps/InsideOfTruck/scripts.pory"
+	.string "考虑传说的种族$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_3:
-# 360 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal species$"
+# 364 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通种族$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_4:
-# 367 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled species$"
+# 371 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放种族$"
 
 InsideOfTruck_EventScript_SpeciesRandomizerOptions_Text_5:
-# 374 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware species$"
+# 378 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族$"
 
 WhichOption::
-# 488 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Which option would you like\n"
-	.string "to customize?$"
+# 492 "data/maps/InsideOfTruck/scripts.pory"
+	.string "要自定义\n哪个选项？$"
 
 WhichDifficulty::
-# 494 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Which difficulty mode would you\n"
-	.string "like to play on?$"
+# 497 "data/maps/InsideOfTruck/scripts.pory"
+	.string "要以哪种难度\n模式游玩？$"
 
 WhichRandomizerOption::
-# 500 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Which randomizer option would you\n"
-	.string "like to customize?$"
+# 502 "data/maps/InsideOfTruck/scripts.pory"
+	.string "要自定义哪个\n随机化选项？$"
 
 WhichSpeciesRandomizerOption::
-# 506 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Which Species Randomizer option would\n"
-	.string "you like to customize?$"
+# 507 "data/maps/InsideOfTruck/scripts.pory"
+	.string "要自定义哪个种族\n随机化选项？$"
 
 NormalDifficultyCurrentlySelected::
 # 512 "data/maps/InsideOfTruck/scripts.pory"
-	.string "This is the recommended difficulty\n"
-	.string "mode and is what this game is primarily\l"
-	.string "balanced around.\p"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} has challenging boss\n"
-	.string "battles with hard level caps enforced.\p"
-	.string "The player cannot access the Bag\n"
-	.string "during trainer battles, and the battle\l"
-	.string "style is forced to Set.\p"
-	.string "You currently have {COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.\n"
-	.string "Please select a different difficulty\l"
-	.string "mode if you wish to change it.$"
+	.string "这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。$"
 
 EasyDifficultyCurrentlySelected::
-# 527 "data/maps/InsideOfTruck/scripts.pory"
-	.string "There are still level caps in {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n"
-	.string "however, the Boss Pokémon will be 2\l"
-	.string "levels lower than in Normal.\l"
-	.string "Boss teams are otherwise unchanged.\p"
-	.string "The player is allowed to access the\n"
-	.string "Bag during any battle.\p"
-	.string "Additionally, the player can change the\n"
-	.string "battle style from Set to Shift.\p"
-	.string "This will still be more difficult than a\n"
-	.string "vanilla Pokémon game.\p"
-	.string "You currently have {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.\n"
-	.string "Please select a different difficulty\l"
-	.string "mode if you wish to change it.$"
+# 517 "data/maps/InsideOfTruck/scripts.pory"
+	.string "在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。$"
 
 NormalDifficultyYesNo::
-# 544 "data/maps/InsideOfTruck/scripts.pory"
-	.string "This is the recommended difficulty\n"
-	.string "mode and is what this game is primarily\l"
-	.string "balanced around.\p"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} has challenging boss\n"
-	.string "battles with hard level caps enforced.\p"
-	.string "The player cannot access the Bag\n"
-	.string "during trainer battles, and the battle\l"
-	.string "style is forced to Set.\p"
-	.string "Do you want to turn on\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode?$"
+# 522 "data/maps/InsideOfTruck/scripts.pory"
+	.string "这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式吗？$"
 
 EasyDifficultyYesNo::
-# 558 "data/maps/InsideOfTruck/scripts.pory"
-	.string "There are still level caps in {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n"
-	.string "however, the Boss Pokémon will be 2\l"
-	.string "levels lower than in Normal.\l"
-	.string "Boss teams are otherwise unchanged.\p"
-	.string "The player is allowed to access the\n"
-	.string "Bag during any battle.\p"
-	.string "Additionally, the player can change the\n"
-	.string "battle style from Set to Shift.\p"
-	.string "This will still be more difficult than a\n"
-	.string "vanilla Pokémon game.\p"
-	.string "Do you want to turn on\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode?$"
+# 527 "data/maps/InsideOfTruck/scripts.pory"
+	.string "在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式吗？$"
 
 NormalDifficultyEnabled::
-# 574 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.$"
+# 532 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。$"
 
 EasyDifficultyEnabled::
-# 579 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.$"
+# 537 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。$"
 
 MinGrindingAlreadyOnYesNo::
-# 584 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} guarantees all\n"
-	.string "Pokémon to have perfect IVs,\l"
-	.string "and EVs cannot be obtained.\l"
-	.string "Boss Pokémon will not have EVs either.\p"
-	.string "If this mode is disabled, obtainable\n"
-	.string "Pokémon will have random IVs and can be\l"
-	.string "EV trained.\p"
-	.string "Boss Pokémon will still have perfect\n"
-	.string "IVs and will be EV trained.\p"
-	.string "Do you want to turn\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode off?$"
+# 542 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}最少练级模式吗？$"
 
 MinGrindingAlreadyOffYesNo::
-# 599 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} guarantees all\n"
-	.string "Pokémon to have perfect IVs,\l"
-	.string "and EVs cannot be obtained.\l"
-	.string "Boss Pokémon will not have EVs either.\p"
-	.string "If this mode is disabled, obtainable\n"
-	.string "Pokémon will have random IVs and can be\l"
-	.string "EV trained.\p"
-	.string "Boss Pokémon will still have perfect\n"
-	.string "IVs and will be EV trained.\p"
-	.string "Do you want to turn\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode on?$"
+# 547 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式吗？$"
 
 MinGrindingEnabled::
-# 614 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode enabled.$"
+# 552 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式已启用。$"
 
 MinGrindingDisabled::
-# 619 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode disabled.$"
+# 557 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}最少练级模式已关闭。$"
 
 RandomAbilitiesAlreadyOnYesNo::
-# 625 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes abilities\n"
-	.string "for the player, but doesn't affect\l"
-	.string "abilities on Boss Pokémon.\p"
-	.string "Do you want to turn off the\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Ability Randomizer?$"
+# 563 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}特性随机化吗？$"
 
 RandomAbilitiesAlreadyOffYesNo::
-# 634 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes abilities\n"
-	.string "for the player, but doesn't affect\l"
-	.string "abilities on Boss Pokémon.\p"
-	.string "Do you want to turn on the\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer?$"
+# 568 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化吗？$"
 
 RandomAbilitiesEnabled::
-# 644 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer enabled.$"
+# 574 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化已启用。$"
 
 RandomAbilitiesDisabled::
-# 649 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Ability Randomizer disabled.$"
+# 579 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}特性随机化已关闭。$"
 
 RandomLearnsetsAlreadyOnYesNo::
-# 655 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	.string "Pokémon learnsets.\p"
-	.string "It does not randomize TMs or\n"
-	.string "move tutors.\p"
-	.string "Boss Pokémon also keep their normal\n"
-	.string "movesets.\p"
-	.string "Do you want to turn off the\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Learnset Randomizer?$"
+# 585 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}招式随机化吗？$"
 
 RandomLearnsetsAlreadyOffYesNo::
-# 667 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	.string "Pokémon learnsets.\p"
-	.string "It does not randomize TMs or\n"
-	.string "move tutors.\p"
-	.string "Boss Pokémon also keep their normal\n"
-	.string "movesets.\p"
-	.string "Do you want to turn on the\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer?$"
+# 590 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化吗？$"
 
 RandomLearnsetsEnabled::
-# 680 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer enabled.$"
+# 596 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化已启用。$"
 
 RandomLearnsetsDisabled::
-# 685 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Learnset Randomizer disabled.$"
+# 601 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}招式随机化已关闭。$"
 
 NormalSpeciesRandomizerAlreadyOnYesNo::
-# 691 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	.string "encounters, trainers, and gifts.\l"
-	.string "It does not randomize boss battles.\p"
-	.string "Many legendaries cannot be\n"
-	.string "encountered.\p"
-	.string "Do you want to turn off the\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Species Randomizer?$"
+# 607 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}种族随机化吗？$"
 
 NormalSpeciesRandomizerAlreadyOffYesNo::
-# 702 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	.string "encounters, trainers, and gifts.\l"
-	.string "It does not randomize boss battles.\p"
-	.string "Many legendaries cannot be\n"
-	.string "encountered.\p"
-	.string "Do you want to turn on the\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer?$"
+# 612 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化吗？$"
 
 NormalSpeciesRandomizerEnabled::
-# 714 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer enabled.$"
+# 618 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化已启用。$"
 
 NormalSpeciesRandomizerDisabled::
-# 719 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Species Randomizer disabled.$"
+# 623 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}种族随机化已关闭。$"
 
 ScaledSpeciesRandomizerAlreadyOnYesNo::
-# 725 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} only gives\n"
-	.string "reasonable Pokémon for your location\l"
-	.string "in the game.\p"
-	.string "This randomization is based off the\n"
-	.string "base stat total of the original\l"
-	.string "encounter.\l"
-	.string "It does not randomize boss battles.\p"
-	.string "Do you want to turn off the\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Scaled Randomizer?$"
+# 629 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化吗？$"
 
 ScaledSpeciesRandomizerAlreadyOffYesNo::
-# 738 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} only gives\n"
-	.string "reasonable Pokémon for your location\l"
-	.string "in the game.\p"
-	.string "This randomization is based off the\n"
-	.string "base stat total of the original\l"
-	.string "encounter.\l"
-	.string "It does not randomize boss battles.\p"
-	.string "Do you want to turn on the\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer?$"
+# 634 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化吗？$"
 
 ScaledSpeciesRandomizerEnabled::
-# 752 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer enabled.$"
+# 640 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化已启用。$"
 
 ScaledSpeciesRandomizerDisabled::
-# 757 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Scaled Randomizer disabled.$"
+# 645 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化已关闭。$"
 
 LegendsAwareRandomizerAlreadyOnYesNo::
-# 762 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} is\n"
-	.string "the same thing as the Species\l"
-	.string "Randomizer, with the only difference\l"
-	.string "being that legendary Pokémon will be\l"
-	.string "guaranteed to be randomized into\l"
-	.string "legendary Pokémon.\p"
-	.string "Do you want to turn off the\n"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Legendary-aware Species Randomizer?$"
+# 650 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化吗？$"
 
 LegendsAwareRandomizerAlreadyOffYesNo::
-# 774 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} is\n"
-	.string "the same thing as the Species\l"
-	.string "Randomizer, with the only difference\l"
-	.string "being that legendary Pokémon will be\l"
-	.string "guaranteed to be randomized into\l"
-	.string "legendary Pokémon.\p"
-	.string "Do you want to turn on the\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer?$"
+# 655 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化吗？$"
 
 LegendsAwareRandomizerEnabled::
-# 787 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer\n"
-	.string "enabled.$"
+# 661 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化\n已启用。$"
 
 LegendsAwareRandomizerDisabled::
-# 793 "data/maps/InsideOfTruck/scripts.pory"
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Legendary-aware Species Randomizer\n"
-	.string "disabled.$"
+# 666 "data/maps/InsideOfTruck/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化\n已关闭。$"
 
 CustomSettingsSaved::
-# 800 "data/maps/InsideOfTruck/scripts.pory"
-	.string "Custom settings saved.\n"
-	.string "Good luck!$"
+# 672 "data/maps/InsideOfTruck/scripts.pory"
+	.string "自定义设置已保存。\n祝你好运！$"

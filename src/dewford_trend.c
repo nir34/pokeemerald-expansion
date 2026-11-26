@@ -11,7 +11,7 @@
 
 /*
     ## Overview ##
-    This file handles the "Dewford Trend", a pair of Easy Chat words
+    This file handles the "武斗趋势", a pair of Easy Chat words
     repeated by NPCs around Dewford Hall.
 
     The NPC outside Dewford Hall will ask what the player thinks of the
@@ -314,7 +314,7 @@ void IsTrendyPhraseBoring(void)
 }
 
 // A painting hangs on the wall of the Dewford Hall
-// When interacted with it says "{trendy phrase}'S {name} is the title"
+// When interacted with it says "标题是{trendy phrase}的{name}"
 // {name} is one of 8 pre-set words, depending on the current phrase
 // See DewfordTown_Hall_EventScript_Painting
 void GetDewfordHallPaintingNameIndex(void)

@@ -44,7 +44,7 @@ enum {
 #define TAG_CONDITION   1
 
 // At any one time, the currently selected mon and its two adjacent neighbors can be loaded
-// IDs to refer to one of these 3 are called "load id" in this file
+// IDs to refer to one of these 3 are called "读取ID" in this file
 #define NUM_SELECTIONS_LOADED 3
 
 struct UsePokeblockSession
@@ -100,7 +100,7 @@ struct UsePokeblockMenu
     struct Sprite *sparkles[MAX_CONDITION_SPARKLES];
     struct Sprite *condition[2];
     u8 toLoadSelection;
-    u8 locationStrings[NUM_SELECTIONS_LOADED][24]; // Gets an "in party" or "in box #" string that never gets printed
+    u8 locationStrings[NUM_SELECTIONS_LOADED][24]; // Gets an "在队伍中" or "在盒子#" string that never gets printed
     u8 monNameStrings[NUM_SELECTIONS_LOADED][64];
     struct ConditionGraph graph;
     u8 numSparkles[NUM_SELECTIONS_LOADED];
@@ -1658,7 +1658,7 @@ static bool8 LoadConditionTitle(void)
     return FALSE;
 }
 
-// Literally the word "Condition", the title block that appears over the mon icon
+// Literally the word "状态", the title block that appears over the mon icon
 static void SpriteCB_Condition(struct Sprite *sprite)
 {
     s16 prevX = sprite->x;

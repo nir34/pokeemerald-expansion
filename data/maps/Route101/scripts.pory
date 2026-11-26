@@ -262,47 +262,46 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "救、救命！$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "喂！那边的你！\n"
+	.string "快来救命！\p"
+	.string "在我的背包里！\n"
+	.string "有个精灵球！$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "你、你要去哪？！\n"
+	.string "别把我丢在这里！$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "Pokémon when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my Pokémon LAB later, okay?$"
+	.string "小田卷博士：呼……\p"
+	.string "我在高草里研究野生\n"
+	.string "宝可梦时被袭击了。\p"
+	.string "你救了我。\n"
+	.string "太谢谢了！\p"
+	.string "哦？\p"
+	.string "哎呀，你是{PLAYER}{KUN}！\p"
+	.string "这里不是说话的地方，\n"
+	.string "晚点来我的宝可梦研究所吧。$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If Pokémon get tired, take them to\n"
-	.string "a Pokémon Center.\p"
-	.string "Alternatively, you can heal your party\n"
-	.string "anywhere if you have a PokéVial.\p"
-	.string "If you have one, you can access it by\n"
-	.string "pressing the “L” button, that thing is\l"
-	.string "super useful!$"
+	.string "宝可梦累了的话，就带去\n"
+	.string "宝可梦中心吧。\p"
+	.string "另外，有宝可梦药箱的话，\n"
+	.string "在任何地方都能治疗队伍。\p"
+	.string "按“L”键就能使用，\n"
+	.string "那东西超级好用！$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild Pokémon will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "That is, unless you have an\n"
-	.string "Infinite Repel. Toggling that on\l"
-	.string "will keep wild Pokémon away.$"
+	.string "在高草里，野生宝可梦\n"
+	.string "会跳出来袭击你。\p"
+	.string "除非你带着无限驱虫喷雾。\n"
+	.string "打开它就能\l"
+	.string "让野生宝可梦不敢靠近。$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "101号道路\n"
+	.string "{UP_ARROW} 古辰镇$"
 
 `

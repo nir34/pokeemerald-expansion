@@ -37,7 +37,7 @@ SootopolisCity_House5_EventScript_Kingambit::
 # 19 "data/maps/SootopolisCity_House5/scripts.pory"
 SootopolisCity_House5_Text_Kingambit:
 # 20 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Kingambit: Uuhuuhuuhuuahahuuhu!$"
+	.string "仆刀将军：呜呼呼呼呼呼！$"
 # 21 "data/maps/SootopolisCity_House5/scripts.pory"
 
 # 22 "data/maps/SootopolisCity_House5/scripts.pory"
@@ -65,7 +65,7 @@ SootopolisCity_House5_EventScript_Dragapult::
 # 33 "data/maps/SootopolisCity_House5/scripts.pory"
 SootopolisCity_House5_Text_Dragapult:
 # 34 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Dragapult: Huuuuuuureeeeeeee!$"
+	.string "多龙巴鲁托：呜噜噜噜咿！$"
 # 35 "data/maps/SootopolisCity_House5/scripts.pory"
 
 # 36 "data/maps/SootopolisCity_House5/scripts.pory"
@@ -93,7 +93,7 @@ SootopolisCity_House5_EventScript_Greninja::
 # 47 "data/maps/SootopolisCity_House5/scripts.pory"
 SootopolisCity_House5_Text_Greninja:
 # 48 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Greninja: Rruuueelelel!$"
+	.string "甲贺忍蛙：噜诶诶诶！$"
 
 SootopolisCity_House5_EventScript_Natn::
 # 53 "data/maps/SootopolisCity_House5/scripts.pory"
@@ -511,137 +511,136 @@ SootopolisCity_House5_EventScript_ExplainZarude::
 
 Natn_Greeting::
 # 145 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Hey, my name's Natn, and I was the first\n"
-	.string "person to beat this game in Normal mode\l"
-	.string "when it released.\p"
-	.string "I didn't really do a lot of talking in the\n"
-	.string "early days, I just showed up, blitzed\l"
-	.string "through the game, then posted my Hall\l"
-	.string "of Fame team.\p"
-	.string "My rules are the same, if you can beat\n"
-	.string "me, I'll give you a Mythical.\p"
-	.string "Interested in battling?$"
+	.string "嘿，我叫Natn，我是这游戏\n"
+	.string "发售时第一个在普通模式下\l"
+	.string "通关的人。\p"
+	.string "早期我不太爱说话，\n"
+	.string "只是出现、飞快通关，\l"
+	.string "然后晒出我的名人堂\l"
+	.string "队伍。\p"
+	.string "我的规矩也一样，你若能\n"
+	.string "打赢我，我就送你幻之宝可梦。\p"
+	.string "有兴趣对战吗？$"
 
 Natn_ReadyYet::
 # 158 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Want to battle now?$"
+	.string "现在想打吗？$"
 
 Natn_YoureOn::
 # 162 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Let's do this.$"
+	.string "来吧。$"
 
 Natn_ComeBackWhenReady::
 # 166 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Let me know if you change your mind.$"
+	.string "改主意了就告诉我。$"
 
 Natn_Outro::
 # 170 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Not bad at all.\n$"
+	.string "相当不错。\n$"
 
 SootopolisCity_House5_Text_PlayerReceivedMeloetta::
 # 174 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "{PLAYER} received Meloetta!$"
+	.string "{PLAYER}得到了美洛耶塔！$"
 
 Natn_ExplainMeloetta::
 # 178 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "There's your Mythical.\n"
-	.string "I'm sure you know it's gimmick by now,\l"
-	.string "but if you use its signature move, Relic\l"
-	.string "Song, you can change forms in battle.\p"
-	.string "Really makes you wonder how Maylene\n"
-	.string "got one that started in Pirouette form.$"
+	.string "你的幻之宝可梦。\n"
+	.string "你大概知道它的花样了，\l"
+	.string "只要用它专属的古老之歌，\l"
+	.string "就能在对战中改变形态。\p"
+	.string "真让人好奇阿李是怎么拿到\n"
+	.string "一开始就是舞步形态的那只的。$"
 
 PostBattle_Natn::
 # 187 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Honestly, this game was pretty easy.\n"
-	.string "I'll be here waiting for Hardcore mode.$"
+	.string "说真的，这游戏挺简单的。\n"
+	.string "我就在这儿等硬核模式。$"
 
 MasterPoucine_Greeting::
 # 286 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Hi there! I'm MasterPoucine, and I was\n"
-	.string "the third person to beat this game once\l"
-	.string "it released, and the first to do so\l"
-	.string "using the mascot, Empoleon!\p"
-	.string "I am also a content creator, so check\n"
-	.string "me out on YouTube!\p"
-	.string "Just like the other Champions, if you\n"
-	.string "can beat me, I'll give you a Mythical.\p"
-	.string "Do you want to battle me?$"
+	.string "你好！我是MasterPoucine，\n"
+	.string "我是这游戏发售后第三个\l"
+	.string "通关的人，也是第一个用它\l"
+	.string "招牌帝王拿波通关的人！\p"
+	.string "我也是内容创作者，\n"
+	.string "欢迎在YouTube上看我！\p"
+	.string "和其他冠军一样，你若能\n"
+	.string "打赢我，我就送你幻之宝可梦。\p"
+	.string "要和我对战吗？$"
 
 MasterPoucine_ReadyYet::
 # 298 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Do you want to battle now?$"
+	.string "现在要打吗？$"
 
 MasterPoucine_YoureOn::
 # 302 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "You're on!$"
+	.string "来吧！$"
 
 MasterPoucine_ComeBackWhenReady::
 # 306 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Come back if you decide you want\n"
-	.string "to battle.$"
+	.string "决定要打的话，\n"
+	.string "就再来找我。$"
 
 MasterPoucine_Outro::
 # 311 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Wow, that was an impressive battle!$"
+	.string "哇，这场对战真精彩！$"
 
 SootopolisCity_House5_Text_PlayerReceivedMarshadow::
 # 315 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "{PLAYER} received Marshadow!$"
+	.string "{PLAYER}得到了玛夏多！$"
 
 MasterPoucine_ExplainMarshadow::
 # 319 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Now that's a good reward! Marshadow is\n"
-	.string "definitely one of the strongest\l"
-	.string "Mythicals, so I hope you use it well.$"
+	.string "这才叫好奖励！玛夏多绝对\n"
+	.string "是最强的幻之宝可梦\l"
+	.string "之一，希望你好生使用。$"
 
 PostBattle_MasterPoucine::
 # 325 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "I can't wait for a harder game mode to\n"
-	.string "come out so I can speed through that\l"
-	.string "one too!$"
+	.string "我等不及想看更难的\n"
+	.string "模式出了，那样我也能\l"
+	.string "速通一遍！$"
 
 OblivionWing_Greeting::
 # 425 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Hello, I'm OblivionWing, and I was the\n"
-	.string "first person ever to beat this game\l"
-	.string "after it released.\p"
-	.string "I sped through the game on Easy mode\n"
-	.string "and finished it just one day after it\l"
-	.string "came out!\p"
-	.string "If you can beat me, I'll give you a\n"
-	.string "Mythical, just like everyone else.\p"
-	.string "Does that sound good to you?$"
+	.string "你好，我是OblivionWing，\n"
+	.string "我是这游戏发售后\l"
+	.string "第一个通关的人。\p"
+	.string "我在简单模式下飞速通关，\n"
+	.string "在它发售后仅仅一天\l"
+	.string "就打完了！\p"
+	.string "你若能打赢我，我就送你\n"
+	.string "幻之宝可梦，和别人一样。\p"
+	.string "你觉得这样行吗？$"
 
 OblivionWing_ReadyYet::
 # 437 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Ready to battle?$"
+	.string "准备好对战了吗？$"
 
 OblivionWing_YoureOn::
 # 441 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Good luck, you'll need it!$"
+	.string "祝你好运，你会需要的！$"
 
 OblivionWing_ComeBackWhenReady::
 # 445 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "You know where to find me if you change\n"
-	.string "your mind.$"
+	.string "改主意的话，知道来这儿找我。$"
 
 OblivionWing_Outro::
-# 450 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Not bad! If you were a little faster,\n"
-	.string "maybe you could've been the first to\l"
-	.string "beat this game!$"
+# 449 "data/maps/SootopolisCity_House5/scripts.pory"
+	.string "不错！你要是再快一点，\n"
+	.string "说不定就是第一个\l"
+	.string "通关这游戏的人了！$"
 
 SootopolisCity_House5_Text_PlayerReceivedZarude::
-# 456 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "{PLAYER} received Zarude!$"
+# 455 "data/maps/SootopolisCity_House5/scripts.pory"
+	.string "{PLAYER}得到了萨戮德！$"
 
 OblivionWing_ExplainZarude::
-# 460 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "There you go, a Mythical for you.\n"
-	.string "I think that's a pretty good one too, if\l"
-	.string "I do say so myself.$"
+# 459 "data/maps/SootopolisCity_House5/scripts.pory"
+	.string "给你，你的幻之宝可梦。\n"
+	.string "我觉得这只也挺好的，\l"
+	.string "我自己都这么觉得。$"
 
 PostBattle_OblivionWing::
-# 466 "data/maps/SootopolisCity_House5/scripts.pory"
-	.string "Best of luck with the rest of the game!$"
+# 465 "data/maps/SootopolisCity_House5/scripts.pory"
+	.string "祝你接下来游戏顺利！$"

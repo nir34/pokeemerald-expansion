@@ -585,162 +585,170 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 # 293 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_GreetingMan:
 # 294 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "My wife was quite the strong trainer\n"
+	.string "我妻子年轻时可是\n"
 # 295 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "back in our youth.$"
+	.string "个很强的训练家。$"
 # 296 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
 # 297 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
 # 298 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "I'm the DIVING TREASURE HUNTER!\p"
+	.string "我是潜水寻宝人！\p"
 # 299 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "I'm the awesome dude who makes\n"
+	.string "我就是那个超厉害的\n"
 # 300 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "deep-sea dives to gather treasures\l"
+	.string "家伙，潜到深海\l"
 # 301 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "resting at the bottom.$"
+	.string "把沉在海底的\l"
 # 302 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "宝物捞上来。$"
 # 303 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
+
 # 304 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Tell me, have you seen any SHARDS of\n"
+Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
 # 305 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "tools made in ancient times?$"
+	.string "告诉我，你见过古代\n"
 # 306 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "工具的碎片吗？$"
 # 307 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
+
 # 308 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "You haven't got any treasures\n"
+Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
 # 309 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "for me…\p"
+	.string "你没有我要的\n"
 # 310 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "If you see any SHARDS, like the RED\n"
+	.string "宝物……\p"
 # 311 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "SHARD, you've got to trade it with me!$"
+	.string "要是看到碎片，比如\n"
 # 312 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "红色碎片，一定要\l"
 # 313 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
+	.string "拿来跟我换！$"
 # 314 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Oh, hey! That…\n"
+
 # 315 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "That's a SHARD! I'm looking for those!\p"
+Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
 # 316 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Oh, man, you've got to trade that\n"
+	.string "哦，嘿！那……\n"
 # 317 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "with me! I'll give you something good!$"
+	.string "那是碎片！我正\l"
 # 318 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "找这个！\p"
 # 319 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
+	.string "哦，天啊，你一定\n"
 # 320 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "What do you want to trade?$"
+	.string "要跟我换！我给你\l"
 # 321 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "好东西！$"
 # 322 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
+
 # 323 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "You'll trade your {STR_VAR_1} for\n"
+Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
 # 324 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "my {STR_VAR_2}, then?$"
+	.string "你想换什么？$"
 # 325 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
 # 326 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
+Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
 # 327 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "It's a done deal!\n"
+	.string "你要用{STR_VAR_1}换\n"
 # 328 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Use that wisely!$"
+	.string "我的{STR_VAR_2}吗？$"
 # 329 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
 # 330 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
+Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
 # 331 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Do you want to trade something else?$"
+	.string "成交！\n"
 # 332 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-
+	.string "好好用啊！$"
 # 333 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_BagFull:
+
 # 334 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Whoops, your BAG's full.\n"
+Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
 # 335 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Get rid of some items, friend!$"
+	.string "还要换别的吗？$"
 # 336 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
 # 337 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
+Route124_DivingTreasureHuntersHouse_Text_BagFull:
 # 338 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "No? That's a downer.\n"
+	.string "哎呀，你的包包满了。\n"
 # 339 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Well, if you change your mind, come back.$"
+	.string "清掉一些道具吧，朋友！$"
 # 340 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
 # 341 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
+Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
 # 342 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "不换？真扫兴。\n"
 # 343 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
+	.string "好吧，改主意就回来。$"
 # 344 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+
 # 345 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
+Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
 # 346 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
 # 347 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0f}红色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}火之石{CLEAR_TO 0xc8}\p"
 # 348 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
 # 349 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+	.string "{CLEAR_TO 0x06}黄色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}雷之石{CLEAR_TO 0xc8}\p"
+# 350 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+# 351 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "{CLEAR_TO 0x0c}蓝色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}水之石{CLEAR_TO 0xc8}\p"
+# 352 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+# 353 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "{CLEAR_TO 0x08}绿色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}叶之石$"
 
 Route124_DivingTreasureHuntersHouse_EventScript_FormChangingLady::
-# 354 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	lock
-# 355 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	faceplayer
-# 356 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	goto_if_set FLAG_RECEIVED_FORM_CHANGERS, Route124_DivingTreasureHuntersHouse_EventScript_ReceivedFormChangers
-# 357 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	msgbox Route124_TakeTheseFormChangers, MSGBOX_DEFAULT
 # 358 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	giveitem ITEM_ROTOM_CATALOG
+	lock
 # 359 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	giveitem ITEM_REVEAL_GLASS
+	faceplayer
 # 360 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	giveitem ITEM_GRACIDEA
+	goto_if_set FLAG_RECEIVED_FORM_CHANGERS, Route124_DivingTreasureHuntersHouse_EventScript_ReceivedFormChangers
 # 361 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	giveitem ITEM_PRISON_BOTTLE
+	msgbox Route124_TakeTheseFormChangers, MSGBOX_DEFAULT
 # 362 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	setflag FLAG_RECEIVED_FORM_CHANGERS
+	giveitem ITEM_ROTOM_CATALOG
 # 363 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	msgbox Route124_ExplainFormChangers, MSGBOX_DEFAULT
+	giveitem ITEM_REVEAL_GLASS
 # 364 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	giveitem ITEM_GRACIDEA
+# 365 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	giveitem ITEM_PRISON_BOTTLE
+# 366 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	setflag FLAG_RECEIVED_FORM_CHANGERS
+# 367 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	msgbox Route124_ExplainFormChangers, MSGBOX_DEFAULT
+# 368 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	release
 	end
 
 
 Route124_DivingTreasureHuntersHouse_EventScript_ReceivedFormChangers::
-# 370 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+# 374 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	msgbox Route124_ExplainFormChangers, MSGBOX_DEFAULT
-# 371 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+# 375 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	release
 	end
 
 
 Route124_TakeTheseFormChangers::
-# 375 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "Well, well. You must be quite the strong\n"
-	.string "trainer having made it all the way here,\l"
-	.string "especially in this heat!\p"
-	.string "Here, take these, I'm sure a trainer like\n"
-	.string "you can make good use of them.$"
+# 379 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "哎呀呀。能一路来到这里，\n"
+	.string "你一定是个相当强的训练家，\l"
+	.string "尤其是这么热的天！\p"
+	.string "来，这些给你，像你这样的\n"
+	.string "训练家一定用得上。$"
 
 Route124_ExplainFormChangers::
-# 383 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
-	.string "It's my understanding that you can\n"
-	.string "change the forms of some very powerful\l"
-	.string "Pokémon using those.$"
+# 387 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+	.string "据我所知，用这些可以\n"
+	.string "改变一些非常强大的\l"
+	.string "宝可梦的形态。$"

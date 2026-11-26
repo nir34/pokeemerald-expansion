@@ -1093,642 +1093,666 @@ MtChimney_EventScript_SawyerRematch::
 # 547 "data/maps/MtChimney/scripts.pory"
 MtChimney_Text_MeteoriteWillActivateVolcano:
 # 548 "data/maps/MtChimney/scripts.pory"
-	.string "The power contained in the Meteorite…\p"
+	.string "这颗陨石里蕴含的\n"
 # 549 "data/maps/MtChimney/scripts.pory"
-	.string "By amplifying its power with this\n"
+	.string "力量……\p"
 # 550 "data/maps/MtChimney/scripts.pory"
-	.string "machine, Mt. Chimney's volcanic\l"
+	.string "用这台机器把它放大，\n"
 # 551 "data/maps/MtChimney/scripts.pory"
-	.string "activity will instantly intensify…\p"
+	.string "烟囱山的火山活动\l"
 # 552 "data/maps/MtChimney/scripts.pory"
-	.string "Its energy will grow deep inside\n"
+	.string "就会立刻加剧……\p"
 # 553 "data/maps/MtChimney/scripts.pory"
-	.string "the crater and…\l"
+	.string "能量会在火山口深处\n"
 # 554 "data/maps/MtChimney/scripts.pory"
-	.string "Fufufu…$"
+	.string "膨胀，然后……\l"
 # 555 "data/maps/MtChimney/scripts.pory"
-
+	.string "呵呵呵……$"
 # 556 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MaxieIntro:
+
 # 557 "data/maps/MtChimney/scripts.pory"
-	.string "Maxie: Hm?\n"
+MtChimney_Text_MaxieIntro:
 # 558 "data/maps/MtChimney/scripts.pory"
-	.string "Who are you?\p"
+	.string "马克西：嗯？\n"
 # 559 "data/maps/MtChimney/scripts.pory"
-	.string "… … … … … …\n"
+	.string "你是谁？\p"
 # 560 "data/maps/MtChimney/scripts.pory"
-	.string "… … … … … …\p"
+	.string "… … … … … …\n"
 # 561 "data/maps/MtChimney/scripts.pory"
-	.string "I'd heard Archie bemoaning a child\n"
+	.string "… … … … … …\p"
 # 562 "data/maps/MtChimney/scripts.pory"
-	.string "who's been meddling in Team Aqua's\l"
+	.string "我听说阿库亚在抱怨\n"
 # 563 "data/maps/MtChimney/scripts.pory"
-	.string "affairs.\p"
+	.string "有个小孩一直\l"
 # 564 "data/maps/MtChimney/scripts.pory"
-	.string "It must be you he meant.\p"
+	.string "插手水舰队的行动。\p"
 # 565 "data/maps/MtChimney/scripts.pory"
-	.string "Humph! So you're thinking of\n"
+	.string "他说的就是你吧。\p"
 # 566 "data/maps/MtChimney/scripts.pory"
-	.string "interfering with us, Team Magma?\p"
+	.string "哼！看来你还想\n"
 # 567 "data/maps/MtChimney/scripts.pory"
-	.string "Now you listen.\n"
+	.string "插手我们熔岩队的事？\p"
 # 568 "data/maps/MtChimney/scripts.pory"
-	.string "Long ago, living things used the\l"
+	.string "你给我听好。\n"
 # 569 "data/maps/MtChimney/scripts.pory"
-	.string "land to live and grow.\p"
+	.string "很久以前，生物是靠\l"
 # 570 "data/maps/MtChimney/scripts.pory"
-	.string "That is why land is all important!\n"
+	.string "大地生活、成长的。\p"
 # 571 "data/maps/MtChimney/scripts.pory"
-	.string "It is the cradle of all!\p"
+	.string "所以大地才是最重要的！\n"
 # 572 "data/maps/MtChimney/scripts.pory"
-	.string "That is why Team Magma is dedicated\n"
+	.string "它是一切之母！\p"
 # 573 "data/maps/MtChimney/scripts.pory"
-	.string "to the expansion of the land mass.\p"
+	.string "所以熔岩队致力于\n"
 # 574 "data/maps/MtChimney/scripts.pory"
-	.string "It is for further advancement of\n"
+	.string "扩大陆地。\p"
 # 575 "data/maps/MtChimney/scripts.pory"
-	.string "humankind and Pokémon!\p"
+	.string "这是为了人类和宝可梦\n"
 # 576 "data/maps/MtChimney/scripts.pory"
-	.string "And for that, we need the power of\n"
+	.string "更进一步的进步！\p"
 # 577 "data/maps/MtChimney/scripts.pory"
-	.string "what sleeps within this mountain…\p"
+	.string "而为了这个，我们需要\n"
 # 578 "data/maps/MtChimney/scripts.pory"
-	.string "Oh! There was no need for you to\n"
+	.string "这座山里沉睡的力量……\p"
 # 579 "data/maps/MtChimney/scripts.pory"
-	.string "learn that much.\p"
+	.string "哦！这些不该让你\n"
 # 580 "data/maps/MtChimney/scripts.pory"
-	.string "But, no matter!\n"
+	.string "知道得这么清楚。\p"
 # 581 "data/maps/MtChimney/scripts.pory"
-	.string "I'll teach you the consequences of\l"
+	.string "不过，无所谓！\n"
 # 582 "data/maps/MtChimney/scripts.pory"
-	.string "meddling in our grand design!$"
+	.string "我就让你尝尝\l"
 # 583 "data/maps/MtChimney/scripts.pory"
-
+	.string "妨碍我们大计的后果！$"
 # 584 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MaxieDefeat:
+
 # 585 "data/maps/MtChimney/scripts.pory"
-	.string "What?!\p"
+MtChimney_Text_MaxieDefeat:
 # 586 "data/maps/MtChimney/scripts.pory"
-	.string "I, Maxie, was caught off guard?!$"
+	.string "什么？！\p"
 # 587 "data/maps/MtChimney/scripts.pory"
-
+	.string "我马克西竟然\n"
 # 588 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
+	.string "被偷袭了？！$"
 # 589 "data/maps/MtChimney/scripts.pory"
-	.string "Maxie: But, enough.\n"
+
 # 590 "data/maps/MtChimney/scripts.pory"
-	.string "I will back off this time.\p"
+MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 # 591 "data/maps/MtChimney/scripts.pory"
-	.string "But don't think that this is the last\n"
+	.string "马克西：不过，算了。\n"
 # 592 "data/maps/MtChimney/scripts.pory"
-	.string "you've seen of Team Magma.\p"
+	.string "这次我就退让。\p"
 # 593 "data/maps/MtChimney/scripts.pory"
-	.string "Fufufu…\p"
+	.string "可别以为这就是\n"
 # 594 "data/maps/MtChimney/scripts.pory"
-	.string "Even without the Meteorite, if we\n"
+	.string "熔岩队最后一次出现。\p"
 # 595 "data/maps/MtChimney/scripts.pory"
-	.string "obtain that Orb… Fufufu…$"
+	.string "呵呵呵……\p"
 # 596 "data/maps/MtChimney/scripts.pory"
-
+	.string "就算没有陨石，\n"
 # 597 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_TabithaIntro:
+	.string "只要拿到那颗宝珠……\l"
 # 598 "data/maps/MtChimney/scripts.pory"
-	.string "Hehehe!\p"
+	.string "呵呵呵……$"
 # 599 "data/maps/MtChimney/scripts.pory"
-	.string "So you've come all the way here!\p"
+
 # 600 "data/maps/MtChimney/scripts.pory"
-	.string "But you're too late!\n"
+MtChimney_Text_TabithaIntro:
 # 601 "data/maps/MtChimney/scripts.pory"
-	.string "I've already delivered the Meteorite\l"
+	.string "嘿嘿嘿！\p"
 # 602 "data/maps/MtChimney/scripts.pory"
-	.string "from Meteor Falls to the boss!$"
+	.string "你居然追到这种\n"
 # 603 "data/maps/MtChimney/scripts.pory"
-
+	.string "地方来了！\p"
 # 604 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_TabithaDefeat:
+	.string "可你来晚了！\n"
 # 605 "data/maps/MtChimney/scripts.pory"
-	.string "Hehehe…\p"
+	.string "我已经把陨石从\l"
 # 606 "data/maps/MtChimney/scripts.pory"
-	.string "Even though I've lost, if our leader\n"
+	.string "流星瀑布送到老大手里了！$"
 # 607 "data/maps/MtChimney/scripts.pory"
-	.string "awakens that thing…$"
+
 # 608 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_TabithaDefeat:
 # 609 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_TabithaPostBattle:
+	.string "嘿嘿嘿……\p"
 # 610 "data/maps/MtChimney/scripts.pory"
-	.string "Boss, hurry!\n"
+	.string "就算我输了，只要\n"
 # 611 "data/maps/MtChimney/scripts.pory"
-	.string "Give it the Meteorite's energy!\p"
+	.string "老大让那东西苏醒……$"
 # 612 "data/maps/MtChimney/scripts.pory"
-	.string "Hehehe…$"
+
 # 613 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_TabithaPostBattle:
 # 614 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt2Intro:
+	.string "老大，快！\n"
 # 615 "data/maps/MtChimney/scripts.pory"
-	.string "We of Team Magma are working hard for\n"
+	.string "把陨石的能量给它！\p"
 # 616 "data/maps/MtChimney/scripts.pory"
-	.string "everyone's sake.\p"
+	.string "嘿嘿嘿……$"
 # 617 "data/maps/MtChimney/scripts.pory"
-	.string "Like, if that thing's power made more\n"
+
 # 618 "data/maps/MtChimney/scripts.pory"
-	.string "land, there'd be more places to live.\p"
+MtChimney_Text_Grunt2Intro:
 # 619 "data/maps/MtChimney/scripts.pory"
-	.string "Everyone'd be happy!$"
+	.string "我们熔岩队是为了\n"
 # 620 "data/maps/MtChimney/scripts.pory"
-
+	.string "大家的利益在努力。\p"
 # 621 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt2Defeat:
+	.string "比如说，那东西的力量\n"
 # 622 "data/maps/MtChimney/scripts.pory"
-	.string "Hunh?\n"
+	.string "要是造出更多陆地，\l"
 # 623 "data/maps/MtChimney/scripts.pory"
-	.string "What do you mean I lost?$"
+	.string "能住的地方就更多了。\p"
 # 624 "data/maps/MtChimney/scripts.pory"
-
+	.string "大家都会幸福！$"
 # 625 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt2PostBattle:
+
 # 626 "data/maps/MtChimney/scripts.pory"
-	.string "Our boss says, “It will make everyone\n"
+MtChimney_Text_Grunt2Defeat:
 # 627 "data/maps/MtChimney/scripts.pory"
-	.string "happy.”\p"
+	.string "嗯？\n"
 # 628 "data/maps/MtChimney/scripts.pory"
-	.string "But why does everyone keep getting\n"
+	.string "你说我输了，什么意思？$"
 # 629 "data/maps/MtChimney/scripts.pory"
-	.string "in our way?$"
+
 # 630 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_Grunt2PostBattle:
 # 631 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt1Intro:
+	.string "老大说，那会“让所有人\n"
 # 632 "data/maps/MtChimney/scripts.pory"
-	.string "Me and this idiot grunt will stop you\n"
+	.string "都幸福”。\p"
 # 633 "data/maps/MtChimney/scripts.pory"
-	.string "right here!$"
+	.string "可为什么大家老是\n"
 # 634 "data/maps/MtChimney/scripts.pory"
-
+	.string "来碍我们的事？$"
 # 635 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt1Defeat:
+
 # 636 "data/maps/MtChimney/scripts.pory"
-	.string "That idiot weighed me down…$"
+MtChimney_Text_Grunt1Intro:
 # 637 "data/maps/MtChimney/scripts.pory"
-
+	.string "我和这个笨蛋手下\n"
 # 638 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Grunt1PostBattle:
+	.string "就在这里拦住你！$"
 # 639 "data/maps/MtChimney/scripts.pory"
-	.string "It's fine.\n"
+
 # 640 "data/maps/MtChimney/scripts.pory"
-	.string "You won't get past Tabitha.$"
+MtChimney_Text_Grunt1Defeat:
 # 641 "data/maps/MtChimney/scripts.pory"
-
+	.string "都是这个笨蛋\n"
 # 642 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
+	.string "拖累了我……$"
 # 643 "data/maps/MtChimney/scripts.pory"
-	.string "That annoying Team Aqua…\n"
+
 # 644 "data/maps/MtChimney/scripts.pory"
-	.string "They always mess with our plans!$"
+MtChimney_Text_Grunt1PostBattle:
 # 645 "data/maps/MtChimney/scripts.pory"
-
+	.string "没关系。\n"
 # 646 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MeteoritesPackAmazingPower:
+	.string "你过不了塔比莎那一关。$"
 # 647 "data/maps/MtChimney/scripts.pory"
-	.string "Meteorites pack amazing power!$"
+
 # 648 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
 # 649 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_YouBetterNotMessWithUs:
+	.string "那帮讨厌的水舰队……\n"
 # 650 "data/maps/MtChimney/scripts.pory"
-	.string "You'd better not mess with us!\p"
+	.string "老是来搅乱我们的计划！$"
 # 651 "data/maps/MtChimney/scripts.pory"
-	.string "We're trying to awaken that thing\n"
+
 # 652 "data/maps/MtChimney/scripts.pory"
-	.string "for the benefit of everyone!$"
+MtChimney_Text_MeteoritesPackAmazingPower:
 # 653 "data/maps/MtChimney/scripts.pory"
-
+	.string "陨石里蕴含着\n"
 # 654 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_AquasNameSimilar:
+	.string "惊人的力量！$"
 # 655 "data/maps/MtChimney/scripts.pory"
-	.string "We're Team Magma!\p"
+
 # 656 "data/maps/MtChimney/scripts.pory"
-	.string "They're Team Aqua!\p"
+MtChimney_Text_YouBetterNotMessWithUs:
 # 657 "data/maps/MtChimney/scripts.pory"
-	.string "It totally annoys me that they'd\n"
+	.string "你最好别来惹我们！\p"
 # 658 "data/maps/MtChimney/scripts.pory"
-	.string "use a name like ours!$"
+	.string "我们让那东西苏醒，\n"
 # 659 "data/maps/MtChimney/scripts.pory"
-
+	.string "可是为了大家的利益！$"
 # 660 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_DouseThemInFire:
-# 661 "data/maps/MtChimney/scripts.pory"
-	.string "Yeah!\n"
-# 662 "data/maps/MtChimney/scripts.pory"
-	.string "Douse them in fire!$"
-# 663 "data/maps/MtChimney/scripts.pory"
 
+# 661 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_AquasNameSimilar:
+# 662 "data/maps/MtChimney/scripts.pory"
+	.string "我们是熔岩队！\p"
+# 663 "data/maps/MtChimney/scripts.pory"
+	.string "他们是水舰队！\p"
 # 664 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_KeepMakingMoreLand:
+	.string "他们居然用跟我们\n"
 # 665 "data/maps/MtChimney/scripts.pory"
-	.string "We're going to keep making more land!$"
+	.string "差不多的名字，真气人！$"
 # 666 "data/maps/MtChimney/scripts.pory"
 
 # 667 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Bufoh:
+MtChimney_Text_DouseThemInFire:
 # 668 "data/maps/MtChimney/scripts.pory"
-	.string "Bufoh!$"
+	.string "对！\n"
 # 669 "data/maps/MtChimney/scripts.pory"
-
+	.string "给他们来点火！$"
 # 670 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ArchieGoStopTeamMagma:
+
 # 671 "data/maps/MtChimney/scripts.pory"
-	.string "Archie: Grr, {PLAYER}!\n"
+MtChimney_Text_KeepMakingMoreLand:
 # 672 "data/maps/MtChimney/scripts.pory"
-	.string "I should've guessed you'd show up!\p"
+	.string "我们要不断\n"
 # 673 "data/maps/MtChimney/scripts.pory"
-	.string "See for yourself what the fanatics\n"
+	.string "造出更多陆地！$"
 # 674 "data/maps/MtChimney/scripts.pory"
-	.string "of Team Magma are up to!\p"
+
 # 675 "data/maps/MtChimney/scripts.pory"
-	.string "They're trying to inject the stolen\n"
+MtChimney_Text_Bufoh:
 # 676 "data/maps/MtChimney/scripts.pory"
-	.string "Meteorite's power into the volcano!\p"
+	.string "布波！$"
 # 677 "data/maps/MtChimney/scripts.pory"
-	.string "Doing something like that will cause\n"
+
 # 678 "data/maps/MtChimney/scripts.pory"
-	.string "the volcano's eruption!$"
+MtChimney_Text_ArchieGoStopTeamMagma:
 # 679 "data/maps/MtChimney/scripts.pory"
-
+	.string "阿库亚：唔，{PLAYER}！\n"
 # 680 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ArchieIHaveMyHandsFull:
+	.string "我早该想到你会来！\p"
 # 681 "data/maps/MtChimney/scripts.pory"
-	.string "Archie: Grrr…\p"
+	.string "你自己看看吧，那些\n"
 # 682 "data/maps/MtChimney/scripts.pory"
-	.string "I want to stop that Maxie,\n"
+	.string "熔岩队的狂徒在干什么！\p"
 # 683 "data/maps/MtChimney/scripts.pory"
-	.string "but I can't!\p"
+	.string "他们想把偷来的陨石\n"
 # 684 "data/maps/MtChimney/scripts.pory"
-	.string "Not when I have my hands full battling\n"
+	.string "的能量灌进火山！\p"
 # 685 "data/maps/MtChimney/scripts.pory"
-	.string "three opponents at once!$"
+	.string "干那种事会引发\n"
 # 686 "data/maps/MtChimney/scripts.pory"
-
+	.string "火山喷发的！$"
 # 687 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ArchieThankYou::
+
 # 688 "data/maps/MtChimney/scripts.pory"
-	.string "Drake: {PLAYER}, we meet again.\p"
+MtChimney_Text_ArchieIHaveMyHandsFull:
 # 689 "data/maps/MtChimney/scripts.pory"
-	.string "You're a sharp one. I've been keeping an\n"
+	.string "阿库亚：唔……\p"
 # 690 "data/maps/MtChimney/scripts.pory"
-	.string "eye on the activities of Team Magma and\l"
+	.string "我想阻止马克西，\n"
 # 691 "data/maps/MtChimney/scripts.pory"
-	.string "Team Aqua since the incident at the\l"
+	.string "可我做不到！\p"
 # 692 "data/maps/MtChimney/scripts.pory"
-	.string "museum, but you were still able to get\l"
+	.string "我一个人要对付三个\n"
 # 693 "data/maps/MtChimney/scripts.pory"
-	.string "here before me.\p"
+	.string "对手，实在忙不过来！$"
 # 694 "data/maps/MtChimney/scripts.pory"
-	.string "… … … … … …\p"
+
 # 695 "data/maps/MtChimney/scripts.pory"
-	.string "What's that? Maxie mentioned something\n"
+MtChimney_Text_ArchieThankYou::
 # 696 "data/maps/MtChimney/scripts.pory"
-	.string "about looking for an Orb of some sort?\p"
+	.string "源治：{PLAYER}，我们又见面了。\p"
 # 697 "data/maps/MtChimney/scripts.pory"
-	.string "I think I have some idea of what he's\n"
+	.string "你真是个机灵的人。自从\n"
 # 698 "data/maps/MtChimney/scripts.pory"
-	.string "talking about…\p"
+	.string "博物馆那件事以后，\l"
 # 699 "data/maps/MtChimney/scripts.pory"
-	.string "Say, {PLAYER}, what do you think about\n"
+	.string "我一直在关注熔岩队和\l"
 # 700 "data/maps/MtChimney/scripts.pory"
-	.string "the way our world operates?\p"
+	.string "水舰队的活动，可你\l"
 # 701 "data/maps/MtChimney/scripts.pory"
-	.string "… … … … … …\p"
+	.string "还是比我先赶到了这里。\p"
 # 702 "data/maps/MtChimney/scripts.pory"
-	.string "What do I mean by that?\n"
+	.string "… … … … … …\p"
 # 703 "data/maps/MtChimney/scripts.pory"
-	.string "Well…\p"
+	.string "什么？马克西提到了\n"
 # 704 "data/maps/MtChimney/scripts.pory"
-	.string "Never mind, just think on that question\n"
+	.string "在找什么宝珠？\p"
 # 705 "data/maps/MtChimney/scripts.pory"
-	.string "for the next time we meet.\p"
+	.string "我大概猜到\n"
 # 706 "data/maps/MtChimney/scripts.pory"
-	.string "In the meantime, I'll look into this\n"
+	.string "他说的是什么……\p"
 # 707 "data/maps/MtChimney/scripts.pory"
-	.string "matter further. Thanks again for your\l"
+	.string "{PLAYER}，你怎么看\n"
 # 708 "data/maps/MtChimney/scripts.pory"
-	.string "help, {PLAYER}. I'm sure I'll be seeing\l"
+	.string "这个世界运转的方式？\p"
 # 709 "data/maps/MtChimney/scripts.pory"
-	.string "you again.$"
+	.string "… … … … … …\p"
 # 710 "data/maps/MtChimney/scripts.pory"
-
+	.string "我这话什么意思？\n"
 # 711 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MagmaOutnumbersUs:
+	.string "这个嘛……\p"
 # 712 "data/maps/MtChimney/scripts.pory"
-	.string "Darn… Team Magma outnumbers us!\n"
+	.string "算了，下次见面时\n"
 # 713 "data/maps/MtChimney/scripts.pory"
-	.string "We can't keep up with them!$"
+	.string "你再想想这个问题吧。\p"
 # 714 "data/maps/MtChimney/scripts.pory"
-
+	.string "我先去进一步调查\n"
 # 715 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_LessHabitatForWaterPokemon:
+	.string "这件事。再次谢谢\l"
 # 716 "data/maps/MtChimney/scripts.pory"
-	.string "If they expand the land, there'll be\n"
+	.string "你的帮助，{PLAYER}。\l"
 # 717 "data/maps/MtChimney/scripts.pory"
-	.string "less habitats for Water Pokémon!$"
+	.string "我们一定会再见面的。$"
 # 718 "data/maps/MtChimney/scripts.pory"
 
 # 719 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MagmasNameSimilar:
+MtChimney_Text_MagmaOutnumbersUs:
 # 720 "data/maps/MtChimney/scripts.pory"
-	.string "We're Team Aqua!\p"
+	.string "可恶……熔岩队\n"
 # 721 "data/maps/MtChimney/scripts.pory"
-	.string "They're Team Magma!\p"
+	.string "人太多了！\l"
 # 722 "data/maps/MtChimney/scripts.pory"
-	.string "It burns me up that they'd use such\n"
+	.string "我们顶不住！$"
 # 723 "data/maps/MtChimney/scripts.pory"
-	.string "a confusing name!$"
+
 # 724 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_LessHabitatForWaterPokemon:
 # 725 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_Bushaa:
+	.string "他们要是扩大陆地，\n"
 # 726 "data/maps/MtChimney/scripts.pory"
-	.string "Bushaa!$"
+	.string "水属性宝可梦\l"
 # 727 "data/maps/MtChimney/scripts.pory"
-
+	.string "就少了栖息地！$"
 # 728 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_LavaCookiesJust200:
+
 # 729 "data/maps/MtChimney/scripts.pory"
-	.string "Lava Cookies are Mt. Chimney's local\n"
+MtChimney_Text_MagmasNameSimilar:
 # 730 "data/maps/MtChimney/scripts.pory"
-	.string "specialty.\p"
+	.string "我们是水舰队！\p"
 # 731 "data/maps/MtChimney/scripts.pory"
-	.string "Try one. It's just ¥200.$"
+	.string "他们是熔岩队！\p"
 # 732 "data/maps/MtChimney/scripts.pory"
-
+	.string "他们用这种容易混的名字，\n"
 # 733 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ThankYouDear:
+	.string "真让人火大！$"
 # 734 "data/maps/MtChimney/scripts.pory"
-	.string "Thank you, dear!$"
+
 # 735 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_Bushaa:
 # 736 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_YouveNotGotTheMoney:
+	.string "布沙！$"
 # 737 "data/maps/MtChimney/scripts.pory"
-	.string "Oh, dear. You can't buy a thing if\n"
-# 738 "data/maps/MtChimney/scripts.pory"
-	.string "you've not got the money.$"
-# 739 "data/maps/MtChimney/scripts.pory"
 
+# 738 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_LavaCookiesJust200:
+# 739 "data/maps/MtChimney/scripts.pory"
+	.string "熔岩饼干是烟囱山\n"
 # 740 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_OhFineThen:
+	.string "的特产。\p"
 # 741 "data/maps/MtChimney/scripts.pory"
-	.string "Oh, fine then.$"
+	.string "尝尝吧，只要200元。$"
 # 742 "data/maps/MtChimney/scripts.pory"
 
 # 743 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MetoriteFittedOnMachine:
+MtChimney_Text_ThankYouDear:
 # 744 "data/maps/MtChimney/scripts.pory"
-	.string "A Meteorite is fitted on a mysterious\n"
+	.string "谢谢你，亲爱的！$"
 # 745 "data/maps/MtChimney/scripts.pory"
-	.string "machine…\p"
+
 # 746 "data/maps/MtChimney/scripts.pory"
-	.string "The machine seems to be storing\n"
+MtChimney_Text_YouveNotGotTheMoney:
 # 747 "data/maps/MtChimney/scripts.pory"
-	.string "energy in the Meteorite.$"
+	.string "哎呀。没钱的话\n"
 # 748 "data/maps/MtChimney/scripts.pory"
-
+	.string "可什么都买不了。$"
 # 749 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_RemoveTheMeteorite:
+
 # 750 "data/maps/MtChimney/scripts.pory"
-	.string "A Meteorite is fitted on a mysterious\n"
+MtChimney_Text_OhFineThen:
 # 751 "data/maps/MtChimney/scripts.pory"
-	.string "machine…\p"
+	.string "哦，那好吧。$"
 # 752 "data/maps/MtChimney/scripts.pory"
-	.string "Do you want to remove the Meteorite?$"
+
 # 753 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_MetoriteFittedOnMachine:
 # 754 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_PlayerRemovedMeteorite:
+	.string "陨石被装在一台神秘的\n"
 # 755 "data/maps/MtChimney/scripts.pory"
-	.string "{PLAYER} removed the Meteorite from\n"
+	.string "机器上……\p"
 # 756 "data/maps/MtChimney/scripts.pory"
-	.string "the mysterious machine.$"
+	.string "机器似乎在把能量\n"
 # 757 "data/maps/MtChimney/scripts.pory"
-
+	.string "储存进陨石里。$"
 # 758 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_PlayerLeftMeteorite:
+
 # 759 "data/maps/MtChimney/scripts.pory"
-	.string "{PLAYER} left the Meteorite where\n"
+MtChimney_Text_RemoveTheMeteorite:
 # 760 "data/maps/MtChimney/scripts.pory"
-	.string "it was.$"
+	.string "陨石被装在一台神秘的\n"
 # 761 "data/maps/MtChimney/scripts.pory"
-
+	.string "机器上……\p"
 # 762 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MachineMakesNoResponse:
+	.string "要把陨石取下来吗？$"
 # 763 "data/maps/MtChimney/scripts.pory"
-	.string "This mysterious machine…\n"
+
 # 764 "data/maps/MtChimney/scripts.pory"
-	.string "It makes no response whatsoever.$"
+MtChimney_Text_PlayerRemovedMeteorite:
 # 765 "data/maps/MtChimney/scripts.pory"
-
+	.string "{PLAYER}从神秘机器上\n"
 # 766 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_RouteSign:
+	.string "取下了陨石。$"
 # 767 "data/maps/MtChimney/scripts.pory"
-	.string "{DOWN_ARROW} Jagged Path\n"
+
 # 768 "data/maps/MtChimney/scripts.pory"
-	.string "Lavaridge Town ahead$"
+MtChimney_Text_PlayerLeftMeteorite:
 # 769 "data/maps/MtChimney/scripts.pory"
-
+	.string "{PLAYER}把陨石\n"
 # 770 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyIntro:
+	.string "留在了原处。$"
 # 771 "data/maps/MtChimney/scripts.pory"
-	.string "I've been to the hot springs and\n"
+
 # 772 "data/maps/MtChimney/scripts.pory"
-	.string "refreshed my tired bones.\l"
+MtChimney_Text_MachineMakesNoResponse:
 # 773 "data/maps/MtChimney/scripts.pory"
-	.string "Right now I'm feeling strong!$"
+	.string "这台神秘的机器……\n"
 # 774 "data/maps/MtChimney/scripts.pory"
-
+	.string "完全没有反应。$"
 # 775 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyDefeat:
+
 # 776 "data/maps/MtChimney/scripts.pory"
-	.string "Oh, my goodness.\n"
+MtChimney_Text_RouteSign:
 # 777 "data/maps/MtChimney/scripts.pory"
-	.string "Now, aren't you something!$"
+	.string "{DOWN_ARROW} 崎岖小径\n"
 # 778 "data/maps/MtChimney/scripts.pory"
-
+	.string "前方是釜炎镇$"
 # 779 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyPostBattle:
-# 780 "data/maps/MtChimney/scripts.pory"
-	.string "Well, well, I've lost. I can't call\n"
-# 781 "data/maps/MtChimney/scripts.pory"
-	.string "myself an expert now, can I?$"
-# 782 "data/maps/MtChimney/scripts.pory"
 
+# 780 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_ShelbyIntro:
+# 781 "data/maps/MtChimney/scripts.pory"
+	.string "我去泡了温泉，\n"
+# 782 "data/maps/MtChimney/scripts.pory"
+	.string "把酸痛的骨头都放松了。\l"
 # 783 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyRegister:
+	.string "现在我浑身是劲！$"
 # 784 "data/maps/MtChimney/scripts.pory"
-	.string "Thank you, child. It was fun, as if\n"
+
 # 785 "data/maps/MtChimney/scripts.pory"
-	.string "I were battling my own grandchild.\p"
+MtChimney_Text_ShelbyDefeat:
 # 786 "data/maps/MtChimney/scripts.pory"
-	.string "Please, come see me again for\n"
+	.string "哎哟。\n"
 # 787 "data/maps/MtChimney/scripts.pory"
-	.string "a rematch.$"
+	.string "你可真了不起！$"
 # 788 "data/maps/MtChimney/scripts.pory"
 
 # 789 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyRematchIntro:
+MtChimney_Text_ShelbyPostBattle:
 # 790 "data/maps/MtChimney/scripts.pory"
-	.string "If you can mesh your heart with those\n"
+	.string "唉呀，我输了。现在\n"
 # 791 "data/maps/MtChimney/scripts.pory"
-	.string "of your Pokémon, why, you should be\l"
+	.string "可不敢自称高手了。$"
 # 792 "data/maps/MtChimney/scripts.pory"
-	.string "able to achieve great things.$"
+
 # 793 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_ShelbyRegister:
 # 794 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyRematchDefeat:
+	.string "谢谢你，孩子。真好玩，\n"
 # 795 "data/maps/MtChimney/scripts.pory"
-	.string "Oh, my goodness.\n"
+	.string "就像和自己的孙子对战。\p"
 # 796 "data/maps/MtChimney/scripts.pory"
-	.string "Now, aren't you something!$"
+	.string "有空再来找我\n"
 # 797 "data/maps/MtChimney/scripts.pory"
-
+	.string "再打一场。$"
 # 798 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShelbyPostRematch:
+
 # 799 "data/maps/MtChimney/scripts.pory"
-	.string "Perhaps your heart has become one\n"
+MtChimney_Text_ShelbyRematchIntro:
 # 800 "data/maps/MtChimney/scripts.pory"
-	.string "with the hearts of your Pokémon.$"
+	.string "要是你的心能和宝可梦的\n"
 # 801 "data/maps/MtChimney/scripts.pory"
-
+	.string "心合在一起，那就能\l"
 # 802 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MelissaIntro:
+	.string "成就了不起的事。$"
 # 803 "data/maps/MtChimney/scripts.pory"
-	.string "I've got the fire in me, baby.\n"
+
 # 804 "data/maps/MtChimney/scripts.pory"
-	.string "I can't stand it! I have to battle!$"
+MtChimney_Text_ShelbyRematchDefeat:
 # 805 "data/maps/MtChimney/scripts.pory"
-
+	.string "哎哟。\n"
 # 806 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MelissaDefeat:
+	.string "你可真了不起！$"
 # 807 "data/maps/MtChimney/scripts.pory"
-	.string "Ooh, that was a scorching-hot match!$"
+
 # 808 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_ShelbyPostRematch:
 # 809 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_MelissaPostBattle:
+	.string "也许你的心已经和\n"
 # 810 "data/maps/MtChimney/scripts.pory"
-	.string "The heat of Mt. Chimney warms\n"
+	.string "宝可梦的心合一了。$"
 # 811 "data/maps/MtChimney/scripts.pory"
-	.string "me up, baby!$"
+
 # 812 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_MelissaIntro:
 # 813 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SheilaIntro:
+	.string "我体内有火，宝贝。\n"
 # 814 "data/maps/MtChimney/scripts.pory"
-	.string "I've finally made it to Mt. Chimney.\n"
+	.string "受不了了！我必须对战！$"
 # 815 "data/maps/MtChimney/scripts.pory"
-	.string "I want to make my Pokémon battle!$"
+
 # 816 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_MelissaDefeat:
 # 817 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SheilaDefeat:
+	.string "哦，那真是场\n"
 # 818 "data/maps/MtChimney/scripts.pory"
-	.string "The way you battle…\n"
+	.string "滚烫的对战！$"
 # 819 "data/maps/MtChimney/scripts.pory"
-	.string "It's like a Mt. Chimney eruption!$"
-# 820 "data/maps/MtChimney/scripts.pory"
 
+# 820 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_MelissaPostBattle:
 # 821 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SheilaPostBattle:
+	.string "烟囱山的热气\n"
 # 822 "data/maps/MtChimney/scripts.pory"
-	.string "Like I said, I've finally made it to\n"
+	.string "把我暖起来了，宝贝！$"
 # 823 "data/maps/MtChimney/scripts.pory"
-	.string "Mt. Chimney. It would be a shame if\l"
+
 # 824 "data/maps/MtChimney/scripts.pory"
-	.string "I only do a little sightseeing…\p"
+MtChimney_Text_SheilaIntro:
 # 825 "data/maps/MtChimney/scripts.pory"
-	.string "I want to get in some battles and buy\n"
+	.string "我终于来到烟囱山了。\n"
 # 826 "data/maps/MtChimney/scripts.pory"
-	.string "cookies as souvenirs.$"
+	.string "我要让宝可梦好好对战！$"
 # 827 "data/maps/MtChimney/scripts.pory"
 
 # 828 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShirleyIntro:
+MtChimney_Text_SheilaDefeat:
 # 829 "data/maps/MtChimney/scripts.pory"
-	.string "Since I bathed in the hot springs,\n"
+	.string "你的对战方式……\n"
 # 830 "data/maps/MtChimney/scripts.pory"
-	.string "I've been feeling great!\l"
+	.string "就像烟囱山喷发！$"
 # 831 "data/maps/MtChimney/scripts.pory"
-	.string "I'm sure I'm going to win!$"
+
 # 832 "data/maps/MtChimney/scripts.pory"
-
+MtChimney_Text_SheilaPostBattle:
 # 833 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShirleyDefeat:
+	.string "就像我说的，我终于\n"
 # 834 "data/maps/MtChimney/scripts.pory"
-	.string "Yowch!\n"
+	.string "来到烟囱山了。只稍微\l"
 # 835 "data/maps/MtChimney/scripts.pory"
-	.string "I'm getting a chill out of the water.$"
+	.string "观光一下就太可惜了……\p"
 # 836 "data/maps/MtChimney/scripts.pory"
-
+	.string "我想打几场对战，\n"
 # 837 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_ShirleyPostBattle:
+	.string "再买些饼干当纪念品。$"
 # 838 "data/maps/MtChimney/scripts.pory"
-	.string "I'll have to take another dip in the\n"
+
 # 839 "data/maps/MtChimney/scripts.pory"
-	.string "hot springs. Want to join me?\p"
+MtChimney_Text_ShirleyIntro:
 # 840 "data/maps/MtChimney/scripts.pory"
-	.string "Just joking!$"
+	.string "泡过温泉以后，\n"
 # 841 "data/maps/MtChimney/scripts.pory"
-
+	.string "我一直感觉很好！\l"
 # 842 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerIntro:
+	.string "我肯定会赢！$"
 # 843 "data/maps/MtChimney/scripts.pory"
-	.string "This is one fine mountain! Plenty of\n"
+
 # 844 "data/maps/MtChimney/scripts.pory"
-	.string "hot people around for company!$"
+MtChimney_Text_ShirleyDefeat:
 # 845 "data/maps/MtChimney/scripts.pory"
-
+	.string "哎哟！\n"
 # 846 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerDefeat:
+	.string "我从水里出来发冷了。$"
 # 847 "data/maps/MtChimney/scripts.pory"
-	.string "Oh, you're a real firebrand, too!$"
-# 848 "data/maps/MtChimney/scripts.pory"
 
+# 848 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_ShirleyPostBattle:
 # 849 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerPostBattle:
+	.string "我得再去泡一次\n"
 # 850 "data/maps/MtChimney/scripts.pory"
-	.string "I think I need a dip in Lavaridge\n"
+	.string "温泉。要一起来吗？\p"
 # 851 "data/maps/MtChimney/scripts.pory"
-	.string "Hot Spring with the locals!$"
+	.string "开玩笑的！$"
 # 852 "data/maps/MtChimney/scripts.pory"
 
 # 853 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerRegister:
+MtChimney_Text_SawyerIntro:
 # 854 "data/maps/MtChimney/scripts.pory"
-	.string "I like little fireballs like you.\n"
+	.string "这真是座好山！周围\n"
 # 855 "data/maps/MtChimney/scripts.pory"
-	.string "Let me register you in my PokéNav.$"
+	.string "有不少热情的人作伴！$"
 # 856 "data/maps/MtChimney/scripts.pory"
 
 # 857 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerRematchIntro:
+MtChimney_Text_SawyerDefeat:
 # 858 "data/maps/MtChimney/scripts.pory"
-	.string "I'm happily surrounded by hot people\n"
+	.string "哦，你也是个\n"
 # 859 "data/maps/MtChimney/scripts.pory"
-	.string "around these parts. I won't lose!$"
+	.string "真正的火爆脾气！$"
 # 860 "data/maps/MtChimney/scripts.pory"
 
 # 861 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerRematchDefeat:
+MtChimney_Text_SawyerPostBattle:
 # 862 "data/maps/MtChimney/scripts.pory"
-	.string "Gosh, you're still the same\n"
+	.string "我看我得和当地人一起\n"
 # 863 "data/maps/MtChimney/scripts.pory"
-	.string "firebrand as before!$"
+	.string "去泡釜炎温泉了！$"
 # 864 "data/maps/MtChimney/scripts.pory"
 
 # 865 "data/maps/MtChimney/scripts.pory"
-MtChimney_Text_SawyerPostRematch:
+MtChimney_Text_SawyerRegister:
 # 866 "data/maps/MtChimney/scripts.pory"
-	.string "Actually, it really is hot here.\n"
+	.string "我喜欢你这种小火焰。\n"
 # 867 "data/maps/MtChimney/scripts.pory"
-	.string "I'm overdressed for these parts.$"
+	.string "让我把你登录进导航。$"
+# 868 "data/maps/MtChimney/scripts.pory"
+
+# 869 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_SawyerRematchIntro:
+# 870 "data/maps/MtChimney/scripts.pory"
+	.string "我身边都是热情的人，\n"
+# 871 "data/maps/MtChimney/scripts.pory"
+	.string "真开心。我不会输！$"
+# 872 "data/maps/MtChimney/scripts.pory"
+
+# 873 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_SawyerRematchDefeat:
+# 874 "data/maps/MtChimney/scripts.pory"
+	.string "天哪，你还跟以前一样\n"
+# 875 "data/maps/MtChimney/scripts.pory"
+	.string "是个火爆脾气！$"
+# 876 "data/maps/MtChimney/scripts.pory"
+
+# 877 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_SawyerPostRematch:
+# 878 "data/maps/MtChimney/scripts.pory"
+	.string "其实这里真的很热。\n"
+# 879 "data/maps/MtChimney/scripts.pory"
+	.string "我穿得太多了。$"

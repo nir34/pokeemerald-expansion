@@ -235,164 +235,174 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 # 118 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
 # 119 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Hi, hi! I'm the Name Rater!\p"
+	.string "你好，你好！我是\n"
 # 120 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "But I'm lazy now, all your nicknames\n"
+	.string "改名的达人！\p"
 # 121 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "look great! Or terrible!\p"
+	.string "不过我现在懒得管，你的\n"
 # 122 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "I don't really care, I'm retired.$"
+	.string "昵称看起来都很好！或者很糟！\p"
 # 123 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "我其实不在乎，\n"
 # 124 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
+	.string "我已经退休了。$"
 # 125 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Which Pokémon's nickname should\n"
+
 # 126 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "I critique?$"
+SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
 # 127 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "你想让我点评哪只\n"
 # 128 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
+	.string "宝可梦的昵称？$"
 # 129 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Hmmm… {STR_VAR_1}, is it? That is\n"
+
 # 130 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "quite a fine name you bestowed.\p"
+SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
 # 131 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "But! What say you, if I were to\n"
+	.string "嗯……{STR_VAR_1}，是吧？\n"
 # 132 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "suggest a slightly better name?$"
+	.string "你起的名字还真不错。\p"
 # 133 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "不过！要是我来提个\n"
 # 134 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
+	.string "更好的名字，怎么样？$"
 # 135 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Ah, good. Then, what shall the new\n"
+
 # 136 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "nickname be?$"
+SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
 # 137 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "啊，好。那么新的昵称\n"
 # 138 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
+	.string "要叫什么呢？$"
 # 139 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Done! From now on, this Pokémon\n"
+
 # 140 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "shall be known as {STR_VAR_1}!\p"
+SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
 # 141 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "It is a better name than before!\n"
+	.string "好了！从今以后，这只\n"
 # 142 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "How fortunate for you!$"
+	.string "宝可梦就叫{STR_VAR_1}！\p"
 # 143 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "这比原来好听多了！\n"
 # 144 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_DoVisitAgain:
+	.string "你真有福气！$"
 # 145 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "I see.\n"
+
 # 146 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Do come visit again.$"
+SlateportCity_NameRatersHouse_Text_DoVisitAgain:
 # 147 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "我明白了。\n"
 # 148 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
+	.string "欢迎再来。$"
 # 149 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Done! From now on, this Pokémon\n"
+
 # 150 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "shall be known as {STR_VAR_1}!\p"
+SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
 # 151 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "It looks no different from before,\n"
+	.string "好了！从今以后，这只\n"
 # 152 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "and yet, this is vastly superior!\p"
+	.string "宝可梦就叫{STR_VAR_1}！\p"
 # 153 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "How fortunate for you!$"
+	.string "看起来和以前没什么不同，\n"
 # 154 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "不过这可是高明多了！\p"
 # 155 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_MagnificentName:
+	.string "你真有福气！$"
 # 156 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Hmmm… {STR_VAR_1} it is!\p"
+
 # 157 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "This is a magnificent nickname!\n"
+SlateportCity_NameRatersHouse_Text_MagnificentName:
 # 158 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "It is impeccably beyond reproach!\p"
+	.string "嗯……叫{STR_VAR_1}！\p"
 # 159 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "You'll do well to cherish your\n"
+	.string "这是个了不起的昵称！\n"
 # 160 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "{STR_VAR_1} now and beyond.$"
+	.string "完美得无可挑剔！\p"
 # 161 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "你就好好珍惜你的\n"
 # 162 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
+	.string "{STR_VAR_1}吧。$"
 # 163 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Now, now.\n"
+
 # 164 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "That is merely an EGG!$"
+SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 # 165 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "喂喂。\n"
 # 166 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "那只是一颗蛋！$"
 # 167 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
 # 168 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
+
 # 169 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Uh…\n"
+
 # 170 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Oh, yes, I'm the Move Deleter.\p"
+SlateportCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
 # 171 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "I can make Pokémon forget their moves.\p"
+	.string "呃……\n"
 # 172 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Would you like me to do that?$"
+	.string "哦，对，我是忘招师。\p"
 # 173 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "我能让宝可梦忘记招式。\p"
 # 174 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_WhichMonShouldForget:
+	.string "要我帮你吗？$"
 # 175 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Which Pokémon should forget a move?$"
-# 176 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
+# 176 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+SlateportCity_MoveDeletersHouse_Text_WhichMonShouldForget:
 # 177 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
+	.string "要让哪只宝可梦\n"
 # 178 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Which move should be forgotten?$"
+	.string "忘记招式？$"
 # 179 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
 # 180 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
+SlateportCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
 # 181 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "{STR_VAR_1} knows only one move\n"
+	.string "要让哪个招式\n"
 # 182 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "so it can't be forgotten…$"
+	.string "被忘记？$"
 # 183 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
 # 184 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
+SlateportCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
 # 185 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
+	.string "{STR_VAR_1}只学会了一个招式，\n"
 # 186 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "That move should be forgotten?$"
+	.string "没得忘……$"
 # 187 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
 # 188 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_MonHasForgottenMove:
+SlateportCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
 # 189 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "It worked to perfection!\p"
+	.string "哦！{STR_VAR_1}的\n"
 # 190 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "{STR_VAR_1} has forgotten\n"
+	.string "{STR_VAR_2}？\l"
 # 191 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "{STR_VAR_2} completely.$"
+	.string "要忘记这个招式？$"
 # 192 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
 # 193 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_ComeAgain:
+SlateportCity_MoveDeletersHouse_Text_MonHasForgottenMove:
 # 194 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "Come again if there are moves that\n"
+	.string "完美成功！\p"
 # 195 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "need to be forgotten.$"
+	.string "{STR_VAR_1}已经把\n"
 # 196 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-
+	.string "{STR_VAR_2}忘得干干净净。$"
 # 197 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-SlateportCity_MoveDeletersHouse_Text_EggCantForgetMoves:
+
 # 198 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "What?\n"
+SlateportCity_MoveDeletersHouse_Text_ComeAgain:
 # 199 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
-	.string "No Egg should know any moves.$"
+	.string "要是有招式需要忘记，\n"
+# 200 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+	.string "再来找我吧。$"
+# 201 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+
+# 202 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+SlateportCity_MoveDeletersHouse_Text_EggCantForgetMoves:
+# 203 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+	.string "什么？\n"
+# 204 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+	.string "蛋可不会什么招式。$"

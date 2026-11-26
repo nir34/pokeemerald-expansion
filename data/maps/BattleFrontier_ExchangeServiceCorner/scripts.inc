@@ -875,578 +875,588 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 # 438 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 # 439 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Hello, this is the EXCHANGE SERVICE\n"
+	.string "你好，这里是兑换服务\n"
 # 440 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "CORNER.\p"
+	.string "处。\p"
 # 441 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "We exchange the Battle Points you\n"
+	.string "我们把您积攒的对战\n"
 # 442 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "have collected for lovely prizes.\p"
+	.string "点数换成精美奖品。\p"
 # 443 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Please choose a prize from this list.$"
+	.string "请从这份清单里选\n"
 # 444 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "一件奖品。$"
 # 445 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-@ Unused
+
 # 446 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
+@ Unused
 # 447 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Please choose a prize from this list.$"
+BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
 # 448 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "请从这份清单里选\n"
 # 449 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
+	.string "一件奖品。$"
 # 450 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the KISS POSTER.\n"
+
 # 451 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
 # 452 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了迷唇姐海报。\n"
 # 453 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
+	.string "对吗？$"
 # 454 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the KISS CUSHION.\n"
+
 # 455 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
 # 456 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了迷唇姐坐垫。\n"
 # 457 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
+	.string "对吗？$"
 # 458 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the SMOOCHUM DOLL.\n"
+
 # 459 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
 # 460 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了迷唇娃人偶。\n"
 # 461 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
+	.string "对吗？$"
 # 462 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the TOGEPI DOLL.\n"
+
 # 463 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
 # 464 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了波克比人偶。\n"
 # 465 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
+	.string "对吗？$"
 # 466 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the MEOWTH DOLL.\n"
+
 # 467 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
 # 468 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了喵喵人偶。\n"
 # 469 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
+	.string "对吗？$"
 # 470 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CLEFAIRY DOLL.\n"
+
 # 471 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
 # 472 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了皮皮人偶。\n"
 # 473 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
+	.string "对吗？$"
 # 474 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the DITTO DOLL.\n"
+
 # 475 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
 # 476 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了百变怪人偶。\n"
 # 477 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
+	.string "对吗？$"
 # 478 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CYNDAQUIL DOLL.\n"
+
 # 479 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
 # 480 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了火球鼠人偶。\n"
 # 481 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
+	.string "对吗？$"
 # 482 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CHIKORITA DOLL.\n"
+
 # 483 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
 # 484 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了菊草叶人偶。\n"
 # 485 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
+	.string "对吗？$"
 # 486 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the TOTODILE DOLL.\n"
+
 # 487 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
 # 488 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了小锯鳄人偶。\n"
 # 489 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
+	.string "对吗？$"
 # 490 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the LAPRAS DOLL.\n"
+
 # 491 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
 # 492 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了拉普拉斯人偶。\n"
 # 493 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
+	.string "对吗？$"
 # 494 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the SNORLAX DOLL.\n"
+
 # 495 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
 # 496 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了卡比兽人偶。\n"
 # 497 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
+	.string "对吗？$"
 # 498 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the VENUSAUR DOLL.\n"
+
 # 499 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
 # 500 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了妙蛙花人偶。\n"
 # 501 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
+	.string "对吗？$"
 # 502 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CHARIZARD DOLL.\n"
+
 # 503 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
 # 504 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了喷火龙人偶。\n"
 # 505 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
+	.string "对吗？$"
 # 506 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the BLASTOISE DOLL.\n"
+
 # 507 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
 # 508 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了水箭龟人偶。\n"
 # 509 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
+	.string "对吗？$"
 # 510 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the PROTEIN.\n"
+
 # 511 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
 # 512 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了蛋白粉。\n"
 # 513 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
+	.string "对吗？$"
 # 514 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CALCIUM.\n"
+
 # 515 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
 # 516 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了钙片。\n"
 # 517 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
+	.string "对吗？$"
 # 518 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the IRON.\n"
+
 # 519 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
 # 520 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了铁片。\n"
 # 521 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
+	.string "对吗？$"
 # 522 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the ZINC.\n"
+
 # 523 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
 # 524 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了锌片。\n"
 # 525 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
+	.string "对吗？$"
 # 526 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CARBOS.\n"
+
 # 527 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
 # 528 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了卡波司。\n"
 # 529 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
+	.string "对吗？$"
 # 530 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the HP UP.\n"
+
 # 531 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
 # 532 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了增强剂。\n"
 # 533 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
+	.string "对吗？$"
 # 534 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the BRIGHTPOWDER.\n"
+
 # 535 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
 # 536 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了光粉。\n"
 # 537 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
+	.string "对吗？$"
 # 538 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the WHITE HERB.\n"
+
 # 539 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
 # 540 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了白色香草。\n"
 # 541 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
+	.string "对吗？$"
 # 542 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the QUICK CLAW.\n"
+
 # 543 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
 # 544 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了先制之爪。\n"
 # 545 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
+	.string "对吗？$"
 # 546 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the MENTAL HERB.\n"
+
 # 547 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
 # 548 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了心灵香草。\n"
 # 549 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
+	.string "对吗？$"
 # 550 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the CHOICE BAND.\n"
+
 # 551 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
 # 552 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了讲究头带。\n"
 # 553 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
+	.string "对吗？$"
 # 554 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the KING'S ROCK.\n"
+
 # 555 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
 # 556 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了王者之证。\n"
 # 557 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
+	.string "对吗？$"
 # 558 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the FOCUS BAND.\n"
+
 # 559 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
 # 560 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了气势头带。\n"
 # 561 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
+	.string "对吗？$"
 # 562 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the SCOPE LENS.\n"
+
 # 563 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
 # 564 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了焦点镜片。\n"
 # 565 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
+	.string "对吗？$"
 # 566 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You've chosen the LEFTOVERS.\n"
+
 # 567 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Is that correct?$"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
 # 568 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "你选择了吃剩的东西。\n"
 # 569 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
+	.string "对吗？$"
 # 570 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Thank you!\n"
-# 571 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "We'll send it to your PC at home.$"
-# 572 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
+# 571 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
+# 572 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "谢谢！\n"
 # 573 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
+	.string "我们会把它送到您家里的\l"
 # 574 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Here is your prize!$"
+	.string "电脑。$"
 # 575 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 576 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
+BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
 # 577 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I'm so sorry…\n"
+	.string "这是您的奖品！$"
 # 578 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You don't have enough Battle Points…$"
+
 # 579 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
 # 580 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
+	.string "非常抱歉……\n"
 # 581 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I'm so sorry…\n"
+	.string "您的对战点数不够……$"
 # 582 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Your PC appears to be full…$"
+
 # 583 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
 # 584 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
+	.string "非常抱歉……\n"
 # 585 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I'm so sorry…\n"
+	.string "您的电脑好像满了……$"
 # 586 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You don't have space to hold it…$"
+
 # 587 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
 # 588 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
+	.string "非常抱歉……\n"
 # 589 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Thank you very much.\p"
+	.string "您没地方拿它……$"
 # 590 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Please visit us when you have\n"
+
 # 591 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "saved up Battle Points.$"
+BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
 # 592 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "非常感谢。\p"
 # 593 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
+	.string "等您攒下对战点数，\n"
 # 594 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Oh, they're so nice!\n"
+	.string "请再来。$"
 # 595 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I wish I had them!\l"
+
 # 596 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Cute cushions!\l"
+BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
 # 597 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Big plush DOLLS!\l"
+	.string "哦，它们真好！\n"
 # 598 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Little plush DOLLS!\l"
+	.string "我真想要！\l"
 # 599 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I wish I had them all!$"
+	.string "可爱的坐垫！\l"
 # 600 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "大个毛绒人偶！\l"
 # 601 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
+	.string "小个毛绒人偶！\l"
 # 602 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Leave it to your mommy!\p"
+	.string "我全都想要！$"
 # 603 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "If it's anything you want, I'll go\n"
+
 # 604 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "through anything to get it, honey!$"
+BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
 # 605 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "交给你妈妈吧！\p"
 # 606 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
+	.string "只要是你想要的，宝贝，\n"
 # 607 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "If I can get hold of the items here,\n"
+	.string "我什么都会去弄来！$"
 # 608 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "my Pokémon will get tougher.\p"
+
 # 609 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "You bet they will!\n"
+BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
 # 610 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "No question about it!$"
+	.string "要是能弄到这里的东西，\n"
 # 611 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "我的宝可梦会变强。\p"
 # 612 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
+	.string "一定会！\n"
 # 613 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Hah?\n"
+	.string "毫无疑问！$"
 # 614 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "What are you gawking at?\p"
+
 # 615 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "I don't like you staring at my plush\n"
+BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 # 616 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "doll like that.\p"
+	.string "哈？\n"
 # 617 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "If you want it, go get one yourself!\n"
+	.string "你在瞪什么？\p"
 # 618 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "我不喜欢你那样盯着\n"
 # 619 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "我的毛绒人偶。\p"
 # 620 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
+	.string "想要的话，自己去弄一个！\n"
 # 621 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Did you know?\p"
+	.string "对吧，迷唇娃？$"
 # 622 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "If you stretch your record at any of\n"
-# 623 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "the BATTLE facilities, they start\l"
-# 624 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "giving you more and more Battle Points.$"
-# 625 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
+# 623 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
+# 624 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "你知道吗？\p"
+# 625 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "要是在任何对战设施\n"
 # 626 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
+	.string "刷新记录，他们给你的\l"
 # 627 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A large poster with a SMOOCHUM print.$"
+	.string "对战点数会越来越多。$"
 # 628 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 629 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
+BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
 # 630 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A SMOOCHUM cushion.\n"
+	.string "印着迷唇娃图案的\n"
 # 631 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "大海报。$"
 # 632 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 633 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
 # 634 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A SMOOCHUM DOLL.\n"
+	.string "迷唇娃坐垫。\n"
 # 635 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 636 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 637 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
 # 638 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A TOGEPI DOLL.\n"
+	.string "迷唇娃人偶。\n"
 # 639 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 640 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 641 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
 # 642 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A MEOWTH DOLL.\n"
+	.string "波克比人偶。\n"
 # 643 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 644 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 645 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
 # 646 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A CLEFAIRY DOLL.\n"
+	.string "喵喵人偶。\n"
 # 647 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 648 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 649 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
 # 650 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A DITTO DOLL.\n"
+	.string "皮皮人偶。\n"
 # 651 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 652 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 653 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
 # 654 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A CYNDAQUIL DOLL.\n"
+	.string "百变怪人偶。\n"
 # 655 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 656 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 657 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
 # 658 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A CHIKORITA DOLL.\n"
+	.string "火球鼠人偶。\n"
 # 659 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 660 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 661 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
 # 662 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A TOTODILE DOLL.\n"
+	.string "菊草叶人偶。\n"
 # 663 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 664 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 665 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
+BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
 # 666 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A large DOLL.\n"
+	.string "小锯鳄人偶。\n"
 # 667 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Place it on a mat or a desk.$"
+	.string "放在垫子或桌上。$"
 # 668 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 669 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
+BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
 # 670 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the stat ATTACK of one\n"
+	.string "一个大人偶。\n"
 # 671 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Pokémon.$"
+	.string "放在垫子或桌上。$"
 # 672 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 673 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
+BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
 # 674 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the stat SP. ATK of one\n"
+	.string "提高一只宝可梦的\n"
 # 675 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Pokémon.$"
+	.string "攻击。$"
 # 676 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 677 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
+BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
 # 678 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the stat DEFENSE of one\n"
+	.string "提高一只宝可梦的\n"
 # 679 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Pokémon.$"
+	.string "特攻。$"
 # 680 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 681 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
+BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
 # 682 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the stat SP. DEF of one\n"
+	.string "提高一只宝可梦的\n"
 # 683 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Pokémon.$"
+	.string "防御。$"
 # 684 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 685 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
+BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
 # 686 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the stat SPEED of one\n"
+	.string "提高一只宝可梦的\n"
 # 687 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Pokémon.$"
+	.string "特防。$"
 # 688 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
 # 689 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
+BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
 # 690 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises the HP of one Pokémon.$"
+	.string "提高一只宝可梦的\n"
 # 691 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "速度。$"
 # 692 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
+
 # 693 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that gradually restores\n"
+BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
 # 694 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "HP in battle.$"
+	.string "提高一只宝可梦的\n"
 # 695 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "HP。$"
 # 696 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
+
 # 697 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that restores any\n"
+BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
 # 698 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "lowered stat.$"
+	.string "携带道具，对战中\n"
 # 699 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "渐渐回复HP。$"
 # 700 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
+
 # 701 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that occasionally allows\n"
+BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
 # 702 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "the first strike.$"
+	.string "携带道具，能恢复\n"
 # 703 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "被降低的能力。$"
 # 704 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
+
 # 705 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that snaps Pokémon out\n"
+BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
 # 706 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "of infatuation.$"
+	.string "携带道具，有时能\n"
 # 707 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "先制攻击。$"
 # 708 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
+
 # 709 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that casts a glare to\n"
+BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
 # 710 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "reduce accuracy.$"
+	.string "携带道具，能让宝可梦\n"
 # 711 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "摆脱着迷状态。$"
 # 712 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
+
 # 713 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "Raises a move's power, but permits\n"
+BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
 # 714 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "only that move.$"
+	.string "携带道具，以光晕\n"
 # 715 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "降低命中率。$"
 # 716 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
+
 # 717 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that may cause flinching\n"
+BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
 # 718 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "when the foe is hit.$"
+	.string "提高招式威力，\n"
 # 719 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-
+	.string "但只能用那一招。$"
 # 720 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-# 721 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that occasionally\n"
-# 722 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "prevents fainting.$"
-# 723 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
 
+# 721 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
+# 722 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "携带道具，击中对手\n"
+# 723 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "时可能使其畏缩。$"
 # 724 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
+
 # 725 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "A hold item that raises the\n"
+BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 # 726 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
-	.string "critical-hit rate.$"
+	.string "携带道具，有时能\n"
+# 727 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "避免倒下。$"
+# 728 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+
+# 729 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
+# 730 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "携带道具，提高\n"
+# 731 "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.pory"
+	.string "击中要害率。$"

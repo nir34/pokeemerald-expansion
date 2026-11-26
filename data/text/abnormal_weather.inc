@@ -1,7 +1,7 @@
 gText_AbnormalWeatherEnded_Rain::
-	.string "The massive downpour appears to\n"
-	.string "have stopped…$"
+	.string "猛烈的暴雨好像\n"
+	.string "停了……$"
 
 gText_AbnormalWeatherEnded_Sun::
-	.string "The intense sunshine appears to\n"
-	.string "have subsided…$"
+	.string "强烈的日照好像\n"
+	.string "减弱了……$"

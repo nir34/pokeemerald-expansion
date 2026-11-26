@@ -23,24 +23,25 @@ FallarborTown_CozmosHouse_EventScript_CozmoIsSad::
 	end
 
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
-	.string "Prof. Cozmo: Oh…\n"
-	.string "I never should have let myself be\l"
-	.string "conned into telling Team Magma where\l"
-	.string "you can find Meteorites…\p"
-	.string "That Meteorite from Meteor Falls…\n"
-	.string "It's never going to be mine now…$"
+	.string "科斯莫博士：唉……\n"
+	.string "我真不该被骗，\l"
+	.string "把能找到陨石的地方\l"
+	.string "告诉熔岩队……\p"
+	.string "流星瀑布那颗陨石……\n"
+	.string "再也不会属于我了……$"
 
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
-	.string "Prof. Cozmo: Oh, but…\n"
-	.string "I'm crushed with disappointment…$"
+	.string "科斯莫博士：唉，可是……\n"
+	.string "我真是失望透顶……$"
 
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
-	.string "Prof. Cozmo went off to Meteor Falls\n"
-	.string "on Route 114 with some people from\l"
-	.string "Team Magma.$"
+	.string "科斯莫博士和几个\n"
+	.string "熔岩队的人去了\l"
+	.string "114号道路的\l"
+	.string "流星瀑布。$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
-	.string "Poor Prof. Cozmo…\n"
-	.string "He's so depressed… I feel sorry for him.$"
+	.string "可怜的科斯莫博士……\n"
+	.string "他那么沮丧……真让人心疼。$"
 
 `

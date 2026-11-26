@@ -877,309 +877,314 @@ Route110_Movement_WallyExitFacingEastWest:
 	step_end
 
 Route110_Text_WallyRoute110Thinking:
-	.string "Wally: Hmm… Norman said I should try\n"
-	.string "battling in here to get stronger, but\l"
-	.string "will I even be able to hold my own?$"
+	.string "小胜：嗯……千里先生让我\n"
+	.string "在这里对战变强，\l"
+	.string "可是我能行吗？$"
 
 Route110_Text_WallyLetsBattle:
-	.string "Ahh!\p"
-	.string "Geez, don't sneak up on me like that,\n"
-	.string "{PLAYER}.\p"
-	.string "I've gotten a lot stronger since our\n"
-	.string "battle in Mauville!\p"
-	.string "Norman, I mean um, your Dad, even gave\n"
-	.string "me my own Mega Ring!\p"
-	.string "Gardevoir and I have been working\n"
-	.string "really hard…\p"
-	.string "I've been here contemplating going into\n"
-	.string "the Trick House for a while, but I'm\l"
-	.string "still a little hesitant.\p"
-	.string "I have an idea, let's battle out here,\n"
-	.string "and the winner gets to go into the\l"
-	.string "Trick House first!\p"
-	.string "Ok, here I come!$"
+	.string "啊！\p"
+	.string "真是的，别这样\n"
+	.string "突然靠近我啊，{PLAYER}。\p"
+	.string "自从在紫堇市对战过，\n"
+	.string "我已经强了很多！\p"
+	.string "千里先生，也就是\n"
+	.string "你爸爸，还给了我\l"
+	.string "一个超级环！\p"
+	.string "沙奈朵和我一直在\n"
+	.string "拼命努力……\p"
+	.string "我在这里犹豫了很久，\n"
+	.string "要不要进那间机关屋，\l"
+	.string "可还是有点不敢。\p"
+	.string "我有个主意，我们就在\n"
+	.string "这里对战，赢的人\l"
+	.string "先进机关屋！\p"
+	.string "好，我来了！$"
 
 Route110_Text_WallyDefeated:
-	.string "Looks like I still wasn't strong\n"
-	.string "enough…$"
+	.string "看来我还是不够强……$"
 
 Route110_Text_WallyTimeToHeadBack:
-	.string "Great battle, {PLAYER}. Even though I\n"
-	.string "lost to you again, I can feel myself\l"
-	.string "getting stronger.\p"
-	.string "You can go into the Trick House first\n"
-	.string "since you won, I'll head off to train\l"
-	.string "somewhere else before coming back.\p"
-	.string "Watch your back, {PLAYER}, I'm going to\n"
-	.string "keep training, and I'll catch up to you\l"
-	.string "one day!$"
+	.string "好棒的对战，{PLAYER}。\n"
+	.string "虽然我又输给了你，\l"
+	.string "但我觉得自己在变强。\p"
+	.string "你赢了，就先进机关屋吧，\n"
+	.string "我去别的地方训练，\l"
+	.string "之后再回来。\p"
+	.string "留神了，{PLAYER}，我会\n"
+	.string "继续训练，总有一天\l"
+	.string "会追上你的！$"
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-	.string "Team Aqua's activities…\n"
-	.string "We can't talk about them yet.$"
+	.string "水舰队的行动……\n"
+	.string "这个还不能跟你说。$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to Slateport and\n"
-	.string "kick up a ruckus!$"
+	.string "我要赶紧去凯那市\n"
+	.string "闹个痛快！$"
 
 Route110_Text_MyFirstJobInAqua:
-	.string "This is my first job after joining\n"
-	.string "Team Aqua. It's a little scary.$"
+	.string "这是我加入水舰队后的\n"
+	.string "第一份工作。有点怕。$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "Team Aqua's actions should bring\n"
-	.string "smiles to people's faces!$"
+	.string "水舰队的行动应该让\n"
+	.string "大家都露出笑容！$"
 
 Route110_Text_MayLetsBattle:
-	.string "May: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "Pokémon, my Pokémon grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "小遥：嗨，{PLAYER}，\n"
+	.string "好久不见！\p"
+	.string "我在寻找别的宝可梦时，\n"
+	.string "自己的宝可梦也变强了。\p"
+	.string "那么……\n"
+	.string "要不要对战一场？$"
 
 Route110_Text_MayDefeated:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "哎呀！\n"
+	.string "你比我想的厉害多了！$"
 
 Route110_Text_MayTakeThis:
-	.string "May: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "These are from me!\p"
-	.string "I've got some things to help you\n"
-	.string "on your journey.$"
+	.string "小遥：{PLAYER}，你也在\n"
+	.string "拼命训练吧？\p"
+	.string "我觉得该给你奖励！\n"
+	.string "这些是给你的！\p"
+	.string "有些东西能让你的\n"
+	.string "旅途更方便。$"
 
 Route110_Text_RivalExplainFlyHM:
-	.string "As you can see, {COLOR GREEN}{SHADOW LIGHT_GREEN}I just gave you the\n"
-	.string "HM02 Fly.\p"
-	.string "Any Pokémon that can learn Fly should\n"
-	.string "now have it in your party menu,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} and the\l"
-	.string "Badge requirement to use it has been\l"
-	.string "removed! If you don't believe me, give\l"
-	.string "it a try!$"
+	.string "如你所见，{COLOR GREEN}{SHADOW LIGHT_GREEN}\n"
+	.string "我刚给了你\l"
+	.string "秘传学习器02飞翔。\p"
+	.string "现在队伍菜单里，\n"
+	.string "能学会飞翔的宝可梦\l"
+	.string "都可以学它了，{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}而且\l"
+	.string "使用它的徽章要求也解除了！\n"
+	.string "不信你就试试！$"
 
 Route110_Text_RivalThatsNotAll::
-	.string "That's not all I have for you.\n"
-	.string "Here, take these as well.$"
+	.string "我要给你的\n"
+	.string "不只这些。\p"
+	.string "来，这些也拿着。$"
 
 Route110_Text_RivalExplainRestOfItems::
-	.string "I just gave you the following Items:\n"
-	.string "the Dowsing MCHN, the TMs for\l"
-	.string "Fire Punch, Ice Punch, Thunder Punch,\l"
-	.string "Fire Fang, Ice Fang, Thunder Fang,\l"
-	.string "Psychic Fangs, and Poison Fang, some\l"
-	.string "more types of Poké Balls, Shiny Stones,\l"
-	.string "Ice Stones, Black Sludges, Flame Orbs,\l"
-	.string "Toxic Orbs, Smoke Balls, Thick Clubs,\l"
-	.string "Weakness Policies, Terrain Extenders,\l"
-	.string "Shed Shells, Light Clays, and some\l"
-	.string "Terrain Seeds.\p"
-	.string "Whew, I think that's everything, you\n"
-	.string "might want to take a look through your\l"
-	.string "Bag pockets to see what you have now!\p"
-	.string "I'll be going now, {PLAYER}, keep up the\n"
-	.string "good work!$"
+	.string "我刚给你这些东西：\n"
+	.string "探宝器，还有\l"
+	.string "火焰拳、冰冻拳、雷电拳、\l"
+	.string "火焰牙、冰冻牙、雷电牙、\l"
+	.string "精神之牙和毒牙的学习器，\l"
+	.string "几种新的精灵球、光之石、\l"
+	.string "冰之石、黑色污泥、\l"
+	.string "火焰宝珠、剧毒宝珠、\l"
+	.string "烟雾球、粗骨头、弱点保险、\l"
+	.string "场地延长器、脱壳、\l"
+	.string "光之黏土、场地种子。\p"
+	.string "呼，我想就是这些了，\n"
+	.string "你也许想翻翻背包\l"
+	.string "看看现在有什么！\p"
+	.string "我该走了，{PLAYER}，\n"
+	.string "继续加油！$"
 
 
 Route110_Text_BrendanLetsBattle:
-	.string "Brendan: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your Pokémon?\n"
-	.string "I'll check for you.$"
+	.string "佑树：嘿，{PLAYER}。\n"
+	.string "原来你在这儿。\l"
+	.string "最近怎么样？\p"
+	.string "有在培养宝可梦吗？\n"
+	.string "我来检查一下。$"
 
 Route110_Text_BrendanDefeated:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "嗯……\n"
+	.string "你还挺厉害的。$"
 
 Route110_Text_BrendanTakeThis:
-	.string "Brendan: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take these,\p"
-	.string "I've got some things to help you\n"
-	.string "on your journey.$"
+	.string "佑树：{PLAYER}，你不知\n"
+	.string "不觉就变强了……\p"
+	.string "不错！\n"
+	.string "来，这些拿着，\p"
+	.string "有些东西能让你的\n"
+	.string "旅途更方便。$"
 
 Route110_Text_RideBikeAtFullSpeed:
-	.string "Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?$"
+	.string "在自行车道上全速\n"
+	.string "骑车该多爽啊！$"
 
 Route110_Text_HairStreamsBehindMe:
-	.string "How do you like the way my raven-\n"
-	.string "colored hair streams behind me?\p"
-	.string "I grew my hair out just for that.$"
+	.string "我这一头乌黑的长发\n"
+	.string "在身后飘起来，怎么样？\p"
+	.string "我可是为了这个才\n"
+	.string "把头发留长的。$"
 
 Route110_Text_YouGotBikeFromRydel:
-	.string "Oh, hey, you got that BIKE from RYDEL!\p"
-	.string "Oh, it's glaringly obvious.\n"
-	.string "It says right on your bike…\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
-	.string "That name's everywhere.\p"
-	.string "You should ride it around all over\n"
-	.string "the place--it's good advertising!$"
+	.string "哦，嘿，那辆自行车是\n"
+	.string "从莱德尔那儿拿的吧！\p"
+	.string "哦，太明显了。\n"
+	.string "车身上写着呢……\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
+	.string "莱德尔、莱德尔、莱德尔、\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
+	.string "莱德尔、莱德尔、莱德尔、\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
+	.string "莱德尔、莱德尔、莱德尔……\p"
+	.string "到处都是这个名字。\p"
+	.string "你该骑着它到处跑——\n"
+	.string "那是很好的广告！$"
 
 Route110_Text_TwoRoads:
-	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and Pokémon.\n"
-	.string "Perhaps that is right and fair.$"
+	.string "两条路，一条在上，\n"
+	.string "一条在下……\p"
+	.string "一条给人，一条给宝可梦。\n"
+	.string "也许这样才公平吧。$"
 
 Route110_Text_WalkOnTheLowRoad:
-	.string "I don't have a BIKE, so I'll take\n"
-	.string "a leisurely walk on the low road.$"
+	.string "我没有自行车，\n"
+	.string "就在下面的路慢慢走吧。$"
 
 Route110_Text_BikeTechniques:
-	.string "Learning techniques will make BIKE\n"
-	.string "riding even more fun.\p"
-	.string "There are some places that you can\n"
-	.string "reach only by using a BIKE technique.$"
+	.string "学会技巧，骑车会\n"
+	.string "更有趣。\p"
+	.string "有些地方只有用上\n"
+	.string "骑车技巧才能到。$"
 
 Route110_Text_WhichShouldIChoose:
-	.string "Which should I choose?\p"
-	.string "Make a beeline for MAUVILLE on\n"
-	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for Pokémon?$"
+	.string "我该选哪边？\p"
+	.string "沿自行车道直奔紫堇市，\n"
+	.string "还是走下面的路\l"
+	.string "去找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
-	.string "Number of collisions:\n"
-	.string "… … {STR_VAR_1}!\p"
-	.string "Total time:\n"
-	.string "… … {STR_VAR_2}!$"
+	.string "碰撞次数：\n"
+	.string "……{STR_VAR_1}！\p"
+	.string "总用时：\n"
+	.string "……{STR_VAR_2}！$"
 
 Route110_Text_ChallengeReactionBest:
-	.string "Bravo! Splendid showing!\p"
-	.string "Your love of cycling comes from deep\n"
-	.string "within your heart.\l"
-	.string "You've shaken me to my very soul!$"
+	.string "太棒了！真是精彩的\n"
+	.string "表现！\p"
+	.string "你对骑车的热爱发自\n"
+	.string "内心。\l"
+	.string "你震撼了我的灵魂！$"
 
 Route110_Text_ChallengeReactionGood:
-	.string "Your technique is remarkable.\p"
-	.string "I suggest you speed up a bit while\n"
-	.string "still avoiding collisions.$"
+	.string "你的技术很了不起。\p"
+	.string "我建议你在避免碰撞的\n"
+	.string "同时再加快一点。$"
 
 Route110_Text_ChallengeReactionOk:
-	.string "I would consider you a work in\n"
-	.string "progress.\p"
-	.string "Still, I hope you don't forget the\n"
-	.string "sheer pleasure of cycling.$"
+	.string "我看你还算\n"
+	.string "有待进步。\p"
+	.string "不过，希望你\n"
+	.string "别忘了骑车的乐趣。$"
 
 Route110_Text_ChallengeReactionBad:
-	.string "My word… Your cycling skills border\n"
-	.string "on terrifying.\p"
-	.string "Most certainly, you need much more\n"
-	.string "practice riding.$"
+	.string "天哪……你的骑车技术\n"
+	.string "近乎可怕。\p"
+	.string "你绝对还需要\n"
+	.string "多多练习。$"
 
 Route110_Text_ChallengeReactionWorst:
-	.string "…I am aghast…\p"
-	.string "You're perhaps not cut out for this\n"
-	.string "unfortunate cycling business.\p"
-	.string "You ought to give serious thought to\n"
-	.string "returning that BIKE to RYDEL.$"
+	.string "……我惊呆了……\p"
+	.string "你也许不适合做这种\n"
+	.string "不幸的骑车运动。\p"
+	.string "你该认真考虑把那辆\n"
+	.string "自行车还给莱德尔。$"
 
 Route110_Text_RatedForNumberOfCollisions:
-	.string "This is CYCLING ROAD.\p"
-	.string "If you were to ride from MAUVILLE to\n"
-	.string "Slateport on a MACH BIKE, you would\l"
-	.string "be rated for the number of collisions\l"
-	.string "and your total time.$"
+	.string "这里是自行车道。\p"
+	.string "如果骑高速自行车从紫堇市\n"
+	.string "到凯那市，\l"
+	.string "就会按碰撞次数\l"
+	.string "和总用时来评分。$"
 
 Route110_Text_AlwaysAimHigher:
-	.string "Regardless of the results, I count on\n"
-	.string "seeing more challenges from you.\l"
-	.string "Always aim higher!$"
+	.string "不管结果如何，我都\n"
+	.string "期待你再次挑战。\l"
+	.string "永远要瞄准更高的目标！$"
 
 Route110_Text_AcroBikesDoNotQualify:
-	.string "On this CYCLING ROAD, those riding\n"
-	.string "MACH BIKES are rated for their number\l"
-	.string "of collisions and their total times.\p"
-	.string "ACRO BIKES do not qualify for rating.\n"
-	.string "They are easy to turn, so it's not fair.$"
+	.string "在这条自行车道上，\n"
+	.string "骑高速自行车的人\l"
+	.string "会按碰撞次数和\l"
+	.string "总用时评分。\p"
+	.string "技巧自行车不参加评分。\n"
+	.string "它转向太容易，不公平。$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
-	.string "{DOWN_ARROW} Slateport City$"
+	.string "110号道路\n"
+	.string "{DOWN_ARROW} 凯那市$"
 
 Route110_Text_CyclingRoadSign:
-	.string "SEASIDE CYCLING ROAD$"
+	.string "海边自行车道$"
 
 Route110_Text_AquaWasHere:
-	.string "“Team Aqua was here!”\p"
-	.string "Someone painted that onto this sign,\n"
-	.string "but then someone else painted over it.\p"
-	.string "“Team Magma rules!” is what it\n"
-	.string "says now.$"
+	.string "“水舰队到此一游！”\p"
+	.string "有人把这句话涂在\n"
+	.string "牌子上，可后来又有人\l"
+	.string "把它盖住了。\p"
+	.string "现在上面写的是\n"
+	.string "“熔岩队最强！”$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "110号道路\n"
+	.string "{LEFT_ARROW} 103号道路$"
 
 Route110_Text_SeasideParkingSign:
-	.string "SEASIDE PARKING$"
+	.string "海边停车场$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE CITY$"
+	.string "110号道路\n"
+	.string "{UP_ARROW} 紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-	.string "Trainer Tips\p"
-	.string "You can press the “R” button while\n"
-	.string "choosing a move in battle to see\l"
-	.string "information about it.$"
+	.string "训练家入门\p"
+	.string "战斗中选招式时按“R”键，\n"
+	.string "就能查看它的信息。$"
 
 Route110_Text_TrainerTipsRegisterItems:
-	.string "Trainer Tips\p"
-	.string "The Pokédex contains information\n"
-	.string "about a Pokémon's learnsets and\l"
-	.string "evolution methods.$"
+	.string "训练家入门\p"
+	.string "宝可梦图鉴里有宝可梦的\n"
+	.string "可学招式和\l"
+	.string "进化方式的信息。$"
 
 Route110_Text_TrickHouseSign:
-	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "“向右三步，向上两步\n"
+	.string "就到神奇的机关屋。”$"
 
 Route110_Text_BestRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No. of collisions: {STR_VAR_1}\p"
-	.string "Elapsed time: {STR_VAR_2}$"
+	.string "到目前为止的最佳记录……\p"
+	.string "碰撞次数：{STR_VAR_1}\p"
+	.string "所用时间：{STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No one seems to have taken the\n"
-	.string "challenge. There is no record…$"
+	.string "到目前为止的最佳记录……\p"
+	.string "好像还没人挑战过。\n"
+	.string "没有记录……$"
 
 Route110_Text_ImagineSeeingYouHere:
-	.string "Prof. Birch: Oh, {PLAYER}{KUN}!\n"
-	.string "Imagine seeing you here!\p"
-	.string "And where might my {RIVAL} be?$"
+	.string "小田卷博士：哦，{PLAYER}！\n"
+	.string "没想到在这儿遇见你！\p"
+	.string "我家的{RIVAL}在哪儿呢？$"
 
 Route110_Text_HeardYouInstallMatchCall:
-	.string "Oh, I see!\n"
-	.string "You two are running separately.\l"
-	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your PokéNav\n"
-	.string "had the Match Call system installed.\p"
-	.string "Well, then, I should register you in\n"
-	.string "my PokéNav as well.\p"
-	.string "That way, even when we're apart,\n"
-	.string "I can rate your Pokédex anytime.\p"
+	.string "哦，原来如此！\n"
+	.string "你们俩分头行动啊。\l"
+	.string "那也好。\p"
+	.string "对了，我听说你的导航\n"
+	.string "装了宝可梦对话系统。\p"
+	.string "那么，我也把你登录到\n"
+	.string "我的导航里吧。\p"
+	.string "这样就算分开，我也能\n"
+	.string "随时评价你的图鉴。\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
-	.string "Registered Prof. Birch\n"
-	.string "in the PokéNav.$"
+	.string "在宝可梦导航里登录了\n"
+	.string "小田卷博士。$"
 
 Route110_Text_KeepAnEyeOutForRival:
-	.string "Prof. Birch: {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for my {RIVAL}.\n"
+	.string "小田卷博士：{PLAYER}……\p"
+	.string "请帮我留意我家的{RIVAL}。\n"
 	.string "… … … … … …\p"
-	.string "Well, I had better get going.\n"
-	.string "See you again, {PLAYER}{KUN}!$"
+	.string "好了，我该走了。\n"
+	.string "再见，{PLAYER}！$"
 
 `
 
@@ -1194,7 +1199,7 @@ script Route110_Trigger_BlockTrickHouse{
 }
 
 text TrickHouseMessage {
-	"“Puzzles under construction,\n"
-	"come back later” - The Trick Master"
+	"「机关施工中，\n"
+	"之后再来」——戏法大师"
 
 }

@@ -1757,629 +1757,639 @@ Route110_Movement_WallyExitFacingEastWest:
 # 879 "data/maps/Route110/scripts.pory"
 Route110_Text_WallyRoute110Thinking:
 # 880 "data/maps/Route110/scripts.pory"
-	.string "Wally: Hmm… Norman said I should try\n"
+	.string "小胜：嗯……千里先生让我\n"
 # 881 "data/maps/Route110/scripts.pory"
-	.string "battling in here to get stronger, but\l"
+	.string "在这里对战变强，\l"
 # 882 "data/maps/Route110/scripts.pory"
-	.string "will I even be able to hold my own?$"
+	.string "可是我能行吗？$"
 # 883 "data/maps/Route110/scripts.pory"
 
 # 884 "data/maps/Route110/scripts.pory"
 Route110_Text_WallyLetsBattle:
 # 885 "data/maps/Route110/scripts.pory"
-	.string "Ahh!\p"
+	.string "啊！\p"
 # 886 "data/maps/Route110/scripts.pory"
-	.string "Geez, don't sneak up on me like that,\n"
+	.string "真是的，别这样\n"
 # 887 "data/maps/Route110/scripts.pory"
-	.string "{PLAYER}.\p"
+	.string "突然靠近我啊，{PLAYER}。\p"
 # 888 "data/maps/Route110/scripts.pory"
-	.string "I've gotten a lot stronger since our\n"
+	.string "自从在紫堇市对战过，\n"
 # 889 "data/maps/Route110/scripts.pory"
-	.string "battle in Mauville!\p"
+	.string "我已经强了很多！\p"
 # 890 "data/maps/Route110/scripts.pory"
-	.string "Norman, I mean um, your Dad, even gave\n"
+	.string "千里先生，也就是\n"
 # 891 "data/maps/Route110/scripts.pory"
-	.string "me my own Mega Ring!\p"
+	.string "你爸爸，还给了我\l"
 # 892 "data/maps/Route110/scripts.pory"
-	.string "Gardevoir and I have been working\n"
+	.string "一个超级环！\p"
 # 893 "data/maps/Route110/scripts.pory"
-	.string "really hard…\p"
+	.string "沙奈朵和我一直在\n"
 # 894 "data/maps/Route110/scripts.pory"
-	.string "I've been here contemplating going into\n"
+	.string "拼命努力……\p"
 # 895 "data/maps/Route110/scripts.pory"
-	.string "the Trick House for a while, but I'm\l"
+	.string "我在这里犹豫了很久，\n"
 # 896 "data/maps/Route110/scripts.pory"
-	.string "still a little hesitant.\p"
+	.string "要不要进那间机关屋，\l"
 # 897 "data/maps/Route110/scripts.pory"
-	.string "I have an idea, let's battle out here,\n"
+	.string "可还是有点不敢。\p"
 # 898 "data/maps/Route110/scripts.pory"
-	.string "and the winner gets to go into the\l"
+	.string "我有个主意，我们就在\n"
 # 899 "data/maps/Route110/scripts.pory"
-	.string "Trick House first!\p"
+	.string "这里对战，赢的人\l"
 # 900 "data/maps/Route110/scripts.pory"
-	.string "Ok, here I come!$"
+	.string "先进机关屋！\p"
 # 901 "data/maps/Route110/scripts.pory"
-
+	.string "好，我来了！$"
 # 902 "data/maps/Route110/scripts.pory"
-Route110_Text_WallyDefeated:
+
 # 903 "data/maps/Route110/scripts.pory"
-	.string "Looks like I still wasn't strong\n"
+Route110_Text_WallyDefeated:
 # 904 "data/maps/Route110/scripts.pory"
-	.string "enough…$"
+	.string "看来我还是不够强……$"
 # 905 "data/maps/Route110/scripts.pory"
 
 # 906 "data/maps/Route110/scripts.pory"
 Route110_Text_WallyTimeToHeadBack:
 # 907 "data/maps/Route110/scripts.pory"
-	.string "Great battle, {PLAYER}. Even though I\n"
+	.string "好棒的对战，{PLAYER}。\n"
 # 908 "data/maps/Route110/scripts.pory"
-	.string "lost to you again, I can feel myself\l"
+	.string "虽然我又输给了你，\l"
 # 909 "data/maps/Route110/scripts.pory"
-	.string "getting stronger.\p"
+	.string "但我觉得自己在变强。\p"
 # 910 "data/maps/Route110/scripts.pory"
-	.string "You can go into the Trick House first\n"
+	.string "你赢了，就先进机关屋吧，\n"
 # 911 "data/maps/Route110/scripts.pory"
-	.string "since you won, I'll head off to train\l"
+	.string "我去别的地方训练，\l"
 # 912 "data/maps/Route110/scripts.pory"
-	.string "somewhere else before coming back.\p"
+	.string "之后再回来。\p"
 # 913 "data/maps/Route110/scripts.pory"
-	.string "Watch your back, {PLAYER}, I'm going to\n"
+	.string "留神了，{PLAYER}，我会\n"
 # 914 "data/maps/Route110/scripts.pory"
-	.string "keep training, and I'll catch up to you\l"
+	.string "继续训练，总有一天\l"
 # 915 "data/maps/Route110/scripts.pory"
-	.string "one day!$"
+	.string "会追上你的！$"
 # 916 "data/maps/Route110/scripts.pory"
 
 # 917 "data/maps/Route110/scripts.pory"
 Route110_Text_WeCantTalkAboutAquaActivities:
 # 918 "data/maps/Route110/scripts.pory"
-	.string "Team Aqua's activities…\n"
+	.string "水舰队的行动……\n"
 # 919 "data/maps/Route110/scripts.pory"
-	.string "We can't talk about them yet.$"
+	.string "这个还不能跟你说。$"
 # 920 "data/maps/Route110/scripts.pory"
 
 # 921 "data/maps/Route110/scripts.pory"
 Route110_Text_KickUpARuckus:
 # 922 "data/maps/Route110/scripts.pory"
-	.string "I want to get going to Slateport and\n"
+	.string "我要赶紧去凯那市\n"
 # 923 "data/maps/Route110/scripts.pory"
-	.string "kick up a ruckus!$"
+	.string "闹个痛快！$"
 # 924 "data/maps/Route110/scripts.pory"
 
 # 925 "data/maps/Route110/scripts.pory"
 Route110_Text_MyFirstJobInAqua:
 # 926 "data/maps/Route110/scripts.pory"
-	.string "This is my first job after joining\n"
+	.string "这是我加入水舰队后的\n"
 # 927 "data/maps/Route110/scripts.pory"
-	.string "Team Aqua. It's a little scary.$"
+	.string "第一份工作。有点怕。$"
 # 928 "data/maps/Route110/scripts.pory"
 
 # 929 "data/maps/Route110/scripts.pory"
 Route110_Text_AquaActionsBringSmiles:
 # 930 "data/maps/Route110/scripts.pory"
-	.string "Team Aqua's actions should bring\n"
+	.string "水舰队的行动应该让\n"
 # 931 "data/maps/Route110/scripts.pory"
-	.string "smiles to people's faces!$"
+	.string "大家都露出笑容！$"
 # 932 "data/maps/Route110/scripts.pory"
 
 # 933 "data/maps/Route110/scripts.pory"
 Route110_Text_MayLetsBattle:
 # 934 "data/maps/Route110/scripts.pory"
-	.string "May: Hi, {PLAYER}{KUN}, long time no see!\p"
+	.string "小遥：嗨，{PLAYER}，\n"
 # 935 "data/maps/Route110/scripts.pory"
-	.string "While I was searching for other\n"
+	.string "好久不见！\p"
 # 936 "data/maps/Route110/scripts.pory"
-	.string "Pokémon, my Pokémon grew stronger.\p"
+	.string "我在寻找别的宝可梦时，\n"
 # 937 "data/maps/Route110/scripts.pory"
-	.string "So…\n"
+	.string "自己的宝可梦也变强了。\p"
 # 938 "data/maps/Route110/scripts.pory"
-	.string "How about a little battle?$"
+	.string "那么……\n"
 # 939 "data/maps/Route110/scripts.pory"
-
+	.string "要不要对战一场？$"
 # 940 "data/maps/Route110/scripts.pory"
-Route110_Text_MayDefeated:
+
 # 941 "data/maps/Route110/scripts.pory"
-	.string "Yikes!\n"
+Route110_Text_MayDefeated:
 # 942 "data/maps/Route110/scripts.pory"
-	.string "You're better than I expected!$"
+	.string "哎呀！\n"
 # 943 "data/maps/Route110/scripts.pory"
-
+	.string "你比我想的厉害多了！$"
 # 944 "data/maps/Route110/scripts.pory"
-Route110_Text_MayTakeThis:
+
 # 945 "data/maps/Route110/scripts.pory"
-	.string "May: {PLAYER}{KUN}, you've been busy\n"
+Route110_Text_MayTakeThis:
 # 946 "data/maps/Route110/scripts.pory"
-	.string "training, too, haven't you?\p"
+	.string "小遥：{PLAYER}，你也在\n"
 # 947 "data/maps/Route110/scripts.pory"
-	.string "I think you deserve a reward!\n"
+	.string "拼命训练吧？\p"
 # 948 "data/maps/Route110/scripts.pory"
-	.string "These are from me!\p"
+	.string "我觉得该给你奖励！\n"
 # 949 "data/maps/Route110/scripts.pory"
-	.string "I've got some things to help you\n"
+	.string "这些是给你的！\p"
 # 950 "data/maps/Route110/scripts.pory"
-	.string "on your journey.$"
+	.string "有些东西能让你的\n"
 # 951 "data/maps/Route110/scripts.pory"
-
+	.string "旅途更方便。$"
 # 952 "data/maps/Route110/scripts.pory"
-Route110_Text_RivalExplainFlyHM:
+
 # 953 "data/maps/Route110/scripts.pory"
-	.string "As you can see, {COLOR GREEN}{SHADOW LIGHT_GREEN}I just gave you the\n"
+Route110_Text_RivalExplainFlyHM:
 # 954 "data/maps/Route110/scripts.pory"
-	.string "HM02 Fly.\p"
+	.string "如你所见，{COLOR GREEN}{SHADOW LIGHT_GREEN}\n"
 # 955 "data/maps/Route110/scripts.pory"
-	.string "Any Pokémon that can learn Fly should\n"
+	.string "我刚给了你\l"
 # 956 "data/maps/Route110/scripts.pory"
-	.string "now have it in your party menu,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} and the\l"
+	.string "秘传学习器02飞翔。\p"
 # 957 "data/maps/Route110/scripts.pory"
-	.string "Badge requirement to use it has been\l"
+	.string "现在队伍菜单里，\n"
 # 958 "data/maps/Route110/scripts.pory"
-	.string "removed! If you don't believe me, give\l"
+	.string "能学会飞翔的宝可梦\l"
 # 959 "data/maps/Route110/scripts.pory"
-	.string "it a try!$"
+	.string "都可以学它了，{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}而且\l"
 # 960 "data/maps/Route110/scripts.pory"
-
+	.string "使用它的徽章要求也解除了！\n"
 # 961 "data/maps/Route110/scripts.pory"
-Route110_Text_RivalThatsNotAll::
+	.string "不信你就试试！$"
 # 962 "data/maps/Route110/scripts.pory"
-	.string "That's not all I have for you.\n"
+
 # 963 "data/maps/Route110/scripts.pory"
-	.string "Here, take these as well.$"
+Route110_Text_RivalThatsNotAll::
 # 964 "data/maps/Route110/scripts.pory"
-
+	.string "我要给你的\n"
 # 965 "data/maps/Route110/scripts.pory"
-Route110_Text_RivalExplainRestOfItems::
+	.string "不只这些。\p"
 # 966 "data/maps/Route110/scripts.pory"
-	.string "I just gave you the following Items:\n"
+	.string "来，这些也拿着。$"
 # 967 "data/maps/Route110/scripts.pory"
-	.string "the Dowsing MCHN, the TMs for\l"
+
 # 968 "data/maps/Route110/scripts.pory"
-	.string "Fire Punch, Ice Punch, Thunder Punch,\l"
+Route110_Text_RivalExplainRestOfItems::
 # 969 "data/maps/Route110/scripts.pory"
-	.string "Fire Fang, Ice Fang, Thunder Fang,\l"
+	.string "我刚给你这些东西：\n"
 # 970 "data/maps/Route110/scripts.pory"
-	.string "Psychic Fangs, and Poison Fang, some\l"
+	.string "探宝器，还有\l"
 # 971 "data/maps/Route110/scripts.pory"
-	.string "more types of Poké Balls, Shiny Stones,\l"
+	.string "火焰拳、冰冻拳、雷电拳、\l"
 # 972 "data/maps/Route110/scripts.pory"
-	.string "Ice Stones, Black Sludges, Flame Orbs,\l"
+	.string "火焰牙、冰冻牙、雷电牙、\l"
 # 973 "data/maps/Route110/scripts.pory"
-	.string "Toxic Orbs, Smoke Balls, Thick Clubs,\l"
+	.string "精神之牙和毒牙的学习器，\l"
 # 974 "data/maps/Route110/scripts.pory"
-	.string "Weakness Policies, Terrain Extenders,\l"
+	.string "几种新的精灵球、光之石、\l"
 # 975 "data/maps/Route110/scripts.pory"
-	.string "Shed Shells, Light Clays, and some\l"
+	.string "冰之石、黑色污泥、\l"
 # 976 "data/maps/Route110/scripts.pory"
-	.string "Terrain Seeds.\p"
+	.string "火焰宝珠、剧毒宝珠、\l"
 # 977 "data/maps/Route110/scripts.pory"
-	.string "Whew, I think that's everything, you\n"
+	.string "烟雾球、粗骨头、弱点保险、\l"
 # 978 "data/maps/Route110/scripts.pory"
-	.string "might want to take a look through your\l"
+	.string "场地延长器、脱壳、\l"
 # 979 "data/maps/Route110/scripts.pory"
-	.string "Bag pockets to see what you have now!\p"
+	.string "光之黏土、场地种子。\p"
 # 980 "data/maps/Route110/scripts.pory"
-	.string "I'll be going now, {PLAYER}, keep up the\n"
+	.string "呼，我想就是这些了，\n"
 # 981 "data/maps/Route110/scripts.pory"
-	.string "good work!$"
+	.string "你也许想翻翻背包\l"
 # 982 "data/maps/Route110/scripts.pory"
-
+	.string "看看现在有什么！\p"
 # 983 "data/maps/Route110/scripts.pory"
-
+	.string "我该走了，{PLAYER}，\n"
 # 984 "data/maps/Route110/scripts.pory"
-Route110_Text_BrendanLetsBattle:
+	.string "继续加油！$"
 # 985 "data/maps/Route110/scripts.pory"
-	.string "Brendan: Hey, {PLAYER}.\n"
+
 # 986 "data/maps/Route110/scripts.pory"
-	.string "So this is where you were.\l"
+
 # 987 "data/maps/Route110/scripts.pory"
-	.string "How's it going?\p"
+Route110_Text_BrendanLetsBattle:
 # 988 "data/maps/Route110/scripts.pory"
-	.string "Have you been raising your Pokémon?\n"
+	.string "佑树：嘿，{PLAYER}。\n"
 # 989 "data/maps/Route110/scripts.pory"
-	.string "I'll check for you.$"
+	.string "原来你在这儿。\l"
 # 990 "data/maps/Route110/scripts.pory"
-
+	.string "最近怎么样？\p"
 # 991 "data/maps/Route110/scripts.pory"
-Route110_Text_BrendanDefeated:
+	.string "有在培养宝可梦吗？\n"
 # 992 "data/maps/Route110/scripts.pory"
-	.string "Hmm…\n"
+	.string "我来检查一下。$"
 # 993 "data/maps/Route110/scripts.pory"
-	.string "You're pretty good.$"
+
 # 994 "data/maps/Route110/scripts.pory"
-
+Route110_Text_BrendanDefeated:
 # 995 "data/maps/Route110/scripts.pory"
-Route110_Text_BrendanTakeThis:
+	.string "嗯……\n"
 # 996 "data/maps/Route110/scripts.pory"
-	.string "Brendan: {PLAYER}, you've trained\n"
+	.string "你还挺厉害的。$"
 # 997 "data/maps/Route110/scripts.pory"
-	.string "without me noticing…\p"
+
 # 998 "data/maps/Route110/scripts.pory"
-	.string "Good enough!\n"
+Route110_Text_BrendanTakeThis:
 # 999 "data/maps/Route110/scripts.pory"
-	.string "Here, take these,\p"
+	.string "佑树：{PLAYER}，你不知\n"
 # 1000 "data/maps/Route110/scripts.pory"
-	.string "I've got some things to help you\n"
+	.string "不觉就变强了……\p"
 # 1001 "data/maps/Route110/scripts.pory"
-	.string "on your journey.$"
+	.string "不错！\n"
 # 1002 "data/maps/Route110/scripts.pory"
-
+	.string "来，这些拿着，\p"
 # 1003 "data/maps/Route110/scripts.pory"
-Route110_Text_RideBikeAtFullSpeed:
+	.string "有些东西能让你的\n"
 # 1004 "data/maps/Route110/scripts.pory"
-	.string "Wouldn't it be great to ride a BIKE\n"
+	.string "旅途更方便。$"
 # 1005 "data/maps/Route110/scripts.pory"
-	.string "at full speed on CYCLING ROAD?$"
+
 # 1006 "data/maps/Route110/scripts.pory"
-
+Route110_Text_RideBikeAtFullSpeed:
 # 1007 "data/maps/Route110/scripts.pory"
-Route110_Text_HairStreamsBehindMe:
+	.string "在自行车道上全速\n"
 # 1008 "data/maps/Route110/scripts.pory"
-	.string "How do you like the way my raven-\n"
+	.string "骑车该多爽啊！$"
 # 1009 "data/maps/Route110/scripts.pory"
-	.string "colored hair streams behind me?\p"
+
 # 1010 "data/maps/Route110/scripts.pory"
-	.string "I grew my hair out just for that.$"
+Route110_Text_HairStreamsBehindMe:
 # 1011 "data/maps/Route110/scripts.pory"
-
+	.string "我这一头乌黑的长发\n"
 # 1012 "data/maps/Route110/scripts.pory"
-Route110_Text_YouGotBikeFromRydel:
+	.string "在身后飘起来，怎么样？\p"
 # 1013 "data/maps/Route110/scripts.pory"
-	.string "Oh, hey, you got that BIKE from RYDEL!\p"
+	.string "我可是为了这个才\n"
 # 1014 "data/maps/Route110/scripts.pory"
-	.string "Oh, it's glaringly obvious.\n"
+	.string "把头发留长的。$"
 # 1015 "data/maps/Route110/scripts.pory"
-	.string "It says right on your bike…\p"
+
 # 1016 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
+Route110_Text_YouGotBikeFromRydel:
 # 1017 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
+	.string "哦，嘿，那辆自行车是\n"
 # 1018 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
+	.string "从莱德尔那儿拿的吧！\p"
 # 1019 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
+	.string "哦，太明显了。\n"
 # 1020 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
+	.string "车身上写着呢……\p"
 # 1021 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
 # 1022 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
+	.string "莱德尔、莱德尔、莱德尔、\p"
 # 1023 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
 # 1024 "data/maps/Route110/scripts.pory"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
+	.string "莱德尔、莱德尔、莱德尔、\p"
 # 1025 "data/maps/Route110/scripts.pory"
-	.string "That name's everywhere.\p"
+	.string "莱德尔、莱德尔、莱德尔、\n"
 # 1026 "data/maps/Route110/scripts.pory"
-	.string "You should ride it around all over\n"
+	.string "莱德尔、莱德尔、莱德尔……\p"
 # 1027 "data/maps/Route110/scripts.pory"
-	.string "the place--it's good advertising!$"
+	.string "到处都是这个名字。\p"
 # 1028 "data/maps/Route110/scripts.pory"
-
+	.string "你该骑着它到处跑——\n"
 # 1029 "data/maps/Route110/scripts.pory"
-Route110_Text_TwoRoads:
+	.string "那是很好的广告！$"
 # 1030 "data/maps/Route110/scripts.pory"
-	.string "The two roads, one above, one below…\p"
+
 # 1031 "data/maps/Route110/scripts.pory"
-	.string "A road each for people and Pokémon.\n"
+Route110_Text_TwoRoads:
 # 1032 "data/maps/Route110/scripts.pory"
-	.string "Perhaps that is right and fair.$"
+	.string "两条路，一条在上，\n"
 # 1033 "data/maps/Route110/scripts.pory"
-
+	.string "一条在下……\p"
 # 1034 "data/maps/Route110/scripts.pory"
-Route110_Text_WalkOnTheLowRoad:
+	.string "一条给人，一条给宝可梦。\n"
 # 1035 "data/maps/Route110/scripts.pory"
-	.string "I don't have a BIKE, so I'll take\n"
+	.string "也许这样才公平吧。$"
 # 1036 "data/maps/Route110/scripts.pory"
-	.string "a leisurely walk on the low road.$"
+
 # 1037 "data/maps/Route110/scripts.pory"
-
+Route110_Text_WalkOnTheLowRoad:
 # 1038 "data/maps/Route110/scripts.pory"
-Route110_Text_BikeTechniques:
+	.string "我没有自行车，\n"
 # 1039 "data/maps/Route110/scripts.pory"
-	.string "Learning techniques will make BIKE\n"
+	.string "就在下面的路慢慢走吧。$"
 # 1040 "data/maps/Route110/scripts.pory"
-	.string "riding even more fun.\p"
+
 # 1041 "data/maps/Route110/scripts.pory"
-	.string "There are some places that you can\n"
+Route110_Text_BikeTechniques:
 # 1042 "data/maps/Route110/scripts.pory"
-	.string "reach only by using a BIKE technique.$"
+	.string "学会技巧，骑车会\n"
 # 1043 "data/maps/Route110/scripts.pory"
-
+	.string "更有趣。\p"
 # 1044 "data/maps/Route110/scripts.pory"
-Route110_Text_WhichShouldIChoose:
+	.string "有些地方只有用上\n"
 # 1045 "data/maps/Route110/scripts.pory"
-	.string "Which should I choose?\p"
+	.string "骑车技巧才能到。$"
 # 1046 "data/maps/Route110/scripts.pory"
-	.string "Make a beeline for MAUVILLE on\n"
+
 # 1047 "data/maps/Route110/scripts.pory"
-	.string "CYCLING ROAD, or take the low road\l"
+Route110_Text_WhichShouldIChoose:
 # 1048 "data/maps/Route110/scripts.pory"
-	.string "and look for Pokémon?$"
+	.string "我该选哪边？\p"
 # 1049 "data/maps/Route110/scripts.pory"
-
+	.string "沿自行车道直奔紫堇市，\n"
 # 1050 "data/maps/Route110/scripts.pory"
-Route110_Text_CyclingChallengeResultSummary:
+	.string "还是走下面的路\l"
 # 1051 "data/maps/Route110/scripts.pory"
-	.string "Number of collisions:\n"
+	.string "去找宝可梦？$"
 # 1052 "data/maps/Route110/scripts.pory"
-	.string "… … {STR_VAR_1}!\p"
+
 # 1053 "data/maps/Route110/scripts.pory"
-	.string "Total time:\n"
+Route110_Text_CyclingChallengeResultSummary:
 # 1054 "data/maps/Route110/scripts.pory"
-	.string "… … {STR_VAR_2}!$"
+	.string "碰撞次数：\n"
 # 1055 "data/maps/Route110/scripts.pory"
-
+	.string "……{STR_VAR_1}！\p"
 # 1056 "data/maps/Route110/scripts.pory"
-Route110_Text_ChallengeReactionBest:
+	.string "总用时：\n"
 # 1057 "data/maps/Route110/scripts.pory"
-	.string "Bravo! Splendid showing!\p"
+	.string "……{STR_VAR_2}！$"
 # 1058 "data/maps/Route110/scripts.pory"
-	.string "Your love of cycling comes from deep\n"
+
 # 1059 "data/maps/Route110/scripts.pory"
-	.string "within your heart.\l"
+Route110_Text_ChallengeReactionBest:
 # 1060 "data/maps/Route110/scripts.pory"
-	.string "You've shaken me to my very soul!$"
+	.string "太棒了！真是精彩的\n"
 # 1061 "data/maps/Route110/scripts.pory"
-
+	.string "表现！\p"
 # 1062 "data/maps/Route110/scripts.pory"
-Route110_Text_ChallengeReactionGood:
+	.string "你对骑车的热爱发自\n"
 # 1063 "data/maps/Route110/scripts.pory"
-	.string "Your technique is remarkable.\p"
+	.string "内心。\l"
 # 1064 "data/maps/Route110/scripts.pory"
-	.string "I suggest you speed up a bit while\n"
+	.string "你震撼了我的灵魂！$"
 # 1065 "data/maps/Route110/scripts.pory"
-	.string "still avoiding collisions.$"
+
 # 1066 "data/maps/Route110/scripts.pory"
-
+Route110_Text_ChallengeReactionGood:
 # 1067 "data/maps/Route110/scripts.pory"
-Route110_Text_ChallengeReactionOk:
+	.string "你的技术很了不起。\p"
 # 1068 "data/maps/Route110/scripts.pory"
-	.string "I would consider you a work in\n"
+	.string "我建议你在避免碰撞的\n"
 # 1069 "data/maps/Route110/scripts.pory"
-	.string "progress.\p"
+	.string "同时再加快一点。$"
 # 1070 "data/maps/Route110/scripts.pory"
-	.string "Still, I hope you don't forget the\n"
+
 # 1071 "data/maps/Route110/scripts.pory"
-	.string "sheer pleasure of cycling.$"
+Route110_Text_ChallengeReactionOk:
 # 1072 "data/maps/Route110/scripts.pory"
-
+	.string "我看你还算\n"
 # 1073 "data/maps/Route110/scripts.pory"
-Route110_Text_ChallengeReactionBad:
+	.string "有待进步。\p"
 # 1074 "data/maps/Route110/scripts.pory"
-	.string "My word… Your cycling skills border\n"
+	.string "不过，希望你\n"
 # 1075 "data/maps/Route110/scripts.pory"
-	.string "on terrifying.\p"
+	.string "别忘了骑车的乐趣。$"
 # 1076 "data/maps/Route110/scripts.pory"
-	.string "Most certainly, you need much more\n"
+
 # 1077 "data/maps/Route110/scripts.pory"
-	.string "practice riding.$"
+Route110_Text_ChallengeReactionBad:
 # 1078 "data/maps/Route110/scripts.pory"
-
+	.string "天哪……你的骑车技术\n"
 # 1079 "data/maps/Route110/scripts.pory"
-Route110_Text_ChallengeReactionWorst:
+	.string "近乎可怕。\p"
 # 1080 "data/maps/Route110/scripts.pory"
-	.string "…I am aghast…\p"
+	.string "你绝对还需要\n"
 # 1081 "data/maps/Route110/scripts.pory"
-	.string "You're perhaps not cut out for this\n"
+	.string "多多练习。$"
 # 1082 "data/maps/Route110/scripts.pory"
-	.string "unfortunate cycling business.\p"
+
 # 1083 "data/maps/Route110/scripts.pory"
-	.string "You ought to give serious thought to\n"
+Route110_Text_ChallengeReactionWorst:
 # 1084 "data/maps/Route110/scripts.pory"
-	.string "returning that BIKE to RYDEL.$"
+	.string "……我惊呆了……\p"
 # 1085 "data/maps/Route110/scripts.pory"
-
+	.string "你也许不适合做这种\n"
 # 1086 "data/maps/Route110/scripts.pory"
-Route110_Text_RatedForNumberOfCollisions:
+	.string "不幸的骑车运动。\p"
 # 1087 "data/maps/Route110/scripts.pory"
-	.string "This is CYCLING ROAD.\p"
+	.string "你该认真考虑把那辆\n"
 # 1088 "data/maps/Route110/scripts.pory"
-	.string "If you were to ride from MAUVILLE to\n"
+	.string "自行车还给莱德尔。$"
 # 1089 "data/maps/Route110/scripts.pory"
-	.string "Slateport on a MACH BIKE, you would\l"
+
 # 1090 "data/maps/Route110/scripts.pory"
-	.string "be rated for the number of collisions\l"
+Route110_Text_RatedForNumberOfCollisions:
 # 1091 "data/maps/Route110/scripts.pory"
-	.string "and your total time.$"
+	.string "这里是自行车道。\p"
 # 1092 "data/maps/Route110/scripts.pory"
-
+	.string "如果骑高速自行车从紫堇市\n"
 # 1093 "data/maps/Route110/scripts.pory"
-Route110_Text_AlwaysAimHigher:
+	.string "到凯那市，\l"
 # 1094 "data/maps/Route110/scripts.pory"
-	.string "Regardless of the results, I count on\n"
+	.string "就会按碰撞次数\l"
 # 1095 "data/maps/Route110/scripts.pory"
-	.string "seeing more challenges from you.\l"
+	.string "和总用时来评分。$"
 # 1096 "data/maps/Route110/scripts.pory"
-	.string "Always aim higher!$"
+
 # 1097 "data/maps/Route110/scripts.pory"
-
+Route110_Text_AlwaysAimHigher:
 # 1098 "data/maps/Route110/scripts.pory"
-Route110_Text_AcroBikesDoNotQualify:
+	.string "不管结果如何，我都\n"
 # 1099 "data/maps/Route110/scripts.pory"
-	.string "On this CYCLING ROAD, those riding\n"
+	.string "期待你再次挑战。\l"
 # 1100 "data/maps/Route110/scripts.pory"
-	.string "MACH BIKES are rated for their number\l"
+	.string "永远要瞄准更高的目标！$"
 # 1101 "data/maps/Route110/scripts.pory"
-	.string "of collisions and their total times.\p"
+
 # 1102 "data/maps/Route110/scripts.pory"
-	.string "ACRO BIKES do not qualify for rating.\n"
+Route110_Text_AcroBikesDoNotQualify:
 # 1103 "data/maps/Route110/scripts.pory"
-	.string "They are easy to turn, so it's not fair.$"
+	.string "在这条自行车道上，\n"
 # 1104 "data/maps/Route110/scripts.pory"
-
+	.string "骑高速自行车的人\l"
 # 1105 "data/maps/Route110/scripts.pory"
-Route110_Text_SlateportCitySign:
+	.string "会按碰撞次数和\l"
 # 1106 "data/maps/Route110/scripts.pory"
-	.string "ROUTE 110\n"
+	.string "总用时评分。\p"
 # 1107 "data/maps/Route110/scripts.pory"
-	.string "{DOWN_ARROW} Slateport City$"
+	.string "技巧自行车不参加评分。\n"
 # 1108 "data/maps/Route110/scripts.pory"
-
+	.string "它转向太容易，不公平。$"
 # 1109 "data/maps/Route110/scripts.pory"
-Route110_Text_CyclingRoadSign:
+
 # 1110 "data/maps/Route110/scripts.pory"
-	.string "SEASIDE CYCLING ROAD$"
+Route110_Text_SlateportCitySign:
 # 1111 "data/maps/Route110/scripts.pory"
-
+	.string "110号道路\n"
 # 1112 "data/maps/Route110/scripts.pory"
-Route110_Text_AquaWasHere:
+	.string "{DOWN_ARROW} 凯那市$"
 # 1113 "data/maps/Route110/scripts.pory"
-	.string "“Team Aqua was here!”\p"
+
 # 1114 "data/maps/Route110/scripts.pory"
-	.string "Someone painted that onto this sign,\n"
+Route110_Text_CyclingRoadSign:
 # 1115 "data/maps/Route110/scripts.pory"
-	.string "but then someone else painted over it.\p"
+	.string "海边自行车道$"
 # 1116 "data/maps/Route110/scripts.pory"
-	.string "“Team Magma rules!” is what it\n"
+
 # 1117 "data/maps/Route110/scripts.pory"
-	.string "says now.$"
+Route110_Text_AquaWasHere:
 # 1118 "data/maps/Route110/scripts.pory"
-
+	.string "“水舰队到此一游！”\p"
 # 1119 "data/maps/Route110/scripts.pory"
-Route110_Text_Route103Sign:
+	.string "有人把这句话涂在\n"
 # 1120 "data/maps/Route110/scripts.pory"
-	.string "ROUTE 110\n"
+	.string "牌子上，可后来又有人\l"
 # 1121 "data/maps/Route110/scripts.pory"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "把它盖住了。\p"
 # 1122 "data/maps/Route110/scripts.pory"
-
+	.string "现在上面写的是\n"
 # 1123 "data/maps/Route110/scripts.pory"
-Route110_Text_SeasideParkingSign:
+	.string "“熔岩队最强！”$"
 # 1124 "data/maps/Route110/scripts.pory"
-	.string "SEASIDE PARKING$"
+
 # 1125 "data/maps/Route110/scripts.pory"
-
+Route110_Text_Route103Sign:
 # 1126 "data/maps/Route110/scripts.pory"
-Route110_Text_MauvilleCitySign:
+	.string "110号道路\n"
 # 1127 "data/maps/Route110/scripts.pory"
-	.string "ROUTE 110\n"
+	.string "{LEFT_ARROW} 103号道路$"
 # 1128 "data/maps/Route110/scripts.pory"
-	.string "{UP_ARROW} MAUVILLE CITY$"
-# 1129 "data/maps/Route110/scripts.pory"
 
+# 1129 "data/maps/Route110/scripts.pory"
+Route110_Text_SeasideParkingSign:
 # 1130 "data/maps/Route110/scripts.pory"
-Route110_Text_TrainerTipsPrlzSleep:
+	.string "海边停车场$"
 # 1131 "data/maps/Route110/scripts.pory"
-	.string "Trainer Tips\p"
+
 # 1132 "data/maps/Route110/scripts.pory"
-	.string "You can press the “R” button while\n"
+Route110_Text_MauvilleCitySign:
 # 1133 "data/maps/Route110/scripts.pory"
-	.string "choosing a move in battle to see\l"
+	.string "110号道路\n"
 # 1134 "data/maps/Route110/scripts.pory"
-	.string "information about it.$"
+	.string "{UP_ARROW} 紫堇市$"
 # 1135 "data/maps/Route110/scripts.pory"
 
 # 1136 "data/maps/Route110/scripts.pory"
-Route110_Text_TrainerTipsRegisterItems:
+Route110_Text_TrainerTipsPrlzSleep:
 # 1137 "data/maps/Route110/scripts.pory"
-	.string "Trainer Tips\p"
+	.string "训练家入门\p"
 # 1138 "data/maps/Route110/scripts.pory"
-	.string "The Pokédex contains information\n"
+	.string "战斗中选招式时按“R”键，\n"
 # 1139 "data/maps/Route110/scripts.pory"
-	.string "about a Pokémon's learnsets and\l"
+	.string "就能查看它的信息。$"
 # 1140 "data/maps/Route110/scripts.pory"
-	.string "evolution methods.$"
+
 # 1141 "data/maps/Route110/scripts.pory"
-
+Route110_Text_TrainerTipsRegisterItems:
 # 1142 "data/maps/Route110/scripts.pory"
-Route110_Text_TrickHouseSign:
+	.string "训练家入门\p"
 # 1143 "data/maps/Route110/scripts.pory"
-	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
+	.string "宝可梦图鉴里有宝可梦的\n"
 # 1144 "data/maps/Route110/scripts.pory"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "可学招式和\l"
 # 1145 "data/maps/Route110/scripts.pory"
-
+	.string "进化方式的信息。$"
 # 1146 "data/maps/Route110/scripts.pory"
-Route110_Text_BestRecord:
+
 # 1147 "data/maps/Route110/scripts.pory"
-	.string "THE BEST RECORD TO DATE…\p"
+Route110_Text_TrickHouseSign:
 # 1148 "data/maps/Route110/scripts.pory"
-	.string "No. of collisions: {STR_VAR_1}\p"
+	.string "“向右三步，向上两步\n"
 # 1149 "data/maps/Route110/scripts.pory"
-	.string "Elapsed time: {STR_VAR_2}$"
+	.string "就到神奇的机关屋。”$"
 # 1150 "data/maps/Route110/scripts.pory"
 
 # 1151 "data/maps/Route110/scripts.pory"
-Route110_Text_ThereIsNoRecord:
+Route110_Text_BestRecord:
 # 1152 "data/maps/Route110/scripts.pory"
-	.string "THE BEST RECORD TO DATE…\p"
+	.string "到目前为止的最佳记录……\p"
 # 1153 "data/maps/Route110/scripts.pory"
-	.string "No one seems to have taken the\n"
+	.string "碰撞次数：{STR_VAR_1}\p"
 # 1154 "data/maps/Route110/scripts.pory"
-	.string "challenge. There is no record…$"
+	.string "所用时间：{STR_VAR_2}$"
 # 1155 "data/maps/Route110/scripts.pory"
 
 # 1156 "data/maps/Route110/scripts.pory"
-Route110_Text_ImagineSeeingYouHere:
+Route110_Text_ThereIsNoRecord:
 # 1157 "data/maps/Route110/scripts.pory"
-	.string "Prof. Birch: Oh, {PLAYER}{KUN}!\n"
+	.string "到目前为止的最佳记录……\p"
 # 1158 "data/maps/Route110/scripts.pory"
-	.string "Imagine seeing you here!\p"
+	.string "好像还没人挑战过。\n"
 # 1159 "data/maps/Route110/scripts.pory"
-	.string "And where might my {RIVAL} be?$"
+	.string "没有记录……$"
 # 1160 "data/maps/Route110/scripts.pory"
 
 # 1161 "data/maps/Route110/scripts.pory"
-Route110_Text_HeardYouInstallMatchCall:
+Route110_Text_ImagineSeeingYouHere:
 # 1162 "data/maps/Route110/scripts.pory"
-	.string "Oh, I see!\n"
+	.string "小田卷博士：哦，{PLAYER}！\n"
 # 1163 "data/maps/Route110/scripts.pory"
-	.string "You two are running separately.\l"
+	.string "没想到在这儿遇见你！\p"
 # 1164 "data/maps/Route110/scripts.pory"
-	.string "Well, that's fine.\p"
+	.string "我家的{RIVAL}在哪儿呢？$"
 # 1165 "data/maps/Route110/scripts.pory"
-	.string "Oh, yes, I heard that your PokéNav\n"
+
 # 1166 "data/maps/Route110/scripts.pory"
-	.string "had the Match Call system installed.\p"
+Route110_Text_HeardYouInstallMatchCall:
 # 1167 "data/maps/Route110/scripts.pory"
-	.string "Well, then, I should register you in\n"
+	.string "哦，原来如此！\n"
 # 1168 "data/maps/Route110/scripts.pory"
-	.string "my PokéNav as well.\p"
+	.string "你们俩分头行动啊。\l"
 # 1169 "data/maps/Route110/scripts.pory"
-	.string "That way, even when we're apart,\n"
+	.string "那也好。\p"
 # 1170 "data/maps/Route110/scripts.pory"
-	.string "I can rate your Pokédex anytime.\p"
+	.string "对了，我听说你的导航\n"
 # 1171 "data/maps/Route110/scripts.pory"
-	.string "… … … … … …$"
+	.string "装了宝可梦对话系统。\p"
 # 1172 "data/maps/Route110/scripts.pory"
-
+	.string "那么，我也把你登录到\n"
 # 1173 "data/maps/Route110/scripts.pory"
-Route110_Text_RegisteredBirchInPokenav:
+	.string "我的导航里吧。\p"
 # 1174 "data/maps/Route110/scripts.pory"
-	.string "Registered Prof. Birch\n"
+	.string "这样就算分开，我也能\n"
 # 1175 "data/maps/Route110/scripts.pory"
-	.string "in the PokéNav.$"
+	.string "随时评价你的图鉴。\p"
 # 1176 "data/maps/Route110/scripts.pory"
-
+	.string "… … … … … …$"
 # 1177 "data/maps/Route110/scripts.pory"
-Route110_Text_KeepAnEyeOutForRival:
+
 # 1178 "data/maps/Route110/scripts.pory"
-	.string "Prof. Birch: {PLAYER}{KUN}…\p"
+Route110_Text_RegisteredBirchInPokenav:
 # 1179 "data/maps/Route110/scripts.pory"
-	.string "Please keep an eye out for my {RIVAL}.\n"
+	.string "在宝可梦导航里登录了\n"
 # 1180 "data/maps/Route110/scripts.pory"
-	.string "… … … … … …\p"
+	.string "小田卷博士。$"
 # 1181 "data/maps/Route110/scripts.pory"
-	.string "Well, I had better get going.\n"
+
 # 1182 "data/maps/Route110/scripts.pory"
-	.string "See you again, {PLAYER}{KUN}!$"
+Route110_Text_KeepAnEyeOutForRival:
+# 1183 "data/maps/Route110/scripts.pory"
+	.string "小田卷博士：{PLAYER}……\p"
+# 1184 "data/maps/Route110/scripts.pory"
+	.string "请帮我留意我家的{RIVAL}。\n"
+# 1185 "data/maps/Route110/scripts.pory"
+	.string "… … … … … …\p"
+# 1186 "data/maps/Route110/scripts.pory"
+	.string "好了，我该走了。\n"
+# 1187 "data/maps/Route110/scripts.pory"
+	.string "再见，{PLAYER}！$"
 
 Route110_Trigger_BlockTrickHouse::
-# 1187 "data/maps/Route110/scripts.pory"
-	lockall
-# 1188 "data/maps/Route110/scripts.pory"
-	msgbox TrickHouseMessage
-# 1189 "data/maps/Route110/scripts.pory"
-	waitmessage
-# 1190 "data/maps/Route110/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, StopPlayer
-# 1191 "data/maps/Route110/scripts.pory"
-	waitmovement 0
 # 1192 "data/maps/Route110/scripts.pory"
+	lockall
+# 1193 "data/maps/Route110/scripts.pory"
+	msgbox TrickHouseMessage
+# 1194 "data/maps/Route110/scripts.pory"
+	waitmessage
+# 1195 "data/maps/Route110/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, StopPlayer
+# 1196 "data/maps/Route110/scripts.pory"
+	waitmovement 0
+# 1197 "data/maps/Route110/scripts.pory"
 	releaseall
 	end
 
 
 TrickHouseMessage::
-# 1196 "data/maps/Route110/scripts.pory"
-	.string "“Puzzles under construction,\n"
-	.string "come back later” - The Trick Master$"
+# 1201 "data/maps/Route110/scripts.pory"
+	.string "「机关施工中，\n"
+	.string "之后再来」——戏法大师$"

@@ -2369,7 +2369,7 @@ static void ShowCantForgetHMsWindow(u8 taskId)
     gTasks[taskId].func = Task_HandleInputCantForgetHMsMoves;
 }
 
-// This redraws the power/accuracy window when the player scrolls out of the "HM Moves can't be forgotten" message
+// This redraws the power/accuracy window when the player scrolls out of the "秘传招式无法忘记" message
 static void Task_HandleInputCantForgetHMsMoves(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -2682,7 +2682,7 @@ static void Task_ShowStatusWindow(u8 taskId)
     }
 }
 
-// Toggles the "Cancel" window that appears when selecting a move
+// Toggles the "取消" window that appears when selecting a move
 static void TilemapFiveMovesDisplay(u16 *dst, u16 palette, bool8 remove)
 {
     u16 i, id;

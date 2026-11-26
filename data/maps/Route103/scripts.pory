@@ -319,91 +319,92 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "Let's see… The Pokémon found\n"
-	.string "on Route 103 include…$"
+	.string "让我看看……103号道路上\n"
+	.string "能找到的宝可梦有……$"
 
 Route103_Text_MayLetsBattle:
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a Pokémon as a gift.\p"
-	.string "Since we're here, let's have a quick\n"
-	.string "battle!\p"
-	.string "I'll give you a taste of what being\n"
-	.string "a trainer is like.$"
+	.string "哦，嗨，{PLAYER}{KUN}！\p"
+	.string "……哦，我知道了，\n"
+	.string "爸爸送了你一只宝可梦。\p"
+	.string "既然都来了，\n"
+	.string "我们就快点打一场吧！\p"
+	.string "让你体验一下\n"
+	.string "当训练家的感觉。$"
 
 Route103_Text_MayDefeated:
-	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!$"
+	.string "哇！真厉害！\n"
+	.string "{KUN}，你挺行的嘛！$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
-	.string "I mean, you just got that Pokémon,\n"
-	.string "but it already likes you.\p"
-	.string "You might be able to befriend any\n"
-	.string "kind of Pokémon easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the lab.$"
+	.string "我想我知道爸爸\n"
+	.string "为什么看好你了。\p"
+	.string "你看，你才刚得到宝可梦，\n"
+	.string "它就已经喜欢上你了。\p"
+	.string "也许你能轻松地和\n"
+	.string "任何宝可梦成为朋友。\p"
+	.string "好了，该回研究所了。$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "Okay, so it's this one and\n"
-	.string "that one that live on Route 103…$"
+	.string "好，住在103号道路的\n"
+	.string "是这只和那只……$"
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a Pokémon.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a trainer's\n"
-	.string "about!$"
+	.string "嘿，是{PLAYER}啊！\p"
+	.string "……哦，对了，\n"
+	.string "爸爸给了你一只宝可梦。\p"
+	.string "既然都来了，\n"
+	.string "我们来打一场吧？\p"
+	.string "我来教教你\n"
+	.string "什么叫训练家！$"
 
 Route103_Text_BrendanDefeated:
-	.string "Huh, {PLAYER}, you're not too shabby.$"
+	.string "哦，{PLAYER}，\n"
+	.string "你也不赖嘛。$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your Pokémon already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any Pokémon with ease,\l"
-	.string "which is a great quality in a trainer.\p"
-	.string "Anyway, we should head back to the lab.$"
+	.string "我想我明白了。\n"
+	.string "我知道爸爸为什么\l"
+	.string "看好你了。\p"
+	.string "看，你才刚得到宝可梦，\n"
+	.string "它就已经喜欢你了。\p"
+	.string "{PLAYER}，我感觉你能\n"
+	.string "轻松和任何宝可梦成为朋友，\l"
+	.string "这是训练家很棒的特质。\p"
+	.string "总之，我们该回研究所了。$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-	.string "My Pokémon is staggeringly tired…\n"
-	.string "I should have brought a Potion…$"
+	.string "我的宝可梦累得不行……\n"
+	.string "我该带伤药的……$"
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to Oldale Town.\p"
-	.string "Fufufu, that's useful, isn't it?$"
+	.string "从这里穿过大海，\n"
+	.string "就能抄近路到古辰镇。\p"
+	.string "呵呵，很方便吧？$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string "103号道路\n"
+	.string "{DOWN_ARROW} 古辰镇$"
 
 Route103_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A Good Rod is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "嗯！\n"
+	.string "好钓竿真的很好！\p"
+	.string "你不这么觉得吗？$"
 
 Route103_Text_IdenticalMindsTakeThis:
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this Good Rod!$"
+	.string "嗯！\n"
+	.string "我们想到一块去了！\p"
+	.string "嗯！\n"
+	.string "这个好钓竿给你！$"
 
 Route103_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "只要有水的地方，\n"
+	.string "就试着钓一钓吧。$"
 
 Route103_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string "你不喜欢钓鱼吗？$"
 
 Route103_Text_TryCatchingMonWithGoodRod:
-	.string "Try catching all sorts of Pokémon\n"
-	.string "with your Good Rod.$"
+	.string "用好钓竿去抓\n"
+	.string "各种各样的宝可梦吧。$"
 
 `

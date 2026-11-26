@@ -32,21 +32,21 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	end
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+	.string "露力丽：噜哩。$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-	.string "It appears to be very friendly with the\n"
-	.string "TRAINER.$"
+	.string "它好像和训练家\n"
+	.string "非常亲近。$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+	.string "露力丽：噜噜哩！$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-	.string "It doesn't appear to like the TRAINER\n"
-	.string "very much.$"
+	.string "它好像不太喜欢\n"
+	.string "这个训练家。$"
 
 PacifidlogTown_House2_Text_LookHowHappy:
-	.string "Look how happy my Pokémon is!\n"
-	.string "No, the other one!$"
+	.string "看我的宝可梦多开心！\n"
+	.string "不，是另一只！$"
 
 `

@@ -408,39 +408,39 @@ static const u8 sStatsNonHPLayout[]                         = _("{DYNAMIC 0}\n{D
 static const u8 sMovesPPLayout[]                            = _("{PP}{CLEAR_TO 31}{DYNAMIC 0}/{DYNAMIC 1}");
 
 #if BW_SUMMARY_DECAP == TRUE
-static const u8 sText_Cancel[]                              = _("Cancel");
-static const u8 sText_Dex[]                                 = _("Dex");
-static const u8 sText_Switch[]                              = _("Switch");
-static const u8 sText_PkmnInfo[]                            = _("Pokémon Info");
-static const u8 sText_PkmnSkills[]                          = _("Pokémon Skills");
-static const u8 sText_BattleMoves[]                         = _("Battle Moves");
-static const u8 sText_ContestMoves[]                        = _("Contest Moves");
-static const u8 sText_Info[]                                = _("Info");
-static const u8 sText_ViewIVs[]                             = _("View IV");
-static const u8 sText_ViewEVs[]                             = _("View EV");
-static const u8 sText_ViewStats[]                           = _("View Stats");
-static const u8 sText_ViewIVs_Graded[]                      = _("See Innate");
-static const u8 sText_ViewEVs_Graded[]                      = _("See Effort");
-static const u8 sText_NextLv[]                              = _("Next Lv.");
-static const u8 sText_RentalPkmn[]                          = _("Rental Pokémon");
-static const u8 sText_None[]                                = _("None");
+static const u8 sText_Cancel[]                              = _("取消");
+static const u8 sText_Dex[]                                 = _("图鉴");
+static const u8 sText_Switch[]                              = _("切换");
+static const u8 sText_PkmnInfo[]                            = _("宝可梦信息");
+static const u8 sText_PkmnSkills[]                          = _("宝可梦能力");
+static const u8 sText_BattleMoves[]                         = _("对战招式");
+static const u8 sText_ContestMoves[]                        = _("大赛招式");
+static const u8 sText_Info[]                                = _("信息");
+static const u8 sText_ViewIVs[]                             = _("查看个体值");
+static const u8 sText_ViewEVs[]                             = _("查看努力值");
+static const u8 sText_ViewStats[]                           = _("查看能力");
+static const u8 sText_ViewIVs_Graded[]                      = _("查看天生值");
+static const u8 sText_ViewEVs_Graded[]                      = _("查看努力值");
+static const u8 sText_NextLv[]                              = _("下一级");
+static const u8 sText_RentalPkmn[]                          = _("租借宝可梦");
+static const u8 sText_None[]                                = _("无");
 #else
-static const u8 sText_Cancel[]                              = _("CANCEL");
-static const u8 sText_Dex[]                                 = _("DEX");
-static const u8 sText_Switch[]                              = _("SWITCH");
-static const u8 sText_PkmnInfo[]                            = _("POKéMON INFO");
-static const u8 sText_PkmnSkills[]                          = _("POKéMON SKILLS");
-static const u8 sText_BattleMoves[]                         = _("BATTLE MOVES");
-static const u8 sText_ContestMoves[]                        = _("CONTEST MOVES");
-static const u8 sText_Info[]                                = _("INFO");
-static const u8 sText_ViewIVs[]                             = _("VIEW IV");
-static const u8 sText_ViewEVs[]                             = _("VIEW EV");
-static const u8 sText_ViewStats[]                           = _("VIEW STATS");
-static const u8 sText_ViewIVs_Graded[]                      = _("SEE INNATE");
-static const u8 sText_ViewEVs_Graded[]                      = _("SEE EFFORT");
-static const u8 sText_NextLv[]                              = _("NEXT LV.");
-static const u8 sText_RentalPkmn[]                          = _("RENTAL POKéMON");
-static const u8 sText_None[]                                = _("NONE");
+static const u8 sText_Cancel[]                              = _("取消");
+static const u8 sText_Dex[]                                 = _("图鉴");
+static const u8 sText_Switch[]                              = _("切换");
+static const u8 sText_PkmnInfo[]                            = _("宝可梦信息");
+static const u8 sText_PkmnSkills[]                          = _("宝可梦能力");
+static const u8 sText_BattleMoves[]                         = _("对战招式");
+static const u8 sText_ContestMoves[]                        = _("大赛招式");
+static const u8 sText_Info[]                                = _("信息");
+static const u8 sText_ViewIVs[]                             = _("个体值");
+static const u8 sText_ViewEVs[]                             = _("努力值");
+static const u8 sText_ViewStats[]                           = _("能力值");
+static const u8 sText_ViewIVs_Graded[]                      = _("天生值");
+static const u8 sText_ViewEVs_Graded[]                      = _("努力值");
+static const u8 sText_NextLv[]                              = _("下一级");
+static const u8 sText_RentalPkmn[]                          = _("租借宝可梦");
+static const u8 sText_None[]                                = _("无");
 #endif
 
 // bg gfx
@@ -3131,7 +3131,7 @@ static void ShowCantForgetHMsWindow(u8 taskId)
     gTasks[taskId].func = Task_HandleInputCantForgetHMsMoves;
 }
 
-// This redraws the power/accuracy window when the player scrolls out of the "HM Moves can't be forgotten" message
+// This redraws the power/accuracy window when the player scrolls out of the "秘传招式无法忘记" message
 static void Task_HandleInputCantForgetHMsMoves(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;

@@ -707,7 +707,7 @@ static void Task_AnnouncePreliminaryResults(u8 taskId)
     }
     else if (gTasks[taskId].tState == 1)
     {
-        // Wait for "Announcing Results" text to leave
+        // Wait for "公布结果" text to leave
         if (sContestResults->data->slidingTextBoxState == SLIDING_TEXT_OFFSCREEN)
         {
             gTasks[taskId].tTimer = 0;

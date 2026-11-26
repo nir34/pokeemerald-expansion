@@ -51,8 +51,10 @@ MossdeepCity_PokemonCenter_2F_EventScript_Woman5::
 # 26 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
 MossdeepCity_PokemonCenter_2F_Text_Woman5:
 # 27 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
-	.string "If I win a whole lot of link battles\n"
+	.string "要是我在联机对战中赢\n"
 # 28 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
-	.string "and show everyone how good I am,\l"
+	.string "很多场，让大家看到\l"
 # 29 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
-	.string "I might get a fan following!$"
+	.string "我多厉害，说不定\l"
+# 30 "data/maps/MossdeepCity_PokemonCenter_2F/scripts.pory"
+	.string "会有粉丝！$"

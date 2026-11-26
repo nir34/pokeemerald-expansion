@@ -52,7 +52,7 @@ static void FieldUpdateRegionMap(void);
 static void PrintRegionMapSecName(void);
 static void PrintTitleWindowText(int hoennOffset, int flyOffset);
 
-static const u8 FlyPromptText[] = _("{R_BUTTON}FLY");
+static const u8 FlyPromptText[] = _("{R_BUTTON}飞行");
 
 static const struct BgTemplate sFieldRegionMapBgTemplates[] = {
     {

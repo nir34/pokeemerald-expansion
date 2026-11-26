@@ -60,10 +60,10 @@ script ShoalCave_LowTideLowerRoom_EventScript_PowerfulMonSummoner {
 script ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom {
 	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichRoom, MSGBOX_DEFAULT)
 
-	dynmultipush("Entrance Room", 0)
-	dynmultipush("Inner Room", 1)
-	dynmultipush("Stairs Room", 2)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("入口房间", 0)
+	dynmultipush("内部房间", 1)
+	dynmultipush("楼梯房间", 2)
+    dynmultipush("取消", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -94,17 +94,17 @@ script ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom {
 script ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom {
 	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Great Tusk",   SPECIES_GREAT_TUSK)
-	dynmultipush("Scream Tail",  SPECIES_SCREAM_TAIL)
-	dynmultipush("Brute Bonnet", SPECIES_BRUTE_BONNET)
-	dynmultipush("Flutter Mane", SPECIES_FLUTTER_MANE)
-	dynmultipush("Slither Wing", SPECIES_SLITHER_WING)
-	dynmultipush("Sandy Shocks", SPECIES_SANDY_SHOCKS)
-	dynmultipush("Roaring Moon", SPECIES_ROARING_MOON)
-	dynmultipush("Walking Wake", SPECIES_WALKING_WAKE)
-	dynmultipush("Gouging Fire", SPECIES_GOUGING_FIRE)
-	dynmultipush("Raging Bolt",  SPECIES_RAGING_BOLT)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("雄伟牙",   SPECIES_GREAT_TUSK)
+	dynmultipush("吼叫尾",  SPECIES_SCREAM_TAIL)
+	dynmultipush("猛恶菇", SPECIES_BRUTE_BONNET)
+	dynmultipush("振翼发", SPECIES_FLUTTER_MANE)
+	dynmultipush("爬地翅", SPECIES_SLITHER_WING)
+	dynmultipush("沙铁皮", SPECIES_SANDY_SHOCKS)
+	dynmultipush("轰鸣月", SPECIES_ROARING_MOON)
+	dynmultipush("波荡水", SPECIES_WALKING_WAKE)
+	dynmultipush("破空焰", SPECIES_GOUGING_FIRE)
+	dynmultipush("猛雷鼓",  SPECIES_RAGING_BOLT)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -125,17 +125,17 @@ script ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom {
 script ShoalCave_LowTideLowerRoom_EventScript_InnerRoom {
 	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Iron Treads",   SPECIES_IRON_TREADS)
-	dynmultipush("Iron Bundle",   SPECIES_IRON_BUNDLE)
-	dynmultipush("Iron Hands",    SPECIES_IRON_HANDS)
-	dynmultipush("Iron Jugulis",  SPECIES_IRON_JUGULIS)
-	dynmultipush("Iron Moth",     SPECIES_IRON_MOTH)
-	dynmultipush("Iron Thorns",   SPECIES_IRON_THORNS)
-	dynmultipush("Iron Valiant",  SPECIES_IRON_VALIANT)
-	dynmultipush("Iron Leaves",   SPECIES_IRON_LEAVES)
-	dynmultipush("Iron Boulder",  SPECIES_IRON_BOULDER)
-	dynmultipush("Iron Crown",    SPECIES_IRON_CROWN)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("铁辙迹",   SPECIES_IRON_TREADS)
+	dynmultipush("铁包袱",   SPECIES_IRON_BUNDLE)
+	dynmultipush("铁臂膀",    SPECIES_IRON_HANDS)
+	dynmultipush("铁脖颈",  SPECIES_IRON_JUGULIS)
+	dynmultipush("铁毒蛾",     SPECIES_IRON_MOTH)
+	dynmultipush("铁荆棘",   SPECIES_IRON_THORNS)
+	dynmultipush("铁武者",  SPECIES_IRON_VALIANT)
+	dynmultipush("铁叶",   SPECIES_IRON_LEAVES)
+	dynmultipush("铁磐岩",  SPECIES_IRON_BOULDER)
+	dynmultipush("铁头壳",    SPECIES_IRON_CROWN)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -156,17 +156,17 @@ script ShoalCave_LowTideLowerRoom_EventScript_InnerRoom {
 script ShoalCave_LowTideLowerRoom_EventScript_StairsRoom {
 	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
 
-	dynmultipush("Nihilego",    SPECIES_NIHILEGO)
-	dynmultipush("Guzzlord",    SPECIES_GUZZLORD)
-	dynmultipush("Xurkitree",   SPECIES_XURKITREE)
-	dynmultipush("Buzzwole",    SPECIES_BUZZWOLE)
-	dynmultipush("Blacephalon", SPECIES_BLACEPHALON)
-	dynmultipush("Stakataka",   SPECIES_STAKATAKA)
-	dynmultipush("Poipole",     SPECIES_POIPOLE)
-	dynmultipush("Pheromosa",   SPECIES_PHEROMOSA)
-	dynmultipush("Celesteela",  SPECIES_CELESTEELA)
-	dynmultipush("Kartana",     SPECIES_KARTANA)
-    dynmultipush("Back", MULTI_B_PRESSED)
+	dynmultipush("虚吾伊德",    SPECIES_NIHILEGO)
+	dynmultipush("恶食大王",    SPECIES_GUZZLORD)
+	dynmultipush("电束木",   SPECIES_XURKITREE)
+	dynmultipush("爆肌蚊",    SPECIES_BUZZWOLE)
+	dynmultipush("砰头小丑", SPECIES_BLACEPHALON)
+	dynmultipush("垒磊石",   SPECIES_STAKATAKA)
+	dynmultipush("毒贝比",     SPECIES_POIPOLE)
+	dynmultipush("费洛美螂",   SPECIES_PHEROMOSA)
+	dynmultipush("铁火辉夜",  SPECIES_CELESTEELA)
+	dynmultipush("纸御剑",     SPECIES_KARTANA)
+    dynmultipush("返回", MULTI_B_PRESSED)
 
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
     // // setting initial selected to a non-existant ID will always have it point to the first option
@@ -217,42 +217,42 @@ script ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo
 
  
 text ShoalCave_LowTideLowerRoom_Text_SummonerIntro {
-	"Hello, young trainer.\p"
-	"I've come to this remote location\n"
-	"because I have learned a powerful\l"
-	"technique that allows me to summon one\l"
-	"Pokémon from almost anywhere in this\l"
-	"cave.\p"
-	"Would you like me to summon a Pokémon\n"
-	"here so you can battle it?"
+	"你好，年轻的训练家。\p"
+	"我来到这个偏僻的地方，\n"
+	"是因为学会了一门强力的\l"
+	"技艺，能从这洞穴里几乎\l"
+	"任何地方召唤出一只\l"
+	"宝可梦。\p"
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
 }
 
 text ShoalCave_LowTideLowerRoom_Text_SummonerIntroQuick {
-	"Would you like me to summon a Pokémon\n"
-	"here so you can battle it?"
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
 }
 
 text ShoalCave_LowTideLowerRoom_Text_WhichRoom {
-	"Which room would you like me to summon a\n"
-	"Pokémon from?"
+	"你想让我从哪个房间\n"
+	"召唤宝可梦？"
 }
 
 text ShoalCave_LowTideLowerRoom_Text_WhichPokemon {
-	"Which Pokémon would you like me to\n"
-	"summon so you can battle?"
+	"你想让我召唤哪只\n"
+	"宝可梦和你对战？"
 }
 
 text ShoalCave_LowTideLowerRoom_Text_ConfirmSummon {
-	"So you want me to summon a\n"
-	"{STR_VAR_1} for you to battle?"
+	"那么，你想让我召唤一只\n"
+	"{STR_VAR_1}来和你对战吗？"
 }
 
 text ShoalCave_LowTideLowerRoom_Text_VeryWell {
-	"Very well, prepare yourself for battle."
+	"很好，做好对战的准备吧。"
 }
 
 text ShoalCave_LowTideLowerRoom_SummonWomanDeclined
 {
-	"I see. Let me know if you change\n"
-	"your mind."
+	"我明白了。若你改变主意，\n"
+	"就告诉我。"
 }

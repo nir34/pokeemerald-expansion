@@ -181,112 +181,122 @@ FortreeCity_Movement_KecleonFlee:
 # 91 "data/maps/FortreeCity/scripts.pory"
 FortreeCity_Text_SawGiganticPokemonInSky:
 # 92 "data/maps/FortreeCity/scripts.pory"
-	.string "Yo, this is the creator's lab! He put me\n"
+	.string "唔，这里是作者的实验室！\n"
 # 93 "data/maps/FortreeCity/scripts.pory"
-	.string "here just to tell you that!$"
+	.string "他把我放这儿就为了\l"
 # 94 "data/maps/FortreeCity/scripts.pory"
-
+	.string "告诉你这件事！$"
 # 95 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_SomethingBlockingGym:
+
 # 96 "data/maps/FortreeCity/scripts.pory"
-	.string "I want to go to the Pokémon Gym,\n"
+FortreeCity_Text_SomethingBlockingGym:
 # 97 "data/maps/FortreeCity/scripts.pory"
-	.string "but something's blocking the way.\p"
+	.string "我想去宝可梦道馆，\n"
 # 98 "data/maps/FortreeCity/scripts.pory"
-	.string "After all the bother I went through\n"
+	.string "可有东西挡着路。\p"
 # 99 "data/maps/FortreeCity/scripts.pory"
-	.string "training on Route 120…$"
+	.string "我在120号道路辛苦\n"
 # 100 "data/maps/FortreeCity/scripts.pory"
-
+	.string "训练了那么久……$"
 # 101 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_ThisTimeIllBeatWinona:
+
 # 102 "data/maps/FortreeCity/scripts.pory"
-	.string "I've got my pride-and-joy Pokémon\n"
+FortreeCity_Text_ThisTimeIllBeatWinona:
 # 103 "data/maps/FortreeCity/scripts.pory"
-	.string "with me. This time, I'll beat Winona.$"
+	.string "我带着我最宝贝的\n"
 # 104 "data/maps/FortreeCity/scripts.pory"
-
+	.string "宝可梦。这次我要\l"
 # 105 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_TreesGrowByDrinkingRainwater:
+	.string "打赢娜琪。$"
 # 106 "data/maps/FortreeCity/scripts.pory"
-	.string "The ground absorbs rainwater, and\n"
+
 # 107 "data/maps/FortreeCity/scripts.pory"
-	.string "trees grow by drinking that water…\p"
+FortreeCity_Text_TreesGrowByDrinkingRainwater:
 # 108 "data/maps/FortreeCity/scripts.pory"
-	.string "Our Fortree City exists because\n"
+	.string "地面吸收雨水，树喝了\n"
 # 109 "data/maps/FortreeCity/scripts.pory"
-	.string "there's both water and soil.$"
+	.string "水才会长……\p"
 # 110 "data/maps/FortreeCity/scripts.pory"
-
+	.string "我们茵郁市能存在，\n"
 # 111 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_EveryoneHealthyAndLively:
+	.string "全靠水和泥土。$"
 # 112 "data/maps/FortreeCity/scripts.pory"
-	.string "I'm 30 years old.$"
+
 # 113 "data/maps/FortreeCity/scripts.pory"
-
+FortreeCity_Text_EveryoneHealthyAndLively:
 # 114 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_BugPokemonComeThroughWindow:
+	.string "我30岁。$"
 # 115 "data/maps/FortreeCity/scripts.pory"
-	.string "Living on top of trees is okay.\p"
+
 # 116 "data/maps/FortreeCity/scripts.pory"
-	.string "But sometimes Bug Pokémon come in\n"
+FortreeCity_Text_BugPokemonComeThroughWindow:
 # 117 "data/maps/FortreeCity/scripts.pory"
-	.string "through windows.\l"
+	.string "住在树上还不错。\p"
 # 118 "data/maps/FortreeCity/scripts.pory"
-	.string "It can be really startling.$"
+	.string "不过有时候虫宝可梦\n"
 # 119 "data/maps/FortreeCity/scripts.pory"
-
+	.string "会从窗户钻进来。\l"
 # 120 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_PokemonThatEvolveWhenTraded:
+	.string "挺吓人的。$"
 # 121 "data/maps/FortreeCity/scripts.pory"
-	.string "There are Pokémon that evolve when\n"
+
 # 122 "data/maps/FortreeCity/scripts.pory"
-	.string "you trade them! That's what I heard.$"
+FortreeCity_Text_PokemonThatEvolveWhenTraded:
 # 123 "data/maps/FortreeCity/scripts.pory"
-
+	.string "听说有些宝可梦\n"
 # 124 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_SomethingUnseeable:
+	.string "通过交换就能进化！$"
 # 125 "data/maps/FortreeCity/scripts.pory"
-	.string "Something unseeable is in the way.$"
+
 # 126 "data/maps/FortreeCity/scripts.pory"
-
+FortreeCity_Text_SomethingUnseeable:
 # 127 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_UnseeableUseDevonScope:
+	.string "有看不见的东西\n"
 # 128 "data/maps/FortreeCity/scripts.pory"
-	.string "Something unseeable is in the way.\p"
+	.string "挡在路上。$"
 # 129 "data/maps/FortreeCity/scripts.pory"
-	.string "Want to use the Devon Scope?$"
+
 # 130 "data/maps/FortreeCity/scripts.pory"
-
+FortreeCity_Text_UnseeableUseDevonScope:
 # 131 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_UsedDevonScopePokemonFled:
+	.string "有看不见的东西\n"
 # 132 "data/maps/FortreeCity/scripts.pory"
-	.string "{PLAYER} used the Devon Scope.\p"
+	.string "挡在路上。\p"
 # 133 "data/maps/FortreeCity/scripts.pory"
-	.string "An invisible Pokémon became completely\n"
+	.string "要用得文透视镜吗？$"
 # 134 "data/maps/FortreeCity/scripts.pory"
-	.string "visible!\p"
-# 135 "data/maps/FortreeCity/scripts.pory"
-	.string "The startled Pokémon fled!$"
-# 136 "data/maps/FortreeCity/scripts.pory"
 
+# 135 "data/maps/FortreeCity/scripts.pory"
+FortreeCity_Text_UsedDevonScopePokemonFled:
+# 136 "data/maps/FortreeCity/scripts.pory"
+	.string "{PLAYER}使用了\n"
 # 137 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_CitySign:
+	.string "得文透视镜。\p"
 # 138 "data/maps/FortreeCity/scripts.pory"
-	.string "Fortree City\n"
+	.string "一只看不见的宝可梦\n"
 # 139 "data/maps/FortreeCity/scripts.pory"
-	.string "“The treetop city that frolics with\l"
+	.string "完全显形了！\p"
 # 140 "data/maps/FortreeCity/scripts.pory"
-	.string "nature.”$"
+	.string "受惊的宝可梦逃走了！$"
 # 141 "data/maps/FortreeCity/scripts.pory"
 
 # 142 "data/maps/FortreeCity/scripts.pory"
-FortreeCity_Text_GymSign:
+FortreeCity_Text_CitySign:
 # 143 "data/maps/FortreeCity/scripts.pory"
-	.string "Fortree City Pokémon Gym\n"
+	.string "茵郁市\n"
 # 144 "data/maps/FortreeCity/scripts.pory"
-	.string "Leader: Winona\p"
+	.string "“与自然嬉戏的\l"
 # 145 "data/maps/FortreeCity/scripts.pory"
-	.string "“The bird user taking flight into\n"
+	.string "树顶之城。”$"
 # 146 "data/maps/FortreeCity/scripts.pory"
-	.string "the world.”$"
+
+# 147 "data/maps/FortreeCity/scripts.pory"
+FortreeCity_Text_GymSign:
+# 148 "data/maps/FortreeCity/scripts.pory"
+	.string "茵郁市宝可梦道馆\n"
+# 149 "data/maps/FortreeCity/scripts.pory"
+	.string "馆主：娜琪\p"
+# 150 "data/maps/FortreeCity/scripts.pory"
+	.string "“飞向世界的\l"
+# 151 "data/maps/FortreeCity/scripts.pory"
+	.string "鸟宝可梦使者。”$"

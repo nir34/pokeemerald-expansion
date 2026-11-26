@@ -3391,7 +3391,7 @@ void SetMoveEffect(bool32 primary, bool32 certain)
                 {
                     gBattleMons[gEffectBattler].status2 |= STATUS2_CONFUSION_TURN(((Random()) % 4) + 2); // 2-5 turns
 
-                    // If the confusion is activating due to being released from Sky Drop, go to "confused due to fatigue" script.
+                    // If the confusion is activating due to being released from Sky Drop, go to "因疲劳而混乱" script.
                     // Otherwise, do normal confusion script.
                     if (gCurrentMove == MOVE_SKY_DROP)
                     {
@@ -6257,7 +6257,7 @@ static void Cmd_moveend(void)
             }
             gBattleScripting.moveendState++;
             break;
-        case MOVEEND_SKY_DROP_CONFUSE: // If a Pokemon was released from Sky Drop and was in LOCK_CONFUSE, go to "confused due to fatigue" scripts and clear Sky Drop data.
+        case MOVEEND_SKY_DROP_CONFUSE: // If a Pokemon was released from Sky Drop and was in LOCK_CONFUSE, go to "因疲劳而混乱" scripts and clear Sky Drop data.
             for (i = 0; i < gBattlersCount; i++)
             {
                 if (gBattleStruct->skyDropTargets[i] == 0xFE)
@@ -6273,7 +6273,7 @@ static void Cmd_moveend(void)
                     // Set gBattlerAttacker to the battler id of the target
                     gBattlerAttacker = targetId;
 
-                    // Jump to "confused due to fatigue" script
+                    // Jump to "因疲劳而混乱" script
                     gBattlescriptCurrInstr = BattleScript_ThrashConfuses;
 
                     // Clear skyDropTargets data
@@ -9283,7 +9283,7 @@ static void CourtChangeSwapSideStatuses(void)
     COURTCHANGE_SWAP(SIDE_STATUS_SWAMP, swampTimer, temp);
 
     // Change battler IDs of swapped effects. Needed for the correct string when they expire
-    // E.g. "Foe's Reflect wore off!"
+    // E.g. "对手的反射壁消失了！"
     UPDATE_COURTCHANGED_BATTLER(reflectBattlerId);
     UPDATE_COURTCHANGED_BATTLER(lightscreenBattlerId);
     UPDATE_COURTCHANGED_BATTLER(mistBattlerId);
@@ -9753,7 +9753,7 @@ static void Cmd_various(void)
     case VARIOUS_PALACE_FLAVOR_TEXT:
     {
         VARIOUS_ARGS();
-        // Try and print end-of-turn Battle Palace flavor text (e.g. "A glint appears in mon's eyes")
+        // Try and print end-of-turn Battle Palace flavor text (e.g. "宝可梦眼中闪过一道光")
         gBattleCommunication[0] = FALSE; // whether or not msg should be printed
         gBattleScripting.battler = battler = gBattleCommunication[1];
         if (!(gBattleStruct->palaceFlags & (1u << battler))
@@ -14645,13 +14645,13 @@ static void Cmd_setyawn(void)
     else if (IsBattlerTerrainAffected(gBattlerTarget, STATUS_FIELD_ELECTRIC_TERRAIN))
     {
         // When Yawn is used while Electric Terrain is set and drowsiness is set from Yawn being used against target in the previous turn:
-        // "But it failed" will display first.
+        // "但是失败了" will display first.
         gBattlescriptCurrInstr = BattleScript_ElectricTerrainPrevents;
     }
     else if (IsBattlerTerrainAffected(gBattlerTarget, STATUS_FIELD_MISTY_TERRAIN))
     {
         // When Yawn is used while Misty Terrain is set and drowsiness is set from Yawn being used against target in the previous turn:
-        // "But it failed" will display first.
+        // "但是失败了" will display first.
         gBattlescriptCurrInstr = BattleScript_MistyTerrainPrevents;
     }
     else

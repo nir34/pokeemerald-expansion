@@ -75,21 +75,24 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 	step_end
 
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
-	.string "The Pokémon League is only a short\n"
-	.string "distance after the Victory Road.\p"
-	.string "If you've come this far, what choice\n"
-	.string "do you have but to keep going?$"
+	.string "宝可梦联盟就在冠军之路\n"
+	.string "过去不远。\p"
+	.string "你都走到这里了，除了\n"
+	.string "继续前进还有\l"
+	.string "什么选择？$"
 
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
-	.string "Scott: {PLAYER}{KUN}, you've clawed your\n"
-	.string "way up to face the Pokémon League!\p"
-	.string "I'm happy for you!\n"
-	.string "You made my cheering worthwhile!\p"
-	.string "{PLAYER}{KUN}, if you were to become\n"
-	.string "the Pokémon League Champion…\p"
-	.string "I'll get in touch with you then.\p"
-	.string "Okay, {PLAYER}{KUN}.\n"
-	.string "Go for greatness!$"
+	.string "史考特：{PLAYER}，你一路\n"
+	.string "爬上来，要挑战宝可梦\l"
+	.string "联盟了！\p"
+	.string "我为你高兴！\n"
+	.string "我的加油没白费！\p"
+	.string "{PLAYER}，要是你成了\n"
+	.string "宝可梦联盟冠军……\p"
+	.string "到时候我会\n"
+	.string "联系你。\p"
+	.string "好，{PLAYER}。\n"
+	.string "去成就伟大吧！$"
 
 `
 
@@ -139,36 +142,36 @@ script EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend{
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_IHaveCube{
-	"A promising trainer I see. I knew if I\n"
-	"waited at this Pokémon Center,\l"
-	"eventually a trainer of your caliber\l"
-	"would arrive.\p"
-	"I've spent a long time collecting cells\n"
-	"to make a highly-advanced Cube to\l"
-	"change the form of a certain Pokémon.\p"
-	"If you show me you have this Pokémon, I\n"
-	"can give you the Cube."
+	"我看出你是个有前途的训练家。我就\n"
+	"知道只要在这宝可梦中心等，\l"
+	"迟早会有你这种水准的\l"
+	"训练家出现。\p"
+	"我花了很长时间收集细胞，\n"
+	"做成了一个能改变某只\l"
+	"宝可梦形态的高级核心。\p"
+	"只要让我看看你有那只宝可梦，\n"
+	"我就把核心送你。"
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_PleaseTakeThisCube{
-	"That's it! That's the Pokémon that this\n"
-	"Cube will work on.\p"
-	"Please, use this technology to the\n"
-	"fullest extent."
+	"就是它！这个核心正是\n"
+	"用在那只宝可梦上的。\p"
+	"请把这项技术\n"
+	"发挥到极致。"
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_UseThatCube{
-	"That Cube will bring out the true power\n"
-	"of Zygarde.\p"
-	"It took me many years to find the cells\n"
-	"needed to make it, so please use it well."
+	"这个核心能引出基格尔德\n"
+	"真正的力量。\p"
+	"我花了好几年才找齐\n"
+	"制作它所需的细胞，请好好使用。"
 }
 
 text EverGrandeCity_PokemonCenter_1F_Text_DontHaveLegend{
-	"I see, you don't have the Pokémon I am\n"
-	"looking for."
+	"我明白了，你没有我\n"
+	"在找的宝可梦。"
 }
 text EverGrandeCity_PokemonCenter_1F_Text_NotLegend{
-	"That's not the Pokémon that can use\n"
-	"this Cube."
+	"那只宝可梦用不了\n"
+	"这个核心。"
 }

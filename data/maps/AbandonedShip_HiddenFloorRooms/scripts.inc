@@ -329,6 +329,6 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 # 165 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 # 166 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	.string "It's bright and shiny!\n"
+	.string "又亮又闪！\n"
 # 167 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	.string "But it's just trash…$"
+	.string "可只是垃圾……$"

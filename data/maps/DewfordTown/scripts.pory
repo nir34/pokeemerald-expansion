@@ -624,120 +624,119 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_TinyIslandCommunity:
-	.string "Dewford is a tiny island community.\n"
-	.string "If something gets trendy here,\l"
-	.string "everyone picks up on it right away.$"
+	.string "武斗是个小岛上的小镇。\n"
+	.string "这里要是流行起来什么，\l"
+	.string "大家马上就会跟着学。$"
 
 DewfordTown_Text_TownSign:
-	.string "Dewford Town\n"
-	.string "“A tiny island in the blue sea.”$"
+	.string "武斗镇\n"
+	.string "“蓝色大海中的小岛。”$"
 
 DewfordTown_Text_GymSign:
-	.string "Dewford Town Pokémon Gym\n"
-	.string "Leader: Brawly\l"
-	.string "“A big wave in fighting!”$"
+	.string "武斗镇宝可梦道馆\n"
+	.string "馆主：藤树\l"
+	.string "“战斗中的巨浪！”$"
 
 DewfordTown_Text_HallSign:
-	.string "Dewford Hall\n"
-	.string "“Everyone's information exchange!”$"
+	.string "武斗会馆\n"
+	.string "“大家的信息交流站！”$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
-	.string "Mr. Briney: Ahoy!\n"
-	.string "We've hit land in Dewford.\p"
-	.string "I suppose you're off to deliver that\n"
-	.string "Letter to, who was it now, Steven!$"
+	.string "布林尼先生：嗨！\n"
+	.string "我们在武斗登陆了。\p"
+	.string "你该去送那封信了吧，\n"
+	.string "给谁来着的，哦，大吾！$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
-	.string "Mr. Briney: Have you delivered your\n"
-	.string "Letter?\p"
-	.string "Or were you meaning to sail back to\n"
-	.string "Petalburg?$"
+	.string "布林尼先生：信送到了吗？\p"
+	.string "还是说，你想坐船回\n"
+	.string "橙华市？$"
 
 DewfordTown_Text_PetalburgWereSettingSail2:
-	.string "Mr. Briney: Petalburg it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "Peeko, we're setting sail, my darling!$"
+	.string "布林尼先生：那就去橙华吧！\p"
+	.string "起锚！\n"
+	.string "皮皮，我们出发了，宝贝！$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
-	.string "Mr. Briney: Then you go on and deliver\n"
-	.string "the Letter. I'll be waiting.$"
+	.string "布林尼先生：那你去送信吧，\n"
+	.string "我在这里等着。$"
 
 DewfordTown_Text_BrineyLandedInDewford:
-	.string "Mr. Briney: Ahoy!\n"
-	.string "We've hit land in Dewford!\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail again!$"
+	.string "布林尼先生：嗨！\n"
+	.string "我们在武斗登陆了！\p"
+	.string "你想再次出海的时候，\n"
+	.string "随时告诉我！$"
 
 DewfordTown_Text_WhereAreWeBound:
-	.string "Mr. Briney: Ahoy!\n"
-	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?$"
+	.string "布林尼先生：嗨！\n"
+	.string "为了你，我随时都能出海！\p"
+	.string "那么，朋友，我们要去哪儿？$"
 
 DewfordTown_Text_PetalburgWereSettingSail:
-	.string "Mr. Briney: Petalburg, is it?\p"
-	.string "Anchors aweigh!\n"
-	.string "Peeko, we're setting sail, my darling!$"
+	.string "布林尼先生：橙华，是吗？\p"
+	.string "起锚！\n"
+	.string "皮皮，我们出发了，宝贝！$"
 
 DewfordTown_Text_SlateportWereSettingSail:
-	.string "Mr. Briney: Slateport, is it?\p"
-	.string "Anchors aweigh!\n"
-	.string "Peeko, we're setting sail, my darling!$"
+	.string "布林尼先生：凯那，是吗？\p"
+	.string "起锚！\n"
+	.string "皮皮，我们出发了，宝贝！$"
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
-	.string "Mr. Briney: You just tell me whenever\n"
-	.string "you need to set sail again!$"
+	.string "布林尼先生：你想再次出海时，\n"
+	.string "随时告诉我！$"
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight:
-	.string "I like what's hip, happening, and trendy.\n"
-	.string "I'm always checking it out.\p"
-	.string "Listen, have you heard about this new\n"
-	.string "“{STR_VAR_1}”?\p"
-	.string "That's right!\n"
-	.string "Of course you know!\p"
-	.string "I mean, sheesh,\n"
-	.string "“{STR_VAR_1}”…\l"
-	.string "It's the hottest thing in cool!\p"
-	.string "Wherever you're from,\n"
+	.string "我喜欢时髦、新潮、\n"
+	.string "流行的东西。\n"
+	.string "我总是在关注这些。\p"
+	.string "我说，你听说过那个新的\n"
+	.string "“{STR_VAR_1}”吗？\p"
+	.string "对吧！\n"
+	.string "你当然知道！\p"
+	.string "我是说，“{STR_VAR_1}”……\n"
+	.string "那可是最酷的东西！\p"
+	.string "不管你从哪里来，\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "is the biggest happening thing, right?$"
+	.string "都是最流行的大事，对吧？$"
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
-	.string "Hunh?\n"
-	.string "It's not the hip and happening thing?\p"
-	.string "Well, hey, you have to tell me,\n"
-	.string "what's new and what's “in”?$"
+	.string "嗯？\n"
+	.string "那不是时髦流行的事？\p"
+	.string "喂，那你得告诉我，\n"
+	.string "现在什么是新潮的“流行”？$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
-	.string "Hunh?\n"
-	.string "“{STR_VAR_2}”?\p"
-	.string "… …\p"
-	.string "…Uh… Yeah! That's right!\n"
-	.string "Yeah, I knew that! Knew it all along!\p"
-	.string "Of course I know about that!\n"
-	.string "“{STR_VAR_2},” right?\p"
-	.string "Yeah, that's it, it's there!\n"
-	.string "Isn't “{STR_VAR_2}”\l"
-	.string "the coolest, or what?\p"
-	.string "It's the hippest thing in hip.\n"
-	.string "You think I'd not know about it?\p"
-	.string "“{STR_VAR_1}”…\n"
-	.string "It's, like, so five minutes ago.\p"
-	.string "Now, “{STR_VAR_2}” is\n"
-	.string "what's vital and in tune with the times!$"
+	.string "嗯？\n"
+	.string "“{STR_VAR_2}”？\p"
+	.string "……\p"
+	.string "……呃……对！没错！\n"
+	.string "我早就知道了！一直都知道！\p"
+	.string "我当然知道那个！\n"
+	.string "“{STR_VAR_2}”，对吧？\p"
+	.string "对对，就是这个！\n"
+	.string "“{STR_VAR_2}”\l"
+	.string "不是最酷的吗？\p"
+	.string "那可是时髦中的时髦。\n"
+	.string "你以为我会不知道？\p"
+	.string "“{STR_VAR_1}”……\n"
+	.string "那都是五分钟前的事了。\p"
+	.string "现在跟得上时代的，\n"
+	.string "是“{STR_VAR_2}”！$"
 
 DewfordTown_Text_XHuhIThinkYIsCool:
-	.string "Hmm…\n"
-	.string "“{STR_VAR_2},” huh?\p"
-	.string "But personally, I think\n"
+	.string "嗯……\n"
+	.string "“{STR_VAR_2}”，是吗？\p"
+	.string "不过我私下觉得，\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "is what's real in cool.$"
+	.string "才是真正酷的东西。$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
-	.string "Well, if you hear of any happening new\n"
-	.string "trends, come share them with me, okay?$"
+	.string "要是你听说了什么\n"
+	.string "新的流行，来告诉我，好吗？$"
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
-	.string "Yeah, absolutely right!\p"
-	.string "“{STR_VAR_1}” is the\n"
-	.string "definition of “in” right now.$"
+	.string "对，完全没错！\p"
+	.string "现在“流行”的定义，\n"
+	.string "就是“{STR_VAR_1}”。$"
 `

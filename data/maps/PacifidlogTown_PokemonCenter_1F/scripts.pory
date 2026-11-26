@@ -34,18 +34,19 @@ PacifidlogTown_PokemonCenter_1F_EventScript_FormerExplosionTutor::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_FormerExplosionTutor:
-	.string "I used to be able to cause huge\n"
-	.string "explosions… Oh, what happened?$"
+	.string "我以前能炸出好大的\n"
+	.string "爆炸……唉，怎么了呢？$"
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-	.string "What color is your TRAINER CARD?\n"
-	.string "Mine's copper!$"
+	.string "你的训练家卡\n"
+	.string "是什么颜色？\l"
+	.string "我的是铜色！$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "PACIFIDLOG TOWN floats on top of\n"
-	.string "a colony of CORSOLA.\p"
-	.string "If I told you that, would you believe\n"
-	.string "me?$"
+	.string "水静市浮在一大群\n"
+	.string "太阳珊瑚上面。\p"
+	.string "我这么说，\n"
+	.string "你信吗？$"
 `
 
 script PacifidlogTown_PokemonCenter_1F_EventScript_EggMan {
@@ -93,41 +94,41 @@ script PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg {
 }
 
 text PacifidlogTown_PokemonCenter_1F_PseudoManIntro {
-	"Hello, trainer. I have several rare Eggs\n"
-	"here with me.\p"
-	"I am currently seeking Yellow Shards,\n"
-	"would you be willing to exchange a\l"
-	"Yellow Shard in exchange for one of\l"
-	"these Eggs?"
+	"你好，训练家。我手上有几颗\n"
+	"稀有的蛋。\p"
+	"我现在正需要黄色碎片，\n"
+	"你愿意用一枚黄色碎片\l"
+	"来换其中\l"
+	"一颗蛋吗？"
 }
 
 text PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined
 {
-	"I see. Please come back if you change\n"
-	"your mind."
+	"我明白了。若你改变主意，\n"
+	"请再来。"
 }
 
 text PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard {
-	"It doesn't look like you have a\n"
-	"Yellow Shard. Come back when you do."
+	"看来你没有\n"
+	"黄色碎片。有了再来吧。"
 }
 
 text PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg {
-	"Oh? You've too many Pokémon.\n"
-	"There's no room for this Egg…"
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这颗蛋……"
 }
 
 text PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg {
-	"Good! I hope you'll walk plenty with\n"
-	"this here Egg!"
+	"好！希望你能带着\n"
+	"这颗蛋多走走！"
 }
 
 text PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg {
-	"{PLAYER} received the Egg."
+	"{PLAYER}收到了蛋。"
 }
 
 text PacifidlogTown_PokemonCenter_1F_ComeBackWithMore {
-	"Please come back if you have more\n"
-	"Yellow Shards you'd like to exchange."
+	"若还有更多想交换的\n"
+	"黄色碎片，请再来。"
 
 }

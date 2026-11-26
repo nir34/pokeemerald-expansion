@@ -80,46 +80,46 @@ script SootopolisCity_House4_EventScript_CancelLegend{
 }
 
 text SootopolisCity_House4_Text_PleaseShowLegend{
-	"Well now, don't you look like the\n"
-	"promising young trainer.\p"
-	"I've traveled far and wide in my\n"
-	"lifetime, and I have here some very\l"
-	"powerful relics from another region\l"
-	"that I am looking to give to a\l"
-	"trustworthy trainer.\p"
-	"If you can show me one of the Pokémon\n"
-	"that uses these relics, I'll know you\l"
-	"are worth possessing one."
+	"哦呀，你看起来\n"
+	"是个很有前途的年轻训练家。\p"
+	"我这一生走遍了\n"
+	"天南地北，手头有些来自\l"
+	"别的地区的强力遗物，\l"
+	"想交给一位\l"
+	"值得信赖的训练家。\p"
+	"只要你能让我看到一只\n"
+	"能用这些遗物的宝可梦，\l"
+	"我就知道你配得上拥有。"
 }
 
 text SootopolisCity_House4_Text_PleaseTakeThisRelic{
-	"Oh my! That is one of the of the\n"
-	"Pokémon that can use this relic.\p"
-	"Here, you are clearly a trainer worthy\n"
-	"of wielding its power."
+	"哎呀！那正是能用\n"
+	"这件遗物的宝可梦之一。\p"
+	"来，你显然是位配得上\n"
+	"驾驭它力量的训练家。"
 }
 
 text SootopolisCity_House4_Text_UseThatRelic{
-	"I believe you can harness the full\n"
-	"power of that relic."
+	"我相信你能发挥出\n"
+	"那件遗物的全部力量。"
 }
 
 text SootopolisCity_House4_Text_UseThoseRelics{
-	"That's all the relics I'd collected over\n"
-	"the years.\p"
-	"I hope you use them wisely."
+	"这些就是我多年收集的\n"
+	"全部遗物。\p"
+	"希望你好生使用。"
 }
 
 text SootopolisCity_House4_Text_AlreadyGaveRelic{
-	"I already gave you the relic for that\n"
-	"Pokémon."
+	"我已经把适合那只宝可梦的\n"
+	"遗物给你了。"
 }
 
 text SootopolisCity_House4_Text_DontHaveLegend{
-	"I see, you don't have one of the\n"
-	"Pokémon that can use these relics."
+	"我明白了，你没有能用\n"
+	"这些遗物的宝可梦。"
 }
 text SootopolisCity_House4_Text_NotLegend{
-	"That's not one of the Pokémon that can\n"
-	"use these relics."
+	"那只宝可梦用不了\n"
+	"这些遗物。"
 }

@@ -493,238 +493,244 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 # 247 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent:
 # 248 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The rocket's launch is imminent!$"
+	.string "火箭马上就要发射了！$"
 # 249 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 250 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
 # 251 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The rocket launched safely!\n"
+	.string "火箭平安发射了！\n"
 # 252 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "That's successful launch no. {STR_VAR_1}!$"
+	.string "第{STR_VAR_1}次成功发射！$"
 # 253 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 254 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
 # 255 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I know that things are a little\n"
+	.string "我知道现在有点乱，\n"
 # 256 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "haywire right now, but…\p"
+	.string "不过……\p"
 # 257 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The rocket's launch is imminent!$"
+	.string "火箭马上就要发射了！$"
 # 258 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 259 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
 # 260 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I know that things are a little\n"
+	.string "我知道现在有点乱，\n"
 # 261 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "haywire right now, but…\p"
+	.string "不过……\p"
 # 262 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The rocket launched safely!\n"
+	.string "火箭平安发射了！\n"
 # 263 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "That's successful launch no. {STR_VAR_1}!$"
+	.string "第{STR_VAR_1}次成功发射！$"
 # 264 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 265 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 # 266 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "A rocket launch demands perfection.\n"
+	.string "发射火箭追求完美。\n"
 # 267 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Not even a 1% margin of error is allowed.\p"
+	.string "连1％的误差都不能有。\p"
 # 268 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Even if it's 99% okay, the whole thing\n"
+	.string "就算99％没问题，只要\n"
 # 269 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "is useless if 1% happens to be no good.\p"
+	.string "1％不行，整件事\l"
 # 270 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Despite that, we never stop trying.\n"
+	.string "就白费。\p"
 # 271 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Why? It's a dream that never ends.$"
+	.string "尽管如此，我们从不\n"
 # 272 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "停止尝试。\p"
 # 273 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
+	.string "为什么？因为梦想\n"
 # 274 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Those MAGMA thugs have their sights\n"
+	.string "没有尽头。$"
 # 275 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "set on our SPACE CENTER.\p"
+
 # 276 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "But we can't allow anything that minor\n"
+MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
 # 277 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "to interfere with our rocket launch!$"
+	.string "那些熔岩队的混混盯上了\n"
 # 278 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "我们的太空中心。\p"
 # 279 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
+	.string "可我们绝不能让这点\n"
 # 280 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I was taking a stroll down the beach\n"
+	.string "小事影响发射！$"
 # 281 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "when I found this.\p"
+
 # 282 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "It's not anything I need, so you can\n"
+MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 # 283 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "have it.$"
+	.string "我在海滩散步时\n"
 # 284 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "捡到这个。\p"
 # 285 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
+	.string "我用不着，\n"
 # 286 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The 丰缘 region has been famous for \n"
+	.string "你拿去吧。$"
 # 287 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "its meteor showers for a long time.$"
+
 # 288 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 # 289 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
+	.string "丰缘地区长久以来一直\n"
 # 290 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Team Magma can't be allowed to steal\n"
+	.string "以流星雨闻名。$"
 # 291 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "the rocket fuel.\p"
+
 # 292 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Oh, by the way, you can have this stone\n"
+MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
 # 293 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I found on the beach.$"
+	.string "绝不能让熔岩队偷走\n"
 # 294 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "火箭燃料。\p"
 # 295 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
+	.string "哦，对了，这块我在海滩\n"
 # 296 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "With Team Magma around, I guess\n"
+	.string "捡的石头给你。$"
 # 297 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "strolls on the beach aren't safe.$"
+
 # 298 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
 # 299 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
+	.string "熔岩队在附近，海滩\n"
 # 300 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Some people claim that Pokémon came\n"
+	.string "散步大概不安全了。$"
 # 301 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "from space. Could it be true?$"
+
 # 302 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
 # 303 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
+	.string "有人说宝可梦来自宇宙。\n"
 # 304 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Team Aqua should take care of\n"
+	.string "会是真的吗？$"
 # 305 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Team Magma!\p"
+
 # 306 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "But if they did that, Team Aqua will\n"
+MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
 # 307 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "become bold and brazen, won't they?$"
+	.string "水舰队该去收拾\n"
 # 308 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "熔岩队！\p"
 # 309 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
+	.string "可他们真这么干了，\n"
 # 310 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "A giant chunk of metal bursts through\n"
+	.string "水舰队不就更猖狂了？$"
 # 311 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "the skies and flies into space…\p"
+
 # 312 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "It boggles my mind!$"
+MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 # 313 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "一大块金属冲破天空\n"
 # 314 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
+	.string "飞进宇宙……\p"
 # 315 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "A giant chunk of metal bursts through\n"
+	.string "真让人难以想象！$"
 # 316 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "the skies and flies into space…\p"
+
 # 317 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "But Team Magma wants to spoil\n"
+MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 # 318 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "that dream of mine!\p"
+	.string "一大块金属冲破天空\n"
 # 319 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I'm not having any of that!$"
+	.string "飞进宇宙……\p"
 # 320 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "可熔岩队想毁掉\n"
 # 321 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
+	.string "我这个梦想！\p"
 # 322 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Steven: {PLAYER}{KUN}, have you read that\n"
+	.string "我可不答应！$"
 # 323 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "proclamation already?\p"
+
 # 324 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Team Magma is coming after the rocket\n"
+MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 # 325 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "fuel on this island.\p"
+	.string "大吾：{PLAYER}，你看到那张\n"
 # 326 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I don't know what they'd need it for,\n"
+	.string "公告了吗？\p"
 # 327 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "but they can't be allowed to take it.\p"
+	.string "熔岩队要来抢这座岛上的\n"
 # 328 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I'll keep an eye on things for\n"
+	.string "火箭燃料。\p"
 # 329 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "a while longer.\p"
+	.string "我不知道他们要燃料\n"
 # 330 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "In the meantime, why don't you go\n"
+	.string "做什么，绝不能让他们得手。\p"
 # 331 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "check out the town?$"
+	.string "我会在这里再盯一会儿。\p"
 # 332 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "这期间，你不如去\n"
 # 333 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
+	.string "镇上转转？$"
 # 334 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "My gosh... they were so strong..$"
+
 # 335 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 # 336 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
+	.string "天啊……他们好强……$"
 # 337 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "That wasn't even a fair fight...\n"
+
 # 338 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Oof.$"
+MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
 # 339 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+	.string "那根本不是公平的\n"
 # 340 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
+	.string "对决……唉。$"
 # 341 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Well this operation failed...$"
+
 # 342 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-
+MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
 # 343 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
+	.string "唉，这次行动失败了……$"
 # 344 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Maxie said no one gets past me...\n"
-# 345 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "but they got past me...$"
-# 346 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
+# 345 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
+# 346 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+	.string "马克西说谁也别想从我\n"
 # 347 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
+	.string "这儿过去……可他们\l"
 # 348 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Ack! Ack! Aaack!$"
+	.string "还是过去了……$"
 # 349 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 350 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
+MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
 # 351 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "Please, tell our leader that\n"
+	.string "呃！呃！呃啊啊！$"
 # 352 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "I never abandoned my post.\l"
-# 353 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "That I stayed to the bitter end…$"
-# 354 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
+# 353 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
+# 354 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+	.string "请告诉我们的老大，\n"
 # 355 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
+	.string "我从没离开岗位。\l"
 # 356 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "This is…\n"
+	.string "我一直坚持到最后……$"
 # 357 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "An intent-to-steal notice?\p"
+
 # 358 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "“To the staff of the SPACE CENTER:\n"
+MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 # 359 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "How are you? We are doing fine.\p"
+	.string "这是……\n"
 # 360 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "“We will soon visit you to take your\n"
+	.string "一张盗窃预告？\p"
 # 361 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "rocket fuel.\p"
+	.string "“致太空中心的各位：\n"
 # 362 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "“Please don't try to stop us.\n"
+	.string "你们好吗？我们很好。\p"
 # 363 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "We will take the fuel no matter what.\p"
+	.string "“我们不久就会来取走\n"
 # 364 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "“Let there be more land!\n"
+	.string "你们的火箭燃料。\p"
 # 365 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "                                          Team Magma”$"
+	.string "“请不要试图阻拦。\n"
+# 366 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+	.string "我们无论如何都会拿走。\p"
+# 367 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+	.string "“愿大地更多！\n"
+# 368 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+	.string "　　　　　　　　　　　熔岩队”$"

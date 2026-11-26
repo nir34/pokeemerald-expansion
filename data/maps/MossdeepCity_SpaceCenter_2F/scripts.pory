@@ -271,146 +271,149 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
-	.string "Mossdeep has mainly sunny weather,\n"
-	.string "and its winds are stable.\p"
-	.string "It's an ideal location for launching\n"
-	.string "rockets.$"
+	.string "绿岭以晴天为主，\n"
+	.string "风向也稳定。\p"
+	.string "这里是发射火箭的\n"
+	.string "理想地点。$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-	.string "Why would Team Magma want to steal\n"
-	.string "our rocket fuel in the first place?$"
+	.string "熔岩队到底为什么\n"
+	.string "想偷我们的火箭燃料？$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
-	.string "If only I was a little younger, I would\n"
-	.string "have liked being an astronaut…\p"
-	.string "No… It's not too late!\n"
-	.string "I can and will try!$"
+	.string "要是能再年轻一点，\n"
+	.string "我真想当宇航员……\p"
+	.string "不……还不算晚！\n"
+	.string "我要试，我一定会试！$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If Team Magma takes the rocket fuel,\n"
-	.string "I won't be able to go to space!\p"
-	.string "They can't be allowed to get away\n"
-	.string "with such an outrage!$"
+	.string "要是熔岩队拿走火箭\n"
+	.string "燃料，我就上不了太空了！\p"
+	.string "绝不能让他们这么\n"
+	.string "无法无天！$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
-	.string "I wish ordinary people could go into\n"
-	.string "space one day…$"
+	.string "真希望有一天普通人\n"
+	.string "也能上太空……$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-	.string "Team Magma…\n"
-	.string "Do they want to go to space, too?$"
+	.string "熔岩队……\n"
+	.string "他们也想上太空吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
-	.string "What the heck are those two..$"
+	.string "那两个人到底是什么……$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOnTwo:
-	.string "We never stood a chance...$"
+	.string "我们根本没机会……$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOnThree:
-	.string "At least Maxie got away...$"
+	.string "至少马克西跑了……$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
-	.string "Good answer!\n"
-	.string "That's what a smart person'll do!$"
+	.string "回答得好！\n"
+	.string "聪明人都会这么做！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
-	.string "A reckless go-getter, are you?\n"
-	.string "Okay, I'll go first!$"
+	.string "鲁莽的愣头青，是吧？\n"
+	.string "好，我先上！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
-	.string "I lost!\n"
-	.string "But!$"
+	.string "我输了！\n"
+	.string "可是！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
-	.string "It's too soon to be relieved!\n"
-	.string "I'm up next!$"
+	.string "现在松气还太早！\n"
+	.string "下一个是我！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
-	.string "I lost, too!\n"
-	.string "But!$"
+	.string "我也输了！\n"
+	.string "可是！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "I bet you want to take a break.\n"
-	.string "But I'm not about to let you do that!$"
+	.string "我打赌你想歇口气。\n"
+	.string "可我偏不让你歇！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
-	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "我们该歇口气的……\n"
+	.string "真该那么做的……$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
-	.string "Three of us here, and look at the sorry\n"
-	.string "mess we got ourselves into.$"
+	.string "我们三个人在这儿，\n"
+	.string "看看落得什么惨样。$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
-	.string "We three losing like this…\n"
-	.string "We look worse than usual by triple!$"
+	.string "我们三个这样输……\n"
+	.string "狼狈得是三倍！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
-	.string "I can't believe how strong they were...$"
+	.string "真不敢相信他们\n"
+	.string "那么强……$"
 
 MossdeepCity_SpaceCenter_2F_Text_Drake::
-	.string "Drake: {PLAYER}. Nice of you to join us.\n"
-	.string "The grunts were quite weak, but Maxie\l"
-	.string "managed to escape us.\p"
-	.string "We were able to get some\n"
-	.string "information about their plan from the\l"
-	.string "Team Magma members here, though.\p"
-	.string "Did you happen to think any more on\n"
-	.string "what I asked you about on Mt. Chimney?\p"
-	.string "I've been thinking about it, and\n"
-	.string "sometimes our world feels too orderly,\l"
-	.string "too black and white…\p"
-	.string "It's hard to explain, but from the look\n"
-	.string "on your face, it doesn't seem like what\l"
-	.string "I'm saying is making any sense to you.$"
+	.string "源治：{PLAYER}。\n"
+	.string "你来得正好。\p"
+	.string "那些小兵很弱，\n"
+	.string "可马克西从我们手里跑了。\p"
+	.string "不过，我们从这里熔岩队\n"
+	.string "成员口中问出了\l"
+	.string "一些他们的计划。\p"
+	.string "关于我在烟囱山问你的\n"
+	.string "事，你想过更多了吗？\p"
+	.string "我一直在想，有时候我们的\n"
+	.string "世界太有秩序，\l"
+	.string "太非黑即白了……\p"
+	.string "很难解释，可看你的表情，\n"
+	.string "我说的好像让你\l"
+	.string "摸不着头绪。$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenRoundUp:
-	.string "Steven: Oh, hello again, {PLAYER}. I see\n"
-	.string "you defeated the Mossdeep Gym\l"
-	.string "Leaders, very nicely done.\p"
-	.string "Drake and I did a bit of battling\n"
-	.string "ourselves here in the meantime, as you\l"
-	.string "can see.\p"
-	.string "Ah, one moment, it looks like the\n"
-	.string "authorities are here to round up the\l"
-	.string "Team Magma members we captured.$"
+	.string "大吾：哦，{PLAYER}，\n"
+	.string "又见面了。\p"
+	.string "看来你打赢了绿岭\n"
+	.string "道馆的馆主，干得漂亮。\p"
+	.string "这期间我和源治在这里\n"
+	.string "也打了点架，\l"
+	.string "如你所见。\p"
+	.string "啊，等一下，看来当局\n"
+	.string "来带走我们抓到的\l"
+	.string "熔岩队成员了。$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenMagmaEmblem:
-	.string "Steven: As I was saying, unfortunately,\n"
-	.string "Maxie escaped us.\p"
-	.string "However, we were able to gather that\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Team Magma is planning something big at\l"
-	.string "their Hideout in Jagged Pass near\l"
-	.string "Lavaridge Town.\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We were also able to obtain one of\n"
-	.string "these from one of the grunts, which we\l"
-	.string "suspect will get us into their Hideout.$"
+	.string "大吾：就像我说的，很遗憾，\n"
+	.string "马克西从我们手里跑了。\p"
+	.string "不过我们打听到，\n"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}熔岩队正在他们位于\l"
+	.string "崎岖小径、靠近\l"
+	.string "釜炎镇的基地策划大事。\p"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}我们还从一个小兵身上\n"
+	.string "拿到了这个，我们想\l"
+	.string "这应该能让我们进基地。$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenPursueMagma:
-	.string "Steven: This may be where we part ways\n"
-	.string "for now.\p"
-	.string "I am going to stay here in my hometown\n"
-	.string "to make sure things recover from this\l"
-	.string "incident and get back to normal.\p"
-	.string "I think you should pursue Team Magma\n"
-	.string "to their Hideout and see what you can\l"
-	.string "find, but be very careful, {PLAYER}.$"
+	.string "大吾：这大概是我们暂时\n"
+	.string "分道扬镳的地方。\p"
+	.string "我要留在家乡，确保这里\n"
+	.string "从这次事件中恢复、\l"
+	.string "回到正轨。\p"
+	.string "我觉得你该追着熔岩队\n"
+	.string "去他们基地看看，\l"
+	.string "不过千万小心，{PLAYER}。$"
 
 MossdeepCity_SpaceCenter_2F_Text_DrakePursueAqua:
-	.string "Drake: In the meantime, I will follow up\n"
-	.string "on Team Aqua's activity with the\l"
-	.string "submarine they stole.\p"
-	.string "{PLAYER}, after your investigation\n"
-	.string "into Team Magma's Hideout is complete,\l"
-	.string "check in with Steven to see if I've\l"
-	.string "given any updates to him.\p"
-	.string "If you haven't heard from me by then,\n"
-	.string "perhaps you should start looking into\l"
-	.string "Team Aqua as well.$"
+	.string "源治：这期间，我会跟进\n"
+	.string "水舰队偷走潜水艇\l"
+	.string "之后的动向。\p"
+	.string "{PLAYER}，你调查完\n"
+	.string "熔岩队基地后，\l"
+	.string "去找大吾，看看我\l"
+	.string "有没有给他新的消息。\p"
+	.string "如果到那时还没我的\n"
+	.string "消息，也许你该\l"
+	.string "也去查查水舰队。$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenMeetHouse:
-	.string "Steven: That sounds like a plan.\n"
-	.string "{PLAYER}, stop by my house here on\l"
-	.string "Mossdeep, I have a gift to thank you\l"
-	.string "personally for your help with all this.$"
+	.string "大吾：这计划听起来不错。\n"
+	.string "{PLAYER}，来绿岭我\l"
+	.string "家里一趟，我有件礼物，\l"
+	.string "想亲自谢谢你这一路的帮忙。$"
 `

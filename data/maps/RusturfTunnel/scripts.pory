@@ -452,120 +452,121 @@ RusturfTunnel_EventScript_Graveler::
 	end
 
 RusturfTunnel_Text_ComeAndGetSome:
-	.string "What, are you coming?\n"
-	.string "Come and get some, then!$"
+	.string "怎么，你也要来？\n"
+	.string "那就来打一场吧！$"
 
 RusturfTunnel_Text_Peeko:
-	.string "Peeko: Pii pihyoh!$"
+	.string "皮皮：啾啾咿！$"
 
 RusturfTunnel_Text_GruntIntro:
-	.string "Grah, keelhaul it all!\p"
-	.string "That hostage Pokémon turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
-	.string "In this tunnel to nowhere!\p"
-	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "可恶，气死我了！\p"
+	.string "那个当人质的宝可梦\n"
+	.string "根本一文不值！\p"
+	.string "没想到我竟然逃到了\n"
+	.string "这种鬼地方来！\p"
+	.string "喂！你！\n"
+	.string "你想和我对战？$"
 
 RusturfTunnel_Text_GruntDefeat:
-	.string "Urrrggh! My career in crime comes to\n"
-	.string "a dead end!$"
+	.string "呃啊啊！我的犯罪生涯\n"
+	.string "到此为止了！$"
 
 RusturfTunnel_Text_GruntTakePackage:
-	.string "This is plain not right…\p"
-	.string "The boss told me this would be a\n"
-	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
-	.string "from Devon.\p"
-	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "这也太不划算了……\p"
+	.string "老大说这活儿\n"
+	.string "又轻松又好办。\p"
+	.string "我只要从得文偷个\n"
+	.string "包裹就行。\p"
+	.string "哼！\n"
+	.string "这么想要，就拿去吧！$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
-	.string "Peeko!\n"
-	.string "Am I glad to see you're safe!$"
+	.string "皮皮！\n"
+	.string "看到你平安我真高兴！$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-	.string "Peeko owes her life to you!\p"
-	.string "They call me Mr. Briney.\n"
-	.string "And, you are?\p"
+	.string "皮皮多亏你才保住性命！\p"
+	.string "大家都叫我布林尼先生。\n"
+	.string "你是？\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "Ah, so you are {PLAYER}{KUN}!\n"
-	.string "I sincerely thank you!\p"
-	.string "Now, if there's anything that troubles\n"
-	.string "you, don't hesitate to tell me!\p"
-	.string "You can usually find me in my cottage\n"
-	.string "by the sea near Petalburg Woods.\p"
-	.string "Come, Peeko, we should make our way\n"
-	.string "home.\p"
-	.string "Peeko: Pihyoh!$"
+	.string "啊，原来你是{PLAYER}！\n"
+	.string "真是太感谢你了！\p"
+	.string "以后要是有什么难处，\n"
+	.string "尽管来找我！\p"
+	.string "我平时住在橙华森林附近\n"
+	.string "海边的屋子里。\p"
+	.string "来吧，皮皮，我们回家吧。\p"
+	.string "皮皮：啾咿！$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
-	.string "… …\p"
-	.string "Why can't they keep digging?\n"
-	.string "Is the bedrock too hard?\p"
-	.string "My beloved awaits me in Verdanturf\n"
-	.string "TOWN just beyond here…\p"
-	.string "If Rustboro and Verdanturf were\n"
-	.string "joined by this tunnel, I could visit\l"
-	.string "her every day…\p"
-	.string "But this…\n"
-	.string "What am I to do?$"
+	.string "……\p"
+	.string "为什么他们不继续挖了？\n"
+	.string "是岩层太硬了吗？\p"
+	.string "我心爱的人就在这边的\n"
+	.string "绿荫镇等着我……\p"
+	.string "要是这个隧道把卡那兹和\n"
+	.string "绿荫连起来，我就能\l"
+	.string "每天都去看她了……\p"
+	.string "可是这样……\n"
+	.string "我该怎么办啊？$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-	.string "To get from Rustboro to Verdanturf,\n"
-	.string "you need to go to Dewford, then pass\l"
-	.string "through Slateport and Mauville…$"
+	.string "要从卡那兹去绿荫，\n"
+	.string "得先到武斗，再经过\l"
+	.string "凯那和紫堇……$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
-	.string "Wow! You shattered that boulder\n"
-	.string "blocking the way.\p"
-	.string "To show you how much I appreciate it,\n"
-	.string "I'd like you to have this HM.$"
+	.string "哇！你把挡路的\n"
+	.string "岩石打碎了。\p"
+	.string "为了表示我的感谢，\n"
+	.string "请收下这个秘传学习器。$"
 
 RusturfTunnel_Text_ExplainStrength:
-	.string "That HM contains Strength.\p"
-	.string "If a muscular Pokémon were to learn\n"
-	.string "that, it would be able to move even\l"
-	.string "large boulders.$"
+	.string "这个秘传学习器里\n"
+	.string "是怪力。\p"
+	.string "要是有力气大的宝可梦\n"
+	.string "学会它，就能推动\l"
+	.string "很大的岩石。$"
 
 RusturfTunnel_Text_WandaReunion:
-	.string "Wanda!\n"
-	.string "Now I can see you anytime!\p"
-	.string "Wanda: That's…wonderful.\p"
-	.string "Please, take some rest at my home.$"
+	.string "瓦达！\n"
+	.string "以后我随时都能见到你了！\p"
+	.string "瓦达：那真是……太好了。\p"
+	.string "请到我家来\n"
+	.string "休息一下吧。$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
-	.string "On the other side of this rock…\n"
-	.string "My boyfriend is there.\p"
-	.string "He… He's not just digging the tunnel\n"
-	.string "to come see me.\p"
-	.string "He works his hands raw and rough\n"
-	.string "for the benefit of everyone.$"
+	.string "这块岩石的另一边……\n"
+	.string "我的男朋友就在那里。\p"
+	.string "他……他挖隧道\n"
+	.string "不只是为了见我。\p"
+	.string "他是为了大家，\n"
+	.string "才把双手磨得又粗又糙。$"
 
 RusturfTunnel_Text_MikeIntro:
-	.string "What do you call a wild man up in the\n"
-	.string "mountains? A mountain man, right?\p"
-	.string "So why don't they call a Pokémon in\n"
-	.string "the mountains a mountain Pokémon?$"
+	.string "山里住的人叫什么？\n"
+	.string "叫山里人，对吧？\p"
+	.string "那山里的宝可梦为什么\n"
+	.string "不叫山里宝可梦呢？$"
 
 RusturfTunnel_Text_MikeDefeat:
-	.string "My Pokémon…\n"
-	.string "Ran out of power…$"
+	.string "我的宝可梦……\n"
+	.string "没力气了……$"
 
 RusturfTunnel_Text_MikePostBattle:
-	.string "They halted development here to\n"
-	.string "protect Pokémon, right?\l"
-	.string "There's a feel-good story!$"
+	.string "为了保护宝可梦，\n"
+	.string "这里才停止施工的，对吧？\l"
+	.string "这真是个暖心的故事！$"
 
 RusturfTunnel_Text_CaveIn:
-	.string "Whoa there! There was a cave-in here a\n"
-	.string "few days ago.\p"
-	.string "Graveler and I are working on getting\n"
-	.string "this cleared up, be careful where you\l"
-	.string "step in the meantime.$"
+	.string "喂喂！这里前几天\n"
+	.string "发生过塌方。\p"
+	.string "我和隆隆石正在清理，\n"
+	.string "在那之前你走路\l"
+	.string "可要小心点。$"
 
 RustboroCity_Gym_Text_Graveler:
-	.string "Graveler: eeeEEEEEEOOw!$"
+	.string "隆隆石：呜哦哦哦哦！$"
 
 `

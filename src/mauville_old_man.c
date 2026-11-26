@@ -274,7 +274,7 @@ void GenerateGiddyLine(void)
         InitGiddyTaleList();
 
     // A line from Giddy is either a line following this format:
-    // "{random word} is so {adjective}! Don't you agree?",
+    // "{random word}真是{adjective}！你不觉得吗？",
     // or one of the texts in sGiddyQuestions.
     if (giddy->randomWords[giddy->taleCounter] != EC_EMPTY_WORD)
     {

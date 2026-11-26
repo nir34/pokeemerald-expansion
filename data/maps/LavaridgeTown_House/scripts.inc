@@ -51,24 +51,26 @@ LavaridgeTown_House_EventScript_FormerMimicTutor::
 # 26 "data/maps/LavaridgeTown_House/scripts.pory"
 LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
 # 27 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "My wife's warming an EGG in the hot\n"
+	.string "我妻子正在温泉里\n"
 # 28 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "springs. This is what she told me.\p"
+	.string "暖一颗蛋。她是这么说的。\p"
 # 29 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "She left two Pokémon with the DAY CARE.\n"
+	.string "她把两只宝可梦寄放在\n"
 # 30 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "And they discovered that EGG!$"
+	.string "培育屋，\l"
 # 31 "data/maps/LavaridgeTown_House/scripts.pory"
-
+	.string "结果发现了那颗蛋！$"
 # 32 "data/maps/LavaridgeTown_House/scripts.pory"
-LavaridgeTown_House_Text_Zigzagoon:
-# 33 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "ZIGZAGOON: Pshoo!$"
-# 34 "data/maps/LavaridgeTown_House/scripts.pory"
 
+# 33 "data/maps/LavaridgeTown_House/scripts.pory"
+LavaridgeTown_House_Text_Zigzagoon:
+# 34 "data/maps/LavaridgeTown_House/scripts.pory"
+	.string "蛇纹熊：噗咻！$"
 # 35 "data/maps/LavaridgeTown_House/scripts.pory"
-LavaridgeTown_House_Text_FormerMimicTutor:
+
 # 36 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "I used to be able to mimic\n"
+LavaridgeTown_House_Text_FormerMimicTutor:
 # 37 "data/maps/LavaridgeTown_House/scripts.pory"
-	.string "anything… Oh, what happened?$"
+	.string "我以前能模仿任何招式……\n"
+# 38 "data/maps/LavaridgeTown_House/scripts.pory"
+	.string "唉，到底怎么了呢？$"

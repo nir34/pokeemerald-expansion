@@ -64,114 +64,128 @@ SSTidalRooms_EventScript_Naomi::
 	end
 
 SSTidalRooms_Text_TakeRestOnBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "这里有张床……\n"
+	.string "休息一下吧。$"
 
 SSTidalRooms_Text_ColtonIntro:
-	.string "I often sail to LILYCOVE CITY.\p"
-	.string "I enjoy attending CONTESTS,\n"
-	.string "you see.$"
+	.string "我常坐船去绿岭市。\p"
+	.string "因为我喜欢参加\n"
+	.string "华丽大赛。$"
 
 SSTidalRooms_Text_ColtonDefeat:
-	.string "That was an enjoyable match!$"
+	.string "这场对战真愉快！$"
 
 SSTidalRooms_Text_ColtonPostBattle:
-	.string "I get so excited imagining what kinds\n"
-	.string "of Pokémon I'll get to see in the next\l"
-	.string "CONTEST. The anticipation of it thrills!$"
+	.string "一想到下一场华丽大赛\n"
+	.string "能看到什么样的宝可梦\l"
+	.string "我就兴奋。光期待就\l"
+	.string "让人心跳！$"
 
 SSTidalRooms_Text_MicahIntro:
-	.string "Are your friends strong?$"
+	.string "你的朋友强吗？$"
 
 SSTidalRooms_Text_MicahDefeat:
-	.string "Your friends are, indeed, strong.$"
+	.string "你的朋友果然很强。$"
 
 SSTidalRooms_Text_MicahPostBattle:
-	.string "Friends need not be human.\n"
-	.string "For me, Pokémon are treasured friends!$"
+	.string "朋友不一定是人。\n"
+	.string "对我来说，宝可梦就是\l"
+	.string "珍贵的伙伴！$"
 
 SSTidalRooms_Text_ThomasIntro:
-	.string "Child…\n"
-	.string "Did you knock on the door?$"
+	.string "孩子……\n"
+	.string "你敲门了吗？$"
 
 SSTidalRooms_Text_ThomasDefeat:
-	.string "A loss is to be accepted without haste\n"
-	.string "or panic.$"
+	.string "输了也要从容接受，\n"
+	.string "不慌不忙。$"
 
 SSTidalRooms_Text_ThomasPostBattle:
-	.string "To be never ruffled in any situation is\n"
-	.string "the GENTLEMAN's code of conduct.$"
+	.string "无论什么情况都不慌乱，\n"
+	.string "这就是绅士的准则。$"
 
 SSTidalRooms_Text_JedIntro:
-	.string "JED: I feel a little shy about this, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "JED：有点不好意思，不过……\n"
+	.string "让你见识我们的\l"
+	.string "恩爱之力！$"
 
 SSTidalRooms_Text_JedDefeat:
-	.string "JED: Sigh…$"
+	.string "JED：唉……$"
 
 SSTidalRooms_Text_JedPostBattle:
-	.string "JED: It's the first time that our lovey-\n"
-	.string "dovey power couldn't prevail!\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "JED：我们的恩爱之力还是\n"
+	.string "第一次不管用！\l"
+	.string "你一定是很棒的\l"
+	.string "训练家！$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-	.string "JED: You only have one Pokémon?\n"
-	.string "Isn't that just too lonesome?$"
+	.string "JED：你只有一只宝可梦？\n"
+	.string "那不是太寂寞了吗？$"
 
 SSTidalRooms_Text_LeaIntro:
-	.string "LEA: I feel a little silly, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "LEA：有点傻，不过……\n"
+	.string "让你见识我们的\l"
+	.string "恩爱之力！$"
 
 SSTidalRooms_Text_LeaDefeat:
-	.string "LEA: Oh, boo!$"
+	.string "LEA：哦，讨厌！$"
 
 SSTidalRooms_Text_LeaPostBattle:
-	.string "LEA: I can't believe it!\n"
-	.string "Our lovey-dovey power failed…\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "LEA：真不敢相信！\n"
+	.string "我们的恩爱之力\l"
+	.string "失败了……你一定\l"
+	.string "是很棒训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two Pokémon…$"
+	.string "LEA：我本想对战的……\n"
+	.string "可你连两只宝可梦\l"
+	.string "都没有……$"
 
 SSTidalRooms_Text_GarretIntro:
-	.string "Ah, you've come just in time.\p"
-	.string "I'm bored, you see.\n"
-	.string "You may entertain me.$"
+	.string "啊，你来得正好。\p"
+	.string "你看，我正无聊。\n"
+	.string "你可以陪我消遣。$"
 
 SSTidalRooms_Text_GarretDefeat:
-	.string "…That will do.$"
+	.string "……这样可以了。$"
 
 SSTidalRooms_Text_GarretPostBattle:
-	.string "Perhaps I shall get Father to acquire\n"
-	.string "a yacht for me.\l"
-	.string "A yacht for me and Pokémon!$"
+	.string "也许我该让父亲给\n"
+	.string "我买艘游艇。\l"
+	.string "给我和宝可梦的游艇！$"
 
 SSTidalRooms_Text_NaomiIntro:
-	.string "Oh, you're such an adorable TRAINER.\n"
-	.string "Would you like to have tea?\l"
-	.string "Or would you rather battle?$"
+	.string "哦，你真是个可爱的\n"
+	.string "训练家。要喝茶吗？\l"
+	.string "还是想对战？$"
 
 SSTidalRooms_Text_NaomiDefeat:
-	.string "I see.\n"
-	.string "You're the active sort.$"
+	.string "我明白了。\n"
+	.string "你是好动的那种。$"
 
 SSTidalRooms_Text_NaomiPostBattle:
-	.string "A world cruise on a luxury liner has its\n"
-	.string "charms, I must say…\p"
-	.string "But, I will admit there is an appealing\n"
-	.string "side to touring HOENN by ferry.$"
+	.string "坐豪华客轮环游世界\n"
+	.string "当然有它的魅力……\p"
+	.string "不过我得承认，坐渡轮\n"
+	.string "逛丰缘也别有\l"
+	.string "一番趣味。$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-	.string "Uh… Hi! I… I'm not acting suspicious!\n"
-	.string "Uh… You can have this! For free!\p"
-	.string "It… Honestly, I didn't SNATCH it from\n"
-	.string "someone! I'd never do such a thing!\l"
-	.string "It's clean! You can use it!$"
+	.string "呃……嗨！我……我可没\n"
+	.string "在干什么可疑的事！\l"
+	.string "呃……这个给你！\l"
+	.string "免费！\p"
+	.string "说……说实话，这可不是\n"
+	.string "我从别人那儿\l"
+	.string "抢来的！我绝不\l"
+	.string "会那种事！\l"
+	.string "东西干净的！\l"
+	.string "你可以用！$"
 
 SSTidalRooms_Text_ExplainSnatch:
-	.string "SNATCH steals the beneficial effects\n"
-	.string "of certain moves before they can be\l"
-	.string "used by a foe or ally.$"
+	.string "抢夺会抢走某些招式\n"
+	.string "的有益效果，在\l"
+	.string "对手或同伴用出前\l"
+	.string "先夺过来。$"
 
 `

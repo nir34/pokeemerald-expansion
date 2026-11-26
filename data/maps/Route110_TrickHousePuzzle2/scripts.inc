@@ -205,78 +205,82 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 # 103 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
 # 104 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 105 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 106 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "“Trick Master is smart.”\n"
+	.string "“机关大师真聪明。”\n"
 # 107 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "… … … … … … … …\p"
 # 108 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 109 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 110 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_TedIntro:
 # 111 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "Which switch closes which hole?$"
+	.string "哪个开关关哪个洞？$"
 # 112 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 113 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_TedDefeat:
 # 114 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "After that battle, I'm even more\n"
+	.string "打完这场，我更\n"
 # 115 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "confused!$"
+	.string "糊涂了！$"
 # 116 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 117 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
 # 118 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "Can I get you to push all the buttons\n"
+	.string "你能帮我把所有按钮\n"
 # 119 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "for me?$"
+	.string "都按一遍吗？$"
 # 120 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 121 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_RachelIntro:
 # 122 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "Oh! You're on your second TRICK HOUSE\n"
+	.string "哦！你这是在挑战机关屋\n"
 # 123 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "challenge!$"
+	.string "的第二关！$"
 # 124 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 125 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_RachelDefeat:
 # 126 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "You're good at battling too?$"
+	.string "你对战也很在行？$"
 # 127 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 128 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_RachelPostBattle:
 # 129 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "The Trick Master rigged all the tricks\n"
+	.string "这间屋里所有的机关，\n"
 # 130 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "in this house all by himself.$"
+	.string "都是机关大师一人\l"
 # 131 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-
+	.string "布置的。$"
 # 132 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
+
 # 133 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "I want to make my own GYM one day.\n"
+Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
 # 134 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "So, I'm studying how to set traps.$"
+	.string "我总有一天要建自己的\n"
 # 135 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-
+	.string "道馆。所以在研究\l"
 # 136 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
+	.string "怎么设陷阱。$"
 # 137 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "I didn't study battling enough!$"
-# 138 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
+# 138 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
 # 139 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
+	.string "我对战练得不够！$"
 # 140 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "You're strong, aren't you?\n"
+
 # 141 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	.string "Maybe even enough to be a 道馆馆主!$"
+Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
+# 142 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+	.string "你很强，对吧？\n"
+# 143 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+	.string "说不定都能当馆主了！$"

@@ -69,148 +69,148 @@ VictoryRoad_B2F_EventScript_Dianne::
 # 35 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_VitoIntro:
 # 36 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I trained together with my whole family,\n"
+	.string "我和全家一起训练，\n"
 # 37 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "every one of us!\l"
+	.string "每一个人！\l"
 # 38 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I'm not losing to anyone!$"
+	.string "我不会输给任何人！$"
 # 39 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 40 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_VitoDefeat:
 # 41 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Better than my family?!\n"
+	.string "比我们全家都强？！\n"
 # 42 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Is that possible?!$"
+	.string "这有可能吗？！$"
 # 43 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 44 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_VitoPostBattle:
 # 45 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I was better than everyone in my\n"
+	.string "我比家里每个人都强。\n"
 # 46 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "family. I've never lost before…\p"
+	.string "我从没输过……\p"
 # 47 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I've lost my confidence…\n"
+	.string "我的自信没了……\n"
 # 48 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Maybe I'll go home…$"
+	.string "也许我该回家……$"
 # 49 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 50 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_OwenIntro:
 # 51 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I'd heard that there was a tough\n"
+	.string "我听说附近有个很强的\n"
 # 52 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "little kid around. Do they mean you?$"
+	.string "小鬼。是在说你吗？$"
 # 53 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 54 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_OwenDefeat:
 # 55 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "The little shrimp is tough!$"
+	.string "这小豆丁真强！$"
 # 56 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 57 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_OwenPostBattle:
 # 58 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "The rumors I heard, that tough little\n"
+	.string "我听到的传言说，那个\n"
 # 59 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "kid is from PETALBURG CITY.$"
+	.string "很强的小鬼来自\l"
 # 60 "data/maps/VictoryRoad_B2F/scripts.pory"
-
+	.string "橙华市。$"
 # 61 "data/maps/VictoryRoad_B2F/scripts.pory"
-VictoryRoad_B2F_Text_CarolineIntro:
+
 # 62 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "You must be getting a little tired.$"
+VictoryRoad_B2F_Text_CarolineIntro:
 # 63 "data/maps/VictoryRoad_B2F/scripts.pory"
-
+	.string "你大概有点累了吧。$"
 # 64 "data/maps/VictoryRoad_B2F/scripts.pory"
-VictoryRoad_B2F_Text_CarolineDefeat:
+
 # 65 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "No signs of tiring at all!$"
+VictoryRoad_B2F_Text_CarolineDefeat:
 # 66 "data/maps/VictoryRoad_B2F/scripts.pory"
-
+	.string "一点累的样子都没有！$"
 # 67 "data/maps/VictoryRoad_B2F/scripts.pory"
-VictoryRoad_B2F_Text_CarolinePostBattle:
+
 # 68 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "VICTORY ROAD and the Pokémon LEAGUE\n"
+VictoryRoad_B2F_Text_CarolinePostBattle:
 # 69 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "are long and grueling challenges.\l"
+	.string "冠军之路和宝可梦联盟\n"
 # 70 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Beware of fatigue!$"
+	.string "是又长又艰难的挑战。\l"
 # 71 "data/maps/VictoryRoad_B2F/scripts.pory"
-
+	.string "小心疲劳！$"
 # 72 "data/maps/VictoryRoad_B2F/scripts.pory"
-VictoryRoad_B2F_Text_JulieIntro:
+
 # 73 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "You shouldn't get complacent just\n"
+VictoryRoad_B2F_Text_JulieIntro:
 # 74 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "because you have a lot of GYM 徽章S.\p"
+	.string "别因为徽章多就自满。\p"
 # 75 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "There's always going to be someone\n"
+	.string "总有人比你更强！$"
 # 76 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "who's better than you!$"
+
 # 77 "data/maps/VictoryRoad_B2F/scripts.pory"
-
-# 78 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_JulieDefeat:
+# 78 "data/maps/VictoryRoad_B2F/scripts.pory"
+	.string "你比我强！$"
 # 79 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "You're better than me!$"
+
 # 80 "data/maps/VictoryRoad_B2F/scripts.pory"
-
-# 81 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_JuliePostBattle:
+# 81 "data/maps/VictoryRoad_B2F/scripts.pory"
+	.string "看看你收集的徽章，\n"
 # 82 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Gaze on your collected 徽章S and\n"
+	.string "想想你面对过的训练家。$"
 # 83 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "remember the 训练家S you've faced.$"
+
 # 84 "data/maps/VictoryRoad_B2F/scripts.pory"
-
-# 85 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_FelixIntro:
+# 85 "data/maps/VictoryRoad_B2F/scripts.pory"
+	.string "我都走到这儿了，可\n"
 # 86 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I've come this far, but the tension's\n"
+	.string "紧张得胃好痛……$"
 # 87 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "giving me awful stomach pain…$"
+
 # 88 "data/maps/VictoryRoad_B2F/scripts.pory"
-
-# 89 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_FelixDefeat:
+# 89 "data/maps/VictoryRoad_B2F/scripts.pory"
+	.string "哦……\n"
 # 90 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Ooh…\n"
+	.string "好痛……$"
 # 91 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "It hurts…$"
-# 92 "data/maps/VictoryRoad_B2F/scripts.pory"
 
-# 93 "data/maps/VictoryRoad_B2F/scripts.pory"
+# 92 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_FelixPostBattle:
+# 93 "data/maps/VictoryRoad_B2F/scripts.pory"
+	.string "一想到快到宝可梦联盟，\n"
 # 94 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "I can't help getting all tense knowing\n"
+	.string "我就忍不住紧张。\p"
 # 95 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "that I'm nearing the Pokémon LEAGUE.\p"
+	.string "我只能勉强装出\n"
 # 96 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "It's all I can do to feign calm.$"
+	.string "平静的样子。$"
 # 97 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 98 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_DianneIntro:
 # 99 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "The elite among the elite gather in\n"
+	.string "精英中的精英聚集在\n"
 # 100 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "this cave.\p"
+	.string "这个洞窟里。\p"
 # 101 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "How are you finding it?$"
+	.string "你觉得这儿怎么样？$"
 # 102 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 103 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_DianneDefeat:
 # 104 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Not rattled in the least bit!$"
+	.string "一点也不慌！$"
 # 105 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 106 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_DiannePostBattle:
 # 107 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "You do have guts! I like that!\n"
+	.string "你真有胆量！我喜欢！\n"
 # 108 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Keep it going!$"
+	.string "继续加油！$"

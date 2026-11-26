@@ -69,38 +69,42 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll::
 # 35 "data/maps/SootopolisCity_House6/scripts.pory"
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
 # 36 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "Hello! You're our first guest in\n"
+	.string "你好！你是我们好久以来\n"
 # 37 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "a good while.\p"
+	.string "的第一位客人。\p"
 # 38 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "You've brightened up my day, so I'll\n"
+	.string "你让我今天心情变好了，\n"
 # 39 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "give you a big WAILMER DOLL.$"
+	.string "送你一个大吼吼鲸玩偶。$"
 # 40 "data/maps/SootopolisCity_House6/scripts.pory"
 
 # 41 "data/maps/SootopolisCity_House6/scripts.pory"
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
 # 42 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "Take good care of it!$"
+	.string "请好好照顾它！$"
 # 43 "data/maps/SootopolisCity_House6/scripts.pory"
 
 # 44 "data/maps/SootopolisCity_House6/scripts.pory"
 SootopolisCity_House6_Text_IllHoldItForYou:
 # 45 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "Oh, you want it, but not right now?\n"
+	.string "哦，你想要，可现在\n"
 # 46 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "Okay, then I'll hold it for you.$"
+	.string "不方便？\p"
 # 47 "data/maps/SootopolisCity_House6/scripts.pory"
-
+	.string "好吧，那我替你\n"
 # 48 "data/maps/SootopolisCity_House6/scripts.pory"
-SootopolisCity_House6_Text_DontWantThisDoll:
+	.string "保管着。$"
 # 49 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "Are you sure?\n"
-# 50 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "You don't want this DOLL?$"
-# 51 "data/maps/SootopolisCity_House6/scripts.pory"
 
+# 50 "data/maps/SootopolisCity_House6/scripts.pory"
+SootopolisCity_House6_Text_DontWantThisDoll:
+# 51 "data/maps/SootopolisCity_House6/scripts.pory"
+	.string "你确定？\n"
 # 52 "data/maps/SootopolisCity_House6/scripts.pory"
-SootopolisCity_House6_Text_LovePlushDolls:
+	.string "不要这个玩偶？$"
 # 53 "data/maps/SootopolisCity_House6/scripts.pory"
-	.string "I love plush DOLLS!$"
+
+# 54 "data/maps/SootopolisCity_House6/scripts.pory"
+SootopolisCity_House6_Text_LovePlushDolls:
+# 55 "data/maps/SootopolisCity_House6/scripts.pory"
+	.string "我最爱毛绒玩偶！$"

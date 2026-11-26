@@ -293,700 +293,734 @@ VictoryRoad_1F_EventScript_Katelynn::
 # 147 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 # 148 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "{PLAYER}! You made it! I've been\n"
+	.string "{PLAYER}！你来了！我一直\n"
 # 149 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "wandering around here doing more\l"
+	.string "在这儿四处转着多训练，\l"
 # 150 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "training, and I knew you'd show up\l"
+	.string "就知道你早晚\l"
 # 151 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "eventually.\p"
+	.string "会出现。\p"
 # 152 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "After you beat me in Mauville and on\n"
+	.string "在紫堇和110号道路\n"
 # 153 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Route 110, I realized how weak I was,\l"
+	.string "被你打败后，我才\l"
 # 154 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "how little I knew about Pokémon…\p"
+	.string "明白自己多弱，\l"
 # 155 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Since then, I've become so much\n"
+	.string "对宝可梦了解\l"
 # 156 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "stronger.\p"
+	.string "多浅……\p"
 # 157 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I've trained extremely hard in hopes of\n"
+	.string "从那以后，我变得强了\n"
 # 158 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "beating you one day, I even defeated\l"
+	.string "好多。\p"
 # 159 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "all of the Gym Leaders here in Hoenn!\p"
+	.string "我拼命训练，希望有一天\n"
 # 160 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "However, I have one more goal before I\n"
+	.string "打败你，甚至把丰缘\l"
 # 161 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "can move on to the Pokémon League…\p"
+	.string "所有道馆馆主都\l"
 # 162 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I have to beat you, {PLAYER}!\n"
+	.string "打赢了！\p"
 # 163 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "You inspired me to get stronger, so now\l"
+	.string "可是，去宝可梦联盟\n"
 # 164 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I'll show you the results of my\l"
+	.string "之前，我还有一个\l"
 # 165 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "hard work!$"
+	.string "目标……\p"
 # 166 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "我必须打败你！\n"
 # 167 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyEntranceDefeat:
+	.string "{PLAYER}！\p"
 # 168 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "All my training, and it still wasn't\n"
+	.string "是你激励我变强的，\n"
 # 169 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "enough… I won't give up, though! I'll\l"
+	.string "现在就让你看看\l"
 # 170 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "keep training until I can beat you!$"
+	.string "我努力的结果！$"
 # 171 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 172 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyPostEntranceBattle:
+VictoryRoad_1F_Text_WallyEntranceDefeat:
 # 173 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I couldn't beat you this time,\n"
+	.string "我练了这么久，还是\n"
 # 174 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "either…\p"
+	.string "不够……可我\l"
 # 175 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "But one of these days,\n"
+	.string "不会放弃！我会\l"
 # 176 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "{PLAYER}, I'm going to catch up to you.\p"
+	.string "一直练到能打赢你！$"
 # 177 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "And then I'll challenge the Pokémon\n"
+
 # 178 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "League!$"
+VictoryRoad_1F_Text_WallyPostEntranceBattle:
 # 179 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "这次我也没能\n"
 # 180 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyGiftFromDad:
+	.string "打赢你……\p"
 # 181 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "That was a great battle, but I still\n"
+	.string "可总有一天，{PLAYER}，\n"
 # 182 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "clearly have more to learn…\p"
+	.string "我会追上你。\p"
 # 183 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Oh! I just remembered, your dad gave me\n"
+	.string "然后去挑战宝可梦\n"
 # 184 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "a package with some items to give to\l"
+	.string "联盟！$"
 # 185 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "you, {PLAYER}.\p"
+
 # 186 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "He said to tell you he was sorry he\n"
+VictoryRoad_1F_Text_WallyGiftFromDad:
 # 187 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "didn't have that one Mega Stone ready\l"
+	.string "这一战真棒，不过我还\n"
 # 188 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "when you defeated him, so he threw in\l"
+	.string "明显有很多要学……\p"
 # 189 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "some extras to make up for it.\p"
+	.string "哦！我刚想起来，你爸爸\n"
 # 190 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Here you go, {PLAYER}.$"
+	.string "托我带了个包裹，\l"
 # 191 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "里面有些东西给你，\l"
 # 192 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyTicketsFromDad:
+	.string "{PLAYER}。\p"
 # 193 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Oh I almost forgot, he gave me these to\n"
+	.string "他说很抱歉在你打败他\n"
 # 194 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "give to you too.\p"
+	.string "的时候没准备好那颗\l"
 # 195 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I'm not sure where these tickets will\n"
+	.string "超级石，所以加了\l"
 # 196 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "take you, but your dad said you can go\l"
+	.string "几样东西补偿。\p"
 # 197 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "to the ferry in Lilycove City and use\l"
+	.string "给你，{PLAYER}。$"
 # 198 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "the tickets there.$"
+
 # 199 "data/maps/VictoryRoad_1F/scripts.pory"
-
+VictoryRoad_1F_Text_WallyTicketsFromDad:
 # 200 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyIntro:
+	.string "哦我差点忘了，他还\n"
 # 201 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Hi! {PLAYER}!\p"
+	.string "让我把这个也给你。\p"
 # 202 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I've gotten stronger since that last\n"
+	.string "我不确定这些票会带你\n"
 # 203 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "time! I wanted to show you, {PLAYER}!\p"
+	.string "去哪儿，不过你爸说\l"
 # 204 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Okay… Here I come!$"
+	.string "你可以去水静市的港口\l"
 # 205 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "用这些票。$"
 # 206 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyDefeat:
+
 # 207 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Wow!\n"
+VictoryRoad_1F_Text_WallyIntro:
 # 208 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "嗨！{PLAYER}！\p"
 # 209 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "上次之后我变强了！\n"
 # 210 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_WallyPostBattle:
+	.string "我想让你看看，\l"
 # 211 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I couldn't beat you this time,\n"
+	.string "{PLAYER}！\p"
 # 212 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "too… But one of these days, {PLAYER},\l"
+	.string "好……我来了！$"
 # 213 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I'm going to catch up to you…\p"
+
 # 214 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "And challenge the Pokémon LEAGUE!$"
+VictoryRoad_1F_Text_WallyDefeat:
 # 215 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "哇！\n"
 # 216 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_EdgarIntro:
+	.string "{PLAYER}，你果然很强！$"
 # 217 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I've made it this far a couple times,\n"
+
 # 218 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "but the last stretch is so long…$"
+VictoryRoad_1F_Text_WallyPostBattle:
 # 219 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "这次我也没能\n"
 # 220 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_EdgarDefeat:
+	.string "打赢你……可总有一天，\l"
 # 221 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "My dream ends here again…$"
+	.string "{PLAYER}，我会追上你……\p"
 # 222 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "然后去挑战宝可梦\n"
 # 223 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_EdgarPostBattle:
+	.string "联盟！$"
 # 224 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "You've made it this far. Keep the\n"
+
 # 225 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "momentum going and become the\l"
+VictoryRoad_1F_Text_EdgarIntro:
 # 226 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "冠军! If anyone can, it's you!$"
+	.string "我到这里已经两次了，\n"
 # 227 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "可最后那段路\l"
 # 228 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_AlbertIntro:
+	.string "太长了……$"
 # 229 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I didn't come all this way to lose now.\n"
+
 # 230 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "That possibility doesn't exist!$"
+VictoryRoad_1F_Text_EdgarDefeat:
 # 231 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "我的梦想又在这里\n"
 # 232 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_AlbertDefeat:
+	.string "结束了……$"
 # 233 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Impossible…\n"
+
 # 234 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I lost?$"
+VictoryRoad_1F_Text_EdgarPostBattle:
 # 235 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "你都走到这儿了。保持\n"
 # 236 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_AlbertPostBattle:
+	.string "这股劲，成为\l"
 # 237 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I lost here…\p"
+	.string "冠军吧！要是有人\l"
 # 238 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "That means I lack the qualifications\n"
+	.string "行，那就是你！$"
 # 239 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "to become the 冠军…$"
-# 240 "data/maps/VictoryRoad_1F/scripts.pory"
 
+# 240 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_Text_AlbertIntro:
 # 241 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_HopeIntro:
+	.string "我大老远来，可不是\n"
 # 242 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "This seemingly infinite and harsh road\n"
+	.string "为了现在输。那种\l"
 # 243 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "lives up to its name of VICTORY.$"
+	.string "可能不存在！$"
 # 244 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 245 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_HopeDefeat:
+VictoryRoad_1F_Text_AlbertDefeat:
 # 246 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Your battle style is fantastic…$"
+	.string "不可能……\n"
 # 247 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "我输了？$"
 # 248 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_HopePostBattle:
+
 # 249 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "You seem to have the potential for\n"
+VictoryRoad_1F_Text_AlbertPostBattle:
 # 250 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "becoming the 冠军.$"
+	.string "我在这里输了……\p"
 # 251 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "这说明我缺少成为\n"
 # 252 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_QuincyIntro:
+	.string "冠军的资格……$"
 # 253 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "What is the VICTORY ROAD?\n"
+
 # 254 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I'll tell you if you win!$"
+VictoryRoad_1F_Text_HopeIntro:
 # 255 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "这条看起来无尽又艰辛\n"
 # 256 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_QuincyDefeat:
+	.string "的路，真配得上\l"
 # 257 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Okay!\n"
+	.string "“胜利”之名。$"
 # 258 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Well done!$"
-# 259 "data/maps/VictoryRoad_1F/scripts.pory"
 
+# 259 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_Text_HopeDefeat:
 # 260 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_QuincyPostBattle:
+	.string "你的战斗方式\n"
 # 261 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Getting through here safely--that's\n"
+	.string "真了不起……$"
 # 262 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "the final test for any 训练家 aiming\l"
+
 # 263 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "to become the Pokémon 冠军.\p"
+VictoryRoad_1F_Text_HopePostBattle:
 # 264 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "That's why it's called the VICTORY\n"
+	.string "你好像有成为\n"
 # 265 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "ROAD.$"
+	.string "冠军的潜力。$"
 # 266 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 267 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_KatelynnIntro:
+VictoryRoad_1F_Text_QuincyIntro:
 # 268 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I have nothing to say to anyone\n"
+	.string "冠军之路是什么？\n"
 # 269 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "that's come this far. Come on!$"
+	.string "你赢了我就告诉你！$"
 # 270 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 271 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_KatelynnDefeat:
+VictoryRoad_1F_Text_QuincyDefeat:
 # 272 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "This is a disgrace…$"
+	.string "好！\n"
 # 273 "data/maps/VictoryRoad_1F/scripts.pory"
-
+	.string "干得好！$"
 # 274 "data/maps/VictoryRoad_1F/scripts.pory"
-VictoryRoad_1F_Text_KatelynnPostBattle:
+
 # 275 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Humph, go right on ahead.\n"
+VictoryRoad_1F_Text_QuincyPostBattle:
 # 276 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "See if I care.$"
+	.string "平安通过这里——\n"
+# 277 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "这就是对所有想成为\l"
+# 278 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "宝可梦冠军的训练家\l"
+# 279 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "的最后考验。\p"
+# 280 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "所以它才叫\n"
+# 281 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "冠军之路。$"
+# 282 "data/maps/VictoryRoad_1F/scripts.pory"
+
+# 283 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_Text_KatelynnIntro:
+# 284 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "对走到这里的人，\n"
+# 285 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "我没什么好说的。\l"
+# 286 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "来吧！$"
+# 287 "data/maps/VictoryRoad_1F/scripts.pory"
+
+# 288 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_Text_KatelynnDefeat:
+# 289 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "真丢脸……$"
+# 290 "data/maps/VictoryRoad_1F/scripts.pory"
+
+# 291 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_Text_KatelynnPostBattle:
+# 292 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "哼，你尽管往前走吧。\n"
+# 293 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "我才不在乎。$"
 
 VictoryRoad_1F_EventScript_PowerfulMonSummoner::
-# 281 "data/maps/VictoryRoad_1F/scripts.pory"
+# 298 "data/maps/VictoryRoad_1F/scripts.pory"
 	lock
-# 282 "data/maps/VictoryRoad_1F/scripts.pory"
+# 299 "data/maps/VictoryRoad_1F/scripts.pory"
 	faceplayer
-# 283 "data/maps/VictoryRoad_1F/scripts.pory"
+# 300 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto_if_set FLAG_TEMP_1, VictoryRoad_1F_EventScript_PowerfulMonSummoner_2
-# 289 "data/maps/VictoryRoad_1F/scripts.pory"
+# 306 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_SummonerIntro, MSGBOX_YESNO
 VictoryRoad_1F_EventScript_PowerfulMonSummoner_1:
-# 292 "data/maps/VictoryRoad_1F/scripts.pory"
+# 309 "data/maps/VictoryRoad_1F/scripts.pory"
 	setflag FLAG_TEMP_1
-# 294 "data/maps/VictoryRoad_1F/scripts.pory"
+# 311 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq VictoryRoad_1F_EventScript_PowerfulMonSummoner_6
 VictoryRoad_1F_EventScript_PowerfulMonSummoner_5:
-# 299 "data/maps/VictoryRoad_1F/scripts.pory"
+# 316 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ChooseRoom
-# 300 "data/maps/VictoryRoad_1F/scripts.pory"
+# 317 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_PowerfulMonSummoner_2:
-# 285 "data/maps/VictoryRoad_1F/scripts.pory"
+# 302 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_SummonerIntroQuick, MSGBOX_YESNO
 	goto VictoryRoad_1F_EventScript_PowerfulMonSummoner_1
 
 VictoryRoad_1F_EventScript_PowerfulMonSummoner_6:
-# 296 "data/maps/VictoryRoad_1F/scripts.pory"
+# 313 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_SummonWomanManNo
 	goto VictoryRoad_1F_EventScript_PowerfulMonSummoner_5
 
 
 VictoryRoad_1F_EventScript_ChooseRoom::
-# 305 "data/maps/VictoryRoad_1F/scripts.pory"
+# 322 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WhichRoom, MSGBOX_DEFAULT
-# 307 "data/maps/VictoryRoad_1F/scripts.pory"
+# 324 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_ChooseRoom_Text_0, 0
-# 308 "data/maps/VictoryRoad_1F/scripts.pory"
+# 325 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_ChooseRoom_Text_1, 1
-# 309 "data/maps/VictoryRoad_1F/scripts.pory"
+# 326 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_ChooseRoom_Text_2, 2
-# 310 "data/maps/VictoryRoad_1F/scripts.pory"
+# 327 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_ChooseRoom_Text_3, MULTI_B_PRESSED
-# 314 "data/maps/VictoryRoad_1F/scripts.pory"
+# 331 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
-# 316 "data/maps/VictoryRoad_1F/scripts.pory"
+# 333 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq VictoryRoad_1F_EventScript_ChooseRoom_2
 VictoryRoad_1F_EventScript_ChooseRoom_1:
-# 321 "data/maps/VictoryRoad_1F/scripts.pory"
+# 338 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq VictoryRoad_1F_EventScript_ChooseRoom_5
 VictoryRoad_1F_EventScript_ChooseRoom_4:
-# 325 "data/maps/VictoryRoad_1F/scripts.pory"
+# 342 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_eq VictoryRoad_1F_EventScript_ChooseRoom_8
 VictoryRoad_1F_EventScript_ChooseRoom_7:
-# 329 "data/maps/VictoryRoad_1F/scripts.pory"
+# 346 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, 2
 	goto_if_eq VictoryRoad_1F_EventScript_ChooseRoom_11
 VictoryRoad_1F_EventScript_ChooseRoom_10:
-# 334 "data/maps/VictoryRoad_1F/scripts.pory"
+# 351 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_ChooseRoom_2:
-# 318 "data/maps/VictoryRoad_1F/scripts.pory"
+# 335 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_SummonWomanManNo
 	goto VictoryRoad_1F_EventScript_ChooseRoom_1
 
 VictoryRoad_1F_EventScript_ChooseRoom_5:
-# 323 "data/maps/VictoryRoad_1F/scripts.pory"
+# 340 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_EntranceRoom
 	goto VictoryRoad_1F_EventScript_ChooseRoom_4
 
 VictoryRoad_1F_EventScript_ChooseRoom_8:
-# 327 "data/maps/VictoryRoad_1F/scripts.pory"
+# 344 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_InnerRoom
 	goto VictoryRoad_1F_EventScript_ChooseRoom_7
 
 VictoryRoad_1F_EventScript_ChooseRoom_11:
-# 331 "data/maps/VictoryRoad_1F/scripts.pory"
+# 348 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_StairsRoom
 	goto VictoryRoad_1F_EventScript_ChooseRoom_10
 
 
 VictoryRoad_1F_EventScript_EntranceRoom::
-# 339 "data/maps/VictoryRoad_1F/scripts.pory"
+# 356 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT
-# 341 "data/maps/VictoryRoad_1F/scripts.pory"
+# 358 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_0, SPECIES_GREAT_TUSK
-# 342 "data/maps/VictoryRoad_1F/scripts.pory"
+# 359 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_1, SPECIES_SCREAM_TAIL
-# 343 "data/maps/VictoryRoad_1F/scripts.pory"
+# 360 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_2, SPECIES_BRUTE_BONNET
-# 344 "data/maps/VictoryRoad_1F/scripts.pory"
+# 361 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_3, SPECIES_FLUTTER_MANE
-# 345 "data/maps/VictoryRoad_1F/scripts.pory"
+# 362 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_4, SPECIES_SLITHER_WING
-# 346 "data/maps/VictoryRoad_1F/scripts.pory"
+# 363 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_5, SPECIES_SANDY_SHOCKS
-# 347 "data/maps/VictoryRoad_1F/scripts.pory"
+# 364 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_6, SPECIES_ROARING_MOON
-# 348 "data/maps/VictoryRoad_1F/scripts.pory"
+# 365 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_7, SPECIES_WALKING_WAKE
-# 349 "data/maps/VictoryRoad_1F/scripts.pory"
+# 366 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_8, SPECIES_GOUGING_FIRE
-# 350 "data/maps/VictoryRoad_1F/scripts.pory"
+# 367 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_9, SPECIES_RAGING_BOLT
-# 351 "data/maps/VictoryRoad_1F/scripts.pory"
+# 368 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_10, MULTI_B_PRESSED
-# 355 "data/maps/VictoryRoad_1F/scripts.pory"
+# 372 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, SPECIES_GREAT_TUSK, DYN_MULTICHOICE_CB_NONE
-# 357 "data/maps/VictoryRoad_1F/scripts.pory"
+# 374 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq VictoryRoad_1F_EventScript_EntranceRoom_2
 VictoryRoad_1F_EventScript_EntranceRoom_1:
-# 362 "data/maps/VictoryRoad_1F/scripts.pory"
+# 379 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ConfirmAndUseSummon
-# 364 "data/maps/VictoryRoad_1F/scripts.pory"
+# 381 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_EntranceRoom_2:
-# 359 "data/maps/VictoryRoad_1F/scripts.pory"
+# 376 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ChooseRoom
 	goto VictoryRoad_1F_EventScript_EntranceRoom_1
 
 
 VictoryRoad_1F_EventScript_InnerRoom::
-# 370 "data/maps/VictoryRoad_1F/scripts.pory"
+# 387 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT
-# 372 "data/maps/VictoryRoad_1F/scripts.pory"
+# 389 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_0, SPECIES_IRON_TREADS
-# 373 "data/maps/VictoryRoad_1F/scripts.pory"
+# 390 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_1, SPECIES_IRON_BUNDLE
-# 374 "data/maps/VictoryRoad_1F/scripts.pory"
+# 391 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_2, SPECIES_IRON_HANDS
-# 375 "data/maps/VictoryRoad_1F/scripts.pory"
+# 392 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_3, SPECIES_IRON_JUGULIS
-# 376 "data/maps/VictoryRoad_1F/scripts.pory"
+# 393 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_4, SPECIES_IRON_MOTH
-# 377 "data/maps/VictoryRoad_1F/scripts.pory"
+# 394 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_5, SPECIES_IRON_THORNS
-# 378 "data/maps/VictoryRoad_1F/scripts.pory"
+# 395 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_6, SPECIES_IRON_VALIANT
-# 379 "data/maps/VictoryRoad_1F/scripts.pory"
+# 396 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_7, SPECIES_IRON_LEAVES
-# 380 "data/maps/VictoryRoad_1F/scripts.pory"
+# 397 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_8, SPECIES_IRON_BOULDER
-# 381 "data/maps/VictoryRoad_1F/scripts.pory"
+# 398 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_InnerRoom_Text_9, SPECIES_IRON_CROWN
-# 382 "data/maps/VictoryRoad_1F/scripts.pory"
+# 399 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_10, MULTI_B_PRESSED
-# 386 "data/maps/VictoryRoad_1F/scripts.pory"
+# 403 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, SPECIES_IRON_TREADS, DYN_MULTICHOICE_CB_NONE
-# 388 "data/maps/VictoryRoad_1F/scripts.pory"
+# 405 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq VictoryRoad_1F_EventScript_InnerRoom_2
 VictoryRoad_1F_EventScript_InnerRoom_1:
-# 393 "data/maps/VictoryRoad_1F/scripts.pory"
+# 410 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ConfirmAndUseSummon
-# 395 "data/maps/VictoryRoad_1F/scripts.pory"
+# 412 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_InnerRoom_2:
-# 390 "data/maps/VictoryRoad_1F/scripts.pory"
+# 407 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ChooseRoom
 	goto VictoryRoad_1F_EventScript_InnerRoom_1
 
 
 VictoryRoad_1F_EventScript_StairsRoom::
-# 401 "data/maps/VictoryRoad_1F/scripts.pory"
+# 418 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WhichPokemon, MSGBOX_DEFAULT
-# 403 "data/maps/VictoryRoad_1F/scripts.pory"
+# 420 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_0, SPECIES_NIHILEGO
-# 404 "data/maps/VictoryRoad_1F/scripts.pory"
+# 421 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_1, SPECIES_GUZZLORD
-# 405 "data/maps/VictoryRoad_1F/scripts.pory"
+# 422 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_2, SPECIES_XURKITREE
-# 406 "data/maps/VictoryRoad_1F/scripts.pory"
+# 423 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_3, SPECIES_BUZZWOLE
-# 407 "data/maps/VictoryRoad_1F/scripts.pory"
+# 424 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_4, SPECIES_BLACEPHALON
-# 408 "data/maps/VictoryRoad_1F/scripts.pory"
+# 425 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_5, SPECIES_STAKATAKA
-# 409 "data/maps/VictoryRoad_1F/scripts.pory"
+# 426 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_6, SPECIES_POIPOLE
-# 410 "data/maps/VictoryRoad_1F/scripts.pory"
+# 427 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_7, SPECIES_PHEROMOSA
-# 411 "data/maps/VictoryRoad_1F/scripts.pory"
+# 428 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_8, SPECIES_CELESTEELA
-# 412 "data/maps/VictoryRoad_1F/scripts.pory"
+# 429 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_StairsRoom_Text_9, SPECIES_KARTANA
-# 413 "data/maps/VictoryRoad_1F/scripts.pory"
+# 430 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultipush VictoryRoad_1F_EventScript_EntranceRoom_Text_10, MULTI_B_PRESSED
-# 417 "data/maps/VictoryRoad_1F/scripts.pory"
+# 434 "data/maps/VictoryRoad_1F/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, SPECIES_NIHILEGO, DYN_MULTICHOICE_CB_NONE
-# 419 "data/maps/VictoryRoad_1F/scripts.pory"
+# 436 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq VictoryRoad_1F_EventScript_StairsRoom_2
 VictoryRoad_1F_EventScript_StairsRoom_1:
-# 424 "data/maps/VictoryRoad_1F/scripts.pory"
+# 441 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ConfirmAndUseSummon
-# 426 "data/maps/VictoryRoad_1F/scripts.pory"
+# 443 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_StairsRoom_2:
-# 421 "data/maps/VictoryRoad_1F/scripts.pory"
+# 438 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_ChooseRoom
 	goto VictoryRoad_1F_EventScript_StairsRoom_1
 
 
 VictoryRoad_1F_EventScript_ConfirmAndUseSummon::
-# 433 "data/maps/VictoryRoad_1F/scripts.pory"
+# 450 "data/maps/VictoryRoad_1F/scripts.pory"
 	copyvar VAR_0x8005, VAR_RESULT
-# 434 "data/maps/VictoryRoad_1F/scripts.pory"
+# 451 "data/maps/VictoryRoad_1F/scripts.pory"
 	bufferspeciesname STR_VAR_1, VAR_0x8005
-# 435 "data/maps/VictoryRoad_1F/scripts.pory"
+# 452 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_ConfirmSummon, MSGBOX_YESNO
-# 437 "data/maps/VictoryRoad_1F/scripts.pory"
+# 454 "data/maps/VictoryRoad_1F/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq VictoryRoad_1F_EventScript_ConfirmAndUseSummon_2
 VictoryRoad_1F_EventScript_ConfirmAndUseSummon_1:
-# 442 "data/maps/VictoryRoad_1F/scripts.pory"
+# 459 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_VeryWell, MSGBOX_DEFAULT
-# 443 "data/maps/VictoryRoad_1F/scripts.pory"
+# 460 "data/maps/VictoryRoad_1F/scripts.pory"
 	delay 30
-# 445 "data/maps/VictoryRoad_1F/scripts.pory"
+# 462 "data/maps/VictoryRoad_1F/scripts.pory"
 	setwildbattle VAR_0x8005, 50
-# 446 "data/maps/VictoryRoad_1F/scripts.pory"
+# 463 "data/maps/VictoryRoad_1F/scripts.pory"
 	waitse
-# 447 "data/maps/VictoryRoad_1F/scripts.pory"
+# 464 "data/maps/VictoryRoad_1F/scripts.pory"
 	playmoncry VAR_0x8005, CRY_MODE_ENCOUNTER
-# 448 "data/maps/VictoryRoad_1F/scripts.pory"
+# 465 "data/maps/VictoryRoad_1F/scripts.pory"
 	delay 40
-# 449 "data/maps/VictoryRoad_1F/scripts.pory"
+# 466 "data/maps/VictoryRoad_1F/scripts.pory"
 	waitmoncry
-# 450 "data/maps/VictoryRoad_1F/scripts.pory"
+# 467 "data/maps/VictoryRoad_1F/scripts.pory"
 	dowildbattle
-# 451 "data/maps/VictoryRoad_1F/scripts.pory"
+# 468 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 VictoryRoad_1F_EventScript_ConfirmAndUseSummon_2:
-# 439 "data/maps/VictoryRoad_1F/scripts.pory"
+# 456 "data/maps/VictoryRoad_1F/scripts.pory"
 	goto VictoryRoad_1F_EventScript_SummonWomanManNo
 	goto VictoryRoad_1F_EventScript_ConfirmAndUseSummon_1
 
 
 VictoryRoad_1F_EventScript_SummonWomanManNo::
-# 457 "data/maps/VictoryRoad_1F/scripts.pory"
+# 474 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_SummonWomanDeclined, MSGBOX_DEFAULT
-# 458 "data/maps/VictoryRoad_1F/scripts.pory"
+# 475 "data/maps/VictoryRoad_1F/scripts.pory"
 	release
 	end
 
 
 VictoryRoad_1F_EventScript_ChooseRoom_Text_0:
-# 307 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Entrance Room$"
+# 324 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "入口房间$"
 
 VictoryRoad_1F_EventScript_ChooseRoom_Text_1:
-# 308 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Inner Room$"
+# 325 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "内部房间$"
 
 VictoryRoad_1F_EventScript_ChooseRoom_Text_2:
-# 309 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Stairs Room$"
+# 326 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "楼梯房间$"
 
 VictoryRoad_1F_EventScript_ChooseRoom_Text_3:
-# 310 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Cancel$"
+# 327 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "取消$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_0:
-# 341 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Great Tusk$"
+# 358 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "雄伟牙$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_1:
-# 342 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Scream Tail$"
+# 359 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "吼叫尾$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_2:
-# 343 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Brute Bonnet$"
+# 360 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "猛恶菇$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_3:
-# 344 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Flutter Mane$"
+# 361 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "振翼发$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_4:
-# 345 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Slither Wing$"
+# 362 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "爬地翅$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_5:
-# 346 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Sandy Shocks$"
+# 363 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "沙铁皮$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_6:
-# 347 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Roaring Moon$"
+# 364 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "轰鸣月$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_7:
-# 348 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Walking Wake$"
+# 365 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "波荡水$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_8:
-# 349 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Gouging Fire$"
+# 366 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "破空焰$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_9:
-# 350 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Raging Bolt$"
+# 367 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "猛雷鼓$"
 
 VictoryRoad_1F_EventScript_EntranceRoom_Text_10:
-# 351 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Back$"
+# 368 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "返回$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_0:
-# 372 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Treads$"
+# 389 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁辙迹$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_1:
-# 373 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Bundle$"
+# 390 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁包袱$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_2:
-# 374 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Hands$"
+# 391 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁臂膀$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_3:
-# 375 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Jugulis$"
+# 392 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁脖颈$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_4:
-# 376 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Moth$"
+# 393 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁毒蛾$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_5:
-# 377 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Thorns$"
+# 394 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁荆棘$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_6:
-# 378 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Valiant$"
+# 395 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁武者$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_7:
-# 379 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Leaves$"
+# 396 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁叶$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_8:
-# 380 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Boulder$"
+# 397 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁磐岩$"
 
 VictoryRoad_1F_EventScript_InnerRoom_Text_9:
-# 381 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Iron Crown$"
+# 398 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁头壳$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_0:
-# 403 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Nihilego$"
+# 420 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "虚吾伊德$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_1:
-# 404 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Guzzlord$"
+# 421 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "恶食大王$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_2:
-# 405 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Xurkitree$"
+# 422 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "电束木$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_3:
-# 406 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Buzzwole$"
+# 423 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "爆肌蚊$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_4:
-# 407 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Blacephalon$"
+# 424 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "砰头小丑$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_5:
-# 408 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Stakataka$"
+# 425 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "垒磊石$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_6:
-# 409 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Poipole$"
+# 426 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "毒贝比$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_7:
-# 410 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Pheromosa$"
+# 427 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "费洛美螂$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_8:
-# 411 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Celesteela$"
+# 428 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "铁火辉夜$"
 
 VictoryRoad_1F_EventScript_StairsRoom_Text_9:
-# 412 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Kartana$"
+# 429 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "纸御剑$"
 
 VictoryRoad_1F_Text_SummonerIntro::
-# 463 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Hello, young trainer.\p"
-	.string "I've come to this remote location\n"
-	.string "because I have learned a powerful\l"
-	.string "technique that allows me to summon one\l"
-	.string "Pokémon from a remote location.\p"
-	.string "Would you like me to summon a Pokémon\n"
-	.string "here so you can battle it?$"
+# 480 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "你好，年轻的训练家。\p"
+	.string "我来到这个偏僻的地方，\n"
+	.string "是因为学会了一门强力的\l"
+	.string "技艺，能从这洞穴里几乎\l"
+	.string "遥远之处的宝可梦。\p"
+	.string "要我把一只宝可梦召唤\n"
+	.string "到这儿来和你对战吗？$"
 
 VictoryRoad_1F_Text_SummonerIntroQuick::
-# 473 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Would you like me to summon a Pokémon\n"
-	.string "here so you can battle it?$"
+# 490 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "要我把一只宝可梦召唤\n"
+	.string "到这儿来和你对战吗？$"
 
 VictoryRoad_1F_Text_WhichRoom::
-# 478 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Which room would you like me to summon a\n"
-	.string "Pokémon from?$"
+# 495 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "你想让我从哪个房间\n"
+	.string "召唤宝可梦？$"
 
 VictoryRoad_1F_Text_WhichPokemon::
-# 483 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Which Pokémon would you like me to\n"
-	.string "summon so you can battle?$"
+# 500 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "你想让我召唤哪只\n"
+	.string "宝可梦和你对战？$"
 
 VictoryRoad_1F_Text_ConfirmSummon::
-# 488 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "So you want me to summon a\n"
-	.string "{STR_VAR_1} for you to battle?$"
+# 505 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "那么，你想让我召唤一只\n"
+	.string "{STR_VAR_1}来和你对战吗？$"
 
 VictoryRoad_1F_Text_VeryWell::
-# 493 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "Very well, prepare yourself for battle.$"
+# 510 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "很好，做好对战的准备吧。$"
 
 VictoryRoad_1F_SummonWomanDeclined::
-# 497 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "I see. Let me know if you change\n"
-	.string "your mind.$"
+# 514 "data/maps/VictoryRoad_1F/scripts.pory"
+	.string "我明白了。若你改变主意，\n"
+	.string "就告诉我。$"

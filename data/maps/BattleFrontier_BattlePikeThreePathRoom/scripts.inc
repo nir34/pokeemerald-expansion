@@ -533,208 +533,208 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
 # 267 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
 # 268 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第1个\n"
 # 269 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 1st room…$"
+	.string "房间……$"
 # 270 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 271 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
 # 272 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第3个\n"
 # 273 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 3rd room…$"
+	.string "房间……$"
 # 274 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 275 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
 # 276 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第5个\n"
 # 277 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 5th room…$"
+	.string "房间……$"
 # 278 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 279 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
 # 280 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第7个\n"
 # 281 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 7th room…$"
+	.string "房间……$"
 # 282 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 283 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
 # 284 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第9个\n"
 # 285 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 9th room…$"
+	.string "房间……$"
 # 286 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 287 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
 # 288 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第11个\n"
 # 289 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 11th room…$"
+	.string "房间……$"
 # 290 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 291 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
 # 292 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "You are currently in\n"
+	.string "你现在在第13个\n"
 # 293 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "the 13th room…$"
+	.string "房间……$"
 # 294 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 295 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
 # 296 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Will you continue with\n"
+	.string "你要继续挑战吗？$"
 # 297 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "your challenge?$"
+
 # 298 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 299 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
+# 299 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "你想保存挑战进度，\n"
 # 300 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Would you like to save your challenge\n"
+	.string "暂时退出游戏吗？$"
 # 301 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "and quit the game for now?$"
+
 # 302 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 303 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
+# 303 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "你想退出对战选择\n"
 # 304 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Do you wish to retire from your\n"
+	.string "挑战吗？$"
 # 305 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Battle Choice challenge?$"
+
 # 306 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 307 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
+# 307 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "我们一直在等你回来……\p"
 # 308 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "We've been awaiting your return…\p"
+	.string "继续你的对战选择挑战前，\n"
 # 309 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Before resuming your Battle Choice\n"
+	.string "让我保存游戏……$"
 # 310 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "challenge, let me save the game…$"
+
 # 311 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 312 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
+# 312 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "请好好享受你的对战选择\n"
 # 313 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Please do enjoy your Battle Choice\n"
+	.string "挑战……$"
 # 314 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "challenge…$"
+
 # 315 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 316 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
+# 316 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "我正在保存数据……\n"
 # 317 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I am saving your data…\n"
+	.string "请稍等……$"
 # 318 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "A little time, please…$"
+
 # 319 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 320 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
+# 320 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "路被挡住了！\n"
 # 321 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "The path is blocked!\n"
+	.string "而且没法回头……$"
 # 322 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "And there is no turning back…$"
+
 # 323 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 324 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
+# 324 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "打扰一下……\p"
 # 325 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I beg your pardon, but…\p"
+	.string "你是不是觉得选路\n"
 # 326 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Are you perhaps finding it difficult\n"
+	.string "很难？$"
 # 327 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "to choose your path?$"
+
 # 328 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 329 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
+# 329 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "我明白了……\n"
 # 330 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I see…\n"
+	.string "请原谅我多嘴……$"
 # 331 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I apologize for my impertinence…$"
+
 # 332 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 333 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
+# 333 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "啊，让我看看……右边的路\n"
 # 334 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Ah, let me see… There is something\n"
+	.string "有点什么……$"
 # 335 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "about the path on the right…$"
+
 # 336 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 337 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
+# 337 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "啊，让我看看……中间的路\n"
 # 338 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Ah, let me see… There is something\n"
+	.string "有点什么……$"
 # 339 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "about the path in the center…$"
+
 # 340 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 341 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
+# 341 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "啊，让我看看……左边的路\n"
 # 342 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Ah, let me see… There is something\n"
+	.string "有点什么……$"
 # 343 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "about the path on the left…$"
+
 # 344 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 345 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
+# 345 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "它周围似乎飘着\n"
 # 346 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "It seems to have the distinct aroma\n"
+	.string "宝可梦特有的气味……$"
 # 347 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "of Pokémon wafting around it…$"
+
 # 348 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 349 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
+# 349 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "那是……训练家？\n"
 # 350 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Is it… A 训练家?\n"
+	.string "我感觉到人的气息……$"
 # 351 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I sense the presence of people…$"
+
 # 352 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 353 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
+# 353 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "我好像听到了什么……\n"
 # 354 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I seem to have heard something…\n"
+	.string "也许是窃窃私语……$"
 # 355 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "It may have been whispering…$"
+
 # 356 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-
-# 357 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
+# 357 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "不知为什么，我从它那里\n"
 # 358 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "For some odd reason, I felt a wave\n"
+	.string "感到一阵乡愁……$"
 # 359 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "of nostalgia coming from it…$"
-# 360 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
-# 361 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+# 360 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
+# 361 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+	.string "很遗憾地说……\p"
 # 362 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I am sorry to say…\p"
+	.string "一场可怕的事，是的，一场\n"
 # 363 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "A terrifying event, yes, a horrible one,\n"
+	.string "恐怖的事，就要降临到你\l"
 # 364 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "is about to befall you…\p"
+	.string "身上……\p"
 # 365 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "I urge you to pay the utmost care\n"
+	.string "我劝你格外小心，\n"
 # 366 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "and prepare for the worst…$"
+	.string "做最坏的准备……$"
 # 367 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 368 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
 # 369 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "From every path I sense a dreadful\n"
+	.string "每条路我都感觉到\n"
 # 370 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "presence…$"
+	.string "可怕的气息……$"

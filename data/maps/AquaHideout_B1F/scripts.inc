@@ -219,104 +219,108 @@ AquaHideout_B1F_EventScript_Grunt7::
 # 110 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt2Intro:
 # 111 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "If you want to know the secret about\n"
+	.string "想知道我们基地的秘密，\n"
 # 112 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "our Hideout, you have me to beat!$"
+	.string "就得先打赢我！$"
 # 113 "data/maps/AquaHideout_B1F/scripts.pory"
 
 # 114 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt2Defeat:
 # 115 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "I can't win at all…$"
+	.string "我完全赢不了……$"
 # 116 "data/maps/AquaHideout_B1F/scripts.pory"
 
 # 117 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt2PostBattle:
 # 118 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Our Hideout's secret?\p"
+	.string "我们基地的秘密？\p"
 # 119 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Well, let's just say…\n"
+	.string "这么说吧……\n"
 # 120 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "There's a submarine at the far end!\p"
+	.string "最里面有一艘潜水艇！\p"
 # 121 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "But, by now…\n"
+	.string "不过，现在嘛……\n"
 # 122 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Kekekeke…$"
+	.string "呵呵呵呵……$"
 # 123 "data/maps/AquaHideout_B1F/scripts.pory"
 
 # 124 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt3Intro:
 # 125 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Fuel supply loaded A-OK!\n"
+	.string "燃料装好了！出航\n"
 # 126 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "In-cruise snacks loaded A-OK!\p"
+	.string "零食也装好了！\p"
 # 127 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Nothing left to do but KO a pesky\n"
+	.string "剩下就是打倒一个\n"
 # 128 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "meddler!$"
+	.string "多管闲事的家伙！$"
 # 129 "data/maps/AquaHideout_B1F/scripts.pory"
 
 # 130 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt3Defeat:
 # 131 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "I took a serious licking!$"
+	.string "我被打得够呛！$"
 # 132 "data/maps/AquaHideout_B1F/scripts.pory"
 
 # 133 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt3PostBattle:
 # 134 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Humph!\n"
+	.string "哼！\n"
 # 135 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "This was supposed to happen!\p"
+	.string "这本来就在计划里！\p"
 # 136 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "My mission was to just hold you up!$"
+	.string "我的任务就是\n"
 # 137 "data/maps/AquaHideout_B1F/scripts.pory"
-
+	.string "拖住你！$"
 # 138 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt5Intro:
+
 # 139 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Yawn… Keeping watch over the\n"
+AquaHideout_B1F_Text_Grunt5Intro:
 # 140 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Hideout bores me. I'll take you on.$"
+	.string "哈啊……看守基地\n"
 # 141 "data/maps/AquaHideout_B1F/scripts.pory"
-
+	.string "好无聊。那就跟你打吧。$"
 # 142 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt5Defeat:
+
 # 143 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Yawn…\n"
+AquaHideout_B1F_Text_Grunt5Defeat:
 # 144 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Oh, I lost…$"
+	.string "哈啊……\n"
 # 145 "data/maps/AquaHideout_B1F/scripts.pory"
-
+	.string "哦，我输了……$"
 # 146 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt5PostBattle:
+
 # 147 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "If you scurry too much, other Team\n"
+AquaHideout_B1F_Text_Grunt5PostBattle:
 # 148 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Aqua members might get you.$"
+	.string "你要是跑得太急，别的\n"
 # 149 "data/maps/AquaHideout_B1F/scripts.pory"
-
+	.string "水舰队成员可能会\l"
 # 150 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt7Intro:
+	.string "抓住你哦。$"
 # 151 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Hey!\n"
+
 # 152 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "You there!\p"
+AquaHideout_B1F_Text_Grunt7Intro:
 # 153 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Which do you think is cooler?\n"
+	.string "嘿！\n"
 # 154 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "Team Aqua's uniform or Team Magma's?$"
+	.string "你！\p"
 # 155 "data/maps/AquaHideout_B1F/scripts.pory"
-
+	.string "你觉得哪个更酷？\n"
 # 156 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt7Defeat:
+	.string "水舰队的制服还是熔岩队的？$"
 # 157 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "I lost in a cool way…$"
-# 158 "data/maps/AquaHideout_B1F/scripts.pory"
 
+# 158 "data/maps/AquaHideout_B1F/scripts.pory"
+AquaHideout_B1F_Text_Grunt7Defeat:
 # 159 "data/maps/AquaHideout_B1F/scripts.pory"
-AquaHideout_B1F_Text_Grunt7PostBattle:
+	.string "我输得很酷……$"
 # 160 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "If you have a cool uniform, you look\n"
+
 # 161 "data/maps/AquaHideout_B1F/scripts.pory"
-	.string "good even in a loss, don't you think?$"
+AquaHideout_B1F_Text_Grunt7PostBattle:
+# 162 "data/maps/AquaHideout_B1F/scripts.pory"
+	.string "有酷制服，就算输了\n"
+# 163 "data/maps/AquaHideout_B1F/scripts.pory"
+	.string "也显得好看，你不觉得？$"

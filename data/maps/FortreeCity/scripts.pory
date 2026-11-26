@@ -89,60 +89,65 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-	.string "Yo, this is the creator's lab! He put me\n"
-	.string "here just to tell you that!$"
+	.string "唔，这里是作者的实验室！\n"
+	.string "他把我放这儿就为了\l"
+	.string "告诉你这件事！$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the Pokémon Gym,\n"
-	.string "but something's blocking the way.\p"
-	.string "After all the bother I went through\n"
-	.string "training on Route 120…$"
+	.string "我想去宝可梦道馆，\n"
+	.string "可有东西挡着路。\p"
+	.string "我在120号道路辛苦\n"
+	.string "训练了那么久……$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy Pokémon\n"
-	.string "with me. This time, I'll beat Winona.$"
+	.string "我带着我最宝贝的\n"
+	.string "宝可梦。这次我要\l"
+	.string "打赢娜琪。$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
-	.string "trees grow by drinking that water…\p"
-	.string "Our Fortree City exists because\n"
-	.string "there's both water and soil.$"
+	.string "地面吸收雨水，树喝了\n"
+	.string "水才会长……\p"
+	.string "我们茵郁市能存在，\n"
+	.string "全靠水和泥土。$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "I'm 30 years old.$"
+	.string "我30岁。$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
-	.string "Living on top of trees is okay.\p"
-	.string "But sometimes Bug Pokémon come in\n"
-	.string "through windows.\l"
-	.string "It can be really startling.$"
+	.string "住在树上还不错。\p"
+	.string "不过有时候虫宝可梦\n"
+	.string "会从窗户钻进来。\l"
+	.string "挺吓人的。$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are Pokémon that evolve when\n"
-	.string "you trade them! That's what I heard.$"
+	.string "听说有些宝可梦\n"
+	.string "通过交换就能进化！$"
 
 FortreeCity_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "有看不见的东西\n"
+	.string "挡在路上。$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the Devon Scope?$"
+	.string "有看不见的东西\n"
+	.string "挡在路上。\p"
+	.string "要用得文透视镜吗？$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the Devon Scope.\p"
-	.string "An invisible Pokémon became completely\n"
-	.string "visible!\p"
-	.string "The startled Pokémon fled!$"
+	.string "{PLAYER}使用了\n"
+	.string "得文透视镜。\p"
+	.string "一只看不见的宝可梦\n"
+	.string "完全显形了！\p"
+	.string "受惊的宝可梦逃走了！$"
 
 FortreeCity_Text_CitySign:
-	.string "Fortree City\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string "茵郁市\n"
+	.string "“与自然嬉戏的\l"
+	.string "树顶之城。”$"
 
 FortreeCity_Text_GymSign:
-	.string "Fortree City Pokémon Gym\n"
-	.string "Leader: Winona\p"
-	.string "“The bird user taking flight into\n"
-	.string "the world.”$"
+	.string "茵郁市宝可梦道馆\n"
+	.string "馆主：娜琪\p"
+	.string "“飞向世界的\l"
+	.string "鸟宝可梦使者。”$"
 
 `

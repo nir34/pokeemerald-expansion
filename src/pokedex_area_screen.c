@@ -780,7 +780,7 @@ static void DestroyAreaScreenSprites(void)
     for (i = 0; i < sPokedexAreaScreen->numAreaMarkerSprites; i++)
         DestroySprite(sPokedexAreaScreen->areaMarkerSprites[i]);
 
-    // Destroy "Area Unknown" sprites
+    // Destroy "区域未知" sprites
     FreeSpriteTilesByTag(TAG_AREA_UNKNOWN);
     FreeSpritePaletteByTag(TAG_AREA_UNKNOWN);
     for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
@@ -808,13 +808,13 @@ static void CreateAreaUnknownSprites(void)
 
     if (sPokedexAreaScreen->numOverworldAreas || sPokedexAreaScreen->numSpecialAreas)
     {
-        // The current species is present on the map, don't create any "Area Unknown" sprites
+        // The current species is present on the map, don't create any "区域未知" sprites
         for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
             sPokedexAreaScreen->areaUnknownSprites[i] = NULL;
     }
     else
     {
-        // The current species is absent on the map, try to create "Area Unknown" sprites
+        // The current species is absent on the map, try to create "区域未知" sprites
         for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
         {
             u8 spriteId = CreateSprite(&sAreaUnknownSpriteTemplate, i * 32 + 160, 140, 0);

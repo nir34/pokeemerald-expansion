@@ -177,18 +177,18 @@ MtChimney_CableCarStation_Movement_ExitCableCar:
 # 89 "data/maps/MtChimney_CableCarStation/scripts.pory"
 MtChimney_CableCarStation_Text_CableCarReadyGetOn:
 # 90 "data/maps/MtChimney_CableCarStation/scripts.pory"
-	.string "The Cable Car is ready to go down.\n"
+	.string "缆车准备下山了。\n"
 # 91 "data/maps/MtChimney_CableCarStation/scripts.pory"
-	.string "Would you like to be on it?$"
+	.string "你要乘坐吗？$"
 # 92 "data/maps/MtChimney_CableCarStation/scripts.pory"
 
 # 93 "data/maps/MtChimney_CableCarStation/scripts.pory"
 MtChimney_CableCarStation_Text_StepThisWay:
 # 94 "data/maps/MtChimney_CableCarStation/scripts.pory"
-	.string "Please step this way.$"
+	.string "请往这边走。$"
 # 95 "data/maps/MtChimney_CableCarStation/scripts.pory"
 
 # 96 "data/maps/MtChimney_CableCarStation/scripts.pory"
 MtChimney_CableCarStation_Text_RideAnotherTime:
 # 97 "data/maps/MtChimney_CableCarStation/scripts.pory"
-	.string "Please ride with us another time.$"
+	.string "请下次再来乘坐。$"

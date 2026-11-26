@@ -111,110 +111,110 @@ LilycoveCity_House2_EventScript_SilvallyManNo::
 
 LilycoveCity_House2_EventScript_FatMan_Text_0:
 # 28 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Fighting$"
+	.string "格斗$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_1:
 # 29 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Flying$"
+	.string "飞行$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_2:
 # 30 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Poison$"
+	.string "毒$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_3:
 # 31 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Ground$"
+	.string "地面$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_4:
 # 32 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Rock$"
+	.string "岩石$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_5:
 # 33 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Bug$"
+	.string "虫$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_6:
 # 34 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Ghost$"
+	.string "幽灵$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_7:
 # 35 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Steel$"
+	.string "钢$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_8:
 # 36 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Fire$"
+	.string "火$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_9:
 # 37 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Water$"
+	.string "水$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_10:
 # 38 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Grass$"
+	.string "草$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_11:
 # 39 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Electric$"
+	.string "电$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_12:
 # 40 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Psychic$"
+	.string "超能力$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_13:
 # 41 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Ice$"
+	.string "冰$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_14:
 # 42 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Dragon$"
+	.string "龙$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_15:
 # 43 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Dark$"
+	.string "恶$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_16:
 # 44 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Fairy$"
+	.string "妖精$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_17:
 # 45 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Cancel$"
+	.string "取消$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_18:
 # 57 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Okay fine, let's trade memories then.$"
+	.string "好吧，那我们就交换记忆吧。$"
 
 LilycoveCity_House2_EventScript_FatMan_Text_19:
 # 59 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Come back if you want to trade\nmemories again!$"
+	.string "想再交换记忆的话，\n就再来吧！$"
 
 LilycoveCity_House2_EventScript_SilvallyManNo_Text_0:
 # 66 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Whatever man, didn't want to give you\nany more memories anyway.$"
+	.string "随便你，反正我也不想再\n给你记忆了。$"
 
 LilycoveCity_House2_SilvallyManIntro::
 # 71 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "I don't know what you heard, but I've\n"
-	.string "got a great memory.\p"
-	.string "Don't believe me? Here, check this out.$"
+	.string "我不知道你听说了什么，\n"
+	.string "不过我可是有很好的记忆。\p"
+	.string "不信？来，看看这个。$"
 
 LilycoveCity_House2_SeeGoodMemory::
 # 77 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Come back anytime if you want a\n"
-	.string "different memory.$"
+	.string "想要别的记忆的话，\n"
+	.string "随时再来。$"
 
 SilvallyManSwapMemory::
 # 82 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "What now? That memory's not good\n"
-	.string "enough for you?\p"
-	.string "That's fine, I've got plenty.\p"
-	.string "Here, I'll even let you take your pick,\n"
-	.string "but you'll have to give me that one back\l"
-	.string "in exchange.\p"
-	.string "Which Memory do you want?$"
+	.string "怎么了？那块记忆还\n"
+	.string "不够好吗？\p"
+	.string "没关系，我多得是。\p"
+	.string "来，我甚至让你自己挑，\n"
+	.string "不过你得把那块还给我\l"
+	.string "作为交换。\p"
+	.string "你想要哪块记忆？$"
 
 LilycoveCity_House2_Text_NoMemories::
 # 92 "data/maps/LilycoveCity_House2/scripts.pory"
-	.string "Nice try, but you don't even have any\n"
-	.string "memories to trade with me!$"
+	.string "想得美，你根本\n"
+	.string "没有记忆能和我交换！$"

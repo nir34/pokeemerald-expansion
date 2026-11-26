@@ -8,23 +8,24 @@ SeafloorCavern_Room3_EventScript_Grunt5::
 	end
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
-	.string "For our dream to become real, we need\n"
-	.string "the power of Pokémon.\p"
-	.string "But meddlers like you use the power of\n"
-	.string "Pokémon to mess with us even at\l"
-	.string "a place like this!\p"
-	.string "Life just doesn't work the way we\n"
-	.string "need it to!$"
+	.string "要实现我们的梦想，\n"
+	.string "需要宝可梦的力量。\p"
+	.string "可像你这样碍事的人，\n"
+	.string "连在这种地方都把\l"
+	.string "宝可梦的力量\l"
+	.string "用来坏我们的事！\p"
+	.string "事情就是不按\n"
+	.string "我们想的来！$"
 
 SeafloorCavern_Room3_Text_Grunt5Defeat:
-	.string "Gwah!$"
+	.string "咕哇！$"
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle:
-	.string "You know, we don't dare question\n"
-	.string "the motives of our leader.\p"
-	.string "But here you are, just some punk,\n"
-	.string "going up against our BOSS.\p"
-	.string "Maybe…\n"
-	.string "You must be something…$"
+	.string "你知道吗，我们都不敢\n"
+	.string "质疑老大的动机。\p"
+	.string "可你，一个小鬼，\n"
+	.string "居然敢对抗我们老大。\p"
+	.string "也许……\n"
+	.string "你确实不简单……$"
 
 `

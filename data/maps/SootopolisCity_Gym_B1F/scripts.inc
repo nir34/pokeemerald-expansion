@@ -109,258 +109,268 @@ SootopolisCity_Gym_B1F_EventScript_Daphne::
 # 55 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_AndreaIntro:
 # 56 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I'll show you the sublime techniques\n"
+	.string "让你看看我从馆主阿丹\n"
 # 57 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I learned from our LEADER JUAN!$"
+	.string "那里学到的超凡技巧！$"
 # 58 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 59 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_AndreaDefeat:
 # 60 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Please forgive me, JUAN…$"
+	.string "阿丹，请原谅我……$"
 # 61 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 62 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
 # 63 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Watch what happens if you crack all\n"
+	.string "看看把地砖全部踩碎\n"
 # 64 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "the floor tiles.$"
+	.string "会发生什么。$"
 # 65 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 66 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
 # 67 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You came all the way here, but you won't\n"
+	.string "你大老远来了，可见不到\n"
 # 68 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "get to see JUAN.\p"
+	.string "阿丹。\p"
 # 69 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Not if you lose to me, you won't!$"
+	.string "只要输给我，就见不到！$"
 # 70 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 71 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
 # 72 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You're strong!\n"
+	.string "你很强！\n"
 # 73 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I was fooled by your cute looks!$"
+	.string "我被你可爱的外表骗了！$"
 # 74 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 75 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
 # 76 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You might be good enough to avoid\n"
+	.string "你也许强得足以不被阿丹\n"
 # 77 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "being wiped out in one hit by JUAN.$"
+	.string "一招打垮。$"
 # 78 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 79 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
 # 80 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "The sight of JUAN conducting\n"
+	.string "看阿丹指挥对战的样子……\p"
 # 81 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "a battle…\p"
+	.string "那份美让我不由得\n"
 # 82 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "The very beauty of it compelled me to\n"
+	.string "成为训练家。$"
 # 83 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "become a 训练家.$"
+
 # 84 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 85 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
+# 85 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "你打得比我更有\n"
 # 86 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You battled with more beauty than\n"
+	.string "美感……$"
 # 87 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I could muster…$"
+
 # 88 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 89 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
+# 89 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "你在对战中展现的优雅\n"
 # 90 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "The grace you bring to battle is\n"
+	.string "真了不起。\p"
 # 91 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "fabulous.\p"
+	.string "哦……我真幸运\n"
 # 92 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oh… I'm so fortunate to have found\n"
+	.string "遇见了宝可梦。$"
 # 93 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Pokémon.$"
+
 # 94 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 95 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
+# 95 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "我该教教你对战能\n"
 # 96 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I should teach you how harsh battles\n"
+	.string "有多残酷。$"
 # 97 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "can be.$"
+
 # 98 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 99 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_ConnieDefeat:
+# 99 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "哦。\n"
 # 100 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oh.\n"
+	.string "你很强。$"
 # 101 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You're strong.$"
+
 # 102 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 103 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_ConniePostBattle:
+# 103 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "我告诉你个好消息。\p"
 # 104 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I'll tell you something good.\p"
+	.string "想走到阿丹那儿，你得把\n"
 # 105 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "If you want to reach JUAN, you\n"
+	.string "每块地砖都踩一次。$"
 # 106 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "need to walk on each floor tile once.$"
+
 # 107 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 108 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
+# 108 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "丰缘地区最高等级的\n"
 # 109 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "The Pokémon GYM of the highest level\n"
+	.string "宝可梦道馆……\p"
 # 110 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "in the 丰缘 region…\p"
+	.string "就是琉璃道馆。$"
 # 111 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "That's the SOOTOPOLIS GYM.$"
+
 # 112 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
-# 113 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:
+# 113 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "你的等级真高！$"
 # 114 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "What a high level you are!$"
-# 115 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
-# 116 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+# 115 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
+# 116 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "与其满足于待在强道馆里，\n"
 # 117 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Rather than being satisfied by being\n"
+	.string "我想去别的地方修行\l"
 # 118 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "in a strong GYM, I imagine training in\l"
+	.string "会让人更强。\l"
 # 119 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "other places will make you stronger.\l"
+	.string "而且最重要的是，\l"
 # 120 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "But above all, it looks more fun.$"
+	.string "看起来更好玩。$"
 # 121 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 122 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_OliviaIntro:
 # 123 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I train my Pokémon together with\n"
+	.string "我和阿丹一起训练\n"
 # 124 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "JUAN.\p"
+	.string "宝可梦。\p"
 # 125 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Don't think I'm a pushover.$"
+	.string "别以为我好欺负。$"
 # 126 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 127 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
 # 128 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I was beaten…$"
+	.string "我被打败了……$"
 # 129 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 130 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
 # 131 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I think you have potential.\n"
+	.string "我觉得你有潜力。\n"
 # 132 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Why don't you stay and train with us?$"
+	.string "不如留下来\l"
 # 133 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "和我们一起训练？$"
 # 134 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_TiffanyIntro:
+
 # 135 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "A graceful glide across the ice while\n"
+SootopolisCity_Gym_B1F_Text_TiffanyIntro:
 # 136 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "crossing no lines…\p"
+	.string "优雅地滑过冰面，\n"
 # 137 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "A 训练家 putting on that performance\n"
+	.string "一条线都不压到……\p"
 # 138 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "would be elegantly beautiful!$"
+	.string "做出那种表演的训练家，\n"
 # 139 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "一定优雅又美丽！$"
 # 140 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
+
 # 141 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Well, excuse me?!$"
+SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
 # 142 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "哎呀，你说什么？！$"
 # 143 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
+
 # 144 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "This is really obvious, but how strong\n"
+SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 # 145 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "you are as a 训练家 has nothing to do\l"
+	.string "这很明显，但训练家\n"
 # 146 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "with how young or old you are.$"
+	.string "强弱和年龄大小\l"
 # 147 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "一点关系都没有。$"
 # 148 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BethanyIntro:
+
 # 149 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "When I'm with my Pokémon, the time\n"
+SootopolisCity_Gym_B1F_Text_BethanyIntro:
 # 150 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "flies by before you can say, “Oops!”$"
+	.string "和宝可梦在一起，时间\n"
 # 151 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "一眨眼就过去了，\l"
 # 152 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BethanyDefeat:
+	.string "喊一声“糟了”都来不及。$"
 # 153 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oops!$"
+
 # 154 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+SootopolisCity_Gym_B1F_Text_BethanyDefeat:
 # 155 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
+	.string "糟了！$"
 # 156 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I wish I could forget about lost causes\n"
+
 # 157 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "before I can manage an “Oops!”$"
+SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
 # 158 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "真希望我在喊出“糟了”\n"
 # 159 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_AnnikaIntro:
+	.string "之前，就能对\l"
 # 160 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I can battle with really rare Pokémon\n"
+	.string "没希望的事死心。$"
 # 161 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "if you'd like.$"
-# 162 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
+# 162 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+SootopolisCity_Gym_B1F_Text_AnnikaIntro:
 # 163 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
+	.string "你想要的话，我可以\n"
 # 164 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oh, there now! Did you have a good look\n"
+	.string "用很稀有的宝可梦\l"
 # 165 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "at my Pokémon?$"
+	.string "和你打。$"
 # 166 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
 # 167 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
+SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
 # 168 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I came to this GYM because JUAN\n"
+	.string "哎呀，好了！你好好看过\n"
 # 169 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "praised me for my darling Pokémon.\p"
+	.string "我的宝可梦了吗？$"
 # 170 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oh, if only I'd met JUAN years ago\n"
+
 # 171 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "when I was younger…$"
+SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
 # 172 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "我来这个道馆，是因为\n"
 # 173 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BriannaIntro:
+	.string "阿丹夸我的宝可梦\l"
 # 174 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Giggle…\n"
+	.string "可爱。\p"
 # 175 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Your grim look is so charming.$"
+	.string "哦，要是我在年轻点时\n"
 # 176 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-
+	.string "就遇见阿丹就好了……$"
 # 177 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BriannaDefeat:
-# 178 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "Oh, dear.\n"
-# 179 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I went much too easy on you.$"
-# 180 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 
+# 178 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+SootopolisCity_Gym_B1F_Text_BriannaIntro:
+# 179 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "嘻嘻……\n"
+# 180 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "你严肃的样子真迷人。$"
 # 181 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
+
 # 182 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "You couldn't lay a finger on JUAN,\n"
+SootopolisCity_Gym_B1F_Text_BriannaDefeat:
 # 183 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	.string "I'm sure. Giggle…$"
+	.string "哦，天啊。\n"
+# 184 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "我对你太手下留情了。$"
+# 185 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+
+# 186 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
+# 187 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "你肯定碰都碰不到\n"
+# 188 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
+	.string "阿丹。嘻嘻……$"

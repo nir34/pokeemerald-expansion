@@ -31,24 +31,24 @@ FortreeCity_House5_EventScript_Zigzagoon::
 # 16 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_TreeHousesAreGreat:
 # 17 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "I think it's the number one town for\n"
+	.string "我觉得这里是最适合\n"
 # 18 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "living together with Pokémon.$"
+	.string "和宝可梦一起生活的城市。$"
 # 19 "data/maps/FortreeCity_House5/scripts.pory"
 
 # 20 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_AdaptedToNature:
 # 21 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "Pokémon and people have adapted to\n"
+	.string "宝可梦和人为了生存\n"
 # 22 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "nature for survival.\p"
+	.string "适应了自然。\p"
 # 23 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "There's no need to make nature\n"
+	.string "没必要让自然来迁就\n"
 # 24 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "conform to the way we want to live.$"
+	.string "我们想过的方式。$"
 # 25 "data/maps/FortreeCity_House5/scripts.pory"
 
 # 26 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_Zigzagoon:
 # 27 "data/maps/FortreeCity_House5/scripts.pory"
-	.string "ZIGZAGOON: Bufuu!$"
+	.string "蛇纹熊：布呼！$"

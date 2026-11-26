@@ -25,12 +25,12 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 # 13 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
 # 14 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
-	.string "Every Pokémon has a special ability\n"
+	.string "每只宝可梦都有自己能用的\n"
 # 15 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
-	.string "that it can use.$"
+	.string "特殊能力。$"
 # 16 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 
 # 17 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 RustboroCity_Flat1_1F_Text_PokemonStrange:
 # 18 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
-	.string "Pokémon are such strange creatures.$"
+	.string "宝可梦真是奇怪的生物。$"

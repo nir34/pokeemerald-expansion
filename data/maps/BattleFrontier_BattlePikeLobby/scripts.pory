@@ -273,167 +273,163 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-	.string "Where the luck of TRAINERS\n"
-	.string "is put to the test…\p"
-	.string "Welcome to the BATTLE PIKE…\p"
-	.string "I am your guide to the BATTLE PIKE…$"
+	.string "这里是考验训练家\n"
+	.string "运气的地方……\p"
+	.string "欢迎来到对战管道……\p"
+	.string "我是你的对战管道向导……$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Choice challenge?$"
+	.string "你想挑战对战选择吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-	.string "Here we conduct an event we call\n"
-	.string "the Battle Choice.\p"
-	.string "The Battle Choice rules are very\n"
-	.string "simple…\p"
-	.string "Choose one of three paths and make\n"
-	.string "your way to the goal room at the end\l"
-	.string "of the BATTLE PIKE. It's that simple.\p"
-	.string "However, what happens on the chosen\n"
-	.string "path depends entirely on the luck\l"
-	.string "of the challenger…\p"
-	.string "If you reach the goal, you will be\n"
-	.string "rewarded with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please have a word with\l"
-	.string "our staff in the big rooms on the way.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "这里举办的活动叫\n"
+	.string "对战选择。\p"
+	.string "对战选择的规则\n"
+	.string "很简单……\p"
+	.string "从三条路里选一条，\n"
+	.string "一路走到对战管道尽头的\l"
+	.string "目标房间。就这么简单。\p"
+	.string "不过，选的那条路上\n"
+	.string "会发生什么，全看挑战者\l"
+	.string "的运气……\p"
+	.string "要是到达目标，你会\n"
+	.string "得到对战点数的奖励。\p"
+	.string "想中断挑战，请去路上\n"
+	.string "的大房间找我们的\l"
+	.string "工作人员说一声。\p"
+	.string "要是中断前没保存，\n"
+	.string "你会被取消资格。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
-	.string "We look forward to seeing you\n"
-	.string "on another occasion…$"
+	.string "我们期待在别的\n"
+	.string "时候见到你……$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
-	.string "You have the choice of two courses,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which will you challenge?$"
+	.string "有两种课程可选：\n"
+	.string "50级和开放等级。\l"
+	.string "你要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "Pokémon for the Battle Choice event.\p"
-	.string "You must have three different Pokémon\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "打扰一下……\p"
+	.string "你没有对战选择活动所需的\n"
+	.string "三只符合条件的宝可梦。\p"
+	.string "参加必须带三只不同、\n"
+	.string "50级或以下的宝可梦。\p"
+	.string "它们还必须分别携带\n"
+	.string "不同种类的道具。\p"
+	.string "蛋不能参加。\p"
+	.string "准备好之后\n"
+	.string "请来找我……$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "Pokémon for the Battle Choice event.\p"
-	.string "You must have three different\n"
-	.string "Pokémon to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "打扰一下……\p"
+	.string "你没有对战选择活动所需的\n"
+	.string "三只符合条件的宝可梦。\p"
+	.string "参加必须带三只\n"
+	.string "不同的宝可梦。\p"
+	.string "它们还必须分别携带\n"
+	.string "不同种类的道具。\p"
+	.string "蛋不能参加。\p"
+	.string "准备好之后\n"
+	.string "请来找我……$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
-	.string "Please choose the three Pokémon\n"
-	.string "you wish to enter in the challenge…$"
+	.string "请选择你想参加挑战的\n"
+	.string "三只宝可梦……$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
-	.string "Before starting your Battle Choice\n"
-	.string "challenge, I must save the game.\l"
-	.string "Is that acceptable?$"
+	.string "开始对战选择挑战前，\n"
+	.string "我必须保存游戏。\l"
+	.string "可以吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
-	.string "Please step this way…$"
+	.string "请往这边走……$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-	.string "Your challenge has ended…\p"
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "你的挑战结束了……\p"
+	.string "我来记录你的结果。\n"
+	.string "请稍等……$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-	.string "You have completed the challenge…\p"
-	.string "I must say… You seem to possess luck\n"
-	.string "in abundance…$"
+	.string "你完成了挑战……\p"
+	.string "我得说……你好像拥有\n"
+	.string "丰沛的运气……$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "我来记录你的结果。\n"
+	.string "请稍等……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-	.string "To commemorate your completion of\n"
-	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "为纪念你完成对战选择\n"
+	.string "挑战，我们授予你这些\l"
+	.string "对战点数……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
-	.string "You appear to have reached the limit\n"
-	.string "for Battle Points…\p"
-	.string "Please exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "你的对战点数好像\n"
+	.string "已经到上限了……\p"
+	.string "请先兑换一些对战点数\n"
+	.string "换奖品，再回来……$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
-	.string "I beg your pardon, but…\p"
-	.string "You failed to save before you quit\n"
-	.string "your challenge the last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. I am sorry…$"
+	.string "打扰一下……\p"
+	.string "你上次退出挑战前\n"
+	.string "没有保存。\p"
+	.string "因此，你之前的挑战\n"
+	.string "成绩已被取消。抱歉……$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
-	.string "Congratulations…\p"
-	.string "You have snatched victory from the\n"
-	.string "PIKE QUEEN and cleared the event…$"
+	.string "恭喜……\p"
+	.string "你从管道女王手里夺走了\n"
+	.string "胜利，通关了活动……$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
-	.string "In recognition of your amazing luck,\n"
-	.string "we award you these Battle Point(s)…$"
+	.string "为表彰你惊人的运气，\n"
+	.string "我们授予你这些对战点数……$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
-	.string "Arrgh! I blew my chance!\n"
-	.string "I was one room away from the goal!\p"
-	.string "In this place, you'd better watch out\n"
-	.string "for poison, freezing, and so on.$"
+	.string "呃啊！我错过了机会！\n"
+	.string "我只差一个房间就到目标了！\p"
+	.string "在这种地方，你最好小心\n"
+	.string "中毒、冰冻之类的。$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-	.string "I've completed the challenge 10 times\n"
-	.string "now, but I've never had to battle\l"
-	.string "a TRAINER once.$"
+	.string "我现在已经通关十次了，\n"
+	.string "可一次都没打过训练家。$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
-	.string "Listen! Listen!\p"
-	.string "Don't you think that the special\n"
-	.string "abilities of Pokémon will be useful\l"
-	.string "here?$"
+	.string "听着！听着！\p"
+	.string "你不觉得宝可梦的特殊\n"
+	.string "特性在这里会很有用吗？$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-	.string "What is this weird place?\n"
-	.string "I can't figure it out at all!\p"
-	.string "I've taken the challenge a bunch\n"
-	.string "of times, but all I ever do is run into\l"
-	.string "TRAINERS whichever path I choose.$"
+	.string "这是什么怪地方？\n"
+	.string "我完全搞不懂！\p"
+	.string "我挑战了好多次，可不管\n"
+	.string "选哪条路，都只会碰上\l"
+	.string "训练家。$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
-	.string "The Battle Choice's rules are listed.$"
+	.string "这里列出了对战选择的规则。$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "你想读哪一项？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-	.string "The BAG and PokéNav may not be used\n"
-	.string "during a Battle Choice challenge.$"
+	.string "在对战选择挑战中，\n"
+	.string "不能使用包包和宝可梦导航。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "any BERRY or HERB held by Pokémon\l"
-	.string "will be effective only once.$"
+	.string "在对战选择挑战中，\n"
+	.string "宝可梦携带的树果或香草\l"
+	.string "只会生效一次。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "the sequence of Pokémon cannot be\l"
-	.string "changed.\p"
-	.string "The sequence must be set before\n"
-	.string "starting your challenge.$"
+	.string "在对战选择挑战中，\n"
+	.string "宝可梦的顺序不能更改。\p"
+	.string "必须在开始挑战前\n"
+	.string "确定顺序。$"
 
 `

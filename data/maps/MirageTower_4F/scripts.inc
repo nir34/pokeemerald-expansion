@@ -135,34 +135,42 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 # 68 "data/maps/MirageTower_4F/scripts.pory"
 MirageTower_4F_Text_TakeRootFossil:
 # 69 "data/maps/MirageTower_4F/scripts.pory"
-	.string "You found the ROOT FOSSIL.\p"
+	.string "你找到了根状化石。\p"
 # 70 "data/maps/MirageTower_4F/scripts.pory"
-	.string "If this FOSSIL is taken, the ground\n"
+	.string "要是拿走这块化石，\n"
 # 71 "data/maps/MirageTower_4F/scripts.pory"
-	.string "around it will likely crumble away…\p"
+	.string "周围的地面大概会\l"
 # 72 "data/maps/MirageTower_4F/scripts.pory"
-	.string "Take the ROOT FOSSIL anyway?$"
+	.string "塌下去……\p"
 # 73 "data/maps/MirageTower_4F/scripts.pory"
-
+	.string "还是要拿走\n"
 # 74 "data/maps/MirageTower_4F/scripts.pory"
-MirageTower_4F_Text_LeftRootFossilAlone:
+	.string "根状化石吗？$"
 # 75 "data/maps/MirageTower_4F/scripts.pory"
-	.string "{PLAYER} left the ROOT FOSSIL alone.$"
+
 # 76 "data/maps/MirageTower_4F/scripts.pory"
-
+MirageTower_4F_Text_LeftRootFossilAlone:
 # 77 "data/maps/MirageTower_4F/scripts.pory"
-MirageTower_4F_Text_TakeClawFossil:
+	.string "{PLAYER}没动根状化石。$"
 # 78 "data/maps/MirageTower_4F/scripts.pory"
-	.string "You found the CLAW FOSSIL.\p"
-# 79 "data/maps/MirageTower_4F/scripts.pory"
-	.string "If this FOSSIL is taken, the ground\n"
-# 80 "data/maps/MirageTower_4F/scripts.pory"
-	.string "around it will likely crumble away…\p"
-# 81 "data/maps/MirageTower_4F/scripts.pory"
-	.string "Take the CLAW FOSSIL anyway?$"
-# 82 "data/maps/MirageTower_4F/scripts.pory"
 
+# 79 "data/maps/MirageTower_4F/scripts.pory"
+MirageTower_4F_Text_TakeClawFossil:
+# 80 "data/maps/MirageTower_4F/scripts.pory"
+	.string "你找到了爪状化石。\p"
+# 81 "data/maps/MirageTower_4F/scripts.pory"
+	.string "要是拿走这块化石，\n"
+# 82 "data/maps/MirageTower_4F/scripts.pory"
+	.string "周围的地面大概会\l"
 # 83 "data/maps/MirageTower_4F/scripts.pory"
-MirageTower_4F_Text_LeaveClawFossilAlone:
+	.string "塌下去……\p"
 # 84 "data/maps/MirageTower_4F/scripts.pory"
-	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+	.string "还是要拿走\n"
+# 85 "data/maps/MirageTower_4F/scripts.pory"
+	.string "爪状化石吗？$"
+# 86 "data/maps/MirageTower_4F/scripts.pory"
+
+# 87 "data/maps/MirageTower_4F/scripts.pory"
+MirageTower_4F_Text_LeaveClawFossilAlone:
+# 88 "data/maps/MirageTower_4F/scripts.pory"
+	.string "{PLAYER}没动爪状化石。$"

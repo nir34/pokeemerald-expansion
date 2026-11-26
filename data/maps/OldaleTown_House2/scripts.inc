@@ -47,26 +47,24 @@ OldaleTown_House2_EventScript_ManNormal::
 # 24 "data/maps/OldaleTown_House2/scripts.pory"
 OldaleTown_House2_Text_PokemonLevelUp:
 # 25 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "When Pokémon battle, they eventually\n"
+	.string "宝可梦对战后会渐渐\n"
 # 26 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "level up and become stronger.$"
+	.string "升级变强。$"
 # 27 "data/maps/OldaleTown_House2/scripts.pory"
 
 # 28 "data/maps/OldaleTown_House2/scripts.pory"
 OldaleTown_House2_Text_IfYoureSeeingThis:
 # 29 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "If you're seeing this message,\n"
+	.string "如果你看到这段话，\n"
 # 30 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "it means you're a real OG.\l"
+	.string "说明你是真正的老玩家。\l"
 # 31 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "Here, take this.$"
+	.string "来，这个给你。$"
 # 32 "data/maps/OldaleTown_House2/scripts.pory"
 
 # 33 "data/maps/OldaleTown_House2/scripts.pory"
 OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
 # 34 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "If the Pokémon with you become\n"
+	.string "带着的宝可梦变强了，\n"
 # 35 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "stronger, you'll be able to go farther\l"
-# 36 "data/maps/OldaleTown_House2/scripts.pory"
-	.string "away from here.$"
+	.string "你就能走得更远。$"

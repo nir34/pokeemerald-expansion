@@ -59,9 +59,9 @@ GraniteCave_B2F_EventScript_RanFromMoltresGalar::
 	end
 
 GraniteCave_B2F_Text_NotStrongEnoughYet:
-	.string "You sense you are not strong enough to\n"
-	.string "take on this Pokémon yet.\p"
-	.string "And you also shouldn't be here you\n"
-	.string "little DexNav-abusing cheater.$"
+	.string "你感觉自己的实力\n"
+	.string "还不足以对付这只宝可梦。\p"
+	.string "而且你这个小鬼也不该\n"
+	.string "来这里乱用导航作弊。$"
 
 `

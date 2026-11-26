@@ -49,108 +49,110 @@ MagmaHideout_2F_2R_EventScript_Grunt8::
 # 25 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 MagmaHideout_2F_2R_Text_Grunt15Intro:
 # 26 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I don't have a bone to pick with you.\n"
+	.string "我跟你没什么仇。\n"
 # 27 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I'm just following orders!$"
+	.string "我只是听命行事！$"
 # 28 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 
 # 29 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 MagmaHideout_2F_2R_Text_Grunt15Defeat:
 # 30 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I may have lost, but…$"
+	.string "我可能输了，不过……$"
 # 31 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 
 # 32 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 # 33 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "We dug up something beyond belief!\n"
+	.string "我们挖出了难以置信的\n"
 # 34 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "And, we got the BLUE ORB!\p"
+	.string "东西！而且拿到了\l"
 # 35 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "All that's left is for our leader to…\n"
+	.string "蓝色宝珠！\p"
 # 36 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Fufufu… Fwahahaha!$"
+	.string "剩下的就等我们老大……\n"
 # 37 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "呵呵……哇哈哈哈！$"
 # 38 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt6Intro:
+
 # 39 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I can't stand heat. Maybe I should've\n"
+MagmaHideout_2F_2R_Text_Grunt6Intro:
 # 40 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "joined Team Aqua instead…$"
+	.string "我受不了热。也许我\n"
 # 41 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "该加入水舰队……$"
 # 42 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt6Defeat:
+
 # 43 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Yeah, I really may not be right for\n"
+MagmaHideout_2F_2R_Text_Grunt6Defeat:
 # 44 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Team Magma…$"
+	.string "是啊，我可能真的不适合\n"
 # 45 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "熔岩队……$"
 # 46 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt6PostBattle:
+
 # 47 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Don't you get lonely for the sea\n"
+MagmaHideout_2F_2R_Text_Grunt6PostBattle:
 # 48 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "being in a place like this?$"
+	.string "在这种地方，你不会\n"
 # 49 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "想念大海吗？$"
 # 50 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt7Intro:
+
 # 51 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "You can hear tremors here sometimes.\p"
+MagmaHideout_2F_2R_Text_Grunt7Intro:
 # 52 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Could it be the volcano rattling?\n"
+	.string "这里有时能听到震动。\p"
 # 53 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Or is it GROU…\p"
+	.string "是火山在响吗？还是\n"
 # 54 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Whoops!\n"
+	.string "固拉……\p"
 # 55 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "No, no, never mind!$"
+	.string "糟了！不，不，\n"
 # 56 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "我没说！$"
 # 57 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt7Defeat:
+
 # 58 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "You're a fiery battler.\n"
+MagmaHideout_2F_2R_Text_Grunt7Defeat:
 # 59 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Just like a volcano!$"
+	.string "你打得火热。\n"
 # 60 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "就像火山一样！$"
 # 61 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt7PostBattle:
+
 # 62 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "You just happened to win this time,\n"
+MagmaHideout_2F_2R_Text_Grunt7PostBattle:
 # 63 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "but that doesn't matter.\p"
+	.string "这次你只是碰巧赢了，\n"
 # 64 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Team Magma's goal is about to be\n"
+	.string "不过没关系。\p"
 # 65 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "reached!$"
+	.string "熔岩队的目标马上\n"
 # 66 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "就要实现了！$"
 # 67 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt8Intro:
+
 # 68 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "One of our guys was freaking out that\n"
+MagmaHideout_2F_2R_Text_Grunt8Intro:
 # 69 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "he lost his MAGMA EMBLEM…\p"
+	.string "我们中有个家伙掉了\n"
 # 70 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Wait a minute!\n"
+	.string "熔岩徽记，急疯了……\p"
 # 71 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "Was it you who found it?$"
+	.string "等一下！\n"
 # 72 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-
+	.string "是你捡到的？$"
 # 73 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt8Defeat:
-# 74 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I'm having trouble believing this…$"
-# 75 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 
+# 74 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+MagmaHideout_2F_2R_Text_Grunt8Defeat:
+# 75 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+	.string "我真不敢相信……$"
 # 76 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-MagmaHideout_2F_2R_Text_Grunt8PostBattle:
+
 # 77 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "I'm getting this feeling that our plan\n"
+MagmaHideout_2F_2R_Text_Grunt8PostBattle:
 # 78 "data/maps/MagmaHideout_2F_2R/scripts.pory"
-	.string "is going to end in failure…$"
+	.string "我有种感觉，我们的计划\n"
+# 79 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+	.string "要以失败收场了……$"

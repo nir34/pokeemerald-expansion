@@ -69,86 +69,98 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 # 35 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
 # 36 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Ships of this sort are rare, so I'm\n"
+	.string "这种船很少见，所以我\n"
 # 37 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "taking a look around.\p"
+	.string "到处看看。\p"
 # 38 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Hmhm…\n"
+	.string "Hmhm……\n"
 # 39 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "There appear to be other cabins…$"
+	.string "好像还有别的船舱……$"
 # 40 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 
 # 41 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
 # 42 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "What on earth would compel you to\n"
+	.string "到底是什么让你\n"
 # 43 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "come here? You must be curious!$"
+	.string "来这儿？你一定是\l"
 # 44 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+	.string "好奇得不行！$"
 # 45 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
+
 # 46 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Not just curious, but also strong…$"
+AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
 # 47 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+	.string "不只是好奇，还很强……$"
 # 48 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
+
 # 49 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "The man next door…\p"
+AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 # 50 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "He says he's just sightseeing,\n"
+	.string "隔壁那个男人……\p"
 # 51 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "but I don't know about that.$"
+	.string "他说只是观光，\n"
 # 52 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+	.string "不过我可不这么想。$"
 # 53 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaRegister:
+
 # 54 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "You're such a tough trainer!\n"
+AbandonedShip_Rooms_1F_Text_ThaliaRegister:
 # 55 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Let me register you as a memento!$"
+	.string "你真是个强训练家！\n"
 # 56 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+	.string "让我把你登录下来\l"
 # 57 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
+	.string "留个纪念！$"
 # 58 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "What on earth would compel you to\n"
-# 59 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "come back? You must really be curious!$"
-# 60 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 
+# 59 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
+# 60 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "到底是什么让你又\n"
 # 61 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
+	.string "回来？你真是\l"
 # 62 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Aren't you too strong?$"
+	.string "太好奇了！$"
 # 63 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 
 # 64 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
+AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
 # 65 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "I'm sure that man's up to something!\n"
+	.string "你是不是太强了？$"
 # 66 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "He just acts so suspiciously!$"
+
 # 67 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
 # 68 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_DemetriusIntro:
+	.string "我敢说那个男人在\n"
 # 69 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Waaah!\n"
+	.string "搞什么名堂！\l"
 # 70 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "I've been found! …Huh?$"
+	.string "他一举一动都\l"
 # 71 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-
+	.string "太可疑了！$"
 # 72 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
-# 73 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Oh, you're not my mom.$"
-# 74 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 
+# 73 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+AbandonedShip_Rooms_1F_Text_DemetriusIntro:
+# 74 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "哇啊！\n"
 # 75 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
+	.string "我被发现了！……嗯？$"
 # 76 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "I'm in trouble with my mom, so I ran.\n"
+
 # 77 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	.string "Keep it a secret where I am!$"
+AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
+# 78 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "哦，你不是我妈。$"
+# 79 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+
+# 80 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
+# 81 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "我惹妈妈生气了，所以\n"
+# 82 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "跑出来了。我在哪儿\l"
+# 83 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+	.string "要保密哦！$"

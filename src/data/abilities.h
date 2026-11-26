@@ -3,7 +3,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_NONE] =
     {
         .name = _("-------"),
-        .description = COMPOUND_STRING("No special a"),
+        .description = COMPOUND_STRING("没有特别的能"),
         .aiRating = 0,
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
@@ -211,8 +211,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_MOUNTAINEER] =
     {
-        .name = _("Mountaineer"),
-        .description = COMPOUND_STRING("Not hit by R"),
+        .name = _("登山者"),
+        .description = COMPOUND_STRING("不会受到岩"),
         .aiRating = 7,
         .breakable = TRUE,
     },
@@ -884,7 +884,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     #if B_SNOW_WARNING >= GEN_9
         .description = COMPOUND_STRING("出场时， 会将天气变为下"),
     #else
-        .description = COMPOUND_STRING("Summons Hail"),
+        .description = COMPOUND_STRING("出场时下冰"),
     #endif
         .aiRating = 8,
     },
@@ -1404,8 +1404,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_ORAORAORAORA] =
     {
-        .name = _("ORAORAORAORA!"),
-        .description = COMPOUND_STRING("Punch moves "),
+        .name = _("欧拉欧拉"),
+        .description = COMPOUND_STRING("拳类招式"),
         .aiRating = 10,
     },
 
@@ -1707,8 +1707,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_POWER_OF_ALCHEMY] =
     {
-        .name = _("Power Of Alchemy"),
-        .description = COMPOUND_STRING("Takes over a"),
+        .name = _("化学之力"),
+        .description = COMPOUND_STRING("继承倒下宝"),
         .aiRating = 0,
         .cantBeCopied = TRUE,
         .cantBeTraced = TRUE,
@@ -1724,7 +1724,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_RKS_SYSTEM] =
     {
         .name = _("系统"),
-        .description = COMPOUND_STRING("Memories cha"),
+        .description = COMPOUND_STRING("会改变宝可"),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -1784,8 +1784,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_PRIMAL_ARMOR] =
     {
-        .name = _("Primal Armor"),
-        .description = COMPOUND_STRING("Weakens supe"),
+        .name = _("始源铠甲"),
+        .description = COMPOUND_STRING("减弱效果绝"),
         .aiRating = 6,
     },
 
@@ -2024,8 +2024,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_DRAGONS_MAW] =
     {
-        .name = _("Dragon's Maw"),
-        .description = COMPOUND_STRING("Powers up Dr"),
+        .name = _("龙之颚"),
+        .description = COMPOUND_STRING("强化龙属"),
         .aiRating = 6,
     },
 
@@ -2324,8 +2324,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_MINDS_EYE] =
     {
-        .name = _("Mind's Eye"),
-        .description = COMPOUND_STRING("Keen Eye and"),
+        .name = _("心眼"),
+        .description = COMPOUND_STRING("锐利目光和"),
         .aiRating = 8,
         .breakable = TRUE,
     },
@@ -2434,100 +2434,100 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_STRIKER] =
     {
-        .name = _("Striker"),
-        .description = COMPOUND_STRING("Boosts kicki"),
+        .name = _("打击者"),
+        .description = COMPOUND_STRING("强化踢类"),
         .aiRating = 6,
     },
 
     [ABILITY_FELINE_PROWESS] =
     {
-        .name = _("Feline Prowess"),
-        .description = COMPOUND_STRING("Doubles Sp. "),
+        .name = _("猫之力"),
+        .description = COMPOUND_STRING("特攻加倍"),
         .aiRating = 10,
     },
 
     [ABILITY_SAGE_POWER] =
     {
-        .name = _("Sage Power"),
-        .description = COMPOUND_STRING("Ups SpAtk by"),
+        .name = _("贤者之力"),
+        .description = COMPOUND_STRING("特攻提高一级"),
         .aiRating = 4,
     },
 
     [ABILITY_FATAL_PRECISION] =
     {
-        .name = _("Fatal Precision"),
-        .description = COMPOUND_STRING("Super effect"),
+        .name = _("致命精准"),
+        .description = COMPOUND_STRING("效果绝佳时"),
         .aiRating = 6,
     },
 
     [ABILITY_BLAZING_SOUL] =
     {
-        .name = _("Blazing Soul"),
-        .description = COMPOUND_STRING("Gives +1 pri"),
+        .name = _("燃烧之魂"),
+        .description = COMPOUND_STRING("优先度+1"),
         .aiRating = 6,
     },
 
     [ABILITY_ICE_EATER] =
     {
-        .name = _("Ice Eater"),
-        .description = COMPOUND_STRING("Absorbs Ice "),
+        .name = _("食冰"),
+        .description = COMPOUND_STRING("吸收冰属性"),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_EMPERORS_PRESENCE] =
     {
-        .name = _("Emperor's Presence"),
-        .description = COMPOUND_STRING("Boosts own a"),
+        .name = _("帝王气场"),
+        .description = COMPOUND_STRING("提高自己的"),
         .aiRating = 2,
     },
 
     [ABILITY_SELF_SUFFICIENT] =
     {
-        .name = _("Self Sufficient"),
-        .description = COMPOUND_STRING("Recover 1/16"),
+        .name = _("自给自足"),
+        .description = COMPOUND_STRING("每回合回复"),
         .aiRating = 9,
     },
 
     [ABILITY_BAD_COMPANY] =
     {
-        .name = _("Bad Company"),
-        .description = COMPOUND_STRING("Stops self-l"),
+        .name = _("坏伙伴"),
+        .description = COMPOUND_STRING("阻止自伤"),
         .aiRating = 8,
     },
 
     [ABILITY_BULL_RUSH] =
     {
-        .name = _("Bull Rush"),
-        .description = COMPOUND_STRING("Boosts power"),
+        .name = _("猛冲"),
+        .description = COMPOUND_STRING("强化招式威"),
         .aiRating = 8,
     },
 
     [ABILITY_QUILL_RUSH] =
     {
-        .name = _("Quill Rush"),
-        .description = COMPOUND_STRING("Boosts power"),
+        .name = _("羽刺冲锋"),
+        .description = COMPOUND_STRING("强化招式威"),
         .aiRating = 8,
     },
 
     [ABILITY_BONE_ZONE] =
     {
-        .name = _("Bone Zone"),
-        .description = COMPOUND_STRING("Bone moves h"),
+        .name = _("骨之地带"),
+        .description = COMPOUND_STRING("骨类招式效"),
         .aiRating = 7,
     },
 
     [ABILITY_THE_GRIPPER] =
     {
-        .name = _("THE GRIPPER"),
-        .description = COMPOUND_STRING("Contact move"),
+        .name = _("抓握者"),
+        .description = COMPOUND_STRING("接触到招"),
         .aiRating = 7,
     },
 
     [ABILITY_PARASITIC_WASTE] =
     {
-        .name = _("Parasitic Waste"),
-        .description = COMPOUND_STRING("Attacks that"),
+        .name = _("寄生废料"),
+        .description = COMPOUND_STRING("接触招式"),
         .aiRating = 6,
     },
 

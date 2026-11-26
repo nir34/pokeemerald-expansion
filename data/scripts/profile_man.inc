@@ -92,75 +92,75 @@ ProfileMan_EventScript_Ret::
 	return
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile, there.\p"
-	.string "I have a hobby--collecting the profiles\n"
-	.string "of POKéMON TRAINERS.$"
+	.string "你好，训练家！\n"
+	.string "你的笑容真好看。\p"
+	.string "我有个爱好——收集\n"
+	.string "宝可梦训练家的简介。$"
 
 ProfileMan_Text_MayISeeYourProfile:
-	.string "So, how about it?\n"
-	.string "May I see your profile?$"
+	.string "那么，怎么样？\n"
+	.string "能看看你的简介吗？$"
 
 ProfileMan_Text_EasyChatExplanation:
-	.string "You make your own profile by putting\n"
-	.string "together four words or phrases.\p"
-	.string "Here, I'll show you an example of a\n"
-	.string "profile using four pieces of text.\p"
-	.string "You can switch those four pieces with\n"
-	.string "other text pieces any which way you\l"
-	.string "like to make your own profile.\p"
-	.string "There are a lot of text pieces that\n"
-	.string "you can use.\p"
-	.string "They are arranged in groups like\n"
-	.string "POKéMON, lifestyles, and hobbies so\l"
-	.string "it is easier to look them up.\p"
-	.string "So, first, choose the group of text\n"
-	.string "pieces to display a list of choices.\p"
-	.string "Then, pick the choice you want.\p"
-	.string "Repeat for the remaining text choices,\n"
-	.string "and you'll have your very own profile.$"
+	.string "把四个词或短语组合起来，\n"
+	.string "就能做出你自己的简介。\p"
+	.string "我来示范一个用四段文字\n"
+	.string "组成的简介。\p"
+	.string "你可以随意把这四段换成\n"
+	.string "别的文字，\l"
+	.string "做成你自己的简介。\p"
+	.string "可用的文字段\n"
+	.string "非常多。\p"
+	.string "它们按宝可梦、生活方式、\n"
+	.string "兴趣等分组，\l"
+	.string "方便查找。\p"
+	.string "首先，选择分组，\n"
+	.string "显示选项列表。\p"
+	.string "然后，挑出你想要的选项。\p"
+	.string "其余的文字也照此选择，\n"
+	.string "你的专属简介就完成了。$"
 
 ProfileMan_Text_LetsSeeItThen:
-	.string "Yes! Thank you!\n"
-	.string "So, let's see it, then.$"
+	.string "好！谢谢你！\n"
+	.string "那么，让我看看吧。$"
 
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
-	.string "Oh, no, really?\p"
-	.string "I imagine someone like you would have\n"
-	.string "a wonderful profile…$"
+	.string "哦，不行吗？\p"
+	.string "我想你这样的人，\n"
+	.string "一定会有很棒的简介……$"
 
 ProfileMan_Text_NotIntoItRightNow:
-	.string "Oh? You're not into it right now?\p"
-	.string "Well, anytime is good by me!$"
+	.string "哦？你现在没兴趣？\p"
+	.string "不过，我什么时候都行！$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile.$"
+	.string "你好，训练家！\n"
+	.string "你的笑容真好看。$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "May I see your new profile?$"
+	.string "能看看你的新简介吗？$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
-	.string "Yes! Thank you!\p"
-	.string "I hope it's even better than the profile\n"
-	.string "you showed me before.$"
+	.string "好！谢谢你！\p"
+	.string "希望它比你之前给我看的\n"
+	.string "简介还要好。$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "Oh, you like your profile the way it is.\p"
-	.string "I don't blame you--it's a wonderful\n"
-	.string "profile the way it is now.$"
+	.string "哦，你喜欢现在这个简介。\p"
+	.string "我不怪你——现在这个\n"
+	.string "简介就很棒。$"
 
 ProfileMan_Text_FantasticProfile:
-	.string "F-fantastic!\p"
-	.string "Your profile, it's wonderful!\n"
-	.string "It really says what you're about.\p"
-	.string "Why, anyone hearing this profile would\n"
-	.string "be captivated by you!\p"
-	.string "Thank you!$"
+	.string "太——太棒了！\p"
+	.string "你的简介真好！\n"
+	.string "完全说出了你的为人。\p"
+	.string "听了这个简介的人，\n"
+	.string "一定会被你迷住！\p"
+	.string "谢谢你！$"
 
 @ Unused
 ProfileMan_Text_YouKnowSecretSaying:
-	.string "Oh?\n"
-	.string "You know the secret saying!\p"
-	.string "That means you're now a fellow member\n"
-	.string "of the MYSTERY EVENT CLUB!$"
+	.string "哦？\n"
+	.string "你知道那句暗语！\p"
+	.string "也就是说，你现在是\n"
+	.string "神秘事件俱乐部的成员了！$"

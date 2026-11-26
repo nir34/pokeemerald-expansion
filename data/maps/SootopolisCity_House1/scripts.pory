@@ -25,16 +25,17 @@ SootopolisCity_House1_EventScript_Kecleon::
 	end
 
 SootopolisCity_House1_Text_DevelopedThisTM:
-	.string "For thirty years I've remained in\n"
-	.string "Sootopolis honing my skills.\p"
-	.string "I developed a shattering TM.\n"
-	.string "I bequeath it to you!$"
+	.string "我在琉璃市待了三十年，\n"
+	.string "磨练本事。\p"
+	.string "我开发了一个学习器，\n"
+	.string "能把一切劈开。\l"
+	.string "就传给你吧！$"
 
 SootopolisCity_House1_Text_ExplainBrickBreak:
-	.string "Puu puhyaah.\n"
-	.string "That's what my Kecleon always says.$"
+	.string "噗 噗呀啊。\n"
+	.string "我的变隐龙总是这么说。$"
 
 SootopolisCity_House1_Text_Kecleon:
-	.string "Puu puhyaah.$"
+	.string "噗 噗呀啊。$"
 
 `

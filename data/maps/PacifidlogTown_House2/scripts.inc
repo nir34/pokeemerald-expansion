@@ -67,34 +67,34 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 # 34 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rurii:
 # 35 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "AZURILL: Rurii.$"
+	.string "露力丽：噜哩。$"
 # 36 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 37 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 # 38 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "It appears to be very friendly with the\n"
+	.string "它好像和训练家\n"
 # 39 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "训练家.$"
+	.string "非常亲近。$"
 # 40 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 41 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rururi:
 # 42 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "AZURILL: Rururi!$"
+	.string "露力丽：噜噜哩！$"
 # 43 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 44 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 # 45 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "It doesn't appear to like the 训练家\n"
+	.string "它好像不太喜欢\n"
 # 46 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "very much.$"
+	.string "这个训练家。$"
 # 47 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 48 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_LookHowHappy:
 # 49 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "Look how happy my Pokémon is!\n"
+	.string "看我的宝可梦多开心！\n"
 # 50 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "No, the other one!$"
+	.string "不，是另一只！$"

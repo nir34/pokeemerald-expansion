@@ -23,55 +23,56 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-	.string "What, what, what?\p"
-	.string "Only Team Magma members are supposed\n"
-	.string "to be in here!\p"
-	.string "But you're not dressed in Team Magma's\n"
-	.string "uniform…\p"
-	.string "You rouse my suspicion!\n"
-	.string "Battle with me!$"
+	.string "什么什么什么？\p"
+	.string "这里只该有水舰队\n"
+	.string "的成员！\p"
+	.string "可你穿的不是水舰队的\n"
+	.string "制服……\p"
+	.string "你可疑极了！\n"
+	.string "跟我打！$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-	.string "Aiyiyi…\n"
-	.string "My pride as a Team Magma member…$"
+	.string "哎呀呀……\n"
+	.string "我身为水舰队成员的骄傲…$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
-	.string "If you suffer from chills, you should\n"
-	.string "join Team Magma.$"
+	.string "你要是怕冷，就该\n"
+	.string "加入水舰队。$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
-	.string "Hold it right there!\p"
-	.string "You don't really expect me to keep\n"
-	.string "my trap shut and let you waltz by me?$"
+	.string "站住！\p"
+	.string "你以为我会闭嘴，让\n"
+	.string "你大摇大摆过去？$"
 
 MagmaHideout_2F_1R_Text_Grunt3Defeat:
-	.string "Ooh wow!\n"
-	.string "I concede!$"
+	.string "哦哇！\n"
+	.string "我认输！$"
 
 MagmaHideout_2F_1R_Text_Grunt3PostBattle:
-	.string "Maybe it would've been better if I did\n"
-	.string "just let you go unchallenged…$"
+	.string "也许我干脆放你过去\n"
+	.string "还比较好……$"
 
 MagmaHideout_2F_1R_Text_Grunt4Intro:
-	.string "Ahah!\n"
-	.string "An intruder!$"
+	.string "啊哈！\n"
+	.string "入侵者！$"
 
 MagmaHideout_2F_1R_Text_Grunt4Defeat:
-	.string "Graaah!$"
+	.string "咕啊啊！$"
 
 MagmaHideout_2F_1R_Text_Grunt4PostBattle:
-	.string "I've already lost.\p"
-	.string "Do I really need to keep running\n"
-	.string "around in a circle?$"
+	.string "我已经输了。\p"
+	.string "我真还得继续\n"
+	.string "绕圈跑吗？$"
 
 MagmaHideout_2F_1R_Text_Grunt5Intro:
-	.string "Oh, oh!\n"
-	.string "An intruder!$"
+	.string "哦哦！\n"
+	.string "入侵者！$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
-	.string "Mutter…$"
+	.string "嘀咕……$"
 
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-	.string "Actually, I'm no expert at battling…$"
+	.string "其实我对对战\n"
+	.string "不在行……$"
 
 `

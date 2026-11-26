@@ -1573,533 +1573,533 @@ Route104_EventScript_Darian::
 # 787 "data/maps/Route104/scripts.pory"
 Route104_Text_BrineyLivesInSeasideCottage:
 # 788 "data/maps/Route104/scripts.pory"
-	.string "That seaside cottage is where\n"
+	.string "那座海边的小屋\n"
 # 789 "data/maps/Route104/scripts.pory"
-	.string "Mr. Briney lives.\p"
+	.string "就是布林尼先生的家。\p"
 # 790 "data/maps/Route104/scripts.pory"
-	.string "He was once a mighty sailor who never\n"
+	.string "他从前是个了不起的船员，\n"
 # 791 "data/maps/Route104/scripts.pory"
-	.string "feared the sea, however stormy.$"
+	.string "再大的风浪也不怕。$"
 # 792 "data/maps/Route104/scripts.pory"
 
 # 793 "data/maps/Route104/scripts.pory"
 Route104_Text_WhatsItLikeAtBottomOfSea:
 # 794 "data/maps/Route104/scripts.pory"
-	.string "The sea, huh?\p"
+	.string "大海啊……\p"
 # 795 "data/maps/Route104/scripts.pory"
-	.string "I wonder what it's like at the bottom\n"
+	.string "真想看看海底\n"
 # 796 "data/maps/Route104/scripts.pory"
-	.string "of the sea?$"
+	.string "是什么样子呢？$"
 # 797 "data/maps/Route104/scripts.pory"
 
 # 798 "data/maps/Route104/scripts.pory"
 Route104_Text_ThrowBallAtWeakenedPokemon:
 # 799 "data/maps/Route104/scripts.pory"
-	.string "If you're going to throw a Poké Ball,\n"
+	.string "如果想扔精灵球，\n"
 # 800 "data/maps/Route104/scripts.pory"
-	.string "weaken the wild Pokémon first.\p"
+	.string "先把野生宝可梦削弱。\p"
 # 801 "data/maps/Route104/scripts.pory"
-	.string "It will be easier to catch if it's been\n"
+	.string "如果它中毒、灼伤或睡着了，\n"
 # 802 "data/maps/Route104/scripts.pory"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "就更容易抓到。$"
 # 803 "data/maps/Route104/scripts.pory"
 
 # 804 "data/maps/Route104/scripts.pory"
 Route104_Text_OnlyThrowBallAtWildPokemon:
 # 805 "data/maps/Route104/scripts.pory"
-	.string "You're a thief if you try to steal\n"
+	.string "要是抢别人的宝可梦，\n"
 # 806 "data/maps/Route104/scripts.pory"
-	.string "someone else's Pokémon.\p"
+	.string "那就是小偷了。\p"
 # 807 "data/maps/Route104/scripts.pory"
-	.string "You should throw Poké Balls only at\n"
+	.string "精灵球只能对着\n"
 # 808 "data/maps/Route104/scripts.pory"
-	.string "wild Pokémon.$"
+	.string "野生宝可梦扔。$"
 # 809 "data/maps/Route104/scripts.pory"
 
 # 810 "data/maps/Route104/scripts.pory"
 Route104_Text_ImNotATrainer:
 # 811 "data/maps/Route104/scripts.pory"
-	.string "Oh, no, I'm not a trainer.\p"
+	.string "哦，不，我不是训练家。\p"
 # 812 "data/maps/Route104/scripts.pory"
-	.string "But that's right, if trainers lock eyes,\n"
+	.string "不过没错，训练家对上眼神，\n"
 # 813 "data/maps/Route104/scripts.pory"
-	.string "it's a challenge to battle.\p"
+	.string "就是挑战的暗号。\p"
 # 814 "data/maps/Route104/scripts.pory"
-	.string "If you don't want to battle, stay out\n"
+	.string "不想对战的话，\n"
 # 815 "data/maps/Route104/scripts.pory"
-	.string "of their sight.$"
+	.string "就别走进他们的视线。$"
 # 816 "data/maps/Route104/scripts.pory"
 
 # 817 "data/maps/Route104/scripts.pory"
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 # 818 "data/maps/Route104/scripts.pory"
-	.string "My Pokémon like eating seeds and\n"
+	.string "我的宝可梦喜欢用这招\n"
 # 819 "data/maps/Route104/scripts.pory"
-	.string "Berries with this move.\p"
+	.string "吃种子和树果。\p"
 # 820 "data/maps/Route104/scripts.pory"
-	.string "You can have this, so you try it out!$"
+	.string "这个给你，你试试看！$"
 # 821 "data/maps/Route104/scripts.pory"
 
 # 822 "data/maps/Route104/scripts.pory"
 Route104_Text_TMsAreOneTimeUse:
 # 823 "data/maps/Route104/scripts.pory"
-	.string "And guess what!\n"
+	.string "而且你猜怎么着！\n"
 # 824 "data/maps/Route104/scripts.pory"
-	.string "Now, you can use a TM, as many\l"
+	.string "现在学习器\l"
 # 825 "data/maps/Route104/scripts.pory"
-	.string "times as you want! Isn't that great?$"
+	.string "想用几次就用几次！很棒吧？$"
 # 826 "data/maps/Route104/scripts.pory"
 
 # 827 "data/maps/Route104/scripts.pory"
 Route104_Text_DontNeedThisTakeIt:
 # 828 "data/maps/Route104/scripts.pory"
-	.string "This Flower Shop started selling\n"
+	.string "这家花店最近\n"
 # 829 "data/maps/Route104/scripts.pory"
-	.string "saplings recently.\p"
+	.string "开始卖树苗了。\p"
 # 830 "data/maps/Route104/scripts.pory"
-	.string "It made me so happy, I went overboard\n"
+	.string "我高兴得买过了头。\p"
 # 831 "data/maps/Route104/scripts.pory"
-	.string "shopping.\p"
+	.string "这瓶白色香草我不用了。\n"
 # 832 "data/maps/Route104/scripts.pory"
-	.string "I don't need this White Herb anymore.\n"
+	.string "请你收下好吗？$"
 # 833 "data/maps/Route104/scripts.pory"
-	.string "Would you take it, please?$"
+
 # 834 "data/maps/Route104/scripts.pory"
-
-# 835 "data/maps/Route104/scripts.pory"
 Route104_Text_FlowerShopSellingSaplings:
+# 835 "data/maps/Route104/scripts.pory"
+	.string "这家花店最近\n"
 # 836 "data/maps/Route104/scripts.pory"
-	.string "This Fower Shop started selling\n"
+	.string "开始卖树苗了。\p"
 # 837 "data/maps/Route104/scripts.pory"
-	.string "saplings recently.\p"
+	.string "我高兴得买过了头。\n"
 # 838 "data/maps/Route104/scripts.pory"
-	.string "It made me so happy, I went overboard\n"
+	.string "该摆在哪里好呢？$"
 # 839 "data/maps/Route104/scripts.pory"
-	.string "shopping. Where should I put them?$"
+
 # 840 "data/maps/Route104/scripts.pory"
-
-# 841 "data/maps/Route104/scripts.pory"
 Route104_Text_MrBrineysCottage:
+# 841 "data/maps/Route104/scripts.pory"
+	.string "布林尼先生的小屋$"
 # 842 "data/maps/Route104/scripts.pory"
-	.string "MR. BRINEY'S COTTAGE$"
+
 # 843 "data/maps/Route104/scripts.pory"
-
-# 844 "data/maps/Route104/scripts.pory"
 Route104_Text_RouteSignPetalburg:
+# 844 "data/maps/Route104/scripts.pory"
+	.string "104号道路\n"
 # 845 "data/maps/Route104/scripts.pory"
-	.string "ROUTE 1O4\n"
+	.string "{RIGHT_ARROW} 橙华市$"
 # 846 "data/maps/Route104/scripts.pory"
-	.string "{RIGHT_ARROW} PETALBURG CITY$"
+
 # 847 "data/maps/Route104/scripts.pory"
-
-# 848 "data/maps/Route104/scripts.pory"
 Route104_Text_RouteSignRustboro:
+# 848 "data/maps/Route104/scripts.pory"
+	.string "104号道路\n"
 # 849 "data/maps/Route104/scripts.pory"
-	.string "ROUTE 1O4\n"
+	.string "{UP_ARROW} 卡那兹市$"
 # 850 "data/maps/Route104/scripts.pory"
-	.string "{UP_ARROW} RUSTBORO CITY$"
+
 # 851 "data/maps/Route104/scripts.pory"
-
-# 852 "data/maps/Route104/scripts.pory"
 Route104_Text_PrettyPetalFlowShop:
+# 852 "data/maps/Route104/scripts.pory"
+	.string "美丽花店$"
 # 853 "data/maps/Route104/scripts.pory"
-	.string "PRETTY PETAL FLOWER SHOP$"
+
 # 854 "data/maps/Route104/scripts.pory"
-
-# 855 "data/maps/Route104/scripts.pory"
 Route104_Text_TrainerTipsDoubleBattles:
+# 855 "data/maps/Route104/scripts.pory"
+	.string "训练家入门\p"
 # 856 "data/maps/Route104/scripts.pory"
-	.string "Trainer Tips\p"
+	.string "在队伍菜单里选中宝可梦，\n"
 # 857 "data/maps/Route104/scripts.pory"
-	.string "You can rearrange your Pokémon party\n"
+	.string "按“Select”键或“R”键，\l"
 # 858 "data/maps/Route104/scripts.pory"
-	.string "more efficiently by using the “Select”\l"
+	.string "就能更方便地调整顺序。$"
 # 859 "data/maps/Route104/scripts.pory"
-	.string "button or the “R” button while\l"
+
 # 860 "data/maps/Route104/scripts.pory"
-	.string "hovering over a Pokémon in\l"
-# 861 "data/maps/Route104/scripts.pory"
-	.string "the party menu.$"
-# 862 "data/maps/Route104/scripts.pory"
-
-# 863 "data/maps/Route104/scripts.pory"
 Route104_Text_MayWeShouldRegister:
+# 861 "data/maps/Route104/scripts.pory"
+	.string "小遥：哦，你好，{PLAYER}！\p"
+# 862 "data/maps/Route104/scripts.pory"
+	.string "得文公司给你的宝可梦导航\n"
+# 863 "data/maps/Route104/scripts.pory"
+	.string "升级了宝可梦对话系统吧？\p"
 # 864 "data/maps/Route104/scripts.pory"
-	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "我们互相登录一下，\n"
 # 865 "data/maps/Route104/scripts.pory"
-	.string "Devon upgraded your PokéNav with\n"
+	.string "这样随时都能联系。$"
 # 866 "data/maps/Route104/scripts.pory"
-	.string "the Match Call system, huh?\p"
+
 # 867 "data/maps/Route104/scripts.pory"
-	.string "We should register each other so we\n"
-# 868 "data/maps/Route104/scripts.pory"
-	.string "can get in contact anytime.$"
-# 869 "data/maps/Route104/scripts.pory"
-
-# 870 "data/maps/Route104/scripts.pory"
 Route104_Text_RegisteredMay:
+# 868 "data/maps/Route104/scripts.pory"
+	.string "{PLAYER}在宝可梦导航里\n"
+# 869 "data/maps/Route104/scripts.pory"
+	.string "登录了小遥。$"
+# 870 "data/maps/Route104/scripts.pory"
+
 # 871 "data/maps/Route104/scripts.pory"
-	.string "{PLAYER} registered May\n"
-# 872 "data/maps/Route104/scripts.pory"
-	.string "in the PokéNav.$"
-# 873 "data/maps/Route104/scripts.pory"
-
-# 874 "data/maps/Route104/scripts.pory"
 Route104_Text_MayHowsYourPokedex:
+# 872 "data/maps/Route104/scripts.pory"
+	.string "小遥：对了，{PLAYER}，\n"
+# 873 "data/maps/Route104/scripts.pory"
+	.string "你的图鉴进展怎么样？$"
+# 874 "data/maps/Route104/scripts.pory"
+
 # 875 "data/maps/Route104/scripts.pory"
-	.string "May: Oh, by the way, {PLAYER}{KUN},\n"
-# 876 "data/maps/Route104/scripts.pory"
-	.string "how's your Pokédex coming along?$"
-# 877 "data/maps/Route104/scripts.pory"
-
-# 878 "data/maps/Route104/scripts.pory"
 Route104_Text_MayMinesDecentLetsBattle:
+# 876 "data/maps/Route104/scripts.pory"
+	.string "我的看起来还不错。\n"
+# 877 "data/maps/Route104/scripts.pory"
+	.string "那么……\l"
+# 878 "data/maps/Route104/scripts.pory"
+	.string "要不要来对战一场？$"
 # 879 "data/maps/Route104/scripts.pory"
-	.string "Mine's looking pretty decent.\n"
+
 # 880 "data/maps/Route104/scripts.pory"
-	.string "So…\l"
-# 881 "data/maps/Route104/scripts.pory"
-	.string "How about a little battle?$"
-# 882 "data/maps/Route104/scripts.pory"
-
-# 883 "data/maps/Route104/scripts.pory"
 Route104_Text_MayHaventRaisedPokemon:
+# 881 "data/maps/Route104/scripts.pory"
+	.string "小遥：哦，怎么了？\p"
+# 882 "data/maps/Route104/scripts.pory"
+	.string "你还没怎么抓过\n"
+# 883 "data/maps/Route104/scripts.pory"
+	.string "或培养过宝可梦吗？\p"
 # 884 "data/maps/Route104/scripts.pory"
-	.string "May: Oh, what's the matter?\p"
+	.string "这样可不像个训练家哦！$"
 # 885 "data/maps/Route104/scripts.pory"
-	.string "Haven't you caught or raised your\n"
+
 # 886 "data/maps/Route104/scripts.pory"
-	.string "Pokémon very much?\p"
-# 887 "data/maps/Route104/scripts.pory"
-	.string "That's not very good for a trainer!$"
-# 888 "data/maps/Route104/scripts.pory"
-
-# 889 "data/maps/Route104/scripts.pory"
 Route104_Text_MayLetsBattle:
+# 887 "data/maps/Route104/scripts.pory"
+	.string "小遥：怎么样？\n"
+# 888 "data/maps/Route104/scripts.pory"
+	.string "要不要在这里对战一场？$"
+# 889 "data/maps/Route104/scripts.pory"
+
 # 890 "data/maps/Route104/scripts.pory"
-	.string "May: So, what do you think?\n"
-# 891 "data/maps/Route104/scripts.pory"
-	.string "How about a little battle here?$"
-# 892 "data/maps/Route104/scripts.pory"
-
-# 893 "data/maps/Route104/scripts.pory"
 Route104_Text_MayIntro:
+# 891 "data/maps/Route104/scripts.pory"
+	.string "小遥：你才刚当上训练家，\n"
+# 892 "data/maps/Route104/scripts.pory"
+	.string "{PLAYER}。我可不会输！$"
+# 893 "data/maps/Route104/scripts.pory"
+
 # 894 "data/maps/Route104/scripts.pory"
-	.string "May: You just became a trainer,\n"
-# 895 "data/maps/Route104/scripts.pory"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
-# 896 "data/maps/Route104/scripts.pory"
-
-# 897 "data/maps/Route104/scripts.pory"
 Route104_Text_MayDefeat:
+# 895 "data/maps/Route104/scripts.pory"
+	.string "哎呀！\n"
+# 896 "data/maps/Route104/scripts.pory"
+	.string "你比我想的厉害多了！$"
+# 897 "data/maps/Route104/scripts.pory"
+
 # 898 "data/maps/Route104/scripts.pory"
-	.string "Yikes!\n"
-# 899 "data/maps/Route104/scripts.pory"
-	.string "You're better than I expected!$"
-# 900 "data/maps/Route104/scripts.pory"
-
-# 901 "data/maps/Route104/scripts.pory"
 Route104_Text_MayPostBattle:
+# 899 "data/maps/Route104/scripts.pory"
+	.string "小遥：看得出你照顾宝可梦\n"
+# 900 "data/maps/Route104/scripts.pory"
+	.string "已经很有心得了。\p"
+# 901 "data/maps/Route104/scripts.pory"
+	.string "不过，不只是让它们对战，\n"
 # 902 "data/maps/Route104/scripts.pory"
-	.string "May: I can tell you've gotten pretty\n"
+	.string "你也该学学布林尼先生。\p"
 # 903 "data/maps/Route104/scripts.pory"
-	.string "good with the way you handle Pokémon.\p"
+	.string "和宝可梦成为朋友\n"
 # 904 "data/maps/Route104/scripts.pory"
-	.string "But instead of only making them\n"
+	.string "也很重要哦。$"
 # 905 "data/maps/Route104/scripts.pory"
-	.string "battle, you should be like Mr. Briney.\p"
+
 # 906 "data/maps/Route104/scripts.pory"
-	.string "It's important to become friends with\n"
-# 907 "data/maps/Route104/scripts.pory"
-	.string "Pokémon, too.$"
-# 908 "data/maps/Route104/scripts.pory"
-
-# 909 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanWeShouldRegister:
+# 907 "data/maps/Route104/scripts.pory"
+	.string "佑树：哦，嘿，{PLAYER}！\p"
+# 908 "data/maps/Route104/scripts.pory"
+	.string "不错嘛，你让得文公司\n"
+# 909 "data/maps/Route104/scripts.pory"
+	.string "给导航装了宝可梦对话系统！\p"
 # 910 "data/maps/Route104/scripts.pory"
-	.string "Brendan: Oh, hey, {PLAYER}!\p"
+	.string "我们在彼此的导航里\n"
 # 911 "data/maps/Route104/scripts.pory"
-	.string "Cool, you had Devon install the Match\n"
+	.string "互相登录一下吧，\l"
 # 912 "data/maps/Route104/scripts.pory"
-	.string "Call system on your PokéNav!\p"
+	.string "这样就能保持联系了。$"
 # 913 "data/maps/Route104/scripts.pory"
-	.string "Let's register each other in our\n"
+
 # 914 "data/maps/Route104/scripts.pory"
-	.string "PokéNavs so we can keep in touch.$"
-# 915 "data/maps/Route104/scripts.pory"
-
-# 916 "data/maps/Route104/scripts.pory"
 Route104_Text_RegisteredBrendan:
+# 915 "data/maps/Route104/scripts.pory"
+	.string "{PLAYER}在宝可梦导航里\n"
+# 916 "data/maps/Route104/scripts.pory"
+	.string "登录了佑树。$"
 # 917 "data/maps/Route104/scripts.pory"
-	.string "{PLAYER} registered Brendan\n"
+
 # 918 "data/maps/Route104/scripts.pory"
-	.string "in the PokéNav.$"
-# 919 "data/maps/Route104/scripts.pory"
-
-# 920 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanHowsYourPokedex:
+# 919 "data/maps/Route104/scripts.pory"
+	.string "佑树：{PLAYER}，\n"
+# 920 "data/maps/Route104/scripts.pory"
+	.string "图鉴怎么样了？\l"
 # 921 "data/maps/Route104/scripts.pory"
-	.string "Brendan: {PLAYER}, how's your Pokédex?\n"
+	.string "填上新的页数了吗？$"
 # 922 "data/maps/Route104/scripts.pory"
-	.string "Have you filled in any pages yet?$"
+
 # 923 "data/maps/Route104/scripts.pory"
-
-# 924 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanDoingGreatLetsBattle:
+# 924 "data/maps/Route104/scripts.pory"
+	.string "我嘛，进展很不错！\p"
 # 925 "data/maps/Route104/scripts.pory"
-	.string "Me, I'm doing great!\p"
+	.string "想不想用对战检验一下\n"
 # 926 "data/maps/Route104/scripts.pory"
-	.string "Want to check out how good I am with\n"
+	.string "我的实力？$"
 # 927 "data/maps/Route104/scripts.pory"
-	.string "a battle?$"
+
 # 928 "data/maps/Route104/scripts.pory"
-
-# 929 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanNoConfidence:
+# 929 "data/maps/Route104/scripts.pory"
+	.string "佑树：怎么了？\n"
 # 930 "data/maps/Route104/scripts.pory"
-	.string "Brendan: What's the matter? Don't have\n"
+	.string "对自己的宝可梦没信心吗？$"
 # 931 "data/maps/Route104/scripts.pory"
-	.string "any confidence in your Pokémon?$"
+
 # 932 "data/maps/Route104/scripts.pory"
-
-# 933 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanLetsBattle:
+# 933 "data/maps/Route104/scripts.pory"
+	.string "佑树：怎么了？\n"
 # 934 "data/maps/Route104/scripts.pory"
-	.string "Brendan: What's up?\n"
+	.string "要和我对战一场吗？$"
 # 935 "data/maps/Route104/scripts.pory"
-	.string "Want to have a battle with me?$"
+
 # 936 "data/maps/Route104/scripts.pory"
-
-# 937 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanIntro:
+# 937 "data/maps/Route104/scripts.pory"
+	.string "佑树：我知道你才刚当上\n"
 # 938 "data/maps/Route104/scripts.pory"
-	.string "Brendan: I know you just became\n"
+	.string "训练家，但我不会放水！$"
 # 939 "data/maps/Route104/scripts.pory"
-	.string "a trainer, but I won't go easy!$"
+
 # 940 "data/maps/Route104/scripts.pory"
-
-# 941 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanDefeat:
+# 941 "data/maps/Route104/scripts.pory"
+	.string "嗯……\n"
 # 942 "data/maps/Route104/scripts.pory"
-	.string "Hmm…\n"
+	.string "你还挺厉害的。$"
 # 943 "data/maps/Route104/scripts.pory"
-	.string "You're pretty good.$"
+
 # 944 "data/maps/Route104/scripts.pory"
-
-# 945 "data/maps/Route104/scripts.pory"
 Route104_Text_BrendanPostBattle:
+# 945 "data/maps/Route104/scripts.pory"
+	.string "佑树：你操控宝可梦\n"
 # 946 "data/maps/Route104/scripts.pory"
-	.string "Brendan: You've gotten pretty decent\n"
+	.string "已经相当熟练了。\p"
 # 947 "data/maps/Route104/scripts.pory"
-	.string "at handling Pokémon.\p"
+	.string "不过，你知道，不能光是\n"
 # 948 "data/maps/Route104/scripts.pory"
-	.string "But, you know, you shouldn't just be\n"
+	.string "让宝可梦去对战。\p"
 # 949 "data/maps/Route104/scripts.pory"
-	.string "making Pokémon battle.\p"
+	.string "像布林尼先生那样，\n"
 # 950 "data/maps/Route104/scripts.pory"
-	.string "Like Mr. Briney, it's important to\n"
+	.string "和宝可梦成为朋友也很重要。$"
 # 951 "data/maps/Route104/scripts.pory"
-	.string "become friends with your Pokémon.$"
-# 952 "data/maps/Route104/scripts.pory"
 
-# 953 "data/maps/Route104/scripts.pory"
+# 952 "data/maps/Route104/scripts.pory"
 Route104_Text_TakeHexOrb:
+# 953 "data/maps/Route104/scripts.pory"
+	.string "看来你漏掉了这个，\n"
 # 954 "data/maps/Route104/scripts.pory"
-	.string "Looks like you missed this somehow,\n"
-# 955 "data/maps/Route104/scripts.pory"
-	.string "here take it.$"
+	.string "给你吧。$"
 
 Route104_EventScript_DawnTrigger1::
-# 959 "data/maps/Route104/scripts.pory"
+# 958 "data/maps/Route104/scripts.pory"
 	setvar VAR_0x8008, 1
-# 960 "data/maps/Route104/scripts.pory"
+# 959 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_DawnScene
 	end
 
 
 Route104_EventScript_DawnTrigger2::
-# 966 "data/maps/Route104/scripts.pory"
+# 965 "data/maps/Route104/scripts.pory"
 	setvar VAR_0x8008, 2
-# 967 "data/maps/Route104/scripts.pory"
+# 966 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_DawnScene
 	end
 
 
 Route104_EventScript_DawnScene::
-# 973 "data/maps/Route104/scripts.pory"
+# 972 "data/maps/Route104/scripts.pory"
 	lockall
-# 974 "data/maps/Route104/scripts.pory"
+# 973 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_PlayDawnMusic
-# 975 "data/maps/Route104/scripts.pory"
+# 974 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Common_Movement_WalkInPlaceFasterDown
+# 975 "data/maps/Route104/scripts.pory"
+	waitmovement 0
 # 976 "data/maps/Route104/scripts.pory"
-	waitmovement 0
-# 977 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Common_Movement_ExclamationMark
+# 977 "data/maps/Route104/scripts.pory"
+	waitmovement 0
 # 978 "data/maps/Route104/scripts.pory"
-	waitmovement 0
-# 979 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Common_Movement_Delay48
-# 980 "data/maps/Route104/scripts.pory"
+# 979 "data/maps/Route104/scripts.pory"
 	waitmovement 0
-# 981 "data/maps/Route104/scripts.pory"
+# 980 "data/maps/Route104/scripts.pory"
 	delay 30
-# 982 "data/maps/Route104/scripts.pory"
+# 981 "data/maps/Route104/scripts.pory"
 	call_if_eq VAR_0x8008, 1, Route104_EventScript_DawnApproachPlayer1
-# 983 "data/maps/Route104/scripts.pory"
+# 982 "data/maps/Route104/scripts.pory"
 	call_if_eq VAR_0x8008, 2, Route104_EventScript_DawnApproachPlayer2
-# 984 "data/maps/Route104/scripts.pory"
+# 983 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_DawnRivalBattle
-# 985 "data/maps/Route104/scripts.pory"
+# 984 "data/maps/Route104/scripts.pory"
 	releaseall
 	end
 
 
 Route104_EventScript_DawnRivalBattle::
-# 990 "data/maps/Route104/scripts.pory"
+# 989 "data/maps/Route104/scripts.pory"
 	msgbox Dawn_Greeting
-# 991 "data/maps/Route104/scripts.pory"
+# 990 "data/maps/Route104/scripts.pory"
 	trainerbattle_no_intro TRAINER_DAWN_ROUTE_104, Dawn_Defeated
-# 992 "data/maps/Route104/scripts.pory"
+# 991 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_DawnDefeated
 	end
 
 
 Route104_EventScript_DawnDefeated::
-# 997 "data/maps/Route104/scripts.pory"
+# 996 "data/maps/Route104/scripts.pory"
 	msgbox Dawn_TakeThis
-# 998 "data/maps/Route104/scripts.pory"
+# 997 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_ASPEAR_BERRY, 10
-# 999 "data/maps/Route104/scripts.pory"
+# 998 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_PERSIM_BERRY, 10
-# 1000 "data/maps/Route104/scripts.pory"
+# 999 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_PECHA_BERRY, 10
-# 1001 "data/maps/Route104/scripts.pory"
+# 1000 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_RAWST_BERRY, 10
-# 1002 "data/maps/Route104/scripts.pory"
+# 1001 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_CHERI_BERRY, 10
-# 1003 "data/maps/Route104/scripts.pory"
+# 1002 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_CHESTO_BERRY, 10
-# 1004 "data/maps/Route104/scripts.pory"
+# 1003 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_CHOPLE_BERRY, 10
-# 1005 "data/maps/Route104/scripts.pory"
+# 1004 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_COLBUR_BERRY, 10
-# 1006 "data/maps/Route104/scripts.pory"
+# 1005 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_WACAN_BERRY, 10
-# 1007 "data/maps/Route104/scripts.pory"
+# 1006 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_CHARTI_BERRY, 10
-# 1008 "data/maps/Route104/scripts.pory"
+# 1007 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_CHILAN_BERRY, 10
-# 1009 "data/maps/Route104/scripts.pory"
+# 1008 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_HABAN_BERRY, 10
-# 1010 "data/maps/Route104/scripts.pory"
+# 1009 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_ROSELI_BERRY, 10
-# 1011 "data/maps/Route104/scripts.pory"
+# 1010 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_SHUCA_BERRY, 10
-# 1012 "data/maps/Route104/scripts.pory"
+# 1011 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_BABIRI_BERRY, 10
-# 1013 "data/maps/Route104/scripts.pory"
+# 1012 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_KASIB_BERRY, 10
-# 1014 "data/maps/Route104/scripts.pory"
+# 1013 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_COBA_BERRY, 10
-# 1015 "data/maps/Route104/scripts.pory"
+# 1014 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_KEBIA_BERRY, 10
-# 1016 "data/maps/Route104/scripts.pory"
+# 1015 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_OCCA_BERRY, 10
-# 1017 "data/maps/Route104/scripts.pory"
+# 1016 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_PASSHO_BERRY, 10
-# 1018 "data/maps/Route104/scripts.pory"
+# 1017 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_PAYAPA_BERRY, 10
-# 1019 "data/maps/Route104/scripts.pory"
+# 1018 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_RINDO_BERRY, 10
-# 1020 "data/maps/Route104/scripts.pory"
+# 1019 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_YACHE_BERRY, 10
-# 1021 "data/maps/Route104/scripts.pory"
+# 1020 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_TANGA_BERRY, 10
-# 1022 "data/maps/Route104/scripts.pory"
+# 1021 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_HARBOR_MAIL
-# 1023 "data/maps/Route104/scripts.pory"
+# 1022 "data/maps/Route104/scripts.pory"
 	giveitemfast ITEM_WISE_GLASSES
-# 1024 "data/maps/Route104/scripts.pory"
+# 1023 "data/maps/Route104/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 1025 "data/maps/Route104/scripts.pory"
+# 1024 "data/maps/Route104/scripts.pory"
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_ReceivedSeveralItems, MSGBOX_DEFAULT
-# 1026 "data/maps/Route104/scripts.pory"
+# 1025 "data/maps/Route104/scripts.pory"
 	waitfanfare
-# 1027 "data/maps/Route104/scripts.pory"
+# 1026 "data/maps/Route104/scripts.pory"
 	msgbox DawnGoodbye
-# 1028 "data/maps/Route104/scripts.pory"
+# 1027 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_DawnExit
 	end
 
 
 Route104_EventScript_DawnApproachPlayer1::
-# 1035 "data/maps/Route104/scripts.pory"
+# 1034 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Route104_Movement_DawnApproachPlayer1
-# 1036 "data/maps/Route104/scripts.pory"
+# 1035 "data/maps/Route104/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route104_Movement_DawnApproachPlayer1::
-# 1042 "data/maps/Route104/scripts.pory"
+# 1041 "data/maps/Route104/scripts.pory"
 	walk_down
-# 1043 "data/maps/Route104/scripts.pory"
+# 1042 "data/maps/Route104/scripts.pory"
 	walk_left
-# 1044 "data/maps/Route104/scripts.pory"
+# 1043 "data/maps/Route104/scripts.pory"
 	walk_in_place_faster_down
-# 1045 "data/maps/Route104/scripts.pory"
+# 1044 "data/maps/Route104/scripts.pory"
 	step_end
 	return
 
 
 Route104_EventScript_DawnApproachPlayer2::
-# 1049 "data/maps/Route104/scripts.pory"
+# 1048 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Route104_Movement_DawnApproachPlayer2
-# 1050 "data/maps/Route104/scripts.pory"
+# 1049 "data/maps/Route104/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route104_Movement_DawnApproachPlayer2::
-# 1055 "data/maps/Route104/scripts.pory"
+# 1054 "data/maps/Route104/scripts.pory"
 	walk_down
-# 1056 "data/maps/Route104/scripts.pory"
+# 1055 "data/maps/Route104/scripts.pory"
 	step_end
 	return
 
 
 Route104_EventScript_DawnExit::
-# 1060 "data/maps/Route104/scripts.pory"
+# 1059 "data/maps/Route104/scripts.pory"
 	closemessage
-# 1061 "data/maps/Route104/scripts.pory"
+# 1060 "data/maps/Route104/scripts.pory"
 	delay 45
-# 1062 "data/maps/Route104/scripts.pory"
+# 1061 "data/maps/Route104/scripts.pory"
 	call_if_eq VAR_0x8008, 1, ApplyMovementDawn
-# 1063 "data/maps/Route104/scripts.pory"
+# 1062 "data/maps/Route104/scripts.pory"
 	call_if_eq VAR_0x8008, 2, ApplyMovementDawn
-# 1064 "data/maps/Route104/scripts.pory"
+# 1063 "data/maps/Route104/scripts.pory"
 	removeobject LOCALID_DAWN
-# 1065 "data/maps/Route104/scripts.pory"
+# 1064 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DAWN_104
-# 1066 "data/maps/Route104/scripts.pory"
+# 1065 "data/maps/Route104/scripts.pory"
 	savebgm MUS_DUMMY
-# 1067 "data/maps/Route104/scripts.pory"
+# 1066 "data/maps/Route104/scripts.pory"
 	fadedefaultbgm
-# 1068 "data/maps/Route104/scripts.pory"
+# 1067 "data/maps/Route104/scripts.pory"
 	releaseall
 	end
 
 
 ApplyMovementDawn::
-# 1073 "data/maps/Route104/scripts.pory"
+# 1072 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_DAWN, Route104_EventScript_DawnExit1
-# 1074 "data/maps/Route104/scripts.pory"
+# 1073 "data/maps/Route104/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route104_EventScript_DawnExit1::
+# 1078 "data/maps/Route104/scripts.pory"
+	walk_up
 # 1079 "data/maps/Route104/scripts.pory"
 	walk_up
 # 1080 "data/maps/Route104/scripts.pory"
@@ -2113,54 +2113,52 @@ Route104_EventScript_DawnExit1::
 # 1084 "data/maps/Route104/scripts.pory"
 	walk_up
 # 1085 "data/maps/Route104/scripts.pory"
-	walk_up
-# 1086 "data/maps/Route104/scripts.pory"
 	step_end
 	return
 
 
 Route104_EventScript_PlayDawnMusic::
-# 1090 "data/maps/Route104/scripts.pory"
+# 1089 "data/maps/Route104/scripts.pory"
 	playbgm MUS_DP_DAWN, TRUE
 	return
 
 
 Dawn_Greeting::
-# 1094 "data/maps/Route104/scripts.pory"
-	.string "Hey there! Are you {PLAYER}, by\n"
-	.string "chance?\p"
-	.string "You are? Great! My name is Dawn, I'm\n"
-	.string "a friend of {RIVAL}'s.\p"
-	.string "They actually just passed through here\n"
-	.string "and told me to be on the lookout for a\l"
-	.string "trainer named {PLAYER}.\p"
-	.string "{RIVAL} seems to think you have a lot\n"
-	.string "of potential, and that you're someone I\l"
-	.string "should keep my eye on while I'm making\l"
-	.string "my way through the Hoenn region.\p"
-	.string "I want to be the judge of that, though,\n"
-	.string "so what do you say we have a battle!$"
+# 1093 "data/maps/Route104/scripts.pory"
+	.string "嘿！你该不会\n"
+	.string "就是{PLAYER}吧？\p"
+	.string "真是你？太好了！我叫小光，\n"
+	.string "{RIVAL}的朋友。\p"
+	.string "他刚从这里经过，\n"
+	.string "让我留意一位\l"
+	.string "叫{PLAYER}的训练家。\p"
+	.string "{RIVAL}好像觉得你很有\n"
+	.string "潜力，说我在丰缘地区\l"
+	.string "旅行时该多留意\l"
+	.string "你。\p"
+	.string "不过我想亲自判断，\n"
+	.string "所以来打一场吧！$"
 
 Dawn_Defeated::
-# 1110 "data/maps/Route104/scripts.pory"
-	.string "Looks like {RIVAL} was right!$"
+# 1109 "data/maps/Route104/scripts.pory"
+	.string "看来{RIVAL}说得没错！$"
 
 Dawn_TakeThis::
-# 1115 "data/maps/Route104/scripts.pory"
-	.string "That was a great battle! I'll definitely\n"
-	.string "be seeing you again, {PLAYER}, so I can\l"
-	.string "test my strength!\p"
-	.string "Also, here, I have some extra Items\n"
-	.string "taking up space in my Bag that you can\l"
-	.string "have, hopefully they'll be helpful.$"
+# 1114 "data/maps/Route104/scripts.pory"
+	.string "打得真好！{PLAYER}，\n"
+	.string "我一定会再来找你，\l"
+	.string "检验我的实力！\p"
+	.string "对了，我包里有几件多余的\n"
+	.string "道具占地方，\l"
+	.string "给你吧，希望有用。$"
 
 DawnGoodbye::
-# 1124 "data/maps/Route104/scripts.pory"
-	.string "I gave you a bunch of Berries that can\n"
-	.string "reduce the damage of super effective\l"
-	.string "moves, and a handy pair of Wise Glasses\l"
-	.string "that can raise a Pokémon's Special\l"
-	.string "Attack. Be sure to check them out!\p"
-	.string "Alright, I'm off. Nice to meet you\n"
-	.string "{PLAYER}, I'm sure we'll see each other\l"
-	.string "again soon!$"
+# 1123 "data/maps/Route104/scripts.pory"
+	.string "我给了你一些能减轻效果绝佳\n"
+	.string "招式伤害的树果，\l"
+	.string "还有一副能提高宝可梦特攻的\l"
+	.string "好用的博识眼镜。\l"
+	.string "记得看看！\p"
+	.string "好，我走了。很高兴见到你，\n"
+	.string "{PLAYER}，我想我们\l"
+	.string "很快会再见！$"

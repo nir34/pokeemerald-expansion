@@ -43,9 +43,9 @@ Route106_EventScript_Ned::
 	end
 
 Route106_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "The nurse in front of the counter\n"
-	.string "inside of Pokémon centers can perform\l"
-	.string "many useful functions.$"
+	.string "训练家提示\p"
+	.string "宝可梦中心柜台里的\n"
+	.string "护士能提供很多\l"
+	.string "有用的服务。$"
 
 `

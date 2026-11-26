@@ -125,32 +125,33 @@ Route113_EventScript_Coby::
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass:
-	.string "Wahahaha! Today's technology is a\n"
-	.string "wondrous thing!\p"
-	.string "Take this volcanic ash here.\n"
-	.string "It can be fashioned into glass.$"
+	.string "哇哈哈！现在的技术\n"
+	.string "真是神奇！\p"
+	.string "你看这火山灰。\n"
+	.string "它能做成玻璃。$"
 
 Route113_Text_FunWalkingThroughAsh:
-	.string "It's fun walking through the volcano's\n"
-	.string "ashes on the ground and grass.\p"
-	.string "You can see where you walked--it's\n"
-	.string "really neat!$"
+	.string "走在飘落在地面和\n"
+	.string "草上的火山灰里，很好玩。\p"
+	.string "能看见自己走过的路——\n"
+	.string "真有意思！$"
 
 Route113_Text_RouteSign111:
-	.string "ROUTE 113\n"
-	.string "{RIGHT_ARROW} ROUTE 111$"
+	.string "113号道路\n"
+	.string "{RIGHT_ARROW} 111号道路$"
 
 Route113_Text_RouteSignFallarbor:
-	.string "ROUTE 113\n"
-	.string "{LEFT_ARROW} FALLARBOR TOWN$"
+	.string "113号道路\n"
+	.string "{LEFT_ARROW} 秋叶镇$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "Trainer Tips\p"
-	.string "Golden Poké Balls on the ground contain\n"
-	.string "TMs instead of normal Items.$"
+	.string "训练家入门\p"
+	.string "地上的金色精灵球里\n"
+	.string "装的是学习器，\l"
+	.string "而不是普通道具。$"
 
 Route113_Text_GlassWorkshopSign:
-	.string "GLASS WORKSHOP\n"
-	.string "Retired$"
+	.string "玻璃工坊\n"
+	.string "已停业$"
 
 `

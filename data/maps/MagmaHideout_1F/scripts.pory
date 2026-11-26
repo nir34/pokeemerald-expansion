@@ -18,38 +18,39 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
-	.string "When Team Magma has roll call, we get\n"
-	.string "important guarding assignments in\l"
-	.string "the order that we line up.\p"
-	.string "That's why I'm stuck off in this corner.\n"
-	.string "I'm always late to roll call!$"
+	.string "水舰队点名的时候，我们\n"
+	.string "按站队的顺序领\l"
+	.string "重要守卫任务。\p"
+	.string "所以我才被塞在\n"
+	.string "这个角落。我点名\l"
+	.string "总是迟到！$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
-	.string "I'm always late for training sessions,\n"
-	.string "too!\p"
-	.string "I hate to say it, but I'm wimpy…$"
+	.string "我训练也总是迟到！\p"
+	.string "不想承认，不过\n"
+	.string "我真是个软脚虾……$"
 
 MagmaHideout_1F_Text_Grunt1PostBattle:
-	.string "Okay, I'll try to put a little more\n"
-	.string "effort into things from now on…$"
+	.string "好吧，我从现在起\n"
+	.string "会多用点力……$"
 
 MagmaHideout_1F_Text_Grunt2Intro:
-	.string "Our leader told us to dig into\n"
-	.string "MT. CHIMNEY, so we dug and dug.\p"
-	.string "And in the course of digging, we came\n"
-	.string "across something that blew our minds!\p"
-	.string "What did we find?\p"
-	.string "Fuhahaha!\n"
-	.string "I'll tell you if you beat me!$"
+	.string "老大让我们往烟囱山\n"
+	.string "里挖，我们就一直挖。\p"
+	.string "挖的过程中，我们挖到了\n"
+	.string "让人瞠目结舌的东西！\p"
+	.string "挖到了什么？\p"
+	.string "哈哈哈！\n"
+	.string "你打赢我我就告诉你！$"
 
 MagmaHideout_1F_Text_Grunt2Defeat:
-	.string "Arrgh!\n"
-	.string "Taken down!$"
+	.string "呃啊！\n"
+	.string "被打倒了！$"
 
 MagmaHideout_1F_Text_Grunt2PostBattle:
-	.string "I won't tell you after all.\n"
-	.string "You'll find out when you get there!\p"
-	.string "It'd be better if you saved surprises\n"
-	.string "to the end, don't you think?$"
+	.string "算了，我不告诉你。\n"
+	.string "你到了那儿就知道了！\p"
+	.string "惊喜留到最后比较\n"
+	.string "好吧，你不觉得吗？$"
 
 `

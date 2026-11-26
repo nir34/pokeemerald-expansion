@@ -123,31 +123,31 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
-	.string "People and Pokémon, they are but\n"
-	.string "the same…\p"
-	.string "Their individual nature makes them\n"
-	.string "good at certain things, and not good\l"
-	.string "at others.$"
+	.string "人和宝可梦，其实是\n"
+	.string "一回事……\p"
+	.string "各自的性格让它们擅长\n"
+	.string "某些事，而不擅长\l"
+	.string "另一些事。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
-	.string "Rather than trying to make a Pokémon\n"
-	.string "do what it dislikes, try to let it do\l"
-	.string "what it likes and is good at doing.\p"
-	.string "Put yourself in the Pokémon's position\n"
-	.string "and consider what moves it would like.$"
+	.string "与其勉强宝可梦做它\n"
+	.string "不喜欢的事，不如让它做\l"
+	.string "喜欢又擅长的事。\p"
+	.string "站在宝可梦的立场上，\n"
+	.string "想想它会喜欢哪些招式。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
-	.string "A Pokémon's nature is a remarkable\n"
-	.string "thing…\p"
-	.string "Some Pokémon behave in a completely\n"
-	.string "different way when they are cornered.$"
+	.string "宝可梦的性格真是奇妙的\n"
+	.string "东西……\p"
+	.string "有些宝可梦被逼到绝境时，\n"
+	.string "会表现得完全不一样。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
-	.string "Are you beginning to understand how\n"
-	.string "a Pokémon's nature makes it behave?$"
+	.string "你开始明白宝可梦的性格\n"
+	.string "如何影响它的行为了吗？$"
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
-	.string "Ah… I see a strong, heartfelt bond\n"
-	.string "between you and your Pokémon…$"
+	.string "啊……我看到了你和宝可梦\n"
+	.string "之间强烈而真挚的羁绊……$"
 
 `

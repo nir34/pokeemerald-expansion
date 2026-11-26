@@ -683,7 +683,7 @@ static void Task_ResetRtcScreen(u8 taskId)
         {
             if (!gTasks[tSubTaskId].tSetTime)
             {
-                // Exited without setting time, return to "Please reset time"
+                // Exited without setting time, return to "请重设时间"
                 DestroyTask(tSubTaskId);
                 tState = MAINSTATE_START_SET_TIME;
             }

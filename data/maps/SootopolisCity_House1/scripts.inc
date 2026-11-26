@@ -53,24 +53,26 @@ SootopolisCity_House1_EventScript_Kecleon::
 # 27 "data/maps/SootopolisCity_House1/scripts.pory"
 SootopolisCity_House1_Text_DevelopedThisTM:
 # 28 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "For thirty years I've remained in\n"
+	.string "我在琉璃市待了三十年，\n"
 # 29 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "Sootopolis honing my skills.\p"
+	.string "磨练本事。\p"
 # 30 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "I developed a shattering TM.\n"
+	.string "我开发了一个学习器，\n"
 # 31 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "I bequeath it to you!$"
+	.string "能把一切劈开。\l"
 # 32 "data/maps/SootopolisCity_House1/scripts.pory"
-
+	.string "就传给你吧！$"
 # 33 "data/maps/SootopolisCity_House1/scripts.pory"
-SootopolisCity_House1_Text_ExplainBrickBreak:
-# 34 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "Puu puhyaah.\n"
-# 35 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "That's what my Kecleon always says.$"
-# 36 "data/maps/SootopolisCity_House1/scripts.pory"
 
+# 34 "data/maps/SootopolisCity_House1/scripts.pory"
+SootopolisCity_House1_Text_ExplainBrickBreak:
+# 35 "data/maps/SootopolisCity_House1/scripts.pory"
+	.string "噗 噗呀啊。\n"
+# 36 "data/maps/SootopolisCity_House1/scripts.pory"
+	.string "我的变隐龙总是这么说。$"
 # 37 "data/maps/SootopolisCity_House1/scripts.pory"
-SootopolisCity_House1_Text_Kecleon:
+
 # 38 "data/maps/SootopolisCity_House1/scripts.pory"
-	.string "Puu puhyaah.$"
+SootopolisCity_House1_Text_Kecleon:
+# 39 "data/maps/SootopolisCity_House1/scripts.pory"
+	.string "噗 噗呀啊。$"

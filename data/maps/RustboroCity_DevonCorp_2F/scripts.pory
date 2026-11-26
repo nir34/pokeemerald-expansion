@@ -244,84 +244,83 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with Pokémon.\p"
-	.string "But we haven't had much success…$"
+	.string "我们正在开发能和宝可梦\n"
+	.string "说话的装置。\p"
+	.string "不过还没什么进展……$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "Pokémon…\p"
-	.string "But it's not going well.$"
+	.string "我想开发能把宝可梦的梦\n"
+	.string "变成画面的装置……\p"
+	.string "可是进行得不顺利。$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects Pokémon from fossils…\p"
-	.string "And, it's working!$"
+	.string "我一直在开发能从化石里\n"
+	.string "让宝可梦复活的装置……\p"
+	.string "而且，成功了！$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
-	.string "Wait! That thing you have there…\n"
-	.string "Is that a Pokémon fossil?\p"
-	.string "Would you like to bring that Pokémon\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "等等！你手上的那个……\n"
+	.string "是宝可梦的化石吗？\p"
+	.string "你想不想让那只宝可梦\n"
+	.string "复活过来？\p"
+	.string "用我新开发的\n"
+	.string "化石复原机就能做到。$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "DEVON's technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "哦，是这样啊。\p"
+	.string "得文的技术实力\n"
+	.string "可是很了不起的。$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have not one, but two, fossils?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one Pokémon at a time.\p"
-	.string "Would you like to pick one of your\n"
-	.string "fossils for regeneration?$"
+	.string "哦，这倒让我吃了一惊！\n"
+	.string "你不止一块，有两块化石？\p"
+	.string "可惜我的机器一次只能\n"
+	.string "复原一只宝可梦。\p"
+	.string "你想从两块化石里\n"
+	.string "挑一块来复原吗？$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "太好了！\n"
+	.string "我们马上开始吧。\p"
+	.string "{PLAYER}把{STR_VAR_1}交给了\n"
+	.string "得文的研究员。$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "我做的化石复原机\n"
+	.string "非常厉害。\p"
+	.string "不过有个缺点——\n"
+	.string "它要花很长时间。\p"
+	.string "所以……你要不要\n"
+	.string "出去转转，等一会儿？$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized Pokémon has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient Pokémon.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "让你久等了！\p"
+	.string "你的化石宝可梦\n"
+	.string "已经复活过来了！\p"
+	.string "这块化石是古代宝可梦。\n"
+	.string "是{STR_VAR_2}！$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "{PLAYER}从得文研究员那里\n"
+	.string "得到了{STR_VAR_2}。$"
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many Pokémon.\n"
-	.string "You have no room for this one.$"
+	.string "糟糕，你的宝可梦太多了。\n"
+	.string "没地方放这一只。$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the PokéNav…\p"
-	.string "But it's not going well.$"
+	.string "我正在给宝可梦导航\n"
+	.string "开发新功能……\p"
+	.string "可是进行得不顺利。$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "那么，接下来开发\n"
+	.string "什么好呢？\p"
+	.string "公司允许我们把灵感\n"
+	.string "变成现实。\p"
+	.string "作为工程师，\n"
+	.string "没有比这更好的环境了。$"
 
 `
 
@@ -374,42 +373,42 @@ script RustboroCity_DevonCorp_2F_EventScript_CancelKyurem{
 }
 
 text RustboroCity_DevonCorp_2F_Text_DnaSplicersReady{
-	"Our research is finally complete!\n"
-	"I'm looking for a trainer with Kyurem\l"
-	"who would be willing to try these DNA\l"
-	"Splicers.\p"
-	"Do you have a Kyurem?"
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有酋雷姆、\l"
+	"愿意试试这些基因之楔\l"
+	"的训练家。\p"
+	"你有酋雷姆吗？"
 }
 
 text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseSplicers{
-	"Amazing! Here, take these DNA Splicers."
+	"太棒了！来，这些基因之楔给你。"
 }
 
 text RustboroCity_DevonCorp_2F_DoingFusionResearch{
-	"My colleagues and I are doing research\n"
-	"into fusing various Pokémon species.\p"
-	"I think our research is progressing\n"
-	"nicely, but we need a little more time\l"
-	"until we are ready to give our\l"
-	"technology to a real trainer."
+	"我和同事们正在研究如何\n"
+	"把各种宝可梦融合起来。\p"
+	"我觉得研究进展得\n"
+	"不错，不过还需要一点时间，\l"
+	"才能把技术交给\l"
+	"真正的训练家。"
 }
 
 text RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers{
-	"You can use those DNA Splicers to fuse\n"
-	"Kyurem with either Zekrom or Reshiram.\l"
-	"You can also un-fuse them if you want!\p"
-	"You'll have to come back and let us know\n"
-	"how the fusion technology is\l"
-	"performing!\p"
-	"We would love to get more data from\n"
-	"real-world usage!"
+	"用那些基因之楔，可以把酋雷姆\n"
+	"和捷克罗姆或莱希拉姆融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
 }
 
 text RustboroCity_DevonCorp_2F_Text_DontHaveKyurem{
-	"I see, you don't have Kyurem."
+	"我明白了，你没有酋雷姆。"
 }
 text RustboroCity_DevonCorp_2F_Text_NotKyurem{
-	"That's not Kyurem."
+	"那不是酋雷姆。"
 }
 
 
@@ -463,35 +462,35 @@ script RustboroCity_DevonCorp_2F_EventScript_CancelCalyrex{
 }
 
 text RustboroCity_DevonCorp_2F_Text_ReinsReady{
-	"Our research is finally complete!\n"
-	"I'm looking for a trainer with Calyrex\l"
-	"who would be willing to try these Reins\l"
-	"of Unity.\p"
-	"Do you have a Calyrex?"
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有蕾冠王、\l"
+	"愿意试试这根牵绊缰绳\l"
+	"的训练家。\p"
+	"你有蕾冠王吗？"
 }
 
 text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseReins{
-	"Incredible! Here, take these Reins of\n"
-	"Unity."
+	"太惊人了！来，这根牵绊\n"
+	"缰绳给你。"
 }
 
 text RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity{
-	"You can use those Reins of Unity to\n"
-	"fuse Calyrex with either Glastrier or\l"
-	"Spectrier.\l"
-	"You can also un-fuse them if you want!\p"
-	"You'll have to come back and let us know\n"
-	"how the fusion technology is\l"
-	"performing!\p"
-	"We would love to get more data from\n"
-	"real-world usage!"
+	"用那根牵绊缰绳，可以把蕾冠王\n"
+	"和雪暴马或灵幽马\l"
+	"融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
 }
 
 text RustboroCity_DevonCorp_2F_Text_DontHaveCalyrex{
-	"I see, you don't have Calyrex."
+	"我明白了，你没有蕾冠王。"
 }
 text RustboroCity_DevonCorp_2F_Text_NotCalyrex{
-	"That's not Calyrex."
+	"那不是蕾冠王。"
 }
 
 
@@ -545,34 +544,34 @@ script RustboroCity_DevonCorp_2F_EventScript_CancelNecrozma{
 }
 
 text RustboroCity_DevonCorp_2F_Text_NFusionsReady{
-	"Our research is finally complete!\n"
-	"I'm looking for a trainer with Necrozma\l"
-	"who would be willing to try this N-\l"
-	"Solarizer and N-Lunarizer.\p"
-	"Do you have a Necrozma?"
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有奈克洛兹玛、\l"
+	"愿意试试合体器与\l"
+	"合体器的训练家。\p"
+	"你有奈克洛兹玛吗？"
 }
 
 text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseNFusions{
-	"Wonderful! Here, take this N-Solarizer\n"
-	"and N-Lunarizer."
+	"太好了！来，这两件奈克洛索尔\n"
+	"合体器和奈克洛露奈合体器，给你。"
 }
 
 text RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions{
-	"You can use the N-Solarizer to fuse\n"
-	"Necrozma with Solgaleo, and you can use\l"
-	"the N-Lunarizer fuse Necrozma with\l"
-	"Lunala.\l"
-	"You can also un-fuse them if you want!\p"
-	"You'll have to come back and let us know\n"
-	"how the fusion technology is\l"
-	"performing!\p"
-	"We would love to get more data from\n"
-	"real-world usage!"
+	"用奈克洛索尔合体器可以把\n"
+	"奈克洛兹玛和索尔迦雷欧融合，\l"
+	"用奈克洛露奈合体器则可以把\l"
+	"奈克洛兹玛和露奈雅拉融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
 }
 
 text RustboroCity_DevonCorp_2F_Text_DontHaveNecrozma{
-	"I see, you don't have Necrozma."
+	"我明白了，你没有奈克洛兹玛。"
 }
 text RustboroCity_DevonCorp_2F_Text_NotNecrozma{
-	"That's not Necrozma."
+	"那不是奈克洛兹玛。"
 }

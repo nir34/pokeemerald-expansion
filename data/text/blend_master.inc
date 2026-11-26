@@ -1,85 +1,85 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
-	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "混合大师：没错，就是我！\n"
+	.string "混合大师就是我！\p"
+	.string "和我一起混合，你就能见识\n"
+	.string "我混合时的精湛技艺！$"
 
 BerryBlender_Text_SeeMyMasteryInAction:
-	.string "BLEND MASTER: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "混合大师：嗯！那么，你想\n"
+	.string "亲眼看看我的技艺？$"
 
 BerryBlender_Text_TooBusyNowIsee:
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "嗯！\p"
+	.string "那么，看来你现在很忙！\p"
+	.string "不过别担心！\n"
+	.string "我一整天都会在这儿！\l"
+	.string "办完事快点回来！$"
 
 BerryBlender_Text_BlendMasterNoBerries:
-	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some BERRIES!$"
+	.string "嗯！\p"
+	.string "你连一颗树果都没有！\p"
+	.string "我一整天都会在这儿！\n"
+	.string "带着树果快点回来！$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from BERRIES?$"
+	.string "当然！\n"
+	.string "当然！\p"
+	.string "顺便问一句……\n"
+	.string "你知道怎么用树果\l"
+	.string "混合出宝可方块吗？$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "嗯！\p"
+	.string "啊，不过过程很简单！\p"
+	.string "当混合器的箭头来到\n"
+	.string "你的标记处，按下A键就行。\p"
+	.string "你要做的就这些。\p"
+	.string "等你看到我按键有多精准，\n"
+	.string "你就会明白了。$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "好！\p"
+	.string "那么，开始吧！\p"
+	.string "和混合大师一起，\n"
+	.string "来做树果混合吧！$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
-	.string "I shall be here all day!\n"
-	.string "Obta放进了{POKEBLOCK} CASE and hurry back!$"
+	.string "嗯！\p"
+	.string "你好像还没拿到\n"
+	.string "宝可方块盒！\p"
+	.string "我一整天都在这儿！\n"
+	.string "拿到宝可方块盒就赶快回来！$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "嗯！\p"
+	.string "你的宝可方块盒好像满了！\p"
+	.string "我一整天都会在这儿！\n"
+	.string "用掉一些宝可方块快点回来！$"
 
 BerryBlender_Text_WhoaAwesome:
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "哇！\n"
+	.string "太厉害了！$"
 
 BerryBlender_Text_WickedlyFast:
-	.string "Wickedly fast!$"
+	.string "快得吓人！$"
 
 BerryBlender_Text_WhatAnExpert:
-	.string "What an expert!$"
+	.string "真是高手！$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the MASTER,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "和大师一起混合时，\n"
+	.string "我们做出了了不起的宝可方块！$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the BLEND MASTER truly great.$"
+	.string "那双眼睛追着箭头，\n"
+	.string "像机器一样专注……\p"
+	.string "那只手按着A键，\n"
+	.string "像钟表一样精准……\p"
+	.string "拥有这些品质，\n"
+	.string "才让混合大师真正了不起。$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep 放进了mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend BERRIES all day long.$"
+	.string "据说树果搅拌大师在\n"
+	.string "深山深处磨练技艺。\p"
+	.string "有时他会来琉璃市，\n"
+	.string "一整天都在搅拌树果。$"

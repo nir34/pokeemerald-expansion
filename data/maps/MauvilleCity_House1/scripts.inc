@@ -127,503 +127,513 @@ MauvilleCity_House1_EventScript_ReceivedStatEditorNotInMGM::
 # 64 "data/maps/MauvilleCity_House1/scripts.pory"
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
 # 65 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Woohoo!\p"
+	.string "哇呼！\p"
 # 66 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I hear people call me the Rock Smash\n"
+	.string "听说大家都叫我碎岩小子，\n"
 # 67 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Guy, but I find that sort of degrading.\p"
+	.string "我觉得这称呼有点掉价。\p"
 # 68 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I think I deserve a bit more respect,\n"
+	.string "我该得到更多尊重，\n"
 # 69 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "like maybe the Rock Smash Dude.\p"
+	.string "比如碎岩大哥。\p"
 # 70 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Woohoo!\p"
+	.string "哇呼！\p"
 # 71 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Anyways, your Pokémon look pretty\n"
+	.string "总之，你的宝可梦\n"
 # 72 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "strong.\p"
+	.string "看起来很强。\p"
 # 73 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I like that!\n"
+	.string "我喜欢！\n"
 # 74 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Here, take this Hidden Machine!$"
+	.string "来，这秘传学习器给你！$"
 # 75 "data/maps/MauvilleCity_House1/scripts.pory"
 
 # 76 "data/maps/MauvilleCity_House1/scripts.pory"
 MauvilleCity_House1_Text_ExplainRockSmash:
 # 77 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "That HM contains Rock Smash.\p"
+	.string "这个学习器里是碎岩。\p"
 # 78 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "If you come across large boulders\n"
+	.string "要是碰到挡住去路的\n"
 # 79 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "that block your path…\p"
+	.string "大岩石……\p"
 # 80 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Well, use that HM move and smash\n"
+	.string "就用那个秘传招式，\n"
 # 81 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "them right out of your way!\p"
+	.string "把它们砸开！\p"
 # 82 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Yes, sir! Smash rocks aside, I say!\n"
+	.string "对对！砸开石头！\n"
 # 83 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Woohoo!$"
+	.string "哇呼！$"
 # 84 "data/maps/MauvilleCity_House1/scripts.pory"
 
 # 85 "data/maps/MauvilleCity_House1/scripts.pory"
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
 # 86 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Oh, yes, if you smash a rock, a Pokémon\n"
+	.string "哦，对了，砸开石头，\n"
 # 87 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "could come flying out of hiding.\p"
+	.string "可能会有宝可梦\l"
 # 88 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Woohoo!$"
+	.string "从藏身处飞出来。\p"
 # 89 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "哇呼！$"
 # 90 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ImStatEditorDudeTakeThis:
+
 # 91 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Hello there.\p"
+MauvilleCity_House1_Text_ImStatEditorDudeTakeThis:
 # 92 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I'm not quite as outspoken as my\n"
+	.string "你好。\p"
 # 93 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "colleague there, but I have something\l"
+	.string "我没那边那位同事\n"
 # 94 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "you may find useful.\p"
+	.string "那么爱嚷嚷，\l"
 # 95 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Here, take this device.$"
+	.string "不过我有样东西\l"
 # 96 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "你可能用得上。\p"
 # 97 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ExplainStatEditorStart:
+	.string "来，拿着这个装置。$"
 # 98 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I call that device the Stat Editor,\n"
+
 # 99 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}you can access it from your “L menu”.\p"
+MauvilleCity_House1_Text_ExplainStatEditorStart:
 # 100 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}It will allow you to edit the EVs or IVs\n"
+	.string "我把这个装置叫能力编辑器，\n"
 # 101 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "of your Pokémon, depending on your\l"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}你可以从“L菜单”\l"
 # 102 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "current game mode.\p"
+	.string "打开它。\p"
 # 103 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Hmm, let's see here…$"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}它能让你编辑宝可梦的\n"
 # 104 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "努力值或个体值，\l"
 # 105 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "看你现在的游戏模式而定。\p"
 # 106 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ExplainStatEditorInMGM:
+	.string "嗯，让我看看……$"
 # 107 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Since you have Minimal Grinding Mode\n"
+
 # 108 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "enabled, you can't change your\l"
+
 # 109 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Pokémon's EVs with that device.\p"
+MauvilleCity_House1_Text_ExplainStatEditorInMGM:
 # 110 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "You can edit IVs freely though.$"
+	.string "因为你开启了\n"
 # 111 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "少量练级模式，\l"
 # 112 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ExplainStatEditorNotInMGM:
+	.string "所以不能用这个装置\l"
 # 113 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Since you have Minimal Grinding Mode\n"
+	.string "改宝可梦的努力值。\p"
 # 114 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "disabled, you can edit both EVs\l"
+	.string "不过个体值可以随便改。$"
 # 115 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "and IVs freely with that device.$"
+
 # 116 "data/maps/MauvilleCity_House1/scripts.pory"
-
+MauvilleCity_House1_Text_ExplainStatEditorNotInMGM:
 # 117 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ReceivedStatEditorInMGM:
+	.string "因为你没有开启\n"
 # 118 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Remember, you can access the Stat\n"
+	.string "少量练级模式，\l"
 # 119 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Editor from your “L menu”.\p"
+	.string "所以可以用这个装置\l"
 # 120 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "However, since you have\n"
+	.string "随意编辑努力值和个体值。$"
 # 121 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Minimal Grinding Mode enabled, you\l"
+
 # 122 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "can't change your Pokémon's EVs.\p"
+MauvilleCity_House1_Text_ReceivedStatEditorInMGM:
 # 123 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "You can edit IVs freely though.$"
+	.string "记住，你可以从\n"
 # 124 "data/maps/MauvilleCity_House1/scripts.pory"
-
+	.string "“L菜单”打开能力编辑器。\p"
 # 125 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ReceivedStatEditorNotInMGM:
+	.string "不过，因为你开启了\n"
 # 126 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Remember, you can access the Stat\n"
+	.string "少量练级模式，\l"
 # 127 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Editor from your “L menu”.\p"
+	.string "不能改宝可梦的努力值。\p"
 # 128 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Since you have Minimal Grinding\n"
+	.string "不过个体值可以随便改。$"
 # 129 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Mode disabled, you can edit the\l"
-# 130 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "EVs and IVs of your Pokémon freely.$"
-# 131 "data/maps/MauvilleCity_House1/scripts.pory"
 
+# 130 "data/maps/MauvilleCity_House1/scripts.pory"
+MauvilleCity_House1_Text_ReceivedStatEditorNotInMGM:
+# 131 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "记住，你可以从\n"
 # 132 "data/maps/MauvilleCity_House1/scripts.pory"
-MauvilleCity_House1_Text_ObtainedStatEditor:
+	.string "“L菜单”打开能力编辑器。\p"
 # 133 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Obtained the Stat Editor!$"
+	.string "因为你没有开启少量练级\n"
+# 134 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "模式，可以随意编辑\l"
+# 135 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "宝可梦的努力值和个体值。$"
+# 136 "data/maps/MauvilleCity_House1/scripts.pory"
+
+# 137 "data/maps/MauvilleCity_House1/scripts.pory"
+MauvilleCity_House1_Text_ObtainedStatEditor:
+# 138 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "获得了能力编辑器！$"
 
 MauvilleCity_House1_EventScript_HPChangerDude::
-# 138 "data/maps/MauvilleCity_House1/scripts.pory"
+# 143 "data/maps/MauvilleCity_House1/scripts.pory"
 	lock
-# 139 "data/maps/MauvilleCity_House1/scripts.pory"
+# 144 "data/maps/MauvilleCity_House1/scripts.pory"
 	faceplayer
-# 140 "data/maps/MauvilleCity_House1/scripts.pory"
+# 145 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox HpChangerHelloCanChange, MSGBOX_YESNO
-# 142 "data/maps/MauvilleCity_House1/scripts.pory"
+# 147 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq MauvilleCity_House1_EventScript_HPChangerDude_2
 MauvilleCity_House1_EventScript_HPChangerDude_1:
-# 147 "data/maps/MauvilleCity_House1/scripts.pory"
+# 152 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_0
-# 148 "data/maps/MauvilleCity_House1/scripts.pory"
+# 153 "data/maps/MauvilleCity_House1/scripts.pory"
 	special ChoosePartyMon
-# 149 "data/maps/MauvilleCity_House1/scripts.pory"
+# 154 "data/maps/MauvilleCity_House1/scripts.pory"
 	waitstate
-# 151 "data/maps/MauvilleCity_House1/scripts.pory"
+# 156 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_0x8004, PARTY_NOTHING_CHOSEN
 	goto_if_eq MauvilleCity_House1_EventScript_HPChangerDude_5
 MauvilleCity_House1_EventScript_HPChangerDude_4:
-# 156 "data/maps/MauvilleCity_House1/scripts.pory"
+# 161 "data/maps/MauvilleCity_House1/scripts.pory"
 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
-# 158 "data/maps/MauvilleCity_House1/scripts.pory"
+# 163 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, SPECIES_EGG
 	goto_if_eq MauvilleCity_House1_EventScript_HPChangerDude_8
-# 164 "data/maps/MauvilleCity_House1/scripts.pory"
-	special BufferMonNickname
-# 165 "data/maps/MauvilleCity_House1/scripts.pory"
-	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_2
-# 166 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_3, TYPE_FIGHTING
-# 167 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_4, TYPE_FLYING
-# 168 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_5, TYPE_POISON
 # 169 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_6, TYPE_GROUND
+	special BufferMonNickname
 # 170 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_7, TYPE_ROCK
+	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_2
 # 171 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_8, TYPE_BUG
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_3, TYPE_FIGHTING
 # 172 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_9, TYPE_GHOST
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_4, TYPE_FLYING
 # 173 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_10, TYPE_STEEL
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_5, TYPE_POISON
 # 174 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_11, TYPE_FIRE
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_6, TYPE_GROUND
 # 175 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_12, TYPE_WATER
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_7, TYPE_ROCK
 # 176 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_13, TYPE_GRASS
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_8, TYPE_BUG
 # 177 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_14, TYPE_ELECTRIC
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_9, TYPE_GHOST
 # 178 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_15, TYPE_PSYCHIC
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_10, TYPE_STEEL
 # 179 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_16, TYPE_ICE
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_11, TYPE_FIRE
 # 180 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_17, TYPE_DRAGON
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_12, TYPE_WATER
 # 181 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_18, TYPE_DARK
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_13, TYPE_GRASS
 # 182 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_19, MULTI_B_PRESSED
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_14, TYPE_ELECTRIC
+# 183 "data/maps/MauvilleCity_House1/scripts.pory"
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_15, TYPE_PSYCHIC
 # 184 "data/maps/MauvilleCity_House1/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, TYPE_FIGHTING, DYN_MULTICHOICE_CB_NONE
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_16, TYPE_ICE
+# 185 "data/maps/MauvilleCity_House1/scripts.pory"
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_17, TYPE_DRAGON
 # 186 "data/maps/MauvilleCity_House1/scripts.pory"
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_18, TYPE_DARK
+# 187 "data/maps/MauvilleCity_House1/scripts.pory"
+	dynmultipush MauvilleCity_House1_EventScript_HPChangerDude_Text_19, MULTI_B_PRESSED
+# 189 "data/maps/MauvilleCity_House1/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, TYPE_FIGHTING, DYN_MULTICHOICE_CB_NONE
+# 191 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq MauvilleCity_House1_EventScript_HPChangerDude_11
 MauvilleCity_House1_EventScript_HPChangerDude_10:
-# 191 "data/maps/MauvilleCity_House1/scripts.pory"
+# 196 "data/maps/MauvilleCity_House1/scripts.pory"
 	copyvar VAR_0x8005, VAR_RESULT
-# 192 "data/maps/MauvilleCity_House1/scripts.pory"
+# 197 "data/maps/MauvilleCity_House1/scripts.pory"
 	bufferhptypeinfo STR_VAR_2, STR_VAR_3, VAR_RESULT
-# 193 "data/maps/MauvilleCity_House1/scripts.pory"
+# 198 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox AreYouSureHPTypeChange, MSGBOX_YESNO
-# 195 "data/maps/MauvilleCity_House1/scripts.pory"
+# 200 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq MauvilleCity_House1_EventScript_HPChangerDude_14
 MauvilleCity_House1_EventScript_HPChangerDude_13:
-# 200 "data/maps/MauvilleCity_House1/scripts.pory"
-	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_20
-# 201 "data/maps/MauvilleCity_House1/scripts.pory"
-	fadescreen FADE_TO_BLACK
-# 202 "data/maps/MauvilleCity_House1/scripts.pory"
-	special ChangeMonIVsForHP
-# 203 "data/maps/MauvilleCity_House1/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
-# 204 "data/maps/MauvilleCity_House1/scripts.pory"
-	waitfanfare
 # 205 "data/maps/MauvilleCity_House1/scripts.pory"
-	closemessage
+	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_20
 # 206 "data/maps/MauvilleCity_House1/scripts.pory"
-	fadescreen FADE_FROM_BLACK
+	fadescreen FADE_TO_BLACK
 # 207 "data/maps/MauvilleCity_House1/scripts.pory"
-	msgbox HPTypeChangedComeBackSoon
+	special ChangeMonIVsForHP
 # 208 "data/maps/MauvilleCity_House1/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 209 "data/maps/MauvilleCity_House1/scripts.pory"
+	waitfanfare
+# 210 "data/maps/MauvilleCity_House1/scripts.pory"
+	closemessage
+# 211 "data/maps/MauvilleCity_House1/scripts.pory"
+	fadescreen FADE_FROM_BLACK
+# 212 "data/maps/MauvilleCity_House1/scripts.pory"
+	msgbox HPTypeChangedComeBackSoon
+# 213 "data/maps/MauvilleCity_House1/scripts.pory"
 	release
 	end
 
 MauvilleCity_House1_EventScript_HPChangerDude_2:
-# 144 "data/maps/MauvilleCity_House1/scripts.pory"
+# 149 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_HPChangerDude_1
 
 MauvilleCity_House1_EventScript_HPChangerDude_5:
-# 153 "data/maps/MauvilleCity_House1/scripts.pory"
+# 158 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_HPChangerDude_4
 
 MauvilleCity_House1_EventScript_HPChangerDude_8:
-# 159 "data/maps/MauvilleCity_House1/scripts.pory"
+# 164 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_1
-# 160 "data/maps/MauvilleCity_House1/scripts.pory"
+# 165 "data/maps/MauvilleCity_House1/scripts.pory"
 	release
 	end
 
 MauvilleCity_House1_EventScript_HPChangerDude_11:
-# 188 "data/maps/MauvilleCity_House1/scripts.pory"
+# 193 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_HPChangerDude_10
 
 MauvilleCity_House1_EventScript_HPChangerDude_14:
-# 197 "data/maps/MauvilleCity_House1/scripts.pory"
+# 202 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_HPChangerDude_13
 
 
 MauvilleCity_House1_EventScript_HPChangerNo::
-# 213 "data/maps/MauvilleCity_House1/scripts.pory"
+# 218 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_EventScript_HPChangerNo_Text_0
-# 214 "data/maps/MauvilleCity_House1/scripts.pory"
+# 219 "data/maps/MauvilleCity_House1/scripts.pory"
 	release
 	end
 
 
 MauvilleCity_House1_EventScript_IVPerfecterDude::
-# 220 "data/maps/MauvilleCity_House1/scripts.pory"
+# 225 "data/maps/MauvilleCity_House1/scripts.pory"
 	lock
-# 221 "data/maps/MauvilleCity_House1/scripts.pory"
+# 226 "data/maps/MauvilleCity_House1/scripts.pory"
 	faceplayer
-# 222 "data/maps/MauvilleCity_House1/scripts.pory"
+# 227 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox IVPerfecterGreeting, MSGBOX_YESNO
-# 224 "data/maps/MauvilleCity_House1/scripts.pory"
+# 229 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq MauvilleCity_House1_EventScript_IVPerfecterDude_2
 MauvilleCity_House1_EventScript_IVPerfecterDude_1:
-# 229 "data/maps/MauvilleCity_House1/scripts.pory"
+# 234 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_0
-# 230 "data/maps/MauvilleCity_House1/scripts.pory"
+# 235 "data/maps/MauvilleCity_House1/scripts.pory"
 	special ChoosePartyMon
-# 231 "data/maps/MauvilleCity_House1/scripts.pory"
+# 236 "data/maps/MauvilleCity_House1/scripts.pory"
 	waitstate
-# 233 "data/maps/MauvilleCity_House1/scripts.pory"
+# 238 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_0x8004, PARTY_NOTHING_CHOSEN
 	goto_if_eq MauvilleCity_House1_EventScript_IVPerfecterDude_5
 MauvilleCity_House1_EventScript_IVPerfecterDude_4:
-# 238 "data/maps/MauvilleCity_House1/scripts.pory"
+# 243 "data/maps/MauvilleCity_House1/scripts.pory"
 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
-# 240 "data/maps/MauvilleCity_House1/scripts.pory"
+# 245 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, SPECIES_EGG
 	goto_if_eq MauvilleCity_House1_EventScript_IVPerfecterDude_8
-# 246 "data/maps/MauvilleCity_House1/scripts.pory"
+# 251 "data/maps/MauvilleCity_House1/scripts.pory"
 	special BufferMonNickname
-# 247 "data/maps/MauvilleCity_House1/scripts.pory"
+# 252 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox IVPerfecterAreYouSure, MSGBOX_YESNO
-# 249 "data/maps/MauvilleCity_House1/scripts.pory"
+# 254 "data/maps/MauvilleCity_House1/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq MauvilleCity_House1_EventScript_IVPerfecterDude_11
 MauvilleCity_House1_EventScript_IVPerfecterDude_10:
-# 254 "data/maps/MauvilleCity_House1/scripts.pory"
-	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_20
-# 255 "data/maps/MauvilleCity_House1/scripts.pory"
-	fadescreen FADE_TO_BLACK
-# 256 "data/maps/MauvilleCity_House1/scripts.pory"
-	special PerfectMonIVs
-# 257 "data/maps/MauvilleCity_House1/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
-# 258 "data/maps/MauvilleCity_House1/scripts.pory"
-	waitfanfare
 # 259 "data/maps/MauvilleCity_House1/scripts.pory"
-	closemessage
+	msgbox MauvilleCity_House1_EventScript_HPChangerDude_Text_20
 # 260 "data/maps/MauvilleCity_House1/scripts.pory"
-	fadescreen FADE_FROM_BLACK
+	fadescreen FADE_TO_BLACK
 # 261 "data/maps/MauvilleCity_House1/scripts.pory"
-	msgbox IVPerfecterComeBackSoon
+	special PerfectMonIVs
 # 262 "data/maps/MauvilleCity_House1/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 263 "data/maps/MauvilleCity_House1/scripts.pory"
+	waitfanfare
+# 264 "data/maps/MauvilleCity_House1/scripts.pory"
+	closemessage
+# 265 "data/maps/MauvilleCity_House1/scripts.pory"
+	fadescreen FADE_FROM_BLACK
+# 266 "data/maps/MauvilleCity_House1/scripts.pory"
+	msgbox IVPerfecterComeBackSoon
+# 267 "data/maps/MauvilleCity_House1/scripts.pory"
 	release
 	end
 
 MauvilleCity_House1_EventScript_IVPerfecterDude_2:
-# 226 "data/maps/MauvilleCity_House1/scripts.pory"
+# 231 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_IVPerfecterDude_1
 
 MauvilleCity_House1_EventScript_IVPerfecterDude_5:
-# 235 "data/maps/MauvilleCity_House1/scripts.pory"
+# 240 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_IVPerfecterDude_4
 
 MauvilleCity_House1_EventScript_IVPerfecterDude_8:
-# 241 "data/maps/MauvilleCity_House1/scripts.pory"
+# 246 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_EventScript_IVPerfecterDude_Text_0
-# 242 "data/maps/MauvilleCity_House1/scripts.pory"
+# 247 "data/maps/MauvilleCity_House1/scripts.pory"
 	release
 	end
 
 MauvilleCity_House1_EventScript_IVPerfecterDude_11:
-# 251 "data/maps/MauvilleCity_House1/scripts.pory"
+# 256 "data/maps/MauvilleCity_House1/scripts.pory"
 	goto MauvilleCity_House1_EventScript_HPChangerNo
 	goto MauvilleCity_House1_EventScript_IVPerfecterDude_10
 
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_0:
-# 147 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Which Pokémon?$"
+# 152 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "哪只宝可梦？$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_1:
-# 159 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I can't change the Hidden Power\nof an Egg.$"
+# 164 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "蛋的觉醒力量\n我改不了。$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_2:
-# 165 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Which new Hidden Power type would\nyou like for {STR_VAR_1}?$"
+# 170 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "你想让{STR_VAR_1}的觉醒力量\n变成哪种属性？$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_3:
-# 166 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Fighting$"
+# 171 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "格斗$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_4:
-# 167 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Flying$"
+# 172 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "飞行$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_5:
-# 168 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Poison$"
+# 173 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "毒$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_6:
-# 169 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Ground$"
+# 174 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "地面$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_7:
-# 170 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Rock$"
+# 175 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "岩石$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_8:
-# 171 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Bug$"
+# 176 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "虫$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_9:
-# 172 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Ghost$"
+# 177 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "幽灵$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_10:
-# 173 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Steel$"
+# 178 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "钢$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_11:
-# 174 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Fire$"
+# 179 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "火$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_12:
-# 175 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Water$"
+# 180 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "水$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_13:
-# 176 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Grass$"
+# 181 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "草$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_14:
-# 177 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Electric$"
+# 182 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "电$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_15:
-# 178 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Psychic$"
+# 183 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "超能力$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_16:
-# 179 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Ice$"
+# 184 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "冰$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_17:
-# 180 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Dragon$"
+# 185 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "龙$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_18:
-# 181 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Dark$"
+# 186 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "恶$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_19:
-# 182 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Cancel$"
+# 187 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "取消$"
 
 MauvilleCity_House1_EventScript_HPChangerDude_Text_20:
-# 200 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I shall begin at once.$"
+# 205 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "我这就开始。$"
 
 MauvilleCity_House1_EventScript_HPChangerNo_Text_0:
-# 213 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I see. Come back if you change\nyour mind.$"
+# 218 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "我明白了。若改主意，\n请再回来。$"
 
 MauvilleCity_House1_EventScript_IVPerfecterDude_Text_0:
-# 241 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "I can't perfect the IVs\nof an Egg.$"
+# 246 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "蛋的个体值\n我无法完善。$"
 
 HpChangerHelloCanChange::
-# 267 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Hello, I am the Hidden Power type\n"
-	.string "changer.\p"
-	.string "You can choose a Pokémon and I can\n"
-	.string "quickly modify its IVs to change\l"
-	.string "the type of its Hidden Power.\p"
-	.string "Would you like me to change the type of\n"
-	.string "one of your Pokémon's Hidden Power?$"
+# 272 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "你好，我是觉醒力量属性\n"
+	.string "转换师。\p"
+	.string "你可以选一只宝可梦，\n"
+	.string "我能迅速调整它的个体值，\l"
+	.string "以改变它觉醒力量的属性。\p"
+	.string "要我改变你某只宝可梦\n"
+	.string "觉醒力量的属性吗？$"
 
 HpChangerNotInMgm::
-# 278 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Oh, it looks like you are not in\n"
-	.string "Minimal Grinding Mode.\p"
-	.string "I can only change the Hidden Power\n"
-	.string "type of a Pokémon whose IVs have been\l"
-	.string "perfected.\p"
-	.string "That limitation will be in place until\n"
-	.string "you have all 8 Gym Badges.$"
+# 283 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "哦，看来你不在\n"
+	.string "最少练级模式。\p"
+	.string "我只能改变个体值已被\n"
+	.string "完善过的宝可梦的觉醒\l"
+	.string "已经完善。\p"
+	.string "在你集齐8枚徽章之前，\n"
+	.string "这个限制会一直有效。$"
 
 AreYouSureHPTypeChange::
-# 290 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "So you want me to change\n"
-	.string "{STR_VAR_1}'s Hidden Power type\l"
-	.string "to {STR_VAR_2}?\p"
-	.string "This will modify {STR_VAR_1}'s\n"
-	.string "IVs to be the following:\p"
-	.string "HP   Atk   Def   SpAtk   SpDef   Spd\n"
+# 295 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "那么，你想把\n"
+	.string "{STR_VAR_1}的觉醒力量\l"
+	.string "改成{STR_VAR_2}？\p"
+	.string "这将把{STR_VAR_1}的\n"
+	.string "个体值调整为：\p"
+	.string "HP  攻击  防御  特攻  特防  速度\n"
 	.string "{STR_VAR_3}$"
 
 HPTypeChangedComeBackSoon::
-# 301 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "{STR_VAR_1}'s Hidden Power type\n"
-	.string "has been changed to {STR_VAR_2}.\p"
-	.string "Come back if you need me to change\n"
-	.string "the Hidden Power type of\l"
-	.string "another Pokémon.$"
+# 306 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "{STR_VAR_1}的觉醒力量\n"
+	.string "已改为{STR_VAR_2}。\p"
+	.string "若还需要我改变其他宝可梦\n"
+	.string "的觉醒力量属性，\l"
+	.string "请再来。$"
 
 IVPerfecterGreeting::
-# 310 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "Hello, I am the IV Perfecter,\n"
-	.string "I can perfect one of your\l"
-	.string "Pokémon's IVs.\p"
-	.string "Would you like me to perfect one of\n"
-	.string "your Pokémon's IVs?$"
+# 315 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "你好，我是个体值完善师，\n"
+	.string "我可以完善你一只\l"
+	.string "宝可梦的个体值。\p"
+	.string "要我完善你某只宝可梦\n"
+	.string "的个体值吗？$"
 
 IVPerfecterAreYouSure::
-# 319 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "So you want me to perfect\n"
-	.string "{STR_VAR_1}'s IVs?$"
+# 324 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "那么，你要完善\n"
+	.string "{STR_VAR_1}的个体值吗？$"
 
 IVPerfecterComeBackSoon::
-# 325 "data/maps/MauvilleCity_House1/scripts.pory"
-	.string "{STR_VAR_1}'s IVs have been\n"
-	.string "perfected.\p"
-	.string "Come back if you need me to perfect\n"
-	.string "the IVs of another Pokémon.$"
+# 330 "data/maps/MauvilleCity_House1/scripts.pory"
+	.string "{STR_VAR_1}的个体值\n"
+	.string "已经完善。\p"
+	.string "若还需要我完善其他宝可梦\n"
+	.string "的个体值，请再来。$"

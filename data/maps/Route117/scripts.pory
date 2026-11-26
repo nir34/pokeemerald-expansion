@@ -244,74 +244,80 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_MelinaDaycare:
-	.string "Yo I actually don't know if the eggs out\n"
-	.string "of the day care will have perfect IVs,\l"
-	.string "you sure can try though.$"
+	.string "哟，其实我也不知道\n"
+	.string "培育屋的蛋会不会有\l"
+	.string "满个体值，不过\l"
+	.string "你可以试试看。$"
 
 Route117_Text_DerekYouFoundMe:
-	.string "Wow, you found me! I didn't think anyone\n"
-	.string "ever would! I guess I don't have Hidden\l"
-	.string "Power anymore, so you should have it!$"
+	.string "哇，你找到我了！我\n"
+	.string "还以为没人会来！\l"
+	.string "看来我已经没有觉醒力量了，\l"
+	.string "那就给你吧！$"
 
 Route117_Text_ExplainHP:
-	.string "TM10 contains Hidden Power. That\n"
-	.string "move's type can change depending on\l"
-	.string "how your IVs are set. There's a guy\l"
-	.string "somewhere who can change your IVs for\l"
-	.string "that, I think he's further ahead\l"
-	.string "though.$"
+	.string "学习器10号里是觉醒力量。\n"
+	.string "这个招式的属性会随\l"
+	.string "你的个体值变化。\l"
+	.string "我听说前面有个家伙\l"
+	.string "能帮你改个体值，\l"
+	.string "不过他还在更前面。$"
 
 Route117_Text_DayCarePokemonHadNewMove:
-	.string "I left my Pokémon at the DAY CARE.\p"
-	.string "When I got it back, it had a new move\n"
-	.string "that I didn't teach it.\l"
-	.string "I was really, really surprised.$"
+	.string "我把宝可梦寄放在培育屋。\p"
+	.string "取回来的时候，它多了\n"
+	.string "一个我没教过的招式。\l"
+	.string "我真是吓了一跳。$"
 
 Route117_Text_ArentTheseFlowersPretty:
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string "你觉得怎么样？\n"
+	.string "这些花很漂亮吧？\p"
+	.string "全是我种的！$"
 
 Route117_Text_LittleBoyDancing:
-	.string "Weeee! This dance is so fun!$"
+	.string "哇——！这个舞\n"
+	.string "真好玩！$"
 
 Route117_Text_MomDancing:
-	.string "I hope we get to do outdoor lessons\n"
-	.string "more often!$"
+	.string "希望我们能多上几次\n"
+	.string "户外课！$"
 
 Route117_Text_DadDancing:
-	.string "I have no idea what I'm doing, but I'm\n"
-	.string "glad my daughter is having fun.$"
+	.string "我完全不知道自己在\n"
+	.string "做什么，不过\l"
+	.string "女儿玩得开心就好。$"
 
 Route117_Text_LittleGirlDancing:
-	.string "I love spinning!! Thanks for taking me\n"
-	.string "dancing, dad!$"
+	.string "我最喜欢转圈了！！\n"
+	.string "谢谢爸爸带我来跳舞！$"
 
 Route117_Text_DanceInstructor:
-	.string "It's such a beautiful day that I\n"
-	.string "thought we'd have class outside!\p"
-	.string "Oh, you must be wondering what the\n"
-	.string "Elite Four member Phoebe is doing way\l"
-	.string "out here…\p"
-	.string "… … …\p"
-	.string "Surprise! I'm her twin sister, Ursula! I\n"
-	.string "may not be as good a battler as Phoebe,\l"
-	.string "but I'm a way better dancer!\p"
-	.string "Tell you what, if you can beat Wattson,\n"
-	.string "come see me in Verdanturf Town and I'll\l"
-	.string "give you a lesson!$"
+	.string "今天天气这么好，\n"
+	.string "我想就在外面上课吧！\p"
+	.string "哦，你一定在想，\n"
+	.string "四天王的芙蓉\l"
+	.string "怎么会跑到这种地方来……\p"
+	.string "……\p"
+	.string "惊喜！我是她的双胞胎\n"
+	.string "姐姐，宇苏拉！\l"
+	.string "我可能没芙蓉那么会对战，\l"
+	.string "但跳舞可比她强多了！\p"
+	.string "这样吧，你要是能打赢\n"
+	.string "铁旋，就来绿荫镇找我，\l"
+	.string "我教你一课！$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "117号道路\n"
+	.string "{LEFT_ARROW} 绿荫镇$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "117号道路\n"
+	.string "{RIGHT_ARROW} 紫堇市$"
 
 Route117_Text_DayCareSign:
-	.string "Pokémon DAY CARE\n"
-	.string "“Let us raise your Pokémon.”$"
+	.string "宝可梦培育屋\n"
+	.string "“让我们来培育你的\l"
+	.string "宝可梦。”$"
 
 `
 
@@ -346,7 +352,7 @@ script Route117_EventScript_DeclineFantinaBattle {
 }
 
 script Route117_EventScript_BattleFantina{
-	msgbox("Let us begin then!", MSGBOX_DEFAULT)
+	msgbox("那就开始吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_FANTINA, Fantina_Outro)
 	goto(Route117_EventScript_FantinaGiveItems)
 	return
@@ -375,50 +381,50 @@ script Route117_EventScript_FantinaGiveItems{
 }
 
 text Fantina_Greeting{
-	"Oh, hello there, my name is Fantina.\n"
-	"Did you come here to enjoy the\l"
-	"flowers too?\p"
-	"I've heard tales of the wonderful\n"
-	"flower patches here in the Hoenn\l"
-	"region, so I had to come see them\l"
-	"for myself!\p"
-	"Oh, you didn't come to admire the\n"
-	"flowers? That's fine, I also came here\l"
-	"to battle new trainers.\p"
-	"Is that what you came here for?"
+	"哦，你好，我叫梅丽。\n"
+	"你也是来欣赏\l"
+	"这些花的吗？\p"
+	"我听说丰缘地区这里\n"
+	"有很美的花田，\l"
+	"所以特意\l"
+	"来看看！\p"
+	"哦，你不是来赏花的？\n"
+	"没关系，我来这儿\l"
+	"也是为了和新训练家对战。\p"
+	"你是为此而来的吗？"
 }
 
 text Fantina_ReadyYet{
-	"Hm? Is it time for our battle?"
+	"嗯？到我们对战的时候了吗？"
 }
 
 text Fantina_ComeBackWhenReady{
-	"I'll just enjoy the flowers until\n"
-	"you're ready."
+	"那我就赏赏花，\n"
+	"等你准备好。"
 }
 
 text Fantina_ExplainItems{
-	"Those three are some very\n"
-	"powerful moves. In addition, I had\l"
-	"a few spare Mega Stones for some\l"
-	"Ghost-type Pokémon, though you'll need\l"
-	"a Mega Ring if you want to use them.\p"
-	"Finally, the Metronome is used for\n"
-	"boosting moves that are used multiple\l"
-	"times in succession.\p"
-	"I'm, sure you'll put it to\n"
-	"good use. Best of luck!"
+	"那三个招式都\n"
+	"非常强力。另外，我还有几颗\l"
+	"备用的超级石，适合一些\l"
+	"幽灵属性宝可梦，不过要用\l"
+	"还得有超级环。\p"
+	"最后，节拍器能增强\n"
+	"连续多次使用的\l"
+	"招式。\p"
+	"我相信你能\n"
+	"好好运用。祝你好运！"
 }
 	
 text Fantina_Outro{
-	"My my! To think, there are such strong\n"
-	"trainers here in the Hoenn region. I\l"
-	"think you can make good use of these."
+	"哎呀呀！没想到丰缘地区\n"
+	"有这么强的训练家。\l"
+	"我看这些你能用得好。"
 }
 
 
 text PostBattle_Fantina{
-	"Maybe I'll head to Ever Grande City\n"
-	"after this, I've heard the flowers\l"
-	"there are extraordinary."
+	"这之后我也许会去彩幽市，\n"
+	"听说那里的花\l"
+	"美得非凡。"
 }

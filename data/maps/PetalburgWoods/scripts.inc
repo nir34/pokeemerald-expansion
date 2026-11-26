@@ -643,449 +643,453 @@ PetalburgWoods_EventScript_JamesRematch::
 # 322 "data/maps/PetalburgWoods/scripts.pory"
 PetalburgWoods_Text_NotAOneToBeFound:
 # 323 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Hmmm…\n"
+	.string "嗯……\n"
 # 324 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Not a one to be found…$"
+	.string "一只也找不到……$"
 # 325 "data/maps/PetalburgWoods/scripts.pory"
 
 # 326 "data/maps/PetalburgWoods/scripts.pory"
 PetalburgWoods_Text_HaveYouSeenShroomish:
 # 327 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Hello, have you seen any Pokémon\n"
+	.string "你好，你在这附近\n"
 # 328 "data/maps/PetalburgWoods/scripts.pory"
-	.string "called Pansage around here?\p"
+	.string "见过叫花椰猴的宝可梦吗？\p"
 # 329 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I really love that Pokémon.$"
+	.string "我真的很喜欢那只宝可梦。$"
 # 330 "data/maps/PetalburgWoods/scripts.pory"
 
 # 331 "data/maps/PetalburgWoods/scripts.pory"
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 # 332 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I was going to ambush you, but you\n"
+	.string "我本来想埋伏你，\n"
 # 333 "data/maps/PetalburgWoods/scripts.pory"
-	.string "had to dawdle in Petalburg Woods\l"
+	.string "可你偏要在橙华森林里\l"
 # 334 "data/maps/PetalburgWoods/scripts.pory"
-	.string "forever, didn't you?\p"
+	.string "磨磨蹭蹭，对吧？\p"
 # 335 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I got sick of waiting, so here I am!$"
+	.string "我等得实在不耐烦，\n"
 # 336 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "只好亲自来了！$"
 # 337 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_HandOverThosePapers:
+
 # 338 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You! Devon researcher!\p"
+PetalburgWoods_Text_HandOverThosePapers:
 # 339 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Hand over those papers!$"
+	.string "你！得文公司的研究员！\p"
 # 340 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "把那些资料交出来！$"
 # 341 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_YouHaveToHelpMe:
+
 # 342 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Aiyeeeh!\p"
+PetalburgWoods_Text_YouHaveToHelpMe:
 # 343 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You're a Pokémon trainer, aren't you?\n"
+	.string "哇啊啊！\p"
 # 344 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You've got to help me, please!$"
+	.string "你是宝可梦训练家吧？\n"
 # 345 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "求你帮帮我！$"
 # 346 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_NoOneCrossesTeamAqua:
+
 # 347 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Hunh? What do you think you're doing?\n"
+PetalburgWoods_Text_NoOneCrossesTeamAqua:
 # 348 "data/maps/PetalburgWoods/scripts.pory"
-	.string "What, you're going to protect him?\p"
+	.string "嗯？你想干什么？\n"
 # 349 "data/maps/PetalburgWoods/scripts.pory"
-	.string "No one who crosses Team Aqua\n"
+	.string "什么，你要护着他？\p"
 # 350 "data/maps/PetalburgWoods/scripts.pory"
-	.string "gets any mercy, not even a kid!\p"
+	.string "跟水舰队作对的人，\n"
 # 351 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Come on and battle me!$"
+	.string "一个都别想好过，\l"
 # 352 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "就算是小孩也一样！\p"
 # 353 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_YoureKiddingMe:
+	.string "来吧，跟我对战！$"
 # 354 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You're kidding me! You're tough!$"
+
 # 355 "data/maps/PetalburgWoods/scripts.pory"
-
+PetalburgWoods_Text_YoureKiddingMe:
 # 356 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_YouveGotSomeNerve:
+	.string "开什么玩笑！你还挺厉害的！$"
 # 357 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Grrr… You've got some nerve\n"
+
 # 358 "data/maps/PetalburgWoods/scripts.pory"
-	.string "meddling with Team Aqua!\l"
+PetalburgWoods_Text_YouveGotSomeNerve:
 # 359 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Come on and battle me again!\p"
+	.string "可恶……你还真敢\n"
 # 360 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I wish I could say that, but I'm out of\n"
+	.string "来管水舰队的闲事！\l"
 # 361 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Pokémon…\p"
+	.string "再来打一场！\p"
 # 362 "data/maps/PetalburgWoods/scripts.pory"
-	.string "And, hey, we of Team Aqua are also\n"
+	.string "我真想这么说，可是\n"
 # 363 "data/maps/PetalburgWoods/scripts.pory"
-	.string "after something in Rustboro.\p"
+	.string "我的宝可梦已经用光了……\p"
 # 364 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I'll let you go today!$"
+	.string "而且，我们水舰队\n"
 # 365 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "在卡那兹市也有目标。\p"
 # 366 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_ThatWasAwfullyClose:
+	.string "今天就放你一马！$"
 # 367 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Whew…\n"
+
 # 368 "data/maps/PetalburgWoods/scripts.pory"
-	.string "That was awfully close!\p"
+PetalburgWoods_Text_ThatWasAwfullyClose:
 # 369 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Thanks to you, he didn't rob me of\n"
+	.string "呼……\n"
 # 370 "data/maps/PetalburgWoods/scripts.pory"
-	.string "these important papers.\p"
+	.string "真是好险！\p"
 # 371 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I know, I'll give you a Great Ball as\n"
+	.string "多亏了你，他才没能\n"
 # 372 "data/maps/PetalburgWoods/scripts.pory"
-	.string "my thanks!$"
+	.string "抢走这些重要资料。\p"
 # 373 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "对了，这个超级球\n"
 # 374 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
+	.string "算我谢你的！$"
 # 375 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Didn't that Team Aqua thug say\n"
+
 # 376 "data/maps/PetalburgWoods/scripts.pory"
-	.string "they were after something in\l"
+PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
 # 377 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Rustboro, too?$"
+	.string "刚才那个水舰队的家伙说，\n"
 # 378 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "他们在卡那兹市也有目标，\l"
 # 379 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_ICantBeWastingTime:
+	.string "对吧？$"
 # 380 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Uh-oh! It's a crisis!\n"
+
 # 381 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I can't be wasting time!$"
+PetalburgWoods_Text_ICantBeWastingTime:
 # 382 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "不好！这是紧急情况！\n"
 # 383 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_YoureLoadedWithItems:
+	.string "我没时间耽搁了！$"
 # 384 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You're loaded with items.\n"
+
 # 385 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I can't give you this Great Ball.$"
+PetalburgWoods_Text_YoureLoadedWithItems:
 # 386 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "你身上带的东西太多了。\n"
 # 387 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_GoBugPokemonTeam:
+	.string "这个超级球没法给你。$"
 # 388 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I caught a whole bunch of Pokémon!\p"
+
 # 389 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Go, go, go!\n"
+PetalburgWoods_Text_GoBugPokemonTeam:
 # 390 "data/maps/PetalburgWoods/scripts.pory"
-	.string "My Bug Pokémon team!$"
+	.string "我抓了一大堆宝可梦！\p"
 # 391 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "上吧上吧！\n"
 # 392 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_ICouldntWin:
+	.string "我的虫宝可梦队伍！$"
 # 393 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I have all these Pokémon,\n"
+
 # 394 "data/maps/PetalburgWoods/scripts.pory"
-	.string "but I couldn't win…$"
+PetalburgWoods_Text_ICouldntWin:
 # 395 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我有这么多宝可梦，\n"
 # 396 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_ImOutOfPokeBalls:
+	.string "却还是赢不了……$"
 # 397 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I caught a bunch of Pokémon.\n"
+
 # 398 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Now I'm out of Poké Balls.$"
+PetalburgWoods_Text_ImOutOfPokeBalls:
 # 399 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我抓了一堆宝可梦，\n"
 # 400 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
+	.string "现在精灵球都用光了。$"
 # 401 "data/maps/PetalburgWoods/scripts.pory"
-	.string "If you take BUG Pokémon to school,\n"
+
 # 402 "data/maps/PetalburgWoods/scripts.pory"
-	.string "you get to be instantly popular!$"
+PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
 # 403 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "带虫宝可梦去学校，\n"
 # 404 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_CantBePopularIfILose:
+	.string "马上就会变成人气王！$"
 # 405 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I can't be popular if I lose.$"
+
 # 406 "data/maps/PetalburgWoods/scripts.pory"
-
+PetalburgWoods_Text_CantBePopularIfILose:
 # 407 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_PeopleRespectYou:
+	.string "输了可就没法当人气王了。$"
 # 408 "data/maps/PetalburgWoods/scripts.pory"
-	.string "If you have a big Bug Pokémon,\n"
+
 # 409 "data/maps/PetalburgWoods/scripts.pory"
-	.string "people respect you for it.$"
+PetalburgWoods_Text_PeopleRespectYou:
 # 410 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "要是有一只大虫宝可梦，\n"
 # 411 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_IWantRematch1:
+	.string "大家都会很尊敬你。$"
 # 412 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I want a rematch when my Bug\n"
+
 # 413 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Pokémon grow up!\p"
+PetalburgWoods_Text_IWantRematch1:
 # 414 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I'm registering you in my PokéNav!$"
+	.string "等我的虫宝可梦长大，\n"
 # 415 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我要再和你打一场！\p"
 # 416 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_IWantRematch2:
+	.string "我把你登录到导航里了！$"
 # 417 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I want a rematch when my Bug \n"
+
 # 418 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Pokémon grow up!\p"
+PetalburgWoods_Text_IWantRematch2:
 # 419 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I'm registering you in my PokéNav!$"
+	.string "等我的虫宝可梦长大，\n"
 # 420 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我要再和你打一场！\p"
 # 421 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_MyPokemonHaveGrown:
+	.string "我把你登录到导航里了！$"
 # 422 "data/maps/PetalburgWoods/scripts.pory"
-	.string "My Bug Pokémon have grown.\n"
+
 # 423 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I'll be popular again.$"
+PetalburgWoods_Text_MyPokemonHaveGrown:
 # 424 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我的虫宝可梦长大了。\n"
 # 425 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_CantBePopularIfLose:
+	.string "我马上又要变成人气王了。$"
 # 426 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I can't be popular if I lose.$"
+
 # 427 "data/maps/PetalburgWoods/scripts.pory"
-
+PetalburgWoods_Text_CantBePopularIfLose:
 # 428 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_IveBeenTrainingHard:
+	.string "输了可就没法当人气王了。$"
 # 429 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You get to be popular if you have\n"
+
 # 430 "data/maps/PetalburgWoods/scripts.pory"
-	.string "strong Pokémon, right?\l"
+PetalburgWoods_Text_IveBeenTrainingHard:
 # 431 "data/maps/PetalburgWoods/scripts.pory"
-	.string "So, I've been training hard.$"
+	.string "宝可梦强就会变成人气王，\n"
 # 432 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "对吧？\l"
 # 433 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_StayOutOfTallGrass:
+	.string "所以我一直拼命训练。$"
 # 434 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Yo, there!\n"
+
 # 435 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Your Pokémon doing okay?\p"
+PetalburgWoods_Text_StayOutOfTallGrass:
 # 436 "data/maps/PetalburgWoods/scripts.pory"
-	.string "If your Pokémon are weak and you want\n"
+	.string "哟，你好！\n"
 # 437 "data/maps/PetalburgWoods/scripts.pory"
-	.string "to avoid battles, you should stay out\l"
+	.string "你的宝可梦还好吗？\p"
 # 438 "data/maps/PetalburgWoods/scripts.pory"
-	.string "of tall grass.$"
+	.string "如果宝可梦太弱，\n"
 # 439 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "不想对战的话，\l"
 # 440 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_HiddenItemsExplanation:
+	.string "就离高草远一点。$"
 # 441 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Sometimes, there are things on the\n"
+
 # 442 "data/maps/PetalburgWoods/scripts.pory"
-	.string "ground even if you can't see them.\p"
+PetalburgWoods_Text_HiddenItemsExplanation:
 # 443 "data/maps/PetalburgWoods/scripts.pory"
-	.string "That's why I always check where I'm\n"
+	.string "有时候地上藏着东西，\n"
 # 444 "data/maps/PetalburgWoods/scripts.pory"
-	.string "walking.$"
+	.string "你根本看不见。\p"
 # 445 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "所以我走路时\n"
 # 446 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_TryUsingThisItem:
+	.string "总是会到处检查。$"
 # 447 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Oh, neat!\n"
+
 # 448 "data/maps/PetalburgWoods/scripts.pory"
-	.string "That's the Badge from Rustboro Gym!\p"
+PetalburgWoods_Text_TryUsingThisItem:
 # 449 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You must be a trainer.\n"
+	.string "哦，不错嘛！\n"
 # 450 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You should try using this item.$"
+	.string "那是卡那兹道馆的徽章！\p"
 # 451 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "你一定是训练家。\n"
 # 452 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_MiracleSeedExplanation:
+	.string "你试试用这个道具吧。$"
 # 453 "data/maps/PetalburgWoods/scripts.pory"
-	.string "It's a Miracle Seed.\n"
+
 # 454 "data/maps/PetalburgWoods/scripts.pory"
-	.string "If a Pokémon holds that item, its\l"
+PetalburgWoods_Text_MiracleSeedExplanation:
 # 455 "data/maps/PetalburgWoods/scripts.pory"
-	.string "GRASS-type moves become stronger.\p"
+	.string "这是奇迹种子。\n"
 # 456 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Besides Miracle Seed, I think there are\n"
+	.string "宝可梦带着它，\l"
 # 457 "data/maps/PetalburgWoods/scripts.pory"
-	.string "other convenient items for Pokémon\l"
+	.string "草属性招式的威力就会提高。\p"
 # 458 "data/maps/PetalburgWoods/scripts.pory"
-	.string "to hold.$"
+	.string "除了奇迹种子，\n"
 # 459 "data/maps/PetalburgWoods/scripts.pory"
-
+	.string "我想还有很多方便的道具\l"
 # 460 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_TrainerTipsExperience:
+	.string "能让宝可梦携带。$"
 # 461 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Trainer Tips\p"
-# 462 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You can sort the Items in your Bag\n"
-# 463 "data/maps/PetalburgWoods/scripts.pory"
-	.string "by pressing the “Start” button when\l"
-# 464 "data/maps/PetalburgWoods/scripts.pory"
-	.string "inside one of the pockets.$"
-# 465 "data/maps/PetalburgWoods/scripts.pory"
 
+# 462 "data/maps/PetalburgWoods/scripts.pory"
+PetalburgWoods_Text_TrainerTipsExperience:
+# 463 "data/maps/PetalburgWoods/scripts.pory"
+	.string "训练家入门\p"
+# 464 "data/maps/PetalburgWoods/scripts.pory"
+	.string "在背包的口袋里\n"
+# 465 "data/maps/PetalburgWoods/scripts.pory"
+	.string "按“Start”键，\l"
 # 466 "data/maps/PetalburgWoods/scripts.pory"
-PetalburgWoods_Text_TrainerTipsPP:
+	.string "就能整理道具。$"
 # 467 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Trainer Tips\p"
+
 # 468 "data/maps/PetalburgWoods/scripts.pory"
-	.string "You can register multiple Key Items,\n"
+PetalburgWoods_Text_TrainerTipsPP:
 # 469 "data/maps/PetalburgWoods/scripts.pory"
-	.string "and then see them all in a list by\l"
+	.string "训练家入门\p"
 # 470 "data/maps/PetalburgWoods/scripts.pory"
-	.string "pressing the “Select” button.\p"
+	.string "可以登录多个重要道具，\n"
 # 471 "data/maps/PetalburgWoods/scripts.pory"
-	.string "If only one Item is registered, you will\n"
+	.string "按“Select”键就能\l"
 # 472 "data/maps/PetalburgWoods/scripts.pory"
-	.string "not be taken to the list, as it will just\l"
+	.string "把它们列出来。\p"
 # 473 "data/maps/PetalburgWoods/scripts.pory"
-	.string "activate instead.$"
+	.string "如果只登录了一个道具，\n"
+# 474 "data/maps/PetalburgWoods/scripts.pory"
+	.string "就不会打开列表，\l"
+# 475 "data/maps/PetalburgWoods/scripts.pory"
+	.string "而是直接使用。$"
 
 PetalburgWoods_EventScript_Gardenia::
-# 478 "data/maps/PetalburgWoods/scripts.pory"
-	lockall
-# 479 "data/maps/PetalburgWoods/scripts.pory"
-	applymovement 14, Common_Movement_FacePlayer
 # 480 "data/maps/PetalburgWoods/scripts.pory"
-	goto_if_defeated TRAINER_GARDENIA, PetalburgWoods_EventScript_GardeniaDefeated
+	lockall
 # 481 "data/maps/PetalburgWoods/scripts.pory"
-	goto_if_defeated TRAINER_GARDENIA2, PetalburgWoods_EventScript_GardeniaDefeated
+	applymovement 14, Common_Movement_FacePlayer
 # 482 "data/maps/PetalburgWoods/scripts.pory"
-	goto_if_set FLAG_TEMP_1, PetalburgWoods_EventScript_GardeniaRequestBattleAgain
+	goto_if_defeated TRAINER_GARDENIA, PetalburgWoods_EventScript_GardeniaDefeated
 # 483 "data/maps/PetalburgWoods/scripts.pory"
-	msgbox Gardenia_Greeting, MSGBOX_DEFAULT
+	goto_if_defeated TRAINER_GARDENIA2, PetalburgWoods_EventScript_GardeniaDefeated
 # 484 "data/maps/PetalburgWoods/scripts.pory"
-	waitmessage
+	goto_if_set FLAG_TEMP_1, PetalburgWoods_EventScript_GardeniaRequestBattleAgain
 # 485 "data/maps/PetalburgWoods/scripts.pory"
-	msgbox Gardenia_WillYouBattleMe, MSGBOX_YESNO
+	msgbox Gardenia_Greeting, MSGBOX_DEFAULT
 # 486 "data/maps/PetalburgWoods/scripts.pory"
+	waitmessage
+# 487 "data/maps/PetalburgWoods/scripts.pory"
+	msgbox Gardenia_WillYouBattleMe, MSGBOX_YESNO
+# 488 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_BattleGardeniaPrompt
 	end
 
 
 PetalburgWoods_EventScript_GardeniaRequestBattleAgain::
-# 491 "data/maps/PetalburgWoods/scripts.pory"
+# 493 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox Gardenia_ReadyYet, MSGBOX_YESNO
-# 492 "data/maps/PetalburgWoods/scripts.pory"
+# 494 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_BattleGardeniaPrompt
 	end
 
 
 PetalburgWoods_EventScript_BattleGardeniaPrompt::
-# 497 "data/maps/PetalburgWoods/scripts.pory"
-	call_if_eq VAR_RESULT, YES, PetalburgWoods_EventScript_BattleGardenia
-# 498 "data/maps/PetalburgWoods/scripts.pory"
-	goto_if_eq VAR_RESULT, NO, PetalburgWoods_EventScript_DeclineGardeniaBattle
 # 499 "data/maps/PetalburgWoods/scripts.pory"
+	call_if_eq VAR_RESULT, YES, PetalburgWoods_EventScript_BattleGardenia
+# 500 "data/maps/PetalburgWoods/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, PetalburgWoods_EventScript_DeclineGardeniaBattle
+# 501 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
 	end
 
 
 PetalburgWoods_EventScript_DeclineGardeniaBattle::
-# 504 "data/maps/PetalburgWoods/scripts.pory"
-	setflag FLAG_TEMP_1
-# 505 "data/maps/PetalburgWoods/scripts.pory"
-	msgbox Gardenia_ComeBackWhenReady, MSGBOX_DEFAULT
 # 506 "data/maps/PetalburgWoods/scripts.pory"
+	setflag FLAG_TEMP_1
+# 507 "data/maps/PetalburgWoods/scripts.pory"
+	msgbox Gardenia_ComeBackWhenReady, MSGBOX_DEFAULT
+# 508 "data/maps/PetalburgWoods/scripts.pory"
 	release
 	end
 
 
 PetalburgWoods_EventScript_BattleGardenia::
-# 511 "data/maps/PetalburgWoods/scripts.pory"
-	msgbox PetalburgWoods_EventScript_BattleGardenia_Text_0, MSGBOX_DEFAULT
-# 512 "data/maps/PetalburgWoods/scripts.pory"
-	goto_if_set FLAG_BADGE03_GET, PetalburgWoods_EventScript_BattleGardenia2
 # 513 "data/maps/PetalburgWoods/scripts.pory"
-	trainerbattle_no_intro TRAINER_GARDENIA, Gardenia_Outro
+	msgbox PetalburgWoods_EventScript_BattleGardenia_Text_0, MSGBOX_DEFAULT
 # 514 "data/maps/PetalburgWoods/scripts.pory"
+	goto_if_set FLAG_BADGE03_GET, PetalburgWoods_EventScript_BattleGardenia2
+# 515 "data/maps/PetalburgWoods/scripts.pory"
+	trainerbattle_no_intro TRAINER_GARDENIA, Gardenia_Outro
+# 516 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_GardeniaGiveItems
 	return
 
 
 PetalburgWoods_EventScript_BattleGardenia2::
-# 519 "data/maps/PetalburgWoods/scripts.pory"
+# 521 "data/maps/PetalburgWoods/scripts.pory"
 	trainerbattle_no_intro TRAINER_GARDENIA2, Gardenia_Outro
-# 520 "data/maps/PetalburgWoods/scripts.pory"
+# 522 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_GardeniaGiveItems
 	end
 
 
 PetalburgWoods_EventScript_GardeniaDefeated::
-# 527 "data/maps/PetalburgWoods/scripts.pory"
+# 529 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PostBattle_Gardenia, MSGBOX_DEFAULT
-# 528 "data/maps/PetalburgWoods/scripts.pory"
+# 530 "data/maps/PetalburgWoods/scripts.pory"
 	releaseall
 	end
 
 
 PetalburgWoods_EventScript_GardeniaGiveItems::
-# 533 "data/maps/PetalburgWoods/scripts.pory"
-	giveitem ITEM_TM_U_TURN
-# 534 "data/maps/PetalburgWoods/scripts.pory"
-	giveitem ITEM_EVIOLITE
 # 535 "data/maps/PetalburgWoods/scripts.pory"
-	giveitem ITEM_LEAF_STONE, 10
+	giveitem ITEM_TM_U_TURN
 # 536 "data/maps/PetalburgWoods/scripts.pory"
-	msgbox Gardenia_ExplainItems
+	giveitem ITEM_EVIOLITE
 # 537 "data/maps/PetalburgWoods/scripts.pory"
+	giveitem ITEM_LEAF_STONE, 10
+# 538 "data/maps/PetalburgWoods/scripts.pory"
+	msgbox Gardenia_ExplainItems
+# 539 "data/maps/PetalburgWoods/scripts.pory"
 	release
 	end
 
 
 PetalburgWoods_EventScript_BattleGardenia_Text_0:
-# 511 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Let's go!$"
+# 513 "data/maps/PetalburgWoods/scripts.pory"
+	.string "上吧！$"
 
 Gardenia_Greeting::
-# 541 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Aha! I saw you run by through those\n"
-	.string "trees earlier while I was hunting some\l"
-	.string "Grass-types, but it seemed clear you\l"
-	.string "couldn't cut them. The fact that you\l"
-	.string "can now must mean you're a trainer\l"
-	.string "who's strong enough to beat Roxanne,\l"
-	.string "which means you're a trainer I want to\l"
-	.string "face!\p"
-	.string "I'm Gardenia by the way, I'm the 2nd Gym\n"
-	.string "Leader from the Sinnoh region.\p"
-	.string "If you can beat me I'll make it\n"
-	.string "worth your while!$"
+# 543 "data/maps/PetalburgWoods/scripts.pory"
+	.string "啊哈！刚才我在抓草属性\n"
+	.string "宝可梦时，看见你从那些树\l"
+	.string "旁跑过，当时你显然还\l"
+	.string "砍不断它们。既然你现在\l"
+	.string "能砍了，说明你是个\l"
+	.string "能打赢杜娟的训练家，\l"
+	.string "那就是我想\l"
+	.string "对战的训练家！\p"
+	.string "顺便说，我是菜种，神奥地区\n"
+	.string "的第二位道馆馆主。\p"
+	.string "你要是能打赢我，\n"
+	.string "我绝不会亏待你！$"
 
 Gardenia_ReadyYet::
-# 556 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Want to battle now?$"
+# 558 "data/maps/PetalburgWoods/scripts.pory"
+	.string "现在想打一场吗？$"
 
 Gardenia_ComeBackWhenReady::
-# 560 "data/maps/PetalburgWoods/scripts.pory"
-	.string "I'll be here looking for some more\n"
-	.string "Grass-types in the meantime.$"
+# 562 "data/maps/PetalburgWoods/scripts.pory"
+	.string "我就在这儿顺便再找找\n"
+	.string "草属性的宝可梦。$"
 
 Gardenia_ExplainItems::
-# 565 "data/maps/PetalburgWoods/scripts.pory"
-	.string "That TM contains U-turn, it's very\n"
-	.string "useful for getting a hit off while\l"
-	.string "switching out a Pokémon.\p"
-	.string "I also included some useful\n"
-	.string "evolution stones and an Item that\l"
-	.string "will be good for a Pokémon you can't\l"
-	.string "evolve quite yet.$"
+# 567 "data/maps/PetalburgWoods/scripts.pory"
+	.string "那个学习器里是急速折返，\n"
+	.string "用来打一下再换下\l"
+	.string "宝可梦非常方便。\p"
+	.string "我还放了一些有用的\n"
+	.string "进化之石，还有一件适合\l"
+	.string "暂时还无法进化的\l"
+	.string "宝可梦的道具。$"
 
 Gardenia_WillYouBattleMe::
-# 575 "data/maps/PetalburgWoods/scripts.pory"
-	.string "How does that sound to you?\n"
-	.string "Want to have a battle?$"
+# 577 "data/maps/PetalburgWoods/scripts.pory"
+	.string "听起来怎么样？\n"
+	.string "要来打一场吗？$"
 
 Gardenia_Outro::
-# 580 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Not bad at all! As promised, please take\n"
-	.string "these rewards for beating me.$"
+# 582 "data/maps/PetalburgWoods/scripts.pory"
+	.string "相当不错！按约定，请收下\n"
+	.string "这些打赢我的奖励。$"
 
 PostBattle_Gardenia::
-# 586 "data/maps/PetalburgWoods/scripts.pory"
-	.string "Hope there are some cool Grass-types in\n"
-	.string "this region!$"
+# 588 "data/maps/PetalburgWoods/scripts.pory"
+	.string "希望这个地区有\n"
+	.string "帅气的草属性宝可梦！$"

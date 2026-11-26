@@ -17,12 +17,13 @@ LilycoveCity_House1_EventScript_Kecleon::
 	end
 
 LilycoveCity_House1_Text_SunnyOnNextRoute:
-	.string "I've heard intense sunlight has\n"
-	.string "reshaped some of the route to the east\l"
-	.string "of here. I wonder if that's true.$"
+	.string "我听说东边那条道路\n"
+	.string "因为强烈的阳光\l"
+	.string "变了样子。\l"
+	.string "不知是不是真的。$"
 
 
 LilycoveCity_House1_Text_Kecleon:
-	.string "KECLEON: Ruroro?$"
+	.string "变隐龙：噜噜噜？$"
 
 `

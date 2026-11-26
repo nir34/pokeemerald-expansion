@@ -389,74 +389,76 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_FormerSubstituteTutor::
 # 195 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_Text_FormerSubstituteTutor:
 # 196 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "I used to be able to sub anything…\n"
+	.string "我以前什么都能替身……\n"
 # 197 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Oh, what happened?$"
+	.string "唉，怎么了呢？$"
 # 198 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 
 # 199 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
 # 200 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Don't they have set dates for their\n"
+	.string "清仓特卖不定日期吗？\p"
 # 201 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "clear-out sales?\p"
+	.string "我看电视，可他们从不\n"
 # 202 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "I watch TV, but they never show any\n"
+	.string "播广告。$"
 # 203 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "commercials.$"
-# 204 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 
-# 205 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+# 204 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
+# 205 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+	.string "太好了！我等这次\n"
 # 206 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Yes! I've been waiting a long time for\n"
+	.string "清仓特卖等很久了。\p"
 # 207 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "this clear-out sale.\p"
+	.string "这里有些东西只有这儿\n"
 # 208 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "They have items that you can only get\n"
+	.string "才买得到。我要大买\l"
 # 209 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "here. I'm going to load up, that I am!$"
+	.string "一场！$"
 # 210 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 
 # 211 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
 # 212 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Ohh… I'm bone-dry thirsty!$"
+	.string "哦……我渴得嗓子\n"
 # 213 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-
+	.string "都干了！$"
 # 214 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
+
 # 215 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "It's a VENDING MACHINE.\n"
+LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
 # 216 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Which drink would you like?$"
+	.string "这是一台自动售货机。\n"
 # 217 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-
+	.string "你要哪种饮料？$"
 # 218 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
+
 # 219 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Clang!\p"
+LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
 # 220 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "A can of {STR_VAR_1} dropped down.$"
+	.string "咔啷！\p"
 # 221 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-
+	.string "一罐{STR_VAR_1}掉了出来。$"
 # 222 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
+
 # 223 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Clang!\p"
+LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
 # 224 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Score! An extra can of {STR_VAR_1}\n"
+	.string "咔啷！\p"
 # 225 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "dropped down!$"
+	.string "赚到了！多掉了一罐\n"
 # 226 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-
+	.string "{STR_VAR_1}！$"
 # 227 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
-# 228 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Not enough money…$"
-# 229 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 
+# 228 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
+# 229 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+	.string "钱不够……$"
 # 230 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
+
 # 231 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	.string "Decided against buying a drink.$"
+LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
+# 232 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+	.string "决定不买饮料了。$"

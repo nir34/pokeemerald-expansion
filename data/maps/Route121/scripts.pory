@@ -180,22 +180,22 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
-	.string "We're to move out to Mt. Pyre!$"
+	.string "好！\n"
+	.string "我们往送神火山出发！$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms Mt. Pyre…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed Pokémon…$"
+	.string "前方就是送神火山……\p"
+	.string "它是安放逝去宝可梦\n"
+	.string "灵魂的天然纪念碑……$"
 
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string "送神火山栈桥\p"
+	.string "……牌子又旧又破。\n"
+	.string "字几乎看不清了……$"
 
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare Pokémon!”\n"
-	.string "SAFARI ZONE$"
+	.string "“满是稀有宝可梦！”\n"
+	.string "狩猎地带$"
 
 `
 
@@ -230,7 +230,7 @@ script Route121_EventScript_DeclineByronBattle {
 }
 
 script Route121_EventScript_BattleByron{
-	msgbox("Excellent!", MSGBOX_DEFAULT)
+	msgbox("太好了！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_BYRON, Byron_Outro)
 	giveitem(ITEM_TM_STEALTH_ROCK)
 	giveitem(ITEM_TM_HIGH_HORSEPOWER)
@@ -303,52 +303,52 @@ script Route121_EventScript_ExplainJirachi {
 }
 
 text Byron_Greeting{
-	"Well hello there, you look like a well-\n"
-	"traveled person. Did you happen to run\l"
-	"into a young man named Roark during\l"
-	"your journey?\p"
-	"… … … … … …\p"
-	"Oh, you haven't seen him yet?\n"
-	"That's quite alright, I'm sure you'll\l" 
-	"know him when you see him.\p"
-	"Oh, where are my manners, I'm Byron, a\n"
-	"Gym Leader from the Sinnoh region.\p"
-	"Say, since you are a strong trainer, how\n"
-	"would you feel about having a battle\l"
-	"with me?"
+	"你好啊，看你这身风尘，\n"
+	"是个走南闯北的人。你旅途中\l"
+	"有没有遇到一个叫\l"
+	"瓢太的年轻人？\p"
+	"………………\p"
+	"哦，你还没见过他？\n"
+	"没关系，你见到他\l" 
+	"一定会认出来的。\p"
+	"哦，都忘了自我介绍，我是东瓜，\n"
+	"神奥地区的道馆馆主。\p"
+	"我说，既然你是个强手，\n"
+	"愿不愿意和我\l"
+	"打一场？"
 }
 
 text Byron_ReadyYet{
-	"Would you like to battle now?"
+	"现在想打一场吗？"
 }
 
 text Byron_ComeBackWhenReady{
-	"That's alright, I'll be here if you\n"
-	"change your mind."
+	"没关系，你要是改主意，\n"
+	"我就在这儿。"
 }
 	
 text Route121_Text_PlayerReceivedJirachi{
-	"{PLAYER} received Jirachi!$"
+	"{PLAYER}得到了基拉祈！$"
 }
 
 text Byron_ExplainJirachi{
-	"Jirachi is one of my\n"
-	"favorite Steel-types, I hope you treat\l"
-	"that Jirachi kindly and raise it well."
+	"基拉祈是我最喜欢的\n"
+	"钢属性之一，希望你能\l"
+	"善待它、好好培育它。"
 }
 	
 	
 text Byron_Outro{
-	"I see how you were able to defeat my\n"
-	"son. I'm confident I'll be leaving this\l"
-	"Pokémon in good hands."
+	"我明白你是怎么打败我\n"
+	"儿子了。我把这只宝可梦\l"
+	"交给你很放心。"
 }
 
 
 text PostBattle_Byron{
-	"I'm off to find Roark, I'm sure he's\n"
-	"going to explore the underground of\l"
-	"this region."
+	"我去找瓢太了，他肯定会\n"
+	"去探索这个地区的\l"
+	"地下。"
 }
 
 script Route121_Psyduck1{
@@ -356,7 +356,7 @@ script Route121_Psyduck1{
 	faceplayer
 	waitse
 	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
-	msgbox("Psyduck: Psyyyyyyy.", MSGBOX_DEFAULT)
+	msgbox("可达鸭：呱————。", MSGBOX_DEFAULT)
 	waitmoncry
 	release
 	end
@@ -368,7 +368,7 @@ script Route121_Psyduck2{
 	faceplayer
 	waitse
 	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
-	msgbox("Psyduck: Psy?", MSGBOX_DEFAULT)
+	msgbox("可达鸭：呱？", MSGBOX_DEFAULT)
 	waitmoncry
 	release
 	end
@@ -379,7 +379,7 @@ script Route121_Psyduck3{
 	faceplayer
 	waitse
 	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
-	msgbox("Psyduck: Psyyyy?", MSGBOX_DEFAULT)
+	msgbox("可达鸭：呱————？", MSGBOX_DEFAULT)
 	waitmoncry
 	release
 	end
@@ -390,15 +390,15 @@ script Route121_Psyduck4{
 	faceplayer
 	waitse
 	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
-	msgbox("Psyduck: PSYYY!!!!", MSGBOX_DEFAULT)
+	msgbox("可达鸭：呱啊！！！！", MSGBOX_DEFAULT)
 	waitmoncry
 	release
 	end
 }
 
 text GoBeatWinona{
-	"You should defeat Winona before\n"
-	"moving on to here."
+	"等你打赢娜琪，\n"
+	"再来这里吧。"
 }
 
 movement StopPlayerLeft {

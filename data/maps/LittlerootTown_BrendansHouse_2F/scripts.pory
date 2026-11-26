@@ -482,84 +482,93 @@ CheatCodeExit::
 	end
 
 EnterCheatCode_EnterCheatCodeText:
-	.string "It's a Nintendo GameCube.\p"
-	.string "Enter a cheat code?$"
+	.string "这是一台任天堂\n"
+	.string "GameCube。\p"
+	.string "输入作弊码吗？$"
 
 EnterCheatCode_FailedText:
-	.string "Cheat code failed.$"
+	.string "作弊码失败。$"
 	
 EnterCheatCode_SucceededText:
-	.string "Cheat code succeeded.$"
+	.string "作弊码成功。$"
 
 CheatCodeDexAllOn_Text:
-	.string "DexAll cheat enabled.$"
+	.string "图鉴全开作弊已启用。$"
 
 CheatCodeDexAllOff_Text:
-	.string "DexAll cheat disabled.$"
+	.string "图鉴全开作弊已关闭。$"
 
 CheatCodeCaughtEmAll_Text:
-	.string "CaughtAll cheat enabled.$"
+	.string "全捕获作弊已启用。$"
 
 CheatCodeMaxMoney_Text:
-	.string "Money set to max amount.$"
+	.string "金钱已设为最大值。$"
 
 CheatCodeEzCatchOn_Text:
-	.string "EZCatch cheat enabled.$"
+	.string "简易捕获作弊已启用。$"
 
 CheatCodeEzCatchOff_Text:
-	.string "EZCatch cheat disabled.$"
+	.string "简易捕获作弊已关闭。$"
 
 CheatCodeMegaStonesGiven_Text:
-	.string "All Mega Stones given.$"
+	.string "已赠送所有超级石。$"
 
 CheatCodeShinyStartersOn_Text:
-	.string "ShinyStarters cheat enabled.$"
+	.string "闪光初始宝可梦作弊\n"
+	.string "已启用。$"
 
 CheatCodeShinyStartersOff_Text:
-	.string "ShinyStarters cheat disabled.$"
+	.string "闪光初始宝可梦作弊\n"
+	.string "已关闭。$"
 
 CheatCodeShinyRoamersOn_Text:
-	.string "ShinyRoamers cheat enabled.$"
+	.string "闪光游荡宝可梦作弊\n"
+	.string "已启用。$"
 
 CheatCodeShinyRoamersOff_Text:
-	.string "ShinyRoamers cheat disabled.$"
+	.string "闪光游荡宝可梦作弊\n"
+	.string "已关闭。$"
 
 CheatCodeMonoStartersOn_Text:
-	.string "Monotype Starters cheat enabled.$"
+	.string "单一属性初始宝可梦\n"
+	.string "作弊已启用。$"
 
 CheatCodeMonoStartersOff_Text:
-	.string "Monotype Starters cheat disabled.$"
+	.string "单一属性初始宝可梦\n"
+	.string "作弊已关闭。$"
 
 CheatCodeGiveMenuOn_Text:
-	.string "Give Menu enabled:\n"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Hold “A” and press “Start” to open.$"
+	.string "赠送菜单已启用：\n"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}按住A键并按下Start键打开。$"
 
 CheatCodeGiveMenuOff_Text:
-	.string "Give Menu disabled.$"
+	.string "赠送菜单已关闭。$"
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "钟停了……\p"
+	.string "最好调好时间\n"
+	.string "再让它走！$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "{PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "Pokémon movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "{PLAYER}，你的新房间\n"
+	.string "怎么样？\p"
+	.string "好！东西都收拾得\n"
+	.string "整整齐齐！\p"
+	.string "楼下也都搬完了。\p"
+	.string "宝可梦搬家真方便！\p"
+	.string "哦，你该确认一下桌上\n"
+	.string "东西都齐了。$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the Start Menu with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Open the L Menu with L.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER}翻开了笔记本。\p"
+	.string "冒险守则第1条\n"
+	.string "按START打开开始菜单。\p"
+	.string "冒险守则第2条\n"
+	.string "按L打开L菜单。\p"
+	.string "剩下的页面是\n"
+	.string "空白的……$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "Hoenn region map.$"
+	.string "{PLAYER}仔细看了看丰缘地区\n"
+	.string "的地图。$"
 `

@@ -69,7 +69,7 @@ DesertUnderpass_EventScript_GiveRootFossil::
 # 35 "data/maps/DesertUnderpass/scripts.pory"
 DesertUnderpass_Text_FoundRootFossil::
 # 36 "data/maps/DesertUnderpass/scripts.pory"
-	.string "{PLAYER} found the ROOT FOSSIL.$"
+	.string "{PLAYER}找到了根状化石。$"
 # 37 "data/maps/DesertUnderpass/scripts.pory"
 
 # 38 "data/maps/DesertUnderpass/scripts.pory"
@@ -77,4 +77,4 @@ DesertUnderpass_Text_FoundRootFossil::
 # 39 "data/maps/DesertUnderpass/scripts.pory"
 DesertUnderpass_Text_FoundClawFossil::
 # 40 "data/maps/DesertUnderpass/scripts.pory"
-	.string "{PLAYER} found the CLAW FOSSIL.$"
+	.string "{PLAYER}找到了爪状化石。$"

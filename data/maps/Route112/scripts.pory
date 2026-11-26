@@ -106,37 +106,37 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
-	.string "to awaken that thing?$"
+	.string "喂，老大真的要\n"
+	.string "让那东西苏醒吗？$"
 
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a meteorite to do it.$"
+	.string "好像是吧。不过我听说\n"
+	.string "那需要陨石。$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to Fallarbor.$"
+	.string "哦，我明白了。所以\n"
+	.string "其他人去了秋叶镇。$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
-	.string "we're not to let anyone pass, right.$"
+	.string "没错。在他们回来之前，\n"
+	.string "我们不许任何人通过。$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to Mauville, but if\n"
-	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to Lavaridge.$"
+	.string "唉，我想去紫堇市，\n"
+	.string "可从这些台阶跳下去，\l"
+	.string "想回釜炎镇就难了。$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
-	.string "“A short walk {UP_ARROW} way!”$"
+	.string "烟囱山缆车\n"
+	.string "“向上走一小段就到！”$"
 
 Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For Lavaridge Town or the summit,\n"
-	.string "please take the Cable Car.”$"
+	.string "烟囱山\p"
+	.string "“前往釜炎镇或山顶，\n"
+	.string "请乘坐缆车。”$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "ROUTE 112\n"
-	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+	.string "112号道路\n"
+	.string "{LEFT_ARROW} 釜炎镇$"
 
 `

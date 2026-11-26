@@ -227,157 +227,163 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-	.string "Welcome to the Oceanic Museum.\p"
-	.string "The entrance fee is ¥50.\n"
-	.string "Would you like to enter?$"
+	.string "欢迎来到海洋博物馆。\p"
+	.string "门票50元。\n"
+	.string "你要进去吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
-	.string "Please enjoy yourself.$"
+	.string "请慢慢参观。$"
 
 SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
-	.string "Oh? I'm sorry, but you don't seem to\n"
-	.string "have enough money.$"
+	.string "哦？抱歉，你的钱\n"
+	.string "好像不够。$"
 
 SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
-	.string "Oh? You're with that group that\n"
-	.string "went in earlier?\p"
-	.string "You're the only one who's late.\n"
-	.string "You'd better go catch up to them!$"
+	.string "哦？你是刚才那批\n"
+	.string "进去的人？\p"
+	.string "就你一个来晚了。\n"
+	.string "快去追上他们吧！$"
 
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
-	.string "We, Team Aqua, exist for the good\n"
-	.string "of all!$"
+	.string "我们水舰队，\n"
+	.string "是为了大家的利益而存在！$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
-	.string "We were told to assemble here,\n"
-	.string "so we did, but…\p"
-	.string "Our boss, the linchpin, isn't here.$"
+	.string "我们接到集合的命令\n"
+	.string "就来了，可是……\p"
+	.string "我们的老大，那个核心人物，\n"
+	.string "还没到。$"
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
-	.string "If I ripped off the stuff here,\n"
-	.string "would it make me rich?$"
+	.string "要是我把这儿的东西\n"
+	.string "都抢走，能发财吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
-	.string "What I learn here, I can put to use on\n"
-	.string "nefarious deeds…$"
+	.string "我在这儿学到的东西，\n"
+	.string "能用在坏事上……$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
-	.string "If our goons didn't bungle things\n"
-	.string "in Rustboro, we wouldn't be here!$"
+	.string "要不是我们的人在卡那兹\n"
+	.string "搞砸了，我们也不用在这儿！$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
-	.string "I didn't have ¥50, so it took a long\n"
-	.string "time getting by the receptionist.$"
+	.string "我没有50元，\n"
+	.string "所以花了很久才通过前台。$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
-	.string "I want to learn about the sea and\n"
-	.string "use that knowledge for battling.$"
+	.string "我想了解大海，\n"
+	.string "再把那些知识用在对战上。$"
 
 SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
-	.string "I get all giddy and gooey when\n"
-	.string "I see the sea!\p"
-	.string "For me, Capt. Stern is the number\n"
-	.string "one role model!$"
+	.string "一看到大海，我就\n"
+	.string "心潮澎湃！\p"
+	.string "对我来说，斯图船长就是\n"
+	.string "第一号的榜样！$"
 
 SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
-	.string "The sea is vast without end, and\n"
-	.string "infinitely deep…\p"
-	.string "There must be many Pokémon that\n"
-	.string "we don't know about.$"
+	.string "大海无边无际，\n"
+	.string "深不可测……\p"
+	.string "一定还有很多我们\n"
+	.string "不知道的宝可梦。$"
 
 SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
-	.string "I want a sea Pokémon.\p"
-	.string "I think it would feel cool and nice\n"
-	.string "to hug.$"
+	.string "我想要一只海里的\n"
+	.string "宝可梦。\p"
+	.string "抱着它一定会觉得\n"
+	.string "又凉快又舒服。$"
 
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
-	.string "Aiyeeeh!\n"
-	.string "What are you doing here?\p"
-	.string "Me? I'm the Team Aqua member\n"
-	.string "you thumped before, remember?\l"
-	.string "Back in Rusturf Tunnel?\p"
-	.string "Here, take this!\n"
-	.string "You have to forgive me!$"
+	.string "哇啊啊！\n"
+	.string "你在这儿干什么？\p"
+	.string "我？我就是之前在碎石隧道\n"
+	.string "被你揍过的\l"
+	.string "水舰队成员，记得吗？\p"
+	.string "来，拿着这个！\n"
+	.string "你一定要原谅我！$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
-	.string "Me? I'm Flip Turning out of here!\n"
-	.string "Hope I never see you again!\p"
-	.string "Wahahaha!$"
+	.string "我？我要赶紧溜走！\n"
+	.string "希望再也见不到你！\p"
+	.string "哇哈哈！$"
 
 SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
-	.string "Awww, come on!\n"
-	.string "You have to take this and let me go!$"
+	.string "哎哟，别这样！\n"
+	.string "你收下这个，就放我走吧！$"
 
 SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
-	.string "A blue fluid is spiraling inside\n"
-	.string "a glass vessel.\p"
-	.string "“This is an experiment to create a\n"
-	.string "whirlpool artificially using wind.”$"
+	.string "玻璃容器里，蓝色的液体\n"
+	.string "在打着旋。\p"
+	.string "“这是利用风人工制造\n"
+	.string "漩涡的实验。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
-	.string "A red ball is bobbing up and down\n"
-	.string "inside a glass vessel.\p"
-	.string "“This is an experiment simulating a\n"
-	.string "waterfall using the ball's buoyancy.”$"
+	.string "玻璃容器里，红色的球\n"
+	.string "在上下浮动。\p"
+	.string "“这是利用球的浮力\n"
+	.string "模拟瀑布的实验。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
-	.string "It's a sample of soil from the ocean\n"
-	.string "floor.\p"
-	.string "“Over many years, the remains of\n"
-	.string "life-forms settle at the bottom of\l"
-	.string "the sea, making sedimentary layers.\p"
-	.string "“By analyzing these layers, the\n"
-	.string "ancient past is revealed.”$"
+	.string "这是海底土壤的\n"
+	.string "样本。\p"
+	.string "“经过许多年，生物的\n"
+	.string "遗骸沉积在海底，\l"
+	.string "形成沉积层。\p"
+	.string "“通过分析这些沉积层，\n"
+	.string "就能看清远古的过去。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
-	.string "It's a sample of beach sand.\p"
-	.string "“Stones from mountains are washed\n"
-	.string "down by rivers where they are\l"
-	.string "chipped and ground down.\p"
-	.string "“They are reduced to grains and end\n"
-	.string "up as sand on beaches.”$"
+	.string "这是沙滩沙子的\n"
+	.string "样本。\p"
+	.string "“山上的石头被河水\n"
+	.string "冲下来，在途中\l"
+	.string "被削碎、磨细。\p"
+	.string "“它们被磨成颗粒，\n"
+	.string "最后成为沙滩上的沙。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
-	.string "“OCEANIC MINIFACT 1\n"
-	.string "Why is seawater blue?\p"
-	.string "“Light is composed of many colors.\p"
-	.string "“When light passes through water,\n"
-	.string "most kinds of light lose color.\p"
-	.string "“However, blue light retains its\n"
-	.string "color, making the sea appear blue.”$"
+	.string "“海洋小知识1\n"
+	.string "为什么海水是蓝色的？\p"
+	.string "“光是由许多颜色\n"
+	.string "组成的。\p"
+	.string "“光穿过水时，\n"
+	.string "大部分颜色都会褪去。\p"
+	.string "“只有蓝光保留了颜色，\n"
+	.string "所以大海看起来是蓝的。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
-	.string "“OCEANIC MINIFACT 2\n"
-	.string "Why is the sea salty?\p"
-	.string "“Seawater contains dissolved salt in\n"
-	.string "the form of sodium and chlorine ions.\p"
-	.string "“These ions leech out of rocks\n"
-	.string "and are carried out to sea by rain.\p"
-	.string "“The concentration of dissolved salt\n"
-	.string "makes the sea salty.”$"
+	.string "“海洋小知识2\n"
+	.string "为什么海水是咸的？\p"
+	.string "“海水中溶解着盐，\n"
+	.string "以钠离子和氯离子的\l"
+	.string "形式存在。\p"
+	.string "“这些离子从岩石中渗出，\n"
+	.string "被雨水带进大海。\p"
+	.string "“溶解盐的浓度\n"
+	.string "让海水变咸。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
-	.string "“OCEANIC MINIFACT 3\n"
-	.string "Which is bigger? The sea or land?\p"
-	.string "“The sea covers about 70% of\n"
-	.string "the planet, and the rest is land.\p"
-	.string "“The sea is therefore more than twice\n"
-	.string "the size of land.”$"
+	.string "“海洋小知识3\n"
+	.string "海和陆地哪个更大？\p"
+	.string "“海洋覆盖了地球大约\n"
+	.string "70%的表面，其余是陆地。\p"
+	.string "“所以海洋的面积\n"
+	.string "是陆地的两倍多。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
-	.string "It's a fossil with wavy ridges on it.\p"
-	.string "“Soil on the ocean floor gets scoured\n"
-	.string "by the tide.\p"
-	.string "“The flowing seawater marks the soil\n"
-	.string "with small ridges and valleys.\p"
-	.string "“If this soil becomes fossilized, it is\n"
-	.string "called a ripple mark.”$"
+	.string "这是一块带有波浪状\n"
+	.string "纹路的化石。\p"
+	.string "“海底的泥土会\n"
+	.string "被潮水冲刷。\p"
+	.string "“流动的海水在泥土上\n"
+	.string "留下细小的脊和沟。\p"
+	.string "“如果这种泥土变成化石，\n"
+	.string "就叫波痕。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
-	.string "A strange machine is rotating under\n"
-	.string "a glass dome.\p"
-	.string "Maybe it's for measuring the depth\n"
-	.string "of something…$"
+	.string "玻璃罩里有台奇怪的\n"
+	.string "机器在转动。\p"
+	.string "也许是用来测量\n"
+	.string "什么的深度……$"
 
 `
 
@@ -444,26 +450,26 @@ script SlateportCity_OceanicMuseum_1F_EventScript_DrakeExit{
 }
 
 text SlateportCity_OceanicMuseum_1FDrakeIntro {
-	"Hmph. Oh, I apologize for bumping into\n"
-	"you.\p"
-	"I happened to be in the area and saw\n"
-	"several members of Team Aqua fleeing\l"
-	"from this museum.\p"
-	"Do you happen to know anything about\n"
-	"why they were fleeing?\p"
-	"… … … … … …\p"
-	"I see, so they were after some Devon\n"
-	"Parts meant for Capt. Stern, but you\l"
-	"defeated them in battle and scared\l"
-	"them off.\p"
-	"Sounds like you must be quite the\n"
-	"trainer to be able to deal with Team\l"
-	"Aqua all by yourself.\p"
-	"Allow me to introduce myself then, I am\n"
-	"Drake of the Elite Four, and you are?\p"
-	"… … … … … …\p"
-	"I see. Well, excellent work, {PLAYER}.\n"
-	"I'll be going now, but I have a feeling\l"
-	"our paths may cross again sometime."
+	"哼。哦，抱歉，\n"
+	"撞到你了。\p"
+	"我正好在这附近，看到\n"
+	"几个水舰队的成员从这座\l"
+	"博物馆里逃出来。\p"
+	"你知道他们\n"
+	"为什么逃跑吗？\p"
+	"………………\p"
+	"原来如此，他们是冲着要\n"
+	"交给史特恩船长的大吾零件，\l"
+	"结果被你打败，\l"
+	"吓跑了。\p"
+	"能一个人对付水舰队，\n"
+	"看来你\l"
+	"相当厉害。\p"
+	"那我也自我介绍一下，我是\n"
+	"四天王的源治，你是？\p"
+	"………………\p"
+	"原来如此。干得漂亮，{PLAYER}。\n"
+	"我这就走了，不过我总觉得\l"
+	"我们还会再见。"
 }
 
