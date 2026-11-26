@@ -1,7 +1,7 @@
 # 1 "data/maps/Route101/scripts.pory"
 
 # 2 "data/maps/Route101/scripts.pory"
-.set LOCALID_小田卷, 2
+.set LOCALID_BIRCH, 2
 # 3 "data/maps/Route101/scripts.pory"
 .set LOCALID_ZIGZAGOON, 4
 # 4 "data/maps/Route101/scripts.pory"
@@ -53,13 +53,13 @@ Route101_EventScript_StartBirchRescue::
 # 27 "data/maps/Route101/scripts.pory"
 	closemessage
 # 28 "data/maps/Route101/scripts.pory"
-	setobjectxy LOCALID_小田卷, 0, 15
+	setobjectxy LOCALID_BIRCH, 0, 15
 # 29 "data/maps/Route101/scripts.pory"
 	setobjectxy LOCALID_ZIGZAGOON, 0, 16
 # 30 "data/maps/Route101/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_EnterScene
 # 31 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_小田卷, Route101_Movement_BirchRunAway1
+	applymovement LOCALID_BIRCH, Route101_Movement_BirchRunAway1
 # 32 "data/maps/Route101/scripts.pory"
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonChase1
 # 33 "data/maps/Route101/scripts.pory"
@@ -67,17 +67,17 @@ Route101_EventScript_StartBirchRescue::
 # 34 "data/maps/Route101/scripts.pory"
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonChaseInCircles
 # 35 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_小田卷, Route101_Movement_BirchRunInCircles
+	applymovement LOCALID_BIRCH, Route101_Movement_BirchRunInCircles
 # 36 "data/maps/Route101/scripts.pory"
 	waitmovement 0
 # 37 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_小田卷, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
 # 38 "data/maps/Route101/scripts.pory"
 	waitmovement 0
 # 39 "data/maps/Route101/scripts.pory"
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonFaceBirch
 # 40 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_小田卷, Route101_Movement_BirchFaceZigzagoon
+	applymovement LOCALID_BIRCH, Route101_Movement_BirchFaceZigzagoon
 # 41 "data/maps/Route101/scripts.pory"
 	waitmovement 0
 # 42 "data/maps/Route101/scripts.pory"
@@ -449,7 +449,7 @@ Route101_EventScript_BirchsBag::
 # 225 "data/maps/Route101/scripts.pory"
 	setflag FLAG_SYS_POKEMON_GET
 # 226 "data/maps/Route101/scripts.pory"
-	setflag FLAG_RESCUED_小田卷
+	setflag FLAG_RESCUED_BIRCH
 # 227 "data/maps/Route101/scripts.pory"
 	fadescreen FADE_TO_BLACK
 # 228 "data/maps/Route101/scripts.pory"
@@ -465,7 +465,7 @@ Route101_EventScript_BirchsBag::
 # 233 "data/maps/Route101/scripts.pory"
 	waitstate
 # 234 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_小田卷, Route101_Movement_BirchApproachPlayer
+	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
 # 235 "data/maps/Route101/scripts.pory"
 	waitmovement 0
 # 236 "data/maps/Route101/scripts.pory"
@@ -473,13 +473,13 @@ Route101_EventScript_BirchsBag::
 # 237 "data/maps/Route101/scripts.pory"
 	special HealPlayerParty
 # 238 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_小田卷_ZIGZAGOON_BATTLE
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
 # 239 "data/maps/Route101/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_小田卷S_LAB_小田卷
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
 # 240 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_小田卷_STARTERS_BAG
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 # 241 "data/maps/Route101/scripts.pory"
-	setvar VAR_小田卷_LAB_STATE, 2
+	setvar VAR_BIRCH_LAB_STATE, 2
 # 242 "data/maps/Route101/scripts.pory"
 	setvar VAR_ROUTE101_STATE, 3
 # 243 "data/maps/Route101/scripts.pory"
@@ -491,7 +491,7 @@ Route101_EventScript_BirchsBag::
 # 246 "data/maps/Route101/scripts.pory"
 	call_if_eq VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom
 # 247 "data/maps/Route101/scripts.pory"
-	warp MAP_LITTLEROOT_TOWN_PROFESSOR_小田卷S_LAB, 6, 5
+	warp MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB, 6, 5
 # 248 "data/maps/Route101/scripts.pory"
 	waitstate
 # 249 "data/maps/Route101/scripts.pory"
@@ -527,19 +527,19 @@ Route101_Movement_BirchApproachPlayer:
 # 264 "data/maps/Route101/scripts.pory"
 Route101_Text_HelpMe:
 # 265 "data/maps/Route101/scripts.pory"
-	.string "救、救命啊！$"
+	.string "H-help me!$"
 # 266 "data/maps/Route101/scripts.pory"
 
 # 267 "data/maps/Route101/scripts.pory"
 Route101_Text_PleaseHelp:
 # 268 "data/maps/Route101/scripts.pory"
-	.string "你好！ You over there!\n"
+	.string "Hello! You over there!\n"
 # 269 "data/maps/Route101/scripts.pory"
-	.string "拜托了！ Help!\p"
+	.string "Please! Help!\p"
 # 270 "data/maps/Route101/scripts.pory"
 	.string "In my BAG!\n"
 # 271 "data/maps/Route101/scripts.pory"
-	.string "There's a 精灵球!$"
+	.string "There's a POKé BALL!$"
 # 272 "data/maps/Route101/scripts.pory"
 
 # 273 "data/maps/Route101/scripts.pory"
@@ -553,7 +553,7 @@ Route101_Text_DontLeaveMe:
 # 277 "data/maps/Route101/scripts.pory"
 Route101_Text_YouSavedMe:
 # 278 "data/maps/Route101/scripts.pory"
-	.string "PROF. 小田卷: Whew…\p"
+	.string "PROF. BIRCH: Whew…\p"
 # 279 "data/maps/Route101/scripts.pory"
 	.string "I was in the tall grass studying wild\n"
 # 280 "data/maps/Route101/scripts.pory"
@@ -607,6 +607,6 @@ Route101_Text_WildPokemonInTallGrass:
 # 304 "data/maps/Route101/scripts.pory"
 Route101_Text_RouteSign:
 # 305 "data/maps/Route101/scripts.pory"
-	.string "101号道路\n"
+	.string "ROUTE 101\n"
 # 306 "data/maps/Route101/scripts.pory"
-	.string "{UP_ARROW} 古玫镇$"
+	.string "{UP_ARROW} OLDALE TOWN$"

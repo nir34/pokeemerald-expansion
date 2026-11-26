@@ -25,7 +25,7 @@ OldaleTown_OnTransition:
 # 13 "data/maps/OldaleTown/scripts.pory"
 	call_if_unset FLAG_ADVENTURE_STARTED, OldaleTown_EventScript_BlockWestEntrance
 # 14 "data/maps/OldaleTown/scripts.pory"
-	call_if_unset FLAG_RECEIVED_伤药_OLDALE, OldaleTown_EventScript_MoveMartEmployee
+	call_if_unset FLAG_RECEIVED_POTION_OLDALE, OldaleTown_EventScript_MoveMartEmployee
 # 15 "data/maps/OldaleTown/scripts.pory"
 	call_if_set FLAG_ADVENTURE_STARTED, OldaleTown_EventScript_SetOldaleState
 # 16 "data/maps/OldaleTown/scripts.pory"
@@ -85,7 +85,7 @@ OldaleTown_EventScript_MartEmployee::
 # 43 "data/maps/OldaleTown/scripts.pory"
 	faceplayer
 # 44 "data/maps/OldaleTown/scripts.pory"
-	goto_if_set FLAG_RECEIVED_伤药_OLDALE, OldaleTown_EventScript_ExplainPotion
+	goto_if_set FLAG_RECEIVED_POTION_OLDALE, OldaleTown_EventScript_ExplainPotion
 # 45 "data/maps/OldaleTown/scripts.pory"
 	goto_if_set FLAG_TEMP_1, OldaleTown_EventScript_ExplainPotion
 # 46 "data/maps/OldaleTown/scripts.pory"
@@ -155,13 +155,13 @@ OldaleTown_EventScript_ExplainPokemonMart::
 # 78 "data/maps/OldaleTown/scripts.pory"
 	msgbox OldaleTown_Text_ThisIsAPokemonMart, MSGBOX_DEFAULT
 # 79 "data/maps/OldaleTown/scripts.pory"
-	giveitem ITEM_伤药
+	giveitem ITEM_POTION
 # 80 "data/maps/OldaleTown/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, OldaleTown_EventScript_BagIsFull
 # 81 "data/maps/OldaleTown/scripts.pory"
 	msgbox OldaleTown_Text_PotionExplanation, MSGBOX_DEFAULT
 # 82 "data/maps/OldaleTown/scripts.pory"
-	setflag FLAG_RECEIVED_伤药_OLDALE
+	setflag FLAG_RECEIVED_POTION_OLDALE
 # 83 "data/maps/OldaleTown/scripts.pory"
 	fadedefaultbgm
 # 84 "data/maps/OldaleTown/scripts.pory"
@@ -717,7 +717,7 @@ OldaleTown_Text_ThisIsAPokemonMart:
 # 359 "data/maps/OldaleTown/scripts.pory"
 	.string "We sell a variety of goods including\n"
 # 360 "data/maps/OldaleTown/scripts.pory"
-	.string "精灵球S for catching Pokémon.\p"
+	.string "POKé BALLS for catching Pokémon.\p"
 # 361 "data/maps/OldaleTown/scripts.pory"
 	.string "Here, I'd like you to have this as\n"
 # 362 "data/maps/OldaleTown/scripts.pory"
@@ -727,7 +727,7 @@ OldaleTown_Text_ThisIsAPokemonMart:
 # 364 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_PotionExplanation:
 # 365 "data/maps/OldaleTown/scripts.pory"
-	.string "A 伤药 can be used anytime, so it's\n"
+	.string "A POTION can be used anytime, so it's\n"
 # 366 "data/maps/OldaleTown/scripts.pory"
 	.string "even more useful than a Pokémon CENTER\l"
 # 367 "data/maps/OldaleTown/scripts.pory"
@@ -797,6 +797,6 @@ OldaleTown_Text_BrendanLetsGoBack:
 # 399 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_TownSign:
 # 400 "data/maps/OldaleTown/scripts.pory"
-	.string "古玫镇\n"
+	.string "OLDALE TOWN\n"
 # 401 "data/maps/OldaleTown/scripts.pory"
 	.string "“Where things start off scarce.”$"

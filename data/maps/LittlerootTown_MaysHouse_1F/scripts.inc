@@ -1,9 +1,9 @@
 # 1 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 
 # 2 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-.set LOCALID_妈妈, 1
+.set LOCALID_MOM, 1
 # 3 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-.set LOCALID_RIVAL_妈妈, 4
+.set LOCALID_RIVAL_MOM, 4
 # 4 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 .set LOCALID_RIVAL, 7
 # 5 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -73,9 +73,9 @@ LittlerootTown_MaysHouse_1F_OnTransition:
 # 37 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 LittlerootTown_MaysHouse_1F_EventScript_MoveMomToStairs::
 # 38 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectxyperm LOCALID_妈妈, 2, 4
+	setobjectxyperm LOCALID_MOM, 2, 4
 # 39 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectmovementtype LOCALID_妈妈, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 40 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	return
 # 41 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -83,9 +83,9 @@ LittlerootTown_MaysHouse_1F_EventScript_MoveMomToStairs::
 # 42 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 LittlerootTown_MaysHouse_1F_EventScript_MoveMomToTV::
 # 43 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectxyperm LOCALID_妈妈, 6, 5
+	setobjectxyperm LOCALID_MOM, 6, 5
 # 44 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectmovementtype LOCALID_妈妈, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 45 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	return
 # 46 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -93,9 +93,9 @@ LittlerootTown_MaysHouse_1F_EventScript_MoveMomToTV::
 # 47 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 LittlerootTown_MaysHouse_1F_EventScript_MoveMomToDoor::
 # 48 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectxyperm LOCALID_妈妈, 1, 8
+	setobjectxyperm LOCALID_MOM, 1, 8
 # 49 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setobjectmovementtype LOCALID_妈妈, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 50 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	return
 # 51 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -129,7 +129,7 @@ LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock::
 # 65 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
 # 66 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	applymovement LOCALID_妈妈, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
+	applymovement LOCALID_MOM, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
 # 67 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	waitmovement 0
 # 68 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -155,7 +155,7 @@ LittlerootTown_MaysHouse_1F_EventScript_EnterHouseMovingIn::
 # 78 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	lockall
 # 79 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_0x8004, LOCALID_妈妈
+	setvar VAR_0x8004, LOCALID_MOM
 # 80 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setvar VAR_0x8005, FEMALE
 # 81 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -171,7 +171,7 @@ LittlerootTown_MaysHouse_1F_EventScript_PetalburgGymReport::
 # 86 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setvar VAR_0x8004, FEMALE
 # 87 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_0x8005, LOCALID_妈妈
+	setvar VAR_0x8005, LOCALID_MOM
 # 88 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	goto PlayersHouse_1F_EventScript_PetalburgGymReportFemale
 # 89 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -185,17 +185,17 @@ LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor::
 # 93 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	playse SE_PIN
 # 94 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	applymovement LOCALID_RIVAL_妈妈, Common_Movement_ExclamationMark
+	applymovement LOCALID_RIVAL_MOM, Common_Movement_ExclamationMark
 # 95 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	waitmovement 0
 # 96 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	applymovement LOCALID_RIVAL_妈妈, Common_Movement_Delay48
+	applymovement LOCALID_RIVAL_MOM, Common_Movement_Delay48
 # 97 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	waitmovement 0
 # 98 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 99 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	applymovement LOCALID_RIVAL_妈妈, LittlerootTown_MaysHouse_1F_Movement_RivalMomApproach
+	applymovement LOCALID_RIVAL_MOM, LittlerootTown_MaysHouse_1F_Movement_RivalMomApproach
 # 100 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	waitmovement 0
 # 101 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -203,7 +203,7 @@ LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor::
 # 102 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
 # 103 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setflag FLAG_MET_RIVAL_妈妈
+	setflag FLAG_MET_RIVAL_MOM
 # 104 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 2
 # 105 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -303,7 +303,7 @@ LittlerootTown_MaysHouse_1F_EventScript_GoSeeRoom::
 # 152 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	lockall
 # 153 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_0x8004, LOCALID_妈妈
+	setvar VAR_0x8004, LOCALID_MOM
 # 154 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setvar VAR_0x8005, FEMALE
 # 155 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -407,7 +407,7 @@ LittlerootTown_MaysHouse_1F_EventScript_MeetRival::
 # 204 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
 # 205 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_小田卷S_LAB_小田卷
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
 # 206 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	savebgm MUS_DUMMY
 # 207 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
