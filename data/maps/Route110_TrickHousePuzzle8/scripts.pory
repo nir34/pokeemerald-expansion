@@ -1,0 +1,73 @@
+raw `
+Route110_TrickHousePuzzle8_MapScripts::
+	.byte 0
+
+Route110_TrickHousePuzzle8_EventScript_Scroll::
+	lockall
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_8_STATE, 0, Route110_TrickHousePuzzle8_EventScript_FoundScroll
+	goto Route110_TrickHousePuzzle_EventScript_ReadScrollAgain
+	end
+
+Route110_TrickHousePuzzle8_EventScript_FoundScroll::
+	setvar VAR_TRICK_HOUSE_PUZZLE_8_STATE, 1
+	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
+	end
+
+Route110_TrickHousePuzzle8_EventScript_Vincent::
+	trainerbattle_single TRAINER_VINCENT, Route110_TrickHousePuzzle8_Text_VincentIntro, Route110_TrickHousePuzzle8_Text_VincentDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_VincentPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle8_EventScript_Keira::
+	trainerbattle_single TRAINER_KEIRA, Route110_TrickHousePuzzle8_Text_KeiraIntro, Route110_TrickHousePuzzle8_Text_KeiraDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_KeiraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle8_EventScript_Leroy::
+	trainerbattle_single TRAINER_LEROY, Route110_TrickHousePuzzle8_Text_LeroyIntro, Route110_TrickHousePuzzle8_Text_LeroyDefeat
+	msgbox Route110_TrickHousePuzzle8_Text_LeroyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
+	.string "{PLAYER}把密码写在了\n"
+	.string "门上。\p"
+	.string "“我爱机关大师。”\n"
+	.string "… … … … … … … …\p"
+	.string "锁咔嗒一声开了！$"
+
+Route110_TrickHousePuzzle8_Text_VincentIntro:
+	.string "没多少训练家能\n"
+	.string "走到这里。$"
+
+Route110_TrickHousePuzzle8_Text_VincentDefeat:
+	.string "那说明你也很强……$"
+
+Route110_TrickHousePuzzle8_Text_VincentPostBattle:
+	.string "你打赢了宝可梦联盟\n"
+	.string "冠军？太厉害了！$"
+
+Route110_TrickHousePuzzle8_Text_KeiraIntro:
+	.string "能和我对战，你\n"
+	.string "该觉得走运！$"
+
+Route110_TrickHousePuzzle8_Text_KeiraDefeat:
+	.string "不对劲！\n"
+	.string "我不能输！$"
+
+Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
+	.string "你打赢我是奇迹。\n"
+	.string "你可以去炫耀。$"
+
+Route110_TrickHousePuzzle8_Text_LeroyIntro:
+	.string "你也是一路闯过\n"
+	.string "机关屋挑战来的。$"
+
+Route110_TrickHousePuzzle8_Text_LeroyDefeat:
+	.string "我明白了……\n"
+	.string "你的风格非同一般。$"
+
+Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
+	.string "见到你这样的人，机关\n"
+	.string "大师应该会高兴。$"
+
+`

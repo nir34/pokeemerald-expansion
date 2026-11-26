@@ -1,0 +1,63 @@
+raw `
+RustboroCity_CuttersHouse_MapScripts::
+	.byte 0
+
+RustboroCity_CuttersHouse_EventScript_Cutter::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_CUT, RustboroCity_CuttersHouse_EventScript_ExplainCut
+	goto_if_unset FLAG_BADGE01_GET, RustboroCity_CuttersHouse_NoBadgeYet
+	msgbox RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
+	giveitem ITEM_HM_CUT
+	setflag FLAG_RECEIVED_HM_CUT
+	msgbox RustboroCity_CuttersHouse_Text_ExplainCut, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_CuttersHouse_EventScript_ExplainCut::
+	msgbox RustboroCity_CuttersHouse_Text_ExplainCut, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_CuttersHouse_NoBadgeYet::
+	msgbox RustboroCity_CuttersHouse_Text_NoBadge, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_CuttersHouse_EventScript_Lass::
+	msgbox RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees, MSGBOX_NPC
+	end
+
+RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
+	.string "嘿，那是岩石徽章！\n"
+	.string "干得好，这个给你！\p"
+	.string "我相信你一定能好好\n"
+	.string "使用这个秘传学习器。\p"
+	.string "别客气，别害羞。\n"
+	.string "来，拿去吧！$"
+
+RustboroCity_CuttersHouse_Text_ExplainCut:
+	.string "这个秘传学习器，\n"
+	.string "就是居合斩。\p"
+	.string "秘传招式就是能在战斗\n"
+	.string "以外使用的招式。\p"
+	.string "不过现在，不需要让\n"
+	.string "宝可梦学会秘传招式，\l"
+	.string "也能在战斗之外使用。\p"
+	.string "只要背包里带着它，\n"
+	.string "并且拥有相应的徽章，\l"
+	.string "就可以随时使用！\p"
+	.string "而且，秘传招式随时可以\n"
+	.string "忘记，就像普通招式一样！\l"
+	.string "很神奇吧？$"
+
+	RustboroCity_CuttersHouse_Text_NoBadge:
+	.string "等你拿到第一个道馆\n"
+	.string "徽章再来吧，\l我会给你奖励的。$"
+
+RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
+	.string "当年卡那兹市扩建时，\n"
+	.string "我爸爸也出了一份力。\p"
+	.string "他让宝可梦用居合斩\n"
+	.string "清掉了那些树木。$"
+`

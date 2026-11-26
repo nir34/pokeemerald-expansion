@@ -1,0 +1,675 @@
+raw `
+InsideOfTruck_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, InsideOfTruck_OnLoad
+	map_script MAP_SCRIPT_ON_RESUME, InsideOfTruck_OnResume
+	.byte 0
+
+InsideOfTruck_OnLoad:
+	setmetatile 4, 1, METATILE_InsideOfTruck_ExitLight_Top, FALSE
+	setmetatile 4, 2, METATILE_InsideOfTruck_ExitLight_Mid, FALSE
+	setmetatile 4, 3, METATILE_InsideOfTruck_ExitLight_Bottom, FALSE
+	end
+
+InsideOfTruck_OnResume:
+	setstepcallback STEP_CB_TRUCK
+	end
+
+InsideOfTruck_EventScript_SetIntroFlags::
+	lockall
+	setflag FLAG_HIDE_MAP_NAME_POPUP
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, InsideOfTruck_EventScript_SetIntroFlagsMale
+	goto_if_eq VAR_RESULT, FEMALE, InsideOfTruck_EventScript_SetIntroFlagsFemale
+	end
+
+InsideOfTruck_EventScript_SetIntroFlagsMale::
+	setrespawn HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F
+	setvar VAR_LITTLEROOT_INTRO_STATE, 1
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1
+	setdynamicwarp MAP_LITTLEROOT_TOWN, 3, 10
+	message InsideOfTruck_Text_ReadCarefully
+	waitmessage
+	delay 100
+	delay 100
+	msgbox InsideOfTruck_Text_WantToUseDefaultSettings, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, InsideOfTruck_EventScript_SetDefaultSettings
+	call_if_eq VAR_RESULT, NO, InsideOfTruck_EventScript_StartSettingsMenu
+	releaseall
+	end
+
+InsideOfTruck_EventScript_SetIntroFlagsFemale::
+	setrespawn HEAL_LOCATION_LITTLEROOT_TOWN_MAYS_HOUSE_2F
+	setvar VAR_LITTLEROOT_INTRO_STATE, 2
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 1
+	setdynamicwarp MAP_LITTLEROOT_TOWN, 12, 10
+	message InsideOfTruck_Text_ReadCarefully
+	waitmessage
+	delay 100
+	delay 100
+	msgbox InsideOfTruck_Text_WantToUseDefaultSettings, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, InsideOfTruck_EventScript_SetDefaultSettings
+	call_if_eq VAR_RESULT, NO, InsideOfTruck_EventScript_StartSettingsMenu
+	releaseall
+	end
+
+InsideOfTruck_EventScript_SetDefaultSettings:
+	msgbox InsideOfTruck_Text_DefaultSettingsSaved, MSGBOX_DEFAULT
+	setvar VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_NORMAL_MODE
+	setflag FLAG_MIN_GRINDING_MODE
+	clearflag FLAG_RANDOMIZER_ENABLED
+	clearflag FLAG_RANDOM_ABILITIES_ENABLED
+	clearflag FLAG_RANDOM_ABILITIES_ENABLED
+	special ForceBattleStyleSetPleaseGod
+	setvar VAR_RANDOMIZER_MODE, MAX_MON_MODE
+	return
+
+InsideOfTruck_EventScript_MovingBox::
+	msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
+	end
+
+InsideOfTruck_Text_BoxPrintedWithMonLogo:
+	.string "箱子上印着宝可梦的标志。\p"
+	.string "这是宝可梦品牌的搬家\n"
+	.string "和运送服务。$"
+
+InsideOfTruck_Text_ReadCarefully:
+	.string "{COLOR RED}{SHADOW LIGHT_RED}请花点时间仔细阅读\n"
+	.string "以下内容。$"
+
+InsideOfTruck_Text_WantToUseDefaultSettings:
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}你想用默认设置游玩\n"
+	.string "Pokémon Emerald\l"
+	.string "Imperium 吗？\p"
+	.string "默认设置如下：\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通难度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} —— 有挑战性的\n"
+	.string "BOSS战，并强制\l"
+	.string "执行严格的等级上限。\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少刷级模式开启{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
+	.string "保证所有宝可梦个体值\l"
+	.string "全满，且无法获得\l"
+	.string "努力值。BOSS宝可梦\l"
+	.string "也不会有努力值。\p"
+	.string "随机化 {COLOR RED}{SHADOW LIGHT_RED}关闭{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
+	.string "不启用任何额外\l"
+	.string "随机化。\p"
+	.string "了解了这些之后：\n"
+	.string "你想用默认设置游玩\l"
+	.string "Pokémon Emerald\l"
+	.string "Imperium 吗？$"
+
+InsideOfTruck_Text_DefaultSettingsSaved:
+	.string "默认设置已保存。\n"
+	.string "祝你好运！$"
+`
+
+script InsideOfTruck_EventScript_StartSettingsMenu {
+	msgbox(WhichOption)
+	if(flag(FLAG_MIN_GRINDING_MODE))
+	{
+		dynmultipush("难度选项", 0)
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式", 1)
+		dynmultipush("随机化选项", 2)
+		dynmultipush("完成", 3)
+	}
+	else
+	{
+		dynmultipush("难度选项", 0)
+		dynmultipush("{COLOR RED}{SHADOW LIGHT_RED}最少练级模式", 1)
+		dynmultipush("随机化选项", 2)
+		dynmultipush("完成", 3)
+	}
+	
+    // setting initial selected to a non-existant ID will always have it point to the first option
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+	dynmultistack(0, 0, TRUE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+    if (var(VAR_RESULT) == 0)
+	{
+		goto(InsideOfTruck_EventScript_DifficultyOptions)
+	}
+
+	if (var(VAR_RESULT) == 1)
+	{
+		goto(InsideOfTruck_EventScript_MinGrindingMode)	
+	}
+
+	if (var(VAR_RESULT) == 2)
+	{
+		goto(InsideOfTruck_EventScript_RandomzierOptions)	
+	}
+
+	if (var(VAR_RESULT) == 3) 
+	{
+		goto(InsideOfTruck_EventScript_SaveSettingsDone)
+	}
+}
+
+script InsideOfTruck_EventScript_DifficultyOptions {
+	msgbox(WhichDifficulty)
+	switch(var(VAR_GAME_SETTING_DIFFICULTY_MODE))
+	{
+		case GAME_SETTING_DIFFICULTY_NORMAL_MODE:
+            dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
+
+        case GAME_SETTING_DIFFICULTY_EASY_MODE:
+			dynmultipush("普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
+		
+		default:
+			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
+	}
+	
+	// setting initial selected to a non-existant ID will always have it point to the first option
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+	dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(InsideOfTruck_EventScript_StartSettingsMenu)
+	}
+
+	if(var(VAR_RESULT) == GAME_SETTING_DIFFICULTY_NORMAL_MODE) 
+	{
+		if(var(VAR_GAME_SETTING_DIFFICULTY_MODE) == GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+		{
+			msgbox(NormalDifficultyCurrentlySelected)
+			goto(InsideOfTruck_EventScript_DifficultyOptions)
+		}
+		else
+		{
+			msgbox(NormalDifficultyYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setvar(VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+				msgbox(NormalDifficultyEnabled)
+			}
+			goto(InsideOfTruck_EventScript_DifficultyOptions)
+
+		}
+	}
+
+	if(var(VAR_RESULT) == GAME_SETTING_DIFFICULTY_EASY_MODE) 
+	{
+		if(var(VAR_GAME_SETTING_DIFFICULTY_MODE) == GAME_SETTING_DIFFICULTY_EASY_MODE)
+		{
+			msgbox(EasyDifficultyCurrentlySelected)
+			goto(InsideOfTruck_EventScript_DifficultyOptions)
+		}
+		else
+		{
+			msgbox(EasyDifficultyYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setvar(VAR_GAME_SETTING_DIFFICULTY_MODE, GAME_SETTING_DIFFICULTY_EASY_MODE)
+				msgbox(EasyDifficultyEnabled)
+			}
+			goto(InsideOfTruck_EventScript_DifficultyOptions)
+		}
+	}
+}
+
+script InsideOfTruck_EventScript_MinGrindingMode {
+	if(flag(FLAG_MIN_GRINDING_MODE))
+	{
+		msgbox(MinGrindingAlreadyOnYesNo, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES)
+		{
+			clearflag(FLAG_MIN_GRINDING_MODE)
+			msgbox(MinGrindingDisabled)
+		}
+	}
+	else
+	{
+		msgbox(MinGrindingAlreadyOffYesNo, MSGBOX_YESNO)
+		if(var(VAR_RESULT) == YES)
+		{
+			setflag(FLAG_MIN_GRINDING_MODE)
+			msgbox(MinGrindingEnabled)
+		}
+	}
+	goto(InsideOfTruck_EventScript_StartSettingsMenu)
+		
+}
+
+
+script InsideOfTruck_EventScript_RandomzierOptions {
+	msgbox(WhichRandomizerOption)
+	if(flag(FLAG_RANDOMIZER_ENABLED))
+	{
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}种族", 0)
+	}
+		
+	else
+	{
+		dynmultipush("种族", 0)
+	}
+		
+
+	if(flag(FLAG_RANDOM_ABILITIES_ENABLED))
+	{
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}特性", 1)
+	}
+		
+	else
+	{
+		dynmultipush("特性", 1)
+	}
+		
+
+	// if(flag(FLAG_RANDOM_LEARNSETS_ENABLED))
+	// {
+	// 	dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}招式", 2)
+	// }
+		
+	// else
+	// {
+	// 	dynmultipush("招式", 2)
+	// }
+
+	dynmultipush("完成", MULTI_B_PRESSED)
+	
+	// setting initial selected to a non-existant ID will always have it point to the first option
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+	dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(InsideOfTruck_EventScript_StartSettingsMenu)
+	}
+
+	// Species
+	if(var(VAR_RESULT) == 0) 
+	{
+		goto(InsideOfTruck_EventScript_SpeciesRandomizerOptions)
+	}
+
+	// Ability
+	if(var(VAR_RESULT) == 1) 
+	{
+		if(flag(FLAG_RANDOM_ABILITIES_ENABLED))
+		{
+			msgbox(RandomAbilitiesAlreadyOnYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				clearflag(FLAG_RANDOM_ABILITIES_ENABLED)
+				msgbox(RandomAbilitiesDisabled)
+			}
+		}
+		else
+		{
+			msgbox(RandomAbilitiesAlreadyOffYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setflag(FLAG_RANDOM_ABILITIES_ENABLED)
+				msgbox(RandomAbilitiesEnabled)
+			}
+		}
+		goto(InsideOfTruck_EventScript_RandomzierOptions)
+	}
+
+	// Learnset
+	// if(var(VAR_RESULT) == 2) 
+	// {
+	// 	if(flag(FLAG_RANDOM_LEARNSETS_ENABLED))
+	// 	{
+	// 		msgbox(RandomLearnsetsAlreadyOnYesNo, MSGBOX_YESNO)
+	// 		if(var(VAR_RESULT) == YES)
+	// 		{
+	// 			clearflag(FLAG_RANDOM_LEARNSETS_ENABLED)
+	// 			msgbox(RandomLearnsetsDisabled)
+	// 		}
+	// 	}
+	// 	else
+	// 	{
+	// 		msgbox(RandomLearnsetsAlreadyOffYesNo, MSGBOX_YESNO)
+	// 		if(var(VAR_RESULT) == YES)
+	// 		{
+	// 			setflag(FLAG_RANDOM_LEARNSETS_ENABLED)
+	// 			msgbox(RandomLearnsetsEnabled)
+	// 		}
+	// 	}
+	// 	goto(InsideOfTruck_EventScript_RandomzierOptions)
+	// }
+}
+
+script InsideOfTruck_EventScript_SpeciesRandomizerOptions {
+	msgbox(WhichSpeciesRandomizerOption)
+	if(!flag(FLAG_RANDOMIZER_ENABLED))
+	{
+		dynmultipush("普通种族", MON_RANDOM)
+		dynmultipush("强度缩放种族", MON_RANDOM_BST)
+		dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+		dynmultipush("完成", MULTI_B_PRESSED)
+	}
+	else
+	{
+		switch(var(VAR_RANDOMIZER_MODE))
+		{
+			case MON_RANDOM:
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
+
+			case MON_RANDOM_BST:
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
+
+			case MON_RANDOM_LEGEND_AWARE:
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
+
+			case MAX_MON_MODE:
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
+			
+			default:
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
+		}
+
+	}
+	
+
+	// setting initial selected to a non-existant ID will always have it point to the first option
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+	dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(InsideOfTruck_EventScript_RandomzierOptions)
+	}
+
+	if(var(VAR_RESULT) == MON_RANDOM) 
+	{
+		if(var(VAR_RANDOMIZER_MODE) == MON_RANDOM)
+		{
+			msgbox(NormalSpeciesRandomizerAlreadyOnYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				clearflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MAX_MON_MODE)
+				msgbox(NormalSpeciesRandomizerDisabled)
+			}
+		}
+		else
+		{
+			msgbox(NormalSpeciesRandomizerAlreadyOffYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MON_RANDOM)
+				msgbox(NormalSpeciesRandomizerEnabled)
+			}
+		}
+		goto(InsideOfTruck_EventScript_SpeciesRandomizerOptions)
+	}
+
+	if(var(VAR_RESULT) == MON_RANDOM_BST) 
+	{
+		if(var(VAR_RANDOMIZER_MODE) == MON_RANDOM_BST)
+		{
+			msgbox(ScaledSpeciesRandomizerAlreadyOnYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				clearflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MAX_MON_MODE)
+				msgbox(ScaledSpeciesRandomizerDisabled)
+			}
+		}
+		else
+		{
+			msgbox(ScaledSpeciesRandomizerAlreadyOffYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MON_RANDOM_BST)
+				msgbox(ScaledSpeciesRandomizerEnabled)
+			}
+		}
+		goto(InsideOfTruck_EventScript_SpeciesRandomizerOptions)
+	}
+
+	if(var(VAR_RESULT) == MON_RANDOM_LEGEND_AWARE) 
+	{
+		if(var(VAR_RANDOMIZER_MODE) == MON_RANDOM_LEGEND_AWARE)
+		{
+			msgbox(LegendsAwareRandomizerAlreadyOnYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				clearflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MAX_MON_MODE)
+				msgbox(LegendsAwareRandomizerDisabled)
+			}
+		}
+		else
+		{
+			msgbox(LegendsAwareRandomizerAlreadyOffYesNo, MSGBOX_YESNO)
+			if(var(VAR_RESULT) == YES)
+			{
+				setflag(FLAG_RANDOMIZER_ENABLED)
+				setvar(VAR_RANDOMIZER_MODE, MON_RANDOM_LEGEND_AWARE)
+				msgbox(LegendsAwareRandomizerEnabled)
+			}
+		}
+		goto(InsideOfTruck_EventScript_SpeciesRandomizerOptions)
+	}
+
+}
+
+
+script InsideOfTruck_EventScript_SaveSettingsDone {
+	special(ForceBattleStyleSetPleaseGod)
+	msgbox(CustomSettingsSaved)
+	releaseall
+	end
+}
+
+
+text WhichOption
+{
+	"要自定义\n哪个选项？"
+}
+
+text WhichDifficulty
+{
+	"要以哪种难度\n模式游玩？"
+}
+
+text WhichRandomizerOption
+{
+	"要自定义哪个\n随机化选项？"
+}
+
+text WhichSpeciesRandomizerOption
+{
+	"要自定义哪个种族\n随机化选项？"
+}
+
+text NormalDifficultyCurrentlySelected
+{
+	"这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。"
+}
+
+text EasyDifficultyCurrentlySelected
+{
+	"在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。"
+}
+
+text NormalDifficultyYesNo
+{
+	"这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式吗？"
+}
+
+text EasyDifficultyYesNo
+{
+	"在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式吗？"
+}
+
+text NormalDifficultyEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。"
+}
+
+text EasyDifficultyEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。"
+}
+
+text MinGrindingAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}最少练级模式吗？"
+}
+
+text MinGrindingAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式吗？"
+}
+
+text MinGrindingEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式已启用。"
+}
+
+text MinGrindingDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}最少练级模式已关闭。"
+}
+
+
+text RandomAbilitiesAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}特性随机化吗？"
+}
+
+text RandomAbilitiesAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化吗？"
+}
+
+
+text RandomAbilitiesEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化已启用。"
+}
+
+text RandomAbilitiesDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}特性随机化已关闭。"
+}
+
+
+text RandomLearnsetsAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}招式随机化吗？"
+}
+
+text RandomLearnsetsAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化吗？"
+}
+
+
+text RandomLearnsetsEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化已启用。"
+}
+
+text RandomLearnsetsDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}招式随机化已关闭。"
+}
+
+
+text NormalSpeciesRandomizerAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}种族随机化吗？"
+}
+
+text NormalSpeciesRandomizerAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化吗？"
+}
+
+
+text NormalSpeciesRandomizerEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化已启用。"
+}
+
+text NormalSpeciesRandomizerDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}种族随机化已关闭。"
+}
+
+
+text ScaledSpeciesRandomizerAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化吗？"
+}
+
+text ScaledSpeciesRandomizerAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化吗？"
+}
+
+
+text ScaledSpeciesRandomizerEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化已启用。"
+}
+
+text ScaledSpeciesRandomizerDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化已关闭。"
+}
+
+text LegendsAwareRandomizerAlreadyOnYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化吗？"
+}
+
+text LegendsAwareRandomizerAlreadyOffYesNo
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化吗？"
+}
+
+
+text LegendsAwareRandomizerEnabled
+{
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化\n已启用。"
+}
+
+text LegendsAwareRandomizerDisabled
+{
+	"{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化\n已关闭。"
+}
+
+
+text CustomSettingsSaved
+{
+	"自定义设置已保存。\n祝你好运！"
+}

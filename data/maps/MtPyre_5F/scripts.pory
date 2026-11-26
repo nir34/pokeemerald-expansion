@@ -1,0 +1,27 @@
+raw `
+MtPyre_5F_MapScripts::
+	.byte 0
+
+@ Seems like the scripts for the 4F and 5F were swapped
+
+MtPyre_4F_EventScript_Tasha::
+	trainerbattle_single TRAINER_TASHA, MtPyre_4F_Text_TashaIntro, MtPyre_4F_Text_TashaDefeat
+	msgbox MtPyre_4F_Text_TashaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtPyre_4F_Text_TashaIntro:
+	.string "我喜欢一切恐怖的东西……\n"
+	.string "就像生病一样……\p"
+	.string "我在这里的时候……\n"
+	.string "会怕得发抖……$"
+
+MtPyre_4F_Text_TashaDefeat:
+	.string "输了，我讨厌……$"
+
+MtPyre_4F_Text_TashaPostBattle:
+	.string "我想看可怕的东西……\n"
+	.string "走不了……\p"
+	.string "留下……\n"
+	.string "你愿意陪我吗？$"
+
+`

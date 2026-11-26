@@ -1,0 +1,47 @@
+raw `
+FallarborTown_CozmosHouse_MapScripts::
+	.byte 0
+
+FallarborTown_CozmosHouse_EventScript_ProfCozmo::
+	lock
+	faceplayer
+	msgbox FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow, MSGBOX_DEFAULT
+	release
+	end
+
+FallarborTown_CozmosHouse_EventScript_CozmosWife::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, FallarborTown_CozmosHouse_EventScript_CozmoIsSad
+	msgbox FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls, MSGBOX_DEFAULT
+	release
+	end
+
+FallarborTown_CozmosHouse_EventScript_CozmoIsSad::
+	msgbox FallarborTown_CozmosHouse_Text_FeelSorryForCozmo, MSGBOX_DEFAULT
+	release
+	end
+
+FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
+	.string "科斯莫博士：唉……\n"
+	.string "我真不该被骗，\l"
+	.string "把能找到陨石的地方\l"
+	.string "告诉熔岩队……\p"
+	.string "流星瀑布那颗陨石……\n"
+	.string "再也不会属于我了……$"
+
+FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
+	.string "科斯莫博士：唉，可是……\n"
+	.string "我真是失望透顶……$"
+
+FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
+	.string "科斯莫博士和几个\n"
+	.string "熔岩队的人去了\l"
+	.string "114号道路的\l"
+	.string "流星瀑布。$"
+
+FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
+	.string "可怜的科斯莫博士……\n"
+	.string "他那么沮丧……真让人心疼。$"
+
+`

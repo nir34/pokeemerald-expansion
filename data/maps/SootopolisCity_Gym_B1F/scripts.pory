@@ -1,0 +1,191 @@
+raw `
+SootopolisCity_Gym_B1F_MapScripts::
+	.byte 0
+
+SootopolisCity_Gym_B1F_EventScript_Andrea::
+	trainerbattle_single TRAINER_ANDREA, SootopolisCity_Gym_B1F_Text_AndreaIntro, SootopolisCity_Gym_B1F_Text_AndreaDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Crissy::
+	trainerbattle_single TRAINER_CRISSY, SootopolisCity_Gym_B1F_Text_CrissyIntro, SootopolisCity_Gym_B1F_Text_CrissyDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_CrissyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Brianna::
+	trainerbattle_single TRAINER_BRIANNA, SootopolisCity_Gym_B1F_Text_BriannaIntro, SootopolisCity_Gym_B1F_Text_BriannaDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_BriannaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Connie::
+	trainerbattle_single TRAINER_CONNIE, SootopolisCity_Gym_B1F_Text_ConnieIntro, SootopolisCity_Gym_B1F_Text_ConnieDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_ConniePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Bridget::
+	trainerbattle_single TRAINER_BRIDGET, SootopolisCity_Gym_B1F_Text_BridgetIntro, SootopolisCity_Gym_B1F_Text_BridgetDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Olivia::
+	trainerbattle_single TRAINER_OLIVIA, SootopolisCity_Gym_B1F_Text_OliviaIntro, SootopolisCity_Gym_B1F_Text_OliviaDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_OliviaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Tiffany::
+	trainerbattle_single TRAINER_TIFFANY, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_TiffanyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Bethany::
+	trainerbattle_single TRAINER_BETHANY, SootopolisCity_Gym_B1F_Text_BethanyIntro, SootopolisCity_Gym_B1F_Text_BethanyDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Annika::
+	trainerbattle_single TRAINER_ANNIKA, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_AnnikaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_EventScript_Daphne::
+	trainerbattle_single TRAINER_DAPHNE, SootopolisCity_Gym_B1F_Text_DaphneIntro, SootopolisCity_Gym_B1F_Text_DaphneDefeat
+	msgbox SootopolisCity_Gym_B1F_Text_DaphnePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SootopolisCity_Gym_B1F_Text_AndreaIntro:
+	.string "让你看看我从馆主阿丹\n"
+	.string "那里学到的超凡技巧！$"
+
+SootopolisCity_Gym_B1F_Text_AndreaDefeat:
+	.string "阿丹，请原谅我……$"
+
+SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
+	.string "看看把地砖全部踩碎\n"
+	.string "会发生什么。$"
+
+SootopolisCity_Gym_B1F_Text_CrissyIntro:
+	.string "你大老远来了，可见不到\n"
+	.string "阿丹。\p"
+	.string "只要输给我，就见不到！$"
+
+SootopolisCity_Gym_B1F_Text_CrissyDefeat:
+	.string "你很强！\n"
+	.string "我被你可爱的外表骗了！$"
+
+SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
+	.string "你也许强得足以不被阿丹\n"
+	.string "一招打垮。$"
+
+SootopolisCity_Gym_B1F_Text_DaphneIntro:
+	.string "看阿丹指挥对战的样子……\p"
+	.string "那份美让我不由得\n"
+	.string "成为训练家。$"
+
+SootopolisCity_Gym_B1F_Text_DaphneDefeat:
+	.string "你打得比我更有\n"
+	.string "美感……$"
+
+SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
+	.string "你在对战中展现的优雅\n"
+	.string "真了不起。\p"
+	.string "哦……我真幸运\n"
+	.string "遇见了宝可梦。$"
+
+SootopolisCity_Gym_B1F_Text_ConnieIntro:
+	.string "我该教教你对战能\n"
+	.string "有多残酷。$"
+
+SootopolisCity_Gym_B1F_Text_ConnieDefeat:
+	.string "哦。\n"
+	.string "你很强。$"
+
+SootopolisCity_Gym_B1F_Text_ConniePostBattle:
+	.string "我告诉你个好消息。\p"
+	.string "想走到阿丹那儿，你得把\n"
+	.string "每块地砖都踩一次。$"
+
+SootopolisCity_Gym_B1F_Text_BridgetIntro:
+	.string "丰缘地区最高等级的\n"
+	.string "宝可梦道馆……\p"
+	.string "就是琉璃道馆。$"
+
+SootopolisCity_Gym_B1F_Text_BridgetDefeat:
+	.string "你的等级真高！$"
+
+SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
+	.string "与其满足于待在强道馆里，\n"
+	.string "我想去别的地方修行\l"
+	.string "会让人更强。\l"
+	.string "而且最重要的是，\l"
+	.string "看起来更好玩。$"
+
+SootopolisCity_Gym_B1F_Text_OliviaIntro:
+	.string "我和阿丹一起训练\n"
+	.string "宝可梦。\p"
+	.string "别以为我好欺负。$"
+
+SootopolisCity_Gym_B1F_Text_OliviaDefeat:
+	.string "我被打败了……$"
+
+SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
+	.string "我觉得你有潜力。\n"
+	.string "不如留下来\l"
+	.string "和我们一起训练？$"
+
+SootopolisCity_Gym_B1F_Text_TiffanyIntro:
+	.string "优雅地滑过冰面，\n"
+	.string "一条线都不压到……\p"
+	.string "做出那种表演的训练家，\n"
+	.string "一定优雅又美丽！$"
+
+SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
+	.string "哎呀，你说什么？！$"
+
+SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
+	.string "这很明显，但训练家\n"
+	.string "强弱和年龄大小\l"
+	.string "一点关系都没有。$"
+
+SootopolisCity_Gym_B1F_Text_BethanyIntro:
+	.string "和宝可梦在一起，时间\n"
+	.string "一眨眼就过去了，\l"
+	.string "喊一声“糟了”都来不及。$"
+
+SootopolisCity_Gym_B1F_Text_BethanyDefeat:
+	.string "糟了！$"
+
+SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
+	.string "真希望我在喊出“糟了”\n"
+	.string "之前，就能对\l"
+	.string "没希望的事死心。$"
+
+SootopolisCity_Gym_B1F_Text_AnnikaIntro:
+	.string "你想要的话，我可以\n"
+	.string "用很稀有的宝可梦\l"
+	.string "和你打。$"
+
+SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
+	.string "哎呀，好了！你好好看过\n"
+	.string "我的宝可梦了吗？$"
+
+SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
+	.string "我来这个道馆，是因为\n"
+	.string "阿丹夸我的宝可梦\l"
+	.string "可爱。\p"
+	.string "哦，要是我在年轻点时\n"
+	.string "就遇见阿丹就好了……$"
+
+SootopolisCity_Gym_B1F_Text_BriannaIntro:
+	.string "嘻嘻……\n"
+	.string "你严肃的样子真迷人。$"
+
+SootopolisCity_Gym_B1F_Text_BriannaDefeat:
+	.string "哦，天啊。\n"
+	.string "我对你太手下留情了。$"
+
+SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
+	.string "你肯定碰都碰不到\n"
+	.string "阿丹。嘻嘻……$"
+
+
+`

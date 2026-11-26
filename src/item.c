@@ -10,6 +10,7 @@
 #include "item_menu.h"
 #include "party_menu.h"
 #include "strings.h"
+#include "tx_registered_items_menu.h"
 #include "load_save.h"
 #include "item_use.h"
 #include "battle_pyramid.h"
@@ -20,6 +21,7 @@
 #include "constants/moves.h"
 #include "constants/item_effects.h"
 #include "constants/hold_effects.h"
+#include "data/text/item_descriptions.h"
 
 static bool8 CheckPyramidBagHasItem(u16 itemId, u16 count);
 static bool8 CheckPyramidBagHasSpace(u16 itemId, u16 count);
@@ -31,7 +33,7 @@ EWRAM_DATA struct BagPocket gBagPockets[POCKETS_COUNT] = {0};
 #include "data/pokemon/item_effects.h"
 #include "data/items.h"
 
-static u16 GetBagItemQuantity(u16 *quantity)
+u16 GetBagItemQuantity(u16 *quantity)
 {
     return gSaveBlock2Ptr->encryptionKey ^ *quantity;
 }
@@ -82,6 +84,9 @@ void SetBagItemsPointers(void)
 
     gBagPockets[BERRIES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Berries;
     gBagPockets[BERRIES_POCKET].capacity = BAG_BERRIES_COUNT;
+
+    gBagPockets[MEGA_STONES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_MegaStones;
+    gBagPockets[MEGA_STONES_POCKET].capacity = BAG_MEGA_STONES_COUNT;
 }
 
 u8 *CopyItemName(u16 itemId, u8 *dst)
@@ -456,6 +461,52 @@ bool8 CheckPCHasItem(u16 itemId, u16 count)
     return FALSE;
 }
 
+bool8 CheckPCHasSpace(u16 itemId, u16 count)
+{
+    u8 i;
+    u16 ownedCount = 0;
+
+    if (InBattlePyramid() || FlagGet(FLAG_STORING_ITEMS_IN_PYRAMID_BAG) == TRUE)
+    {
+        return FALSE;
+    }
+
+    for (i = 0; i < PC_ITEMS_COUNT; i++)  // Get owned count
+    {
+        if (gSaveBlock1Ptr->pcItems[i].itemId == itemId)
+            ownedCount = GetPCItemQuantity(&gSaveBlock1Ptr->pcItems[i].quantity);
+    }
+
+    if (ownedCount + count <= MAX_PC_ITEM_CAPACITY)  // If there's room in already existing slot
+    {
+        return TRUE;
+    }
+
+    // Check space in empty item slots
+    if (count > 0)
+    {
+        for (i = 0; i < PC_ITEMS_COUNT; i++)
+        {
+            if (gSaveBlock1Ptr->pcItems[i].itemId == ITEM_NONE)
+            {
+                if (count > PC_ITEMS_COUNT)
+                {
+                    count -= PC_ITEMS_COUNT;
+                }
+                else
+                {
+                    count = 0; //should be return TRUE, but that doesn't match
+                    break;
+                }
+            }
+        }
+        if (count > 0)
+            return FALSE; // No more item slots. The bag is full
+    }
+
+    return TRUE;
+}
+
 bool8 AddPCItem(u16 itemId, u16 count)
 {
     u8 i;
@@ -544,15 +595,21 @@ void CompactPCItems(void)
 
 void SwapRegisteredBike(void)
 {
-    switch (gSaveBlock1Ptr->registeredItem)
+    u8 pos_ACRO = TxRegItemsMenu_GetRegisteredItemIndex(ITEM_ACRO_BIKE);
+    u8 pos_MACH = TxRegItemsMenu_GetRegisteredItemIndex(ITEM_MACH_BIKE);
+    switch (gSaveBlock1Ptr->registeredItemSelect)
     {
     case ITEM_MACH_BIKE:
-        gSaveBlock1Ptr->registeredItem = ITEM_ACRO_BIKE;
+        gSaveBlock1Ptr->registeredItemSelect = ITEM_ACRO_BIKE;
         break;
     case ITEM_ACRO_BIKE:
-        gSaveBlock1Ptr->registeredItem = ITEM_MACH_BIKE;
+        gSaveBlock1Ptr->registeredItemSelect = ITEM_MACH_BIKE;
         break;
     }
+    if (pos_ACRO != 0xFF)
+        gSaveBlock1Ptr->registeredItems[pos_ACRO].itemId = ITEM_MACH_BIKE;
+    else if (pos_MACH != 0xFF)
+        gSaveBlock1Ptr->registeredItems[pos_MACH].itemId = ITEM_ACRO_BIKE;
 }
 
 u16 BagGetItemIdByPocketPosition(u8 pocketId, u16 pocketPos)

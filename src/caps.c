@@ -3,6 +3,7 @@
 #include "event_data.h"
 #include "caps.h"
 #include "pokemon.h"
+#include "pokemon_storage_system.h"
 
 
 u32 GetCurrentLevelCap(void)
@@ -10,14 +11,24 @@ u32 GetCurrentLevelCap(void)
     static const u32 sLevelCapFlagMap[][2] =
     {
         {FLAG_BADGE01_GET, 15},
-        {FLAG_BADGE02_GET, 19},
-        {FLAG_BADGE03_GET, 24},
-        {FLAG_BADGE04_GET, 29},
-        {FLAG_BADGE05_GET, 31},
-        {FLAG_BADGE06_GET, 33},
-        {FLAG_BADGE07_GET, 42},
-        {FLAG_BADGE08_GET, 46},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_DEFEATED_RIVAL_RUSTBORO, 20},
+        {FLAG_BADGE02_GET, 25},
+        {FLAG_HIDE_ROUTE_110_TEAM_AQUA, 30},
+        {FLAG_RIVAL_110,   32},
+        {FLAG_BADGE03_GET, 34},
+        {FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, 44},
+        {FLAG_BADGE04_GET, 47},
+        {FLAG_BEAT_TRICK_HOUSE_3, 56},
+        {FLAG_BADGE05_GET, 59},
+        {FLAG_RECEIVED_HM_FLY, 64},
+        {FLAG_BADGE06_GET, 68},
+        {FLAG_DAWN_LILYCOVE, 71},
+        {FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 74},
+        {FLAG_BADGE07_GET, 76},
+        {FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 80},
+        {FLAG_BADGE08_GET, 82},
+        {FLAG_DEFEATED_WALLY_VICTORY_ROAD, 84},
+        {FLAG_IS_CHAMPION, 85},
     };
 
     u32 i;
@@ -78,7 +89,7 @@ u32 GetSoftLevelCapExpValue(u32 level, u32 expValue)
     }
     else
     {
-       return expValue;
+        return expValue;
     }
 }
 
@@ -116,4 +127,42 @@ u32 GetCurrentEVCap(void)
     }
 
     return MAX_TOTAL_EVS;
+}
+
+void LevelBoxesToCap(void)
+{
+    u32 currentCap = GetCurrentLevelCap();
+    u32 species = 0;
+    u32 markings = 0;
+
+    for (u32 partyIndex = 0; partyIndex < PARTY_SIZE; partyIndex++)
+    {
+        struct Pokemon *mon = &gPlayerParty[partyIndex];
+        species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+        if (species != SPECIES_NONE && species != SPECIES_EGG)
+        {
+            u32 markings = GetMonData(mon, MON_DATA_MARKINGS);
+            if (markings == 0)
+            {
+                SetMonData(&gPlayerParty[partyIndex], MON_DATA_LEVEL, &currentCap);
+                SetMonData(&gPlayerParty[partyIndex], MON_DATA_EXP, &gExperienceTables[gSpeciesInfo[species].growthRate][currentCap]);
+                CalculateMonStats(&gPlayerParty[partyIndex]);
+            }
+        }
+    }
+    
+    for (u32 boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+    {
+        for (u32 boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++)
+        {
+            struct BoxPokemon *boxMon = &gPokemonStoragePtr->boxes[boxId][boxPosition];
+            species = GetBoxMonData(boxMon, MON_DATA_SPECIES);
+            if (species != SPECIES_NONE && species != SPECIES_EGG)
+            {
+                markings = GetBoxMonData(boxMon, MON_DATA_MARKINGS);
+                if (markings == 0)
+                    SetBoxMonData(boxMon, MON_DATA_EXP, &gExperienceTables[gSpeciesInfo[species].growthRate][currentCap]);
+            }
+        }
+    }
 }

@@ -1,53 +1,110 @@
+# 1 "data/maps/MauvilleCity_Mart/scripts.pory"
+
+# 2 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_MapScripts::
+# 3 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.byte 0
+# 4 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 5 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_EventScript_Clerk::
+# 6 "data/maps/MauvilleCity_Mart/scripts.pory"
 	lock
+# 7 "data/maps/MauvilleCity_Mart/scripts.pory"
 	faceplayer
+# 8 "data/maps/MauvilleCity_Mart/scripts.pory"
 	message gText_HowMayIServeYou
+# 9 "data/maps/MauvilleCity_Mart/scripts.pory"
 	waitmessage
+# 10 "data/maps/MauvilleCity_Mart/scripts.pory"
 	pokemart MauvilleCity_Mart_Pokemart
+# 11 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+# 12 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
+# 13 "data/maps/MauvilleCity_Mart/scripts.pory"
 	end
+# 14 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 15 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.align 2
+# 16 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_Pokemart:
+# 17 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_POKE_BALL
+# 18 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_GREAT_BALL
+# 19 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_SUPER_POTION
+# 20 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_ANTIDOTE
+# 21 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_PARALYZE_HEAL
+# 22 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_AWAKENING
+# 23 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_X_SPEED
+# 24 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_X_ATTACK
+# 25 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_X_DEFENSE
+# 26 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_DIRE_HIT
+# 27 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_X_ACCURACY
+# 28 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_SHED_SHELL
+# 29 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_LIGHT_CLAY
+# 30 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.2byte ITEM_FLOAT_STONE
+# 31 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.2byte ITEM_NONE
+# 32 "data/maps/MauvilleCity_Mart/scripts.pory"
 	release
+# 33 "data/maps/MauvilleCity_Mart/scripts.pory"
 	end
+# 34 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 35 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_EventScript_ExpertM::
+# 36 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats, MSGBOX_NPC
+# 37 "data/maps/MauvilleCity_Mart/scripts.pory"
 	end
+# 38 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 39 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_EventScript_Man::
+# 40 "data/maps/MauvilleCity_Mart/scripts.pory"
 	msgbox MauvilleCity_Mart_Text_DecisionsDetermineBattle, MSGBOX_NPC
+# 41 "data/maps/MauvilleCity_Mart/scripts.pory"
 	end
+# 42 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 43 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
-	.string "There are items that temporarily\n"
-	.string "elevate the stats of POKéMON.\p"
-	.string "The ones I know you use in battle\n"
-	.string "are X ATTACK and X DEFEND…\p"
-	.string "I do believe that there are others\n"
-	.string "like them.$"
+# 44 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "有些道具能暂时提升\n"
+# 45 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "宝可梦的能力。\p"
+# 46 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "我知道在战斗中能用的\n"
+# 47 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "有攻击强化和防御强化……\p"
+# 48 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "我相信还有别的\n"
+# 49 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "类似的东西。$"
+# 50 "data/maps/MauvilleCity_Mart/scripts.pory"
 
+# 51 "data/maps/MauvilleCity_Mart/scripts.pory"
 MauvilleCity_Mart_Text_DecisionsDetermineBattle:
-	.string "Use a certain move, or use an item\n"
-	.string "instead…\p"
-	.string "The TRAINER's decisions determine how\n"
-	.string "battles turn out, I think.$"
-
+# 52 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "是用某个招式，\n"
+# 53 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "还是用道具……\p"
+# 54 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "我觉得战斗的结果，\n"
+# 55 "data/maps/MauvilleCity_Mart/scripts.pory"
+	.string "就是由训练家的选择决定的。$"

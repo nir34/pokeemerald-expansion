@@ -85,7 +85,7 @@ static void Task_TryFieldPoisonWhiteOut(u8 taskId)
         tState = 2; // Finished checking party
         break;
     case 1:
-        // Wait for "{mon} fainted" message, then return to party loop
+        // Wait for "{mon}倒下了" message, then return to party loop
         if (IsFieldMessageBoxHidden())
             tState--;
         break;

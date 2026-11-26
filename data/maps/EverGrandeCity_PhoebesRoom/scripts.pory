@@ -1,0 +1,98 @@
+raw `
+EverGrandeCity_PhoebesRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_PhoebesRoom_OnFrame
+	.byte 0
+
+EverGrandeCity_PhoebesRoom_OnWarp:
+	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_PhoebesRoom_EventScript_PlayerTurnNorth
+	.2byte 0
+
+EverGrandeCity_PhoebesRoom_EventScript_PlayerTurnNorth::
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	end
+
+EverGrandeCity_PhoebesRoom_OnFrame:
+	map_script_2 VAR_ELITE_4_STATE, 1, EverGrandeCity_PhoebesRoom_EventScript_WalkInCloseDoor
+	.2byte 0
+
+EverGrandeCity_PhoebesRoom_EventScript_WalkInCloseDoor::
+	lockall
+	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setvar VAR_ELITE_4_STATE, 2
+	releaseall
+	end
+
+EverGrandeCity_PhoebesRoom_OnLoad:
+	call_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_ResetAdvanceToNextRoom
+	call_if_eq VAR_ELITE_4_STATE, 2, EverGrandeCity_PhoebesRoom_EventScript_CloseDoor
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_ResetAdvanceToNextRoom::
+	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
+	return
+
+EverGrandeCity_PhoebesRoom_EventScript_CloseDoor::
+	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	return
+
+EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	random 2
+	goto_if_eq VAR_RESULT, 0, EverGrandeCity_PhoebesRoom_EventScript_BattlePhoebe1
+	trainerbattle_no_intro TRAINER_PHOEBE2, EverGrandeCity_PhoebesRoom_Text_Defeat
+	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_BattlePhoebe1::
+	trainerbattle_no_intro TRAINER_PHOEBE1, EverGrandeCity_PhoebesRoom_Text_Defeat
+	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech::
+	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_Defeated::
+	setflag FLAG_DEFEATED_ELITE_4_PHOEBE
+	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
+	.string "啊哈哈哈！\p"
+	.string "我是四天王的芙蓉。\n"
+	.string "我在送神火山训练。\p"
+	.string "训练时，我获得了和\n"
+	.string "幽灵属性宝可梦\l"
+	.string "交流的能力。\p"
+	.string "可你知道我在训练中\n"
+	.string "还学到了什么吗？\p"
+	.string "我学到了毒属性和\n"
+	.string "幽灵属性有多互补！\p"
+	.string "想留在顶端，就得\n"
+	.string "调整自己的风格，\l"
+	.string "你不觉得吗？$"
+
+EverGrandeCity_PhoebesRoom_Text_Defeat:
+	.string "哦，糟了。\n"
+	.string "我输了。$"
+
+EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
+	.string "你和宝可梦之间也有一份\n"
+	.string "明确的羁绊。\p"
+	.string "我没看出来，输了\n"
+	.string "也是当然。\p"
+	.string "对，我想看看你们的\n"
+	.string "羁绊能带你走多远。\p"
+	.string "去吧，前往\n"
+	.string "下一个房间。$"
+
+`

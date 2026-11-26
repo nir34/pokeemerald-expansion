@@ -1,0 +1,1431 @@
+raw `
+.set LOCALID_LITTLE_BOY, 7
+.set LOCALID_LITTLE_GIRL, 8
+.set LOCALID_DEVON_EMPLOYEE, 9
+.set LOCALID_GRUNT, 10
+.set LOCALID_RIVAL, 14
+.set LOCALID_SCIENTIST, 15
+
+RustboroCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame
+	.byte 0
+
+
+RustboroCity_OnTransition:
+	setflag FLAG_VISITED_RUSTBORO_CITY
+	setrespawn HEAL_LOCATION_RUSTBORO_CITY
+	call Common_EventScript_SetupRivalGfxId
+	call_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_HideMapNamePopup
+	getplayerxy VAR_TEMP_0, VAR_TEMP_1
+	goto_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_PositionScientistForExit
+	end
+
+RustboroCity_EventScript_PositionScientistForExit::
+	goto_if_eq VAR_TEMP_0, 11, RustboroCity_EventScript_PositionScientistLeftExit
+	setobjectxyperm LOCALID_SCIENTIST, 12, 15
+	end
+
+RustboroCity_EventScript_PositionScientistLeftExit::
+	setobjectxyperm LOCALID_SCIENTIST, 11, 15
+	end
+
+RustboroCity_EventScript_HideMapNamePopup::
+	setflag FLAG_HIDE_MAP_NAME_POPUP
+	return
+
+RustboroCity_OnFrame:
+	map_script_2 VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_ScientistAddMatchCall
+	.2byte 0
+
+RustboroCity_EventScript_ScientistAddMatchCall::
+	lockall
+	setvar VAR_ROUTE104_STATE, 1
+	applymovement OBJ_EVENT_ID_PLAYER, RustboroCity_Movement_PlayerWalkDown
+	waitmovement 0
+	playse SE_EXIT
+	delay 10
+	addobject LOCALID_SCIENTIST
+	applymovement LOCALID_SCIENTIST, RustboroCity_Movement_ScientistApproachPlayer
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_SCIENTIST, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_SCIENTIST, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	applymovement LOCALID_SCIENTIST, RustboroCity_Movement_ScientistWalkInPlaceDown
+	waitmovement 0
+	msgbox RustboroCity_Text_DevelopedNewPokenavFeature, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_HAS_MATCH_CALL
+	applymovement LOCALID_SCIENTIST, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 10
+	playse SE_CLICK
+	delay 20
+	applymovement LOCALID_SCIENTIST, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox RustboroCity_Text_AddedMatchCallPleaseCallMrStone, MSGBOX_DEFAULT
+	closemessage
+	goto RustboroCity_EventScript_MatchCallTutorial
+
+RustboroCity_EventScript_PleaseSelectPokenav::
+	msgbox RustboroCity_Text_PleaseSelectPokenav, MSGBOX_DEFAULT
+	closemessage
+	delay 10
+	goto RustboroCity_EventScript_MatchCallTutorial
+
+RustboroCity_EventScript_MatchCallTutorial::
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	applymovement LOCALID_SCIENTIST, RustboroCity_Movement_ScientistLeave
+	waitmovement 0
+	playse SE_EXIT
+	removeobject LOCALID_SCIENTIST
+	setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+	setvar VAR_RUSTBORO_CITY_STATE, 7
+	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	releaseall
+	end
+
+RustboroCity_Movement_ScientistWalkInPlaceDown:
+	walk_in_place_down
+	step_end
+
+RustboroCity_Movement_PlayerWalkDown:
+	walk_down
+	step_end
+
+RustboroCity_Movement_ScientistApproachPlayer:
+	walk_down
+	delay_16
+	step_end
+
+@ Unused
+RustboroCity_Movement_ScientistWalkAroundPlayer:
+	delay_16
+	walk_left
+	walk_down
+	walk_down
+	walk_right
+	walk_in_place_faster_up
+	delay_16
+	step_end
+
+RustboroCity_Movement_ScientistLeave:
+	walk_up
+	step_end
+
+RustboroCity_EventScript_FatMan::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_EventScript_FatManSawGrunt
+	msgbox RustboroCity_Text_WeShortenItToDevon, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_FatManSawGrunt::
+	msgbox RustboroCity_Text_SneakyLookingManWentAroundCorner, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_DevonEmployee2::
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_YoureNewAroundHere, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_Woman::
+	msgbox RustboroCity_Text_GymLeaderIsntEasyWithFire, MSGBOX_NPC
+	end
+
+RustboroCity_EventScript_Man1::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE01_GET, RustboroCity_EventScript_Man1HaveBadge
+	msgbox RustboroCity_Text_HaveYouChallengedGym, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_Man1HaveBadge::
+	msgbox RustboroCity_Text_HeyThatsRustborosGymBadge, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_Boy2::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_POKENAV, RustboroCity_EventScript_Boy2BrineyLeftTunnel
+	msgbox RustboroCity_Text_MrBrineyWalksInTheTunnel, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_Boy2BrineyLeftTunnel::
+	msgbox RustboroCity_Text_MrBrineyLovesPeeko, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_Twin::
+	msgbox RustboroCity_Text_WowYouHavePokemon, MSGBOX_NPC
+	end
+
+RustboroCity_EventScript_NinjaBoy::
+	msgbox RustboroCity_Text_CatchRarePokemonIfIGoToSchool, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_TunnelSign::
+	msgbox RustboroCity_Text_TunnelNearingCompletion, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_DevonCorpSign::
+	msgbox RustboroCity_Text_DevonCorpSign, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_GymSign::
+	msgbox RustboroCity_Text_GymSign, MSGBOX_SIGN
+	end
+
+@ Unused
+RustboroCity_EventScript_DevonCorpBranchOfficeSign::
+	msgbox RustboroCity_Text_DevonCorpBranchOfficeSign, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_CitySign::
+	msgbox RustboroCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_TrainersSchoolSign::
+	msgbox RustboroCity_Text_TrainersSchoolSign, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_CuttersHouseSign::
+	msgbox RustboroCity_Text_CuttersHouse, MSGBOX_SIGN
+	end
+
+RustboroCity_EventScript_LittleBoy::
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_PokemonCanChangeLookFromExp, MSGBOX_DEFAULT
+	applymovement LOCALID_LITTLE_BOY, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+RustboroCity_EventScript_LittleGirl::
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_PokemonChangeShape, MSGBOX_DEFAULT
+	applymovement LOCALID_LITTLE_GIRL, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+RustboroCity_EventScript_Man2::
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_TradePokemonGrowFast, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_StolenGoodsTrigger0::
+	lockall
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 14, 21
+	setobjectmovementtype LOCALID_DEVON_EMPLOYEE, MOVEMENT_TYPE_FACE_RIGHT
+	setvar VAR_0x8004, 0
+	goto RustboroCity_EventScript_StolenGoodsScene
+	end
+
+RustboroCity_EventScript_StolenGoodsTrigger1::
+	lockall
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 14, 21
+	setobjectmovementtype LOCALID_DEVON_EMPLOYEE, MOVEMENT_TYPE_FACE_RIGHT
+	setvar VAR_0x8004, 1
+	goto RustboroCity_EventScript_StolenGoodsScene
+	end
+
+RustboroCity_EventScript_StolenGoodsTrigger2::
+	lockall
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 14, 21
+	setobjectmovementtype LOCALID_DEVON_EMPLOYEE, MOVEMENT_TYPE_FACE_RIGHT
+	setvar VAR_0x8004, 2
+	goto RustboroCity_EventScript_StolenGoodsScene
+	end
+
+RustboroCity_EventScript_StolenGoodsTrigger3::
+	lockall
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 14, 21
+	setobjectmovementtype LOCALID_DEVON_EMPLOYEE, MOVEMENT_TYPE_FACE_RIGHT
+	setvar VAR_0x8004, 3
+	goto RustboroCity_EventScript_StolenGoodsScene
+	end
+
+RustboroCity_EventScript_StolenGoodsTrigger4::
+	lockall
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 14, 21
+	setobjectmovementtype LOCALID_DEVON_EMPLOYEE, MOVEMENT_TYPE_FACE_RIGHT
+	setvar VAR_0x8004, 4
+	goto RustboroCity_EventScript_StolenGoodsScene
+	end
+
+RustboroCity_EventScript_StolenGoodsScene::
+	msgbox RustboroCity_Text_OutOfTheWay, MSGBOX_DEFAULT
+	closemessage
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	addobject LOCALID_GRUNT
+	addobject LOCALID_DEVON_EMPLOYEE
+	applymovement LOCALID_GRUNT, RustboroCity_Movement_GruntEscape
+	waitmovement 0
+	removeobject LOCALID_GRUNT
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeChaseGrunt1
+	waitmovement 0
+	msgbox RustboroCity_Text_WaitDontTakeMyGoods, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeChaseGrunt2
+	waitmovement 0
+	fadedefaultbgm
+	removeobject LOCALID_DEVON_EMPLOYEE
+	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 30, 10
+	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	setflag FLAG_DEVON_GOODS_STOLEN
+	setvar VAR_RUSTBORO_CITY_STATE, 2
+	setvar VAR_RUSTURF_TUNNEL_STATE, 2
+	setvar VAR_ROUTE116_STATE, 1
+	clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+	clearflag FLAG_HIDE_RUSTURF_TUNNEL_PEEKO
+	clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	releaseall
+	end
+
+@ Unused
+RustboroCity_EventScript_ShadyCharacterTookOff::
+	msgbox RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT
+	return
+
+@ Unused
+RustboroCity_EventScript_YouGotItThankYou::
+	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
+	return
+
+@ Unknown, unused employee movements. Based on the differences in movement theyre for approaching an object (probably the player) in different positions
+RustboroCity_EventScript_EmployeeApproachUp::
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachUp
+	waitmovement 0
+	return
+
+@ Unused, see above
+RustboroCity_EventScript_EmployeeApproachLeft::
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachLeft
+	waitmovement 0
+	return
+
+@ Unused, see above
+RustboroCity_EventScript_EmployeeApproachRight::
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachRight
+	waitmovement 0
+	return
+
+@ Unused, see above
+RustboroCity_EventScript_EmployeeApproachDown::
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachDown
+	waitmovement 0
+	return
+
+@ Unused, similar movement to the above scripts
+RustboroCity_EventScript_EmployeeApproachPlayerFar::
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachPlayerFar
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+@ Unused
+RustboroCity_Movement_GruntEscapeExtended:
+	walk_faster_right
+	walk_faster_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+RustboroCity_Movement_GruntEscape:
+	walk_faster_right
+	walk_faster_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+RustboroCity_Movement_EmployeeChaseGrunt1:
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_in_place_faster_up
+	step_end
+
+RustboroCity_Movement_EmployeeChaseGrunt2:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+@ Functionally unused
+RustboroCity_Movement_EmployeeApproachUp:
+	walk_down
+	walk_right
+	walk_right
+	step_end
+
+@ Functionally unused
+RustboroCity_Movement_EmployeeApproachLeft:
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	step_end
+
+@ Functionally unused
+RustboroCity_Movement_EmployeeApproachRight:
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	step_end
+
+@ Functionally unused
+RustboroCity_Movement_EmployeeApproachDown:
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	step_end
+
+@ Functionally unused
+RustboroCity_Movement_EmployeeApproachPlayerFar:
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_in_place_faster_down
+	step_end
+
+RustboroCity_EventScript_DevonEmployee1::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_EventScript_ReturnGoodsSpokeToEmployee
+	msgbox RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_ReturnGoodsSpokeToEmployee::
+	waitse
+	setvar VAR_TEMP_1, 4
+	goto RustboroCity_EventScript_ReturnGoods
+	end
+
+RustboroCity_EventScript_HelpGetGoodsTrigger0::
+	lockall
+	setvar VAR_TEMP_1, 0
+	goto RustboroCity_EventScript_EmployeeAskToGetGoods
+	end
+
+RustboroCity_EventScript_HelpGetGoodsTrigger1::
+	lockall
+	setvar VAR_TEMP_1, 1
+	goto RustboroCity_EventScript_EmployeeAskToGetGoods
+	end
+
+RustboroCity_EventScript_HelpGetGoodsTrigger2::
+	lockall
+	setvar VAR_TEMP_1, 2
+	goto RustboroCity_EventScript_EmployeeAskToGetGoods
+	end
+
+RustboroCity_EventScript_HelpGetGoodsTrigger3::
+	lockall
+	setvar VAR_TEMP_1, 3
+	goto RustboroCity_EventScript_EmployeeAskToGetGoods
+	end
+
+RustboroCity_EventScript_EmployeeAskToGetGoods::
+	call_if_eq VAR_TEMP_1, 0, RustboroCity_EventScript_EmployeeFacePlayerUp1
+	call_if_eq VAR_TEMP_1, 1, RustboroCity_EventScript_EmployeeFacePlayerLeft1
+	call_if_eq VAR_TEMP_1, 2, RustboroCity_EventScript_EmployeeFacePlayerDown1
+	call_if_eq VAR_TEMP_1, 3, RustboroCity_EventScript_EmployeeApproachPlayerDown1
+	setflag FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN
+	setvar VAR_RUSTBORO_CITY_STATE, 3
+	copyobjectxytoperm LOCALID_DEVON_EMPLOYEE
+	msgbox RustboroCity_Text_HelpMeIWasRobbed, MSGBOX_DEFAULT
+	releaseall
+	end
+
+@ The below movement scripts are either partially or fully duplicated by the movement scripts when the player returns the goods
+RustboroCity_EventScript_EmployeeFacePlayerUp1::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerLeft1::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerDown1::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeApproachPlayerDown1::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachPlayerDown
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+RustboroCity_Movement_EmployeeApproachPlayerDown:
+	walk_down
+	step_end
+
+RustboroCity_EventScript_ReturnGoodsTrigger0::
+	lockall
+	setvar VAR_TEMP_1, 0
+	goto RustboroCity_EventScript_ReturnGoods
+	end
+
+RustboroCity_EventScript_ReturnGoodsTrigger1::
+	lockall
+	setvar VAR_TEMP_1, 1
+	goto RustboroCity_EventScript_ReturnGoods
+	end
+
+RustboroCity_EventScript_ReturnGoodsTrigger2::
+	lockall
+	setvar VAR_TEMP_1, 2
+	goto RustboroCity_EventScript_ReturnGoods
+	end
+
+RustboroCity_EventScript_ReturnGoodsTrigger3::
+	lockall
+	setvar VAR_TEMP_1, 3
+	goto RustboroCity_EventScript_ReturnGoods
+	end
+
+RustboroCity_EventScript_ReturnGoods::
+	call_if_eq VAR_TEMP_1, 0, RustboroCity_EventScript_EmployeeFacePlayerUp2
+	call_if_eq VAR_TEMP_1, 1, RustboroCity_EventScript_EmployeeFacePlayerLeft2
+	call_if_eq VAR_TEMP_1, 2, RustboroCity_EventScript_EmployeeFacePlayerDown2
+	call_if_eq VAR_TEMP_1, 3, RustboroCity_EventScript_EmployeeApproachPlayerDown2
+	call_if_eq VAR_TEMP_1, 4, RustboroCity_EventScript_EmployeeFacePlayerRight
+	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
+	giveitem ITEM_GREAT_BALL
+	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
+	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_RETURNED_DEVON_GOODS
+	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	setvar VAR_RUSTBORO_CITY_STATE, 5
+	delay 30
+	warp MAP_RUSTBORO_CITY_DEVON_CORP_3F, 2, 2
+	waitstate
+	releaseall
+	end
+
+RustboroCity_EventScript_BagFull::
+	msgbox RustboroCity_Text_YoureLoadedWithItems, MSGBOX_DEFAULT
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerUp2::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerLeft2::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerDown2::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeApproachPlayerDown2::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, RustboroCity_Movement_EmployeeApproachPlayerDown
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_EmployeeFacePlayerRight::
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_Delay48
+	waitmovement 0
+	return
+
+RustboroCity_EventScript_Rival::
+	lockall
+	call_if_unset FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_PlayRivalMusic::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_PlayMayMusic
+	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_PlayBrendanMusic
+	return
+
+RustboroCity_EventScript_PlayMayMusic::
+	playbgm MUS_ENCOUNTER_MAY, TRUE
+	return
+
+RustboroCity_EventScript_PlayBrendanMusic::
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
+	return
+
+RustboroCity_EventScript_RivalTrigger0::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer0
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger1::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer1
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger2::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer2
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger3::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer3
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger4::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer4
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger5::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer5
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger6::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer6
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalTrigger7::
+	lockall
+	call RustboroCity_EventScript_PlayRivalMusic
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_RIVAL, RustboroCity_Movement_RivalApproachPlayer7
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	goto RustboroCity_EventScript_RivalEncounter
+
+RustboroCity_EventScript_RivalEncounter::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_MayEncounter
+	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_BrendanEncounter
+	end
+
+RustboroCity_EventScript_MayEncounter::
+	goto_if_set FLAG_DEFEATED_RIVAL_RUSTBORO, RustboroCity_EventScript_MayBrineyHint
+	goto_if_set FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_MayAskToBattle
+	setflag FLAG_MET_RIVAL_RUSTBORO
+	msgbox RustboroCity_Text_MayHiLetsRegister, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox RustboroCity_Text_RegisteredMay, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
+	setvar VAR_0x8008, 0
+	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
+	goto_if_eq VAR_RESULT, NO, RustboroCity_EventScript_BattleMay2
+	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	call RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_MayAskToBattle::
+	setvar VAR_0x8008, 1
+	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
+	goto_if_eq VAR_RESULT, NO, RustboroCity_EventScript_BattleMay2
+	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	releaseall
+	end
+
+RustboroCity_EventScript_BattleMay::
+	msgbox RustboroCity_Text_MayImNotGoingToLose, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, RustboroCity_EventScript_BattleMayTreecko
+	case 1, RustboroCity_EventScript_BattleMayTorchic
+	case 2, RustboroCity_EventScript_BattleMayMudkip
+	end
+
+RustboroCity_EventScript_BattleMay2::
+	msgbox RustboroCity_Text_TooBad, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, RustboroCity_EventScript_BattleMayTreecko
+	case 1, RustboroCity_EventScript_BattleMayTorchic
+	case 2, RustboroCity_EventScript_BattleMayMudkip
+	end
+
+RustboroCity_EventScript_MayBrineyHint::
+	msgbox RustboroCity_Text_MayMrBrineyHint, MSGBOX_DEFAULT
+	call_if_eq VAR_0x8008, 0, RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_MayBrineyHintWithLevelCapMessage::
+    msgbox RustboroCity_Text_RivalExplainFlyFromPokeNav
+	msgbox RustboroCity_Text_MayMrBrineyHint, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	call_if_eq VAR_0x8008, 0, RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_RestoreBgm::
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	return
+
+RustboroCity_EventScript_BattleMayTreecko::
+	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, RustboroCity_Text_MayDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_MayBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_EventScript_BattleMayTorchic::
+	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, RustboroCity_Text_MayDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_MayBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_EventScript_BattleMayMudkip::
+	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, RustboroCity_Text_MayDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_MayBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_EventScript_BrendanEncounter::
+	goto_if_set FLAG_DEFEATED_RIVAL_RUSTBORO, RustboroCity_EventScript_BrendanBrineyHint
+	goto_if_set FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_BrendanAskToBattle
+	setflag FLAG_MET_RIVAL_RUSTBORO
+	msgbox RustboroCity_Text_BrendanHiLetsRegister, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox RustboroCity_Text_RegisteredBrendan, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
+	setvar VAR_0x8008, 0
+	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
+	goto_if_eq VAR_RESULT, NO, RustboroCity_EventScript_BattleBrendan2
+	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	call RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_BrendanAskToBattle::
+	setvar VAR_0x8008, 1
+	msgbox RustboroCity_Text_BrendanWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
+	goto_if_eq VAR_RESULT, NO, RustboroCity_EventScript_BattleBrendan2
+	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	releaseall
+	end
+
+RustboroCity_EventScript_BattleBrendan::
+	msgbox RustboroCity_Text_BrendanIWontGoEasy, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, RustboroCity_EventScript_BattleBrendanTreecko
+	case 1, RustboroCity_EventScript_BattleBrendanTorchic
+	case 2, RustboroCity_EventScript_BattleBrendanMudkip
+	end
+
+RustboroCity_EventScript_BattleBrendan2::
+	msgbox RustboroCity_Text_TooBad, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, RustboroCity_EventScript_BattleBrendanTreecko
+	case 1, RustboroCity_EventScript_BattleBrendanTorchic
+	case 2, RustboroCity_EventScript_BattleBrendanMudkip
+	end
+
+RustboroCity_EventScript_BrendanBrineyHint::
+	msgbox RustboroCity_Text_BrendanMrBrineyHint, MSGBOX_DEFAULT
+	call_if_eq VAR_0x8008, 0, RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_BrendanBrineyHintWithLevelCapMessage::
+	msgbox RustboroCity_Text_RivalExplainFlyFromPokeNav, MSGBOX_DEFAULT
+	msgbox RustboroCity_Text_BrendanMrBrineyHint, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	call_if_eq VAR_0x8008, 0, RustboroCity_EventScript_RestoreBgm
+	releaseall
+	end
+
+RustboroCity_EventScript_BattleBrendanTreecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, RustboroCity_Text_BrendanDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_BrendanBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_EventScript_BattleBrendanTorchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, RustboroCity_Text_BrendanDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_BrendanBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_EventScript_BattleBrendanMudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, RustboroCity_Text_BrendanDefeat
+	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	setvar VAR_RUSTBORO_CITY_STATE, 8
+	setvar VAR_ROUTE104_STATE, 2
+	setvar VAR_BRINEY_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setvar VAR_BRINEY_LOCATION, 1
+	goto RustboroCity_EventScript_BrendanBrineyHintWithLevelCapMessage
+	end
+
+RustboroCity_Movement_RivalApproachPlayer0:
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer1:
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer2:
+	walk_down
+	walk_left
+	walk_left
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer3:
+	walk_down
+	walk_left
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer4:
+	walk_down
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer5:
+	walk_down
+	walk_right
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer6:
+	walk_down
+	walk_right
+	walk_right
+	walk_down
+	step_end
+
+RustboroCity_Movement_RivalApproachPlayer7:
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	step_end
+
+RustboroCity_EventScript_Boy1::
+	msgbox RustboroCity_Text_YouCanHave2On2Battle, MSGBOX_NPC
+	end
+
+RustboroCity_MiniMarket_EventScript_Saleswoman::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart RustboroCity_MiniMart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+RustboroCity_MiniMart:
+	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_NONE
+	release
+	end
+
+RustboroCity_Text_WeShortenItToDevon:
+	.string "得文公司……\n"
+	.string "我们都简称它得文。\p"
+	.string "这家公司制造各种\n"
+	.string "方便的产品。$"
+
+RustboroCity_Text_SneakyLookingManWentAroundCorner:
+	.string "嗯？鬼鬼祟祟的人？\p"
+	.string "说起来确实有，一个形迹\n"
+	.string "可疑的家伙转过了街角。$"
+
+RustboroCity_Text_HaveYouChallengedGym:
+	.string "你挑战过宝可梦道馆了吗？\p"
+	.string "等你拿到了闪闪发亮的徽章，\n"
+	.string "训练家大概就会明白\l"
+	.string "自己该做些什么了。$"
+
+RustboroCity_Text_HeyThatsRustborosGymBadge:
+	.string "嘿，那是卡那兹道馆的徽章！\p"
+	.string "要说所有道馆徽章里，\n"
+	.string "卡那兹的最帅了。$"
+
+RustboroCity_Text_YoureNewAroundHere:
+	.string "哦？你是哪位？\n"
+	.string "在这附近没见过你。\p"
+	.string "你是刚转学来\n"
+	.string "宝可梦训练家学校的吗？$"
+
+RustboroCity_Text_GymLeaderIsntEasyWithFire:
+	.string "我挑战了道馆馆主，可是……\p"
+	.string "用我的火属性宝可梦\n"
+	.string "想赢可不容易……\p"
+	.string "火属性对岩石属性\n"
+	.string "可不占优势……$"
+
+RustboroCity_Text_MrBrineyWalksInTheTunnel:
+	.string "老船员布林尼先生住在\n"
+	.string "海边的屋子里。\p"
+	.string "他时不时会到隧道里\n"
+	.string "散散步。$"
+
+RustboroCity_Text_MrBrineyLovesPeeko:
+	.string "老船员布林尼先生住在\n"
+	.string "海边的屋子里。\p"
+	.string "他说要去凯那市\n"
+	.string "给他的皮皮买点东西。\p"
+	.string "这个老水手，一定\n"
+	.string "很喜欢那只皮皮。$"
+
+RustboroCity_Text_WowYouHavePokemon:
+	.string "哇，你也带着宝可梦啊。\p"
+	.string "等我长大了，也要\n"
+	.string "和宝可梦一起去旅行。$"
+
+RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
+	.string "宝可梦训练家学校！\p"
+	.string "我要是上了这所学校，\n"
+	.string "是不是就能轻松抓到\l"
+	.string "稀有的宝可梦了？$"
+
+RustboroCity_Text_PokemonCanChangeLookFromExp:
+	.string "宝可梦在对战中积累经验，\n"
+	.string "有时候外形也会\l"
+	.string "发生变化。$"
+
+RustboroCity_Text_PokemonChangeShape:
+	.string "宝可梦会改变外形？\n"
+	.string "要是真那样，\l"
+	.string "我会吓一跳的！$"
+
+RustboroCity_Text_TradePokemonGrowFast:
+	.string "从别人那里交换来的\n"
+	.string "宝可梦长得很快。\p"
+	.string "但如果没有特定的\l"
+	.string "道馆徽章，它可能\l"
+	.string "不会听你的话……$"
+
+RustboroCity_Text_OutOfTheWay:
+	.string "让开！\n"
+	.string "别挡道！$"
+
+RustboroCity_Text_WaitDontTakeMyGoods:
+	.string "等等！求求你了！\p"
+	.string "别抢走我的货！$"
+
+RustboroCity_Text_HelpMeIWasRobbed:
+	.string "哦，是你！\p"
+	.string "你就是那位在橙华森林\n"
+	.string "帮了我的训练家！\p"
+	.string "救命！我被水舰队抢了！\n"
+	.string "我得把得文的货物拿回来！\p"
+	.string "要是拿不回来……\n"
+	.string "我可就闯大祸了。$"
+
+RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
+	.string "那个形迹可疑的家伙，\n"
+	.string "好像是往那边的隧道\l"
+	.string "跑掉了。$"
+
+RustboroCity_Text_YouGotItThankYou:
+	.string "哦！怎么样了？\n"
+	.string "得文的货物呢？\p"
+	.string "你拿到了！\n"
+	.string "你把它拿回来了！\p"
+	.string "你真是位了不起的训练家！\p"
+	.string "对了！作为谢礼，\n"
+	.string "再送你一个超级球！$"
+
+RustboroCity_Text_YoureLoadedWithItems:
+	.string "你身上带的东西太多了。\n"
+	.string "这个超级球没法给你。$"
+
+RustboroCity_Text_PleaseComeWithMe:
+	.string "打扰一下，请！\n"
+	.string "请跟我来！$"
+
+RustboroCity_Text_MayHiLetsRegister:
+	.string "小遥：哦，你好，{PLAYER}！\p"
+	.string "你的导航装了\n"
+	.string "宝可梦对话功能！\p"
+	.string "我们互相登录一下，\n"
+	.string "随时都能联系！\p"
+	.string "… … … … … …$"
+
+RustboroCity_Text_RegisteredMay:
+	.string "在宝可梦导航里\n"
+	.string "登录了小遥。$"
+
+RustboroCity_Text_MayPassedBrineyWantToBattle:
+	.string "小遥：对了，\n"
+	.string "我刚才在橙华森林\l"
+	.string "碰见了布林尼先生。\p"
+	.string "他大概是要回海边的\n"
+	.string "小屋去吧。\p"
+	.string "{PLAYER}，你的图鉴\n"
+	.string "进展怎么样？\l"
+	.string "我的看起来还不错哦！\p"
+	.string "那么……\n"
+	.string "要不要来对战一场？$"
+
+RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
+	.string "小遥：哦，怎么了？\p"
+	.string "你还没怎么抓过\n"
+	.string "或培养过宝可梦吗？\p"
+	.string "这样可不像个训练家哦！$"
+
+RustboroCity_Text_MayWantToBattle:
+	.string "小遥：怎么样？\n"
+	.string "要不要在这里对战一场？$"
+
+RustboroCity_Text_MayImNotGoingToLose:
+	.string "小遥：你才刚当上训练家，\n"
+	.string "{PLAYER}。我可不会输！$"
+
+RustboroCity_Text_TooBad:
+	.string "真可惜！$"
+
+RustboroCity_Text_MayDefeat:
+	.string "哎呀！\n"
+	.string "你比我想的厉害多了！$"
+
+RustboroCity_Text_MayMrBrineyHint:
+	.string "小遥：对了，刚才\n"
+	.string "我碰到的布林尼先生……\p"
+	.string "{PLAYER}，你刚搬来，可能\n"
+	.string "不知道，布林尼先生以前\l"
+	.string "可是位受人尊敬的老船员。$"
+
+RustboroCity_Text_BrendanHiLetsRegister:
+	.string "佑树：哦，嘿，{PLAYER}！\p"
+	.string "你的导航装了\n"
+	.string "宝可梦对话功能！真不错！\p"
+	.string "我们互相登录一下，\n"
+	.string "随时都能联系！\p"
+	.string "… … … … … …$"
+
+RustboroCity_Text_RegisteredBrendan:
+	.string "在宝可梦导航里\n"
+	.string "登录了佑树。$"
+
+RustboroCity_Text_BrendanPassedBrineyWantToBattle:
+	.string "佑树：对了，{PLAYER}，\n"
+	.string "我在橙华森林\l"
+	.string "路过布林尼先生身边。\p"
+	.string "他一定是回海边的\n"
+	.string "小屋去了。\p"
+	.string "{PLAYER}，你的图鉴呢？\n"
+	.string "填上新的页数了吗？\p"
+	.string "我的可厉害了。\p"
+	.string "想不想对战一场，\n"
+	.string "看看你进步了多少？$"
+
+RustboroCity_Text_BrendanNoConfidenceInPokemon:
+	.string "佑树：怎么了？\n"
+	.string "对自己的宝可梦没信心吗？$"
+
+RustboroCity_Text_BrendanWantToBattle:
+	.string "佑树：怎么了？\n"
+	.string "要和我对战一场吗？$"
+
+RustboroCity_Text_BrendanIWontGoEasy:
+	.string "佑树：我知道你才刚当上\n"
+	.string "训练家，但我不会放水！$"
+
+RustboroCity_Text_BrendanDefeat:
+	.string "嗯……\n"
+	.string "你还挺厉害的。$"
+
+RustboroCity_Text_BrendanMrBrineyHint:
+	.string "佑树：对了，你知道\n"
+	.string "刚才我路过的布林尼先生吗？\p"
+	.string "你刚搬来，{PLAYER}，\n"
+	.string "大概不知道吧，\l"
+	.string "布林尼先生以前是\l"
+	.string "位了不起的老船员。$"
+
+RustboroCity_Text_RivalExplainFlyFromPokeNav:
+	.string "对了，{PLAYER}，你看看\n"
+	.string "你的导航能加的新功能。\l"
+	.string "借我用一下。\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "好了！这是得文公司的\n"
+	.string "开发员教我的。\p"
+	.string "我刚在你的导航里装了\n"
+	.string "新功能，只要看着地图，\l"
+	.string "就能飞到以前去过的地方！\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}在导航地图上把光标移\n"
+	.string "到你去过的城镇，\l"
+	.string "就会看到按“R”键\l"
+	.string "飞过去的选项。{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n"
+	.string "很酷吧？$"
+
+RustboroCity_Text_TunnelNearingCompletion:
+	.string "“省时隧道即将\n"
+	.string "完工！”\p"
+	.string "……牌子上这么写着，\n"
+	.string "不过上面还被人用红漆\l"
+	.string "画了个大大的“X”……$"
+
+RustboroCity_Text_DevonCorpSign:
+	.string "得文公司\p"
+	.string "“为了生活所需，\n"
+	.string "我们什么都制造。”$"
+
+RustboroCity_Text_GymSign:
+	.string "卡那兹市宝可梦道馆\n"
+	.string "馆主：杜娟\p"
+	.string "“热爱岩石的优等生！”$"
+
+RustboroCity_Text_DevonCorpBranchOfficeSign:
+	.string "得文公司分公司\p"
+	.string "“仅限得文员工\n"
+	.string "及相关人员进入。”$"
+
+RustboroCity_Text_CitySign:
+	.string "卡那兹市\p"
+	.string "“探寻自然与科学\n"
+	.string "融合之道的城市。”$"
+
+RustboroCity_Text_TrainersSchoolSign:
+	.string "宝可梦训练家学校\p"
+	.string "“宝可梦的事，\n"
+	.string "我们什么都教！”$"
+
+RustboroCity_Text_CuttersHouse:
+	.string "樵夫之家$"
+
+RustboroCity_Text_DevelopedNewPokenavFeature:
+	.string "我一直在给宝可梦导航\n"
+	.string "开发新功能……\p"
+	.string "结果做得非常成功！\p"
+	.string "{PLAYER}，能让我看看\n"
+	.string "你的导航吗？\l"
+	.string "就是社长给你的那台。$"
+
+RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
+	.string "好了，{PLAYER}！\p"
+	.string "我在你的导航里加了个\n"
+	.string "叫宝可梦对话的新功能。\p"
+	.string "用宝可梦对话，\n"
+	.string "就能和在导航里登录过的人\l"
+	.string "聊天。\p"
+	.string "好，我该回去工作了。\n"
+	.string "你多保重，{PLAYER}！$"
+
+RustboroCity_Text_PleaseSelectPokenav:
+	.string "请选择宝可梦导航。$"
+
+RustboroCity_Text_YouCanHave2On2Battle:
+	.string "你知道吗？\p"
+	.string "就算没有别的训练家，\n"
+	.string "也能进行二对二的战斗。\p"
+	.string "带着两只以上宝可梦时，\n"
+	.string "如果被两个训练家看见，\l"
+	.string "他们就会一起挑战你。\p"
+	.string "一个人打赢两个训练家，\n"
+	.string "不觉得很酷吗？$"
+`
+
+script RustboroCity_Trigger_BlockGymEntrance{
+	lockall
+	msgbox(GoBeatRoark, MSGBOX_SIGN)
+	waitmessage
+	applymovement(OBJ_EVENT_ID_PLAYER, StopPlayer)
+	waitmovement(0)
+	releaseall
+	end
+}
+
+text GoBeatRoark{
+	"你该去看看还有没有\n"
+	"其他强手可以打，\l"
+	"也许116号道路最东边有。"
+}
+
+movement StopPlayer {
+	walk_down
+}

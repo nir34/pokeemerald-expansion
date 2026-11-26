@@ -121,6 +121,7 @@
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
 #define METATILE_Cave_EntranceCover                      0x229
+#define METATILE_Cave_NormalFloor                        0x201
 #define METATILE_Cave_SealedChamberBraille_Mid           0x235
 #define METATILE_Cave_SealedChamberEntrance_BottomLeft   0x232
 #define METATILE_Cave_SealedChamberEntrance_BottomMid    0x233
@@ -380,6 +381,8 @@
 #define METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight  0x253
 #define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom   0x261
 #define METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop      0x259
+#define METATILE_Pacifidlog_SkyPillar_CloseOpen_Bottom         0x2CA
+#define METATILE_Pacifidlog_SkyPillar_CloseOpen_Top            0x2C2
 #define METATILE_Pacifidlog_SkyPillar_CrackedFloor_Hole        0x237
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Bottom          0x2B2
 #define METATILE_Pacifidlog_SkyPillar_DoorOpen_Top             0x2AA
@@ -774,12 +777,16 @@
 #define METATILE_TrickHousePuzzle_RedDoorV_Open1              0x242
 #define METATILE_TrickHousePuzzle_RedDoorV_Retracted          0x24A
 #define METATILE_TrickHousePuzzle_Stairs_Down                 0x20B
+#define METATILE_TrickHousePuzzle_TrickHouseEncounterTile     0x28F
 
 // gTileset_Underwater
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
 
 // Other
+#define METATILE_BuildingNormalFloor           0x225
+#define METATILE_BuildingWarpLeft              0x216
+#define METATILE_BuildingWarpRight             0x217
 #define METATILE_RSMossdeepGym_RedArrow_Down   0x205
 #define METATILE_RSMossdeepGym_RedArrow_Left   0x20C
 #define METATILE_RSMossdeepGym_RedArrow_Right  0x204

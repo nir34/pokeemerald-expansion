@@ -1,0 +1,145 @@
+raw `
+.set LOCALID_DOCK, 1
+
+SlateportCity_SternsShipyard_1F_MapScripts::
+	.byte 0
+
+SlateportCity_SternsShipyard_1F_EventScript_Dock::
+	lockall
+	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_SternsShipyard_1F_EventScript_FerryReady
+	goto_if_set FLAG_BADGE07_GET, SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined
+	goto_if_set FLAG_DELIVERED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_NeedVeteran
+	goto_if_set FLAG_DOCK_REJECTED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_GoFindStern
+	msgbox SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails, MSGBOX_DEFAULT
+	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_DOCK, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	setflag FLAG_DOCK_REJECTED_DEVON_GOODS
+	setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
+	releaseall
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_FerryReady::
+	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SlateportCity_SternsShipyard_1F_Text_FerryIsReady, MSGBOX_DEFAULT
+	releaseall
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined::
+	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs, MSGBOX_DEFAULT
+	releaseall
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_GoFindStern::
+	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_DOCK, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_NeedVeteran::
+	applymovement LOCALID_DOCK, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran, MSGBOX_DEFAULT
+	releaseall
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_Scientist1::
+	msgbox SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing, MSGBOX_NPC
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_Scientist2::
+	msgbox SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily, MSGBOX_NPC
+	end
+
+SlateportCity_SternsShipyard_1F_EventScript_Briney::
+	msgbox SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock, MSGBOX_NPC
+	end
+
+SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails:
+	.string "嗯……如果这个放这里，\n"
+	.string "那个放那边……\p"
+	.string "那这个东西放哪儿？\n"
+	.string "还有这个小玩意儿呢？\p"
+	.string "啊啊啊！我完全\n"
+	.string "搞不懂！$"
+
+SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
+	.string "嗯？\n"
+	.string "嗨，我叫多克。\p"
+	.string "斯图船长委托我\n"
+	.string "设计一艘渡轮。\p"
+	.string "哦！那个是……\n"
+	.string "是得文的货物吗？\p"
+	.string "可是，嗯……\n"
+	.string "这可不行……\p"
+	.string "斯图船长去哪儿了。\n"
+	.string "他说有点工作要办。\p"
+	.string "能不能请你去找斯图船长，\n"
+	.string "把这个交给他？$"
+
+SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
+	.string "多克：斯图船长\n"
+	.string "到底去哪儿了？\p"
+	.string "能不能请你去找斯图船长，\n"
+	.string "把包裹交给他？$"
+
+SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
+	.string "多克：造船是一门艺术。\p"
+	.string "很多事情光靠计算\n"
+	.string "是弄不明白的。\p"
+	.string "我真想听听熟悉大海的\n"
+	.string "老前辈的意见……$"
+
+SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
+	.string "多克：嗨！布林尼先生来帮\n"
+	.string "我们的忙了。\p"
+	.string "多亏这位老船员，\n"
+	.string "渡轮正稳步成形。$"
+
+SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
+	.string "多克：渡轮终于完工了！\p"
+	.string "新的潮汐号真是\n"
+	.string "技术的奇迹！\p"
+	.string "不过我总觉得，我们还能\n"
+	.string "造出更好的东西。\p"
+	.string "你知道，技术的脚步\n"
+	.string "永远不会停。$"
+
+SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:
+	.string "布林尼先生：啊，{PLAYER}！\n"
+	.string "好久不见！\p"
+	.string "自从遇见你，我这老水手\n"
+	.string "又精神起来了！\p"
+	.string "所以我决定帮多克\n"
+	.string "造渡轮。\p"
+	.string "毕竟渡轮能载\n"
+	.string "很多人啊。\p"
+	.string "不过，那个多克真是\n"
+	.string "了不起。\p"
+	.string "凭他的技术和我的经验，\n"
+	.string "我们一定能造出\l"
+	.string "一艘好船，没错！$"
+
+SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing:
+	.string "季节、天气、月亮\n"
+	.string "在天空中的位置……\p"
+	.string "这些条件让大海\n"
+	.string "不断变换表情。\p"
+	.string "没错！\n"
+	.string "大海就像活的一样！$"
+
+SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily:
+	.string "我特别容易晕船。\n"
+	.string "所以就在这里帮忙了。$"
+
+`

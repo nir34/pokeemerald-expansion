@@ -1,147 +1,100 @@
+# 1 "data/maps/PacifidlogTown_House2/scripts.pory"
+
+# 2 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_MapScripts::
+# 3 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.byte 0
+# 4 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 5 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_EventScript_FanClubYoungerBrother::
+# 6 "data/maps/PacifidlogTown_House2/scripts.pory"
 	lock
+# 7 "data/maps/PacifidlogTown_House2/scripts.pory"
 	faceplayer
-	dotimebasedevents
-	call PacifidlogTown_House2_EventScript_UpdateFanClubTMFlag
-	goto_if_set FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK, PacifidlogTown_House2_EventScript_ComeBackInXDays
-	call_if_set FLAG_MET_FANCLUB_YOUNGER_BROTHER, PacifidlogTown_House2_EventScript_MonAssessment
-	call_if_unset FLAG_MET_FANCLUB_YOUNGER_BROTHER, PacifidlogTown_House2_EventScript_FirstMonAssessment
-	setflag FLAG_MET_FANCLUB_YOUNGER_BROTHER
-	specialvar VAR_RESULT, GetLeadMonFriendshipScore
-	goto_if_ge VAR_RESULT, FRIENDSHIP_150_TO_199, PacifidlogTown_House2_EventScript_GiveReturn
-	specialvar VAR_RESULT, GetLeadMonFriendshipScore
-	goto_if_ge VAR_RESULT, FRIENDSHIP_50_TO_99, PacifidlogTown_House2_EventScript_PutInEffort
-	goto PacifidlogTown_House2_EventScript_GiveFrustration
-	end
-
-PacifidlogTown_House2_EventScript_UpdateFanClubTMFlag::
-	goto_if_unset FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK, Common_EventScript_NopReturn
-	specialvar VAR_RESULT, GetDaysUntilPacifidlogTMAvailable
-	call_if_eq VAR_RESULT, 0, PacifidlogTown_House2_EventScript_ClearReceivedFanClubTM
-	return
-
-PacifidlogTown_House2_EventScript_MonAssessment::
-	msgbox PacifidlogTown_House2_Text_AhYourPokemon, MSGBOX_DEFAULT
-	return
-
-PacifidlogTown_House2_EventScript_FirstMonAssessment::
-	msgbox PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation, MSGBOX_DEFAULT
-	msgbox PacifidlogTown_House2_Text_AhYourPokemon, MSGBOX_DEFAULT
-	return
-
-PacifidlogTown_House2_EventScript_ClearReceivedFanClubTM::
-	clearflag FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK
-	return
-
-PacifidlogTown_House2_EventScript_GiveReturn::
-	msgbox PacifidlogTown_House2_Text_AdoringPokemonTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_TM_RETURN
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK
-	special SetPacifidlogTMReceivedDay
-	msgbox PacifidlogTown_House2_Text_ExplainReturnFrustration, MSGBOX_DEFAULT
+# 8 "data/maps/PacifidlogTown_House2/scripts.pory"
+	msgbox PacifidlogTown_House2_Text_LookHowHappy, MSGBOX_DEFAULT
+# 9 "data/maps/PacifidlogTown_House2/scripts.pory"
 	release
+# 10 "data/maps/PacifidlogTown_House2/scripts.pory"
 	end
+# 11 "data/maps/PacifidlogTown_House2/scripts.pory"
 
-PacifidlogTown_House2_EventScript_PutInEffort::
-	msgbox PacifidlogTown_House2_Text_PutInSomeMoreEffort, MSGBOX_DEFAULT
-	release
-	end
-
-PacifidlogTown_House2_EventScript_GiveFrustration::
-	msgbox PacifidlogTown_House2_Text_ViciousPokemonTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_TM_FRUSTRATION
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK
-	special SetPacifidlogTMReceivedDay
-	msgbox PacifidlogTown_House2_Text_ExplainReturnFrustration, MSGBOX_DEFAULT
-	release
-	end
-
-PacifidlogTown_House2_EventScript_ComeBackInXDays::
-	specialvar VAR_RESULT, GetDaysUntilPacifidlogTMAvailable
-	buffernumberstring STR_VAR_1, VAR_RESULT
-	msgbox PacifidlogTown_House2_Text_GetGoodTMInXDays, MSGBOX_DEFAULT
-	release
-	end
-
+# 12 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_EventScript_HappyAzurill::
+# 13 "data/maps/PacifidlogTown_House2/scripts.pory"
 	lock
+# 14 "data/maps/PacifidlogTown_House2/scripts.pory"
 	faceplayer
+# 15 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitse
+# 16 "data/maps/PacifidlogTown_House2/scripts.pory"
 	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+# 17 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT
+# 18 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitmoncry
+# 19 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_VeryFriendlyWithTrainer, MSGBOX_DEFAULT
+# 20 "data/maps/PacifidlogTown_House2/scripts.pory"
 	release
+# 21 "data/maps/PacifidlogTown_House2/scripts.pory"
 	end
+# 22 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 23 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_EventScript_UnhappyAzurill::
+# 24 "data/maps/PacifidlogTown_House2/scripts.pory"
 	lock
+# 25 "data/maps/PacifidlogTown_House2/scripts.pory"
 	faceplayer
+# 26 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitse
+# 27 "data/maps/PacifidlogTown_House2/scripts.pory"
 	playmoncry SPECIES_AZURILL, CRY_MODE_ENCOUNTER
+# 28 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT
+# 29 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitmoncry
+# 30 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch, MSGBOX_DEFAULT
+# 31 "data/maps/PacifidlogTown_House2/scripts.pory"
 	release
+# 32 "data/maps/PacifidlogTown_House2/scripts.pory"
 	end
+# 33 "data/maps/PacifidlogTown_House2/scripts.pory"
 
-PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
-	.string "Er-hem!\p"
-	.string "I am the POKéMON FAN CLUB's most\n"
-	.string "important person, the CHAIRMAN's\l"
-	.string "younger brother.\p"
-	.string "I'm here enjoying my vacation with\n"
-	.string "POKéMON, yes, indeed.$"
-
-PacifidlogTown_House2_Text_AhYourPokemon:
-	.string "Ah!\n"
-	.string "Your POKéMON…$"
-
-PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
-	.string "It clearly likes you very much.\p"
-	.string "A POKéMON that adoring and adorable\n"
-	.string "deserves a TM like this, no?$"
-
-PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
-
-PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
-	.string "It has a vicious look to it.\p"
-	.string "A frightening POKéMON like that\n"
-	.string "deserves a TM like this.$"
-
-PacifidlogTown_House2_Text_ExplainReturnFrustration:
-	.string "If a POKéMON likes you a lot, RETURN's\n"
-	.string "power is enhanced.\p"
-	.string "If it doesn't like you, FRUSTRATION's\n"
-	.string "power goes up.$"
-
-PacifidlogTown_House2_Text_GetGoodTMInXDays:
-	.string "Oh, yes. In about {STR_VAR_1} or so days,\n"
-	.string "I should be getting a good TM or two.\p"
-	.string "You should come see me then.\n"
-	.string "I'll give you a TM that's suitable for\l"
-	.string "your POKéMON.$"
-
+# 34 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+# 35 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "露力丽：噜哩。$"
+# 36 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 37 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-	.string "It appears to be very friendly with the\n"
-	.string "TRAINER.$"
+# 38 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "它好像和训练家\n"
+# 39 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "非常亲近。$"
+# 40 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 41 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+# 42 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "露力丽：噜噜哩！$"
+# 43 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 44 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-	.string "It doesn't appear to like the TRAINER\n"
-	.string "very much.$"
+# 45 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "它好像不太喜欢\n"
+# 46 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "这个训练家。$"
+# 47 "data/maps/PacifidlogTown_House2/scripts.pory"
 
+# 48 "data/maps/PacifidlogTown_House2/scripts.pory"
+PacifidlogTown_House2_Text_LookHowHappy:
+# 49 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "看我的宝可梦多开心！\n"
+# 50 "data/maps/PacifidlogTown_House2/scripts.pory"
+	.string "不，是另一只！$"

@@ -1,0 +1,28 @@
+raw `
+FortreeCity_House5_MapScripts::
+	.byte 0
+
+FortreeCity_House5_EventScript_PokefanF::
+	msgbox FortreeCity_House5_Text_TreeHousesAreGreat, MSGBOX_NPC
+	end
+
+FortreeCity_House5_EventScript_Man::
+	msgbox FortreeCity_House5_Text_AdaptedToNature, MSGBOX_NPC
+	end
+
+FortreeCity_House5_EventScript_Zigzagoon::
+	lock
+
+FortreeCity_House5_Text_TreeHousesAreGreat:
+	.string "我觉得这里是最适合\n"
+	.string "和宝可梦一起生活的城市。$"
+
+FortreeCity_House5_Text_AdaptedToNature:
+	.string "宝可梦和人为了生存\n"
+	.string "适应了自然。\p"
+	.string "没必要让自然来迁就\n"
+	.string "我们想过的方式。$"
+
+FortreeCity_House5_Text_Zigzagoon:
+	.string "蛇纹熊：布呼！$"
+`

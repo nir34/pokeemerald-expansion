@@ -10,7 +10,7 @@
 #define TRAINER_GRUNT_AQUA_HIDEOUT_3          4
 #define TRAINER_GRUNT_AQUA_HIDEOUT_4          5
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_1       6
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_2       7
+#define TRAINER_MATT_SEAFLOOR_CAVERN       7
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_3       8
 #define TRAINER_GABRIELLE_1                   9
 #define TRAINER_GRUNT_PETALBURG_WOODS        10
@@ -21,19 +21,19 @@
 #define TRAINER_DECLAN                       15
 #define TRAINER_GRUNT_RUSTURF_TUNNEL         16
 #define TRAINER_GRUNT_WEATHER_INST_1         17
-#define TRAINER_GRUNT_WEATHER_INST_2         18
+#define TRAINER_MATT_WEATHER_INST            18
 #define TRAINER_GRUNT_WEATHER_INST_3         19
 #define TRAINER_GRUNT_MUSEUM_1               20
 #define TRAINER_GRUNT_MUSEUM_2               21
 #define TRAINER_GRUNT_SPACE_CENTER_1         22
-#define TRAINER_GRUNT_MT_PYRE_1              23
-#define TRAINER_GRUNT_MT_PYRE_2              24
-#define TRAINER_GRUNT_MT_PYRE_3              25
+#define TRAINER_GARDENIA2                    23
+#define TRAINER_DOLLAMIKE                    24
+#define TRAINER_DANNI                        25
 #define TRAINER_GRUNT_WEATHER_INST_4         26
 #define TRAINER_GRUNT_AQUA_HIDEOUT_5         27
 #define TRAINER_GRUNT_AQUA_HIDEOUT_6         28
 #define TRAINER_FREDRICK                     29
-#define TRAINER_MATT                         30
+#define TRAINER_ARCHIE_HIDEOUT               30
 #define TRAINER_ZANDER                       31
 #define TRAINER_SHELLY_WEATHER_INSTITUTE     32
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN       33
@@ -48,7 +48,7 @@
 #define TRAINER_ROSE_4                       42
 #define TRAINER_ROSE_5                       43
 #define TRAINER_DUSTY_1                      44
-#define TRAINER_CHIP                         45
+#define TRAINER_MASTA_JANES                  45
 #define TRAINER_FOSTER                       46
 #define TRAINER_DUSTY_2                      47
 #define TRAINER_DUSTY_3                      48
@@ -68,16 +68,16 @@
 #define TRAINER_LOLA_4                       62
 #define TRAINER_LOLA_5                       63
 #define TRAINER_RICKY_1                      64
-#define TRAINER_SIMON                        65
+#define TRAINER_BRIAN                        65
 #define TRAINER_CHARLIE                      66
 #define TRAINER_RICKY_2                      67
 #define TRAINER_RICKY_3                      68
 #define TRAINER_RICKY_4                      69
 #define TRAINER_RICKY_5                      70
-#define TRAINER_RANDALL                      71
-#define TRAINER_PARKER                       72
-#define TRAINER_GEORGE                       73
-#define TRAINER_BERKE                        74
+#define TRAINER_MASTER_POUCINE               71
+#define TRAINER_OBLIVION_WING                72
+#define TRAINER_BRIAN_2                      73
+#define TRAINER_BURAK                        74
 #define TRAINER_BRAXTON                      75
 #define TRAINER_VINCENT                      76
 #define TRAINER_LEROY                        77
@@ -92,9 +92,9 @@
 #define TRAINER_WILTON_4                     86
 #define TRAINER_WILTON_5                     87
 #define TRAINER_WARREN                       88
-#define TRAINER_MARY                         89
-#define TRAINER_ALEXIA                       90
-#define TRAINER_JODY                         91
+#define TRAINER_MARY                         89 //unused norman gym
+#define TRAINER_ALEXIA                       90 //unused norman gym
+#define TRAINER_JODY                         91 //unused norman gym
 #define TRAINER_WENDY                        92
 #define TRAINER_KEIRA                        93
 #define TRAINER_BROOKE_1                     94
@@ -149,7 +149,7 @@
 #define TRAINER_STEVE_1                     143
 #define TRAINER_THALIA_1                    144
 #define TRAINER_MARK                        145
-#define TRAINER_GRUNT_MT_CHIMNEY_1          146
+#define TRAINER_COURTNEY_MT_CHIMNEY         146
 #define TRAINER_STEVE_2                     147
 #define TRAINER_STEVE_3                     148
 #define TRAINER_STEVE_4                     149
@@ -218,7 +218,7 @@
 #define TRAINER_BEAU                        212
 #define TRAINER_LARRY                       213
 #define TRAINER_SHANE                       214
-#define TRAINER_JUSTIN                      215
+#define TRAINER_RUSTY                       215
 #define TRAINER_ETHAN_1                     216
 #define TRAINER_AUTUMN                      217
 #define TRAINER_TRAVIS                      218
@@ -230,7 +230,7 @@
 #define TRAINER_DONALD                      224
 #define TRAINER_TAYLOR                      225
 #define TRAINER_JEFFREY_1                   226
-#define TRAINER_DEREK                       227
+#define TRAINER_IRIV24                      227
 #define TRAINER_JEFFREY_2                   228
 #define TRAINER_JEFFREY_3                   229
 #define TRAINER_JEFFREY_4                   230
@@ -264,9 +264,9 @@
 #define TRAINER_WALTER_3                    258
 #define TRAINER_WALTER_4                    259
 #define TRAINER_WALTER_5                    260
-#define TRAINER_SIDNEY                      261
-#define TRAINER_PHOEBE                      262
-#define TRAINER_GLACIA                      263
+#define TRAINER_SIDNEY1                     261
+#define TRAINER_PHOEBE1                     262
+#define TRAINER_GLACIA1                     263
 #define TRAINER_DRAKE                       264
 #define TRAINER_ROXANNE_1                   265
 #define TRAINER_BRAWLY_1                    266
@@ -278,7 +278,7 @@
 #define TRAINER_JUAN_1                      272
 #define TRAINER_JERRY_1                     273
 #define TRAINER_TED                         274
-#define TRAINER_PAUL                        275
+#define TRAINER_RACHEL                      275
 #define TRAINER_JERRY_2                     276
 #define TRAINER_JERRY_3                     277
 #define TRAINER_JERRY_4                     278
@@ -339,7 +339,7 @@
 #define TRAINER_ALLEN                       333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
-#define TRAINER_ANDREW                      336
+#define TRAINER_FANTINA                     336
 #define TRAINER_IVAN                        337
 #define TRAINER_CLAUDE                      338
 #define TRAINER_ELLIOT_1                    339
@@ -541,13 +541,13 @@
 #define TRAINER_MAY_ROUTE_103_TORCHIC       535
 #define TRAINER_MAY_ROUTE_110_TORCHIC       536
 #define TRAINER_MAY_ROUTE_119_TORCHIC       537
-#define TRAINER_ISAAC_1                     538
+#define TRAINER_EZEKIEL_1                   538
 #define TRAINER_DAVIS                       539
 #define TRAINER_MITCHELL                    540
-#define TRAINER_ISAAC_2                     541
-#define TRAINER_ISAAC_3                     542
-#define TRAINER_ISAAC_4                     543
-#define TRAINER_ISAAC_5                     544
+#define TRAINER_EZEKIEL_2                   541
+#define TRAINER_EZEKIEL_3                   542
+#define TRAINER_EZEKIEL_4                   543
+#define TRAINER_EZEKIEL_5                   544
 #define TRAINER_LYDIA_1                     545
 #define TRAINER_HALLE                       546
 #define TRAINER_GARRISON                    547
@@ -569,10 +569,10 @@
 #define TRAINER_CATHERINE_3                 563
 #define TRAINER_CATHERINE_4                 564
 #define TRAINER_CATHERINE_5                 565
-#define TRAINER_JULIO                       566
+#define TRAINER_MAYLENE                     566
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     567
-#define TRAINER_GRUNT_UNUSED                568
-#define TRAINER_GRUNT_MT_PYRE_4             569
+#define TRAINER_TATE                        568
+#define TRAINER_LIZA                        569
 #define TRAINER_GRUNT_JAGGED_PASS           570
 #define TRAINER_MARC                        571
 #define TRAINER_BRENDEN                     572
@@ -589,11 +589,11 @@
 #define TRAINER_KATHLEEN                    583
 #define TRAINER_CLIFFORD                    584
 #define TRAINER_NICHOLAS                    585
-#define TRAINER_GRUNT_SPACE_CENTER_3        586
-#define TRAINER_GRUNT_SPACE_CENTER_4        587
-#define TRAINER_GRUNT_SPACE_CENTER_5        588
-#define TRAINER_GRUNT_SPACE_CENTER_6        589
-#define TRAINER_GRUNT_SPACE_CENTER_7        590
+#define TRAINER_SIDNEY2                     586
+#define TRAINER_PHOEBE2                     587
+#define TRAINER_GLACIA2                     588
+#define TRAINER_WALLACE_WITH_STEVEN         589
+#define TRAINER_STEVEN_WITH_WALLACE         590
 #define TRAINER_MACEY                       591
 #define TRAINER_BRENDAN_RUSTBORO_TREECKO    592
 #define TRAINER_BRENDAN_RUSTBORO_MUDKIP     593
@@ -629,7 +629,7 @@
 #define TRAINER_JAMES_3                     623
 #define TRAINER_JAMES_4                     624
 #define TRAINER_JAMES_5                     625
-#define TRAINER_BRICE                       626
+#define TRAINER_WAKE                        626
 #define TRAINER_TRENT_1                     627
 #define TRAINER_LENNY                       628
 #define TRAINER_LUCAS_1                     629
@@ -661,15 +661,15 @@
 #define TRAINER_ASHLEY                      655
 #define TRAINER_WALLY_MAUVILLE              656
 #define TRAINER_WALLY_VR_2                  657
-#define TRAINER_WALLY_VR_3                  658
-#define TRAINER_WALLY_VR_4                  659
-#define TRAINER_WALLY_VR_5                  660
-#define TRAINER_BRENDAN_LILYCOVE_MUDKIP     661
-#define TRAINER_BRENDAN_LILYCOVE_TREECKO    662
-#define TRAINER_BRENDAN_LILYCOVE_TORCHIC    663
-#define TRAINER_MAY_LILYCOVE_MUDKIP         664
-#define TRAINER_MAY_LILYCOVE_TREECKO        665
-#define TRAINER_MAY_LILYCOVE_TORCHIC        666
+#define TRAINER_WALLY_ROUTE_110             658
+#define TRAINER_BEFOOLS                     659
+#define TRAINER_NATN                        660
+#define TRAINER_BRENDAN_EVERGRANDE_MUDKIP     661
+#define TRAINER_BRENDAN_EVERGRANDE_TREECKO    662
+#define TRAINER_BRENDAN_EVERGRANDE_TORCHIC    663
+#define TRAINER_MAY_EVERGRANDE_MUDKIP         664
+#define TRAINER_MAY_EVERGRANDE_TREECKO        665
+#define TRAINER_MAY_EVERGRANDE_TORCHIC        666
 #define TRAINER_JONAH                       667
 #define TRAINER_HENRY                       668
 #define TRAINER_ROGER                       669
@@ -713,9 +713,9 @@
 #define TRAINER_HAYDEN                      707
 #define TRAINER_SOPHIE                      708
 #define TRAINER_COBY                        709
-#define TRAINER_LAWRENCE                    710
-#define TRAINER_WYATT                       711
-#define TRAINER_ANGELINA                    712
+#define TRAINER_ROARK                       710
+#define TRAINER_BYRON                       711
+#define TRAINER_VOLKNER                     712
 #define TRAINER_KAI                         713
 #define TRAINER_CHARLOTTE                   714
 #define TRAINER_DEANDRE                     715
@@ -729,9 +729,9 @@
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_8       723
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_9       724
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_10      725
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_11      726
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_12      727
-#define TRAINER_GRUNT_MAGMA_HIDEOUT_13      728
+#define TRAINER_SUNBIRD                     726
+#define TRAINER_SUNEAL                      727
+#define TRAINER_COURTNEY                    728
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_14      729
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_15      730
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_16      731
@@ -747,7 +747,7 @@
 #define TRAINER_CAROLINA                    741
 #define TRAINER_ELIJAH                      742
 #define TRAINER_CELIA                       743
-#define TRAINER_BRYAN                       744
+#define TRAINER_DAWN_ROUTE_111              744
 #define TRAINER_BRANDEN                     745
 #define TRAINER_BRYANT                      746
 #define TRAINER_SHAYLA                      747
@@ -758,13 +758,13 @@
 #define TRAINER_MARLENE                     752
 #define TRAINER_DEVAN                       753
 #define TRAINER_JOHNSON                     754
-#define TRAINER_MELINA                      755
+#define TRAINER_X                           755
 #define TRAINER_BRANDI                      756
 #define TRAINER_AISHA                       757
 #define TRAINER_MAKAYLA                     758
 #define TRAINER_FABIAN                      759
 #define TRAINER_DAYTON                      760
-#define TRAINER_RACHEL                      761
+#define TRAINER_RAQUEL                      761
 #define TRAINER_LEONEL                      762
 #define TRAINER_CALLIE                      763
 #define TRAINER_CALE                        764
@@ -807,7 +807,7 @@
 #define TRAINER_JUAN_5                      801
 #define TRAINER_ANGELO                      802
 #define TRAINER_DARIUS                      803
-#define TRAINER_STEVEN                      804
+#define TRAINER_STEVEN                      804  // unused
 #define TRAINER_ANABEL                      805
 #define TRAINER_TUCKER                      806
 #define TRAINER_SPENSER                     807
@@ -854,16 +854,22 @@
 #define TRAINER_MARIELA                     848
 #define TRAINER_ALVARO                      849
 #define TRAINER_EVERETT                     850
-#define TRAINER_RED                         851
-#define TRAINER_LEAF                        852
+#define TRAINER_CANDICE                     851
+#define TRAINER_GARDENIA                    852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+#define TRAINER_DAWN_ROUTE_104              855
+#define TRAINER_URSULA                      856
+#define TRAINER_CAP                         857
+#define TRAINER_DAWN_LILYCOVE               858
+#define TRAINER_DAWN_EVERGRANDE             859
+#define TRAINER_CYNTHIA                     860
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      855
+#define TRAINERS_COUNT                      861
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

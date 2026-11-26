@@ -1,0 +1,123 @@
+raw `
+SootopolisCity_LotadAndSeedotHouse_MapScripts::
+	.byte 0
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_SwordMaster::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_RUSTED_SWORD, SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatSword
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian, MSGBOX_DEFAULT
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_RESULT, VAR_0x8004
+	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZacian
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_ne VAR_RESULT, SPECIES_ZACIAN, SootopolisCity_LotadAndSeedotHouse_EventScript_NotZacian
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword, MSGBOX_DEFAULT
+	giveitem ITEM_RUSTED_SWORD
+	setflag FLAG_RECEIVED_RUSTED_SWORD
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZacian::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontZacian, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_NotZacian::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_NotZacian, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatSword::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_ShieldMaster::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_RUSTED_SHIELD, SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta, MSGBOX_DEFAULT
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_RESULT, VAR_0x8004
+	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZamazenta
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_ne VAR_RESULT, SPECIES_ZAMAZENTA, SootopolisCity_LotadAndSeedotHouse_EventScript_NotZamazenta
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield, MSGBOX_DEFAULT
+	giveitem ITEM_RUSTED_SHIELD
+	setflag FLAG_RECEIVED_RUSTED_SHIELD
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZamazenta::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_NotZamazenta::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield::
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian:
+	.string "我修习剑之道，\n"
+	.string "全是攻击。\p"
+	.string "你要是能给我看符合\n"
+	.string "这个理念的宝可梦，\l"
+	.string "我就送你一件好道具。$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword:
+	.string "太好了！那只宝可梦\n"
+	.string "绝对懂剑之道！\p"
+	.string "来，请收下这个！$"
+
+
+SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword:
+	.string "希望你和你的宝可梦用\n"
+	.string "那把剑打出强力攻击！$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_DontZacian:
+	.string "我明白了，你没有符合\n"
+	.string "我理念的宝可梦。$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_NotZacian:
+	.string "那只宝可梦不符合\n"
+	.string "我的理念。$"
+
+
+
+
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta:
+	.string "我修习盾之道，\n"
+	.string "全是防御。\p"
+	.string "你要是能给我看符合\n"
+	.string "这个理念的宝可梦，\l"
+	.string "我就送你一件好道具。$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield:
+	.string "太好了！那只宝可梦\n"
+	.string "绝对懂盾之道！\p"
+	.string "来，请收下这个！$"
+
+
+SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield:
+	.string "希望你和你的宝可梦用\n"
+	.string "那面盾打出强力防御！$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta:
+	.string "我明白了，你没有符合\n"
+	.string "我理念的宝可梦。$"
+
+SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta:
+	.string "那只宝可梦不符合\n"
+	.string "我的理念。$"
+`

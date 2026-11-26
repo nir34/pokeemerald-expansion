@@ -116,6 +116,15 @@ enum {
     MON_DATA_GIGANTAMAX_FACTOR,
     MON_DATA_TERA_TYPE,
     MON_DATA_EVOLUTION_TRACKER,
+    MON_DATA_CANT_RANDOMIZE_ABILITY,
+    MON_DATA_IVS_WERE_PERFECTED,        // TODO iriv remove this
+};
+
+enum {
+    MON_RANDOMIZER_NORMAL,
+    MON_RANDOMIZER_RANDOM_FORM,
+    MON_RANDOMIZER_SPECIAL_FORM,
+    MON_RANDOMIZER_INVALID
 };
 
 struct PokemonSubstruct0
@@ -131,7 +140,8 @@ struct PokemonSubstruct0
     u8 friendship;
     u16 pokeball:6; // 63 balls.
     u16 nickname12:8; // 12th character of nickname.
-    u16 unused_0A:2;
+    u8 ivsWerePerfected:1; // TODO iriv remove this
+    u16 unused_0A:1;
 };
 
 struct PokemonSubstruct1
@@ -206,7 +216,7 @@ struct PokemonSubstruct3
     u32 earthRibbon:1;    // Given to teams that have beaten Mt. Battle's 100-battle challenge in Colosseum/XD.
     u32 worldRibbon:1;    // Distributed during Pokémon Festa '04 and '05 to tournament winners.
     u32 isShadow:1;
-    u32 unused_0B:1;
+    u32 cantRandomizeAbility:1;
     u32 abilityNum:2;
 
     // The functionality of this bit changed in FRLG:
@@ -340,6 +350,7 @@ struct BattlePokemon
     /*0x55*/ u32 otId;
     /*0x59*/ u8 metLevel;
     /*0x5A*/ bool8 isShiny;
+    /*0x5B*/ u8 cantRandomizeAbility;
 };
 
 struct Evolution
@@ -449,7 +460,8 @@ struct SpeciesInfo /*0xC4*/
     u32 dexForceRequired:1; // This species will be taken into account for Pokédex ratings even if they have the "isMythical" flag set.
     u32 tmIlliterate:1;     // This species will be unable to learn the universal moves.
     u32 isFrontierBanned:1; // This species is not allowed to participate in Battle Frontier facilities.
-    u32 padding4:11;
+    u32 randomizerMode:2; // The randomizer will not randomize to or from this species.
+    u32 padding4:9;
     // Shadow settings
     s8 enemyShadowXOffset; // This determines the X-offset for an enemy Pokémon's shadow during battle; negative values point left, positive values point right.
     s8 enemyShadowYOffset; // This determines the Y-offset for an enemy Pokémon's shadow during battle; negative values point up, positive values point down.
@@ -546,7 +558,9 @@ struct MoveInfo
     u32 parentalBondBanned:1;
     u32 skyBattleBanned:1;
     u32 sketchBanned:1;
-    u32 padding:5; // end of word
+    u32 kickingMove:1;
+    u32 boneMove:1;
+    u32 padding:3; // end of word
 
     u32 argument;
 
@@ -564,8 +578,12 @@ struct MoveInfo
 #define EFFECTS_ARR(...) (const struct AdditionalEffect[]) {__VA_ARGS__}
 #define ADDITIONAL_EFFECTS(...) EFFECTS_ARR( __VA_ARGS__ ), .numAdditionalEffects = ARRAY_COUNT(EFFECTS_ARR( __VA_ARGS__ ))
 
-// Just a hack to make a move boosted by Sheer Force despite having no secondary effects affected
-#define SHEER_FORCE_HACK { .moveEffect = 0, .chance = 100, }
+enum SheerForceBoost
+{
+    SHEER_FORCE_AUTO_BOOST, // This is the default state when a move has a move effect with a chance
+    SHEER_FORCE_BOOST,      // If a move effect doesn't have an effect with a chance this can force a boost
+    SHEER_FORCE_NO_BOOST,   // Prevents a Sheer Force boost
+};
 
 struct AdditionalEffect
 {
@@ -573,6 +591,8 @@ struct AdditionalEffect
     u8 self:1;
     u8 onlyIfTargetRaisedStats:1;
     u8 onChargeTurnOnly:1;
+    u8 sheerForceBoost:2; // Handles edge cases for Sheer Force
+    u8 padding:3;
     u8 chance; // 0% = effect certain, primary effect
 };
 
@@ -650,6 +670,18 @@ struct NatureInfo
     const u8 *natureGirlMessage;
 };
 
+struct HiddenPowerTypeInfo
+{
+    const u8 *typeName;
+    const u8 *ivsListed;
+    u8 ivHp;
+    u8 ivAtk;
+    u8 ivDef;
+    u8 ivSpatk;
+    u8 ivSpdef;
+    u8 ivSpeed;
+};
+
 #define SPINDA_SPOT_WIDTH 16
 #define SPINDA_SPOT_HEIGHT 16
 
@@ -719,6 +751,7 @@ extern const struct SpriteTemplate gBattlerSpriteTemplates[];
 extern const u32 sExpCandyExperienceTable[];
 extern const struct Ability gAbilitiesInfo[];
 extern const struct NatureInfo gNaturesInfo[];
+extern const struct HiddenPowerTypeInfo gHiddenPowerTypeInfo[];
 
 void ZeroBoxMonData(struct BoxPokemon *boxMon);
 void ZeroMonData(struct Pokemon *mon);
@@ -788,7 +821,7 @@ u8 CalculateEnemyPartyCount(void);
 u8 CalculateEnemyPartyCountInSide(u32 battler);
 u8 GetMonsStateToDoubles(void);
 u8 GetMonsStateToDoubles_2(void);
-u16 GetAbilityBySpecies(u16 species, u8 abilityNum);
+u16 GetAbilityBySpecies(u16 species, u8 abilityNum, u8 cantRandomizeAbility);
 u16 GetMonAbility(struct Pokemon *mon);
 void CreateSecretBaseEnemyParty(struct SecretBase *secretBaseRecord);
 u8 GetSecretBaseTrainerPicIndex(void);
@@ -865,6 +898,7 @@ void BoxMonRestorePP(struct BoxPokemon *boxMon);
 void SetMonPreventsSwitchingString(void);
 void SetWildMonHeldItem(void);
 bool8 IsMonShiny(struct Pokemon *mon);
+bool8 IsShinyOtIdPersonality(u32 otId, u32 personality);
 const u8 *GetTrainerPartnerName(void);
 void BattleAnimateFrontSprite(struct Sprite *sprite, u16 species, bool8 noCry, u8 panMode);
 void DoMonFrontSpriteAnimation(struct Sprite *sprite, u16 species, bool8 noCry, u8 panModeAnimFlag);
@@ -903,5 +937,7 @@ const u8 *GetMoveAnimationScript(u16 moveId);
 void UpdateDaysPassedSinceFormChange(u16 days);
 void TrySetDayLimitToFormChange(struct Pokemon *mon);
 u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler);
+bool32 IsRegionalForm(u16 speciesId);
+bool32 HasRegionalForm(u16 speciesId);
 
 #endif // GUARD_POKEMON_H

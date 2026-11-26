@@ -11,6 +11,7 @@
 #include "battle.h"
 #include "battle_setup.h"
 #include "berry.h"
+#include "caps.h"
 #include "clock.h"
 #include "coins.h"
 #include "credits.h"
@@ -67,6 +68,7 @@
 #include "constants/species.h"
 #include "constants/weather.h"
 #include "save.h"
+#include "randomizer.h"
 
 // *******************************
 enum DebugMenu
@@ -89,7 +91,6 @@ enum UtilDebugMenu
     DEBUG_UTIL_MENU_ITEM_SAVEBLOCK,
     DEBUG_UTIL_MENU_ITEM_ROM_SPACE,
     DEBUG_UTIL_MENU_ITEM_WEATHER,
-    DEBUG_UTIL_MENU_ITEM_FONT_TEST,
     DEBUG_UTIL_MENU_ITEM_CHECKWALLCLOCK,
     DEBUG_UTIL_MENU_ITEM_SETWALLCLOCK,
     DEBUG_UTIL_MENU_ITEM_WATCHCREDITS,
@@ -100,6 +101,9 @@ enum UtilDebugMenu
     DEBUG_UTIL_MENU_ITEM_EXPANSION_VER,
     DEBUG_UTIL_MENU_ITEM_BERRY_FUNCTIONS,
     DEBUG_UTIL_MENU_ITEM_EWRAM_COUNTERS,
+    #if RANDOMIZER_AVAILABLE == TRUE
+    DEBUG_UTIL_MENU_ITEM_RANDOMIZER,
+    #endif
 };
 
 enum GivePCBagDebugMenu
@@ -354,6 +358,7 @@ static void DebugTask_HandleMenuInput_Scripts(u8 taskId);
 static void DebugTask_HandleMenuInput_FlagsVars(u8 taskId);
 static void DebugTask_HandleMenuInput_Battle(u8 taskId);
 static void DebugTask_HandleMenuInput_Give(u8 taskId);
+static void DebugTask_HandleMenuInput_LimitedGive(u8 taskId);
 static void DebugTask_HandleMenuInput_Sound(u8 taskId);
 static void DebugTask_HandleMenuInput_BerryFunctions(u8 taskId);
 
@@ -366,7 +371,6 @@ static void DebugAction_Util_CheckSaveBlock(u8 taskId);
 static void DebugAction_Util_CheckROMSpace(u8 taskId);
 static void DebugAction_Util_Weather(u8 taskId);
 static void DebugAction_Util_Weather_SelectId(u8 taskId);
-static void DebugAction_Util_FontTest(u8 taskId);
 static void DebugAction_Util_CheckWallClock(u8 taskId);
 static void DebugAction_Util_SetWallClock(u8 taskId);
 static void DebugAction_Util_WatchCredits(u8 taskId);
@@ -423,6 +427,7 @@ static void DebugAction_FlagsVars_RunningShoes(u8 taskId);
 static void Debug_InitializeBattle(u8 taskId);
 
 static void DebugAction_Give_Item(u8 taskId);
+//static bool8 IsIllegalItem(u32 itemId);
 static void DebugAction_Give_Item_SelectId(u8 taskId);
 static void DebugAction_Give_Item_SelectQuantity(u8 taskId);
 static void DebugAction_Give_PokemonSimple(u8 taskId);
@@ -455,7 +460,6 @@ static void DebugAction_BerryFunctions_Weeds(u8 taskId);
 extern const u8 Debug_FlagsNotSetOverworldConfigMessage[];
 extern const u8 Debug_FlagsNotSetBattleConfigMessage[];
 extern const u8 Debug_FlagsAndVarNotSetBattleConfigMessage[];
-extern const u8 Debug_EventScript_FontTest[];
 extern const u8 Debug_EventScript_CheckEVs[];
 extern const u8 Debug_EventScript_CheckIVs[];
 extern const u8 Debug_EventScript_InflictStatus1[];
@@ -528,7 +532,6 @@ static const u8 sDebugText_Util_SaveBlockSpace[] =           _("Save Block space
 static const u8 sDebugText_Util_ROMSpace[] =                 _("ROM space…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_Weather[] =                  _("Set weather…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_Weather_ID[] =               _("Weather ID: {STR_VAR_3}\n{STR_VAR_1}\n{STR_VAR_2}");
-static const u8 sDebugText_Util_FontTest[] =                 _("Font Test…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_CheckWallClock[] =           _("Check wall clock…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_SetWallClock[] =             _("Set wall clock…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_WatchCredits[] =             _("Watch credits…{CLEAR_TO 110}{RIGHT_ARROW}");
@@ -718,7 +721,6 @@ static const struct ListMenuItem sDebugMenu_Items_Utilities[] =
     [DEBUG_UTIL_MENU_ITEM_SAVEBLOCK]       = {sDebugText_Util_SaveBlockSpace,   DEBUG_UTIL_MENU_ITEM_SAVEBLOCK},
     [DEBUG_UTIL_MENU_ITEM_ROM_SPACE]       = {sDebugText_Util_ROMSpace,         DEBUG_UTIL_MENU_ITEM_ROM_SPACE},
     [DEBUG_UTIL_MENU_ITEM_WEATHER]         = {sDebugText_Util_Weather,          DEBUG_UTIL_MENU_ITEM_WEATHER},
-    [DEBUG_UTIL_MENU_ITEM_FONT_TEST]       = {sDebugText_Util_FontTest,         DEBUG_UTIL_MENU_ITEM_FONT_TEST},
     [DEBUG_UTIL_MENU_ITEM_CHECKWALLCLOCK]  = {sDebugText_Util_CheckWallClock,   DEBUG_UTIL_MENU_ITEM_CHECKWALLCLOCK},
     [DEBUG_UTIL_MENU_ITEM_SETWALLCLOCK]    = {sDebugText_Util_SetWallClock,     DEBUG_UTIL_MENU_ITEM_SETWALLCLOCK},
     [DEBUG_UTIL_MENU_ITEM_WATCHCREDITS]    = {sDebugText_Util_WatchCredits,     DEBUG_UTIL_MENU_ITEM_WATCHCREDITS},
@@ -852,6 +854,13 @@ static const struct ListMenuItem sDebugMenu_Items_Give[] =
     [DEBUG_GIVE_MENU_ITEM_DAYCARE_EGG]       = {sDebugText_Give_DaycareEgg,         DEBUG_GIVE_MENU_ITEM_DAYCARE_EGG},
 };
 
+static const struct ListMenuItem sDebugMenu_Items_LimitedGive[] =
+{
+    [DEBUG_GIVE_MENU_ITEM_ITEM_X]            = {sDebugText_Give_GiveItem,           DEBUG_GIVE_MENU_ITEM_ITEM_X},
+    [DEBUG_GIVE_MENU_ITEM_POKEMON_SIMPLE]    = {sDebugText_Give_GivePokemonSimple,  DEBUG_GIVE_MENU_ITEM_POKEMON_SIMPLE},
+    [DEBUG_GIVE_MENU_ITEM_POKEMON_COMPLEX]   = {sDebugText_Give_GivePokemonComplex, DEBUG_GIVE_MENU_ITEM_POKEMON_COMPLEX},
+};
+
 static const struct ListMenuItem sDebugMenu_Items_Sound[] =
 {
     [DEBUG_SOUND_MENU_ITEM_SE]  = {sDebugText_Sound_SFX,  DEBUG_SOUND_MENU_ITEM_SE},
@@ -889,7 +898,6 @@ static void (*const sDebugMenu_Actions_Utilities[])(u8) =
     [DEBUG_UTIL_MENU_ITEM_SAVEBLOCK]       = DebugAction_Util_CheckSaveBlock,
     [DEBUG_UTIL_MENU_ITEM_ROM_SPACE]       = DebugAction_Util_CheckROMSpace,
     [DEBUG_UTIL_MENU_ITEM_WEATHER]         = DebugAction_Util_Weather,
-    [DEBUG_UTIL_MENU_ITEM_FONT_TEST]       = DebugAction_Util_FontTest,
     [DEBUG_UTIL_MENU_ITEM_CHECKWALLCLOCK]  = DebugAction_Util_CheckWallClock,
     [DEBUG_UTIL_MENU_ITEM_SETWALLCLOCK]    = DebugAction_Util_SetWallClock,
     [DEBUG_UTIL_MENU_ITEM_WATCHCREDITS]    = DebugAction_Util_WatchCredits,
@@ -1000,6 +1008,17 @@ static const struct WindowTemplate sDebugMenuWindowTemplateMain =
     .tilemapTop = 1,
     .width = DEBUG_MENU_WIDTH_MAIN,
     .height = 2 * DEBUG_MENU_HEIGHT_MAIN,
+    .paletteNum = 15,
+    .baseBlock = 1,
+};
+
+static const struct WindowTemplate sDebugMenuWindowTemplateLimited =
+{
+    .bg = 0,
+    .tilemapLeft = 1,
+    .tilemapTop = 1,
+    .width = DEBUG_MENU_WIDTH_MAIN,
+    .height = 7,
     .paletteNum = 15,
     .baseBlock = 1,
 };
@@ -1127,6 +1146,13 @@ static const struct ListMenuTemplate sDebugMenu_ListTemplate_Give =
     .totalItems = ARRAY_COUNT(sDebugMenu_Items_Give),
 };
 
+static const struct ListMenuTemplate sDebugMenu_ListTemplate_LimitedGive =
+{
+    .items = sDebugMenu_Items_LimitedGive,
+    .moveCursorFunc = ListMenuDefaultCursorMoveFunc,
+    .totalItems = ARRAY_COUNT(sDebugMenu_Items_LimitedGive),
+};
+
 static const struct ListMenuTemplate sDebugMenu_ListTemplate_Sound =
 {
     .items = sDebugMenu_Items_Sound,
@@ -1152,6 +1178,15 @@ void Debug_ShowMainMenu(void)
     Debug_ShowMenu(DebugTask_HandleMenuInput_Main, sDebugMenu_ListTemplate_Main);
 }
 
+void Debug_ShowLimitedMenu(void)
+{
+    sDebugBattleData = AllocZeroed(sizeof(*sDebugBattleData));
+    sDebugMenuListData = AllocZeroed(sizeof(*sDebugMenuListData));
+    Debug_InitDebugBattleData();
+
+    Debug_ShowMenu(DebugTask_HandleMenuInput_LimitedGive, sDebugMenu_ListTemplate_LimitedGive);
+}
+
 static void Debug_ReShowMainMenu(void)
 {
     Debug_ShowMenu(DebugTask_HandleMenuInput_Main, sDebugMenu_ListTemplate_Main);
@@ -1173,6 +1208,9 @@ static void Debug_ShowMenu(void (*HandleInput)(u8), struct ListMenuTemplate LMte
     // create window
     HideMapNamePopUpWindow();
     LoadMessageBoxAndBorderGfx();
+    //if(FlagGet(FLAG_GIVE_MENU))
+    //    windowId = AddWindow(&sDebugMenuWindowTemplateLimited);
+    //else
     windowId = AddWindow(&sDebugMenuWindowTemplateMain);
     DrawStdWindowFrame(windowId, FALSE);
 
@@ -1804,6 +1842,25 @@ static void DebugTask_HandleMenuInput_Give(u8 taskId)
     }
 }
 
+static void DebugTask_HandleMenuInput_LimitedGive(u8 taskId)
+{
+    void (*func)(u8);
+    u32 input = ListMenu_ProcessInput(gTasks[taskId].tMenuTaskId);
+
+    if (JOY_NEW(A_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        if ((func = sDebugMenu_Actions_Give[input]) != NULL)
+            func(taskId);
+    }
+    else if (JOY_NEW(B_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        Debug_DestroyMenu_Full(taskId);
+        ScriptContext_Enable();
+    }
+}
+
 static void DebugTask_HandleMenuInput_Sound(u8 taskId)
 {
     void (*func)(u8);
@@ -2298,11 +2355,6 @@ static void DebugAction_Util_Weather_SelectId(u8 taskId)
         PlaySE(SE_SELECT);
         DebugAction_DestroyExtraWindow(taskId);
     }
-}
-
-static void DebugAction_Util_FontTest(u8 taskId)
-{
-    Debug_DestroyMenu_Full_Script(taskId, Debug_EventScript_FontTest);
 }
 
 static void DebugAction_Util_CheckWallClock(u8 taskId)
@@ -2975,6 +3027,273 @@ static void DebugAction_Give_Item(u8 taskId)
     gSprites[gTasks[taskId].tSpriteId].oam.priority = 0;
 }
 
+// static bool8 IsIllegalItem(u32 itemId)
+// {
+//     switch(itemId)
+//     {
+//     // EV Feathers
+//     case ITEM_HEALTH_FEATHER:
+//     case ITEM_MUSCLE_FEATHER:
+//     case ITEM_RESIST_FEATHER:
+//     case ITEM_GENIUS_FEATHER:
+//     case ITEM_CLEVER_FEATHER:
+//     case ITEM_SWIFT_FEATHER:
+
+//     // Mints
+//     case ITEM_LONELY_MINT:
+//     case ITEM_ADAMANT_MINT:
+//     case ITEM_NAUGHTY_MINT:
+//     case ITEM_BRAVE_MINT:
+//     case ITEM_BOLD_MINT:
+//     case ITEM_IMPISH_MINT:
+//     case ITEM_LAX_MINT:
+//     case ITEM_RELAXED_MINT:
+//     case ITEM_MODEST_MINT:
+//     case ITEM_MILD_MINT:
+//     case ITEM_RASH_MINT:
+//     case ITEM_QUIET_MINT:
+//     case ITEM_CALM_MINT:
+//     case ITEM_GENTLE_MINT:
+//     case ITEM_CAREFUL_MINT:
+//     case ITEM_SASSY_MINT:
+//     case ITEM_TIMID_MINT:
+//     case ITEM_HASTY_MINT:
+//     case ITEM_JOLLY_MINT:
+//     case ITEM_NAIVE_MINT:
+//     case ITEM_SERIOUS_MINT:
+
+//     case ITEM_DYNAMAX_CANDY:
+
+//     case ITEM_SUPER_LURE:
+//     case ITEM_MAX_LURE:
+
+//     case ITEM_WISHING_PIECE:
+//     case ITEM_GALARICA_TWIG:
+//     case ITEM_ARMORITE_ORE:
+//     case ITEM_DYNITE_ORE:
+
+//     // Z-Crystals
+//     case ITEM_NORMALIUM_Z:
+//     case ITEM_FIRIUM_Z:
+//     case ITEM_WATERIUM_Z:
+//     case ITEM_ELECTRIUM_Z:
+//     case ITEM_GRASSIUM_Z:
+//     case ITEM_ICIUM_Z:
+//     case ITEM_FIGHTINIUM_Z:
+//     case ITEM_POISONIUM_Z:
+//     case ITEM_GROUNDIUM_Z:
+//     case ITEM_FLYINIUM_Z:
+//     case ITEM_PSYCHIUM_Z:
+//     case ITEM_BUGINIUM_Z:
+//     case ITEM_ROCKIUM_Z:
+//     case ITEM_GHOSTIUM_Z:
+//     case ITEM_DRAGONIUM_Z:
+//     case ITEM_DARKINIUM_Z:
+//     case ITEM_STEELIUM_Z:
+//     case ITEM_FAIRIUM_Z:
+//     case ITEM_PIKANIUM_Z:
+//     case ITEM_EEVIUM_Z:
+//     case ITEM_SNORLIUM_Z:
+//     case ITEM_MEWNIUM_Z:
+//     case ITEM_DECIDIUM_Z:
+//     case ITEM_INCINIUM_Z:
+//     case ITEM_PRIMARIUM_Z:
+//     case ITEM_LYCANIUM_Z:
+//     case ITEM_MIMIKIUM_Z:
+//     case ITEM_KOMMONIUM_Z:
+//     case ITEM_TAPUNIUM_Z:
+//     case ITEM_SOLGANIUM_Z:
+//     case ITEM_LUNALIUM_Z:
+//     case ITEM_MARSHADIUM_Z:
+//     case ITEM_ALORAICHIUM_Z:
+//     case ITEM_PIKASHUNIUM_Z:
+//     case ITEM_ULTRANECROZIUM_Z:
+
+//     // TMs/HMs
+//     case ITEM_TM169:
+//     case ITEM_TM170:
+//     case ITEM_TM171:
+//     case ITEM_TM172:
+//     case ITEM_TM173:
+//     case ITEM_TM174:
+//     case ITEM_TM175:
+//     case ITEM_TM176:
+//     case ITEM_TM177:
+//     case ITEM_TM178:
+//     case ITEM_TM179:
+//     case ITEM_TM180:
+//     case ITEM_TM181:
+//     case ITEM_TM182:
+//     case ITEM_TM183:
+//     case ITEM_TM184:
+//     case ITEM_TM185:
+//     case ITEM_TM186:
+//     case ITEM_TM187:
+//     case ITEM_TM188:
+//     case ITEM_TM189:
+//     case ITEM_TM190:
+//     case ITEM_TM191:
+//     case ITEM_TM192:
+//     case ITEM_TM193:
+//     case ITEM_TM194:
+//     case ITEM_TM195:
+//     case ITEM_TM196:
+//     case ITEM_TM197:
+//     case ITEM_TM198:
+//     case ITEM_TM199:
+//     case ITEM_TM200:
+//     case ITEM_TM201:
+//     case ITEM_TM202:
+//     case ITEM_TM203:
+//     case ITEM_TM204:
+//     case ITEM_TM205:
+//     case ITEM_TM206:
+//     case ITEM_TM207:
+//     case ITEM_TM208:
+//     case ITEM_TM209:
+//     case ITEM_TM210:
+//     case ITEM_TM211:
+//     case ITEM_TM212:
+//     case ITEM_TM213:
+//     case ITEM_TM214:
+//     case ITEM_TM215:
+//     case ITEM_TM216:
+//     case ITEM_TM217:
+//     case ITEM_TM218:
+//     case ITEM_TM219:
+//     case ITEM_TM220:
+//     case ITEM_TM221:
+//     case ITEM_TM222:
+//     case ITEM_TM223:
+//     case ITEM_TM224:
+//     case ITEM_TM225:
+//     case ITEM_TM226:
+//     case ITEM_TM227:
+//     case ITEM_TM228:
+//     case ITEM_TM229:
+//     case ITEM_TM230:
+//     case ITEM_TM231:
+//     case ITEM_TM232:
+//     case ITEM_TM233:
+//     case ITEM_TM234:
+//     case ITEM_TM235:
+//     case ITEM_TM236:
+//     case ITEM_TM237:
+//     case ITEM_TM238:
+//     case ITEM_TM239:
+//     case ITEM_TM240:
+//     case ITEM_TM241:
+//     case ITEM_TM242:
+
+//     case ITEM_HM01:
+//     case ITEM_HM02:
+//     case ITEM_HM03:
+//     case ITEM_HM04:
+//     case ITEM_HM05:
+//     case ITEM_HM06:
+//     case ITEM_HM07:
+//     case ITEM_HM08:
+
+//     case ITEM_DNA_SPLICERS:
+//     case ITEM_ZYGARDE_CUBE:
+//     case ITEM_N_SOLARIZER:
+//     case ITEM_N_LUNARIZER:
+//     case ITEM_REINS_OF_UNITY:
+
+//     // Battle Mechanic Key Items
+//     case ITEM_Z_POWER_RING:
+//     case ITEM_DYNAMAX_BAND:
+
+//     // Misc. Key Items
+//     case ITEM_BICYCLE:
+//     case ITEM_TOWN_MAP:
+//     case ITEM_VS_SEEKER:
+//     case ITEM_TM_CASE:
+//     case ITEM_BERRY_POUCH:
+//     case ITEM_POKEMON_BOX_LINK:
+//     case ITEM_POKE_RADAR:
+//     case ITEM_POKE_FLUTE:
+//     case ITEM_FAME_CHECKER:
+//     case ITEM_TEACHY_TV:
+
+//     // Story Key Items
+//     case ITEM_SS_TICKET:
+//     case ITEM_EON_TICKET:
+//     case ITEM_MYSTIC_TICKET:
+//     case ITEM_AURORA_TICKET:
+//     case ITEM_OLD_SEA_MAP:
+//     case ITEM_LETTER:
+//     case ITEM_DEVON_PARTS:
+//     case ITEM_GO_GOGGLES:
+//     case ITEM_DEVON_SCOPE:
+//     case ITEM_BASEMENT_KEY:
+//     case ITEM_SCANNER:
+//     case ITEM_STORAGE_KEY:
+//     case ITEM_KEY_TO_ROOM_1:
+//     case ITEM_KEY_TO_ROOM_2:
+//     case ITEM_KEY_TO_ROOM_4:
+//     case ITEM_KEY_TO_ROOM_6:
+//     case ITEM_METEORITE:
+//     case ITEM_MAGMA_EMBLEM:
+//     case ITEM_CONTEST_PASS:
+//     case ITEM_PARCEL:
+//     case ITEM_SECRET_KEY:
+//     case ITEM_BIKE_VOUCHER:
+//     case ITEM_GOLD_TEETH:
+//     case ITEM_CARD_KEY:
+//     case ITEM_LIFT_KEY:
+//     case ITEM_SILPH_SCOPE:
+//     case ITEM_TRI_PASS:
+//     case ITEM_RAINBOW_PASS:
+//     case ITEM_TEA:
+//     case ITEM_RUBY:
+//     case ITEM_SAPPHIRE:
+
+//     // GEN IX ITEMS
+//     case ITEM_SCROLL_OF_DARKNESS:
+//     case ITEM_SCROLL_OF_WATERS:
+//     case ITEM_TERA_ORB:
+//     case ITEM_TINY_BAMBOO_SHOOT:
+
+//     case ITEM_BUG_TERA_SHARD:
+//     case ITEM_DARK_TERA_SHARD:
+//     case ITEM_DRAGON_TERA_SHARD:
+//     case ITEM_ELECTRIC_TERA_SHARD:
+//     case ITEM_FAIRY_TERA_SHARD:
+//     case ITEM_FIGHTING_TERA_SHARD:
+//     case ITEM_FIRE_TERA_SHARD:
+//     case ITEM_FLYING_TERA_SHARD:
+//     case ITEM_GHOST_TERA_SHARD:
+//     case ITEM_GRASS_TERA_SHARD:
+//     case ITEM_GROUND_TERA_SHARD:
+//     case ITEM_ICE_TERA_SHARD:
+//     case ITEM_NORMAL_TERA_SHARD:
+//     case ITEM_POISON_TERA_SHARD:
+//     case ITEM_PSYCHIC_TERA_SHARD:
+//     case ITEM_ROCK_TERA_SHARD:
+//     case ITEM_STEEL_TERA_SHARD:
+//     case ITEM_WATER_TERA_SHARD:
+
+//     case ITEM_HEALTH_MOCHI:
+//     case ITEM_MUSCLE_MOCHI:
+//     case ITEM_RESIST_MOCHI:
+//     case ITEM_GENIUS_MOCHI:
+//     case ITEM_CLEVER_MOCHI:
+//     case ITEM_SWIFT_MOCHI:
+//     case ITEM_FRESH_START_MOCHI:
+//     case ITEM_GLIMMERING_CHARM:
+//     case ITEM_822: // TWV0YWwgQWxsb3k=
+//     case ITEM_823: // U3RlbGxhciBUZXJhIFNoYXJk
+//     case ITEM_POKE_VIAL:
+//     case ITEM_INFINITE_CANDY:
+//     case ITEM_INFINITE_REPEL:
+//     case ITEM_STELLAR_TERA_SHARD:
+//         return TRUE;
+//     }
+
+//     return FALSE;
+// }
+
 static void DebugAction_Give_Item_SelectId(u8 taskId)
 {
     if (JOY_NEW(DPAD_ANY))
@@ -2986,12 +3305,18 @@ static void DebugAction_Give_Item_SelectId(u8 taskId)
             gTasks[taskId].tInput += sPowersOfTen[gTasks[taskId].tDigit];
             if (gTasks[taskId].tInput >= ITEMS_COUNT)
                 gTasks[taskId].tInput = ITEMS_COUNT - 1;
+
+            //while (IsIllegalItem(gTasks[taskId].tInput) && gTasks[taskId].tInput < ITEMS_COUNT) 
+            //    gTasks[taskId].tInput++; // Increment by 1 to skip illegal items
         }
         if (JOY_NEW(DPAD_DOWN))
         {
             gTasks[taskId].tInput -= sPowersOfTen[gTasks[taskId].tDigit];
             if (gTasks[taskId].tInput < 1)
                 gTasks[taskId].tInput = 1;
+
+            //while (IsIllegalItem(gTasks[taskId].tInput) && gTasks[taskId].tInput > 1) 
+            //    gTasks[taskId].tInput--; // Decrement by 1 to skip illegal items
         }
         if (JOY_NEW(DPAD_LEFT))
         {
@@ -3293,6 +3618,12 @@ static void DebugAction_Give_Pokemon_SelectLevel(u8 taskId)
         if (JOY_NEW(DPAD_UP))
         {
             gTasks[taskId].tInput += sPowersOfTen[gTasks[taskId].tDigit];
+            // if(FlagGet(FLAG_GIVE_MENU))
+            // {
+            //     u32 levelCap = GetCurrentLevelCap();
+            //     if(gTasks[taskId].tInput > (levelCap))
+            //     gTasks[taskId].tInput = levelCap;
+            // }
             if (gTasks[taskId].tInput > MAX_LEVEL)
                 gTasks[taskId].tInput = MAX_LEVEL;
         }
@@ -3434,7 +3765,7 @@ static void DebugAction_Give_Pokemon_SelectNature(u8 taskId)
         StringCopy(gStringVar2, gText_DigitIndicator[gTasks[taskId].tDigit]);
         ConvertIntToDecimalStringN(gStringVar3, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, 2);
         StringCopyPadded(gStringVar3, gStringVar3, CHAR_SPACE, 15);
-        abilityId = GetAbilityBySpecies(sDebugMonData->species, 0);
+        abilityId = GetAbilityBySpecies(sDebugMonData->species, 0, FALSE);
         StringCopy(gStringVar1, gAbilitiesInfo[abilityId].name);
         StringExpandPlaceholders(gStringVar4, sDebugText_PokemonAbility);
         AddTextPrinterParameterized(gTasks[taskId].tSubWindowId, DEBUG_MENU_FONT, gStringVar4, 1, 1, 0, NULL);
@@ -3472,11 +3803,11 @@ static void DebugAction_Give_Pokemon_SelectAbility(u8 taskId)
                 gTasks[taskId].tInput = 0;
         }
 
-        while (GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i) == ABILITY_NONE && gTasks[taskId].tInput - i < NUM_ABILITY_SLOTS)
+        while (GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i, FALSE) == ABILITY_NONE && gTasks[taskId].tInput - i < NUM_ABILITY_SLOTS)
         {
             i++;
         }
-        abilityId = GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i);
+        abilityId = GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i, FALSE);
         StringCopy(gStringVar2, gText_DigitIndicator[gTasks[taskId].tDigit]);
         ConvertIntToDecimalStringN(gStringVar3, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, 2);
         StringCopyPadded(gStringVar3, gStringVar3, CHAR_SPACE, 15);
@@ -3658,6 +3989,13 @@ static u32 GetDebugPokemonTotalEV(void)
 static void DebugAction_Give_Pokemon_SelectEVs(u8 taskId)
 {
     u16 totalEV = GetDebugPokemonTotalEV();
+    u16 evPerStatToUseInCalc = MAX_PER_STAT_EVS;
+    u16 maxTotalEvToUseInCalc = MAX_TOTAL_EVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+    {
+        evPerStatToUseInCalc = 0;
+        maxTotalEvToUseInCalc = 0;
+    }
 
     if (JOY_NEW(DPAD_ANY))
     {
@@ -3666,8 +4004,8 @@ static void DebugAction_Give_Pokemon_SelectEVs(u8 taskId)
         if (JOY_NEW(DPAD_UP))
         {
             gTasks[taskId].tInput += sPowersOfTen[gTasks[taskId].tDigit];
-            if (gTasks[taskId].tInput > MAX_PER_STAT_EVS)
-                gTasks[taskId].tInput = MAX_PER_STAT_EVS;
+            if (gTasks[taskId].tInput > evPerStatToUseInCalc)
+                gTasks[taskId].tInput = evPerStatToUseInCalc;
         }
         if (JOY_NEW(DPAD_DOWN))
         {
@@ -3779,7 +4117,7 @@ static void DebugAction_Give_Pokemon_SelectEVs(u8 taskId)
             gTasks[taskId].tDigit = 0;
             gTasks[taskId].tIterator = 0;
 
-            if (totalEV > MAX_TOTAL_EVS)
+            if (totalEV > maxTotalEvToUseInCalc)
             {
                 sDebugMonData->mon_ev_hp = 0;
                 sDebugMonData->mon_ev_atk = 0;
@@ -4006,11 +4344,11 @@ static void DebugAction_Give_Pokemon_ComplexCreateMon(u8 taskId) //https://githu
     }
 
     //Ability
-    if (abilityNum == 0xFF || GetAbilityBySpecies(species, abilityNum) == 0)
+    if (abilityNum == 0xFF || GetAbilityBySpecies(species, abilityNum, FALSE) == 0)
     {
         do {
             abilityNum = Random() % 3;  // includes hidden abilities
-        } while (GetAbilityBySpecies(species, abilityNum) == 0);
+        } while (GetAbilityBySpecies(species, abilityNum, FALSE) == 0);
     }
 
     SetMonData(&mon, MON_DATA_ABILITY_NUM, &abilityNum);
@@ -4532,23 +4870,6 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_ENCOUNTER_CHAMPION) \
     X(MUS_CREDITS) \
     X(MUS_END) \
-    X(MUS_B_FRONTIER) \
-    X(MUS_B_ARENA) \
-    X(MUS_OBTAIN_B_POINTS) \
-    X(MUS_REGISTER_MATCH_CALL) \
-    X(MUS_B_PYRAMID) \
-    X(MUS_B_PYRAMID_TOP) \
-    X(MUS_B_PALACE) \
-    X(MUS_RAYQUAZA_APPEARS) \
-    X(MUS_B_TOWER) \
-    X(MUS_OBTAIN_SYMBOL) \
-    X(MUS_B_DOME) \
-    X(MUS_B_PIKE) \
-    X(MUS_B_FACTORY) \
-    X(MUS_VS_RAYQUAZA) \
-    X(MUS_VS_FRONTIER_BRAIN) \
-    X(MUS_VS_MEW) \
-    X(MUS_B_DOME_LOBBY) \
     X(MUS_VS_WILD) \
     X(MUS_VS_AQUA_MAGMA) \
     X(MUS_VS_TRAINER) \
@@ -4634,57 +4955,391 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_RG_TRAINER_TOWER) \
     X(MUS_RG_SLOW_PALLET) \
     X(MUS_RG_TEACHY_TV_MENU) \
-    X(PH_TRAP_BLEND) \
-    X(PH_TRAP_HELD) \
-    X(PH_TRAP_SOLO) \
-    X(PH_FACE_BLEND) \
-    X(PH_FACE_HELD) \
-    X(PH_FACE_SOLO) \
-    X(PH_CLOTH_BLEND) \
-    X(PH_CLOTH_HELD) \
-    X(PH_CLOTH_SOLO) \
-    X(PH_DRESS_BLEND) \
-    X(PH_DRESS_HELD) \
-    X(PH_DRESS_SOLO) \
-    X(PH_FLEECE_BLEND) \
-    X(PH_FLEECE_HELD) \
-    X(PH_FLEECE_SOLO) \
-    X(PH_KIT_BLEND) \
-    X(PH_KIT_HELD) \
-    X(PH_KIT_SOLO) \
-    X(PH_PRICE_BLEND) \
-    X(PH_PRICE_HELD) \
-    X(PH_PRICE_SOLO) \
-    X(PH_LOT_BLEND) \
-    X(PH_LOT_HELD) \
-    X(PH_LOT_SOLO) \
-    X(PH_GOAT_BLEND) \
-    X(PH_GOAT_HELD) \
-    X(PH_GOAT_SOLO) \
-    X(PH_THOUGHT_BLEND) \
-    X(PH_THOUGHT_HELD) \
-    X(PH_THOUGHT_SOLO) \
-    X(PH_CHOICE_BLEND) \
-    X(PH_CHOICE_HELD) \
-    X(PH_CHOICE_SOLO) \
-    X(PH_MOUTH_BLEND) \
-    X(PH_MOUTH_HELD) \
-    X(PH_MOUTH_SOLO) \
-    X(PH_FOOT_BLEND) \
-    X(PH_FOOT_HELD) \
-    X(PH_FOOT_SOLO) \
-    X(PH_GOOSE_BLEND) \
-    X(PH_GOOSE_HELD) \
-    X(PH_GOOSE_SOLO) \
-    X(PH_STRUT_BLEND) \
-    X(PH_STRUT_HELD) \
-    X(PH_STRUT_SOLO) \
-    X(PH_CURE_BLEND) \
-    X(PH_CURE_HELD) \
-    X(PH_CURE_SOLO) \
-    X(PH_NURSE_BLEND) \
-    X(PH_NURSE_HELD) \
-    X(PH_NURSE_SOLO) \
+    X(MUS_ABNORMAL_WEATHER) \
+    X(MUS_B_FRONTIER) \
+    X(MUS_B_ARENA) \
+    X(MUS_OBTAIN_B_POINTS) \
+    X(MUS_REGISTER_MATCH_CALL) \
+    X(MUS_B_PYRAMID) \
+    X(MUS_B_PYRAMID_TOP) \
+    X(MUS_B_PALACE) \
+    X(MUS_RAYQUAZA_APPEARS) \
+    X(MUS_B_TOWER) \
+    X(MUS_OBTAIN_SYMBOL) \
+    X(MUS_B_DOME) \
+    X(MUS_B_PIKE) \
+    X(MUS_B_FACTORY) \
+    X(MUS_VS_RAYQUAZA) \
+    X(MUS_VS_FRONTIER_BRAIN) \
+    X(MUS_VS_MEW) \
+    X(MUS_B_DOME_LOBBY) \
+    X(MUS_DP_TWINLEAF_DAY) \
+    X(MUS_DP_SANDGEM_DAY) \
+    X(MUS_DP_FLOAROMA_DAY) \
+    X(MUS_DP_SOLACEON_DAY) \
+    X(MUS_DP_ROUTE225_DAY) \
+    X(MUS_DP_VALOR_LAKEFRONT_DAY) \
+    X(MUS_DP_JUBILIFE_DAY) \
+    X(MUS_DP_CANALAVE_DAY) \
+    X(MUS_DP_OREBURGH_DAY) \
+    X(MUS_DP_ETERNA_DAY) \
+    X(MUS_DP_HEARTHOME_DAY) \
+    X(MUS_DP_VEILSTONE_DAY) \
+    X(MUS_DP_SUNYSHORE_DAY) \
+    X(MUS_DP_SNOWPOINT_DAY) \
+    X(MUS_DP_POKEMON_LEAGUE_DAY) \
+    X(MUS_DP_FIGHT_AREA_DAY) \
+    X(MUS_DP_ROUTE201_DAY) \
+    X(MUS_DP_ROUTE203_DAY) \
+    X(MUS_DP_ROUTE205_DAY) \
+    X(MUS_DP_ROUTE206_DAY) \
+    X(MUS_DP_ROUTE209_DAY) \
+    X(MUS_DP_ROUTE210_DAY) \
+    X(MUS_DP_ROUTE216_DAY) \
+    X(MUS_DP_ROUTE228_DAY) \
+    X(MUS_DP_ROWAN) \
+    X(MUS_DP_TV_BROADCAST) \
+    X(MUS_DP_TWINLEAF_NIGHT) \
+    X(MUS_DP_SANDGEM_NIGHT) \
+    X(MUS_DP_FLOAROMA_NIGHT) \
+    X(MUS_DP_SOLACEON_NIGHT) \
+    X(MUS_DP_ROUTE225_NIGHT) \
+    X(MUS_DP_VALOR_LAKEFRONT_NIGHT) \
+    X(MUS_DP_JUBILIFE_NIGHT) \
+    X(MUS_DP_CANALAVE_NIGHT) \
+    X(MUS_DP_OREBURGH_NIGHT) \
+    X(MUS_DP_ETERNA_NIGHT) \
+    X(MUS_DP_HEARTHOME_NIGHT) \
+    X(MUS_DP_VEILSTONE_NIGHT) \
+    X(MUS_DP_SUNYSHORE_NIGHT) \
+    X(MUS_DP_SNOWPOINT_NIGHT) \
+    X(MUS_DP_POKEMON_LEAGUE_NIGHT) \
+    X(MUS_DP_FIGHT_AREA_NIGHT) \
+    X(MUS_DP_ROUTE201_NIGHT) \
+    X(MUS_DP_ROUTE203_NIGHT) \
+    X(MUS_DP_ROUTE205_NIGHT) \
+    X(MUS_DP_ROUTE206_NIGHT) \
+    X(MUS_DP_ROUTE209_NIGHT) \
+    X(MUS_DP_ROUTE210_NIGHT) \
+    X(MUS_DP_ROUTE216_NIGHT) \
+    X(MUS_DP_ROUTE228_NIGHT) \
+    X(MUS_DP_UNDERGROUND) \
+    X(MUS_DP_FLAG_CAPTURED) \
+    X(MUS_DP_VICTORY_ROAD) \
+    X(MUS_DP_ETERNA_FOREST) \
+    X(MUS_DP_OLD_CHATEAU) \
+    X(MUS_DP_LAKE_CAVERNS) \
+    X(MUS_DP_AMITY_SQUARE) \
+    X(MUS_DP_GALACTIC_HQ) \
+    X(MUS_DP_GALACTIC_ETERNA_BUILDING) \
+    X(MUS_DP_GREAT_MARSH) \
+    X(MUS_DP_LAKE) \
+    X(MUS_DP_MT_CORONET) \
+    X(MUS_DP_SPEAR_PILLAR) \
+    X(MUS_DP_STARK_MOUNTAIN) \
+    X(MUS_DP_OREBURGH_GATE) \
+    X(MUS_DP_OREBURGH_MINE) \
+    X(MUS_DP_INSIDE_POKEMON_LEAGUE) \
+    X(MUS_DP_HALL_OF_FAME_ROOM) \
+    X(MUS_DP_POKE_CENTER_DAY) \
+    X(MUS_DP_POKE_CENTER_NIGHT) \
+    X(MUS_DP_GYM) \
+    X(MUS_DP_ROWAN_LAB) \
+    X(MUS_DP_CONTEST_LOBBY) \
+    X(MUS_DP_POKE_MART) \
+    X(MUS_DP_GAME_CORNER) \
+    X(MUS_DP_B_TOWER) \
+    X(MUS_DP_TV_STATION) \
+    X(MUS_DP_GALACTIC_HQ_BASEMENT) \
+    X(MUS_DP_AZURE_FLUTE) \
+    X(MUS_DP_HALL_OF_ORIGIN) \
+    X(MUS_DP_GTS) \
+    X(MUS_DP_ENCOUNTER_BOY) \
+    X(MUS_DP_ENCOUNTER_TWINS) \
+    X(MUS_DP_ENCOUNTER_INTENSE) \
+    X(MUS_DP_ENCOUNTER_GALACTIC) \
+    X(MUS_DP_ENCOUNTER_LADY) \
+    X(MUS_DP_ENCOUNTER_HIKER) \
+    X(MUS_DP_ENCOUNTER_RICH) \
+    X(MUS_DP_ENCOUNTER_SAILOR) \
+    X(MUS_DP_ENCOUNTER_SUSPICIOUS) \
+    X(MUS_DP_ENCOUNTER_ACE_TRAINER) \
+    X(MUS_DP_ENCOUNTER_GIRL) \
+    X(MUS_DP_ENCOUNTER_CYCLIST) \
+    X(MUS_DP_ENCOUNTER_ARTIST) \
+    X(MUS_DP_ENCOUNTER_ELITE_FOUR) \
+    X(MUS_DP_ENCOUNTER_CHAMPION) \
+    X(MUS_DP_VS_WILD) \
+    X(MUS_DP_VS_GYM_LEADER) \
+    X(MUS_DP_VS_UXIE_MESPRIT_AZELF) \
+    X(MUS_DP_VS_TRAINER) \
+    X(MUS_DP_VS_GALACTIC_BOSS) \
+    X(MUS_DP_VS_DIALGA_PALKIA) \
+    X(MUS_DP_VS_CHAMPION) \
+    X(MUS_DP_VS_GALACTIC) \
+    X(MUS_DP_VS_RIVAL) \
+    X(MUS_DP_VS_ARCEUS) \
+    X(MUS_DP_VS_LEGEND) \
+    X(MUS_DP_VICTORY_WILD) \
+    X(MUS_DP_VICTORY_TRAINER) \
+    X(MUS_DP_VICTORY_GYM_LEADER) \
+    X(MUS_DP_VICTORY_CHAMPION) \
+    X(MUS_DP_VICTORY_GALACTIC) \
+    X(MUS_DP_VICTORY_ELITE_FOUR) \
+    X(MUS_DP_VS_GALACTIC_COMMANDER) \
+    X(MUS_DP_CONTEST) \
+    X(MUS_DP_VS_ELITE_FOUR) \
+    X(MUS_DP_FOLLOW_ME) \
+    X(MUS_DP_RIVAL) \
+    X(MUS_DP_LAKE_EVENT) \
+    X(MUS_DP_EVOLUTION) \
+    X(MUS_DP_LUCAS) \
+    X(MUS_DP_DAWN) \
+    X(MUS_DP_LEGEND_APPEARS) \
+    X(MUS_DP_CATASTROPHE) \
+    X(MUS_DP_POKE_RADAR) \
+    X(MUS_DP_SURF) \
+    X(MUS_DP_CYCLING) \
+    X(MUS_DP_LETS_GO_TOGETHER) \
+    X(MUS_DP_TV_END) \
+    X(MUS_DP_LEVEL_UP) \
+    X(MUS_DP_EVOLVED) \
+    X(MUS_DP_OBTAIN_KEY_ITEM) \
+    X(MUS_DP_OBTAIN_ITEM) \
+    X(MUS_DP_CAUGHT_INTRO) \
+    X(MUS_DP_DEX_RATING) \
+    X(MUS_DP_OBTAIN_BADGE) \
+    X(MUS_DP_POKETCH) \
+    X(MUS_DP_OBTAIN_TMHM) \
+    X(MUS_DP_OBTAIN_ACCESSORY) \
+    X(MUS_DP_MOVE_DELETED) \
+    X(MUS_DP_HEAL) \
+    X(MUS_DP_OBTAIN_BERRY) \
+    X(MUS_DP_CONTEST_DRESS_UP) \
+    X(MUS_DP_HALL_OF_FAME) \
+    X(MUS_DP_INTRO) \
+    X(MUS_DP_TITLE) \
+    X(MUS_DP_MYSTERY_GIFT) \
+    X(MUS_DP_WFC) \
+    X(MUS_DP_DANCE_EASY) \
+    X(MUS_DP_DANCE_DIFFICULT) \
+    X(MUS_DP_CONTEST_RESULTS) \
+    X(MUS_DP_CONTEST_WINNER) \
+    X(MUS_DP_POFFINS) \
+    X(MUS_DP_SLOTS_WIN) \
+    X(MUS_DP_SLOTS_JACKPOT) \
+    X(MUS_DP_CREDITS) \
+    X(MUS_DP_SLOTS_UNUSED) \
+    X(MUS_PL_FIGHT_AREA_DAY) \
+    X(MUS_PL_TV_BROADCAST) \
+    X(MUS_PL_TV_END) \
+    X(MUS_PL_INTRO) \
+    X(MUS_PL_TITLE) \
+    X(MUS_PL_DISTORTION_WORLD) \
+    X(MUS_PL_B_ARCADE) \
+    X(MUS_PL_B_HALL) \
+    X(MUS_PL_B_CASTLE) \
+    X(MUS_PL_B_FACTORY) \
+    X(MUS_PL_GLOBAL_TERMINAL) \
+    X(MUS_PL_LILYCOVE_BOSSA_NOVA) \
+    X(MUS_PL_LOOKER) \
+    X(MUS_PL_VS_GIRATINA) \
+    X(MUS_PL_VS_FRONTIER_BRAIN) \
+    X(MUS_PL_VICTORY_FRONTIER_BRAIN) \
+    X(MUS_PL_VS_REGI) \
+    X(MUS_PL_CONTEST_COOL) \
+    X(MUS_PL_CONTEST_SMART) \
+    X(MUS_PL_CONTEST_CUTE) \
+    X(MUS_PL_CONTEST_TOUGH) \
+    X(MUS_PL_CONTEST_BEAUTY) \
+    X(MUS_PL_SPIN_TRADE) \
+    X(MUS_PL_WIFI_MINIGAMES) \
+    X(MUS_PL_WIFI_PLAZA) \
+    X(MUS_PL_WIFI_PARADE) \
+    X(MUS_PL_GIRATINA_APPEARS_1) \
+    X(MUS_PL_GIRATINA_APPEARS_2) \
+    X(MUS_PL_MYSTERY_GIFT) \
+    X(MUS_PL_TWINLEAF_MUSIC_BOX) \
+    X(MUS_PL_OBTAIN_ARCADE_POINTS) \
+    X(MUS_PL_OBTAIN_CASTLE_POINTS) \
+    X(MUS_PL_OBTAIN_B_POINTS) \
+    X(MUS_PL_WIN_MINIGAME) \
+    X(MUS_HG_INTRO) \
+    X(MUS_HG_TITLE) \
+    X(MUS_HG_NEW_GAME) \
+    X(MUS_HG_EVOLUTION) \
+    X(MUS_HG_EVOLUTION_NO_INTRO) \
+    X(MUS_HG_CYCLING) \
+    X(MUS_HG_SURF) \
+    X(MUS_HG_E_DENDOURIRI) \
+    X(MUS_HG_CREDITS) \
+    X(MUS_HG_END) \
+    X(MUS_HG_NEW_BARK) \
+    X(MUS_HG_CHERRYGROVE) \
+    X(MUS_HG_VIOLET) \
+    X(MUS_HG_AZALEA) \
+    X(MUS_HG_GOLDENROD) \
+    X(MUS_HG_ECRUTEAK) \
+    X(MUS_HG_CIANWOOD) \
+    X(MUS_HG_ROUTE29) \
+    X(MUS_HG_ROUTE30) \
+    X(MUS_HG_ROUTE34) \
+    X(MUS_HG_ROUTE38) \
+    X(MUS_HG_ROUTE42) \
+    X(MUS_HG_VERMILION) \
+    X(MUS_HG_PEWTER) \
+    X(MUS_HG_CERULEAN) \
+    X(MUS_HG_LAVENDER) \
+    X(MUS_HG_CELADON) \
+    X(MUS_HG_PALLET) \
+    X(MUS_HG_CINNABAR) \
+    X(MUS_HG_ROUTE1) \
+    X(MUS_HG_ROUTE3) \
+    X(MUS_HG_ROUTE11) \
+    X(MUS_HG_ROUTE24) \
+    X(MUS_HG_ROUTE26) \
+    X(MUS_HG_POKE_CENTER) \
+    X(MUS_HG_POKE_MART) \
+    X(MUS_HG_GYM) \
+    X(MUS_HG_ELM_LAB) \
+    X(MUS_HG_OAK) \
+    X(MUS_HG_DANCE_THEATER) \
+    X(MUS_HG_GAME_CORNER) \
+    X(MUS_HG_B_TOWER) \
+    X(MUS_HG_B_TOWER_RECEPTION) \
+    X(MUS_HG_SPROUT_TOWER) \
+    X(MUS_HG_UNION_CAVE) \
+    X(MUS_HG_RUINS_OF_ALPH) \
+    X(MUS_HG_NATIONAL_PARK) \
+    X(MUS_HG_BURNED_TOWER) \
+    X(MUS_HG_BELL_TOWER) \
+    X(MUS_HG_LIGHTHOUSE) \
+    X(MUS_HG_TEAM_ROCKET_HQ) \
+    X(MUS_HG_ICE_PATH) \
+    X(MUS_HG_DRAGONS_DEN) \
+    X(MUS_HG_ROCK_TUNNEL) \
+    X(MUS_HG_VIRIDIAN_FOREST) \
+    X(MUS_HG_VICTORY_ROAD) \
+    X(MUS_HG_POKEMON_LEAGUE) \
+    X(MUS_HG_FOLLOW_ME_1) \
+    X(MUS_HG_FOLLOW_ME_2) \
+    X(MUS_HG_ENCOUNTER_RIVAL) \
+    X(MUS_HG_RIVAL_EXIT) \
+    X(MUS_HG_BUG_CONTEST_PREP) \
+    X(MUS_HG_BUG_CATCHING_CONTEST) \
+    X(MUS_HG_RADIO_ROCKET) \
+    X(MUS_HG_ROCKET_TAKEOVER) \
+    X(MUS_HG_MAGNET_TRAIN) \
+    X(MUS_HG_SS_AQUA) \
+    X(MUS_HG_MT_MOON_SQUARE) \
+    X(MUS_HG_RADIO_JINGLE) \
+    X(MUS_HG_RADIO_LULLABY) \
+    X(MUS_HG_RADIO_MARCH) \
+    X(MUS_HG_RADIO_UNOWN) \
+    X(MUS_HG_RADIO_POKE_FLUTE) \
+    X(MUS_HG_RADIO_OAK) \
+    X(MUS_HG_RADIO_BUENA) \
+    X(MUS_HG_EUSINE) \
+    X(MUS_HG_CLAIR) \
+    X(MUS_HG_ENCOUNTER_GIRL_1) \
+    X(MUS_HG_ENCOUNTER_BOY_1) \
+    X(MUS_HG_ENCOUNTER_SUSPICIOUS_1) \
+    X(MUS_HG_ENCOUNTER_SAGE) \
+    X(MUS_HG_ENCOUNTER_KIMONO_GIRL) \
+    X(MUS_HG_ENCOUNTER_ROCKET) \
+    X(MUS_HG_ENCOUNTER_GIRL_2) \
+    X(MUS_HG_ENCOUNTER_BOY_2) \
+    X(MUS_HG_ENCOUNTER_SUSPICIOUS_2) \
+    X(MUS_HG_VS_WILD) \
+    X(MUS_HG_VS_TRAINER) \
+    X(MUS_HG_VS_GYM_LEADER) \
+    X(MUS_HG_VS_RIVAL) \
+    X(MUS_HG_VS_ROCKET) \
+    X(MUS_HG_VS_SUICUNE) \
+    X(MUS_HG_VS_ENTEI) \
+    X(MUS_HG_VS_RAIKOU) \
+    X(MUS_HG_VS_CHAMPION) \
+    X(MUS_HG_VS_WILD_KANTO) \
+    X(MUS_HG_VS_TRAINER_KANTO) \
+    X(MUS_HG_VS_GYM_LEADER_KANTO) \
+    X(MUS_HG_VICTORY_TRAINER) \
+    X(MUS_HG_VICTORY_WILD) \
+    X(MUS_HG_CAUGHT) \
+    X(MUS_HG_VICTORY_GYM_LEADER) \
+    X(MUS_HG_VS_HO_OH) \
+    X(MUS_HG_VS_LUGIA) \
+    X(MUS_HG_POKEATHLON_LOBBY) \
+    X(MUS_HG_POKEATHLON_START) \
+    X(MUS_HG_POKEATHLON_BEFORE) \
+    X(MUS_HG_POKEATHLON_EVENT) \
+    X(MUS_HG_POKEATHLON_FINALS) \
+    X(MUS_HG_POKEATHLON_RESULTS) \
+    X(MUS_HG_POKEATHLON_END) \
+    X(MUS_HG_POKEATHLON_WINNER) \
+    X(MUS_HG_B_FACTORY) \
+    X(MUS_HG_B_HALL) \
+    X(MUS_HG_B_ARCADE) \
+    X(MUS_HG_B_CASTLE) \
+    X(MUS_HG_VS_FRONTIER_BRAIN) \
+    X(MUS_HG_VICTORY_FRONTIER_BRAIN) \
+    X(MUS_HG_WFC) \
+    X(MUS_HG_MYSTERY_GIFT) \
+    X(MUS_HG_WIFI_PLAZA) \
+    X(MUS_HG_WIFI_MINIGAMES) \
+    X(MUS_HG_WIFI_PARADE) \
+    X(MUS_HG_GLOBAL_TERMINAL) \
+    X(MUS_HG_SPIN_TRADE) \
+    X(MUS_HG_GTS) \
+    X(MUS_HG_ROUTE47) \
+    X(MUS_HG_SAFARI_ZONE_GATE) \
+    X(MUS_HG_SAFARI_ZONE) \
+    X(MUS_HG_ETHAN) \
+    X(MUS_HG_LYRA) \
+    X(MUS_HG_GAME_CORNER_WIN) \
+    X(MUS_HG_KIMONO_GIRL_DANCE) \
+    X(MUS_HG_KIMONO_GIRL) \
+    X(MUS_HG_HO_OH_APPEARS) \
+    X(MUS_HG_LUGIA_APPEARS) \
+    X(MUS_HG_SPIKY_EARED_PICHU) \
+    X(MUS_HG_SINJOU_RUINS) \
+    X(MUS_HG_RADIO_ROUTE101) \
+    X(MUS_HG_RADIO_ROUTE201) \
+    X(MUS_HG_RADIO_TRAINER) \
+    X(MUS_HG_RADIO_VARIETY) \
+    X(MUS_HG_VS_KYOGRE_GROUDON) \
+    X(MUS_HG_POKEWALKER) \
+    X(MUS_HG_VS_ARCEUS) \
+    X(MUS_HG_HEAL) \
+    X(MUS_HG_LEVEL_UP) \
+    X(MUS_HG_OBTAIN_ITEM) \
+    X(MUS_HG_OBTAIN_KEY_ITEM) \
+    X(MUS_HG_EVOLVED) \
+    X(MUS_HG_OBTAIN_BADGE) \
+    X(MUS_HG_OBTAIN_TMHM) \
+    X(MUS_HG_OBTAIN_ACCESSORY) \
+    X(MUS_HG_MOVE_DELETED) \
+    X(MUS_HG_OBTAIN_BERRY) \
+    X(MUS_HG_DEX_RATING_1) \
+    X(MUS_HG_DEX_RATING_2) \
+    X(MUS_HG_DEX_RATING_3) \
+    X(MUS_HG_DEX_RATING_4) \
+    X(MUS_HG_DEX_RATING_5) \
+    X(MUS_HG_DEX_RATING_6) \
+    X(MUS_HG_OBTAIN_EGG) \
+    X(MUS_HG_BUG_CONTEST_1ST_PLACE) \
+    X(MUS_HG_BUG_CONTEST_2ND_PLACE) \
+    X(MUS_HG_BUG_CONTEST_3RD_PLACE) \
+    X(MUS_HG_CARD_FLIP) \
+    X(MUS_HG_CARD_FLIP_GAME_OVER) \
+    X(MUS_HG_POKEGEAR_REGISTERED) \
+    X(MUS_HG_LETS_GO_TOGETHER) \
+    X(MUS_HG_POKEATHLON_READY) \
+    X(MUS_HG_POKEATHLON_1ST_PLACE) \
+    X(MUS_HG_RECEIVE_POKEMON) \
+    X(MUS_HG_OBTAIN_ARCADE_POINTS) \
+    X(MUS_HG_OBTAIN_CASTLE_POINTS) \
+    X(MUS_HG_OBTAIN_B_POINTS) \
+    X(MUS_HG_WIN_MINIGAME) \
 
 #define SOUND_LIST_SE \
     X(SE_USE_ITEM) \
@@ -4949,13 +5604,65 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(SE_RG_DEOXYS_MOVE) \
     X(SE_RG_POKE_JUMP_SUCCESS) \
     X(SE_RG_POKE_JUMP_FAILURE) \
-    X(SE_PHONE_CALL) \
-    X(SE_PHONE_CLICK) \
+    X(SE_POKENAV_CALL) \
+    X(SE_POKENAV_HANG_UP) \
     X(SE_ARENA_TIMEUP1) \
     X(SE_ARENA_TIMEUP2) \
     X(SE_PIKE_CURTAIN_CLOSE) \
     X(SE_PIKE_CURTAIN_OPEN) \
     X(SE_SUDOWOODO_SHAKE) \
+    X(SE_DUMMY_1) \
+    X(PH_TRAP_BLEND) \
+    X(PH_TRAP_HELD) \
+    X(PH_TRAP_SOLO) \
+    X(PH_FACE_BLEND) \
+    X(PH_FACE_HELD) \
+    X(PH_FACE_SOLO) \
+    X(PH_CLOTH_BLEND) \
+    X(PH_CLOTH_HELD) \
+    X(PH_CLOTH_SOLO) \
+    X(PH_DRESS_BLEND) \
+    X(PH_DRESS_HELD) \
+    X(PH_DRESS_SOLO) \
+    X(PH_FLEECE_BLEND) \
+    X(PH_FLEECE_HELD) \
+    X(PH_FLEECE_SOLO) \
+    X(PH_KIT_BLEND) \
+    X(PH_KIT_HELD) \
+    X(PH_KIT_SOLO) \
+    X(PH_PRICE_BLEND) \
+    X(PH_PRICE_HELD) \
+    X(PH_PRICE_SOLO) \
+    X(PH_LOT_BLEND) \
+    X(PH_LOT_HELD) \
+    X(PH_LOT_SOLO) \
+    X(PH_GOAT_BLEND) \
+    X(PH_GOAT_HELD) \
+    X(PH_GOAT_SOLO) \
+    X(PH_THOUGHT_BLEND) \
+    X(PH_THOUGHT_HELD) \
+    X(PH_THOUGHT_SOLO) \
+    X(PH_CHOICE_BLEND) \
+    X(PH_CHOICE_HELD) \
+    X(PH_CHOICE_SOLO) \
+    X(PH_MOUTH_BLEND) \
+    X(PH_MOUTH_HELD) \
+    X(PH_MOUTH_SOLO) \
+    X(PH_FOOT_BLEND) \
+    X(PH_FOOT_HELD) \
+    X(PH_FOOT_SOLO) \
+    X(PH_GOOSE_BLEND) \
+    X(PH_GOOSE_HELD) \
+    X(PH_GOOSE_SOLO) \
+    X(PH_STRUT_BLEND) \
+    X(PH_STRUT_HELD) \
+    X(PH_STRUT_SOLO) \
+    X(PH_CURE_BLEND) \
+    X(PH_CURE_HELD) \
+    X(PH_CURE_SOLO) \
+    X(PH_NURSE_BLEND) \
+    X(PH_NURSE_HELD) \
+    X(PH_NURSE_SOLO) \
 
 // Create BGM list
 #define X(songId) static const u8 sBGMName_##songId[] = _(#songId);

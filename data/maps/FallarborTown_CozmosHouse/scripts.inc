@@ -1,118 +1,90 @@
+# 1 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+
+# 2 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_MapScripts::
+# 3 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.byte 0
+# 4 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
+# 5 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_EventScript_ProfCozmo::
+# 6 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	lock
+# 7 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM_RETURN, FallarborTown_CozmosHouse_EventScript_GaveMeteorite
-	checkitem ITEM_METEORITE
-	goto_if_eq VAR_RESULT, TRUE, FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite
+# 8 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	msgbox FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow, MSGBOX_DEFAULT
+# 9 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	release
+# 10 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	end
+# 11 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
-FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite::
-	call_if_unset FLAG_TEMP_2, FallarborTown_CozmosHouse_EventScript_NoticeMeteorite
-	call_if_set FLAG_TEMP_2, FallarborTown_CozmosHouse_EventScript_AskForMeteorite
-	goto_if_eq VAR_RESULT, NO, FallarborTown_CozmosHouse_EventScript_DeclineGiveMeteorite
-	msgbox FallarborTown_CozmosHouse_Text_PleaseUseThisTM, MSGBOX_DEFAULT
-	giveitem ITEM_TM_RETURN
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setvar VAR_0x8004, ITEM_METEORITE
-	call Common_EventScript_PlayerHandedOverTheItem
-	setflag FLAG_RECEIVED_TM_RETURN
-	msgbox FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch, MSGBOX_DEFAULT
-	release
-	end
-
-FallarborTown_CozmosHouse_EventScript_NoticeMeteorite::
-	msgbox FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow, MSGBOX_DEFAULT
-	msgbox FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt, MSGBOX_YESNO
-	return
-
-FallarborTown_CozmosHouse_EventScript_AskForMeteorite::
-	msgbox FallarborTown_CozmosHouse_Text_MayIHaveMeteorite, MSGBOX_YESNO
-	return
-
-FallarborTown_CozmosHouse_EventScript_DeclineGiveMeteorite::
-	setflag FLAG_TEMP_2
-	msgbox FallarborTown_CozmosHouse_Text_CrushedWithDisappointment, MSGBOX_DEFAULT
-	release
-	end
-
-FallarborTown_CozmosHouse_EventScript_GaveMeteorite::
-	msgbox FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch, MSGBOX_DEFAULT
-	release
-	end
-
+# 12 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_EventScript_CozmosWife::
+# 13 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	lock
+# 14 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM_RETURN, FallarborTown_CozmosHouse_EventScript_CozmoIsHappy
+# 15 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, FallarborTown_CozmosHouse_EventScript_CozmoIsSad
+# 16 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	msgbox FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls, MSGBOX_DEFAULT
+# 17 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	release
+# 18 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	end
+# 19 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
+# 20 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_EventScript_CozmoIsSad::
+# 21 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	msgbox FallarborTown_CozmosHouse_Text_FeelSorryForCozmo, MSGBOX_DEFAULT
+# 22 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	release
+# 23 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	end
+# 24 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
-FallarborTown_CozmosHouse_EventScript_CozmoIsHappy::
-	msgbox FallarborTown_CozmosHouse_Text_CozmoIsSoHappy, MSGBOX_DEFAULT
-	release
-	end
-
+# 25 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
-	.string "PROF. COZMO: Oh…\n"
-	.string "I never should have let myself be\l"
-	.string "conned into telling TEAM MAGMA where\l"
-	.string "you can find METEORITES…\p"
-	.string "That METEORITE from METEOR FALLS…\n"
-	.string "It's never going to be mine now…$"
+# 26 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "科斯莫博士：唉……\n"
+# 27 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "我真不该被骗，\l"
+# 28 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "把能找到陨石的地方\l"
+# 29 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "告诉熔岩队……\p"
+# 30 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "流星瀑布那颗陨石……\n"
+# 31 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "再也不会属于我了……$"
+# 32 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
-FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
-	.string "Oh!\n"
-	.string "Hah?\p"
-	.string "That item…\p"
-	.string "Could it be?\p"
-	.string "Is it the METEORITE that TEAM MAGMA\n"
-	.string "took from METEOR FALLS?\p"
-	.string "Please, may I have it?\p"
-	.string "I'm not asking for it for free.\n"
-	.string "How about in exchange for this TM?$"
-
-FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
-	.string "PROF. COZMO: This TM, it represents\n"
-	.string "my feeling of gratitude.\l"
-	.string "Please use it!$"
-
-FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
-	.string "PROF. COZMO: Oh, I can't believe it.\n"
-	.string "This is really, really great!\p"
-	.string "This is really going to help my research!$"
-
+# 33 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
-	.string "PROF. COZMO: Oh, but…\n"
-	.string "I'm crushed with disappointment…$"
+# 34 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "科斯莫博士：唉，可是……\n"
+# 35 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "我真是失望透顶……$"
+# 36 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
-FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
-	.string "PROF. COZMO: Please, may I have that\n"
-	.string "METEORITE?\p"
-	.string "I'm not asking for it for free.\n"
-	.string "How about in exchange for this TM?$"
-
+# 37 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
-	.string "PROF. COZMO went off to METEOR FALLS\n"
-	.string "on ROUTE 114 with some people from\l"
-	.string "TEAM MAGMA.$"
+# 38 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "科斯莫博士和几个\n"
+# 39 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "熔岩队的人去了\l"
+# 40 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "114号道路的\l"
+# 41 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "流星瀑布。$"
+# 42 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
+# 43 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
-	.string "Poor PROF. COZMO…\n"
-	.string "He's so depressed… I feel sorry for him.$"
-
-FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
-	.string "Look at PROF. COZMO…\n"
-	.string "He's so happy! I think it's cute.$"
-
+# 44 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "可怜的科斯莫博士……\n"
+# 45 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+	.string "他那么沮丧……真让人心疼。$"

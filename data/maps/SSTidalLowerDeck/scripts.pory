@@ -1,0 +1,42 @@
+raw `
+SSTidalLowerDeck_MapScripts::
+	.byte 0
+
+SSTidalLowerDeck_EventScript_Phillip::
+	trainerbattle_single TRAINER_PHILLIP, SSTidalLowerDeck_Text_PhillipIntro, SSTidalLowerDeck_Text_PhillipDefeat
+	msgbox SSTidalLowerDeck_Text_PhillipPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalLowerDeck_EventScript_Leonard::
+	trainerbattle_single TRAINER_LEONARD, SSTidalLowerDeck_Text_LeonardIntro, SSTidalLowerDeck_Text_LeonardDefeat
+	msgbox SSTidalLowerDeck_Text_LeonardPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalLowerDeck_Text_PhillipIntro:
+	.string "啊——！打扫这么大的\n"
+	.string "地方，我累死了！\p"
+	.string "来场快速对战吧！$"
+
+SSTidalLowerDeck_Text_PhillipDefeat:
+	.string "小弟我输了！$"
+
+SSTidalLowerDeck_Text_PhillipPostBattle:
+	.string "我们是清扫兄弟！\p"
+	.string "老的倒洗涤剂，\n"
+	.string "小的负责刷！$"
+
+SSTidalLowerDeck_Text_LeonardIntro:
+	.string "这是船底。\n"
+	.string "地方很宽敞。\l"
+	.string "在这儿打宝可梦对战\l"
+	.string "没问题。$"
+
+SSTidalLowerDeck_Text_LeonardDefeat:
+	.string "大哥我输了！$"
+
+SSTidalLowerDeck_Text_LeonardPostBattle:
+	.string "我们是清扫兄弟！\p"
+	.string "老的倒洗涤剂，\n"
+	.string "小的负责刷！$"
+
+`

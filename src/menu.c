@@ -14,6 +14,7 @@
 #include "pokedex.h"
 #include "pokemon_icon.h"
 #include "region_map.h"
+#include "script_menu.h"
 #include "sound.h"
 #include "string_util.h"
 #include "strings.h"
@@ -61,6 +62,7 @@ static void WindowFunc_ClearStdWindowAndFrameToTransparent(u8, u8, u8, u8, u8, u
 static void task_free_buf_after_copying_tile_data_to_vram(u8 taskId);
 
 static EWRAM_DATA u8 sStartMenuWindowId = 0;
+static EWRAM_DATA u8 sLMenuWindowId = 0;
 static EWRAM_DATA u8 sMapNamePopupWindowId = 0;
 static EWRAM_DATA u8 sSecondaryPopupWindowId = 0;
 static EWRAM_DATA struct Menu sMenu = {0};
@@ -78,7 +80,8 @@ static const u8 sTextSpeedFrameDelays[] =
 {
     [OPTIONS_TEXT_SPEED_SLOW] = 8,
     [OPTIONS_TEXT_SPEED_MID]  = 4,
-    [OPTIONS_TEXT_SPEED_FAST] = 1
+    [OPTIONS_TEXT_SPEED_FAST] = 1,
+    [OPTIONS_TEXT_SPEED_INSTANT] = 1
 };
 
 static const struct WindowTemplate sStandardTextBox_WindowTemplates[] =
@@ -146,6 +149,7 @@ void InitStandardTextBoxWindows(void)
 {
     InitWindows(sStandardTextBox_WindowTemplates);
     sStartMenuWindowId = WINDOW_NONE;
+    sLMenuWindowId = WINDOW_NONE;
     sMapNamePopupWindowId = WINDOW_NONE;
     if (OW_POPUP_GENERATION == GEN_5)
         sSecondaryPopupWindowId = WINDOW_NONE;
@@ -331,6 +335,7 @@ static inline void *GetWindowFunc_DialogueFrame(void)
     return (gMsgIsSignPost ? WindowFunc_DrawSignFrame : WindowFunc_DrawDialogueFrame);
 }
 
+
 void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, GetWindowFunc_DialogueFrame());
@@ -338,7 +343,16 @@ void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
+    SetOverworldDialogueFlag(TRUE);
 }
+
+
+void SetOverworldDialogueFlag(bool32 val)
+{
+
+    gMain.activeOverworldDialog = val;
+}
+
 
 void DrawStdWindowFrame(u8 windowId, bool8 copyToVram)
 {
@@ -356,6 +370,7 @@ void ClearDialogWindowAndFrame(u8 windowId, bool8 copyToVram)
     ClearWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
+    SetOverworldDialogueFlag(FALSE);
 }
 
 void ClearStdWindowAndFrame(u8 windowId, bool8 copyToVram)
@@ -598,10 +613,9 @@ u32 GetPlayerTextSpeed(void)
 
 u8 GetPlayerTextSpeedDelay(void)
 {
-    u32 speed;
-    if (gSaveBlock2Ptr->optionsTextSpeed > OPTIONS_TEXT_SPEED_FAST)
-        gSaveBlock2Ptr->optionsTextSpeed = OPTIONS_TEXT_SPEED_MID;
-    speed = GetPlayerTextSpeed();
+    u32 speed = GetPlayerTextSpeed();
+    if (speed > OPTIONS_TEXT_SPEED_INSTANT)
+        speed = OPTIONS_TEXT_SPEED_FAST;
     return sTextSpeedFrameDelays[speed];
 }
 
@@ -612,9 +626,21 @@ u8 AddStartMenuWindow(u8 numActions)
     return sStartMenuWindowId;
 }
 
+u8 AddLMenuWindow(u8 numActions)
+{
+    if (sLMenuWindowId == WINDOW_NONE)
+        sLMenuWindowId = AddWindowParameterized(0, 1, 1, 8, (numActions * 2) + 2, 15, 0x139);
+    return sLMenuWindowId;
+}
+
 u8 GetStartMenuWindowId(void)
 {
     return sStartMenuWindowId;
+}
+
+u8 GetLMenuWindowId(void)
+{
+    return sLMenuWindowId;
 }
 
 void RemoveStartMenuWindow(void)
@@ -623,6 +649,15 @@ void RemoveStartMenuWindow(void)
     {
         RemoveWindow(sStartMenuWindowId);
         sStartMenuWindowId = WINDOW_NONE;
+    }
+}
+
+void RemoveLMenuWindow(void)
+{
+    if (sLMenuWindowId != WINDOW_NONE)
+    {
+        RemoveWindow(sLMenuWindowId);
+        sLMenuWindowId = WINDOW_NONE;
     }
 }
 
@@ -800,6 +835,7 @@ void ClearDialogWindowAndFrameToTransparent(u8 windowId, bool8 copyToVram)
     ClearWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
+    SetOverworldDialogueFlag(FALSE);
 }
 
 static void WindowFunc_ClearDialogWindowAndFrameNullPalette(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width, u8 height, u8 paletteNum)
@@ -2306,4 +2342,11 @@ void HBlankCB_DoublePopupWindow(void)
     {
         REG_BG0VOFS = 512 - offset;
     }
+}
+
+bool32 FieldDialogIsActive(void)
+{
+    if (gMain.activeOverworldDialog && !gMain.inBattle && !HandlingFieldDialogInput())
+        return TRUE;
+    return FALSE;
 }

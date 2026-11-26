@@ -1,0 +1,717 @@
+raw `
+.set LOCALID_VOLKNER, 3
+
+EverGrandeCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_OnTransition
+	.byte 0
+
+EverGrandeCity_OnTransition:
+	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
+	call_if_unset FLAG_BEAT_BOTH_RIVALS, Common_EventScript_SetupRivalGfxId
+	end
+
+EverGrandeCity_EventScript_VictoryRoadSign::
+	msgbox EverGrandeCity_Text_EnteringVictoryRoad, MSGBOX_SIGN
+	end
+
+EverGrandeCity_EventScript_CitySign::
+	msgbox EverGrandeCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+EverGrandeCity_EventScript_PokemonLeagueSign::
+	msgbox EverGrandeCity_Text_EnteringPokemonLeague, MSGBOX_SIGN
+	end
+
+EverGrandeCity_EventScript_Rival::
+	lock
+	faceplayer
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_EventScript_May
+	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_EventScript_Brendan
+	end
+
+EverGrandeCity_EventScript_May::
+	goto_if_set FLAG_EVERGRANDE_CITY_BEAT_RIVAL, EverGrandeCity_EventScript_BeatRivalNotDawn
+	call_if_set FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE, EverGrandeCity_EventScript_MayAskToBattleAgain
+	call_if_unset FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE, EverGrandeCity_EventScript_MayAskToBattle
+	goto_if_eq VAR_RESULT, NO, EverGrandeCity_EventScript_DeclineMayBattle
+	msgbox EverGrandeCity_Text_MayWontBeBeaten, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, EverGrandeCity_EventScript_BattleMayTreecko
+	case 1, EverGrandeCity_EventScript_BattleMayTorchic
+	case 2, EverGrandeCity_EventScript_BattleMayMudkip
+	end
+
+EverGrandeCity_EventScript_MayAskToBattleAgain::
+	msgbox EverGrandeCity_Text_MayBattleMe, MSGBOX_YESNO
+	return
+
+EverGrandeCity_EventScript_MayAskToBattle::
+	msgbox EverGrandeCity_Text_MayShoppingLetsBattle, MSGBOX_YESNO
+	return
+
+EverGrandeCity_EventScript_DeclineMayBattle::
+	setflag FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE
+	msgbox EverGrandeCity_Text_MayNotRaisingPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_EventScript_BattleMayTreecko::
+	trainerbattle_no_intro TRAINER_MAY_EVERGRANDE_TREECKO, EverGrandeCity_Text_MayDefeat
+	goto EverGrandeCity_EventScript_DefeatedMay
+	end
+
+EverGrandeCity_EventScript_BattleMayTorchic::
+	trainerbattle_no_intro TRAINER_MAY_EVERGRANDE_TORCHIC, EverGrandeCity_Text_MayDefeat
+	goto EverGrandeCity_EventScript_DefeatedMay
+	end
+
+EverGrandeCity_EventScript_BattleMayMudkip::
+	trainerbattle_no_intro TRAINER_MAY_EVERGRANDE_MUDKIP, EverGrandeCity_Text_MayDefeat
+	goto EverGrandeCity_EventScript_DefeatedMay
+	end
+
+EverGrandeCity_EventScript_DefeatedMay::
+	setflag FLAG_EVERGRANDE_CITY_BEAT_RIVAL
+	goto_if_set FLAG_BEAT_DAWN_EVERGRANDE, EverGrandeCity_EventScript_RivalsFlyAway
+	msgbox EverGrandeCity_Text_CanYouBeatDawn, MSGBOX_DEFAULT
+	releaseall
+	end
+
+EverGrandeCity_EventScript_Brendan::
+	goto_if_set FLAG_EVERGRANDE_CITY_BEAT_RIVAL, EverGrandeCity_EventScript_BeatRivalNotDawn
+	call_if_set FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE, EverGrandeCity_EventScript_BrendanAskToBattleAgain
+	call_if_unset FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE, EverGrandeCity_EventScript_BrendanAskToBattle
+	goto_if_eq VAR_RESULT, NO, EverGrandeCity_EventScript_DeclineBrendanBattle
+	msgbox EverGrandeCity_Text_BrendanWontBeBeaten, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, EverGrandeCity_EventScript_BattleBrendanTreecko
+	case 1, EverGrandeCity_EventScript_BattleBrendanTorchic
+	case 2, EverGrandeCity_EventScript_BattleBrendanMudkip
+	end
+
+EverGrandeCity_EventScript_BrendanAskToBattleAgain::
+	msgbox EverGrandeCity_Text_BrendanBattleMe, MSGBOX_YESNO
+	return
+
+EverGrandeCity_EventScript_BrendanAskToBattle::
+	msgbox EverGrandeCity_Text_BrendanShoppingLetsBattle, MSGBOX_YESNO
+	return
+
+EverGrandeCity_EventScript_DeclineBrendanBattle::
+	setflag FLAG_DECLINED_RIVAL_BATTLE_EVERGRANDE
+	msgbox EverGrandeCity_Text_BrendanNoConfidence, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_EventScript_BattleBrendanTreecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_EVERGRANDE_TREECKO, EverGrandeCity_Text_BrendanDefeat
+	goto EverGrandeCity_EventScript_DefeatedBrendan
+	end
+
+EverGrandeCity_EventScript_BattleBrendanTorchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_EVERGRANDE_TORCHIC, EverGrandeCity_Text_BrendanDefeat
+	goto EverGrandeCity_EventScript_DefeatedBrendan
+	end
+
+EverGrandeCity_EventScript_BattleBrendanMudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_EVERGRANDE_MUDKIP, EverGrandeCity_Text_BrendanDefeat
+	goto EverGrandeCity_EventScript_DefeatedBrendan
+	end
+
+EverGrandeCity_EventScript_DefeatedBrendan::
+    setflag FLAG_EVERGRANDE_CITY_BEAT_RIVAL
+	goto_if_set FLAG_BEAT_DAWN_EVERGRANDE, EverGrandeCity_EventScript_RivalsFlyAway
+	msgbox EverGrandeCity_Text_CanYouBeatDawn, MSGBOX_DEFAULT
+	releaseall
+	end
+
+EverGrandeCity_EventScript_BeatRivalNotDawn::
+	msgbox EverGrandeCity_Text_NotMovingUntilDawn, MSGBOX_DEFAULT
+	releaseall
+	end
+
+EverGrandeCity_EventScript_RivalFlyAway::
+	closemessage
+	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	delay 50
+	setfieldeffectargument 0, 1
+	dofieldeffect FLDEFF_NPCFLY_OUT
+	delay 15
+	removeobject VAR_LAST_TALKED
+	waitfieldeffect FLDEFF_NPCFLY_OUT
+	setflag FLAG_MET_RIVAL_LILYCOVE
+	release
+	end
+
+EverGrandeCity_EventScript_SetVisitedEverGrande::
+	setflag FLAG_VISITED_EVER_GRANDE_CITY
+	setvar VAR_TEMP_1, 1
+	end
+
+EverGrandeCity_EventScript_MomRoamerCall::
+	lockall
+	pokenavcall MatchCall_Text_MomRoamers
+	waitmessage
+	closemessage
+	special InitRoamer
+	setflag FLAG_ROAMER_MATCH_CALL
+	releaseall
+	end
+
+EverGrandeCity_Text_MayShoppingLetsBattle:
+	.string "{PLAYER}！小光跟我说了\n"
+	.string "水舰队、熔岩队和源治\l"
+	.string "的一切！\p"
+	.string "真不敢相信他做了那种\n"
+	.string "事，不过我更加佩服\l"
+	.string "你一个人就把他们\l"
+	.string "全阻止了！\p"
+	.string "说出来有点傻，不过我们\n"
+	.string "想在你进入冠军之路\l"
+	.string "之前，给你最后一场\l"
+	.string "考验！毕竟我们是\l"
+	.string "劲敌嘛！\p"
+	.string "别担心，我们不会让\n"
+	.string "你同时打我们两个。\l"
+	.string "不过你得打赢我们俩\l"
+	.string "才能过去！那么……\p"
+	.string "最后再打一场，\n"
+	.string "你说怎么样？$"
+
+EverGrandeCity_Text_MayNotRaisingPokemon:
+	.string "哦，那好吧。不过告诉你，\n"
+	.string "你不打赢小光和我，\l"
+	.string "我可不走！$"
+
+EverGrandeCity_Text_MayBattleMe:
+	.string "来，再和我打一场！\n"
+	.string "你说呢？$"
+
+EverGrandeCity_Text_MayWontBeBeaten:
+	.string "让你看看我变\n"
+	.string "多强了！$"
+
+EverGrandeCity_Text_MayDefeat:
+	.string "… … … … … … … …\p"
+	.string "我还记得在103号道路\n"
+	.string "和你打的那一场，\l"
+	.string "{PLAYER}。\p"
+	.string "就是那一战让你变\n"
+	.string "这么强的吧？$"
+
+EverGrandeCity_Text_MayGoingBackToLittleroot:
+	.string "总之，我打算不久\n"
+	.string "就回未白镇。\p"
+	.string "我抓了一批不错的\n"
+	.string "宝可梦，图鉴也\l"
+	.string "有进展了，所以想\l"
+	.string "回去给我爸看看。\p"
+	.string "就像小光说的，你能行，\n"
+	.string "{PLAYER}。我知道你\l"
+	.string "强得足以成为冠军！\p"
+	.string "哦，还有一件事。我们\n"
+	.string "刚到这里时，看到\l"
+	.string "小胜走进了\l"
+	.string "冠军之路。\p"
+	.string "他看起来特别坚决，\n"
+	.string "简直不像你在紫堇\l"
+	.string "打赢的那个胆小的\l"
+	.string "孩子……\p"
+	.string "就想提醒你一下！\n"
+	.string "总之，保重，{PLAYER}，\l"
+	.string "我们很快会再见的！$"
+
+
+EverGrandeCity_Text_RivalTakeKubfu:
+	.string "来，{PLAYER}，我出发前\n"
+	.string "还有最后一件礼物。$"
+
+EverGrandeCity_Text_BrendanShoppingLetsBattle:
+	.string "{PLAYER}！小光跟我说了\n"
+	.string "水舰队、熔岩队和源治\l"
+	.string "的一切！\p"
+	.string "真不敢相信他做了那种\n"
+	.string "事，不过我更加佩服\l"
+	.string "你一个人就把他们\l"
+	.string "全阻止了！\p"
+	.string "说出来有点傻，不过我们\n"
+	.string "想在你进入冠军之路\l"
+	.string "之前，给你最后一场\l"
+	.string "考验！毕竟我们是\l"
+	.string "劲敌嘛！\p"
+	.string "别担心，我们不会让\n"
+	.string "你同时打我们两个。\l"
+	.string "不过你得打赢我们俩\l"
+	.string "才能过去！那么……\p"
+	.string "最后再打一场，\n"
+	.string "你说怎么样？$"
+
+EverGrandeCity_Text_BrendanNoConfidence:
+	.string "你这么说的话……不过\n"
+	.string "没打过我可不会走！$"
+
+EverGrandeCity_Text_BrendanBattleMe:
+	.string "来啊，{PLAYER}。这次我\n"
+	.string "真的要赢你！\l"
+	.string "你说怎么样？$"
+
+EverGrandeCity_Text_BrendanWontBeBeaten:
+	.string "让你看看我变\n"
+	.string "多强了！$"
+
+EverGrandeCity_Text_BrendanDefeat:
+	.string "… … … … … … … …\p"
+	.string "我还记得在103号道路\n"
+	.string "和你打的那一场，\l"
+	.string "{PLAYER}。\p"
+	.string "就是那一战让你变\n"
+	.string "这么强的吧？$"
+
+EverGrandeCity_Text_BrendanGoingBackToLittleroot:
+	.string "总之，我……\n"
+	.string "我打算回未白镇。\p"
+	.string "你知道我在帮我爸做\n"
+	.string "图鉴。进展还挺\l"
+	.string "不错，所以该回去\l"
+	.string "给他看看。\p"
+	.string "就像小光说的，你能行，\n"
+	.string "{PLAYER}。我知道你\l"
+	.string "强得足以成为冠军！\p"
+	.string "哦，还有一件事。我们\n"
+	.string "刚到这里时，看到\l"
+	.string "小胜走进了\l"
+	.string "冠军之路。\p"
+	.string "他看起来特别坚决，\n"
+	.string "简直不像你在紫堇\l"
+	.string "打赢的那个胆小的\l"
+	.string "孩子……\p"
+	.string "就想提醒你一下！\n"
+	.string "总之，保重，{PLAYER}，\l"
+	.string "我们很快会再见的！$"
+
+EverGrandeCity_Text_EnteringVictoryRoad:
+	.string "进入冠军之路$"
+
+EverGrandeCity_Text_EnteringPokemonLeague:
+	.string "进入宝可梦联盟\n"
+	.string "中央大门$"
+
+EverGrandeCity_Text_CitySign:
+	.string "彩幽市\p"
+	.string "“花、海与宝可梦的\n"
+	.string "乐园。”$"
+
+`
+
+script EverGrandeCity_EventScript_Dawn{
+	lockall
+	applymovement(2, Common_Movement_FacePlayer)
+	goto_if_set(FLAG_BEAT_DAWN_EVERGRANDE, EverGrandeCity_EventScript_BeatDawnNotRival)
+	goto_if_set(FLAG_DECLINED_DAWN_EVERGRANDE, EverGrandeCity_EventScript_DawnRequestBattleAgain)
+	msgbox(Dawn_GreetingEvergrande, MSGBOX_YESNO)
+	goto(EverGrandeCity_EventScript_BattleDawnPrompt)
+	end
+}
+
+script EverGrandeCity_EventScript_DawnRequestBattleAgain{
+	msgbox(ReadyYetFinal, MSGBOX_YESNO)
+	goto(EverGrandeCity_EventScript_BattleDawnPrompt)
+	end
+}
+
+script EverGrandeCity_EventScript_BattleDawnPrompt{
+	call_if_eq(VAR_RESULT, YES, EverGrandeCity_EventScript_BattleDawn)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_DeclineDawnBattle)
+	closemessage
+	end
+}
+
+script EverGrandeCity_EventScript_DeclineDawnBattle {
+	setflag(FLAG_DECLINED_DAWN_EVERGRANDE)
+	msgbox(ComeBackWhenReadyFinal, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script EverGrandeCity_EventScript_BattleDawn{
+	msgbox("最后再打一场吧！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_DAWN_EVERGRANDE, Dawn_OutroEvergrande) 
+	goto(EverGrandeCity_EventScript_DawnDefeated)
+	return
+}
+
+
+script EverGrandeCity_EventScript_DawnDefeated{
+	setflag(FLAG_BEAT_DAWN_EVERGRANDE)
+	goto_if_set(FLAG_EVERGRANDE_CITY_BEAT_RIVAL, EverGrandeCity_EventScript_RivalsFlyAway)
+	msgbox(EverGrandeCity_Text_CanYouBeatRival, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_BeatDawnNotRival{
+	msgbox(EverGrandeCity_Text_NotMovingUntilRival, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+	
+
+script EverGrandeCity_EventScript_RivalsFlyAway{
+	applymovement(2, Common_Movement_WalkInPlaceFasterDown)
+	waitmovement(0)
+	msgbox(DawnFarewell, MSGBOX_DEFAULT)
+	giveitem(ITEM_TM_DRACO_METEOR)
+	msgbox(DawnFarewell2, MSGBOX_DEFAULT)
+	closemessage()
+	delay(30)
+	setfieldeffectargument(0, 1)
+	dofieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	removeobject(2)
+	waitfieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	goto(EverGrandeCity_EventScript_RivalFarewellStart)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_RivalFarewellStart{
+	applymovement(1, Common_Movement_WalkInPlaceFasterDown)
+	waitmovement(0)
+	msgbox(EverGrandeCity_Text_RivalTakeKubfu, MSGBOX_DEFAULT)
+	closemessage()
+	goto(EverGrandeCity_EventScript_RivalGiveKubfu)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_MayFarewell{
+	msgbox(EverGrandeCity_Text_MayGoingBackToLittleroot, MSGBOX_DEFAULT)
+	closemessage()
+	delay(30)
+	setfieldeffectargument(0, 1)
+	dofieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	removeobject(1)
+	waitfieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	clearflag(FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM)
+	clearflag(FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL)
+	setflag(FLAG_MET_RIVAL_LILYCOVE)
+	setflag(FLAG_BEAT_BOTH_RIVALS)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_BrendanFarewell{
+	msgbox(EverGrandeCity_Text_BrendanGoingBackToLittleroot, MSGBOX_DEFAULT)
+	closemessage()
+	delay(30)
+	setfieldeffectargument(0, 1)
+	dofieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	removeobject(1)
+	waitfieldeffect(FLDEFF_NPCFLY_OUT)
+	delay(15)
+	clearflag(FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM)
+	clearflag(FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL)
+	setflag(FLAG_MET_RIVAL_LILYCOVE)
+	setflag(FLAG_BEAT_BOTH_RIVALS)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_RivalGiveKubfu{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_KUBFU)
+	givemonrandom(SPECIES_KUBFU, 40)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, EverGrandeCity_EventScript_ReceiveKubfuParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, EverGrandeCity_EventScript_ReceiveKubfuPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script EverGrandeCity_EventScript_ReceiveKubfuParty{
+	call(EverGrandeCity_EventScript_ReceivedKubfuFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_ExplainKubfu)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(EverGrandeCity_EventScript_ExplainKubfu)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_ReceiveKubfuPC {
+	call(EverGrandeCity_EventScript_ReceivedKubfuFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_SendKubfuToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(EverGrandeCity_EventScript_SendKubfuToPC)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_SendKubfuToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(EverGrandeCity_EventScript_ExplainKubfu)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_ReceivedKubfuFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(EverGrandeCity_Text_PlayerReceivedKubfu)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_KUBFU)
+	return
+}
+	
+
+script EverGrandeCity_EventScript_ExplainKubfu {
+	msgbox(Rival_ExplainKubfu, MSGBOX_DEFAULT)
+	setflag(FLAG_RECEIVED_KUBFU)
+	checkplayergender
+	goto_if_eq(VAR_RESULT, MALE, EverGrandeCity_EventScript_MayFarewell)
+	goto_if_eq(VAR_RESULT, FEMALE, EverGrandeCity_EventScript_BrendanFarewell)
+	release
+	end
+}
+	
+text EverGrandeCity_Text_PlayerReceivedKubfu{
+	"{PLAYER}得到了熊徒弟！"
+}
+
+text Rival_ExplainKubfu{
+	"熊徒弟有两种进化方式。\n"
+	"用暗之石可以让它进化成\l"
+	"我这只一击流形态，\l"
+	"或者用水之石让它进化成\l"
+	"连击流形态。\p"
+	"两种都相当强。"
+}
+	
+	
+text Dawn_GreetingEvergrande{
+	"嘿，{PLAYER}！琉璃市那些事\n"
+	"之后，我联系了{RIVAL}，\l"
+	"我们决定来这儿等你。\p"
+	"你已经赢过我们俩好几次了，\n"
+	"不过我们说好，不能就这么\l"
+	"让你去冠军之路，\l"
+	"得再各打一场才行！\p"
+	"放心，不会让你同时打我们\n"
+	"两个。但你得把我们两个\l"
+	"都打赢才能过去！\p"
+	"怎么样，准备好来\n"
+	"最后一场对战了吗？"
+}
+
+text ReadyYetFinal{
+	"准备好最后一场对战了吗？"
+}
+
+text ComeBackWhenReadyFinal{
+	"准备好了再来，我就在\n"
+	"这儿等你！"
+}
+	
+text Dawn_OutroEvergrande{
+	"看来你漂亮地通过了\n"
+	"我最后的考验，{PLAYER}。\p"
+	"虽然我从没怀疑过，不过你\n"
+	"确实已经准备好挑战\l"
+	"宝可梦联盟了。"
+}
+
+text EverGrandeCity_Text_CanYouBeatRival{
+	"谢谢你陪我打最后这一场，\n"
+	"{PLAYER}。不过在你打赢\l"
+	"{RIVAL}之前，我不会走！"
+
+}
+	
+text EverGrandeCity_Text_NotMovingUntilRival{
+	"在你打赢小光之前，\n"
+	"我不会走！"
+}
+
+text EverGrandeCity_Text_CanYouBeatDawn{
+	"打得真好，{PLAYER}，不过\n"
+	"你也能打赢小光吗？"
+}
+	
+text EverGrandeCity_Text_NotMovingUntilDawn{
+	"在你打赢小光之前，\n"
+	"我不会走！"
+}
+
+text DawnFarewell{
+	"小光：唉，{PLAYER}，我们俩\n"
+	"又一次不是你的对手。\p"
+	"我还有一招学习器能帮你，\n"
+	"希望你在那儿能用它对付\l"
+	"四天王……等你\l"
+	"到那儿的时候。"
+}
+
+text DawnFarewell2{
+	"去成为冠军吧，{PLAYER}，\n"
+	"你一定行！\p"
+	"再会了，朋友，后会有期！"
+}
+
+
+
+script EverGrandeCity_EventScript_Volkner{
+	lockall
+	applymovement(LOCALID_VOLKNER, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_VOLKNER, EverGrandeCity_EventScript_VolknerDefeated)
+	goto_if_set(FLAG_TEMP_1, EverGrandeCity_EventScript_VolknerRequestBattleAgain)
+	msgbox(Volkner_Greeting, MSGBOX_YESNO)
+	goto(EverGrandeCity_EventScript_BattleVolknerPrompt)
+	end
+}
+
+script EverGrandeCity_EventScript_VolknerRequestBattleAgain{
+	msgbox(Volkner_ReadyYet, MSGBOX_YESNO)
+	goto(EverGrandeCity_EventScript_BattleVolknerPrompt)
+	end
+}
+
+script EverGrandeCity_EventScript_BattleVolknerPrompt{
+	call_if_eq(VAR_RESULT, YES, EverGrandeCity_EventScript_BattleVolkner)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_DeclineVolknerBattle)
+	closemessage
+	end
+}
+
+script EverGrandeCity_EventScript_DeclineVolknerBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Volkner_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script EverGrandeCity_EventScript_BattleVolkner{
+	msgbox("这会是一场电光四射的对战！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_VOLKNER, Volkner_Outro)
+	giveitem(ITEM_TM_RISING_VOLTAGE)
+	giveitem(ITEM_TM_SUPERCELL_SLAM)
+	giveitem(ITEM_EJECT_BUTTON)
+	goto(EverGrandeCity_EventScript_VolknerGiveZeraora)
+	return
+}
+	
+
+script EverGrandeCity_EventScript_VolknerDefeated{
+	msgbox(PostBattle_Volkner, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script EverGrandeCity_EventScript_VolknerGiveZeraora{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ZERAORA)
+	givemonrandom(SPECIES_ZERAORA, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, EverGrandeCity_EventScript_ReceiveZeraoraParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, EverGrandeCity_EventScript_ReceiveZeraoraPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script EverGrandeCity_EventScript_ReceiveZeraoraParty{
+	call(EverGrandeCity_EventScript_ReceivedZeraoraFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_ExplainZeraora)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(EverGrandeCity_EventScript_ExplainZeraora)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_ReceiveZeraoraPC {
+	call(EverGrandeCity_EventScript_ReceivedZeraoraFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, EverGrandeCity_EventScript_SendZeraoraToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(EverGrandeCity_EventScript_SendZeraoraToPC)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_SendZeraoraToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(EverGrandeCity_EventScript_ExplainZeraora)
+	end
+}
+	
+
+script EverGrandeCity_EventScript_ReceivedZeraoraFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(EverGrandeCity_Text_PlayerReceivedZeraora)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_ZERAORA)
+	return
+}
+	
+
+script EverGrandeCity_EventScript_ExplainZeraora {
+	msgbox(Volkner_ExplainZeraora, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text Volkner_Greeting{
+	"哇，又来了一个训练家。\n"
+	"当一个地区最强的道馆馆主，\l"
+	"其实挺无聊的……\p"
+	"………………\p"
+	"我怎么知道？我叫电次，\n"
+	"是神奥地区的\l"
+	"第八位道馆馆主。\p"
+	"通常，弱小的训练家还没到\n"
+	"我这儿就被淘汰了。\p"
+	"不过你是我在这儿遇到的\n"
+	"第四个看起来很强的训练家，\l"
+	"弄得我手都痒了，\l"
+	"想来一场吗？"
+}
+
+text Volkner_ReadyYet{
+	"准备好和我对战了吗？"
+}
+
+text Volkner_ComeBackWhenReady{
+	"真无趣，我还以为你会\n"
+	"跟普通训练家不一样。"
+}
+	
+text EverGrandeCity_Text_PlayerReceivedZeraora{
+	"{PLAYER}得到了捷拉奥拉！"
+}
+
+text Volkner_ExplainZeraora{
+	"捷拉奥拉绝对是我的最爱，\n"
+	"它电光闪烁的拳头能点亮\l"
+	"任何一场对战！\p"
+	"希望你能好好培育它！"
+}
+	
+text Volkner_Outro{
+	"哈！哇，这儿训练家可比\n"
+	"神奥强多了，真让人兴奋！"
+}
+
+
+text PostBattle_Volkner{
+	"我干脆待在这儿等更多\n"
+	"强手吧，道馆随便谁\l"
+	"来管都行。"
+}
+	

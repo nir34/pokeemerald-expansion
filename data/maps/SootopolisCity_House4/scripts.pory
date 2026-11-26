@@ -1,0 +1,125 @@
+raw `
+SootopolisCity_House4_MapScripts::
+	.byte 0
+
+`
+
+script SootopolisCity_House4_EventScript_RelicsMan{
+	lock
+	faceplayer
+
+	if(flag(FLAG_RECEIVED_ADAMANT_ORB) && flag(FLAG_RECEIVED_LUSTROUS_ORB) && flag(FLAG_RECEIVED_GRISEOUS_ORB)){
+		msgbox(SootopolisCity_House4_Text_UseThoseRelics, MSGBOX_DEFAULT)
+		release
+		end
+	}
+	
+	msgbox(SootopolisCity_House4_Text_PleaseShowLegend, MSGBOX_DEFAULT)
+	special(ChoosePartyMon)
+	waitstate
+	copyvar(VAR_RESULT, VAR_0x8004)
+	goto_if_eq(VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_House4_EventScript_CancelLegend)
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+	switch (var(VAR_RESULT)) {
+        case SPECIES_DIALGA:
+			if(flag(FLAG_RECEIVED_ADAMANT_ORB))
+			{
+				msgbox(SootopolisCity_House4_Text_AlreadyGaveRelic, MSGBOX_DEFAULT)
+				release
+				end
+			}
+			else{
+				msgbox(SootopolisCity_House4_Text_PleaseTakeThisRelic, MSGBOX_DEFAULT)
+				giveitem(ITEM_ADAMANT_ORB)
+				giveitem(ITEM_ADAMANT_CRYSTAL)
+				setflag(FLAG_RECEIVED_ADAMANT_ORB)
+			}
+			
+		case SPECIES_PALKIA:
+			if(flag(FLAG_RECEIVED_LUSTROUS_ORB))
+			{
+				msgbox(SootopolisCity_House4_Text_AlreadyGaveRelic, MSGBOX_DEFAULT)
+				release
+				end
+			}
+			else{
+				msgbox(SootopolisCity_House4_Text_PleaseTakeThisRelic, MSGBOX_DEFAULT)
+				giveitem(ITEM_LUSTROUS_ORB)
+				giveitem(ITEM_LUSTROUS_GLOBE)
+				setflag(FLAG_RECEIVED_LUSTROUS_ORB)
+			}
+			
+		case SPECIES_GIRATINA:
+			if(flag(FLAG_RECEIVED_GRISEOUS_ORB))
+			{
+				msgbox(SootopolisCity_House4_Text_AlreadyGaveRelic, MSGBOX_DEFAULT)
+				release
+				end
+			}
+			else{
+				msgbox(SootopolisCity_House4_Text_PleaseTakeThisRelic, MSGBOX_DEFAULT)
+				giveitem(ITEM_GRISEOUS_ORB)
+				setflag(FLAG_RECEIVED_GRISEOUS_ORB)
+			}
+			
+        default:
+            msgbox(SootopolisCity_House4_Text_NotLegend, MSGBOX_DEFAULT)
+			release
+			end
+	}
+	
+	msgbox(SootopolisCity_House4_Text_UseThatRelic, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script SootopolisCity_House4_EventScript_CancelLegend{
+	msgbox(SootopolisCity_House4_Text_DontHaveLegend, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text SootopolisCity_House4_Text_PleaseShowLegend{
+	"哦呀，你看起来\n"
+	"是个很有前途的年轻训练家。\p"
+	"我这一生走遍了\n"
+	"天南地北，手头有些来自\l"
+	"别的地区的强力遗物，\l"
+	"想交给一位\l"
+	"值得信赖的训练家。\p"
+	"只要你能让我看到一只\n"
+	"能用这些遗物的宝可梦，\l"
+	"我就知道你配得上拥有。"
+}
+
+text SootopolisCity_House4_Text_PleaseTakeThisRelic{
+	"哎呀！那正是能用\n"
+	"这件遗物的宝可梦之一。\p"
+	"来，你显然是位配得上\n"
+	"驾驭它力量的训练家。"
+}
+
+text SootopolisCity_House4_Text_UseThatRelic{
+	"我相信你能发挥出\n"
+	"那件遗物的全部力量。"
+}
+
+text SootopolisCity_House4_Text_UseThoseRelics{
+	"这些就是我多年收集的\n"
+	"全部遗物。\p"
+	"希望你好生使用。"
+}
+
+text SootopolisCity_House4_Text_AlreadyGaveRelic{
+	"我已经把适合那只宝可梦的\n"
+	"遗物给你了。"
+}
+
+text SootopolisCity_House4_Text_DontHaveLegend{
+	"我明白了，你没有能用\n"
+	"这些遗物的宝可梦。"
+}
+text SootopolisCity_House4_Text_NotLegend{
+	"那只宝可梦用不了\n"
+	"这些遗物。"
+}

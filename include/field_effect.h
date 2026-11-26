@@ -25,7 +25,6 @@ void FieldEffectScript_LoadTiles(u8 **script);
 void FieldEffectScript_LoadFadedPalette(u8 **script);
 void FieldEffectScript_LoadPalette(u8 **script);
 void FieldEffectScript_CallNative(u8 **script, u32 *val);
-void FieldEffectFreeGraphicsResources(struct Sprite *sprite);
 void FieldEffectFreeTilesIfUnused(u16 tileStart);
 void FieldEffectFreePaletteIfUnused(u8 paletteNum);
 bool8 FieldEffectCmd_loadtiles(u8 **script, u32 *val);
@@ -48,5 +47,8 @@ void MultiplyPaletteRGBComponents(u16 i, u8 r, u8 g, u8 b);
 void FreeResourcesAndDestroySprite(struct Sprite *sprite, u8 spriteId);
 u8 CreateMonSprite_PicBox(u16 species, s16 x, s16 y, u8 subpriority);
 void StartEscapeRopeFieldEffect(void);
+void FieldEffectFreeGraphicsResources(struct Sprite *sprite);
+void FieldEff_CaveDust(void);
+
 
 #endif // GUARD_FIELD_EFFECTS_H

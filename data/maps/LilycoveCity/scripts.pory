@@ -1,0 +1,638 @@
+raw `
+.set LOCALID_WOMAN_1, 19
+.set LOCALID_MAN_1, 20
+
+LilycoveCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, LilycoveCity_OnLoad
+	.byte 0
+
+LilycoveCity_OnTransition:
+	setflag FLAG_VISITED_LILYCOVE_CITY
+	setvar VAR_CONTEST_HALL_STATE, 0
+	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
+	call Common_EventScript_SetupRivalGfxId
+	end
+
+LilycoveCity_OnLoad:
+	call_if_unset FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_SetWailmerMetatiles
+	end
+
+LilycoveCity_EventScript_SetWailmerMetatiles::
+	setmetatile 76, 12, METATILE_Lilycove_Wailmer0, TRUE
+	setmetatile 77, 12, METATILE_Lilycove_Wailmer1, TRUE
+	setmetatile 76, 13, METATILE_Lilycove_Wailmer2, TRUE
+	setmetatile 77, 13, METATILE_Lilycove_Wailmer3, TRUE
+	setmetatile 76, 14, METATILE_Lilycove_Wailmer0_Alt, TRUE
+	setmetatile 77, 14, METATILE_Lilycove_Wailmer1_Alt, TRUE
+	setmetatile 76, 15, METATILE_Lilycove_Wailmer2, TRUE
+	setmetatile 77, 15, METATILE_Lilycove_Wailmer3, TRUE
+	setmetatile 77, 16, METATILE_Lilycove_Wailmer0_Alt, TRUE
+	setmetatile 78, 16, METATILE_Lilycove_Wailmer1_Alt, TRUE
+	setmetatile 77, 17, METATILE_Lilycove_Wailmer2, TRUE
+	setmetatile 78, 17, METATILE_Lilycove_Wailmer3, TRUE
+	return
+
+LilycoveCity_EventScript_BerryGentleman::
+	lock
+	faceplayer
+	dotimebasedevents
+	goto_if_set FLAG_DAILY_LILYCOVE_RECEIVED_BERRY, LilycoveCity_EventScript_ReceivedBerry
+	msgbox LilycoveCity_Text_BerrySuitsYou, MSGBOX_DEFAULT
+	random 10
+	addvar VAR_RESULT, FIRST_BERRY_INDEX
+	giveitem VAR_RESULT
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_DAILY_LILYCOVE_RECEIVED_BERRY
+	msgbox LilycoveCity_Text_BecauseYoureTrainer, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_ReceivedBerry::
+	msgbox LilycoveCity_Text_PokeblocksSuitPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Man3::
+	msgbox LilycoveCity_Text_ContestHallInTown, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_Girl::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE07_GET, LilycoveCity_EventScript_GirlAquaGone
+	msgbox LilycoveCity_Text_StrangeCaveInCove, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_GirlAquaGone::
+	msgbox LilycoveCity_Text_GoingToMoveDeleterForHMs, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_RichBoy::
+	msgbox LilycoveCity_Text_ImFromKanto, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_Sailor2::
+	lock
+	faceplayer
+	goto_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_Sailor2AquaGone
+	msgbox LilycoveCity_Text_TeamAquaBeenTrainingWailmer, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Sailor2AquaGone::
+	msgbox LilycoveCity_Text_SomeonePuntedTeamAquaOut, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Woman2::
+	lock
+	faceplayer
+	goto_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_Woman2AquaGone
+	msgbox LilycoveCity_Text_SomeoneStoleMyPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Woman2AquaGone::
+	msgbox LilycoveCity_Text_MissingPokemonCameBack, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Man2::
+	msgbox LilycoveCity_Text_ImArtDealer, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_ExpertM1::
+	msgbox LilycoveCity_Text_SeaRemainsForeverYoung, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_ExpertF::
+	msgbox LilycoveCity_Text_SixtyYearsAgoHusbandProposed, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_ExpertM2::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE07_GET, LilycoveCity_EventScript_ExpertM2AquaGone
+	msgbox LilycoveCity_Text_TeamAquaRenovatedCavern, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_ExpertM2AquaGone::
+	msgbox LilycoveCity_Text_TeamAquaLotGoneForGood, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_Sailor1::
+	msgbox LilycoveCity_Text_HeardTowerCalledSkyPillar, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_FatMan::
+	msgbox LilycoveCity_Text_SawTallTowerOnRoute131, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_Man1::
+	lockall
+	msgbox LilycoveCity_Text_JustArrivedAndSawRarePokemon, MSGBOX_NPC
+	applymovement LOCALID_MAN_1, Common_Movement_FaceOriginalDirection
+	end
+
+LilycoveCity_EventScript_Woman1::
+	lockall
+	msgbox LilycoveCity_Text_HoneymoonVowToSeeRarePokemon, MSGBOX_NPC
+	applymovement LOCALID_WOMAN_1, Common_Movement_FaceOriginalDirection
+	end
+
+LilycoveCity_EventScript_CitySign::
+	msgbox LilycoveCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_ContestHallSign::
+	msgbox LilycoveCity_Text_ContestHallSign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_MotelSign::
+	msgbox LilycoveCity_Text_MotelSign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_MuseumSign::
+	lockall
+	specialvar VAR_0x8004, CountPlayerMuseumPaintings
+	switch VAR_0x8004
+	case 0, LilycoveCity_EventScript_MuseumSignNoPaintings
+	msgbox LilycoveCity_Text_MuseumSignPlayersExhibit, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LilycoveCity_EventScript_MuseumSignNoPaintings::
+	msgbox LilycoveCity_Text_MuseumSign, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LilycoveCity_EventScript_HarborSign::
+	lockall
+	goto_if_set FLAG_SYS_GAME_CLEAR, LilycoveCity_EventScript_HarborSignFerryReady
+	msgbox LilycoveCity_Text_HarborSignUnderConstruction, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LilycoveCity_EventScript_HarborSignFerryReady::
+	msgbox LilycoveCity_Text_HarborSign, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LilycoveCity_EventScript_TrainerFanClubSign::
+	msgbox LilycoveCity_Text_TrainerFanClubSign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_DepartmentStoreSign::
+	msgbox LilycoveCity_Text_DepartmentStoreSign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_MoveDeletersHouseSign::
+	msgbox LilycoveCity_Text_MoveDeletersHouseSign, MSGBOX_SIGN
+	end
+
+LilycoveCity_EventScript_ErenYeagerGrunt::
+	msgbox LilycoveCity_Text_Enemies, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_MetWailmerTrainer::
+	msgbox LilycoveCity_Text_WailmerLeapOutOfWater, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LilycoveCity_EventScript_AquaGrunt1::
+	msgbox LilycoveCity_Text_MovedLootIntoHideoutToday, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_AquaGrunt2::
+	msgbox LilycoveCity_Text_ChanceToDoBigThings, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_AquaGrunt3::
+	msgbox LilycoveCity_Text_DontGoNearCaveInCove, MSGBOX_NPC
+	end
+
+LilycoveCity_EventScript_AquaGrunt4::
+	msgbox LilycoveCity_Text_IfWorldBecomesOurs, MSGBOX_NPC
+	end
+
+
+
+LilycoveCity_EventScript_SchoolKidM::
+	lock
+	faceplayer
+	msgbox LilycoveCity_Text_DoYouKnowAboutBerryBlender, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, LilycoveCity_EventScript_KnowAboutBerryBlender
+	call_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DontKnowAboutBerryBlender
+	release
+	end
+
+LilycoveCity_EventScript_KnowAboutBerryBlender::
+	msgbox LilycoveCity_Text_FasterSpinBetterPokeblocks, MSGBOX_DEFAULT
+	return
+
+LilycoveCity_EventScript_DontKnowAboutBerryBlender::
+	msgbox LilycoveCity_Text_ExplainBerryBlender, MSGBOX_DEFAULT
+	return
+
+LilycoveCity_Text_Enemies:
+	.string "嘿……如果我们把敌人\n"
+	.string "全杀光……\l"
+	.string "那边的……我们终于\l"
+	.string "能自由了吗？\p"
+	.string "……\p"
+	.string "什——我是说，呃，你看\n"
+	.string "那些吼吼鲸！对吧，米凯拉？$"
+
+
+LilycoveCity_Text_MovedLootIntoHideoutToday:
+	.string "亚伦你看！我们终于\n"
+	.string "到海边了！亚伦？$"
+
+
+LilycoveCity_Text_ChanceToDoBigThings:
+	.string "亚伦这样发呆，我\n"
+	.string "看着难受，阿米也一样。$"
+
+LilycoveCity_Text_DontGoNearCaveInCove:
+	.string "喂，你！\p"
+	.string "别靠近小湾里的\n"
+	.string "那个洞窟！\p"
+	.string "为什么？你不需要理由！\n"
+	.string "我是大人，你听话就行！$"
+
+LilycoveCity_Text_IfWorldBecomesOurs:
+	.string "如果这整个世界都变成\n"
+	.string "我们水舰队的，宝可梦\l"
+	.string "也会过得更幸福。$"
+
+LilycoveCity_Text_WailmerLeapOutOfWater:
+	.string "就现在！吼吼鲸！\n"
+	.string "从水里跳出来！$"
+
+LilycoveCity_Text_GetLostMessingUpTraining:
+	.string "嗯？你想干什么？\p"
+	.string "你妨碍我们训练了，\n"
+	.string "能不能走开？$"
+
+LilycoveCity_Text_ContestHallInTown:
+	.string "这个镇上就有宝可梦\n"
+	.string "华丽大赛会场。\p"
+	.string "这意味全国养得好的\n"
+	.string "宝可梦都会来这里。\p"
+	.string "我兴奋得心都胀了！$"
+
+LilycoveCity_Text_StrangeCaveInCove:
+	.string "你看到镇子边上小湾里\n"
+	.string "那个奇怪的洞窟了吗？$"
+
+LilycoveCity_Text_GoingToMoveDeleterForHMs:
+	.string "我要教我的宝可梦\n"
+	.string "一些参加大赛的新招式。$"
+
+LilycoveCity_Text_ImFromKanto:
+	.string "我从关都来的。\p"
+	.string "丰缘地区到处是水和\n"
+	.string "绿色的自然，真美。\p"
+	.string "Hm？等一下……\p"
+	.string "会不会有只在这片\n"
+	.string "地区生活的稀有宝可梦？$"
+
+LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
+	.string "水舰队一直在小湾里\n"
+	.string "训练他们的吼吼鲸。\p"
+	.string "那些家伙挡着，我们的\n"
+	.string "船出不了海！$"
+
+LilycoveCity_Text_SomeonePuntedTeamAquaOut:
+	.string "嗨，你知道吗？\p"
+	.string "有人替我们把水舰队\n"
+	.string "赶走了！\p"
+	.string "吼吼鲸也离开了小湾，\n"
+	.string "我们的船又能出海了。$"
+
+LilycoveCity_Text_SomeoneStoleMyPokemon:
+	.string "我在海边旅馆听着\n"
+	.string "海浪打盹……\p"
+	.string "结果有人偷走了\n"
+	.string "我的宝可梦！\p"
+	.string "犯人是谁？\n"
+	.string "水舰队？是水舰队吗？$"
+
+LilycoveCity_Text_MissingPokemonCameBack:
+	.string "我丢的宝可梦……\n"
+	.string "自己偷偷回来了！$"
+
+LilycoveCity_Text_ImArtDealer:
+	.string "我是画商。\p"
+	.string "我做美术品买卖，\n"
+	.string "尤其是画作。\p"
+	.string "我听说这里的博物馆\n"
+	.string "展出着了不起的作品……$"
+
+LilycoveCity_Text_SeaRemainsForeverYoung:
+	.string "就算我们变老长皱纹，\n"
+	.string "大海也永远年轻，\l"
+	.string "闪着生命的光辉……\p"
+	.string "呼呵呵呵呵……$"
+
+LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
+	.string "六十年前，我丈夫\n"
+	.string "就是在这里向我求婚的。\l"
+	.string "大海还和从前一样美。\p"
+	.string "呵呵呵呵呵……$"
+
+LilycoveCity_Text_TeamAquaRenovatedCavern:
+	.string "嗯，你知道这个小湾里\n"
+	.string "那个奇特的洞窟吗？\p"
+	.string "那本来是天然形成的，\n"
+	.string "后来水舰队那群家伙\l"
+	.string "来改造过。\p"
+	.string "他们自称“热爱自然的\n"
+	.string "水舰队”！\p"
+	.string "可他们的所作所为和\n"
+	.string "嘴上说的完全不一样！$"
+
+LilycoveCity_Text_TeamAquaLotGoneForGood:
+	.string "小湾里那个洞窟……\p"
+	.string "我没马上注意到，\n"
+	.string "不过现在里面空了。\p"
+	.string "水舰队那群人，\n"
+	.string "一定彻底走了。$"
+
+LilycoveCity_Text_CitySign:
+	.string "水静市\p"
+	.string "“大地尽头，\n"
+	.string "海洋起点。”$"
+
+LilycoveCity_Text_ContestHallSign:
+	.string "宝可梦华丽大赛会场\n"
+	.string "“训练家的聚集地！”$"
+
+LilycoveCity_Text_MotelSign:
+	.string "水静湾旅馆\p"
+	.string "“请记住水静市的\n"
+	.string "水静湾。”$"
+
+LilycoveCity_Text_MuseumSign:
+	.string "水静博物馆\p"
+	.string "“宝可梦名作收藏展\n"
+	.string "正在展出！”$"
+
+LilycoveCity_Text_MuseumSignPlayersExhibit:
+	.string "水静博物馆\p"
+	.string "“{PLAYER}的宝可梦\n"
+	.string "收藏展正在展出！”$"
+
+LilycoveCity_Text_HarborSignUnderConstruction:
+	.string "水静市港口\p"
+	.string "“渡轮潮汐号正在\n"
+	.string "凯那市建造中。\p"
+	.string "“预计不久后\n"
+	.string "开始运营。”$"
+
+LilycoveCity_Text_HarborSign:
+	.string "水静市港口\p"
+	.string "“欢迎乘坐渡轮潮汐号\n"
+	.string "享受愉快航程。”$"
+
+LilycoveCity_Text_TrainerFanClubSign:
+	.string "宝可梦训练家粉丝俱乐部\p"
+	.string "牌子上到处涂满了\n"
+	.string "训练家的名字……$"
+
+LilycoveCity_Text_DepartmentStoreSign:
+	.string "水静百货\p"
+	.string "“好商品和兴奋感\n"
+	.string "满得要溢出来！\p"
+	.string "“找你需要的东西，\n"
+	.string "这里最合适！”$"
+
+LilycoveCity_Text_MoveDeletersHouseSign:
+	.string "蛋招式教学之家\p"
+	.string "“教宝可梦蛋招式。”$"
+
+LilycoveCity_Text_DoYouKnowAboutBerryBlender:
+	.string "你知道做宝可方块的\n"
+	.string "机器——宝可方块混合器吗？$"
+
+LilycoveCity_Text_FasterSpinBetterPokeblocks:
+	.string "得大家合作才能让它\n"
+	.string "转得更快。\p"
+	.string "听说转得越快，\n"
+	.string "做出的{POKEBLOCK}越好。$"
+
+LilycoveCity_Text_ExplainBerryBlender:
+	.string "它是用来做一种叫\n"
+	.string "{POKEBLOCK}的糖果的。\p"
+	.string "给宝可梦吃好的{POKEBLOCK}，\n"
+	.string "它的状态会提升很多。$"
+
+LilycoveCity_Text_HeardTowerCalledSkyPillar:
+	.string "我听说海上的某条航路\n"
+	.string "上有一座塔。\p"
+	.string "听说叫天空之柱。$"
+
+LilycoveCity_Text_SawTallTowerOnRoute131:
+	.string "我在131号道路附近\n"
+	.string "看到过一座高塔。\p"
+	.string "那难道就是……？$"
+
+LilycoveCity_Text_JustArrivedAndSawRarePokemon:
+	.string "我们刚到这里度\n"
+	.string "蜜月假期。\p"
+	.string "碰巧看到一只龙属性\n"
+	.string "宝可梦在高空飞。\p"
+	.string "丰缘地区有那种\n"
+	.string "帅气的宝可梦吗？$"
+
+LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
+	.string "蜜月时我们发誓要\n"
+	.string "看尽量多的稀有宝可梦。\p"
+	.string "所以一到就看见一只\n"
+	.string "稀有宝可梦，太开心了。\p"
+	.string "我的意思是，我们\n"
+	.string "幸福得不得了！$"
+
+`
+
+script LilycoveCity_EventScript_DawnTrigger1{
+	setvar(VAR_0x8008, 1)
+	goto(LilycoveCity_EventScript_DawnScene)
+	end
+}
+	
+
+script LilycoveCity_EventScript_DawnTrigger2{
+	setvar(VAR_0x8008, 2)
+	goto(LilycoveCity_EventScript_DawnScene)
+	end
+}
+
+
+script LilycoveCity_EventScript_DawnScene{
+	lockall
+	call(Route104_EventScript_PlayDawnMusic)
+	applymovement(22, Common_Movement_WalkInPlaceFasterDown)
+	waitmovement(0)
+	applymovement(22, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	applymovement(22, Common_Movement_Delay48)
+	waitmovement(0)
+	delay(30)
+	call_if_eq(VAR_0x8008, 1, LilycoveCity_EventScript_DawnApproachPlayer1)
+	call_if_eq(VAR_0x8008, 2, LilycoveCity_EventScript_DawnApproachPlayer2)
+	goto(LilycoveCity_EventScript_DawnRivalBattle)
+	releaseall
+	end
+}
+
+script LilycoveCity_EventScript_DawnRivalBattle{
+	msgbox(LilycoveCity_Text_Dawn_Greeting)
+	trainerbattle_no_intro(TRAINER_DAWN_LILYCOVE, LilycoveCity_Text_Dawn_Defeated)
+	goto(LilycoveCity_EventScript_DawnDefeated)
+	end
+}
+
+script LilycoveCity_EventScript_DawnDefeated{
+	msgbox(LilycoveCity_Text_Dawn_MagmaAndAqua)
+	giveitem(ITEM_EMPOLEONITE_D)
+	giveitem(ITEM_AIR_BALLOON, 10)
+	giveitem(ITEM_ASSAULT_VEST)
+	msgbox(LilycoveCity_Text_DawnGoodbye)
+	goto(LilycoveCity_EventScript_DawnExit)
+	end
+}
+	
+
+
+script LilycoveCity_EventScript_DawnApproachPlayer1{
+	applymovement(22, LilycoveCity_Movement_DawnApproachPlayer1)
+	waitmovement(0)
+	return
+}
+	
+script LilycoveCity_Movement_DawnApproachPlayer1{
+	walk_right
+	walk_down
+	step_end
+}
+
+script LilycoveCity_EventScript_DawnApproachPlayer2{
+	applymovement(22, LilycoveCity_Movement_DawnApproachPlayer2)
+	waitmovement(0)
+	return
+}
+
+script LilycoveCity_Movement_DawnApproachPlayer2{
+	walk_right
+	walk_right
+	walk_down
+	step_end
+}
+
+
+script LilycoveCity_EventScript_DawnExit{
+	closemessage
+	delay(45)
+	call_if_eq(VAR_0x8008, 1, LilycoveCity_EventScript_ApplyMovementDawn1)
+	call_if_eq(VAR_0x8008, 2, LilycoveCity_EventScript_ApplyMovementDawn2)
+	removeobject(22)
+	setflag(FLAG_DAWN_LILYCOVE)
+	setvar(VAR_FOUGHT_DAWN_LILYCOVE, 1)
+	delay(30)
+	playfanfare(MUS_LEVEL_UP)
+	specialvar(VAR_0x8006, GetLevelCapForText)
+	buffernumberstring(STR_VAR_3, VAR_0x8006)
+	msgbox(LevelCapIncreasedTo, MSGBOX_DEFAULT)
+	waitfanfare
+	closemessage
+	delay(30)
+	savebgm(MUS_DUMMY)
+	fadedefaultbgm
+	releaseall
+	end
+}
+
+text LilycoveCity_Text_Dawn_Greeting{
+	"{PLAYER}！真巧在这儿遇到你！\p"
+	"{RIVAL}跟我说这里的\n"
+	"百货商店很棒，所以\l"
+	"我特意来看看。\p"
+	"果然没让我失望！\p"
+	"说不定比我家那边\n"
+	"帷幕市的\l"
+	"还棒。\p"
+	"总之，也有一阵子没见了，\n"
+	"来打一场怎么样？"
+}
+
+text LilycoveCity_Text_Dawn_Defeated{
+	"还是一如既往地厉害，{PLAYER}。"
+}
+
+text LilycoveCity_Text_Dawn_MagmaAndAqua{
+	"哎呀，我都快没什么\n"
+	"能送你的了，希望这些够用。"
+}
+
+text LilycoveCity_Text_DawnGoodbye{
+	"说正经的，我开始对\n"
+	"水舰队和熔岩队的\l"
+	"动向有点担心了。\p"
+	"他们好像越来越活跃，\n"
+	"我总有种不祥的预感……\p"
+	"我还听说四天王的源治\n"
+	"正在调查到底\l"
+	"发生了什么。\p"
+	"你一路阻止他们，\n"
+	"做得很棒，不过我想\l"
+	"联络神奥地区的一位朋友。\p"
+	"看看能不能请些\n"
+	"支援过来，以防万一。\p"
+	"在此之前，注意安全，{PLAYER}，\n"
+	"继续加油！"
+}
+
+script LilycoveCity_EventScript_ApplyMovementDawn1{
+	applymovement(22, LilycoveCity_EventScript_DawnExit1)
+	waitmovement(0)
+	return
+}
+
+script LilycoveCity_EventScript_DawnExit1{
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+}
+
+script LilycoveCity_EventScript_ApplyMovementDawn2{
+	applymovement(22, LilycoveCity_EventScript_DawnExit2)
+	waitmovement(0)
+	return
+}
+
+script LilycoveCity_EventScript_DawnExit2{
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+}

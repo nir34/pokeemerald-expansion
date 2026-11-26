@@ -1,0 +1,131 @@
+raw `
+.set LOCALID_NURSE, 1
+
+MauvilleCity_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+MauvilleCity_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_MAUVILLE_CITY
+	call Common_EventScript_UpdateBrineyLocation
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Woman1::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Woman2::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
+	.string "那边那个人，他有好多\n"
+	.string "换装皮卡丘！$"
+
+MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
+	.string "我去了记录角以后，\n"
+	.string "武斗镇的热门数据\l"
+	.string "就更新了。\p"
+	.string "现在那点数据和我朋友的\n"
+	.string "一样了！$"
+
+MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
+	.string "宝可梦中心楼上开了\n"
+	.string "一个记录角。\p"
+	.string "我不知道是干什么的，\n"
+	.string "不过听起来很有趣。\l"
+	.string "我去看看！$"
+
+`
+
+script MauvilleCity_PokemonCenter_1F_EventScript_CostumePikachuGive {
+	lock
+	faceplayer
+	msgbox(PikachuManIntro)
+
+	dynmultipush("换装皮卡丘", SPECIES_PIKACHU_COSPLAY)
+	dynmultipush("摇滚皮卡丘", SPECIES_PIKACHU_ROCK_STAR)
+	dynmultipush("千金皮卡丘", SPECIES_PIKACHU_BELLE)
+	dynmultipush("偶像皮卡丘", SPECIES_PIKACHU_POP_STAR)
+	dynmultipush("博士皮卡丘", SPECIES_PIKACHU_PHD)
+	dynmultipush("蒙面皮卡丘", SPECIES_PIKACHU_LIBRE)
+	dynmultipush("冲浪皮卡丘", SPECIES_PIKACHU_SURFING)
+	dynmultipush("飞行皮卡丘", SPECIES_PIKACHU_FLYING)
+    dynmultipush("取消", MULTI_B_PRESSED)
+
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, 3, DYN_MULTICHOICE_CB_NONE)
+
+    if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(MauvilleCity_PokemonCenter_1F_EventScript_PikachuManNo)
+	}
+
+	copyvar(VAR_0x8005, VAR_RESULT)
+	checkitem(ITEM_YELLOW_SHARD)
+	goto_if_eq(VAR_RESULT, FALSE, MauvilleCity_PokemonCenter_1F_EventScript_ComeBackWithYellowShard)
+	getpartysize
+	goto_if_eq(VAR_RESULT, PARTY_SIZE, MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForPikachu)
+	msgbox("那只是我最喜欢的，好眼光！")
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(MauvilleCity_PokemonCenter_1F_Text_ReceivedThePikachu)
+	waitfanfare
+	givemonrandom(VAR_0x8005, 25)
+	removeitem(ITEM_YELLOW_SHARD)
+	msgbox("还想要更多皮卡丘就再来！")
+	release
+	end
+	
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_PikachuManNo {
+    msgbox("那就都归我了！")
+    release
+    end
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_ComeBackWithYellowShard {
+	msgbox(MauvilleCity_PokemonCenter_1F_Text_ComeBackWithYellowShard, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForPikachu {
+	msgbox(MauvilleCity_PokemonCenter_1F_Text_NoRoomForThisPikachu, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text PikachuManIntro {
+	"嗨嗨！我是一号皮卡丘迷！\n"
+	"只要一枚黄色碎片，任何换装\l"
+	"皮卡丘都归你，怎么样，\l"
+	"想要一只这样的皮卡丘吗？"
+}
+
+text MauvilleCity_PokemonCenter_1F_Text_ComeBackWithYellowShard {
+	"看来你没有\n"
+	"黄色碎片。有了再来吧。"
+}
+
+text MauvilleCity_PokemonCenter_1F_Text_NoRoomForThisPikachu {
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这只皮卡丘。"
+}
+
+text MauvilleCity_PokemonCenter_1F_Text_ReceivedThePikachu {
+	"{PLAYER}收到了皮卡丘！"
+}

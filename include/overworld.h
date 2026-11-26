@@ -26,6 +26,8 @@
 
 #define SKIP_OBJECT_EVENT_LOAD  1
 
+extern EWRAM_DATA bool8 gSkipShowMonAnim;
+
 struct InitialPlayerAvatarState
 {
     u8 transitionFlags;
@@ -140,6 +142,7 @@ void CB2_ReturnToFieldCableClub(void);
 void CB2_ReturnToField(void);
 void CB2_ReturnToFieldFromMultiplayer(void);
 void CB2_ReturnToFieldWithOpenMenu(void);
+void CB2_ReturnToFieldWithOpenLMenu(void);
 void CB2_ReturnToFieldContinueScript(void);
 void CB2_ReturnToFieldContinueScriptPlayMapMusic(void);
 void CB2_ReturnToFieldFadeFromBlack(void);
@@ -155,13 +158,5 @@ bool32 Overworld_RecvKeysFromLinkIsRunning(void);
 bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
-
-// Item Description Headers
-enum ItemObtainFlags
-{
-    FLAG_GET_ITEM_OBTAINED,
-    FLAG_SET_ITEM_OBTAINED,
-};
-bool8 GetSetItemObtained(u16 item, enum ItemObtainFlags caseId);
 
 #endif // GUARD_OVERWORLD_H

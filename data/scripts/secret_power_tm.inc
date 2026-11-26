@@ -1,37 +1,29 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
-	.string "What's that?\n"
-	.string "What am I doing?\p"
-	.string "I'm thinking about making my own room\n"
-	.string "here using a POKéMON move.\p"
-	.string "I know! I'll give you this TM.\n"
-	.string "Will you use it to make your own room?$"
+	.string "什么？\n"
+	.string "我在做什么？\p"
+	.string "我在想用宝可梦的招式\n"
+	.string "在这里造一个自己的房间。\p"
+	.string "至少以前是这样。现在嘛，\n"
+	.string "我只是在清除巢穴里的雾。\l"
+	.string "想要同样的能力吗？$"
 
 Route111_Text_ExplainSecretPower:
-	.string "Find a big tree that looks like it might\n"
-	.string "drop some vines.\p"
-	.string "Use SECRET POWER in front of the tree.\n"
-	.string "Some vines should get free and drop\l"
-	.string "down, so you can climb the tree.\p"
-	.string "You'll find a lot of space for putting\n"
-	.string "your favorite things.\p"
-	.string "It'll be your own secret room…\n"
-	.string "A SECRET BASE!\p"
-	.string "You should make one, too.\p"
-	.string "Another thing, you don't always have\n"
-	.string "to make your SECRET BASE in a tree.\p"
-	.string "Try using SECRET POWER on rock walls\n"
-	.string "that have small indents in them.\p"
-	.string "I'm going to look for other places, too.\n"
-	.string "Okay, bye!$"
+	.string "换作从前，我这时会给你\n"
+	.string "秘密之力这个招式。不过，\l"
+	.string "秘密基地已从游戏中移除，\l"
+	.string "所以我给了你那个东西。\p"
+	.string "至少可以在对战中用它\n"
+	.string "清除场地，那也挺酷的。\p"
+	.string "好了，再见！$"
 
 Route111_Text_DontWantThis:
-	.string "Oh, you don't want this?\n"
-	.string "If you change your mind, tell me, okay?$"
+	.string "哦，你不要这个？\n"
+	.string "要是改主意，就告诉我，好吗？$"
 
 Route111_Text_DontHaveAnyRoom:
-	.string "Oh, you don't have any room for this.\p"
-	.string "I'll hold on to it, so come back for it\n"
-	.string "another time, okay?$"
+	.string "哦，你没地方放这个。\p"
+	.string "我先替你保管，\n"
+	.string "以后再来拿，好吗？$"
 
 Route111_EventScript_SecretPowerMan::
 	lock
@@ -43,12 +35,9 @@ Route111_EventScript_SecretPowerMan::
 	end
 
 Route111_EventScript_GiveSecretPower::
-	giveitem ITEM_TM_SECRET_POWER
-	goto_if_eq VAR_RESULT, FALSE, Route111_EventScript_NoRoomForSecretPower
+	giveitem ITEM_TM_DEFOG
 	msgbox Route111_Text_ExplainSecretPower, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_RECEIVED_SECRET_POWER
-	clearflag FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN
 	call_if_eq VAR_FACING, DIR_WEST, Route111_EventScript_SecretPowerManExit
 	call_if_eq VAR_FACING, DIR_EAST, Route111_EventScript_SecretPowerManExit
 	call_if_eq VAR_FACING, DIR_NORTH, Route111_EventScript_SecretPowerManExitNorth

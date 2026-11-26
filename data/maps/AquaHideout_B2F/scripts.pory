@@ -1,0 +1,208 @@
+raw `
+.set LOCALID_ARCHIE, 1
+.set LOCALID_SUBMARINE, 4
+
+AquaHideout_B2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, AquaHideout_B2F_OnTransition
+	.byte 0
+
+AquaHideout_B2F_OnTransition:
+	call_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, AquaHideout_B2F_EventScript_PreventArchieNoticing
+	end
+
+AquaHideout_B2F_EventScript_PreventArchieNoticing::
+	setvar VAR_TEMP_1, 1
+	return
+
+AquaHideout_B2F_EventScript_ArchieNoticePlayer::
+	lockall
+	setvar VAR_0x8008, LOCALID_ARCHIE
+	playse SE_PIN
+	applymovement VAR_0x8008, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement VAR_0x8008, Common_Movement_FacePlayer
+	waitmovement 0
+	setvar VAR_TEMP_1, 1
+	releaseall
+	end
+
+AquaHideout_B2F_EventScript_Archie::
+	trainerbattle_single TRAINER_ARCHIE_HIDEOUT, AquaHideout_B2F_Text_ArchieIntro, AquaHideout_B2F_Text_ArchieDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
+	release
+	end
+
+AquaHideout_B2F_EventScript_SubmarineEscape::
+	setvar VAR_0x8008, LOCALID_ARCHIE
+	setvar VAR_0x8009, LOCALID_SUBMARINE
+	applymovement VAR_0x8008, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	delay 20
+	applymovement VAR_0x8008, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox AquaHideout_B2F_Text_OurBossGotThroughHisPreparations, MSGBOX_DEFAULT
+	closemessage
+	applymovement VAR_0x8008, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	applymovement VAR_0x8008, AquaHideout_B2F_Movement_AquaBoardSub
+	waitmovement 0
+	applymovement VAR_0x8009, AquaHideout_B2F_Movement_SumbarineDepartLeft
+	waitmovement 0
+	removeobject VAR_0x8008
+	removeobject VAR_0x8009
+	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
+	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	release
+	end
+
+AquaHideout_B2F_Movement_AquaBoardSub:
+	delay_16
+	delay_16
+	jump_left
+	set_invisible
+	step_end
+
+AquaHideout_B2F_Movement_SumbarineDepartLeft:
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+@ Unused
+AquaHideout_B2F_Movement_SumbarineDepartRight:
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+AquaHideout_B2F_EventScript_Grunt4::
+	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_4, AquaHideout_B2F_Text_Grunt4Intro, AquaHideout_B2F_Text_Grunt4Defeat, AquaHideout_B2F_EventScript_Grunt4Defeated
+	msgbox AquaHideout_B2F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AquaHideout_B2F_EventScript_Grunt4Defeated::
+	msgbox AquaHideout_B2F_Text_Grunt4PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_B2F_EventScript_Grunt6::
+	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_6, AquaHideout_B2F_Text_Grunt6Intro, AquaHideout_B2F_Text_Grunt6Defeat
+	msgbox AquaHideout_B2F_Text_Grunt6PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AquaHideout_B2F_EventScript_Grunt8::
+	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_8, AquaHideout_B2F_Text_Grunt8Intro, AquaHideout_B2F_Text_Grunt8Defeat
+	msgbox AquaHideout_B2F_Text_Grunt8PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AquaHideout_B2F_Text_ArchieIntro:
+	.string "{PLAYER}……\p"
+	.string "没想到你这么快\n"
+	.string "就追上来了。\p"
+	.string "没关系，我们最后的\n"
+	.string "准备已经完成，你\l"
+	.string "阻止不了我上\l"
+	.string "那艘潜水艇。\p"
+	.string "不过在我走之前，\n"
+	.string "{PLAYER}，我得承认，\l"
+	.string "我很好奇你作为\l"
+	.string "训练家的实力。\p"
+	.string "你让我的小兵，甚至\n"
+	.string "干部们都很头疼，\l"
+	.string "所以该让我看看\l"
+	.string "你是什么样的\l"
+	.string "训练家了！$"
+
+AquaHideout_B2F_Text_ArchieDefeat:
+	.string "这一战真痛快！我看\n"
+	.string "出你这一路是怎么\l"
+	.string "让我们头疼的了。$"
+
+AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
+	.string "好了，{PLAYER}，看来\n"
+	.string "我该走了。\l"
+	.string "很高兴能亲眼看看\l"
+	.string "你是什么样的训练家。\p"
+	.string "我只希望你能重新考虑\n"
+	.string "加入我们的事业，\l"
+	.string "我们真的很需要\l"
+	.string "你这样的人才。\p"
+	.string "{PLAYER}，这是我给你的\n"
+	.string "最后警告，因为我\l"
+	.string "知道你有训练家的\l"
+	.string "潜力。\p"
+	.string "如果我们必须再次\n"
+	.string "作为对手相遇，\l"
+	.string "我不会再手下留情。\p"
+	.string "我真心希望不会\n"
+	.string "走到那一步。$"
+
+
+AquaHideout_B2F_Text_ArchiePostBattle:
+	.string "嘿嘿嘿！\p"
+	.string "我们老大已经去海底\n"
+	.string "某个洞窟了！\p"
+	.string "你要追的话，最好去\n"
+	.string "水静市外面那片\l"
+	.string "广阔的大海找找。\p"
+	.string "可你找得到吗？\n"
+	.string "嘿嘿嘿！$"
+
+AquaHideout_B2F_Text_Grunt4Intro:
+	.string "哇哈哈，我等得都腻了！\n"
+	.string "你也得陪我打一场！$"
+
+AquaHideout_B2F_Text_Grunt4Defeat:
+	.string "等累了……\n"
+	.string "输得发晕……$"
+
+AquaHideout_B2F_Text_Grunt4PostBattle:
+	.string "老大……\n"
+	.string "这样够了吗？$"
+
+AquaHideout_B2F_Text_Grunt6Intro:
+	.string "传送板是我们基地的\n"
+	.string "骄傲！\p"
+	.string "你根本不知道自己\n"
+	.string "在哪儿吧？\p"
+	.string "把敌人弄晕弄累，\n"
+	.string "然后一网打尽！\l"
+	.string "这就是我们的计划！$"
+
+AquaHideout_B2F_Text_Grunt6Defeat:
+	.string "你怎么回事？\n"
+	.string "一点都不累！$"
+
+AquaHideout_B2F_Text_Grunt6PostBattle:
+	.string "说起来……我记不得\n"
+	.string "把大师球放哪儿了。\p"
+	.string "要是我没看好它，\n"
+	.string "老大会骂死我……$"
+
+AquaHideout_B2F_Text_Grunt8Intro:
+	.string "我加入水舰队时，第一\n"
+	.string "件要学的就是这些\l"
+	.string "传送板怎么连通。$"
+
+AquaHideout_B2F_Text_Grunt8Defeat:
+	.string "我光顾着想传送板\n"
+	.string "的事了……$"
+
+AquaHideout_B2F_Text_Grunt8PostBattle:
+	.string "我得学学怎么才能\n"
+	.string "打得更有效率……$"
+`

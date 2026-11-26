@@ -1,5 +1,6 @@
 #include "global.h"
 #include "event_data.h"
+#include "pokedex.h"
 #include "pokemon.h"
 #include "random.h"
 #include "roamer.h"
@@ -100,7 +101,8 @@ void MoveAllRoamers(void)
 static void CreateInitialRoamerMon(u8 index, u16 species, u8 level)
 {
     ClearRoamerLocationHistory(index);
-    CreateMon(&gEnemyParty[0], species, level, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
+    u8 ivToMakeRoamer = FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS;
+    CreateMon(&gEnemyParty[0], species, level, ivToMakeRoamer, FALSE, 0, OT_ID_PLAYER_ID, 0);
     ROAMER(index)->ivs = GetMonData(&gEnemyParty[0], MON_DATA_IVS);
     ROAMER(index)->personality = GetMonData(&gEnemyParty[0], MON_DATA_PERSONALITY);
     ROAMER(index)->species = species;
@@ -138,6 +140,7 @@ bool8 TryAddRoamer(u16 species, u8 level)
     {
         // Create the roamer and stop searching
         CreateInitialRoamerMon(index, species, level);
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_SET_SEEN);
         return TRUE;
     }
 
@@ -148,10 +151,22 @@ bool8 TryAddRoamer(u16 species, u8 level)
 // gSpecialVar_0x8004 here corresponds to the options in the multichoice MULTI_TV_LATI (0 for 'Red', 1 for 'Blue')
 void InitRoamer(void)
 {
-    if (gSpecialVar_0x8004 == 0) // Red
-        TryAddRoamer(SPECIES_LATIAS, 40);
-    else
-        TryAddRoamer(SPECIES_LATIOS, 40);
+    TryAddRoamer(SPECIES_ARTICUNO, 50); //1
+    TryAddRoamer(SPECIES_ZAPDOS, 50);
+    TryAddRoamer(SPECIES_MOLTRES, 50);
+    TryAddRoamer(SPECIES_RAIKOU, 50);
+    TryAddRoamer(SPECIES_ENTEI, 50); //5
+    TryAddRoamer(SPECIES_SUICUNE, 50);
+    TryAddRoamer(SPECIES_CALYREX, 50);
+    TryAddRoamer(SPECIES_KELDEO, 50);
+    TryAddRoamer(SPECIES_TERRAKION, 50);
+    TryAddRoamer(SPECIES_COBALION, 50); //10
+    TryAddRoamer(SPECIES_VIRIZION, 50);
+    TryAddRoamer(SPECIES_CRESSELIA, 50);
+    TryAddRoamer(SPECIES_TORNADUS, 50);
+    TryAddRoamer(SPECIES_THUNDURUS, 50);
+    TryAddRoamer(SPECIES_LANDORUS, 50); //15
+    TryAddRoamer(SPECIES_ENAMORUS, 50);
 }
 
 void UpdateLocationHistoryForRoamer(void)
@@ -239,6 +254,7 @@ bool8 IsRoamerAt(u32 roamerIndex, u8 mapGroup, u8 mapNum)
 
 void CreateRoamerMonInstance(u32 roamerIndex)
 {
+    bool8 isShiny = TRUE;
     u32 status = ROAMER(roamerIndex)->statusA + (ROAMER(roamerIndex)->statusB << 8);
     struct Pokemon *mon = &gEnemyParty[0];
     ZeroEnemyPartyMons();
@@ -252,6 +268,9 @@ void CreateRoamerMonInstance(u32 roamerIndex)
     SetMonData(mon, MON_DATA_CUTE, &ROAMER(roamerIndex)->cute);
     SetMonData(mon, MON_DATA_SMART, &ROAMER(roamerIndex)->smart);
     SetMonData(mon, MON_DATA_TOUGH, &ROAMER(roamerIndex)->tough);
+    
+    if(FlagGet(FLAG_SHINY_ROAMERS))
+        SetMonData(mon, MON_DATA_IS_SHINY, &isShiny);
 }
 
 bool8 TryStartRoamerEncounter(void)

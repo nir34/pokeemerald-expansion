@@ -1,0 +1,31 @@
+raw `
+FortreeCity_House3_MapScripts::
+	.byte 0
+
+FortreeCity_House3_EventScript_Maniac::
+	msgbox FortreeCity_House3_Text_MetStevenHadAmazingPokemon, MSGBOX_NPC
+	end
+
+FortreeCity_House3_EventScript_SchoolKidM::
+	msgbox FortreeCity_House3_Text_OhYouHavePokedex, MSGBOX_NPC
+	end
+
+FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
+	.string "说到宝可梦图鉴，\n"
+	.string "我想起一件事。\p"
+	.string "我找稀有石头的时候，\n"
+	.string "遇到过一个训练家，大吾。\p"
+	.string "Hoo，他带着一些\n"
+	.string "了不起的宝可梦。\p"
+	.string "它们不只稀有，还被\n"
+	.string "训练到了可怕的极致！\p"
+	.string "他可能比这个镇的\n"
+	.string "馆主还强……$"
+
+FortreeCity_House3_Text_OhYouHavePokedex:
+	.string "你手上那个是什么？\p"
+	.string "… … … … … …\p"
+	.string "哦，那叫宝可梦图鉴？\n"
+	.string "太酷了！$"
+
+`

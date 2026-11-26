@@ -4,6 +4,7 @@
 #include "battle.h"
 #include "battle_tower.h"
 #include "cable_club.h"
+#include "caps.h"
 #include "data.h"
 #include "decoration.h"
 #include "diploma.h"
@@ -27,6 +28,7 @@
 #include "mystery_gift.h"
 #include "match_call.h"
 #include "menu.h"
+#include "money.h"
 #include "overworld.h"
 #include "party_menu.h"
 #include "pokeblock.h"
@@ -70,6 +72,8 @@
 #include "constants/metatile_labels.h"
 #include "palette.h"
 #include "battle_util.h"
+#include "naming_screen.h"
+#include "pokedex.h"
 
 #define TAG_ITEM_ICON 5500
 
@@ -521,7 +525,7 @@ void SpawnLinkPartnerObjectEvent(void)
     };
     u8 myLinkPlayerNumber;
     u8 playerFacingDirection;
-    u8 linkSpriteId;
+    u16 linkSpriteId;
     u8 i;
 
     myLinkPlayerNumber = GetMultiplayerId();
@@ -1413,7 +1417,12 @@ void GiveLeadMonEffortRibbon(void)
 
 bool8 Special_AreLeadMonEVsMaxedOut(void)
 {
-    if (GetMonEVCount(&gPlayerParty[GetLeadMonIndex()]) >= MAX_TOTAL_EVS)
+    u16 maxTotalEvToUseInCalc = MAX_TOTAL_EVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+    {
+        maxTotalEvToUseInCalc = 0;
+    }
+    if (GetMonEVCount(&gPlayerParty[GetLeadMonIndex()]) >= maxTotalEvToUseInCalc)
         return TRUE;
 
     return FALSE;
@@ -1568,6 +1577,11 @@ u8 GetLeadMonIndex(void)
 u16 ScriptGetPartyMonSpecies(void)
 {
     return GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES_OR_EGG, NULL);
+}
+
+u16 ScriptGetPartyMonLevel(void)
+{
+    return GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_LEVEL);
 }
 
 // Removed for Emerald
@@ -3047,8 +3061,7 @@ static void HideFrontierExchangeCornerItemIcon(u16 menu, u16 unused)
         case SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_2:
         case SCROLL_MULTI_BF_EXCHANGE_CORNER_VITAMIN_VENDOR:
         case SCROLL_MULTI_BF_EXCHANGE_CORNER_HOLD_ITEM_VENDOR:
-            // This makes sure deleting the icon will not clear palettes in use by object events
-            FieldEffectFreeGraphicsResources(&gSprites[sScrollableMultichoice_ItemSpriteId]);
+            DestroySpriteAndFreeResources(&gSprites[sScrollableMultichoice_ItemSpriteId]);
             break;
         }
         sScrollableMultichoice_ItemSpriteId = MAX_SPRITES;
@@ -3189,6 +3202,7 @@ void ScrollableMultichoice_ClosePersistentMenu(void)
 #undef tTaskId
 
 #define DEOXYS_ROCK_LEVELS 11
+#define ROCK_PAL_ID 10
 
 void DoDeoxysRockInteraction(void)
 {
@@ -3267,8 +3281,9 @@ static void Task_DeoxysRockInteraction(u8 taskId)
 
 static void ChangeDeoxysRockLevel(u8 rockLevel)
 {
-    u8 paletteNum = IndexOfSpritePaletteTag(OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE);
-    LoadPalette(&sDeoxysRockPalettes[rockLevel], OBJ_PLTT_ID(paletteNum), PLTT_SIZEOF(4));
+    u8 objectEventId;
+    LoadPalette(&sDeoxysRockPalettes[rockLevel], OBJ_PLTT_ID(ROCK_PAL_ID), PLTT_SIZEOF(4));
+    TryGetObjectEventIdByLocalIdAndMap(LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, &objectEventId);
 
     if (rockLevel == 0)
         PlaySE(SE_M_CONFUSE_RAY); // Failure sound
@@ -3314,13 +3329,10 @@ void IncrementBirthIslandRockStepCount(void)
     }
 }
 
-// called before fade-in
 void SetDeoxysRockPalette(void)
 {
-    u32 paletteNum = IndexOfSpritePaletteTag(OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE);
-    LoadPalette(&sDeoxysRockPalettes[(u8)VarGet(VAR_DEOXYS_ROCK_LEVEL)], OBJ_PLTT_ID(paletteNum), PLTT_SIZEOF(4));
-    // Set faded to all black, weather blending handled during fade-in
-    CpuFill16(0, &gPlttBufferFaded[OBJ_PLTT_ID(paletteNum)], 32);
+    LoadPalette(&sDeoxysRockPalettes[(u8)VarGet(VAR_DEOXYS_ROCK_LEVEL)], OBJ_PLTT_ID(ROCK_PAL_ID), PLTT_SIZEOF(4));
+    BlendPalettes(1 << (ROCK_PAL_ID + 16), 16, 0);
 }
 
 void SetPCBoxToSendMon(u8 boxId)
@@ -4333,3 +4345,206 @@ void UseBlankMessageToCancelPokemonPic(void)
     AddTextPrinterParameterized(0, FONT_NORMAL, &t, 0, 1, 0, NULL);
     ScriptMenu_HidePokemonPic();
 }
+
+void ChangeMonNature(void) 
+{
+    struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u8 gender = GetMonGender(mon);
+    bool8 isShiny = IsMonShiny(mon);
+    //todo maybe worry about spinda spots, unown letter, wurmple evo
+
+    u8 newNature = gSpecialVar_0x8005;
+    u32 newPersonality;
+    do
+    {
+        newPersonality = Random32();
+    }
+    while ((GetNatureFromPersonality(newPersonality) != newNature) ||
+           (GetGenderFromSpeciesAndPersonality(species, newPersonality) != gender));
+
+    UpdateMonPersonality(&mon->box, newPersonality);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_IS_SHINY, &isShiny);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HIDDEN_NATURE, &newNature);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+
+void ChangeMonGender(void) 
+{
+    struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u8 gender = GetMonGender(mon);
+    bool8 isShiny = IsMonShiny(mon);
+    u8 nature = GetNature(mon);
+
+    u8 newGender = gender == MON_FEMALE ? MON_MALE : MON_FEMALE;
+    u32 newPersonality;
+    do
+    {
+        newPersonality = Random32();
+    }
+    while ((GetNatureFromPersonality(newPersonality) != nature) ||
+           (GetGenderFromSpeciesAndPersonality(species, newPersonality) != newGender));
+
+    UpdateMonPersonality(&mon->box, newPersonality);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_IS_SHINY, &isShiny);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void ChangeMonIVsForHP(void) 
+{
+    u8 newHiddenPowerType = gSpecialVar_0x8005;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HP_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivHp);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_ATK_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivAtk);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_DEF_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivDef);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPATK_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivSpatk);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPDEF_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivSpdef);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPEED_IV, &gHiddenPowerTypeInfo[newHiddenPowerType].ivSpeed);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void PerfectMonIVs(void) 
+{
+    u8 iv = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HP_IV, &iv);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_ATK_IV, &iv);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_DEF_IV, &iv);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPATK_IV, &iv);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPDEF_IV, &iv);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPEED_IV, &iv);
+    // TODO iriv remove this when breaking saves
+    //SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_IVS_WERE_PERFECTED, &one);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void SetMonToLevelCap(void) 
+{
+    struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u32 level = GetCurrentLevelCap();
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_LEVEL, &level);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_EXP, &gExperienceTables[gSpeciesInfo[species].growthRate][level]);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void EnterCheatCode(void)
+{
+    *gStringVar2 = EOS;
+    DoNamingScreen(NAMING_SCREEN_CHEAT_CODE, gStringVar2, 0, 0, 0, CB2_ReturnToFieldContinueScript);
+}
+
+void GetCheatCodeFeedback(void)
+{
+    static const u8 sText_CheatCodeDexAll[]           = _("DexAll");
+    static const u8 sText_CheatCodeDexAllShort[]      = _("Dxa");
+
+    static const u8 sText_CheatCodeCaughtEmAll[]      = _("CaughtAll");
+    static const u8 sText_CheatCodeCaughtEmAllShort[] = _("Cal");
+
+    static const u8 sText_CheatCodeBestBall[]         = _("EZCatch");
+    static const u8 sText_CheatCodeBestBallShort[]    = _("Ezc");
+
+    static const u8 sText_CheatCodeMega[]             = _("Mega");
+
+    static const u8 sText_CheatCodeShinyStarters[]        = _("ShinyS");
+    static const u8 sText_CheatCodeShinyStartersShort[]   = _("Shs");
+
+    static const u8 sText_CheatCodeMaxMoney[]         = _("MaxMoney");
+    static const u8 sText_CheatCodeMaxMoneyShort[]    = _("Mmy");
+
+    static const u8 sText_CheatCodeShinyRoamers[]         = _("ShinyR");
+    static const u8 sText_CheatCodeShinyRoamersShort[]    = _("Shr");
+
+    static const u8 sText_CheatCodeMono[]             = _("Mono");
+
+    /* 1: DexAll / DXA – toggle full Pokédex seen */
+    if (!StringCompare(gStringVar2, sText_CheatCodeDexAll) ||
+        !StringCompare(gStringVar2, sText_CheatCodeDexAllShort))
+    {
+        if (FlagGet(FLAG_DEXALL))
+            FlagClear(FLAG_DEXALL);
+        else
+            FlagSet(FLAG_DEXALL);
+        gSpecialVar_Result = 1;
+    }
+
+    /* 2: CaughtAll / CAL – mark all species seen & caught */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeCaughtEmAll) ||
+             !StringCompare(gStringVar2, sText_CheatCodeCaughtEmAllShort))
+    {
+        for (u32 i = 0; i < NATIONAL_DEX_COUNT; i++)
+        {
+            GetSetPokedexFlag(i + 1, FLAG_SET_SEEN);
+            GetSetPokedexFlag(i + 1, FLAG_SET_CAUGHT);
+        }
+        gSpecialVar_Result = 2;
+    }
+
+    /* 3: EZCatch / EZC – toggle 100 % catch rate */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeBestBall) ||
+             !StringCompare(gStringVar2, sText_CheatCodeBestBallShort))
+    {
+        if (FlagGet(FLAG_EZ_CATCH))
+            FlagClear(FLAG_EZ_CATCH);
+        else
+            FlagSet(FLAG_EZ_CATCH);
+        gSpecialVar_Result = 3;
+    }
+
+    /* 4: Mega – handled in script */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeMega))
+    {
+        gSpecialVar_Result = 4;
+    }
+
+    /* 5: ShinyS / SHS – toggle shiny starters */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeShinyStarters) ||
+             !StringCompare(gStringVar2, sText_CheatCodeShinyStartersShort))
+    {
+        if (FlagGet(FLAG_SHINY_STARTERS))
+            FlagClear(FLAG_SHINY_STARTERS);
+        else
+            FlagSet(FLAG_SHINY_STARTERS);
+        gSpecialVar_Result = 5;
+    }
+
+    /* 6: MaxMoney / MMY – set money to max */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeMaxMoney) ||
+             !StringCompare(gStringVar2, sText_CheatCodeMaxMoneyShort))
+    {
+        SetMoney(&gSaveBlock1Ptr->money, MAX_MONEY);
+        gSpecialVar_Result = 6;
+    }
+
+    /* 7: ShinyR / SHR – toggle shiny roamers */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeShinyRoamers) ||
+             !StringCompare(gStringVar2, sText_CheatCodeShinyRoamersShort))
+    {
+        if (FlagGet(FLAG_SHINY_ROAMERS))
+            FlagClear(FLAG_SHINY_ROAMERS);
+        else
+            FlagSet(FLAG_SHINY_ROAMERS);
+        gSpecialVar_Result = 7;
+    }
+
+    /* 8: Mono – enable monotype starter selection in Birch's lab */
+    else if (!StringCompare(gStringVar2, sText_CheatCodeMono))
+    {
+        if (FlagGet(FLAG_USE_MONOTYPE_STARTERS))
+            FlagClear(FLAG_USE_MONOTYPE_STARTERS);
+        else
+            FlagSet(FLAG_USE_MONOTYPE_STARTERS);
+        gSpecialVar_Result = 8;
+    }
+
+    /* 0: invalid code */
+    else
+    {
+        gSpecialVar_Result = 0;
+    }
+}
+

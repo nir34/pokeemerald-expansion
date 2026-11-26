@@ -320,7 +320,7 @@ static u32 HandleMainMenuInputEndTutorial(struct Pokenav_Menu *menu)
 }
 
 // Handles input after selecting Ribbons when there are no ribbon winners left
-// Selecting it again just reprints the Ribbon description to replace the "No Ribbon winners" message
+// Selecting it again just reprints the Ribbon description to replace the "没有缎带获得者" message
 static u32 HandleCantOpenRibbonsInput(struct Pokenav_Menu *menu)
 {
     if (UpdateMenuCursorPos(menu))

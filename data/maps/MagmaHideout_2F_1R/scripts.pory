@@ -1,0 +1,78 @@
+raw `
+MagmaHideout_2F_1R_MapScripts::
+	.byte 0
+
+MagmaHideout_2F_1R_EventScript_Grunt14::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_14, MagmaHideout_2F_1R_Text_Grunt14Intro, MagmaHideout_2F_1R_Text_Grunt14Defeat
+	msgbox MagmaHideout_2F_1R_Text_Grunt14PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_1R_EventScript_Grunt3::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_3, MagmaHideout_2F_1R_Text_Grunt3Intro, MagmaHideout_2F_1R_Text_Grunt3Defeat
+	msgbox MagmaHideout_2F_1R_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_1R_EventScript_Grunt4::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_4, MagmaHideout_2F_1R_Text_Grunt4Intro, MagmaHideout_2F_1R_Text_Grunt4Defeat
+	msgbox MagmaHideout_2F_1R_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_1R_EventScript_Grunt5::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_5, MagmaHideout_2F_1R_Text_Grunt5Intro, MagmaHideout_2F_1R_Text_Grunt5Defeat
+	msgbox MagmaHideout_2F_1R_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_1R_Text_Grunt14Intro:
+	.string "什么什么什么？\p"
+	.string "这里只该有水舰队\n"
+	.string "的成员！\p"
+	.string "可你穿的不是水舰队的\n"
+	.string "制服……\p"
+	.string "你可疑极了！\n"
+	.string "跟我打！$"
+
+MagmaHideout_2F_1R_Text_Grunt14Defeat:
+	.string "哎呀呀……\n"
+	.string "我身为水舰队成员的骄傲…$"
+
+MagmaHideout_2F_1R_Text_Grunt14PostBattle:
+	.string "你要是怕冷，就该\n"
+	.string "加入水舰队。$"
+
+MagmaHideout_2F_1R_Text_Grunt3Intro:
+	.string "站住！\p"
+	.string "你以为我会闭嘴，让\n"
+	.string "你大摇大摆过去？$"
+
+MagmaHideout_2F_1R_Text_Grunt3Defeat:
+	.string "哦哇！\n"
+	.string "我认输！$"
+
+MagmaHideout_2F_1R_Text_Grunt3PostBattle:
+	.string "也许我干脆放你过去\n"
+	.string "还比较好……$"
+
+MagmaHideout_2F_1R_Text_Grunt4Intro:
+	.string "啊哈！\n"
+	.string "入侵者！$"
+
+MagmaHideout_2F_1R_Text_Grunt4Defeat:
+	.string "咕啊啊！$"
+
+MagmaHideout_2F_1R_Text_Grunt4PostBattle:
+	.string "我已经输了。\p"
+	.string "我真还得继续\n"
+	.string "绕圈跑吗？$"
+
+MagmaHideout_2F_1R_Text_Grunt5Intro:
+	.string "哦哦！\n"
+	.string "入侵者！$"
+
+MagmaHideout_2F_1R_Text_Grunt5Defeat:
+	.string "嘀咕……$"
+
+MagmaHideout_2F_1R_Text_Grunt5PostBattle:
+	.string "其实我对对战\n"
+	.string "不在行……$"
+
+`

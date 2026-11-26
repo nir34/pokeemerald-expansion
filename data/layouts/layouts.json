@@ -4410,6 +4410,86 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BIRCHS_LAB",
+      "name": "NewBirchsLab_Layout",
+      "width": 13,
+      "height": 13,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/NewBirchsLab/border.bin",
+      "blockdata_filepath": "data/layouts/NewBirchsLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_CREATOR_HOUSE",
+      "name": "FortreeCity_CreatorHouse_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/FortreeCity_CreatorHouse/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_CreatorHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOATING_SLAB",
+      "name": "FloatingSlab_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/FloatingSlab/border.bin",
+      "blockdata_filepath": "data/layouts/FloatingSlab/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKY_SLAB",
+      "name": "RockySlab_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockySlab/border.bin",
+      "blockdata_filepath": "data/layouts/RockySlab/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASSY_SLAB",
+      "name": "GrassySlab_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassySlab/border.bin",
+      "blockdata_filepath": "data/layouts/GrassySlab/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOSSDEEP_CITY_BETA_TESTER_HOUSE",
+      "name": "MossdeepCity_BetaTesterHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/MossdeepCity_BetaTesterHouse/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepCity_BetaTesterHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_CHAMP_HOUSE",
+      "name": "SootopolisCity_ChampHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SootopolisCity_ChampHouse/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_ChampHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_FIERY_PATH_BACK_ROOM",
+      "name": "FieryPath_BackRoom_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/FieryPath_BackRoom/border.bin",
+      "blockdata_filepath": "data/layouts/FieryPath_BackRoom/map.bin"
     }
   ]
 }

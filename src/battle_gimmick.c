@@ -82,6 +82,8 @@ bool32 ShouldTrainerBattlerUseGimmick(u32 battler, enum Gimmick gimmick)
         bool32 isSecondTrainer = (GetBattlerPosition(battler) == B_POSITION_OPPONENT_RIGHT) && (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) && !BATTLE_TWO_VS_ONE_OPPONENT;
         u16 trainerId = isSecondTrainer ? gTrainerBattleOpponent_B : gTrainerBattleOpponent_A;
         const struct TrainerMon *mon = &GetTrainerPartyFromId(trainerId)[isSecondTrainer ? gBattlerPartyIndexes[battler] - MULTI_PARTY_SIZE : gBattlerPartyIndexes[battler]];
+        if (mon == NULL)
+            return FALSE;
 
         if (gimmick == GIMMICK_TERA && mon->teraType != TYPE_NONE)
             return TRUE;
@@ -300,7 +302,7 @@ u32 GetIndicatorTileTag(u32 battler)
 
     if (IsBattlerPrimalReverted(battler))
     {
-        if (gBattleMons[battler].species == SPECIES_GROUDON_PRIMAL)
+        if (gBattleMons[battler].species == SPECIES_GROUDON_PRIMAL || gBattleMons[battler].species == SPECIES_DIALGA_PRIMAL)
             return TAG_OMEGA_INDICATOR_TILE;
         else
             return TAG_ALPHA_INDICATOR_TILE;
@@ -371,10 +373,10 @@ void UpdateIndicatorLevelData(u32 healthboxId, u32 level)
 
 static const s8 sIndicatorPositions[][2] =
 {
-    [B_POSITION_PLAYER_LEFT] = {53, -9},
-    [B_POSITION_OPPONENT_LEFT] = {44, -9},
-    [B_POSITION_PLAYER_RIGHT] = {52, -9},
-    [B_POSITION_OPPONENT_RIGHT] = {44, -9},
+    [B_POSITION_PLAYER_LEFT] = {49, -9},
+    [B_POSITION_OPPONENT_LEFT] = {40, -9},
+    [B_POSITION_PLAYER_RIGHT] = {48, -9},
+    [B_POSITION_OPPONENT_RIGHT] = {40, -9},
 };
 
 void CreateIndicatorSprite(u32 battler)

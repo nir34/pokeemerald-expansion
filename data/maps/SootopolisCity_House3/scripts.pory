@@ -1,0 +1,46 @@
+raw `
+SootopolisCity_House3_MapScripts::
+	.byte 0
+
+SootopolisCity_House3_EventScript_Woman::
+	lock
+	faceplayer
+	msgbox SootopolisCity_House3_Text_JuanHasManyFansDoYou, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SootopolisCity_House3_EventScript_HaveFans
+	msgbox SootopolisCity_House3_Text_LonesomeTryWorkingHarder, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_House3_EventScript_HaveFans::
+	msgbox SootopolisCity_House3_Text_YouMustBePrettyStrong, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_House3_EventScript_Girl::
+	msgbox SootopolisCity_House3_Text_TrainerFanClubWasWild, MSGBOX_NPC
+	end
+
+SootopolisCity_House3_Text_JuanHasManyFansDoYou:
+	.string "你是宝可梦训练家吧？\p"
+	.string "琉璃市的阿丹有很多粉丝。\n"
+	.string "比他的学生亚当还多！\p"
+	.string "你有粉丝吗？$"
+
+SootopolisCity_House3_Text_YouMustBePrettyStrong:
+	.string "哦，那你一定\n"
+	.string "相当强。$"
+
+SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
+	.string "哦，天啊……\n"
+	.string "那有点寂寞。\p"
+	.string "多用点力，争取\n"
+	.string "有粉丝追随吧。$"
+
+SootopolisCity_House3_Text_TrainerFanClubWasWild:
+	.string "连丰缘以外都有忠实的\n"
+	.string "粉丝赶来。\p"
+	.string "我去水静市的训练家\n"
+	.string "粉丝俱乐部时，\l"
+	.string "那里真是疯狂。$"
+
+`

@@ -1,0 +1,81 @@
+raw `
+MagmaHideout_2F_2R_MapScripts::
+	.byte 0
+
+MagmaHideout_2F_2R_EventScript_Grunt15::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_15, MagmaHideout_2F_2R_Text_Grunt15Intro, MagmaHideout_2F_2R_Text_Grunt15Defeat
+	msgbox MagmaHideout_2F_2R_Text_Grunt15PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_2R_EventScript_Grunt6::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_6, MagmaHideout_2F_2R_Text_Grunt6Intro, MagmaHideout_2F_2R_Text_Grunt6Defeat
+	msgbox MagmaHideout_2F_2R_Text_Grunt6PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_2R_EventScript_Grunt7::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_7, MagmaHideout_2F_2R_Text_Grunt7Intro, MagmaHideout_2F_2R_Text_Grunt7Defeat
+	msgbox MagmaHideout_2F_2R_Text_Grunt7PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_2R_EventScript_Grunt8::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_8, MagmaHideout_2F_2R_Text_Grunt8Intro, MagmaHideout_2F_2R_Text_Grunt8Defeat
+	msgbox MagmaHideout_2F_2R_Text_Grunt8PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MagmaHideout_2F_2R_Text_Grunt15Intro:
+	.string "我跟你没什么仇。\n"
+	.string "我只是听命行事！$"
+
+MagmaHideout_2F_2R_Text_Grunt15Defeat:
+	.string "我可能输了，不过……$"
+
+MagmaHideout_2F_2R_Text_Grunt15PostBattle:
+	.string "我们挖出了难以置信的\n"
+	.string "东西！而且拿到了\l"
+	.string "蓝色宝珠！\p"
+	.string "剩下的就等我们老大……\n"
+	.string "呵呵……哇哈哈哈！$"
+
+MagmaHideout_2F_2R_Text_Grunt6Intro:
+	.string "我受不了热。也许我\n"
+	.string "该加入水舰队……$"
+
+MagmaHideout_2F_2R_Text_Grunt6Defeat:
+	.string "是啊，我可能真的不适合\n"
+	.string "熔岩队……$"
+
+MagmaHideout_2F_2R_Text_Grunt6PostBattle:
+	.string "在这种地方，你不会\n"
+	.string "想念大海吗？$"
+
+MagmaHideout_2F_2R_Text_Grunt7Intro:
+	.string "这里有时能听到震动。\p"
+	.string "是火山在响吗？还是\n"
+	.string "固拉……\p"
+	.string "糟了！不，不，\n"
+	.string "我没说！$"
+
+MagmaHideout_2F_2R_Text_Grunt7Defeat:
+	.string "你打得火热。\n"
+	.string "就像火山一样！$"
+
+MagmaHideout_2F_2R_Text_Grunt7PostBattle:
+	.string "这次你只是碰巧赢了，\n"
+	.string "不过没关系。\p"
+	.string "熔岩队的目标马上\n"
+	.string "就要实现了！$"
+
+MagmaHideout_2F_2R_Text_Grunt8Intro:
+	.string "我们中有个家伙掉了\n"
+	.string "熔岩徽记，急疯了……\p"
+	.string "等一下！\n"
+	.string "是你捡到的？$"
+
+MagmaHideout_2F_2R_Text_Grunt8Defeat:
+	.string "我真不敢相信……$"
+
+MagmaHideout_2F_2R_Text_Grunt8PostBattle:
+	.string "我有种感觉，我们的计划\n"
+	.string "要以失败收场了……$"
+
+`

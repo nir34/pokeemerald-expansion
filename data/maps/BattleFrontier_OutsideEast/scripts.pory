@@ -1,0 +1,447 @@
+raw `
+.set LOCALID_SUDOWOODO, 14
+
+BattleFrontier_OutsideEast_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideEast_OnTransition
+	.byte 0
+
+BattleFrontier_OutsideEast_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo
+	end
+
+BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+BattleFrontier_OutsideEast_OnTransition:
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, 0
+	setflag FLAG_HIDE_BATTLE_TOWER_REPORTER
+	call_if_unset FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_ShowSudowoodo
+	end
+
+BattleFrontier_OutsideEast_EventScript_ShowSudowoodo::
+	clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+	return
+
+BattleFrontier_OutsideEast_EventScript_BattleTowerSign::
+	msgbox BattleFrontier_OutsideEast_Text_BattleTowerSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_BattlePalaceSign::
+	msgbox BattleFrontier_OutsideEast_Text_BattlePalaceSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_BattleArenaSign::
+	msgbox BattleFrontier_OutsideEast_Text_BattleArenaSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_BattlePyramidSign::
+	msgbox BattleFrontier_OutsideEast_Text_BattlePyramidSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_NinjaBoy::
+	msgbox BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Man1::
+	msgbox BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Hiker::
+	msgbox BattleFrontier_OutsideEast_Text_PyramidTooHarsh, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_HexManiac::
+	msgbox BattleFrontier_OutsideEast_Text_ThriveInDarkness, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_BlackBelt1::
+	msgbox BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Cook::
+	lock
+	msgbox BattleFrontier_OutsideEast_Text_BelieveInYouBuddy, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_Zigzagoon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	msgbox BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_RichBoy::
+	msgbox BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_ExpertF::
+	msgbox BattleFrontier_OutsideEast_Text_OnceBeatGymLeader, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_TriathleteF::
+	msgbox BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Twin::
+	msgbox BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Man2::
+	lock
+	msgbox BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_TriathleteM::
+	msgbox BattleFrontier_OutsideEast_Text_DidScottBringYouHere, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Sudowoodo::
+	lock
+	faceplayer
+	waitse
+	playse SE_SUDOWOODO_SHAKE
+	applymovement LOCALID_SUDOWOODO, BattleFrontier_OutsideEast_Movement_SudowoodoShake
+	waitmovement 0
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_WaterSudowoodo::
+	lock
+	faceplayer
+	special DoWateringBerryTreeAnim
+	waitstate
+	waitse
+	playse SE_SUDOWOODO_SHAKE
+	applymovement LOCALID_SUDOWOODO, BattleFrontier_OutsideEast_Movement_SudowoodoShake
+	waitmovement 0
+	msgbox gText_Sudowoodo_Attacked, MSGBOX_DEFAULT
+	closemessage
+	waitse
+	playmoncry SPECIES_SUDOWOODO, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setvar VAR_LAST_TALKED, LOCALID_SUDOWOODO
+	setwildbattle SPECIES_SUDOWOODO, 40
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo
+	setflag FLAG_DEFEATED_SUDOWOODO
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_DefeatedSudowoodo::
+	setflag FLAG_DEFEATED_SUDOWOODO
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+BattleFrontier_OutsideEast_Movement_SudowoodoShake:
+	face_right
+	delay_8
+	face_down
+	delay_8
+	face_left
+	delay_8
+	face_down
+	delay_8
+	face_right
+	delay_8
+	face_down
+	delay_8
+	face_left
+	delay_8
+	face_down
+	step_end
+
+BattleFrontier_OutsideEast_EventScript_Maniac1::
+	msgbox BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Girl::
+	msgbox BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_PsychicM::
+	msgbox BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Man3::
+	msgbox BattleFrontier_OutsideEast_Text_GotWipedOut, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Woman1::
+	msgbox BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Woman2::
+	msgbox BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_BlackBelt2::
+	msgbox BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_Maniac2::
+	lock
+	msgbox BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_Woman3::
+	lock
+	msgbox BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_RankingHallSign::
+	msgbox BattleFrontier_OutsideEast_Text_RankingHallSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_ExchangeCornerSign::
+	msgbox BattleFrontier_OutsideEast_Text_ExchangeCornerSign, MSGBOX_SIGN
+	end
+
+BattleFrontier_OutsideEast_EventScript_Gentleman::
+	msgbox BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_EventScript_OldWoman::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone
+	msgbox BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone::
+	msgbox BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_OutsideEast_EventScript_Camper::
+	msgbox BattleFrontier_OutsideEast_Text_StickyMonWithLongTail, MSGBOX_NPC
+	end
+
+BattleFrontier_OutsideEast_Text_BattleTowerSign:
+	.string "这里是对战塔！\n"
+	.string "保持连胜，做最强的\l"
+	.string "训练家！$"
+
+BattleFrontier_OutsideEast_Text_BattlePalaceSign:
+	.string "这里是对战宫殿！\n"
+	.string "紧盯宝可梦对战！$"
+
+BattleFrontier_OutsideEast_Text_BattleArenaSign:
+	.string "这里是对战竞技场！\n"
+	.string "让最强的队伍聚集于此！$"
+
+BattleFrontier_OutsideEast_Text_BattlePyramidSign:
+	.string "这里是对战金字塔！\n"
+	.string "闯过对战任务！$"
+
+BattleFrontier_OutsideEast_Text_RankingHallSign:
+	.string "对战开拓区排行榜大厅\n"
+	.string "以新纪录为目标！$"
+
+BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
+	.string "对战点数兑换服务处\n"
+	.string "兑换你的对战点数！$"
+
+BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
+	.string "哇！\n"
+	.string "好大！\p"
+	.string "对战塔感觉特别。\n"
+	.string "它跟别的都不一样。$"
+
+BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
+	.string "我的宏愿是征服对战\n"
+	.string "开拓区和宝可梦\l"
+	.string "联盟。\p"
+	.string "要是梦想成真……\p"
+	.string "我……我就去问隔壁的\n"
+	.string "咪咪，愿不愿跟我做朋友！$"
+
+BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
+	.string "对战金字塔太难了！\n"
+	.string "我怎么都到不了顶！\p"
+	.string "既然没别的办法，也许\n"
+	.string "我可以从外面爬上去……$"
+
+BattleFrontier_OutsideEast_Text_ThriveInDarkness:
+	.string "我在黑暗中茁壮……\n"
+	.string "对……什么配得上我？\l"
+	.string "只有对战金字塔……\p"
+	.string "要不要在黑暗中、在彻底的\n"
+	.string "绝望中漫步？$"
+
+BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
+	.string "我一星期没睡，然后\n"
+	.string "组出了终极队伍！\p"
+	.string "我不是自夸，真觉得自己\n"
+	.string "不会输。我们这就冲进\l"
+	.string "对战竞技场！$"
+
+BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
+	.string "史考特也把你带来了？\n"
+	.string "那家伙到底怎么回事？\p"
+	.string "听说他确实很会\n"
+	.string "发掘有才华的训练家，不过……\p"
+	.string "我从没见过他亲自\n"
+	.string "对战。$"
+
+BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
+	.string "ZIGG！\n"
+	.string "我相信你，小家伙！\p"
+	.string "你要是赢了，我给我这只\n"
+	.string "小ZIGG做什么你爱吃的\l"
+	.string "好吃的都行！$"
+
+BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
+	.string "蛇纹熊看起来很茫然……$"
+
+BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
+	.string "大家都说我爱管闲事，\n"
+	.string "可我忍不住。\p"
+	.string "你的帽子歪了！\n"
+	.string "哦，不，地上有垃圾！\l"
+	.string "哎呀，快到晚饭时间了！\p"
+	.string "我不知道能不能就那样\n"
+	.string "在看台上看对战宫殿……$"
+
+BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
+	.string "我现在也许不那么\n"
+	.string "起眼，可我以前打赢过\l"
+	.string "道馆馆主。\p"
+	.string "谁知道呢，也许我该再\n"
+	.string "试着追求一次荣耀。$"
+
+BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
+	.string "我骑车快，对战\n"
+	.string "也快。\p"
+	.string "我一眨眼就赢下\n"
+	.string "比赛！$"
+
+BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
+	.string "我玩宝可梦比我爸爸\n"
+	.string "厉害。$"
+
+BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
+	.string "去吧，我的宝贝！\n"
+	.string "去给爸爸赢几场回来！\p"
+	.string "你就像你妈妈一样，\n"
+	.string "一定会碾压全场！$"
+
+BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
+	.string "我好不容易才来这儿，\n"
+	.string "因为我听说对战竞技场有个\l"
+	.string "超级漂亮的女孩。\p"
+	.string "结果我没找到她，\n"
+	.string "你猜我找到了什么？\p"
+	.string "一大群满身汗味、臭烘烘、\n"
+	.string "野蛮的武术家！$"
+
+BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
+	.string "我有时看见一位看起来\n"
+	.string "很重要的老先生进去。\p"
+	.string "他有很厉害的宝可梦。\n"
+	.string "不过他看起来人很好。$"
+
+BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
+	.string "你知道吗？\n"
+	.string "对战金字塔的传说？\p"
+	.string "当一位有自信的训练家\n"
+	.string "伸手去够金色巅峰时，\l"
+	.string "会出现一位人中之男。\p"
+	.string "不知道这个传说？\n"
+	.string "当然不知道！\l"
+	.string "我刚编的！\p"
+	.string "那是什么意思？\n"
+	.string "朋友，这我可说不上来！$"
+
+BattleFrontier_OutsideEast_Text_GotWipedOut:
+	.string "天啊！哦天啊！\n"
+	.string "我以前从没输过！\p"
+	.string "结果我被彻底打爆，\n"
+	.string "一点面子都没留！\p"
+	.string "然后还被告知我没什么\n"
+	.string "才能？！天啊！$"
+
+BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
+	.string "这家伙挑战对战塔时，\n"
+	.string "碰上了一位强得可怕的\l"
+	.string "训练家。\p"
+	.string "你看看他现在……\p"
+	.string "你要是决定去对战塔，\n"
+	.string "可得小心点。$"
+
+BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
+	.string "太好了！\n"
+	.string "我终于攒够对战点数！\p"
+	.string "我想我要再换一个\n"
+	.string "大毛绒人偶！$"
+
+BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
+	.string "哦，对，好！\n"
+	.string "所以这就是排行榜大厅！\p"
+	.string "我想作为超级冠军名留\n"
+	.string "青史，让我的名字\l"
+	.string "被后人记在这儿。$"
+
+BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
+	.string "有你在身边，我什么都\n"
+	.string "做得到。$"
+
+BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
+	.string "哦，亲爱的，你太棒了！\p"
+	.string "哦，我一刻都等不了！\p"
+	.string "我们现在就去多人\n"
+	.string "对战房间！\p"
+	.string "要是我俩在对战沙龙\n"
+	.string "凑到一起，我们的爱之力\l"
+	.string "会战胜所有对手。\p"
+	.string "亲爱的，在我们面前，\n"
+	.string "一切都会像多米诺\l"
+	.string "一样倒下！$"
+
+BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
+	.string "对战开拓区并不是只给\n"
+	.string "强训练家的。\p"
+	.string "好像很多有特殊能力的人\n"
+	.string "都被邀请来了。\p"
+	.string "那个史考特……\p"
+	.string "他建这个地方，也许\n"
+	.string "有更大的目的……$"
+
+BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
+	.string "打扰一下，年轻人。\n"
+	.string "你眼力好吗？\p"
+	.string "这前头有棵怪树，在我\n"
+	.string "这双昏花的老眼里，\l"
+	.string "它好像在扭。$"
+
+BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
+	.string "打扰一下，年轻人。\n"
+	.string "你记性好吗？\p"
+	.string "我总觉得这前头曾经\n"
+	.string "有过一棵怪树。$"
+
+BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
+	.string "我……\n"
+	.string "我看见了！\p"
+	.string "前面有一只黏糊糊的、\n"
+	.string "尾巴很长的宝可梦！\p"
+	.string "它躲在岩石下面，\n"
+	.string "一直盯着我看！$"
+`

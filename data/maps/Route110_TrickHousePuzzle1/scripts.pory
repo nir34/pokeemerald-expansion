@@ -1,0 +1,81 @@
+raw `
+Route110_TrickHousePuzzle1_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Route110_TrickHousePuzzle1_OnLoad
+	.byte 0
+
+Route110_TrickHousePuzzle1_OnLoad:
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_1_STATE, 2, Route110_TrickHousePuzzle1_EventScript_OpenDoor
+	end
+
+Route110_TrickHousePuzzle1_EventScript_OpenDoor::
+	setmetatile 13, 1, METATILE_TrickHousePuzzle_Stairs_Down, FALSE
+	end
+
+Route110_TrickHousePuzzle1_EventScript_Scroll::
+	lockall
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_1_STATE, 0, Route110_TrickHousePuzzle1_EventScript_FoundScroll
+	goto Route110_TrickHousePuzzle_EventScript_ReadScrollAgain
+	end
+
+Route110_TrickHousePuzzle1_EventScript_FoundScroll::
+	setvar VAR_TRICK_HOUSE_PUZZLE_1_STATE, 1
+	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
+	end
+
+Route110_TrickHousePuzzle1_EventScript_Sally::
+	trainerbattle_single TRAINER_SALLY, Route110_TrickHousePuzzle1_Text_SallyIntro, Route110_TrickHousePuzzle1_Text_SallyDefeat
+	msgbox Route110_TrickHousePuzzle1_Text_SallyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle1_EventScript_Eddie::
+	trainerbattle_single TRAINER_EDDIE, Route110_TrickHousePuzzle1_Text_EddieIntro, Route110_TrickHousePuzzle1_Text_EddieDefeat
+	msgbox Route110_TrickHousePuzzle1_Text_EddiePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle1_EventScript_Robin::
+	trainerbattle_single TRAINER_ROBIN, Route110_TrickHousePuzzle1_Text_RobinIntro, Route110_TrickHousePuzzle1_Text_RobinDefeat
+	msgbox Route110_TrickHousePuzzle1_Text_RobinPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
+	.string "{PLAYER}把密码写在了\n"
+	.string "门上。\p"
+	.string "“机关大师真了不起。”\n"
+	.string "… … … … … … … …\p"
+	.string "锁咔嗒一声开了！$"
+
+Route110_TrickHousePuzzle1_Text_SallyIntro:
+	.string "我要用刚学会的居合斩\n"
+	.string "一路砍到胜利！$"
+
+Route110_TrickHousePuzzle1_Text_SallyDefeat:
+	.string "你为什么这么认真？$"
+
+Route110_TrickHousePuzzle1_Text_SallyPostBattle:
+	.string "我砍啊砍，永远\n"
+	.string "砍不腻！$"
+
+Route110_TrickHousePuzzle1_Text_EddieIntro:
+	.string "我不小心闯进了这间\n"
+	.string "怪房子……$"
+
+Route110_TrickHousePuzzle1_Text_EddieDefeat:
+	.string "然后我现在输了……$"
+
+Route110_TrickHousePuzzle1_Text_EddiePostBattle:
+	.string "我迷了路、输了比赛，\n"
+	.string "现在更迷路了……\l"
+	.string "我出不去了……$"
+
+Route110_TrickHousePuzzle1_Text_RobinIntro:
+	.string "机关大师到底是谁？$"
+
+Route110_TrickHousePuzzle1_Text_RobinDefeat:
+	.string "我一边想事一边\n"
+	.string "就输了！$"
+
+Route110_TrickHousePuzzle1_Text_RobinPostBattle:
+	.string "你好强！\n"
+	.string "你到底是谁？$"
+
+`

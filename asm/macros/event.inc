@@ -55,6 +55,7 @@
 	STD_FIND_ITEM = 1
 	STD_OBTAIN_DECORATION = 7
 	STD_REGISTER_MATCH_CALL = 8
+	STD_OBTAIN_ITEM_FAST = 11
 
 	@ Calls the script in gStdScripts at index function.
 	.macro callstd function:req
@@ -1114,6 +1115,66 @@
 	.ifnb \teraType; .2byte \teraType; .endif
 	.endm
 
+	@ Gives the player a Pokémon of the specified species and level, and allows to customize extra parameters.
+	@ VAR_RESULT will be set to MON_GIVEN_TO_PARTY, MON_GIVEN_TO_PC, or MON_CANT_GIVE depending on the outcome.
+	.macro givemonrandom species:req, level:req, item, ball, nature, abilityNum, gender, hpEv, atkEv, defEv, speedEv, spAtkEv, spDefEv, hpIv, atkIv, defIv, speedIv, spAtkIv, spDefIv, move1, move2, move3, move4, isShiny, ggMaxFactor, teraType
+	callnative ScrCmd_createrandommon
+	.byte 0
+	.byte 6	@ PARTY_SIZE - assign to first empty slot
+	.set givemon_flags, 0
+	.2byte \species
+	.2byte \level
+	.ifnb \item; .set givemon_flags, givemon_flags | (1 << 0); .endif
+	.ifnb \ball; .set givemon_flags, givemon_flags | (1 << 1); .endif
+	.ifnb \nature; .set givemon_flags, givemon_flags | (1 << 2); .endif
+	.ifnb \abilityNum; .set givemon_flags, givemon_flags | (1 << 3); .endif
+	.ifnb \gender; .set givemon_flags, givemon_flags | (1 << 4); .endif
+	.ifnb \hpEv; .set givemon_flags, givemon_flags | (1 << 5); .endif
+	.ifnb \atkEv; .set givemon_flags, givemon_flags | (1 << 6); .endif
+	.ifnb \defEv; .set givemon_flags, givemon_flags | (1 << 7); .endif
+	.ifnb \speedEv; .set givemon_flags, givemon_flags | (1 << 8); .endif
+	.ifnb \spAtkEv; .set givemon_flags, givemon_flags | (1 << 9); .endif
+	.ifnb \spDefEv; .set givemon_flags, givemon_flags | (1 << 10); .endif
+	.ifnb \hpIv; .set givemon_flags, givemon_flags | (1 << 11); .endif
+	.ifnb \atkIv; .set givemon_flags, givemon_flags | (1 << 12); .endif
+	.ifnb \defIv; .set givemon_flags, givemon_flags | (1 << 13); .endif
+	.ifnb \speedIv; .set givemon_flags, givemon_flags | (1 << 14); .endif
+	.ifnb \spAtkIv; .set givemon_flags, givemon_flags | (1 << 15); .endif
+	.ifnb \spDefIv; .set givemon_flags, givemon_flags | (1 << 16); .endif
+	.ifnb \move1; .set givemon_flags, givemon_flags | (1 << 17); .endif
+	.ifnb \move2; .set givemon_flags, givemon_flags | (1 << 18); .endif
+	.ifnb \move3; .set givemon_flags, givemon_flags | (1 << 19); .endif
+	.ifnb \move4; .set givemon_flags, givemon_flags | (1 << 20); .endif
+	.ifnb \isShiny; .set givemon_flags, givemon_flags | (1 << 21); .endif
+	.ifnb \ggMaxFactor; .set givemon_flags, givemon_flags | (1 << 22); .endif
+	.ifnb \teraType; .set givemon_flags, givemon_flags | (1 << 23); .endif
+	.4byte givemon_flags
+	.ifnb \item; .2byte \item; .endif
+	.ifnb \ball; .2byte \ball; .endif
+	.ifnb \nature; .2byte \nature; .endif
+	.ifnb \abilityNum; .2byte \abilityNum; .endif
+	.ifnb \gender; .2byte \gender; .endif
+	.ifnb \hpEv; .2byte \hpEv; .endif
+	.ifnb \atkEv; .2byte \atkEv; .endif
+	.ifnb \defEv; .2byte \defEv; .endif
+	.ifnb \speedEv; .2byte \speedEv; .endif
+	.ifnb \spAtkEv; .2byte \spAtkEv; .endif
+	.ifnb \spDefEv; .2byte \spDefEv; .endif
+	.ifnb \hpIv; .2byte \hpIv; .endif
+	.ifnb \atkIv; .2byte \atkIv; .endif
+	.ifnb \defIv; .2byte \defIv; .endif
+	.ifnb \speedIv; .2byte \speedIv; .endif
+	.ifnb \spAtkIv; .2byte \spAtkIv; .endif
+	.ifnb \spDefIv; .2byte \spDefIv; .endif
+	.ifnb \move1; .2byte \move1; .endif
+	.ifnb \move2; .2byte \move2; .endif
+	.ifnb \move3; .2byte \move3; .endif
+	.ifnb \move4; .2byte \move4; .endif
+	.ifnb \isShiny; .2byte \isShiny; .endif
+	.ifnb \ggMaxFactor; .2byte \ggMaxFactor; .endif
+	.ifnb \teraType; .2byte \teraType; .endif
+	.endm
+
 	@ Gives the player an Egg of the specified species.
 	@ VAR_RESULT will be set to MON_GIVEN_TO_PARTY, MON_GIVEN_TO_PC, or MON_CANT_GIVE depending on the outcome.
 	.macro giveegg species:req
@@ -1863,9 +1924,9 @@
 	.2byte \initialSelected
 	.byte \callbacks
 	.byte (.Ldynmultichoice_\@_2 - .Ldynmultichoice_\@_1) / 4
-.Ldynmultichoice_\@_1:
+	.Ldynmultichoice_\@_1:
 	.4byte \argv
-.Ldynmultichoice_\@_2:
+	.Ldynmultichoice_\@_2:
 	.endm
 
 	@ Displays a multichoice box from which the user can choose a selection, and blocks script execution until a selection is made.
@@ -1883,6 +1944,56 @@
 
 	.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
 	_dynmultichoice \left, \top, \ignoreBPress, \maxBeforeScroll, \shouldSort, \initialSelected, \callbacks, NULL
+	.endm
+
+	@ Writes the name of the given nature to the specified buffer.
+	.macro buffernaturename stringVarId:req, nature:req
+	.byte 0xe5
+	stringvar \stringVarId
+	.2byte \nature
+	.endm
+
+	@ Checks if the player has enough space in their PC to hold quantity more of the specified item. Sets VAR_RESULT to
+	@ TRUE if there is room, or FALSE is there is no room.
+	.macro checkpcspace itemId:req, quantity=1
+	.byte 0xe6
+	.2byte \itemId
+	.2byte \quantity
+	.endm
+
+	@ Advances time based on variable passed, 0 = Day, 1 = Night, 2 = Morning, 3 = Dusk
+	.macro advancetime time:req
+	.byte 0xe7
+	.2byte \time
+	.endm
+
+	@ Checks if the specified Pokemon is in the player's party. If so, VAR_RESULT is set to TRUE, FALSE if not.
+	@ Also stores the (zero-indexed) slot number of that Pokemon in VAR_0x8004, set as PARTY_SIZE if not found.
+	.macro checkpartymon species:req
+	.byte 0xe8
+	.2byte \species
+	.endm
+
+	@ Writes the name of the given type to the specified buffer
+	.macro bufferhptypeinfo stringVarId1:req, stringVarId2:req, type:req
+	.byte 0xe9
+	stringvar \stringVarId1
+	stringvar \stringVarId2
+	.2byte \type
+	.endm
+
+	@ Opens the Pokemart system, offering the specified products for sale.
+	@ Products should be a list of .2byte item values preceded by an .align 2
+	.macro tmshop products:req
+	.byte 0xea
+	.4byte \products
+	.endm
+
+	@ Sets the species ID of the starter into VAR_0x8006, species name into the string var
+	.macro bufferstarterinfo stringVarId:req, startertype:req
+	.byte 0xeb
+	stringvar \stringVarId
+	.2byte \startertype
 	.endm
 
 @ Supplementary
@@ -2048,6 +2159,16 @@
 	setorcopyvar VAR_0x8000, \item
 	setorcopyvar VAR_0x8001, \amount
 	callstd STD_OBTAIN_ITEM
+	.endm
+
+	@ Gives 'amount' of the specified 'item' to the player and DOESNT print a message with fanfare.
+	@ If the player doesn't have space for all the items then as many are added as possible, the
+	@ message indicates there is no room, and VAR_RESULT is set to FALSE.
+	@ Otherwise VAR_RESULT is set to TRUE, and the message indicates they have received the item(s).
+	.macro giveitemfast item:req, amount=1
+	setorcopyvar VAR_0x8000, \item
+	setorcopyvar VAR_0x8001, \amount
+	callstd STD_OBTAIN_ITEM_FAST
 	.endm
 
 	@ For picking up items in the overworld. Similar to giveitem, but with different language and
@@ -2430,3 +2551,20 @@
 	.2byte \dest
 	.endm
 
+	@ Checks if the player has a typed Memory for Silvally in their Bag. Sets VAR_RESULT to TRUE if the player has
+	@ one, or FALSE if they don't.
+	.macro checkitemmemory
+	callnative ScrCmd_checkitemmemory
+	.endm
+
+	@ Checks if the player has a typed Drive for Genesect in their Bag. Sets VAR_RESULT to TRUE if the player has
+	@ one, or FALSE if they don't.
+	.macro checkitemdrive
+	callnative ScrCmd_checkitemdrive
+	.endm
+
+	@ Checks if the player has a typed Plate for Arceus in their Bag. Sets VAR_RESULT to TRUE if the player has
+	@ one, or FALSE if they don't.
+	.macro checkitemplate
+	callnative ScrCmd_checkitemplate
+	.endm

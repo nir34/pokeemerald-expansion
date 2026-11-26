@@ -1,0 +1,390 @@
+raw `
+.set LOCALID_TRICK_MASTER, 1
+
+Route110_TrickHouseEnd_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHouseEnd_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHouseEnd_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_TrickHouseEnd_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route110_TrickHouseEnd_OnWarp
+	.byte 0
+
+Route110_TrickHouseEnd_OnResume:
+	call_if_eq VAR_TEMP_1, 1, Route110_TrickHouseEnd_EventScript_SetDoorClosedMetatile
+	end
+
+Route110_TrickHouseEnd_OnTransition:
+	setvar VAR_TEMP_1, 0
+	setvar VAR_TEMP_2, 0
+	special SetTrickHouseNuggetFlag
+	end
+
+Route110_TrickHouseEnd_OnWarp:
+	map_script_2 VAR_TEMP_2, 0, Route110_TrickHouseEnd_EventScript_SetTrickMasterPos
+	.2byte 0
+
+Route110_TrickHouseEnd_EventScript_SetTrickMasterPos::
+	addobject LOCALID_TRICK_MASTER
+	showobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_END
+	turnobject LOCALID_TRICK_MASTER, DIR_EAST
+	end
+
+Route110_TrickHouseEnd_OnFrame:
+	map_script_2 VAR_TEMP_1, 0, Route110_TrickHouseEnd_EventScript_CloseDoor
+	.2byte 0
+
+Route110_TrickHouseEnd_EventScript_CloseDoor::
+	setvar VAR_TEMP_1, 1
+	call Route110_TrickHouseEnd_EventScript_SetDoorClosedMetatile
+	special DrawWholeMapView
+	end
+
+Route110_TrickHouseEnd_EventScript_SetDoorClosedMetatile::
+	setmetatile 10, 1, METATILE_GenericBuilding_TrickHouse_Door_Closed, TRUE
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMaster::
+	lock
+	faceplayer
+	msgbox Route110_TrickHouseEnd_Text_YouveMadeItToMe, MSGBOX_DEFAULT
+	setvar VAR_TEMP_2, 1
+	switch VAR_TRICK_HOUSE_LEVEL
+	case 0, Route110_TrickHouseEnd_EventScript_CompletedPuzzle1
+	case 1, Route110_TrickHouseEnd_EventScript_CompletedPuzzle2
+	case 2, Route110_TrickHouseEnd_EventScript_CompletedPuzzle3
+	case 3, Route110_TrickHouseEnd_EventScript_CompletedPuzzle4
+	case 4, Route110_TrickHouseEnd_EventScript_CompletedPuzzle5
+	case 5, Route110_TrickHouseEnd_EventScript_CompletedPuzzle6
+	case 6, Route110_TrickHouseEnd_EventScript_CompletedPuzzle7
+	case 7, Route110_TrickHouseEnd_EventScript_CompletedPuzzle8
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle1::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToPlantTrees, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_TM_GUNK_SHOT
+	giveitem ITEM_GARBODORITE
+	giveitem ITEM_TOXTRICITITE
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle2::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToMakeMaze, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_TM_SOLAR_BEAM
+	giveitem ITEM_TM_SOLAR_BLADE
+	giveitem ITEM_TM_GRASSY_GLIDE
+	giveitem ITEM_TM_GRASS_KNOT
+	giveitem ITEM_TM_POWER_WHIP
+	giveitem ITEM_TM_BUG_BUZZ
+	giveitem ITEM_TM_MEGAHORN
+	giveitem ITEM_BUTTERFRITE
+	giveitem ITEM_SNORLAXITE
+	giveitem ITEM_ROSERADITE
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle3::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToPreparePanels, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	setflag FLAG_BEAT_TRICK_HOUSE_3
+	giveitem ITEM_STEELIXITE
+	giveitem ITEM_KINGLERITE
+	giveitem ITEM_BOOSTER_ENERGY
+	addvar VAR_PETALBURG_GYM_STATE, 1
+	call_if_eq VAR_PETALBURG_GYM_STATE, 7, Common_EventScript_ReadyPetalburgGymForBattle
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle4::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToShoveBoulders, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_SMOKE_BALL
+	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_BagFull
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle5::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_TM_TAUNT
+	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_BagFull
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle6::
+	msgbox Route110_TrickHouseEnd_Text_AllNightToInstallDoors, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_MAGNET
+	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_BagFull
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle7::
+	msgbox Route110_TrickHouseEnd_Text_AllNightSettingUpArrows, MSGBOX_DEFAULT
+	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	giveitem ITEM_PP_MAX
+	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_BagFull
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_CompletedPuzzle8::
+	msgbox Route110_TrickHouseEnd_Text_AllNightPolishingFloors, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_FACING, DIR_SOUTH, Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwaySouth
+	call_if_eq VAR_FACING, DIR_NORTH, Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayNorth
+	call_if_eq VAR_FACING, DIR_WEST, Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayWest
+	call_if_eq VAR_FACING, DIR_EAST, Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayEast
+	delay 30
+	msgbox Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_FacePlayer
+	waitmovement 0
+	delay 30
+	msgbox Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
+	call Route110_TrickHouseEnd_EventScript_ChooseTent
+	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_NoRoomForTent
+	msgbox Route110_TrickHouseEnd_Text_LeavingOnJourney, MSGBOX_DEFAULT
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	special ResetTrickHouseNuggetFlag
+	release
+	end
+
+Route110_TrickHouseEnd_EventScript_ChooseTent::
+	multichoice 0, 0, MULTI_TENT, TRUE
+	switch VAR_RESULT
+	case 0, Route110_TrickHouseEnd_EventScript_GiveRedTent
+	goto Route110_TrickHouseEnd_EventScript_GiveBlueTent
+
+Route110_TrickHouseEnd_EventScript_GiveRedTent::
+	givedecoration DECOR_RED_TENT
+	return
+
+Route110_TrickHouseEnd_EventScript_GiveBlueTent::
+	givedecoration DECOR_BLUE_TENT
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterExit::
+	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouse_Movement_TrickMasterSpin
+	waitmovement 0
+	playse SE_M_EXPLOSION
+	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouse_Movement_TrickMasterJumpAway
+	waitmovement 0
+	removeobject LOCALID_TRICK_MASTER
+	addvar VAR_TRICK_HOUSE_LEVEL, 1
+	return
+
+Route110_TrickHouseEnd_EventScript_BagFull::
+	call Common_EventScript_BagIsFull
+	msgbox Route110_TrickHouseEnd_Text_NoRoomForThis, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 1
+	return
+
+Route110_TrickHouseEnd_EventScript_NoRoomForTent::
+	call Common_EventScript_NoRoomForDecor
+	msgbox Route110_TrickHouseEnd_Text_NoRoomInPC, MSGBOX_DEFAULT
+	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 1
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwaySouth::
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayNorth::
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayWest::
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayEast::
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	return
+
+Route110_TrickHouseEnd_EventScript_TrickMasterExitTrigger::
+	lockall
+	turnobject LOCALID_TRICK_MASTER, DIR_WEST
+	playse SE_PIN
+	applymovement LOCALID_TRICK_MASTER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 20
+	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouseEnd_Movement_TrickMasterSurprise
+	waitmovement 0
+	playse SE_M_EXPLOSION
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox Route110_TrickHouseEnd_Text_YoureIgnoringMe, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Route110_TrickHouseEnd_Movement_KeepPlayerInRoom
+	waitmovement 0
+	delay 4
+	turnobject LOCALID_TRICK_MASTER, DIR_EAST
+	releaseall
+	end
+
+Route110_TrickHouseEnd_Movement_KeepPlayerInRoom:
+	walk_down
+	step_end
+
+Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
+	jump_in_place_left
+	step_end
+
+Route110_TrickHouseEnd_Text_YouveMadeItToMe:
+	.string "啊！\n"
+	.string "你到我这儿了？\l"
+	.string "嗯……你真敏锐！$"
+
+Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
+	.string "我种那些树花了\n"
+	.string "一整晚……\p"
+	.string "你几乎和我一样伟大，\n"
+	.string "只差一点、二点、三点、\l"
+	.string "四点、五点、六点！$"
+
+Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
+	.string "我做迷宫花了\n"
+	.string "一整晚……\p"
+	.string "你几乎和我一样伟大，\n"
+	.string "只差一点、二点、三点、\l"
+	.string "四点、五点！$"
+
+Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
+	.string "我准备墙板花了\n"
+	.string "一整晚……\p"
+	.string "你几乎和我一样伟大，\n"
+	.string "只差一点、二点、三点、\l"
+	.string "四点！$"
+
+Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
+	.string "我推那些岩石花了\n"
+	.string "一整晚……\p"
+	.string "你几乎和我一样伟大，\n"
+	.string "只差一点、二点、三点！$"
+
+Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
+	.string "我做机械人偶花了一整晚，\n"
+	.string "又想测验题花了一晚……\p"
+	.string "你几乎和我一样伟大，\n"
+	.string "只差一点、二点！$"
+
+Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
+	.string "我安装门花了\n"
+	.string "一整晚……\p"
+	.string "你几乎和我一样伟大！$"
+
+Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
+	.string "我设置箭头花了\n"
+	.string "一整晚……\p"
+	.string "你和我一样伟大！$"
+
+Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
+	.string "我擦地板花了\n"
+	.string "一整晚……\p"
+	.string "你比我更伟大！\n"
+	.string "也许……$"
+
+Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
+	.string "我、我该怎么办？\n"
+	.string "我机关点子的泉眼\l"
+	.string "干涸了……\p"
+	.string "也许该去全国旅行，\n"
+	.string "寻找新机关了……$"
+
+Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
+	.string "我不愿认输，可你\n"
+	.string "打败了我！\p"
+	.string "不过，你一定是被我\n"
+	.string "的魅力吸引，才会\l"
+	.string "一次又一次来找我。\l"
+	.string "对，一定是！\p"
+	.string "不过这跟我输掉\n"
+	.string "没有关系！\p"
+	.string "为了纪念你这位\n"
+	.string "上进者和我这位天才\l"
+	.string "之间的友谊，我命令\l"
+	.string "你收下这个纪念品！\p"
+	.string "其实有两个——\n"
+	.string "红色帐篷和蓝色帐篷。\l"
+	.string "你更喜欢哪个？$"
+
+Route110_TrickHouseEnd_Text_NoRoomInPC:
+	.string "什么？你电脑没空间？\n"
+	.string "这让我怎么说？\p"
+	.string "我真想这么说，不过我\n"
+	.string "太善良体贴了，你晚点\l"
+	.string "再来！$"
+
+Route110_TrickHouseEnd_Text_LeavingOnJourney:
+	.string "… … … … … …\p"
+	.string "我要出发去旅行探索。\n"
+	.string "去寻找新机关。\p"
+	.string "希望有一天你再来\n"
+	.string "让我开开心。\p"
+	.string "那么，再会！$"
+
+Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
+	.string "好！\n"
+	.string "这个奖励归你了！$"
+
+Route110_TrickHouseEnd_Text_NoRoomForThis:
+	.string "什么？你没地方放这个？\n"
+	.string "你都带些什么道具啊？\p"
+	.string "不过算了，既然你到了\n"
+	.string "我这儿，奖励先放我这，\l"
+	.string "之后再给你。$"
+
+Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
+	.string "把你那得意的笑收起来！\n"
+	.string "现在以为赢了还太早！\p"
+	.string "我会做新机关难住你的。\n"
+	.string "你等全做完再嘲笑我。\p"
+	.string "下一回精彩内容，\n"
+	.string "敬请期待！$"
+
+Route110_TrickHouseEnd_Text_YoureIgnoringMe:
+	.string "喂喂！你现在无视我？\n"
+	.string "这可真让我伤心！$"
+
+`

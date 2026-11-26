@@ -35,24 +35,25 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Let me confirm--you are {PLAYER}?\p"
-	.string "We received this OLD SEA MAP\n"
-	.string "addressed to you.$"
+	.string "感谢使用神秘礼物\n"
+	.string "系统。\p"
+	.string "让我确认一下——\n"
+	.string "你是{PLAYER}吗？\p"
+	.string "我们收到了寄给你的\n"
+	.string "古老海图。$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "看起来要在琉璃市的\n"
+	.string "港口使用。\p"
+	.string "何不去试试，\n"
+	.string "看看是怎么回事？$"
 
 sText_MysteryGiftOldSeaMapThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "感谢您使用神秘\n"
+	.string "礼物系统。$"
 
 sText_MysteryGiftOldSeaMapBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "哦，抱歉，{PLAYER}。\n"
+	.string "你包包的重要道具袋满了。\p"
+	.string "请先在电脑里存点东西，\n"
+	.string "然后再来领取。$"

@@ -1,0 +1,30 @@
+raw `
+GraniteCave_B1F_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole
+	map_script MAP_SCRIPT_ON_TRANSITION, CaveHole_FixCrackedGround
+	map_script MAP_SCRIPT_ON_RESUME, GraniteCave_B1F_SetHoleWarp
+	.byte 0
+
+GraniteCave_B1F_SetHoleWarp:
+	setstepcallback STEP_CB_CRACKED_FLOOR
+	setholewarp MAP_GRANITE_CAVE_B2F
+	end
+
+`
+
+script GraniteCave_B1F_Trigger_NeedEightBadges{
+	lockall
+	msgbox(GraniteCave_B1F_FeelDarkForce, MSGBOX_SIGN)
+	waitmessage
+	applymovement(OBJ_EVENT_ID_PLAYER, StopPlayer)
+	waitmovement(0)
+	releaseall
+	end
+}
+
+text GraniteCave_B1F_FeelDarkForce{
+	"你感觉到梯子底部\n"
+	"传来强烈而阴暗的气息。\p"
+	"在拿到更多徽章之前，\n"
+	"最好先别下去。"
+}

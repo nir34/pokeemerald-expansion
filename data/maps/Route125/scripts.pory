@@ -1,0 +1,228 @@
+raw `
+.set LOCALID_ROARK, 11
+
+
+Route125_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route125_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, Route125_OnLoad
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route125_OnFrame
+	.byte 0
+
+Route125_OnTransition:
+	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
+	call_if_defeated TRAINER_ROARK, SetRoarkPermLoc
+	call_if_eq VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_HideMapNamePopup
+	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_125_WEST, AbnormalWeather_StartKyogreWeather
+	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_125_EAST, AbnormalWeather_StartKyogreWeather
+	end
+
+Route125_OnLoad:
+	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_125_WEST, AbnormalWeather_EventScript_PlaceTilesRoute125West
+	call_if_eq VAR_ABNORMAL_WEATHER_LOCATION, ABNORMAL_WEATHER_ROUTE_125_EAST, AbnormalWeather_EventScript_PlaceTilesRoute125East
+	call_if_defeated TRAINER_ROARK, SetRoarkPermLoc
+	end
+
+Route125_OnFrame:
+	map_script_2 VAR_SHOULD_END_ABNORMAL_WEATHER, 1, AbnormalWeather_EventScript_EndEventAndCleanup_1
+	.2byte 0
+
+Route125_EventScript_Nolen::
+	trainerbattle_single TRAINER_NOLEN, Route125_Text_NolenIntro, Route125_Text_NolenDefeat
+	msgbox Route125_Text_NolenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Stan::
+	trainerbattle_single TRAINER_STAN, Route125_Text_StanIntro, Route125_Text_StanDefeat
+	msgbox Route125_Text_StanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Tanya::
+	trainerbattle_single TRAINER_TANYA, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat
+	msgbox Route125_Text_TanyaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Sharon::
+	trainerbattle_single TRAINER_SHARON, Route125_Text_SharonIntro, Route125_Text_SharonDefeat
+	msgbox Route125_Text_SharonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Ernest::
+	trainerbattle_single TRAINER_ERNEST_1, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat, Route125_EventScript_RegisterErnest
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route125_EventScript_RematchErnest
+	msgbox Route125_Text_ErnestPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route125_EventScript_RegisterErnest::
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox Route125_Text_ErnestRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_ERNEST_1
+	release
+	end
+
+Route125_EventScript_RematchErnest::
+	trainerbattle_rematch TRAINER_ERNEST_1, Route125_Text_ErnestRematchIntro, Route125_Text_ErnestRematchDefeat
+	msgbox Route125_Text_ErnestRematchPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Kim::
+	trainerbattle_double TRAINER_KIM_AND_IRIS, Route125_Text_KimIntro, Route125_Text_KimDefeat, Route125_Text_KimNotEnoughMons
+	msgbox Route125_Text_KimPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Iris::
+	trainerbattle_double TRAINER_KIM_AND_IRIS, Route125_Text_IrisIntro, Route125_Text_IrisDefeat, Route125_Text_IrisNotEnoughMons
+	msgbox Route125_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Presley::
+	trainerbattle_single TRAINER_PRESLEY, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat
+	msgbox Route125_Text_PresleyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route125_EventScript_Auron::
+	trainerbattle_single TRAINER_AURON, Route125_Text_AuronIntro, Route125_Text_AuronDefeat
+	msgbox Route125_Text_AuronPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+`
+
+script Route125_EventScript_Roark{
+	lockall
+	applymovement(LOCALID_ROARK, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_ROARK, Route125_EventScript_RoarkDefeated)
+	goto_if_set(FLAG_TEMP_1, Route125_EventScript_RoarkRequestBattleAgain)
+	msgbox(Roark_Greeting, MSGBOX_YESNO)
+	goto(Route125_EventScript_BattleRoarkPrompt)
+	end
+}
+
+script Route125_EventScript_RoarkRequestBattleAgain{
+	msgbox(Roark_ReadyYet, MSGBOX_YESNO)
+	goto(Route125_EventScript_BattleRoarkPrompt)
+	end
+}
+
+script Route125_EventScript_BattleRoarkPrompt{
+	call_if_eq(VAR_RESULT, YES, Route125_EventScript_BattleRoark)
+	goto_if_eq(VAR_RESULT, NO, Route125_EventScript_DeclineRoarkBattle)
+	closemessage
+	end
+}
+
+script Route125_EventScript_DeclineRoarkBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Roark_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script Route125_EventScript_BattleRoark{
+	msgbox("那就来吧！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_ROARK, Roark_Outro)
+	goto(Route125_EventScript_RoarkGiveItems)
+	return
+}
+	
+
+script Route125_EventScript_RoarkDefeated{
+	msgbox(PostBattle_Roark, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script Route125_EventScript_RoarkGiveItems{
+	giveitem(ITEM_TM_STONE_EDGE)
+	giveitem(ITEM_TM_HEAVY_SLAM)
+	msgbox(Roark_ExplainItems)
+	waitmessage
+	switch (var(VAR_FACING)) {
+        case DIR_EAST:
+			goto(RoarkMoveScript2)
+		default:
+            goto(RoarkMoveScript1)
+	}
+	release
+	end
+}
+
+script RoarkMoveScript1 {
+	applymovement(LOCALID_ROARK, RoarkUnblockCaveStepWest)
+	copyobjectxytoperm(LOCALID_ROARK)
+}
+
+script RoarkMoveScript2 {
+	applymovement(LOCALID_ROARK, RoarkUnblockCaveStepEast)
+	copyobjectxytoperm(LOCALID_ROARK)
+}
+
+script RoarkUnblockCaveStepWest
+{
+	walk_left
+	face_down
+	step_end
+}
+
+script RoarkUnblockCaveStepEast
+{
+	walk_right
+	face_down
+	step_end
+}
+
+script SetRoarkPermLoc {
+	setobjectxyperm(LOCALID_ROARK, 21, 20)
+	return
+}
+
+text Roark_Greeting{
+	"哦，你好。我猜你是想\n"
+	"进这个洞窟的\l"
+	"训练家？\p"
+	"我调查过了，里面\n"
+	"有很多强大的宝可梦，\l"
+	"所以我决定守在外头，\l"
+	"不让弱小的训练家进去。\p"
+	"所以你想进去，就得\n"
+	"先过我这关。\p"
+	"………………\p"
+	"我凭什么管这事？\n"
+	"我是神奥地区的\l"
+	"第一位道馆馆主，瓢太！\p"
+	"我在家乡虽只是第一位道馆馆主，\n"
+	"但这次来探险，我带的是\l"
+	"最强的队伍！\p"
+	"不过废话少说，你是来\n"
+	"挑战我的吗？"
+}
+
+text Roark_ReadyYet{
+	"现在准备好挑战了吗？"
+}
+
+text Roark_ComeBackWhenReady{
+	"唉，你打不赢我，\n"
+	"就进不了这个洞窟。"
+}
+
+text Roark_ExplainItems{
+	"那些可都是我喜欢的招式学习器！\n"
+	"你得想清楚再用，\l"
+	"不过只要用得对，\l"
+	"威力绝对够猛！\p"
+	"我现在就让开，\n"
+	"让你过去。"
+}
+	
+text Roark_Outro{
+	"看来你在这个洞窟里\n"
+	"没问题。"
+}
+
+
+text PostBattle_Roark{
+	"里面的宝可梦很强吧，\n"
+	"对吧？"
+}

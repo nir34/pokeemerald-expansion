@@ -1,237 +1,235 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "这个招式只能学\n"
+	.string "一次。可以吗？$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "Heh! My POKéMON totally rules!\n"
-	.string "It's cooler than any POKéMON!\p"
-	.string "I was lipping off with a swagger in\n"
-	.string "my step like that when the CHAIRMAN\l"
-	.string "chewed me out.\p"
-	.string "That took the swagger out of my step.\p"
-	.string "If you'd like, I'll teach the move\n"
-	.string "SWAGGER to a POKéMON of yours.$"
+	.string "嘿！我的宝可梦最强！\n"
+	.string "比谁的宝可梦都帅！\p"
+	.string "我就是那样趾高气扬地顶嘴，\n"
+	.string "结果被会长狠狠说了一顿。\l"
+	.string "\p"
+	.string "我的气焰一下子就灭了。\p"
+	.string "如果你愿意，我可以把\n"
+	.string "虚张声势教给你的宝可梦。$"
 
 MoveTutor_Text_SwaggerDeclined:
-	.string "What, no? Can't you get into\n"
-	.string "the spirit of things?$"
+	.string "什么，不要？你就不能\n"
+	.string "投入一点吗？$"
 
 MoveTutor_Text_SwaggerWhichMon:
-	.string "All right, which POKéMON wants to\n"
-	.string "learn how to SWAGGER?$"
+	.string "好，哪只宝可梦要学\n"
+	.string "虚张声势？$"
 
 MoveTutor_Text_SwaggerTaught:
-	.string "I'll just praise my POKéMON from now\n"
-	.string "on without the swagger.$"
+	.string "从今往后，我就只夸\n"
+	.string "我的宝可梦，不再趾高气扬。$"
 
 MoveTutor_Text_RolloutTeach:
-	.string "Did you know that you can go from\n"
-	.string "here a long way in that direction\l"
-	.string "without changing direction?\p"
-	.string "I might even be able to roll\n"
-	.string "that way.\p"
-	.string "Do you think your POKéMON will\n"
-	.string "want to roll, too?\p"
-	.string "I can teach one the move ROLLOUT\n"
-	.string "if you'd like.$"
+	.string "你知道吗，从这里朝那个方向\n"
+	.string "一直走都不会改变方向。\p"
+	.string "也许我也能那样\n"
+	.string "一路滚过去。\p"
+	.string "你觉得你的宝可梦\n"
+	.string "也想滚一滚吗？\p"
+	.string "如果你愿意，我可以教它\n"
+	.string "滚动这个招式。$"
 
 MoveTutor_Text_RolloutDeclined:
-	.string "You don't need to be shy about it.\n"
-	.string "Let's roll!$"
+	.string "不用害羞。\n"
+	.string "滚起来吧！$"
 
 MoveTutor_Text_RolloutWhichMon:
-	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the POKéMON looked like me.$"
+	.string "呵呵，当然！要是宝可梦\n"
+	.string "长得像我就更好了。$"
 
 MoveTutor_Text_RolloutTaught:
-	.string "Rolling around in the grass makes me\n"
-	.string "happy. Come on, let's roll!$"
+	.string "在草丛里滚来滚去\n"
+	.string "让我好开心。来，一起滚！$"
 
 MoveTutor_Text_FuryCutterTeach:
-	.string "There's a move that gets stronger\n"
-	.string "when you keep using it in a row.\p"
-	.string "It's a BUG-type move, and it is\n"
-	.string "wickedly cool.\p"
-	.string "It's called FURY CUTTER.\n"
-	.string "Want me to teach it to a POKéMON?$"
+	.string "有个招式连续使用\n"
+	.string "会变得越来越强。\p"
+	.string "那是虫属性的招式，\n"
+	.string "帅得不得了。\p"
+	.string "它叫连斩。\n"
+	.string "想让我教给宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined:
-	.string "We're not on the same wavelength.$"
+	.string "我们不在一个频道上。$"
 
 MoveTutor_Text_FuryCutterWhichMon:
-	.string "Yay!\n"
-	.string "Show me which POKéMON I should teach.$"
+	.string "太好了！\n"
+	.string "告诉我该教哪只宝可梦。$"
 
 MoveTutor_Text_FuryCutterTaught:
-	.string "I get a thrill watching to see if\n"
-	.string "the move keeps hitting in succession!$"
+	.string "看着招式能不能连续命中，\n"
+	.string "真让人兴奋！$"
 
 MoveTutor_MimicTeach:
-	.string "Ah, young one!\p"
-	.string "I am also a young one, but I mimic\n"
-	.string "the styles and speech of the elderly\l"
-	.string "folks of this town.\p"
-	.string "What do you say, young one?\n"
-	.string "Would you agree to it if I were to\l"
-	.string "offer to teach the move MIMIC?$"
+	.string "啊，年轻人！\p"
+	.string "我虽然也是年轻人，可我在模仿\n"
+	.string "这个镇上老人们的样子\l"
+	.string "和说话方式。\p"
+	.string "你觉得怎么样，年轻人？\n"
+	.string "要是我教你招式“模仿”，\l"
+	.string "你愿意吗？$"
 
 MoveTutor_MimicDeclined:
-	.string "Oh, boo! I wanted to teach MIMIC\n"
-	.string "to your POKéMON!$"
+	.string "哦，真可惜！我还想把\n"
+	.string "模仿教给你的宝可梦呢！$"
 
 MoveTutor_Text_MimicWhichMon:
-	.string "Fwofwo! And so I shall!\n"
-	.string "Let me see the POKéMON\l"
-	.string "you wish me to teach.$"
+	.string "呼夫呼夫！那就这么办！\n"
+	.string "让我看看你希望我\l"
+	.string "教哪只宝可梦。$"
 
 MoveTutor_Text_MimicTaught:
-	.string "MIMIC is a move of great depth.\p"
-	.string "Could you execute it to perfection\n"
-	.string "as well as me…?$"
+	.string "“模仿”是个很有深度的招式。\p"
+	.string "你能像我一样完美地\n"
+	.string "使出它吗……？$"
 
 MoveTutor_Text_MetronomeTeach:
-	.string "I want all sorts of things!\n"
-	.string "But I used up my allowance…\p"
-	.string "Wouldn't it be nice if there were\n"
-	.string "a spell that made money appear when\l"
-	.string "you waggle a finger?\p"
-	.string "If you want, I can teach your POKéMON\n"
-	.string "the move METRONOME.\p"
-	.string "Money won't appear, but your POKéMON\n"
-	.string "will waggle a finger. Yes?$"
+	.string "我想要好多东西！\n"
+	.string "可零花钱都用光了……\p"
+	.string "要是有个咒语，一摇手指\n"
+	.string "就能变出钱，那该多好？\p"
+	.string "如果你愿意，我可以教你的\n"
+	.string "宝可梦挥指这个招式。\p"
+	.string "钱不会变出来，但你的宝可梦\n"
+	.string "会摇手指。好吗？$"
 
 MoveTutor_Text_MetronomeDeclined:
-	.string "Okay. I'll be here if you change\n"
-	.string "your mind.$"
+	.string "好吧。要是你改主意，\n"
+	.string "我就在这儿。$"
 
 MoveTutor_Text_MetronomeWhichMon:
-	.string "Okay! I'll teach it!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "好！我来教！\n"
+	.string "该教哪只宝可梦？$"
 
 MoveTutor_Text_MetronomeTaught:
-	.string "When a POKéMON waggles its finger\n"
-	.string "like a METRONOME, all sorts of nice\l"
-	.string "things happen.\p"
-	.string "Wouldn't it be nice if we could\n"
-	.string "use it, too?$"
+	.string "当宝可梦像节拍器一样\n"
+	.string "摇起手指，就会发生\l"
+	.string "各种好事。\p"
+	.string "要是我们也能用\n"
+	.string "那该多好？$"
 
 MoveTutor_Text_SleepTalkTeach:
-	.string "Humph! My wife relies on HIDDEN\n"
-	.string "POWER to stay awake.\p"
-	.string "She should just take a nap like I do,\n"
-	.string "and SLEEP TALK.\p"
-	.string "I can teach your POKéMON how to\n"
-	.string "SLEEP TALK instead. Interested?$"
+	.string "哼！我老婆靠觉醒力量\n"
+	.string "保持清醒。\p"
+	.string "她该像我一样小睡一下，\n"
+	.string "然后梦话。\p"
+	.string "我可以改教你的宝可梦\n"
+	.string "梦话。有兴趣吗？$"
 
 MoveTutor_Text_SleepTalkDeclined:
-	.string "Oh, fine, fine. You want to stay awake\n"
-	.string "with HIDDEN POWER, too…$"
+	.string "哦，好吧好吧。你还想清醒着\n"
+	.string "用“觉醒力量”……$"
 
 MoveTutor_Text_SleepTalkWhichMon:
-	.string "Ah, an appreciative child!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "哦，真是个懂事的孩子！\n"
+	.string "该教哪只宝可梦？$"
 
 MoveTutor_Text_SleepTalkTaught:
-	.string "I've never once gotten my wife's\n"
-	.string "coin trick right.\p"
-	.string "I would be happy if I got it right\n"
-	.string "even as I SLEEP TALK…$"
+	.string "我从来没学会我妻子那套\n"
+	.string "硬币戏法。\p"
+	.string "哪怕是在“梦话”里能学会，\n"
+	.string "我也会很高兴……$"
 
 MoveTutor_Text_SubstituteTeach:
-	.string "When I see the wide world from up\n"
-	.string "here on the roof…\p"
-	.string "I think about how nice it would be\n"
-	.string "if there were more than just one me\l"
-	.string "so I could enjoy all sorts of lives.\p"
-	.string "Of course it's not possible.\n"
-	.string "Giggle…\p"
-	.string "I know! Would you be interested in\n"
-	.string "having a POKéMON learn SUBSTITUTE?$"
+	.string "从屋顶这样眺望\n"
+	.string "广阔的世界……\p"
+	.string "我就想，要是有好几个我，\n"
+	.string "就能体验各种人生，\l"
+	.string "那该多好。\p"
+	.string "当然这不可能。\n"
+	.string "呵呵……\p"
+	.string "我知道了！你想让宝可梦\n"
+	.string "学会替身吗？$"
 
 MoveTutor_Text_SubstituteDeclined:
-	.string "Oh, no?\p"
-	.string "A POKéMON can make a copy of\n"
-	.string "itself using it, you know.$"
+	.string "哦，不要？\p"
+	.string "用了它，宝可梦就能\n"
+	.string "做出自己的替身哦。$"
 
 MoveTutor_Text_SubstituteWhichMon:
-	.string "Giggle…\n"
-	.string "Which POKéMON do you want me to\l"
-	.string "teach SUBSTITUTE?$"
+	.string "呵呵……\n"
+	.string "你想让我教哪只宝可梦\l"
+	.string "替身？$"
 
 MoveTutor_Text_SubstituteTaught:
-	.string "We human beings should enjoy our\n"
-	.string "own lives to the utmost!\p"
-	.string "I hope you'll get that way, too!$"
+	.string "我们人类就该尽情享受\n"
+	.string "自己的人生！\p"
+	.string "我希望你也能变成那样！$"
 
 MoveTutor_Text_DynamicPunchTeach:
-	.string "I can't do this anymore!\p"
-	.string "It's utterly hopeless!\p"
-	.string "I'm a FIGHTING-type TRAINER,\n"
-	.string "so I can't win at the MOSSDEEP GYM\l"
-	.string "no matter how hard I try!\p"
-	.string "Argh! Punch! Punch! Punch!\n"
-	.string "Punch! Punch! Punch!\p"
-	.string "What, don't look at me that way!\n"
-	.string "I'm only hitting the ground!\p"
-	.string "Or do you want me to teach your\n"
-	.string "POKéMON DYNAMICPUNCH?$"
+	.string "我受不了了！\p"
+	.string "完全没希望！\p"
+	.string "我是格斗属性的训练家，\n"
+	.string "可在绿岭道馆怎么努力\l"
+	.string "都赢不了！\p"
+	.string "啊！打！打！打！\n"
+	.string "打！打！打！\p"
+	.string "什么，别那样看我！\n"
+	.string "我只是在打地面！\p"
+	.string "还是说，你想让我教你的\n"
+	.string "宝可梦爆裂拳？$"
 
 MoveTutor_Text_DynamicPunchDeclined:
-	.string "Darn! You're even making fun of me?\n"
-	.string "Punch! Punch! Punch!$"
+	.string "可恶！你连我都取笑？\n"
+	.string "拳！拳！拳！$"
 
 MoveTutor_Text_DynamicPunchWhichMon:
-	.string "What? You do? You're a good person!\n"
-	.string "Which POKéMON should I teach?$"
+	.string "什么？真的？你人真好！\n"
+	.string "该教哪只宝可梦？$"
 
 MoveTutor_Text_DynamicPunchTaught:
-	.string "I want you to win at the MOSSDEEP GYM\n"
-	.string "using that DYNAMICPUNCH!$"
+	.string "我希望你用那招“爆裂拳”\n"
+	.string "在武斗道馆赢下来！$"
 
 MoveTutor_Text_DoubleEdgeTeach:
-	.string "Sigh…\p"
-	.string "SOOTOPOLIS's GYM LEADER is really\n"
-	.string "lovably admirable.\p"
-	.string "But that also means I have many\n"
-	.string "rivals for his attention.\p"
-	.string "He's got appeal with a DOUBLE-EDGE.\n"
-	.string "I couldn't even catch his eye.\p"
-	.string "Please, let me teach your POKéMON\n"
-	.string "the move DOUBLE-EDGE!$"
+	.string "唉……\p"
+	.string "琉璃市的道馆馆主真是\n"
+	.string "可爱又令人敬佩。\p"
+	.string "但这也意味着，\n"
+	.string "有很多人和我争他的注意。\p"
+	.string "他有着舍身冲撞般的魅力。\n"
+	.string "我连他的眼睛都引不来。\p"
+	.string "求你了，让我教你的宝可梦\n"
+	.string "舍身冲撞吧！$"
 
 MoveTutor_Text_DoubleEdgeDeclined:
-	.string "Oh…\n"
-	.string "Even you rejected me…$"
+	.string "哦……\n"
+	.string "连你也拒绝我……$"
 
 MoveTutor_Text_DoubleEdgeWhichMon:
-	.string "Okay, which POKéMON should I teach\n"
-	.string "DOUBLE-EDGE?$"
+	.string "好，该教哪只宝可梦\n"
+	.string "舍身冲撞？$"
 
 MoveTutor_Text_DoubleEdgeTaught:
-	.string "I won't live for love anymore!\n"
-	.string "I'll become tough!$"
+	.string "我不再为爱而活了！\n"
+	.string "我要变强！$"
 
 MoveTutor_Text_ExplosionTeach:
-	.string "I don't intend to be going nowhere\n"
-	.string "fast in the sticks like this forever.\p"
-	.string "You watch me, I'll get out to the city\n"
-	.string "and become a huge hit.\p"
-	.string "Seriously, I'm going to cause\n"
-	.string "a huge EXPLOSION of popularity!\p"
-	.string "If you overheard that, I'll happily\n"
-	.string "teach EXPLOSION to your POKéMON!$"
+	.string "我可不想就这样一直在\n"
+	.string "这种乡下一事无成。\p"
+	.string "你等着，我要进城，\n"
+	.string "闯出大名堂。\p"
+	.string "说真的，我要掀起一场\n"
+	.string "人气大爆炸！\p"
+	.string "既然你听见了，我就高高兴兴\n"
+	.string "把大爆炸教给你的宝可梦！$"
 
 MoveTutor_Text_ExplosionDeclined:
-	.string "Gaah! You're turning me down because\n"
-	.string "I live in the country?$"
+	.string "嘎啊！你拒绝我，\n"
+	.string "就因为我住在乡下？$"
 
 MoveTutor_Text_ExplosionWhichMon:
-	.string "Fine! An EXPLOSION it is!\n"
-	.string "Which POKéMON wants to blow up?$"
+	.string "好！那就大爆炸！\n"
+	.string "哪只宝可梦想炸一炸？$"
 
 MoveTutor_Text_ExplosionTaught:
-	.string "For a long time, I've taught POKéMON\n"
-	.string "how to use EXPLOSION, but I've yet\l"
-	.string "to ignite my own EXPLOSION…\p"
-	.string "Maybe it's because deep down,\n"
-	.string "I would rather stay here…$"
+	.string "长久以来，我一直教宝可梦\n"
+	.string "使用大爆炸，可我自己\l"
+	.string "还没炸起来过……\p"
+	.string "也许是因为我内心深处，\n"
+	.string "其实宁愿留在这里……$"

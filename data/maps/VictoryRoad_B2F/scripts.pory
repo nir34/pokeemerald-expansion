@@ -1,0 +1,110 @@
+raw `
+VictoryRoad_B2F_MapScripts::
+	.byte 0
+
+VictoryRoad_B2F_EventScript_Vito::
+	trainerbattle_single TRAINER_VITO, VictoryRoad_B2F_Text_VitoIntro, VictoryRoad_B2F_Text_VitoDefeat
+	msgbox VictoryRoad_B2F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_EventScript_Owen::
+	trainerbattle_single TRAINER_OWEN, VictoryRoad_B2F_Text_OwenIntro, VictoryRoad_B2F_Text_OwenDefeat
+	msgbox VictoryRoad_B2F_Text_OwenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_EventScript_Caroline::
+	trainerbattle_single TRAINER_CAROLINE, VictoryRoad_B2F_Text_CarolineIntro, VictoryRoad_B2F_Text_CarolineDefeat
+	msgbox VictoryRoad_B2F_Text_CarolinePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_EventScript_Julie::
+	trainerbattle_single TRAINER_JULIE, VictoryRoad_B2F_Text_JulieIntro, VictoryRoad_B2F_Text_JulieDefeat
+	msgbox VictoryRoad_B2F_Text_JuliePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_EventScript_Felix::
+	trainerbattle_single TRAINER_FELIX, VictoryRoad_B2F_Text_FelixIntro, VictoryRoad_B2F_Text_FelixDefeat
+	msgbox VictoryRoad_B2F_Text_FelixPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_EventScript_Dianne::
+	trainerbattle_single TRAINER_DIANNE, VictoryRoad_B2F_Text_DianneIntro, VictoryRoad_B2F_Text_DianneDefeat
+	msgbox VictoryRoad_B2F_Text_DiannePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_B2F_Text_VitoIntro:
+	.string "我和全家一起训练，\n"
+	.string "每一个人！\l"
+	.string "我不会输给任何人！$"
+
+VictoryRoad_B2F_Text_VitoDefeat:
+	.string "比我们全家都强？！\n"
+	.string "这有可能吗？！$"
+
+VictoryRoad_B2F_Text_VitoPostBattle:
+	.string "我比家里每个人都强。\n"
+	.string "我从没输过……\p"
+	.string "我的自信没了……\n"
+	.string "也许我该回家……$"
+
+VictoryRoad_B2F_Text_OwenIntro:
+	.string "我听说附近有个很强的\n"
+	.string "小鬼。是在说你吗？$"
+
+VictoryRoad_B2F_Text_OwenDefeat:
+	.string "这小豆丁真强！$"
+
+VictoryRoad_B2F_Text_OwenPostBattle:
+	.string "我听到的传言说，那个\n"
+	.string "很强的小鬼来自\l"
+	.string "橙华市。$"
+
+VictoryRoad_B2F_Text_CarolineIntro:
+	.string "你大概有点累了吧。$"
+
+VictoryRoad_B2F_Text_CarolineDefeat:
+	.string "一点累的样子都没有！$"
+
+VictoryRoad_B2F_Text_CarolinePostBattle:
+	.string "冠军之路和宝可梦联盟\n"
+	.string "是又长又艰难的挑战。\l"
+	.string "小心疲劳！$"
+
+VictoryRoad_B2F_Text_JulieIntro:
+	.string "别因为徽章多就自满。\p"
+	.string "总有人比你更强！$"
+
+VictoryRoad_B2F_Text_JulieDefeat:
+	.string "你比我强！$"
+
+VictoryRoad_B2F_Text_JuliePostBattle:
+	.string "看看你收集的徽章，\n"
+	.string "想想你面对过的训练家。$"
+
+VictoryRoad_B2F_Text_FelixIntro:
+	.string "我都走到这儿了，可\n"
+	.string "紧张得胃好痛……$"
+
+VictoryRoad_B2F_Text_FelixDefeat:
+	.string "哦……\n"
+	.string "好痛……$"
+
+VictoryRoad_B2F_Text_FelixPostBattle:
+	.string "一想到快到宝可梦联盟，\n"
+	.string "我就忍不住紧张。\p"
+	.string "我只能勉强装出\n"
+	.string "平静的样子。$"
+
+VictoryRoad_B2F_Text_DianneIntro:
+	.string "精英中的精英聚集在\n"
+	.string "这个洞窟里。\p"
+	.string "你觉得这儿怎么样？$"
+
+VictoryRoad_B2F_Text_DianneDefeat:
+	.string "一点也不慌！$"
+
+VictoryRoad_B2F_Text_DiannePostBattle:
+	.string "你真有胆量！我喜欢！\n"
+	.string "继续加油！$"
+
+`

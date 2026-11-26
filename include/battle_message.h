@@ -10,7 +10,6 @@
                                 max(POKEMON_NAME_LENGTH + 1, \
                                     ABILITY_NAME_LENGTH + 1)))
 #define BATTLE_MSG_MAX_WIDTH    208
-#define BATTLE_MSG_MAX_LINES    2
 
 // for 0xFD
 #define B_TXT_BUFF1 0x0
@@ -73,16 +72,13 @@
 #define B_TXT_DEF_NAME 0x39
 #define B_TXT_DEF_TEAM1 0x3A // Your/The opposing
 #define B_TXT_DEF_TEAM2 0x3B // your/the opposing
+#define B_TXT_CHEAT_CODE 0x3C // Cheat code entry
 // #define B_TXT_SELECTION_NAME 0x3C - removed
 // #define B_TXT_SELECTION_NAME2 0x3D no Illusion check - removed
 #define B_TXT_ATK_NAME_WITH_PREFIX2 0x3E //lowercase
 #define B_TXT_DEF_NAME_WITH_PREFIX2 0x3F //lowercase
 #define B_TXT_EFF_NAME_WITH_PREFIX2 0x40 //lowercase
 #define B_TXT_SCR_ACTIVE_NAME_WITH_PREFIX2 0x41 //lowercase
-#define B_TXT_TRAINER1_NAME_WITH_CLASS 0x42
-#define B_TXT_TRAINER2_NAME_WITH_CLASS 0x43
-#define B_TXT_PARTNER_NAME_WITH_CLASS 0x44
-#define B_TXT_ATK_TRAINER_NAME_WITH_CLASS 0x45
 
 #define B_BUFF_STRING                       0
 #define B_BUFF_NUMBER                       1
@@ -287,6 +283,7 @@ extern const u8 gText_WhatWillPkmnDo2[];
 extern const u8 gText_WhatWillWallyDo[];
 extern const u8 gText_LinkStandby[];
 extern const u8 gText_BattleMenu[];
+extern const u8 gText_BattleMenu2[];
 extern const u8 gText_SafariZoneMenu[];
 extern const u8 gText_MoveInterfacePP[];
 extern const u8 gText_MoveInterfaceType[];
@@ -317,14 +314,24 @@ extern const u8 gText_Are[];
 extern const u8 gText_Are2[];
 extern const u8 gText_BadEgg[];
 extern const u8 gText_BattleWallyName[];
+extern const u8 gText_BattleDawnName[];
+extern const u8 gText_BattleRoarkName[];
+extern const u8 gText_BattleGardeniaName[];
+extern const u8 gText_BattleFantinaName[];
+extern const u8 gText_BattleMayleneName[];
+extern const u8 gText_BattleWakeName[];
+extern const u8 gText_BattleByronName[];
+extern const u8 gText_BattleCandiceName[];
+extern const u8 gText_BattleVolknerName[];
+extern const u8 gText_BattleCynthiaName[];
 extern const u8 gText_Win[];
 extern const u8 gText_Loss[];
 extern const u8 gText_Draw[];
 extern const u8 gText_StatSharply[];
 extern const u8 gText_StatRose[];
-extern const u8 gText_StatFell[];
-extern const u8 gText_drastically[];
-extern const u8 gText_severely[];
+extern const u8 sText_StatFell[];
+extern const u8 sText_drastically[];
+extern const u8 sText_severely[];
 extern const u8 gText_DefendersStatRose[];
 extern const u8 gText_PkmnGettingPumped[];
 extern const u8 gText_PkmnShroudedInMist[];

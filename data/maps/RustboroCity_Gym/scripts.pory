@@ -1,0 +1,304 @@
+raw `
+RustboroCity_Gym_MapScripts::
+	.byte 0
+
+RustboroCity_Gym_EventScript_Roxanne::
+	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_RoxanneRematch
+	goto_if_unset FLAG_RECEIVED_TM_BULLDOZE, RustboroCity_Gym_EventScript_GiveBulldoze
+	msgbox RustboroCity_Gym_Text_RoxannePostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Gym_EventScript_RoxanneDefeated::
+	message RustboroCity_Gym_Text_ReceivedStoneBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_BADGE01_GET
+	setvar VAR_RUSTBORO_CITY_STATE, 1
+	addvar VAR_PETALBURG_GYM_STATE, 1
+	setvar VAR_0x8008, 1
+	call Common_EventScript_SetGymTrainers
+	call_if_eq VAR_PETALBURG_GYM_STATE, 7, Common_EventScript_ReadyPetalburgGymForBattle
+	goto RustboroCity_Gym_EventScript_GiveBulldoze
+	end
+
+RustboroCity_Gym_EventScript_GiveBulldoze::
+	giveitem ITEM_TM_BULLDOZE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_TM_BULLDOZE
+	msgbox RustboroCity_Gym_Text_ExplainBulldoze, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	release
+	end
+
+RustboroCity_Gym_EventScript_RoxanneRematch::
+	trainerbattle_rematch_double TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxannePreRematch, RustboroCity_Gym_Text_RoxanneRematchDefeat, RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons
+	msgbox RustboroCity_Gym_Text_RoxannePostRematch, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_Gym_EventScript_Josh::
+	trainerbattle_single TRAINER_JOSH, RustboroCity_Gym_Text_JoshIntro, RustboroCity_Gym_Text_JoshDefeat
+	msgbox RustboroCity_Gym_Text_JoshPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_Gym_EventScript_Tommy::
+	trainerbattle_single TRAINER_TOMMY, RustboroCity_Gym_Text_TommyIntro, RustboroCity_Gym_Text_TommyDefeat
+	msgbox RustboroCity_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_Gym_EventScript_Marc::
+	trainerbattle_single TRAINER_MARC, RustboroCity_Gym_Text_MarcIntro, RustboroCity_Gym_Text_MarcDefeat
+	msgbox RustboroCity_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RustboroCity_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_RUSTBORO_GYM, RustboroCity_Gym_EventScript_GymGuidePostVictory
+	msgbox RustboroCity_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Gym_EventScript_GymGuidePostVictory::
+	msgbox RustboroCity_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+	goto RustboroCity_Gym_EventScript_GymStatue
+	end
+
+RustboroCity_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+	goto RustboroCity_Gym_EventScript_GymStatue
+	end
+
+RustboroCity_Gym_EventScript_GymStatueCertified::
+	msgbox RustboroCity_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+RustboroCity_Gym_EventScript_GymStatue::
+	msgbox RustboroCity_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+RustboroCity_Gym_EventScript_RegisterRoxanne::
+	lockall
+	pokenavcall RustboroCity_Gym_Text_RoxanneRegisterCall
+	waitmessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox RustboroCity_Gym_Text_RegisteredRoxanne, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_ROXANNE_MATCH_CALL
+	clearflag FLAG_ENABLE_ROXANNE_FIRST_CALL
+	releaseall
+	end
+
+RustboroCity_Gym_EventScript_Nosepass::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_NOSEPASS, CRY_MODE_NORMAL
+	msgbox RustboroCity_Gym_Text_Nosepass, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+RustboroCity_Gym_Text_GymGuideAdvice:
+	.string "哟，你好啊！\p"
+	.string "我说你呀！\n"
+	.string "想不想成为冠军？\p"
+	.string "我可不是训练家，\n"
+	.string "不过我能给你获胜的建议。\p"
+	.string "那就这么定了！\n"
+	.string "我们一起冲击宝可梦冠军！\p"
+	.string "作为训练家，收集道馆徽章\n"
+	.string "是你的工作，对吧？\p"
+	.string "可是道馆馆主可不是好惹的！\p"
+	.string "所以这时候就该我出场了！\n"
+	.string "我来给你专家的建议！\p"
+	.string "馆主杜娟用的是\n"
+	.string "岩石属性宝可梦。\p"
+	.string "岩石属性很结实，\n"
+	.string "但怕水和\l"
+	.string "草属性的招式。\p"
+	.string "要是打赢了馆主，\n"
+	.string "再来找我吧。\p"
+	.string "好，去吧！$"
+
+RustboroCity_Gym_Text_GymGuidePostVictory:
+	.string "哇！真是一场精彩的胜利！\n"
+	.string "一定是我加油的功劳！\p"
+	.string "太棒了！\n"
+	.string "看看你的训练家卡吧。\p"
+	.string "你拿到的岩石徽章\n"
+	.string "应该已经好好记在上面了。\p"
+	.string "也就是说……\p"
+	.string "你已经踏上了通往冠军\n"
+	.string "之路的第一个台阶！\p"
+	.string "这感觉一定超棒！$"
+
+RustboroCity_Gym_Text_JoshIntro:
+	.string "别小看我们道馆训练家！\n"
+	.string "我来让你看看我们强在哪！$"
+
+RustboroCity_Gym_Text_JoshDefeat:
+	.string "你还真有两下子……$"
+
+RustboroCity_Gym_Text_JoshPostBattle:
+	.string "你还没见识过岩石属性\n"
+	.string "那可怕的力量！$"
+
+RustboroCity_Gym_Text_TommyIntro:
+	.string "要是连我都打不赢，\n"
+	.string "你根本赢不了杜娟！$"
+
+RustboroCity_Gym_Text_TommyDefeat:
+	.string "哇！你还挺有潜力的！$"
+
+RustboroCity_Gym_Text_TommyPostBattle:
+	.string "杜娟比我强好几倍。\p"
+	.string "你最好小心点！$"
+
+RustboroCity_Gym_Text_MarcIntro:
+	.string "我们是在镇子正中间，\n"
+	.string "可那又怎么样？\p"
+	.string "我的岩石宝可梦需要\n"
+	.string "地方大闹一场！$"
+
+RustboroCity_Gym_Text_MarcDefeat:
+	.string "哎呀呀！\n"
+	.string "我们的挑战者可真够劲！$"
+
+RustboroCity_Gym_Text_MarcPostBattle:
+	.string "我真佩服我们的馆主。\p"
+	.string "小小年纪就能选中\n"
+	.string "岩石属性，\l"
+	.string "真是又聪明又懂行。$"
+
+RustboroCity_Gym_Text_RoxanneIntro:
+	.string "你好，我是卡那兹市\n"
+	.string "宝可梦道馆的馆主杜娟。\p"
+	.string "我当上馆主，是想把在\n"
+	.string "宝可梦训练家学校学到的\l"
+	.string "东西用在战斗里。\p"
+	.string "你能让我看看你的战斗\n"
+	.string "方式和宝可梦吗？$"
+
+RustboroCity_Gym_Text_RoxanneDefeat:
+	.string "这样啊……\n"
+	.string "我输了……\p"
+	.string "看来我要学的东西\n"
+	.string "还多得很……\p"
+	.string "我明白了。\p"
+	.string "按照宝可梦联盟的规定，\n"
+	.string "打赢道馆馆主的人\l"
+	.string "可以得到这个。\p"
+	.string "请收下宝可梦联盟\n"
+	.string "正式的岩石徽章。$"
+
+RustboroCity_Gym_Text_ReceivedStoneBadge:
+	.string "{PLAYER}从杜娟那里\n"
+	.string "得到了岩石徽章。$"
+
+RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
+	.string "有了这枚徽章，你的宝可梦\n"
+	.string "就能在战斗外使用\l"
+	.string "秘传招式居合斩。\p"
+	.string "这个也请一起收下。$"
+
+
+RustboroCity_Gym_Text_ExplainBulldoze:
+	.string "那个学习器，学习器96号，\n"
+	.string "里面是重踏。\p"
+	.string "它不仅能造成伤害，\n"
+	.string "还能降低速度。\l"
+	.string "就像地面属性的岩石封锁。$"
+
+RustboroCity_Gym_Text_RoxannePostBattle:
+	.string "你既然这么强，\n"
+	.string "就该去挑战别的道馆馆主。\p"
+	.string "和许多训练家对战，\n"
+	.string "你会学到很多东西。$"
+
+RustboroCity_Gym_Text_GymStatue:
+	.string "卡那兹市宝可梦道馆$"
+
+RustboroCity_Gym_Text_GymStatueCertified:
+	.string "卡那兹市宝可梦道馆\p"
+	.string "杜娟认定的训练家：\n"
+	.string "{PLAYER}$"
+
+RustboroCity_Gym_Text_RoxanneRegisterCall:
+	.string "… … … … … …\n"
+	.string "… … … … … 哔！\p"
+	.string "杜娟：哦，你好，{PLAYER}？\n"
+	.string "我是卡那兹市的杜娟。\p"
+	.string "我听藤树说，你正以惊人的\n"
+	.string "速度在训练家的\l"
+	.string "路上不断前进。\p"
+	.string "不过，我可不想认为\n"
+	.string "自己赢不了你。\p"
+	.string "我保证会重整道馆，\n"
+	.string "让你能再次来挑战。\p"
+	.string "希望你也和我一样\n"
+	.string "期待那一天！\p"
+	.string "… … … … … …\n"
+	.string "… … … … … 咔嚓！$"
+
+RustboroCity_Gym_Text_RegisteredRoxanne:
+	.string "在宝可梦导航里登录了\n"
+	.string "道馆馆主杜娟。$"
+
+RustboroCity_Gym_Text_RoxannePreRematch:
+	.string "杜娟：真高兴又见到你。\n"
+	.string "我是这里的馆主杜娟。\p"
+	.string "自从上次见面，我们一定\n"
+	.string "都经历了许多战斗。\p"
+	.string "我想看看我们各自\n"
+	.string "进步了多少。来对战吧！$"
+
+RustboroCity_Gym_Text_RoxanneRematchDefeat:
+	.string "唔……\n"
+	.string "我又输了……$"
+
+RustboroCity_Gym_Text_RoxannePostRematch:
+	.string "杜娟：在宝可梦对战上，\n"
+	.string "我要学的还有很多。\p"
+	.string "明白这一点，反而让我\n"
+	.string "更爱对战了！$"
+
+RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
+	.string "杜娟：真高兴又见到你。\n"
+	.string "我是这里的馆主杜娟。\p"
+	.string "自从上次见面，我们一定\n"
+	.string "都经历了许多战斗。\p"
+	.string "我想看看我们各自\n"
+	.string "进步了多少……\p"
+	.string "哦，不行……\n"
+	.string "你身上只有一只宝可梦？\p"
+	.string "请至少再带一只\n"
+	.string "宝可梦过来。$"
+
+RustboroCity_Gym_Text_Nosepass:
+	.string "朝北鼻：哔哩哩！$"
+`

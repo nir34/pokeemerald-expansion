@@ -1,0 +1,40 @@
+raw `
+LavaridgeTown_House_MapScripts::
+	.byte 0
+
+LavaridgeTown_House_EventScript_OldMan::
+	msgbox LavaridgeTown_House_Text_WifeWarmingEggInHotSprings, MSGBOX_NPC
+	end
+
+LavaridgeTown_House_EventScript_Zigzagoon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	msgbox LavaridgeTown_House_Text_Zigzagoon, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+LavaridgeTown_House_EventScript_FormerMimicTutor::
+	lockall
+	faceplayer
+	msgbox LavaridgeTown_House_Text_FormerMimicTutor, MSGBOX_DEFAULT
+	releaseall
+	end
+
+LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
+	.string "我妻子正在温泉里\n"
+	.string "暖一颗蛋。她是这么说的。\p"
+	.string "她把两只宝可梦寄放在\n"
+	.string "培育屋，\l"
+	.string "结果发现了那颗蛋！$"
+
+LavaridgeTown_House_Text_Zigzagoon:
+	.string "蛇纹熊：噗咻！$"
+
+LavaridgeTown_House_Text_FormerMimicTutor:
+	.string "我以前能模仿任何招式……\n"
+	.string "唉，到底怎么了呢？$"
+
+`

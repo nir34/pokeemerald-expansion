@@ -1,0 +1,79 @@
+raw `
+SootopolisCity_Mart_MapScripts::
+	.byte 0
+
+SootopolisCity_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart SootopolisCity_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SootopolisCity_Mart_Pokemart:
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_HYPER_POTION
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_SHADOW_MAIL
+	.2byte ITEM_NONE
+	release
+	end
+
+SootopolisCity_Mart_EventScript_FatMan::
+	lock
+	faceplayer
+	goto_if_ge VAR_SKY_PILLAR_STATE, 2, SootopolisCity_Mart_EventScript_FatManNoLegendaries
+	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_Mart_EventScript_FatManNoLegendaries
+	msgbox SootopolisCity_Mart_Text_TooScaryOutside, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_Mart_EventScript_FatManNoLegendaries::
+	msgbox SootopolisCity_Mart_Text_PPUpIsGreat, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_Mart_EventScript_Gentleman::
+	lock
+	faceplayer
+	goto_if_ge VAR_SKY_PILLAR_STATE, 2, SootopolisCity_Mart_EventScript_GentlemanNoLegendaries
+	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_Mart_EventScript_GentlemanNoLegendaries
+	msgbox SootopolisCity_Mart_Text_DidSomethingAwaken, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_Mart_EventScript_GentlemanNoLegendaries::
+	msgbox SootopolisCity_Mart_Text_FullRestoreItemOfDreams, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_Mart_Text_PPUpIsGreat:
+	.string "PP提升剂太棒了！\p"
+	.string "它能提升宝可梦招式的\n"
+	.string "PP，也就是使用次数。$"
+
+SootopolisCity_Mart_Text_TooScaryOutside:
+	.string "外面……\n"
+	.string "发生什么了？\p"
+	.string "我真的很想知道，\n"
+	.string "可出去太可怕了。$"
+
+SootopolisCity_Mart_Text_FullRestoreItemOfDreams:
+	.string "你知道全复药吗？\p"
+	.string "回复全部HP！\n"
+	.string "消除所有异常状态！\p"
+	.string "真是梦想中的道具！$"
+
+SootopolisCity_Mart_Text_DidSomethingAwaken:
+	.string "这天气……\n"
+	.string "是有什么醒了吗？$"
+
+`

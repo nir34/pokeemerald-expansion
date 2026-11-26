@@ -1,0 +1,201 @@
+raw `
+.set LOCALID_VIVI, 1
+.set LOCALID_VICTOR, 2
+.set LOCALID_VICTORIA, 3
+.set LOCALID_VICKY, 4
+
+Route111_WinstrateFamilysHouse_MapScripts::
+	.byte 0
+
+Route111_WinstrateFamilysHouse_EventScript_Victor::
+	lock
+	faceplayer
+	setvar VAR_0x8008, LOCALID_VICTOR
+	goto_if_set FLAG_IS_CHAMPION, Route111_WinstrateFamilysHouse_GiveMysticTicket
+	msgbox Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_GiveMysticTicket::
+	goto_if_set FLAG_ENABLE_SHIP_BIRTH_ISLAND, Route111_WinstrateFamilysHouse_AlreadyGaveMysticTicket
+	msgbox Route111_WinstrateFamilysHouse_Text_TakeMysticTicket, MSGBOX_DEFAULT
+	giveitem ITEM_MYSTIC_TICKET
+	giveitem ITEM_AURORA_TICKET
+	giveitem ITEM_EON_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	msgbox Route111_WinstrateFamilysHouse_Text_BeSafeTicket, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_AlreadyGaveMysticTicket::
+	msgbox Route111_WinstrateFamilysHouse_Text_BeSafeTicket, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_Victoria::
+	lock
+	faceplayer
+	setvar VAR_0x8008, LOCALID_VICTORIA
+	goto_if_set FLAG_RECEIVED_MEGA_STONES, Route111_WinstrateFamilysHouse_EventScript_ReceivedMegaStones
+	msgbox Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMegaStones, MSGBOX_DEFAULT
+	giveitemfast ITEM_ALAKAZITE
+	giveitemfast ITEM_KANGASKHANITE
+	giveitemfast ITEM_AUDINITE
+	giveitemfast ITEM_GARDEVOIRITE
+	giveitemfast ITEM_ABSOLITE
+	giveitemfast ITEM_SHARPEDONITE
+	giveitemfast ITEM_HERACRONITE
+	giveitemfast ITEM_LOPUNNITE
+	giveitemfast ITEM_PIDGEOTITE
+	giveitemfast ITEM_BEEDRILLITE
+	giveitemfast ITEM_GLALITITE
+	giveitemfast ITEM_ABOMASITE
+	giveitemfast ITEM_MEDICHAMITE
+	giveitemfast ITEM_AGGRONITE
+	giveitemfast ITEM_CAMERUPTITE
+	giveitemfast ITEM_MAWILITE
+	giveitemfast ITEM_HOUNDOOMINITE
+	giveitemfast ITEM_PINSIRITE
+	giveitemfast ITEM_COALOSSITE
+	giveitemfast ITEM_SLOWBRONITE
+	giveitemfast ITEM_ORBEETLITE
+	giveitemfast ITEM_SCIZORITE
+	giveitemfast ITEM_AERODACTYLITE
+	giveitemfast ITEM_GALLADITE
+	giveitemfast ITEM_CENTISKITE
+	giveitemfast ITEM_SANDACONDITE
+	giveitemfast ITEM_APPLITE
+	setflag FLAG_RECEIVED_MEGA_STONES
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Route111_WinstrateFamilysHouse_Text_ReceivedSeveralMegaStones, MSGBOX_DEFAULT
+	waitfanfare
+	msgbox Route111_WinstrateFamilysHouse_Text_ExplainMegaStones, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_ReceivedMegaStones::
+	msgbox Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_Vivi::
+	lock
+	faceplayer
+	setvar VAR_0x8008, LOCALID_VIVI
+	msgbox Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_Vicky::
+	lock
+	faceplayer
+	setvar VAR_0x8008, LOCALID_VICKY
+	goto_if_set FLAG_TEMP_4, Route111_WinstrateFamilysHouse_EventScript_AlreadySpokenTo
+	msgbox Route111_WinstrateFamilysHouse_Text_GrandsonStrong, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_4
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_AlreadySpokenTo::
+	msgbox Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort, MSGBOX_DEFAULT
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	end
+
+Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
+	closemessage
+	applymovement VAR_0x8008, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
+	.string "你是我见过第一个\n"
+	.string "把宝可梦用得这么\l"
+	.string "出神入化的训练家。\p"
+	.string "不过我得告诉你——\n"
+	.string "我儿子比你更强。\p"
+	.string "他还挑战过宝可梦联盟，\n"
+	.string "你知道吧。$"
+
+Route111_WinstrateFamilysHouse_Text_TakeMysticTicket:
+	.string "哎呀，你挑战了宝可梦联盟？\n"
+	.string "还赢了？！\p"
+	.string "连我儿子都没能\n"
+	.string "强到那份上……\p"
+	.string "本来我打算等儿子当上\n"
+	.string "冠军就把这个给他，\l"
+	.string "可既然你先做到了……\p"
+	.string "来，拿去吧。我留得太久了，\n"
+	.string "照这样下去，\l"
+	.string "怕是永远用不上了。$"
+
+Route111_WinstrateFamilysHouse_Text_BeSafeTicket:
+	.string "我一直很好奇那张票\n"
+	.string "通向哪里。\p"
+	.string "一路平安，新科冠军。$"
+
+Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMegaStones:
+	.string "我们这里收集了不少\n"
+	.string "超级石。\p"
+	.string "我儿子去挑战四天王时，\n"
+	.string "我们给过他一套。\p"
+	.string "我不太相信你和他一样强，\n"
+	.string "不过这些也许\l"
+	.string "对你还是有用的。$"
+
+Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
+	.string "说到宝可梦对战，\n"
+	.string "我们一家都特别热情。$"
+
+Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
+	.string "妈妈比爸爸强。\p"
+	.string "我比妈妈强。\p"
+	.string "奶奶比我还强！\p"
+	.string "可哥哥比奶奶\n"
+	.string "还要强。$"
+
+Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
+	.string "你很强，这一点\n"
+	.string "毫无疑问。\p"
+	.string "可要是和我孙子对战，\n"
+	.string "你会懊恼得哭出来。\p"
+	.string "他比我们一家认识的\n"
+	.string "任何训练家都强得多。\p"
+	.string "他现在一定在挑战宝可梦\n"
+	.string "联盟冠军了吧。\p"
+	.string "照我孙子那本事，\n"
+	.string "说不定已经是冠军了！$"
+
+Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
+	.string "我孙子现在一定在挑战\n"
+	.string "宝可梦联盟冠军了吧。\p"
+	.string "照我孙子那本事，\n"
+	.string "说不定已经是冠军了！$"
+
+Route111_WinstrateFamilysHouse_Text_ReceivedSeveralMegaStones::
+	.string "{PLAYER}收到了\n"
+	.string "好几颗超级石！$"
+
+Route111_WinstrateFamilysHouse_Text_ExplainMegaStones:
+	.string "这些是我们收集到的\n"
+	.string "全部超级石，包括：\p"
+	.string "胡地石、袋兽石、差不多\n"
+	.string "娃娃石、沙奈朵石、\l"
+	.string "阿勃梭鲁石、巨牙鲨石、\l"
+	.string "赫拉克罗斯石、长耳兔石、\l"
+	.string "大比鸟石、大针蜂石、\l"
+	.string "冰鬼护石、暴雪王石、\l"
+	.string "恰雷姆石、波士可多拉石、\l"
+	.string "喷火驼石、大嘴娃石、\l"
+	.string "黑鲁加石、凯罗斯石、\l"
+	.string "巨炭山石、呆呆王石、\l"
+	.string "以欧路普石、巨钳螳螂石、\l"
+	.string "化石翼龙石、艾路雷朵石、\l"
+	.string "焚焰蚣石、沙螺蟒石、\l"
+	.string "苹裹龙石。\p"
+	.string "这些一定能让你成为\n"
+	.string "更强的训练家。$"
+
+`

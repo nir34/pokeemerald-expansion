@@ -1,0 +1,99 @@
+raw `
+FallarborTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_OnTransition
+	.byte 0
+
+FallarborTown_OnTransition:
+	setflag FLAG_VISITED_FALLARBOR_TOWN
+	setvar VAR_CONTEST_HALL_STATE, 0
+	clearflag FLAG_CONTEST_SKETCH_CREATED
+	end
+
+FallarborTown_EventScript_ExpertM::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, FallarborTown_EventScript_ExpertMNormal
+	msgbox FallarborTown_Text_ShadyCharactersCozmosHome, MSGBOX_DEFAULT
+	release
+	end
+
+FallarborTown_EventScript_ExpertMNormal::
+	msgbox FallarborTown_Text_RegionKnownForMeteors, MSGBOX_DEFAULT
+	release
+	end
+
+FallarborTown_EventScript_Girl::
+	msgbox FallarborTown_Text_MyPreciousAzurill, MSGBOX_NPC
+	end
+
+FallarborTown_EventScript_Gentleman::
+	msgbox FallarborTown_Text_HaveYouChallengedFlannery, MSGBOX_NPC
+	end
+
+FallarborTown_EventScript_Azurill::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+	msgbox FallarborTown_Text_Azurill, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+FallarborTown_EventScript_BattleTentSign::
+	msgbox FallarborTown_Text_BattleTentSign, MSGBOX_SIGN
+	end
+
+FallarborTown_EventScript_TownSign::
+	msgbox FallarborTown_Text_TownSign, MSGBOX_SIGN
+	end
+
+FallarborTown_EventScript_MoveTutorSign::
+	msgbox FallarborTown_Text_MoveTutorSign, MSGBOX_SIGN
+	end
+
+FallarborTown_Text_ShadyCharactersCozmosHome:
+	.string "出事了，我可不\n"
+	.string "喜欢这样！\p"
+	.string "我看见一些可疑的家伙\n"
+	.string "在科斯莫博士家\l"
+	.string "进进出出……$"
+
+FallarborTown_Text_RegionKnownForMeteors:
+	.string "这个地方自古以来\n"
+	.string "就以陨石闻名。\p"
+	.string "据说流星瀑布是很久\n"
+	.string "以前一颗落下的陨石\l"
+	.string "砸出来的。$"
+
+FallarborTown_Text_MyPreciousAzurill:
+	.string "看！你看！\n"
+	.string "这是我最宝贝的露力丽！\p"
+	.string "它又滑又软，还毛茸茸的！$"
+
+FallarborTown_Text_Azurill:
+	.string "露力丽：露哩噜噜。$"
+
+FallarborTown_Text_HaveYouChallengedFlannery:
+	.string "你挑战过釜炎道馆的\n"
+	.string "馆主亚莎了吗？\p"
+	.string "那姑娘的爷爷很有名。\n"
+	.string "他曾经是宝可梦联盟\l"
+	.string "四天王之一。\p"
+	.string "亚莎凭自己的本事\n"
+	.string "成为了不起的训练家，\l"
+	.string "我一点也不意外。$"
+
+FallarborTown_Text_BattleTentSign:
+	.string "对战帐篷 秋叶会场\n"
+	.string "“愿最强的队伍齐聚！”$"
+
+FallarborTown_Text_TownSign:
+	.string "秋叶镇\n"
+	.string "“带小菜园的农庄小镇。”$"
+
+FallarborTown_Text_MoveTutorSign:
+	.string "招式教学之家\n"
+	.string "“教宝可梦新招式。”$"
+
+`

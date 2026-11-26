@@ -28,6 +28,18 @@ struct Sfc32State {
     u32 ctr;
 };
 
+// A variant of SFC32 that lets you change the stream.
+// stream can be any odd number.
+static inline u32 _SFC32_Next_Stream(struct Sfc32State *state, const u8 stream)
+{
+    const u32 result = state->a + state->b + state->ctr;
+    state->ctr += stream;
+    state->a = state->b ^ (state->b >> 9);
+    state->b = state->c * 9;
+    state->c = result + ((state->c << 21) | (state->c >> 11));
+    return result;
+}
+
 typedef struct Sfc32State rng_value_t;
 
 #define RNG_VALUE_EMPTY {}
@@ -175,6 +187,13 @@ enum RandomTag
     RNG_SHELL_SIDE_ARM,
     RNG_RANDOM_TARGET,
     RNG_HEALER,
+    RNG_AI_SWITCH_ALL_SCORES_BAD,
+    RNG_AI_CONSIDER_FOCUS_PUNCH,
+    RNG_AI_SWITCH_WONDER_GUARD,
+    RNG_AI_SHOULD_RECOVER,
+    RNG_AI_BOOST_INTO_HAZE,
+    RNG_AI_PRIORITIZE_LAST_CHANCE,
+    RNG_AI_SWITCH_ABSORBING_STAY_IN,
 };
 
 #define RandomWeighted(tag, ...) \

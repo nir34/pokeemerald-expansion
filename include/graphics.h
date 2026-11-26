@@ -1700,6 +1700,7 @@ extern const u32 gItemIconPalette_BerserkGene[];
 
 extern const u32 gItemIcon_FairyFeather[];
 extern const u32 gItemIconPalette_FairyFeather[];
+extern const u32 gItemIconPalette_SteelFeather[];
 
 extern const u32 gItemIcon_Mochi[];
 extern const u32 gItemIconPalette_HealthMochi[];
@@ -1994,6 +1995,11 @@ extern const u32 gCategoryIcons_Gfx[];
 extern const u32 gShopMenu_Gfx[];
 extern const u32 gShopMenu_Tilemap[];
 extern const u32 gShopMenu_Pal[];
+
+extern const u32 gTMShopMenu_Gfx[];
+extern const u32 gTMShopMenu_Tilemap[];
+extern const u32 gTMShopMenu_Pal[];
+
 extern const u32 gShopMenuMoney_Gfx[];
 
 extern const u32 gBattleInterface_BallStatusBarGfx[];
@@ -2041,6 +2047,7 @@ extern const u16 gBattleInterface_BallDisplayPal[];
 
 extern const u32 gSwapLineGfx[];
 extern const u32 gSwapLinePal[];
+extern const u32 gSwapLineGfx_RegisteredItemsMenu[];
 
 extern const u32 gBattlePyramidBag_Gfx[];
 extern const u32 gBattlePyramidBag_Pal[];
@@ -2051,13 +2058,13 @@ extern const u16 gBattlePyramidFloor_Pal[][16];
 extern const u16 gStandardMenuPalette[];
 
 extern const u32 gTitleScreenEmeraldVersionGfx[];
-extern const u32 gTitleScreenPressStartGfx[];
+//extern const u32 gTitleScreenPressStartGfx[];
 extern const u32 gTitleScreenPokemonLogoGfx[];
 extern const u32 gTitleScreenPokemonLogoTilemap[];
-extern const u32 gTitleScreenCloudsTilemap[];
+//extern const u32 gTitleScreenCloudsTilemap[];
 extern const u16 gTitleScreenBgPalettes[];
-extern const u16 gTitleScreenPressStartPal[];
-extern const u16 gTitleScreenEmeraldVersionPal[];
+//extern const u16 gTitleScreenPressStartPal[];
+extern const u16 gTitleScreenEmeraldImperiumPal[];
 
 // Battle Dome
 extern const u32 gDomeTourneyInfoCard_Gfx[];
@@ -2893,6 +2900,10 @@ extern const u32 gBattleAnimSpritePal_IvyCudgelRock[];
 extern const u32 gBattleAnimSpritePal_IvyCudgelWater[];
 extern const u32 gBattleAnimSpriteGfx_PinkVioletOrb[];
 extern const u32 gBattleAnimSpritePal_PinkVioletOrb[];
+extern const u32 gBattleAnimSpriteGfx_TeraStarstormBeam[];
+extern const u32 gBattleAnimSpritePal_TeraStarstormBeam[];
+extern const u32 gBattleAnimSpriteGfx_SaltParticle[];
+extern const u32 gBattleAnimSpritePal_SaltParticle[];
 
 extern const u32 gBattleAnimBgImage_Dark[];
 extern const u32 gBattleAnimBgImage_Ghost[];
@@ -3388,5 +3399,10 @@ extern const u32 gBattleIcons_Gfx1[];
 extern const u32 gBattleIcons_Gfx2[];
 extern const u32 gBattleIcons_Pal1[];
 extern const u32 gBattleIcons_Pal2[];
+
+// Start hexorb branch
+extern const u32 gItemIcon_Hexorb[];
+extern const u32 gItemIconPalette_Hexorb[];
+// End hexorb Branch
 
 #endif //GUARD_GRAPHICS_H

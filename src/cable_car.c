@@ -1062,3 +1062,4 @@ static void InitGroundTilemapData(bool8 goingDown)
 
     sCableCar->groundTimer = 0;
 }
+

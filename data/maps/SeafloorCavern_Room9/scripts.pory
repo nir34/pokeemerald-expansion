@@ -1,0 +1,604 @@
+raw `
+.set LOCALID_KYOGRE, 1
+.set LOCALID_ARCHIE, 2
+.set LOCALID_MAXIE, 3
+.set LOCALID_GRUNT_1, 4
+.set LOCALID_GRUNT_2, 5
+.set LOCALID_KYOGRE_SLEEPING, 7
+.set LOCALID_SHELLY, 8
+.set LOCALID_MATT, 9
+
+SeafloorCavern_Room9_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SeafloorCavern_Room9_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, SeafloorCavern_Room9_OnLoad
+	.byte 0
+
+SeafloorCavern_Room9_OnTransition:
+	call_if_eq VAR_BEAT_AQUA_BACK_TO_BACK, 1, SetAquaAdminsPermLoc
+	call_if_eq VAR_FOUGHT_AND_LOST_TO_BOSS, 1, AddSleepingKyogre
+	end
+
+SeafloorCavern_Room9_OnLoad:
+	call_if_eq VAR_BEAT_AQUA_BACK_TO_BACK, 1, SetAquaAdminsPermLoc
+	end
+
+
+SeafloorCavern_EventScript_Archie::
+	setvar VAR_FOUGHT_AND_LOST_TO_BOSS, 1
+	msgbox SeafloorCavern_Room9_Text_ArchieAwakenKyogre, MSGBOX_DEFAULT
+	closemessage
+	delay 20
+	setvar VAR_RESULT, 1
+	playse SE_M_DETECT
+	dofieldeffectsparkle 17, 42, 0
+	waitfieldeffect FLDEFF_SPARKLE
+	setvar VAR_RESULT, 0
+	playfanfare MUS_AWAKEN_LEGEND
+	playse SE_ORB
+	special DoOrbEffect
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	delay 150
+	removeobject LOCALID_KYOGRE_SLEEPING
+	addobject LOCALID_KYOGRE
+	waitstate
+	delay 60
+	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreApproach
+	waitmovement 0
+	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	special FadeOutOrbEffect
+	waitstate
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	msgbox SeafloorCavern_Room9_Text_ArchieMasterBall, MSGBOX_DEFAULT
+	closemessage
+	removeobject LOCALID_KYOGRE
+	delay 30
+	msgbox SeafloorCavern_Room9_Text_ArchieCaputredKyogre, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ARCHIE, Common_Movement_FaceLeft
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	setvar VAR_LAST_TALKED, LOCALID_ARCHIE
+	setflag FLAG_HACKY_DOUBLE_BATTLE
+	trainerbattle_double TRAINER_ARCHIE, SeafloorCavern_Room9_Text_YouObstacle, SeafloorCavern_4F_Text_NotSurprised, SeafloorCavern_4F_Text_NotSurprised, SeafloorCavern_EventScript_ArchieContinued
+	releaseall
+	end
+
+SeafloorCavern_EventScript_ArchieContinued::
+	clearflag FLAG_HACKY_DOUBLE_BATTLE
+	delay 30
+	setvar VAR_FOUGHT_AND_LOST_TO_BOSS, 2
+	addobject LOCALID_KYOGRE
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	applymovement LOCALID_ARCHIE, Common_Movement_FaceUp
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
+	waitmovement 0
+	special ShakeCamera
+	waitstate
+	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
+	waitmovement 0
+	special ShakeCamera
+	waitstate
+	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
+	waitmovement 0
+	special ShakeCamera
+	waitstate
+	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
+	waitmovement 0
+	special ShakeCamera
+	waitstate
+	removeobject LOCALID_KYOGRE
+	delay 20
+	setvar VAR_0x8005, LOCALID_MAXIE
+	setvar VAR_0x8006, LOCALID_GRUNT_1
+	setvar VAR_0x8007, LOCALID_GRUNT_2
+	applymovement LOCALID_ARCHIE, Common_Movement_FaceLeft
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	msgbox SeafloorCavern_4F_TextKyogreAwakened, MSGBOX_DEFAULT
+	closemessage
+	playse SE_PC_LOGIN
+	applymovement OBJ_EVENT_ID_PLAYER, PlayerBackDown
+	waitmovement 0
+	applymovement LOCALID_ARCHIE, ArchieWalkLeft
+	waitmovement 0
+	msgbox SeafloorCavern_Room9_Text_ArchieAMessageFromOutside, MSGBOX_DEFAULT
+	closemessage
+	msgbox SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard, MSGBOX_DEFAULT
+	closemessage
+	playse SE_PC_OFF
+	delay 20
+	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear, MSGBOX_DEFAULT
+	closemessage
+	addobject VAR_0x8005
+	addobject VAR_0x8006
+	addobject VAR_0x8007
+	applymovement VAR_0x8007, SeafloorCavern_Room9_Movement_MagmaGruntArrive
+	applymovement VAR_0x8006, SeafloorCavern_Room9_Movement_MagmaGruntArrive
+	applymovement VAR_0x8005, SeafloorCavern_Room9_Movement_MaxieArrive
+	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	applymovement LOCALID_ARCHIE, Common_Movement_ExclamationMark
+	waitmovement 0
+	playse SE_PIN
+	msgbox SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought, MSGBOX_DEFAULT
+	msgbox SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty, MSGBOX_DEFAULT
+	msgbox SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_ROUTE128_STATE, 1
+	setvar VAR_SOOTOPOLIS_CITY_STATE, 1
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE
+	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
+	setflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
+	clearflag FLAG_HIDE_ROUTE_128_ARCHIE
+	clearflag FLAG_HIDE_ROUTE_128_MAXIE
+	setflag FLAG_SYS_WEATHER_CTRL
+	setflag FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN
+	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
+	setvar VAR_STEVENS_HOUSE_STATE, 2
+	setvar VAR_SEAFLOOR_CAVERN_STATE, 1
+	setvar VAR_BEAT_ARCHIE_CAVERN, 1
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS
+	setflag FLAG_HIDE_MAP_NAME_POPUP
+	warp MAP_ROUTE128, 38, 22
+	waitstate
+	releaseall
+	end
+
+SeafloorCavern_Room9_Movement_ArchieApproachPlayer:
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+SeafloorCavern_Room9_Movement_Unused1:
+	walk_left
+	walk_left
+	step_end
+
+SeafloorCavern_Room9_Movement_ArchieListenMessage:
+	walk_left
+	delay_16
+	step_end
+
+SeafloorCavern_Room9_Movement_Unused2:
+	walk_right
+	step_end
+
+SeafloorCavern_Room9_Movement_ArchieExit:
+	face_up
+	lock_facing_direction
+	walk_down
+	unlock_facing_direction
+	walk_in_place_faster_right
+	step_end
+
+SeafloorCavern_Room9_Movement_KyogreApproach:
+	delay_16
+	delay_16
+	walk_slow_down
+	delay_16
+	delay_16
+	delay_16
+	step_end
+
+SeafloorCavern_Room9_Movement_KyogreExit:
+	delay_16
+	delay_16
+	slide_up
+	delay_16
+	delay_16
+	delay_16
+	step_end
+
+SeafloorCavern_Room9_Movement_MaxieArrive:
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	step_end
+
+SeafloorCavern_Room9_Movement_MaxieExit:
+	walk_right
+	walk_right
+	step_end
+
+SeafloorCavern_Room9_Movement_MagmaGruntArrive:
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	step_end
+
+SeafloorCavern_Room9_Movement_Delay32:
+	delay_16
+	delay_16
+	step_end
+
+SeafloorCavern_Room9_EventScript_Shelly::
+	msgbox SeafloorCavern_4F_Text_ShellyAqua, MSGBOX_NPC
+	end
+
+SeafloorCavern_Room9_EventScript_Matt::
+	msgbox SeafloorCavern_4F_Text_NeverStopArchie, MSGBOX_NPC
+	end
+
+SeafloorCavern_Room9_Text_ArchieMasterBall:
+	.string "大师球，去吧！$"
+
+SeafloorCavern_Room9_Text_ArchieCaputredKyogre:
+	.string "好极了，盖欧卡……现在，\n"
+	.string "挡路的只剩一个\l"
+	.string "障碍了……$"
+
+SeafloorCavern_Room9_Text_ArchieAwakenKyogre:
+	.string "盖欧卡……\p"
+	.string "终于，你从沉眠中\n"
+	.string "醒来的时刻到了。\p"
+	.string "你该对这颗蓝色宝珠\n"
+	.string "中的力量作出反应……\p"
+	.string "觉醒吧，盖欧卡，与我\n"
+	.string "一起扩张海洋！$"
+
+SeafloorCavern_Room9_Text_YouObstacle:
+	.string "你，{PLAYER}。我尊重你\n"
+	.string "作为宝可梦训练家的\l"
+	.string "能力，你已经证明\l"
+	.string "自己是我很久以来\l"
+	.string "的眼中钉。\p"
+	.string "我只希望你能加入\n"
+	.string "我们……\p"
+	.string "可现在，你只是挡在\n"
+	.string "水舰队与扩张海洋\l"
+	.string "的梦想之间的\l"
+	.string "一个障碍……\p"
+	.string "对不起，{PLAYER}，我在\n"
+	.string "基地就警告过你，若再\l"
+	.string "交手，我不会手下留情。\p"
+	.string "现在，准备好承受\n"
+	.string "原始盖欧卡的怒火吧！$"
+
+SeafloorCavern_4F_Text_NotSurprised:
+	.string "我现在真不该\n"
+	.string "再吃惊了……$"
+
+SeafloorCavern_4F_TextKyogreAwakened:
+	.string "什么？盖欧卡强得足以\n"
+	.string "逃出我的大师球？\p"
+	.string "那本来不该可能的……\n"
+	.string "不知道它觉醒之后\l"
+	.string "会做什么……$"
+
+
+SeafloorCavern_4F_Text_NeverStopArchie:
+	.string "哈哈哈，小鬼，你根本没\n"
+	.string "机会对抗阿库亚。$"
+
+SeafloorCavern_4F_Text_ShellyAqua:
+	.string "我们的目标终于要\n"
+	.string "实现了。等阿库亚\l"
+	.string "收拾了你，就没人\l"
+	.string "能阻止我们。$"
+
+SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
+	.string "阿库亚：站住。$"
+
+SeafloorCavern_Room9_Text_ArchieSoItWasYou:
+	.string "阿库亚：呵呵呵……\n"
+	.string "果然是你。$"
+
+SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
+	.string "阿库亚：看吧！\p"
+	.string "看那沉睡的古代宝可梦\n"
+	.string "盖欧卡多美！\p"
+	.string "我等这一天\n"
+	.string "等了太久了……$"
+
+SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
+	.string "阿库亚：你居然能追到\n"
+	.string "这里，真让我吃惊。\p"
+	.string "不过一切都结束了。\p"
+	.string "为了实现我的梦想，\n"
+	.string "你现在必须消失！$"
+
+SeafloorCavern_Room9_Text_ArchieDefeat:
+	.string "什么？！\n"
+	.string "我竟然输给你这样的小孩？！$"
+
+SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
+	.string "阿库亚：呵呵呵……\p"
+	.string "我赞赏你。必须承认\n"
+	.string "你确实有天赋。\p"
+	.string "可是！\n"
+	.string "我手里有这个！\p"
+	.string "用这颗红色宝珠，我能\n"
+	.string "让盖欧卡……$"
+
+SeafloorCavern_Room9_Text_RedOrbShinesByItself:
+	.string "红色宝珠突然自己\n"
+	.string "发出了光芒！$"
+
+SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
+	.string "阿库亚：什么？！\p"
+	.string "我什么都没做。\n"
+	.string "红色宝珠为什么……\p"
+	.string "盖欧卡去哪儿了？$"
+
+SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
+	.string "嗯？外面成员发来的\n"
+	.string "消息……$"
+
+SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
+	.string "好，什么事？\p"
+	.string "Hm……\n"
+	.string "下着大雨？\p"
+	.string "那也说得通……\n"
+	.string "原始盖欧卡已经解放，\l"
+	.string "我们该料到会有\l"
+	.string "暴雨。\p"
+	.string "什么？！\p"
+	.string "雨下得比我们预想的\n"
+	.string "大得多？你们有危险？\p"
+	.string "那可麻烦了……\n"
+	.string "也许这件事我们该\l"
+	.string "更仔细地考虑……\p"
+	.string "守住位置，继续\n"
+	.string "观察情况！$"
+
+SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
+	.string "也许我们做错了……\n"
+	.string "把原始盖欧卡解放到\l"
+	.string "世界上却控制不住它……\l"
+	.string "我本以为有蓝色宝珠\l"
+	.string "和大师球就……$"
+
+SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
+	.string "马克西：阿库亚，你都\n"
+	.string "干了什么？你终于还是\l"
+	.string "把盖欧卡唤醒了，对吧？\p"
+	.string "这场暴雨要是一直\n"
+	.string "下下去，世界会怎样？\p"
+	.string "世界的陆地会沉进\n"
+	.string "越来越深的海洋……$"
+
+SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
+	.string "阿库亚：什、什么？！\n"
+	.string "别跟我摆那副腔调！\p"
+	.string "唤醒原始固拉多的\n"
+	.string "不就是你们熔岩队吗？$"
+
+SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
+	.string "马克西：现在没时间\n"
+	.string "在这里争吵！\p"
+	.string "出去自己看看！\n"
+	.string "看看你造出来的是不是\l"
+	.string "我们想要的世界！$"
+
+SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
+	.string "马克西：{PLAYER}，快，\n"
+	.string "你也得离开这里！$"
+
+SeafloorCavern_Text_ShellyDefeat:
+	.string "我又失败了……$"
+
+SeafloorCavern_Text_ShellyPostBattle:
+	.string "希莉：该你了，马特。$"
+
+SeafloorCavern_Text_MattDefeat:
+	.string "呃啊！又输了！$"
+
+SeafloorCavern_4F_Text_MattPostBattle:
+	.string "马特：这些对战反正也没\n"
+	.string "意义，阿库亚会把你\l"
+	.string "打得稀巴烂，小鬼。$"
+`
+
+script PlayerBackDown {
+	face_up
+	lock_facing_direction
+	walk_down
+	unlock_facing_direction
+	step_end
+}
+
+script ArchieWalkLeft {
+	walk_left
+	step_end
+}
+
+script SeafloorCavern_EventScript_ArchieTrigger1{
+	lockall
+	playbgm(MUS_ENCOUNTER_AQUA, FALSE)
+	applymovement(OBJ_EVENT_ID_PLAYER, ApproachArchie1)
+	waitmovement(0)
+	goto(SeafloorCavern_EventScript_Archie)
+	end
+}
+script SeafloorCavern_EventScript_ArchieTrigger2{
+	lockall
+	playbgm(MUS_ENCOUNTER_AQUA, FALSE)
+	applymovement(OBJ_EVENT_ID_PLAYER, ApproachArchie2)
+	waitmovement(0)
+	goto(SeafloorCavern_EventScript_Archie)
+	end
+}
+script SeafloorCavern_EventScript_ArchieTrigger3{
+	lockall
+	playbgm(MUS_ENCOUNTER_AQUA, FALSE)
+	applymovement(OBJ_EVENT_ID_PLAYER, ApproachArchie3)
+	waitmovement(0)
+	goto(SeafloorCavern_EventScript_Archie)
+	end
+}
+
+script ApproachArchie1{
+	walk_right
+	step_end
+}
+script ApproachArchie2{
+	walk_right
+	walk_up
+	face_right
+	step_end
+}
+script ApproachArchie3{
+	walk_right
+	walk_up
+	walk_up
+	face_right
+	step_end
+}
+
+script SeafloorCavern_EventScript_BackToBackTrigger{
+	goto(SeafloorCavern_EventScript_BackToBackScene)
+	end
+}
+
+script SeafloorCavern_EventScript_BackToBackScene{
+	lockall
+	playbgm(MUS_ENCOUNTER_AQUA, FALSE)
+	applymovement(LOCALID_MATT, Common_Movement_WalkInPlaceFasterRight)
+	waitmovement(0)
+	msgbox(CantStopArchie)
+	waitmessage
+	playse(SE_PIN)
+	playse(SE_PIN)
+	applymovement(LOCALID_SHELLY, Common_Movement_ExclamationMark)
+	applymovement(LOCALID_MATT, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	applymovement(LOCALID_SHELLY, Common_Movement_WalkInPlaceFasterUp)
+	applymovement(LOCALID_MATT, Common_Movement_WalkInPlaceFasterUp)
+	waitmovement(0)
+	applymovement(LOCALID_SHELLY, Common_Movement_WalkInPlaceFasterUp)
+	waitmovement(0)
+	msgbox(ShellyRevenge)
+	waitmessage
+	applymovement(LOCALID_SHELLY, SeafloorCavern_Movement_ShellyApproachPlayer)
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, SeafloorCavern_LookAtShelly)
+	msgbox(GoingDown)
+	trainerbattle_no_intro(TRAINER_SHELLY_SEAFLOOR_CAVERN, SeafloorCavern_Text_ShellyDefeat)
+	msgbox(SeafloorCavern_Text_ShellyPostBattle)
+	closemessage
+	applymovement(LOCALID_SHELLY, ShellyLost)
+	waitmovement(0)
+	copyobjectxytoperm(LOCALID_SHELLY)
+	playbgm(MUS_ENCOUNTER_AQUA, FALSE)
+	applymovement(LOCALID_MATT, SeafloorCavern_Movement_BackToBackMattApproachPlayer)
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, SeafloorCavern_LookAtMatt)
+	waitmovement(0)
+	msgbox(MattRevenge, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_MATT_SEAFLOOR_CAVERN, SeafloorCavern_Text_MattDefeat)
+	msgbox(SeafloorCavern_4F_Text_MattPostBattle, MSGBOX_DEFAULT)
+	closemessage
+	applymovement(LOCALID_MATT, MattLost)
+	waitmovement(0)
+	copyobjectxytoperm(LOCALID_MATT)
+	setvar(VAR_BEAT_AQUA_BACK_TO_BACK, 1)
+	releaseall
+	end
+}
+
+script SeafloorCavern_Movement_ShellyApproachPlayer {
+	walk_right
+	walk_up
+	face_left
+	step_end
+}
+
+script SeafloorCavern_Movement_BackToBackMattApproachPlayer{
+	walk_up
+	face_right
+	step_end
+}
+
+script SeafloorCavern_LookAtShelly{
+	face_right
+	step_end
+}
+
+script SeafloorCavern_LookAtMatt{
+	face_left
+	step_end
+}
+
+script ShellyLost {
+	lock_facing_direction
+	walk_right
+	unlock_facing_direction
+	step_end
+}
+
+script MattLost {
+	lock_facing_direction
+	walk_left
+	unlock_facing_direction
+	step_end
+}
+
+text CantStopArchie {
+	"马特：嘿嘿嘿……一旦阿库亚掌控了\n"
+	"原始盖欧卡，这世上就\l"
+	"再也没人能阻止他了……"
+}
+
+text ShellyRevenge {
+	"雪莉：又是这小鬼……我要为\n"
+	"天气研究所的事\l"
+	"报仇雪恨！"
+}
+
+text GoingDown {
+	"雪莉：你完蛋了！"
+}
+
+text MattRevenge{
+	"马特：嘿嘿嘿……小子，我早就\n"
+	"想找你算账了。\l"
+	"你别想从我这儿过去！"
+}
+
+script SetAquaAdminsPermLoc {
+	setobjectxyperm(LOCALID_SHELLY, 14, 8)
+	setobjectxyperm(LOCALID_MATT, 10, 8)
+	return
+}
+
+script AddSleepingKyogre {
+	clearflag(FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP)
+	addobject(LOCALID_KYOGRE_SLEEPING)
+	return
+}

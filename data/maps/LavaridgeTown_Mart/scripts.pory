@@ -1,0 +1,53 @@
+raw `
+LavaridgeTown_Mart_MapScripts::
+	.byte 0
+
+LavaridgeTown_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LavaridgeTown_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+LavaridgeTown_Mart_Pokemart:
+	.2byte ITEM_POKE_BALL
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_AWAKENING
+	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_X_SPEED
+	.2byte ITEM_NONE
+	release
+	end
+
+LavaridgeTown_Mart_EventScript_ExpertM::
+	msgbox LavaridgeTown_Mart_Text_XSpeedFirstStrike, MSGBOX_NPC
+	end
+
+LavaridgeTown_Mart_EventScript_OldWoman::
+	msgbox LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney, MSGBOX_NPC
+	end
+
+LavaridgeTown_Mart_Text_XSpeedFirstStrike:
+	.string "用速度强化提升宝可梦\n"
+	.string "在战斗中的速度。\p"
+	.string "这能帮它抢先出手——\n"
+	.string "那是决定性的优势！$"
+
+LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney:
+	.string "烟囱山顶有一种\n"
+	.string "只能在那里买到\l"
+	.string "的当地特产。\p"
+	.string "给宝可梦吃，它会\n"
+	.string "高兴得不得了。$"
+
+`

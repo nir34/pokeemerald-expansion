@@ -1,0 +1,406 @@
+raw `
+.set LOCALID_GRUNT_1, 12
+.set LOCALID_GRUNT_2, 13
+.set LOCALID_GRUNT_3, 14
+.set LOCALID_BYRON, 30
+
+Route121_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route121_OnTransition
+	.byte 0
+
+Route121_OnTransition:
+	setflag FLAG_VISITED_ROUTE_121
+	end
+
+Route121_EventScript_Woman::
+	msgbox Route121_Text_AheadLoomsMtPyre, MSGBOX_NPC
+	end
+
+Route121_EventScript_MtPyrePierSign::
+	msgbox Route121_Text_MtPyrePierSign, MSGBOX_SIGN
+	end
+
+Route121_EventScript_SafariZoneSign::
+	msgbox Route121_Text_SafariZoneSign, MSGBOX_SIGN
+	end
+
+Route121_EventScript_AquaGruntsMoveOut::
+	lockall
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceRight
+	waitmovement 0
+	msgbox Route121_Text_OkayMoveOutToMtPyre, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_GRUNT_1, Route121_Movement_Grunt1Exit
+	applymovement LOCALID_GRUNT_2, Route121_Movement_Grunt2Exit
+	applymovement LOCALID_GRUNT_3, Route121_Movement_Grunt3Exit
+	waitmovement 0
+	fadedefaultbgm
+	removeobject LOCALID_GRUNT_1
+	removeobject LOCALID_GRUNT_2
+	removeobject LOCALID_GRUNT_3
+	setvar VAR_ROUTE121_STATE, 1
+	releaseall
+	end
+
+Route121_Movement_Grunt1Exit:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+Route121_Movement_Grunt2Exit:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+Route121_Movement_Grunt3Exit:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+Route121_EventScript_Vanessa::
+	trainerbattle_single TRAINER_VANESSA, Route121_Text_VanessaIntro, Route121_Text_VanessaDefeat
+	msgbox Route121_Text_VanessaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Walter::
+	trainerbattle_single TRAINER_WALTER_1, Route121_Text_WalterIntro, Route121_Text_WalterDefeat, Route121_EventScript_RegisterWalter
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route121_EventScript_RematchWalter
+	msgbox Route121_Text_WalterPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route121_EventScript_RegisterWalter::
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox Route121_Text_WalterRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_WALTER_1
+	release
+	end
+
+Route121_EventScript_RematchWalter::
+	trainerbattle_rematch TRAINER_WALTER_1, Route121_Text_WalterRematchIntro, Route121_Text_WalterRematchDefeat
+	msgbox Route121_Text_WalterPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Tammy::
+	trainerbattle_single TRAINER_TAMMY, Route121_Text_TammyIntro, Route121_Text_TammyDefeat
+	msgbox Route121_Text_TammyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Kate::
+	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
+	msgbox Route121_Text_KatePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Joy::
+	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
+	msgbox Route121_Text_JoyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Jessica::
+	trainerbattle_single TRAINER_JESSICA_1, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat, Route121_EventScript_RegisterJessica
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route121_EventScript_RematchJessica
+	msgbox Route121_Text_JessicaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route121_EventScript_RegisterJessica::
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox Route121_Text_JessicaRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_JESSICA_1
+	release
+	end
+
+Route121_EventScript_RematchJessica::
+	trainerbattle_rematch TRAINER_JESSICA_1, Route121_Text_JessicaRematchIntro, Route121_Text_JessicaRematchDefeat
+	msgbox Route121_Text_JessicaPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Cale::
+	trainerbattle_single TRAINER_CALE, Route121_Text_CaleIntro, Route121_Text_CaleDefeat
+	msgbox Route121_Text_CalePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Myles::
+	trainerbattle_single TRAINER_MYLES, Route121_Text_MylesIntro, Route121_Text_MylesDefeat
+	msgbox Route121_Text_MylesPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Pat::
+	trainerbattle_single TRAINER_PAT, Route121_Text_PatIntro, Route121_Text_PatDefeat
+	msgbox Route121_Text_PatPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Marcel::
+	trainerbattle_single TRAINER_MARCEL, Route121_Text_MarcelIntro, Route121_Text_MarcelDefeat
+	msgbox Route121_Text_MarcelPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route121_EventScript_Cristin::
+	trainerbattle_single TRAINER_CRISTIN_1, Route121_Text_CristinIntro, Route121_Text_CristinDefeat, Route121_EventScript_RegisterCristin
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route121_EventScript_RematchCristin
+	msgbox Route121_Text_CristinPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route121_EventScript_RegisterCristin::
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox Route121_Text_CristinRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_CRISTIN_1
+	release
+	end
+
+Route121_EventScript_RematchCristin::
+	trainerbattle_rematch TRAINER_CRISTIN_1, Route121_Text_CristinRematchIntro, Route121_Text_CristinRematchDefeat
+	msgbox Route121_Text_CristinPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+Route121_Text_OkayMoveOutToMtPyre:
+	.string "好！\n"
+	.string "我们往送神火山出发！$"
+
+Route121_Text_AheadLoomsMtPyre:
+	.string "前方就是送神火山……\p"
+	.string "它是安放逝去宝可梦\n"
+	.string "灵魂的天然纪念碑……$"
+
+Route121_Text_MtPyrePierSign:
+	.string "送神火山栈桥\p"
+	.string "……牌子又旧又破。\n"
+	.string "字几乎看不清了……$"
+
+Route121_Text_SafariZoneSign:
+	.string "“满是稀有宝可梦！”\n"
+	.string "狩猎地带$"
+
+`
+
+script Route121_EventScript_Byron{
+	lockall
+	applymovement(LOCALID_BYRON, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_BYRON, Route121_EventScript_ByronDefeated)
+	goto_if_set(FLAG_TEMP_1, Route121_EventScript_ByronRequestBattleAgain)
+	msgbox(Byron_Greeting, MSGBOX_YESNO)
+	goto(Route121_EventScript_BattleByronPrompt)
+	end
+}
+
+script Route121_EventScript_ByronRequestBattleAgain{
+	msgbox(Byron_ReadyYet, MSGBOX_YESNO)
+	goto(Route121_EventScript_BattleByronPrompt)
+	end
+}
+
+script Route121_EventScript_BattleByronPrompt{
+	call_if_eq(VAR_RESULT, YES, Route121_EventScript_BattleByron)
+	goto_if_eq(VAR_RESULT, NO, Route121_EventScript_DeclineByronBattle)
+	closemessage
+	end
+}
+
+script Route121_EventScript_DeclineByronBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Byron_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script Route121_EventScript_BattleByron{
+	msgbox("太好了！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_BYRON, Byron_Outro)
+	giveitem(ITEM_TM_STEALTH_ROCK)
+	giveitem(ITEM_TM_HIGH_HORSEPOWER)
+	giveitem(ITEM_COPPERAJITE)
+	giveitem(ITEM_ROCKY_HELMET)
+	giveitem(ITEM_LEFTOVERS)
+	goto(Route121_EventScript_ByronGiveJirachi)
+	return
+}
+	
+
+script Route121_EventScript_ByronDefeated{
+	msgbox(PostBattle_Byron, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script Route121_EventScript_ByronGiveJirachi{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_JIRACHI)
+	givemonrandom(SPECIES_JIRACHI, 30)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, Route121_EventScript_ReceiveJirachiParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, Route121_EventScript_ReceiveJirachiPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script Route121_EventScript_ReceiveJirachiParty{
+	call(Route121_EventScript_ReceivedJirachiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, Route121_EventScript_ExplainJirachi)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(Route121_EventScript_ExplainJirachi)
+	end
+}
+	
+
+script Route121_EventScript_ReceiveJirachiPC {
+	call(Route121_EventScript_ReceivedJirachiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, Route121_EventScript_SendJirachiToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(Route121_EventScript_SendJirachiToPC)
+	end
+}
+	
+
+script Route121_EventScript_SendJirachiToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(Route121_EventScript_ExplainJirachi)
+	end
+}
+	
+
+script Route121_EventScript_ReceivedJirachiFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(Route121_Text_PlayerReceivedJirachi)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_JIRACHI)
+	return
+}
+	
+
+script Route121_EventScript_ExplainJirachi {
+	msgbox(Byron_ExplainJirachi, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text Byron_Greeting{
+	"你好啊，看你这身风尘，\n"
+	"是个走南闯北的人。你旅途中\l"
+	"有没有遇到一个叫\l"
+	"瓢太的年轻人？\p"
+	"………………\p"
+	"哦，你还没见过他？\n"
+	"没关系，你见到他\l" 
+	"一定会认出来的。\p"
+	"哦，都忘了自我介绍，我是东瓜，\n"
+	"神奥地区的道馆馆主。\p"
+	"我说，既然你是个强手，\n"
+	"愿不愿意和我\l"
+	"打一场？"
+}
+
+text Byron_ReadyYet{
+	"现在想打一场吗？"
+}
+
+text Byron_ComeBackWhenReady{
+	"没关系，你要是改主意，\n"
+	"我就在这儿。"
+}
+	
+text Route121_Text_PlayerReceivedJirachi{
+	"{PLAYER}得到了基拉祈！$"
+}
+
+text Byron_ExplainJirachi{
+	"基拉祈是我最喜欢的\n"
+	"钢属性之一，希望你能\l"
+	"善待它、好好培育它。"
+}
+	
+	
+text Byron_Outro{
+	"我明白你是怎么打败我\n"
+	"儿子了。我把这只宝可梦\l"
+	"交给你很放心。"
+}
+
+
+text PostBattle_Byron{
+	"我去找瓢太了，他肯定会\n"
+	"去探索这个地区的\l"
+	"地下。"
+}
+
+script Route121_Psyduck1{
+	lock
+	faceplayer
+	waitse
+	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
+	msgbox("可达鸭：呱————。", MSGBOX_DEFAULT)
+	waitmoncry
+	release
+	end
+}
+
+
+script Route121_Psyduck2{
+	lock
+	faceplayer
+	waitse
+	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
+	msgbox("可达鸭：呱？", MSGBOX_DEFAULT)
+	waitmoncry
+	release
+	end
+}
+
+script Route121_Psyduck3{
+	lock
+	faceplayer
+	waitse
+	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
+	msgbox("可达鸭：呱————？", MSGBOX_DEFAULT)
+	waitmoncry
+	release
+	end
+}
+
+script Route121_Psyduck4{
+	lock
+	faceplayer
+	waitse
+	playmoncry(SPECIES_PSYDUCK, CRY_MODE_NORMAL)
+	msgbox("可达鸭：呱啊！！！！", MSGBOX_DEFAULT)
+	waitmoncry
+	release
+	end
+}
+
+text GoBeatWinona{
+	"等你打赢娜琪，\n"
+	"再来这里吧。"
+}
+
+movement StopPlayerLeft {
+	walk_left
+}

@@ -1,0 +1,31 @@
+raw `
+SeafloorCavern_Room3_MapScripts::
+	.byte 0
+
+SeafloorCavern_Room3_EventScript_Grunt5::
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_5, SeafloorCavern_Room3_Text_Grunt5Intro, SeafloorCavern_Room3_Text_Grunt5Defeat
+	msgbox SeafloorCavern_Room3_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SeafloorCavern_Room3_Text_Grunt5Intro:
+	.string "要实现我们的梦想，\n"
+	.string "需要宝可梦的力量。\p"
+	.string "可像你这样碍事的人，\n"
+	.string "连在这种地方都把\l"
+	.string "宝可梦的力量\l"
+	.string "用来坏我们的事！\p"
+	.string "事情就是不按\n"
+	.string "我们想的来！$"
+
+SeafloorCavern_Room3_Text_Grunt5Defeat:
+	.string "咕哇！$"
+
+SeafloorCavern_Room3_Text_Grunt5PostBattle:
+	.string "你知道吗，我们都不敢\n"
+	.string "质疑老大的动机。\p"
+	.string "可你，一个小鬼，\n"
+	.string "居然敢对抗我们老大。\p"
+	.string "也许……\n"
+	.string "你确实不简单……$"
+
+`

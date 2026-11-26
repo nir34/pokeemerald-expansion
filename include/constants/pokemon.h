@@ -93,7 +93,7 @@
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 36 // Actual probability is SHINY_ODDS/65536
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -168,7 +168,7 @@
 #define LEVEL_UP_MOVE_LV   0xFE00
 #define LEVEL_UP_MOVE_END  0xFFFF
 
-#define MAX_LEVEL_UP_MOVES       20
+#define MAX_LEVEL_UP_MOVES       50
 
 #define MON_MALE       0x00
 #define MON_FEMALE     0xFE
@@ -212,9 +212,9 @@
 #define MAX_PER_STAT_IVS 31
 #define MAX_IV_MASK 31
 #define USE_RANDOM_IVS (MAX_PER_STAT_IVS + 1)
-#define MAX_PER_STAT_EVS ((P_EV_CAP >= GEN_6) ? 252 : 255)
+#define MAX_PER_STAT_EVS 252
 #define MAX_TOTAL_EVS 510
-#define EV_ITEM_RAISE_LIMIT ((I_VITAMIN_EV_CAP >= GEN_8) ? MAX_PER_STAT_EVS : 100)
+#define EV_ITEM_RAISE_LIMIT 100
 
 // Move category defines.
 #define DAMAGE_CATEGORY_PHYSICAL    0
@@ -340,5 +340,13 @@ enum EvolutionMode {
 #else
 #define LEGENDARY_PERFECT_IV_COUNT 0
 #endif
+
+// Types of Move Reminder + other tutors. Set to VAR_MOVE_MANAGER
+#define MOVE_REMINDER_NORMAL          0 // Normal behavior; attempts to learn level up moves prior to current level.
+#define MOVE_REMINDER_LEARN_ALL_MOVES 1 // Gen 7 behavior.
+#define MOVE_TUTOR_EGG_MOVES          2 // Move Tutor returns egg moves
+#define MOVE_DELETER                  255
+
+#define MAX_RELEARNER_MOVES max(MAX_LEVEL_UP_MOVES, 30)
 
 #endif // GUARD_CONSTANTS_POKEMON_H

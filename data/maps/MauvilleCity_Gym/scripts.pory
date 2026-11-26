@@ -1,0 +1,457 @@
+raw `
+MauvilleCity_Gym_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, MauvilleCity_Gym_OnLoad
+	.byte 0
+
+MauvilleCity_Gym_OnLoad:
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_DeactivatePuzzle
+	switch VAR_MAUVILLE_GYM_STATE
+	case 0, MauvilleCity_Gym_EventScript_UpdateBarriers
+	case 1, MauvilleCity_Gym_EventScript_Switch1Pressed
+	case 2, MauvilleCity_Gym_EventScript_Switch2Pressed
+	case 3, MauvilleCity_Gym_EventScript_Switch3Pressed
+	case 4, MauvilleCity_Gym_EventScript_Switch4Pressed
+	end
+
+MauvilleCity_Gym_EventScript_UpdateBarriers::
+	goto_if_set FLAG_MAUVILLE_GYM_BARRIERS_STATE, MauvilleCity_Gym_EventScript_SetAltBarriers
+	end
+
+MauvilleCity_Gym_EventScript_SetAltBarriers::
+	setmetatile 3, 11, METATILE_MauvilleGym_RedBeamV1_On, TRUE
+	setmetatile 3, 12, METATILE_MauvilleGym_RedBeamV2_On, TRUE
+	setmetatile 3, 13, METATILE_MauvilleGym_PoleTop_On, TRUE
+	setmetatile 4, 10, METATILE_MauvilleGym_RedBeamH1_On, FALSE
+	setmetatile 5, 10, METATILE_MauvilleGym_RedBeamH2_On, FALSE
+	setmetatile 4, 11, METATILE_MauvilleGym_RedBeamH3_On, TRUE
+	setmetatile 5, 11, METATILE_MauvilleGym_RedBeamH4_On, TRUE
+	setmetatile 7, 10, METATILE_MauvilleGym_RedBeamH1_On, FALSE
+	setmetatile 8, 10, METATILE_MauvilleGym_RedBeamH2_On, FALSE
+	setmetatile 7, 11, METATILE_MauvilleGym_RedBeamH3_On, TRUE
+	setmetatile 8, 11, METATILE_MauvilleGym_RedBeamH4_On, TRUE
+	setmetatile 4, 13, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE
+	setmetatile 5, 13, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE
+	setmetatile 4, 14, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE
+	setmetatile 5, 14, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE
+	setmetatile 1, 10, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE
+	setmetatile 2, 10, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE
+	setmetatile 1, 11, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE
+	setmetatile 2, 11, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE
+	setmetatile 6, 8, METATILE_MauvilleGym_PoleBottom_On, TRUE
+	setmetatile 6, 9, METATILE_MauvilleGym_FloorTile, FALSE
+	setmetatile 6, 10, METATILE_MauvilleGym_PoleTop_Off, FALSE
+	setmetatile 4, 6, METATILE_MauvilleGym_GreenBeamH1_Off, FALSE
+	setmetatile 5, 6, METATILE_MauvilleGym_GreenBeamH2_Off, FALSE
+	setmetatile 4, 7, METATILE_MauvilleGym_GreenBeamH3_Off, FALSE
+	setmetatile 5, 7, METATILE_MauvilleGym_GreenBeamH4_Off, FALSE
+	end
+
+MauvilleCity_Gym_EventScript_Switch1Pressed::
+	setvar VAR_0x8004, 0
+	special MauvilleGymPressSwitch
+	goto MauvilleCity_Gym_EventScript_UpdateBarriers
+	end
+
+MauvilleCity_Gym_EventScript_Switch2Pressed::
+	setvar VAR_0x8004, 1
+	special MauvilleGymPressSwitch
+	goto MauvilleCity_Gym_EventScript_UpdateBarriers
+	end
+
+MauvilleCity_Gym_EventScript_Switch3Pressed::
+	setvar VAR_0x8004, 2
+	special MauvilleGymPressSwitch
+	goto MauvilleCity_Gym_EventScript_UpdateBarriers
+	end
+
+MauvilleCity_Gym_EventScript_Switch4Pressed::
+	setvar VAR_0x8004, 3
+	special MauvilleGymPressSwitch
+	goto MauvilleCity_Gym_EventScript_UpdateBarriers
+	end
+
+MauvilleCity_Gym_EventScript_DeactivatePuzzle::
+	special MauvilleGymDeactivatePuzzle
+	end
+
+MauvilleCity_Gym_EventScript_Wattson::
+	trainerbattle_single TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_Gym_EventScript_WattsonRematch
+	goto_if_unset FLAG_RECEIVED_TM_VOLT_SWITCH, MauvilleCity_Gym_EventScript_GiveVoltSwitch2
+	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_Gym_EventScript_CompletedNewMauville
+	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Gym_EventScript_WattsonDefeated::
+	message MauvilleCity_Gym_Text_ReceivedDynamoBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis, MSGBOX_DEFAULT
+	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	setflag FLAG_DEFEATED_MAUVILLE_GYM
+	setflag FLAG_BADGE03_GET
+	setvar VAR_BEAT_WATTSON, 1
+	addvar VAR_PETALBURG_GYM_STATE, 1
+	call_if_eq VAR_PETALBURG_GYM_STATE, 7, Common_EventScript_ReadyPetalburgGymForBattle
+	setvar VAR_0x8008, 3
+	call Common_EventScript_SetGymTrainers
+	special MauvilleGymDeactivatePuzzle
+	special DrawWholeMapView
+	playse SE_UNLOCK
+	call MauvilleCity_Gym_EventScript_GiveVoltSwitch
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox MauvilleCity_Gym_Text_RegisteredWattson, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_WATTSON_MATCH_CALL
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	release
+	end
+
+MauvilleCity_Gym_EventScript_GiveVoltSwitch2::
+	giveitem ITEM_TM_VOLT_SWITCH
+	giveitem ITEM_LUXRITE
+	giveitem ITEM_MANECTITE
+	giveitem ITEM_AMPHAROSITE
+	msgbox MauvilleCity_Gym_Text_ExplainVoltSwitch, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_VOLT_SWITCH
+	release
+	end
+
+MauvilleCity_Gym_EventScript_GiveVoltSwitch::
+	giveitem ITEM_TM_VOLT_SWITCH
+	giveitem ITEM_LUXRITE
+	giveitem ITEM_MANECTITE
+	giveitem ITEM_AMPHAROSITE
+	msgbox MauvilleCity_Gym_Text_ExplainVoltSwitch, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_VOLT_SWITCH
+	return
+
+MauvilleCity_Gym_EventScript_CompletedNewMauville::
+	msgbox MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Gym_EventScript_WattsonRematch::
+	trainerbattle_rematch_double TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonPreRematch, MauvilleCity_Gym_Text_WattsonRematchDefeat, MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons
+	msgbox MauvilleCity_Gym_Text_WattsonPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_Switch1::
+	lockall
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	goto_if_eq VAR_MAUVILLE_GYM_STATE, 1, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	setvar VAR_MAUVILLE_GYM_STATE, 1
+	setvar VAR_0x8004, 0
+	goto MauvilleCity_Gym_EventScript_PressFloorSwitch
+	end
+
+MauvilleCity_Gym_EventScript_Switch2::
+	lockall
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	goto_if_eq VAR_MAUVILLE_GYM_STATE, 2, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	setvar VAR_MAUVILLE_GYM_STATE, 2
+	setvar VAR_0x8004, 1
+	goto MauvilleCity_Gym_EventScript_PressFloorSwitch
+	end
+
+MauvilleCity_Gym_EventScript_Switch3::
+	lockall
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	goto_if_eq VAR_MAUVILLE_GYM_STATE, 3, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	setvar VAR_MAUVILLE_GYM_STATE, 3
+	setvar VAR_0x8004, 2
+	goto MauvilleCity_Gym_EventScript_PressFloorSwitch
+	end
+
+MauvilleCity_Gym_EventScript_Switch4::
+	lockall
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	goto_if_eq VAR_MAUVILLE_GYM_STATE, 4, MauvilleCity_Gym_EventScript_SwitchDoNothing
+	setvar VAR_MAUVILLE_GYM_STATE, 4
+	setvar VAR_0x8004, 3
+	goto MauvilleCity_Gym_EventScript_PressFloorSwitch
+	end
+
+MauvilleCity_Gym_EventScript_PressFloorSwitch::
+	special MauvilleGymSetDefaultBarriers
+	special MauvilleGymPressSwitch
+	special DrawWholeMapView
+	playse SE_UNLOCK
+	goto_if_set FLAG_MAUVILLE_GYM_BARRIERS_STATE, MauvilleCity_Gym_EventScript_ClearBarriersAltState
+	goto_if_unset FLAG_MAUVILLE_GYM_BARRIERS_STATE, MauvilleCity_Gym_EventScript_SetBarriersAltState
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_SwitchDoNothing::
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_SetBarriersAltState::
+	setflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_ClearBarriersAltState::
+	clearflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_Kirk::
+	trainerbattle_single TRAINER_KIRK, MauvilleCity_Gym_Text_KirkIntro, MauvilleCity_Gym_Text_KirkDefeat
+	msgbox MauvilleCity_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_Shawn::
+	trainerbattle_single TRAINER_SHAWN, MauvilleCity_Gym_Text_ShawnIntro, MauvilleCity_Gym_Text_ShawnDefeat
+	msgbox MauvilleCity_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_Ben::
+	trainerbattle_single TRAINER_BEN, MauvilleCity_Gym_Text_BenIntro, MauvilleCity_Gym_Text_BenDefeat
+	msgbox MauvilleCity_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_Vivian::
+	trainerbattle_single TRAINER_VIVIAN, MauvilleCity_Gym_Text_VivianIntro, MauvilleCity_Gym_Text_VivianDefeat
+	msgbox MauvilleCity_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_Angelo::
+	trainerbattle_single TRAINER_ANGELO, MauvilleCity_Gym_Text_AngeloIntro, MauvilleCity_Gym_Text_AngeloDefeat
+	msgbox MauvilleCity_Gym_Text_AngeloPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MauvilleCity_Gym_EventScript_GymGuide::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_GymGuidePostVictory
+	msgbox MauvilleCity_Gym_Text_GymGuideAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Gym_EventScript_GymGuidePostVictory::
+	msgbox MauvilleCity_Gym_Text_GymGuidePostVictory, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Gym_EventScript_LeftGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+	goto MauvilleCity_Gym_EventScript_GymStatue
+	end
+
+MauvilleCity_Gym_EventScript_RightGymStatue::
+	lockall
+	goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+	goto MauvilleCity_Gym_EventScript_GymStatue
+	end
+
+MauvilleCity_Gym_EventScript_GymStatueCertified::
+	msgbox MauvilleCity_Gym_Text_GymStatueCertified, MSGBOX_DEFAULT
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_GymStatue::
+	msgbox MauvilleCity_Gym_Text_GymStatue, MSGBOX_DEFAULT
+	releaseall
+	end
+
+MauvilleCity_Gym_EventScript_Luxray::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_LUXRAY, CRY_MODE_NORMAL
+	msgbox MauvilleCity_Gym_Text_Luxray, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+MauvilleCity_Gym_Text_GymGuideAdvice:
+	.string "嘿，冠军候补的{PLAYER}，\n"
+	.string "最近怎么样？\p"
+	.string "紫堇道馆的馆主铁旋\n"
+	.string "使的是电属性宝可梦。\p"
+	.string "要是用水属性宝可梦去\n"
+	.string "挑战，会被他电得吱吱响！\p"
+	.string "而且他在道馆里到处\n"
+	.string "装上了开关门！真是怪人！\p"
+	.string "嘿，去吧！$"
+
+MauvilleCity_Gym_Text_GymGuidePostVictory:
+	.string "哇，你真是电光四射！\n"
+	.string "你把门通上电打开来了！$"
+
+MauvilleCity_Gym_Text_KirkIntro:
+	.string "我这电气般的灵魂，\n"
+	.string "会把你的梦想震碎，哇耶！$"
+
+MauvilleCity_Gym_Text_KirkDefeat:
+	.string "那真是通电、加压、\n"
+	.string "过载的电气啊！$"
+
+MauvilleCity_Gym_Text_KirkPostBattle:
+	.string "宝可梦和摇滚，\n"
+	.string "讲的就是心，哇耶！$"
+
+MauvilleCity_Gym_Text_ShawnIntro:
+	.string "我是在铁旋手下\n"
+	.string "训练出来的！\l"
+	.string "我可不会轻易认输！$"
+
+MauvilleCity_Gym_Text_ShawnDefeat:
+	.string "被拔掉插头，\n"
+	.string "断电了……$"
+
+MauvilleCity_Gym_Text_ShawnPostBattle:
+	.string "我们馆主铁旋，\n"
+	.string "可是老资格了。\p"
+	.string "你爸爸还没出生的时候，\n"
+	.string "他就在对战了，老顽固。$"
+
+MauvilleCity_Gym_Text_BenIntro:
+	.string "这个道馆有机关！\n"
+	.string "好玩吧？$"
+
+MauvilleCity_Gym_Text_BenDefeat:
+	.string "输了可不好玩……$"
+
+MauvilleCity_Gym_Text_BenPostBattle:
+	.string "铁旋说他就喜欢\n"
+	.string "用开关设小陷阱。$"
+
+MauvilleCity_Gym_Text_VivianIntro:
+	.string "凭我的魅力和宝可梦\n"
+	.string "的招式，包你触电！$"
+
+MauvilleCity_Gym_Text_VivianDefeat:
+	.string "你的力量把我电到了！$"
+
+MauvilleCity_Gym_Text_VivianPostBattle:
+	.string "听说紫堇市是\n"
+	.string "铁旋建起来的。\p"
+	.string "我们还没当训练家的时候，\n"
+	.string "他就已经是了。\l"
+	.string "他一定什么都懂！$"
+
+MauvilleCity_Gym_Text_AngeloIntro:
+	.string "我最喜欢亮闪闪\n"
+	.string "的东西！$"
+
+MauvilleCity_Gym_Text_AngeloDefeat:
+	.string "哦……\n"
+	.string "我的眼睛都花了……$"
+
+MauvilleCity_Gym_Text_AngeloPostBattle:
+	.string "紫堇道馆的铁旋，\n"
+	.string "额头亮闪闪的。\l"
+	.string "看着就让我高兴！$"
+
+MauvilleCity_Gym_Text_WattsonIntro:
+	.string "我已经放弃改造\n"
+	.string "城市的计划了。\p"
+	.string "所以我就把时间花在\n"
+	.string "给道馆装门上。\p"
+	.string "哦？你来这儿\n"
+	.string "做什么？\p"
+	.string "什么？你说你\n"
+	.string "闯过了我所有的机关门？\p"
+	.string "哇哈哈哈！\n"
+	.string "这倒有意思！\p"
+	.string "那么，我，紫堇道馆馆主\n"
+	.string "铁旋，就让你触电吧！$"
+
+MauvilleCity_Gym_Text_WattsonDefeat:
+	.string "哇哈哈哈！\n"
+	.string "好，我输了！\p"
+	.string "你倒让我痛快了一场！\n"
+	.string "拿去吧，徽章！$"
+
+MauvilleCity_Gym_Text_ReceivedDynamoBadge:
+	.string "{PLAYER}从铁旋那里\n"
+	.string "得到了电力徽章。$"
+
+MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
+	.string "有了电力徽章，宝可梦\n"
+	.string "就能在战斗外使用碎岩。\p"
+	.string "嗯……\n"
+	.string "这个你也拿去吧！$"
+
+MauvilleCity_Gym_Text_ExplainVoltSwitch:
+	.string "那个学习器92号里\n"
+	.string "是伏特替换。\p"
+	.string "能让对手触电，然后\n"
+	.string "马上换下场，\l"
+	.string "挺方便的！\p"
+	.string "我还附上了一些我最喜欢的\n"
+	.string "超级石，等你有超级环，\l"
+	.string "应该能派上用场。\p"
+	.string "… … … … … …$"
+
+MauvilleCity_Gym_Text_RegisteredWattson:
+	.string "在宝可梦导航里登录了\n"
+	.string "道馆馆主铁旋。$"
+
+MauvilleCity_Gym_Text_WattsonPostBattle:
+	.string "看到你这样有前途的\n"
+	.string "年轻训练家，\l"
+	.string "我真是满怀希望！$"
+
+MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
+	.string "哇哈哈哈！\n"
+	.string "去吧，年轻人，去拼搏吧！$"
+
+MauvilleCity_Gym_Text_GymStatue:
+	.string "紫堇市宝可梦道馆$"
+
+MauvilleCity_Gym_Text_GymStatueCertified:
+	.string "紫堇市宝可梦道馆\p"
+	.string "铁旋认定的训练家：\n"
+	.string "{PLAYER}$"
+
+MauvilleCity_Gym_Text_WattsonPreRematch:
+	.string "铁旋：啊哈！终于来了！\n"
+	.string "我知道你想要什么。\l"
+	.string "你想和我的宝可梦对战！\p"
+	.string "哇哈哈哈！\p"
+	.string "我要让你火花四溅！\n"
+	.string "可别怪我没提醒你！$"
+
+MauvilleCity_Gym_Text_WattsonRematchDefeat:
+	.string "哎哟……\n"
+	.string "我们的电池耗光了……$"
+
+MauvilleCity_Gym_Text_WattsonPostRematch:
+	.string "铁旋：我们得再充电了。\p"
+	.string "充满电之后，我们会\n"
+	.string "乐意接受你的挑战。\p"
+	.string "所以，有空再来，\n"
+	.string "好吗？$"
+
+MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
+	.string "铁旋：啊哈！终于来了！\n"
+	.string "我知道你想要什么。\l"
+	.string "你想和我的宝可梦对战！\p"
+	.string "哇哈哈哈！\p"
+	.string "哎！等等！\n"
+	.string "你只带了一只宝可梦！\p"
+	.string "请带两只以上再来\n"
+	.string "找我，好吗？$"
+
+MauvilleCity_Gym_Text_Luxray:
+	.string "伦琴猫：吼啊啊啊！$"
+
+`

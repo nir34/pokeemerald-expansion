@@ -15,6 +15,7 @@
 #include "gpu_regs.h"
 #include "heal_location.h"
 #include "io_reg.h"
+#include "l_menu.h"
 #include "link.h"
 #include "link_rfu.h"
 #include "load_save.h"
@@ -457,6 +458,28 @@ void ReturnToFieldOpenStartMenu(void)
 bool8 FieldCB_ReturnToFieldOpenStartMenu(void)
 {
     ShowReturnToFieldStartMenu();
+    return FALSE;
+}
+
+static void Task_WaitForFadeShowLMenu(u8 taskId)
+{
+    if (WaitForWeatherFadeIn() == TRUE)
+    {
+        DestroyTask(taskId);
+        CreateTask(Task_ShowLMenu, 80);
+    }
+}
+
+void ReturnToFieldOpenLMenu(void)
+{
+    FadeInFromBlack();
+    CreateTask(Task_WaitForFadeShowLMenu, 0x50);
+    LockPlayerFieldControls();
+}
+
+bool8 FieldCB_ReturnToFieldOpenLMenu(void)
+{
+    ShowReturnToFieldLMenu();
     return FALSE;
 }
 
@@ -1238,22 +1261,22 @@ void DoOrbEffect(void)
 
     if (gSpecialVar_Result == 0)
     {
-        tBlueOrb = FALSE;
-        tCenterX = 104;
+        tBlueOrb = TRUE;
+        tCenterX = 136;
     }
     else if (gSpecialVar_Result == 1)
     {
-        tBlueOrb = TRUE;
+        tBlueOrb = FALSE;
         tCenterX = 136;
     }
     else if (gSpecialVar_Result == 2)
     {
-        tBlueOrb = FALSE;
+        tBlueOrb = TRUE;
         tCenterX = 120;
     }
     else
     {
-        tBlueOrb = TRUE;
+        tBlueOrb = FALSE;
         tCenterX = 120;
     }
 

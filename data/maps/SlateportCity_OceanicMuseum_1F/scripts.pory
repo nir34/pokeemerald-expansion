@@ -1,0 +1,475 @@
+raw `
+.set LOCALID_FAMILIAR_GRUNT, 13
+.set LOCALID_DRAKE, 15
+
+SlateportCity_OceanicMuseum_1F_MapScripts::
+	.byte 0
+
+SlateportCity_OceanicMuseum_1F_EventScript_EntranceAttendant::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFeeLeft::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	goto SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFee
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFeeRight::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	goto SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFee
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFee::
+	showmoneybox 0, 0
+	msgbox SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SlateportCity_OceanicMuseum_1F_EventScript_CheckMoneyForFee
+	closemessage
+	hidemoneybox
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_OceanicMuseum_1F_Movement_PushPlayerBackFromCounter
+	waitmovement 0
+	releaseall
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_CheckMoneyForFee::
+	checkmoney 50
+	goto_if_eq VAR_RESULT, FALSE, SlateportCity_OceanicMuseum_1F_EventScript_NotEnoughMoney
+	playse SE_SHOP
+	removemoney 50
+	updatemoneybox
+	msgbox SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself, MSGBOX_DEFAULT
+	setvar VAR_SLATEPORT_MUSEUM_1F_STATE, 1
+	hidemoneybox
+	releaseall
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_NotEnoughMoney::
+	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, SlateportCity_OceanicMuseum_1F_EventScript_AllowEntranceAnyway
+	msgbox SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney, MSGBOX_DEFAULT
+	closemessage
+	hidemoneybox
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_OceanicMuseum_1F_Movement_PushPlayerBackFromCounter
+	waitmovement 0
+	releaseall
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_AllowEntranceAnyway::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup, MSGBOX_DEFAULT
+	setvar VAR_SLATEPORT_MUSEUM_1F_STATE, 1
+	hidemoneybox
+	releaseall
+	end
+
+SlateportCity_OceanicMuseum_1F_Movement_PushPlayerBackFromCounter:
+	walk_down
+	step_end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt1::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt2::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt3::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt4::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt5::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_RustboroBungled, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt6::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_WhirlpoolExperiment::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_WaterfallExperiment::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_OceanSoilDisplay::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_BeachSandDisplay::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact1::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact2::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact3::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FossilDisplay::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_FossilDisplay, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_DepthMeasuringMachine::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine, MSGBOX_SIGN
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron1::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron2::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron3::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron4::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon, MSGBOX_NPC
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt::
+	lock
+	faceplayer
+	delay 8
+	playse SE_PIN
+	applymovement LOCALID_FAMILIAR_GRUNT, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_FAMILIAR_GRUNT, Common_Movement_Delay48
+	waitmovement 0
+	msgbox SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_TM_FLIP_TURN
+	goto_if_eq VAR_RESULT, 0, SlateportCity_OceanicMuseum_1F_EventScript_NoRoomForThief
+	setflag FLAG_RECEIVED_TM_FLIP_TURN
+	msgbox SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain, MSGBOX_DEFAULT
+	closemessage
+	goto_if_eq VAR_FACING, DIR_NORTH, SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitNorth
+	goto_if_eq VAR_FACING, DIR_SOUTH, SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitSouth
+	goto_if_eq VAR_FACING, DIR_WEST, SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitWestEast
+	goto_if_eq VAR_FACING, DIR_EAST, SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitWestEast
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitNorth::
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_OceanicMuseum_1F_Movement_PlayerWatchGruntExitNorth
+	applymovement LOCALID_FAMILIAR_GRUNT, SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth
+	waitmovement 0
+	goto SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExited
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitSouth::
+	applymovement LOCALID_FAMILIAR_GRUNT, SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExit
+	waitmovement 0
+	goto SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExited
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitWestEast::
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_OceanicMuseum_1F_Movement_PlayerWatchGruntExitWestEast
+	applymovement LOCALID_FAMILIAR_GRUNT, SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExit
+	waitmovement 0
+	goto SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExited
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExited::
+	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT
+	playse SE_EXIT
+	removeobject LOCALID_FAMILIAR_GRUNT
+	release
+	end
+
+SlateportCity_OceanicMuseum_1F_EventScript_NoRoomForThief::
+	msgbox SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_OceanicMuseum_1F_Movement_PlayerWatchGruntExitNorth:
+	delay_16
+	delay_8
+	delay_4
+	walk_in_place_faster_down
+	step_end
+
+SlateportCity_OceanicMuseum_1F_Movement_PlayerWatchGruntExitWestEast:
+	delay_16
+	walk_in_place_faster_down
+	step_end
+
+SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExit:
+	face_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	delay_8
+	step_end
+
+SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
+	walk_fast_right
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	delay_8
+	step_end
+
+SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
+	.string "欢迎来到海洋博物馆。\p"
+	.string "门票50元。\n"
+	.string "你要进去吗？$"
+
+SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
+	.string "请慢慢参观。$"
+
+SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
+	.string "哦？抱歉，你的钱\n"
+	.string "好像不够。$"
+
+SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
+	.string "哦？你是刚才那批\n"
+	.string "进去的人？\p"
+	.string "就你一个来晚了。\n"
+	.string "快去追上他们吧！$"
+
+SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
+	.string "我们水舰队，\n"
+	.string "是为了大家的利益而存在！$"
+
+SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
+	.string "我们接到集合的命令\n"
+	.string "就来了，可是……\p"
+	.string "我们的老大，那个核心人物，\n"
+	.string "还没到。$"
+
+SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
+	.string "要是我把这儿的东西\n"
+	.string "都抢走，能发财吗？$"
+
+SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
+	.string "我在这儿学到的东西，\n"
+	.string "能用在坏事上……$"
+
+SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
+	.string "要不是我们的人在卡那兹\n"
+	.string "搞砸了，我们也不用在这儿！$"
+
+SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
+	.string "我没有50元，\n"
+	.string "所以花了很久才通过前台。$"
+
+SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
+	.string "我想了解大海，\n"
+	.string "再把那些知识用在对战上。$"
+
+SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
+	.string "一看到大海，我就\n"
+	.string "心潮澎湃！\p"
+	.string "对我来说，斯图船长就是\n"
+	.string "第一号的榜样！$"
+
+SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
+	.string "大海无边无际，\n"
+	.string "深不可测……\p"
+	.string "一定还有很多我们\n"
+	.string "不知道的宝可梦。$"
+
+SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
+	.string "我想要一只海里的\n"
+	.string "宝可梦。\p"
+	.string "抱着它一定会觉得\n"
+	.string "又凉快又舒服。$"
+
+SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
+	.string "哇啊啊！\n"
+	.string "你在这儿干什么？\p"
+	.string "我？我就是之前在碎石隧道\n"
+	.string "被你揍过的\l"
+	.string "水舰队成员，记得吗？\p"
+	.string "来，拿着这个！\n"
+	.string "你一定要原谅我！$"
+
+SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
+	.string "我？我要赶紧溜走！\n"
+	.string "希望再也见不到你！\p"
+	.string "哇哈哈！$"
+
+SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
+	.string "哎哟，别这样！\n"
+	.string "你收下这个，就放我走吧！$"
+
+SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
+	.string "玻璃容器里，蓝色的液体\n"
+	.string "在打着旋。\p"
+	.string "“这是利用风人工制造\n"
+	.string "漩涡的实验。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
+	.string "玻璃容器里，红色的球\n"
+	.string "在上下浮动。\p"
+	.string "“这是利用球的浮力\n"
+	.string "模拟瀑布的实验。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
+	.string "这是海底土壤的\n"
+	.string "样本。\p"
+	.string "“经过许多年，生物的\n"
+	.string "遗骸沉积在海底，\l"
+	.string "形成沉积层。\p"
+	.string "“通过分析这些沉积层，\n"
+	.string "就能看清远古的过去。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
+	.string "这是沙滩沙子的\n"
+	.string "样本。\p"
+	.string "“山上的石头被河水\n"
+	.string "冲下来，在途中\l"
+	.string "被削碎、磨细。\p"
+	.string "“它们被磨成颗粒，\n"
+	.string "最后成为沙滩上的沙。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
+	.string "“海洋小知识1\n"
+	.string "为什么海水是蓝色的？\p"
+	.string "“光是由许多颜色\n"
+	.string "组成的。\p"
+	.string "“光穿过水时，\n"
+	.string "大部分颜色都会褪去。\p"
+	.string "“只有蓝光保留了颜色，\n"
+	.string "所以大海看起来是蓝的。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
+	.string "“海洋小知识2\n"
+	.string "为什么海水是咸的？\p"
+	.string "“海水中溶解着盐，\n"
+	.string "以钠离子和氯离子的\l"
+	.string "形式存在。\p"
+	.string "“这些离子从岩石中渗出，\n"
+	.string "被雨水带进大海。\p"
+	.string "“溶解盐的浓度\n"
+	.string "让海水变咸。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
+	.string "“海洋小知识3\n"
+	.string "海和陆地哪个更大？\p"
+	.string "“海洋覆盖了地球大约\n"
+	.string "70%的表面，其余是陆地。\p"
+	.string "“所以海洋的面积\n"
+	.string "是陆地的两倍多。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
+	.string "这是一块带有波浪状\n"
+	.string "纹路的化石。\p"
+	.string "“海底的泥土会\n"
+	.string "被潮水冲刷。\p"
+	.string "“流动的海水在泥土上\n"
+	.string "留下细小的脊和沟。\p"
+	.string "“如果这种泥土变成化石，\n"
+	.string "就叫波痕。”$"
+
+SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
+	.string "玻璃罩里有台奇怪的\n"
+	.string "机器在转动。\p"
+	.string "也许是用来测量\n"
+	.string "什么的深度……$"
+
+`
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeTrigger1{
+	setvar(VAR_0x8008, 1)
+	goto(SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene)
+	end
+}
+	
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeTrigger2{
+	setvar(VAR_0x8008, 2)
+	goto(SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene)
+	end
+}
+
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene{
+	lockall
+	call_if_eq(VAR_0x8008, 1, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer1)
+	call_if_eq(VAR_0x8008, 2, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer2)
+	msgbox(SlateportCity_OceanicMuseum_1FDrakeIntro, MSGBOX_DEFAULT)
+	closemessage
+	delay(10)
+	call(ApplyMovementDrakeExit)
+	removeobject(LOCALID_DRAKE)
+	setvar(VAR_DRAKE_SLATEPORT, 2)
+	releaseall
+	end
+}
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer1{
+	playse(SE_DOOR)
+	addobject(LOCALID_DRAKE)
+	applymovement(LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer)
+	waitmovement(0)
+	return
+}
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer2{
+	playse(SE_DOOR)
+	setobjectxyperm(LOCALID_DRAKE, 10, 8)
+	addobject(LOCALID_DRAKE)
+	applymovement(LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer)
+	waitmovement(0)
+	return
+}
+	
+script SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer{
+	walk_up
+	step_end
+}
+
+script ApplyMovementDrakeExit{
+	playse(SE_DOOR)
+	applymovement(LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_EventScript_DrakeExit)
+	waitmovement(0)
+	return
+}
+
+script SlateportCity_OceanicMuseum_1F_EventScript_DrakeExit{
+	walk_down
+	step_end
+}
+
+text SlateportCity_OceanicMuseum_1FDrakeIntro {
+	"哼。哦，抱歉，\n"
+	"撞到你了。\p"
+	"我正好在这附近，看到\n"
+	"几个水舰队的成员从这座\l"
+	"博物馆里逃出来。\p"
+	"你知道他们\n"
+	"为什么逃跑吗？\p"
+	"………………\p"
+	"原来如此，他们是冲着要\n"
+	"交给史特恩船长的大吾零件，\l"
+	"结果被你打败，\l"
+	"吓跑了。\p"
+	"能一个人对付水舰队，\n"
+	"看来你\l"
+	"相当厉害。\p"
+	"那我也自我介绍一下，我是\n"
+	"四天王的源治，你是？\p"
+	"………………\p"
+	"原来如此。干得漂亮，{PLAYER}。\n"
+	"我这就走了，不过我总觉得\l"
+	"我们还会再见。"
+}
+

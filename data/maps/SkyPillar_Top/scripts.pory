@@ -1,0 +1,387 @@
+raw `
+.set LOCALID_RAYQUAZA_SLEEPING, 1
+.set LOCALID_DRAKE, 3
+
+SkyPillar_Top_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, SkyPillar_Top_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_Top_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SkyPillar_Top_OnWarp
+	.byte 0
+
+SkyPillar_Top_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, SkyPillar_Top_EventScript_TryRemoveRayquaza
+	end
+
+SkyPillar_Top_EventScript_TryRemoveRayquaza::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+SkyPillar_Top_OnTransition:
+	call_if_lt VAR_SKY_PILLAR_STATE, 2, SkyPillar_Top_EventScript_SetCleanLayout
+	call_if_ge VAR_SKY_PILLAR_STATE, 2, SkyPillar_Top_EventScript_TryShowRayquaza
+	call_if_eq VAR_FOUGHT_AND_LOST_TO_BOSS, 1, AddSleepingRayRay
+	end
+
+SkyPillar_Top_EventScript_SetCleanLayout::
+	setmaplayoutindex LAYOUT_SKY_PILLAR_TOP_CLEAN
+	setobjectmovementtype LOCALID_RAYQUAZA_SLEEPING, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+SkyPillar_Top_EventScript_TryShowRayquaza::
+	call_if_unset FLAG_DEFEATED_RAYQUAZA, SkyPillar_Top_EventScript_ShowRayquaza
+	return
+
+SkyPillar_Top_EventScript_ShowRayquaza::
+	clearflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
+	return
+
+SkyPillar_Top_OnWarp:
+	map_script_2 VAR_SKY_PILLAR_STATE, 0, SkyPillar_Top_EventScript_RayquazaFaceDown
+	.2byte 0
+
+SkyPillar_Top_EventScript_RayquazaFaceDown::
+	turnobject LOCALID_RAYQUAZA_SLEEPING, DIR_SOUTH
+	end
+
+SkyPillar_Top_EventScript_Rayquaza::
+	lockall
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_RAYQUAZA, 70
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special BattleSetup_StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, SkyPillar_Top_EventScript_DefeatedRayquaza
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, SkyPillar_Top_EventScript_RanFromRayquaza
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, SkyPillar_Top_EventScript_RanFromRayquaza
+	setflag FLAG_DEFEATED_RAYQUAZA
+	releaseall
+	end
+
+SkyPillar_Top_EventScript_DefeatedRayquaza::
+	setflag FLAG_DEFEATED_RAYQUAZA
+	goto SkyPillar_Top_EventScript_DefeatedRayquaza2
+	end
+
+SkyPillar_Top_EventScript_RanFromRayquaza::
+	setvar VAR_0x8004, SPECIES_RAYQUAZA
+	goto SkyPillar_Top_EventScript_RanFromRayquaza2
+	end
+
+SkyPillar_Top_EventScript_DefeatedRayquaza2::
+	fadescreenswapbuffers FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreenswapbuffers FADE_FROM_BLACK
+	releaseall
+	end
+
+SkyPillar_Top_EventScript_RanFromRayquaza2::
+	fadescreenswapbuffers FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	fadescreenswapbuffers FADE_FROM_BLACK
+	bufferspeciesname STR_VAR_1, VAR_0x8004
+	msgbox gText_LegendaryFlewAway, MSGBOX_DEFAULT
+	releaseall
+	end
+
+SkyPillar_Top_EventScript_Drake::
+	setvar VAR_FOUGHT_AND_LOST_TO_BOSS, 1
+	playbgm MUS_VICTORY_ROAD, FALSE
+	msgbox SkyPillar_Top_Text_DrakeAwakenRayquaza, MSGBOX_DEFAULT
+	closemessage
+	removeobject LOCALID_RAYQUAZA_SLEEPING
+	delay 30
+	applymovement LOCALID_DRAKE, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox SkyPillar_Top_Text_DrakesPlan, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_DRAKE, WalkTowardsPlayer
+	waitmovement 0
+	setvar VAR_LAST_TALKED, LOCALID_DRAKE
+	setflag FLAG_HACKY_DOUBLE_BATTLE
+	trainerbattle_double TRAINER_DRAKE, SkyPillar_Top_Text_DrakeIntro, SkyPillar_Top_Text_DrakeDefeat, SkyPillar_Top_Text_DrakeDefeat, SkyPillar_Top_EventScript_DrakeContinued
+	releaseall
+	end
+
+SkyPillar_Top_EventScript_DrakeContinued::
+	clearflag FLAG_HACKY_DOUBLE_BATTLE
+	delay 30
+	setvar VAR_FOUGHT_AND_LOST_TO_BOSS, 2
+	setvar VAR_SKY_PILLAR_RAYQUAZA_CRY_DONE, 1
+	addobject LOCALID_RAYQUAZA_SLEEPING
+	applymovement LOCALID_DRAKE, Common_Movement_FaceUp
+	waitmovement 0
+	delay 30
+	fadeoutbgm 1
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, SkyPillar_Top_Movement_CameraPanUp
+	waitmovement 0
+	special RemoveCameraObject
+	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaStir
+	waitmovement 0
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 3  @ shake delay
+	special ShakeCamera
+	waitstate
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 2  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	waitmoncry
+	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaFlyOff
+	waitmovement 0
+	removeobject LOCALID_RAYQUAZA_SLEEPING
+	msgbox SkyPillar_Top_Text_RayquazaFlewOff, MSGBOX_DEFAULT
+	closemessage
+	delay 20
+	fadeinbgm 1
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, SkyPillar_Top_Movement_CameraPanDown
+	waitmovement 0
+	special RemoveCameraObject
+	setvar VAR_SOOTOPOLIS_CITY_STATE, 5
+	setvar VAR_SKY_PILLAR_STATE, 1
+	setflag FLAG_DEFEATED_DRAKE
+	applymovement LOCALID_DRAKE, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox SkyPillar_Top_Text_DrakeFarewell, MSGBOX_DEFAULT
+	closemessage
+	delay 50
+	setfieldeffectargument 0, 1
+	dofieldeffect FLDEFF_NPCFLY_OUT
+	delay 15
+	removeobject LOCALID_DRAKE
+	waitfieldeffect FLDEFF_NPCFLY_OUT
+	releaseall
+	end
+
+SkyPillar_Top_EventScript_AwakenRayquaza::
+	lockall
+	fadeoutbgm 1
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, SkyPillar_Top_Movement_CameraPanUp
+	waitmovement 0
+	special RemoveCameraObject
+	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaStir
+	waitmovement 0
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 3  @ shake delay
+	special ShakeCamera
+	waitstate
+	waitse
+	playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 2  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	waitmoncry
+	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaFlyOff
+	waitmovement 0
+	removeobject LOCALID_RAYQUAZA_SLEEPING
+	msgbox SkyPillar_Top_Text_RayquazaFlewOff, MSGBOX_DEFAULT
+	closemessage
+	delay 20
+	fadeinbgm 1
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, SkyPillar_Top_Movement_CameraPanDown
+	waitmovement 0
+	special RemoveCameraObject
+	setvar VAR_SOOTOPOLIS_CITY_STATE, 5
+	setvar VAR_SKY_PILLAR_STATE, 1
+	setvar VAR_SKY_PILLAR_RAYQUAZA_CRY_DONE, 1
+	releaseall
+	end
+
+@ Rayquaza has unusual movement frames
+@ See comments, or sAnimTable_Rayquaza
+SkyPillar_Top_Movement_RayquazaStir:
+	delay_16
+	walk_in_place_fast_left  @ Coiled, awake
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	walk_in_place_left  @ Coiled, mouth open
+	delay_16
+	walk_in_place_right  @ Normal, awake
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	step_end
+
+SkyPillar_Top_Movement_RayquazaFlyOff:
+	delay_16
+	walk_in_place_down  @ Coiled, asleep
+	delay_8
+	walk_in_place_right  @ Normal, awake
+	delay_8
+	walk_faster_up  @ Fly up
+	slide_up
+	slide_up
+	slide_up
+	slide_up
+	slide_up
+	slide_up
+	step_end
+
+SkyPillar_Top_Movement_CameraPanUp:
+	walk_slow_up
+	walk_slow_up
+	walk_slow_up
+	step_end
+
+SkyPillar_Top_Movement_CameraPanDown:
+	walk_slow_down
+	walk_slow_down
+	walk_slow_down
+	step_end
+
+SkyPillar_Top_Text_DrakeAwakenRayquaza:
+	.string "烈空坐……\p"
+	.string "最强的龙属性，天空的\n"
+	.string "霸主……\p"
+	.string "马克西和阿库亚那两个\n"
+	.string "蠢货把世界搅成了\l"
+	.string "一团乱，而只有你，\l"
+	.string "烈空坐，能阻止\l"
+	.string "固拉多和盖欧卡……\p"
+	.string "所以，要是我在这里\n"
+	.string "抓住你，这场混乱\l"
+	.string "就永远停不下来！\l"
+	.string "大师球，去吧！$"
+
+SkyPillar_Top_Text_DrakesPlan:
+	.string "对不起，{PLAYER}。这就是我\n"
+	.string "一直以来追求的东西。\p"
+	.string "这些日子，我一直在暗处\n"
+	.string "协助水舰队和\l"
+	.string "熔岩队，希望他们\l"
+	.string "的愚蠢能把这场\l"
+	.string "混乱引到世界上。\p"
+	.string "你干得很出色，打乱了\n"
+	.string "他们，挫败了他们\l"
+	.string "所有的计划，\l"
+	.string "{PLAYER}……\p"
+	.string "很不幸，这一切\n"
+	.string "都是我计划的一部分。$"
+	.string "一直追求的东西。\p" 
+	.string "一直以来，我都在暗中\n"
+	.string "同时协助水舰队和熔岩队，\l"
+	.string "指望他们的愚蠢能给\l"
+	.string "这个世界带来混乱。\p"
+	.string "你把他们的计划\n"
+	.string "破坏、挫败得非常好，\l"
+	.string "{PLAYER}……\p"
+	.string "只可惜，那全都\n"
+	.string "在「我」的计划之中。$"
+
+SkyPillar_Top_Text_DrakeIntro:
+	.string "不知从什么时候起，我\n"
+	.string "开始觉得这世界的秩序\l"
+	.string "让人喘不过气。\p"
+	.string "也许是因为我在四天王\n"
+	.string "待了太久，看着无数\l"
+	.string "训练家带着同样的野心\l"
+	.string "来了又走，犯着同样的\l"
+	.string "失败……\p"
+	.string "这些经历让我质疑\n"
+	.string "世界的运作方式，\l"
+	.string "怀疑我们作为训练家\l"
+	.string "给自己定的目标，\l"
+	.string "最后得出结论：\l"
+	.string "我们最需要的是纯粹\l"
+	.string "的混乱，把所有平衡\l"
+	.string "都掀翻！\p"
+	.string "这些经历也让我看出，\n"
+	.string "{PLAYER}，你不是普通\l"
+	.string "的训练家，我试着\l"
+	.string "探过你对这世界秩序\l"
+	.string "的看法。\p"
+	.string "可很快我就看出，你\n"
+	.string "并不认同我对未来的\l"
+	.string "构想——一个被更多\l"
+	.string "混乱掀翻的未来！\p"
+	.string "看来现在只有你能\n"
+	.string "阻止我带着烈空坐\l"
+	.string "离开这里，那可是会\l"
+	.string "让固拉多和盖欧卡\l"
+	.string "把混乱倾泻到\l"
+	.string "全世界。\p"
+	.string "{PLAYER}，让我们看看，\n"
+	.string "你是不是真的和那些\l"
+	.string "被世界秩序压垮的\l"
+	.string "训练家不一样！$"
+
+SkyPillar_Top_Text_DrakeDefeat:
+	.string "真不敢相信……就算有\n"
+	.string "超级烈空坐，你也能\l"
+	.string "打赢我。\p"
+	.string "看来你的实力是我\n"
+	.string "算漏的那一个因素……$"
+
+SkyPillar_Top_Text_DrakeFarewell:
+	.string "烈空坐走了……\p"
+	.string "它一定没把我当成\n"
+	.string "值得的训练家，也许\l"
+	.string "它是对的……\p"
+	.string "你打败了我，烈空坐\n"
+	.string "也逃走了，大概去\l"
+	.string "阻止固拉多和盖欧卡\l"
+	.string "的战斗、恢复秩序……\p"
+	.string "真浪费。那份秩序的\n"
+	.string "瓦解本来触手可及……\p"
+	.string "我想我再也没脸去\n"
+	.string "四天王了，反正\l"
+	.string "我也不想去。\p"
+	.string "我来天空之柱时，就\n"
+	.string "决定抛弃这世界的\l"
+	.string "秩序，这个决定我\l"
+	.string "不会改。\p"
+	.string "也就是说，这是告别了，\n"
+	.string "{PLAYER}，好好享受\l"
+	.string "维持这僵硬世界\l"
+	.string "秩序的奖赏吧。$"
+
+SkyPillar_Top_Text_RayquazaFlewOff:
+	.string "觉醒的烈空坐飞走了……$"
+
+`
+
+script WalkTowardsPlayer {
+	walk_down
+	step_end
+}
+
+script AddSleepingRayRay {
+	clearflag(FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA)
+	addobject(LOCALID_RAYQUAZA_SLEEPING)
+	return
+}

@@ -1,4796 +1,4708 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "你身上带着宝可梦的话，\n"
+	.string "就算是正式的宝可梦训练家！\l"
+	.string "可不能拒绝我的挑战哦！$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "唔，我输了……\n"
+	.string "我应该多锻炼一下的……$"
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "喂，你要是很强的话，\n"
+	.string "就该早点告诉我啊！$"
 
 Route102_Text_CalvinRegister:
-	.string "I've been working hard at this since\n"
-	.string "I saw you before.\p"
-	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "自从上次见过你之后，\n"
+	.string "我一直在努力训练。\p"
+	.string "我还想再和你对战，\n"
+	.string "能把我登记进导航里吗？$"
 
 Route102_Text_CalvinRegisterShort:
-	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "我还想再和你对战，\n"
+	.string "能让我登记一下吗？$"
 
 Route102_Text_CalvinRematchIntro:
-	.string "Ever since I lost to you, I desperately\n"
-	.string "trained my POKéMON.\l"
-	.string "You can't say no to my challenge!$"
+	.string "自从输给你之后，\n"
+	.string "我拼命地锻炼了宝可梦。\l"
+	.string "可不能拒绝我的挑战哦！$"
 
 Route102_Text_CalvinRematchDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "Is my training method not right?$"
+	.string "唔，我输了……\n"
+	.string "是我的训练方法不对吗？$"
 
 Route102_Text_CalvinRematchPostBattle:
-	.string "If you're going to get stronger,\n"
-	.string "I'll get stronger, too.$"
+	.string "你要变强的话，\n"
+	.string "我也会变得更强。$"
 
 Route102_Text_AllenIntro:
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+	.string "你也是刚成为训练家的吧？\n"
+	.string "我们都是新手！$"
 
 Route102_Text_AllenDefeated:
-	.string "I called you because I thought\n"
-	.string "I could beat you…$"
+	.string "我还以为能赢你，\n"
+	.string "才叫住你的……$"
 
 Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "我一次都还没赢过……\n"
+	.string "好想快点赢一次啊……$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
+	.string "哈哈！我们目光相遇了！\n"
+	.string "我用虫宝可梦来对付你！$"
 
 Route102_Text_RickDefeated:
-	.string "Ow! Down and out!$"
+	.string "哎哟！输得一败涂地！$"
 
 Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "和训练家对上目光，\n"
+	.string "就必须挑战！这是规矩！$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "我要一直赢下去，\n"
+	.string "成为最棒的训练家。\p"
+	.string "请帮我积累经验吧！$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "结果倒是帮你积累了经验……$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+	.string "要想一直赢下去，\n"
+	.string "看来我得多抓些宝可梦才行。$"
 
 Route103_Text_DaisyIntro:
-	.string "Did you feel the tug of our\n"
-	.string "soul-soothing fragrance?$"
+	.string "你感受到我们治愈心灵的\n"
+	.string "芳香了吗？$"
 
 Route103_Text_DaisyDefeated:
-	.string "You weren't led astray by our aroma…$"
+	.string "你没被我们的香气迷惑……$"
 
 Route103_Text_DaisyPostBattle:
-	.string "Aromatherapy is a form of mental\n"
-	.string "healing that works with fragrances.$"
+	.string "芳香疗法是利用香气\n"
+	.string "进行心灵治疗的方法。$"
 
 Route103_Text_AmyIntro:
-	.string "AMY: I'm AMY.\n"
-	.string "And this is my little sister LIV.\l"
-	.string "We battle together!$"
+	.string "AMY：我是AMY。\n"
+	.string "这是我的妹妹LIV。\l"
+	.string "我们一起对战！$"
 
 Route103_Text_AmyDefeated:
-	.string "AMY: Uh-oh, we lost.$"
+	.string "AMY：哎呀，我们输了。$"
 
 Route103_Text_AmyPostBattle:
-	.string "AMY: You have to think about all\n"
-	.string "kinds of things when you're battling\l"
-	.string "against two TRAINERS.$"
+	.string "AMY：和两个训练家同时对战，\n"
+	.string "要考虑各种各样的事情呢。$"
 
 Route103_Text_AmyNotEnoughPokemon:
-	.string "AMY: Uh-oh, you have only one\n"
-	.string "POKéMON with you.\l"
-	.string "You can't battle us like that.$"
+	.string "AMY：哎呀，你只带了一只\n"
+	.string "宝可梦。\l"
+	.string "这样可没法和我们打哦。$"
 
 Route103_Text_LivIntro:
-	.string "LIV: We battle together as one\n"
-	.string "team.$"
+	.string "LIV：我们是两人一体的\n"
+	.string "队伍。$"
 
 Route103_Text_LivDefeated:
-	.string "LIV: Oh, we lost, big sister…$"
+	.string "LIV：啊，姐姐，我们输了……$"
 
 Route103_Text_LivPostBattle:
-	.string "LIV: We work perfectly together,\n"
-	.string "me and my big sister…\p"
-	.string "But we still lost…$"
+	.string "LIV：我和姐姐配合得很好……\p"
+	.string "可我们还是输了……$"
 
 Route103_Text_AmyLivRegister:
-	.string "LIV: Really, we're a lot better…\n"
-	.string "It's true! We'll show you next time!$"
+	.string "LIV：真的，我们其实更强……\n"
+	.string "下次一定让你见识！$"
 
 Route103_Text_LivNotEnoughPokemon:
-	.string "LIV: If you want to battle us,\n"
-	.string "you have to have two POKéMON!\l"
-	.string "It's not fair if you don't!$"
+	.string "LIV：想和我们打的话，\n"
+	.string "得带两只宝可梦才行！\l"
+	.string "不然太不公平了！$"
 
 Route103_Text_AmyRematchIntro:
-	.string "AMY: I'm AMY.\n"
-	.string "And this is my little sister LIV.\l"
-	.string "We battle together!$"
+	.string "AMY：我是AMY。\n"
+	.string "这是我的妹妹LIV。\l"
+	.string "我们一起对战！$"
 
 Route103_Text_AmyRematchDefeated:
-	.string "AMY: Aww, boo!\n"
-	.string "We couldn't win again…$"
+	.string "AMY：哎呀呀！\n"
+	.string "我们又没能赢……$"
 
 Route103_Text_AmyRematchPostBattle:
-	.string "AMY: You have to think about all\n"
-	.string "kinds of things when you're battling\l"
-	.string "against two TRAINERS.$"
+	.string "AMY：和两个训练家同时对战，\n"
+	.string "要考虑各种各样的事情呢。$"
 
 Route103_Text_AmyRematchNotEnoughPokemon:
-	.string "AMY: Uh-oh, you have only one\n"
-	.string "POKéMON with you.\l"
-	.string "You can't battle us like that.$"
+	.string "AMY：哎呀，你只带了一只\n"
+	.string "宝可梦。\l"
+	.string "这样可没法和我们打哦。$"
 
 Route103_Text_LivRematchIntro:
-	.string "LIV: We battle together as one\n"
-	.string "team.$"
+	.string "LIV：我们是两人一体的\n"
+	.string "队伍。$"
 
 Route103_Text_LivRematchDefeated:
-	.string "LIV: Awww, we lost again…\n"
-	.string "Big sister…$"
+	.string "LIV：啊，我们又输了……\n"
+	.string "姐姐……$"
 
 Route103_Text_LivRematchPostBattle:
-	.string "LIV: We work perfectly together,\n"
-	.string "me and my big sister…\p"
-	.string "But why did we lose again?$"
+	.string "LIV：我和姐姐配合得很好……\p"
+	.string "可为什么又输了？$"
 
 Route103_Text_LivRematchNotEnoughPokemon:
-	.string "LIV: If you want to battle us, you\n"
-	.string "have to have two POKéMON!\l"
-	.string "It's not fair if you don't!$"
-
-Route103_Text_AndrewIntro:
-	.string "Gah! My fishing line's all snarled up!\n"
-	.string "I'm getting frustrated and mean!\l"
-	.string "That's it! Battle me!$"
-
-Route103_Text_AndrewDefeated:
-	.string "Gah! Lost it!\n"
-	.string "I'm even more annoyed now!$"
-
-Route103_Text_AndrewPostBattle:
-	.string "Gah, I'm still boiling mad…\n"
-	.string "Grrrrr…$"
+	.string "LIV：想和我们打的话，\n"
+	.string "得带两只宝可梦才行！\l"
+	.string "不然太不公平了！$"
 
 Route103_Text_MiguelIntro:
-	.string "My POKéMON is delightfully adorable!\n"
-	.string "Don't be shy--I'll show you!$"
+	.string "我的宝可梦可爱得不得了！\n"
+	.string "别害羞——让你看看！$"
 
 Route103_Text_MiguelDefeated:
-	.string "Oh, my gosh!\n"
-	.string "My darling POKéMON!$"
+	.string "哎呀！\n"
+	.string "我亲爱的宝可梦！$"
 
 Route103_Text_MiguelPostBattle:
-	.string "My delightful POKéMON looks darling\n"
-	.string "even when it's fainted!$"
+	.string "我的宝可梦就算倒下了，\n"
+	.string "也依然可爱！$"
 
 Route103_Text_MiguelRegister:
-	.string "I'll get you to come out and look in\n"
-	.string "on my delightful POKéMON again!$"
+	.string "下次再来看我可爱的\n"
+	.string "宝可梦吧！$"
 
 Route103_Text_MiguelRematchIntro:
-	.string "Hi, you! My delightfully adorable\n"
-	.string "POKéMON has become more darling!$"
+	.string "嘿，你！我可爱的宝可梦\n"
+	.string "变得更可爱了！$"
 
 Route103_Text_MiguelRematchDefeated:
-	.string "Oh!\n"
-	.string "My darling POKéMON!$"
+	.string "哦！\n"
+	.string "我亲爱的宝可梦！$"
 
 Route103_Text_MiguelRematchPostBattle:
-	.string "The more I spend time with it,\n"
-	.string "the more adorable my POKéMON becomes.$"
+	.string "和它相处得越久，\n"
+	.string "我的宝可梦就越可爱。$"
 
 Route103_Text_PeteIntro:
-	.string "This sort of distance…\n"
-	.string "You should just swim it!$"
+	.string "这么点距离……\n"
+	.string "游过去就好了！$"
 
 Route103_Text_PeteDefeated:
-	.string "Oh, that's good going!$"
+	.string "哦，干得不错！$"
 
 Route103_Text_PetePostBattle:
-	.string "Oh, I understand where you're coming\n"
-	.string "from now.\p"
-	.string "If I had a POKéMON that trusty,\n"
-	.string "I'd want to SURF on it, too!$"
+	.string "哦，我现在明白你的意思了。\p"
+	.string "要有那么可靠的宝可梦，\n"
+	.string "我也想骑着它冲浪！$"
 
 Route103_Text_IsabelleIntro:
-	.string "Watch where you're going!\n"
-	.string "We're going to crash!$"
+	.string "看路啊！\n"
+	.string "要撞上了！$"
 
 Route103_Text_IsabelleDefeated:
-	.string "Groan…$"
+	.string "唔……$"
 
 Route103_Text_IsabellePostBattle:
-	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
+	.string "我游泳不太好，正在练习……\n"
+	.string "抱歉差点撞到你。$"
 
 Route103_Text_RhettIntro:
-	.string "Whoa!\n"
-	.string "How'd you get into a space this small?$"
+	.string "哇！\n"
+	.string "你怎么挤进这么窄的地方的？$"
 
 Route103_Text_RhettDefeated:
-	.string "Whoa!\n"
-	.string "The kid can rock!$"
+	.string "哇！\n"
+	.string "这小子真行！$"
 
 Route103_Text_RhettPostBattle:
-	.string "Do you like cramped quarters\n"
-	.string "like this?$"
+	.string "你喜欢这种狭窄的\n"
+	.string "地方吗？$"
 
 Route103_Text_MarcosIntro:
-	.string "Did my guitar's wailing draw you in?$"
+	.string "是我的吉他声把你引来的吗？$"
 
 Route103_Text_MarcosDefeated:
-	.string "My one-man show is ruined…$"
+	.string "我的个人演出泡汤了……$"
 
 Route103_Text_MarcosPostBattle:
-	.string "I was playing my guitar where few\n"
-	.string "people were around, but a lot of fans\l"
-	.string "have gathered.\p"
-	.string "Heh, maybe I should turn pro.$"
+	.string "我在人少的地方弹吉他，\n"
+	.string "结果聚来了很多粉丝。\p"
+	.string "呵，也许我该出道了。$"
 
 Route104_Text_GinaIntro:
-	.string "GINA: Okay, let's battle with our\n"
-	.string "POKéMON!$"
+	.string "吉娜：好，用宝可梦来\n"
+	.string "对战吧！$"
 
 Route104_Text_GinaDefeat:
-	.string "GINA: Losing upsets me!$"
+	.string "吉娜：输了我很不甘心！$"
 
 Route104_Text_GinaPostBattle:
-	.string "GINA: You are strong!\n"
-	.string "We have to train lots more!$"
+	.string "吉娜：你很强！\n"
+	.string "我们得多多训练！$"
 
 Route104_Text_GinaNotEnoughMons:
-	.string "GINA: Oh? Only one POKéMON?\n"
-	.string "Then, we don't battle with you.\p"
-	.string "If there's only one POKéMON, it will\n"
-	.string "be lonesome. That's not nice.$"
+	.string "吉娜：哦？只有一只宝可梦？\n"
+	.string "那我们不和你打。\p"
+	.string "只有一只会很孤单，\n"
+	.string "那可不好。$"
 
 Route104_Text_MiaIntro:
-	.string "MIA: We are twins, so we battle\n"
-	.string "POKéMON together.$"
+	.string "米亚：我们是双胞胎，\n"
+	.string "所以一起对战。$"
 
 Route104_Text_MiaDefeat:
-	.string "MIA: We battled together, but we\n"
-	.string "both lost…$"
+	.string "米亚：我们一起战斗，\n"
+	.string "却一起输了……$"
 
 Route104_Text_MiaPostBattle:
-	.string "MIA: We will train our POKéMON more\n"
-	.string "and be strong like you.$"
+	.string "米亚：我们会多训练宝可梦，\n"
+	.string "变得像你一样强。$"
 
 Route104_Text_MiaNotEnoughMons:
-	.string "MIA: You want to battle with us?\p"
-	.string "It's a big no-no if you don't have two\n"
-	.string "POKéMON with you.\l"
-	.string "We're too strong for you!$"
+	.string "米亚：想和我们打？\p"
+	.string "没带两只宝可梦可不行哦。\l"
+	.string "我们对你来说太强了！$"
 
 Route104_Text_IvanIntro:
-	.string "Why keep it a secret?\n"
-	.string "I'm the WATER POKéMON expert!\p"
-	.string "Huh?\n"
-	.string "You don't know me?$"
+	.string "为什么要保密？\n"
+	.string "我可是水属性宝可梦专家！\p"
+	.string "嗯？\n"
+	.string "你不认识我？$"
 
 Route104_Text_IvanDefeat:
-	.string "I thought I wasn't too bad, if I may\n"
-	.string "say so, but I guess not… Bleah…$"
+	.string "我还以为自己挺不错的，\n"
+	.string "看来不是……唉……$"
 
 Route104_Text_IvanPostBattle:
-	.string "I got too into fishing.\n"
-	.string "I forgot I had to raise my POKéMON…$"
+	.string "我太沉迷钓鱼了。\n"
+	.string "忘了要培养宝可梦……$"
 
 Route104_Text_BillyIntro:
-	.string "Leaving footprints in the sand is\n"
-	.string "so fun!$"
+	.string "在沙子上留下脚印\n"
+	.string "真好玩！$"
 
 Route104_Text_BillyDefeat:
-	.string "Waah! I got sand in my runners!\n"
-	.string "They're all gritty!$"
+	.string "哇！沙子进鞋里了！\n"
+	.string "硌得慌！$"
 
 Route104_Text_BillyPostBattle:
-	.string "I want to leave my footprints in\n"
-	.string "the sand everywhere, but they\l"
-	.string "disappear quickly…$"
+	.string "我想在沙子上留脚印，\n"
+	.string "可它很快就消失了……$"
 
 Route104_Text_HaleyIntro:
-	.string "Should I…\n"
-	.string "Or shouldn't I?\p"
-	.string "Okay, sure, I will battle!$"
+	.string "我该……\n"
+	.string "还是不该？\p"
+	.string "好吧，就打一场！$"
 
 Route104_Text_HaleyDefeat:
-	.string "I shouldn't have battled…$"
+	.string "早知道就不打了……$"
 
 Route104_Text_HaleyPostBattle:
-	.string "If you're faced with a decision and\n"
-	.string "you let someone else choose for you,\l"
-	.string "you will regret it, however things\l"
-	.string "turn out.$"
+	.string "面对选择时让人替你做决定，\n"
+	.string "不管结果如何都会后悔。$"
 
 Route104_Text_HaleyRegister1:
-	.string "You're strong, but should I register\n"
-	.string "you in my POKéNAV?\l"
-	.string "Maybe I shouldn't…\p"
-	.string "Okay, sure, I will register you!$"
+	.string "你很强，要把你登记进\n"
+	.string "导航里吗？\l"
+	.string "也许不该……\p"
+	.string "好吧，就登记你！$"
 
 Route104_Text_HaleyRegister2:
-	.string "You're strong, but should I register\n"
-	.string "you in my POKéNAV?\l"
-	.string "Maybe I shouldn't…\p"
-	.string "Okay, sure, I will register you!$"
+	.string "你很强，要把你登记进\n"
+	.string "导航里吗？\l"
+	.string "也许不该……\p"
+	.string "好吧，就登记你！$"
 
 Route104_Text_HaleyRematchIntro:
-	.string "Come on, battle with me!$"
+	.string "来吧，和我对战！$"
 
 Route104_Text_HaleyRematchDefeat:
-	.string "Ohh…\n"
-	.string "I thought I could win…$"
+	.string "唉……\n"
+	.string "我以为能赢的……$"
 
 Route104_Text_HaleyPostRematch:
-	.string "I made the decision to battle, so\n"
-	.string "I can accept this loss with grace.\p"
-	.string "I am still upset about losing!$"
+	.string "我决定要打，所以\n"
+	.string "输也输得心服口服。\p"
+	.string "可我还是很不甘心！$"
 
 Route104_Text_WinstonIntro:
-	.string "Oh, sure, I'll accept your challenge.\n"
-	.string "I have a lot of money.$"
+	.string "哦，好，我接受你的挑战。\n"
+	.string "我钱多得是。$"
 
 Route104_Text_WinstonDefeat:
-	.string "Why couldn't I win?$"
+	.string "为什么赢不了呢？$"
 
 Route104_Text_WinstonPostBattle:
-	.string "There are some things money can't buy.\n"
-	.string "That's POKéMON…$"
+	.string "有些东西是钱买不到的。\n"
+	.string "那就是宝可梦……$"
 
 Route104_Text_WinstonRegister1:
-	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéNAV.\p"
-	.string "I will gladly register you.\n"
-	.string "After all, I have plenty of money.$"
+	.string "嗯？\n"
+	.string "啊，你拿到导航了。\p"
+	.string "我很乐意登记。\n"
+	.string "毕竟我钱多得是。$"
 
 Route104_Text_WinstonRegister2:
-	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéNAV.\p"
-	.string "I will gladly register you.\n"
-	.string "After all, I have plenty of money.$"
+	.string "嗯？\n"
+	.string "啊，你拿到导航了。\p"
+	.string "我很乐意登记。\n"
+	.string "毕竟我钱多得是。$"
 
 Route104_Text_WinstonRematchIntro:
-	.string "After I lost to you, I learned a bunch\n"
-	.string "of things about POKéMON.$"
+	.string "输给你之后，我学到了\n"
+	.string "很多关于宝可梦的事。$"
 
 Route104_Text_WinstonRematchDefeat:
-	.string "I lost again?\n"
-	.string "Why couldn't I win?$"
+	.string "又输了？\n"
+	.string "为什么赢不了呢？$"
 
 Route104_Text_WinstonPostRematch:
-	.string "I'm fabulously wealthy, but I can't\n"
-	.string "seem to win at POKéMON…\p"
-	.string "It's so deep, the world of POKéMON…$"
+	.string "我富得流油，却怎么也\n"
+	.string "赢不了宝可梦对战……\p"
+	.string "宝可梦的世界真深奥……$"
 
 Route104_Text_CindyIntro:
-	.string "We must have been fated to meet.\n"
-	.string "May I ask you for a battle?$"
+	.string "我们相遇一定是命运。\n"
+	.string "能和我对战吗？$"
 
 Route104_Text_CindyDefeat:
-	.string "Oh, my!$"
+	.string "哎呀！$"
 
 Route104_Text_CindyPostBattle:
-	.string "“Hello” is the beginning of “good-bye.”\n"
-	.string "I hope we meet again.$"
+	.string "“你好”是“再见”的开始。\n"
+	.string "希望还能再见。$"
 
 Route104_Text_CindyRegister1:
-	.string "Hello, we meet again.\p"
-	.string "We seem to be drawn together. Let's\n"
-	.string "register each other in our POKéNAVS.$"
+	.string "你好，我们又见面了。\p"
+	.string "我们好像互相吸引。\n"
+	.string "把彼此登记进导航吧。$"
 
 Route104_Text_CindyRegister2:
-	.string "We should commemorate how we seem\n"
-	.string "to be drawn to each other.\p"
-	.string "Let's register each other in our\n"
-	.string "POKéNAVS.$"
+	.string "我们该纪念一下这份缘分。\p"
+	.string "把彼此登记进导航吧。$"
 
 Route104_Text_CindyRematchIntro:
-	.string "Hello, we meet again.\n"
-	.string "May I ask you for a battle?$"
+	.string "你好，我们又见面了。\n"
+	.string "能和我对战吗？$"
 
 Route104_Text_CindyRematchDefeat:
-	.string "Oh, my…\n"
-	.string "I did the best that I could…$"
+	.string "哎呀……\n"
+	.string "我已经尽力了……$"
 
 Route104_Text_CindyPostRematch:
-	.string "“Hello” is the beginning of “good-bye.”\n"
-	.string "I hope we meet again.$"
+	.string "“你好”是“再见”的开始。\n"
+	.string "希望还能再见。$"
 
 Route104_Text_DarianIntro:
-	.string "I fished up a tough-looking POKéMON!\p"
-	.string "It has this magical quality to it!\n"
-	.string "It surely looks tough, yes it does!$"
+	.string "我钓上来一只很凶的宝可梦！\p"
+	.string "它有种神奇的气质！\n"
+	.string "确实很凶，没错！$"
 
 Route104_Text_DarianDefeat:
-	.string "What the…$"
+	.string "什么……$"
 
 Route104_Text_DarianPostBattle:
-	.string "Hey, MAGIKARP, you sure don't live up\n"
-	.string "to your name, do you?$"
+	.string "喂，鲤鱼王，你可真不配\n"
+	.string "你那个名字啊？$"
 
 Route105_Text_FosterIntro:
-	.string "There's supposed to be a mystical\n"
-	.string "rock around here.\l"
-	.string "Do you know anything about it?$"
+	.string "这附近应该有一块神秘的\n"
+	.string "石头。\l"
+	.string "你知道些什么吗？$"
 
 Route105_Text_FosterDefeated:
-	.string "I was thinking too much about that\n"
-	.string "rock, while my POKéMON remained weak…$"
+	.string "我一直在想那块石头，\n"
+	.string "宝可梦却还是那么弱……$"
 
 Route105_Text_FosterPostBattle:
-	.string "I can spend hours and hours staring\n"
-	.string "at a nice rock without growing bored.$"
+	.string "我可以盯着漂亮的石头\n"
+	.string "看上好几个小时也不腻。$"
 
 Route105_Text_LuisIntro:
-	.string "Whew! I was worried that a kid was\n"
-	.string "drowning when I saw you.\p"
-	.string "You seem to be okay, so what do you\n"
-	.string "say to a battle?$"
+	.string "呼！看到你时我还担心\n"
+	.string "有孩子溺水了。\p"
+	.string "看起来你没事，\n"
+	.string "那要不要来一场对战？$"
 
 Route105_Text_LuisDefeated:
-	.string "Glub… Glub…$"
+	.string "咕噜……咕噜……$"
 
 Route105_Text_LuisPostBattle:
-	.string "If you are drowning, the signal is to\n"
-	.string "wave one arm toward the beach.$"
+	.string "如果溺水了，求救信号是\n"
+	.string "朝岸边挥舞一只手臂。$"
 
 Route105_Text_DominikIntro:
-	.string "Swimming the deep blue sea…\n"
-	.string "It feels the greatest!$"
+	.string "在深蓝的大海里游泳……\n"
+	.string "感觉最棒了！$"
 
 Route105_Text_DominikDefeated:
-	.string "I lost…\n"
-	.string "Now I'm feeling blue…$"
+	.string "我输了……\n"
+	.string "现在心情低落了……$"
 
 Route105_Text_DominikPostBattle:
-	.string "Why is the sea blue?\p"
-	.string "I learned about that at the MUSEUM in\n"
-	.string "SLATEPORT, but I forgot.$"
+	.string "海为什么是蓝色的？\p"
+	.string "我在凯那市的博物馆学过，\n"
+	.string "但忘了。$"
 
 Route105_Text_BeverlyIntro:
-	.string "My body feels lighter in the water.\n"
-	.string "It's as if I've gotten slimmer!$"
+	.string "在水里身体会变轻。\n"
+	.string "好像变瘦了一样！$"
 
 Route105_Text_BeverlyDefeated:
-	.string "I'm floating…$"
+	.string "我飘起来了……$"
 
 Route105_Text_PostBattle:
-	.string "Your body weight is reduced to just\n"
-	.string "one tenth in the water.\p"
-	.string "That would make me…\n"
-	.string "Whoops! I'm not telling you my weight!$"
+	.string "在水里体重只有\n"
+	.string "十分之一。\p"
+	.string "那我就……\n"
+	.string "哎呀！我才不说体重呢！$"
 
 Route105_Text_ImaniIntro:
-	.string "The blue, blue sky…\n"
-	.string "The vast sea…\l"
-	.string "It's so peaceful…$"
+	.string "蓝蓝的天空……\n"
+	.string "辽阔的大海……\l"
+	.string "真平静……$"
 
 Route105_Text_ImaniDefeated:
-	.string "I lost while I was lounging!$"
+	.string "我躺着躺着就输了！$"
 
 Route105_Text_ImaniPostBattle:
-	.string "I want to be told I'm relaxing to be\n"
-	.string "with. Giggle.$"
+	.string "真希望有人说和我在一起\n"
+	.string "很放松。呵呵。$"
 
 Route105_Text_AndresIntro:
-	.string "I'm convinced that the sea keeps\n"
-	.string "secrets from us.$"
+	.string "我相信大海对我们\n"
+	.string "隐藏着秘密。$"
 
 Route105_Text_AndresDefeated:
-	.string "Yes…\n"
-	.string "I am no good at battling…$"
+	.string "是啊……\n"
+	.string "我果然不擅长对战……$"
 
 Route105_Text_AndresPostBattle:
-	.string "I'm sure there are many secrets to be\n"
-	.string "discovered in the world's seas.\p"
-	.string "I mean to find them all!$"
+	.string "世界上一定还有很多\n"
+	.string "未发现的秘密。\p"
+	.string "我要把它们全找出来！$"
 
 Route105_Text_AndresRegister:
-	.string "Huh? I'm so weak, but you're willing\n"
-	.string "to register me in your POKéNAV?$"
+	.string "嗯？我这么弱，你也愿意\n"
+	.string "把我登记进导航吗？$"
 
 Route105_Text_AndresRematchIntro:
-	.string "I've told you that I'm weak…\n"
-	.string "Are you sure you want to do this?$"
+	.string "我说过我很弱的……\n"
+	.string "你确定要打吗？$"
 
 Route105_Text_AndresRematchDefeated:
-	.string "Yes…\n"
-	.string "I didn't think I could win.$"
+	.string "是啊……\n"
+	.string "我就知道赢不了。$"
 
 Route105_Text_AndresRematchPostBattle:
-	.string "I may be weak at battling, but my\n"
-	.string "drive to explore can't be bested.\p"
-	.string "I will travel the seas all around\n"
-	.string "the world!$"
+	.string "对战我或许很弱，但我的\n"
+	.string "探索热情谁也比不上。\p"
+	.string "我要游遍全世界的海！$"
 
 Route105_Text_JosueIntro:
-	.string "I'm exhausted from swimming.\n"
-	.string "I'm just not used to it.\p"
-	.string "I need a battle for a change of pace!$"
+	.string "我游得累坏了。\n"
+	.string "就是不太习惯。\p"
+	.string "想打一场换换节奏！$"
 
 Route105_Text_JosueDefeated:
-	.string "I lost because I battled at sea.$"
+	.string "我在海里打，所以输了。$"
 
 Route105_Text_JosuePostBattle:
-	.string "Yeah, for me, the sky is a much better\n"
-	.string "match than the sea.$"
+	.string "是啊，对我来说天空比\n"
+	.string "大海更适合我。$"
 
 Route106_Text_ElliotIntro:
-	.string "Which do you prefer, fishing in the\n"
-	.string "sea or a stream?$"
+	.string "你更喜欢在海里钓鱼，\n"
+	.string "还是在河里？$"
 
 Route106_Text_ElliotDefeated:
-	.string "Like in deep-sea fishing, I lost\n"
-	.string "spectacularly!$"
+	.string "就像深海钓到大鱼一样，\n"
+	.string "我输得很壮观！$"
 
 Route106_Text_ElliotPostBattle:
-	.string "Fishing is the greatest whether it's\n"
-	.string "in the sea or a stream.\l"
-	.string "You agree with me, right?$"
+	.string "不管在海里还是河里，\n"
+	.string "钓鱼都是最棒的。\l"
+	.string "你也这么觉得吧？$"
 
 Route106_Text_ElliotRegister:
-	.string "Fishing's great, but so is battling.\n"
-	.string "If you don't mind, can we meet again?$"
+	.string "钓鱼很棒，对战也很棒。\n"
+	.string "不介意的话，再见一面吧？$"
 
 Route106_Text_ElliotRematchIntro:
-	.string "I caught a bunch of POKéMON fishing.\n"
-	.string "I'll show you an impressive battle!$"
+	.string "我钓鱼抓到了一堆宝可梦。\n"
+	.string "让你看看精彩的对战！$"
 
 Route106_Text_ElliotRematchDefeated:
-	.string "I lost again spectacularly!$"
+	.string "我又输得很壮观！$"
 
 Route106_Text_ElliotRematchPostBattle:
-	.string "Win or lose, POKéMON are the greatest!\n"
-	.string "You agree with me, right?$"
+	.string "不管输赢，宝可梦最棒！\n"
+	.string "你也这么觉得吧？$"
 
 Route106_Text_NedIntro:
-	.string "What do people do if they need to go\n"
-	.string "to a washroom?\p"
-	.string "What if my ROD hooks a big one while\n"
-	.string "I'm in the washroom? I just can't go…$"
+	.string "人想去厕所的时候怎么办？\p"
+	.string "要是钓鱼时钓到大家伙，\n"
+	.string "我却去厕所了可就……$"
 
 Route106_Text_NedDefeated:
-	.string "I lost because I'm trying to not go\n"
-	.string "to the washroom…$"
+	.string "我因为忍着不去厕所，\n"
+	.string "所以输了……$"
 
 Route106_Text_NedPostBattle:
-	.string "Oh, no! I've got this feeling I'll hook\n"
-	.string "a big one!$"
+	.string "哦，不！我有预感要钓到\n"
+	.string "大家伙了！$"
 
 Route106_Text_DouglasIntro:
-	.string "Hahahah! I'm a lousy runner, but in\n"
-	.string "the water you can't catch me!$"
+	.string "哈哈哈！我跑步很烂，\n"
+	.string "但在水里你可追不上我！$"
 
 Route106_Text_DouglasDefeated:
-	.string "I give up!$"
+	.string "我认输！$"
 
 Route106_Text_DouglasPostBattle:
-	.string "I wouldn't lose in a swim race…$"
+	.string "游泳比赛我可不会输……$"
 
 Route106_Text_KylaIntro:
-	.string "The sea is my backyard. I'm not going\n"
-	.string "to take it easy because you're a kid!$"
+	.string "大海是我家后院。\n"
+	.string "我可不会因为你是小孩\l"
+	.string "就手下留情！$"
 
 Route106_Text_KylaDefeated:
-	.string "Did you take it easy on me by any\n"
-	.string "chance?$"
+	.string "你该不会是对我\n"
+	.string "手下留情了吧？$"
 
 Route106_Text_KylaPostBattle:
-	.string "Drifting along with the waves…\n"
-	.string "I love it! Why don't you give it a try?$"
+	.string "随波漂流……\n"
+	.string "太棒了！你也试试？$"
 
 Route107_Text_DarrinIntro:
-	.string "Yawn…\p"
-	.string "I must have drifted off to sleep while\n"
-	.string "I was drifting in the waves.$"
+	.string "呼啊……\p"
+	.string "漂在波浪上，我一定是\n"
+	.string "不知不觉睡着了。$"
 
 Route107_Text_DarrinDefeated:
-	.string "Ahaha, I lost…\n"
-	.string "I'll take a snooze, I think…$"
+	.string "啊哈哈，我输了……\n"
+	.string "我想我要打个盹……$"
 
 Route107_Text_DarrinPostBattle:
-	.string "Floating and being rocked by\n"
-	.string "the waves--it's like sleeping in\l"
-	.string "a plush, comfy bed.$"
+	.string "被波浪托着摇晃——\n"
+	.string "就像睡在柔软舒适的床上。$"
 
 Route107_Text_TonyIntro:
-	.string "The sea is like my backyard.\n"
-	.string "Let's battle!$"
+	.string "大海就像我的后院。\n"
+	.string "来对战吧！$"
 
 Route107_Text_TonyDefeated:
-	.string "I lost on my home field…\n"
-	.string "I'm in shock!$"
+	.string "我在主场输了……\n"
+	.string "太震惊了！$"
 
 Route107_Text_TonyPostBattle:
-	.string "I swim the seas with a heart full of\n"
-	.string "dreams…\p"
-	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "我满怀梦想地游在大海上……\p"
+	.string "这就是歌啊！\n"
+	.string "总之，我再游一会儿。$"
 
 Route107_Text_TonyRegister:
-	.string "You've shocked me to the bone!\n"
-	.string "Well, so you won't forget me…$"
+	.string "你把我震得骨头都麻了！\n"
+	.string "那就让你记住我……$"
 
 Route107_Text_TonyRematchIntro:
-	.string "Swimming in the big, wide sea,\n"
-	.string "my POKéMON has grown stronger!$"
+	.string "在广阔的大海里游泳，\n"
+	.string "我的宝可梦变强了！$"
 
 Route107_Text_TonyRematchDefeated:
-	.string "What a shock!\p"
-	.string "My POKéMON has gotten stronger, but\n"
-	.string "I stayed weak as a TRAINER!$"
+	.string "太震惊了！\p"
+	.string "我的宝可梦变强了，\n"
+	.string "我作为训练家却还是那么弱！$"
 
 Route107_Text_TonyRematchPostBattle:
-	.string "What you learn in battle makes you\n"
-	.string "a stronger TRAINER.\l"
-	.string "The waves taught me that.$"
+	.string "对战中领悟的东西会让你\n"
+	.string "成为更强的训练家。\l"
+	.string "这是波浪教我的。$"
 
 Route107_Text_DeniseIntro:
-	.string "Do you know a little town called\n"
-	.string "DEWFORD?$"
+	.string "你知道一个叫\n"
+	.string "武斗镇的小镇吗？$"
 
 Route107_Text_DeniseDefeated:
-	.string "I hate this!$"
+	.string "我讨厌这样！$"
 
 Route107_Text_DenisePostBattle:
-	.string "A weird saying is getting really\n"
-	.string "trendy at DEWFORD HALL.$"
+	.string "武斗镇的会馆里最近\n"
+	.string "流行一句怪话。$"
 
 Route107_Text_BethIntro:
-	.string "Did you want to battle me?\n"
-	.string "Sure, I'll go with you!$"
+	.string "你想和我对战？\n"
+	.string "好啊，我奉陪！$"
 
 Route107_Text_BethDefeated:
-	.string "I wasn't good enough for you.$"
+	.string "我还是不够强。$"
 
 Route107_Text_BethPostBattle:
-	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "我觉得你会越来越强。\n"
+	.string "我也要加油！$"
 
 Route107_Text_LisaIntro:
-	.string "LISA: We challenge you as a sister\n"
-	.string "and brother!$"
+	.string "莉莎：我们姐弟来\n"
+	.string "挑战你！$"
 
 Route107_Text_LisaDefeated:
-	.string "LISA: Awesome.\n"
-	.string "You're in a different class of tough.$"
+	.string "莉莎：厉害。\n"
+	.string "你的实力完全是另一个层次。$"
 
 Route107_Text_LisaPostBattle:
-	.string "LISA: Do you have any friends who\n"
-	.string "would go to the beach with you?$"
+	.string "莉莎：你有愿意陪你\n"
+	.string "去海边的朋友吗？$"
 
 Route107_Text_LisaNotEnoughPokemon:
-	.string "LISA: If you want to battle with us,\n"
-	.string "bring more POKéMON.$"
+	.string "莉莎：想和我们打的话，\n"
+	.string "多带些宝可梦来。$"
 
 Route107_Text_RayIntro:
-	.string "RAY: We always battle POKéMON,\n"
-	.string "me and my sister.\p"
-	.string "I always lose, but we can beat you\n"
-	.string "2-on-2!$"
+	.string "RAY：我和姐姐经常一起\n"
+	.string "用宝可梦对战。\p"
+	.string "我总是输，但二对二\n"
+	.string "我们一定能赢你！$"
 
 Route107_Text_RayDefeated:
-	.string "RAY: Wowee, you're at a higher level\n"
-	.string "than us!$"
+	.string "RAY：哇，你的水平\n"
+	.string "比我们高多了！$"
 
 Route107_Text_RayPostBattle:
-	.string "RAY: My sister gave me my POKéMON.\n"
-	.string "I raised it, and now it's my important\l"
-	.string "partner!$"
+	.string "RAY：我的宝可梦是姐姐给的。\n"
+	.string "我养大了它，\l"
+	.string "现在是我重要的伙伴！$"
 
 Route107_Text_RayNotEnoughPokemon:
-	.string "RAY: If you want to battle us,\n"
-	.string "go bring some more POKéMON!$"
+	.string "RAY：想和我们打的话，\n"
+	.string "多带些宝可梦来吧！$"
 
 Route107_Text_CamronIntro:
-	.string "I'm in the middle of a triathlon,\n"
-	.string "but I'm nowhere near tired!$"
+	.string "我正在参加铁人三项，\n"
+	.string "可一点也不累！$"
 
 Route107_Text_CamronDefeated:
-	.string "That exhausted me…$"
+	.string "累死我了……$"
 
 Route107_Text_CamronPostBattle:
-	.string "I still have swimming and running left\n"
-	.string "to do after this.\p"
-	.string "Am I going to be okay?$"
+	.string "之后我还要游泳和跑步。\p"
+	.string "我还撑得住吗？$"
 
 Route108_Text_JeromeIntro:
-	.string "My dream is to swim the world's seven\n"
-	.string "seas!$"
+	.string "我的梦想是游遍\n"
+	.string "全世界的七大海！$"
 
 Route108_Text_JeromeDefeated:
-	.string "I won't be able to swim the seven seas\n"
-	.string "like this…$"
+	.string "这样可游不了\n"
+	.string "七大海啊……$"
 
 Route108_Text_JeromePostBattle:
-	.string "Playing with marine POKéMON is one of\n"
-	.string "the pleasures of swimming!$"
+	.string "和海洋宝可梦一起玩，\n"
+	.string "也是游泳的一大乐趣！$"
 
 Route108_Text_MatthewIntro:
-	.string "Ahoy, there! Are you going out to\n"
-	.string "the ABANDONED SHIP, too?$"
+	.string "喂，你好！你也要去\n"
+	.string "那艘废弃船吗？$"
 
 Route108_Text_MatthewDefeated:
-	.string "I'm sinking!\n"
-	.string "Glub… Glub…$"
+	.string "我沉下去了！\n"
+	.string "咕噜……咕噜……$"
 
 Route108_Text_MatthewPostBattle:
-	.string "Some people even go inside that\n"
-	.string "ABANDONED SHIP.$"
+	.string "还有人会进那艘\n"
+	.string "废弃船里面呢。$"
 
 Route108_Text_TaraIntro:
-	.string "My liar of a boyfriend told me that\n"
-	.string "I look great in a bikini…$"
+	.string "我那个爱撒谎的男朋友说\n"
+	.string "我穿比基尼很好看……$"
 
 Route108_Text_TaraDefeated:
-	.string "Oh, boo!$"
+	.string "哼！$"
 
 Route108_Text_TaraPostBattle:
-	.string "Even if it's a lie, I love being told\n"
-	.string "I look great…\l"
-	.string "We girls are so complex…$"
+	.string "就算是谎话，我也喜欢\n"
+	.string "被人夸好看……\l"
+	.string "女孩子真复杂……$"
 
 Route108_Text_MissyIntro:
-	.string "I love the sea!\n"
-	.string "I forget all my worries when I swim!$"
+	.string "我最爱大海！\n"
+	.string "游泳时什么烦恼都忘了！$"
 
 Route108_Text_MissyDefeated:
-	.string "When I lose a battle, I get all\n"
-	.string "stressed out!$"
+	.string "一输对战我就\n"
+	.string "压力好大！$"
 
 Route108_Text_MissyPostBattle:
-	.string "Work off your stress by swimming!\n"
-	.string "It's so healthy!$"
+	.string "用游泳来消除压力！\n"
+	.string "多健康啊！$"
 
 Route108_Text_CoryIntro:
-	.string "I love WATER-type POKéMON.\n"
-	.string "I love other POKéMON, too!$"
+	.string "我最爱水属性宝可梦。\n"
+	.string "其他宝可梦我也爱！$"
 
 Route108_Text_CoryDefeated:
-	.string "Waaah! I lost!\n"
-	.string "Waaah! Waaah!$"
+	.string "哇！我输了！\n"
+	.string "哇！哇！$"
 
 Route108_Text_CoryPostBattle:
-	.string "Shouting is good for me!\n"
-	.string "It uplifts me!$"
+	.string "大喊对我有好处！\n"
+	.string "能让我振作起来！$"
 
 Route108_Text_CoryRegister:
-	.string "I love tough TRAINERS, too!\n"
-	.string "Register me in your POKéNAV!$"
+	.string "我也爱强大的训练家！\n"
+	.string "把我登记进导航吧！$"
 
 Route108_Text_CoryRematchIntro:
-	.string "Win or lose, I love battling at sea!$"
+	.string "不管输赢，我都爱在\n"
+	.string "海里对战！$"
 
 Route108_Text_CoryRematchDefeated:
-	.string "Waaah! I lost again!\n"
-	.string "Waaah! Waaah!$"
+	.string "哇！我又输了！\n"
+	.string "哇！哇！$"
 
 Route108_Text_CoryRematchPostBattle:
-	.string "If you're faced with a challenge,\n"
-	.string "try shouting at the sea!$"
+	.string "遇到难题时，\n"
+	.string "就朝大海喊一喊！$"
 
 Route108_Text_CarolinaIntro:
-	.string "I take huge pride in my POKéMON.\n"
-	.string "We'll show you one speedy battle!$"
+	.string "我对我的宝可梦充满自信。\n"
+	.string "让你见识一场快速的对战！$"
 
 Route108_Text_CarolinaDefeated:
-	.string "That wasn't cute at all.$"
+	.string "一点也不可爱。$"
 
 Route108_Text_CarolinaPostBattle:
-	.string "Since I'm at sea like this, I wouldn't\n"
-	.string "mind putting on a pink, frilly swimsuit…$"
+	.string "既然这样待在海边，我倒是\n"
+	.string "想穿上粉色荷叶边泳装……$"
 
 Route109_Text_DavidIntro:
-	.string "Hiyah! Look at my chiseled abs!\n"
-	.string "This is what you call “cut”!$"
+	.string "嘿呀！看我的腹肌！\n"
+	.string "这才叫“有型”！$"
 
 Route109_Text_DavidDefeated:
-	.string "Aiyah!\n"
-	.string "Flubbed out!$"
+	.string "哎呀！\n"
+	.string "全垮了！$"
 
 Route109_Text_DavidPostBattle:
-	.string "Hiyah!\p"
-	.string "My sculpted abs have nothing to do\n"
-	.string "with POKéMON battles!$"
+	.string "嘿呀！\p"
+	.string "我练出来的腹肌和宝可梦\n"
+	.string "对战可没有关系！$"
 
 Route109_Text_AliceIntro:
-	.string "Are you properly protected against\n"
-	.string "the sun?$"
+	.string "你做好防晒了吗？$"
 
 Route109_Text_AliceDefeated:
-	.string "Ouch, ouch, ouch!$"
+	.string "疼、疼、疼！$"
 
 Route109_Text_AlicePostBattle:
-	.string "Cheeks are the most prone to burning!$"
+	.string "脸颊最容易晒伤了！$"
 
 Route109_Text_HueyIntro:
-	.string "I've laid anchor in ports around\n"
-	.string "the world, but SLATEPORT's the best.$"
+	.string "我在世界各地的港口停靠过，\n"
+	.string "但凯那市是最好的。$"
 
 Route109_Text_HueyDefeated:
-	.string "You're the best!$"
+	.string "你最棒！$"
 
 Route109_Text_HueyPostBattle:
-	.string "In the best port was the best\n"
-	.string "TRAINER…$"
+	.string "最好的港口里遇见了\n"
+	.string "最好的训练家……$"
 
 Route109_Text_EdmondIntro:
-	.string "Urrrrppp…\n"
-	.string "Battle? With me?$"
+	.string "呃……\n"
+	.string "要和我对战？$"
 
 Route109_Text_EdmondDefeated:
-	.string "Urp… Ooooooohhhhhh…\n"
-	.string "Urrrrpppp…$"
+	.string "呃……哦哦哦……\n"
+	.string "呃……$"
 
 Route109_Text_EdmondPostBattle:
-	.string "I'm usually stronger than this!\n"
-	.string "I'm just seasick as a dog!\p"
-	.string "I'm a SAILOR, but…$"
+	.string "我平时比这强多了！\n"
+	.string "只是晕船晕得厉害！\p"
+	.string "我明明是水手……$"
 
 Route109_Text_RickyIntro:
-	.string "I'm thirsty… I could go for a SODA POP\n"
-	.string "at the SEASHORE HOUSE…$"
+	.string "我口渴了……好想去热之家\n"
+	.string "喝杯汽水……$"
 
 Route109_Text_RickyDefeated:
-	.string "Groan…$"
+	.string "唔……$"
 
 Route109_Text_RickyPostBattle:
-	.string "I'm getting famished… My inner tube\n"
-	.string "looks like a giant doughnut…$"
+	.string "我饿了……我的泳圈\n"
+	.string "看着像个大甜甜圈……$"
 
 Route109_Text_RickyRegister:
-	.string "Will you have another match with me\n"
-	.string "when I'm not all thirsty?$"
+	.string "等我不那么渴了，\n"
+	.string "再和我打一场好吗？$"
 
 Route109_Text_RickyRematchIntro:
-	.string "I'm hungry, but I've got enough pep in\n"
-	.string "me for a battle!$"
+	.string "我饿了，但还是有\n"
+	.string "力气对战！$"
 
 Route109_Text_RickyRematchDefeated:
-	.string "I lost…\n"
-	.string "It's because I'm hungry…$"
+	.string "我输了……\n"
+	.string "因为饿着肚子……$"
 
 Route109_Text_RickyRematchPostBattle:
-	.string "When you eat on a beach, everything\n"
-	.string "seems to taste a little better.$"
+	.string "在海边吃东西，\n"
+	.string "什么都更好吃一点。$"
 
 Route109_Text_LolaIntro:
-	.string "Doesn't a beach umbrella look like\n"
-	.string "a giant flower?$"
+	.string "沙滩伞看起来\n"
+	.string "像不像一朵大花？$"
 
 Route109_Text_LolaDefeated:
-	.string "Mommy!$"
+	.string "妈妈！$"
 
 Route109_Text_LolaPostBattle:
-	.string "If you look at the beach from the sky,\n"
-	.string "it looks like a big flower garden!$"
+	.string "从天上往下看沙滩，\n"
+	.string "就像一个大花园！$"
 
 Route109_Text_LolaRegister:
-	.string "Me?\n"
-	.string "I'm here every day!$"
+	.string "我？\n"
+	.string "我每天都在这里！$"
 
 Route109_Text_LolaRematchIntro:
-	.string "I'm not losing to you again!\n"
-	.string "That's why I have my inner tube!$"
+	.string "我不会再输给你了！\n"
+	.string "这就是我带着泳圈的原因！$"
 
 Route109_Text_LolaRematchDefeated:
-	.string "Mommy!$"
+	.string "妈妈！$"
 
 Route109_Text_LolaRematchPostBattle:
-	.string "If I have an inner tube, me and my\n"
-	.string "POKéMON's cuteness goes way up!$"
+	.string "有泳圈在，我和宝可梦的\n"
+	.string "可爱度都会大大提升！$"
 
 Route109_Text_AustinaIntro:
-	.string "I can't swim without my inner tube,\n"
-	.string "but I won't lose at POKéMON!$"
+	.string "没有泳圈我游不了泳，\n"
+	.string "但宝可梦对战我可不会输！$"
 
 Route109_Text_AustinaDefeated:
-	.string "Did I lose because I have an inner\n"
-	.string "tube?$"
+	.string "难道我输了是因为\n"
+	.string "带着泳圈？$"
 
 Route109_Text_AustinaPostBattle:
-	.string "My inner tube is a fashion item.\n"
-	.string "I can't be seen without it.$"
+	.string "泳圈是我的时尚单品。\n"
+	.string "不带着它我可不能见人。$"
 
 Route109_Text_GwenIntro:
-	.string "Hi, big TRAINER.\n"
-	.string "Will you battle with me?$"
+	.string "你好，大训练家。\n"
+	.string "能和我对战吗？$"
 
 Route109_Text_GwenDefeated:
-	.string "Oh, you're strong.$"
+	.string "哦，你好强。$"
 
 Route109_Text_GwenPostBattle:
-	.string "How did you get to be so strong?$"
+	.string "你是怎么变得这么强的？$"
 
 Route109_Text_CarterIntro:
-	.string "Wahahah! This dude's going to catch\n"
-	.string "himself a big one!$"
+	.string "哇哈哈！这小子要\n"
+	.string "大干一场了！$"
 
 Route109_Text_CarterDefeated:
-	.string "This dude just lost one…$"
+	.string "这小子刚输了一场……$"
 
 Route109_Text_CarterPostBattle:
-	.string "This dude thinks you're a big one.\n"
-	.string "No, you're a big-one-to-be!$"
+	.string "这小子觉得你很厉害。\n"
+	.string "不，你以后会更厉害！$"
 
 Route109_Text_PaulIntro:
-	.string "PAUL: Well, this is a mood-breaker.\p"
-	.string "I wish you wouldn't disturb our\n"
-	.string "precious time together.$"
+	.string "保罗：真是扫兴。\p"
+	.string "希望你别打扰我们\n"
+	.string "宝贵的二人时光。$"
 
 Route109_Text_PaulDefeated:
-	.string "PAUL: Well, I give up.$"
+	.string "保罗：好吧，我认输。$"
 
 Route109_Text_PaulPostBattle:
-	.string "PAUL: Well, don't tell anyone that\n"
-	.string "we're here.\l"
-	.string "This is just our private world of two!$"
+	.string "保罗：好吧，别告诉别人\n"
+	.string "我们在这里。\l"
+	.string "这是我们两人的世界！$"
 
 Route109_Text_PaulNotEnoughPokemon:
-	.string "PAUL: We're totally, deeply in love.\n"
-	.string "That's why we make our POKéMON battle\l"
-	.string "together.$"
+	.string "保罗：我们深深地相爱。\n"
+	.string "所以我们让宝可梦一起对战。$"
 
 Route109_Text_MelIntro:
-	.string "MEL: We're, like, totally in love.\n"
-	.string "Our romance is heating up all of HOENN!$"
+	.string "梅尔：我们真的非常相爱。\n"
+	.string "我们的恋爱正让丰缘升温！$"
 
 Route109_Text_MelDefeated:
-	.string "MEL: We lost, and it's my fault!\n"
-	.string "PAUL will hate me!$"
+	.string "梅尔：我们输了，都怪我！\n"
+	.string "保罗会讨厌我的！$"
 
 Route109_Text_MelPostBattle:
-	.string "MEL: Um, PAUL, are you angry with me?\n"
-	.string "Please don't be angry.$"
+	.string "梅尔：那个，保罗，\n"
+	.string "你生我气了吗？别生气嘛。$"
 
 Route109_Text_MelNotEnoughPokemon:
-	.string "MEL: We're, like, deeply and truly in love.\n"
-	.string "That's why we make our POKéMON\l"
-	.string "battle together.$"
+	.string "梅尔：我们真的深深地相爱。\n"
+	.string "所以我们让宝可梦\l"
+	.string "一起对战。$"
 
 Route109_Text_ChandlerIntro:
-	.string "Tadaah! See?\n"
-	.string "My inner tube's round!$"
+	.string "当当！看！\n"
+	.string "我的泳圈是圆的！$"
 
 Route109_Text_ChandlerDefeated:
-	.string "Oh, oh!\n"
-	.string "Too bad!$"
+	.string "哎呀呀！\n"
+	.string "太可惜了！$"
 
 Route109_Text_ChandlerPostBattle:
-	.string "After I showed you my round inner\n"
-	.string "tube, too…$"
+	.string "我还给你看了我圆圆的\n"
+	.string "泳圈呢……$"
 
 Route109_Text_HaileyIntro:
-	.string "I can't swim, so I'm pretending\n"
-	.string "to swim.$"
+	.string "我不会游泳，\n"
+	.string "所以在假装游泳。$"
 
 Route109_Text_HaileyDefeated:
-	.string "I thought so!\n"
-	.string "I didn't think we could win.$"
+	.string "果然！\n"
+	.string "我就知道赢不了。$"
 
 Route109_Text_HaileyPostBattle:
-	.string "When I learn how to swim, I think\n"
-	.string "my POKéMON will become tougher.$"
+	.string "等我学会游泳，\n"
+	.string "我的宝可梦也会变强吧。$"
 
 Route109_Text_ElijahIntro:
-	.string "For a guy as macho as me, this kind\n"
-	.string "of POKéMON is the perfect match!$"
+	.string "像我这么有男子气概的人，\n"
+	.string "这种宝可梦最合适了！$"
 
 Route109_Text_ElijahDefeated:
-	.string "I'm cool even in defeat, hey?$"
+	.string "就算输了我也很酷吧？$"
 
 Route109_Text_ElijahPostBattle:
-	.string "For a guy as macho as me, a port\n"
-	.string "is the perfect setting!\p"
-	.string "I guess I'll head for SLATEPORT.$"
+	.string "像我这么有男子气概的人，\n"
+	.string "港口最合适了！\p"
+	.string "我决定去凯那市。$"
 
 Route110_Text_JacobIntro:
-	.string "Whoa! Watch it!\n"
-	.string "I guess you're not used to BIKE racing.$"
+	.string "喂！小心点！\n"
+	.string "看来你还不习惯自行车比赛。$"
 
 Route110_Text_JacobDefeated:
-	.string "Whoa!\n"
-	.string "My brakes failed!$"
+	.string "哇！\n"
+	.string "我的刹车失灵了！$"
 
 Route110_Text_JacobPostBattle:
-	.string "Flat tires and brake problems can\n"
-	.string "cause serious injury!\l"
-	.string "Inspect your BIKE for problems!$"
+	.string "爆胎和刹车故障会\n"
+	.string "造成重伤！\l"
+	.string "要检查好你的自行车！$"
 
 Route110_Text_AnthonyIntro:
-	.string "Yo, you!\n"
-	.string "Can you keep up with my speed?$"
+	.string "喂，你！\n"
+	.string "跟得上我的速度吗？$"
 
 Route110_Text_AnthonyDefeated:
-	.string "Crash and burn!$"
+	.string "彻底失败！$"
 
 Route110_Text_AnthonyPostBattle:
-	.string "Speed alone won't let me win at POKéMON.\n"
-	.string "I need to reconsider this…$"
+	.string "光靠速度赢不了宝可梦对战。\n"
+	.string "我得重新想想……$"
 
 Route110_Text_BenjaminIntro:
-	.string "Don't panic if your BIKE's going fast!$"
+	.string "自行车骑得快也别慌！$"
 
 Route110_Text_BenjaminDefeated:
-	.string "I shouldn't panic during POKéMON\n"
-	.string "battles…$"
+	.string "宝可梦对战时\n"
+	.string "我不该慌张……$"
 
 Route110_Text_BenjaminPostBattle:
-	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "不用慌张也不用着急。\n"
+	.string "慢慢来，时间多的是。$"
 
 Route110_Text_BenjaminRegister:
-	.string "I'll keep chugging on without stressing.\n"
-	.string "Give me a shout if you're up to it.$"
+	.string "我会不慌不忙地继续前进。\n"
+	.string "想打的话就叫我一声。$"
 
 Route110_Text_BenjaminRematchIntro:
-	.string "Aren't you going a little too fast?\n"
-	.string "Take it easy and let's battle.$"
+	.string "你是不是骑得太快了？\n"
+	.string "慢慢来，打一场吧。$"
 
 Route110_Text_BenjaminRematchDefeated:
-	.string "I didn't panic, but I still lost…$"
+	.string "我没慌张，但还是输了……$"
 
 Route110_Text_BenjaminRematchPostBattle:
-	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "不用慌张也不用着急。\n"
+	.string "慢慢来，时间多的是。$"
 
 Route110_Text_AbigailIntro:
-	.string "The triathlon is hard in the extreme.\p"
-	.string "You have to complete the three events\n"
-	.string "of swimming, cycling, and running.$"
+	.string "铁人三项非常艰难。\p"
+	.string "要完成游泳、自行车\n"
+	.string "和跑步三个项目。$"
 
 Route110_Text_AbigailDefeated:
-	.string "POKéMON battles are hard, too!$"
+	.string "宝可梦对战也很难！$"
 
 Route110_Text_AbigailPostBattle:
-	.string "I'm exhausted, so I need a break.\n"
-	.string "It's important to get proper rest.$"
+	.string "我累坏了，需要休息。\n"
+	.string "好好休息很重要。$"
 
 Route110_Text_AbigailRegister:
-	.string "You know, I like you!\n"
-	.string "Let's have a rematch on CYCLING ROAD.$"
+	.string "说起来，我很喜欢你！\n"
+	.string "下次在自行车道再见吧。$"
 
 Route110_Text_AbigailRematchIntro:
-	.string "Isn't it neat to hold a battle while\n"
-	.string "cycling?$"
+	.string "一边骑车一边对战，\n"
+	.string "是不是很酷？$"
 
 Route110_Text_AbigailRematchDefeated:
-	.string "Wow…\n"
-	.string "How could you be so strong?$"
+	.string "哇……\n"
+	.string "你怎么这么强？$"
 
 Route110_Text_AbigailRematchPostBattle:
-	.string "Were you going after a record?\p"
-	.string "I'm sorry if I held you up!$"
+	.string "你是在冲纪录吗？\p"
+	.string "要是拖了你后腿，\n"
+	.string "真抱歉！$"
 
 Route110_Text_JasmineIntro:
-	.string "I've been riding without stopping.\n"
-	.string "My thighs are like rocks!$"
+	.string "我一直没停车地骑。\n"
+	.string "我的大腿硬得像石头！$"
 
 Route110_Text_JasmineDefeated:
-	.string "I'm worried about muscle cramps…$"
+	.string "我怕肌肉抽筋……$"
 
 Route110_Text_JasminePostBattle:
-	.string "Oh, you have some GYM BADGES?\n"
-	.string "No wonder you're so strong!$"
+	.string "哦，你已经有道馆徽章了？\n"
+	.string "难怪这么强！$"
 
 Route110_Text_EdwardIntro:
-	.string "I have foreseen your intentions!\n"
-	.string "I cannot possibly lose!$"
+	.string "我已经预见了你的意图！\n"
+	.string "我不可能输！$"
 
 Route110_Text_EdwardDefeated:
-	.string "I failed to prophesize my own demise!$"
+	.string "我没能预言到自己的败北！$"
 
 Route110_Text_EdwardPostBattle:
-	.string "I see your future…\p"
-	.string "Hmm…\n"
-	.string "I see a shining light…$"
+	.string "我看到你的未来……\p"
+	.string "嗯……\n"
+	.string "我看到了一道闪光……$"
 
 Route110_Text_JaclynIntro:
-	.string "Ahahahaha!\n"
-	.string "I'll dazzle you with my wonders!$"
+	.string "啊哈哈哈！\n"
+	.string "让你见识我的奇迹！$"
 
 Route110_Text_JaclynDefeated:
-	.string "I wondrously lost!$"
+	.string "我奇迹般地输了！$"
 
 Route110_Text_JaclynPostBattle:
-	.string "You managed to win only because it was\n"
-	.string "a wonder! Yes, a wonder!\l"
-	.string "Don't think you can win all the time!$"
+	.string "你赢了只是因为那是奇迹！\n"
+	.string "对，是奇迹！\l"
+	.string "别以为你能一直赢！$"
 
 Route110_Text_EdwinIntro:
-	.string "Could I see your POKéMON?\n"
-	.string "Just one look, please?$"
+	.string "能让我看看你的宝可梦吗？\n"
+	.string "就看一眼！$"
 
 Route110_Text_EdwinDefeated:
-	.string "I wanted to complete\n"
-	.string "my collection…$"
+	.string "我还想完成\n"
+	.string "我的收藏……$"
 
 Route110_Text_EdwinPostBattle:
-	.string "When I see a POKéMON that I don't know,\n"
-	.string "my passion as a collector is ignited!$"
+	.string "一看到不认识的宝可梦，\n"
+	.string "我收藏家的热情就燃起来了！$"
 
 Route110_Text_EdwinRegister:
-	.string "I like collecting MATCH CALL\n"
-	.string "registrations, too…$"
+	.string "我也喜欢收集\n"
+	.string "训练家导航登记……$"
 
 Route110_Text_EdwinRematchIntro:
-	.string "Hi, have you caught any new POKéMON?\p"
-	.string "Could I see your POKéMON?\n"
-	.string "Just one look, please?$"
+	.string "嗨，抓到新宝可梦了吗？\p"
+	.string "能让我看看你的宝可梦吗？\n"
+	.string "就看一眼！$"
 
 Route110_Text_EdwinRematchDefeated:
-	.string "Your POKéMON…\n"
-	.string "I envy you.$"
+	.string "你的宝可梦……\n"
+	.string "真让人羡慕。$"
 
 Route110_Text_EdwinRematchPostBattle:
-	.string "Oh, I long to make all rare POKéMON\n"
-	.string "mine!$"
+	.string "哦，我真想把所有稀有的\n"
+	.string "宝可梦都收归我有！$"
 
 Route110_Text_DaleIntro:
-	.string "Hey!\n"
-	.string "Don't sneak up behind me like that!$"
+	.string "喂！\n"
+	.string "别这样从后面偷偷靠近我！$"
 
 Route110_Text_DaleDefeated:
-	.string "I lost!\n"
-	.string "Drat!$"
+	.string "我输了！\n"
+	.string "可恶！$"
 
 Route110_Text_DalePostBattle:
-	.string "Fishing is all about concentration.\n"
-	.string "You have to focus on the floater.$"
+	.string "钓鱼全靠专注。\n"
+	.string "必须盯着浮漂。$"
 
 Route110_Text_IsabelIntro:
-	.string "Ahahaha! I would go anywhere to show\n"
-	.string "off my delightful POKéMON.$"
+	.string "啊哈哈哈！我无论去哪都要\n"
+	.string "展示我可爱的宝可梦。$"
 
 Route110_Text_IsabelDefeated:
-	.string "Oh, dear, this won't do.$"
+	.string "哎呀，这可不行。$"
 
 Route110_Text_IsabelPostBattle:
-	.string "Rather than battling, perhaps I should\n"
-	.string "show off my POKéMON at the FAN CLUB.$"
+	.string "与其对战，不如去\n"
+	.string "粉丝俱乐部展示宝可梦吧。$"
 
 Route110_Text_IsabelRegister:
-	.string "That wasn't close to what I could\n"
-	.string "do to show off my POKéMON.\p"
-	.string "I'll have you as my captive audience\n"
-	.string "as often as possible!$"
+	.string "我可还没拿出展示宝可梦的\n"
+	.string "真本事呢。\p"
+	.string "以后要常让你当我的观众！$"
 
 Route110_Text_IsabelRematchIntro:
-	.string "Ahahahaha! I would be happy to show\n"
-	.string "off my POKéMON as often as you like!$"
+	.string "啊哈哈哈！我很乐意随你\n"
+	.string "想看多少次就展示多少次！$"
 
 Route110_Text_IsabelRematchDefeated:
-	.string "Oh, dear, this won't do.$"
+	.string "哎呀，这可不行。$"
 
 Route110_Text_IsabelRematchPostBattle:
-	.string "I don't think that I could ever stop\n"
-	.string "from showing off my POKéMON.\p"
-	.string "But I like to battle, too!$"
+	.string "我想我永远也停不下\n"
+	.string "展示宝可梦这件事。\p"
+	.string "不过我也喜欢对战！$"
 
 Route110_Text_TimmyIntro:
-	.string "I found some cool POKéMON in the grass\n"
-	.string "around here!$"
+	.string "我在这附近的草丛里\n"
+	.string "找到了很酷的宝可梦！$"
 
 Route110_Text_TimmyDefeated:
-	.string "Being cool isn't enough to win…$"
+	.string "光是酷还赢不了……$"
 
 Route110_Text_TimmyPostBattle:
-	.string "It's hard to battle with POKéMON you\n"
-	.string "just caught.$"
+	.string "用刚抓到的宝可梦对战\n"
+	.string "好难啊。$"
 
 Route110_Text_AlyssaIntro:
-	.string "I fell off CYCLING ROAD…\p"
-	.string "I'll get over my embarrassment by\n"
-	.string "battling with you!$"
+	.string "我从自行车道上摔下来了……\p"
+	.string "就用对战来忘掉\n"
+	.string "这份羞耻吧！$"
 
 Route110_Text_AlyssaDefeated:
-	.string "Oops!\n"
-	.string "I ended up losing!$"
+	.string "哎呀！\n"
+	.string "结果我输了！$"
 
 Route110_Text_AlyssaPostBattle:
-	.string "Falling… Losing…\n"
-	.string "This is so humiliating for me!$"
+	.string "摔倒……又输掉……\n"
+	.string "我真是太丢脸了！$"
 
 Route110_Text_JosephIntro:
-	.string "Okay! Full-throttle time! If you can't\n"
-	.string "groove, you get left behind!$"
+	.string "好！全速前进！跟不上\n"
+	.string "节奏的话就等着掉队吧！$"
 
 Route110_Text_JosephDefeated:
-	.string "You got into the groove all right…$"
+	.string "你倒是很跟得上节奏……$"
 
 Route110_Text_JosephPostBattle:
-	.string "This isn't going to bring me down!\n"
-	.string "Losing has made me a better man!$"
+	.string "这不会打垮我！\n"
+	.string "输让我变得更强！$"
 
 Route110_Text_KalebIntro:
-	.string "When cute POKéMON help each other…\n"
-	.string "You won't see a more adorable sight!$"
+	.string "可爱的宝可梦互相帮助……\n"
+	.string "没有比这更可爱的画面了！$"
 
 Route110_Text_KalebDefeated:
-	.string "Have you no compassion or pity?$"
+	.string "你就一点同情心都没有吗？$"
 
 Route110_Text_KalebPostBattle:
-	.string "Okay, okay, you've done the best you\n"
-	.string "could, my pretties.$"
+	.string "好了好了，你们已经\n"
+	.string "做得很好了，小家伙们。$"
 
 Route111_Text_DrewIntro:
-	.string "Oh, hey! Those GO-GOGGLES suit you.\n"
-	.string "But I think they look better on me.\p"
-	.string "Let's decide who they look better on\n"
-	.string "with a battle!$"
+	.string "哦，嘿！防沙镜挺适合你。\n"
+	.string "不过我觉得戴在我身上更好。\p"
+	.string "就用对战来决定谁更合适吧！$"
 
 Route111_Text_DrewDefeat:
-	.string "I couldn't see what was happening at\n"
-	.string "my sides because of the GO-GOGGLES.$"
+	.string "戴着防沙镜，我看不清\n"
+	.string "两边发生了什么。$"
 
 Route111_Text_DrewPostBattle:
-	.string "The GO-GOGGLES make it possible to\n"
-	.string "get through sandstorms.\l"
-	.string "That makes me happy!$"
+	.string "有了防沙镜就能穿过沙暴。\n"
+	.string "真让人高兴！$"
 
 Route111_Text_HeidiIntro:
-	.string "I'm having a picnic in the desert.\p"
-	.string "You can always find a TRAINER,\n"
-	.string "so I can enjoy a battle here, too!$"
+	.string "我正在沙漠里野餐。\p"
+	.string "训练家到处都有，\n"
+	.string "所以我也能在这里享受对战！$"
 
 Route111_Text_HeidiDefeat:
-	.string "Ohhh! You're mean!$"
+	.string "哦哦！你好过分！$"
 
 Route111_Text_HeidiPostBattle:
-	.string "When you're battling in a sandstorm,\n"
-	.string "watch out for your POKéMON's HP.\p"
-	.string "It can faint if you don't keep\n"
-	.string "an eye on it!$"
+	.string "在沙暴中对战时，\n"
+	.string "要留意宝可梦的HP。\p"
+	.string "不管好的话它可是会倒下的！$"
 
 Route111_Text_BeauIntro:
-	.string "Wearing these GO-GOGGLES makes me\n"
-	.string "feel like a superhero.\l"
-	.string "Right now, nobody can beat me!$"
+	.string "戴上这副防沙镜，\n"
+	.string "我感觉自己像超级英雄。\l"
+	.string "现在没人能赢我！$"
 
 Route111_Text_BeauDefeat:
-	.string "I can't win on spirit alone…$"
+	.string "光靠气势赢不了……$"
 
 Route111_Text_BeauPostBattle:
-	.string "I'm going to be a real hero one day.\n"
-	.string "I'm going to work harder to make me\l"
-	.string "and my POKéMON stronger.$"
+	.string "总有一天我要成为英雄。\n"
+	.string "我要更努力，让我和宝可梦\l"
+	.string "都变强。$"
 
 Route111_Text_BeckyIntro:
-	.string "I heard there are fossils to be found\n"
-	.string "in the desert. Where could they be?$"
+	.string "听说沙漠里能找到化石。\n"
+	.string "会在哪里呢？$"
 
 Route111_Text_BeckyDefeat:
-	.string "I came up short…$"
+	.string "我差了一点……$"
 
 Route111_Text_BeckyPostBattle:
-	.string "If they can find fossils in the desert,\n"
-	.string "it must have been a sea before.$"
+	.string "如果沙漠里能找到化石，\n"
+	.string "那这里以前一定是海。$"
 
 Route111_Text_DustyIntro:
-	.string "For thirty years I have searched for\n"
-	.string "ancient ruins!\l"
-	.string "I am to be challenged?$"
+	.string "三十年来我一直在\n"
+	.string "寻找古代遗迹！\l"
+	.string "你要挑战我？$"
 
 Route111_Text_DustyDefeat:
-	.string "While I have searched for ruins,\n"
-	.string "I've not searched for strong POKéMON.$"
+	.string "我一直在寻找遗迹，\n"
+	.string "却没寻找强大的宝可梦。$"
 
 Route111_Text_DustyPostBattle:
-	.string "For thirty years I have searched for\n"
-	.string "ancient ruins!\p"
-	.string "No, wait, was that forty years?\n"
-	.string "Which was it now?$"
+	.string "三十年来我一直在\n"
+	.string "寻找古代遗迹！\p"
+	.string "不对，等等，是四十年吗？\n"
+	.string "到底是哪个来着？$"
 
 Route111_Text_DustyRegister:
-	.string "I haven't been searching for any\n"
-	.string "tough POKéMON.\p"
-	.string "But, for some reason, I sure do like\n"
-	.string "POKéNAVS.$"
+	.string "我从没找过\n"
+	.string "什么强大的宝可梦。\p"
+	.string "可是不知为何，我真的\n"
+	.string "很喜欢导航。$"
 
 Route111_Text_DustyRematchIntro:
-	.string "For thirty years I have searched for\n"
-	.string "ancient ruins!\p"
-	.string "No, wait, was that forty years?\n"
-	.string "Anyway, am I to be challenged?$"
+	.string "三十年来我一直在\n"
+	.string "寻找古代遗迹！\p"
+	.string "不对，是四十年吗？\n"
+	.string "总之，你要挑战我？$"
 
 Route111_Text_DustyRematchDefeat:
-	.string "I've found no ruins, nor have I found\n"
-	.string "any strong POKéMON…$"
+	.string "我没找到遗迹，也没找到\n"
+	.string "强大的宝可梦……$"
 
 Route111_Text_DustyPostRematch:
-	.string "For thirty years I have searched for\n"
-	.string "ancient ruins!\p"
-	.string "No, wait, was that forty years\n"
-	.string "I've searched?\p"
-	.string "Hmm… It could even be fifty…\n"
-	.string "How long have I been at this?$"
+	.string "三十年来我一直在\n"
+	.string "寻找古代遗迹！\p"
+	.string "不对，是四十年吗？\p"
+	.string "嗯……也许都五十年了……\n"
+	.string "我到底找了多久？$"
 
 Route111_Text_TravisIntro:
-	.string "I'm full of pep!\n"
-	.string "And my POKéMON is peppy, too!$"
+	.string "我精力充沛！\n"
+	.string "我的宝可梦也很有活力！$"
 
 Route111_Text_TravisDefeat:
-	.string "My POKéMON lost its pep…$"
+	.string "我的宝可梦没精神了……$"
 
 Route111_Text_TravisPostBattle:
-	.string "When I see a TRAINER with a lot of pep,\n"
-	.string "I can't help looking.$"
+	.string "看到充满活力的训练家，\n"
+	.string "我就忍不住想多看两眼。$"
 
 Route111_Text_IreneIntro:
-	.string "I don't know where you're going,\n"
-	.string "but would you like to battle?$"
+	.string "我不知道你要去哪，\n"
+	.string "不过要不要打一场？$"
 
 Route111_Text_IreneDefeat:
-	.string "Oh, you're disgustingly good!$"
+	.string "哦，你强得让人讨厌！$"
 
 Route111_Text_IrenePostBattle:
-	.string "I'm thinking that I should go to\n"
-	.string "MT. CHIMNEY, but the view around\l"
-	.string "here is very nice, too.$"
+	.string "我在想要不要去烟突山，\n"
+	.string "不过这里的景色也不错。$"
 
 Route111_Text_DaisukeIntro:
-	.string "To train myself, I challenge all\n"
-	.string "whom I meet!$"
+	.string "为了锻炼自己，我见到\n"
+	.string "谁就挑战谁！$"
 
 Route111_Text_DaisukeDefeat:
-	.string "Uncle! I give up!$"
+	.string "我认输了！$"
 
 Route111_Text_DaisukePostBattle:
-	.string "All I can do is keep training until\n"
-	.string "I can defeat strong TRAINERS such\l"
-	.string "as yourself.$"
+	.string "我只能不断训练，直到\n"
+	.string "能打败你这样的强手。$"
 
 Route111_Text_WiltonIntro:
-	.string "Show me how much you've toughened\n"
-	.string "your POKéMON.$"
+	.string "让我看看你把宝可梦\n"
+	.string "锻炼得多强了。$"
 
 Route111_Text_WiltonDefeat:
-	.string "I see, you've toughened them\n"
-	.string "considerably.$"
+	.string "我明白了，你确实把它们\n"
+	.string "锻炼得相当强。$"
 
 Route111_Text_WiltonPostBattle:
-	.string "POKéMON and TRAINERS learn much\n"
-	.string "through battling.\p"
-	.string "What's important is to never give up\n"
-	.string "even if you lose.$"
+	.string "宝可梦和训练家都能从\n"
+	.string "对战中学习很多。\p"
+	.string "重要的是就算输了\n"
+	.string "也绝不放弃。$"
 
 Route111_Text_WiltonRegister:
-	.string "There is much to be learned from\n"
-	.string "your training style.\p"
-	.string "I request a rematch if it\n"
-	.string "behooves you.$"
+	.string "你的训练方式里\n"
+	.string "有很多值得学习的地方。\p"
+	.string "如果方便的话，\n"
+	.string "我想再和你打一场。$"
 
 Route111_Text_WiltonRematchIntro:
-	.string "We're training here to elevate our\n"
-	.string "game to the next level.\l"
-	.string "Stay and train with us!$"
+	.string "我们在这里训练，\n"
+	.string "是为了更上一层楼。\l"
+	.string "留下来和我们一起练吧！$"
 
 Route111_Text_WiltonRematchDefeat:
-	.string "Ooh, you're decent!$"
+	.string "哦，你挺不错！$"
 
 Route111_Text_WiltonPostRematch:
-	.string "Since you're that strong, you should\n"
-	.string "aim for the POKéMON LEAGUE.$"
+	.string "既然你这么强，就该\n"
+	.string "以宝可梦联盟为目标。$"
 
 Route111_Text_BrookeIntro:
-	.string "Oh, your POKéMON look like serious\n"
-	.string "actors.\l"
-	.string "I have to ask you for an engagement.$"
+	.string "哦，你的宝可梦看起来\n"
+	.string "像认真的演员。\l"
+	.string "我必须要请你一场对战。$"
 
 Route111_Text_BrookeDefeat:
-	.string "They didn't just look strong,\n"
-	.string "they are strong!$"
+	.string "它们不只是看起来强，\n"
+	.string "是真的强！$"
 
 Route111_Text_BrookePostBattle:
-	.string "I thought I was raising my POKéMON\n"
-	.string "diligently, but, oh no, there is still\l"
-	.string "much to be done.$"
+	.string "我以为自己很用心在培养\n"
+	.string "宝可梦，可还是差得远。$"
 
 Route111_Text_BrookeRegister:
-	.string "I wish I could become friends with\n"
-	.string "more strong people like you!$"
+	.string "真希望能和更多像你\n"
+	.string "这样强的人做朋友！$"
 
 Route111_Text_BrookeRematchIntro:
-	.string "You can make POKéMON stronger or\n"
-	.string "weaker depending on the moves you\l"
-	.string "teach them.\p"
-	.string "What kinds of moves do your POKéMON\n"
-	.string "know?$"
+	.string "教什么招式，会让宝可梦\n"
+	.string "变强或变弱。\p"
+	.string "你的宝可梦都会些什么招式？$"
 
 Route111_Text_BrookeRematchDefeat:
-	.string "You've taught them good moves!$"
+	.string "你教了它们好招式！$"
 
 Route111_Text_BrookePostRematch:
-	.string "Maybe I should have stopped my\n"
-	.string "POKéMON from evolving until they\l"
-	.string "learned better moves…$"
+	.string "也许我该让宝可梦\n"
+	.string "晚点进化，\l"
+	.string "先学会更好的招式……$"
 
 Route111_Text_CeliaIntro:
-	.string "I shouldn't have come to a place like\n"
-	.string "this for a picnic!$"
+	.string "我不该来这种地方\n"
+	.string "野餐的！$"
 
 Route111_Text_CeliaDefeat:
-	.string "Aww!\n"
-	.string "I really shouldn't have come!$"
+	.string "呜！\n"
+	.string "我真不该来！$"
 
 Route111_Text_CeliaPostBattle:
-	.string "In a sandstorm like this, I can't set\n"
-	.string "the places for a picnic even with my\l"
-	.string "GO-GOGGLES on…$"
+	.string "这样的沙暴里，就算戴着\n"
+	.string "防沙镜也铺不好野餐垫……$"
 
 Route111_Text_BryanIntro:
-	.string "How tough are you?\n"
-	.string "We shall expose that secret!$"
+	.string "你有多强？\n"
+	.string "我们要揭开这个秘密！$"
 
 Route111_Text_BryanDefeat:
-	.string "Oh! Your strength!\n"
-	.string "It is shrouded in mystery!$"
+	.string "哦！你的实力！\n"
+	.string "笼罩在谜团之中！$"
 
 Route111_Text_BryanPostBattle:
-	.string "This desert hoards mysteries in\n"
-	.string "its shifting sands!$"
+	.string "这片沙漠把谜团藏在\n"
+	.string "流动的沙子里！$"
 
 Route111_Text_BrandenIntro:
-	.string "I'll give you some of my sandwich\n"
-	.string "if you'll lose.$"
+	.string "你要是输给我，\n"
+	.string "我就分你半个三明治。$"
 
 Route111_Text_BrandenDefeat:
-	.string "Tch! I thought a sandwich would be\n"
-	.string "enough of a bribe…$"
+	.string "啧！我还以为三明治\n"
+	.string "够贿赂你了……$"
 
 Route111_Text_BrandenPostBattle:
-	.string "My SANDSHREW loves eating\n"
-	.string "my sandwiches.$"
+	.string "我的穿山鼠最爱吃\n"
+	.string "我做的三明治。$"
 
 Route111_Text_TyronIntro:
-	.string "This is my favorite kind of POKéMON!$"
+	.string "这是我最喜欢的\n"
+	.string "那类宝可梦！$"
 
 Route111_Text_TyronDefeat:
-	.string "Wait!\n"
-	.string "Did you get a good look at my POKéMON?$"
+	.string "等等！\n"
+	.string "你仔细看我的宝可梦了吗？$"
 
 Route111_Text_TyronPostBattle:
-	.string "When having a battle, I get a kick out\n"
-	.string "of showing off my POKéMON.\p"
-	.string "I bet everyone feels that way when\n"
-	.string "they enter a battle!$"
+	.string "对战时，我最喜欢\n"
+	.string "展示我的宝可梦。\p"
+	.string "我敢说大家都这么想！$"
 
 Route111_Text_CelinaIntro:
-	.string "Show me how to put a little excitement\n"
-	.string "into my life.$"
+	.string "教我怎样给生活\n"
+	.string "加点刺激吧。$"
 
 Route111_Text_CelinaDefeat:
-	.string "Oh… My…\n"
-	.string "That was too much excitement.$"
+	.string "哎……呀……\n"
+	.string "刺激过头了。$"
 
 Route111_Text_CelinaPostBattle:
-	.string "My pulse is still racing.\n"
-	.string "You're one fabulous TRAINER.$"
+	.string "我的心跳还在加速。\n"
+	.string "你真是位了不起的训练家。$"
 
 Route111_Text_HaydenIntro:
-	.string "When you're as famished as I am,\n"
-	.string "there is no room for pity!$"
+	.string "像饿成我这样的人，\n"
+	.string "可没空手下留情！$"
 
 Route111_Text_HaydenDefeat:
-	.string "Groan…$"
+	.string "唔……$"
 
 Route111_Text_HaydenPostBattle:
-	.string "My stomach is grumbling!\n"
-	.string "Maybe I can grill some BERRIES…$"
+	.string "我的肚子在叫！\n"
+	.string "也许我可以烤些树果……$"
 
 Route111_Text_BiancaIntro:
-	.string "Did you come from MAUVILLE?\n"
-	.string "Then you should be full of energy!$"
+	.string "你是从紫堇市来的？\n"
+	.string "那你应该元气满满！$"
 
 Route111_Text_BiancaDefeat:
-	.string "Ooh lala!\n"
-	.string "That's a lot to take!$"
+	.string "哦啦啦！\n"
+	.string "这招我可招架不住！$"
 
 Route111_Text_BiancaPostBattle:
-	.string "This road here…\n"
-	.string "You have quite a ways to travel.$"
+	.string "这条路……\n"
+	.string "你要走的路还很长。$"
 
 Route112_Text_BriceIntro:
-	.string "Hahahaha!\n"
-	.string "How about we have a battle?\l"
-	.string "You and me!\l"
-	.string "Hahahaha!$"
+	.string "哈哈哈哈哈！\n"
+	.string "来打一场吧？\l"
+	.string "你和我！\l"
+	.string "哈哈哈哈哈！$"
 
 Route112_Text_BriceDefeat:
-	.string "I lost!\n"
-	.string "Hahahaha!$"
+	.string "我输了！\n"
+	.string "哈哈哈哈哈！$"
 
 Route112_Text_BricePostBattle:
-	.string "Hahahahaha! Something flew up my nose!\n"
-	.string "Hahahaha-hatchoo!$"
+	.string "哈哈！有东西飞进鼻子了！\n"
+	.string "哈——嚏！$"
 
 Route112_Text_TrentIntro:
-	.string "My legs are solid from pounding up\n"
-	.string "and down the mountains.\p"
-	.string "They're not going to buckle easily,\n"
-	.string "friend!$"
+	.string "我在山里上上下下，\n"
+	.string "腿脚结实得很。\p"
+	.string "可不会轻易发软，\n"
+	.string "朋友！$"
 
 Route112_Text_TrentDefeat:
-	.string "Ouch! My legs cramped up!$"
+	.string "哎哟！我的腿抽筋了！$"
 
 Route112_Text_TrentPostBattle:
-	.string "Try hiking, and I mean really\n"
-	.string "pounding, on these mountain trails\l"
-	.string "with a heavy pack weighing dozens of\l"
-	.string "pounds.\p"
-	.string "That, my friend, will get your body\n"
-	.string "into serious shape.$"
+	.string "试试背着重重的背包\n"
+	.string "在山路上来回走。\p"
+	.string "朋友，那会让你的身体\n"
+	.string "变得非常结实。$"
 
 Route112_Text_TrentRegister:
-	.string "Ow, my legs have cramped up.\n"
-	.string "Can you grab me some bandages from\l"
-	.string "my backpack?\p"
-	.string "No, that's my POKéNAV!\n"
-	.string "Oh, fine, I'll register you.$"
+	.string "哎哟，我的腿抽筋了。\n"
+	.string "能帮我从背包里拿点绷带吗？\p"
+	.string "不，那是我的导航！\n"
+	.string "好吧，我登记你。$"
 
 Route112_Text_TrentRematchIntro:
-	.string "I've been keeping fit by hiking.\n"
-	.string "Power, I have in spades!$"
+	.string "我一直靠登山保持状态。\n"
+	.string "力量我多得是！$"
 
 Route112_Text_TrentRematchDefeat:
-	.string "I got trumped in power?$"
+	.string "我的力量被压倒了？$"
 
 Route112_Text_TrentRematchPostBattle:
-	.string "I hear there are some seriously tough\n"
-	.string "TRAINERS on top of MT. CHIMNEY.\p"
-	.string "I intend to get up there and give them\n"
-	.string "a challenge!$"
+	.string "听说烟突山顶上有\n"
+	.string "很强的训练家。\p"
+	.string "我打算上去挑战他们！$"
 
 Route112_Text_LarryIntro:
-	.string "I'm strong.\n"
-	.string "I won't cry if I lose.$"
+	.string "我很强。\n"
+	.string "输了也不哭。$"
 
 Route112_Text_LarryDefeat:
-	.string "Waaaah!$"
+	.string "哇——！$"
 
 Route112_Text_LarryPostBattle:
-	.string "I'm not crying because I miss my mommy!\n"
-	.string "Snivel…$"
+	.string "我不是因为想妈妈才哭的！\n"
+	.string "抽泣……$"
 
 Route112_Text_CarolIntro:
-	.string "When you're out on a picnic, why,\n"
-	.string "you simply have to sing!\l"
-	.string "Come on, sing with me!$"
+	.string "野餐的时候，\n"
+	.string "当然要唱歌！\l"
+	.string "来，和我一起唱！$"
 
 Route112_Text_CarolDefeat:
-	.string "Oh, you're so strong!$"
+	.string "哦，你好强！$"
 
 Route112_Text_CarolPostBattle:
-	.string "It doesn't matter if you're good or bad\n"
-	.string "at singing or POKéMON.\p"
-	.string "If you have the most fun, you win!$"
+	.string "唱歌也好，宝可梦也好，\n"
+	.string "好坏都不重要。\p"
+	.string "玩得最开心的人才是赢家！$"
 
 Route112_Text_BryantIntro:
-	.string "I caught hot POKéMON in FIERY PATH!\n"
-	.string "Take a look!$"
+	.string "我在热焰小径抓到了火热的\n"
+	.string "宝可梦！来看看！$"
 
 Route112_Text_BryantDefeat:
-	.string "What a bumpy ride that was!$"
+	.string "真是一场颠簸的旅程！$"
 
 Route112_Text_BryantPostBattle:
-	.string "I like the way you battle.\n"
-	.string "It has a certain flair to it.$"
+	.string "我喜欢你的对战方式。\n"
+	.string "有种独特的风范。$"
 
 Route112_Text_ShaylaIntro:
-	.string "Oh, aren't you an adorable TRAINER!\n"
-	.string "Please, I need a romantic battle!\l"
-	.string "I'm somewhat decent!$"
+	.string "哦，你真是位可爱的训练家！\n"
+	.string "来场浪漫的对战吧！\l"
+	.string "我还挺厉害的！$"
 
 Route112_Text_ShaylaDefeat:
-	.string "Oh, how strong you are!\n"
-	.string "You've given me quite a shock!$"
+	.string "哦，你好强！\n"
+	.string "真让我吃惊！$"
 
 Route112_Text_ShaylaPostBattle:
-	.string "Are you busy right now?\n"
-	.string "I was thinking that maybe we can have\l"
-	.string "a rematch right now…\l"
-	.string "But it's all right if you're busy.$"
+	.string "你现在忙吗？\n"
+	.string "我在想也许可以马上再打……\l"
+	.string "不过你要是忙就算了。$"
 
 Route113_Text_JaylenIntro:
-	.string "Can you guess why it's so cool\n"
-	.string "around here?$"
+	.string "你猜猜为什么这附近\n"
+	.string "这么凉快？$"
 
 Route113_Text_JaylenDefeat:
-	.string "Peeuuw!\n"
-	.string "That stinks!$"
+	.string "呃！\n"
+	.string "好臭！$"
 
 Route113_Text_JaylenPostBattle:
-	.string "The volcanic ash blocks the sun,\n"
-	.string "so it doesn't get very warm.\p"
-	.string "That's good for me--I can't stand heat!$"
+	.string "火山灰挡住了阳光，\n"
+	.string "所以这里不怎么热。\p"
+	.string "这对我来说正好——\n"
+	.string "我最怕热了！$"
 
 Route113_Text_DillonIntro:
-	.string "The volcano's eruption is proof that\n"
-	.string "the earth is alive.$"
+	.string "火山喷发证明\n"
+	.string "大地还活着。$"
 
 Route113_Text_DillonDefeat:
-	.string "You're some kind of strong!$"
+	.string "你真不是一般地强！$"
 
 Route113_Text_DillonPostBattle:
-	.string "Ouch! Owww! I can't see!\n"
-	.string "I got ashes in my eyelashes!\p"
-	.string "Get it? Ashes and eyelashes?\p"
-	.string "Okay, that was bad, sorry…$"
+	.string "哎哟！我看不见了！\n"
+	.string "火山灰进了我的睫毛！\p"
+	.string "懂了吗？火山灰和睫毛？\p"
+	.string "好吧，这笑话很烂，抱歉……$"
 
 Route113_Text_MadelineIntro:
-	.string "I use this parasol to ward off this\n"
-	.string "filthy, yucky volcanic ash from\l"
-	.string "my dear NUMEL.$"
+	.string "我用这把阳伞替我\n"
+	.string "亲爱的赫拉克罗斯\l"
+	.string "挡住脏兮兮的火山灰。$"
 
 Route113_Text_MadelineDefeat:
-	.string "Huff, huff…\n"
-	.string "I am exhausted…$"
+	.string "呼、呼……\n"
+	.string "我累坏了……$"
 
 Route113_Text_MadelinePostBattle:
-	.string "You're very good at this.\n"
-	.string "I must say I'm impressed!$"
+	.string "你真的很厉害。\n"
+	.string "我不得不说佩服！$"
 
 Route113_Text_MadelineRegister:
-	.string "Here, slide under my parasol.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "来，躲到我的阳伞下。\n"
+	.string "让我把你登记进导航。$"
 
 Route113_Text_MadelineRematchIntro:
-	.string "Oh, hello, hasn't it been a while?\n"
-	.string "May I invite you to battle?$"
+	.string "哦，你好，好久不见。\n"
+	.string "能邀请你打一场吗？$"
 
 Route113_Text_MadelineRematchDefeat:
-	.string "Oh, how super!$"
+	.string "哦，真了不起！$"
 
 Route113_Text_MadelinePostRematch:
-	.string "You've remained very good at this.\n"
-	.string "I must say I'm impressed!$"
+	.string "你依然那么厉害。\n"
+	.string "我不得不说佩服！$"
 
 Route113_Text_LaoIntro:
-	.string "From out of the ashes I leap! Hiyah!\n"
-	.string "I challenge thee!$"
+	.string "我从灰烬中跃出！嘿呀！\n"
+	.string "我来挑战你！$"
 
 Route113_Text_LaoDefeat:
-	.string "With honor I admit defeat!$"
+	.string "我光荣地认输！$"
 
 Route113_Text_LaoPostBattle:
-	.string "I must refine the art of concealment.\n"
-	.string "I bid thee farewell.$"
+	.string "我还得磨炼隐遁之术。\n"
+	.string "就此别过。$"
 
 Route113_Text_LaoRegister:
-	.string "Yiiyaah! Witness the ancient ninja\n"
-	.string "technique of POKéNAV registration!$"
+	.string "呀啊！见识古代忍者的\n"
+	.string "导航登记之术吧！$"
 
 Route113_Text_LaoRematchIntro:
-	.string "From out of the ashes I leap! Hiyah!\n"
-	.string "I challenge thee!$"
+	.string "我从灰烬中跃出！嘿呀！\n"
+	.string "我来挑战你！$"
 
 Route113_Text_LaoRematchDefeat:
-	.string "With honor I admit defeat!$"
+	.string "我光荣地认输！$"
 
 Route113_Text_LaoPostRematch:
-	.string "My flawless concealment was let down\n"
-	.string "by my immature battle skills…\p"
-	.string "I bid thee farewell.$"
+	.string "我无懈可击的隐遁之术\n"
+	.string "败给了不成熟的对战技巧……\p"
+	.string "就此别过。$"
 
 Route113_Text_LungIntro:
-	.string "Thanks for finding me!\n"
-	.string "But we still have to battle!$"
+	.string "谢谢你找到我！\n"
+	.string "不过我们还是得对战！$"
 
 Route113_Text_LungDefeat:
-	.string "I'll use my ninjutsu on you…\n"
-	.string "“VOLCANIC ASH SWIRL CLOAK”!\p"
-	.string "…What?\n"
-	.string "It's already over?$"
+	.string "我要用忍术对付你……\n"
+	.string "“火山灰旋涡之衣”！\p"
+	.string "……什么？\n"
+	.string "已经结束了？$"
 
 Route113_Text_LungPostBattle:
-	.string "You know what's crummy about hiding?\n"
-	.string "It's lonely if no one comes along.$"
+	.string "躲藏最难受的是什么？\n"
+	.string "没人来会很孤单。$"
 
 Route113_Text_ToriIntro:
-	.string "TORI: Both of us, we collect ashes.\n"
-	.string "We battle POKéMON, too.$"
+	.string "托莉：我们两个都在收集灰。\n"
+	.string "也会用宝可梦对战。$"
 
 Route113_Text_ToriDefeat:
-	.string "TORI: We lost… It's boring, so I'm going\n"
-	.string "to get some more ashes.$"
+	.string "托莉：我们输了……好无聊，\n"
+	.string "我再去收集点灰。$"
 
 Route113_Text_ToriPostBattle:
-	.string "TORI: How much ash do we have?\n"
-	.string "Enough for a WHITE FLUTE, I hope.$"
+	.string "托莉：我们有多少灰了？\n"
+	.string "希望能做个白笛子。$"
 
 Route113_Text_ToriNotEnoughMons:
-	.string "TORI: We want to battle 2-on-2.\n"
-	.string "If we didn't, we would lose!$"
+	.string "托莉：我们想二对二打。\n"
+	.string "不然我们会输！$"
 
 Route113_Text_TiaIntro:
-	.string "TIA: Both of us, we collect ashes.\n"
-	.string "We battle POKéMON, too.$"
+	.string "TIA：我们两个都在收集灰。\n"
+	.string "也会用宝可梦对战。$"
 
 Route113_Text_TiaDefeat:
-	.string "TIA: We couldn't win… It's boring,\n"
-	.string "so I'm getting some more ashes.$"
+	.string "TIA：我们赢不了……好无聊，\n"
+	.string "我再去收集点灰。$"
 
 Route113_Text_TiaPostBattle:
-	.string "TIA: We have a lot of ashes!\n"
-	.string "I think enough for a WHITE FLUTE!$"
+	.string "TIA：我们的灰好多！\n"
+	.string "我觉得够做白笛子了！$"
 
 Route113_Text_TiaNotEnoughMons:
-	.string "TIA: We want to battle 2-on-2.\n"
-	.string "If we don't, we won't win!$"
+	.string "TIA：我们想二对二打。\n"
+	.string "不然我们赢不了！$"
 
 Route113_Text_CobyIntro:
-	.string "Pfft, with these wings I can\n"
-	.string "flick you away!$"
+	.string "哼，有这双翅膀，\n"
+	.string "我一扇就能把你扇飞！$"
 
 Route113_Text_CobyDefeat:
-	.string "A… What?$"
+	.string "啊……什么？$"
 
 Route113_Text_CobyPostBattle:
-	.string "I don't know what to say when I get\n"
-	.string "beaten so easily…$"
+	.string "这么容易就被打倒，\n"
+	.string "我都不知道该说什么了……$"
 
 Route113_Text_SophieIntro:
-	.string "The warmth here is making me drowsy.\n"
-	.string "Battle with me so I can stay awake.$"
+	.string "这里的温暖让我昏昏欲睡。\n"
+	.string "和我对战吧，好让我醒着。$"
 
 Route113_Text_SophieDefeat:
-	.string "This is a dream.\n"
-	.string "I'm sure of it…$"
+	.string "这是梦。\n"
+	.string "我确信……$"
 
 Route113_Text_SophiePostBattle:
-	.string "Losing burns me up…\n"
-	.string "I'm just going to sleep right here!\l"
-	.string "Zzz!$"
+	.string "输掉让我火大……\n"
+	.string "我就这样睡在这里了！\l"
+	.string "呼……$"
 
 Route113_Text_LawrenceIntro:
-	.string "Were you maybe in the middle\n"
-	.string "of gathering volcanic ashes?$"
+	.string "你该不会也在\n"
+	.string "收集火山灰吧？$"
 
 Route113_Text_LawrenceDefeat:
-	.string "Ehehe.\n"
-	.string "We got beaten cleanly.$"
+	.string "嘿嘿。\n"
+	.string "我们输得干干净净。$"
 
 Route113_Text_LawrencePostBattle:
-	.string "I ought to hide under the ashes, too.$"
+	.string "看来我也该躲到灰下去了。$"
 
 Route113_Text_WyattIntro:
-	.string "Y-you want to battle with me?\n"
-	.string "Even though I just caught my POKéMON?$"
+	.string "你、你要和我对战？\n"
+	.string "我才刚抓到宝可梦啊？$"
 
 Route113_Text_WyattDefeat:
-	.string "Y-you're all happy to win?\n"
-	.string "Even though it's only me?$"
+	.string "你、你就这么高兴赢？\n"
+	.string "对手只是我而已啊？$"
 
 Route113_Text_WyattPostBattle:
-	.string "Oh, so now you want to say a word to\n"
-	.string "the loser?\p"
-	.string "Aren't you just the coolest?\n"
-	.string "Humph!$"
+	.string "哦，你现在想对输的人\n"
+	.string "说两句了？\p"
+	.string "你可真酷啊。哼！$"
 
 Route114_Text_LennyIntro:
-	.string "Yodelayhihoo!\p"
-	.string "… …\p"
-	.string "You're supposed to shout\n"
-	.string "“yodelayhihoo” since it doesn't\l"
-	.string "echo here!$"
+	.string "约德尔嗨呼！\p"
+	.string "……\p"
+	.string "这里没有回声，所以\n"
+	.string "你得自己喊“约德尔嗨呼”！$"
 
 Route114_Text_LennyDefeat:
-	.string "Yodelayhihoo!$"
+	.string "约德尔嗨呼！$"
 
 Route114_Text_LennyPostBattle:
-	.string "When I was a wee tyke, I believed there\n"
-	.string "was someone copying me and shouting\l"
-	.string "back, “Yodelayhihoo.”$"
+	.string "我小时候以为有人\n"
+	.string "在学我喊“约德尔嗨呼”。$"
 
 Route114_Text_LucasIntro:
-	.string "If you're not prepared, you shouldn't\n"
-	.string "be up in the mountains!$"
+	.string "没做好准备的话，\n"
+	.string "可别上山！$"
 
 Route114_Text_LucasDefeat:
-	.string "The mountains are unforgiving…$"
+	.string "大山是无情的……$"
 
 Route114_Text_LucasPostBattle:
-	.string "In the winter, mountains turn deadly\n"
-	.string "with blizzards and avalanches.$"
+	.string "到了冬天，暴风雪和雪崩\n"
+	.string "会让大山变得致命。$"
 
 Route114_Text_ShaneIntro:
-	.string "Camping's fun! You can fish, roast\n"
-	.string "marshmallows, and tell spooky stories!\p"
-	.string "But the best of all are the POKéMON\n"
-	.string "battles!$"
+	.string "露营真有趣！可以钓鱼、\n"
+	.string "烤棉花糖、讲鬼故事！\p"
+	.string "但最棒的还是宝可梦对战！$"
 
 Route114_Text_ShaneDefeat:
-	.string "Way too strong!$"
+	.string "太强了！$"
 
 Route114_Text_ShanePostBattle:
-	.string "I think it's great that I can go\n"
-	.string "camping with my POKéMON.$"
+	.string "能和宝可梦一起露营，\n"
+	.string "我觉得太棒了。$"
 
 Route114_Text_NancyIntro:
-	.string "I need to exercise after a meal.\n"
-	.string "Let's have a match!$"
+	.string "饭后要运动一下。\n"
+	.string "来打一场吧！$"
 
 Route114_Text_NancyDefeat:
-	.string "Oh, no!$"
+	.string "哦，不！$"
 
 Route114_Text_NancyPostBattle:
-	.string "I just had a tasty meal.\n"
-	.string "I'm getting drowsy…$"
+	.string "我刚吃了一顿美味的饭。\n"
+	.string "有点想睡了……$"
 
 Route114_Text_SteveIntro:
-	.string "Ufufufufufu…\n"
-	.string "Want to battle against my POKéMON?$"
+	.string "呵呵呵呵……\n"
+	.string "想和我的宝可梦对战吗？$"
 
 Route114_Text_SteveDefeat:
-	.string "M-My POKéMON…$"
+	.string "我、我的宝可梦……$"
 
 Route114_Text_StevePostBattle:
-	.string "A big body that's all lumpy and hard,\n"
-	.string "enormous horns, and vicious fangs…\p"
-	.string "Ufufufufu…\n"
-	.string "I wish I had a POKéMON like that…$"
+	.string "凹凸不平又坚硬的巨大身体、\n"
+	.string "巨大的角和凶狠的獠牙……\p"
+	.string "呵呵呵呵……\n"
+	.string "真想要一只那样的宝可梦……$"
 
 Route114_Text_SteveRegister:
-	.string "Don't forget what you've done to me!\n"
-	.string "I'll make it so you can't forget!$"
+	.string "别忘了你对我做了什么！\n"
+	.string "我要让你忘不掉！$"
 
 Route114_Text_SteveRematchIntro:
-	.string "Ufufufufufu…\n"
-	.string "Come on, battle my POKéMON…$"
+	.string "呵呵呵呵……\n"
+	.string "来吧，和我的宝可梦对战……$"
 
 Route114_Text_SteveRematchDefeat:
-	.string "I feel so lucky getting to see your\n"
-	.string "POKéMON…$"
+	.string "能看到你的宝可梦，\n"
+	.string "我真是太幸运了……$"
 
 Route114_Text_StevePostRematch:
-	.string "Ufufufufufu…\p"
-	.string "When I see POKéMON battling, I get all\n"
-	.string "shivery and shaky…$"
+	.string "呵呵呵呵……\p"
+	.string "看到宝可梦对战，\n"
+	.string "我就浑身发抖停不下来……$"
 
 Route114_Text_BernieIntro:
-	.string "If you're lighting a campfire,\n"
-	.string "make sure you have water handy.$"
+	.string "点篝火时，一定要\n"
+	.string "准备好水。$"
 
 Route114_Text_BernieDefeat:
-	.string "Thanks for dousing my fire!$"
+	.string "谢谢你浇灭我的火！$"
 
 Route114_Text_BerniePostBattle:
-	.string "You really do have to be careful with\n"
-	.string "any sort of fire in a forest.\p"
-	.string "Don't ever underestimate the power\n"
-	.string "of fire.$"
+	.string "在森林里用任何火，\n"
+	.string "都真的要小心。\p"
+	.string "千万别小看火的力量。$"
 
 Route114_Text_BernieRegister:
-	.string "You set my spirit on fire.\n"
-	.string "Let's register each other!$"
+	.string "你点燃了我的斗志。\n"
+	.string "让我们互相登记吧！$"
 
 Route114_Text_BernieRematchIntro:
-	.string "Have you learned to keep water handy\n"
-	.string "for campfires?$"
+	.string "你学会点篝火时要\n"
+	.string "准备水了吗？$"
 
 Route114_Text_BernieRematchDefeat:
-	.string "I got hosed down before I could\n"
-	.string "flare up, I guess.$"
+	.string "看来我还没燃起来，\n"
+	.string "就被浇灭了。$"
 
 Route114_Text_BerniePostRematch:
-	.string "You really do have to be careful with\n"
-	.string "any sort of fire in a forest.\p"
-	.string "Don't ever underestimate the power\n"
-	.string "of fire.$"
+	.string "在森林里用任何火，\n"
+	.string "都真的要小心。\p"
+	.string "千万别小看火的力量。$"
 
 Route114_Text_ClaudeIntro:
-	.string "If we were fishing, you wouldn't stand\n"
-	.string "a chance against me.\l"
-	.string "So, bring on your POKéMON!$"
+	.string "要是比钓鱼，你根本不是\n"
+	.string "我的对手。\l"
+	.string "那就用宝可梦来吧！$"
 
 Route114_Text_ClaudeDefeat:
-	.string "If we were fishing, I would've won…$"
+	.string "要是钓鱼，我就赢了……$"
 
 Route114_Text_ClaudePostBattle:
-	.string "I think I'll try my luck at landing\n"
-	.string "a big one at METEOR FALLS.\p"
-	.string "There has to be something in there.\n"
-	.string "I just know it.$"
+	.string "我打算去流星瀑布碰碰运气，\n"
+	.string "钓个大家伙。\p"
+	.string "那里一定有东西。\n"
+	.string "我有预感。$"
 
 Route114_Text_NolanIntro:
-	.string "I like to fish. But I also like to\n"
-	.string "battle!\p"
-	.string "If anyone challenges me, I'm there,\n"
-	.string "even if I'm fishing.$"
+	.string "我喜欢钓鱼。但也喜欢对战！\p"
+	.string "只要有人挑战我，\n"
+	.string "就算在钓鱼我也会应战。$"
 
 Route114_Text_NolanDefeat:
-	.string "I like to battle, but that doesn't\n"
-	.string "mean I'm good at it…$"
+	.string "我喜欢对战，但这不代表\n"
+	.string "我很擅长……$"
 
 Route114_Text_NolanPostBattle:
-	.string "This time I'll do it!\p"
-	.string "I always think that, so I can't walk\n"
-	.string "away from fishing or POKéMON.$"
+	.string "这次一定行！\p"
+	.string "我总是这么想，所以既放不下\n"
+	.string "钓鱼，也放不下宝可梦。$"
 
 Route114_Text_TyraIntro:
-	.string "TYRA: Well, sure.\n"
-	.string "I'm in the mood for it.\l"
-	.string "I'll teach you a little about POKéMON.$"
+	.string "泰拉：好啊。\n"
+	.string "我正好有心情。\l"
+	.string "我来教教你宝可梦的事。$"
 
 Route114_Text_TyraDefeat:
-	.string "TYRA: What an amazing battle style!$"
+	.string "泰拉：多么惊人的对战风格！$"
 
 Route114_Text_TyraPostBattle:
-	.string "TYRA: I was teaching my junior IVY\n"
-	.string "about POKéMON.$"
+	.string "泰拉：我在教我的学妹\n"
+	.string "艾薇关于宝可梦的事。$"
 
 Route114_Text_TyraNotEnoughMons:
-	.string "TYRA: Giggle…\n"
-	.string "If you want to battle with us, just one\l"
-	.string "POKéMON isn't enough!$"
+	.string "泰拉：呵呵……\n"
+	.string "想和我们打的话，\l"
+	.string "只带一只宝可梦可不够！$"
 
 Route114_Text_IvyIntro:
-	.string "IVY: Who taught you about POKéMON?$"
+	.string "艾薇：是谁教你宝可梦的？$"
 
 Route114_Text_IvyDefeat:
-	.string "IVY: What an amazing battle style!$"
+	.string "艾薇：多么惊人的对战风格！$"
 
 Route114_Text_IvyPostBattle:
-	.string "IVY: I started training POKéMON\n"
-	.string "because TYRA, my student mentor,\l"
-	.string "taught me!$"
+	.string "艾薇：我开始训练宝可梦，\n"
+	.string "是因为泰拉学姐教了我！$"
 
 Route114_Text_IvyNotEnoughMons:
-	.string "IVY: Do you only have one POKéMON?\n"
-	.string "I think it must feel lonesome.$"
+	.string "艾薇：你只有一只宝可梦？\n"
+	.string "我觉得它一定很孤单。$"
 
 Route114_Text_KaiIntro:
-	.string "I landed a big one!\n"
-	.string "A huge one, I tell you!$"
+	.string "我钓到大家伙了！\n"
+	.string "真的是超大的一条！$"
 
 Route114_Text_KaiDefeat:
-	.string "What was that about?\n"
-	.string "Did mine lose in size?$"
+	.string "怎么回事？\n"
+	.string "我的比不过大小吗？$"
 
 Route114_Text_KaiPostBattle:
-	.string "Okay!\n"
-	.string "I'll just fish me a bigger one!$"
+	.string "好！\n"
+	.string "那我就去钓一条更大的！$"
 
 Route114_Text_CharlotteIntro:
-	.string "Me!\n"
-	.string "I'm not just a pretty face!$"
+	.string "我！\n"
+	.string "我可不只是长得可爱！$"
 
 Route114_Text_CharlotteDefeat:
-	.string "That wasn't cute in the least!$"
+	.string "一点也不可爱！$"
 
 Route114_Text_CharlottePostBattle:
-	.string "I don't want a POKéMON that's\n"
-	.string "just cute.\p"
-	.string "I adore cute ones that have a quirk\n"
-	.string "or two!$"
+	.string "我不想要只是可爱的宝可梦。\p"
+	.string "我喜欢有点小怪癖的\n"
+	.string "可爱宝可梦！$"
 
 Route114_Text_AngelinaIntro:
-	.string "Have you made your POKéMON evolve\n"
-	.string "very much?$"
+	.string "你让宝可梦进化了\n"
+	.string "很多次吗？$"
 
 Route114_Text_AngelinaDefeat:
-	.string "Oh, I see.\n"
-	.string "That's good to know.$"
+	.string "哦，原来如此。\n"
+	.string "这倒是值得了解。$"
 
 Route114_Text_AngelinaPostBattle:
-	.string "Some POKéMON change so much when\n"
-	.string "they evolve, it's startling!$"
+	.string "有些宝可梦进化后变化\n"
+	.string "大得惊人！$"
 
 Route115_Text_TimothyIntro:
-	.string "Hm…\n"
-	.string "You seem rather capable…\l"
-	.string "Let me keep you company!$"
+	.string "嗯……\n"
+	.string "你似乎挺有一手……\l"
+	.string "让我来陪你练练！$"
 
 Route115_Text_TimothyDefeat:
-	.string "You're much stronger than\n"
-	.string "I'd imagined!$"
+	.string "你比我想象的\n"
+	.string "强多了！$"
 
 Route115_Text_TimothyPostBattle:
-	.string "There is no such thing as a born genius.\n"
-	.string "It all depends on effort!\l"
-	.string "That is what I believe…$"
+	.string "没有天生的天才。\n"
+	.string "一切全靠努力！\l"
+	.string "我如此相信……$"
 
 Route115_Text_TimothyRegister:
-	.string "Hmm… A loss this thorough has been\n"
-	.string "a distant memory.\p"
-	.string "If you would allow it, I wish for\n"
-	.string "another opportunity to do battle.$"
+	.string "嗯……输得这么彻底\n"
+	.string "已经很久没有过了。\p"
+	.string "如果允许的话，\n"
+	.string "我希望再有一次对战的机会。$"
 
 Route115_Text_TimothyRematchIntro:
-	.string "Hm… As always, your agility speaks\n"
-	.string "for itself.\l"
-	.string "Come, keep me company!$"
+	.string "嗯……你的身手\n"
+	.string "还是那么敏捷。\l"
+	.string "来吧，陪练一下！$"
 
 Route115_Text_TimothyRematchDefeat:
-	.string "As strong as ever!$"
+	.string "还是那么强！$"
 
 Route115_Text_TimothyPostRematch:
-	.string "All it takes is effort!\p"
-	.string "I lost because I haven't put in enough\n"
-	.string "effort!$"
+	.string "一切都靠努力！\p"
+	.string "我输了，是因为努力\n"
+	.string "还不够！$"
 
 Route115_Text_KoichiIntro:
-	.string "You!\p"
-	.string "My MACHOP!\p"
-	.string "Demand a battle!$"
+	.string "你！\p"
+	.string "我的腕力！\p"
+	.string "要求对战！$"
 
 Route115_Text_KoichiDefeat:
-	.string "Ouch, ouch, ouch!$"
+	.string "哎哟、哎哟、哎哟！$"
 
 Route115_Text_KoichiPostBattle:
-	.string "My MACHOP crew!\p"
-	.string "So long as they seek power, I will\n"
-	.string "grow strong with them!$"
+	.string "我的腕力兄弟们！\p"
+	.string "只要它们追求力量，\n"
+	.string "我就会和它们一起变强！$"
 
 Route115_Text_NobIntro:
-	.string "My strongest skill is busting bricks\n"
-	.string "with my forehead!$"
+	.string "我最擅长的就是用\n"
+	.string "额头劈砖！$"
 
 Route115_Text_NobDefeat:
-	.string "Ugwaaaah!\n"
-	.string "My head is busted!$"
+	.string "呜哇啊！\n"
+	.string "我的头裂了！$"
 
 Route115_Text_NobPostBattle:
-	.string "I've been teaching my POKéMON karate.\p"
-	.string "It looks like they'll get a lot better\n"
-	.string "than me. I'm excited about that.$"
+	.string "我一直在教宝可梦空手道。\p"
+	.string "看来它们会变得比我\n"
+	.string "厉害得多。真期待。$"
 
 Route115_Text_NobRegister:
-	.string "You impress me! Give me a rematch\n"
-	.string "after I redo my training!$"
+	.string "你让我佩服！\n"
+	.string "等我重新训练完再打一场！$"
 
 Route115_Text_NobRematchIntro:
-	.string "After you beat me, we trained hard to\n"
-	.string "improve our skills.\l"
-	.string "Come on, give us a rematch!$"
+	.string "你打败我之后，我们\n"
+	.string "刻苦训练提高技巧。\l"
+	.string "来吧，再打一场！$"
 
 Route115_Text_NobRematchDefeat:
-	.string "Ugwaaah!\n"
-	.string "We lost again!$"
+	.string "呜哇啊！\n"
+	.string "我们又输了！$"
 
 Route115_Text_NobPostRematch:
-	.string "My POKéMON will grow stronger!\n"
-	.string "I'll redouble my training!$"
+	.string "我的宝可梦会变得更强！\n"
+	.string "我要加倍训练！$"
 
 Route115_Text_CyndyIntro:
-	.string "This beach is my secret training spot!\n"
-	.string "Don't come butting in!$"
+	.string "这片沙滩是我的秘密训练场！\n"
+	.string "别来打扰！$"
 
 Route115_Text_CyndyDefeat:
-	.string "I haven't trained enough!$"
+	.string "我训练得还不够！$"
 
 Route115_Text_CyndyPostBattle:
-	.string "The sand acts as a cushion to reduce\n"
-	.string "impact and prevent injury.\l"
-	.string "This is the perfect place to train.$"
+	.string "沙子能缓冲冲击，\n"
+	.string "防止受伤。\l"
+	.string "这里最适合训练了。$"
 
 Route115_Text_CyndyRegister:
-	.string "Okay, fine, you're free to come here.\n"
-	.string "In return, I'd like to battle you again.$"
+	.string "好吧，你可以来。\n"
+	.string "作为交换，再打一场吧。$"
 
 Route115_Text_CyndyRematchIntro:
-	.string "Okay, let's get this battle on!$"
+	.string "好，开始对战吧！$"
 
 Route115_Text_CyndyRematchDefeat:
-	.string "I can battle but my POKéMON…$"
+	.string "我能打，但我的宝可梦……$"
 
 Route115_Text_CyndyPostRematch:
-	.string "Even when I lose, I still get some\n"
-	.string "enjoyment out of it.\l"
-	.string "It must be that I love POKéMON.$"
+	.string "就算输了，我也还是\n"
+	.string "觉得挺开心。\l"
+	.string "这一定是因为我爱宝可梦。$"
 
 Route115_Text_HectorIntro:
-	.string "I have a rare POKéMON!\n"
-	.string "Would you like me to show you?$"
+	.string "我有稀有的宝可梦！\n"
+	.string "要我给你看看吗？$"
 
 Route115_Text_HectorDefeat:
-	.string "You…\n"
-	.string "You want my POKéMON, don't you?$"
+	.string "你……\n"
+	.string "你想要我的宝可梦，对吧？$"
 
 Route115_Text_HectorPostBattle:
-	.string "I have this rare POKéMON.\n"
-	.string "It's enough to keep me satisfied.$"
+	.string "我有这只稀有的宝可梦。\n"
+	.string "这就够让我满足了。$"
 
 Route115_Text_KyraIntro:
-	.string "I'll battle while I'm running!\n"
-	.string "Try to keep up with me!$"
+	.string "我边跑边对战！\n"
+	.string "跟上我试试！$"
 
 Route115_Text_KyraDefeat:
-	.string "Gasp, gasp…$"
+	.string "呼、呼……$"
 
 Route115_Text_KyraPostBattle:
-	.string "I made the mistake of trying to battle\n"
-	.string "while running!\p"
-	.string "I should take a run to calm down…$"
+	.string "我犯了个错，边跑边对战！\p"
+	.string "我该跑一跑冷静下来……$"
 
 Route115_Text_JaidenIntro:
-	.string "Take that!\n"
-	.string "Ultra POKéMON ninja attack!$"
+	.string "接招！\n"
+	.string "究极宝可梦忍者攻击！$"
 
 Route115_Text_JaidenDefeat:
-	.string "Waaah!\n"
-	.string "Our strategy failed!$"
+	.string "哇！\n"
+	.string "我们的战术失败了！$"
 
 Route115_Text_JaidenPostBattle:
-	.string "But my POKéMON were ultra,\n"
-	.string "weren't they?$"
+	.string "不过我的宝可梦很究极吧？$"
 
 Route115_Text_HeleneIntro:
-	.string "My POKéMON have black belt-level\n"
-	.string "strength!$"
+	.string "我的宝可梦有黑带级的\n"
+	.string "实力！$"
 
 Route115_Text_HeleneDefeat:
-	.string "This is too humiliating!$"
+	.string "太丢脸了！$"
 
 Route115_Text_HelenePostBattle:
-	.string "I rarely meet anyone who's better\n"
-	.string "than me…\p"
-	.string "I get it now!\n"
-	.string "You're a GYM LEADER, aren't you?$"
+	.string "很少有人比我强……\p"
+	.string "我明白了！\n"
+	.string "你是道馆馆主，对吧？$"
 
 Route115_Text_AlixIntro:
-	.string "Our eyes met!\n"
-	.string "There's no getting away now!$"
+	.string "我们目光相遇了！\n"
+	.string "现在可跑不掉了！$"
 
 Route115_Text_AlixDefeat:
-	.string "Gah!\n"
-	.string "Not bad!$"
+	.string "呜！\n"
+	.string "不错嘛！$"
 
 Route115_Text_AlixPostBattle:
-	.string "Oh, well.\n"
-	.string "I think I will TELEPORT home.$"
+	.string "算了。\n"
+	.string "我想我该瞬间移动回家了。$"
 
 Route115_Text_MarleneIntro:
-	.string "You've disturbed my meditation…\n"
-	.string "You'll be punished for it.$"
+	.string "你打扰了我的冥想……\n"
+	.string "你要为此受罚。$"
 
 Route115_Text_MarleneDefeat:
-	.string "You've broken my concentration!$"
+	.string "你打乱了我的专注！$"
 
 Route115_Text_MarlenePostBattle:
-	.string "I was meditating with my POKéMON.\n"
-	.string "But this place isn't very peaceful…$"
+	.string "我刚和宝可梦一起冥想。\n"
+	.string "不过这里不太安静……$"
 
 Route116_Text_ClarkIntro:
-	.string "If the tunnel doesn't go through, then\n"
-	.string "I'll just go over the top.$"
+	.string "如果隧道通不过，\n"
+	.string "我就翻过山顶。$"
 
 Route116_Text_ClarkDefeat:
-	.string "Gasp… Gasp…\n"
-	.string "Losing made me tired…$"
+	.string "呼……呼……\n"
+	.string "输了让我好累……$"
 
 Route116_Text_ClarkPostBattle:
-	.string "It's no big deal if there's no tunnel.\n"
-	.string "To a HIKER, mountains are roads!$"
+	.string "没有隧道也没什么。\n"
+	.string "对登山男来说，山就是路！$"
 
 Route116_Text_JoeyIntro:
-	.string "My POKéMON rule!\n"
-	.string "Check them out!$"
+	.string "我的宝可梦最强！\n"
+	.string "来看看！$"
 
 Route116_Text_JoeyDefeat:
-	.string "Ouch! A scrape!\n"
-	.string "I have to put on a bandage!$"
+	.string "哎哟！擦伤了！\n"
+	.string "我得贴上创可贴！$"
 
 Route116_Text_JoeyPostBattle:
-	.string "Bandages are signs of toughness!\n"
-	.string "I've got another one!$"
+	.string "创可贴是坚强的证明！\n"
+	.string "我又多了一个！$"
 
 Route116_Text_JoseIntro:
-	.string "My BUG POKéMON are tough!\n"
-	.string "Let's battle!$"
+	.string "我的虫宝可梦很强！\n"
+	.string "来对战吧！$"
 
 Route116_Text_JoseDefeat:
-	.string "I lost!\n"
-	.string "I thought I had you!$"
+	.string "我输了！\n"
+	.string "我还以为能赢！$"
 
 Route116_Text_JosePostBattle:
-	.string "BUG POKéMON evolve quickly.\n"
-	.string "So they get strong quickly, too.$"
+	.string "虫宝可梦进化很快。\n"
+	.string "所以也很快变强。$"
 
 Route116_Text_JaniceIntro:
-	.string "Let me teach you how strong my\n"
-	.string "adorable POKéMON is!$"
+	.string "让我教教你我的可爱宝可梦\n"
+	.string "有多强！$"
 
 Route116_Text_JaniceDefeat:
-	.string "You're a notch above me…$"
+	.string "你比我高一个档次……$"
 
 Route116_Text_JanicePostBattle:
-	.string "POKéMON that possess cuteness and\n"
-	.string "power, that's ideal, I think.$"
+	.string "既可爱又有实力的宝可梦，\n"
+	.string "我觉得那才理想。$"
 
 Route116_Text_JerryIntro:
-	.string "We learn all sorts of things at the\n"
-	.string "TRAINER'S SCHOOL.\p"
-	.string "I want to test things out for real!$"
+	.string "我们在训练家学校\n"
+	.string "学习各种东西。\p"
+	.string "我想实际试试看！$"
 
 Route116_Text_JerryDefeat:
-	.string "I slacked off in school…\n"
-	.string "That's why I lost.$"
+	.string "我在学校偷懒了……\n"
+	.string "所以我输了。$"
 
 Route116_Text_JerryPostBattle:
-	.string "I'll have to redo some courses at\n"
-	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "我得去训练家学校\n"
+	.string "重修几门课。\l"
+	.string "不然杜鹃会发火的。$"
 
 Route116_Text_JerryRegister1:
-	.string "I learned at the TRAINER'S SCHOOL\n"
-	.string "that a POKéNAV can register TRAINERS.\p"
-	.string "I don't really get what that means,\n"
-	.string "so can I just try it?$"
+	.string "我在训练家学校学过，\n"
+	.string "导航能登记训练家。\p"
+	.string "我不太懂那是什么意思，\n"
+	.string "能让我试试吗？$"
 
 Route116_Text_JerryRegister2:
-	.string "I learned at the TRAINER'S SCHOOL\n"
-	.string "that a POKéNAV can register TRAINERS.\p"
-	.string "I don't really get what that means,\n"
-	.string "so can I just try it?$"
+	.string "我在训练家学校学过，\n"
+	.string "导航能登记训练家。\p"
+	.string "我不太懂那是什么意思，\n"
+	.string "能让我试试吗？$"
 
 Route116_Text_JerryRematchIntro:
-	.string "I've been studying seriously at the\n"
-	.string "TRAINER'S SCHOOL.\l"
-	.string "I won't lose like I did last time.$"
+	.string "我在训练家学校\n"
+	.string "认真学习过了。\l"
+	.string "不会再像上次那样输。$"
 
 Route116_Text_JerryRematchDefeat:
-	.string "Hunh?\n"
-	.string "I studied diligently.$"
+	.string "咦？\n"
+	.string "我明明认真学了啊。$"
 
 Route116_Text_JerryPostRematch:
-	.string "I'll have to redo some courses at\n"
-	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "我得去训练家学校\n"
+	.string "重修几门课。\l"
+	.string "不然杜鹃会发火的。$"
 
 Route116_Text_KarenIntro:
-	.string "I study at school, and I study on\n"
-	.string "the way home, too!$"
+	.string "我在学校学习，\n"
+	.string "放学路上也在学习！$"
 
 Route116_Text_KarenDefeat:
-	.string "I'm in shock--I lost?$"
+	.string "我震惊了——我输了？$"
 
 Route116_Text_KarenPostBattle:
-	.string "Awww, I'll never become an elegant\n"
-	.string "TRAINER like ROXANNE this way!$"
+	.string "呜呜，这样我永远也成不了\n"
+	.string "杜鹃那样优雅的训练家！$"
 
 Route116_Text_KarenRegister1:
-	.string "Oh, wow! Isn't that a POKéNAV?\n"
-	.string "I have one, too! Please register me!$"
+	.string "哇！那不是导航吗？\n"
+	.string "我也有！请登记我！$"
 
 Route116_Text_KarenRegister2:
-	.string "Oh, wow! Isn't that a POKéNAV?\n"
-	.string "I have one, too! Please register me!$"
+	.string "哇！那不是导航吗？\n"
+	.string "我也有！请登记我！$"
 
 Route116_Text_KarenRematchIntro:
-	.string "I studied a whole lot since I saw you.\n"
-	.string "You must see my achievements!$"
+	.string "上次见你之后我学了好多。\n"
+	.string "你一定要看看我的成果！$"
 
 Route116_Text_KarenRematchDefeat:
-	.string "I'm in shock.\n"
-	.string "I lost again?$"
+	.string "我震惊了。\n"
+	.string "我又输了？$"
 
 Route116_Text_KarenPostRematch:
-	.string "You've beaten ROXANNE?\n"
-	.string "I can't beat you, then. Not yet.$"
+	.string "你打赢杜鹃了？\n"
+	.string "那我现在还赢不了你。$"
 
 Route116_Text_SarahIntro:
-	.string "Just so you know, I've never once been\n"
-	.string "bested by anyone at anything.$"
+	.string "先跟你说清楚，我从来\n"
+	.string "没在任何事上输过。$"
 
 Route116_Text_SarahDefeat:
-	.string "Oh, my goodness.\n"
-	.string "This is a new experience for me.$"
+	.string "哦，天哪。\n"
+	.string "这对我来说是新体验。$"
 
 Route116_Text_SarahPostBattle:
-	.string "My life of luxury affords me all that\n"
-	.string "I could possibly desire.\p"
-	.string "However, when it comes to POKéMON,\n"
-	.string "my wealth has no meaning.$"
+	.string "我富裕的生活让我\n"
+	.string "想要什么都有。\p"
+	.string "不过在宝可梦方面，\n"
+	.string "我的财富毫无意义。$"
 
 Route116_Text_DawsonIntro:
-	.string "When you lay your eyes on my POKéMON's\n"
-	.string "gorgeous fur, their beauty will render\l"
-	.string "you helpless!$"
+	.string "等你看到我宝可梦那华丽的\n"
+	.string "毛发，它们的美丽会让你\l"
+	.string "动弹不得！$"
 
 Route116_Text_DawsonDefeat:
-	.string "Oh, baby, say it isn't so!$"
+	.string "哦，天啊，这不是真的！$"
 
 Route116_Text_DawsonPostBattle:
-	.string "Oh, no, no, no!\n"
-	.string "You've mussed up my POKéMON's fur!\l"
-	.string "You've ruined my hairdo, too!\l"
-	.string "I'll have to call my stylist now!$"
+	.string "哦，不不不！\n"
+	.string "你把我的宝可梦的毛弄乱了！\l"
+	.string "我的发型也毁了！\l"
+	.string "我得马上叫造型师！$"
 
 Route116_Text_DevanIntro:
-	.string "We'll rock you hard!$"
+	.string "我们要把你震翻！$"
 
 Route116_Text_DevanDefeat:
-	.string "Aiyiyi!\n"
-	.string "No contest at all!$"
+	.string "哎呀呀！\n"
+	.string "完全打不过！$"
 
 Route116_Text_DevanPostBattle:
-	.string "I should try different POKéMON\n"
-	.string "types, that's what I ought to do.$"
+	.string "我该试试其他属性的\n"
+	.string "宝可梦，对，应该这样。$"
 
 Route116_Text_JohnsonIntro:
-	.string "It's a dead end up here.\n"
-	.string "I'm bored, so can we battle?$"
+	.string "这上面是死路。\n"
+	.string "我好无聊，能打一场吗？$"
 
 Route116_Text_JohnsonDefeat:
-	.string "That was fun even though I lost.$"
+	.string "虽然输了，但真有意思。$"
 
 Route116_Text_JohnsonPostBattle:
-	.string "Want to stay here and keep\n"
-	.string "me company?$"
+	.string "要留在这里陪陪我吗？$"
 
-Route117_Text_IsaacIntro:
-	.string "Listen, could I get you to battle\n"
-	.string "the POKéMON I'm raising?$"
+Route117_Text_EzekielIntro:
+	.string "听我说，能和我培养的\n"
+	.string "宝可梦对战吗？$"
 
-Route117_Text_IsaacDefeat:
-	.string "You've raised yours superbly…$"
+Route117_Text_EzekielDefeat:
+	.string "你把宝可梦培养得真好……$"
 
-Route117_Text_IsaacPostBattle:
-	.string "POKéMON isn't all about power.\p"
-	.string "Polishing a unique aspect of one's\n"
-	.string "character is another way of enjoying\l"
-	.string "POKéMON.$"
+Route117_Text_EzekielPostBattle:
+	.string "宝可梦不只是力量。\p"
+	.string "打磨宝可梦独特的个性，\n"
+	.string "也是享受宝可梦的一种方式。$"
 
-Route117_Text_IsaacRegister:
-	.string "I'm going to redouble my training.\n"
-	.string "Would you come look in on us?$"
+Route117_Text_EzekielRegister:
+	.string "我要加倍训练。\n"
+	.string "你能来看看我们吗？$"
 
-Route117_Text_IsaacRematchIntro:
-	.string "The POKéMON I've been raising are\n"
-	.string "looking good, just like before.$"
+Route117_Text_EzekielRematchIntro:
+	.string "我培养的宝可梦\n"
+	.string "还是和以前一样棒。$"
 
-Route117_Text_IsaacRematchDefeat:
-	.string "You know how to raise them properly.\n"
-	.string "You might have DAY CARE skills…$"
+Route117_Text_EzekielRematchDefeat:
+	.string "你懂得怎么好好培养。\n"
+	.string "你也许有培育屋的才能……$"
 
-Route117_Text_IsaacPostRematch:
-	.string "Your POKéMON are growing good!\n"
-	.string "You should enter them in CONTESTS.$"
+Route117_Text_EzekielPostRematch:
+	.string "你的宝可梦长得真好！\n"
+	.string "该让它们去参加华丽大赛。$"
 
 Route117_Text_LydiaIntro:
-	.string "Please, allow me to evaluate if you\n"
-	.string "have raised your POKéMON properly.$"
+	.string "请让我评估一下，你是否有\n"
+	.string "好好培养宝可梦。$"
 
 Route117_Text_LydiaDefeat:
-	.string "Yes, they are growing properly.$"
+	.string "是的，它们成长得很好。$"
 
 Route117_Text_LydiaPostBattle:
-	.string "Try raising POKéMON with more\n"
-	.string "attention to their character traits.$"
+	.string "培养宝可梦时，试试更\n"
+	.string "关注它们的个性特征。$"
 
 Route117_Text_LydiaRegister:
-	.string "I'm glad I met a superb TRAINER in you.\n"
-	.string "I hope to see you again.$"
+	.string "很高兴遇到你这么出色的\n"
+	.string "训练家。希望还能再见。$"
 
 Route117_Text_LydiaRematchIntro:
-	.string "Allow me to reevaluate if you have\n"
-	.string "raised your POKéMON properly.$"
+	.string "让我再评估一次，你是否有\n"
+	.string "好好培养宝可梦。$"
 
 Route117_Text_LydiaRematchDefeat:
-	.string "They are growing admirably.$"
+	.string "它们成长得令人赞叹。$"
 
 Route117_Text_LydiaPostRematch:
-	.string "POKéMON seem to like different kinds\n"
-	.string "of {POKEBLOCK}S, depending on their nature.$"
+	.string "宝可梦会依性格喜欢\n"
+	.string "不同种类的宝可方块。$"
 
 Route117_Text_DylanIntro:
-	.string "I'm in the middle of a triathlon, but,\n"
-	.string "whatever, let's have a battle!$"
+	.string "我正在铁人三项中，不过\n"
+	.string "算了，来打一场吧！$"
 
 Route117_Text_DylanDefeat:
-	.string "I ran out of energy!$"
+	.string "我没力气了！$"
 
 Route117_Text_DylanPostBattle:
-	.string "I may have blown it…\p"
-	.string "I might have dropped to last during\n"
-	.string "that battle…$"
+	.string "我可能搞砸了……\p"
+	.string "刚才那场对战，我大概\n"
+	.string "掉到最后一名了……$"
 
 Route117_Text_DylanRegister:
-	.string "POKéMON have to be strong, too?\n"
-	.string "I'd like you to train me!$"
+	.string "宝可梦也得变强才行？\n"
+	.string "希望你来训练我！$"
 
 Route117_Text_DylanRematchIntro:
-	.string "I'm smack in the middle of a triathlon,\n"
-	.string "but I'm comfortably ahead.\l"
-	.string "Let's make this a quick battle!$"
+	.string "我正处在铁人三项中间，\n"
+	.string "不过领先得很轻松。\l"
+	.string "快点打完吧！$"
 
 Route117_Text_DylanRematchDefeat:
-	.string "I ran out of energy again!$"
+	.string "我又没力气了！$"
 
 Route117_Text_DylanPostRematch:
-	.string "I was tops in swimming and cycling,\n"
-	.string "but I'm not quite that confident with\l"
-	.string "POKéMON yet.$"
+	.string "游泳和自行车我都是第一，\n"
+	.string "但对宝可梦还没那么自信。$"
 
 Route117_Text_MariaIntro:
-	.string "I do my triathlon training with POKéMON,\n"
-	.string "so I'm pretty confident about my speed.$"
+	.string "我和宝可梦一起做铁人三项\n"
+	.string "训练，所以对速度很有自信。$"
 
 Route117_Text_MariaDefeat:
-	.string "I need to get more practices in,\n"
-	.string "I guess.$"
+	.string "看来我得多练练。$"
 
 Route117_Text_MariaPostBattle:
-	.string "Training is meaningful only if you\n"
-	.string "keep it up regularly.\p"
-	.string "Okay! I'll resume my training!\n"
-	.string "Tomorrow!$"
+	.string "训练只有坚持才有意义。\p"
+	.string "好！我要恢复训练！\n"
+	.string "明天开始！$"
 
 Route117_Text_MariaRegister:
-	.string "You appear to be training properly…\n"
-	.string "If you'd like, I'll battle you later!$"
+	.string "你看起来训练得不错……\n"
+	.string "如果可以，待会儿打一场吧！$"
 
 Route117_Text_MariaRematchIntro:
-	.string "Are you keeping up with your training?\n"
-	.string "I sure am!\l"
-	.string "Let me show you the evidence!$"
+	.string "你还在坚持训练吗？\n"
+	.string "我可是在坚持！\l"
+	.string "给你看看成果！$"
 
 Route117_Text_MariaRematchDefeat:
-	.string "I need to get more practices in,\n"
-	.string "I guess.$"
+	.string "看来我得多练练。$"
 
 Route117_Text_MariaPostRematch:
-	.string "I'll resume training tomorrow.\n"
-	.string "Let's battle again sometime!$"
+	.string "我明天开始恢复训练。\n"
+	.string "下次再对战吧！$"
 
 Route117_Text_DerekIntro:
-	.string "Once a BUG CATCHER!\n"
-	.string "And now a BUG MANIAC!\p"
-	.string "But my love for POKéMON remains\n"
-	.string "unchanged!$"
+	.string "我曾经是捕虫少年！\n"
+	.string "现在是昆虫狂！\p"
+	.string "但我对宝可梦的爱\n"
+	.string "从未改变！$"
 
 Route117_Text_DerekDefeat:
-	.string "My ineptitude also remains\n"
-	.string "unchanged…$"
+	.string "我的没长进也\n"
+	.string "从未改变……$"
 
 Route117_Text_DerekPostBattle:
-	.string "All I did was follow my heart, and now\n"
-	.string "they call me a BUG MANIAC…\p"
-	.string "Still, I am an expert on BUG POKéMON,\n"
-	.string "so it's only natural that they call me\l"
-	.string "a BUG MANIAC.$"
+	.string "我只是随心而行，现在\n"
+	.string "大家却叫我昆虫狂……\p"
+	.string "不过我确实是虫宝可梦专家，\n"
+	.string "被叫作昆虫狂也很自然。$"
 
 Route117_Text_AnnaIntro:
-	.string "ANNA: I'm with my pretty junior student\n"
-	.string "partner. I have to do good!$"
+	.string "安娜：我和可爱的学妹\n"
+	.string "搭档在一起，必须加油！$"
 
 Route117_Text_AnnaDefeat:
-	.string "ANNA: I'm with my pretty junior student\n"
-	.string "partner! Let me win!$"
+	.string "安娜：我和可爱的学妹\n"
+	.string "搭档！让我赢啊！$"
 
 Route117_Text_AnnaPostBattle:
-	.string "ANNA: Your POKéMON have some good\n"
-	.string "combinations.\p"
-	.string "I'd say you're second only to us!$"
+	.string "安娜：你的宝可梦\n"
+	.string "组合不错。\p"
+	.string "我看你只比我们差一点！$"
 
 Route117_Text_AnnaAndMegRegister:
-	.string "ANNA: We can't take this lying down!\n"
-	.string "You will come back, won't you?$"
+	.string "安娜：我们可不会认输！\n"
+	.string "你还会再来的吧？$"
 
 Route117_Text_AnnaNotEnoughMons:
-	.string "ANNA: If you want to battle us,\n"
-	.string "bring two POKéMON with you.$"
+	.string "安娜：想和我们打的话，\n"
+	.string "带两只宝可梦来。$"
 
 Route117_Text_MegIntro:
-	.string "MEG: I'm going to tag up with my super\n"
-	.string "senior student partner and beat you!$"
+	.string "梅格：我要和超厉害的学姐\n"
+	.string "搭档，把你打倒！$"
 
 Route117_Text_MegDefeat:
-	.string "MEG: Oh, no!\n"
-	.string "I'm sorry, ANNA! I let you down…$"
+	.string "梅格：哦，不！\n"
+	.string "对不起，安娜！\l"
+	.string "我让你失望了……$"
 
 Route117_Text_MegPostBattle:
-	.string "MEG: I dragged ANNA down…\n"
-	.string "If I didn't, she would have won!$"
+	.string "梅格：我拖累了安娜……\n"
+	.string "不然她就能赢！$"
 
 Route117_Text_MegNotEnoughMons:
-	.string "MEG: Do you only have one POKéMON?\n"
-	.string "We can't battle with you, then.\p"
-	.string "We want to have a 2-on-2 battle.$"
+	.string "梅格：你只有一只宝可梦？\n"
+	.string "那我们没法和你打。\p"
+	.string "我们想二对二对战。$"
 
 Route117_Text_AnnaRematchIntro:
-	.string "ANNA: I can't keep losing in front of\n"
-	.string "my junior partner, right?$"
+	.string "安娜：我总不能一直在\n"
+	.string "学妹面前输吧？$"
 
 Route117_Text_AnnaRematchDefeat:
-	.string "ANNA: I couldn't get into the groove.$"
+	.string "安娜：我没找到状态。$"
 
 Route117_Text_AnnaPostRematch:
-	.string "ANNA: Your POKéMON have some good\n"
-	.string "combinations.\p"
-	.string "I'd say you're second only to us!$"
+	.string "安娜：你的宝可梦\n"
+	.string "组合不错。\p"
+	.string "我看你只比我们差一点！$"
 
 Route117_Text_AnnaRematchNotEnoughMons:
-	.string "ANNA: If you want to battle us,\n"
-	.string "bring two POKéMON with you.$"
+	.string "安娜：想和我们打的话，\n"
+	.string "带两只宝可梦来。$"
 
 Route117_Text_MegRematchIntro:
-	.string "MEG: I'm going to tag up with my\n"
-	.string "senior partner and win this time!$"
+	.string "梅格：这次我要和学姐\n"
+	.string "搭档，赢下来！$"
 
 Route117_Text_MegRematchDefeat:
-	.string "MEG: Too strong!$"
+	.string "梅格：太强了！$"
 
 Route117_Text_MegPostRematch:
-	.string "MEG: I battled together with my\n"
-	.string "senior partner, but we lost…\p"
-	.string "That's so discouraging…$"
+	.string "梅格：我和学姐一起对战，\n"
+	.string "却输了……\p"
+	.string "太让人泄气了……$"
 
 Route117_Text_MegRematchNotEnoughMons:
-	.string "MEG: Do you only have one POKéMON?\n"
-	.string "We can't battle with you, then.\p"
-	.string "We want to have a 2-on-2 battle.$"
+	.string "梅格：你只有一只宝可梦？\n"
+	.string "那我们没法和你打。\p"
+	.string "我们想二对二对战。$"
 
 Route117_Text_MelinaIntro:
-	.string "Isn't it nice? To battle while looking\n"
-	.string "at pretty flowers?$"
+	.string "一边看着美丽的花，\n"
+	.string "一边对战，是不是很棒？$"
 
 Route117_Text_MelinaDefeat:
-	.string "Oh, that's quite impressive!$"
+	.string "哦，真是了不起！$"
 
 Route117_Text_MelinaPostBattle:
-	.string "It feels wonderful to go for a jog\n"
-	.string "while looking at flowers.$"
+	.string "一边看花一边慢跑，\n"
+	.string "感觉真好。$"
 
 Route117_Text_BrandiIntro:
-	.string "Let me demonstrate the power\n"
-	.string "hidden within a PSYCHIC POKéMON!$"
+	.string "让我展示超能宝可梦\n"
+	.string "隐藏的力量！$"
 
 Route117_Text_BrandiDefeat:
-	.string "Astonishing!$"
+	.string "惊人！$"
 
 Route117_Text_BrandiPostBattle:
-	.string "PSYCHIC POKéMON are complex.\n"
-	.string "You should try catching some.$"
+	.string "超能宝可梦很复杂。\n"
+	.string "你该抓几只试试。$"
 
 Route117_Text_AishaIntro:
-	.string "Concentrate on getting the win.\n"
-	.string "That's how I battle!$"
+	.string "专心争取胜利。\n"
+	.string "我就是这样对战的！$"
 
 Route117_Text_AishaDefeat:
-	.string "I don't waste any time being angry\n"
-	.string "over a loss--I would rather train.$"
+	.string "我不会浪费时间\n"
+	.string "为输而生气——不如去训练。$"
 
 Route117_Text_AishaPostBattle:
-	.string "I think that if you worry about losing,\n"
-	.string "you're more likely to lose.$"
+	.string "我觉得越担心输，\n"
+	.string "就越容易输。$"
 
 Route118_Text_RoseIntro:
-	.string "The aroma of flowers has a magical\n"
-	.string "power. It cleanses us body and soul.$"
+	.string "花香有神奇的力量。\n"
+	.string "它能净化我们的身心。$"
 
 Route118_Text_RoseDefeat:
-	.string "Oh, dear me.\n"
-	.string "I seem to have lost.$"
+	.string "哦，天哪。\n"
+	.string "我好像输了。$"
 
 Route118_Text_RosePostBattle:
-	.string "Flowers, POKéMON…\n"
-	.string "I love whatever smells nice.\p"
-	.string "Stinky things…\n"
-	.string "I'll pass.$"
+	.string "花、宝可梦……\n"
+	.string "我喜欢一切好闻的东西。\p"
+	.string "臭的东西……\n"
+	.string "还是算了。$"
 
 Route118_Text_RoseRegister:
-	.string "Sniff… That odor--it's a POKéNAV!\n"
-	.string "We must register each other!$"
+	.string "嗅嗅……这气味——是导航！\n"
+	.string "我们必须互相登记！$"
 
 Route118_Text_RoseRematchIntro:
-	.string "Were you drawn here by the sweet\n"
-	.string "aroma?$"
+	.string "你也被甜香\n"
+	.string "引来的吗？$"
 
 Route118_Text_RoseRematchDefeat:
-	.string "The power of aroma…\n"
-	.string "It didn't seem to do much.$"
+	.string "香气之力……\n"
+	.string "好像没起什么作用。$"
 
 Route118_Text_RosePostRematch:
-	.string "If you use a sweet aroma properly,\n"
-	.string "POKéMON will be attracted by it.$"
+	.string "如果好好使用甜香，\n"
+	.string "宝可梦就会被吸引过来。$"
 
 Route118_Text_PerryIntro:
-	.string "BIRD POKéMON that FLY elegantly in\n"
-	.string "the sky… They're the best!$"
+	.string "在天空中优雅飞翔的\n"
+	.string "鸟宝可梦……最棒了！$"
 
 Route118_Text_PerryDefeat:
-	.string "Urgh…\n"
-	.string "I crashed…$"
+	.string "唔……\n"
+	.string "我坠机了……$"
 
 Route118_Text_PerryPostBattle:
-	.string "You've got great POKéMON.\n"
-	.string "I'll have to train mine better.$"
+	.string "你的宝可梦很棒。\n"
+	.string "我得把我的训练得更好。$"
 
 Route118_Text_ChesterIntro:
-	.string "Take flight!\n"
-	.string "My BIRD POKéMON!$"
+	.string "起飞吧！\n"
+	.string "我的鸟宝可梦！$"
 
 Route118_Text_ChesterDefeat:
-	.string "They did take flight…$"
+	.string "它们确实起飞了……$"
 
 Route118_Text_ChesterPostBattle:
-	.string "If they'd get stronger, they'd be able\n"
-	.string "to fly more freely…$"
+	.string "要是它们变强，\n"
+	.string "就能飞得更自在了……$"
 
 Route118_Text_BarnyIntro:
-	.string "I'm a FISHERMAN, but also a TRAINER.\n"
-	.string "I'm raising the POKéMON I caught.$"
+	.string "我是钓客，也是训练家。\n"
+	.string "我在培养钓到的宝可梦。$"
 
 Route118_Text_BarnyDefeat:
-	.string "I thought I was doing okay in my\n"
-	.string "training…$"
+	.string "我还以为自己\n"
+	.string "训练得不错……$"
 
 Route118_Text_BarnyPostBattle:
-	.string "I couldn't win by training POKéMON\n"
-	.string "while I fished…\p"
-	.string "Was I doing things in half measures?$"
+	.string "我一边钓鱼一边训练宝可梦，\n"
+	.string "却赢不了……\p"
+	.string "是不是我做事都只有半吊子？$"
 
 Route118_Text_WadeIntro:
-	.string "For FISHERMEN, equipment is the key.\p"
-	.string "But for TRAINERS, the key ingredients\n"
-	.string "are POKéMON and heart, of course!$"
+	.string "对钓客来说，装备是关键。\p"
+	.string "但对训练家来说，关键\n"
+	.string "当然是宝可梦和心！$"
 
 Route118_Text_WadeDefeat:
-	.string "I was beaten in heart?$"
+	.string "我在心上输了？$"
 
 Route118_Text_WadePostBattle:
-	.string "Come to think of it, fishing is a battle\n"
-	.string "between a FISHERMAN and a POKéMON.$"
+	.string "说起来，钓鱼就是钓客\n"
+	.string "和宝可梦之间的对战。$"
 
 Route118_Text_DaltonIntro:
-	.string "Let my melody rock your soul!$"
+	.string "让我的旋律震撼你的灵魂！$"
 
 Route118_Text_DaltonDefeat:
-	.string "La-lalala…$"
+	.string "啦——啦啦啦……$"
 
 Route118_Text_DaltonPostBattle:
-	.string "An electric guitar doesn't always\n"
-	.string "have to be noisy…\p"
-	.string "It can be strummed to squeeze out\n"
-	.string "this heart-stirring melody…$"
+	.string "电吉他并不一定\n"
+	.string "总是吵闹……\p"
+	.string "轻轻拨弦也能奏出\n"
+	.string "这样动人的旋律……$"
 
 Route118_Text_DaltonRegister:
-	.string "When I compose better melodies,\n"
-	.string "you have to come listen, okay?$"
+	.string "等我写出更好的旋律，\n"
+	.string "你一定要来听，好吗？$"
 
 Route118_Text_DaltonRematchIntro:
-	.string "A melody from my POKéMON and me…\n"
-	.string "Let us deliver it to your soul.$"
+	.string "我和宝可梦的旋律……\n"
+	.string "让我们把它送到你的灵魂。$"
 
 Route118_Text_DaltonRematchDefeat:
-	.string "La-lalala…$"
+	.string "啦——啦啦啦……$"
 
 Route118_Text_DaltonPostRematch:
-	.string "When I play, my emotions should reach\n"
-	.string "you through my electric guitar…$"
+	.string "我弹奏时，感情应该会\n"
+	.string "通过电吉他传给你……$"
 
 Route118_Text_DeandreIntro:
-	.string "Go, go, go!\n"
-	.string "POKéMON 1, 2, and 3!$"
+	.string "去吧、去吧、去吧！\n"
+	.string "宝可梦1号、2号和3号！$"
 
 Route118_Text_DeandreDefeat:
-	.string "Come in, POKéMON! Are you okay?\n"
-	.string "POKéMON 1, 2, and 3?!$"
+	.string "回来，宝可梦！你们没事吧？\n"
+	.string "1号、2号和3号？！$"
 
 Route118_Text_DeandrePostBattle:
-	.string "Isn't it cool that I have a POKéMON\n"
-	.string "battle team?\p"
-	.string "You can copy me--I don't mind!$"
+	.string "我有一支宝可梦对战队伍，\n"
+	.string "很酷吧？\p"
+	.string "你可以学我——我不介意！$"
 
 Route119_Text_BrentIntro:
-	.string "We're the MIMIC CIRCLE!\n"
-	.string "We MIMIC what you do!$"
+	.string "我们是模仿圈！\n"
+	.string "你做什么我们就模仿什么！$"
 
 Route119_Text_BrentDefeat:
-	.string "Whoopsie!\n"
-	.string "I lost!$"
+	.string "哎呀！\n"
+	.string "我输了！$"
 
 Route119_Text_BrentPostBattle:
-	.string "What's so good about mimicry?\p"
-	.string "Fufufu…\n"
-	.string "You'll never understand…$"
+	.string "模仿有什么好的？\p"
+	.string "呵呵……\n"
+	.string "你永远不会懂……$"
 
 Route119_Text_DonaldIntro:
-	.string "So, we finally meet!\n"
-	.string "My BUG POKéMON will keep you company!$"
+	.string "我们终于见面了！\n"
+	.string "我的虫宝可梦会陪你玩！$"
 
 Route119_Text_DonaldDefeat:
-	.string "I wish we'd never met…$"
+	.string "真希望我们从没见面……$"
 
 Route119_Text_DonaldPostBattle:
-	.string "I want to MIMIC you some more.\n"
-	.string "Can you hurry up and move?$"
+	.string "我还想再模仿你。\n"
+	.string "你能快点动吗？$"
 
 Route119_Text_TaylorIntro:
-	.string "If you step forward, we step forward.\p"
-	.string "If you turn right, we turn, too…$"
+	.string "你往前走，我们也往前走。\p"
+	.string "你向右转，我们也转……$"
 
 Route119_Text_TaylorDefeat:
-	.string "But if you win, I lose…$"
+	.string "可你赢，我就输了……$"
 
 Route119_Text_TaylorPostBattle:
-	.string "I can't MIMIC you winning the match.\n"
-	.string "That's just impossible…\l"
-	.string "It's burning me up…$"
+	.string "我没法模仿你赢下比赛。\n"
+	.string "那根本不可能……\l"
+	.string "真让我火大……$"
 
 Route119_Text_DougIntro:
-	.string "Yep, you've finally caught me!\n"
-	.string "Or were you trying to avoid me?$"
+	.string "对，你终于抓到我了！\n"
+	.string "还是你一直在躲我？$"
 
 Route119_Text_DougDefeat:
-	.string "Whoop, that was a great match!$"
+	.string "哇，真是场好对战！$"
 
 Route119_Text_DougPostBattle:
-	.string "We're the MIMIC CIRCLE!\n"
-	.string "I hope you enjoyed our performance.$"
+	.string "我们是模仿圈！\n"
+	.string "希望你喜欢我们的表演。$"
 
 Route119_Text_GregIntro:
-	.string "You don't know who I am, do you?\p"
-	.string "But, I also don't know you.\n"
-	.string "So, we'll battle!$"
+	.string "你不知道我是谁，对吧？\p"
+	.string "可我也不知道你。\n"
+	.string "那就对战吧！$"
 
 Route119_Text_GregDefeat:
-	.string "You're pretty strong!$"
+	.string "你挺强的！$"
 
 Route119_Text_GregPostBattle:
-	.string "Until you go away somewhere, we'll\n"
-	.string "keep on mimicking your every move.$"
+	.string "在你离开之前，我们会\n"
+	.string "一直模仿你的一举一动。$"
 
 Route119_Text_KentIntro:
-	.string "The MIMIC CIRCLE was formed by people\n"
-	.string "who like to MIMIC.\p"
-	.string "A battle starts the instant we meet!$"
+	.string "模仿圈是喜欢模仿的\n"
+	.string "人组成的。\p"
+	.string "我们一见面就开始对战！$"
 
 Route119_Text_KentDefeat:
-	.string "I give up!$"
+	.string "我认输！$"
 
 Route119_Text_KentPostBattle:
-	.string "Won't you join our MIMIC CIRCLE?$"
+	.string "要不要加入我们的模仿圈？$"
 
 Route119_Text_JacksonIntro:
-	.string "Who has the knowledge and\n"
-	.string "the technique for survival?\p"
-	.string "POKéMON RANGERS, that's who!$"
+	.string "谁拥有生存所需的\n"
+	.string "知识和技巧？\p"
+	.string "当然是巡护员！$"
 
 Route119_Text_JacksonDefeat:
-	.string "I didn't have enough POKéMON\n"
-	.string "know-how…$"
+	.string "我的宝可梦知识\n"
+	.string "还不够……$"
 
 Route119_Text_JacksonPostBattle:
-	.string "To break away from civilization and\n"
-	.string "awaken the wild spirit within!\p"
-	.string "That's our vision.$"
+	.string "脱离文明，唤醒心中\n"
+	.string "的野性！\p"
+	.string "这就是我们的理想。$"
 
 Route119_Text_JacksonRegister:
-	.string "I hope you'll give me a rematch without\n"
-	.string "mocking my lack of knowledge.$"
+	.string "希望下次再战时，\n"
+	.string "你别嘲笑我知识不足。$"
 
 Route119_Text_JacksonRematchIntro:
-	.string "I'm going to regain my wild spirit by\n"
-	.string "being together with POKéMON.$"
+	.string "我要和宝可梦在一起，\n"
+	.string "找回我的野性。$"
 
 Route119_Text_JacksonRematchDefeat:
-	.string "You've remained strong!$"
+	.string "你还是那么强！$"
 
 Route119_Text_JacksonPostRematch:
-	.string "Believe in your POKéMON.\n"
-	.string "Believe in yourself.\p"
-	.string "The road will reveal itself to you.$"
+	.string "相信你的宝可梦。\n"
+	.string "相信你自己。\p"
+	.string "道路自然会显现出来。$"
 
 Route119_Text_CatherineIntro:
-	.string "Oh? Look at you.\p"
-	.string "For someone on an adventure,\n"
-	.string "you're traveling awfully light.$"
+	.string "哦？看看你。\p"
+	.string "作为在旅途上的人，\n"
+	.string "你带的行李真轻啊。$"
 
 Route119_Text_CatherineDefeat:
-	.string "Accidents happen when you're not\n"
-	.string "prepared!$"
+	.string "没准备好就会出事！$"
 
 Route119_Text_CatherinePostBattle:
-	.string "You're traveling light but you have\n"
-	.string "everything you need.\p"
-	.string "You're on top of things mentally and\n"
-	.string "physically, too.$"
+	.string "你行李很轻，但该有的\n"
+	.string "东西都有。\p"
+	.string "身心两方面你都很在行。$"
 
 Route119_Text_CatherineRegister:
-	.string "Do you have a POKéNAV?\n"
-	.string "It's a must-have tool for any TRAINER.\p"
-	.string "Oh, you do have one!\n"
-	.string "Let's register each other, then!$"
+	.string "你有导航吗？\n"
+	.string "那是训练家必备的工具。\p"
+	.string "哦，你还真有！\n"
+	.string "那让我们互相登记吧！$"
 
 Route119_Text_CatherineRematchIntro:
-	.string "How's your journey with POKéMON\n"
-	.string "going?$"
+	.string "和宝可梦的旅程\n"
+	.string "进行得怎么样？$"
 
 Route119_Text_CatherineRematchDefeat:
-	.string "I'm still missing something…$"
+	.string "我还缺点什么……$"
 
 Route119_Text_CatherinePostRematch:
-	.string "In the same way that you, as a TRAINER,\n"
-	.string "rely on your POKéMON, your POKéMON\l"
-	.string "rely on you.$"
+	.string "就像训练家依靠宝可梦，\n"
+	.string "宝可梦也依靠着你。$"
 
 Route119_Text_HughIntro:
-	.string "The vast sky holds untold promise!\p"
-	.string "Nothing can compare to the sheer\n"
-	.string "exhilaration of flight!$"
+	.string "辽阔的天空充满未知的可能！\p"
+	.string "没有什么比飞翔的兴奋\n"
+	.string "更让人激动！$"
 
 Route119_Text_HughDefeat:
-	.string "Down and out!$"
+	.string "彻底败了！$"
 
 Route119_Text_HughPostBattle:
-	.string "My BIRD POKéMON made my dreams of\n"
-	.string "flying come true!$"
+	.string "我的鸟宝可梦让我\n"
+	.string "飞翔的梦想成真了！$"
 
 Route119_Text_PhilIntro:
-	.string "I'll show you the true potential of me\n"
-	.string "and my BIRD POKéMON!$"
+	.string "让你见识我和鸟宝可梦\n"
+	.string "的真正潜力！$"
 
 Route119_Text_PhilDefeat:
-	.string "We lacked potential…$"
+	.string "我们缺乏潜力……$"
 
 Route119_Text_PhilPostBattle:
-	.string "Ever since I was a little kid, I always\n"
-	.string "admired BIRD POKéMON…$"
+	.string "从小时候起，我就一直\n"
+	.string "仰慕鸟宝可梦……$"
 
 Route119_Text_YasuIntro:
-	.string "To lurk in shadows, and live in\n"
-	.string "darkness… That is my destiny.\p"
-	.string "I emerge to challenge you!$"
+	.string "潜伏于影，生于黑暗……\n"
+	.string "这就是我的宿命。\p"
+	.string "我现身来挑战你！$"
 
 Route119_Text_YasuDefeat:
-	.string "I admit defeat!$"
+	.string "我认输！$"
 
 Route119_Text_YasuPostBattle:
-	.string "Those defeated in battle withdraw\n"
-	.string "quietly back into the shadows.\l"
-	.string "That, too, is destiny…$"
+	.string "在对战中落败的人，\n"
+	.string "会静静退回黑暗。\l"
+	.string "这也是宿命……$"
 
 Route119_Text_TakashiIntro:
-	.string "If you're not on your guard,\n"
-	.string "you're in for some pain!$"
+	.string "疏于防备的话，\n"
+	.string "可要吃苦头！$"
 
 Route119_Text_TakashiDefeat:
-	.string "You're surprisingly good!$"
+	.string "你出人意料地强！$"
 
 Route119_Text_TakashiPostBattle:
-	.string "My surprise attack ended in\n"
-	.string "failure…$"
+	.string "我的偷袭失败了……$"
 
 Route119_Text_HideoIntro:
-	.string "To hide a tree, use a forest!$"
+	.string "藏一棵树，用一片森林！$"
 
 Route119_Text_HideoDefeat:
-	.string "I bow to your superiority.$"
+	.string "我甘拜下风。$"
 
 Route119_Text_HideoPostBattle:
-	.string "To hide a tree, use a forest!\n"
-	.string "To hide a POKéMON, use a POKéMON!\p"
-	.string "There is no deep, hidden meaning\n"
-	.string "to that.$"
+	.string "藏一棵树，用一片森林！\n"
+	.string "藏一只宝可梦，用宝可梦！\p"
+	.string "这没什么深意。$"
 
 Route119_Text_ChrisIntro:
-	.string "You spoke to me…\n"
-	.string "So you want to challenge me!\p"
-	.string "Sure! I'll try out the POKéMON I caught\n"
-	.string "while SURFING!$"
+	.string "你和我说话了……\n"
+	.string "那你是要挑战我！\p"
+	.string "好！我用冲浪时抓到的\n"
+	.string "宝可梦试试！$"
 
 Route119_Text_ChrisDefeat:
-	.string "I don't have a clue about what it\n"
-	.string "takes to win.$"
+	.string "我完全不知道该怎么做\n"
+	.string "才能赢。$"
 
 Route119_Text_ChrisPostBattle:
-	.string "Go for a SURF on my POKéMON…\p"
-	.string "Then fish off its back…\p"
-	.string "It's an indescribably luxuriant moment!$"
+	.string "骑着宝可梦去冲浪……\p"
+	.string "然后在水面上钓鱼……\p"
+	.string "真是说不出的奢侈时光！$"
 
 Route119_Text_FabianIntro:
-	.string "Hit me with a power chord!\n"
-	.string "Victory is mine!\l"
-	.string "It's our time to shine, whoa, yeah!$"
+	.string "来一记强力和弦！\n"
+	.string "胜利属于我！\l"
+	.string "轮到我们发光了，哇哦！$"
 
 Route119_Text_FabianDefeat:
-	.string "You showed me who's the boss!\n"
-	.string "We'll have to take the loss, oh, no!$"
+	.string "你让我知道了谁才是老大！\n"
+	.string "这败仗我们认了，哦不！$"
 
 Route119_Text_FabianPostBattle:
-	.string "Hit me with another power chord!\n"
-	.string "Leave me alone!\l"
-	.string "Your win you have to atone!$"
+	.string "再来一记强力和弦！\n"
+	.string "别烦我！\l"
+	.string "你的胜利得你自己赎！$"
 
 Route119_Text_DaytonIntro:
-	.string "Hohoho!\n"
-	.string "I like kid TRAINERS!\l"
-	.string "Let's have a good one!$"
+	.string "呵呵呵！\n"
+	.string "我喜欢小孩训练家！\l"
+	.string "来好好打一场！$"
 
 Route119_Text_DaytonDefeat:
-	.string "You're pretty amazing!\n"
-	.string "Hohoho!$"
+	.string "你真是了不起！\n"
+	.string "呵呵呵！$"
 
 Route119_Text_DaytonPostBattle:
-	.string "Hohoho!\n"
-	.string "I'll try emulating the pep of kid\l"
-	.string "TRAINERS like you!$"
+	.string "呵呵呵！\n"
+	.string "我也要学学你们小孩训练家的\l"
+	.string "活力！$"
 
-Route119_Text_RachelIntro:
-	.string "Wherever and whenever I may be,\n"
-	.string "I always have my parasol in hand.$"
+Route119_Text_RaquelIntro:
+	.string "无论何时何地，我手上\n"
+	.string "总是带着阳伞。$"
 
-Route119_Text_RachelDefeat:
-	.string "Oh, but…\n"
-	.string "That's not fair.$"
+Route119_Text_RaquelDefeat:
+	.string "哦，可是……\n"
+	.string "这不公平。$"
 
-Route119_Text_RachelPostBattle:
-	.string "You're asking if my parasol is heavy?\n"
-	.string "Your BAG is filled with more junk than\l"
-	.string "I ever carry around.$"
+Route119_Text_RaquelPostBattle:
+	.string "你问我阳伞重不重？\n"
+	.string "你那背包里的杂物可比\l"
+	.string "我带的还多。$"
 
 Route120_Text_ColinIntro:
-	.string "Do you have any moves that can strike\n"
-	.string "a flying POKéMON?$"
+	.string "你有能打到飞行\n"
+	.string "宝可梦的招式吗？$"
 
 Route120_Text_ColinDefeat:
-	.string "You soared above me!$"
+	.string "你飞越了我！$"
 
 Route120_Text_ColinPostBattle:
-	.string "The move FLY is convenient,\n"
-	.string "don't you think?\p"
-	.string "While the POKéMON is flying,\n"
-	.string "almost no moves can strike it.$"
+	.string "飞翔这个招式很方便，\n"
+	.string "你不觉得吗？\p"
+	.string "宝可梦在飞翔时，\n"
+	.string "几乎没有招式能打到它。$"
 
 Route120_Text_RobertIntro:
-	.string "My POKéMON is strong!\n"
-	.string "How about yours?$"
+	.string "我的宝可梦很强！\n"
+	.string "你的呢？$"
 
 Route120_Text_RobertDefeat:
-	.string "Your POKéMON were stronger…$"
+	.string "你的宝可梦更强……$"
 
 Route120_Text_RobertPostBattle:
-	.string "A POKéMON that grows steadily is one\n"
-	.string "you can count on.$"
+	.string "稳定成长的宝可梦\n"
+	.string "是值得信赖的。$"
 
 Route120_Text_RobertRegister:
-	.string "You can be counted on to get better.\n"
-	.string "I'd like to register you in my POKéNAV!$"
+	.string "你一定还会变强。\n"
+	.string "我想把你登记进导航！$"
 
 Route120_Text_RobertRematchIntro:
-	.string "A POKéMON that grows steadily is one\n"
-	.string "you can count on.$"
+	.string "稳定成长的宝可梦\n"
+	.string "是值得信赖的。$"
 
 Route120_Text_RobertRematchDefeat:
-	.string "Your POKéMON are seriously strong.$"
+	.string "你的宝可梦真的很强。$"
 
 Route120_Text_RobertPostRematch:
-	.string "My POKéMON are growing stronger.\n"
-	.string "I have to grow stronger, too.$"
+	.string "我的宝可梦在变强。\n"
+	.string "我也得变强才行。$"
 
 Route120_Text_LorenzoIntro:
-	.string "I'll check your POKéMON and see if\n"
-	.string "they're fit for the outdoors.$"
+	.string "我来检查你的宝可梦\n"
+	.string "能不能适应野外。$"
 
 Route120_Text_LorenzoDefeat:
-	.string "With POKéMON that strong, you're in\n"
-	.string "no danger of needing rescue!$"
+	.string "有这么强的宝可梦，\n"
+	.string "你根本不需要救援！$"
 
 Route120_Text_LorenzoPostBattle:
-	.string "To travel wherever your heart desires\n"
-	.string "with POKéMON…\l"
-	.string "That's the joy of being a TRAINER.$"
+	.string "带着宝可梦去任何\n"
+	.string "心之所向的地方……\l"
+	.string "这就是训练家的快乐。$"
 
 Route120_Text_JennaIntro:
-	.string "How's your physical fitness?\n"
-	.string "If you're not fit, you could have a\l"
-	.string "rough time in critical situations.$"
+	.string "你的体力怎么样？\n"
+	.string "体力不好的话，遇到危急关头\l"
+	.string "可就难办了。$"
 
 Route120_Text_JennaDefeat:
-	.string "I'm totally fit, but…$"
+	.string "我体力完全没问题，可是……$"
 
 Route120_Text_JennaPostBattle:
-	.string "Fitness training is in my routine.\n"
-	.string "I always run with my POKéMON.$"
+	.string "体能训练是我的日常。\n"
+	.string "我总是和宝可梦一起跑。$"
 
 Route120_Text_JeffreyIntro:
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle?$"
+	.string "………………\n"
+	.string "………………\l"
+	.string "要对战吗？$"
 
 Route120_Text_JeffreyDefeat:
-	.string "Lost it…$"
+	.string "没门……$"
 
 Route120_Text_JeffreyPostBattle:
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…$"
+	.string "………………\n"
+	.string "………………\l"
+	.string "我会更努力的……$"
 
 Route120_Text_JeffreyRegister:
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Do you have a POKéNAV…?$"
+	.string "………………\n"
+	.string "………………\l"
+	.string "你有导航吗……？$"
 
 Route120_Text_JeffreyRematchIntro:
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "Want to battle again?$"
+	.string "………………\n"
+	.string "………………\l"
+	.string "要再对战一次吗？$"
 
 Route120_Text_JeffreyRematchDefeat:
-	.string "… … … … … …\n"
-	.string "I lost again…$"
+	.string "………………\n"
+	.string "我又输了……$"
 
 Route120_Text_JeffreyPostRematch:
-	.string "… … … … … …\n"
-	.string "… … … … … …\l"
-	.string "I'll try harder…\l"
-	.string "For my precious BUG POKéMON…$"
+	.string "………………\n"
+	.string "………………\l"
+	.string "我会更努力的……\l"
+	.string "为了我珍贵的虫宝可梦……$"
 
 Route120_Text_JenniferIntro:
-	.string "POKéMON have many special abilities.\n"
-	.string "If you want to become a first-class\l"
-	.string "TRAINER, learn about them.$"
+	.string "宝可梦有很多特殊能力。\n"
+	.string "想成为一流训练家，\l"
+	.string "就得多了解它们。$"
 
 Route120_Text_JenniferDefeat:
-	.string "You're obviously thinking.$"
+	.string "你显然在思考。$"
 
 Route120_Text_JenniferPostBattle:
-	.string "The special abilities of POKéMON\n"
-	.string "will make battle styles change.$"
+	.string "宝可梦的特殊能力\n"
+	.string "会让对战风格改变。$"
 
 Route120_Text_ChipIntro:
-	.string "Who might you be?\p"
-	.string "Are you perhaps searching for ancient\n"
-	.string "ruins that are rumored to possibly\l"
-	.string "exist according to legend?$"
+	.string "你是谁？\p"
+	.string "你该不会是在找传说中\n"
+	.string "可能存在的古代遗迹吧？$"
 
 Route120_Text_ChipDefeat:
-	.string "What a disgraceful setback…$"
+	.string "真是丢脸的挫折……$"
 
 Route120_Text_ChipPostBattle:
-	.string "That giant rock… I would like to\n"
-	.string "believe it may indeed contain ancient\l"
-	.string "ruins. But I see no entrance.$"
+	.string "那块巨石……我愿意相信\n"
+	.string "里面真的藏着古代遗迹。$"
 
 Route120_Text_ClarissaIntro:
-	.string "Why am I carrying this parasol?\p"
-	.string "I'll tell you if you can win against me.$"
+	.string "我为什么带着阳伞？\p"
+	.string "你要是能赢我，我就告诉你。$"
 
 Route120_Text_ClarissaDefeat:
-	.string "A parasol can't ward off POKéMON\n"
-	.string "attacks…$"
+	.string "阳伞挡不住宝可梦的攻击……$"
 
 Route120_Text_ClarissaPostBattle:
-	.string "I don't think strong sunlight is good\n"
-	.string "for my POKéMON.\l"
-	.string "So I shield them with my parasol.$"
+	.string "我觉得强烈的阳光对\n"
+	.string "宝可梦不好。\l"
+	.string "所以我用阳伞替它们遮阳。$"
 
 Route120_Text_AngelicaIntro:
-	.string "Me, POKéMON, and my parasol…\p"
-	.string "If any one of them is missing,\n"
-	.string "the picture of beauty will be ruined.$"
+	.string "我、宝可梦和阳伞……\p"
+	.string "缺少任何一样，\n"
+	.string "美丽的画面就会被破坏。$"
 
 Route120_Text_AngelicaDefeat:
-	.string "You've completely ruined my beauty…$"
+	.string "你完全破坏了\n"
+	.string "我的美丽……$"
 
 Route120_Text_AngelicaPostBattle:
-	.string "A parasol wouldn't suit you at all.\p"
-	.string "Why, something like this would only\n"
-	.string "get in your way.$"
+	.string "阳伞一点也不适合你。\p"
+	.string "这种东西只会碍你的事。$"
 
 Route120_Text_KeigoIntro:
-	.string "I will adopt the movements of POKéMON\n"
-	.string "and create new ninja techniques.$"
+	.string "我要借鉴宝可梦的动作，\n"
+	.string "创造新的忍术。$"
 
 Route120_Text_KeigoDefeat:
-	.string "The creation of new ninja techniques\n"
-	.string "is but a distant dream…$"
+	.string "创造新忍术还只是\n"
+	.string "遥远的梦想……$"
 
 Route120_Text_KeigoPostBattle:
-	.string "Perhaps I ought to apprentice under\n"
-	.string "a ninja sensei.$"
+	.string "也许我该去拜个\n"
+	.string "忍者师傅。$"
 
 Route120_Text_RileyIntro:
-	.string "We ninja conceal ourselves under our\n"
-	.string "camouflage cloaks.\l"
-	.string "I bet you didn't know where I was!$"
+	.string "我们忍者靠迷彩披风\n"
+	.string "隐藏自己。\l"
+	.string "你肯定不知道我在哪！$"
 
 Route120_Text_RileyDefeat:
-	.string "I lost!\n"
-	.string "I should camouflage my shame!$"
+	.string "我输了！\n"
+	.string "我该用迷彩遮住这份羞耻！$"
 
 Route120_Text_RileyPostBattle:
-	.string "Our camouflage cloaks are all\n"
-	.string "handmade.$"
+	.string "我们的迷彩披风\n"
+	.string "全是手工做的。$"
 
 Route120_Text_CallieIntro:
-	.string "If you don't pay attention,\n"
-	.string "you could get hurt!$"
+	.string "不注意的话，\n"
+	.string "可是会受伤的！$"
 
 Route120_Text_CallieDefeat:
-	.string "Ouch!\n"
-	.string "I was the one to get hurt.$"
+	.string "哎哟！\n"
+	.string "受伤的是我。$"
 
 Route120_Text_CalliePostBattle:
-	.string "I wonder… Should I evolve my POKéMON?\n"
-	.string "They're cute the way they are, though.$"
+	.string "我在想……要不要让我的\n"
+	.string "宝可梦进化？\l"
+	.string "不过它们现在这样也很可爱。$"
 
 Route120_Text_LeonelIntro:
-	.string "Your party POKéMON…\n"
-	.string "Do you have different types?$"
+	.string "你的队伍宝可梦……\n"
+	.string "属性都不一样吗？$"
 
 Route120_Text_LeonelDefeat:
-	.string "I've seen your policy in action!$"
+	.string "我见识到你的做法了！$"
 
 Route120_Text_LeonelPostBattle:
-	.string "I think it's awesome you're so strong\n"
-	.string "battling with your favorite POKéMON.$"
+	.string "用自己最喜欢的宝可梦\n"
+	.string "还能这么强，真了不起。$"
 
 Route121_Text_VanessaIntro:
-	.string "Will you play with my delightfully\n"
-	.string "pretty POKéMON?$"
+	.string "要和我漂亮可爱的\n"
+	.string "宝可梦玩玩吗？$"
 
 Route121_Text_VanessaDefeat:
-	.string "This isn't what I meant!$"
+	.string "我不是这个意思！$"
 
 Route121_Text_VanessaPostBattle:
-	.string "I'm going to a CONTEST in LILYCOVE.\p"
-	.string "My POKéMON should have no problem\n"
-	.string "sweeping the MASTER CLASS.$"
+	.string "我要去琉璃市的华丽大赛。\p"
+	.string "我的宝可梦应该能横扫\n"
+	.string "大师组。$"
 
 Route121_Text_WalterIntro:
-	.string "With my POKéMON, I have traveled\n"
-	.string "to the world's four corners.\p"
-	.string "You might say I have some confidence\n"
-	.string "in my abilities.$"
+	.string "我和宝可梦一起走遍了\n"
+	.string "世界的四个角落。\p"
+	.string "可以说我对自己的\n"
+	.string "实力有点自信。$"
 
 Route121_Text_WalterDefeat:
-	.string "Ah, well played.$"
+	.string "啊，打得好。$"
 
 Route121_Text_WalterPostBattle:
-	.string "I would like to circle the globe once\n"
-	.string "again with my POKéMON.$"
+	.string "我想再和宝可梦\n"
+	.string "环游世界一次。$"
 
 Route121_Text_WalterRegister:
-	.string "Your POKéMON prowess is remarkable.\n"
-	.string "Allow me to register you as a memento.$"
+	.string "你的宝可梦实力很出色。\n"
+	.string "让我把你登记下来作纪念。$"
 
 Route121_Text_WalterRematchIntro:
-	.string "With my POKéMON, I have traveled\n"
-	.string "to the world's four corners.\p"
-	.string "You might say I have some confidence\n"
-	.string "in my abilities.$"
+	.string "我和宝可梦一起走遍了\n"
+	.string "世界的四个角落。\p"
+	.string "可以说我对自己的\n"
+	.string "实力有点自信。$"
 
 Route121_Text_WalterRematchDefeat:
-	.string "Ah, well played.$"
+	.string "啊，打得好。$"
 
 Route121_Text_WalterPostRematch:
-	.string "Your POKéMON and you…\p"
-	.string "Your prowess together will be\n"
-	.string "considered strong, even overseas.$"
+	.string "你和你的宝可梦……\p"
+	.string "你们的实力在国外\n"
+	.string "也算得上强大。$"
 
 Route121_Text_TammyIntro:
-	.string "There are powers beyond our\n"
-	.string "understanding in the world…$"
+	.string "这世上还有我们无法\n"
+	.string "理解的力量……$"
 
 Route121_Text_TammyDefeat:
-	.string "I have lost…$"
+	.string "我输了……$"
 
 Route121_Text_TammyPostBattle:
-	.string "MT. PYRE…\n"
-	.string "There is a mysterious power\l"
-	.string "at work there…$"
+	.string "送神山……\n"
+	.string "那里有神秘的力量\l"
+	.string "在起作用……$"
 
 Route121_Text_KateIntro:
-	.string "KATE: Together, we're fearless!\n"
-	.string "We'll demonstrate how tough we are!$"
+	.string "凯特：我们在一起就无敌！\n"
+	.string "让你看看我们有多强！$"
 
 Route121_Text_KateDefeat:
-	.string "KATE: I blew it in front of my junior\n"
-	.string "student partner…$"
+	.string "凯特：我在学妹面前\n"
+	.string "出丑了……$"
 
 Route121_Text_KatePostBattle:
-	.string "KATE: When someone's relying on me,\n"
-	.string "I get this urge to look cool in front\l"
-	.string "of them…$"
+	.string "凯特：有人依靠我时，\n"
+	.string "我就想在他们面前\l"
+	.string "表现得帅气一点……$"
 
 Route121_Text_KateNotEnoughMons:
-	.string "KATE: If you've only got one POKéMON,\n"
-	.string "we can't battle with you.\p"
-	.string "That would be bullying.$"
+	.string "凯特：你只有一只宝可梦，\n"
+	.string "我们没法和你打。\p"
+	.string "那算是欺负人了。$"
 
 Route121_Text_JoyIntro:
-	.string "JOY: Together, we're fearless!\n"
-	.string "We'll demonstrate how tough we are!$"
+	.string "乔依：我们在一起就无所畏惧！\n"
+	.string "让你看看我们有多强！$"
 
 Route121_Text_JoyDefeat:
-	.string "JOY: Please forgive me, KATE!$"
+	.string "乔依：请原谅我，凯特！$"
 
 Route121_Text_JoyPostBattle:
-	.string "JOY: Ehehe, I'll have to train with KATE,\n"
-	.string "my senior student partner, again.$"
+	.string "乔依：嘿嘿，我得再和学姐\n"
+	.string "凯特一起训练了。$"
 
 Route121_Text_JoyNotEnoughMons:
-	.string "JOY: You need at least two POKéMON\n"
-	.string "if you're going to challenge us!$"
+	.string "乔依：想挑战我们，\n"
+	.string "至少得带两只宝可梦！$"
 
 Route121_Text_JessicaIntro:
-	.string "Stop! Have a good look at my precious\n"
-	.string "POKéMON!$"
+	.string "站住！好好看看我珍贵的\n"
+	.string "宝可梦！$"
 
 Route121_Text_JessicaDefeat:
-	.string "Oh, how dare you!\n"
-	.string "Don't take it so seriously!$"
+	.string "哦，你太无礼了！\n"
+	.string "别这么认真嘛！$"
 
 Route121_Text_JessicaPostBattle:
-	.string "Maybe I'll go catch more POKéMON at\n"
-	.string "the SAFARI.$"
+	.string "也许我该去狩猎区\n"
+	.string "再抓些宝可梦。$"
 
 Route121_Text_JessicaRegister:
-	.string "I took it easy on you this time!\n"
-	.string "It won't be that way the next time!$"
+	.string "这次我手下留情了！\n"
+	.string "下次可不会这样！$"
 
 Route121_Text_JessicaRematchIntro:
-	.string "My precious POKéMON grew!\n"
-	.string "Have a good look!$"
+	.string "我珍贵的宝可梦长大了！\n"
+	.string "好好看看！$"
 
 Route121_Text_JessicaRematchDefeat:
-	.string "Oh, how dare you!\n"
-	.string "You still won't take it easy!$"
+	.string "哦，你太无礼了！\n"
+	.string "你还是不留情！$"
 
 Route121_Text_JessicaPostRematch:
-	.string "Maybe I'll go catch more POKéMON at\n"
-	.string "the SAFARI.$"
+	.string "也许我该去狩猎区\n"
+	.string "再抓些宝可梦。$"
 
 Route121_Text_CristinIntro:
-	.string "I have this routine.\n"
-	.string "Defeat five TRAINERS a day.\l"
-	.string "Guess what? You're number five!$"
+	.string "我有个习惯。\n"
+	.string "一天打倒五个训练家。\l"
+	.string "猜怎么着？你是第五个！$"
 
 Route121_Text_CristinDefeat:
-	.string "No!\n"
-	.string "You're horrid!$"
+	.string "不！\n"
+	.string "你真讨厌！$"
 
 Route121_Text_CristinPostBattle:
-	.string "I didn't expect to lose this easily…\n"
-	.string "I'll win next time!$"
+	.string "没想到会这么轻易输掉……\n"
+	.string "下次我一定赢！$"
 
 Route121_Text_CristinRegister:
-	.string "That was total humiliation!\n"
-	.string "I won't forget you…\l"
-	.string "Hand over your POKéNAV!$"
+	.string "太丢脸了！\n"
+	.string "我不会忘记你……\l"
+	.string "把导航交出来！$"
 
 Route121_Text_CristinRematchIntro:
-	.string "I have this new routine.\n"
-	.string "Defeat ten TRAINERS a day.\l"
-	.string "Guess what? You're number ten!$"
+	.string "我有了新习惯。\n"
+	.string "一天打倒十个训练家。\l"
+	.string "猜怎么着？你是第十个！$"
 
 Route121_Text_CristinRematchDefeat:
-	.string "Wait! That's nasty!\n"
-	.string "I demand a rematch!$"
+	.string "等等！太卑鄙了！\n"
+	.string "我要求再来一场！$"
 
 Route121_Text_CristinPostRematch:
-	.string "An opponent I just can't beat…\n"
-	.string "Snivel…\l"
-	.string "I can't believe this is happening…$"
+	.string "怎么我也赢不了的对手……\n"
+	.string "抽泣……\l"
+	.string "真不敢相信……$"
 
 Route121_Text_CaleIntro:
-	.string "Can't you see that I have all this\n"
-	.string "stuff with me?\p"
-	.string "Despite that, you still insist that\n"
-	.string "we battle?$"
+	.string "你没看到我手上\n"
+	.string "拿满了东西吗？\p"
+	.string "就算这样，你还非要\n"
+	.string "和我对战？$"
 
 Route121_Text_CaleDefeat:
-	.string "Of course I lost!\n"
-	.string "I'm holding stuff in both hands!$"
+	.string "我当然输了！\n"
+	.string "我两只手都占着呢！$"
 
 Route121_Text_CalePostBattle:
-	.string "I bought too much stuff at\n"
-	.string "the LILYCOVE DEPT. STORE.\p"
-	.string "It's up the road from here.\n"
-	.string "I wish I had a BAG like yours.$"
+	.string "我在琉璃百货大楼\n"
+	.string "买太多了。\p"
+	.string "就在前面那条路。\n"
+	.string "真想要个像你那样的背包。$"
 
 Route121_Text_MylesIntro:
-	.string "There's nothing I love more than\n"
-	.string "checking out other people's POKéMON!$"
+	.string "我最喜欢看别人的\n"
+	.string "宝可梦了！$"
 
 Route121_Text_MylesDefeat:
-	.string "Super awesome!$"
+	.string "太棒了！$"
 
 Route121_Text_MylesPostBattle:
-	.string "They're great, your POKéMON!\n"
-	.string "How do you raise them?$"
+	.string "你的宝可梦真棒！\n"
+	.string "你是怎么培养的？$"
 
 Route121_Text_PatIntro:
-	.string "I want everybody to see the POKéMON\n"
-	.string "I've raised!$"
+	.string "我想让大家都看看\n"
+	.string "我培养的宝可梦！$"
 
 Route121_Text_PatDefeat:
-	.string "Wow!\n"
-	.string "Spectacular!$"
+	.string "哇！\n"
+	.string "太精彩了！$"
 
 Route121_Text_PatPostBattle:
-	.string "I raise every POKéMON with the same\n"
-	.string "love and care--I don't pick favorites.$"
+	.string "我对每只宝可梦都一样\n"
+	.string "用心——从不偏心。$"
 
 Route121_Text_MarcelIntro:
-	.string "My POKéMON have never tasted defeat!\n"
-	.string "On their next win, I'm entering them\l"
-	.string "in CONTESTS.$"
+	.string "我的宝可梦从没输过！\n"
+	.string "下次赢了我就带它们\l"
+	.string "去参加华丽大赛。$"
 
 Route121_Text_MarcelDefeat:
-	.string "Oh, now what happened here?$"
+	.string "哦，这是怎么回事？$"
 
 Route121_Text_MarcelPostBattle:
-	.string "I may have to train my gang some more\n"
-	.string "before entering any CONTEST.$"
+	.string "看来我得再多训练一下\n"
+	.string "伙计们，才能参加华丽大赛。$"
 
 Route123_Text_WendyIntro:
-	.string "Want to determine how strong you are?\n"
-	.string "I'll be the test!$"
+	.string "想知道自己有多强吗？\n"
+	.string "我来做试金石！$"
 
 Route123_Text_WendyDefeat:
-	.string "You passed with flying colors!$"
+	.string "你以优异的成绩通过了！$"
 
 Route123_Text_WendyPostBattle:
-	.string "To best even me…\n"
-	.string "Your strength is marvelous!$"
+	.string "连我都赢了……\n"
+	.string "你的实力真了不起！$"
 
 Route123_Text_BraxtonIntro:
-	.string "You seem to have a big collection\n"
-	.string "of GYM BADGES.\p"
-	.string "Let me see if you're actually worthy of\n"
-	.string "those BADGES!$"
+	.string "你好像收集了不少\n"
+	.string "道馆徽章。\p"
+	.string "让我看看你到底\n"
+	.string "配不配得上那些徽章！$"
 
 Route123_Text_BraxtonDefeat:
-	.string "Oh, you're worthy, all right!$"
+	.string "哦，你确实配得上！$"
 
 Route123_Text_BraxtonPostBattle:
-	.string "You did your BADGES proud in that\n"
-	.string "match!$"
+	.string "那场比赛你没给徽章\n"
+	.string "丢脸！$"
 
 Route123_Text_VioletIntro:
-	.string "They say that good times are filled\n"
-	.string "with good aromas.$"
+	.string "据说快乐的时光\n"
+	.string "总是充满美好的香气。$"
 
 Route123_Text_VioletDefeat:
-	.string "Oh…\n"
-	.string "I smell the bitter scent of misery…$"
+	.string "哦……\n"
+	.string "我闻到了痛苦的苦味……$"
 
 Route123_Text_VioletPostBattle:
-	.string "The BERRY MASTER's garden is filled\n"
-	.string "with uplifting fragrances.$"
+	.string "树果名人的花园里\n"
+	.string "满是令人振奋的香气。$"
 
 Route123_Text_CameronIntro:
-	.string "Being a psychic is about willpower.\p"
-	.string "I've willed myself not to lose to\n"
-	.string "anyone. That makes me strong!$"
+	.string "超能力者靠的是意志。\p"
+	.string "我一直不允许自己输给\n"
+	.string "任何人。所以我很强！$"
 
 Route123_Text_CameronDefeat:
-	.string "I feel sad…$"
+	.string "我好难过……$"
 
 Route123_Text_CameronPostBattle:
-	.string "Being a psychic is about willpower.\n"
-	.string "I thought I wouldn't lose to you…$"
+	.string "超能力者靠的是意志。\n"
+	.string "我以为我不会输给你……$"
 
 Route123_Text_CameronRegister:
-	.string "I sense it!\n"
-	.string "You and I shall battle again!\l"
-	.string "I can't tell if I'll win, though…\p"
-	.string "Let's see your POKéNAV.$"
+	.string "我感觉到了！\n"
+	.string "我们还会再战的！\l"
+	.string "不过我不确定会不会赢……\p"
+	.string "让我看看你的导航。$"
 
 Route123_Text_CameronRematchIntro:
-	.string "I've convinced myself that I won't\n"
-	.string "lose anymore. That makes me strong!$"
+	.string "我已经说服自己\n"
+	.string "不会再输了。所以我很强！$"
 
 Route123_Text_CameronRematchDefeat:
-	.string "I feel sad…$"
+	.string "我好难过……$"
 
 Route123_Text_CameronPostRematch:
-	.string "I should train at MT. PYRE…\n"
-	.string "I'll never beat you this way…$"
+	.string "我该去送神山修行……\n"
+	.string "这样永远赢不了你……$"
 
 Route123_Text_JackiIntro:
-	.string "Don't be too happy if your POKéMON\n"
-	.string "develop psychic powers.\p"
-	.string "You need to refine those powers to\n"
-	.string "make them really useful.$"
+	.string "就算宝可梦觉醒了超能力，\n"
+	.string "也别太高兴。\p"
+	.string "得把那些力量磨炼好，\n"
+	.string "才真正有用。$"
 
 Route123_Text_JackiDefeat:
-	.string "Overwhelmed!$"
+	.string "被压倒了！$"
 
 Route123_Text_JackiPostBattle:
-	.string "We all have psychic powers.\n"
-	.string "We've just forgotten how to use them.$"
+	.string "我们都有超能力。\n"
+	.string "只是忘了怎么用。$"
 
 Route123_Text_JackiRegister:
-	.string "I would like to face you again.\n"
-	.string "Is that okay with you?$"
+	.string "我想再和你对战。\n"
+	.string "可以吗？$"
 
 Route123_Text_JackiRematchIntro:
-	.string "Have you awoken the psychic powers\n"
-	.string "within you?$"
+	.string "你觉醒了心中的\n"
+	.string "超能力了吗？$"
 
 Route123_Text_JackiRematchDefeat:
-	.string "Astounding!$"
+	.string "太惊人了！$"
 
 Route123_Text_JackiPostRematch:
-	.string "Your power with POKéMON…\n"
-	.string "That could be a psychic power, too.$"
+	.string "你和宝可梦之间的力量……\n"
+	.string "那也许也是一种超能力。$"
 
 Route123_Text_MiuIntro:
-	.string "MIU: Hello, TRAINER. I hope your\n"
-	.string "POKéMON won't cry when they lose.$"
+	.string "MIU：你好，训练家。希望你的\n"
+	.string "宝可梦输了不会哭。$"
 
 Route123_Text_MiuDefeat:
-	.string "MIU: Uh-oh, we lost.$"
+	.string "MIU：哎呀，我们输了。$"
 
 Route123_Text_MiuPostBattle:
-	.string "MIU: TRAINER, your POKéMON are\n"
-	.string "strong because you are friends.$"
+	.string "MIU：你的宝可梦很强，\n"
+	.string "因为你们是朋友。$"
 
 Route123_Text_MiuNotEnoughMons:
-	.string "MIU: It's no fun to battle if you\n"
-	.string "don't have two POKéMON.$"
+	.string "MIU：没有两只宝可梦\n"
+	.string "可不好玩。$"
 
 Route123_Text_YukiIntro:
-	.string "YUKI: Okay!\n"
-	.string "We're beating the TRAINER's POKéMON!$"
+	.string "由纪：好！\n"
+	.string "我们要打倒训练家的宝可梦！$"
 
 Route123_Text_YukiDefeat:
-	.string "YUKI: Uh-oh, we lost.$"
+	.string "由纪：哎呀，我们输了。$"
 
 Route123_Text_YukiPostBattle:
-	.string "YUKI: Why are you so strong?\n"
-	.string "We've never lost before.$"
+	.string "由纪：你为什么这么强？\n"
+	.string "我们从没输过。$"
 
 Route123_Text_YukiNotEnoughMons:
-	.string "YUKI: It's no fun to battle if you\n"
-	.string "don't have two POKéMON.$"
+	.string "由纪：没有两只宝可梦\n"
+	.string "可不好玩。$"
 
 Route123_Text_KindraIntro:
-	.string "MT. PYRE…\n"
-	.string "Where the spirits of POKéMON sleep…\l"
-	.string "Will your POKéMON sleep?$"
+	.string "送神山……\n"
+	.string "宝可梦之灵沉睡之地……\l"
+	.string "你的宝可梦会沉睡吗？$"
 
 Route123_Text_KindraDefeat:
-	.string "Overflowing with vitality…$"
+	.string "充满生命力……$"
 
 Route123_Text_KindraPostBattle:
-	.string "MT. PYRE…\n"
-	.string "Where the spirits of POKéMON sleep…\p"
-	.string "It must overflow with a power that\n"
-	.string "soothes spirits…$"
+	.string "送神山……\n"
+	.string "宝可梦之灵沉睡之地……\p"
+	.string "那里一定充满着\n"
+	.string "安抚灵魂的力量……$"
 
 Route123_Text_FernandoIntro:
-	.string "I'll turn your lights out while\n"
-	.string "I rip through this tune!$"
+	.string "我要在这段演奏中\n"
+	.string "把你打败！$"
 
 Route123_Text_FernandoDefeat:
-	.string "Hey, hold it!\n"
-	.string "I was still playing the intro!$"
+	.string "喂，等等！\n"
+	.string "我还在弹前奏啊！$"
 
 Route123_Text_FernandoPostBattle:
-	.string "You're rock steady.\n"
-	.string "I'd like to write a tune about you.$"
+	.string "你稳如磐石。\n"
+	.string "我想为你写一首曲子。$"
 
 Route123_Text_FernandoRegister:
-	.string "The next time, lend your ears to\n"
-	.string "the full tune, will you?$"
+	.string "下次，请把整首曲子\n"
+	.string "听完好吗？$"
 
 Route123_Text_FernandoRematchIntro:
-	.string "Today's the day I'm going to do it!\n"
-	.string "I'll turn out your lights before\l"
-	.string "I finish singing my song!$"
+	.string "今天我一定要做到！\n"
+	.string "在我唱完之前\l"
+	.string "就把你打败！$"
 
 Route123_Text_FernandoRematchDefeat:
-	.string "Hey, hold it!\n"
-	.string "I haven't even hit the chorus!$"
+	.string "喂，等等！\n"
+	.string "我还没唱到副歌！$"
 
 Route123_Text_FernandoPostRematch:
-	.string "I thought you'd be so enthralled\n"
-	.string "by my tune, you'd lose.$"
+	.string "我还以为你会被我的曲子\n"
+	.string "迷得输掉呢。$"
 
 Route123_Text_DavisIntro:
-	.string "This is my awesome BUG POKéMON!\n"
-	.string "My big brother got it for me.$"
+	.string "这是我超棒的虫宝可梦！\n"
+	.string "是我哥哥给我的。$"
 
 Route123_Text_DavisDefeat:
-	.string "Waaaah!\n"
-	.string "You meanie!$"
+	.string "哇！\n"
+	.string "你这个坏蛋！$"
 
 Route123_Text_DavisPostBattle:
-	.string "Don't tell my brother I lost.\n"
-	.string "You have to keep it a secret!$"
+	.string "别告诉我哥哥我输了。\n"
+	.string "你必须保密！$"
 
 Route123_Text_JazmynIntro:
-	.string "My confidence will get a boost by\n"
-	.string "beating someone obviously strong!$"
+	.string "打赢明显很强的人，\n"
+	.string "能大大增加我的自信！$"
 
 Route123_Text_JazmynDefeat:
-	.string "There goes my confidence…$"
+	.string "我的自信没了……$"
 
 Route123_Text_JazmynPostBattle:
-	.string "They say that you can't judge a person\n"
-	.string "by their appearance.\p"
-	.string "But often, their looks don't lie…$"
+	.string "都说不能以貌取人。\p"
+	.string "不过很多时候，\n"
+	.string "外表并不会骗人……$"
 
 Route123_Text_FrederickIntro:
-	.string "Hello, child!\n"
-	.string "Can you spare some time?$"
+	.string "你好，孩子！\n"
+	.string "能抽出点时间吗？$"
 
 Route123_Text_FrederickDefeat:
-	.string "Ah, a mighty capable child!\n"
-	.string "Let me contribute to your allowance.$"
+	.string "啊，真是能干的孩子！\n"
+	.string "让我给你的零花钱添一点吧。$"
 
 Route123_Text_FrederickPostBattle:
-	.string "Contribute to your allowance?\n"
-	.string "Wasn't the prize money enough?$"
+	.string "给你的零花钱添一点？\n"
+	.string "奖金还不够吗？$"
 
 Route123_Text_AlbertoIntro:
-	.string "I have to tell you, BIRD POKéMON\n"
-	.string "are my obsession!\p"
-	.string "Birds are cool!\n"
-	.string "They're the best!$"
+	.string "我得告诉你，我对\n"
+	.string "鸟宝可梦简直是痴迷！\p"
+	.string "鸟很酷！\n"
+	.string "它们是最棒的！$"
 
 Route123_Text_AlbertoDefeat:
-	.string "Even in defeat, BIRD POKéMON are cool!$"
+	.string "就算输了，鸟宝可梦也很酷！$"
 
 Route123_Text_AlbertoPostBattle:
-	.string "I gather BIRD POKéMON feathers that\n"
-	.string "scatter during battles.\p"
-	.string "I'm going to make a hat with\n"
-	.string "BIRD POKéMON feathers.$"
+	.string "我收集对战时掉落的\n"
+	.string "鸟宝可梦羽毛。\p"
+	.string "我要用鸟宝可梦的羽毛\n"
+	.string "做一顶帽子。$"
 
 Route123_Text_EdIntro:
-	.string "When there are no TRAINERS around,\n"
-	.string "I let my POKéMON battle each other.\l"
-	.string "I watch them.$"
+	.string "附近没有训练家时，\n"
+	.string "我让宝可梦互相对战。\l"
+	.string "我在旁边看。$"
 
 Route123_Text_EdDefeat:
-	.string "I kind of like your POKéMON.$"
+	.string "我有点喜欢你的宝可梦。$"
 
 Route123_Text_EdPostBattle:
-	.string "Hehe, I'm swiping your battling ideas!\n"
-	.string "I think they'll make me better.$"
+	.string "嘿嘿，我在偷学你的点子！\n"
+	.string "我觉得那会让我变强。$"
 
 Route123_Text_JonasIntro:
-	.string "I lay in ambush, and a TRAINER has\n"
-	.string "landed in my trap!$"
+	.string "我在这里埋伏，\n"
+	.string "结果有训练家落进我的陷阱！$"
 
 Route123_Text_JonasDefeat:
-	.string "If you don't lose, how am I supposed\n"
-	.string "to have fun playing ninja?$"
+	.string "你都不输，\n"
+	.string "我还怎么玩忍者游戏？$"
 
 Route123_Text_JonasPostBattle:
-	.string "I'm going to ambush a weaker-looking\n"
-	.string "TRAINER next time.$"
+	.string "下次我要埋伏\n"
+	.string "看起来更弱的训练家。$"
 
 Route123_Text_KayleyIntro:
-	.string "I just bought this parasol.\n"
-	.string "My cuteness should be up by a third!$"
+	.string "我刚买了这把阳伞。\n"
+	.string "我的可爱度应该提升三成！$"
 
 Route123_Text_KayleyDefeat:
-	.string "You're better than me by about\n"
-	.string "five times!$"
+	.string "你比我强大约五倍！$"
 
 Route123_Text_KayleyPostBattle:
-	.string "Using accessories effectively is\n"
-	.string "the secret behind fashion appeal.$"
+	.string "善用饰品，\n"
+	.string "才是时尚魅力的秘诀。$"
 
 Route124_Text_SpencerIntro:
-	.string "Hey, are you lost at sea?\p"
-	.string "If you can beat my POKéMON,\n"
-	.string "I can serve as your pilot.$"
+	.string "多美的景色啊，\n"
+	.string "正好让我练火舞！$"
 
 Route124_Text_SpencerDefeat:
-	.string "I lost my bearings in battle!$"
+	.string "火灭了！$"
 
 Route124_Text_SpencerPostBattle:
-	.string "Many people lose their bearings at sea.\p"
-	.string "If you're that sort, you should refer\n"
-	.string "to the POKéNAV's MAP.$"
+	.string "这附近甚至开始\n"
+	.string "长草了。$"
 
 Route124_Text_RolandIntro:
-	.string "Hm! You're riding a POKéMON instead\n"
-	.string "of swimming yourself…\p"
-	.string "I am envious!$"
+	.string "嗯！你自己不游，\n"
+	.string "骑在宝可梦上……\p"
+	.string "真让我羡慕！$"
 
 Route124_Text_RolandDefeat:
-	.string "Oh!\n"
-	.string "I can't…$"
+	.string "哦！\n"
+	.string "我不行了……$"
 
 Route124_Text_RolandPostBattle:
-	.string "I'm getting chilled…\n"
-	.string "I've been in the water too long…\p"
-	.string "I wish I could ride a POKéMON like you…$"
+	.string "我冷起来了……\n"
+	.string "在水里待太久了……\p"
+	.string "真想像你一样骑宝可梦……$"
 
 Route124_Text_JennyIntro:
-	.string "If you just float in the sea like\n"
-	.string "this, POKéMON come around to play.$"
+	.string "我一直在等强者\n"
+	.string "出现！$"
 
 Route124_Text_JennyDefeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "你太强了！$"
 
 Route124_Text_JennyPostBattle:
-	.string "While swimming, I noticed that some\n"
-	.string "POKéMON attack, and some just watch.\p"
-	.string "I guess POKéMON have personalities\n"
-	.string "of their own.$"
+	.string "训练时我注意到，有些宝可梦\n"
+	.string "会主动攻击，有些只是看着。\p"
+	.string "我想宝可梦也有\n"
+	.string "自己的个性吧。$"
 
 Route124_Text_JennyRegister:
-	.string "It's only on a whim, but maybe I'll get\n"
-	.string "you to register me in your POKéNAV.$"
+	.string "虽然只是一时兴起，不过\n"
+	.string "也许可以请你登记我一下。$"
 
 Route124_Text_JennyRematchIntro:
-	.string "If you just float in the sea like this,\n"
-	.string "TRAINERS challenge you!$"
+	.string "就这样漂在海上，\n"
+	.string "就会有训练家来挑战你！$"
 
 Route124_Text_JennyRematchDefeat:
-	.string "That's strange…\n"
-	.string "I lost again…$"
+	.string "真奇怪……\n"
+	.string "我又输了……$"
 
 Route124_Text_JennyPostRematch:
-	.string "This has nothing to do with anything,\n"
-	.string "but maybe I'll visit the TRICK HOUSE.$"
+	.string "这跟什么都无关，不过\n"
+	.string "也许我该去机关屋看看。$"
 
 Route124_Text_GraceIntro:
-	.string "I'm growing bored of swimming…\n"
-	.string "How about a battle?$"
+	.string "这炽热的阳光造出了\n"
+	.string "一片小沙滩……怎么样？$"
 
 Route124_Text_GraceDefeat:
-	.string "I had no idea that you were\n"
-	.string "this strong!$"
+	.string "你毁了我在沙滩上的训练！$"
 
 Route124_Text_GracePostBattle:
-	.string "All the effort you put in must have\n"
-	.string "made you this strong.$"
+	.string "我该带防晒霜的。$"
 
 Route124_Text_ChadIntro:
-	.string "Fufufufu… I dive deep underwater\n"
-	.string "to go deep under cover.\l"
-	.string "Plumbing the depths is where I excel!$"
+	.string "呵呵呵……我潜入深水，\n"
+	.string "是为了做深度卧底。\l"
+	.string "探查深处正是我的专长！$"
 
 Route124_Text_ChadDefeat:
-	.string "Glub, glub, glub…\n"
-	.string "I'm sinking…$"
+	.string "咕噜、咕噜……\n"
+	.string "我在下沉……$"
 
 Route124_Text_ChadPostBattle:
-	.string "I have it on good authority that\n"
-	.string "there's a DIVE spot around here.\p"
-	.string "It gives me the urge to go deep\n"
-	.string "again…$"
+	.string "我有可靠消息说，\n"
+	.string "这附近有个潜水点。\p"
+	.string "这让我又想去深处了……$"
 
 Route124_Text_LilaIntro:
-	.string "LILA: Sigh…\p"
-	.string "Here I am in the sea, but who's with me?\n"
-	.string "My little brother!\p"
-	.string "Let's battle so I won't have to dwell\n"
-	.string "on that!$"
+	.string "莉拉：唉……\p"
+	.string "我来到了海边，可身边是谁？\n"
+	.string "是我弟弟！\p"
+	.string "来对战吧，省得我老想这些！$"
 
 Route124_Text_LilaDefeat:
-	.string "LILA: ROY! It's your fault we lost!\n"
-	.string "You're in for it later!$"
+	.string "莉拉：ROY！输了都怪你！\n"
+	.string "等会儿有你受的！$"
 
 Route124_Text_LilaPostBattle:
-	.string "LILA: Sigh…\p"
-	.string "If only it wasn't my little brother\n"
-	.string "next to me, but a nice boyfriend…$"
+	.string "莉拉：唉……\p"
+	.string "要是身边是个帅哥就好了……$"
 
 Route124_Text_LilaNotEnoughMons:
-	.string "LILA: You're planning to battle us?\n"
-	.string "Not unless you have two POKéMON.$"
+	.string "莉拉：你想和我们打？\n"
+	.string "没有两只宝可梦可不行。$"
 
 Route124_Text_RoyIntro:
-	.string "ROY: My big sister is tough at POKéMON!\p"
-	.string "Don't cry when you lose!$"
+	.string "罗伊：我姐姐对战很厉害！\p"
+	.string "输了可别哭！$"
 
 Route124_Text_RoyDefeat:
-	.string "ROY: Uh-oh…\n"
-	.string "My big sister will chew me out…$"
+	.string "罗伊：糟了……\n"
+	.string "姐姐要骂我了……$"
 
 Route124_Text_RoyPostBattle:
-	.string "ROY: My big sister is really scary\n"
-	.string "when she gets angry.\p"
-	.string "That's why she doesn't have a\n"
-	.string "boyfriend.$"
+	.string "罗伊：我姐姐生气时\n"
+	.string "真的很可怕。\p"
+	.string "所以她才没有男朋友。$"
 
 Route124_Text_LilaRoyRegister:
-	.string "ROY: Will you battle with us again?\n"
-	.string "But take it easy next time, okay?$"
+	.string "罗伊：你还会再和我们打吗？\n"
+	.string "不过下次让着我们点，好吗？$"
 
 Route124_Text_RoyNotEnoughMons:
-	.string "ROY: Did you want to battle us?\n"
-	.string "Bring two POKéMON, then.$"
+	.string "罗伊：你想和我们打？\n"
+	.string "那就带两只宝可梦来。$"
 
 Route124_Text_LilaRematchIntro:
-	.string "LILA: Sigh…\p"
-	.string "Here I am in the sea, but who's with me?\n"
-	.string "My little brother!\p"
-	.string "Oh, hi, it's been a while. Let's battle\n"
-	.string "so I won't have to dwell on things!$"
+	.string "莉拉：唉……\p"
+	.string "我来到了海边，可身边是谁？\n"
+	.string "是我弟弟！\p"
+	.string "哦，好久不见，来对战吧！$"
 
 Route124_Text_LilaRematchDefeat:
-	.string "LILA: ROY!\n"
-	.string "It's your fault we lost again!\p"
-	.string "We're having a training session later!$"
+	.string "莉拉：ROY！\n"
+	.string "又输了，都怪你！\p"
+	.string "等会儿要特训！$"
 
 Route124_Text_LilaPostRematch:
-	.string "LILA: Sigh…\p"
-	.string "If I had a nice boyfriend, we'd beat\n"
-	.string "anyone with lovely combinations…$"
+	.string "莉拉：唉……\p"
+	.string "要是身边是个帅哥就好了……\n"
+	.string "一定能配合赢过任何人……$"
 
 Route124_Text_LilaRematchNotEnoughMons:
-	.string "LILA: You're planning to battle us?\n"
-	.string "Not unless you have two POKéMON.$"
+	.string "莉拉：你想和我们打？\n"
+	.string "没有两只宝可梦可不行。$"
 
 Route124_Text_RoyRematchIntro:
-	.string "ROY: If we lose, I'll catch heck.\n"
-	.string "I'm going to go totally all out!$"
+	.string "罗伊：要是输了，我可要挨骂。\n"
+	.string "我要全力以赴！$"
 
 Route124_Text_RoyRematchDefeat:
-	.string "ROY: Uh-oh…\n"
-	.string "My big sister will chew me out again.$"
+	.string "罗伊：糟了……\n"
+	.string "姐姐又要骂我了。$"
 
 Route124_Text_RoyPostRematch:
-	.string "ROY: My big sister is really scary\n"
-	.string "when she gets angry.\p"
-	.string "She's going to make me train really\n"
-	.string "hard with POKéMON later…$"
+	.string "罗伊：我姐姐生气时\n"
+	.string "真的很可怕。\p"
+	.string "等会儿她肯定要逼着\n"
+	.string "我拼命训练……$"
 
 Route124_Text_RoyRematchNotEnoughMons:
-	.string "ROY: Did you want to battle us?\n"
-	.string "Bring two POKéMON, then.$"
+	.string "罗伊：你想和我们打？\n"
+	.string "那就带两只宝可梦来。$"
 
 Route124_Text_DeclanIntro:
-	.string "Here I am swimming by my lonesome\n"
-	.string "on this wide, beautiful sea.\p"
-	.string "There's no other word for it.\n"
-	.string "This is pathetic!$"
+	.string "我在这种热天训练已经\n"
+	.string "出了一身汗。随时能打！$"
 
 Route124_Text_DeclanDefeat:
-	.string "I'm feeling blue.\n"
-	.string "Blue as the sky…$"
+	.string "只好冷静一下了……$"
 
 Route124_Text_DeclanPostBattle:
-	.string "I should chat up lady SWIMMERS\n"
-	.string "and invite them on a long swim.$"
+	.string "稍微休息一下没坏处。$"
 
 Route124_Text_IsabellaIntro:
-	.string "I'm not going to lose to some\n"
-	.string "surfer TRAINER.$"
+	.string "我才不是小孩子！$"
 
 Route124_Text_IsabellaDefeat:
-	.string "I've only got sweat in my eyes!\n"
-	.string "I am not crying!$"
+	.string "我只是眼睛里进了汗！\n"
+	.string "我没哭！$"
 
 Route124_Text_IsabellaPostBattle:
-	.string "You can find pretty colored shards\n"
-	.string "of things around here.$"
+	.string "这附近能找到\n"
+	.string "颜色漂亮的碎片。$"
 
 Route125_Text_NolenIntro:
-	.string "I heard you approaching, so I hung\n"
-	.string "around for you!$"
+	.string "我听到你过来了，\n"
+	.string "就一直等着你！$"
 
 Route125_Text_NolenDefeat:
-	.string "I surrender!$"
+	.string "我投降！$"
 
 Route125_Text_NolenPostBattle:
-	.string "Sound travels faster in water than\n"
-	.string "it does through air.$"
+	.string "声音在水里比在空气中\n"
+	.string "传播得更快。$"
 
 Route125_Text_StanIntro:
-	.string "Hey, there!\n"
-	.string "Check out my sweet POKéMON!$"
+	.string "喂，你好！\n"
+	.string "看看我可爱的宝可梦！$"
 
 Route125_Text_StanDefeat:
-	.string "I floundered…$"
+	.string "我手脚都乱了……$"
 
 Route125_Text_StanPostBattle:
-	.string "I was blown away by HORSEA's charm,\n"
-	.string "so I started swimming, too.$"
+	.string "我被墨海马的魅力迷住，\n"
+	.string "于是也开始游泳了。$"
 
 Route125_Text_TanyaIntro:
-	.string "I'm tired of swimming.\n"
-	.string "Are you up for a battle with me?$"
+	.string "我游累了。\n"
+	.string "要和我打一场吗？$"
 
 Route125_Text_TanyaDefeat:
-	.string "You're too much!$"
+	.string "你太过分了！$"
 
 Route125_Text_TanyaPostBattle:
-	.string "Whew…\n"
-	.string "Which way is it to MOSSDEEP CITY?$"
+	.string "呼……\n"
+	.string "绿岭市往哪边走？$"
 
 Route125_Text_SharonIntro:
-	.string "How would you like to take on the\n"
-	.string "WATER-type POKéMON I raised?$"
+	.string "要不要和我培养的\n"
+	.string "水属性宝可梦对战？$"
 
 Route125_Text_SharonDefeat:
-	.string "Lost it…$"
+	.string "输了啊……$"
 
 Route125_Text_SharonPostBattle:
-	.string "Your power… You're the real deal.\n"
-	.string "I'm amazed!$"
+	.string "你的实力……真是名不虚传。\n"
+	.string "我服了！$"
 
 Route125_Text_ErnestIntro:
-	.string "Ahoy! I'm a buff, tough SAILOR!\n"
-	.string "I've braved the world's seas!$"
+	.string "哟！我是壮实的水手！\n"
+	.string "我闯过世界的大海！$"
 
 Route125_Text_ErnestDefeat:
-	.string "Gwrroooar!\n"
-	.string "I couldn't win!$"
+	.string "嗷呜！\n"
+	.string "我赢不了！$"
 
 Route125_Text_ErnestPostBattle:
-	.string "The tide ebbs and flows inside the\n"
-	.string "SHOAL CAVE.\p"
-	.string "By the way, it's about six hours from\n"
-	.string "high tide to low tide. Did you know?$"
+	.string "浅滩洞穴里的潮水\n"
+	.string "会涨会退。\p"
+	.string "顺便说，从满潮到干潮\n"
+	.string "约六小时。你知道吗？$"
 
 Route125_Text_ErnestRegister:
-	.string "Register me in your POKéNAV,\n"
-	.string "and I'll tell you something good.$"
+	.string "把我登记进你的导航，\n"
+	.string "我就告诉你件好事。$"
 
 Route125_Text_ErnestRematchIntro:
-	.string "It's high time I get my payback\n"
-	.string "from you! Come on, we're battling!$"
+	.string "是时候向你报仇了！\n"
+	.string "来吧，对战！$"
 
 Route125_Text_ErnestRematchDefeat:
-	.string "I couldn't win!\n"
-	.string "I flat out couldn't win!$"
+	.string "赢不了！\n"
+	.string "我完全赢不了！$"
 
 Route125_Text_ErnestRematchPostBattle:
-	.string "The SHOAL CAVE…\p"
-	.string "There are places you can and can't\n"
-	.string "get to depending on the rise and fall\l"
-	.string "of the tide.\p"
-	.string "By the way, it's about six hours from\n"
-	.string "high tide to low tide. Don't forget!$"
+	.string "浅滩洞穴……\p"
+	.string "随着潮水涨落，有些地方\n"
+	.string "能去，有些地方去不了。\p"
+	.string "顺便说，从满潮到干潮\n"
+	.string "约六小时。别忘了！$"
 
 Route125_Text_KimIntro:
-	.string "KIM: A funny old man lives in the\n"
-	.string "SHOAL CAVE. Someone told me.\l"
-	.string "Are you going to see him, too?$"
+	.string "金：听说浅滩洞穴里\n"
+	.string "住着一个有趣的老爷爷。\l"
+	.string "你也要去看他吗？$"
 
 Route125_Text_KimDefeat:
-	.string "KIM: I thought we would win.$"
+	.string "金：我还以为我们会赢。$"
 
 Route125_Text_KimPostBattle:
-	.string "KIM: A funny old man lives in the\n"
-	.string "SHOAL CAVE, doesn't he?\p"
-	.string "Let's go see him, IRIS!$"
+	.string "金：浅滩洞穴里住着\n"
+	.string "一个有趣的老爷爷吧？\p"
+	.string "我们去看他吧，艾莉丝！$"
 
 Route125_Text_KimNotEnoughMons:
-	.string "KIM: No, no, no! You need two POKéMON,\n"
-	.string "or it's just no good!$"
+	.string "金：不行不行！没有两只\n"
+	.string "宝可梦可不行！$"
 
 Route125_Text_IrisIntro:
-	.string "IRIS: KIM, can you tell me what we're\n"
-	.string "looking for out here?$"
+	.string "艾莉丝：金，你能告诉我\n"
+	.string "我们在这里找什么吗？$"
 
 Route125_Text_IrisDefeat:
-	.string "IRIS: Oh, we came sort of close.$"
+	.string "艾莉丝：哦，我们好像差一点。$"
 
 Route125_Text_IrisPostBattle:
-	.string "IRIS: KIM, are we really going into\n"
-	.string "the SHOAL CAVE?\l"
-	.string "We'll get all wet.$"
+	.string "艾莉丝：金，我们真的要\n"
+	.string "进浅滩洞穴吗？\l"
+	.string "会全身湿透的。$"
 
 Route125_Text_IrisNotEnoughMons:
-	.string "IRIS: Oh, we could never, ever do\n"
-	.string "anything like a 2-on-1 battle.$"
+	.string "艾莉丝：哦，我们绝对不会\n"
+	.string "做二对一这种事。$"
 
 Route125_Text_PresleyIntro:
-	.string "Why would a BIRDKEEPER like me\n"
-	.string "come out to the sea?$"
+	.string "像我这样的养鸟人\n"
+	.string "为什么来到海边？$"
 
 Route125_Text_PresleyDefeat:
-	.string "Okay.\n"
-	.string "I'll tell you why I'm here.$"
+	.string "好吧。\n"
+	.string "我告诉你我为什么在这里。$"
 
 Route125_Text_PresleyPostBattle:
-	.string "I put a message in a bottle and put\n"
-	.string "it out to sea.\p"
-	.string "I'm sure that a girl SWIMMER will\n"
-	.string "find it!$"
+	.string "我把一封信装进瓶子\n"
+	.string "放进了大海。\p"
+	.string "我相信会有女泳装训练家\n"
+	.string "捡到它！$"
 
 Route125_Text_AuronIntro:
-	.string "Hey! Was it you throwing garbage\n"
-	.string "into the sea?$"
+	.string "喂！是你往海里\n"
+	.string "扔垃圾吗？$"
 
 Route125_Text_AuronDefeat:
-	.string "Oh, you weren't throwing trash into\n"
-	.string "the sea.$"
+	.string "哦，你不是往海里\n"
+	.string "扔垃圾啊。$"
 
 Route125_Text_AuronPostBattle:
-	.string "I found an unsightly bottle bobbing\n"
-	.string "in the waves earlier.\p"
-	.string "It angers me that someone would\n"
-	.string "pollute the sea!$"
+	.string "我刚才在波浪里发现\n"
+	.string "一个难看的瓶子。\p"
+	.string "有人污染大海，\n"
+	.string "真让我生气！$"
 
 Route126_Text_BarryIntro:
-	.string "Swimming is a full-body workout!\n"
-	.string "You will get fit!$"
+	.string "游泳是全身运动！\n"
+	.string "会让你变结实！$"
 
 Route126_Text_BarryDefeat:
-	.string "I admit it!\n"
-	.string "You win!$"
+	.string "我认输！\n"
+	.string "你赢了！$"
 
 Route126_Text_BarryPostBattle:
-	.string "Thanks to my daily swimming routine…\n"
-	.string "Look! Feast your eyes on this physique!$"
+	.string "多亏了每天游泳……\n"
+	.string "看！尽情欣赏这身材吧！$"
 
 Route126_Text_DeanIntro:
-	.string "This towering white mountain of rock\n"
-	.string "is SOOTOPOLIS CITY.$"
+	.string "这座高耸的白色岩石山\n"
+	.string "就是琉璃市。$"
 
 Route126_Text_DeanDefeat:
-	.string "I was done in?$"
+	.string "我被干掉了？$"
 
 Route126_Text_DeanPostBattle:
-	.string "I can't find the entrance to\n"
-	.string "SOOTOPOLIS. Where could it be?$"
+	.string "我找不到琉璃市的\n"
+	.string "入口。到底在哪呢？$"
 
 Route126_Text_NikkiIntro:
-	.string "Ufufufufu!\n"
-	.string "I'm a mermaid!$"
+	.string "呵呵呵呵！\n"
+	.string "我是美人鱼！$"
 
 Route126_Text_NikkiDefeat:
-	.string "My fantasy burst as if it were a bubble!\n"
-	.string "Blub, blub, blub…$"
+	.string "我的幻想像气泡一样破了！\n"
+	.string "咕噜、咕噜……$"
 
 Route126_Text_NikkiPostBattle:
-	.string "You thrashed me… I want to\n"
-	.string "disappear in a wave of despair…$"
+	.string "你把我打败了……我真想\n"
+	.string "在绝望的浪里消失……$"
 
 Route126_Text_BrendaIntro:
-	.string "Hello, kiddo!\n"
-	.string "Want a battle with me?$"
+	.string "你好，小朋友！\n"
+	.string "要和我打一场吗？$"
 
 Route126_Text_BrendaDefeat:
-	.string "Oh, noooooh!$"
+	.string "哦，不——！$"
 
 Route126_Text_BrendaPostBattle:
-	.string "I love frolicking with POKéMON in\n"
-	.string "the sea like this!$"
+	.string "我最爱像这样和宝可梦\n"
+	.string "在海里嬉戏！$"
 
 Route126_Text_PabloIntro:
-	.string "Check out this sculpted body!\n"
-	.string "I'm more cut than a BLACK BELT!$"
+	.string "看看这健美的身体！\n"
+	.string "我比空手道王还要有型！$"
 
 Route126_Text_PabloDefeat:
-	.string "Whoops! Too strong!\n"
-	.string "Not bad! Not bad at all!$"
+	.string "哎呀！太强了！\n"
+	.string "不错！真的很不错！$"
 
 Route126_Text_PabloPostBattle:
-	.string "Losing to you stimulated my senses!\n"
-	.string "I'll train myself and POKéMON harder!$"
+	.string "输给你刺激了我的感官！\n"
+	.string "我要更努力锻炼！$"
 
 Route126_Text_PabloRegister:
-	.string "Yep, you're not bad at all!\n"
-	.string "I'd like to get to know you more!$"
+	.string "对，你真的很不错！\n"
+	.string "我想更了解你！$"
 
 Route126_Text_PabloRematchIntro:
-	.string "Check out this beautiful body!\n"
-	.string "I'm more shapely than a SWIMMER!$"
+	.string "看看这美丽的身体！\n"
+	.string "我比泳装女还要匀称！$"
 
 Route126_Text_PabloRematchDefeat:
-	.string "Whoops! Really too strong!\n"
-	.string "Not bad! Not bad at all!$"
+	.string "哎呀！真的太强了！\n"
+	.string "不错！真的很不错！$"
 
 Route126_Text_PabloPostRematch:
-	.string "I'm going to train even harder!\n"
-	.string "You're a great motivator!\l"
-	.string "You have to come back again!$"
+	.string "我要更刻苦地训练！\n"
+	.string "你真是很好的激励！\l"
+	.string "你一定要再来！$"
 
 Route126_Text_LeonardoIntro:
-	.string "I couldn't even swim last year,\n"
-	.string "but now I'm a decent SWIMMER.\p"
-	.string "I think I'm capable of anything now.$"
+	.string "去年我还不会游泳，\n"
+	.string "但现在我是像样的泳装男了。\p"
+	.string "我觉得现在什么都能做到。$"
 
 Route126_Text_LeonardoDefeat:
-	.string "Sheesh, getting greedy didn't do\n"
-	.string "a thing for me.$"
+	.string "唉，贪心一点用也没有。$"
 
 Route126_Text_LeonardoPostBattle:
-	.string "If you practice at something,\n"
-	.string "you will get better at it.\p"
-	.string "You're young--don't be afraid to\n"
-	.string "try all sorts of things!$"
+	.string "只要练习，什么都会\n"
+	.string "变得更好。\p"
+	.string "你还年轻——别怕\n"
+	.string "尝试各种事情！$"
 
 Route126_Text_IsobelIntro:
-	.string "If seawater gets up your nose,\n"
-	.string "doesn't it feel terrible?$"
+	.string "海水呛进鼻子里，\n"
+	.string "是不是很难受？$"
 
 Route126_Text_IsobelDefeat:
-	.string "Ack! Why, you…\n"
-	.string "Glub!$"
+	.string "呃！你、你这个……\n"
+	.string "咕噜！$"
 
 Route126_Text_IsobelPostBattle:
-	.string "Ooh, I choked on some water!\n"
-	.string "It's bitter! It's salty!!$"
+	.string "哦，我呛到水了！\n"
+	.string "又苦又咸！！$"
 
 Route126_Text_SiennaIntro:
-	.string "I'm throwing my whole heart\n"
-	.string "into this!$"
+	.string "我可是把全部心意\n"
+	.string "都投进去了！$"
 
 Route126_Text_SiennaDefeat:
-	.string "You had more heart!$"
+	.string "你的心意更多！$"
 
 Route126_Text_SiennaPostBattle:
-	.string "I need to cool down now…\n"
-	.string "I think I'll go for a dive.$"
+	.string "我现在得冷静一下……\n"
+	.string "我想去潜水。$"
 
 Route127_Text_CamdenIntro:
-	.string "I can see it in your face.\n"
-	.string "You want to challenge me.$"
+	.string "我从你脸上看出来了。\n"
+	.string "你想挑战我。$"
 
 Route127_Text_CamdenDefeat:
-	.string "Awawawawawa…$"
+	.string "哇哇哇哇哇……$"
 
 Route127_Text_CamdenPostBattle:
-	.string "A well-played match leaves me feeling\n"
-	.string "refreshed and serene.$"
+	.string "一场精彩的比赛让我\n"
+	.string "神清气爽、心平气和。$"
 
 Route127_Text_DonnyIntro:
-	.string "Do you have a rival whom you just\n"
-	.string "hate to lose against?$"
+	.string "你有没有那种\n"
+	.string "输给他就很不甘心的对手？$"
 
 Route127_Text_DonnyDefeat:
-	.string "Arrrgh!\n"
-	.string "I hate losing!$"
+	.string "啊啊！\n"
+	.string "我讨厌输！$"
 
 Route127_Text_DonnyPostBattle:
-	.string "If you have a rival, don't you get the\n"
-	.string "feeling that you have to keep getting\l"
-	.string "better?$"
+	.string "有了对手，是不是就会\n"
+	.string "觉得必须不断变强？$"
 
 Route127_Text_JonahIntro:
-	.string "Through fishing, I have attained a\n"
-	.string "state of becalmed serenity…\p"
-	.string "Please, allow me to demonstrate…$"
+	.string "通过钓鱼，我达到了\n"
+	.string "心如止水的境界……\p"
+	.string "请让我为你展示……$"
 
 Route127_Text_JonahDefeat:
-	.string "Though I have lost, my heart remains\n"
-	.string "calm…$"
+	.string "虽然输了，\n"
+	.string "我的心依然平静……$"
 
 Route127_Text_JonahPostBattle:
-	.string "It matters not that I catch nothing.\n"
-	.string "The line remains in the water…$"
+	.string "钓不到也没关系。\n"
+	.string "鱼线还在水中……$"
 
 Route127_Text_HenryIntro:
-	.string "Whoops! Don't tell me I snagged\n"
-	.string "a SURFING POKéMON?$"
+	.string "哎呀！别告诉我我\n"
+	.string "钓到了冲浪的宝可梦？$"
 
 Route127_Text_HenryDefeat:
-	.string "I can't keep up!$"
+	.string "我跟不上！$"
 
 Route127_Text_HenryPostBattle:
-	.string "It'd be a handful if I hooked\n"
-	.string "your tough POKéMON!$"
+	.string "要是钓到你那只强宝可梦，\n"
+	.string "可就有得忙了！$"
 
 Route127_Text_RogerIntro:
-	.string "Well, hey! This is a match between\n"
-	.string "a POKéMON fan and a fishing buff!$"
+	.string "嘿，好啊！这是宝可梦迷\n"
+	.string "和钓鱼迷之间的比赛！$"
 
 Route127_Text_RogerDefeat:
-	.string "No! My line's all tangled!\n"
-	.string "The party's over!$"
+	.string "不！我的线全缠住了！\n"
+	.string "派对结束了！$"
 
 Route127_Text_RogerPostBattle:
-	.string "My fishing line's doing a dance!\n"
-	.string "The tangle tango! Hahaha, snarl!$"
+	.string "我的鱼线在跳舞！\n"
+	.string "缠线探戈！哈哈，哎哟！$"
 
 Route127_Text_AidanIntro:
-	.string "BIRD POKéMON have excellent vision.\n"
-	.string "They spot prey from great heights.$"
+	.string "鸟宝可梦视力极佳。\n"
+	.string "能从高处发现猎物。$"
 
 Route127_Text_AidanDefeat:
-	.string "Whew… I give up.$"
+	.string "呼……我认输。$"
 
 Route127_Text_AidanPostBattle:
-	.string "There're lots of diving spots in\n"
-	.string "the sea around here.\p"
-	.string "You can spot them easily from the sky\n"
-	.string "because of their darker color.$"
+	.string "这附近的海里有很多\n"
+	.string "潜水点。\p"
+	.string "从天上很容易发现，\n"
+	.string "因为那里的颜色更深。$"
 
 Route127_Text_KojiIntro:
-	.string "Run in your bare feet.\n"
-	.string "That will toughen up your soles!$"
+	.string "光着脚跑吧。\n"
+	.string "那样能锻炼脚底！$"
 
 Route127_Text_KojiDefeat:
-	.string "Yowch!\n"
-	.string "I got a pebble under a toenail!$"
+	.string "哎哟！\n"
+	.string "脚趾甲里进了小石子！$"
 
 Route127_Text_KojiPostBattle:
-	.string "Going barefoot feels great.\n"
-	.string "But your RUNNING SHOES are cool, too.$"
+	.string "光脚很舒服。\n"
+	.string "不过你的跑鞋也很酷。$"
 
 Route127_Text_KojiRegister:
-	.string "This is what I do to people who beat me!\n"
-	.string "I hope we can do this again.$"
+	.string "这是我对待赢我的人的方式！\n"
+	.string "希望还能再来一次。$"
 
 Route127_Text_KojiRematchIntro:
-	.string "I still run in my bare feet daily.\n"
-	.string "My soles are tough!$"
+	.string "我每天还是光脚跑。\n"
+	.string "我的脚底很结实！$"
 
 Route127_Text_KojiRematchDefeat:
-	.string "Yowch!\n"
-	.string "Pebbles dug into my arches!$"
+	.string "哎哟！\n"
+	.string "石子扎进脚心了！$"
 
 Route127_Text_KojiPostRematch:
-	.string "Want to go barefoot for a while?\n"
-	.string "So I can try your RUNNING SHOES?$"
+	.string "要不要也光脚跑一会儿？\n"
+	.string "好让我试试你的跑鞋？$"
 
 Route127_Text_AthenaIntro:
-	.string "We should have a slow and methodical\n"
-	.string "match.$"
+	.string "我们该来一场\n"
+	.string "从容不迫的比赛。$"
 
 Route127_Text_AthenaDefeat:
-	.string "You didn't give me the chance to\n"
-	.string "do any strategizing.$"
+	.string "你连让我制定策略的\n"
+	.string "机会都没给。$"
 
 Route127_Text_AthenaPostBattle:
-	.string "When I'm surrounded by the blue sea\n"
-	.string "and sky, it feels as if time slows down.$"
+	.string "被蓝色的大海和天空环绕，\n"
+	.string "时间好像都变慢了。$"
 
 Route128_Text_IsaiahIntro:
-	.string "EVER GRANDE CITY is still a long ways\n"
-	.string "away…$"
+	.string "距离彩幽市\n"
+	.string "还很远……$"
 
 Route128_Text_IsaiahDefeat:
-	.string "My first victory seems to be far\n"
-	.string "away, too…$"
+	.string "我的首场胜利似乎\n"
+	.string "也很遥远……$"
 
 Route128_Text_IsaiahPostBattle:
-	.string "My whole life has been about losing,\n"
-	.string "but I will never give up!$"
+	.string "我的人生一直在输，\n"
+	.string "但我绝不放弃！$"
 
 Route128_Text_IsaiahRegister:
-	.string "I know I'm not good now, but I think\n"
-	.string "I can win eventually.\p"
-	.string "Please register me in your POKéNAV.$"
+	.string "我知道我现在不行，\n"
+	.string "但我想我终会赢。\p"
+	.string "请把我登记进你的导航。$"
 
 Route128_Text_IsaiahRematchIntro:
-	.string "I'm still feeling good. I'll keep on\n"
-	.string "swimming to EVER GRANDE CITY.$"
+	.string "我状态还是很好。我会\n"
+	.string "一直游向彩幽市。$"
 
 Route128_Text_IsaiahRematchDefeat:
-	.string "I've yet to taste my first victory…$"
+	.string "我还没尝过\n"
+	.string "首场胜利的滋味……$"
 
 Route128_Text_IsaiahPostRematch:
-	.string "I'll eventually reach EVER GRANDE CITY\n"
-	.string "where I can eventually win…$"
+	.string "我终会到达彩幽市，\n"
+	.string "在那里终会赢……$"
 
 Route128_Text_KatelynIntro:
-	.string "You have to swim, cycle, and then run\n"
-	.string "a marathon in a triathlon.\p"
-	.string "It's a grueling race that consists\n"
-	.string "of three events.$"
+	.string "铁人三项要游泳、骑车，\n"
+	.string "然后跑马拉松。\p"
+	.string "这是由三个项目组成的\n"
+	.string "残酷比赛。$"
 
 Route128_Text_KatelynDefeat:
-	.string "A POKéMON battle is grueling, too…$"
+	.string "宝可梦对战也很残酷……$"
 
 Route128_Text_KatelynPostBattle:
-	.string "I have to ride a BIKE next, but…\n"
-	.string "I'm about to throw in the towel…$"
+	.string "接下来还要骑车，可是……\n"
+	.string "我快撑不住了……$"
 
 Route128_Text_KatelynRegister:
-	.string "Well, I may as well make the best\n"
-	.string "of this. I'd like a rematch sometime.$"
+	.string "好吧，那就尽量利用吧。\n"
+	.string "我想找时间再打一场。$"
 
 Route128_Text_KatelynRematchIntro:
-	.string "A triathlon is long. But I guess the\n"
-	.string "road to become the POKéMON CHAMPION\l"
-	.string "is also a long and grueling one.$"
+	.string "铁人三项很漫长。不过我想\n"
+	.string "成为宝可梦冠军的路\l"
+	.string "也一样漫长而艰苦。$"
 
 Route128_Text_KatelynRematchDefeat:
-	.string "A POKéMON battle really is harsh\n"
-	.string "and unforgiving…$"
+	.string "宝可梦对战真是\n"
+	.string "严酷无情……$"
 
 Route128_Text_KatelynPostRematch:
-	.string "You should give serious thought to\n"
-	.string "challenges on VICTORY ROAD.$"
+	.string "你该认真考虑一下\n"
+	.string "冠军之路的挑战。$"
 
 Route128_Text_AlexaIntro:
-	.string "We've been working so hard to mount\n"
-	.string "a POKéMON LEAGUE challenge…\p"
-	.string "We can't afford to lose now!$"
+	.string "我们一直拼命努力，\n"
+	.string "就为了挑战宝可梦联盟……\p"
+	.string "现在可不能输！$"
 
 Route128_Text_AlexaDefeat:
-	.string "Oh!\n"
-	.string "How could this happen?!$"
+	.string "哦！\n"
+	.string "怎么会这样？！$"
 
 Route128_Text_AlexaPostBattle:
-	.string "After all I've done to get here,\n"
-	.string "I won't give up after one setback.$"
+	.string "我一路拼到这里，\n"
+	.string "不会因一次挫折就放弃。$"
 
 Route128_Text_RubenIntro:
-	.string "There is no stronger TRAINER than I!$"
+	.string "没有比我更强的训练家！$"
 
 Route128_Text_RubenDefeat:
-	.string "This can't be!$"
+	.string "这不可能！$"
 
 Route128_Text_RubenPostBattle:
-	.string "There probably is no stronger TRAINER\n"
-	.string "than you!$"
+	.string "大概没有比你更强的\n"
+	.string "训练家！$"
 
 Route128_Text_WayneIntro:
-	.string "I want to visit EVER GRANDE, so I\n"
-	.string "caught myself a POKéMON that knows\l"
-	.string "the move WATERFALL to crest the falls.$"
+	.string "我想去彩幽市，\n"
+	.string "就抓了只会攀瀑的宝可梦\l"
+	.string "好登上瀑布。$"
 
 Route128_Text_WayneDefeat:
-	.string "I'm crestfallen!$"
+	.string "我垂头丧气了！$"
 
 Route128_Text_WaynePostBattle:
-	.string "Awww, phooey!\p"
-	.string "My POKéMON knows WATERFALL, but\n"
-	.string "I don't have the SOOTOPOLIS GYM BADGE!$"
+	.string "唉，真倒霉！\p"
+	.string "我的宝可梦会攀瀑，\n"
+	.string "但我没有琉璃道馆的徽章！$"
 
 Route128_Text_HarrisonIntro:
-	.string "You're looking awfully tough.\n"
-	.string "I wonder if I can win?$"
+	.string "你看起来很强啊。\n"
+	.string "不知道我能不能赢？$"
 
 Route128_Text_HarrisonDefeat:
-	.string "Ouch!\n"
-	.string "I guess it was impossible to win.$"
+	.string "哎哟！\n"
+	.string "看来是赢不了。$"
 
 Route128_Text_HarrisonPostBattle:
-	.string "There are tough TRAINERS galore\n"
-	.string "around EVER GRANDE.\p"
-	.string "Do you think I may be out\n"
-	.string "of my league?$"
+	.string "彩幽市附近有很多\n"
+	.string "很强的训练家。\p"
+	.string "你觉得我是不是\n"
+	.string "不太够格？$"
 
 Route128_Text_CarleeIntro:
-	.string "The sunlight seems to be more harsh\n"
-	.string "in this area.$"
+	.string "这一带的阳光\n"
+	.string "好像更强烈。$"
 
 Route128_Text_CarleeDefeat:
-	.string "I couldn't see very well because of\n"
-	.string "the sun's glare.$"
+	.string "阳光太刺眼，\n"
+	.string "我看不太清。$"
 
 Route128_Text_CarleePostBattle:
-	.string "I should go back soon.\n"
-	.string "I need to reapply my sunscreen.$"
+	.string "我该早点回去。\n"
+	.string "得重新涂防晒霜。$"
 
 Route129_Text_ChaseIntro:
-	.string "This is my first triathlon.\n"
-	.string "I'm all tense and nervous!$"
+	.string "这是我的第一次铁人三项。\n"
+	.string "我紧张得不得了！$"
 
 Route129_Text_ChaseDefeat:
-	.string "Wroooaaar!\n"
-	.string "I failed to win!$"
+	.string "嗷呜！\n"
+	.string "我没能赢！$"
 
 Route129_Text_ChasePostBattle:
-	.string "If I'm all tensed up, I won't be able to\n"
-	.string "give it my all.$"
+	.string "要是全身紧绷，\n"
+	.string "就没法发挥全力。$"
 
 Route129_Text_AllisonIntro:
-	.string "I'm in the middle of a triathlon,\n"
-	.string "but, sure, why don't we battle?$"
+	.string "我正在铁人三项中，\n"
+	.string "不过，好吧，来打一场？$"
 
 Route129_Text_AllisonDefeat:
-	.string "I was sure I'd win!$"
+	.string "我还以为自己一定会赢！$"
 
 Route129_Text_AllisonPostBattle:
-	.string "Do you know what's the greatest thing\n"
-	.string "about triathlons?\p"
-	.string "Testing the limits of your own\n"
-	.string "strength and endurance against\l"
-	.string "Mother Nature!$"
+	.string "你知道铁人三项\n"
+	.string "最棒的地方是什么吗？\p"
+	.string "就是在自然面前挑战\n"
+	.string "自己力量和耐力的极限！$"
 
 Route129_Text_ReedIntro:
-	.string "Say hey, hey!\n"
-	.string "Let's get on with it!$"
+	.string "嘿，嘿！\n"
+	.string "我们快点开始吧！$"
 
 Route129_Text_ReedDefeat:
-	.string "Beat, I'm beaten.\n"
-	.string "That's it, done!$"
+	.string "败了，我败了。\n"
+	.string "就这样，完蛋！$"
 
 Route129_Text_ReedPostBattle:
-	.string "There's nothing for a loser.\n"
-	.string "Time for me to beat it home.$"
+	.string "输家什么都没剩下。\n"
+	.string "我该回家去了。$"
 
 Route129_Text_TishaIntro:
-	.string "What's the hurry?\n"
-	.string "Let's take it slow and easy.$"
+	.string "急什么？\n"
+	.string "慢慢来，轻轻松松。$"
 
 Route129_Text_TishaDefeat:
-	.string "Oh, my.\n"
-	.string "I wanted to relax a little more…$"
+	.string "哎呀。\n"
+	.string "我还想再放松一会儿……$"
 
 Route129_Text_TishaPostBattle:
-	.string "Don't you hate making mistakes when\n"
-	.string "you're in a rush?\p"
-	.string "That's why I try to take things\n"
-	.string "slowly.$"
+	.string "你讨厌匆忙时犯错吧？\p"
+	.string "所以我才尽量慢慢来。$"
 
 Route129_Text_ClarenceIntro:
-	.string "Surfing isn't as easy as it seems,\n"
-	.string "isn't that right?$"
+	.string "冲浪并不像看起来\n"
+	.string "那么简单，对吧？$"
 
 Route129_Text_ClarenceDefeat:
-	.string "Winning sure isn't easy.$"
+	.string "赢确实不容易。$"
 
 Route129_Text_ClarencePostBattle:
-	.string "You have your sights on the POKéMON\n"
-	.string "LEAGUE? Keep at it!$"
+	.string "你的目标是宝可梦联盟？\n"
+	.string "继续加油！$"
 
 Route130_Text_RodneyIntro:
-	.string "What a surprise! I didn't expect to\n"
-	.string "see a TRAINER out in the sea.\p"
-	.string "I think we should battle!$"
+	.string "真意外！没想到在海上\n"
+	.string "会遇到训练家。\p"
+	.string "我觉得我们应该对战！$"
 
 Route130_Text_RodneyDefeat:
-	.string "This kid's awfully tough…$"
+	.string "这孩子真够强的……$"
 
 Route130_Text_RodneyPostBattle:
-	.string "Your eyes have that look of someone\n"
-	.string "who's experienced harsh challenges\l"
-	.string "and won. It suits you well!$"
+	.string "你的眼睛里有那种经历过\n"
+	.string "严酷挑战并获胜的光。\l"
+	.string "很适合你！$"
 
 Route130_Text_KatieIntro:
-	.string "In the deep blue sea,\n"
-	.string "my shattered blue heart finds\l"
-	.string "comfort among waves.$"
+	.string "在深蓝的大海里，\n"
+	.string "我破碎的蓝色心灵\l"
+	.string "在波浪间寻得安慰。$"
 
 Route130_Text_KatieDefeat:
-	.string "Like the vast blue sea,\n"
-	.string "the world of POKéMON spans\l"
-	.string "depths beyond belief.$"
+	.string "就像辽阔的蓝色大海，\n"
+	.string "宝可梦的世界\l"
+	.string "深不见底。$"
 
 Route130_Text_KatiePostBattle:
-	.string "The world's children dream\n"
-	.string "of one day becoming\l"
-	.string "the POKéMON CHAMPION.$"
+	.string "世上的孩子们都梦想\n"
+	.string "有一天成为\l"
+	.string "宝可梦冠军。$"
 
 Route130_Text_SantiagoIntro:
-	.string "Floating on the open sea like this…\n"
-	.string "It's peaceful.$"
+	.string "像这样漂在开阔的海上……\n"
+	.string "真平静。$"
 
 Route130_Text_SantiagoDefeat:
-	.string "I needed to be a little less peaceful!$"
+	.string "我该少平静一点！$"
 
 Route130_Text_SantiagoPostBattle:
-	.string "Swimming and battling like this…\n"
-	.string "I'm one happy guy…$"
+	.string "又能游泳又能对战……\n"
+	.string "我真是个快乐的家伙……$"
 
 Route131_Text_RichardIntro:
-	.string "The sea is teeming with POKéMON.\n"
-	.string "It's not easy swimming, I tell you.$"
+	.string "海里满是宝可梦。\n"
+	.string "跟你说，游泳可不轻松。$"
 
 Route131_Text_RichardDefeat:
-	.string "POKéMON raised by TRAINERS are\n"
-	.string "seriously tough…$"
+	.string "训练家培养的宝可梦\n"
+	.string "真的很强……$"
 
 Route131_Text_RichardPostBattle:
-	.string "Gasp… Gasp…\n"
-	.string "I'm wiped out…\p"
-	.string "The going's easy. It's the leaving\n"
-	.string "that's the hard part.\p"
-	.string "Will I have any energy left to make\n"
-	.string "the return trip?$"
+	.string "呼……呼……\n"
+	.string "我累垮了……\p"
+	.string "出发容易，回程可难。\p"
+	.string "我还有力气游回去吗？$"
 
 Route131_Text_HermanIntro:
-	.string "The sea… The sea… The sea…\n"
-	.string "The sea as far as these eyes can see!\l"
-	.string "I'm sick and tired of the sea!$"
+	.string "海……海……海……\n"
+	.string "放眼望去全是海！\l"
+	.string "我看腻这片海了！$"
 
 Route131_Text_HermanDefeat:
-	.string "Bleah!$"
+	.string "噗！$"
 
 Route131_Text_HermanPostBattle:
-	.string "Bored I am by the sea, but swim I must.\p"
-	.string "I'm a born swimmer!\n"
-	.string "That's what I am.$"
+	.string "我对海看腻了，\n"
+	.string "可我必须游。\p"
+	.string "我天生就是游泳的！\n"
+	.string "就是这样。$"
 
 Route131_Text_SusieIntro:
-	.string "Hi, sweetie, wait!\n"
-	.string "We should battle, you and I!$"
+	.string "嗨，亲爱的，等等！\n"
+	.string "我们该打一场，你和我！$"
 
 Route131_Text_SusieDefeat:
-	.string "You're tough in spite of the way\n"
-	.string "you look!$"
+	.string "别看你这副样子，\n"
+	.string "还挺能打的！$"
 
 Route131_Text_SusiePostBattle:
-	.string "Did you see a guy over there who whines\n"
-	.string "that he's bored of the sea?\p"
-	.string "That's all talk.\n"
-	.string "He's hopelessly in love with the sea!$"
+	.string "你看到那边那个抱怨\n"
+	.string "海很无聊的家伙了吗？\p"
+	.string "那全是嘴上说说。\n"
+	.string "他其实爱死这片海了！$"
 
 Route131_Text_KaraIntro:
-	.string "Why do men love bathing suits so much?\p"
-	.string "They all ogle me!$"
+	.string "男人为什么这么爱泳装？\p"
+	.string "他们都在盯着我看！$"
 
 Route131_Text_KaraDefeat:
-	.string "I'm out of my depth!$"
+	.string "我招架不住了！$"
 
 Route131_Text_KaraPostBattle:
-	.string "Maybe it's not my bathing suit that\n"
-	.string "makes men look. It must be my beauty!$"
+	.string "男人们看我的眼光，\n"
+	.string "也许不是因为泳装。\l"
+	.string "一定是因为我的美貌！$"
 
 Route131_Text_ReliIntro:
-	.string "RELI: We'll work together as siblings\n"
-	.string "to take you on!$"
+	.string "雷利：我们姐弟一起\n"
+	.string "来对付你！$"
 
 Route131_Text_ReliDefeat:
-	.string "RELI: We couldn't win even though we\n"
-	.string "worked together…$"
+	.string "雷利：就算我们一起\n"
+	.string "也没能赢……$"
 
 Route131_Text_ReliPostBattle:
-	.string "RELI: The people of PACIFIDLOG are\n"
-	.string "together with the sea and POKéMON from\l"
-	.string "the time they are born.$"
+	.string "雷利：琉璃镇的人从出生起\n"
+	.string "就和大海与宝可梦在一起。$"
 
 Route131_Text_ReliNotEnoughMons:
-	.string "RELI: You don't have two POKéMON?\n"
-	.string "We can't enjoy a battle, then.$"
+	.string "雷利：你没有两只宝可梦？\n"
+	.string "那可没法享受对战了。$"
 
 Route131_Text_IanIntro:
-	.string "IAN: I'm doing my best together with\n"
-	.string "my sis!$"
+	.string "IAN：我和姐姐一起\n"
+	.string "全力以赴！$"
 
 Route131_Text_IanDefeat:
-	.string "IAN: I did my best with my sis,\n"
-	.string "but we still couldn't win…$"
+	.string "IAN：我和姐姐一起\n"
+	.string "努力了，可还是赢不了……$"
 
 Route131_Text_IanPostBattle:
-	.string "IAN: You know how PACIFIDLOG is\n"
-	.string "a floating town?\p"
-	.string "So, wherever there is the sea,\n"
-	.string "that's a part of PACIFIDLOG!$"
+	.string "IAN：你知道琉璃镇是\n"
+	.string "漂浮的小镇吗？\p"
+	.string "所以凡是有海的地方，\n"
+	.string "都是琉璃镇的一部分！$"
 
 Route131_Text_IanNotEnoughMons:
-	.string "IAN: If you have two POKéMON,\n"
-	.string "we'll take you on!$"
+	.string "IAN：你要有两只宝可梦，\n"
+	.string "我们就和你打！$"
 
 Route131_Text_TaliaIntro:
-	.string "If you can beat me, I'll give you some\n"
-	.string "great information!$"
+	.string "你要是能打赢我，\n"
+	.string "我就告诉你个好消息！$"
 
 Route131_Text_TaliaDefeat:
-	.string "Oh?\n"
-	.string "Did I lose?$"
+	.string "哦？\n"
+	.string "我输了？$"
 
 Route131_Text_TaliaPostBattle:
-	.string "There is an odd place nearby.\n"
-	.string "There's a huge tower there.\l"
-	.string "Why don't you go take a look?$"
+	.string "这附近有个奇怪的地方。\n"
+	.string "那里有座巨大的塔。\l"
+	.string "你去看看吧？$"
 
 Route131_Text_KevinIntro:
-	.string "The people of PACIFIDLOG are\n"
-	.string "a peaceful bunch.\p"
-	.string "They never get angry.\n"
-	.string "That goes for me, too.$"
+	.string "琉璃镇的人\n"
+	.string "都很平和。\p"
+	.string "他们从不发火。\n"
+	.string "我也不例外。$"
 
 Route131_Text_KevinDefeat:
-	.string "Oops!$"
+	.string "哎呀！$"
 
 Route131_Text_KevinPostBattle:
-	.string "Tch! …Oh, wait.\n"
-	.string "I'm not angry. Honestly!\p"
-	.string "But, boy, you're strong!\n"
-	.string "Hahaha!$"
+	.string "啧！……哦，等等。\n"
+	.string "我没生气。真的！\p"
+	.string "不过，你可真强！\n"
+	.string "哈哈哈！$"
 
 Route132_Text_GilbertIntro:
-	.string "I used to catch colds all the time as\n"
-	.string "a kid, but I became totally fit after\l"
-	.string "I started swimming.$"
+	.string "我小时候老是感冒，\n"
+	.string "开始游泳之后\l"
+	.string "就变得非常结实了。$"
 
 Route132_Text_GilbertDefeat:
-	.string "I crave more power…$"
+	.string "我渴望更强的力量……$"
 
 Route132_Text_GilbertPostBattle:
-	.string "TRAINERS travel the fields and\n"
-	.string "mountains, so they must be fit, too.$"
+	.string "训练家要走遍原野和\n"
+	.string "山岭，所以也必须结实。$"
 
 Route132_Text_DanaIntro:
-	.string "I try not to swim where the currents\n"
-	.string "are too strong.$"
+	.string "我尽量不在水流\n"
+	.string "太急的地方游泳。$"
 
 Route132_Text_DanaDefeat:
-	.string "Oh, please, no!$"
+	.string "哦，求你了，不要！$"
 
 Route132_Text_DanaPostBattle:
-	.string "If I get swept away, I'll lose all my\n"
-	.string "sense of place…$"
+	.string "要是被冲走，\n"
+	.string "我就完全不知道\l"
+	.string "自己在哪了……$"
 
 Route132_Text_RonaldIntro:
-	.string "Win or lose, you'll never know until\n"
-	.string "you try!$"
+	.string "输赢如何，不试试\n"
+	.string "谁也不知道！$"
 
 Route132_Text_RonaldDefeat:
-	.string "Waah!\n"
-	.string "I sank in defeat!$"
+	.string "哇！\n"
+	.string "我沉入了败北之中！$"
 
 Route132_Text_RonaldPostBattle:
-	.string "I never battle when I know I'll win.\n"
-	.string "I like to battle at the razor's edge of\l"
-	.string "victory and defeat!$"
+	.string "明知会赢的对战我不打。\n"
+	.string "我喜欢在胜负的边缘\l"
+	.string "进行对战！$"
 
 Route132_Text_KiyoIntro:
-	.string "I contemplate POKéMON 24 hours a day.\n"
-	.string "How could you possibly beat me?$"
+	.string "我一天二十四小时\n"
+	.string "都在琢磨宝可梦。\l"
+	.string "你怎么可能赢我？$"
 
 Route132_Text_KiyoDefeat:
-	.string "I lose.\n"
-	.string "I will concede defeat.$"
+	.string "我输了。\n"
+	.string "我认输。$"
 
 Route132_Text_KiyoPostBattle:
-	.string "Urggh…\n"
-	.string "You're a POKéMON fanatic, aren't you?\p"
-	.string "You must contemplate POKéMON 24 hours\n"
-	.string "a day, don't you?$"
+	.string "呃……\n"
+	.string "你也是宝可梦狂吧？\p"
+	.string "你肯定也是一天二十四小时\n"
+	.string "都在琢磨宝可梦，对吧？$"
 
 Route132_Text_MakaylaIntro:
-	.string "I'm always with my husband,\n"
-	.string "but I can win even without him.$"
+	.string "我总是和丈夫在一起，\n"
+	.string "不过没有他我也能赢。$"
 
 Route132_Text_MakaylaDefeat:
-	.string "Oh, I guess I wasn't good enough.$"
+	.string "哦，看来我还是不够强。$"
 
 Route132_Text_MakaylaPostBattle:
-	.string "That young man over there looks just\n"
-	.string "like my husband when he was young.\p"
-	.string "He's making me blush!$"
+	.string "那边那个年轻人，\n"
+	.string "长得就像我丈夫年轻时。\p"
+	.string "真让我脸红！$"
 
 Route132_Text_JonathanIntro:
-	.string "Someone's been watching me intently.\n"
-	.string "Was it you?$"
+	.string "有人一直在盯着我。\n"
+	.string "是你吗？$"
 
 Route132_Text_JonathanDefeat:
-	.string "Wow!\n"
-	.string "That's pretty strong, all right!$"
+	.string "哇！\n"
+	.string "确实很强！$"
 
 Route132_Text_JonathanPostBattle:
-	.string "I can't shake this feeling that\n"
-	.string "someone's watching me.\p"
-	.string "I can't concentrate!$"
+	.string "我总觉得有人在\n"
+	.string "看着我。\p"
+	.string "我无法集中精神！$"
 
 Route132_Text_PaxtonIntro:
-	.string "Now where could my wife have gone?\n"
-	.string "I'm always with her.\l"
-	.string "I wonder if I can win on my own.$"
+	.string "我妻子去哪了？\n"
+	.string "我总是和她在一起。\l"
+	.string "不知道我一个人能不能赢。$"
 
 Route132_Text_PaxtonDefeat:
-	.string "Ah, I see that I couldn't manage\n"
-	.string "to win on my own after all.$"
+	.string "啊，看来我一个人\n"
+	.string "果然赢不了。$"
 
 Route132_Text_PaxtonPostBattle:
-	.string "My wife must be looking for me.\n"
-	.string "I'd best go find her right away.$"
+	.string "我妻子一定在找我。\n"
+	.string "我得赶紧去找她。$"
 
 Route132_Text_DarcyIntro:
-	.string "I liked training here by myself.\n"
-	.string "It's awful that all these people came!$"
+	.string "我本来喜欢一个人\n"
+	.string "在这里训练。\l"
+	.string "来了这么多人真讨厌！$"
 
 Route132_Text_DarcyDefeat:
-	.string "Okay! I won't complain about other\n"
-	.string "people being here.$"
+	.string "好！我不再抱怨\n"
+	.string "别人在这里了。$"
 
 Route132_Text_DarcyPostBattle:
-	.string "I suppose I can partner up with that\n"
-	.string "old man and challenge that other team.$"
+	.string "也许我可以和那个老爷爷\n"
+	.string "组队去挑战别的队伍。$"
 
 Route133_Text_FranklinIntro:
-	.string "Did the currents carry you here, too?\n"
-	.string "This must have been fated.\l"
-	.string "Let's battle!$"
+	.string "你也是被水流冲到\n"
+	.string "这里的吗？这一定是命运。\l"
+	.string "来对战吧！$"
 
 Route133_Text_FranklinDefeat:
-	.string "Strong!\n"
-	.string "Too much so!$"
+	.string "强！\n"
+	.string "太强了！$"
 
 Route133_Text_FranklinPostBattle:
-	.string "It's just my luck that a tough TRAINER\n"
-	.string "like you would drift here…\l"
-	.string "I must be cursed…$"
+	.string "居然会有你这么强的\n"
+	.string "训练家漂到这里……\l"
+	.string "我真是倒霉……$"
 
 Route133_Text_DebraIntro:
-	.string "I've led a life of woe and misery…\n"
-	.string "I've been cast away, and this is where\l"
-	.string "I've drifted…$"
+	.string "我这一生充满悲苦……\n"
+	.string "我被抛弃，最后\l"
+	.string "漂到了这里……$"
 
 Route133_Text_DebraDefeat:
-	.string "Another loss…$"
+	.string "又输了……$"
 
 Route133_Text_DebraPostBattle:
-	.string "A life adrift…\n"
-	.string "I don't want it anymore!$"
+	.string "漂泊的人生……\n"
+	.string "我不要再这样了！$"
 
 Route133_Text_LindaIntro:
-	.string "Welcome!\n"
-	.string "I've been expecting you!$"
+	.string "欢迎！\n"
+	.string "我一直在等你！$"
 
 Route133_Text_LindaDefeat:
-	.string "No! Please!$"
+	.string "不！求你了！$"
 
 Route133_Text_LindaPostBattle:
-	.string "A strong child TRAINER…\n"
-	.string "That's so annoying!$"
+	.string "这么小的孩子还这么强……\n"
+	.string "真让人不甘心！$"
 
 Route133_Text_WarrenIntro:
-	.string "I want to win like everyone else, but I\n"
-	.string "won't raise POKéMON like everyone else.$"
+	.string "我想像大家一样赢，\n"
+	.string "但我不会那样培养宝可梦。$"
 
 Route133_Text_WarrenDefeat:
-	.string "Darn it!\n"
-	.string "My way is still too slack!$"
+	.string "可恶！\n"
+	.string "我的做法还是太松散了！$"
 
 Route133_Text_WarrenPostBattle:
-	.string "It's way more fun to do things the way\n"
-	.string "I want than to be like everybody else.\l"
-	.string "I mean, that's obvious!$"
+	.string "按自己的想法做，\n"
+	.string "比随大流有趣多了。\l"
+	.string "这不是明摆着的吗！$"
 
 Route133_Text_BeckIntro:
-	.string "I came all the way out here with my\n"
-	.string "BIRD POKéMON.$"
+	.string "我带着鸟宝可梦\n"
+	.string "大老远来到这里。$"
 
 Route133_Text_BeckDefeat:
-	.string "You…\n"
-	.string "You're stunningly cool!$"
+	.string "你……\n"
+	.string "你酷得惊人！$"
 
 Route133_Text_BeckPostBattle:
-	.string "I'd like to go back to FORTREE,\n"
-	.string "but I've grown to like this place, too.$"
+	.string "我想回茵郁市，\n"
+	.string "但我也渐渐喜欢上这里了。$"
 
 Route133_Text_MollieIntro:
-	.string "I must have battled thousands\n"
-	.string "of times. I've lost count.$"
+	.string "我对战过的次数\n"
+	.string "大概有几千次。我数不清了。$"
 
 Route133_Text_MollieDefeat:
-	.string "I may have lost thousands of times,\n"
-	.string "but a loss still stings.$"
+	.string "我可能输过几千次，\n"
+	.string "但输还是让人难受。$"
 
 Route133_Text_MolliePostBattle:
-	.string "Keep at this, youngster. So you can\n"
-	.string "become like my husband and me.$"
+	.string "继续努力吧，年轻人。\n"
+	.string "这样你才能像我们夫妻一样。$"
 
 Route133_Text_ConorIntro:
-	.string "Young people are too happy to go with\n"
-	.string "the flow. They're without direction.$"
+	.string "年轻人太爱随波逐流，\n"
+	.string "没有方向。$"
 
 Route133_Text_ConorDefeat:
-	.string "You have a firm sense of purpose.$"
+	.string "你有明确的目标。$"
 
 Route133_Text_ConorPostBattle:
-	.string "Don't let others lead you astray.\n"
-	.string "Don't lose direction as you grow older.$"
+	.string "别被别人带偏。\n"
+	.string "别随着年龄失去方向。$"
 
 Route134_Text_JackIntro:
-	.string "Even those POKéMON that can swim are\n"
-	.string "carried along by the rapid currents.$"
+	.string "就算是会游泳的宝可梦，\n"
+	.string "也会被急流冲走。$"
 
 Route134_Text_JackDefeat:
-	.string "Aiyeeeeh!$"
+	.string "哎——呀！$"
 
 Route134_Text_JackPostBattle:
-	.string "I think POKéMON enjoy the fast-running\n"
-	.string "currents around these parts.$"
+	.string "我觉得宝可梦很喜欢\n"
+	.string "这一带的急流。$"
 
 Route134_Text_LaurelIntro:
-	.string "My LUVDISC are looking for a fun\n"
-	.string "match. Will you join us?$"
+	.string "我的爱心鱼在找\n"
+	.string "有趣的比赛。要一起来吗？$"
 
 Route134_Text_LaurelDefeat:
-	.string "Oopsie!$"
+	.string "哎呀！$"
 
 Route134_Text_LaurelPostBattle:
-	.string "There's a collector who's after\n"
-	.string "the SCALES of LUVDISC.$"
+	.string "有个收藏家\n"
+	.string "在收集爱心鱼的鳞片。$"
 
 Route134_Text_AlexIntro:
-	.string "Okeydokey! That's enough rest, gang!\n"
-	.string "It's time for a match!$"
+	.string "好嘞！休息够了，伙计们！\n"
+	.string "该比赛了！$"
 
 Route134_Text_AlexDefeat:
-	.string "Tuckered out again…$"
+	.string "又累垮了……$"
 
 Route134_Text_AlexPostBattle:
-	.string "My BIRD POKéMON get tired quickly after\n"
-	.string "a long flight…$"
+	.string "我的鸟宝可梦长途飞行后\n"
+	.string "很快就会累……$"
 
 Route134_Text_HitoshiIntro:
-	.string "You're a POKéMON TRAINER.\n"
-	.string "No need for words. We battle now.$"
+	.string "你是宝可梦训练家。\n"
+	.string "不用多说。现在对战。$"
 
 Route134_Text_HitoshiDefeat:
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "………………\n"
+	.string "………………$"
 
 Route134_Text_HitoshiPostBattle:
-	.string "It was I who challenged you, and yet\n"
-	.string "I lost. I am deeply shamed…$"
+	.string "明明是我挑战你，\n"
+	.string "却输了。我深感羞愧……$"
 
 Route134_Text_AaronIntro:
-	.string "The savage tide in this area serves to\n"
-	.string "make us stronger than ever.$"
+	.string "这一带的狂暴潮水\n"
+	.string "能让我们变得更强。$"
 
 Route134_Text_AaronDefeat:
-	.string "I willingly concede defeat.$"
+	.string "我心服口服地认输。$"
 
 Route134_Text_AaronPostBattle:
-	.string "We will return for more training at\n"
-	.string "METEOR FALLS.\p"
-	.string "If you'd like, you should go, too.\n"
-	.string "It will definitely toughen you up!$"
+	.string "我们会再去流星瀑布\n"
+	.string "继续训练。\p"
+	.string "如果你愿意，也去吧。\n"
+	.string "那一定会让你变强！$"
 
 Route134_Text_KelvinIntro:
-	.string "O-our boat!\n"
-	.string "The tide carried it away!$"
+	.string "我、我们的船！\n"
+	.string "被潮水冲走了！$"
 
 Route134_Text_KelvinDefeat:
-	.string "Awawawawah!\n"
-	.string "Please, stop! Please!$"
+	.string "哇哇哇哇！\n"
+	.string "求你了，停下！求你了！$"
 
 Route134_Text_KelvinPostBattle:
-	.string "If we can't SURF, how are we supposed\n"
-	.string "to get home?\p"
-	.string "Actually, I know a fainted POKéMON\n"
-	.string "can still SURF, but it feels wrong.$"
+	.string "不能冲浪的话，\n"
+	.string "我们怎么回家？\p"
+	.string "其实我知道倒下的宝可梦\n"
+	.string "也能冲浪，但感觉不对。$"
 
 Route134_Text_MarleyIntro:
-	.string "Can your POKéMON dodge our\n"
-	.string "lightning-quick attacks?$"
+	.string "你的宝可梦能躲开我们\n"
+	.string "快如闪电的攻击吗？$"
 
 Route134_Text_MarleyDefeat:
-	.string "I never knew such a technique existed!\n"
-	.string "You've defeated us thoroughly.$"
+	.string "我从不知道还有这种技巧！\n"
+	.string "你彻底打败了我们。$"
 
 Route134_Text_MarleyPostBattle:
-	.string "I haven't lost my passion for speed.\n"
-	.string "I will try harder.$"
+	.string "我对速度的热情没有消失。\n"
+	.string "我会更努力。$"
 
 Route134_Text_ReynaIntro:
-	.string "My POKéMON can't be taken down\n"
-	.string "easily!$"
+	.string "我的宝可梦可不会\n"
+	.string "轻易被打倒！$"
 
 Route134_Text_ReynaDefeat:
-	.string "You're kidding!\n"
-	.string "Explain how I lost!$"
+	.string "你在开玩笑吧！\n"
+	.string "解释一下我怎么会输！$"
 
 Route134_Text_ReynaPostBattle:
-	.string "Haha!\n"
-	.string "You won, all right!\p"
-	.string "I'll work my way back up by taking on\n"
-	.string "TRAINERS I happen to meet!$"
+	.string "哈哈！\n"
+	.string "你确实赢了！\p"
+	.string "我会挑战遇到的训练家，\n"
+	.string "一步步爬回来！$"
 
 Route134_Text_HudsonIntro:
-	.string "Listen, have you seen another SAILOR\n"
-	.string "around here?$"
+	.string "喂，你在这附近看到\n"
+	.string "别的水手了吗？$"
 
 Route134_Text_HudsonDefeat:
-	.string "Now, that's something!$"
+	.string "哎呀，真了不起！$"
 
 Route134_Text_HudsonPostBattle:
-	.string "Our boat drifted out to sea.\p"
-	.string "My buddy's a timid fellow, so I'm\n"
-	.string "worried about him.$"
+	.string "我们的船漂到海上去了。\p"
+	.string "我的伙伴胆子小，\n"
+	.string "我有点担心他。$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
-	.string "The battery isn't charged enough.\p"
-	.string "No. of steps required to fully\n"
-	.string "charge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "电量不足。\p"
+	.string "充满电所需的步数：\n"
+	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_NoTrainersWithinRange::
-	.string "There are no Trainers within range\n"
-	.string "who can battle…\p"
-	.string "The VS Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
+	.string "附近没有可以对战的\n"
+	.string "训练家……\p"
+	.string "对战搜寻器已关闭。{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_TrainersNotReady::
-	.string "The other Trainers don't appear\n"
-	.string "to be ready for battle.\p"
-	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
+	.string "其他训练家似乎还\n"
+	.string "没准备好对战。\p"
+	.string "我们晚点再来吧。{PAUSE_UNTIL_PRESS}$"

@@ -1,0 +1,134 @@
+raw `
+.set LOCALID_NURSE, 1
+
+PacifidlogTown_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+PacifidlogTown_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_PACIFIDLOG_TOWN
+	end
+
+PacifidlogTown_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+PacifidlogTown_PokemonCenter_1F_EventScript_Girl::
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard, MSGBOX_NPC
+	end
+
+PacifidlogTown_PokemonCenter_1F_EventScript_Woman::
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola, MSGBOX_NPC
+	end
+
+PacifidlogTown_PokemonCenter_1F_EventScript_FormerExplosionTutor::
+	lockall
+	faceplayer
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_FormerExplosionTutor, MSGBOX_DEFAULT
+	releaseall
+	end
+
+PacifidlogTown_PokemonCenter_1F_Text_FormerExplosionTutor:
+	.string "我以前能炸出好大的\n"
+	.string "爆炸……唉，怎么了呢？$"
+
+PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
+	.string "你的训练家卡\n"
+	.string "是什么颜色？\l"
+	.string "我的是铜色！$"
+
+PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
+	.string "水静市浮在一大群\n"
+	.string "太阳珊瑚上面。\p"
+	.string "我这么说，\n"
+	.string "你信吗？$"
+`
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_EggMan {
+	lock
+	faceplayer
+	msgbox(PacifidlogTown_PokemonCenter_1F_PseudoManIntro, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO)
+	{
+		goto(PacifidlogTown_PokemonCenter_1F_EventScript_PseudoEggManManNo)
+	}
+
+	checkitem(ITEM_YELLOW_SHARD)
+	goto_if_eq(VAR_RESULT, FALSE, PacifidlogTown_PokemonCenter_1F_EventScript_ComeBackWithYellowShard)
+	getpartysize
+	goto_if_eq(VAR_RESULT, PARTY_SIZE, PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg)
+	msgbox(PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT)
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg)
+	waitfanfare
+	giveegg(SPECIES_DRATINI)
+	removeitem(ITEM_YELLOW_SHARD)
+	msgbox(PacifidlogTown_PokemonCenter_1F_ComeBackWithMore, MSGBOX_DEFAULT)
+	release
+	end
+	
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_PseudoEggManManNo {
+    msgbox(PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined, MSGBOX_DEFAULT)
+    release
+    end
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_ComeBackWithYellowShard {
+	msgbox(PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg {
+	msgbox(PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text PacifidlogTown_PokemonCenter_1F_PseudoManIntro {
+	"你好，训练家。我手上有几颗\n"
+	"稀有的蛋。\p"
+	"我现在正需要黄色碎片，\n"
+	"你愿意用一枚黄色碎片\l"
+	"来换其中\l"
+	"一颗蛋吗？"
+}
+
+text PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined
+{
+	"我明白了。若你改变主意，\n"
+	"请再来。"
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard {
+	"看来你没有\n"
+	"黄色碎片。有了再来吧。"
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg {
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这颗蛋……"
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg {
+	"好！希望你能带着\n"
+	"这颗蛋多走走！"
+}
+
+text PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg {
+	"{PLAYER}收到了蛋。"
+}
+
+text PacifidlogTown_PokemonCenter_1F_ComeBackWithMore {
+	"若还有更多想交换的\n"
+	"黄色碎片，请再来。"
+
+}

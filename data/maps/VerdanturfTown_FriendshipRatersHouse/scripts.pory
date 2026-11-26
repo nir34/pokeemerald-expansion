@@ -1,0 +1,107 @@
+raw `
+VerdanturfTown_FriendshipRatersHouse_MapScripts::
+	.byte 0
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_FriendshipRater::
+	lock
+	faceplayer
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetLeadMonFriendshipScore
+	switch VAR_RESULT
+	case FRIENDSHIP_NONE, VerdanturfTown_FriendshipRatersHouse_EventScript_DetestsYou
+	case FRIENDSHIP_1_TO_49, VerdanturfTown_FriendshipRatersHouse_EventScript_VeryWary
+	case FRIENDSHIP_50_TO_99, VerdanturfTown_FriendshipRatersHouse_EventScript_NotUsedToYou
+	case FRIENDSHIP_100_TO_149, VerdanturfTown_FriendshipRatersHouse_EventScript_GettingUsedToYou
+	case FRIENDSHIP_150_TO_199, VerdanturfTown_FriendshipRatersHouse_EventScript_LikesYouQuiteALot
+	case FRIENDSHIP_200_TO_254, VerdanturfTown_FriendshipRatersHouse_EventScript_VeryHappy
+	case FRIENDSHIP_MAX, VerdanturfTown_FriendshipRatersHouse_EventScript_AdoresYou
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_DetestsYou::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_VeryWary::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_VeryWary, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_NotUsedToYou::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_GettingUsedToYou::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_LikesYouQuiteALot::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_VeryHappy::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_AdoresYou::
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	msgbox VerdanturfTown_FriendshipRatersHouse_Text_Pikachu, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
+	.string "让我看看你的宝可梦。\n"
+	.string "我查查它有多喜欢你。\p"
+	.string "哦。\n"
+	.string "你的宝可梦……$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
+	.string "它非常崇拜你。\n"
+	.string "不可能再更爱你了。\l"
+	.string "连我看着都高兴。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy:
+	.string "它看起来非常开心。\n"
+	.string "显然非常喜欢你。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot:
+	.string "它挺喜欢你的。\n"
+	.string "好像想再被宠一宠。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
+	.string "它渐渐习惯你了。\n"
+	.string "好像很信任你。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
+	.string "它还不太习惯你。\n"
+	.string "既不喜欢也不讨厌你。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
+	.string "它非常警惕。\n"
+	.string "眼神里带着可怕的敌意。\l"
+	.string "它几乎一点也不喜欢你。$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
+	.string "这话有点难说出口……\p"
+	.string "你的宝可梦简直\n"
+	.string "讨厌你。\l"
+	.string "你不觉得难受吗？$"
+
+VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
+	.string "皮卡丘：皮卡皮卡！$"
+
+`

@@ -1,0 +1,89 @@
+raw `
+PacifidlogTown_House1_MapScripts::
+	.byte 0
+
+PacifidlogTown_House1_EventScript_Woman::
+	msgbox PacifidlogTown_House1_Text_SixDotsOpenThreeDoors, MSGBOX_NPC
+	end
+
+PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
+	.string "“六个点开三道门。”\p"
+	.string "爷爷以前常这么说，\n"
+	.string "可我不知道什么意思。$"
+
+`
+
+script PacifidlogTown_House1_EventScript_Man {
+	lock
+	faceplayer
+	if(!flag(FLAG_MET_GENESECT_GUY))
+	{
+		msgbox(PacifidlogTown_House1_GenesectManIntro)
+		giveitem(ITEM_DOUSE_DRIVE)
+		msgbox(PacifidlogTown_House1_SeeGoodDrive)
+		setflag(FLAG_MET_GENESECT_GUY)
+		release
+		end
+	}
+	checkitemdrive()
+	if(!var(VAR_RESULT))
+	{
+		msgbox(PacifidlogTown_House1_Text_NoDrives)
+		release
+		end
+	}
+
+	msgbox(GenesectManSwapDrive)
+	dynmultipush("水流", ITEM_DOUSE_DRIVE)
+	dynmultipush("闪电", ITEM_SHOCK_DRIVE)
+	dynmultipush("火焰", ITEM_BURN_DRIVE)
+	dynmultipush("冰冻", ITEM_CHILL_DRIVE)
+    dynmultipush("取消", MULTI_B_PRESSED)
+
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, ITEM_DOUSE_DRIVE, DYN_MULTICHOICE_CB_NONE)
+
+    if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(PacifidlogTown_House1_EventScript_GenesectManNo)
+	}
+
+	copyvar(VAR_0x8005, VAR_RESULT)
+	removeitem(VAR_0x8004)
+	msgbox("好啊，那我们交换卡带吧。")
+	giveitem(VAR_0x8005)
+	msgbox("想再交换卡带的话\n就再来吧！")
+	release
+	end
+}
+
+
+script PacifidlogTown_House1_EventScript_GenesectManNo {
+    msgbox("没关系，你随时都可以\n回来找我交换卡带。")
+    release
+    end
+}
+
+text PacifidlogTown_House1_GenesectManIntro {
+	"大家都说我特别有\n"
+	"干劲，可他们不知道，\l"
+	"我只是有很多卡带。\p"
+	"想看看我什么意思吗？\n"
+	"来，拿着这个。"
+}
+
+text PacifidlogTown_House1_SeeGoodDrive {
+	"想要别的卡带，\n"
+	"随时再来。"
+}
+
+text GenesectManSwapDrive {
+	"哦，你回来了！是说\n"
+	"你想交换卡带吗？\p"
+	"太好了！你想要哪张卡带？"
+}
+
+text PacifidlogTown_House1_Text_NoDrives {
+	"嗯？你身上没有\n"
+	"能和我交换的卡带。"
+}

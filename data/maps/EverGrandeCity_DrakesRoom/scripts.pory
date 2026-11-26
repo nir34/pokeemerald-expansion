@@ -1,0 +1,115 @@
+raw `
+EverGrandeCity_DrakesRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_DrakesRoom_OnFrame
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_DrakesRoom_OnLoad
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp
+	.byte 0
+
+@ Unused, Drake uses Sidneys identical OnWarp for some reason
+EverGrandeCity_DrakesRoom_OnWarp:
+	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth
+	.2byte 0
+
+EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth::
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	end
+
+EverGrandeCity_DrakesRoom_OnFrame:
+	map_script_2 VAR_ELITE_4_STATE, 3, EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor
+	.2byte 0
+
+EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor::
+	lockall
+	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setvar VAR_ELITE_4_STATE, 4
+	releaseall
+	end
+
+EverGrandeCity_DrakesRoom_OnLoad:
+	call_if_set FLAG_DEFEATED_ELITE_4_CYNTHIA, EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom
+	call_if_eq VAR_ELITE_4_STATE, 4, EverGrandeCity_DrakesRoom_EventScript_CloseDoor
+	end
+
+EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom::
+	call PokemonLeague_EliteFour_EventScript_ResetAdvanceToNextRoom
+	return
+
+EverGrandeCity_DrakesRoom_EventScript_CloseDoor::
+	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	return
+
+EverGrandeCity_DrakesRoom_EventScript_Cynthia::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_ELITE_4_CYNTHIA, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
+	playbgm MUS_DP_ENCOUNTER_CHAMPION, FALSE
+	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_CYNTHIA, EverGrandeCity_DrakesRoom_Text_Defeat
+	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech::
+	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_DrakesRoom_EventScript_Defeated::
+	setvar VAR_0x8004, FANCOUNTER_DEFEATED_DRAKE
+	special Script_TryGainNewFanFromCounter
+	setflag FLAG_DEFEATED_ELITE_4_CYNTHIA
+	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_DrakesRoom_Text_IntroSpeech:
+	.string "哎呀哎呀。你一定是\n"
+	.string "{PLAYER}。我从小光、\l"
+	.string "大吾和亚当那里\l"
+	.string "听了很多你的事。\p"
+	.string "那场危机在丰缘爆发时，\n"
+	.string "小光给我打了电话，\l"
+	.string "可我到的时候，你\l"
+	.string "已经把一切处理好了。\p"
+	.string "不过，既然我在这儿，\n"
+	.string "而源治计划失败后\l"
+	.string "逃走了，他们就\l"
+	.string "请我暂时顶替\l"
+	.string "第四位四天王。\p"
+	.string "对你来说真不幸，\n"
+	.string "你已经单独面对过\l"
+	.string "源治，现在又要面对\l"
+	.string "可能是各地区最强\l"
+	.string "的四天王……\p"
+	.string "俗话说，好事\n"
+	.string "不得好报！\p"
+	.string "不过别担心，我不会\n"
+	.string "让同情心妨碍我全力\l"
+	.string "对付你。\p"
+	.string "准备好，等我打完，\n"
+	.string "我保证你会希望\l"
+	.string "坐在这里的是源治。$"
+
+EverGrandeCity_DrakesRoom_Text_Defeat:
+	.string "我很佩服，这话可不\n"
+	.string "随便说。看来我听到\l"
+	.string "关于你的一切都是真的。$"
+
+EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
+	.string "看来你经历的所有考验，\n"
+	.string "确实把你变成了\l"
+	.string "强大的训练家。\p"
+	.string "但更让我佩服的，是你\n"
+	.string "和宝可梦之间的羁绊。\p"
+	.string "我外表看起来严厉\n"
+	.string "难对付，可我心里\l"
+	.string "明白，真正的强大\l"
+	.string "来自和宝可梦\l"
+	.string "结下的羁绊。\p"
+	.string "看来你也懂这一点，\n"
+	.string "为此我比什么都\l"
+	.string "尊敬你。\p"
+	.string "去吧，冠军在等你！\n"
+	.string "或者我该说，“冠军们”？$"
+
+`

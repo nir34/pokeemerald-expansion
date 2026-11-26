@@ -19,6 +19,7 @@
 #include "constants/trainer_hill.h"
 #include "constants/items.h"
 #include "config/save.h"
+#include "config/ai.h"
 
 // Prevent cross-jump optimization.
 #define BLOCK_CROSS_JUMP asm("");
@@ -200,17 +201,10 @@ struct Time
     /*0x04*/ s8 seconds;
 };
 
-#include "constants/items.h"
-#define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
 
 struct SaveBlock3
 {
-#if OW_USE_FAKE_RTC
-    struct Time fakeRTC;
-#endif
-#if OW_SHOW_ITEM_DESCRIPTIONS == OW_ITEM_DESCRIPTIONS_FIRST_TIME
-    u8 itemFlags[ITEM_FLAGS_COUNT];
-#endif
+      
 };
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
@@ -535,7 +529,7 @@ struct SaveBlock2
     /*0x11*/ u8 playTimeSeconds;
     /*0x12*/ u8 playTimeVBlanks;
     /*0x13*/ u8 optionsButtonMode;  // OPTIONS_BUTTON_MODE_[NORMAL/LR/L_EQUALS_A]
-    /*0x14*/ u16 optionsTextSpeed:3; // OPTIONS_TEXT_SPEED_[SLOW/MID/FAST]
+    /*0x14*/ u16 optionsTextSpeed:3; // OPTIONS_TEXT_SPEED_[SLOW/MID/FAST/INSTANT]
              u16 optionsWindowFrameType:5; // Specifies one of the 20 decorative borders for text boxes
              u16 optionsSound:1; // OPTIONS_SOUND_[MONO/STEREO]
              u16 optionsBattleStyle:1; // OPTIONS_BATTLE_STYLE_[SHIFT/SET]
@@ -562,7 +556,14 @@ struct SaveBlock2
 #endif //FREE_RECORD_MIXING_HALL_RECORDS
     /*0x624*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
     /*0x64C*/ struct BattleFrontier frontier;
+    /*0xF2C*/ bool8 autoRun;
+              struct Time fakeRTC;
 }; // sizeof=0xF2C
+//from debug as of 3/4/2024 before any space changes: 3884b/3968b; free space, 84b.
+//after changing SECTOR_DATA_SIZE -> 4084: 3884b/4084b; free space: 200b.
+//change BAG_TMHM_COUNT from 64 -> 120; results: 3884b/4084b; free space: 200b (unchanged)
+//change BAG_ITEM_COUNT from 30 -> 150; results: 3884b/4084b; free space: 200b (unchanged)
+//changed values of FREE_TRAINER_HILL etc in save.h: results: 2664b/4084b; free space: 1420b
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
 
@@ -614,6 +615,11 @@ struct ItemSlot
 {
     u16 itemId;
     u16 quantity;
+};
+
+struct RegisteredItemSlot
+{
+    u16 itemId;
 };
 
 struct Pokeblock
@@ -1026,9 +1032,10 @@ struct SaveBlock1
     /*0x238*/ struct Pokemon playerParty[PARTY_SIZE];
     /*0x490*/ u32 money;
     /*0x494*/ u16 coins;
-    /*0x496*/ u16 registeredItem; // registered for use with SELECT button
+    /*0x496*/ u16 registeredItemSelect; // registered for use with SELECT button
     /*0x498*/ struct ItemSlot pcItems[PC_ITEMS_COUNT];
     /*0x560*/ struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
+    /*0x560*/ struct ItemSlot bagPocket_MegaStones[BAG_MEGA_STONES_COUNT];
     /*0x5D8*/ struct ItemSlot bagPocket_KeyItems[BAG_KEYITEMS_COUNT];
     /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
     /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
@@ -1061,8 +1068,8 @@ struct SaveBlock1
     /*0x278E*/ u8 decorationPosters[10];
     /*0x2798*/ u8 decorationDolls[40];
     /*0x27C0*/ u8 decorationCushions[10];
-    /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
     /*0x27CA*/ //u8 padding4[2];
+    /*0x27CC*/ TVShow tvShows[TV_SHOWS_COUNT];
     /*0x2B50*/ PokeNews pokeNews[POKE_NEWS_COUNT];
     /*0x2B90*/ u16 outbreakPokemonSpecies;
     /*0x2B92*/ u8 outbreakLocationMapNum;
@@ -1117,7 +1124,21 @@ struct SaveBlock1
     /*0x3???*/ struct TrainerHillSave trainerHill;
 #endif //FREE_TRAINER_HILL
     /*0x3???*/ struct WaldaPhrase waldaPhrase;
+               u8 dexNavSearchLevels[NUM_SPECIES];
+               u8 unused_speciesPadding[98];         // if you increase NUM_SPECIES, decrease this by the same amount: 1533->1535;100->98
+               u8 dexNavChain;
+               u8 registeredItemLastSelected:4; //max 16 items
+               u8 registeredItemListCount:4;
+               struct RegisteredItemSlot registeredItems[REGISTERED_ITEMS_MAX];
+               u32 whiteOuts;
     // sizeof: 0x3???
+    //from debug as of 3/4/2024 before any space changes: 15568b/15872b; free space: 304b.
+    //after changing SECTOR_DATA_SIZE -> 4084: 15568b/16336b; free space: 768b.
+    //change BAG_TMHM_COUNT from 64 -> 120; results: 15792b/16336b; free space: 544b (4 byte per TM slot added)
+    //change BAG_ITEM_COUNT from 30 -> 150; results: 16272b/16336b; free space: 64b (4 byte per item slot added)
+    //changed values of FREE_TRAINER_HILL etc in save.h:
+    //BAG_TMHM_COUNT from 120 -> 130, BAG_ITEM_COUNT from 150 -> 250, BAG_POKEBALLS_COUNT 16 -> 30
+    //results: 14508/16336b; free space: 1828b 
 };
 
 extern struct SaveBlock1* gSaveBlock1Ptr;

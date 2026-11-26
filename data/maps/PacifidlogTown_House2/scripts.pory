@@ -1,0 +1,52 @@
+raw `
+PacifidlogTown_House2_MapScripts::
+	.byte 0
+
+PacifidlogTown_House2_EventScript_FanClubYoungerBrother::
+	lock
+	faceplayer
+	msgbox PacifidlogTown_House2_Text_LookHowHappy, MSGBOX_DEFAULT
+	release
+	end
+
+PacifidlogTown_House2_EventScript_HappyAzurill::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+	msgbox PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT
+	waitmoncry
+	msgbox PacifidlogTown_House2_Text_VeryFriendlyWithTrainer, MSGBOX_DEFAULT
+	release
+	end
+
+PacifidlogTown_House2_EventScript_UnhappyAzurill::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_AZURILL, CRY_MODE_ENCOUNTER
+	msgbox PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT
+	waitmoncry
+	msgbox PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch, MSGBOX_DEFAULT
+	release
+	end
+
+PacifidlogTown_House2_Text_Rurii:
+	.string "露力丽：噜哩。$"
+
+PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
+	.string "它好像和训练家\n"
+	.string "非常亲近。$"
+
+PacifidlogTown_House2_Text_Rururi:
+	.string "露力丽：噜噜哩！$"
+
+PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
+	.string "它好像不太喜欢\n"
+	.string "这个训练家。$"
+
+PacifidlogTown_House2_Text_LookHowHappy:
+	.string "看我的宝可梦多开心！\n"
+	.string "不，是另一只！$"
+
+`

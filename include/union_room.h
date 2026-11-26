@@ -96,7 +96,7 @@ struct WirelessLink_Group
 struct UnionRoomObject
 {
     u8 state;
-    u8 gfxId;
+    u16 gfxId;
     s8 animState;
     u8 schedAnim;
 };
@@ -153,6 +153,7 @@ extern u8 gUnionRoomRequestedMonType;
 
 u8 CreateTask_CreateTradeMenu(void);
 void SetUsingUnionRoomStartMenu(void);
+void SetUsingUnionRoomLMenu(void);
 void CreateTask_LinkMysteryGiftWithFriend(u32 activity);
 void CreateTask_LinkMysteryGiftOverWireless(u32 activity);
 void CreateTask_SendMysteryGift(u32 activity);

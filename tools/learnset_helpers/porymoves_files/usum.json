@@ -753,7 +753,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_DRACO_METEOR"
     ],
     "EggMoves": [
       "MOVE_AIR_CUTTER",
@@ -849,7 +850,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -977,7 +978,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -1114,7 +1115,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -1850,7 +1851,9 @@
       "MOVE_SLEEP_TALK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_FOCUS_BLAST"
     ],
     "EggMoves": [
       "MOVE_AIR_CUTTER",
@@ -2863,7 +2866,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_HYPER_VOICE"
     ],
     "EggMoves": [
       "MOVE_BESTOW",
@@ -3150,7 +3154,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_HIGH_HORSEPOWER"
     ],
     "EggMoves": [
       "MOVE_CHIP_AWAY",
@@ -6219,6 +6224,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_BULLET_SEED",
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
       "MOVE_HIDDEN_POWER",
@@ -6376,6 +6382,7 @@
       "MOVE_PAY_DAY"
     ],
     "TMMoves": [
+      "MOVE_BULLET_SEED",
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
@@ -6518,7 +6525,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -6667,7 +6674,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -6697,7 +6704,9 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_CLEAR_SMOG",
@@ -7353,7 +7362,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -7465,7 +7474,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -7571,7 +7580,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -7605,7 +7614,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_BUBBLE_BEAM",
@@ -7985,7 +7995,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_TRICK_ROOM",
       "MOVE_DAZZLING_GLEAM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_AURA_SPHERE"
     ],
     "EggMoves": [
       "MOVE_ALLY_SWITCH",
@@ -8911,7 +8922,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -9059,7 +9070,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -9840,7 +9851,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -9994,7 +10005,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -10794,13 +10805,13 @@
       },
       {
         "Level": 53,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       }
     ],
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -10942,7 +10953,7 @@
       },
       {
         "Level": 65,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       }
     ],
     "PreEvoMoves": [
@@ -10950,7 +10961,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -11365,7 +11376,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -11466,7 +11477,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -12089,7 +12100,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_FLASH_CANNON",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SUPERCELL_SLAM"
     ],
     "EggMoves": [
       "MOVE_BLOCK",
@@ -12502,7 +12514,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -12633,7 +12645,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -14026,7 +14038,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_GUNK_SHOT"
     ],
     "EggMoves": [
       "MOVE_CURSE",
@@ -14165,7 +14178,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_GUNK_SHOT"
     ],
     "EggMoves": [
       "MOVE_CURSE",
@@ -14584,7 +14598,7 @@
       "MOVE_WORK_UP",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -14877,7 +14891,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -15007,7 +15021,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -15124,7 +15138,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -15236,7 +15250,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -15358,7 +15372,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -15490,7 +15504,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -15581,7 +15595,7 @@
     "TMMoves": [
       "MOVE_PSYSHOCK",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -16057,7 +16071,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -16094,7 +16108,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_TRICK_ROOM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_ALLURING_VOICE"
     ],
     "EggMoves": [
       "MOVE_CAPTIVATE",
@@ -16352,7 +16367,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -16722,7 +16738,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -16842,7 +16858,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -17122,7 +17138,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -17637,7 +17653,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -17770,7 +17786,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -17882,7 +17898,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -18017,7 +18033,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -18432,7 +18448,7 @@
       },
       {
         "Level": 57,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 64,
@@ -18463,7 +18479,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -18793,7 +18809,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -18920,7 +18936,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -19077,7 +19093,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -19246,7 +19262,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
@@ -19394,7 +19410,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
@@ -20418,7 +20434,7 @@
       "MOVE_WORK_UP",
       "MOVE_DRAGON_CLAW",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -20555,7 +20571,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -20700,7 +20716,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -22097,7 +22113,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -22258,7 +22274,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -23801,7 +23817,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -23949,7 +23965,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -24220,7 +24236,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -25275,7 +25291,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -25396,7 +25412,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -25972,7 +25988,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -27110,7 +27126,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_NATURE_POWER",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SUPERCELL_SLAM"
     ],
     "EggMoves": [
       "MOVE_BLOCK",
@@ -27396,7 +27413,8 @@
       "MOVE_WILD_CHARGE",
       "MOVE_SNARL",
       "MOVE_DAZZLING_GLEAM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_DRAIN_PUNCH"
     ],
     "EggMoves": [
       "MOVE_CLOSE_COMBAT",
@@ -27533,7 +27551,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
@@ -28082,7 +28100,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_TAUNT",
@@ -28773,7 +28791,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -28913,7 +28931,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -29045,7 +29063,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -29389,7 +29407,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -29413,7 +29431,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_FLIP_TURN"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -29537,7 +29556,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -30082,7 +30101,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -31002,7 +31021,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -31514,7 +31533,7 @@
       "MOVE_WORK_UP",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -31916,7 +31935,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -32338,7 +32357,8 @@
       "MOVE_SURF",
       "MOVE_SNARL",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -32452,7 +32472,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -33189,7 +33209,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [
       "MOVE_BULLET_SEED",
@@ -33712,7 +33733,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -33850,7 +33871,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -34000,7 +34021,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -34031,7 +34052,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -35002,7 +35024,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -35118,7 +35140,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -35216,7 +35238,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -35578,7 +35600,10 @@
       "MOVE_SNARL",
       "MOVE_NATURE_POWER",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_TAUNT"
     ],
     "EggMoves": [
       "MOVE_AMNESIA",
@@ -35909,7 +35934,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -36070,7 +36095,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -38644,7 +38669,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -39037,7 +39062,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_ALLURING_VOICE"
     ],
     "EggMoves": [
       "MOVE_BATON_PASS",
@@ -39808,7 +39834,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SUPERCELL_SLAM"
     ],
     "EggMoves": [
       "MOVE_BODY_SLAM",
@@ -41429,7 +41456,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -41574,7 +41601,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -41700,7 +41727,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -41844,7 +41871,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -43133,7 +43160,9 @@
       "MOVE_SLEEP_TALK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_STEALTH_ROCK"
     ],
     "EggMoves": [
       "MOVE_BUG_BITE",
@@ -44412,7 +44441,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -44556,7 +44585,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -44674,7 +44703,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -44818,7 +44847,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -45687,7 +45716,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -45821,7 +45850,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -45909,7 +45938,7 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 25,
@@ -45936,7 +45965,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -47137,7 +47166,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_TAUNT",
@@ -47311,13 +47340,13 @@
       },
       {
         "Level": 50,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       }
     ],
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -47431,7 +47460,7 @@
       },
       {
         "Level": 54,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 61,
@@ -47441,7 +47470,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -47549,7 +47578,7 @@
       },
       {
         "Level": 36,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 41,
@@ -47563,7 +47592,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -47587,7 +47616,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SCALD"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -47674,7 +47704,7 @@
       },
       {
         "Level": 38,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 45,
@@ -47689,7 +47719,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -47713,7 +47743,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SCALD"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -47808,7 +47839,7 @@
       },
       {
         "Level": 38,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 49,
@@ -47825,7 +47856,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -47851,7 +47882,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SCALD"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -47907,7 +47939,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -48020,7 +48052,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -48141,7 +48173,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -48267,7 +48299,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -48400,7 +48432,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -49077,7 +49109,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_FLASH_CANNON",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -49301,7 +49334,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -49777,7 +49810,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_FLIP_TURN"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -49865,7 +49899,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -50270,7 +50304,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_TRICK_ROOM",
       "MOVE_DAZZLING_GLEAM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_MOONBLAST"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -50779,7 +50814,9 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_GRASSY_GLIDE",
+      "MOVE_IRON_DEFENSE"
     ],
     "EggMoves": [
       "MOVE_AMNESIA",
@@ -51318,7 +51355,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -51450,7 +51487,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -51591,7 +51628,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -51626,7 +51663,11 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_IRON_HEAD",
+      "MOVE_AIR_SLASH",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_CALM_MIND"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -52383,7 +52424,12 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_BULLET_SEED",
+      "MOVE_BULLDOZE",
+      "MOVE_HYPER_VOICE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ROCK_TOMB"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -54075,7 +54121,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -54211,7 +54257,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
@@ -54541,7 +54587,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -54646,7 +54692,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -56925,7 +56971,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_LIGHT_SCREEN",
@@ -57092,7 +57138,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_ALLURING_VOICE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -59021,7 +59068,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -59152,7 +59199,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -59270,7 +59317,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -59374,7 +59421,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -59492,7 +59539,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -59649,7 +59696,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_TAUNT",
@@ -60504,7 +60551,11 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_TRAILBLAZE",
+      "MOVE_KNOCK_OFF",
+      "MOVRE_CLOSE_COMBAT",
+      "MOVE_DRAIN_PUNCH"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -60651,7 +60702,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -61152,7 +61204,7 @@
       },
       {
         "Level": 37,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 41,
@@ -61178,7 +61230,7 @@
       "MOVE_WORK_UP",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -61373,7 +61425,8 @@
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_HIGH_HORSEPOWER"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -61457,7 +61510,7 @@
       },
       {
         "Level": 21,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 24,
@@ -61503,7 +61556,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -61529,7 +61582,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_TRAILBLAZE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -62349,7 +62403,7 @@
       },
       {
         "Level": 54,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 61,
@@ -62366,7 +62420,7 @@
     ],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -63126,7 +63180,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
@@ -63733,7 +63787,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -63834,7 +63888,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -64163,7 +64217,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -65304,7 +65358,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -65433,7 +65487,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -65574,7 +65628,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -65604,7 +65658,9 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_CUT"
     ],
     "EggMoves": [
       "MOVE_AIR_SLASH",
@@ -67149,7 +67205,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -67250,7 +67306,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -67999,7 +68055,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_ELECTROWEB"
     ],
     "EggMoves": [
       "MOVE_DOUBLE_EDGE",
@@ -68126,7 +68183,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_ELECTROWEB"
     ],
     "EggMoves": [
       "MOVE_DOUBLE_EDGE",
@@ -69180,7 +69238,8 @@
       "MOVE_WILD_CHARGE",
       "MOVE_SURF",
       "MOVE_DAZZLING_GLEAM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_TELEPORT"
     ],
     "EggMoves": [
       "MOVE_AMNESIA",
@@ -69698,7 +69757,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_PROTECT",
       "MOVE_RAIN_DANCE",
@@ -69814,7 +69873,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_PROTECT",
       "MOVE_RAIN_DANCE",
@@ -69946,7 +70005,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_HYPER_BEAM",
@@ -70545,7 +70604,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_LOW_KICK"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -71373,7 +71433,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_WEATHER_BALL"
     ],
     "EggMoves": [
       "MOVE_BIDE",
@@ -71479,7 +71540,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -75687,7 +75748,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_PROTECT",
@@ -75810,7 +75871,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_HYPER_BEAM",
@@ -75906,7 +75967,7 @@
       },
       {
         "Level": 40,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 44,
@@ -75924,7 +75985,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -76029,7 +76090,7 @@
       },
       {
         "Level": 42,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 47,
@@ -76047,7 +76108,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -76164,7 +76225,7 @@
       },
       {
         "Level": 42,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 50,
@@ -76182,7 +76243,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -76458,7 +76519,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_HIGH_HORSEPOWER"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -77160,7 +77222,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -77293,7 +77355,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_ICE_BEAM",
@@ -77449,7 +77511,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -79773,7 +79835,7 @@
       },
       {
         "Level": 49,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 53,
@@ -79787,7 +79849,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -79927,7 +79989,7 @@
       },
       {
         "Level": 53,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 59,
@@ -79944,7 +80006,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
@@ -80097,7 +80159,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -83226,7 +83288,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_FLASH_CANNON",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -83461,7 +83524,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -84225,7 +84289,7 @@
     "TMMoves": [
       "MOVE_DRAGON_CLAW",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -84353,7 +84417,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_HYPER_BEAM",
@@ -84381,7 +84445,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -85127,7 +85192,9 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_HIGH_HORSEPOWER"
     ],
     "EggMoves": [
       "MOVE_BELLY_DRUM",
@@ -85980,7 +86047,8 @@
       "MOVE_SURF",
       "MOVE_DARK_PULSE",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SLUDGE_WAVE"
     ],
     "EggMoves": [
       "MOVE_BESTOW",
@@ -87645,7 +87713,8 @@
       "MOVE_WILD_CHARGE",
       "MOVE_SURF",
       "MOVE_NATURE_POWER",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_HIGH_HORSEPOWER"
     ],
     "EggMoves": [
       "MOVE_DEFENSE_CURL",
@@ -89851,7 +89920,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_PROTECT",
@@ -89985,7 +90054,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_HYPER_BEAM",
@@ -90803,7 +90872,7 @@
       },
       {
         "Level": 38,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 41,
@@ -90835,7 +90904,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -90961,7 +91030,7 @@
       },
       {
         "Level": 38,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 43,
@@ -90993,7 +91062,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -91034,7 +91103,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_NATURE_POWER",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_POWER_GEM"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -91324,7 +91394,8 @@
       "MOVE_FEINT",
       "MOVE_ME_FIRST",
       "MOVE_MUD_SPORT",
-      "MOVE_QUICK_GUARD"
+      "MOVE_QUICK_GUARD",
+      "MOVE_LUNGE"
     ],
     "TutorMoves": [
       "MOVE_ALLY_SWITCH",
@@ -91541,7 +91612,7 @@
     "TMMoves": [
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_LIGHT_SCREEN",
@@ -91856,7 +91927,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -91888,7 +91959,8 @@
       "MOVE_SWAGGER",
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_ACID_ARMOR",
@@ -92270,7 +92342,8 @@
       "MOVE_TRICK_ROOM",
       "MOVE_NATURE_POWER",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_BESTOW",
@@ -92638,7 +92711,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -92782,7 +92855,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -93202,7 +93275,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_HYPER_BEAM",
@@ -93574,7 +93647,7 @@
       "MOVE_PSYSHOCK",
       "MOVE_CALM_MIND",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_HYPER_BEAM",
@@ -94800,7 +94873,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -94924,7 +94997,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -95056,7 +95129,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -95683,7 +95756,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_FIRE_FANG",
@@ -96235,7 +96309,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
@@ -96958,7 +97032,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_PROTECT",
@@ -97056,7 +97130,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -97185,7 +97259,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
@@ -99434,7 +99508,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_TAUNT",
       "MOVE_PROTECT",
@@ -99540,7 +99614,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_BULK_UP",
       "MOVE_VENOSHOCK",
       "MOVE_HIDDEN_POWER",
@@ -99922,7 +99996,7 @@
     "PreEvoMoves": [],
     "TMMoves": [
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_TAUNT",
       "MOVE_LIGHT_SCREEN",
       "MOVE_PROTECT",
@@ -100036,7 +100110,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_PROTECT",
@@ -100191,7 +100265,7 @@
       "MOVE_DRAGON_CLAW",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -101653,7 +101727,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_FLASH_CANNON",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_VACUUM_WAVE"
     ],
     "EggMoves": [
       "MOVE_COUNTER",
@@ -101805,7 +101880,8 @@
       "MOVE_WILD_CHARGE",
       "MOVE_NATURE_POWER",
       "MOVE_DAZZLING_GLEAM",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SUPERCELL_SLAM"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -103561,7 +103637,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_TRICK_ROOM",
       "MOVE_DARK_PULSE",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_DRACO_METEOR"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -104403,7 +104480,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_WILD_CHARGE",
       "MOVE_SNARL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_SUPERCELL_SLAM"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -104879,7 +104957,7 @@
       },
       {
         "Level": 42,
-        "Move": "MOVE_HAIL"
+        "Move": "MOVE_SNOWSCAPE"
       },
       {
         "Level": 46,
@@ -104890,7 +104968,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_BLIZZARD",
@@ -104994,7 +105072,7 @@
       "MOVE_FURY_CUTTER",
       "MOVE_FURY_SWIPES",
       "MOVE_GYRO_BALL",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_IRON_DEFENSE",
       "MOVE_IRON_HEAD",
       "MOVE_POWDER_SNOW",
@@ -105006,7 +105084,7 @@
     "TMMoves": [
       "MOVE_WORK_UP",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_BLIZZARD",
@@ -105160,7 +105238,7 @@
     "TMMoves": [
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -105271,7 +105349,7 @@
       "MOVE_CALM_MIND",
       "MOVE_ROAR",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
@@ -108345,7 +108423,7 @@
     "TMMoves": [
       "MOVE_DRAGON_CLAW",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -108467,7 +108545,7 @@
     "TMMoves": [
       "MOVE_DRAGON_CLAW",
       "MOVE_TOXIC",
-      "MOVE_HAIL",
+      "MOVE_SNOWSCAPE",
       "MOVE_HIDDEN_POWER",
       "MOVE_SUNNY_DAY",
       "MOVE_ICE_BEAM",
@@ -109058,7 +109136,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_SNARL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_KNOCK_OFF"
     ],
     "EggMoves": [
       "MOVE_CRUSH_CLAW",

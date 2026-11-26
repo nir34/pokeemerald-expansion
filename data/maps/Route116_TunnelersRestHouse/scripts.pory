@@ -1,0 +1,67 @@
+raw `
+Route116_TunnelersRestHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route116_TunnelersRestHouse_OnTransition
+	.byte 0
+
+Route116_TunnelersRestHouse_OnTransition:
+	setflag FLAG_LANDMARK_TUNNELERS_REST_HOUSE
+	end
+
+Route116_TunnelersRestHouse_EventScript_Tunneler1::
+	msgbox Route116_TunnelersRestHouse_Text_WeHadToStopBoring, MSGBOX_NPC
+	end
+
+Route116_TunnelersRestHouse_EventScript_Tunneler2::
+	msgbox Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf, MSGBOX_NPC
+	end
+
+Route116_TunnelersRestHouse_EventScript_Tunneler3::
+	lock
+	faceplayer
+	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, Route116_TunnelersRestHouse_EventScript_TunnelOpened
+	msgbox Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel, MSGBOX_DEFAULT
+	release
+	end
+
+Route116_TunnelersRestHouse_EventScript_TunnelOpened::
+	msgbox Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough, MSGBOX_DEFAULT
+	release
+	end
+
+Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
+	.string "那个碎石隧道……\p"
+	.string "一开始我们用最新的\n"
+	.string "机械和一大队人马\l"
+	.string "凿穿岩石。可是\l"
+	.string "我们不得不停下。\p"
+	.string "因为这样会对这一带的\n"
+	.string "野生宝可梦造成\l"
+	.string "不好的影响。\p"
+	.string "所以我们现在没别的\n"
+	.string "事，只能在这儿\l"
+	.string "闲晃。$"
+
+Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
+	.string "有个男人一个人往\n"
+	.string "秋叶镇挖过去。\l"
+	.string "他急着打通。\p"
+	.string "他说要是不用机械、\n"
+	.string "一点一点挖，就不会\l"
+	.string "打扰宝可梦，也不会\l"
+	.string "破坏自然环境。\p"
+	.string "不知道他挖通了没有。$"
+
+Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
+	.string "要是不走这条隧道去\n"
+	.string "秋叶镇，你就得渡海去\l"
+	.string "武斗，坐船到凯那，\l"
+	.string "再穿过紫堇。$"
+
+Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
+	.string "你听说了吗？通往秋叶\n"
+	.string "镇的隧道打通了！\p"
+	.string "有时候，只要你想得\n"
+	.string "够强烈，梦想真的\l"
+	.string "会成真。$"
+
+`

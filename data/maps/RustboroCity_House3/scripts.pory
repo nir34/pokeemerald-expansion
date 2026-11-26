@@ -1,0 +1,39 @@
+raw `
+RustboroCity_House3_MapScripts::
+	.byte 0
+
+RustboroCity_House3_EventScript_OldMan::
+	msgbox RustboroCity_House3_Text_IGivePerfectlySuitedNicknames, MSGBOX_NPC
+	end
+
+RustboroCity_House3_EventScript_OldWoman::
+	msgbox RustboroCity_House3_Text_NamingPikachuPekachu, MSGBOX_NPC
+	end
+
+@ Misspelling on purpose, see nickname
+RustboroCity_House3_EventScript_Pekachu::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	msgbox RustboroCity_House3_Text_Pekachu, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
+	.string "我给我自己的宝可梦\n"
+	.string "都起了最合适的昵称！\p"
+	.string "这算是我的……\n"
+	.string "独创性，对，就是这个！$"
+
+RustboroCity_House3_Text_NamingPikachuPekachu:
+	.string "可是给皮卡丘起名叫\n"
+	.string "皮卡丘丘？好像没意义。\p"
+	.string "用容易懂的名字\n"
+	.string "大概也不错，不过……$"
+
+RustboroCity_House3_Text_Pekachu:
+	.string "皮卡丘丘：皮卡！$"
+
+`

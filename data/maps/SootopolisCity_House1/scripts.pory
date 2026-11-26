@@ -1,0 +1,41 @@
+raw `
+SootopolisCity_House1_MapScripts::
+	.byte 0
+
+SootopolisCity_House1_EventScript_BrickBreakBlackBelt::
+	lock
+	faceplayer
+	msgbox SootopolisCity_House1_Text_ExplainBrickBreak, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_House1_EventScript_ReceivedBrickBreak::
+	msgbox SootopolisCity_House1_Text_ExplainBrickBreak, MSGBOX_DEFAULT
+	release
+	end
+
+SootopolisCity_House1_EventScript_Kecleon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KECLEON, CRY_MODE_NORMAL
+	msgbox SootopolisCity_House1_Text_Kecleon, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+SootopolisCity_House1_Text_DevelopedThisTM:
+	.string "我在琉璃市待了三十年，\n"
+	.string "磨练本事。\p"
+	.string "我开发了一个学习器，\n"
+	.string "能把一切劈开。\l"
+	.string "就传给你吧！$"
+
+SootopolisCity_House1_Text_ExplainBrickBreak:
+	.string "噗 噗呀啊。\n"
+	.string "我的变隐龙总是这么说。$"
+
+SootopolisCity_House1_Text_Kecleon:
+	.string "噗 噗呀啊。$"
+
+`

@@ -1,0 +1,177 @@
+raw `
+.set LOCALID_NURSE, 1
+.set LOCALID_SCOTT, 4
+.set LOCALID_EGG_TUTOR, 6
+
+EverGrandeCity_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+EverGrandeCity_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_EVER_GRANDE_CITY
+	call_if_unset FLAG_MET_SCOTT_IN_EVERGRANDE, EverGrandeCity_PokemonCenter_1F_EventScript_TryShowScott
+	end
+
+EverGrandeCity_PokemonCenter_1F_EventScript_TryShowScott::
+	goto_if_unset FLAG_BADGE06_GET, Common_EventScript_NopReturn
+	clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+	return
+
+EverGrandeCity_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+EverGrandeCity_PokemonCenter_1F_EventScript_Woman::
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad, MSGBOX_NPC
+	end
+
+EverGrandeCity_PokemonCenter_1F_EventScript_Scott::
+	lock
+	faceplayer
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_FACING, DIR_NORTH, EverGrandeCity_PokemonCenter_1F_EventScript_ScottExitNorth
+	call_if_eq VAR_FACING, DIR_EAST, EverGrandeCity_PokemonCenter_1F_EventScript_ScottExit
+	call_if_eq VAR_FACING, DIR_WEST, EverGrandeCity_PokemonCenter_1F_EventScript_ScottExit
+	addvar VAR_SCOTT_STATE, 1
+	setflag FLAG_MET_SCOTT_IN_EVERGRANDE
+	playse SE_EXIT
+	waitse
+	removeobject LOCALID_SCOTT
+	release
+	end
+
+EverGrandeCity_PokemonCenter_1F_EventScript_ScottExitNorth::
+	applymovement LOCALID_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExitNorth
+	waitmovement 0
+	return
+
+EverGrandeCity_PokemonCenter_1F_EventScript_ScottExit::
+	applymovement LOCALID_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExit
+	waitmovement 0
+	return
+
+EverGrandeCity_PokemonCenter_1F_Movement_ScottExitNorth:
+	walk_left
+	walk_down
+	walk_down
+	walk_left
+	walk_down
+	walk_down
+	step_end
+
+EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	walk_down
+	walk_down
+	step_end
+
+EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
+	.string "宝可梦联盟就在冠军之路\n"
+	.string "过去不远。\p"
+	.string "你都走到这里了，除了\n"
+	.string "继续前进还有\l"
+	.string "什么选择？$"
+
+EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
+	.string "史考特：{PLAYER}，你一路\n"
+	.string "爬上来，要挑战宝可梦\l"
+	.string "联盟了！\p"
+	.string "我为你高兴！\n"
+	.string "我的加油没白费！\p"
+	.string "{PLAYER}，要是你成了\n"
+	.string "宝可梦联盟冠军……\p"
+	.string "到时候我会\n"
+	.string "联系你。\p"
+	.string "好，{PLAYER}。\n"
+	.string "去成就伟大吧！$"
+
+`
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM{
+	lock
+	faceplayer
+
+	if(flag(FLAG_RECEIVED_ZYGARDE_CUBE)){
+		msgbox(EverGrandeCity_PokemonCenter_1F_Text_UseThatCube, MSGBOX_DEFAULT)
+		release
+		end
+	}
+	
+	msgbox(EverGrandeCity_PokemonCenter_1F_Text_IHaveCube, MSGBOX_DEFAULT)
+	special(ChoosePartyMon)
+	waitstate
+	copyvar(VAR_RESULT, VAR_0x8004)
+	goto_if_eq(VAR_RESULT, PARTY_NOTHING_CHOSEN, EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend)
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+	switch (var(VAR_RESULT)) {
+        case SPECIES_ZYGARDE:
+		case SPECIES_ZYGARDE_50:
+		case SPECIES_ZYGARDE_10:
+		case SPECIES_ZYGARDE_10_AURA_BREAK:
+		case SPECIES_ZYGARDE_10_POWER_CONSTRUCT:
+		case SPECIES_ZYGARDE_50_POWER_CONSTRUCT:
+		case SPECIES_ZYGARDE_COMPLETE:
+				msgbox(EverGrandeCity_PokemonCenter_1F_Text_PleaseTakeThisCube, MSGBOX_DEFAULT)
+				giveitem(ITEM_ZYGARDE_CUBE)
+				setflag(FLAG_RECEIVED_ZYGARDE_CUBE)
+			
+        default:
+            msgbox(EverGrandeCity_PokemonCenter_1F_Text_NotLegend, MSGBOX_DEFAULT)
+			release
+			end
+	}
+	
+	msgbox(EverGrandeCity_PokemonCenter_1F_Text_UseThatCube, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend{
+	msgbox(EverGrandeCity_PokemonCenter_1F_Text_DontHaveLegend, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_IHaveCube{
+	"我看出你是个有前途的训练家。我就\n"
+	"知道只要在这宝可梦中心等，\l"
+	"迟早会有你这种水准的\l"
+	"训练家出现。\p"
+	"我花了很长时间收集细胞，\n"
+	"做成了一个能改变某只\l"
+	"宝可梦形态的高级核心。\p"
+	"只要让我看看你有那只宝可梦，\n"
+	"我就把核心送你。"
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_PleaseTakeThisCube{
+	"就是它！这个核心正是\n"
+	"用在那只宝可梦上的。\p"
+	"请把这项技术\n"
+	"发挥到极致。"
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_UseThatCube{
+	"这个核心能引出基格尔德\n"
+	"真正的力量。\p"
+	"我花了好几年才找齐\n"
+	"制作它所需的细胞，请好好使用。"
+}
+
+text EverGrandeCity_PokemonCenter_1F_Text_DontHaveLegend{
+	"我明白了，你没有我\n"
+	"在找的宝可梦。"
+}
+text EverGrandeCity_PokemonCenter_1F_Text_NotLegend{
+	"那只宝可梦用不了\n"
+	"这个核心。"
+}

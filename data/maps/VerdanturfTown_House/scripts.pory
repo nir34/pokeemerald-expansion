@@ -1,0 +1,166 @@
+raw `
+VerdanturfTown_House_MapScripts::
+	.byte 0
+
+VerdanturfTown_House_EventScript_Man1::
+	msgbox VerdanturfTown_House_Text_MorePassion, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_Woman1::
+	msgbox VerdanturfTown_House_Text_ImproveFootwork, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_LittleBoyDancing::
+	msgbox VerdanturfTown_House_Text_LittleBoyDancing, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_MomDancing::
+	msgbox VerdanturfTown_House_Text_MomDancing, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_DadDancing::
+	msgbox VerdanturfTown_House_Text_DadDancing, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_LittleGirlDancing::
+	msgbox VerdanturfTown_House_Text_LittleGirlDancing, MSGBOX_NPC
+	end
+
+VerdanturfTown_House_EventScript_Oricorio::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_ORICORIO, CRY_MODE_NORMAL
+	msgbox VerdanturfTown_House_Text_Oricorio, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+VerdanturfTown_House_Text_Oricorio:
+	.string "花舞鸟：啾——啾！$"
+
+VerdanturfTown_House_Text_MorePassion:
+	.string "再热情点！再热情点！\n"
+	.string "再热情点！再加油！\l"
+	.string "再加把劲！$"
+
+VerdanturfTown_House_Text_ImproveFootwork:
+	.string "我得把脚步练得\n"
+	.string "更好！$"
+
+VerdanturfTown_House_Text_LittleBoyDancing:
+	.string "呼！我累坏了！$"
+
+VerdanturfTown_House_Text_MomDancing:
+	.string "他跳得越来越好了，\n"
+	.string "我真为他骄傲！$"
+
+VerdanturfTown_House_Text_DadDancing:
+	.string "她哪来这么多\n"
+	.string "精力？$"
+
+VerdanturfTown_House_Text_LittleGirlDancing:
+	.string "爸爸看我的转圈！！！$"
+
+`
+
+script VerdanturfTown_House_EventScript_Ursula{
+	lockall
+	applymovement(3, Common_Movement_FacePlayer)
+	goto_if_set(FLAG_RECEIVED_SETUP_TMS, VerdanturfTown_EventScript_UrsulaDefeated)
+	goto_if_set(FLAG_DECLINED_DANCE_BATTLE, VerdanturfTown_EventScript_UrsulaRequestBattleAgain)
+	msgbox(UrsulaGreeting, MSGBOX_DEFAULT)
+	waitmessage
+	msgbox(WillYouDance, MSGBOX_YESNO)
+	goto(VerdanturfTown_EventScript_BattleUrsulaPrompt)
+	end
+}
+
+script VerdanturfTown_EventScript_UrsulaRequestBattleAgain{
+	msgbox(Ready_Dance_Yet, MSGBOX_YESNO)
+	goto(VerdanturfTown_EventScript_BattleUrsulaPrompt)
+	end
+}
+
+script VerdanturfTown_EventScript_BattleUrsulaPrompt{
+	call_if_eq(VAR_RESULT, YES, VerdanturfTown_EventScript_BattleUrsula)
+	goto_if_eq(VAR_RESULT, NO, VerdanturfTown_EventScript_DeclineUrsulaBattle)
+	closemessage
+	end
+}
+
+script VerdanturfTown_EventScript_DeclineUrsulaBattle {
+	setflag(FLAG_DECLINED_DANCE_BATTLE)
+	msgbox(Come_Back_When_Ready, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script VerdanturfTown_EventScript_BattleUrsula{
+	msgbox("起舞吧！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_URSULA, UrsulaDefeat)
+	goto(VerdanturfTown_EventScript_UrsulaGiveItems)
+	return
+}
+	
+
+script VerdanturfTown_EventScript_UrsulaDefeated{
+	msgbox(VerdanturfTown_House_Text_UrsulaPostBattle, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script VerdanturfTown_EventScript_UrsulaGiveItems{
+	giveitem(ITEM_TM_CALM_MIND)
+	giveitem(ITEM_TM_BULK_UP)
+	giveitem(ITEM_TM_POWER_UP_PUNCH)
+	giveitem(ITEM_TM_CHARGE_BEAM)
+	giveitem(ITEM_TM_ROCK_POLISH)
+	giveitem(ITEM_TM_FLAME_CHARGE)
+	giveitem(ITEM_TM_TRAILBLAZE)
+	giveitem(ITEM_TM_WORK_UP)
+	setflag(FLAG_RECEIVED_SETUP_TMS)
+	msgbox(VerdanturfTown_House_Text_ExplainTms)
+	release
+	end
+}
+
+text UrsulaGreeting {
+	"欢迎来到我的舞蹈教室！看来你\n"
+	"已经拿到电力徽章了，\l"
+	"还不错嘛！\p"
+	"你也许擅长宝可梦\n"
+	"对战，但看看你在\l"
+	"舞蹈对决里表现如何！\p"
+	"顺便说，这是一场\n"
+	"双打对战，所以我建议\l"
+	"带一只以上的宝可梦\l"
+	"来共舞！"
+}
+	
+
+text UrsulaDefeat{
+	"舞步不错！现在我有些不错的\n"
+	"招式要送给你！"
+}
+
+text VerdanturfTown_House_Text_ExplainTms{
+	"这才叫好招式！你要是能走到\n"
+	"那一步遇到我姐姐，\l"
+	"祝你好运！"
+}
+	
+
+text VerdanturfTown_House_Text_UrsulaPostBattle{
+	"我回去跳舞了！"
+}
+
+text WillYouDance{
+	"怎么样，想不想\n"
+	"跳一曲？"
+}
+
+text Ready_Dance_Yet{
+	"准备好跳舞了吗？"
+}
+	

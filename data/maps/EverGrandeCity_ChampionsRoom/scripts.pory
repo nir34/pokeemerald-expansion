@@ -1,0 +1,421 @@
+raw `
+.set LOCALID_WALLACE, 1
+.set LOCALID_RIVAL, 2
+.set LOCALID_BIRCH, 3
+.set LOCALID_STEVEN, 4
+.set LOCALID_DAWN, 5
+
+EverGrandeCity_ChampionsRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_ChampionsRoom_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_ChampionsRoom_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_ChampionsRoom_OnFrame
+	.byte 0
+
+EverGrandeCity_ChampionsRoom_OnTransition:
+	call Common_EventScript_SetupRivalGfxId
+	end
+
+EverGrandeCity_ChampionsRoom_OnWarp:
+	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_ChampionsRoom_EventScript_PlayerTurnNorth
+	.2byte 0
+
+EverGrandeCity_ChampionsRoom_EventScript_PlayerTurnNorth::
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	end
+
+EverGrandeCity_ChampionsRoom_OnFrame:
+	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_ChampionsRoom_EventScript_EnterRoom
+	.2byte 0
+
+EverGrandeCity_ChampionsRoom_EventScript_EnterRoom::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp4
+	waitmovement 0
+	delay 40
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace
+	waitmovement 0
+	setvar VAR_TEMP_1, 1
+	goto EverGrandeCity_ChampionsRoom_EventScript_Wallace
+	releaseall
+	end
+
+EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
+	walk_up
+	walk_up
+	step_end
+
+EverGrandeCity_ChampionsRoom_EventScript_Wallace::
+	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceIntroSpeech, MSGBOX_DEFAULT
+	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox EverGrandeCity_ChampionsRoom_Text_StevenIntroSpeech, MSGBOX_DEFAULT
+	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceAndISaidYes, MSGBOX_DEFAULT
+	trainerbattle_two_trainers TRAINER_STEVEN_WITH_WALLACE, EverGrandeCity_ChampionsRoom_Text_StevenDefeat, TRAINER_WALLACE_WITH_STEVEN, EverGrandeCity_ChampionsRoom_Text_WallaceDefeat
+	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
+	release
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_Defeated::
+	playse SE_DOOR
+	setmetatile 6, 1, METATILE_EliteFour_OpenDoorChampion_Frame, FALSE
+	setmetatile 6, 2, METATILE_EliteFour_OpenDoorChampion_Opening, FALSE
+	special DrawWholeMapView
+	msgbox EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
+	closemessage
+	playse SE_DOOR
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic
+	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic
+	addobject LOCALID_RIVAL
+	call EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayAdvice
+	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic::
+	playbgm MUS_ENCOUNTER_MAY, FALSE
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic::
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_MayAdvice::
+	msgbox EverGrandeCity_ChampionsRoom_Text_MayAdvice, MSGBOX_DEFAULT
+	delay 40
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_DAWN, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_DAWN, Common_Movement_Delay48
+	waitmovement 0
+	call EverGrandeCity_ChampionsRoom_EventScript_RivalLookBackAndForth
+	msgbox EverGrandeCity_ChampionsRoom_Text_DawnYouveWon, MSGBOX_DEFAULT
+	goto EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice::
+	msgbox EverGrandeCity_ChampionsRoom_Text_BrendanAdvice, MSGBOX_DEFAULT
+	delay 40
+	playse SE_PIN
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_DAWN, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_DAWN, Common_Movement_Delay48
+	waitmovement 0
+	call EverGrandeCity_ChampionsRoom_EventScript_RivalLookBackAndForth
+	msgbox EverGrandeCity_ChampionsRoom_Text_DawnYouveWon, MSGBOX_DEFAULT
+	goto EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
+	closemessage
+	addobject LOCALID_BIRCH
+	applymovement LOCALID_BIRCH, EverGrandeCity_ChampionsRoom_Movement_BirchArrives
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	msgbox EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex, MSGBOX_DEFAULT
+	call ProfBirch_EventScript_RatePokedex
+	msgbox EverGrandeCity_ChampionsRoom_Text_BirchCongratulations, MSGBOX_DEFAULT
+	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	delay 20
+	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	applymovement LOCALID_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExitStart
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_DAWN, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalFollows
+	waitmovement 0
+	delay 20
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside, MSGBOX_DEFAULT
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations
+	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations
+	closemessage
+	applymovement LOCALID_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExit
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExit
+	waitmovement 0
+	warp MAP_EVER_GRANDE_CITY_HALL_OF_FAME, 7, 16
+	waitstate
+	releaseall
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations::
+	msgbox EverGrandeCity_ChampionsRoom_Text_MayCongratulations, MSGBOX_DEFAULT
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations::
+	msgbox EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations, MSGBOX_DEFAULT
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer::
+	applymovement LOCALID_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer1
+	waitmovement 0
+	addobject LOCALID_DAWN
+	delay 15
+	applymovement LOCALID_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer2
+	applymovement LOCALID_DAWN, EverGrandeCity_ChampionsRoom_Movement_DawnApproachPlayer
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_RivalLookBackAndForth::
+	applymovement LOCALID_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalLookBackAndForth
+	applymovement LOCALID_DAWN, EverGrandeCity_ChampionsRoom_Movement_DawnLookBackAndForth
+	waitmovement 0
+	return
+
+EverGrandeCity_ChampionsRoom_Movement_PlayerExitStart:
+	walk_up
+	walk_up
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_PlayerExit:
+	walk_up
+	delay_16
+	walk_up
+	delay_8
+	set_invisible
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer1:
+	walk_up
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer2:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	walk_up
+	walk_in_place_faster_right
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_DawnApproachPlayer:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	walk_in_place_faster_right
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_RivalLookBackAndForth:
+	walk_in_place_faster_down
+	delay_16
+	walk_in_place_faster_right
+	delay_16
+	walk_in_place_faster_down
+	delay_8
+	walk_in_place_faster_right
+	delay_16
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_DawnLookBackAndForth:
+	walk_in_place_faster_up
+	delay_16
+	walk_in_place_faster_right
+	delay_16
+	walk_in_place_faster_up
+	delay_8
+	walk_in_place_faster_right
+	delay_16
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_RivalFollows:
+	walk_right
+	walk_up
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart:
+	walk_up
+	walk_up
+	walk_in_place_faster_down
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_WallaceExit:
+	walk_up
+	delay_8
+	set_invisible
+	step_end
+
+EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_in_place_faster_left
+	step_end
+
+EverGrandeCity_ChampionsRoom_Text_WallaceIntroSpeech:
+	.string "亚当：欢迎，{PLAYER}！\p"
+	.string "琉璃市那件事……\n"
+	.string "你一个人就平息了\l"
+	.string "那场危机，干得漂亮。\p"
+	.string "哎呀！\p"
+	.string "说你一个人平息了\n"
+	.string "危机，也不太公平。\p"
+	.string "当然，是你和宝可梦\n"
+	.string "同心协力，才渡过\l"
+	.string "那个难关！\p"
+	.string "现在，你一定在想为什么\n"
+	.string "我不是一个人在这里……\l"
+	.string "那个……$"
+
+EverGrandeCity_ChampionsRoom_Text_StevenIntroSpeech:
+	.string "大吾：我就是受不了\n"
+	.string "被排除在所有乐趣之外！\p"
+	.string "你看，在亚当之前，\n"
+	.string "我是丰缘的冠军，\l"
+	.string "这些年我们换过\l"
+	.string "几次位子。\p"
+	.string "后来源治变坏了，我们\n"
+	.string "把小光叫来，感觉\l"
+	.string "好像每个人都要和\l"
+	.string "你——我们很久以来\l"
+	.string "见过的最强新星——\l"
+	.string "打一场，就除了我！\p"
+	.string "我实在没法坐在\n"
+	.string "边上看，所以我问\l"
+	.string "亚当，就这一次，\l"
+	.string "我们能不能当\l"
+	.string "双冠军，和你打一场。$"
+
+EverGrandeCity_ChampionsRoom_Text_WallaceAndISaidYes:
+	.string "亚当：然后我答应了，\n"
+	.string "所以我们来了！\p"
+	.string "不过话说到这里\n"
+	.string "够了……\p"
+	.string "{PLAYER}，该给你\n"
+	.string "最后一场考验了……\p"
+	.string "该打最后一场，看看\n"
+	.string "你是不是丰缘地区\l"
+	.string "最强的训练家！$"
+
+EverGrandeCity_ChampionsRoom_Text_WallaceDefeat:
+	.string "干得漂亮。\n"
+	.string "你优雅得让人生气。\l"
+	.string "可又那么辉煌！\p"
+	.string "{PLAYER}，恭喜你！\p"
+	.string "你真是丰缘地区最强的\n"
+	.string "宝可梦训练家，\l"
+	.string "也肯定是我面对过\l"
+	.string "最强的。$"
+
+EverGrandeCity_ChampionsRoom_Text_StevenDefeat:
+	.string "哈哈！太了不起了，\n"
+	.string "{PLAYER}。我真高兴亚当\l"
+	.string "让我一起打这一场，\l"
+	.string "能亲眼见识你的实力。\p"
+	.string "{PLAYER}，恭喜你成为\n"
+	.string "新的宝可梦联盟冠军！$"
+
+EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
+	.string "亚当：你派上场的\n"
+	.string "宝可梦……\p"
+	.string "它们时而像春风\n"
+	.string "起舞，时而像\l"
+	.string "闪电出击。\p"
+	.string "你带领宝可梦的方式，\n"
+	.string "轻盈却又稳健优雅。\p"
+	.string "连我都为你精湛的\n"
+	.string "表现目眩神迷！\p"
+	.string "你现在站在宝可梦联盟\n"
+	.string "光辉的顶点。\p"
+	.string "我现在宣布你为\n"
+	.string "丰缘地区新的……$"
+
+EverGrandeCity_ChampionsRoom_Text_MayAdvice:
+	.string "小遥：{PLAYER}！\p"
+	.string "你挑战冠军之前，\n"
+	.string "给你点建议……$"
+
+EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
+	.string "佑树：{PLAYER}！\p"
+	.string "挑战冠军之前，\n"
+	.string "想不想听点建议？……$"
+
+EverGrandeCity_ChampionsRoom_Text_DawnYouveWon:
+	.string "小光：嗯？\n"
+	.string "什么，什么，什么？\p"
+	.string "{PLAYER}……\n"
+	.string "难道是……\l"
+	.string "已经结束了？\p"
+	.string "我还不敢相信你能\n"
+	.string "打赢辛西娅，这……$"
+
+EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
+	.string "小田卷博士：看吧？\n"
+	.string "我跟你们两个说什么来着？\p"
+	.string "我不是说过，不用\n"
+	.string "担心{PLAYER}吗？\p"
+	.string "… … … … … … … …\n"
+	.string "{PLAYER}，你终于做到了。\p"
+	.string "我听说你在橙华道馆\n"
+	.string "打败了自己的父亲，\l"
+	.string "就想着也许你有机会……\p"
+	.string "可没想到你真的成了\n"
+	.string "冠军！\p"
+	.string "啊，对了！\p"
+	.string "你的宝可梦图鉴\n"
+	.string "怎么样了？让我看看。$"
+
+EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
+	.string "小田卷博士：总之，\n"
+	.string "恭喜你！\p"
+	.string "现在，自豪地走进\n"
+	.string "最后的房间吧！$"
+
+EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
+	.string "亚当：{PLAYER}……\p"
+	.string "不，我该好好\n"
+	.string "改口。\p"
+	.string "新的冠军！\p"
+	.string "跟我来。$"
+
+EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
+	.string "亚当：抱歉，不过……\p"
+	.string "从这里开始，只有\n"
+	.string "成为冠军的训练家\l"
+	.string "才能进入。\p"
+	.string "你得和小田卷博士\n"
+	.string "在外面等。$"
+
+EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
+	.string "小遥：唔……\p"
+	.string "… … … … … … … …\n"
+	.string "… … … … … … … …\p"
+	.string "我开玩笑的！没关系！\n"
+	.string "这是规定！\p"
+	.string "{PLAYER}！\n"
+	.string "真心恭喜你！$"
+
+EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
+	.string "佑树：什么？！…… … …\n"
+	.string "… … … … … … … …\p"
+	.string "规定是这样就没办法。\p"
+	.string "{PLAYER}，干得好！\n"
+	.string "恭喜你！$"
+
+`

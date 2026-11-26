@@ -281,9 +281,9 @@ SINGLE_BATTLE_TEST("Intimidate activates when it's no longer affected by Neutral
         TURN { MOVE(player, move); SEND_OUT(player, 1); }
     } SCENE {
         ABILITY_POPUP(player, ABILITY_NEUTRALIZING_GAS);
-        MESSAGE("Neutralizing gas filled the area!");
+        MESSAGE("Neutralizing Gas filled the area!");
         ANIMATION(ANIM_TYPE_MOVE, move, player);
-        MESSAGE("The effects of the neutralizing gas wore off!");
+        MESSAGE("The effects of Neutralizing Gas wore off!");
         ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
         SEND_IN_MESSAGE("Wobbuffet");
     } THEN {
@@ -316,11 +316,11 @@ SINGLE_BATTLE_TEST("Intimidate activates when it's no longer affected by Neutral
         }
     } SCENE {
         ABILITY_POPUP(player, ABILITY_NEUTRALIZING_GAS);
-        MESSAGE("Neutralizing gas filled the area!");
+        MESSAGE("Neutralizing Gas filled the area!");
         ANIMATION(ANIM_TYPE_MOVE, move, opponent);
         if (item != ITEM_NONE)
             ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, player);
-        MESSAGE("The effects of the neutralizing gas wore off!");
+        MESSAGE("The effects of Neutralizing Gas wore off!");
         ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
         if (item != ITEM_NONE) {
             SEND_IN_MESSAGE("Wobbuffet");
@@ -341,13 +341,28 @@ SINGLE_BATTLE_TEST("Intimidate activates when it's no longer affected by Neutral
         TURN { MOVE(opponent, MOVE_FELL_STINGER); SEND_OUT(player, 1); }
     } SCENE {
         ABILITY_POPUP(player, ABILITY_NEUTRALIZING_GAS);
-        MESSAGE("Neutralizing gas filled the area!");
+        MESSAGE("Neutralizing Gas filled the area!");
         ANIMATION(ANIM_TYPE_MOVE, MOVE_FELL_STINGER, opponent);
-        MESSAGE("The effects of the neutralizing gas wore off!");
+        MESSAGE("The effects of Neutralizing Gas wore off!");
         ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
         MESSAGE("Weezing fainted!");
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_STATS_CHANGE, opponent);
         SEND_IN_MESSAGE("Wobbuffet");
+    }
+}
+
+SINGLE_BATTLE_TEST("Intimdate does not lose timing after mega evolution and switch out by a hit escape move")
+{
+    GIVEN {
+        ASSUME(gMovesInfo[MOVE_U_TURN].effect == EFFECT_HIT_ESCAPE);
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_MANECTRIC) { Item(ITEM_MANECTITE); }
+        OPPONENT(SPECIES_ARBOK) { Ability(ABILITY_INTIMIDATE); }
+    } WHEN {
+        TURN { MOVE(opponent, MOVE_U_TURN, gimmick: GIMMICK_MEGA); SEND_OUT(opponent, 1); }
+    } SCENE {
+        ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
+        ABILITY_POPUP(opponent, ABILITY_INTIMIDATE);
     }
 }
 

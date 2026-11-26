@@ -1,0 +1,56 @@
+raw `
+PacifidlogTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
+	.byte 0
+
+PacifidlogTown_OnTransition:
+	setflag FLAG_VISITED_PACIFIDLOG_TOWN
+	end
+
+PacifidlogTown_OnResume:
+	setstepcallback STEP_CB_PACIFIDLOG_BRIDGE
+	end
+
+PacifidlogTown_EventScript_NinjaBoy::
+	msgbox PacifidlogTown_Text_NeatHousesOnWater, MSGBOX_NPC
+	end
+
+PacifidlogTown_EventScript_Girl::
+	msgbox PacifidlogTown_Text_FastRunningCurrent, MSGBOX_NPC
+	end
+
+PacifidlogTown_EventScript_Fisherman::
+	msgbox PacifidlogTown_Text_SkyPillarTooScary, MSGBOX_NPC
+	end
+
+PacifidlogTown_EventScript_TownSign::
+	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
+	end
+
+PacifidlogTown_Text_FastRunningCurrent:
+	.string "水静市和凯那之间的海\n"
+	.string "有湍急的潮流。\p"
+	.string "要是你冲浪，可能会被\n"
+	.string "冲到别的地方去。$"
+
+PacifidlogTown_Text_NeatHousesOnWater:
+	.string "看，很厉害吧？\n"
+	.string "这些房子都在水面上！\p"
+	.string "我就生在这儿！$"
+
+PacifidlogTown_Text_SkyPillarTooScary:
+	.string "天空之柱？\p"
+	.string "……哦，你说的是再远\n"
+	.string "一点那座高高的塔吧。\p"
+	.string "要我说，我才不爬。\n"
+	.string "爬到那么高太可怕了。\p"
+	.string "在水静市海平面的\n"
+	.string "生活，正合我意。$"
+
+PacifidlogTown_Text_TownSign:
+	.string "水静市\p"
+	.string "“晨光微笑\n"
+	.string "照在水面上。”$"
+
+`

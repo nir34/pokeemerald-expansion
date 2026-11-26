@@ -1,0 +1,72 @@
+raw `
+Route110_TrickHousePuzzle4_MapScripts::
+	.byte 0
+
+Route110_TrickHousePuzzle4_EventScript_Scroll::
+	lockall
+	goto_if_eq VAR_TRICK_HOUSE_PUZZLE_4_STATE, 0, Route110_TrickHousePuzzle4_EventScript_FoundScroll
+	goto Route110_TrickHousePuzzle_EventScript_ReadScrollAgain
+	end
+
+Route110_TrickHousePuzzle4_EventScript_FoundScroll::
+	setvar VAR_TRICK_HOUSE_PUZZLE_4_STATE, 1
+	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
+	end
+
+Route110_TrickHousePuzzle4_EventScript_Cora::
+	trainerbattle_single TRAINER_CORA, Route110_TrickHousePuzzle4_Text_CoraIntro, Route110_TrickHousePuzzle4_Text_CoraDefeat
+	msgbox Route110_TrickHousePuzzle4_Text_CoraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle4_EventScript_Yuji::
+	trainerbattle_single TRAINER_YUJI, Route110_TrickHousePuzzle4_Text_YujiIntro, Route110_TrickHousePuzzle4_Text_YujiDefeat
+	msgbox Route110_TrickHousePuzzle4_Text_YujiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle4_EventScript_Paula::
+	trainerbattle_single TRAINER_PAULA, Route110_TrickHousePuzzle4_Text_PaulaIntro, Route110_TrickHousePuzzle4_Text_PaulaDefeat
+	msgbox Route110_TrickHousePuzzle4_Text_PaulaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
+	.string "{PLAYER}把密码写在了\n"
+	.string "门上。\p"
+	.string "“机关大师真酷。”\n"
+	.string "… … … … … … … …\p"
+	.string "锁咔嗒一声开了！$"
+
+Route110_TrickHousePuzzle4_Text_CoraIntro:
+	.string "想这个太麻烦了。\n"
+	.string "我只想对战！$"
+
+Route110_TrickHousePuzzle4_Text_CoraDefeat:
+	.string "虽然输了，我还是\n"
+	.string "最喜欢对战！$"
+
+Route110_TrickHousePuzzle4_Text_CoraPostBattle:
+	.string "你不觉得吗？只要有\n"
+	.string "训练家，哪儿都去。$"
+
+Route110_TrickHousePuzzle4_Text_YujiIntro:
+	.string "嘿！这种岩石，我一根\n"
+	.string "手指就能拨开！$"
+
+Route110_TrickHousePuzzle4_Text_YujiDefeat:
+	.string "我能推岩石，可解不开\n"
+	.string "谜题……$"
+
+Route110_TrickHousePuzzle4_Text_YujiPostBattle:
+	.string "光有力气不够……\n"
+	.string "得动脑子。要聪明！$"
+
+Route110_TrickHousePuzzle4_Text_PaulaIntro:
+	.string "机关屋越来越难了，\n"
+	.string "对吧？$"
+
+Route110_TrickHousePuzzle4_Text_PaulaDefeat:
+	.string "啊——！$"
+
+Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
+	.string "有人走到最后了吗？$"
+
+`

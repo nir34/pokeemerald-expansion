@@ -318,6 +318,9 @@ static void CreateHatchedMon(struct Pokemon *egg, struct Pokemon *temp)
     u8 i, friendship, language, gameMet, markings, isModernFatefulEncounter;
     u16 moves[MAX_MON_MOVES];
     u32 ivs[NUM_STATS];
+    u8 ivToMakeEgg = USE_RANDOM_IVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+        ivToMakeEgg = MAX_PER_STAT_IVS;
 
     species = GetMonData(egg, MON_DATA_SPECIES);
 
@@ -337,7 +340,7 @@ static void CreateHatchedMon(struct Pokemon *egg, struct Pokemon *temp)
     isModernFatefulEncounter = GetMonData(egg, MON_DATA_MODERN_FATEFUL_ENCOUNTER);
     ball = GetMonData(egg, MON_DATA_POKEBALL);
 
-    CreateMon(temp, species, EGG_HATCH_LEVEL, USE_RANDOM_IVS, TRUE, personality, OT_ID_PLAYER_ID, 0);
+    CreateMon(temp, species, EGG_HATCH_LEVEL, ivToMakeEgg, TRUE, personality, OT_ID_PLAYER_ID, 0);
 
     for (i = 0; i < MAX_MON_MOVES; i++)
         SetMonData(temp, MON_DATA_MOVE1 + i,  &moves[i]);
@@ -651,7 +654,7 @@ static void CB2_EggHatch(void)
             sEggHatchData->state++;
         break;
     case 5:
-        // "{mon} hatched from egg" message/fanfare
+        // "{mon}从蛋中孵化了" message/fanfare
         GetMonNickname(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_HatchedFromEgg);
         EggHatchPrintMessage(sEggHatchData->windowId, gStringVar4, 0, 3, TEXT_SKIP_DRAW);

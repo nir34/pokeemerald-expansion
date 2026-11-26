@@ -17,6 +17,7 @@
 #include "event_object_lock.h"
 #include "event_object_movement.h"
 #include "event_scripts.h"
+#include "fake_rtc.h"
 #include "field_message_box.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
@@ -34,7 +35,9 @@
 #include "party_menu.h"
 #include "pokedex.h"
 #include "pokemon_storage_system.h"
+#include "pokemon_summary_screen.h"
 #include "random.h"
+#include "randomizer.h"
 #include "overworld.h"
 #include "rotating_tile_puzzle.h"
 #include "rtc.h"
@@ -54,6 +57,9 @@
 #include "list_menu.h"
 #include "malloc.h"
 #include "constants/event_objects.h"
+#include "list_menu.h"
+#include "malloc.h"
+#include "randomizer.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(struct ScriptContext *ctx);
@@ -520,6 +526,15 @@ bool8 ScrCmd_checkitemspace(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_checkpcspace(struct ScriptContext *ctx)
+{
+    u16 itemId = VarGet(ScriptReadHalfword(ctx));
+    u32 quantity = VarGet(ScriptReadHalfword(ctx));
+
+    gSpecialVar_Result = CheckPCHasSpace(itemId, (u8)quantity);
+    return FALSE;
+}
+
 bool8 ScrCmd_checkitem(struct ScriptContext *ctx)
 {
     u16 itemId = VarGet(ScriptReadHalfword(ctx));
@@ -527,6 +542,57 @@ bool8 ScrCmd_checkitem(struct ScriptContext *ctx)
 
     gSpecialVar_Result = CheckBagHasItem(itemId, quantity);
     return FALSE;
+}
+
+void ScrCmd_checkitemmemory(void)
+{
+    u32 i = 0;
+    gSpecialVar_Result = FALSE;
+    gSpecialVar_0x8004 = 0;
+
+    for(i = ITEM_FIRE_MEMORY; i <= ITEM_FAIRY_MEMORY; i++)
+    {
+        if(CheckBagHasItem(i, 1))
+        {
+            gSpecialVar_Result = TRUE;
+            gSpecialVar_0x8004 = i;
+            break;
+        }
+    }
+}
+
+void ScrCmd_checkitemdrive(void)
+{
+    u32 i = 0;
+    gSpecialVar_Result = FALSE;
+    gSpecialVar_0x8004 = 0;
+
+    for(i = ITEM_DOUSE_DRIVE; i <= ITEM_CHILL_DRIVE; i++)
+    {
+        if(CheckBagHasItem(i, 1))
+        {
+            gSpecialVar_Result = TRUE;
+            gSpecialVar_0x8004 = i;
+            break;
+        }
+    }
+}
+
+void ScrCmd_checkitemplate(void)
+{
+    u32 i = 0;
+    gSpecialVar_Result = FALSE;
+    gSpecialVar_0x8004 = 0;
+
+    for(i = ITEM_FLAME_PLATE; i <= ITEM_PIXIE_PLATE; i++)
+    {
+        if(CheckBagHasItem(i, 1))
+        {
+            gSpecialVar_Result = TRUE;
+            gSpecialVar_0x8004 = i;
+            break;
+        }
+    }
 }
 
 bool8 ScrCmd_checkitemtype(struct ScriptContext *ctx)
@@ -1130,6 +1196,40 @@ bool8 ScrCmd_setobjectxy(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_advancetime(struct ScriptContext *ctx)
+{
+    u16 timeToAdvanceTo = VarGet(ScriptReadHalfword(ctx));
+    switch (timeToAdvanceTo)
+    {
+    // Day
+    case 0:
+        FakeRtc_ManuallySetTime(DAY_HOUR_BEGIN, 0, 0);
+        break;
+
+    // Night
+    case 1:
+        FakeRtc_ManuallySetTime(NIGHT_HOUR_BEGIN, 0, 0);
+        break;
+
+    // Morning
+    case 2:
+        FakeRtc_ManuallySetTime(MORNING_HOUR_BEGIN, 0, 0);
+        break;
+
+    // Dusk
+    case 3:
+        FakeRtc_ManuallySetTime(EVENING_HOUR_BEGIN, 0, 0);
+        break;
+    
+    // default to day i guess
+    default:
+        FakeRtc_ManuallySetTime(10, 0, 0);
+        break;
+    }
+
+    return FALSE;
+}
+
 bool8 ScrCmd_setobjectxyperm(struct ScriptContext *ctx)
 {
     u16 localId = VarGet(ScriptReadHalfword(ctx));
@@ -1501,6 +1601,27 @@ bool8 ScrCmd_dynmultipush(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_buffernaturename(struct ScriptContext *ctx)
+{
+    u8 stringVarIndex = ScriptReadByte(ctx);
+    u16 nature = VarGet(ScriptReadHalfword(ctx));
+
+    StringCopy(sScriptStringVars[stringVarIndex], gNaturesInfo[nature].name);
+    return FALSE;
+}
+
+
+bool8 ScrCmd_bufferhptypeinfo(struct ScriptContext *ctx)
+{
+    u8 stringVarIndex1 = ScriptReadByte(ctx);
+    u8 stringVarIndex2 = ScriptReadByte(ctx);
+    u16 type = VarGet(ScriptReadHalfword(ctx));
+
+    StringCopy(sScriptStringVars[stringVarIndex1], gHiddenPowerTypeInfo[type].typeName);
+    StringCopy(sScriptStringVars[stringVarIndex2], gHiddenPowerTypeInfo[type].ivsListed);
+    return FALSE;
+}
+
 bool8 ScrCmd_multichoice(struct ScriptContext *ctx)
 {
     u8 left = ScriptReadByte(ctx);
@@ -1599,6 +1720,17 @@ bool8 ScrCmd_showmonpic(struct ScriptContext *ctx)
     u16 species = VarGet(ScriptReadHalfword(ctx));
     u8 x = ScriptReadByte(ctx);
     u8 y = ScriptReadByte(ctx);
+
+    if(!FlagGet(FLAG_USE_MONOTYPE_STARTERS))
+    {
+        u16 i = 0;
+        for(i = 0; i < MY_STARTER_AND_GIFT_MON_COUNT; i++)
+        {
+            if(gStarterAndGiftMonTable[i] == species)
+                break;
+        }
+        species = RandomizeStarterAndGiftMon(i, gStarterAndGiftMonTable);
+    }
 
     ScriptMenu_ShowPokemonPic(species, x, y);
     return FALSE;
@@ -1700,7 +1832,7 @@ bool8 ScrCmd_vmessage(struct ScriptContext *ctx)
 bool8 ScrCmd_bufferspeciesname(struct ScriptContext *ctx)
 {
     u8 stringVarIndex = ScriptReadByte(ctx);
-    u16 species = VarGet(ScriptReadHalfword(ctx)) & OBJ_EVENT_GFX_SPECIES_MASK; // ignore possible shiny / form bits
+    u16 species = VarGet(ScriptReadHalfword(ctx)) & OBJ_EVENT_MON_SPECIES_MASK; // ignore possible shiny / form bits
 
     StringCopy(sScriptStringVars[stringVarIndex], GetSpeciesName(species));
     return FALSE;
@@ -1873,6 +2005,31 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
             break;
         }
     }
+    if (gSpecialVar_Result == PARTY_SIZE && PlayerHasMove(moveId)){  // If no mon have the move, but the player has the HM in bag, use the first mon
+            gSpecialVar_Result = 0;
+            gSpecialVar_0x8004 = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES, NULL);
+    }
+    return FALSE;
+}
+
+bool8 ScrCmd_checkpartymon(struct ScriptContext *ctx)
+{
+    u8 i;
+    u16 speciesId = ScriptReadHalfword(ctx);
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SANITY_HAS_SPECIES)
+            && GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG) == speciesId)
+        {
+            gSpecialVar_Result = TRUE;
+            gSpecialVar_0x8004 = i;
+            return FALSE;
+        }
+    }
+
+    gSpecialVar_Result = FALSE;
+    gSpecialVar_0x8004 = PARTY_SIZE;
     return FALSE;
 }
 
@@ -2014,12 +2171,20 @@ bool8 ScrCmd_cleartrainerflag(struct ScriptContext *ctx)
 
 bool8 ScrCmd_setwildbattle(struct ScriptContext *ctx)
 {
-    u16 species = ScriptReadHalfword(ctx);
+    u16 species = VarGet(ScriptReadHalfword(ctx));
     u8 level = ScriptReadByte(ctx);
     u16 item = ScriptReadHalfword(ctx);
     u16 species2 = ScriptReadHalfword(ctx);
     u8 level2 = ScriptReadByte(ctx);
     u16 item2 = ScriptReadHalfword(ctx);
+
+    #if RANDOMIZER_AVAILABLE == TRUE
+        u8 mapNum = gSaveBlock1Ptr->location.mapNum;
+        u8 mapGroup = gSaveBlock1Ptr->location.mapGroup;
+        u8 localId = gObjectEvents[gSelectedObjectEvent].localId;
+
+        species = RandomizeFixedEncounterMon(species, mapNum, mapGroup, localId);
+    #endif
 
     if(species2 == SPECIES_NONE)
     {
@@ -2028,6 +2193,9 @@ bool8 ScrCmd_setwildbattle(struct ScriptContext *ctx)
     }
     else
     {
+        #if RANDOMIZER_AVAILABLE == TRUE
+            species2 = RandomizeFixedEncounterMon(species2, mapNum, mapGroup, localId);
+        #endif
         CreateScriptedDoubleWildMon(species, level, item, species2, level2, item2);
         sIsScriptedWildDouble = TRUE;
     }
@@ -2071,6 +2239,15 @@ bool8 ScrCmd_pokemartdecoration2(struct ScriptContext *ctx)
     const void *ptr = (void *)ScriptReadWord(ctx);
 
     CreateDecorationShop2Menu(ptr);
+    ScriptContext_Stop();
+    return TRUE;
+}
+
+bool8 ScrCmd_tmshop(struct ScriptContext *ctx)
+{
+    const void *ptr = (void *)ScriptReadWord(ctx);
+
+    CreateTMShopMenu(ptr);
     ScriptContext_Stop();
     return TRUE;
 }
@@ -2547,5 +2724,101 @@ bool8 Scrcmd_getobjectfacingdirection(struct ScriptContext *ctx)
 
     *varPointer = gObjectEvents[GetObjectEventIdByLocalId(objectId)].facingDirection;
 
+    return FALSE;
+}
+
+bool8 ScrCmd_bufferstarterinfo(struct ScriptContext *ctx)
+{
+    // 0=grass, 1=fire, 2=water
+    u8 stringVarIndex = ScriptReadByte(ctx);
+    u16 startertype = VarGet(ScriptReadHalfword(ctx));
+
+    const u16 normalStarters[9][3] = {
+        // Gen 1
+        { SPECIES_BULBASAUR, SPECIES_CHARMANDER, SPECIES_SQUIRTLE },
+        
+        // Gen 2
+        { SPECIES_CHIKORITA, SPECIES_CYNDAQUIL, SPECIES_TOTODILE },
+        
+        // Gen 3
+        { SPECIES_TREECKO, SPECIES_TORCHIC, SPECIES_MUDKIP },
+        
+        // Gen 4
+        { SPECIES_TURTWIG, SPECIES_CHIMCHAR, SPECIES_PIPLUP },
+        
+        // Gen 5
+        { SPECIES_SNIVY, SPECIES_TEPIG, SPECIES_OSHAWOTT },
+        
+        // Gen 6
+        { SPECIES_CHESPIN, SPECIES_FENNEKIN, SPECIES_FROAKIE },
+        
+        // Gen 7
+        { SPECIES_ROWLET, SPECIES_LITTEN, SPECIES_POPPLIO },
+        
+        // Gen 8
+        { SPECIES_GROOKEY, SPECIES_SCORBUNNY, SPECIES_SOBBLE },
+        
+        // Gen 9
+        { SPECIES_SPRIGATITO, SPECIES_FUECOCO, SPECIES_QUAXLY }
+    };
+
+    const u16 monoStarters[15][3] = {
+        // Fighting
+        { SPECIES_MANKEY, SPECIES_MACHOP, SPECIES_TIMBURR },
+        
+        // Flying
+        { SPECIES_HOPPIP, SPECIES_FLETCHLING, SPECIES_ROOKIDEE },
+        
+        // Poison
+        { SPECIES_BUDEW, SPECIES_VENIPEDE, SPECIES_KOFFING },
+        
+        // Ground
+        { SPECIES_TRAPINCH, SPECIES_GEODUDE, SPECIES_TYMPOLE },
+        
+        // Rock
+        { SPECIES_ROLYCOLY, SPECIES_GEODUDE_ALOLA, SPECIES_NACLI },
+        
+        // Bug
+        { SPECIES_GRUBBIN, SPECIES_BLIPBUG, SPECIES_SCATTERBUG },
+        
+        // Ghost
+        {  SPECIES_GASTLY, SPECIES_LITWICK, SPECIES_DUSKULL },
+        
+        // Steel
+        { SPECIES_TINKATINK, SPECIES_HONEDGE, SPECIES_KLINK },
+        
+        // Electric
+        { SPECIES_PICHU, SPECIES_SHINX,  SPECIES_MAREEP},
+        
+        // Psychic
+        { SPECIES_HATENNA, SPECIES_SOLOSIS, SPECIES_GOTHITA },
+        
+        // Ice
+        { SPECIES_SNOVER, SPECIES_SWINUB, SPECIES_SPHEAL },
+        
+        // Dragon
+        { SPECIES_BAGON, SPECIES_GIBLE, SPECIES_DRATINI },
+        
+        // Dark
+        { SPECIES_PAWNIARD, SPECIES_ZIGZAGOON_GALAR, SPECIES_SANDILE },
+        
+        // Normal
+        { SPECIES_WHISMUR, SPECIES_LILLIPUP, SPECIES_SMOLIV },
+        
+        // Fairy
+        { SPECIES_COTTONEE, SPECIES_IGGLYBUFF, SPECIES_IMPIDIMP },
+    };
+
+    if(FlagGet(FLAG_USE_MONOTYPE_STARTERS))
+    {
+        gSpecialVar_0x8006 = monoStarters[VarGet(VAR_MONOTYPE_STARTER)][startertype];
+             
+    }
+    else
+    {
+        gSpecialVar_0x8006 = normalStarters[VarGet(VAR_STARTER_GEN)][startertype]; 
+    }
+
+    StringCopy(sScriptStringVars[stringVarIndex], GetSpeciesName(gSpecialVar_0x8006));
     return FALSE;
 }

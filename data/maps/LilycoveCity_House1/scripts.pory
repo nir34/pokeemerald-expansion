@@ -1,0 +1,29 @@
+raw `
+LilycoveCity_House1_MapScripts::
+	.byte 0
+
+LilycoveCity_House1_EventScript_OldMan::
+	msgbox LilycoveCity_House1_Text_SunnyOnNextRoute, MSGBOX_NPC
+	end
+
+LilycoveCity_House1_EventScript_Kecleon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KECLEON, CRY_MODE_NORMAL
+	msgbox LilycoveCity_House1_Text_Kecleon, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+LilycoveCity_House1_Text_SunnyOnNextRoute:
+	.string "我听说东边那条道路\n"
+	.string "因为强烈的阳光\l"
+	.string "变了样子。\l"
+	.string "不知是不是真的。$"
+
+
+LilycoveCity_House1_Text_Kecleon:
+	.string "变隐龙：噜噜噜？$"
+
+`

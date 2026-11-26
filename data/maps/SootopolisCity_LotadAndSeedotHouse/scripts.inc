@@ -1,202 +1,244 @@
+# 1 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+
+# 2 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_MapScripts::
+# 3 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.byte 0
+# 4 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother::
-	special GetSeedotSizeRecordInfo
+# 5 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_SwordMaster::
+# 6 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	lock
+# 7 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	faceplayer
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot, MSGBOX_DEFAULT
+# 8 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_set FLAG_RECEIVED_RUSTED_SWORD, SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatSword
+# 9 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian, MSGBOX_DEFAULT
+# 10 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	special ChoosePartyMon
+# 11 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	waitstate
+# 12 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	copyvar VAR_RESULT, VAR_0x8004
-	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowSeedot
-	special CompareSeedotSize
-	goto_if_eq VAR_RESULT, 1, SootopolisCity_LotadAndSeedotHouse_EventScript_NotSeedot
-	goto_if_eq VAR_RESULT, 2, SootopolisCity_LotadAndSeedotHouse_EventScript_SmallSeedot
-	goto_if_eq VAR_RESULT, 3, SootopolisCity_LotadAndSeedotHouse_EventScript_BigSeedot
+# 13 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZacian
+# 14 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+# 15 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_ne VAR_RESULT, SPECIES_ZACIAN, SootopolisCity_LotadAndSeedotHouse_EventScript_NotZacian
+# 16 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword, MSGBOX_DEFAULT
+# 17 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	giveitem ITEM_RUSTED_SWORD
+# 18 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	setflag FLAG_RECEIVED_RUSTED_SWORD
+# 19 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword, MSGBOX_DEFAULT
+# 20 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 21 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 22 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowSeedot::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot, MSGBOX_DEFAULT
+# 23 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZacian::
+# 24 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontZacian, MSGBOX_DEFAULT
+# 25 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 26 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 27 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_NotSeedot::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot, MSGBOX_DEFAULT
+# 28 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_NotZacian::
+# 29 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_NotZacian, MSGBOX_DEFAULT
+# 30 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 31 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 32 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_SmallSeedot::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot, MSGBOX_DEFAULT
+# 33 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatSword::
+# 34 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword, MSGBOX_DEFAULT
+# 35 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 36 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 37 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_BigSeedot::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad, MSGBOX_DEFAULT
-	giveitem ITEM_ELIXIR
-	goto_if_eq VAR_RESULT, FALSE, SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir1
-	closemessage
-	release
-	end
-
-SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir1::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1, MSGBOX_DEFAULT
-	release
-	end
-
-SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother::
-	special GetLotadSizeRecordInfo
+# 38 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_ShieldMaster::
+# 39 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	lock
+# 40 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	faceplayer
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad, MSGBOX_DEFAULT
+# 41 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_set FLAG_RECEIVED_RUSTED_SHIELD, SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield
+# 42 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta, MSGBOX_DEFAULT
+# 43 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	special ChoosePartyMon
+# 44 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	waitstate
+# 45 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	copyvar VAR_RESULT, VAR_0x8004
-	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowLotad
-	special CompareLotadSize
-	goto_if_eq VAR_RESULT, 1, SootopolisCity_LotadAndSeedotHouse_EventScript_NotLotad
-	goto_if_eq VAR_RESULT, 2, SootopolisCity_LotadAndSeedotHouse_EventScript_SmallLotad
-	goto_if_eq VAR_RESULT, 3, SootopolisCity_LotadAndSeedotHouse_EventScript_BigLotad
+# 46 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZamazenta
+# 47 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+# 48 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	goto_if_ne VAR_RESULT, SPECIES_ZAMAZENTA, SootopolisCity_LotadAndSeedotHouse_EventScript_NotZamazenta
+# 49 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield, MSGBOX_DEFAULT
+# 50 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	giveitem ITEM_RUSTED_SHIELD
+# 51 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	setflag FLAG_RECEIVED_RUSTED_SHIELD
+# 52 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield, MSGBOX_DEFAULT
+# 53 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 54 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 55 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowLotad::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad, MSGBOX_DEFAULT
+# 56 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_CancelZamazenta::
+# 57 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta, MSGBOX_DEFAULT
+# 58 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 59 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 60 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_NotLotad::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad, MSGBOX_DEFAULT
+# 61 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_NotZamazenta::
+# 62 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta, MSGBOX_DEFAULT
+# 63 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 64 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 65 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_SmallLotad::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad, MSGBOX_DEFAULT
+# 66 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield::
+# 67 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield, MSGBOX_DEFAULT
+# 68 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	release
+# 69 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	end
+# 70 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_BigLotad::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot, MSGBOX_DEFAULT
-	giveitem ITEM_ELIXIR
-	goto_if_eq VAR_RESULT, FALSE, SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir2
-	closemessage
-	release
-	end
+# 71 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian:
+# 72 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我修习剑之道，\n"
+# 73 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "全是攻击。\p"
+# 74 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "你要是能给我看符合\n"
+# 75 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "这个理念的宝可梦，\l"
+# 76 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我就送你一件好道具。$"
+# 77 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir2::
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2, MSGBOX_DEFAULT
-	release
-	end
+# 78 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword:
+# 79 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "太好了！那只宝可梦\n"
+# 80 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "绝对懂剑之道！\p"
+# 81 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "来，请收下这个！$"
+# 82 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotSizeRecord::
-	special GetSeedotSizeRecordInfo
-	lockall
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory, MSGBOX_DEFAULT
-	releaseall
-	end
+# 83 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord::
-	special GetLotadSizeRecordInfo
-	lockall
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory, MSGBOX_DEFAULT
-	releaseall
-	end
+# 84 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword:
+# 85 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "希望你和你的宝可梦用\n"
+# 86 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "那把剑打出强力攻击！$"
+# 87 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
-	.string "Do you know the POKéMON SEEDOT?\n"
-	.string "It's hardly ever seen in SOOTOPOLIS.\p"
-	.string "Anyway, I love big SEEDOT.\n"
-	.string "The bigger the better.\p"
-	.string "But my younger brother, he says that\n"
-	.string "LOTAD is bigger.\p"
-	.string "That's silly.\n"
-	.string "SEEDOT has to be bigger than that!\p"
-	.string "Huh? Do you have a SEEDOT with you?\n"
-	.string "P-p-please, show me!$"
+# 88 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_DontZacian:
+# 89 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我明白了，你没有符合\n"
+# 90 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我理念的宝可梦。$"
+# 91 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
-	.string "{STR_VAR_2}!\n"
-	.string "Oh, my gosh, this is a big one!\p"
-	.string "It might even beat the big LOTAD\n"
-	.string "my younger brother saw!\p"
-	.string "Thanks for showing me.\n"
-	.string "This is my thanks!$"
+# 92 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_NotZacian:
+# 93 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "那只宝可梦不符合\n"
+# 94 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我的理念。$"
+# 95 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-@ Unused
-SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1:
-	.string "{PLAYER} received a POTION.$"
+# 96 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
-	.string "Hunh?\n"
-	.string "Your BAG is crammed full.$"
+# 97 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
-	.string "{STR_VAR_2}, is it?\p"
-	.string "Hmm… I've seen a bigger SEEDOT\n"
-	.string "than this one.$"
+# 98 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot:
-	.string "Oh, now this is quite something…\n"
-	.string "But it's not a SEEDOT!$"
+# 99 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta:
+# 100 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我修习盾之道，\n"
+# 101 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "全是防御。\p"
+# 102 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "你要是能给我看符合\n"
+# 103 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "这个理念的宝可梦，\l"
+# 104 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我就送你一件好道具。$"
+# 105 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
-	.string "You don't have a big SEEDOT?\n"
-	.string "That's too bad…\p"
-	.string "If you get a big SEEDOT, please\n"
-	.string "come show me.$"
+# 106 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield:
+# 107 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "太好了！那只宝可梦\n"
+# 108 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "绝对懂盾之道！\p"
+# 109 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "来，请收下这个！$"
+# 110 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
-	.string "The biggest SEEDOT in history!\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3} giant!\p"
-	.string "A SEEDOT bigger than a LOTAD\n"
-	.string "always wanted!$"
+# 111 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
-	.string "Do you know the POKéMON LOTAD?\n"
-	.string "It's rarely seen in SOOTOPOLIS.\p"
-	.string "I love, I mean love, big LOTAD!\p"
-	.string "My big brother says that SEEDOT is\n"
-	.string "bigger.\p"
-	.string "But that's wrong! Everyone knows that\n"
-	.string "LOTAD is a lot bigger.\p"
-	.string "Hunh? Do you have a LOTAD?\n"
-	.string "P-p-please show me!$"
+# 112 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield:
+# 113 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "希望你和你的宝可梦用\n"
+# 114 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "那面盾打出强力防御！$"
+# 115 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
-	.string "{STR_VAR_2}!\n"
-	.string "Wow, that is big!\p"
-	.string "It might be even bigger than the huge\n"
-	.string "SEEDOT my big brother saw.\p"
-	.string "Thanks for showing me!\n"
-	.string "This is my thanks!$"
+# 116 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta:
+# 117 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我明白了，你没有符合\n"
+# 118 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我理念的宝可梦。$"
+# 119 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
-@ Unused
-SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2:
-	.string "{PLAYER} received a POTION.$"
-
-SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
-	.string "Hunh?\n"
-	.string "Your BAG is crammed full.$"
-
-SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
-	.string "{STR_VAR_2}?\p"
-	.string "Hmm… I've seen a bigger LOTAD\n"
-	.string "than this one here.$"
-
-SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad:
-	.string "Well, isn't this something!\n"
-	.string "But it's no LOTAD!$"
-
-SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
-	.string "Don't you have a big LOTAD?\n"
-	.string "How disappointing…\p"
-	.string "If you get a big LOTAD, please\n"
-	.string "come show me!$"
-
-SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
-	.string "The biggest LOTAD in history!\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3} colossus!\p"
-	.string "A LOTAD bigger than a SEEDOT\n"
-	.string "always wanted!$"
-
+# 120 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta:
+# 121 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "那只宝可梦不符合\n"
+# 122 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我的理念。$"

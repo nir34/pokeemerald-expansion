@@ -1,0 +1,258 @@
+raw `
+ShoalCave_LowTideLowerRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, ShoalCave_LowTideLowerRoom_OnLoad
+	.byte 0
+
+ShoalCave_LowTideLowerRoom_OnLoad:
+	call ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatiles
+	end
+
+ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatiles::
+	goto_if_set FLAG_RECEIVED_SHOAL_SALT_4, ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatilesEnd
+	setmetatile 18, 2, METATILE_Cave_ShoalCave_DirtPile_Large, TRUE
+	return
+
+ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatilesEnd::
+	return
+
+ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4::
+	lockall
+	goto_if_set FLAG_RECEIVED_SHOAL_SALT_4, ShoalCave_LowTideLowerRoom_EventScript_ReceivedShoalSalt
+	giveitem ITEM_SHOAL_SALT
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setmetatile 18, 2, METATILE_Cave_ShoalCave_DirtPile_Small, FALSE
+	special DrawWholeMapView
+	setflag FLAG_RECEIVED_SHOAL_SALT_4
+	releaseall
+	end
+
+ShoalCave_LowTideLowerRoom_EventScript_ReceivedShoalSalt::
+	msgbox ShoalCave_Text_WasShoalSaltNowNothing, MSGBOX_DEFAULT
+	releaseall
+	end
+
+`
+
+script ShoalCave_LowTideLowerRoom_EventScript_PowerfulMonSummoner {
+	lock
+	faceplayer
+	if(flag(FLAG_TEMP_1))
+	{
+		msgbox(ShoalCave_LowTideLowerRoom_Text_SummonerIntroQuick, MSGBOX_YESNO)	
+	}
+	else
+	{
+		msgbox(ShoalCave_LowTideLowerRoom_Text_SummonerIntro, MSGBOX_YESNO)
+	}
+
+	setflag(FLAG_TEMP_1)
+
+	if(var(VAR_RESULT) == NO)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo)
+	}
+
+	goto(ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom)
+	release
+	end
+}
+
+script ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom {
+	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichRoom, MSGBOX_DEFAULT)
+
+	dynmultipush("入口房间", 0)
+	dynmultipush("内部房间", 1)
+	dynmultipush("楼梯房间", 2)
+    dynmultipush("取消", MULTI_B_PRESSED)
+
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo)
+	}
+
+	if (var(VAR_RESULT) == 0)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom)
+	}
+	if (var(VAR_RESULT) == 1)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_InnerRoom)
+	}
+	if (var(VAR_RESULT) == 2)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_StairsRoom)
+	}
+
+	release
+	end
+}
+
+script ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom {
+	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
+
+	dynmultipush("雄伟牙",   SPECIES_GREAT_TUSK)
+	dynmultipush("吼叫尾",  SPECIES_SCREAM_TAIL)
+	dynmultipush("猛恶菇", SPECIES_BRUTE_BONNET)
+	dynmultipush("振翼发", SPECIES_FLUTTER_MANE)
+	dynmultipush("爬地翅", SPECIES_SLITHER_WING)
+	dynmultipush("沙铁皮", SPECIES_SANDY_SHOCKS)
+	dynmultipush("轰鸣月", SPECIES_ROARING_MOON)
+	dynmultipush("波荡水", SPECIES_WALKING_WAKE)
+	dynmultipush("破空焰", SPECIES_GOUGING_FIRE)
+	dynmultipush("猛雷鼓",  SPECIES_RAGING_BOLT)
+    dynmultipush("返回", MULTI_B_PRESSED)
+
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, SPECIES_GREAT_TUSK, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom)
+	}
+
+	goto(ShoalCave_LowTideLowerRoom_EventScript_ConfirmAndUseSummon)
+
+	release
+	end
+
+}
+
+script ShoalCave_LowTideLowerRoom_EventScript_InnerRoom {
+	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
+
+	dynmultipush("铁辙迹",   SPECIES_IRON_TREADS)
+	dynmultipush("铁包袱",   SPECIES_IRON_BUNDLE)
+	dynmultipush("铁臂膀",    SPECIES_IRON_HANDS)
+	dynmultipush("铁脖颈",  SPECIES_IRON_JUGULIS)
+	dynmultipush("铁毒蛾",     SPECIES_IRON_MOTH)
+	dynmultipush("铁荆棘",   SPECIES_IRON_THORNS)
+	dynmultipush("铁武者",  SPECIES_IRON_VALIANT)
+	dynmultipush("铁叶",   SPECIES_IRON_LEAVES)
+	dynmultipush("铁磐岩",  SPECIES_IRON_BOULDER)
+	dynmultipush("铁头壳",    SPECIES_IRON_CROWN)
+    dynmultipush("返回", MULTI_B_PRESSED)
+
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, SPECIES_IRON_TREADS, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom)
+	}
+
+	goto(ShoalCave_LowTideLowerRoom_EventScript_ConfirmAndUseSummon)
+
+	release
+	end
+
+}
+
+script ShoalCave_LowTideLowerRoom_EventScript_StairsRoom {
+	msgbox(ShoalCave_LowTideLowerRoom_Text_WhichPokemon, MSGBOX_DEFAULT)
+
+	dynmultipush("虚吾伊德",    SPECIES_NIHILEGO)
+	dynmultipush("恶食大王",    SPECIES_GUZZLORD)
+	dynmultipush("电束木",   SPECIES_XURKITREE)
+	dynmultipush("爆肌蚊",    SPECIES_BUZZWOLE)
+	dynmultipush("砰头小丑", SPECIES_BLACEPHALON)
+	dynmultipush("垒磊石",   SPECIES_STAKATAKA)
+	dynmultipush("毒贝比",     SPECIES_POIPOLE)
+	dynmultipush("费洛美螂",   SPECIES_PHEROMOSA)
+	dynmultipush("铁火辉夜",  SPECIES_CELESTEELA)
+	dynmultipush("纸御剑",     SPECIES_KARTANA)
+    dynmultipush("返回", MULTI_B_PRESSED)
+
+	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, SPECIES_NIHILEGO, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom)
+	}
+
+	goto(ShoalCave_LowTideLowerRoom_EventScript_ConfirmAndUseSummon)
+
+	release
+	end
+
+}
+
+
+script ShoalCave_LowTideLowerRoom_EventScript_ConfirmAndUseSummon {
+	copyvar(VAR_0x8005, VAR_RESULT)
+	bufferspeciesname(STR_VAR_1, VAR_0x8005)
+	msgbox(ShoalCave_LowTideLowerRoom_Text_ConfirmSummon, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO)
+	{
+		goto(ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo)
+	}
+
+	msgbox(ShoalCave_LowTideLowerRoom_Text_VeryWell, MSGBOX_DEFAULT)
+	delay(30)
+
+	setwildbattle(VAR_0x8005, 50)
+	waitse
+	playmoncry(VAR_0x8005, CRY_MODE_ENCOUNTER)
+	delay(40)
+	waitmoncry
+	dowildbattle
+	release
+	end
+}
+
+script ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo
+{
+    msgbox(ShoalCave_LowTideLowerRoom_SummonWomanDeclined, MSGBOX_DEFAULT)
+    release
+    end
+}
+
+ 
+text ShoalCave_LowTideLowerRoom_Text_SummonerIntro {
+	"你好，年轻的训练家。\p"
+	"我来到这个偏僻的地方，\n"
+	"是因为学会了一门强力的\l"
+	"技艺，能从这洞穴里几乎\l"
+	"任何地方召唤出一只\l"
+	"宝可梦。\p"
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
+}
+
+text ShoalCave_LowTideLowerRoom_Text_SummonerIntroQuick {
+	"要我把一只宝可梦召唤\n"
+	"到这儿来和你对战吗？"
+}
+
+text ShoalCave_LowTideLowerRoom_Text_WhichRoom {
+	"你想让我从哪个房间\n"
+	"召唤宝可梦？"
+}
+
+text ShoalCave_LowTideLowerRoom_Text_WhichPokemon {
+	"你想让我召唤哪只\n"
+	"宝可梦和你对战？"
+}
+
+text ShoalCave_LowTideLowerRoom_Text_ConfirmSummon {
+	"那么，你想让我召唤一只\n"
+	"{STR_VAR_1}来和你对战吗？"
+}
+
+text ShoalCave_LowTideLowerRoom_Text_VeryWell {
+	"很好，做好对战的准备吧。"
+}
+
+text ShoalCave_LowTideLowerRoom_SummonWomanDeclined
+{
+	"我明白了。若你改变主意，\n"
+	"就告诉我。"
+}

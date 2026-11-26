@@ -2128,7 +2128,10 @@ static void InitDomeTrainers(void)
 #define CALC_STAT(base, statIndex)                                                          \
 {                                                                                           \
     u8 baseStat = gSpeciesInfo[fmon->species].base;                                                 \
-    stats[statIndex] = (((2 * baseStat + ivs + evs[statIndex] / 4) * level) / 100) + 5;     \
+    if (FlagGet(FLAG_MIN_GRINDING_MODE))                     \
+        stats[statIndex] = (((2 * baseStat + ivs) * level) / 100) + 5;                      \
+    else                                                                                   \
+        stats[statIndex] = (((2 * baseStat + ivs + evs[statIndex] / 4) * level) / 100) + 5;     \
     stats[statIndex] = (u8) ModifyStatByNature(fmon->nature, stats[statIndex], statIndex);        \
 }
 
@@ -2152,7 +2155,10 @@ static void CalcDomeMonStats(const struct TrainerMon *fmon, int level, u8 ivs, i
     else
     {
         int n = 2 * gSpeciesInfo[fmon->species].baseHP;
-        stats[STAT_HP] = (((n + ivs + evs[STAT_HP] / 4) * level) / 100) + level + 10;
+        if (FlagGet(FLAG_MIN_GRINDING_MODE))
+            stats[STAT_HP] = (((n + ivs) * level) / 100) + level + 10;
+        else
+            stats[STAT_HP] = (((n + ivs + evs[STAT_HP] / 4) * level) / 100) + level + 10;
     }
 
     CALC_STAT(baseAttack, STAT_ATK);
@@ -2403,7 +2409,7 @@ static int GetTypeEffectivenessPoints(int move, int targetSpecies, int mode)
     defAbility = gSpeciesInfo[targetSpecies].abilities[0];
     moveType = gMovesInfo[move].type;
 
-    if (defAbility == ABILITY_LEVITATE && moveType == TYPE_GROUND)
+    if ((defAbility == ABILITY_LEVITATE && moveType == TYPE_GROUND) || ((defAbility == ABILITY_MOUNTAINEER) && moveType == TYPE_ROCK))
     {
         // They likely meant to return here, as 8 is the number of points normally used in this mode for moves with no effect.
         // Because there's no return the value instead gets interpreted by the switch, and the number of points becomes 0.

@@ -1,0 +1,163 @@
+raw `
+.set LOCALID_WALLYS_DAD, 1
+
+PetalburgCity_WallysHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_WallysHouse_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PetalburgCity_WallysHouse_OnWarp
+	.byte 0
+
+PetalburgCity_WallysHouse_OnWarp:
+	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther
+	.2byte 0
+
+PetalburgCity_WallysHouse_EventScript_PlayerWallysDadFaceEachOther::
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_EAST
+	turnobject LOCALID_WALLYS_DAD, DIR_WEST
+	end
+
+PetalburgCity_WallysHouse_OnFrame:
+	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_WallysHouse_EventScript_GiveHMSurf
+	.2byte 0
+
+PetalburgCity_WallysHouse_EventScript_GiveHMSurf::
+	lockall
+	msgbox PetalburgCity_WallysHouse_Text_PleaseExcuseUs, MSGBOX_DEFAULT
+	giveitem ITEM_TM_METEOR_BEAM
+	giveitem ITEM_TM_DRAGON_PULSE
+	giveitem ITEM_TM_DUAL_CHOP
+	giveitem ITEM_TM_FUTURE_SIGHT
+	giveitem ITEM_TM_DUAL_WINGBEAT
+	setflag FLAG_RECEIVED_HM_SURF
+	msgbox PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces, MSGBOX_DEFAULT
+	setvar VAR_PETALBURG_CITY_STATE, 5
+	closemessage
+	delay 30
+	playfanfare MUS_LEVEL_UP
+	specialvar VAR_0x8006, GetLevelCapForText
+	buffernumberstring STR_VAR_3, VAR_0x8006
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	releaseall
+	end
+
+PetalburgCity_WallysHouse_EventScript_WallysDad::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, PetalburgCity_WallysHouse_EventScript_DefeatedWallyInVictoryRoad
+	goto_if_set FLAG_RECEIVED_HM_SURF, PetalburgCity_WallysHouse_EventScript_ReceievedHMSurf
+	goto_if_set FLAG_THANKED_FOR_PLAYING_WITH_WALLY, PetalburgCity_WallysHouse_EventScript_PlayedWithWally
+	msgbox PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally, MSGBOX_DEFAULT
+	setflag FLAG_THANKED_FOR_PLAYING_WITH_WALLY
+	release
+	end
+
+PetalburgCity_WallysHouse_EventScript_ReceievedHMSurf::
+	msgbox PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_WallysHouse_EventScript_DefeatedWallyInVictoryRoad::
+	msgbox PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_WallysHouse_EventScript_PlayedWithWally::
+	msgbox PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_WallysHouse_EventScript_WallysMom::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_SURF, PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf
+	msgbox PetalburgCity_WallysHouse_Text_WallyWasReallyHappy, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
+	msgbox PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
+	.string "你是……\n"
+	.string "啊，你就是{PLAYER}吧？\p"
+	.string "刚才谢谢你\n"
+	.string "陪小胜玩了一会儿。\p"
+	.string "他从小身体就虚弱，\n"
+	.string "一直病病歪歪的。\p"
+	.string "我们把他送到绿荫镇的\n"
+	.string "亲戚家住一阵子。\p"
+	.string "那里的空气比这里\n"
+	.string "干净得多。\p"
+	.string "什么？小胜在哪儿？\n"
+	.string "他已经走了，我们家小胜。\p"
+	.string "不知道他现在\n"
+	.string "走到哪儿了呢？$"
+
+PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
+	.string "不知道我们家小胜\n"
+	.string "现在怎么样了呢？$"
+
+PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
+	.string "突然把你叫到这种地方来，\n"
+	.string "真是抱歉。\p"
+	.string "不过我们家小胜去了绿荫镇\n"
+	.string "以后，身体变得健康多了。\p"
+	.string "这全都是靠你啊！\p"
+	.string "小胜离开镇子的时候，\n"
+	.string "是你帮他抓到宝可梦的吧？\p"
+	.string "我想那件事让小胜\n"
+	.string "非常开心。\p"
+	.string "其实不只是小胜，\n"
+	.string "连我这个当父亲的也很高兴。\p"
+	.string "高兴他能交到\n"
+	.string "你这样的好朋友。\p"
+	.string "不过，我真是糟糕透了。\n"
+	.string "本来要给你的秘传学习器\l"
+	.string "03冲浪，竟被我丢在了\l"
+	.string "111号道路的沙漠里。\p"
+	.string "我拜托了几位好心的训练家\n"
+	.string "帮忙看着，应该没事，\l"
+	.string "他们会让你过去的！\p"
+	.string "为了表示歉意，\n"
+	.string "这些请收下！$"
+
+
+PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
+	.string "我知道这些学习器\n"
+	.string "有点杂，\p"
+	.string "不过总比什么都没有好！$"
+
+PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
+	.string "我真是糊里糊涂，\n"
+	.string "竟然把秘传学习器\l"
+	.string "03冲浪丢在了沙漠里。$"
+
+PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
+	.string "哦？你在冠军之路\n"
+	.string "见到小胜了？\p"
+	.string "哦，{PLAYER}，\n"
+	.string "别说傻话了。\p"
+	.string "他身体是好了些，\n"
+	.string "但不可能一个人跑到\l"
+	.string "那么远的地方去。$"
+
+PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
+	.string "小胜说他抓到宝可梦时，\n"
+	.string "真的非常高兴。\p"
+	.string "我已经很久没见过\n"
+	.string "他那样笑了。$"
+
+PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
+	.string "这件事请你别告诉我丈夫……\p"
+	.string "可是我们家小胜，\n"
+	.string "是瞒着所有人离开绿荫镇的。\p"
+	.string "你知道，小胜虽然体弱，\n"
+	.string "但意志出奇地坚强。\p"
+	.string "我相信总有一天，\n"
+	.string "他会平安回来的！$"
+
+`

@@ -1,0 +1,136 @@
+raw `
+BattleFrontier_RankingHall_MapScripts::
+	.byte 0
+
+BattleFrontier_RankingHall_EventScript_TowerSinglesRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_SINGLES
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_TowerDoublesRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_DOUBLES
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_TowerMultisRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_MULTIS
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_TowerLinkRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_TOWER_LINK
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_ArenaRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_ARENA
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_PalaceRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PALACE
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_FactoryRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_FACTORY
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_DomeRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_DOME
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_PikeRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PIKE
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_PyramidRecords::
+	lockall
+	setvar VAR_0x8005, RANKING_HALL_PYRAMID
+	goto BattleFrontier_RankingHall_EventScript_ShowRecords
+	end
+
+BattleFrontier_RankingHall_EventScript_ShowRecords::
+	special ShowRankingHallRecordsWindow
+	waitbuttonpress
+	special ScrollRankingHallRecordsWindow
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+BattleFrontier_RankingHall_EventScript_Attendant::
+	msgbox BattleFrontier_RankingHall_Text_ExplainRankingHall, MSGBOX_NPC
+	end
+
+BattleFrontier_RankingHall_EventScript_DomePikeFactoryRecordsSign::
+	msgbox BattleFrontier_RankingHall_Text_DomePikeFactoryRecords, MSGBOX_SIGN
+	end
+
+BattleFrontier_RankingHall_EventScript_PalaceArenaPyramidRecordsSIgn::
+	msgbox BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords, MSGBOX_SIGN
+	end
+
+BattleFrontier_RankingHall_EventScript_NinjaBoy::
+	lock
+	faceplayer
+	msgbox BattleFrontier_RankingHall_Text_IsYourNameOnThisList, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BattleFrontier_RankingHall_EventScript_NinjaBoyNameOnList
+	msgbox BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_RankingHall_EventScript_NinjaBoyNameOnList::
+	msgbox BattleFrontier_RankingHall_Text_WowThatsSuper, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_RankingHall_EventScript_Boy::
+	msgbox BattleFrontier_RankingHall_Text_MyNamesNotUpThere, MSGBOX_NPC
+	end
+
+BattleFrontier_RankingHall_Text_ExplainRankingHall:
+	.string "这里是排行榜大厅。\p"
+	.string "我们在对战开拓区各项活动中\n"
+	.string "留下伟大记录的训练家，\l"
+	.string "会在这里被永远铭记。$"
+
+BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
+	.string "对战巨蛋、对战管道、\n"
+	.string "对战工厂记录$"
+
+BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
+	.string "对战宫殿、对战竞技场、\n"
+	.string "对战金字塔记录$"
+
+BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
+	.string "嗨，这名单上有你的名字吗？$"
+
+BattleFrontier_RankingHall_Text_WowThatsSuper:
+	.string "哇，太厉害了！\n"
+	.string "我也得加倍努力！$"
+
+BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
+	.string "哦，是吗？\p"
+	.string "要是你在这里看到朋友的名字，\n"
+	.string "我想你一定会更努力！$"
+
+BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
+	.string "嗯……\n"
+	.string "我的名字不在上面……\p"
+	.string "这也没办法，我还没\n"
+	.string "挑战过任何项目呢。$"
+
+`

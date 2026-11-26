@@ -153,6 +153,7 @@ const u32 gObjectEventPic_Tate[] = INCBIN_U32("graphics/object_events/pics/peopl
 const u32 gObjectEventPic_Wallace[] = INCBIN_U32("graphics/object_events/pics/people/wallace.4bpp");
 const u32 gObjectEventPic_Steven[] = INCBIN_U32("graphics/object_events/pics/people/steven.4bpp");
 const u32 gObjectEventPic_Wally[] = INCBIN_U32("graphics/object_events/pics/people/wally.4bpp");
+const u16 gObjectEventPal_Wally[] = INCBIN_U16("graphics/object_events/palettes/wally.gbapal");
 const u32 gObjectEventPic_RubySapphireLittleBoy[] = INCBIN_U32("graphics/object_events/pics/people/rs_little_boy.4bpp");
 const u32 gObjectEventPic_HotSpringsOldWoman[] = INCBIN_U32("graphics/object_events/pics/people/hot_springs_old_woman.4bpp");
 const u32 gObjectEventPic_LatiasLatios[] = INCBIN_U32("graphics/object_events/pics/pokemon_old/latias_latios.4bpp");
@@ -383,6 +384,41 @@ const u16 gObjectEventPal_Lugia[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Substitute[] = INCBIN_U16("graphics/pokemon/question_mark/overworld.gbapal");
 
 const u16 gObjectEventPaletteEmotes[] = INCBIN_U16("graphics/misc/emotes.gbapal");
+
+const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
+const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
+
+const u32 gObjectEventPic_Roark[] = INCBIN_U32("graphics/object_events/pics/people/roark.4bpp");
+const u16 gObjectEventPal_Roark[] = INCBIN_U16("graphics/object_events/palettes/roark.gbapal");
+
+const u32 gObjectEventPic_Dawn[] = INCBIN_U32("graphics/object_events/pics/people/dawn.4bpp");
+const u16 gObjectEventPal_Dawn[] = INCBIN_U16("graphics/object_events/palettes/dawn.gbapal");
+
+const u32 gObjectEventPic_Maylene[] = INCBIN_U32("graphics/object_events/pics/people/maylene.4bpp");
+const u16 gObjectEventPal_Maylene[] = INCBIN_U16("graphics/object_events/palettes/maylene.gbapal");
+
+const u32 gObjectEventPic_Gardenia[] = INCBIN_U32("graphics/object_events/pics/people/gardenia.4bpp");
+const u16 gObjectEventPal_Gardenia[] = INCBIN_U16("graphics/object_events/palettes/gardenia.gbapal");
+
+const u32 gObjectEventPic_Cynthia[] = INCBIN_U32("graphics/object_events/pics/people/cynthia.4bpp");
+const u16 gObjectEventPal_Cynthia[] = INCBIN_U16("graphics/object_events/palettes/cynthia.gbapal");
+
+const u32 gObjectEventPic_Wake[] = INCBIN_U32("graphics/object_events/pics/people/wake.4bpp");
+const u16 gObjectEventPal_Wake[] = INCBIN_U16("graphics/object_events/palettes/wake.gbapal");
+
+const u32 gObjectEventPic_Fantina[] = INCBIN_U32("graphics/object_events/pics/people/fantina.4bpp");
+const u16 gObjectEventPal_Fantina[] = INCBIN_U16("graphics/object_events/palettes/fantina.gbapal");
+
+const u32 gObjectEventPic_Byron[] = INCBIN_U32("graphics/object_events/pics/people/byron.4bpp");
+const u16 gObjectEventPal_Byron[] = INCBIN_U16("graphics/object_events/palettes/byron.gbapal");
+
+const u32 gObjectEventPic_Candice[] = INCBIN_U32("graphics/object_events/pics/people/candice.4bpp");
+const u16 gObjectEventPal_Candice[] = INCBIN_U16("graphics/object_events/palettes/candice.gbapal");
+
+const u32 gObjectEventPic_Volkner[] = INCBIN_U32("graphics/object_events/pics/people/volkner.4bpp");
+const u16 gObjectEventPal_Volkner[] = INCBIN_U16("graphics/object_events/palettes/volkner.gbapal");
+
+const u32 gObjectEventPic_GoldItemBall[] = INCBIN_U32("graphics/object_events/pics/misc/gold_item_ball.4bpp");
 
 #if OW_FOLLOWERS_POKEBALLS
 const u32 gObjectEventPic_MasterBall[] = INCBIN_U32("graphics/object_events/pics/misc/ball_master.4bpp");

@@ -1,0 +1,101 @@
+raw `
+FortreeCity_House1_MapScripts::
+	.byte 0
+
+FortreeCity_House1_EventScript_Trader::
+	lock
+	faceplayer
+	goto_if_set FLAG_FORTREE_NPC_TRADE_COMPLETED, FortreeCity_House1_EventScript_TradeCompleted
+	setvar VAR_0x8008, INGAME_TRADE_FIDOUGH
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox FortreeCity_House1_Text_YouWillTradeWontYou, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FortreeCity_House1_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, FortreeCity_House1_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	goto_if_ne VAR_RESULT, VAR_0x8009, FortreeCity_House1_EventScript_NotRequestedMon
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox FortreeCity_House1_Text_MonYouTakeCare, MSGBOX_DEFAULT
+	setflag FLAG_FORTREE_NPC_TRADE_COMPLETED
+	release
+	end
+
+FortreeCity_House1_EventScript_DeclineTrade::
+	msgbox FortreeCity_House1_Text_YouWontTradeMe, MSGBOX_DEFAULT
+	release
+	end
+
+FortreeCity_House1_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox FortreeCity_House1_Text_ThisIsntAMon, MSGBOX_DEFAULT
+	release
+	end
+
+FortreeCity_House1_EventScript_TradeCompleted::
+	msgbox FortreeCity_House1_Text_GoingToMakeVolbeatStrong, MSGBOX_DEFAULT
+	release
+	end
+
+FortreeCity_House1_EventScript_ExpertF::
+	msgbox FortreeCity_House1_Text_TradingMemoriesWithOthers, MSGBOX_NPC
+	end
+
+FortreeCity_House1_EventScript_Zigzagoon::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	msgbox FortreeCity_House1_Text_Zigzagoon, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+FortreeCity_House1_Text_YouWillTradeWontYou:
+	.string "嗷呜呜呜！我需要它！\n"
+	.string "我一定要得到{STR_VAR_1}！\l"
+	.string "为了它什么都行！\p"
+	.string "……呃……你听到了吗？\n"
+	.string "我发自内心的呼喊？\p"
+	.string "听到了，你就愿意用你\n"
+	.string "的{STR_VAR_1}跟我的\l"
+	.string "{STR_VAR_2}交换吧？$"
+
+FortreeCity_House1_Text_MonYouTakeCare:
+	.string "哦，太好了！\p"
+	.string "{STR_VAR_1}，欢迎！\n"
+	.string "{STR_VAR_2}，保重！$"
+
+FortreeCity_House1_Text_ThisIsntAMon:
+	.string "呃，不，好像不对。\n"
+	.string "那不是{STR_VAR_1}。$"
+
+FortreeCity_House1_Text_YouWontTradeMe:
+	.string "不？你不肯换？\n"
+	.string "我都把心掏出来了？$"
+
+FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
+	.string "我要从今天起把Maschiff\n"
+	.string "练得特别强！\p"
+	.string "希望你也好好培养\n"
+	.string "Fidough！$"
+
+FortreeCity_House1_Text_TradingMemoriesWithOthers:
+	.string "和其他人交换宝可梦……\p"
+	.string "就像是在和别人交换\n"
+	.string "自己的回忆一样。$"
+
+FortreeCity_House1_Text_Zigzagoon:
+	.string "蛇纹熊：咕莫？$"
+
+`

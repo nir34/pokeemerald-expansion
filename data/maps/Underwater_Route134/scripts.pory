@@ -1,0 +1,32 @@
+raw `
+Underwater_Route134_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, Underwater_Route134_OnResume
+	.byte 0
+
+Underwater_Route134_OnResume:
+	setdivewarp MAP_ROUTE134, 60, 31
+	end
+
+`
+
+script Underwater_Route134_Trigger_BlockCavernEntrance{
+	lockall
+	msgbox(PowerfulAura)
+	waitmessage
+	applymovement(OBJ_EVENT_ID_PLAYER, StopPlayerUp)
+	waitmovement(0)
+	releaseall
+	end
+}
+
+text PowerfulAura{
+	"你感觉到前方有\n"
+	"某种东西散发出\l"
+	"极其强大的气息。\p"
+	"最好等你变强\n"
+	"再来。"
+}
+
+movement StopPlayerUp {
+	walk_up
+}

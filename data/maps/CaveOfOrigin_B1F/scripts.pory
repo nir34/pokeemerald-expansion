@@ -1,0 +1,123 @@
+raw `
+.set LOCALID_WALLACE, 1
+
+CaveOfOrigin_B1F_MapScripts::
+	.byte 0
+
+CaveOfOrigin_B1F_EventScript_Wallace::
+	lock
+	faceplayer
+	msgbox CaveOfOrigin_B1F_Text_WallaceStory, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement LOCALID_WALLACE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_WALLACE, Common_Movement_Delay48
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_WALLACE, Common_Movement_FacePlayer
+	waitmovement 0
+	message CaveOfOrigin_B1F_Text_WhereIsRayquaza
+	waitmessage
+	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+
+CaveOfOrigin_B1F_EventScript_WheresRayquaza::
+	multichoice 0, 0, MULTI_WHERES_RAYQUAZA, FALSE
+	switch VAR_RESULT
+	case 0, CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin
+	case 1, CaveOfOrigin_B1F_EventScript_AtMtPyre
+	case 2, CaveOfOrigin_B1F_EventScript_AtSkyPillar
+	case 3, CaveOfOrigin_B1F_EventScript_DontRemember
+	goto CaveOfOrigin_B1F_EventScript_DontRemember
+	end
+
+CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin::
+	message CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin
+	waitmessage
+	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+
+CaveOfOrigin_B1F_EventScript_AtMtPyre::
+	message CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat
+	waitmessage
+	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+
+CaveOfOrigin_B1F_EventScript_DontRemember::
+	message CaveOfOrigin_B1F_Text_CantYouRememberSomehow
+	waitmessage
+	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+
+CaveOfOrigin_B1F_EventScript_AtSkyPillar::
+	msgbox CaveOfOrigin_B1F_Text_WellHeadToSkyPillar, MSGBOX_DEFAULT
+	closemessage
+	playse SE_EXIT
+	fadescreenspeed FADE_TO_BLACK, 4
+	setflag FLAG_WALLACE_GOES_TO_SKY_PILLAR
+	setvar VAR_SOOTOPOLIS_CITY_STATE, 3
+	removeobject LOCALID_WALLACE
+	clearflag FLAG_HIDE_SKY_PILLAR_WALLACE
+	fadescreen FADE_FROM_BLACK
+	release
+	end
+
+CaveOfOrigin_B1F_Text_WallaceStory:
+	.string "啊，你就是{PLAYER}？\n"
+	.string "我听过你的事迹。\p"
+	.string "我叫亚当。\p"
+	.string "我曾经是琉璃市的\n"
+	.string "馆主，可后来出了点事。\p"
+	.string "所以现在，我把道馆的\n"
+	.string "经营交给了我的师父阿丹。\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "在这里大肆破坏的\n"
+	.string "固拉多和盖欧卡，\l"
+	.string "被称为超古代宝可梦。\p"
+	.string "可超古代宝可梦\n"
+	.string "不只有两只。\p"
+	.string "还有一只在某处。\p"
+	.string "某处有一只叫烈空坐的\n"
+	.string "超古代宝可梦。\p"
+	.string "据说在遥远的过去，\n"
+	.string "就是烈空坐平息了\l"
+	.string "那两个交战者。\p"
+	.string "可连我也不知道\n"
+	.string "烈空坐在哪儿……$"
+
+CaveOfOrigin_B1F_Text_WhereIsRayquaza:
+	.string "{PLAYER}，你也许知道\n"
+	.string "烈空坐现在在哪儿？\p"
+	.string "要是知道，请告诉我。$"
+
+CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
+	.string "觉醒祠堂？\p"
+	.string "可那就在这里啊！\n"
+	.string "你得再想想！\p"
+	.string "拜托，想想烈空坐\n"
+	.string "现在可能在哪儿。$"
+
+CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
+	.string "送神火山？\p"
+	.string "可我早些时候在那里\n"
+	.string "见到的老太太没提过。\p"
+	.string "我很怀疑那位老太太\n"
+	.string "会想对我隐瞒什么……\p"
+	.string "{PLAYER}，你能再\n"
+	.string "仔细想想吗？$"
+
+CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
+	.string "嗯？你不记得？\n"
+	.string "嗯……那就麻烦了……\p"
+	.string "你就不能想起来吗？$"
+
+CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
+	.string "天空之柱？\p"
+	.string "就是它！\n"
+	.string "一定是天空之柱！\p"
+	.string "{PLAYER}，一刻都不能\n"
+	.string "浪费！我们马上去\l"
+	.string "天空之柱！$"
+
+`

@@ -338,6 +338,7 @@ gSpecials::
 	def_special SetRoute123Weather
 	def_special GetContestMultiplayerId
 	def_special ScriptGetPartyMonSpecies
+	def_special ScriptGetPartyMonLevel
 	def_special IsSelectedMonEgg
 	def_special TryInitBattleTowerAwardManObjectEvent
 	def_special MoveOutOfSecretBaseFromOutside
@@ -541,6 +542,11 @@ gSpecials::
 	def_special TrySkyBattle
 	def_special VsSeekerResetObjectMovementAfterChargeComplete
 	def_special VsSeekerFreezeObjectsAfterChargeComplete
+	def_special ChangeMonNature
+	def_special ChangeMonGender
+	def_special ChangeMonIVsForHP
+	def_special PerfectMonIVs
+	def_special SetMonToLevelCap
 	def_special PlayerHasMulch
 	def_special Bag_ChooseMulch
 	def_special ObjectEventInteractionApplyMulch
@@ -553,4 +559,12 @@ gSpecials::
 	def_special Script_GetChosenMonDefensiveEVs
 	def_special Script_GetChosenMonOffensiveIVs
 	def_special Script_GetChosenMonDefensiveIVs
+	def_special GetLevelCapForText
+	def_special EnterCheatCode
+	def_special GetCheatCodeFeedback
+	def_special GetWhiteOutCountForText
 	def_special UseBlankMessageToCancelPokemonPic
+	def_special ForceBattleStyleSetPleaseGod
+	def_special GetNumBadges
+	def_special LevelBoxesToCap
+	def_special HealPlayerPartyNonDead

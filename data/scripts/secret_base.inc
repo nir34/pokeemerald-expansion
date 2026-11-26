@@ -1,26 +1,26 @@
 SecretBase_Text_TreeCanBeClimbed:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "如果垂下藤蔓，\n"
+	.string "这棵树就能爬上去。$"
 
 SecretBase_Text_TreeUseSecretPower:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the SECRET POWER?$"
+	.string "如果垂下藤蔓，\n"
+	.string "这棵树就能爬上去。\p"
+	.string "要使用秘密之力吗？$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "垂下了一根粗藤蔓！$"
 
 SecretBase_Text_ClumpOfGrass:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "如果这丛草能移开，\n"
+	.string "也许就能进去。$"
 
 SecretBase_Text_ClumpUseSecretPower:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the SECRET POWER?$"
+	.string "如果这丛草能移开，\n"
+	.string "也许就能进去。\p"
+	.string "要使用秘密之力吗？$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "发现了一个小入口！$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -673,66 +673,66 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "你的秘密基地里所有装饰品\n"
+	.string "和家具都会送回你的电脑。\p"
+	.string "这样可以吗？$"
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE?$"
+	.string "要注册\n"
+	.string "{STR_VAR_1}的秘密基地吗？$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "这份数据已经注册了。\n"
+	.string "要删除吗？$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "最多可以登记10个地点。\p"
+	.string "如果想登记新的地点，\n"
+	.string "请先删除一个地点。$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "Registration completed.$"
+	.string "登记完成。$"
 
 SecretBase_Text_DataUnregistered:
-	.string "Data has been unregistered.$"
+	.string "数据已删除。$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}启动了电脑。$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
-	.string "What would you like to do?$"
+	.string "你想做什么？$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
+	.string "注册后，秘密基地不会消失，\n"
+	.string "除非对方训练家\l"
+	.string "把它搬到了别处。\p"
+	.string "若从注册列表删除某个\n"
+	.string "秘密基地，可能会有\l"
+	.string "另一个补上。\p"
+	.string "最多可以注册十个\n"
+	.string "秘密基地地点。$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
+	.string "在对战塔连续获胜{STR_VAR_1}次\n"
+	.string "的证明，{STR_VAR_2}盾。$"
 
 SecretBase_Text_ToyTV:
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "逼真的玩具电视。\n"
+	.string "几乎可以假乱真。$"
 
 SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "橡实果形状的玩具电视。\n"
+	.string "看起来随时会自己滚走……$"
 
 SecretBase_Text_SkittyTV:
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
+	.string "向尾喵形状的玩具电视。\n"
+	.string "看起来随时会自己走开……$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
+	.string "你只能拥有一个秘密基地。\p"
+	.string "要搬离{STR_VAR_1}\n"
+	.string "附近的秘密基地吗？$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "搬迁完成。\p"
+	.string "要使用秘密之力吗？$"

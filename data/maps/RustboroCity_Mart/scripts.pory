@@ -1,0 +1,90 @@
+raw `
+RustboroCity_Mart_MapScripts::
+	.byte 0
+
+RustboroCity_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	goto_if_unset FLAG_MET_DEVON_EMPLOYEE, RustboroCity_Mart_EventScript_PokemartBasic
+	goto_if_set FLAG_MET_DEVON_EMPLOYEE, RustboroCity_Mart_EventScript_PokemartExpanded
+	end
+
+RustboroCity_Mart_EventScript_PokemartBasic::
+	pokemart RustboroCity_Mart_Pokemart_Basic
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+RustboroCity_Mart_Pokemart_Basic:
+	.2byte ITEM_POKE_BALL
+	.2byte ITEM_POTION
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
+	.2byte ITEM_REPEL
+	.2byte ITEM_X_SPEED
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_NONE
+	release
+	end
+
+RustboroCity_Mart_EventScript_PokemartExpanded::
+	pokemart RustboroCity_Mart_Pokemart_Expanded
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+RustboroCity_Mart_Pokemart_Expanded:
+	.2byte ITEM_POKE_BALL
+	.2byte ITEM_TIMER_BALL
+	.2byte ITEM_REPEAT_BALL
+	.2byte ITEM_POTION
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REPEL
+	.2byte ITEM_X_SPEED
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_NONE
+	release
+	end
+
+RustboroCity_Mart_EventScript_PokefanF::
+	msgbox RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish, MSGBOX_NPC
+	end
+
+RustboroCity_Mart_EventScript_Boy::
+	msgbox RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead, MSGBOX_NPC
+	end
+
+RustboroCity_Mart_EventScript_BugCatcher::
+	msgbox RustboroCity_Mart_Text_GettingEscapeRopeJustInCase, MSGBOX_NPC
+	end
+
+RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
+	.string "我正在买麻痹药和\n"
+	.string "解毒药。\p"
+	.string "以防在橙华森林\n"
+	.string "遇上蘑蘑菇。$"
+
+RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
+	.string "我的宝可梦进化了。\n"
+	.string "现在体力很高。\p"
+	.string "我该给它买厉害伤药，\n"
+	.string "而不是普通伤药。$"
+
+RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
+	.string "我在买离洞绳，\n"
+	.string "以防在洞里迷路。\p"
+	.string "只要用一下，就能\n"
+	.string "回到洞口。$"
+
+`

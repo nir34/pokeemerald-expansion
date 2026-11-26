@@ -1,0 +1,66 @@
+raw `
+VerdanturfTown_Mart_MapScripts::
+	.byte 0
+
+VerdanturfTown_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart VerdanturfTown_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+VerdanturfTown_Mart_Pokemart:
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_ICE_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_METAL_COAT
+	.2byte ITEM_NONE
+	release
+	end
+
+VerdanturfTown_Mart_EventScript_Boy::
+	msgbox VerdanturfTown_Mart_Text_XSpecialIsCrucial, MSGBOX_NPC
+	end
+
+VerdanturfTown_Mart_EventScript_ExpertF::
+	msgbox VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent, MSGBOX_NPC
+	end
+
+VerdanturfTown_Mart_EventScript_Lass::
+	msgbox VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon, MSGBOX_NPC
+	end
+
+VerdanturfTown_Mart_Text_XSpecialIsCrucial:
+	.string "不管什么宝可梦对战，\n"
+	.string "特攻强化都很关键。\p"
+	.string "虽然只在一场战斗里有效，\n"
+	.string "但它能大幅提升\l"
+	.string "某些招式的威力。$"
+
+VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
+	.string "他们好像不卖对战帐篷\n"
+	.string "的必胜攻略……\p"
+	.string "看来还是只能靠\n"
+	.string "自己的头脑……$"
+
+VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
+	.string "巢穴球对虚弱的宝可梦\n"
+	.string "效果更好。\p"
+	.string "只有绿荫镇能\n"
+	.string "买到它。$"
+
+`

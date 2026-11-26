@@ -1,0 +1,127 @@
+raw `
+AquaHideout_1F_MapScripts::
+	.byte 0
+
+@ The below two entrance guards give hints about what to do to progress the story
+AquaHideout_1F_EventScript_HideoutEntranceGrunt1::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_RED_OR_BLUE_ORB, AquaHideout_1F_EventScript_SlateportHint1
+	msgbox AquaHideout_1F_Text_OurBossIsSnatchingSomething, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_MagmaHideoutHint1::
+	msgbox AquaHideout_1F_Text_WhereMightMagmaHideoutBe, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_SlateportHint1::
+	msgbox AquaHideout_1F_Text_BossWentToJackASubmarine, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_HideoutEntranceGrunt2::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_RED_OR_BLUE_ORB, AquaHideout_1F_EventScript_SlateportHint2
+	msgbox AquaHideout_1F_Text_BossIsOnRoute122, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_MagmaHideoutHint2::
+	msgbox AquaHideout_1F_Text_TeamMagmaAtMtChimney, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_SlateportHint2::
+	msgbox AquaHideout_1F_Text_BossIsInSlateportCity, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_EventScript_Grunt1::
+	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_1, AquaHideout_1F_Text_Grunt1Intro, AquaHideout_1F_Text_Grunt1Defeat, AquaHideout_1F_EventScript_Grunt1Defeated
+	msgbox AquaHideout_1F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AquaHideout_1F_EventScript_Grunt1Defeated::
+	msgbox AquaHideout_1F_Text_Grunt1PostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+AquaHideout_1F_Text_OurBossIsSnatchingSomething:
+	.string "什么？什么？你找水舰队\n"
+	.string "想干什么？\p"
+	.string "我们老大不在这里！\n"
+	.string "他去抢重要的东西了！\p"
+	.string "……\n"
+	.string "他去哪儿了？\p"
+	.string "哇哈哈！你真以为我会\n"
+	.string "告诉你这么关键的\l"
+	.string "事？$"
+
+AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
+	.string "什么？什么？\n"
+	.string "你是熔岩队的小兵？\p"
+	.string "我听说熔岩队要在他们\n"
+	.string "基地唤醒一只\l"
+	.string "了不起的宝可梦。\p"
+	.string "可他们的基地\n"
+	.string "在哪儿呢？$"
+
+AquaHideout_1F_Text_BossWentToJackASubmarine:
+	.string "什么？什么？你找水舰队\n"
+	.string "想干什么？\p"
+	.string "我们老大不在这里！\n"
+	.string "他去劫潜水艇了！\p"
+	.string "……\n"
+	.string "他去哪儿了？\p"
+	.string "哇哈哈！你真以为我会\n"
+	.string "告诉你这么关键的\l"
+	.string "事？$"
+
+AquaHideout_1F_Text_BossIsOnRoute122:
+	.string "什么？什么？你找水舰队\n"
+	.string "想干什么？\p"
+	.string "我们老大不在这里！他正\n"
+	.string "往122号道路的\l"
+	.string "送神火山去！\p"
+	.string "……\n"
+	.string "他为什么去？\p"
+	.string "哇哈哈！你真以为我会\n"
+	.string "告诉你这么关键的\l"
+	.string "事？$"
+
+AquaHideout_1F_Text_TeamMagmaAtMtChimney:
+	.string "什么？什么？\n"
+	.string "你是熔岩队的小兵？\p"
+	.string "我听说熔岩队盯上了\n"
+	.string "烟囱山的一只\l"
+	.string "了不起的宝可梦。\p"
+	.string "可那宝可梦\n"
+	.string "是什么样的？$"
+
+AquaHideout_1F_Text_BossIsInSlateportCity:
+	.string "什么？什么？你找水舰队\n"
+	.string "想干什么？\p"
+	.string "我们老大不在这里！\n"
+	.string "他往凯那市去了！\p"
+	.string "……\n"
+	.string "他为什么去？\p"
+	.string "哇哈哈！你真以为我会\n"
+	.string "告诉你这么关键的\l"
+	.string "事？$"
+
+AquaHideout_1F_Text_Grunt1Intro:
+	.string "哎呀呀呀！\n"
+	.string "发现可疑人物！$"
+
+AquaHideout_1F_Text_Grunt1Defeat:
+	.string "呃呃呃……\n"
+	.string "我搞砸了！$"
+
+AquaHideout_1F_Text_Grunt1PostBattle:
+	.string "我为了团队输了，\n"
+	.string "不过我也算尽了职……$"
+
+`

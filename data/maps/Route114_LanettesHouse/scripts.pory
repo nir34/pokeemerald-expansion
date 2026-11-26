@@ -1,0 +1,110 @@
+raw `
+Route114_LanettesHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route114_LanettesHouse_OnTransition
+	.byte 0
+
+Route114_LanettesHouse_OnTransition:
+	setflag FLAG_LANDMARK_LANETTES_HOUSE
+	end
+
+Route114_LanettesHouse_EventScript_Lanette::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_DOLL_LANETTE, Route114_LanettesHouse_EventScript_OfferAdvice
+	setflag FLAG_SYS_PC_LANETTE
+	msgbox Route114_LanettesHouse_Text_EverythingClutteredKeepThis, MSGBOX_DEFAULT
+	givedecoration DECOR_LOTAD_DOLL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowNoRoomForDecor
+	setflag FLAG_RECEIVED_DOLL_LANETTE
+	release
+	end
+
+Route114_LanettesHouse_EventScript_OfferAdvice::
+	msgbox Route114_LanettesHouse_Text_OrganizeYourBoxes, MSGBOX_DEFAULT
+	release
+	end
+
+Route114_LanettesHouse_EventScript_Notebook::
+	lockall
+	msgbox Route114_LanettesHouse_Text_ResearchNotesPage1, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route114_LanettesHouse_EventScript_NotebookPage2
+	msgbox Route114_LanettesHouse_Text_ClosedTheNotebook, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Route114_LanettesHouse_EventScript_NotebookPage2::
+	msgbox Route114_LanettesHouse_Text_ResearchNotesPage2, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Route114_LanettesHouse_EventScript_NotebookPage3
+	releaseall
+	end
+
+Route114_LanettesHouse_EventScript_NotebookPage3::
+	msgbox Route114_LanettesHouse_Text_ResearchNotesPage3, MSGBOX_DEFAULT
+	return
+
+Route114_LanettesHouse_EventScript_PC::
+	msgbox Route114_LanettesHouse_Text_EmailFromBill, MSGBOX_SIGN
+	end
+
+Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
+	.string "拉奈特：哦！{PLAYER}！\p"
+	.string "抱歉这里这么乱……\n"
+	.string "我一埋头研究，\l"
+	.string "就会变成这样……\p"
+	.string "太丢人了……这个给你，\n"
+	.string "请你替我保密。$"
+
+Route114_LanettesHouse_Text_OrganizeYourBoxes:
+	.string "要我讲讲我的宝可梦\n"
+	.string "寄存系统吗？\p"
+	.string "你该整理一下盒子，\n"
+	.string "这样才能看清\l"
+	.string "里面有哪些宝可梦。$"
+
+Route114_LanettesHouse_Text_ResearchNotesPage1:
+	.string "这是拉奈特的研究笔记。\n"
+	.string "里面有关于盒子的资料。\p"
+	.string "把每个盒子设计成\n"
+	.string "能放30只宝可梦。\p"
+	.string "每个训练家应该能\n"
+	.string "在电脑系统里\l"
+	.string "存420只宝可梦。\p"
+	.string "继续读吗？$"
+
+Route114_LanettesHouse_Text_ResearchNotesPage2:
+	.string "应该加入标记系统，\n"
+	.string "让宝可梦更容易整理。\p"
+	.string "每个盒子的名称和壁纸\n"
+	.string "都做成可更改的，\l"
+	.string "好让存放的宝可梦高兴。\p"
+	.string "继续读吗？$"
+
+Route114_LanettesHouse_Text_ResearchNotesPage3:
+	.string "存放宝可梦时，应该\n"
+	.string "送进最后查看过的盒子。\p"
+	.string "如果那个盒子满了，\n"
+	.string "收到的宝可梦\l"
+	.string "就存进下一个盒子。\p"
+	.string "也就是说，查看一个\n"
+	.string "盒子时，它就会自动\l"
+	.string "被选为接收宝可梦的盒子。$"
+
+Route114_LanettesHouse_Text_ClosedTheNotebook:
+	.string "{PLAYER}合上了笔记本。$"
+
+Route114_LanettesHouse_Text_EmailFromBill:
+	.string "电脑里有一封某人\n"
+	.string "发来的邮件。\p"
+	.string "“…… … … … … …\p"
+	.string "“你的寄存系统比我的\n"
+	.string "更方便。\p"
+	.string "“它有很多贴心的功能，\n"
+	.string "又好用又好玩。\p"
+	.string "“能为它的开发出一份力，\n"
+	.string "我很自豪。\p"
+	.string "“希望你能继续研究\n"
+	.string "寄存系统。\p"
+	.string "“——正辉\n"
+	.string "… … … … … … … …”$"
+
+`

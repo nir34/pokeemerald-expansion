@@ -1,6 +1,7 @@
 #include "config/general.h"
 #include "config/battle.h"
 #include "config/item.h"
+#include "config/randomizer.h"
 #include "constants/global.h"
 #include "constants/apprentice.h"
 #include "constants/battle.h"
@@ -31,6 +32,7 @@
 #include "constants/flags.h"
 #include "constants/frontier_util.h"
 #include "constants/game_stat.h"
+#include "constants/game_settings.h"
 #include "constants/item.h"
 #include "constants/items.h"
 #include "constants/heal_locations.h"
@@ -103,6 +105,7 @@ gStdScripts::
 	.4byte Std_RegisteredInMatchCall   @ STD_REGISTER_MATCH_CALL
 	.4byte Std_MsgboxGetPoints         @ MSGBOX_GETPOINTS
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
+	.4byte Std_ObtainItemFast          @ STD_OBTAIN_ITEM_FAST
 gStdScripts_End::
 
 	.include "data/maps/PetalburgCity/scripts.inc"
@@ -585,6 +588,7 @@ gStdScripts_End::
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
+	call Route109_HotHouse_EventScript_ResetHotHouse
 	goto EventScript_ResetMrBriney
 	end
 
@@ -661,8 +665,22 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_ELITE_4_SIDNEY
 	clearflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
-	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
+	clearflag FLAG_DEFEATED_ELITE_4_CYNTHIA
+	clearflag FLAG_ENTERED_ELITE_4
+	clearflag FLAG_HACKY_DOUBLE_BATTLE
 	setvar VAR_ELITE_4_STATE, 0
+	return
+
+Route109_HotHouse_EventScript_ResetHotHouse::
+	cleartrainerflag TRAINER_JOHANNA
+	cleartrainerflag TRAINER_BRIAN
+	cleartrainerflag TRAINER_BRIAN_2
+	cleartrainerflag TRAINER_DWAYNE
+	clearflag FLAG_DEFEATED_HOT_HOUSE
+	clearflag FLAG_RECEIVED_HOT_HOUSE_GIFT_MON
+	setvar VAR_HOT_HOUSE_STATE, 0
+	setvar VAR_ENTERING_HOT_HOUSE, 0
+	setvar VAR_LEAVING_HOT_HOUSE, 0
 	return
 
 Common_EventScript_UpdateBrineyLocation::
@@ -706,7 +724,6 @@ Common_ShowEasyChatScreen::
 	return
 
 Common_EventScript_ReadyPetalburgGymForBattle::
-	clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
 	setflag FLAG_PETALBURG_MART_EXPANDED_ITEMS
 	return
 
@@ -877,168 +894,176 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
-	.string "POKéMON MART$"
+	.string "“为您精选各类商品！”\n"
+	.string "宝可梦商店$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "“让疲惫的伙伴恢复活力！”\n"
+	.string "宝可梦中心$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
+	.string "{STR_VAR_1}可能会喜欢这个节目。\n"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string "我得出门了！$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
-	.string "Which floor would you like?$"
+	.string "欢迎光临水静市百货大楼。\p"
+	.string "您想去哪一层？$"
 
 gText_SandstormIsVicious::
-	.string "The sandstorm is vicious.\n"
-	.string "It's impossible to keep going.$"
+	.string "沙暴实在太猛烈了。\n"
+	.string "根本无法继续前进。$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "可以用选择键登录\n"
+	.string "背包里的道具，方便使用。$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from POKéMON TRAINER\n"
-	.string "SCHOOL.\p"
+	.string "收到一封来自宝可梦训练家\n"
+	.string "学校的邮件。\p"
 	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
+	.string "宝可梦最多能学会四个招式。\p"
+	.string "训练家的实力就体现在\n"
+	.string "为宝可梦搭配的招式上。\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}启动了电脑。$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "连接被取消了。$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "要给你收到的\n"
+	.string "{STR_VAR_2}起个昵称吗？$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "{PLAYER}已经没有\n"
+	.string "能战斗的宝可梦了！\p{PLAYER}眼前一黑！$"
 
 gText_FirstShouldRestoreMonsHealth::
-	.string "First, you should restore your\n"
-	.string "POKéMON to full health.$"
+	.string "首先，请先把宝可梦\n"
+	.string "完全恢复健康吧。$"
 
 gText_MonsHealedShouldBuyPotions::
-	.string "Your POKéMON have been healed\n"
-	.string "to perfect health.\p"
-	.string "If your POKéMON's energy, HP,\n"
-	.string "is down, please come see us.\p"
-	.string "If you're planning to go far in the\n"
-	.string "field, you should buy some POTIONS\l"
-	.string "at the POKéMON MART.\p"
-	.string "We hope you excel!$"
+	.string "您的宝可梦已经完全\n"
+	.string "恢复健康了。\p"
+	.string "如果宝可梦的体力（HP）\n"
+	.string "下降了，请到这里来。\p"
+	.string "如果要出远门，建议您\n"
+	.string "在宝可梦商店买些伤药\l"
+	.string "带在身上。\p"
+	.string "祝您一路顺风！$"
 
 gText_MonsHealed::
-	.string "Your POKéMON have been healed\n"
-	.string "to perfect health.\p"
-	.string "We hope you excel!$"
+	.string "您的宝可梦已经完全\n"
+	.string "恢复健康了。\p"
+	.string "祝您一路顺风！$"
 
 gText_HadQuiteAnExperienceTakeRest::
-	.string "MOM: {PLAYER}!\n"
-	.string "Welcome home.\p"
-	.string "It sounds like you had quite\n"
-	.string "an experience.\p"
-	.string "Maybe you should take a quick\n"
-	.string "rest.$"
+	.string "妈妈：{PLAYER}！\n"
+	.string "欢迎回家。\p"
+	.string "听起来你经历了不少\n"
+	.string "事情呢。\p"
+	.string "先稍微休息一下\n"
+	.string "怎么样？$"
 
 gText_MomExplainHPGetPotions::
-	.string "MOM: Oh, good! You and your\n"
-	.string "POKéMON are looking great.\p"
-	.string "I just heard from PROF. BIRCH.\p"
-	.string "He said that POKéMON's energy is\n"
-	.string "measured in HP.\p"
-	.string "If your POKéMON lose their HP,\n"
-	.string "you can restore them at any\l"
-	.string "POKéMON CENTER.\p"
-	.string "If you're going to travel far away,\n"
-	.string "the smart TRAINER stocks up on\l"
-	.string "POTIONS at the POKéMON MART.\p"
-	.string "Make me proud, honey!\p"
-	.string "Take care!$"
+	.string "妈妈：哎呀，真好！你和\n"
+	.string "宝可梦看起来都很精神。\p"
+	.string "我刚从小田卷博士那里听说，\p"
+	.string "他说宝可梦的体力\n"
+	.string "是用HP来衡量的。\p"
+	.string "如果宝可梦的HP减少了，\n"
+	.string "在任何宝可梦中心\l"
+	.string "都能恢复。\p"
+	.string "如果要出远门，聪明的\n"
+	.string "训练家会买好伤药\l"
+	.string "带在身上。\p"
+	.string "要让我为你骄傲哦！\p"
+	.string "路上小心！$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "已将{STR_VAR_1}{STR_VAR_2}\n"
+	.string "登录到宝可梦导航。$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
-	.string "One of our members will give it to you.\n"
-	.string "Come back and show me if you get it.\p"
-	.string "We'll accept you as a member and sell\n"
-	.string "you good stuff in secrecy.$"
+	.string "你知道招式学习器秘密之力吗？\p"
+	.string "我们组织非常喜欢\n"
+	.string "秘密之力这个招式。\p"
+	.string "我们的成员会送给你一个。\n"
+	.string "拿到之后再来给我看看。\p"
+	.string "我们就让你加入，并偷偷\n"
+	.string "卖给你好东西。$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
-	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
-	.string "grow exceptionally well.$"
+	.string "您的宝可梦可能感染了\n"
+	.string "宝可病毒。\p"
+	.string "关于宝可病毒，人们只知道\n"
+	.string "它们是附着在宝可梦身上的\l"
+	.string "微小生命体。\p"
+	.string "据说感染期间，宝可梦会\n"
+	.string "成长得格外好。$"
 
 	.include "data/text/surf.inc"
 
 gText_DoorOpenedFarAway::
-	.string "It sounded as if a door opened\n"
-	.string "somewhere far away.$"
+	.string "似乎有扇门在远处\n"
+	.string "打开的声音。$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string "墙上有一个大洞。$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "非常抱歉。\n"
+	.string "宝可梦无线俱乐部\l"
+	.string "目前正在调整中。$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "看来正在进行\n"
+	.string "调整……$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
-	.string "I'm terribly sorry. The TRADE CENTER\n"
-	.string "is undergoing inspections.$"
+	.string "非常抱歉。 The TRADE CENTER\n"
+	.string "目前正在检查中。$"
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The RECORD CORNER\n"
-	.string "is under preparation.$"
+	.string "非常抱歉。 The RECORD CORNER\n"
+	.string "目前正在准备中。$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
+	.string "{PLAYER}交出了\n"
 	.string "{STR_VAR_1}.$"
 
 gText_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "感谢您使用\n"
+	.string "神秘礼物系统。$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found one {STR_VAR_1}\n"
+	.string "{PLAYER}找到了{STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_PlayerFoundTMHMs::
-	.string "{PLAYER} found {STR_VAR_3} {STR_VAR_1}\n"
+	.string "{PLAYER}找到了{STR_VAR_3}个{STR_VAR_1}\n"
+	.string "{STR_VAR_2}!$"
+
+gText_PlayerObtainedOneTMHM::
+	.string "{PLAYER}获得了{STR_VAR_1}\n"
+	.string "{STR_VAR_2}!$"
+
+gText_PlayerObtainedTMHMs::
+	.string "{PLAYER}获得了{STR_VAR_3}个{STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
-	.string "The weird tree attacked!$"
+	.string "奇怪的树不喜欢\n"
+	.string "吼吼鲸喷壶！\p"
+	.string "奇怪的树发动了攻击！$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1}飞走了！$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"
@@ -1151,3 +1176,21 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/follower.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/NewBirchsLab/scripts.inc"
+    .include "data/scripts/dexnav.inc"
+    
+
+	.include "data/maps/FortreeCity_CreatorHouse/scripts.inc"
+
+	.include "data/maps/FloatingSlab/scripts.inc"
+
+	.include "data/maps/RockySlab/scripts.inc"
+
+	.include "data/maps/GrassySlab/scripts.inc"
+
+	.include "data/maps/MossdeepCity_BetaTesterHouse/scripts.inc"
+
+	.include "data/maps/SootopolisCity_ChampHouse/scripts.inc"
+
+	.include "data/maps/FieryPath_BackRoom/scripts.inc"

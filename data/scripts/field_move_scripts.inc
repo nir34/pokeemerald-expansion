@@ -45,16 +45,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "这棵树看起来可以\n"
+	.string "砍倒！\p"
+	.string "要砍倒它吗？$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}使用了{STR_VAR_2}！$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "这棵树看起来可以\n"
+	.string "砍倒！$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -220,12 +220,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "这块岩石好像能打碎。\n"
+	.string "要使用碎岩吗？$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "是块坚硬的岩石，不过\n"
+	.string "宝可梦也许能打碎它。$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -271,22 +271,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "是块大石头，不过\n"
+	.string "宝可梦也许能推开它。\p"
+	.string "要使用怪力吗？$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1}使用了怪力！\p"
+	.string "{STR_VAR_1}的怪力让\n"
+	.string "大石头能移动了！$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "是块大石头，不过\n"
+	.string "宝可梦也许能推开它。$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "用怪力推开了\n"
+	.string "拦路的岩石。$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -311,15 +311,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "水墙伴随着巨大的轰鸣\n"
+	.string "倾泻而下。$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "是很宽的瀑布。\n"
+	.string "要使用攀瀑吗？$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1}使用了攀瀑。$"
 
 EventScript_UseDive::
 	lockall
@@ -386,27 +386,140 @@ EventScript_UseDig::
 	goto EventScript_DigCommon
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "这里的海很深。宝可梦\n"
+	.string "也许能潜到水底。$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "这里的海很深。\n"
+	.string "要使用潜水吗？$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1}使用了潜水。$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "光从上方照下来。\n"
+	.string "宝可梦也许能浮上水面。$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "光从上方照下来。\n"
+	.string "要使用潜水吗？$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "看来这里什么都没有……$"
+
+EventScript_DisableAutoRun::
+    msgbox AutoRunDisabled MSGBOX_SIGN
+    end
+AutoRunDisabled:
+    .string "自动奔跑{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
+    
+EventScript_EnableAutoRun::
+    msgbox AutoRunEnabled MSGBOX_SIGN
+    end
+AutoRunEnabled:
+    .string "自动奔跑{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
+
+EventScript_DisableFollowers::
+	callnative RemoveFollowingPokemon
+    msgbox FollowersDisabled MSGBOX_SIGN
+    end
+FollowersDisabled:
+    .string "跟随{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
+    
+EventScript_EnableFollowers::
+	callnative UpdateFollowingPokemon
+    msgbox FollowersEnabled MSGBOX_SIGN
+    end
+FollowersEnabled:
+    .string "跟随{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
+
+EventScript_DisableInfiniteRepel::
+    msgbox InfiniteRepelDisabled MSGBOX_SIGN
+    end
+InfiniteRepelDisabled:
+    .string "无限除虫喷雾{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
+    
+EventScript_EnableInfiniteRepel::
+    msgbox InfiniteRepelEnabled MSGBOX_SIGN
+    end
+InfiniteRepelEnabled:
+    .string "无限除虫喷雾{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
+
+EventScript_TimeChanger::
+	dynmultipush TimeChanger_Text_Day, 0
+	dynmultipush TimeChanger_Text_Night, 1
+	dynmultipush TimeChanger_Text_Morning, 2
+	dynmultipush TimeChanger_Text_Dusk, 3 
+	dynmultipush TimeChanger_Text_Exit, MULTI_B_PRESSED
+	dynmultistack 0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE
+	compare VAR_RESULT, MULTI_B_PRESSED
+	goto_if_eq EventScript_TimeChanger_Time_Unchanged
+	compare VAR_RESULT, 0
+	goto_if_eq EventScript_TimeChanger_ChangeTimeToDay
+	compare VAR_RESULT, 1
+	goto_if_eq EventScript_TimeChanger_ChangeTimeToNight
+	compare VAR_RESULT, 2
+	goto_if_eq EventScript_TimeChanger_ChangeTimeToMorning
+	compare VAR_RESULT, 3
+	goto_if_eq EventScript_TimeChanger_ChangeTimeToDusk
+	end
+
+EventScript_TimeChanger_Time_Unchanged:
+    end
+
+EventScript_TimeChanger_ChangeTimeToDay:
+	advancetime 0
+	msgbox TimeChanger_Text_ItIsNowDay MSGBOX_SIGN
+    end
+
+EventScript_TimeChanger_ChangeTimeToNight:
+	advancetime 1
+	msgbox TimeChanger_Text_ItIsNowNight MSGBOX_SIGN
+    end
+
+EventScript_TimeChanger_ChangeTimeToMorning:
+	advancetime 2
+	msgbox TimeChanger_Text_ItIsNowMorning MSGBOX_SIGN
+    end
+
+EventScript_TimeChanger_ChangeTimeToDusk:
+	advancetime 3
+	msgbox TimeChanger_Text_ItIsNowDusk MSGBOX_SIGN
+    end
+
+TimeChanger_Text_Day:
+	.string "Day$"
+
+TimeChanger_Text_Night:
+	.string "Night$"
+
+TimeChanger_Text_Morning:
+	.string "Morning$"
+
+TimeChanger_Text_Dusk:
+	.string "Dusk$"
+
+TimeChanger_Text_ItIsNowDay:
+	.string "时间设为上午10:00。$"
+
+TimeChanger_Text_ItIsNowNight:
+	.string "时间设为晚上8:00。$"
+
+TimeChanger_Text_ItIsNowMorning:
+	.string "时间设为早上6:00。$"
+
+TimeChanger_Text_ItIsNowDusk:
+	.string "时间设为晚上7:00。$"
+
+TimeChanger_Text_Exit:
+	.string "Cancel$"
+
+EventScript_NoWildMonsFound::
+    msgbox NoWildMonsFound MSGBOX_SIGN
+    end
+NoWildMonsFound:
+    .string "这个区域没有野生宝可梦！$"

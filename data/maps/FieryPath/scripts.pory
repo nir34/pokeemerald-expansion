@@ -1,0 +1,30 @@
+raw `
+FieryPath_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FieryPath_OnTransition
+	.byte 0
+
+FieryPath_OnTransition:
+	call_if_unset FLAG_LANDMARK_FIERY_PATH, FieryPath_EventScript_MoveScottToFallarbor
+	setflag FLAG_LANDMARK_FIERY_PATH
+	setflag FLAG_VISITED_FIERY_PATH
+	end
+
+FieryPath_EventScript_MoveScottToFallarbor::
+	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+	return
+
+FieryPath_EventScript_Scientist::
+	msgbox FieryPath_Text_BlockedOff, MSGBOX_NPC
+	end
+
+FieryPath_Text_BlockedOff:
+	.string "这一带的地震活动\n"
+	.string "最近有所增加，\l"
+	.string "所以我正在做重要的研究。\p"
+	.string "我工作的时候请别打扰我，\n"
+	.string "在这里的炎热小径上\l"
+	.string "走路也请小心，\l"
+	.string "别干扰我的数据！$"
+
+`

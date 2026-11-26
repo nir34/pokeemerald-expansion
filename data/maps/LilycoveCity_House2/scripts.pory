@@ -1,0 +1,95 @@
+raw `
+LilycoveCity_House2_MapScripts::
+	.byte 0
+
+`
+
+script LilycoveCity_House2_EventScript_FatMan {
+	lock
+	faceplayer
+	if(!flag(FLAG_MET_SILVALLY_GUY))
+	{
+		msgbox(LilycoveCity_House2_SilvallyManIntro)
+		giveitem(ITEM_DRAGON_MEMORY)
+		msgbox(LilycoveCity_House2_SeeGoodMemory)
+		setflag(FLAG_MET_SILVALLY_GUY)
+		release
+		end
+	}
+	checkitemmemory()
+	if(!var(VAR_RESULT))
+	{
+		msgbox(LilycoveCity_House2_Text_NoMemories)
+		release
+		end
+	}
+
+	msgbox(SilvallyManSwapMemory)
+	dynmultipush("格斗", ITEM_FIGHTING_MEMORY)
+	dynmultipush("飞行", ITEM_FLYING_MEMORY)
+	dynmultipush("毒", ITEM_POISON_MEMORY)
+	dynmultipush("地面", ITEM_GROUND_MEMORY)
+	dynmultipush("岩石", ITEM_ROCK_MEMORY)
+	dynmultipush("虫", ITEM_BUG_MEMORY)
+	dynmultipush("幽灵", ITEM_GHOST_MEMORY)
+	dynmultipush("钢", ITEM_STEEL_MEMORY)
+	dynmultipush("火", ITEM_FIRE_MEMORY)
+	dynmultipush("水", ITEM_WATER_MEMORY)
+	dynmultipush("草", ITEM_GRASS_MEMORY)
+	dynmultipush("电", ITEM_ELECTRIC_MEMORY)
+	dynmultipush("超能力", ITEM_PSYCHIC_MEMORY)
+	dynmultipush("冰", ITEM_ICE_MEMORY)
+	dynmultipush("龙", ITEM_DRAGON_MEMORY)
+	dynmultipush("恶", ITEM_DARK_MEMORY)
+	dynmultipush("妖精", ITEM_FAIRY_MEMORY)
+    dynmultipush("取消", MULTI_B_PRESSED)
+
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, ITEM_FIGHTING_MEMORY, DYN_MULTICHOICE_CB_NONE)
+
+    if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(LilycoveCity_House2_EventScript_SilvallyManNo)
+	}
+
+	copyvar(VAR_0x8005, VAR_RESULT)
+	removeitem(VAR_0x8004)
+	msgbox("好吧，那我们就交换记忆吧。")
+	giveitem(VAR_0x8005)
+	msgbox("想再交换记忆的话，\n就再来吧！")
+	release
+	end
+}
+
+
+script LilycoveCity_House2_EventScript_SilvallyManNo {
+    msgbox("随便你，反正我也不想再\n给你记忆了。")
+    release
+    end
+}
+
+text LilycoveCity_House2_SilvallyManIntro {
+	"我不知道你听说了什么，\n"
+	"不过我可是有很好的记忆。\p"
+	"不信？来，看看这个。"
+}
+
+text LilycoveCity_House2_SeeGoodMemory {
+	"想要别的记忆的话，\n"
+	"随时再来。"
+}
+
+text SilvallyManSwapMemory {
+	"怎么了？那块记忆还\n"
+	"不够好吗？\p"
+	"没关系，我多得是。\p"
+	"来，我甚至让你自己挑，\n"
+	"不过你得把那块还给我\l"
+	"作为交换。\p"
+	"你想要哪块记忆？"
+}
+
+text LilycoveCity_House2_Text_NoMemories {
+	"想得美，你根本\n"
+	"没有记忆能和我交换！"
+}

@@ -1,0 +1,62 @@
+raw `
+.set LOCALID_OLD_WOMAN, 2
+
+BattleFrontier_Mart_MapScripts::
+	.byte 0
+
+BattleFrontier_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	tmshop BattleFrontier_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_Pokemart:
+	.2byte ITEM_TM_STEEL_BEAM
+	.2byte ITEM_TM_DRACO_BARRAGE
+	.2byte ITEM_TM_MISTY_EXPLOSION
+	.2byte ITEM_NONE
+	release
+	end
+
+BattleFrontier_Mart_EventScript_OldMan::
+	msgbox BattleFrontier_Mart_Text_ChaperonGrandson, MSGBOX_NPC
+	end
+
+BattleFrontier_Mart_EventScript_OldWoman::
+	lock
+	applymovement LOCALID_OLD_WOMAN, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox BattleFrontier_Mart_Text_ProteinMakeNiceGift, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_Mart_EventScript_Boy::
+	msgbox BattleFrontier_Mart_Text_FacilitiesDontAllowItems, MSGBOX_NPC
+	end
+
+BattleFrontier_Mart_Text_ChaperonGrandson:
+	.string "我们是来陪孙子\n"
+	.string "的。\p"
+	.string "不过既然来了，就想\n"
+	.string "买点纪念品。$"
+
+BattleFrontier_Mart_Text_ProteinMakeNiceGift:
+	.string "亲爱的，你看这个怎么样？\n"
+	.string "拿来当礼物不错吧？\p"
+	.string "那是……嗯……\n"
+	.string "蛋白质？\p"
+	.string "听起来很好吃，对吧？$"
+
+BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
+	.string "对战开拓区很多设施都\n"
+	.string "不允许在对战中\l"
+	.string "使用道具。\p"
+	.string "这规矩让本来就难的\n"
+	.string "变得更难了！$"
+
+`

@@ -1,0 +1,337 @@
+raw `
+MauvilleCity_House1_MapScripts::
+	.byte 0
+
+MauvilleCity_House1_EventScript_RockSmashDude::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_ROCK_SMASH, MauvilleCity_House1_EventScript_ReceivedRockSmash
+	msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_HM_ROCK_SMASH
+	setflag FLAG_RECEIVED_HM_ROCK_SMASH
+	setflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
+	msgbox MauvilleCity_House1_Text_ExplainRockSmash, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_House1_EventScript_ReceivedRockSmash::
+	msgbox MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock, MSGBOX_DEFAULT
+	release
+	end
+
+
+MauvilleCity_House1_EventScript_StatEditorDude::
+	lock
+	faceplayer
+	goto_if_set FLAG_SYS_STAT_EDITOR_GET, MauvilleCity_House1_EventScript_ReceivedStatEditor
+	msgbox MauvilleCity_House1_Text_ImStatEditorDudeTakeThis, MSGBOX_DEFAULT
+	setflag FLAG_SYS_STAT_EDITOR_GET
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox MauvilleCity_House1_Text_ObtainedStatEditor, MSGBOX_DEFAULT
+	waitfanfare
+	msgbox MauvilleCity_House1_Text_ExplainStatEditorStart, MSGBOX_DEFAULT
+	goto_if_set FLAG_MIN_GRINDING_MODE, MauvilleCity_House1_EventScript_ExplainStatEditorInMGM
+	goto MauvilleCity_House1_EventScript_ExplainStatEditorNotInMGM
+	release
+	end
+
+MauvilleCity_House1_EventScript_ExplainStatEditorInMGM::
+	msgbox MauvilleCity_House1_Text_ExplainStatEditorInMGM, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_House1_EventScript_ExplainStatEditorNotInMGM::
+	msgbox MauvilleCity_House1_Text_ExplainStatEditorNotInMGM, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_House1_EventScript_ReceivedStatEditor::
+	goto_if_set FLAG_MIN_GRINDING_MODE, MauvilleCity_House1_EventScript_ReceivedStatEditorInMGM
+	goto MauvilleCity_House1_EventScript_ReceivedStatEditorNotInMGM
+	release
+	end
+
+MauvilleCity_House1_EventScript_ReceivedStatEditorInMGM::
+	msgbox MauvilleCity_House1_Text_ReceivedStatEditorInMGM, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_House1_EventScript_ReceivedStatEditorNotInMGM::
+	msgbox MauvilleCity_House1_Text_ReceivedStatEditorNotInMGM, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
+	.string "哇呼！\p"
+	.string "听说大家都叫我碎岩小子，\n"
+	.string "我觉得这称呼有点掉价。\p"
+	.string "我该得到更多尊重，\n"
+	.string "比如碎岩大哥。\p"
+	.string "哇呼！\p"
+	.string "总之，你的宝可梦\n"
+	.string "看起来很强。\p"
+	.string "我喜欢！\n"
+	.string "来，这秘传学习器给你！$"
+
+MauvilleCity_House1_Text_ExplainRockSmash:
+	.string "这个学习器里是碎岩。\p"
+	.string "要是碰到挡住去路的\n"
+	.string "大岩石……\p"
+	.string "就用那个秘传招式，\n"
+	.string "把它们砸开！\p"
+	.string "对对！砸开石头！\n"
+	.string "哇呼！$"
+
+MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
+	.string "哦，对了，砸开石头，\n"
+	.string "可能会有宝可梦\l"
+	.string "从藏身处飞出来。\p"
+	.string "哇呼！$"
+
+MauvilleCity_House1_Text_ImStatEditorDudeTakeThis:
+	.string "你好。\p"
+	.string "我没那边那位同事\n"
+	.string "那么爱嚷嚷，\l"
+	.string "不过我有样东西\l"
+	.string "你可能用得上。\p"
+	.string "来，拿着这个装置。$"
+
+MauvilleCity_House1_Text_ExplainStatEditorStart:
+	.string "我把这个装置叫能力编辑器，\n"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}你可以从“L菜单”\l"
+	.string "打开它。\p"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}它能让你编辑宝可梦的\n"
+	.string "努力值或个体值，\l"
+	.string "看你现在的游戏模式而定。\p"
+	.string "嗯，让我看看……$"
+
+
+MauvilleCity_House1_Text_ExplainStatEditorInMGM:
+	.string "因为你开启了\n"
+	.string "少量练级模式，\l"
+	.string "所以不能用这个装置\l"
+	.string "改宝可梦的努力值。\p"
+	.string "不过个体值可以随便改。$"
+
+MauvilleCity_House1_Text_ExplainStatEditorNotInMGM:
+	.string "因为你没有开启\n"
+	.string "少量练级模式，\l"
+	.string "所以可以用这个装置\l"
+	.string "随意编辑努力值和个体值。$"
+
+MauvilleCity_House1_Text_ReceivedStatEditorInMGM:
+	.string "记住，你可以从\n"
+	.string "“L菜单”打开能力编辑器。\p"
+	.string "不过，因为你开启了\n"
+	.string "少量练级模式，\l"
+	.string "不能改宝可梦的努力值。\p"
+	.string "不过个体值可以随便改。$"
+
+MauvilleCity_House1_Text_ReceivedStatEditorNotInMGM:
+	.string "记住，你可以从\n"
+	.string "“L菜单”打开能力编辑器。\p"
+	.string "因为你没有开启少量练级\n"
+	.string "模式，可以随意编辑\l"
+	.string "宝可梦的努力值和个体值。$"
+
+MauvilleCity_House1_Text_ObtainedStatEditor:
+	.string "获得了能力编辑器！$"
+`
+
+
+script MauvilleCity_House1_EventScript_HPChangerDude {
+    lock
+    faceplayer
+	msgbox(HpChangerHelloCanChange, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO)
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	msgbox("哪只宝可梦？")
+	special(ChoosePartyMon)
+	waitstate
+
+	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+
+	if(var(VAR_RESULT) == SPECIES_EGG) {
+		msgbox("蛋的觉醒力量\n我改不了。")
+		release
+		end
+	}
+
+	special(BufferMonNickname)
+	msgbox("你想让{STR_VAR_1}的觉醒力量\n变成哪种属性？")
+	dynmultipush("格斗", TYPE_FIGHTING)
+	dynmultipush("飞行", TYPE_FLYING)
+	dynmultipush("毒", TYPE_POISON)
+	dynmultipush("地面", TYPE_GROUND)
+	dynmultipush("岩石", TYPE_ROCK)
+	dynmultipush("虫", TYPE_BUG)
+	dynmultipush("幽灵", TYPE_GHOST)
+	dynmultipush("钢", TYPE_STEEL)
+	dynmultipush("火", TYPE_FIRE)
+	dynmultipush("水", TYPE_WATER)
+	dynmultipush("草", TYPE_GRASS)
+	dynmultipush("电", TYPE_ELECTRIC)
+	dynmultipush("超能力", TYPE_PSYCHIC)
+	dynmultipush("冰", TYPE_ICE)
+	dynmultipush("龙", TYPE_DRAGON)
+	dynmultipush("恶", TYPE_DARK)
+	dynmultipush("取消", MULTI_B_PRESSED)
+	// // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, TYPE_FIGHTING, DYN_MULTICHOICE_CB_NONE)
+
+	if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	copyvar(VAR_0x8005, VAR_RESULT)
+	bufferhptypeinfo(STR_VAR_2, STR_VAR_3, VAR_RESULT)
+	msgbox(AreYouSureHPTypeChange, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO) 
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	msgbox("我这就开始。")
+	fadescreen(FADE_TO_BLACK)
+	special(ChangeMonIVsForHP)
+	playfanfare(MUS_OBTAIN_ITEM)
+	waitfanfare
+	closemessage
+	fadescreen(FADE_FROM_BLACK)
+	msgbox(HPTypeChangedComeBackSoon)
+	release
+	end
+}
+
+script MauvilleCity_House1_EventScript_HPChangerNo {
+    msgbox("我明白了。若改主意，\n请再回来。")
+    release
+    end
+}
+
+
+script MauvilleCity_House1_EventScript_IVPerfecterDude {
+    lock
+    faceplayer
+	msgbox(IVPerfecterGreeting, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO)
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	msgbox("哪只宝可梦？")
+	special(ChoosePartyMon)
+	waitstate
+
+	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+
+	if(var(VAR_RESULT) == SPECIES_EGG) {
+		msgbox("蛋的个体值\n我无法完善。")
+		release
+		end
+	}
+
+	special(BufferMonNickname)
+	msgbox(IVPerfecterAreYouSure, MSGBOX_YESNO)
+
+	if(var(VAR_RESULT) == NO) 
+	{
+		goto(MauvilleCity_House1_EventScript_HPChangerNo)
+	}
+
+	msgbox("我这就开始。")
+	fadescreen(FADE_TO_BLACK)
+	special(PerfectMonIVs)
+	playfanfare(MUS_OBTAIN_ITEM)
+	waitfanfare
+	closemessage
+	fadescreen(FADE_FROM_BLACK)
+	msgbox(IVPerfecterComeBackSoon)
+	release
+	end
+}
+
+
+text HpChangerHelloCanChange
+{
+	"你好，我是觉醒力量属性\n"
+	"转换师。\p"
+	"你可以选一只宝可梦，\n"
+	"我能迅速调整它的个体值，\l"
+	"以改变它觉醒力量的属性。\p"
+	"要我改变你某只宝可梦\n"
+	"觉醒力量的属性吗？"
+}
+
+text HpChangerNotInMgm
+{
+	"哦，看来你不在\n"
+	"最少练级模式。\p"
+	"我只能改变个体值已被\n"
+	"完善过的宝可梦的觉醒\l"
+	"已经完善。\p"
+	"在你集齐8枚徽章之前，\n"
+	"这个限制会一直有效。"
+}
+
+
+text AreYouSureHPTypeChange
+{
+	"那么，你想把\n"
+	"{STR_VAR_1}的觉醒力量\l"
+	"改成{STR_VAR_2}？\p"
+	"这将把{STR_VAR_1}的\n"
+	"个体值调整为：\p"
+	"HP  攻击  防御  特攻  特防  速度\n"
+	"{STR_VAR_3}"
+}
+
+text HPTypeChangedComeBackSoon
+{
+	"{STR_VAR_1}的觉醒力量\n"
+	"已改为{STR_VAR_2}。\p"
+	"若还需要我改变其他宝可梦\n"
+	"的觉醒力量属性，\l"
+	"请再来。"
+}
+
+text IVPerfecterGreeting
+{
+	"你好，我是个体值完善师，\n"
+	"我可以完善你一只\l"
+	"宝可梦的个体值。\p"
+	"要我完善你某只宝可梦\n"
+	"的个体值吗？"
+}
+
+text IVPerfecterAreYouSure
+{
+	"那么，你要完善\n"
+	"{STR_VAR_1}的个体值吗？"
+}
+
+text IVPerfecterComeBackSoon
+{
+	"{STR_VAR_1}的个体值\n"
+	"已经完善。\p"
+	"若还需要我完善其他宝可梦\n"
+	"的个体值，请再来。"
+}
+

@@ -1,0 +1,29 @@
+raw `
+PetalburgCity_House1_MapScripts::
+	.byte 0
+
+PetalburgCity_House1_EventScript_Man::
+	msgbox PetalburgCity_House1_Text_TravelingIsWonderful, MSGBOX_NPC
+	end
+
+PetalburgCity_House1_EventScript_Woman::
+	msgbox PetalburgCity_House1_Text_GoOnAdventure, MSGBOX_NPC
+	end
+
+PetalburgCity_House1_Text_TravelingIsWonderful:
+	.string "旅行真是太棒了！\p"
+	.string "我年轻时走遍了\n"
+	.string "大海和群山！$"
+
+PetalburgCity_House1_Text_GoOnAdventure:
+	.string "唉……\p"
+	.string "真想和宝可梦一起\n"
+	.string "去冒险……\p"
+	.string "穿过潮湿的草丛……\n"
+	.string "攀登崎岖的岩石山……\p"
+	.string "横渡汹涌的大海……\n"
+	.string "在黑暗的洞窟里游荡……\p"
+	.string "有时还会有点想家……\p"
+	.string "旅行一定美妙极了！$"
+
+`

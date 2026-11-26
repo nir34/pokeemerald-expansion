@@ -108,7 +108,25 @@
 #define TRAINER_PIC_LEAF                  90
 #define TRAINER_PIC_RS_BRENDAN            91
 #define TRAINER_PIC_RS_MAY                92
-#define TRAINER_PIC_COUNT                 93
+#define TRAINER_PIC_ROARK                 93
+#define TRAINER_PIC_DAWN                  94
+#define TRAINER_PIC_GARDENIA              95
+#define TRAINER_PIC_MAYLENE               96
+#define TRAINER_PIC_WAKE                  97
+#define TRAINER_PIC_FANTINA               98
+#define TRAINER_PIC_BYRON                 99
+#define TRAINER_PIC_CANDICE               100
+#define TRAINER_PIC_VOLKNER               101
+#define TRAINER_PIC_CYNTHIA               102
+#define TRAINER_PIC_TATE                  103
+#define TRAINER_PIC_LIZA                  104
+#define TRAINER_PIC_CHAMPION_STEVEN       105
+#define TRAINER_PIC_STEVENANDWALLACE      106
+#define TRAINER_PIC_COURTNEY              107
+#define TRAINER_PIC_BEAUTY_FIRERED        108
+#define TRAINER_PIC_SUPERNERD_FIRERED     109
+#define TRAINER_PIC_CUE_BALL_FIRERED      110
+#define TRAINER_PIC_COUNT                 111
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

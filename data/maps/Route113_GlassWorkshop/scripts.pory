@@ -1,0 +1,42 @@
+raw `
+Route113_GlassWorkshop_MapScripts::
+	.byte 0
+
+Route113_GlassWorkshop_EventScript_GlassWorker::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_SCOPE_LENS, Route113_GlassWorkshop_House2_EventScript_ExplainScopeLens
+	msgbox Route113_GlassWorkshop_House2_Text_WantYouToHaveScopeLens, MSGBOX_DEFAULT
+	giveitem ITEM_SCOPE_LENS
+	setflag FLAG_RECEIVED_SCOPE_LENS
+	release
+	end
+
+Route113_GlassWorkshop_House2_EventScript_ExplainScopeLens::
+	msgbox Route113_GlassWorkshop_House2_Text_ExplainScopeLens, MSGBOX_DEFAULT
+	release
+	end
+
+Route113_GlassWorkshop_EventScript_NinjaBoy::
+	msgbox Route113_GlassWorkshop_House2_Text_NoMoreSoot, MSGBOX_NPC
+	end
+
+Route113_GlassWorkshop_House2_Text_WantYouToHaveScopeLens:
+	.string "我很久以前就不做\n"
+	.string "玻璃吹制了。\p"
+	.string "周围到处是煤灰的时候，\n"
+	.string "那还是个有趣的爱好，\l"
+	.string "不过我觉得该往前走了。\p"
+	.string "来，这个给你，\n"
+	.string "代替我那个旧集灰袋。$"
+
+Route113_GlassWorkshop_House2_Text_ExplainScopeLens:
+	.string "焦点镜能提高击中\n"
+	.string "要害的几率。\l"
+	.string "挺厉害的吧！$"
+
+Route113_GlassWorkshop_House2_Text_NoMoreSoot:
+	.string "再没有煤灰了！\n"
+	.string "只有要害！$"
+
+`

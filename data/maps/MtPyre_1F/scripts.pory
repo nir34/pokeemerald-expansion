@@ -1,0 +1,51 @@
+raw `
+MtPyre_1F_MapScripts::
+	.byte 0
+
+MtPyre_1F_EventScript_CleanseTagWoman::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_CLEANSE_TAG, MtPyre_1F_EventScript_ReceivedCleanseTag
+	msgbox MtPyre_1F_Text_TakeThisForYourOwnGood, MSGBOX_DEFAULT
+	giveitem ITEM_CLEANSE_TAG
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_CLEANSE_TAG
+	release
+	end
+
+MtPyre_1F_EventScript_ReceivedCleanseTag::
+	msgbox MtPyre_1F_Text_ExplainCleanseTag, MSGBOX_DEFAULT
+	release
+	end
+
+MtPyre_1F_EventScript_PokefanF::
+	msgbox MtPyre_1F_Text_ComeToPayRespects, MSGBOX_NPC
+	end
+
+MtPyre_1F_EventScript_Man::
+	msgbox MtPyre_1F_Text_RestingPlaceOfZigzagoon, MSGBOX_NPC
+	end
+
+MtPyre_1F_Text_TakeThisForYourOwnGood:
+	.string "送神火山的山坡上，什么\n"
+	.string "样的家伙都会游荡……\p"
+	.string "不知道会碰上什么。\n"
+	.string "这个给你，为你好。$"
+
+MtPyre_1F_Text_ExplainCleanseTag:
+	.string "让宝可梦拿着这枚\n"
+	.string "洁净符吧。\p"
+	.string "它能帮忙赶走野生\n"
+	.string "宝可梦。$"
+
+MtPyre_1F_Text_ComeToPayRespects:
+	.string "你是来向逝去的宝可梦\n"
+	.string "灵魂致敬的吗？\p"
+	.string "你一定很爱护\n"
+	.string "你的宝可梦。$"
+
+MtPyre_1F_Text_RestingPlaceOfZigzagoon:
+	.string "这里是我的宝可梦蛇纹熊\n"
+	.string "长眠的地方。我很爱它……$"
+
+`

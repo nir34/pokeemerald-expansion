@@ -1,0 +1,93 @@
+raw `
+SootopolisCity_House2_MapScripts::
+	.byte 0
+
+`
+
+script SootopolisCity_House2_EventScript_ExpertF {
+	lock
+	faceplayer
+	if(!flag(FLAG_MET_ARCEUS_EXPERT))
+	{
+		msgbox(SootopolisCity_House2_ArceusExpertIntro)
+		giveitem(ITEM_DRACO_PLATE)
+		msgbox(SootopolisCity_House2_SeeGoodPlate)
+		setflag(FLAG_MET_ARCEUS_EXPERT)
+		release
+		end
+	}
+	checkitemplate()
+	if(!var(VAR_RESULT))
+	{
+		msgbox(SootopolisCity_House2_Text_NoPlates)
+		release
+		end
+	}
+
+	msgbox(ArceusExpertSwapPlate)
+	dynmultipush("格斗", ITEM_FIST_PLATE)
+	dynmultipush("飞行", ITEM_SKY_PLATE)
+	dynmultipush("毒", ITEM_TOXIC_PLATE)
+	dynmultipush("地面", ITEM_EARTH_PLATE)
+	dynmultipush("岩石", ITEM_STONE_PLATE)
+	dynmultipush("虫", ITEM_INSECT_PLATE)
+	dynmultipush("幽灵", ITEM_SPOOKY_PLATE)
+	dynmultipush("钢", ITEM_IRON_PLATE)
+	dynmultipush("火", ITEM_FLAME_PLATE)
+	dynmultipush("水", ITEM_SPLASH_PLATE)
+	dynmultipush("草", ITEM_MEADOW_PLATE)
+	dynmultipush("电", ITEM_ZAP_PLATE)
+	dynmultipush("超能力", ITEM_MIND_PLATE)
+	dynmultipush("冰", ITEM_ICICLE_PLATE)
+	dynmultipush("龙", ITEM_DRACO_PLATE)
+	dynmultipush("恶", ITEM_DREAD_PLATE)
+	dynmultipush("妖精", ITEM_PIXIE_PLATE)
+    dynmultipush("取消", MULTI_B_PRESSED)
+
+    // // setting initial selected to a non-existant ID will always have it point to the first option
+	dynmultistack(0, 0, FALSE, 6, FALSE, ITEM_FIST_PLATE, DYN_MULTICHOICE_CB_NONE)
+
+    if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+	{
+		goto(SootopolisCity_House2_EventScript_ArceusExpertNo)
+	}
+
+	copyvar(VAR_0x8005, VAR_RESULT)
+	removeitem(VAR_0x8004)
+	msgbox("好选择，我们交换石板吧。")
+	giveitem(VAR_0x8005)
+	msgbox("想再交换石板\n就再来吧。")
+	release
+	end
+}
+
+
+script SootopolisCity_House2_EventScript_ArceusExpertNo {
+    msgbox("我明白了，改主意\n再来吧。")
+    release
+    end
+}
+
+text SootopolisCity_House2_ArceusExpertIntro {
+	"你好，年轻的训练家。从你的\n"
+	"表情我就看得出，你有能力\l"
+	"正确使用这件道具；我一直在\l"
+	"等像你这样的人。"
+}
+
+text SootopolisCity_House2_SeeGoodPlate {
+	"我花了好几年收集这些\n"
+	"石板，想换一块别的\l"
+	"属性的石板就再来。"
+}
+
+text ArceusExpertSwapPlate {
+	"欢迎回来，年轻的训练家。看来\n"
+	"你想交换石板。\p"
+	"你想要哪块石板？"
+}
+
+text SootopolisCity_House2_Text_NoPlates {
+	"啊，看来你身上\n"
+	"没有石板。有了再来吧。"
+}

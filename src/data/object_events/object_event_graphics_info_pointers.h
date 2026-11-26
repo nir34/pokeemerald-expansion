@@ -247,6 +247,18 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Storyteller
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roark;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dawn;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maylene;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gardenia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cynthia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wake;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fantina;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Byron;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Candice;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Volkner;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GoldItemBall;
+
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -488,6 +500,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LINK_RS_MAY] =              &gObjectEventGraphicsInfo_RubySapphireMay,
     [OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
     [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
+    [OBJ_EVENT_GFX_ROARK] =                    &gObjectEventGraphicsInfo_Roark,
+    [OBJ_EVENT_GFX_DAWN] =                     &gObjectEventGraphicsInfo_Dawn,
+    [OBJ_EVENT_GFX_MAYLENE] =                  &gObjectEventGraphicsInfo_Maylene,
+    [OBJ_EVENT_GFX_GARDENIA] =                 &gObjectEventGraphicsInfo_Gardenia,
+    [OBJ_EVENT_GFX_CYNTHIA] =                  &gObjectEventGraphicsInfo_Cynthia,
+    [OBJ_EVENT_GFX_WAKE] =                     &gObjectEventGraphicsInfo_Wake,
+    [OBJ_EVENT_GFX_FANTINA] =                  &gObjectEventGraphicsInfo_Fantina,
+    [OBJ_EVENT_GFX_BYRON] =                    &gObjectEventGraphicsInfo_Byron,
+    [OBJ_EVENT_GFX_CANDICE] =                  &gObjectEventGraphicsInfo_Candice,
+    [OBJ_EVENT_GFX_VOLKNER] =                  &gObjectEventGraphicsInfo_Volkner,
+    [OBJ_EVENT_GFX_GOLD_ITEM_BALL] =           &gObjectEventGraphicsInfo_GoldItemBall,
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
 };

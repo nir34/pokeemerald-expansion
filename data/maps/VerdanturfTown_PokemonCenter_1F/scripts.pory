@@ -1,0 +1,55 @@
+raw `
+.set LOCALID_NURSE, 1
+
+VerdanturfTown_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, VerdanturfTown_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+VerdanturfTown_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_VERDANTURF_TOWN
+	call Common_EventScript_UpdateBrineyLocation
+	end
+
+VerdanturfTown_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+VerdanturfTown_PokemonCenter_1F_EventScript_Gentleman::
+	msgbox VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon, MSGBOX_NPC
+	end
+
+VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
+	msgbox VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent, MSGBOX_NPC
+	end
+
+VerdanturfTown_PokemonCenter_1F_EventScript_FormerFuryCutterTutor::
+	lockall
+	faceplayer
+	msgbox MauvilleCity_Text_FormerFuryCutterTutor, MSGBOX_DEFAULT
+	releaseall
+	end
+
+VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
+	.string "要是不相信自己的宝可梦，\n"
+	.string "就不算真正的训练家。\p"
+	.string "只有那些能信任自己\n"
+	.string "对战宝可梦的人，\l"
+	.string "才能一直赢到最后。$"
+
+VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
+	.string "要说人们为什么会来\n"
+	.string "绿荫镇……\p"
+	.string "当然是对战帐篷。\n"
+	.string "这还用说。\p"
+	.string "还是说，这里有你想\n"
+	.string "见的人？$"
+
+MauvilleCity_Text_FormerFuryCutterTutor:
+	.string "我以前能愤怒地斩击……\n"
+	.string "唉，到底怎么了呢？$"
+`

@@ -467,8 +467,6 @@ SINGLE_BATTLE_TEST("Red Card prevents Emergency Exit activation when triggered")
     }
 }
 
-TO_DO_BATTLE_TEST("Red Card activates but fails if the attacker has Dynamaxed");
-
 SINGLE_BATTLE_TEST("Red Card activates before Eject Pack")
 {
     GIVEN {
@@ -486,7 +484,9 @@ SINGLE_BATTLE_TEST("Red Card activates before Eject Pack")
             MESSAGE("Wobbuffet is switched out with the Eject Button!");
         }
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, opponent);
-        MESSAGE("The opposing Wobbuffet held up its Red Card against Wobbuffet!");
+        MESSAGE("Foe Wobbuffet held up its Red Card against Wobbuffet!");
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TACKLE, opponent);
     }
 }
+
+// SINGLE_BATTLE_TEST("Red Card activates but fails if the attacker has Dynamaxed")

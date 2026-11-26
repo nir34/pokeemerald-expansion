@@ -19,6 +19,7 @@
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
 #include "random.h"
+#include "randomizer.h"
 #include "script.h"
 #include "sprite.h"
 #include "string_util.h"
@@ -30,6 +31,13 @@
 
 static void CB2_ReturnFromChooseHalfParty(void);
 static void CB2_ReturnFromChooseBattleFrontierParty(void);
+static u16 PickWaterStarterEgg(void);
+static u16 PickGrassStarterEgg(void);
+static u16 PickFireStarterEgg(void);
+static u16 PickOldaleEgg(void);
+static u16 PickPseudoEgg(void);
+static u16 PickSingleStageEgg(void);
+
 static void HealPlayerBoxes(void);
 
 void HealPlayerParty(void)
@@ -61,16 +69,167 @@ static void HealPlayerBoxes(void)
     }
 }
 
+void HealPlayerPartyNonDead(void)
+{
+    u32 i;
+    for (i = 0; i < gPlayerPartyCount; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_HP) != 0)
+            HealPokemon(&gPlayerParty[i]);
+    }
+        
+    if (OW_PC_HEAL >= GEN_8)
+        HealPlayerBoxes();
+
+    // Recharge Tera Orb, if possible.
+    if (B_FLAG_TERA_ORB_CHARGED != 0 && CheckBagHasItem(ITEM_TERA_ORB, 1))
+        FlagSet(B_FLAG_TERA_ORB_CHARGED);
+}
+
 u8 ScriptGiveEgg(u16 species)
 {
     struct Pokemon mon;
     u8 isEgg;
+    bool8 fromHotSprings = (species == SPECIES_EEVEE);
 
-    CreateEgg(&mon, species, TRUE);
+    if(species == SPECIES_SQUIRTLE)
+    {
+        species = PickWaterStarterEgg();
+    }
+    else if(species == SPECIES_BULBASAUR)
+    {
+        species = PickGrassStarterEgg();
+    }
+    else if(species == SPECIES_CHARMANDER)
+    {
+        species = PickFireStarterEgg();
+    }
+    else if(species == SPECIES_SENTRET)
+    {
+        species = PickOldaleEgg();
+    }
+    else if(species == SPECIES_DRATINI)
+    {
+        species = PickPseudoEgg();
+    }
+    else if(species == SPECIES_KLAWF)
+    {
+        species = PickSingleStageEgg();
+    }
+
+    #if RANDOMIZER_AVAILABLE == TRUE
+        u16 i = 0;
+        for(i = 0; i < MY_EGG_MON_COUNT; i++)
+        {
+            if(gEggMonTable[i] == species)
+                break;
+        }
+        species = RandomizeEggMon(i, gEggMonTable);
+    #endif
+
+    CreateEgg(&mon, species, fromHotSprings);
     isEgg = TRUE;
     SetMonData(&mon, MON_DATA_IS_EGG, &isEgg);
 
     return GiveMonToPlayer(&mon);
+}
+
+static u16 PickWaterStarterEgg(void)
+{
+    u16 pokes[9];
+    u16 rand = Random() % 9;
+    pokes[0] = SPECIES_SQUIRTLE;
+    pokes[1] = SPECIES_TOTODILE;
+    pokes[2] = SPECIES_MUDKIP;
+    pokes[3] = SPECIES_PIPLUP;
+    pokes[4] = SPECIES_OSHAWOTT;
+    pokes[5] = SPECIES_FROAKIE;
+    pokes[6] = SPECIES_POPPLIO;
+    pokes[7] = SPECIES_SOBBLE;
+    pokes[8] = SPECIES_QUAXLY;
+    return pokes[rand];
+}
+
+static u16 PickGrassStarterEgg(void)
+{
+    u16 pokes[9];
+    u16 rand = Random() % 9;
+    pokes[0] = SPECIES_BULBASAUR;
+    pokes[1] = SPECIES_CHIKORITA;
+    pokes[2] = SPECIES_TREECKO;
+    pokes[3] = SPECIES_TURTWIG;
+    pokes[4] = SPECIES_SNIVY;
+    pokes[5] = SPECIES_CHESPIN;
+    pokes[6] = SPECIES_ROWLET;
+    pokes[7] = SPECIES_GROOKEY;
+    pokes[8] = SPECIES_SPRIGATITO;
+    return pokes[rand];
+}
+
+static u16 PickFireStarterEgg(void)
+{
+    u16 pokes[9];
+    u16 rand = Random() % 9;
+    pokes[0] = SPECIES_CHARMANDER;
+    pokes[1] = SPECIES_CYNDAQUIL;
+    pokes[2] = SPECIES_TORCHIC;
+    pokes[3] = SPECIES_CHIMCHAR;
+    pokes[4] = SPECIES_TEPIG;
+    pokes[5] = SPECIES_FENNEKIN;
+    pokes[6] = SPECIES_LITTEN;
+    pokes[7] = SPECIES_SCORBUNNY;
+    pokes[8] = SPECIES_FUECOCO;
+    return pokes[rand];
+}
+
+static u16 PickOldaleEgg(void)
+{
+    u16 pokes[10];
+    u16 rand = Random() % 10;
+    pokes[0] = SPECIES_SENTRET;
+    pokes[1] = SPECIES_JIGGLYPUFF;
+    pokes[2] = SPECIES_KRICKETOT;
+    pokes[3] = SPECIES_CUBONE;
+    pokes[4] = SPECIES_PANCHAM;
+    pokes[5] = SPECIES_YAMPER;
+    pokes[6] = SPECIES_ROCKRUFF;
+    pokes[7] = SPECIES_SNORUNT;
+    pokes[8] = SPECIES_SPOINK;
+    pokes[9] = SPECIES_VAROOM;
+    return pokes[rand];
+}
+
+static u16 PickPseudoEgg(void)
+{
+    u16 pokes[10];
+    u16 rand = Random() % 10;
+    pokes[0] = SPECIES_DRATINI;
+    pokes[1] = SPECIES_LARVITAR;
+    pokes[2] = SPECIES_BAGON;
+    pokes[3] = SPECIES_BELDUM;
+    pokes[4] = SPECIES_GIBLE;
+    pokes[5] = SPECIES_DEINO;
+    pokes[6] = SPECIES_GOOMY;
+    pokes[7] = SPECIES_JANGMO_O;
+    pokes[8] = SPECIES_DREEPY;
+    pokes[9] = SPECIES_FRIGIBAX;
+    return pokes[rand];
+}
+
+static u16 PickSingleStageEgg(void)
+{
+    u16 pokes[9];
+    u16 rand = Random() % 9;
+    pokes[0] = SPECIES_TAUROS;
+    pokes[1] = SPECIES_DELIBIRD;
+    pokes[2] = SPECIES_TROPIUS;
+    pokes[3] = SPECIES_SPIRITOMB;
+    pokes[4] = SPECIES_HEATMOR;
+    pokes[5] = SPECIES_DEDENNE;
+    pokes[6] = SPECIES_BRUXISH;
+    pokes[7] = SPECIES_FALINKS;
+    pokes[8] = SPECIES_KLAWF;
+    return pokes[rand];
 }
 
 void HasEnoughMonsForDoubleBattle(void)
@@ -114,12 +273,15 @@ bool8 DoesPartyHaveEnigmaBerry(void)
 void CreateScriptedWildMon(u16 species, u8 level, u16 item)
 {
     u8 heldItem[2];
+    u8 ivToMakeMon = USE_RANDOM_IVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+        ivToMakeMon = MAX_PER_STAT_IVS;
 
     ZeroEnemyPartyMons();
     if (OW_SYNCHRONIZE_NATURE > GEN_3)
-        CreateMonWithNature(&gEnemyParty[0], species, level, USE_RANDOM_IVS, PickWildMonNature());
+        CreateMonWithNature(&gEnemyParty[0], species, level, ivToMakeMon, PickWildMonNature());
     else
-        CreateMon(&gEnemyParty[0], species, level, USE_RANDOM_IVS, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[0], species, level, ivToMakeMon, 0, 0, OT_ID_PLAYER_ID, 0);
     if (item)
     {
         heldItem[0] = item;
@@ -131,13 +293,16 @@ void CreateScriptedDoubleWildMon(u16 species1, u8 level1, u16 item1, u16 species
 {
     u8 heldItem1[2];
     u8 heldItem2[2];
+    u8 ivToMakeMon = USE_RANDOM_IVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+        ivToMakeMon = MAX_PER_STAT_IVS;
 
     ZeroEnemyPartyMons();
 
     if (OW_SYNCHRONIZE_NATURE > GEN_3)
-        CreateMonWithNature(&gEnemyParty[0], species1, level1, 32, PickWildMonNature());
+        CreateMonWithNature(&gEnemyParty[0], species1, level1, ivToMakeMon, PickWildMonNature());
     else
-        CreateMon(&gEnemyParty[0], species1, level1, 32, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[0], species1, level1, ivToMakeMon, 0, 0, OT_ID_PLAYER_ID, 0);
     if (item1)
     {
         heldItem1[0] = item1;
@@ -146,9 +311,9 @@ void CreateScriptedDoubleWildMon(u16 species1, u8 level1, u16 item1, u16 species
     }
 
     if (OW_SYNCHRONIZE_NATURE > GEN_3)
-        CreateMonWithNature(&gEnemyParty[1], species2, level2, 32, PickWildMonNature());
+        CreateMonWithNature(&gEnemyParty[1], species2, level2, ivToMakeMon, PickWildMonNature());
     else
-        CreateMon(&gEnemyParty[1], species2, level2, 32, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[1], species2, level2, ivToMakeMon, 0, 0, OT_ID_PLAYER_ID, 0);
     if (item2)
     {
         heldItem2[0] = item2;
@@ -325,7 +490,14 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
     u32 i;
     u8 genderRatio = gSpeciesInfo[species].genderRatio;
     u16 targetSpecies;
-
+    u16 evToUseInCalc = MAX_PER_STAT_EVS;
+    u8 ivToMakeMon = USE_RANDOM_IVS;
+        
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+    {
+        evToUseInCalc = 0;
+        ivToMakeMon = MAX_PER_STAT_IVS;
+    }
     // check whether to use a specific nature or a random one
     if (nature >= NUM_NATURES)
     {
@@ -340,15 +512,21 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
     if ((gender == MON_MALE && genderRatio != MON_FEMALE && genderRatio != MON_GENDERLESS)
      || (gender == MON_FEMALE && genderRatio != MON_MALE && genderRatio != MON_GENDERLESS)
      || (gender == MON_GENDERLESS && genderRatio == MON_GENDERLESS))
-        CreateMonWithGenderNatureLetter(&mon, species, level, 32, gender, nature, 0);
+        CreateMonWithGenderNatureLetter(&mon, species, level, ivToMakeMon, gender, nature, 0);
     else
-        CreateMonWithNature(&mon, species, level, 32, nature);
+        CreateMonWithNature(&mon, species, level, ivToMakeMon, nature);
 
     // shininess
-    if (P_FLAG_FORCE_SHINY != 0 && FlagGet(P_FLAG_FORCE_SHINY))
+    // if (P_FLAG_FORCE_SHINY != 0 && FlagGet(P_FLAG_FORCE_SHINY))
+    //     isShiny = TRUE;
+    // else if (P_FLAG_FORCE_NO_SHINY != 0 && FlagGet(P_FLAG_FORCE_NO_SHINY))
+    //     isShiny = FALSE;
+
+    u16 randomNum = Random();
+    if (!isShiny && (randomNum < 109))
+    {
         isShiny = TRUE;
-    else if (P_FLAG_FORCE_NO_SHINY != 0 && FlagGet(P_FLAG_FORCE_NO_SHINY))
-        isShiny = FALSE;
+    }
     SetMonData(&mon, MON_DATA_IS_SHINY, &isShiny);
 
     // gigantamax factor
@@ -363,7 +541,7 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
     for (i = 0; i < NUM_STATS; i++)
     {
         // EV
-        if (evs[i] <= MAX_PER_STAT_EVS)
+        if (evs[i] <= evToUseInCalc)
             SetMonData(&mon, MON_DATA_HP_EV + i, &evs[i]);
 
         // IV
@@ -387,11 +565,11 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
     {
         abilityNum = GetMonData(&mon, MON_DATA_PERSONALITY) & 1;
     }
-    else if (abilityNum > NUM_NORMAL_ABILITY_SLOTS || GetAbilityBySpecies(species, abilityNum) == ABILITY_NONE)
+    else if (abilityNum > NUM_NORMAL_ABILITY_SLOTS || GetAbilityBySpecies(species, abilityNum, FALSE) == ABILITY_NONE)
     {
         do {
             abilityNum = Random() % NUM_ABILITY_SLOTS; // includes hidden abilities
-        } while (GetAbilityBySpecies(species, abilityNum) == ABILITY_NONE);
+        } while (GetAbilityBySpecies(species, abilityNum, FALSE) == ABILITY_NONE);
     }
     SetMonData(&mon, MON_DATA_ABILITY_NUM, &abilityNum);
 
@@ -456,9 +634,13 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
 
 u32 ScriptGiveMon(u16 species, u8 level, u16 item)
 {
+    u8 ivToMakeMon = USE_RANDOM_IVS;
+    if(FlagGet(FLAG_MIN_GRINDING_MODE))
+        ivToMakeMon = MAX_PER_STAT_IVS;
+
     u8 evs[NUM_STATS]        = {0, 0, 0, 0, 0, 0};
-    u8 ivs[NUM_STATS]        = {MAX_PER_STAT_IVS + 1, MAX_PER_STAT_IVS + 1, MAX_PER_STAT_IVS + 1,   // We pass "MAX_PER_STAT_IVS + 1" here to ensure that
-                                MAX_PER_STAT_IVS + 1, MAX_PER_STAT_IVS + 1, MAX_PER_STAT_IVS + 1};  // ScriptGiveMonParameterized won't touch the stats' IV.
+    u8 ivs[NUM_STATS]        = {ivToMakeMon, ivToMakeMon, ivToMakeMon,   // We pass USE_RANDOM_IVS, which is "MAX_PER_STAT_IVS + 1" here to ensure that
+                                ivToMakeMon, ivToMakeMon, ivToMakeMon};  // ScriptGiveMonParameterized won't touch the stats' IV.
     u16 moves[MAX_MON_MOVES] = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE};
 
     return ScriptGiveMonParameterized(0, PARTY_SIZE, species, level, item, ITEM_POKE_BALL, NUM_NATURES, NUM_ABILITY_PERSONALITY, MON_GENDERLESS, evs, ivs, moves, FALSE, FALSE, NUMBER_OF_MON_TYPES);
@@ -487,12 +669,67 @@ void ScrCmd_createmon(struct ScriptContext *ctx)
     u8 speedEv        = PARSE_FLAG(8, 0);
     u8 spAtkEv        = PARSE_FLAG(9, 0);
     u8 spDefEv        = PARSE_FLAG(10, 0);
-    u8 hpIv           = PARSE_FLAG(11, Random() % (MAX_PER_STAT_IVS + 1));
-    u8 atkIv          = PARSE_FLAG(12, Random() % (MAX_PER_STAT_IVS + 1));
-    u8 defIv          = PARSE_FLAG(13, Random() % (MAX_PER_STAT_IVS + 1));
-    u8 speedIv        = PARSE_FLAG(14, Random() % (MAX_PER_STAT_IVS + 1));
-    u8 spAtkIv        = PARSE_FLAG(15, Random() % (MAX_PER_STAT_IVS + 1));
-    u8 spDefIv        = PARSE_FLAG(16, Random() % (MAX_PER_STAT_IVS + 1));
+    u8 hpIv           = PARSE_FLAG(11, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 atkIv          = PARSE_FLAG(12, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 defIv          = PARSE_FLAG(13, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 speedIv        = PARSE_FLAG(14, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 spAtkIv        = PARSE_FLAG(15, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 spDefIv        = PARSE_FLAG(16, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u16 move1         = PARSE_FLAG(17, MOVE_NONE);
+    u16 move2         = PARSE_FLAG(18, MOVE_NONE);
+    u16 move3         = PARSE_FLAG(19, MOVE_NONE);
+    u16 move4         = PARSE_FLAG(20, MOVE_NONE);
+    bool8 isShiny     = PARSE_FLAG(21, FALSE);
+    bool8 ggMaxFactor = PARSE_FLAG(22, FALSE);
+    u8 teraType       = PARSE_FLAG(23, NUMBER_OF_MON_TYPES);
+
+    u8 evs[NUM_STATS]        = {hpEv, atkEv, defEv, speedEv, spAtkEv, spDefEv};
+    u8 ivs[NUM_STATS]        = {hpIv, atkIv, defIv, speedIv, spAtkIv, spDefIv};
+    u16 moves[MAX_MON_MOVES] = {move1, move2, move3, move4};
+
+    gSpecialVar_Result = ScriptGiveMonParameterized(side, slot, species, level, item, ball, nature, abilityNum, gender, evs, ivs, moves, isShiny, ggMaxFactor, teraType);
+}
+
+
+/* Give or create a mon to either player or opponent
+ */
+void ScrCmd_createrandommon(struct ScriptContext *ctx)
+{
+    
+    u8 side           = ScriptReadByte(ctx);
+    u8 slot           = ScriptReadByte(ctx);
+    u16 species       = VarGet(ScriptReadHalfword(ctx));
+    u8 level          = VarGet(ScriptReadHalfword(ctx));
+
+    
+    #if RANDOMIZER_AVAILABLE == TRUE
+        u16 i = 0;
+        for(i = 0; i < MY_STARTER_AND_GIFT_MON_COUNT; i++)
+        {
+            if(gStarterAndGiftMonTable[i] == species)
+                break;
+        }
+        species = RandomizeStarterAndGiftMon(i, gStarterAndGiftMonTable);
+    #endif
+
+    u32 flags         = ScriptReadWord(ctx);
+    u16 item          = PARSE_FLAG(0, ITEM_NONE);
+    u8 ball           = PARSE_FLAG(1, ITEM_POKE_BALL);
+    u8 nature         = PARSE_FLAG(2, NUM_NATURES);
+    u8 abilityNum     = PARSE_FLAG(3, NUM_ABILITY_PERSONALITY);
+    u8 gender         = PARSE_FLAG(4, MON_GENDERLESS); // TODO: Find a better way to assign a random gender.
+    u8 hpEv           = PARSE_FLAG(5, 0);
+    u8 atkEv          = PARSE_FLAG(6, 0);
+    u8 defEv          = PARSE_FLAG(7, 0);
+    u8 speedEv        = PARSE_FLAG(8, 0);
+    u8 spAtkEv        = PARSE_FLAG(9, 0);
+    u8 spDefEv        = PARSE_FLAG(10, 0);
+    u8 hpIv           = PARSE_FLAG(11, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 atkIv          = PARSE_FLAG(12, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 defIv          = PARSE_FLAG(13, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 speedIv        = PARSE_FLAG(14, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 spAtkIv        = PARSE_FLAG(15, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
+    u8 spDefIv        = PARSE_FLAG(16, FlagGet(FLAG_MIN_GRINDING_MODE) ? MAX_PER_STAT_IVS : USE_RANDOM_IVS);
     u16 move1         = PARSE_FLAG(17, MOVE_NONE);
     u16 move2         = PARSE_FLAG(18, MOVE_NONE);
     u16 move3         = PARSE_FLAG(19, MOVE_NONE);

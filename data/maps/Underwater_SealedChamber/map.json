@@ -12,8 +12,10 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
+  "connections": 0,
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 7,
@@ -23,7 +25,44 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 3,
+      "elevation": 0,
+      "var": "FLAG_IS_CHAMPION",
+      "var_value": "0",
+      "script": "Underwater_Route134_Trigger_BlockCavernEntrance"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "var": "FLAG_IS_CHAMPION",
+      "var_value": "0",
+      "script": "Underwater_Route134_Trigger_BlockCavernEntrance"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "var": "FLAG_IS_CHAMPION",
+      "var_value": "0",
+      "script": "Underwater_Route134_Trigger_BlockCavernEntrance"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 3,
+      "elevation": 0,
+      "var": "FLAG_IS_CHAMPION",
+      "var_value": "0",
+      "script": "Underwater_Route134_Trigger_BlockCavernEntrance"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",

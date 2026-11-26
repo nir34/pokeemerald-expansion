@@ -1,0 +1,57 @@
+raw `
+DewfordTown_House2_MapScripts::
+	.byte 0
+
+DewfordTown_House2_EventScript_Man::
+	lock
+	faceplayer
+	call_if_unset FLAG_MET_REGULAR_MOVE_TUTOR, DewfordTown_House2_EventScript_SetEggMoveFlag
+	msgbox DewfordTown_House2_Text_HowToUseRelearnMoves, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_House2_EventScript_SetEggMoveFlag::
+	setflag FLAG_MET_REGULAR_MOVE_TUTOR
+	msgbox DewfordTown_House2_Text_ImEggMoveTutor, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox DewfordTown_House2_Text_ObtainedMoveTutorOption, MSGBOX_DEFAULT
+	waitfanfare
+	return
+
+DewfordTown_House2_EventScript_Boy::
+	msgbox DewfordTown_House2_Text_BrawlySoCool, MSGBOX_NPC
+	end
+
+DewfordTown_House2_Text_ImEggMoveTutor:
+	.string "哟！\p"
+	.string "大家都说我记性特别好，\n"
+	.string "连我的宝可梦都被带动了！\p"
+	.string "来，我也把记性好的\n"
+	.string "秘诀教给你。$"
+
+DewfordTown_House2_Text_ObtainedMoveTutorOption:
+	.string "获得了重新学习\n"
+	.string "升级招式的选项！$"
+
+DewfordTown_House2_Text_HowToUseRelearnMoves:
+	.string "打开队伍菜单选择宝可梦，\n"
+	.string "应该会多出一个叫\l"
+	.string "“重新学习”的选项。\p"
+	.string "我听说还有人能教别的\n"
+	.string "招式，不过我只知道\l"
+	.string "怎么重新学习宝可梦\l"
+	.string "升级时学会的招式。\p"
+	.string "要是你看不到新选项，\n"
+	.string "就说明你的宝可梦没有\l"
+	.string "能重新学的招式，真可惜！\p"
+	.string "等你出名了，\n"
+	.string "希望你还记得我！$"
+
+DewfordTown_House2_Text_BrawlySoCool:
+	.string "哇，你特地渡海来武斗玩？\p"
+	.string "你是不是听说了藤树\n"
+	.string "才来的？\p"
+	.string "他真酷……\n"
+	.string "大家都崇拜他。$"
+
+`

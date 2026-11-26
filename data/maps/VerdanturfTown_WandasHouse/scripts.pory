@@ -1,0 +1,171 @@
+raw `
+VerdanturfTown_WandasHouse_MapScripts::
+	.byte 0
+
+VerdanturfTown_WandasHouse_EventScript_Wally::
+	lock
+	faceplayer
+	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
+	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeech, MSGBOX_DEFAULT
+	setflag FLAG_WALLY_SPEECH
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech::
+	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeechShort, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysUncle::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff
+	msgbox VerdanturfTown_WandasHouse_Text_WallysNextDoor, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff::
+	msgbox VerdanturfTown_WandasHouse_Text_WallySlippedOff, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande::
+	msgbox VerdanturfTown_WandasHouse_Text_WallyGoneThatFar, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend::
+	msgbox VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay, MSGBOX_NPC
+	end
+
+VerdanturfTown_WandasHouse_EventScript_Wanda::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WandaDontWorry
+	goto_if_set FLAG_DEFEATED_WALLY_MAUVILLE, VerdanturfTown_WandasHouse_EventScript_MeetWanda
+	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_MeetWanda::
+	msgbox VerdanturfTown_WandasHouse_Text_MeetWanda, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WandaDontWorry::
+	msgbox VerdanturfTown_WandasHouse_Text_DontWorryAboutWally, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysAunt::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande
+	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened
+	goto_if_set FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen
+	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysAuntTunnelOpen::
+	msgbox VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysAuntAnythingHappened::
+	msgbox VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
+	msgbox VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_WandasHouse_Text_StrongerSpeech:
+	.string "小胜：{PLAYER}，\n"
+	.string "我输给了你，\l"
+	.string "可我已经不再沮丧了。\p"
+	.string "因为我有了新的目标。\n"
+	.string "我要和拉鲁拉丝一起\l"
+	.string "挑战道馆，成为\l"
+	.string "了不起的训练家。\p"
+	.string "{PLAYER}，请看着我。\n"
+	.string "我会比你更强。\p"
+	.string "到那时候，我还要再\n"
+	.string "向你挑战一次。$"
+
+VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
+	.string "小胜：{PLAYER}，请看着我。\n"
+	.string "我会比你更强。\p"
+	.string "到那时候，我还要再\n"
+	.string "向你挑战一次。$"
+
+VerdanturfTown_WandasHouse_Text_WallysNextDoor:
+	.string "叔叔：哦！{PLAYER}！\n"
+	.string "小胜在隔壁。\p"
+	.string "不过，我有件事\n"
+	.string "一定要告诉你。\p"
+	.string "这里的自然环境对小胜\n"
+	.string "的身体大有好处。\p"
+	.string "也许不只是环境。\n"
+	.string "让那孩子燃起希望的，\l"
+	.string "可能是宝可梦。$"
+
+VerdanturfTown_WandasHouse_Text_WallySlippedOff:
+	.string "小胜走了……\n"
+	.string "他自己悄悄走的……$"
+
+VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
+	.string "叔叔：是这样吗？\n"
+	.string "小胜一个人跑到\l"
+	.string "那么远的地方去了……\p"
+	.string "不过我得说，他真行——\n"
+	.string "毕竟是我弟弟的儿子。$"
+
+VerdanturfTown_WandasHouse_Text_MeetWanda:
+	.string "瓦达：你是？\n"
+	.string "哦，对，我知道了！\p"
+	.string "你就是小胜跟我\n"
+	.string "说过的{PLAYER}。\p"
+	.string "我是小胜的表姐。\n"
+	.string "很高兴见到你！\p"
+	.string "我觉得小胜来了以后，\n"
+	.string "变得活泼健康多了。$"
+
+VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
+	.string "瓦达：别担心小胜。\n"
+	.string "他会没事的。\p"
+	.string "我了解我这个小表弟，\n"
+	.string "而且他还有宝可梦陪着。$"
+
+VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
+	.string "多亏了你，我每天都能\n"
+	.string "见到女朋友了。\l"
+	.string "高兴？当然高兴！$"
+
+VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
+	.string "我女儿的男朋友是个\n"
+	.string "非常拼命又热情的人。\p"
+	.string "他为了见我女儿，\n"
+	.string "一刻不停地挖隧道。\p"
+	.string "我女儿有点担心，\n"
+	.string "所以常去隧道那边。$"
+
+VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
+	.string "真厉害。我女儿的男朋友\n"
+	.string "竟然徒手在挖隧道！\p"
+	.string "太惊人了！$"
+
+VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
+	.string "小胜要是出了什么事，\n"
+	.string "我真没脸去见他\l"
+	.string "在橙华市的父母……$"
+
+VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
+	.string "小胜去了彩幽？\p"
+	.string "他在橙华市的父母\n"
+	.string "听了准会大吃一跳！$"
+
+`

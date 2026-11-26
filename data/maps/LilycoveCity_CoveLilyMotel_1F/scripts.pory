@@ -1,0 +1,134 @@
+raw `
+.set LOCALID_OWNER, 1
+
+LilycoveCity_CoveLilyMotel_1F_MapScripts::
+	.byte 0
+
+LilycoveCity_CoveLilyMotel_1F_EventScript_MotelOwner::
+	lockall
+	goto_if_set FLAG_SYS_GAME_CLEAR, LilycoveCity_CoveLilyMotel_1F_EventScript_GameClear
+	goto_if_set FLAG_BADGE07_GET, LilycoveCity_CoveLilyMotel_1F_EventScript_AquaHideoutBusted
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot, MSGBOX_DEFAULT
+	applymovement LOCALID_OWNER, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_OWNER, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+LilycoveCity_CoveLilyMotel_1F_EventScript_AquaHideoutBusted::
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem, MSGBOX_DEFAULT
+	applymovement LOCALID_OWNER, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_OWNER, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+LilycoveCity_CoveLilyMotel_1F_EventScript_GameClear::
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar, MSGBOX_DEFAULT
+	applymovement LOCALID_OWNER, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_OWNER, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+LilycoveCity_CoveLilyMotel_1F_EventScript_BlockingTV::
+	lockall
+	playse SE_PIN
+	applymovement LOCALID_OWNER, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_OWNER, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_CoveLilyMotel_1F_Movement_PlayerPushFromTV
+	applymovement LOCALID_OWNER, LilycoveCity_CoveLilyMotel_1F_Movement_OwnerPushPlayer
+	waitmovement 0
+	applymovement LOCALID_OWNER, LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn
+	waitmovement 0
+	release
+	end
+
+LilycoveCity_CoveLilyMotel_1F_Movement_PlayerPushFromTV:
+	face_right
+	lock_facing_direction
+	walk_left
+	unlock_facing_direction
+	step_end
+
+LilycoveCity_CoveLilyMotel_1F_Movement_OwnerPushPlayer:
+	walk_up
+	step_end
+
+LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn:
+	face_down
+	walk_down
+	face_up
+	step_end
+
+LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
+	.string "嗯，所以他们用宝可梦当\n"
+	.string "招牌，让客人翻了一倍？\p"
+	.string "Hm，也许我该养一只可爱\n"
+	.string "的宝可梦当旅馆吉祥物。\p"
+	.string "不知道这样能不能\n"
+	.string "吸引更多客人来住？$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
+	.string "哦，抱歉抱歉！\n"
+	.string "我看电视看得太入迷了！\p"
+	.string "自从水舰队来了镇上，\n"
+	.string "游客都不来了。$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
+	.string "喂，往前点！\n"
+	.string "我看不见电视了！$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
+	.string "厉害！你说一只宝可梦\n"
+	.string "找到了别人丢的东西？\p"
+	.string "真了不起。要是有那么\n"
+	.string "聪明的宝可梦……\p"
+	.string "客人落下的东西就都能\n"
+	.string "找回来了……$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
+	.string "哦，抱歉抱歉！\n"
+	.string "我看电视看得太入迷了！\p"
+	.string "我听说有人端了\n"
+	.string "水舰队的基地。\p"
+	.string "多亏这样，我们刚接到\n"
+	.string "一个大批客人的预订。\p"
+	.string "是家叫……呃……\n"
+	.string "GAME什么什么公司……$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
+	.string "厉害！一只看家的宝可梦\n"
+	.string "抓到了小偷？\p"
+	.string "真了不起。要是有强壮\n"
+	.string "的宝可梦当警卫……\p"
+	.string "我们就能给客人提供\n"
+	.string "更大的安全保障。$"
+
+LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
+	.string "哦，抱歉抱歉！\n"
+	.string "我看电视看得太入迷了！\p"
+	.string "哦，对了。刚才有一大群\n"
+	.string "客人到了。\p"
+	.string "他们登记的名字是\n"
+	.string "GAME FREAK，\l"
+	.string "想必是做游戏的。\p"
+	.string "哎呀，我得赶紧去\n"
+	.string "准备他们的晚饭！$"
+
+`

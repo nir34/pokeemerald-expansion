@@ -1,0 +1,63 @@
+raw `
+MossdeepCity_Mart_MapScripts::
+	.byte 0
+
+MossdeepCity_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart MossdeepCity_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+MossdeepCity_Mart_Pokemart:
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_NET_BALL
+	.2byte ITEM_DIVE_BALL
+	.2byte ITEM_HYPER_POTION
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_NONE
+	release
+	end
+
+MossdeepCity_Mart_EventScript_Woman::
+	msgbox MossdeepCity_Mart_Text_ReviveIsFantastic, MSGBOX_NPC
+	end
+
+MossdeepCity_Mart_EventScript_Boy::
+	msgbox MossdeepCity_Mart_Text_MaxRepelLastsLongest, MSGBOX_NPC
+	end
+
+MossdeepCity_Mart_EventScript_Sailor::
+	msgbox MossdeepCity_Mart_Text_NetAndDiveBallsRare, MSGBOX_NPC
+	end
+
+MossdeepCity_Mart_Text_ReviveIsFantastic:
+	.string "活力碎片太棒了！\p"
+	.string "给昏厥的宝可梦用，\n"
+	.string "它就能站起来。\p"
+	.string "不过小心，活力碎片\n"
+	.string "不会回复用掉的PP。$"
+
+MossdeepCity_Mart_Text_MaxRepelLastsLongest:
+	.string "黄金喷雾能让所有弱小的\n"
+	.string "宝可梦都不靠近。\p"
+	.string "在各种喷雾里，它的\n"
+	.string "持续时间最长。$"
+
+MossdeepCity_Mart_Text_NetAndDiveBallsRare:
+	.string "巢穴球和潜水球是只在\n"
+	.string "绿岭才做的稀有精灵球。\p"
+	.string "巢穴球对虫属性和\n"
+	.string "水属性宝可梦有效。\p"
+	.string "潜水球对海底的宝可梦\n"
+	.string "最好用。$"
+
+`

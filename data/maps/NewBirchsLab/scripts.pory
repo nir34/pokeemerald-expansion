@@ -1,0 +1,714 @@
+mapscripts NewBirchsLab_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: NewBirchsLab_EventScript_BallDefault
+    MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: NewBirchsLab_OnWarp
+    MAP_SCRIPT_ON_FRAME_TABLE: LittlerootTown_ProfessorBirchsLab_OnFrame
+}
+ 
+script NewBirchsLab_EventScript_BallDefault{
+    setvar(VAR_STARTER_GEN, 0)
+    setvar(VAR_UNUSED_0x40F8, 1)
+    setvar(VAR_MONOTYPE_STARTER, 0)
+}
+ 
+script NewBirchsLab_EventScript_Birch{
+    lockall
+    faceplayer
+    if(!flag(FLAG_TOUCHED_BALLS))
+    {
+        checkplayergender
+	    call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_WelcomePlayerFemale)
+        call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_WelcomePlayerMale)
+        setflag(FLAG_TOUCHED_BALLS)
+    }
+    
+    goto_if_set(FLAG_USE_MONOTYPE_STARTERS, NewBirchsLab_EventScript_BirchMonotypeStarters)
+
+    if(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
+        msgbox(NewBirchsLab_ChangeStarters)
+        dynmultipush("第1世代", 0)
+        dynmultipush("第2世代", 1)
+        dynmultipush("第3世代", 2)
+        dynmultipush("第4世代", 3)
+        dynmultipush("第5世代", 4)
+        dynmultipush("第6世代", 5)
+        dynmultipush("第7世代", 6)
+        dynmultipush("第8世代", 7)
+        dynmultipush("第9世代", 8)
+        dynmultipush("取消", MULTI_B_PRESSED)
+
+        // // setting initial selected to a non-existant ID will always have it point to the first option
+        dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+        if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+        {
+            goto(NewBirchsLab_EventScript_SayGenShowing)
+        }
+        copyvar(VAR_STARTER_GEN, VAR_RESULT)
+        goto(NewBirchsLab_EventScript_SayGenShowing)
+    }
+    else{
+        if(flag(FLAG_SYS_POKEDEX_GET))
+        {
+            goto(ProfBirch_EventScript_AskRatePokedex)
+        }
+        else
+        {
+            checkplayergender
+            call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_GoodbyePlayerFemale)
+            call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_GoodbyePlayerMale)
+        }
+        
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewBirchsLab_EventScript_BirchMonotypeStarters{
+    if(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
+        msgbox(NewBirchsLab_ChangeStartersMonotypes)
+        
+        dynmultipush("格斗", 0)
+        dynmultipush("飞行", 1)
+        dynmultipush("毒", 2)
+        dynmultipush("地面", 3)
+        dynmultipush("岩石", 4)
+        dynmultipush("虫", 5)
+        dynmultipush("幽灵", 6)
+        dynmultipush("钢", 7)
+        dynmultipush("电", 8)
+        dynmultipush("超能力", 9)
+        dynmultipush("冰", 10)
+        dynmultipush("龙", 11)
+        dynmultipush("恶", 12)
+        dynmultipush("普通", 13)
+        dynmultipush("妖精", 14)
+        dynmultipush("取消", MULTI_B_PRESSED)
+
+        // // setting initial selected to a non-existant ID will always have it point to the first option
+        dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+
+        if (var(VAR_RESULT) == MULTI_B_PRESSED) 
+        {
+            goto(NewBirchsLab_EventScript_SayMonoShowing)
+        }
+        copyvar(VAR_MONOTYPE_STARTER, VAR_RESULT)
+        goto(NewBirchsLab_EventScript_SayMonoShowing)
+    }
+    else{
+        if(flag(FLAG_SYS_POKEDEX_GET))
+        {
+            goto(ProfBirch_EventScript_AskRatePokedex)
+        }
+        else
+        {
+            checkplayergender
+            call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_GoodbyePlayerFemale)
+            call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_GoodbyePlayerMale)
+        }
+        
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewBirchsLab_EventScript_SayGenShowing {
+    switch(var(VAR_STARTER_GEN))
+    {
+        case 0:
+            msgbox("正在显示第1世代的初始宝可梦。")
+        case 1:
+            msgbox("正在显示第2世代的初始宝可梦。")
+        case 2:
+            msgbox("正在显示第3世代的初始宝可梦。")
+        case 3:
+            msgbox("正在显示第4世代的初始宝可梦。")
+        case 4:
+            msgbox("正在显示第5世代的初始宝可梦。")
+        case 5:
+            msgbox("正在显示第6世代的初始宝可梦。")
+        case 6:
+            msgbox("正在显示第7世代的初始宝可梦。")
+        case 7:
+            msgbox("正在显示第8世代的初始宝可梦。")
+        case 8:
+            msgbox("正在显示第9世代的初始宝可梦。")
+        default:
+            msgbox("现在显示初始宝可梦。")
+    }
+    release
+    end
+}
+
+script  NewBirchsLab_EventScript_SayMonoShowing{
+    switch(var(VAR_MONOTYPE_STARTER))
+    {
+        case 0:
+            msgbox("正在显示格斗属性初始宝可梦。")
+        case 1:
+            msgbox("正在显示飞行属性初始宝可梦。")
+        case 2:
+            msgbox("正在显示毒属性初始宝可梦。")
+        case 3:
+            msgbox("正在显示地面属性初始宝可梦。")
+        case 4:
+            msgbox("正在显示岩石属性初始宝可梦。")
+        case 5:
+            msgbox("正在显示虫属性初始宝可梦。")
+        case 6:
+            msgbox("正在显示幽灵属性初始宝可梦。")
+        case 7:
+            msgbox("正在显示钢属性初始宝可梦。")
+        case 8:
+            msgbox("正在显示电属性初始宝可梦。")
+        case 9:
+            msgbox("正在显示超能力属性初始宝可梦。")
+        case 10:
+            msgbox("正在显示冰属性初始宝可梦。")
+        case 11:
+            msgbox("正在显示龙属性初始宝可梦。")
+        case 12:
+            msgbox("正在显示恶属性初始宝可梦。")
+        case 13:
+            msgbox("正在显示普通属性初始宝可梦。")
+        case 14:
+            msgbox("正在显示妖精属性初始宝可梦。")
+        default:
+            msgbox("正在显示普通属性初始宝可梦。")
+    }
+    release
+    end
+}
+
+script NewBirchsLab_EventScript_PokeballOne{
+    lockall
+    if(flag(FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH)){
+        msgbox(NewBirchsLab_NotYet)
+    }
+    elif(!flag(FLAG_TOUCHED_BALLS))
+    {
+        msgbox("去问问小田卷博士吧！")
+    }
+    elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
+        call(NewBirchsLab_EventScript_HandleGrassStarterChoice)
+        if(flag(FLAG_SYS_POKEMON_GET))
+        {
+            checkplayergender
+	        call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_RivalTorchicGoodbyePlayerFemale)
+            call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_RivalTorchicGoodbyePlayerMale)
+        }
+    }
+    else{
+        msgbox("还是别太贪心！")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewBirchsLab_EventScript_HandleGrassStarterChoice{
+    bufferstarterinfo(STR_VAR_1, 0)
+    showmonpic(VAR_0x8006, 10,3)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(NewBirchsLab_GiveStarter)
+        
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(1)
+            setflag(FLAG_CHOSE_GRASSSTARTER)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(1)
+            setflag(FLAG_CHOSE_GRASSSTARTER)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("没有位置了")
+        }
+        // 0=Treecko, 1=Torchic, 2=Mudkip
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(VAR_STARTER_MON, 0)
+
+        setflag(FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE)
+	    setflag(FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG)
+        setflag(FLAG_RESCUED_BIRCH)
+	    setvar(VAR_BIRCH_LAB_STATE, 3)
+	    setvar(VAR_ROUTE101_STATE, 3)
+        setvar(VAR_LITTLEROOT_TOWN_STATE, 2)
+	    clearflag(FLAG_HIDE_MAP_NAME_POPUP)
+        clearflag(FLAG_HIDE_ROUTE_101_BOY)
+	    checkplayergender
+	    call_if_eq(VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom)
+	    call_if_eq(VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom)
+    }
+    else{
+        hidemonpic
+        msgbox(NewBirchsLab_NotChosen)
+    }
+ 
+}
+
+script NewBirchsLab_EventScript_PokeballTwo{
+    lockall
+    if(flag(FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH)){
+        msgbox(NewBirchsLab_NotYet)
+    }
+    elif(!flag(FLAG_TOUCHED_BALLS))
+    {
+        msgbox("去问问小田卷博士吧！")
+    }
+    elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){
+        call(NewBirchsLab_EventScript_HandleFireStarterChoice)
+        if(flag(FLAG_SYS_POKEMON_GET))
+        {
+            checkplayergender
+	        call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_RivalMudkipGoodbyePlayerFemale)
+            call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_RivalMudkipGoodbyePlayerMale)
+        }
+    }
+    else{
+        msgbox("还是别太贪心！")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewBirchsLab_EventScript_HandleFireStarterChoice{
+    bufferstarterinfo(STR_VAR_1, 1)
+    showmonpic(VAR_0x8006, 10,3)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(NewBirchsLab_GiveStarter)
+
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(2)
+            setflag(FLAG_CHOSE_FIRESTARTER)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(2)
+            setflag(FLAG_CHOSE_FIRESTARTER)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("没有位置了")
+        }
+        // 0=Treecko, 1=Torchic, 2=Mudkip
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(VAR_STARTER_MON, 1)
+
+        setflag(FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE)
+	    setflag(FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG)
+        setflag(FLAG_RESCUED_BIRCH)
+	    setvar(VAR_BIRCH_LAB_STATE, 3)
+	    setvar(VAR_ROUTE101_STATE, 3)
+        setvar(VAR_LITTLEROOT_TOWN_STATE, 2)
+	    clearflag(FLAG_HIDE_MAP_NAME_POPUP)
+        clearflag(FLAG_HIDE_ROUTE_101_BOY)
+	    checkplayergender
+	    call_if_eq(VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom)
+	    call_if_eq(VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom)
+    }
+    else{
+        hidemonpic
+        msgbox(NewBirchsLab_NotChosen)
+    }
+ 
+}
+ 
+script NewBirchsLab_EventScript_PokeballThree{
+    lockall
+    if(flag(FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH)){
+        msgbox(NewBirchsLab_NotYet)
+    }
+    elif(!flag(FLAG_TOUCHED_BALLS))
+    {
+        msgbox("去问问小田卷博士吧！")
+    }
+    elif(!(flag(FLAG_CHOSE_WATERSTARTER) || flag(FLAG_CHOSE_GRASSSTARTER) || flag(FLAG_CHOSE_FIRESTARTER))){    
+        call(NewBirchsLab_EventScript_HandleWaterStarterChoice)
+        if(flag(FLAG_SYS_POKEMON_GET))
+        {
+
+            checkplayergender
+	        call_if_eq(VAR_RESULT, FEMALE, NewBirchsLab_EventScript_RivalTreeckoGoodbyePlayerFemale)
+            call_if_eq(VAR_RESULT, MALE, NewBirchsLab_EventScript_RivalTreeckoGoodbyePlayerMale)
+        }
+    }
+    else{
+        msgbox("还是别太贪心！")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewBirchsLab_EventScript_HandleWaterStarterChoice {
+    bufferstarterinfo(STR_VAR_1, 2)
+    showmonpic(VAR_0x8006, 10,3)
+    msgbox("要选{STR_VAR_1}吗？", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(NewBirchsLab_GiveStarter)
+        
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(3)
+            setflag(FLAG_CHOSE_WATERSTARTER)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("{PLAYER}得到了{STR_VAR_1}！")
+            waitfanfare
+            removeobject(3)
+            setflag(FLAG_CHOSE_WATERSTARTER)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("没有位置了")
+        }
+        // 0=Treecko, 1=Torchic, 2=Mudkip
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(VAR_STARTER_MON, 2)
+
+        setflag(FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE)
+	    setflag(FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG)
+        setflag(FLAG_RESCUED_BIRCH)
+	    setvar(VAR_BIRCH_LAB_STATE, 3)
+	    setvar(VAR_ROUTE101_STATE, 3)
+        setvar(VAR_LITTLEROOT_TOWN_STATE, 2)
+	    clearflag(FLAG_HIDE_MAP_NAME_POPUP)
+        clearflag(FLAG_HIDE_ROUTE_101_BOY)
+	    checkplayergender
+	    call_if_eq(VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom)
+	    call_if_eq(VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom)
+    }
+    else{
+        hidemonpic
+        msgbox(NewBirchsLab_NotChosen)
+    }
+ 
+}
+
+script NewBirchsLab_GiveStarter {
+    if(flag(FLAG_USE_MONOTYPE_STARTERS))
+    {
+        if(flag(FLAG_SHINY_STARTERS))
+        {
+            givemon(VAR_0x8006, 5, isShiny=TRUE)
+        }
+        else
+        {
+            givemon(VAR_0x8006, 5)
+        }
+    }
+    else
+    {
+        if(flag(FLAG_SHINY_STARTERS))
+        {
+            givemonrandom(VAR_0x8006, 5, isShiny=TRUE)
+        }
+        else
+        {
+            givemonrandom(VAR_0x8006, 5)
+        }
+    }
+    return
+}
+
+
+script NewBirchsLab_EventScript_WelcomePlayerMale {
+    if(flag(FLAG_USE_MONOTYPE_STARTERS))
+    {
+        msgbox(NewBirchsLab_WelcomePlayerMaleMonotype)
+    }
+    
+    else
+    {
+        msgbox(NewBirchsLab_WelcomePlayerMale)
+    }
+    return
+}
+
+script NewBirchsLab_EventScript_WelcomePlayerFemale {
+    if(flag(FLAG_USE_MONOTYPE_STARTERS))
+    {
+        msgbox(NewBirchsLab_WelcomePlayerFemaleMonotype)
+    }
+    
+    else
+    {
+        msgbox(NewBirchsLab_WelcomePlayerFemale)
+    }
+    return
+}
+
+script NewBirchsLab_EventScript_GoodbyePlayerMale {
+    msgbox(NewBirchsLab_Route103PlayerMale)
+    return
+}
+
+script NewBirchsLab_EventScript_GoodbyePlayerFemale {
+    msgbox(NewBirchsLab_Route103PlayerFemale)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalTreeckoGoodbyePlayerMale {
+    msgbox(NewBirchsLab_RivalStarterTreeckoPlayerMale)
+    msgbox(NewBirchsLab_Route103PlayerMale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalTreeckoGoodbyePlayerFemale {
+    msgbox(NewBirchsLab_RivalStarterTreeckoPlayerFemale)
+    msgbox(NewBirchsLab_Route103PlayerFemale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalMudkipGoodbyePlayerMale {
+    msgbox(NewBirchsLab_RivalStarterMudkipPlayerMale)
+    msgbox(NewBirchsLab_Route103PlayerMale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalMudkipGoodbyePlayerFemale {
+    msgbox(NewBirchsLab_RivalStarterMudkipPlayerFemale)
+    msgbox(NewBirchsLab_Route103PlayerFemale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalTorchicGoodbyePlayerMale {
+    msgbox(NewBirchsLab_RivalStarterTorchicPlayerMale)
+    msgbox(NewBirchsLab_Route103PlayerMale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+script NewBirchsLab_EventScript_RivalTorchicGoodbyePlayerFemale {
+    msgbox(NewBirchsLab_RivalStarterTorchicPlayerFemale)
+    msgbox(NewBirchsLab_Route103PlayerFemale)
+    callnative(UpdateFollowingPokemon)
+    return
+}
+
+
+
+
+
+ 
+script NicknamePartyMon{
+    msgbox("要起个昵称吗？", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+ 
+ 
+}
+ 
+script NicknameBoxMon{
+    msgbox("要起个昵称吗？", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    msgbox("已传送到电脑。")
+}
+ 
+text NewBirchsLab_NotChosen{
+    "你没有选择这只宝可梦。"
+}
+
+text NewBirchsLab_NotYet{
+    "还是先别碰这些！\p"
+    "也许你该去和{RIVAL}谈谈。"
+}
+
+text NewBirchsLab_WelcomePlayerMale{
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，她刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让她留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你她选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "世代的初始宝可梦里选，\l"
+    "想换的话就找我。"
+}
+
+text NewBirchsLab_WelcomePlayerFemale{
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，他刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让他留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你他选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "世代的初始宝可梦里选，\l"
+    "想换的话就找我。"
+}
+
+text NewBirchsLab_WelcomePlayerMaleMonotype {
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，她刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让她留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你她选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "属性的初始宝可梦里选，\l"
+    "想换的话就找我。"
+}
+
+text NewBirchsLab_WelcomePlayerFemaleMonotype {
+    "你好！我是小田卷博士，你\n"
+    "就是{PLAYER}吧。你刚错过\l"
+    "{RIVAL}，他刚才来过，拿了\l"
+    "一只初始宝可梦就\l"
+    "冲出去了。\p" 
+    "我让他留意一位\n"
+    "叫{PLAYER}的训练家，他刚\l"
+    "搬到隔壁！\p"
+    "希望你们俩能成为朋友，\n"
+    "一起踏上新的宝可梦\l"
+    "旅程。\p"
+    "这样吧，我给你一只\n"
+    "初始宝可梦，然后你若能用\l"
+    "你的宝可梦打赢{RIVAL}，\l"
+    "回来我就送你宝可梦图鉴！\p"
+    "你选完我再告诉你他选了\n"
+    "哪只，在你选之前就说\l"
+    "可就不公平了！\p"
+    "我可以让你从任意\n"
+    "属性的初始宝可梦里选，\l"
+    "想换的话就找我。"
+}
+
+text NewBirchsLab_Route103PlayerMale
+{
+    "{RIVAL}喊着要出门，\n"
+    "跑去103号道路了，\l"
+    "也许你该去那儿找她。"
+}
+
+text NewBirchsLab_Route103PlayerFemale
+{
+    "{RIVAL}喊着要出门，\n"
+    "跑去103号道路了，\l"
+    "也许你该去那儿找他。"
+}
+
+text NewBirchsLab_RivalStarterTreeckoPlayerMale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了木守宫做\l"
+    "她的初始宝可梦！"
+}
+
+text NewBirchsLab_RivalStarterTreeckoPlayerFemale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了木守宫做\l"
+    "他的初始宝可梦！"
+}
+
+text NewBirchsLab_RivalStarterMudkipPlayerMale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了水跃鱼做\l"
+    "她的初始宝可梦！"
+}
+
+text NewBirchsLab_RivalStarterMudkipPlayerFemale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了水跃鱼做\l"
+    "他的初始宝可梦！"
+}
+
+text NewBirchsLab_RivalStarterTorchicPlayerMale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了火稚鸡做\l"
+    "她的初始宝可梦！"
+}
+
+text NewBirchsLab_RivalStarterTorchicPlayerFemale
+{
+    "好选择，不过运气不太好！\n"
+    "{RIVAL}选了火稚鸡做\l"
+    "他的初始宝可梦！"
+}
+
+text NewBirchsLab_ChangeStarters{
+    "你想看哪个世代的\n"
+    "初始宝可梦？\l"
+    "世代可以随便换多少次。"
+}
+
+text NewBirchsLab_ChangeStartersMonotypes{
+    "你想看哪种属性的\n"
+    "初始宝可梦？\l"
+    "属性可以随便换多少次。"
+}

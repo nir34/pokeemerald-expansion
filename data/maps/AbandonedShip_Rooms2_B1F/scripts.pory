@@ -1,0 +1,15 @@
+raw `
+AbandonedShip_Rooms2_B1F_MapScripts::
+	.byte 0
+
+AbandonedShip_Rooms2_B1F_EventScript_Camper::
+	msgbox AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring, MSGBOX_NPC
+	end
+
+AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring:
+	.string "这里最适合探险了！\n"
+	.string "在这儿真刺激！\p"
+	.string "船上一定有不得了的\n"
+	.string "宝物。$"
+
+`

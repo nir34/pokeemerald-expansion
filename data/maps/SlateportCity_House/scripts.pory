@@ -1,0 +1,25 @@
+raw `
+SlateportCity_House_MapScripts::
+	.byte 0
+
+SlateportCity_House_EventScript_PokefanM::
+	msgbox SlateportCity_House_Text_NatureToDoWithStatGains, MSGBOX_NPC
+	end
+
+SlateportCity_House_EventScript_Girl::
+	msgbox SlateportCity_House_Text_MustBeGoingToBattleTent, MSGBOX_NPC
+	end
+
+SlateportCity_House_Text_NatureToDoWithStatGains:
+	.string "我的宝可梦是急躁性格。\p"
+	.string "它的速度比我其他的\n"
+	.string "宝可梦高。\p"
+	.string "也许性格和宝可梦的\n"
+	.string "能力成长有关系。$"
+
+SlateportCity_House_Text_MustBeGoingToBattleTent:
+	.string "你是训练家吧？\p"
+	.string "你既然来了凯那市，\n"
+	.string "一定是去对战帐篷的吧。$"
+
+`

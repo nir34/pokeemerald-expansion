@@ -1,0 +1,163 @@
+raw `
+AbandonedShip_Rooms2_1F_MapScripts::
+	.byte 0
+
+AbandonedShip_Rooms2_1F_EventScript_Dan::
+	trainerbattle_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_DanIntro, AbandonedShip_Rooms2_1F_Text_DanDefeat, AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons, AbandonedShip_Rooms2_1F_EventScript_RegisterDan
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_Rooms2_1F_EventScript_DanRematch
+	msgbox AbandonedShip_Rooms2_1F_Text_DanPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_RegisterDan::
+	msgbox AbandonedShip_Rooms2_1F_Text_KiraRegister, MSGBOX_DEFAULT  @ Kira speaks for both when registering KiraAndDan
+	register_matchcall TRAINER_KIRA_AND_DAN_1
+	release
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_DanRematch::
+	trainerbattle_rematch_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_DanRematchIntro, AbandonedShip_Rooms2_1F_Text_DanRematchDefeat, AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons
+	msgbox AbandonedShip_Rooms2_1F_Text_DanPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_Kira::
+	trainerbattle_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_KiraIntro, AbandonedShip_Rooms2_1F_Text_KiraDefeat, AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons, AbandonedShip_Rooms2_1F_EventScript_RegisterKira
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_Rooms2_1F_EventScript_KiraRematch
+	msgbox AbandonedShip_Rooms2_1F_Text_KiraPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_RegisterKira::
+	msgbox AbandonedShip_Rooms2_1F_Text_KiraRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_KIRA_AND_DAN_1
+	release
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_KiraRematch::
+	trainerbattle_rematch_double TRAINER_KIRA_AND_DAN_1, AbandonedShip_Rooms2_1F_Text_KiraRematchIntro, AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat, AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons
+	msgbox AbandonedShip_Rooms2_1F_Text_KiraPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_Jani::
+	trainerbattle_single TRAINER_JANI, AbandonedShip_Rooms2_1F_Text_JaniIntro, AbandonedShip_Rooms2_1F_Text_JaniDefeat
+	msgbox AbandonedShip_Rooms2_1F_Text_JaniPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_Rooms2_1F_EventScript_Garrison::
+	trainerbattle_single TRAINER_GARRISON, AbandonedShip_Rooms2_1F_Text_GarrisonIntro, AbandonedShip_Rooms2_1F_Text_GarrisonDefeat
+	msgbox AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_Rooms2_1F_Text_DanIntro:
+	.string "DAN：我们找宝物的\n"
+	.string "时候，发现了一个\l"
+	.string "训练家！$"
+
+AbandonedShip_Rooms2_1F_Text_DanDefeat:
+	.string "DAN：我们联手还是\n"
+	.string "打不赢……$"
+
+AbandonedShip_Rooms2_1F_Text_DanPostBattle:
+	.string "DAN：我们什么宝物都\n"
+	.string "没找到……\l"
+	.string "是不是已经被人\l"
+	.string "拿走了？$"
+
+AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
+	.string "DAN：你连两只宝可梦都\n"
+	.string "没有。这样可打不\l"
+	.string "赢我们。$"
+
+AbandonedShip_Rooms2_1F_Text_KiraIntro:
+	.string "KIRA：哦？\n"
+	.string "我们在找宝物，\l"
+	.string "结果发现了个\l"
+	.string "训练家！$"
+
+AbandonedShip_Rooms2_1F_Text_KiraDefeat:
+	.string "KIRA：哦，好强！$"
+
+AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
+	.string "KIRA：宝物到底在\n"
+	.string "哪儿呢？\p"
+	.string "我都已经想好找到\n"
+	.string "宝物要买什么了！$"
+
+AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
+	.string "KIRA：哦，你没有\n"
+	.string "两只宝可梦？\l"
+	.string "那我们改天再打！$"
+
+AbandonedShip_Rooms2_1F_Text_KiraRegister:
+	.string "KIRA：哦，你气死我了！\n"
+	.string "我要把你登录下来！$"
+
+AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
+	.string "DAN：我们一直在找\n"
+	.string "宝物。\p"
+	.string "我们的宝可梦也变强了。\n"
+	.string "让它们给你看看，\l"
+	.string "好吗？$"
+
+AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
+	.string "DAN：你还是一样强！$"
+
+AbandonedShip_Rooms2_1F_Text_DanPostRematch:
+	.string "DAN：宝物找不到，\n"
+	.string "宝可梦对战也输……\p"
+	.string "我想回家……可我要\n"
+	.string "这么说，她就\l"
+	.string "要生我的气了……$"
+
+AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
+	.string "DAN：你连两只宝可梦都\n"
+	.string "没有。这样可打不\l"
+	.string "赢我们。$"
+
+AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
+	.string "KIRA：哦？又见面了！\p"
+	.string "跟我们一样，你还是\n"
+	.string "没放弃找宝物，对吧？\p"
+	.string "要不要来一场，输的人\n"
+	.string "就放弃找宝物？$"
+
+AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
+	.string "KIRA：哦，我们又输了……$"
+
+AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
+	.string "KIRA：我们不把宝可梦\n"
+	.string "练强、不找到这里的\l"
+	.string "宝物，是绝不会\l"
+	.string "走的！$"
+
+AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
+	.string "KIRA：哦，你没有\n"
+	.string "两只宝可梦？\l"
+	.string "那我们改天再打！$"
+
+AbandonedShip_Rooms2_1F_Text_JaniIntro:
+	.string "我游泳不行，\n"
+	.string "但对战很在行！$"
+
+AbandonedShip_Rooms2_1F_Text_JaniDefeat:
+	.string "哎呀。\n"
+	.string "不太顺利。$"
+
+AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
+	.string "在这条船上光脚走\n"
+	.string "有点恶心。$"
+
+AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
+	.string "力量与慈悲……\n"
+	.string "那才是训练家的宝物！$"
+
+AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
+	.string "啊，你身上有什么东西\n"
+	.string "在闪闪发光。$"
+
+AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
+	.string "在船上某个船舱里，\n"
+	.string "我看见有东西在闪光。$"
+`

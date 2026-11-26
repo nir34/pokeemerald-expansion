@@ -1,0 +1,184 @@
+raw `
+.set LOCALID_WALDAS_DAD, 6
+
+RustboroCity_Flat1_2F_MapScripts::
+	.byte 0
+
+RustboroCity_Flat1_2F_EventScript_WaldasDad::
+	lock
+	faceplayer
+	specialvar VAR_RESULT, TryBufferWaldaPhrase
+	goto_if_eq VAR_RESULT, FALSE, RustboroCity_Flat1_2F_EventScript_WaldasDadFirstPhrase
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Flat1_2F_EventScript_WaldasDadNewPhrase
+
+RustboroCity_Flat1_2F_EventScript_GivePhrase::
+	special DoWaldaNamingScreen
+	waitstate
+	goto_if_eq VAR_0x8004, 1, RustboroCity_Flat1_2F_EventScript_CancelGivePhrase
+	goto_if_eq VAR_0x8004, 2, RustboroCity_Flat1_2F_EventScript_CancelGiveFirstPhrase
+	specialvar VAR_RESULT, TryGetWallpaperWithWaldaPhrase
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Flat1_2F_EventScript_WaldaLikesPhrase
+	goto_if_eq VAR_RESULT, FALSE, RustboroCity_Flat1_2F_EventScript_WaldaDoesntLikePhrase
+	end
+
+RustboroCity_Flat1_2F_EventScript_WaldasDadFirstPhrase::
+	msgbox RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_Flat1_2F_EventScript_DeclineGivePhrase
+	msgbox RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion, MSGBOX_DEFAULT
+	goto RustboroCity_Flat1_2F_EventScript_GivePhrase
+
+RustboroCity_Flat1_2F_EventScript_WaldasDadNewPhrase::
+	msgbox RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_Flat1_2F_EventScript_DeclineGivePhrase
+	msgbox RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion, MSGBOX_DEFAULT
+	goto RustboroCity_Flat1_2F_EventScript_GivePhrase
+
+RustboroCity_Flat1_2F_EventScript_DeclineGivePhrase::
+	msgbox RustboroCity_Flat1_2F_Text_OhIsThatRight, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Flat1_2F_EventScript_CancelGivePhrase::
+	msgbox RustboroCity_Flat1_2F_Text_OhYouDontKnowAny, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Flat1_2F_EventScript_CancelGiveFirstPhrase::
+	msgbox RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase, MSGBOX_DEFAULT
+	call RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda
+	msgbox RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Flat1_2F_EventScript_WaldaLikesPhrase::
+	msgbox RustboroCity_Flat1_2F_Text_LetsGiveItATry2, MSGBOX_DEFAULT
+	call RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda
+	msgbox RustboroCity_Flat1_2F_Text_OhShesLaughing, MSGBOX_DEFAULT
+	applymovement LOCALID_WALDAS_DAD, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Flat1_2F_EventScript_WaldaDoesntLikePhrase::
+	msgbox RustboroCity_Flat1_2F_Text_LetsGiveItATry, MSGBOX_DEFAULT
+	call RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda
+	msgbox RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda::
+	turnobject LOCALID_WALDAS_DAD, DIR_EAST
+	return
+
+RustboroCity_Flat1_2F_EventScript_WaldasMom::
+	msgbox RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard, MSGBOX_NPC
+	end
+
+RustboroCity_Flat1_2F_EventScript_PokeDoll::
+	msgbox RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll, MSGBOX_SIGN
+	end
+
+RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
+	.string "唉，每天真辛苦……\p"
+	.string "辛苦什么？\n"
+	.string "这还用问吗？\p"
+	.string "每天都得想今天做什么饭，\n"
+	.string "真是难啊。\p"
+	.string "天天想菜单，\n"
+	.string "真的不容易。$"
+
+RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
+	.string "哦，你好！\n"
+	.string "欢迎来到佩帕家。\p"
+	.string "我有个问题想问你。\n"
+	.string "你带过孩子吗？\p"
+	.string "你看，我刚当爸爸，\n"
+	.string "带孩子的事全是头一回。\p"
+	.string "而且我有个烦恼。我女儿\n"
+	.string "瓦露达笑得不够多。\p"
+	.string "要是我说点什么好笑的，\n"
+	.string "她应该会笑吧。\p"
+	.string "你知道什么好笑的词\n"
+	.string "或句子能告诉我吗？$"
+
+RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase:
+	.string "我最近一直对她说\n"
+	.string "“{STR_VAR_1}”逗她。\p"
+	.string "你知道更好的词\n"
+	.string "或句子吗？$"
+
+RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion:
+	.string "哦，那太好了。\n"
+	.string "那就说来听听吧。$"
+
+RustboroCity_Flat1_2F_Text_OhIsThatRight:
+	.string "哦，是这样吗？\p"
+	.string "要是你想到了好主意，\n"
+	.string "我随时都愿意听。$"
+
+RustboroCity_Flat1_2F_Text_LetsGiveItATry2:
+	.string "啊，我明白了。\n"
+	.string "那就试试看吧？$"
+
+RustboroCity_Flat1_2F_Text_OhShesLaughing:
+	.string "{STR_VAR_1}。\n"
+	.string "{STR_VAR_1}。\p"
+	.string "哦，太好了！她笑了！\n"
+	.string "我也和她一样开心！$"
+
+RustboroCity_Flat1_2F_Text_LetsGiveItATry:
+	.string "啊，我明白了。\n"
+	.string "那就试试看吧？$"
+
+RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
+	.string "{STR_VAR_1}。\n"
+	.string "{STR_VAR_1}。\p"
+	.string "嗯……她一点都不笑。\n"
+	.string "也许瓦露达\l"
+	.string "是个严肃的孩子……$"
+
+RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
+	.string "哦，原来你不知道\n"
+	.string "什么好词啊。\p"
+	.string "那我还是自己想吧。\p"
+	.string "嗯……\n"
+	.string "“{STR_VAR_1}”怎么样？\l"
+	.string "试试看有没有用。$"
+
+RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
+	.string "{STR_VAR_1}。\n"
+	.string "{STR_VAR_1}。\p"
+	.string "嗯……她一点都不笑。\n"
+	.string "也许瓦露达\l"
+	.string "是个严肃的孩子……$"
+
+RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
+	.string "哦，原来你不知道\n"
+	.string "什么好词啊。\p"
+	.string "那我就用以前说过的\n"
+	.string "话逗逗她吧。\p"
+	.string "总之，你要是想到好主意，\n"
+	.string "一定要告诉我，好吗？$"
+
+RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
+	.string "谢谢你！\p"
+	.string "多亏了你，我心爱的\n"
+	.string "瓦露达对我笑了！\p"
+	.string "其实，我看起来可能\n"
+	.string "不起眼，但我是得文公司的\l"
+	.string "顶尖研究员之一。\p"
+	.string "所以，让我为你\n"
+	.string "做点什么回报你吧？\p"
+	.string "对了，我给电脑宝可梦\n"
+	.string "寄存系统里的盒子\l"
+	.string "加一些新壁纸图案吧。\p"
+	.string "在壁纸图案菜单里\n"
+	.string "选择“朋友”。\p"
+	.string "这样就能用上新的\n"
+	.string "壁纸图案了。$"
+
+RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
+	.string "是宝可梦的布娃娃！$"
+
+`

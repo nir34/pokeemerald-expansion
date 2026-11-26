@@ -1,0 +1,21 @@
+raw `
+SeafloorCavern_Room1_MapScripts::
+	.byte 0
+
+SeafloorCavern_Room1_EventScript_Grunt1::
+	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_1, SeafloorCavern_Room1_Text_Grunt1Intro, SeafloorCavern_Room1_Text_Grunt1Defeat
+	msgbox SeafloorCavern_Room1_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SeafloorCavern_Room1_Text_Grunt1Intro:
+	.string "我们不需要小鬼！\n"
+	.string "快回家去！$"
+
+SeafloorCavern_Room1_Text_Grunt1Defeat:
+	.string "我想回家……$"
+
+SeafloorCavern_Room1_Text_Grunt1PostBattle:
+	.string "我想升职，好使唤\n"
+	.string "那些小兵……$"
+
+`

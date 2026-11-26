@@ -718,7 +718,7 @@ s8 DoMysteryGiftYesNo(u8 *textState, u16 * windowId, bool8 yesNoBoxPlacement, co
     return MENU_NOTHING_CHOSEN;
 }
 
-// Handle the "Receive/Send/Toss" menu that appears when selecting Wonder Card/News
+// Handle the "接收/发送/丢弃" menu that appears when selecting Wonder Card/News
 static s32 HandleGiftSelectMenu(u8 *textState, u16 * windowId, bool32 cannotToss, bool32 cannotSend)
 {
     struct WindowTemplate UNUSED windowTemplate;
@@ -1141,14 +1141,14 @@ static void Task_MysteryGift(u8 taskId)
         // Main Mystery Gift menu, player can select Wonder Cards or News (or exit)
         switch (MysteryGift_HandleThreeOptionMenu(&data->textState, &data->var, FALSE))
         {
-        case 0: // "Wonder Cards"
+        case 0: // "神秘卡片"
             data->isWonderNews = FALSE;
             if (ValidateSavedWonderCard() == TRUE)
                 data->state = MG_STATE_LOAD_GIFT;
             else
                 data->state = MG_STATE_DONT_HAVE_ANY;
             break;
-        case 1: // "Wonder News"
+        case 1: // "神秘新闻"
             data->isWonderNews = TRUE;
             if (ValidateSavedWonderNews() == TRUE)
                 data->state = MG_STATE_LOAD_GIFT;
@@ -1193,12 +1193,12 @@ static void Task_MysteryGift(u8 taskId)
         // Choose where to access the Wonder Card/News from
         switch (MysteryGift_HandleThreeOptionMenu(&data->textState, &data->var, TRUE))
         {
-        case 0: // "Wireless Communication"
+        case 0: // "无线通信"
             ClearMessage();
             data->state = MG_STATE_CLIENT_LINK_START;
             data->sourceIsFriend = FALSE;
             break;
-        case 1: // "Friend"
+        case 1: // "朋友"
             ClearMessage();
             data->state = MG_STATE_CLIENT_LINK_START;
             data->sourceIsFriend = TRUE;

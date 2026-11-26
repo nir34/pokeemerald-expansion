@@ -127,6 +127,32 @@ Movement_PkmnCenterNurse_Bow:
 	delay_4
 	step_end
 
+PokeVialHealScript::
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	msgbox PokeVialText, MSGBOX_SIGN
+	end
+
+PokeVialHealScript2::
+	special HealPlayerPartyNonDead
+	callnative UpdateFollowingPokemon
+	msgbox PokeVial2Text, MSGBOX_SIGN
+	end
+
+PokeVialHealScriptItem::
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	msgbox PokeVialText, MSGBOX_DEFAULT
+	releaseall
+	end
+
+PokeVialText::
+	.string "您的队伍已经完全恢复了。$"
+
+PokeVial2Text::
+	.string "你的队伍……\n"
+	.string "差不多全恢复了。$"
+
 Movement_PkmnCenterNurse_Turn:
 	walk_in_place_faster_left
 	step_end

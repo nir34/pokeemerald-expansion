@@ -10,6 +10,7 @@
 #include "palette.h"
 #include "pokedex.h"
 #include "pokedex_area_screen.h"
+#include "randomizer.h"
 #include "region_map.h"
 #include "roamer.h"
 #include "sound.h"
@@ -98,7 +99,7 @@ static void SetAreaHasMon(u16, u16);
 static void SetSpecialMapHasMon(u16, u16);
 static u16 GetRegionMapSectionId(u8, u8);
 static bool8 MapHasSpecies(const struct WildPokemonHeader *, u16);
-static bool8 MonListHasSpecies(const struct WildPokemonInfo *, u16, u16);
+static bool8 MonListHasSpecies(const struct WildPokemonHeader *, u16, enum WildArea);
 static void DoAreaGlow(void);
 static void Task_ShowPokedexAreaScreen(u8);
 static void CreateAreaMarkerSprites(void);
@@ -383,31 +384,55 @@ static bool8 MapHasSpecies(const struct WildPokemonHeader *info, u16 species)
             return FALSE;
     }
 
-    if (MonListHasSpecies(info->landMonsInfo, species, LAND_WILD_COUNT))
+    if (MonListHasSpecies(info, species, WILD_AREA_LAND))
         return TRUE;
-    if (MonListHasSpecies(info->waterMonsInfo, species, WATER_WILD_COUNT))
+    if (MonListHasSpecies(info, species, WILD_AREA_WATER))
         return TRUE;
-// When searching the fishing encounters, this incorrectly uses the size of the land encounters.
-// As a result it's reading out of bounds of the fishing encounters tables.
-#ifdef BUGFIX
-    if (MonListHasSpecies(info->fishingMonsInfo, species, FISH_WILD_COUNT))
-#else
-    if (MonListHasSpecies(info->fishingMonsInfo, species, LAND_WILD_COUNT))
-#endif
+    if (MonListHasSpecies(info, species, WILD_AREA_FISHING))
         return TRUE;
-    if (MonListHasSpecies(info->rockSmashMonsInfo, species, ROCK_WILD_COUNT))
+    if (MonListHasSpecies(info, species, WILD_AREA_ROCKS))
         return TRUE;
     return FALSE;
 }
 
-static bool8 MonListHasSpecies(const struct WildPokemonInfo *info, u16 species, u16 size)
+static bool8 MonListHasSpecies(const struct WildPokemonHeader *header, u16 species, enum WildArea area)
 {
-    u16 i;
+    u16 i, size;
+    const struct WildPokemonInfo *info;
+
+    switch(area){
+        case WILD_AREA_WATER:
+            info = header->waterMonsInfo;
+            size = WATER_WILD_COUNT;
+            break;
+        case WILD_AREA_ROCKS:
+            info = header->rockSmashMonsInfo;
+            size = ROCK_WILD_COUNT;
+            break;
+        case WILD_AREA_FISHING:
+            info = header->fishingMonsInfo;
+            size = FISH_WILD_COUNT;
+            break;
+        case WILD_AREA_LAND:
+        default:
+            info = header->landMonsInfo;
+            size = LAND_WILD_COUNT;
+            break;
+    }
+
     if (info != NULL)
     {
         for (i = 0; i < size; i++)
         {
-            if (info->wildPokemon[i].species == species)
+            u16 curSpecies;
+            curSpecies = info->wildPokemon[i].species;
+            #if RANDOMIZER_AVAILABLE == TRUE
+                if (!IsRandomizationPossible(curSpecies, species))
+                    continue;
+                curSpecies = RandomizeWildEncounter(
+                    curSpecies, header->mapNum, header->mapGroup, area, i);
+            #endif
+            if (curSpecies == species)
                 return TRUE;
         }
     }
@@ -755,7 +780,7 @@ static void DestroyAreaScreenSprites(void)
     for (i = 0; i < sPokedexAreaScreen->numAreaMarkerSprites; i++)
         DestroySprite(sPokedexAreaScreen->areaMarkerSprites[i]);
 
-    // Destroy "Area Unknown" sprites
+    // Destroy "区域未知" sprites
     FreeSpriteTilesByTag(TAG_AREA_UNKNOWN);
     FreeSpritePaletteByTag(TAG_AREA_UNKNOWN);
     for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
@@ -783,13 +808,13 @@ static void CreateAreaUnknownSprites(void)
 
     if (sPokedexAreaScreen->numOverworldAreas || sPokedexAreaScreen->numSpecialAreas)
     {
-        // The current species is present on the map, don't create any "Area Unknown" sprites
+        // The current species is present on the map, don't create any "区域未知" sprites
         for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
             sPokedexAreaScreen->areaUnknownSprites[i] = NULL;
     }
     else
     {
-        // The current species is absent on the map, try to create "Area Unknown" sprites
+        // The current species is absent on the map, try to create "区域未知" sprites
         for (i = 0; i < ARRAY_COUNT(sPokedexAreaScreen->areaUnknownSprites); i++)
         {
             u8 spriteId = CreateSprite(&sAreaUnknownSpriteTemplate, i * 32 + 160, 140, 0);

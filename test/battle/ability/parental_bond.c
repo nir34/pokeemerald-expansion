@@ -306,6 +306,40 @@ SINGLE_BATTLE_TEST("Parental Bond only triggers Dragon Tail's target switch out 
     }
 }
 
+SINGLE_BATTLE_TEST("Parental Bond does not trigger on semi-invulnerable moves")
+{
+    GIVEN {
+        ASSUME(gMovesInfo[MOVE_FLY].category != DAMAGE_CATEGORY_STATUS);
+        ASSUME(gMovesInfo[MOVE_FLY].strikeCount < 2);
+        ASSUME(gMovesInfo[MOVE_FLY].effect == EFFECT_SEMI_INVULNERABLE);
+        PLAYER(SPECIES_KANGASKHAN) { Item(ITEM_KANGASKHANITE); }
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { MOVE(player, MOVE_FLY, gimmick: GIMMICK_MEGA); MOVE(opponent, MOVE_CELEBRATE); }
+        TURN { SKIP_TURN(player); }
+    } SCENE {
+        HP_BAR(opponent);
+        NOT HP_BAR(opponent);
+    }
+}
+
+SINGLE_BATTLE_TEST("Parental Bond does not trigger on two turn attacks")
+{
+    GIVEN {
+        ASSUME(gMovesInfo[MOVE_RAZOR_WIND].category != DAMAGE_CATEGORY_STATUS);
+        ASSUME(gMovesInfo[MOVE_RAZOR_WIND].strikeCount < 2);
+        ASSUME(gMovesInfo[MOVE_RAZOR_WIND].effect == EFFECT_TWO_TURNS_ATTACK);
+        PLAYER(SPECIES_KANGASKHAN) { Item(ITEM_KANGASKHANITE); }
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { MOVE(player, MOVE_RAZOR_WIND, gimmick: GIMMICK_MEGA); MOVE(opponent, MOVE_CELEBRATE); }
+        TURN { SKIP_TURN(player); }
+    } SCENE {
+        HP_BAR(opponent);
+        NOT HP_BAR(opponent);
+    }
+}
+
 TO_DO_BATTLE_TEST("Parental Bond tests");
 
 // Temporary TODO: Convert Bulbapedia description into tests.

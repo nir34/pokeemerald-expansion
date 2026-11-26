@@ -1,0 +1,495 @@
+raw `
+.set LOCALID_SUNBIRD, 1
+.set LOCALID_SUNEAL, 3
+.set LOCALID_DOLLAMIKE, 5
+MossdeepCity_BetaTesterHouse_MapScripts::
+	.byte 0
+
+MossdeepCity_BetaTesterHouse_EventScript_Mochi::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_TYRANTRUM, CRY_MODE_NORMAL
+	msgbox MossdeepCity_BetaTesterHouse_Text_Tyrantrum, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+MossdeepCity_BetaTesterHouse_Text_Tyrantrum:
+	.string "怪颚龙：咕啊啊啊啊！$"
+
+MossdeepCity_BetaTesterHouse_EventScript_Kingambit::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KINGAMBIT, CRY_MODE_NORMAL
+	msgbox MossdeepCity_BetaTesterHouse_Text_Kingambit, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+MossdeepCity_BetaTesterHouse_Text_Kingambit:
+	.string "仆刀将军：呜呼呼呼呼呼！$"
+
+MossdeepCity_BetaTesterHouse_EventScript_Blaziken::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_BLAZIKEN, CRY_MODE_NORMAL
+	msgbox MossdeepCity_BetaTesterHouse_Text_Blaziken, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+MossdeepCity_BetaTesterHouse_Text_Blaziken:
+	.string "火焰鸡：呜噜噜噜噜！$"
+`
+
+script MossdeepCity_BetaTesterHouse_EventScript_Sunbird{
+	lockall
+	applymovement(LOCALID_SUNBIRD, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_SUNBIRD, MossdeepCity_BetaTesterHouse_EventScript_SunbirdDefeated)
+	goto_if_set(FLAG_TEMP_1, MossdeepCity_BetaTesterHouse_EventScript_SunbirdRequestBattleAgain)
+	msgbox(Sunbird_Greeting, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleSunbirdPrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunbirdRequestBattleAgain{
+	msgbox(Sunbird_ReadyYet, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleSunbirdPrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleSunbirdPrompt{
+	call_if_eq(VAR_RESULT, YES, MossdeepCity_BetaTesterHouse_EventScript_BattleSunbird)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_DeclineSunbirdBattle)
+	closemessage
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_DeclineSunbirdBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Sunbird_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleSunbird{
+	msgbox(Sunbird_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_SUNBIRD, Sunbird_Outro)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_SunbirdGiveCelebi)
+	return
+}
+
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunbirdDefeated{
+	msgbox(PostBattle_Sunbird, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunbirdGiveCelebi{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CELEBI)
+	givemonrandom(SPECIES_CELEBI, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_BetaTesterHouse_EventScript_ReceiveCelebiParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_BetaTesterHouse_EventScript_ReceiveCelebiPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveCelebiParty{
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedCelebiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_ExplainCelebi)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainCelebi)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveCelebiPC {
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedCelebiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_SendCelebiToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_SendCelebiToPC)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_SendCelebiToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainCelebi)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceivedCelebiFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(MossdeepCity_BetaTesterHouse_Text_PlayerReceivedCelebi)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_CELEBI)
+	return
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ExplainCelebi {
+	msgbox(Sunbird_ExplainCelebi, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text Sunbird_Greeting{
+	"你好！我是Sunbird，我是最早\n"
+	"通关这游戏的玩家之一，所以\l"
+	"我用自己的名人堂队伍做了\l"
+	"一个属于我的训练家！\p"
+	"现在你若能打赢我，我就给你\n"
+	"一份很棒的报酬（剧透一下，\l"
+	"是幻之宝可梦）！\p"
+	"我还会告诉你，我的骨纹巨声鳄\n"
+	"的昵称“OBC Andy”是什么\l"
+	"意思。\p"
+	"说起来，你有点让我想起他。\p"
+	"那么，你觉得能打赢我吗？"
+}
+
+text Sunbird_ReadyYet{
+	"准备好了吗，OBC训练家？"
+}
+
+text Sunbird_YoureOn{
+	"好，来吧，OBC训练家！"
+}
+
+text Sunbird_ComeBackWhenReady{
+	"没关系，我不怪你。\n"
+	"我的队伍可是很吓人的！"
+}
+
+text Sunbird_Outro{
+	"好，我告诉你……“OBC”就是\n"
+	"“一个脑细胞”，但Andy很努力！"
+}
+
+text MossdeepCity_BetaTesterHouse_Text_PlayerReceivedCelebi{
+	"{PLAYER}得到了时拉比！"
+}
+
+text Sunbird_ExplainCelebi{
+	"我说过，你打赢我就送你\n"
+	"幻之宝可梦！\p"
+	"而且我觉得这只相当不错，\n"
+	"希望时拉比能帮到你！"
+}
+
+text PostBattle_Sunbird{
+	"那只异色怪颚龙“麻薯”是\n"
+	"我通关时的队伍核心，\l"
+	"不可或缺。\p"
+	"它陪我走了很久，是我名人堂\n"
+	"队伍的重要一员！\p"
+	"希望你身边也有一只\n"
+	"像我珍惜麻薯那样让你\l"
+	"珍惜的宝可梦，愿你们\l"
+	"一起走得很远！"
+}
+
+
+
+script MossdeepCity_BetaTesterHouse_EventScript_Suneal{
+	lockall
+	applymovement(LOCALID_SUNEAL, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_SUNEAL, MossdeepCity_BetaTesterHouse_EventScript_SunealDefeated)
+	goto_if_set(FLAG_TEMP_2, MossdeepCity_BetaTesterHouse_EventScript_SunealRequestBattleAgain)
+	msgbox(Suneal_Greeting, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleSunealPrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunealRequestBattleAgain{
+	msgbox(Suneal_ReadyYet, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleSunealPrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleSunealPrompt{
+	call_if_eq(VAR_RESULT, YES, MossdeepCity_BetaTesterHouse_EventScript_BattleSuneal)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_DeclineSunealBattle)
+	closemessage
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_DeclineSunealBattle {
+	setflag(FLAG_TEMP_2)
+	msgbox(Suneal_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleSuneal{
+	msgbox(Suneal_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_SUNEAL, Suneal_Outro)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_SunealGiveDarkrai)
+	return
+}
+
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunealDefeated{
+	msgbox(PostBattle_Suneal, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_SunealGiveDarkrai{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_DARKRAI)
+	givemonrandom(SPECIES_DARKRAI, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_BetaTesterHouse_EventScript_ReceiveDarkraiParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_BetaTesterHouse_EventScript_ReceiveDarkraiPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveDarkraiParty{
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedDarkraiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_ExplainDarkrai)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainDarkrai)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveDarkraiPC {
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedDarkraiFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_SendDarkraiToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_SendDarkraiToPC)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_SendDarkraiToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainDarkrai)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceivedDarkraiFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(MossdeepCity_BetaTesterHouse_Text_PlayerReceivedDarkrai)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_DARKRAI)
+	return
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ExplainDarkrai {
+	msgbox(Suneal_ExplainDarkrai, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text Suneal_Greeting{
+	"你好！我叫Suneal，我是\n"
+	"除制作者之外第一个\l"
+	"打通这游戏。\p"
+	"其实我通关了好几次，而且\n"
+	"我玩的版本比正式完成\l"
+	"还早得多。\p"
+	"你若能打赢我，我就送你\n"
+	"一只幻之宝可梦作为奖励。\p"
+	"你觉得如何？"
+}
+
+text Suneal_ReadyYet{
+	"准备对战了吗？"
+}
+
+text Suneal_YoureOn{
+	"来吧。"
+}
+
+text Suneal_ComeBackWhenReady{
+	"改主意了再来吧。"
+}
+
+text Suneal_Outro{
+	"看来你也许不完全是\n"
+	"个废物。"
+}
+
+text MossdeepCity_BetaTesterHouse_Text_PlayerReceivedDarkrai{
+	"{PLAYER}得到了达克莱伊！"
+}
+
+text Suneal_ExplainDarkrai{
+	"说好的幻之宝可梦，给你。\n"
+	"不过暗黑洞要等通关后\l"
+	"才能用，那招实在\l"
+	"太变态了。"
+}
+
+text PostBattle_Suneal{
+	"是我建议在宝可梦中心第二位\n"
+	"护士那儿加上全员倒下计数的，\l"
+	"也是我想出了“得到了好几个\l"
+	"道具！”这种合并提示，省得\l"
+	"弹50次单独的消息，所以\l"
+	"你该谢谢我。"
+}
+
+
+script MossdeepCity_BetaTesterHouse_EventScript_DollaMike{
+	lockall
+	applymovement(LOCALID_DOLLAMIKE, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_DOLLAMIKE, MossdeepCity_BetaTesterHouse_EventScript_DollaMikeDefeated)
+	goto_if_set(FLAG_TEMP_3, MossdeepCity_BetaTesterHouse_EventScript_DollaMikeRequestBattleAgain)
+	msgbox(DollaMike_Greeting, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleDollaMikePrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_DollaMikeRequestBattleAgain{
+	msgbox(DollaMike_ReadyYet, MSGBOX_YESNO)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_BattleDollaMikePrompt)
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleDollaMikePrompt{
+	call_if_eq(VAR_RESULT, YES, MossdeepCity_BetaTesterHouse_EventScript_BattleDollaMike)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_DeclineDollaMikeBattle)
+	closemessage
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_DeclineDollaMikeBattle {
+	setflag(FLAG_TEMP_3)
+	msgbox(DollaMike_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_BattleDollaMike{
+	msgbox(DollaMike_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_DOLLAMIKE, DollaMike_Outro)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_DollaMikeGiveVictini)
+	return
+}
+
+
+script MossdeepCity_BetaTesterHouse_EventScript_DollaMikeDefeated{
+	msgbox(PostBattle_DollaMike, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_DollaMikeGiveVictini{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_VICTINI)
+	givemonrandom(SPECIES_VICTINI, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_BetaTesterHouse_EventScript_ReceiveVictiniParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_BetaTesterHouse_EventScript_ReceiveVictiniPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveVictiniParty{
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedVictiniFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_ExplainVictini)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainVictini)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceiveVictiniPC {
+	call(MossdeepCity_BetaTesterHouse_EventScript_ReceivedVictiniFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, MossdeepCity_BetaTesterHouse_EventScript_SendVictiniToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_SendVictiniToPC)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_SendVictiniToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(MossdeepCity_BetaTesterHouse_EventScript_ExplainVictini)
+	end
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ReceivedVictiniFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(MossdeepCity_BetaTesterHouse_Text_PlayerReceivedVictini)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_VICTINI)
+	return
+}
+	
+
+script MossdeepCity_BetaTesterHouse_EventScript_ExplainVictini {
+	msgbox(DollaMike_ExplainVictini, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text DollaMike_Greeting{
+	"哟，我是DollaMike，我足足花了\n"
+	"90小时，全程不开加速才\l"
+	"打通这游戏。\p"
+	"我直到打冠军前不久才\n"
+	"发现有个宝可梦药剂，\l"
+	"还跟制作者说我的药水\l"
+	"用完了。真事。\p"
+	"总之，我现在要拿砖头砸你，\n"
+	"我就是这么干的。你赢了我，\l"
+	"我就送你幻之宝可梦，来吗？"
+}
+
+text DollaMike_ReadyYet{
+	"这块砖上写着你的名字，\n"
+	"如果你现在准备好了。"
+}
+
+text DollaMike_YoureOn{
+	"你完蛋了，小子。"
+}
+
+text DollaMike_ComeBackWhenReady{
+	"换我我也会害怕的。"
+}
+
+text DollaMike_Outro{
+	"全怪我的药水用完了！"
+}
+
+text MossdeepCity_BetaTesterHouse_Text_PlayerReceivedVictini{
+	"{PLAYER}得到了比克提尼！"
+}
+
+text DollaMike_ExplainVictini{
+	"那只幻之宝可梦代表着\n"
+	"胜利！\p"
+	"我猜的，其实我当初选的是\n"
+	"凯路迪欧作为赠礼宝可梦，\l"
+	"但制作者不准，那就用这个吧。"
+}
+
+text PostBattle_DollaMike{
+	"这游戏真够难的，我已经\n"
+	"等不及再玩一遍了。"
+}

@@ -1,0 +1,359 @@
+raw `
+.set LOCALID_HIDEOUT_GUARD, 5
+
+JaggedPass_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad
+	.byte 0
+
+JaggedPass_OnResume:
+	setstepcallback STEP_CB_ASH
+	call_if_eq VAR_JAGGED_PASS_STATE, 0, JaggedPass_EventScript_CheckHasMagmaEmblem
+	end
+
+JaggedPass_EventScript_CheckHasMagmaEmblem::
+	checkitem ITEM_MAGMA_EMBLEM
+	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_SetReadyToOpenHideout
+	return
+
+JaggedPass_EventScript_SetReadyToOpenHideout::
+	setvar VAR_JAGGED_PASS_STATE, 1
+	return
+
+JaggedPass_OnTransition:
+	call_if_eq VAR_JAGGED_PASS_ASH_WEATHER, 1, JaggedPass_EventScript_SetWeatherAsh
+	end
+
+JaggedPass_EventScript_SetWeatherAsh::
+	setweather WEATHER_VOLCANIC_ASH
+	doweather
+	return
+
+JaggedPass_OnLoad:
+	goto_if_le VAR_JAGGED_PASS_STATE, 1, JaggedPass_EventScript_ConcealHideoutEntrance
+	end
+
+JaggedPass_EventScript_ConcealHideoutEntrance::
+	setmetatile 16, 17, METATILE_Lavaridge_RockWall, TRUE
+	setmetatile 16, 18, METATILE_Lavaridge_RockWall, TRUE
+	end
+
+JaggedPass_EventScript_OpenMagmaHideout::
+	lockall
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	msgbox JaggedPass_Text_BoulderShakingInResponseToEmblem, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_0x8004, 1   @ vertical pan
+	setvar VAR_0x8005, 1   @ horizontal pan
+	setvar VAR_0x8006, 16  @ num shakes
+	setvar VAR_0x8007, 3   @ shake delay
+	special ShakeCamera
+	waitstate
+	playse SE_EFFECTIVE
+	setmetatile 16, 17, METATILE_Lavaridge_CaveEntrance_Top, TRUE
+	setmetatile 16, 18, METATILE_Lavaridge_CaveEntrance_Bottom, FALSE
+	special DrawWholeMapView
+	delay 30
+	setvar VAR_JAGGED_PASS_STATE, 2
+	waitse
+	releaseall
+	end
+
+JaggedPass_EventScript_MagmaHideoutGuard::
+	lockall
+	goto_if_set FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS, JaggedPass_EventScript_GuardDefeated
+	waitse
+	playse SE_PIN
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox JaggedPass_Text_GruntIntro, MSGBOX_DEFAULT
+	closemessage
+	trainerbattle_no_intro TRAINER_GRUNT_JAGGED_PASS, JaggedPass_Text_GruntDefeat
+	setflag FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+JaggedPass_EventScript_GuardDefeated::
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox JaggedPass_Text_GoWhereverYouWant, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+JaggedPass_EventScript_Eric::
+	trainerbattle_single TRAINER_ERIC, JaggedPass_Text_EricIntro, JaggedPass_Text_EricDefeat
+	msgbox JaggedPass_Text_EricPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_Diana::
+	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_DianaRematch
+	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+JaggedPass_EventScript_RegisterDiana::
+	special PlayerFaceTrainerAfterBattle
+	msgbox JaggedPass_Text_DianaRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_DIANA_1
+	release
+	end
+
+JaggedPass_EventScript_DianaRematch::
+	trainerbattle_rematch TRAINER_DIANA_1, JaggedPass_Text_DianaRematchIntro, JaggedPass_Text_DianaRematchDefeat
+	msgbox JaggedPass_Text_DianaPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_Ethan::
+	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, JaggedPass_EventScript_RegisterEthan
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_EthanRematch
+	msgbox JaggedPass_Text_EthanPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+JaggedPass_EventScript_RegisterEthan::
+	special PlayerFaceTrainerAfterBattle
+	msgbox JaggedPass_Text_EthanRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_ETHAN_1
+	release
+	end
+
+JaggedPass_EventScript_EthanRematch::
+	trainerbattle_rematch TRAINER_ETHAN_1, JaggedPass_Text_EthanRematchIntro, JaggedPass_Text_EthanRematchDefeat
+	msgbox JaggedPass_Text_EthanPostRematch, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_EventScript_Autumn::
+	trainerbattle_single TRAINER_AUTUMN, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat
+	msgbox JaggedPass_Text_AutumnPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+JaggedPass_Text_EricIntro:
+	.string "烟囱山的崎岖小径……\p"
+	.string "这才是我一直想要的山。\p"
+	.string "这种崎岖不平……\n"
+	.string "震撼我的灵魂！$"
+
+JaggedPass_Text_EricDefeat:
+	.string "输了真让我不甘心！$"
+
+JaggedPass_Text_EricPostBattle:
+	.string "在宝可梦上，我确实\n"
+	.string "输了……\p"
+	.string "可要说到对山的热爱，\n"
+	.string "我可赢过你！$"
+
+JaggedPass_Text_DianaIntro:
+	.string "这地方可不是随便\n"
+	.string "散散步的。\l"
+	.string "也不适合野餐。$"
+
+JaggedPass_Text_DianaDefeat:
+	.string "哦哦，不行！\n"
+	.string "地面太颠簸了……$"
+
+JaggedPass_Text_DianaPostBattle:
+	.string "你知道吗？\p"
+	.string "有些人很厉害，会骑着\n"
+	.string "自行车爬上这条\l"
+	.string "颠得可怕的坡道。$"
+
+JaggedPass_Text_DianaRegister:
+	.string "你还会再来这一带吗？\n"
+	.string "要是再来，我想再打一场。$"
+
+JaggedPass_Text_DianaRematchIntro:
+	.string "不管去哪儿，野餐\n"
+	.string "都很好玩。就像宝可梦！$"
+
+JaggedPass_Text_DianaRematchDefeat:
+	.string "我会输只是因为地面\n"
+	.string "太颠簸了！$"
+
+JaggedPass_Text_DianaPostRematch:
+	.string "我不去想输的事，\n"
+	.string "就享受这趟颠簸的徒步。$"
+
+JaggedPass_Text_EthanIntro:
+	.string "崎岖小径很难走。\n"
+	.string "这里很适合训练。$"
+
+JaggedPass_Text_EthanDefeat:
+	.string "我们还在找落脚点，\n"
+	.string "胜负就已经分出来了……$"
+
+JaggedPass_Text_EthanPostBattle:
+	.string "要是我有技巧自行车，\n"
+	.string "就能跳上台阶了。$"
+
+JaggedPass_Text_EthanRegister:
+	.string "等我更习惯这种颠簸，\n"
+	.string "一定会赢！\p"
+	.string "能把我登录到你的\n"
+	.string "导航里吗？$"
+
+JaggedPass_Text_EthanRematchIntro:
+	.string "我已经习惯这颠簸了。\n"
+	.string "现在爬山时还会唱歌。$"
+
+JaggedPass_Text_EthanRematchDefeat:
+	.string "在这颠簸的地面上\n"
+	.string "对战还是不容易……$"
+
+JaggedPass_Text_EthanPostRematch:
+	.string "我该去紫堇市找莱德尔\n"
+	.string "买辆技巧自行车……$"
+
+JaggedPass_Text_GruntIntro:
+	.string "哇！\n"
+	.string "你在这儿干什么？\p"
+	.string "我在这种地方\n"
+	.string "做什么？\p"
+	.string "关你什么事？$"
+
+JaggedPass_Text_GruntDefeat:
+	.string "呃啊……\p"
+	.string "我该马上钻进\n"
+	.string "我们的基地的……$"
+
+JaggedPass_Text_GoWhereverYouWant:
+	.string "好好，知道了！\n"
+	.string "我承认——你很强！\p"
+	.string "别管我了。\n"
+	.string "你想去哪儿就去哪儿！$"
+
+JaggedPass_Text_BoulderShakingInResponseToEmblem:
+	.string "哦！这块岩石在呼应\n"
+	.string "熔岩徽章而颤动！$"
+
+JaggedPass_Text_AutumnIntro:
+	.string "我每天都爬这座山。\n"
+	.string "我对自己的力气有信心！$"
+
+JaggedPass_Text_AutumnDefeat:
+	.string "嗯……\n"
+	.string "哪里出错了？$"
+
+JaggedPass_Text_AutumnPostBattle:
+	.string "山坡上去一点那奇怪的\n"
+	.string "岩石突起，是什么呢？$"
+
+`
+
+script JaggedPass_EventScript_Maylene{
+	lockall
+	applymovement(7, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_MAYLENE, JaggedPass_EventScript_MayleneDefeated)
+	goto_if_set(FLAG_TEMP_1, JaggedPass_EventScript_MayleneRequestBattleAgain)
+	msgbox(Maylene_Greeting, MSGBOX_YESNO)
+	goto(JaggedPass_EventScript_BattleMaylenePrompt)
+	end
+}
+
+script JaggedPass_EventScript_MayleneRequestBattleAgain{
+	msgbox(Maylene_ReadyYet, MSGBOX_YESNO)
+	goto(JaggedPass_EventScript_BattleMaylenePrompt)
+	end
+}
+
+script JaggedPass_EventScript_BattleMaylenePrompt{
+	call_if_eq(VAR_RESULT, YES, JaggedPass_EventScript_BattleMaylene)
+	goto_if_eq(VAR_RESULT, NO, JaggedPass_EventScript_DeclineMayleneBattle)
+	closemessage
+	end
+}
+
+script JaggedPass_EventScript_DeclineMayleneBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Maylene_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script JaggedPass_EventScript_BattleMaylene{
+	msgbox("来吧！", MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_MAYLENE, Maylene_Outro)
+	goto(JaggedPass_EventScript_MayleneGiveItems)
+	return
+}
+	
+
+script JaggedPass_EventScript_MayleneDefeated{
+	msgbox(PostBattle_Maylene, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script JaggedPass_EventScript_MayleneGiveItems{
+	giveitem(ITEM_TM_FOCUS_PUNCH)
+	giveitem(ITEM_TM_FOCUS_BLAST)
+	giveitem(ITEM_TM_DRAIN_PUNCH)
+	giveitem(ITEM_TM_BODY_PRESS)
+	giveitem(ITEM_TM_AURA_SPHERE)
+	giveitem(ITEM_LUCARIONITE)
+	giveitem(ITEM_MACHAMPITE)
+	giveitem(ITEM_EXPERT_BELT)
+	msgbox(Maylene_ExplainItems)
+	release
+	end
+}
+
+text Maylene_Greeting{
+	"哎呀呀！终于来了个\n"
+	"像样的对手？看得出你\l"
+	"挺强的。\p"
+	"我叫阿李，从神奥地区\n"
+	"过来，因为需要\l"
+	"重新振作训练。\p"
+	"家乡那边太无趣了，\n"
+	"所以我来这儿找强手。\p"
+	"现在，看看我对你的\n"
+	"直觉准不准！\p"
+	"怎么样，要不要和\n"
+	"我打一场？"
+}
+
+text Maylene_ReadyYet{
+	"准备好训练了吗？"
+}
+
+text Maylene_ComeBackWhenReady{
+	"没关系，我就在这儿训练。"
+}
+
+text Maylene_ExplainItems{
+	"那些都是相当强力的\n"
+	"格斗属性学习器，\l"
+	"你一定能用得上。\p"
+	"我还加了几颗我最喜欢的\n"
+	"超级石。\p"
+	"最后，达人带能增强\n"
+	"效果绝佳的\l"
+	"招式。祝你好运，训练家！"
+}
+	
+text Maylene_Outro{
+	"我的直觉没错！"
+}
+
+text PostBattle_Maylene{
+	"我。要。变强。"
+}
+

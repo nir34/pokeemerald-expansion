@@ -1,0 +1,191 @@
+raw `
+SSTidalRooms_MapScripts::
+	.byte 0
+
+SSTidalRooms_EventScript_SnatchGiver::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_TM_SNATCH, SSTidalRooms_EventScript_ExplainSnatch
+	msgbox SSTidalRooms_Text_NotSuspiciousTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_TM_LEECH_LIFE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_TM_SNATCH
+	msgbox SSTidalRooms_Text_ExplainSnatch, MSGBOX_DEFAULT
+	release
+	end
+
+SSTidalRooms_EventScript_ExplainSnatch::
+	msgbox SSTidalRooms_Text_ExplainSnatch, MSGBOX_DEFAULT
+	release
+	end
+
+SSTidalRooms_EventScript_Bed::
+	lockall
+	msgbox SSTidalRooms_Text_TakeRestOnBed, MSGBOX_DEFAULT
+	closemessage
+	call Common_EventScript_OutOfCenterPartyHeal
+	call SSTidalRooms_EventScript_ProgessCruiseAfterBed
+	releaseall
+	end
+
+SSTidalRooms_EventScript_Colton::
+	trainerbattle_single TRAINER_COLTON, SSTidalRooms_Text_ColtonIntro, SSTidalRooms_Text_ColtonDefeat
+	msgbox SSTidalRooms_Text_ColtonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Micah::
+	trainerbattle_single TRAINER_MICAH, SSTidalRooms_Text_MicahIntro, SSTidalRooms_Text_MicahDefeat
+	msgbox SSTidalRooms_Text_MicahPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Thomas::
+	trainerbattle_single TRAINER_THOMAS, SSTidalRooms_Text_ThomasIntro, SSTidalRooms_Text_ThomasDefeat
+	msgbox SSTidalRooms_Text_ThomasPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Jed::
+	trainerbattle_double TRAINER_LEA_AND_JED, SSTidalRooms_Text_JedIntro, SSTidalRooms_Text_JedDefeat, SSTidalRooms_Text_JedNotEnoughMons
+	msgbox SSTidalRooms_Text_JedPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Lea::
+	trainerbattle_double TRAINER_LEA_AND_JED, SSTidalRooms_Text_LeaIntro, SSTidalRooms_Text_LeaDefeat, SSTidalRooms_Text_LeaNotEnoughMons
+	msgbox SSTidalRooms_Text_LeaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Garret::
+	trainerbattle_single TRAINER_GARRET, SSTidalRooms_Text_GarretIntro, SSTidalRooms_Text_GarretDefeat
+	msgbox SSTidalRooms_Text_GarretPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_EventScript_Naomi::
+	trainerbattle_single TRAINER_NAOMI, SSTidalRooms_Text_NaomiIntro, SSTidalRooms_Text_NaomiDefeat
+	msgbox SSTidalRooms_Text_NaomiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSTidalRooms_Text_TakeRestOnBed:
+	.string "这里有张床……\n"
+	.string "休息一下吧。$"
+
+SSTidalRooms_Text_ColtonIntro:
+	.string "我常坐船去绿岭市。\p"
+	.string "因为我喜欢参加\n"
+	.string "华丽大赛。$"
+
+SSTidalRooms_Text_ColtonDefeat:
+	.string "这场对战真愉快！$"
+
+SSTidalRooms_Text_ColtonPostBattle:
+	.string "一想到下一场华丽大赛\n"
+	.string "能看到什么样的宝可梦\l"
+	.string "我就兴奋。光期待就\l"
+	.string "让人心跳！$"
+
+SSTidalRooms_Text_MicahIntro:
+	.string "你的朋友强吗？$"
+
+SSTidalRooms_Text_MicahDefeat:
+	.string "你的朋友果然很强。$"
+
+SSTidalRooms_Text_MicahPostBattle:
+	.string "朋友不一定是人。\n"
+	.string "对我来说，宝可梦就是\l"
+	.string "珍贵的伙伴！$"
+
+SSTidalRooms_Text_ThomasIntro:
+	.string "孩子……\n"
+	.string "你敲门了吗？$"
+
+SSTidalRooms_Text_ThomasDefeat:
+	.string "输了也要从容接受，\n"
+	.string "不慌不忙。$"
+
+SSTidalRooms_Text_ThomasPostBattle:
+	.string "无论什么情况都不慌乱，\n"
+	.string "这就是绅士的准则。$"
+
+SSTidalRooms_Text_JedIntro:
+	.string "JED：有点不好意思，不过……\n"
+	.string "让你见识我们的\l"
+	.string "恩爱之力！$"
+
+SSTidalRooms_Text_JedDefeat:
+	.string "JED：唉……$"
+
+SSTidalRooms_Text_JedPostBattle:
+	.string "JED：我们的恩爱之力还是\n"
+	.string "第一次不管用！\l"
+	.string "你一定是很棒的\l"
+	.string "训练家！$"
+
+SSTidalRooms_Text_JedNotEnoughMons:
+	.string "JED：你只有一只宝可梦？\n"
+	.string "那不是太寂寞了吗？$"
+
+SSTidalRooms_Text_LeaIntro:
+	.string "LEA：有点傻，不过……\n"
+	.string "让你见识我们的\l"
+	.string "恩爱之力！$"
+
+SSTidalRooms_Text_LeaDefeat:
+	.string "LEA：哦，讨厌！$"
+
+SSTidalRooms_Text_LeaPostBattle:
+	.string "LEA：真不敢相信！\n"
+	.string "我们的恩爱之力\l"
+	.string "失败了……你一定\l"
+	.string "是很棒训练家！$"
+
+SSTidalRooms_Text_LeaNotEnoughMons:
+	.string "LEA：我本想对战的……\n"
+	.string "可你连两只宝可梦\l"
+	.string "都没有……$"
+
+SSTidalRooms_Text_GarretIntro:
+	.string "啊，你来得正好。\p"
+	.string "你看，我正无聊。\n"
+	.string "你可以陪我消遣。$"
+
+SSTidalRooms_Text_GarretDefeat:
+	.string "……这样可以了。$"
+
+SSTidalRooms_Text_GarretPostBattle:
+	.string "也许我该让父亲给\n"
+	.string "我买艘游艇。\l"
+	.string "给我和宝可梦的游艇！$"
+
+SSTidalRooms_Text_NaomiIntro:
+	.string "哦，你真是个可爱的\n"
+	.string "训练家。要喝茶吗？\l"
+	.string "还是想对战？$"
+
+SSTidalRooms_Text_NaomiDefeat:
+	.string "我明白了。\n"
+	.string "你是好动的那种。$"
+
+SSTidalRooms_Text_NaomiPostBattle:
+	.string "坐豪华客轮环游世界\n"
+	.string "当然有它的魅力……\p"
+	.string "不过我得承认，坐渡轮\n"
+	.string "逛丰缘也别有\l"
+	.string "一番趣味。$"
+
+SSTidalRooms_Text_NotSuspiciousTakeThis:
+	.string "呃……嗨！我……我可没\n"
+	.string "在干什么可疑的事！\l"
+	.string "呃……这个给你！\l"
+	.string "免费！\p"
+	.string "说……说实话，这可不是\n"
+	.string "我从别人那儿\l"
+	.string "抢来的！我绝不\l"
+	.string "会那种事！\l"
+	.string "东西干净的！\l"
+	.string "你可以用！$"
+
+SSTidalRooms_Text_ExplainSnatch:
+	.string "抢夺会抢走某些招式\n"
+	.string "的有益效果，在\l"
+	.string "对手或同伴用出前\l"
+	.string "先夺过来。$"
+
+`

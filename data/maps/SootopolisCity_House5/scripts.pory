@@ -1,0 +1,467 @@
+raw `
+.set LOCALID_NATN, 1
+.set LOCALID_MASTER_POUCINE, 3
+.set LOCALID_OBLIVION_WING, 5
+
+SootopolisCity_House5_MapScripts::
+	.byte 0
+
+SootopolisCity_House5_EventScript_Kingambit::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_KINGAMBIT, CRY_MODE_NORMAL
+	msgbox SootopolisCity_House5_Text_Kingambit, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+SootopolisCity_House5_Text_Kingambit:
+	.string "仆刀将军：呜呼呼呼呼呼！$"
+
+
+SootopolisCity_House5_EventScript_Dragapult::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_DRAGAPULT, CRY_MODE_NORMAL
+	msgbox SootopolisCity_House5_Text_Dragapult, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+SootopolisCity_House5_Text_Dragapult:
+	.string "多龙巴鲁托：呜噜噜噜咿！$"
+
+
+SootopolisCity_House5_EventScript_Greninja::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_GRENINJA, CRY_MODE_NORMAL
+	msgbox SootopolisCity_House5_Text_Greninja, MSGBOX_DEFAULT
+	waitmoncry
+	release
+	end
+
+SootopolisCity_House5_Text_Greninja:
+	.string "甲贺忍蛙：噜诶诶诶！$"
+
+`
+
+script SootopolisCity_House5_EventScript_Natn{
+	lockall
+	applymovement(LOCALID_NATN, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_NATN, SootopolisCity_House5_EventScript_NatnDefeated)
+	goto_if_set(FLAG_TEMP_1, SootopolisCity_House5_EventScript_NatnRequestBattleAgain)
+	msgbox(Natn_Greeting, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleNatnPrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_NatnRequestBattleAgain{
+	msgbox(Natn_ReadyYet, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleNatnPrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleNatnPrompt{
+	call_if_eq(VAR_RESULT, YES, SootopolisCity_House5_EventScript_BattleNatn)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_DeclineNatnBattle)
+	closemessage
+	end
+}
+
+script SootopolisCity_House5_EventScript_DeclineNatnBattle {
+	setflag(FLAG_TEMP_1)
+	msgbox(Natn_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleNatn{
+	msgbox(Natn_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_NATN, Natn_Outro)
+	goto(SootopolisCity_House5_EventScript_NatnGiveMeloetta)
+	return
+}
+
+script SootopolisCity_House5_EventScript_NatnDefeated{
+	msgbox(PostBattle_Natn, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script SootopolisCity_House5_EventScript_NatnGiveMeloetta{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_MELOETTA_ARIA)
+	givemonrandom(SPECIES_MELOETTA_ARIA, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, SootopolisCity_House5_EventScript_ReceiveMeloettaParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, SootopolisCity_House5_EventScript_ReceiveMeloettaPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_ReceiveMeloettaParty{
+	call(SootopolisCity_House5_EventScript_ReceivedMeloettaFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_ExplainMeloetta)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(SootopolisCity_House5_EventScript_ExplainMeloetta)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceiveMeloettaPC {
+	call(SootopolisCity_House5_EventScript_ReceivedMeloettaFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_SendMeloettaToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(SootopolisCity_House5_EventScript_SendMeloettaToPC)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_SendMeloettaToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(SootopolisCity_House5_EventScript_ExplainMeloetta)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceivedMeloettaFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(SootopolisCity_House5_Text_PlayerReceivedMeloetta)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_MELOETTA_ARIA)
+	return
+}
+
+script SootopolisCity_House5_EventScript_ExplainMeloetta {
+	msgbox(Natn_ExplainMeloetta, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text Natn_Greeting{
+	"嘿，我叫Natn，我是这游戏\n"
+	"发售时第一个在普通模式下\l"
+	"通关的人。\p"
+	"早期我不太爱说话，\n"
+	"只是出现、飞快通关，\l"
+	"然后晒出我的名人堂\l"
+	"队伍。\p"
+	"我的规矩也一样，你若能\n"
+	"打赢我，我就送你幻之宝可梦。\p"
+	"有兴趣对战吗？"
+}
+
+text Natn_ReadyYet{
+	"现在想打吗？"
+}
+
+text Natn_YoureOn{
+	"来吧。"
+}
+
+text Natn_ComeBackWhenReady{
+	"改主意了就告诉我。"
+}
+
+text Natn_Outro{
+	"相当不错。\n"
+}
+
+text SootopolisCity_House5_Text_PlayerReceivedMeloetta{
+	"{PLAYER}得到了美洛耶塔！"
+}
+
+text Natn_ExplainMeloetta{
+	"你的幻之宝可梦。\n"
+	"你大概知道它的花样了，\l"
+	"只要用它专属的古老之歌，\l"
+	"就能在对战中改变形态。\p"
+	"真让人好奇阿李是怎么拿到\n"
+	"一开始就是舞步形态的那只的。"
+}
+
+text PostBattle_Natn{
+	"说真的，这游戏挺简单的。\n"
+	"我就在这儿等硬核模式。"
+}
+
+
+script SootopolisCity_House5_EventScript_MasterPoucine{
+	lockall
+	applymovement(LOCALID_MASTER_POUCINE, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_MASTER_POUCINE, SootopolisCity_House5_EventScript_MasterPoucineDefeated)
+	goto_if_set(FLAG_TEMP_2, SootopolisCity_House5_EventScript_MasterPoucineRequestBattleAgain)
+	msgbox(MasterPoucine_Greeting, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleMasterPoucinePrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_MasterPoucineRequestBattleAgain{
+	msgbox(MasterPoucine_ReadyYet, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleMasterPoucinePrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleMasterPoucinePrompt{
+	call_if_eq(VAR_RESULT, YES, SootopolisCity_House5_EventScript_BattleMasterPoucine)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_DeclineMasterPoucineBattle)
+	closemessage
+	end
+}
+
+script SootopolisCity_House5_EventScript_DeclineMasterPoucineBattle {
+	setflag(FLAG_TEMP_2)
+	msgbox(MasterPoucine_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleMasterPoucine{
+	msgbox(MasterPoucine_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_MASTER_POUCINE, MasterPoucine_Outro)
+	goto(SootopolisCity_House5_EventScript_MasterPoucineGiveMarshadow)
+	return
+}
+
+script SootopolisCity_House5_EventScript_MasterPoucineDefeated{
+	msgbox(PostBattle_MasterPoucine, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script SootopolisCity_House5_EventScript_MasterPoucineGiveMarshadow{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_MARSHADOW)
+	givemonrandom(SPECIES_MARSHADOW, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, SootopolisCity_House5_EventScript_ReceiveMarshadowParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, SootopolisCity_House5_EventScript_ReceiveMarshadowPC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_ReceiveMarshadowParty{
+	call(SootopolisCity_House5_EventScript_ReceivedMarshadowFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_ExplainMarshadow)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(SootopolisCity_House5_EventScript_ExplainMarshadow)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceiveMarshadowPC {
+	call(SootopolisCity_House5_EventScript_ReceivedMarshadowFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_SendMarshadowToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(SootopolisCity_House5_EventScript_SendMarshadowToPC)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_SendMarshadowToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(SootopolisCity_House5_EventScript_ExplainMarshadow)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceivedMarshadowFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(SootopolisCity_House5_Text_PlayerReceivedMarshadow)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_MARSHADOW)
+	return
+}
+
+script SootopolisCity_House5_EventScript_ExplainMarshadow {
+	msgbox(MasterPoucine_ExplainMarshadow, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text MasterPoucine_Greeting{
+	"你好！我是MasterPoucine，\n"
+	"我是这游戏发售后第三个\l"
+	"通关的人，也是第一个用它\l"
+	"招牌帝王拿波通关的人！\p"
+	"我也是内容创作者，\n"
+	"欢迎在YouTube上看我！\p"
+	"和其他冠军一样，你若能\n"
+	"打赢我，我就送你幻之宝可梦。\p"
+	"要和我对战吗？"
+}
+
+text MasterPoucine_ReadyYet{
+	"现在要打吗？"
+}
+
+text MasterPoucine_YoureOn{
+	"来吧！"
+}
+
+text MasterPoucine_ComeBackWhenReady{
+	"决定要打的话，\n"
+	"就再来找我。"
+}
+
+text MasterPoucine_Outro{
+	"哇，这场对战真精彩！"
+}
+
+text SootopolisCity_House5_Text_PlayerReceivedMarshadow{
+	"{PLAYER}得到了玛夏多！"
+}
+
+text MasterPoucine_ExplainMarshadow{
+	"这才叫好奖励！玛夏多绝对\n"
+	"是最强的幻之宝可梦\l"
+	"之一，希望你好生使用。"
+}
+
+text PostBattle_MasterPoucine{
+	"我等不及想看更难的\n"
+	"模式出了，那样我也能\l"
+	"速通一遍！"
+}
+
+
+script SootopolisCity_House5_EventScript_OblivionWing{
+	lockall
+	applymovement(LOCALID_OBLIVION_WING, Common_Movement_FacePlayer)
+	goto_if_defeated(TRAINER_OBLIVION_WING, SootopolisCity_House5_EventScript_OblivionWingDefeated)
+	goto_if_set(FLAG_TEMP_3, SootopolisCity_House5_EventScript_OblivionWingRequestBattleAgain)
+	msgbox(OblivionWing_Greeting, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleOblivionWingPrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_OblivionWingRequestBattleAgain{
+	msgbox(OblivionWing_ReadyYet, MSGBOX_YESNO)
+	goto(SootopolisCity_House5_EventScript_BattleOblivionWingPrompt)
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleOblivionWingPrompt{
+	call_if_eq(VAR_RESULT, YES, SootopolisCity_House5_EventScript_BattleOblivionWing)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_DeclineOblivionWingBattle)
+	closemessage
+	end
+}
+
+script SootopolisCity_House5_EventScript_DeclineOblivionWingBattle {
+	setflag(FLAG_TEMP_3)
+	msgbox(OblivionWing_ComeBackWhenReady, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_BattleOblivionWing{
+	msgbox(OblivionWing_YoureOn, MSGBOX_DEFAULT)
+	trainerbattle_no_intro(TRAINER_OBLIVION_WING, OblivionWing_Outro)
+	goto(SootopolisCity_House5_EventScript_OblivionWingGiveZarude)
+	return
+}
+
+script SootopolisCity_House5_EventScript_OblivionWingDefeated{
+	msgbox(PostBattle_OblivionWing, MSGBOX_DEFAULT)
+	releaseall
+	end
+}
+
+script SootopolisCity_House5_EventScript_OblivionWingGiveZarude{
+	setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ZARUDE)
+	givemonrandom(SPECIES_ZARUDE, 50)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PARTY, SootopolisCity_House5_EventScript_ReceiveZarudeParty)
+	goto_if_eq(VAR_RESULT, MON_GIVEN_TO_PC, SootopolisCity_House5_EventScript_ReceiveZarudePC)
+	goto(Common_EventScript_NoMoreRoomForPokemon)
+	release
+	end
+}
+
+script SootopolisCity_House5_EventScript_ReceiveZarudeParty{
+	call(SootopolisCity_House5_EventScript_ReceivedZarudeFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_ExplainZarude)
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+	goto(SootopolisCity_House5_EventScript_ExplainZarude)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceiveZarudePC {
+	call(SootopolisCity_House5_EventScript_ReceivedZarudeFanfare)
+	msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+	goto_if_eq(VAR_RESULT, NO, SootopolisCity_House5_EventScript_SendZarudeToPC)
+	call(Common_EventScript_NameReceivedBoxMon)
+	goto(SootopolisCity_House5_EventScript_SendZarudeToPC)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_SendZarudeToPC {
+	call(Common_EventScript_TransferredToPC)
+	goto(SootopolisCity_House5_EventScript_ExplainZarude)
+	end
+}
+	
+script SootopolisCity_House5_EventScript_ReceivedZarudeFanfare {
+	playfanfare(MUS_OBTAIN_ITEM)
+	message(SootopolisCity_House5_Text_PlayerReceivedZarude)
+	waitmessage
+	waitfanfare
+	bufferspeciesname(STR_VAR_1, SPECIES_ZARUDE)
+	return
+}
+
+script SootopolisCity_House5_EventScript_ExplainZarude {
+	msgbox(OblivionWing_ExplainZarude, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text OblivionWing_Greeting{
+	"你好，我是OblivionWing，\n"
+	"我是这游戏发售后\l"
+	"第一个通关的人。\p"
+	"我在简单模式下飞速通关，\n"
+	"在它发售后仅仅一天\l"
+	"就打完了！\p"
+	"你若能打赢我，我就送你\n"
+	"幻之宝可梦，和别人一样。\p"
+	"你觉得这样行吗？"
+}
+
+text OblivionWing_ReadyYet{
+	"准备好对战了吗？"
+}
+
+text OblivionWing_YoureOn{
+	"祝你好运，你会需要的！"
+}
+
+text OblivionWing_ComeBackWhenReady{
+	"改主意的话，知道来这儿找我。"
+}
+
+text OblivionWing_Outro{
+	"不错！你要是再快一点，\n"
+	"说不定就是第一个\l"
+	"通关这游戏的人了！"
+}
+
+text SootopolisCity_House5_Text_PlayerReceivedZarude{
+	"{PLAYER}得到了萨戮德！"
+}
+
+text OblivionWing_ExplainZarude{
+	"给你，你的幻之宝可梦。\n"
+	"我觉得这只也挺好的，\l"
+	"我自己都这么觉得。"
+}
+
+text PostBattle_OblivionWing{
+	"祝你接下来游戏顺利！"
+}

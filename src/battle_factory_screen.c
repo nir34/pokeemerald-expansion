@@ -2,6 +2,7 @@
 #include "battle.h"
 #include "battle_factory_screen.h"
 #include "battle_factory.h"
+#include "bw_summary_screen.h"
 #include "sprite.h"
 #include "event_data.h"
 #include "overworld.h"
@@ -1487,7 +1488,11 @@ static void Select_Task_OpenSummaryScreen(u8 taskId)
         sFactorySelectMons = AllocZeroed(sizeof(struct Pokemon) * SELECTABLE_MONS_COUNT);
         for (i = 0; i < SELECTABLE_MONS_COUNT; i++)
             sFactorySelectMons[i] = sFactorySelectScreen->mons[i].monData;
-        ShowPokemonSummaryScreen(SUMMARY_MODE_LOCK_MOVES, sFactorySelectMons, currMonId, SELECTABLE_MONS_COUNT - 1, CB2_InitSelectScreen);
+
+        if (BW_SUMMARY_SCREEN)
+            ShowPokemonSummaryScreen_BW(SUMMARY_MODE_LOCK_MOVES, sFactorySelectMons, currMonId, SELECTABLE_MONS_COUNT - 1, CB2_InitSelectScreen);
+        else
+            ShowPokemonSummaryScreen(SUMMARY_MODE_LOCK_MOVES, sFactorySelectMons, currMonId, SELECTABLE_MONS_COUNT - 1, CB2_InitSelectScreen);
         break;
     }
 }
@@ -2381,7 +2386,10 @@ static void Swap_Task_OpenSummaryScreen(u8 taskId)
         DestroyTask(taskId);
         sFactorySwapScreen->fromSummaryScreen = TRUE;
         sFactorySwapScreen->speciesNameColorBackup = gPlttBufferUnfaded[BG_PLTT_ID(PALNUM_TEXT) + 4];
-        ShowPokemonSummaryScreen(SUMMARY_MODE_NORMAL, gPlayerParty, sFactorySwapScreen->cursorPos, FRONTIER_PARTY_SIZE - 1, CB2_InitSwapScreen);
+        if (BW_SUMMARY_SCREEN)
+            ShowPokemonSummaryScreen_BW(SUMMARY_MODE_NORMAL, gPlayerParty, sFactorySwapScreen->cursorPos, FRONTIER_PARTY_SIZE - 1, CB2_InitSwapScreen);
+        else
+            ShowPokemonSummaryScreen(SUMMARY_MODE_NORMAL, gPlayerParty, sFactorySwapScreen->cursorPos, FRONTIER_PARTY_SIZE - 1, CB2_InitSwapScreen);
         break;
     }
 }
@@ -2875,7 +2883,7 @@ static void Swap_Task_SlideButtonOnOffScreen(u8 taskId)
         currPosX = gSprites[sFactorySwapScreen->pkmnForSwapButtonSpriteIds[0][0]].x;
         if (!gTasks[taskId].tSlidingOn)
         {
-            // Sliding "Pkmn for Swap" offscreen
+            // Sliding "交换用宝可梦" offscreen
             if (currPosX + deltaX < DISPLAY_WIDTH)
             {
                 sliding = TRUE;
@@ -2888,7 +2896,7 @@ static void Swap_Task_SlideButtonOnOffScreen(u8 taskId)
         }
         else
         {
-            // Sliding "Pkmn for Swap" onscreen
+            // Sliding "交换用宝可梦" onscreen
             if (currPosX + deltaX > 160)
             {
                 sliding = TRUE;
@@ -2927,7 +2935,7 @@ static void Swap_Task_SlideButtonOnOffScreen(u8 taskId)
         currPosX = gSprites[sFactorySwapScreen->cancelButtonSpriteIds[0][0]].x;
         if (!gTasks[taskId].tSlidingOn)
         {
-            // Sliding "Cancel" offscreen
+            // Sliding "取消" offscreen
             if (currPosX + deltaX < DISPLAY_WIDTH)
             {
                 sliding = TRUE;
@@ -2940,7 +2948,7 @@ static void Swap_Task_SlideButtonOnOffScreen(u8 taskId)
         }
         else
         {
-            // Sliding "Cancel" onscreen
+            // Sliding "取消" onscreen
             if (currPosX + deltaX > 192)
             {
                 sliding = TRUE;
@@ -3006,7 +3014,7 @@ static void Swap_Task_ScreenInfoTransitionOut(u8 taskId)
             CopyWindowToVram(SWAP_WIN_ACTION_FADE, COPYWIN_GFX);
             if (sFactorySwapScreen->inEnemyScreen == TRUE)
             {
-                // Start "Pkmn for Swap" button slide offscreen
+                // Start "交换用宝可梦" button slide offscreen
                 slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
                 gTasks[taskId].tSlideFinishedPkmn = FALSE;
                 gTasks[slideTaskId].tTaskId = taskId;
@@ -3018,7 +3026,7 @@ static void Swap_Task_ScreenInfoTransitionOut(u8 taskId)
             }
             else
             {
-                // Start "Cancel" button slide offscreen
+                // Start "取消" button slide offscreen
                 slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
                 gTasks[taskId].tSlideFinishedPkmn = TRUE;
                 gTasks[taskId].tSlideFinishedCancel = FALSE;
@@ -3031,7 +3039,7 @@ static void Swap_Task_ScreenInfoTransitionOut(u8 taskId)
         }
         break;
     case 4:
-        // Start "Cancel" button slide offscreen for screens with both buttons
+        // Start "取消" button slide offscreen for screens with both buttons
         if (gTasks[taskId].tSecondSlideDelay == 0)
         {
             slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
@@ -3073,7 +3081,7 @@ static void Swap_Task_ScreenInfoTransitionIn(u8 taskId)
     case 0:
         if (sFactorySwapScreen->inEnemyScreen == TRUE)
         {
-            // Start "Pkmn for Swap" button slide onscreen
+            // Start "交换用宝可梦" button slide onscreen
             slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
             gTasks[taskId].tSlideFinishedPkmn = FALSE;
             gTasks[slideTaskId].tTaskId = taskId;
@@ -3085,7 +3093,7 @@ static void Swap_Task_ScreenInfoTransitionIn(u8 taskId)
         }
         else
         {
-            // Start "Cancel" button slide onscreen
+            // Start "取消" button slide onscreen
             slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
             gTasks[taskId].tSlideFinishedPkmn = TRUE;
             gTasks[taskId].tSlideFinishedCancel = FALSE;
@@ -3097,7 +3105,7 @@ static void Swap_Task_ScreenInfoTransitionIn(u8 taskId)
         }
         break;
     case 1:
-        // Start "Cancel" button slide onscreen for screens with both buttons
+        // Start "取消" button slide onscreen for screens with both buttons
         if (gTasks[taskId].tSecondSlideDelay == 0)
         {
             slideTaskId = CreateTask(Swap_Task_SlideButtonOnOffScreen, 0);
@@ -3208,7 +3216,7 @@ static void Swap_Task_SwitchPartyScreen(u8 taskId)
             {
                 Swap_InitActions(SWAP_PLAYER_SCREEN);
 
-                // Hide "Pkmn for Swap" button
+                // Hide "交换用宝可梦" button
                 for (i = 0; i < ARRAY_COUNT(sFactorySwapScreen->pkmnForSwapButtonSpriteIds[0]); i++)
                     gSprites[sFactorySwapScreen->pkmnForSwapButtonSpriteIds[1][i]].invisible = TRUE;
             }
@@ -3647,7 +3655,7 @@ static void Swap_HighlightActionButton(u8 actionId)
     {
         if (actionId == SWAPACTION_PKMN_FOR_SWAP)
         {
-            // Show button highlight on "Pkmn for Swap"
+            // Show button highlight on "交换用宝可梦"
             gSprites[sFactorySwapScreen->pkmnForSwapButtonSpriteIds[1][i]].invisible = FALSE;
 
             // Hide button highlight on Cancel
@@ -3660,7 +3668,7 @@ static void Swap_HighlightActionButton(u8 actionId)
             if (i < ARRAY_COUNT(sFactorySwapScreen->cancelButtonSpriteIds[0]))
                 gSprites[sFactorySwapScreen->cancelButtonSpriteIds[1][i]].invisible = FALSE;
 
-            // Hide button highlight on "Pkmn for Swap"
+            // Hide button highlight on "交换用宝可梦"
             gSprites[sFactorySwapScreen->pkmnForSwapButtonSpriteIds[1][i]].invisible = TRUE;
         }
     }
@@ -3672,7 +3680,7 @@ static void Swap_HideActionButtonHighlights(void)
 
     for (i = 0; i < ARRAY_COUNT(sFactorySwapScreen->pkmnForSwapButtonSpriteIds[0]); i++)
     {
-        // Hide button highlight on "Pkmn for Swap"
+        // Hide button highlight on "交换用宝可梦"
         gSprites[sFactorySwapScreen->pkmnForSwapButtonSpriteIds[1][i]].invisible = TRUE;
 
         // Hide button highlight on Cancel

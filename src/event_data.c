@@ -1,5 +1,6 @@
 #include "global.h"
 #include "event_data.h"
+#include "caps.h"
 #include "pokedex.h"
 
 #define SPECIAL_FLAGS_SIZE  (NUM_SPECIAL_FLAGS / 8)  // 8 flags per byte
@@ -246,4 +247,36 @@ bool8 FlagGet(u16 id)
         return FALSE;
 
     return TRUE;
+}
+
+u32 GetLevelCapForText(void)
+{
+    return GetCurrentLevelCap();
+}
+
+u32 GetWhiteOutCountForText(void)
+{
+    return gSaveBlock1Ptr->whiteOuts;
+}
+
+u32 GetNumBadges(void)
+{
+    if(FlagGet(FLAG_BADGE08_GET))
+        return 8;
+    if(FlagGet(FLAG_BADGE07_GET))
+        return 7;
+    if(FlagGet(FLAG_BADGE06_GET))
+        return 6;
+    if(FlagGet(FLAG_BADGE05_GET))
+        return 5;
+    if(FlagGet(FLAG_BADGE04_GET))
+        return 4;
+    if(FlagGet(FLAG_BADGE03_GET))
+        return 3;
+    if(FlagGet(FLAG_BADGE02_GET))
+        return 2;
+    if(FlagGet(FLAG_BADGE01_GET))
+        return 1;
+    
+    return 0;
 }

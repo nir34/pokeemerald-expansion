@@ -1,0 +1,577 @@
+raw `
+.set LOCALID_FOSSIL_SCIENTIST, 5
+
+RustboroCity_DevonCorp_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_DevonCorp_2F_OnTransition
+	.byte 0
+
+RustboroCity_DevonCorp_2F_OnTransition:
+	call_if_eq VAR_FOSSIL_RESURRECTION_STATE, 1, RustboroCity_DevonCorp_2F_EventScript_SetFossilReady
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_SetFossilReady::
+	setvar VAR_FOSSIL_RESURRECTION_STATE, 2
+	return
+
+RustboroCity_DevonCorp_2F_EventScript_TalkToPokemonScientist::
+	lock
+	faceplayer
+	call_if_eq VAR_FOSSIL_RESURRECTION_STATE, 1, RustboroCity_DevonCorp_2F_EventScript_SetFossilReady
+	msgbox RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_PokemonDreamsScientist::
+	lock
+	faceplayer
+	call_if_eq VAR_FOSSIL_RESURRECTION_STATE, 1, RustboroCity_DevonCorp_2F_EventScript_SetFossilReady
+	msgbox RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_FossilScientist::
+	lock
+	faceplayer
+	goto_if_eq VAR_FOSSIL_RESURRECTION_STATE, 2, RustboroCity_DevonCorp_2F_EventScript_FossilMonReady
+	goto_if_eq VAR_FOSSIL_RESURRECTION_STATE, 1, RustboroCity_DevonCorp_2F_EventScript_StillRegenerating
+	msgbox RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils, MSGBOX_DEFAULT
+	checkitem ITEM_ROOT_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_NoticeRootFossil
+	checkitem ITEM_CLAW_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_NoticeClawFossil
+	release
+	end
+
+@ This whole section has needless duplication and could be condensed considerably
+RustboroCity_DevonCorp_2F_EventScript_NoticeRootFossil::
+	closemessage
+	playse SE_PIN
+	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_Delay48
+	waitmovement 0
+	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
+	checkitem ITEM_CLAW_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveRootFossil
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_GiveRootFossil::
+	bufferitemname STR_VAR_1, ITEM_ROOT_FOSSIL
+	msgbox RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher, MSGBOX_DEFAULT
+	removeitem ITEM_ROOT_FOSSIL
+	setvar VAR_FOSSIL_RESURRECTION_STATE, 1
+	setvar VAR_WHICH_FOSSIL_REVIVED, 1
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_NoticeClawFossil::
+	closemessage
+	playse SE_PIN
+	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_Delay48
+	waitmovement 0
+	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
+	checkitem ITEM_ROOT_FOSSIL
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveClawFossil
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_GiveClawFossil::
+	bufferitemname STR_VAR_1, ITEM_CLAW_FOSSIL
+	msgbox RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher, MSGBOX_DEFAULT
+	removeitem ITEM_CLAW_FOSSIL
+	setvar VAR_FOSSIL_RESURRECTION_STATE, 1
+	setvar VAR_WHICH_FOSSIL_REVIVED, 2
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil::
+	msgbox RustboroCity_DevonCorp_2F_Text_OhIsThatSo, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_StillRegenerating::
+	msgbox RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_FossilMonReady::
+	goto_if_eq VAR_WHICH_FOSSIL_REVIVED, 1, RustboroCity_DevonCorp_2F_EventScript_LileepReady
+	goto_if_eq VAR_WHICH_FOSSIL_REVIVED, 2, RustboroCity_DevonCorp_2F_EventScript_AnorithReady
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_LileepReady::
+	bufferspeciesname STR_VAR_2, SPECIES_LILEEP
+	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
+	goto RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_AnorithReady::
+	bufferspeciesname STR_VAR_2, SPECIES_ANORITH
+	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
+	goto RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_LILEEP
+	givemonrandom SPECIES_LILEEP, 20
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepParty::
+	call RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveLileepPC::
+	call RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_TransferLileepToPC::
+	call Common_EventScript_TransferredToPC
+	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceivedLileepFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_LILEEP
+	playfanfare MUS_OBTAIN_ITEM
+	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_LILEEP
+	return
+
+RustboroCity_DevonCorp_2F_EventScript_FinishReceivingLileep::
+	setvar VAR_FOSSIL_RESURRECTION_STATE, 0
+	setflag FLAG_RECEIVED_REVIVED_FOSSIL_MON
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ANORITH
+	givemonrandom SPECIES_ANORITH, 20
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithParty::
+	call RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorithPC::
+	call RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_TransferAnorithToPC::
+	call Common_EventScript_TransferredToPC
+	goto RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ReceivedAnorithFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_ANORITH
+	playfanfare MUS_OBTAIN_ITEM
+	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_ANORITH
+	return
+
+RustboroCity_DevonCorp_2F_EventScript_FinishReceivingAnorith::
+	setvar VAR_FOSSIL_RESURRECTION_STATE, 0
+	setflag FLAG_RECEIVED_REVIVED_FOSSIL_MON
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ChooseFossil::
+	message RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne
+	waitmessage
+	multichoice 17, 6, MULTI_FOSSIL, FALSE
+	switch VAR_RESULT
+	case 0, RustboroCity_DevonCorp_2F_EventScript_ChooseClawFossil
+	case 1, RustboroCity_DevonCorp_2F_EventScript_ChooseRootFossil
+	case 2, RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect
+	case MULTI_B_PRESSED, RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ChooseClawFossil::
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveClawFossil
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_ChooseRootFossil::
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveRootFossil
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect::
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_MatchCallScientist::
+	lock
+	faceplayer
+	call_if_eq VAR_FOSSIL_RESURRECTION_STATE, 1, RustboroCity_DevonCorp_2F_EventScript_SetFossilReady
+	goto_if_ge VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_DevonCorp_2F_EventScript_WorkOnNext
+	msgbox RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
+	msgbox RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
+	.string "我们正在开发能和宝可梦\n"
+	.string "说话的装置。\p"
+	.string "不过还没什么进展……$"
+
+RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
+	.string "我想开发能把宝可梦的梦\n"
+	.string "变成画面的装置……\p"
+	.string "可是进行得不顺利。$"
+
+RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
+	.string "我一直在开发能从化石里\n"
+	.string "让宝可梦复活的装置……\p"
+	.string "而且，成功了！$"
+
+RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
+	.string "等等！你手上的那个……\n"
+	.string "是宝可梦的化石吗？\p"
+	.string "你想不想让那只宝可梦\n"
+	.string "复活过来？\p"
+	.string "用我新开发的\n"
+	.string "化石复原机就能做到。$"
+
+RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
+	.string "哦，是这样啊。\p"
+	.string "得文的技术实力\n"
+	.string "可是很了不起的。$"
+
+RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
+	.string "哦，这倒让我吃了一惊！\n"
+	.string "你不止一块，有两块化石？\p"
+	.string "可惜我的机器一次只能\n"
+	.string "复原一只宝可梦。\p"
+	.string "你想从两块化石里\n"
+	.string "挑一块来复原吗？$"
+
+RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
+	.string "太好了！\n"
+	.string "我们马上开始吧。\p"
+	.string "{PLAYER}把{STR_VAR_1}交给了\n"
+	.string "得文的研究员。$"
+
+RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
+	.string "我做的化石复原机\n"
+	.string "非常厉害。\p"
+	.string "不过有个缺点——\n"
+	.string "它要花很长时间。\p"
+	.string "所以……你要不要\n"
+	.string "出去转转，等一会儿？$"
+
+RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
+	.string "让你久等了！\p"
+	.string "你的化石宝可梦\n"
+	.string "已经复活过来了！\p"
+	.string "这块化石是古代宝可梦。\n"
+	.string "是{STR_VAR_2}！$"
+
+RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
+	.string "{PLAYER}从得文研究员那里\n"
+	.string "得到了{STR_VAR_2}。$"
+
+@ Unused
+RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
+	.string "糟糕，你的宝可梦太多了。\n"
+	.string "没地方放这一只。$"
+
+RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
+	.string "我正在给宝可梦导航\n"
+	.string "开发新功能……\p"
+	.string "可是进行得不顺利。$"
+
+RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
+	.string "那么，接下来开发\n"
+	.string "什么好呢？\p"
+	.string "公司允许我们把灵感\n"
+	.string "变成现实。\p"
+	.string "作为工程师，\n"
+	.string "没有比这更好的环境了。$"
+
+`
+
+
+script RustboroCity_DevonCorp_2F_EventScript_DNASplicers{
+	lock
+	faceplayer
+
+	if(!flag(FLAG_BADGE08_GET)){
+		msgbox(RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT)
+		release
+		end
+	}
+
+	if(flag(FLAG_RECEIVED_DNA_SPLICERS)){
+		msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers, MSGBOX_DEFAULT)
+		release
+		end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_DnaSplicersReady, MSGBOX_DEFAULT)
+	special(ChoosePartyMon)
+	waitstate
+	copyvar(VAR_RESULT, VAR_0x8004)
+	goto_if_eq(VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelKyurem)
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+	switch (var(VAR_RESULT)) {
+        case SPECIES_KYUREM:
+		case SPECIES_KYUREM_WHITE:
+		case SPECIES_KYUREM_BLACK:
+				msgbox(RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseSplicers, MSGBOX_DEFAULT)
+				giveitem(ITEM_DNA_SPLICERS)
+				setflag(FLAG_RECEIVED_DNA_SPLICERS)
+			
+        default:
+            msgbox(RustboroCity_DevonCorp_2F_Text_NotKyurem, MSGBOX_DEFAULT)
+			release
+			end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_CancelKyurem{
+	msgbox(RustboroCity_DevonCorp_2F_Text_DontHaveKyurem, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text RustboroCity_DevonCorp_2F_Text_DnaSplicersReady{
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有酋雷姆、\l"
+	"愿意试试这些基因之楔\l"
+	"的训练家。\p"
+	"你有酋雷姆吗？"
+}
+
+text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseSplicers{
+	"太棒了！来，这些基因之楔给你。"
+}
+
+text RustboroCity_DevonCorp_2F_DoingFusionResearch{
+	"我和同事们正在研究如何\n"
+	"把各种宝可梦融合起来。\p"
+	"我觉得研究进展得\n"
+	"不错，不过还需要一点时间，\l"
+	"才能把技术交给\l"
+	"真正的训练家。"
+}
+
+text RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers{
+	"用那些基因之楔，可以把酋雷姆\n"
+	"和捷克罗姆或莱希拉姆融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
+}
+
+text RustboroCity_DevonCorp_2F_Text_DontHaveKyurem{
+	"我明白了，你没有酋雷姆。"
+}
+text RustboroCity_DevonCorp_2F_Text_NotKyurem{
+	"那不是酋雷姆。"
+}
+
+
+
+
+script RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity{
+	lock
+	faceplayer
+
+	if(!flag(FLAG_BADGE08_GET)){
+		msgbox(RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT)
+		release
+		end
+	}
+
+	if(flag(FLAG_RECEIVED_REINS_OF_UNITY)){
+		msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity, MSGBOX_DEFAULT)
+		release
+		end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_ReinsReady, MSGBOX_DEFAULT)
+	special(ChoosePartyMon)
+	waitstate
+	copyvar(VAR_RESULT, VAR_0x8004)
+	goto_if_eq(VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelCalyrex)
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+	switch (var(VAR_RESULT)) {
+        case SPECIES_CALYREX:
+		case SPECIES_CALYREX_ICE:
+		case SPECIES_CALYREX_SHADOW:
+				msgbox(RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseReins, MSGBOX_DEFAULT)
+				giveitem(ITEM_REINS_OF_UNITY)
+				setflag(FLAG_RECEIVED_REINS_OF_UNITY)
+			
+        default:
+            msgbox(RustboroCity_DevonCorp_2F_Text_NotCalyrex, MSGBOX_DEFAULT)
+			release
+			end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_CancelCalyrex{
+	msgbox(RustboroCity_DevonCorp_2F_Text_DontHaveCalyrex, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text RustboroCity_DevonCorp_2F_Text_ReinsReady{
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有蕾冠王、\l"
+	"愿意试试这根牵绊缰绳\l"
+	"的训练家。\p"
+	"你有蕾冠王吗？"
+}
+
+text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseReins{
+	"太惊人了！来，这根牵绊\n"
+	"缰绳给你。"
+}
+
+text RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity{
+	"用那根牵绊缰绳，可以把蕾冠王\n"
+	"和雪暴马或灵幽马\l"
+	"融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
+}
+
+text RustboroCity_DevonCorp_2F_Text_DontHaveCalyrex{
+	"我明白了，你没有蕾冠王。"
+}
+text RustboroCity_DevonCorp_2F_Text_NotCalyrex{
+	"那不是蕾冠王。"
+}
+
+
+script RustboroCity_DevonCorp_2F_EventScript_NFusions{
+	lock
+	faceplayer
+
+	if(!flag(FLAG_BADGE08_GET)){
+		msgbox(RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT)
+		release
+		end
+	}
+
+	if(flag(FLAG_RECEIVED_NECROZMA_FUSION)){
+		msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions, MSGBOX_DEFAULT)
+		release
+		end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_NFusionsReady, MSGBOX_DEFAULT)
+	special(ChoosePartyMon)
+	waitstate
+	copyvar(VAR_RESULT, VAR_0x8004)
+	goto_if_eq(VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelNecrozma)
+	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+	switch (var(VAR_RESULT)) {
+        case SPECIES_NECROZMA:
+		case SPECIES_NECROZMA_DUSK_MANE:
+		case SPECIES_NECROZMA_DAWN_WINGS:
+		case SPECIES_NECROZMA_ULTRA:
+				msgbox(RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseNFusions, MSGBOX_DEFAULT)
+				giveitem(ITEM_N_SOLARIZER)
+				giveitem(ITEM_N_LUNARIZER)
+				setflag(FLAG_RECEIVED_NECROZMA_FUSION)
+			
+        default:
+            msgbox(RustboroCity_DevonCorp_2F_Text_NotNecrozma, MSGBOX_DEFAULT)
+			release
+			end
+	}
+	
+	msgbox(RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+script RustboroCity_DevonCorp_2F_EventScript_CancelNecrozma{
+	msgbox(RustboroCity_DevonCorp_2F_Text_DontHaveNecrozma, MSGBOX_DEFAULT)
+	release
+	end
+}
+
+text RustboroCity_DevonCorp_2F_Text_NFusionsReady{
+	"我们的研究终于完成了！\n"
+	"我在找一位拥有奈克洛兹玛、\l"
+	"愿意试试合体器与\l"
+	"合体器的训练家。\p"
+	"你有奈克洛兹玛吗？"
+}
+
+text RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseNFusions{
+	"太好了！来，这两件奈克洛索尔\n"
+	"合体器和奈克洛露奈合体器，给你。"
+}
+
+text RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions{
+	"用奈克洛索尔合体器可以把\n"
+	"奈克洛兹玛和索尔迦雷欧融合，\l"
+	"用奈克洛露奈合体器则可以把\l"
+	"奈克洛兹玛和露奈雅拉融合。\l"
+	"想拆开也可以！\p"
+	"记得回来告诉我们\n"
+	"这套融合技术的\l"
+	"使用效果！\p"
+	"我们很想收集更多来自\n"
+	"实际使用的数据！"
+}
+
+text RustboroCity_DevonCorp_2F_Text_DontHaveNecrozma{
+	"我明白了，你没有奈克洛兹玛。"
+}
+text RustboroCity_DevonCorp_2F_Text_NotNecrozma{
+	"那不是奈克洛兹玛。"
+}
