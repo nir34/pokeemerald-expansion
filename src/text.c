@@ -1,4 +1,5 @@
 #include "global.h"
+#include "data/text/cjk_font_12x12.h"
 #include "battle.h"
 #include "main.h"
 #include "m4a.h"
@@ -12,6 +13,36 @@
 #include "menu.h"
 #include "dynamic_placeholder_text_util.h"
 #include "fonts.h"
+
+static void DecompressGlyph_Cjk12(u8 hi, u8 lo)
+{
+    u32 idx = (u32)(hi - 0x21) * 247 + lo;
+    const u8 *glyph;
+    u32 y, x;
+    if (idx >= CJK_FONT_COUNT)
+        idx = 0;
+    glyph = gFontCjk12_Glyphs[idx];
+    memset(gCurGlyph.gfxBufferTop, 0x11, sizeof(gCurGlyph.gfxBufferTop));
+    memset(gCurGlyph.gfxBufferBottom, 0x11, sizeof(gCurGlyph.gfxBufferBottom));
+    for (y = 0; y < 12; y++)
+    {
+        u16 row = ((u16)glyph[y * 2] << 4) | (glyph[y * 2 + 1] >> 4);
+        u8 *dst = (y < 8) ? ((u8 *)gCurGlyph.gfxBufferTop + y * 4) : ((u8 *)gCurGlyph.gfxBufferBottom + (y - 8) * 4);
+        for (x = 0; x < 12; x++)
+        {
+            if (row & (1 << (11 - x)))
+            {
+                u8 *tile = (x < 8) ? dst : (dst + 32);
+                u32 tx = x & 7;
+                u32 byteIdx = tx >> 1;
+                u32 shift = (tx & 1) * 4;
+                tile[byteIdx] = (tile[byteIdx] & ~(0xF << shift)) | (0x2 << shift);
+            }
+        }
+    }
+    gCurGlyph.width = 12;
+    gCurGlyph.height = 12;
+}
 
 static u16 RenderText(struct TextPrinter *);
 static u32 RenderFont(struct TextPrinter *);
@@ -1132,6 +1163,14 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_BEGIN:
                 currChar = *textPrinter->printerTemplate.currentChar;
                 textPrinter->printerTemplate.currentChar++;
+                if (currChar >= 0x21)
+                {
+                    u8 lo = *textPrinter->printerTemplate.currentChar++;
+                    DecompressGlyph_Cjk12(currChar, lo);
+                    CopyGlyphToWindow(textPrinter);
+                    textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
+                    return RENDER_PRINT;
+                }
                 switch (currChar)
                 {
                 case EXT_CTRL_CODE_COLOR:
