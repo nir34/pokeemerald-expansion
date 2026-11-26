@@ -1511,7 +1511,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
 # 756 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 	.string "Here, we will have you battle\n"
 # 757 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
-	.string "a somewhat-tough TRAINER…$"
+	.string "a somewhat-tough 训练家…$"
 # 758 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"
 
 # 759 "data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.pory"

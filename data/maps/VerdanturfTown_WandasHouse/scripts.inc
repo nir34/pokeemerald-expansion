@@ -181,7 +181,7 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 # 91 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "to challenge Pokémon GYMS and become\l"
 # 92 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
-	.string "a great TRAINER.\p"
+	.string "a great 训练家.\p"
 # 93 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "Please watch me, {PLAYER}.\n"
 # 94 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"

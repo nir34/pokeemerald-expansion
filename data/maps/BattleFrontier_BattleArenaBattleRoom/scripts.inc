@@ -993,7 +993,7 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 # 497 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
 # 498 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
-	.string "REFEREE: TRAINER {PLAYER}!\n"
+	.string "REFEREE: 训练家 {PLAYER}!\n"
 # 499 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Step forward, please!$"
 # 500 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -1001,7 +1001,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
 # 501 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
 # 502 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
-	.string "REFEREE: TRAINER {STR_VAR_1}!\n"
+	.string "REFEREE: 训练家 {STR_VAR_1}!\n"
 # 503 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Step forward, please!$"
 # 504 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"

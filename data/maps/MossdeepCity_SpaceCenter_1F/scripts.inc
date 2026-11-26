@@ -569,7 +569,7 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 # 285 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 # 286 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	.string "The HOENN region has been famous for \n"
+	.string "The 丰缘 region has been famous for \n"
 # 287 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "its meteor showers for a long time.$"
 # 288 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"

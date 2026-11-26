@@ -75,7 +75,7 @@ PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 # 38 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It appears to be very friendly with the\n"
 # 39 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "TRAINER.$"
+	.string "训练家.$"
 # 40 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 41 "data/maps/PacifidlogTown_House2/scripts.pory"
@@ -87,7 +87,7 @@ PacifidlogTown_House2_Text_Rururi:
 # 44 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 # 45 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "It doesn't appear to like the TRAINER\n"
+	.string "It doesn't appear to like the 训练家\n"
 # 46 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "very much.$"
 # 47 "data/maps/PacifidlogTown_House2/scripts.pory"

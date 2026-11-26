@@ -565,7 +565,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner:
 # 283 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Please find a partner from out of\n"
 # 284 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
-	.string "the TRAINERS gathered here.$"
+	.string "the 训练家S gathered here.$"
 # 285 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 286 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
@@ -585,7 +585,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2:
 # 293 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Then, please find a partner from\n"
 # 294 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
-	.string "the TRAINERS gathered here.$"
+	.string "the 训练家S gathered here.$"
 # 295 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 296 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
@@ -3001,7 +3001,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
 # 1501 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
 # 1502 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
-	.string "I'm COOLTRAINER {STR_VAR_1}!$"
+	.string "I'm COOL训练家 {STR_VAR_1}!$"
 # 1503 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 1504 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
@@ -3043,7 +3043,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
 # 1522 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
 # 1523 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
-	.string "I'm COOLTRAINER {STR_VAR_1}!$"
+	.string "I'm COOL训练家 {STR_VAR_1}!$"
 # 1524 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 1525 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"

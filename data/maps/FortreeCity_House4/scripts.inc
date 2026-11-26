@@ -175,7 +175,7 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 # 88 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "It must have picked it up somewhere.\p"
 # 89 "data/maps/FortreeCity_House4/scripts.pory"
-	.string "But I'm not a TRAINER, so you can\n"
+	.string "But I'm not a 训练家, so you can\n"
 # 90 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "have it.$"
 # 91 "data/maps/FortreeCity_House4/scripts.pory"

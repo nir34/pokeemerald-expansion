@@ -39,7 +39,7 @@ SlateportCity_House_Text_NatureToDoWithStatGains:
 # 20 "data/maps/SlateportCity_House/scripts.pory"
 SlateportCity_House_Text_MustBeGoingToBattleTent:
 # 21 "data/maps/SlateportCity_House/scripts.pory"
-	.string "You're a TRAINER, aren't you?\p"
+	.string "You're a 训练家, aren't you?\p"
 # 22 "data/maps/SlateportCity_House/scripts.pory"
 	.string "Since you came to SLATEPORT CITY,\n"
 # 23 "data/maps/SlateportCity_House/scripts.pory"

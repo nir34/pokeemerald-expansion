@@ -135,7 +135,7 @@ MtPyre_3F_Text_GabrielleDefeat:
 # 68 "data/maps/MtPyre_3F/scripts.pory"
 	.string "That was amazing!\n"
 # 69 "data/maps/MtPyre_3F/scripts.pory"
-	.string "You're a very special TRAINER.$"
+	.string "You're a very special 训练家.$"
 # 70 "data/maps/MtPyre_3F/scripts.pory"
 
 # 71 "data/maps/MtPyre_3F/scripts.pory"

@@ -329,7 +329,7 @@ LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 # 165 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "    LOTTERY CORNER\p"
 # 166 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
-	.string "2F: TRAINER'S ZONE\p"
+	.string "2F: 训练家'S ZONE\p"
 # 167 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "3F: BATTLE COLLECTION\p"
 # 168 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"

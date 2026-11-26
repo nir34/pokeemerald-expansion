@@ -211,9 +211,9 @@ BattleFrontier_RankingHall_Text_ExplainRankingHall:
 # 106 "data/maps/BattleFrontier_RankingHall/scripts.pory"
 	.string "This is where we recognize the immortal\n"
 # 107 "data/maps/BattleFrontier_RankingHall/scripts.pory"
-	.string "TRAINERS who left great records in\l"
+	.string "训练家S who left great records in\l"
 # 108 "data/maps/BattleFrontier_RankingHall/scripts.pory"
-	.string "BATTLE FRONTIER events.$"
+	.string "对战开拓区 events.$"
 # 109 "data/maps/BattleFrontier_RankingHall/scripts.pory"
 
 # 110 "data/maps/BattleFrontier_RankingHall/scripts.pory"

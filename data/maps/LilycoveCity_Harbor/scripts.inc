@@ -1115,7 +1115,7 @@ LilycoveCity_Harbor_Text_SlateportItIs:
 # 558 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
 # 559 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "BATTLE FRONTIER it is, then!$"
+	.string "对战开拓区 it is, then!$"
 # 560 "data/maps/LilycoveCity_Harbor/scripts.pory"
 
 # 561 "data/maps/LilycoveCity_Harbor/scripts.pory"

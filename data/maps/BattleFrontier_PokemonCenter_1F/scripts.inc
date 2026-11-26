@@ -91,7 +91,7 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 # 46 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "I never learned about it at\n"
 # 47 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
-	.string "TRAINER'S SCHOOL at least.\p"
+	.string "训练家'S SCHOOL at least.\p"
 # 48 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "I wonder where you can catch Pokémon\n"
 # 49 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"

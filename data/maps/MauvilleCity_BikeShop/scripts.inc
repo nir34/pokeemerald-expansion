@@ -589,7 +589,7 @@ MauvilleCity_BikeShop_Text_SandySlopes:
 # 295 "data/maps/MauvilleCity_BikeShop/scripts.pory"
 	.string "There are small sandy slopes\n"
 # 296 "data/maps/MauvilleCity_BikeShop/scripts.pory"
-	.string "throughout the HOENN region.\p"
+	.string "throughout the 丰缘 region.\p"
 # 297 "data/maps/MauvilleCity_BikeShop/scripts.pory"
 	.string "The loose, crumbly sand makes it\n"
 # 298 "data/maps/MauvilleCity_BikeShop/scripts.pory"

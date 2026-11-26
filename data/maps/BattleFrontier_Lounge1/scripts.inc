@@ -319,7 +319,7 @@ BattleFrontier_Lounge1_Text_PokemonBreederIntro:
 # 160 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "at a glance.\p"
 # 161 "data/maps/BattleFrontier_Lounge1/scripts.pory"
-	.string "You're a TRAINER. Doesn't it interest\n"
+	.string "You're a 训练家. Doesn't it interest\n"
 # 162 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "you to know your own Pokémon's\l"
 # 163 "data/maps/BattleFrontier_Lounge1/scripts.pory"

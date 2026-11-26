@@ -131,7 +131,7 @@ Route114_LanettesHouse_Text_ResearchNotesPage1:
 # 66 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "Design BOXES to hold 30 Pokémon each.\p"
 # 67 "data/maps/Route114_LanettesHouse/scripts.pory"
-	.string "Each TRAINER should be able to store\n"
+	.string "Each 训练家 should be able to store\n"
 # 68 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "420 Pokémon on the PC system.\p"
 # 69 "data/maps/Route114_LanettesHouse/scripts.pory"

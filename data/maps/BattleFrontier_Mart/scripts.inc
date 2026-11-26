@@ -107,7 +107,7 @@ BattleFrontier_Mart_Text_ProteinMakeNiceGift:
 # 54 "data/maps/BattleFrontier_Mart/scripts.pory"
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
 # 55 "data/maps/BattleFrontier_Mart/scripts.pory"
-	.string "A lot of the BATTLE FRONTIER's\n"
+	.string "A lot of the 对战开拓区's\n"
 # 56 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "facilities don't allow the use of items\l"
 # 57 "data/maps/BattleFrontier_Mart/scripts.pory"

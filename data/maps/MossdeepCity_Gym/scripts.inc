@@ -805,7 +805,7 @@ MossdeepCity_Gym_EventScript_Kangaskhan::
 # 403 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_Text_GymGuideAdvice:
 # 404 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "Yo, how's it going, CHAMPION-bound\n"
+	.string "Yo, how's it going, 冠军-bound\n"
 # 405 "data/maps/MossdeepCity_Gym/scripts.pory"
 	.string "{PLAYER}?\p"
 # 406 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -835,7 +835,7 @@ MossdeepCity_Gym_Text_GymGuidePostVictory:
 # 418 "data/maps/MossdeepCity_Gym/scripts.pory"
 	.string "Wow, you're astounding!\n"
 # 419 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "You're one great TRAINER!$"
+	.string "You're one great 训练家!$"
 # 420 "data/maps/MossdeepCity_Gym/scripts.pory"
 
 # 421 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -911,7 +911,7 @@ MossdeepCity_Gym_Text_BlakeDefeat:
 # 456 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_Text_BlakePostBattle:
 # 457 "data/maps/MossdeepCity_Gym/scripts.pory"
-	.string "A POKé BALL was too heavy to lift\n"
+	.string "A 精灵球 was too heavy to lift\n"
 # 458 "data/maps/MossdeepCity_Gym/scripts.pory"
 	.string "psychically. But this dust bunny…\p"
 # 459 "data/maps/MossdeepCity_Gym/scripts.pory"

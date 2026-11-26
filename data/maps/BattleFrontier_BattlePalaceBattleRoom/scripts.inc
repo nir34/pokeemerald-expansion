@@ -1023,7 +1023,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
 # 512 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Pokémon always!\p"
 # 513 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
-	.string "Young one of a TRAINER!\n"
+	.string "Young one of a 训练家!\n"
 # 514 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Do you believe in your Pokémon?\p"
 # 515 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"

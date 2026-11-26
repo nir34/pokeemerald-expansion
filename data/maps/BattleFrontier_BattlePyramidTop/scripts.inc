@@ -485,7 +485,7 @@ BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
 # 243 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "However, my young explorer…\n"
 # 244 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
-	.string "You are a TRAINER!\p"
+	.string "You are a 训练家!\p"
 # 245 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Assert your power and take the glory\n"
 # 246 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"

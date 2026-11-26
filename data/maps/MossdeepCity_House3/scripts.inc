@@ -57,7 +57,7 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 # 29 "data/maps/MossdeepCity_House3/scripts.pory"
 MossdeepCity_House3_Text_YouWantSuperRod:
 # 30 "data/maps/MossdeepCity_House3/scripts.pory"
-	.string "Hey there, TRAINER!\n"
+	.string "Hey there, 训练家!\n"
 # 31 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "A SUPER ROD really is super!\p"
 # 32 "data/maps/MossdeepCity_House3/scripts.pory"

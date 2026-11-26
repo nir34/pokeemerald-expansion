@@ -93,7 +93,7 @@ Route110_TrickHousePuzzle4_Text_CoraPostBattle:
 # 47 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "Wouldn't you agree? You would go\n"
 # 48 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	.string "anywhere if TRAINERS were there.$"
+	.string "anywhere if 训练家S were there.$"
 # 49 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 
 # 50 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"

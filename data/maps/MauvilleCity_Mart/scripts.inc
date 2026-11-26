@@ -105,6 +105,6 @@ MauvilleCity_Mart_Text_DecisionsDetermineBattle:
 # 53 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "instead…\p"
 # 54 "data/maps/MauvilleCity_Mart/scripts.pory"
-	.string "The TRAINER's decisions determine how\n"
+	.string "The 训练家's decisions determine how\n"
 # 55 "data/maps/MauvilleCity_Mart/scripts.pory"
 	.string "battles turn out, I think.$"

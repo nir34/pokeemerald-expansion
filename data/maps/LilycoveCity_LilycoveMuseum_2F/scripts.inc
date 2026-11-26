@@ -657,4 +657,4 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
 # 329 "data/maps/LilycoveCity_LilycoveMuseum_2F/scripts.pory"
 	.string "Isn't that just the ultimate joy for\n"
 # 330 "data/maps/LilycoveCity_LilycoveMuseum_2F/scripts.pory"
-	.string "a TRAINER?$"
+	.string "a 训练家?$"

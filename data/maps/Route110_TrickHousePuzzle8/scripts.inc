@@ -75,7 +75,7 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 # 38 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentIntro:
 # 39 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "Not many TRAINERS have made it\n"
+	.string "Not many 训练家S have made it\n"
 # 40 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "this far.$"
 # 41 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
@@ -91,7 +91,7 @@ Route110_TrickHousePuzzle8_Text_VincentPostBattle:
 # 46 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "You've beaten the Pokémon LEAGUE\n"
 # 47 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "CHAMPION? That's too much!$"
+	.string "冠军? That's too much!$"
 # 48 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 49 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"

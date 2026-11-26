@@ -189,7 +189,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 # 95 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
 # 96 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
-	.string "Pokémon of HOENN interesting?$"
+	.string "Pokémon of 丰缘 interesting?$"
 # 97 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 
 # 98 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
@@ -249,7 +249,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 # 125 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Consider me a purist--I prefer\n"
 # 126 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
-	.string "battles and tough TRAINERS.\p"
+	.string "battles and tough 训练家S.\p"
 # 127 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "But that's just me.\p"
 # 128 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
@@ -269,4 +269,4 @@ LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
 # 135 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Devising CONTEST strategies is one way\n"
 # 136 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
-	.string "of becoming a better TRAINER, I'd say.$"
+	.string "of becoming a better 训练家, I'd say.$"

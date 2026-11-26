@@ -657,7 +657,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 # 329 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 # 330 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "Where the intelligence of TRAINERS\n"
+	.string "Where the intelligence of 训练家S\n"
 # 331 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "is put to the test!\p"
 # 332 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -849,7 +849,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
 # 425 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 # 426 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "Where the intelligence of TRAINERS\n"
+	.string "Where the intelligence of 训练家S\n"
 # 427 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "is put to the test!\p"
 # 428 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1055,11 +1055,11 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
 # 528 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "You may swap Pokémon only with\n"
 # 529 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "the TRAINER you have just defeated.\p"
+	.string "the 训练家 you have just defeated.\p"
 # 530 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "You may swap for only those Pokémon\n"
 # 531 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "used by the beaten TRAINER.$"
+	.string "used by the beaten 训练家.$"
 # 532 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 533 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1073,7 +1073,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 # 537 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "You will not be able to swap Pokémon\n"
 # 538 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "with the seventh TRAINER in the event.$"
+	.string "with the seventh 训练家 in the event.$"
 # 539 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 540 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1105,6 +1105,6 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
 # 553 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "In the Open Level, the rental Pokémon\n"
 # 554 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
-	.string "and the opposing TRAINERS' Pokémon\l"
+	.string "and the opposing 训练家S' Pokémon\l"
 # 555 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "are all Level 100.$"

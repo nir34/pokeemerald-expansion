@@ -679,7 +679,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
 # 340 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "{PLAYER}'s next opponent\n"
 # 341 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "is this TRAINER.$"
+	.string "is this 训练家.$"
 # 342 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 343 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"

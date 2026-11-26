@@ -1007,7 +1007,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
 # 504 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
 # 505 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 506 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the NORMAL type.$"
 # 507 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1015,7 +1015,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
 # 508 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
 # 509 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 510 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FIRE type.$"
 # 511 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1023,7 +1023,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
 # 512 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
 # 513 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 514 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the WATER type.$"
 # 515 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1031,7 +1031,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
 # 516 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
 # 517 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 518 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ELECTRIC type.$"
 # 519 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1039,7 +1039,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
 # 520 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
 # 521 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 522 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GRASS type.$"
 # 523 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1047,7 +1047,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
 # 524 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
 # 525 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 526 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ICE type.$"
 # 527 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1055,7 +1055,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
 # 528 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
 # 529 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 530 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FIGHTING type.$"
 # 531 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1063,7 +1063,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
 # 532 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
 # 533 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 534 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the POISON type.$"
 # 535 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1071,7 +1071,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
 # 536 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
 # 537 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 538 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GROUND type.$"
 # 539 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1079,7 +1079,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
 # 540 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
 # 541 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 542 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FLYING type.$"
 # 543 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1087,7 +1087,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
 # 544 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
 # 545 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 546 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the PSYCHIC type.$"
 # 547 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1095,7 +1095,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
 # 548 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
 # 549 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 550 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the BUG type.$"
 # 551 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1103,7 +1103,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
 # 552 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
 # 553 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 554 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ROCK type.$"
 # 555 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1111,7 +1111,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
 # 556 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
 # 557 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 558 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GHOST type.$"
 # 559 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1119,7 +1119,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
 # 560 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
 # 561 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 562 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the DRAGON type.$"
 # 563 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1127,7 +1127,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
 # 564 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
 # 565 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 566 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the DARK type.$"
 # 567 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1135,7 +1135,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
 # 568 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
 # 569 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 570 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FAIRY type.$"
 # 571 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1143,7 +1143,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
 # 572 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
 # 573 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER is apparently skilled\n"
+	.string "The 训练家 is apparently skilled\n"
 # 574 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the STEEL type.$"
 # 575 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
@@ -1151,7 +1151,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
 # 576 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
 # 577 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
-	.string "The TRAINER appears to have no clear\n"
+	.string "The 训练家 appears to have no clear\n"
 # 578 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "favorites when it comes to type.$"
 # 579 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"

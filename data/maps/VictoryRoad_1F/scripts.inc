@@ -449,7 +449,7 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 # 225 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "momentum going and become the\l"
 # 226 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "CHAMPION! If anyone can, it's you!$"
+	.string "冠军! If anyone can, it's you!$"
 # 227 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 228 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -475,7 +475,7 @@ VictoryRoad_1F_Text_AlbertPostBattle:
 # 238 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "That means I lack the qualifications\n"
 # 239 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "to become the CHAMPION…$"
+	.string "to become the 冠军…$"
 # 240 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 241 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -497,7 +497,7 @@ VictoryRoad_1F_Text_HopePostBattle:
 # 249 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "You seem to have the potential for\n"
 # 250 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "becoming the CHAMPION.$"
+	.string "becoming the 冠军.$"
 # 251 "data/maps/VictoryRoad_1F/scripts.pory"
 
 # 252 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -521,9 +521,9 @@ VictoryRoad_1F_Text_QuincyPostBattle:
 # 261 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "Getting through here safely--that's\n"
 # 262 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "the final test for any TRAINER aiming\l"
+	.string "the final test for any 训练家 aiming\l"
 # 263 "data/maps/VictoryRoad_1F/scripts.pory"
-	.string "to become the Pokémon CHAMPION.\p"
+	.string "to become the Pokémon 冠军.\p"
 # 264 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "That's why it's called the VICTORY\n"
 # 265 "data/maps/VictoryRoad_1F/scripts.pory"

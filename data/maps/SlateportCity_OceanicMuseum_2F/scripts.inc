@@ -829,7 +829,7 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 # 415 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
 # 416 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	.string "“MODEL OF HOENN REGION”\p"
+	.string "“MODEL OF 丰缘 REGION”\p"
 # 417 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	.string "It's a miniature diorama of the\n"
 # 418 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"

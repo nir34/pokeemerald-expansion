@@ -731,7 +731,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
 # 366 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "MC: Okay, SMART Pokémon and their\n"
 # 367 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "TRAINERS, are you ready?!\p"
+	.string "训练家S, are you ready?!\p"
 # 368 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Give it your best showing!\n"
 # 369 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -813,7 +813,7 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
 # 407 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
 # 408 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Even when TRAINERS enter the same\n"
+	.string "Even when 训练家S enter the same\n"
 # 409 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "kind of Pokémon, they all seem to use\l"
 # 410 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -829,7 +829,7 @@ LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
 # 415 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I think the Pokémon look smarter\n"
 # 416 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "than their TRAINERS. By a lot.$"
+	.string "than their 训练家S. By a lot.$"
 # 417 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 418 "data/maps/LilycoveCity_ContestHall/scripts.pory"

@@ -27,7 +27,7 @@ PetalburgCity_House2_Text_NormanBecameGymLeader:
 # 14 "data/maps/PetalburgCity_House2/scripts.pory"
 	.string "NORMAN became our town's new\n"
 # 15 "data/maps/PetalburgCity_House2/scripts.pory"
-	.string "GYM LEADER.\p"
+	.string "道馆馆主.\p"
 # 16 "data/maps/PetalburgCity_House2/scripts.pory"
 	.string "I think he called his family over from\n"
 # 17 "data/maps/PetalburgCity_House2/scripts.pory"

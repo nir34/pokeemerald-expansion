@@ -75,7 +75,7 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 # 38 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "You can't consider yourself a real\n"
 # 39 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
-	.string "TRAINER if you don't have faith\l"
+	.string "训练家 if you don't have faith\l"
 # 40 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "in your Pokémon.\p"
 # 41 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"

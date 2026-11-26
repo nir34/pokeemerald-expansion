@@ -79,7 +79,7 @@ PacifidlogTown_PokemonCenter_1F_Text_FormerExplosionTutor:
 # 40 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 # 41 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "What color is your TRAINER CARD?\n"
+	.string "What color is your 训练家 CARD?\n"
 # 42 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "Mine's copper!$"
 # 43 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"

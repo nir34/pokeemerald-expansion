@@ -345,7 +345,7 @@ SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
 # 173 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "I wonder what I should be when I\n"
 # 174 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "grow up, a JUDGE or a GYM LEADER?$"
+	.string "grow up, a JUDGE or a 道馆馆主?$"
 # 175 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
 # 176 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -417,7 +417,7 @@ SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
 # 209 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "JUDGE: Well, hello there!\n"
 # 210 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I see that you're a TRAINER!\p"
+	.string "I see that you're a 训练家!\p"
 # 211 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Then, it just wouldn't do for you\n"
 # 212 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"

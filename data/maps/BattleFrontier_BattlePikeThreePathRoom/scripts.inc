@@ -697,7 +697,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
 # 349 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
 # 350 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
-	.string "Is it… A TRAINER?\n"
+	.string "Is it… A 训练家?\n"
 # 351 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	.string "I sense the presence of people…$"
 # 352 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"

@@ -33,7 +33,7 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy::
 # 17 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
 # 18 "data/maps/BattleFrontier_Lounge8/scripts.pory"
-	.string "What a TRAINER needs…\p"
+	.string "What a 训练家 needs…\p"
 # 19 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "Knowledge…\n"
 # 20 "data/maps/BattleFrontier_Lounge8/scripts.pory"
@@ -67,9 +67,9 @@ BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
 # 34 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "That's what SCOTT calls the seven\n"
 # 35 "data/maps/BattleFrontier_Lounge8/scripts.pory"
-	.string "special TRAINERS that run the seven\l"
+	.string "special 训练家S that run the seven\l"
 # 36 "data/maps/BattleFrontier_Lounge8/scripts.pory"
-	.string "facilities in the BATTLE FRONTIER.$"
+	.string "facilities in the 对战开拓区.$"
 # 37 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 
 # 38 "data/maps/BattleFrontier_Lounge8/scripts.pory"

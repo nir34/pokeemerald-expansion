@@ -1209,7 +1209,7 @@ Route111_Text_VictorPostBattle:
 # 605 "data/maps/Route111/scripts.pory"
 	.string "Hey, all!\n"
 # 606 "data/maps/Route111/scripts.pory"
-	.string "I've found a pretty strong TRAINER!$"
+	.string "I've found a pretty strong 训练家!$"
 # 607 "data/maps/Route111/scripts.pory"
 
 # 608 "data/maps/Route111/scripts.pory"
@@ -1217,7 +1217,7 @@ Route111_Text_VictoriaIntro:
 # 609 "data/maps/Route111/scripts.pory"
 	.string "Oh, my goodness! Aren't you young?\p"
 # 610 "data/maps/Route111/scripts.pory"
-	.string "You must be quite the TRAINER to beat\n"
+	.string "You must be quite the 训练家 to beat\n"
 # 611 "data/maps/Route111/scripts.pory"
 	.string "my husband, though.\p"
 # 612 "data/maps/Route111/scripts.pory"
@@ -1235,7 +1235,7 @@ Route111_Text_VictoriaDefeat:
 # 618 "data/maps/Route111/scripts.pory"
 Route111_Text_VictoriaPostBattle:
 # 619 "data/maps/Route111/scripts.pory"
-	.string "There's a strong TRAINER here!\n"
+	.string "There's a strong 训练家 here!\n"
 # 620 "data/maps/Route111/scripts.pory"
 	.string "This one's really strong!$"
 # 621 "data/maps/Route111/scripts.pory"
@@ -1305,7 +1305,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
 # 653 "data/maps/Route111/scripts.pory"
 	.string "ELITE FOUR are far stronger than\l"
 # 654 "data/maps/Route111/scripts.pory"
-	.string "any GYM LEADER.$"
+	.string "any 道馆馆主.$"
 # 655 "data/maps/Route111/scripts.pory"
 
 # 656 "data/maps/Route111/scripts.pory"
@@ -1467,7 +1467,7 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 # 734 "data/maps/Route111/scripts.pory"
 Route111_Text_TrainerHillSign:
 # 735 "data/maps/Route111/scripts.pory"
-	.string "TRAINER HILL\n"
+	.string "训练家 HILL\n"
 # 736 "data/maps/Route111/scripts.pory"
 	.string "UNDER DEVELOPMENT$"
 
@@ -1954,7 +1954,7 @@ Route111_Text_DawnGoodbye::
 
 TrainerHillDev::
 # 1009 "data/maps/Route111/scripts.pory"
-	.string "TRAINER HILL\n"
+	.string "训练家 HILL\n"
 	.string "UNDER DEVELOPMENT$"
 
 Daisuke_Greeting::

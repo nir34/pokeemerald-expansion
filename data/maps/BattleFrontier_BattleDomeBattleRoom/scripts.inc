@@ -1977,7 +1977,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 # 989 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 # 990 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "Will this TRAINER race to\n"
+	.string "Will this 训练家 race to\n"
 # 991 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "the championship?\p"
 # 992 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2007,7 +2007,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 # 1004 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 # 1005 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "The TRAINER is on fire for\n"
+	.string "The 训练家 is on fire for\n"
 # 1006 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "the first championship try!\p"
 # 1007 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2017,7 +2017,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 # 1009 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
 # 1010 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "A win here means this TRAINER\n"
+	.string "A win here means this 训练家\n"
 # 1011 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "advances to the final!\p"
 # 1012 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2047,7 +2047,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 # 1024 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Can anyone hope to beat this\n"
 # 1025 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "TRAINER?\p"
+	.string "训练家?\p"
 # 1026 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
 # 1027 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2057,7 +2057,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 # 1029 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Do battles exist solely for\n"
 # 1030 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "this TRAINER?\p"
+	.string "this 训练家?\p"
 # 1031 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
 # 1032 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2091,7 +2091,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
 # 1046 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
 # 1047 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "Will this TRAINER do as expected\n"
+	.string "Will this 训练家 do as expected\n"
 # 1048 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "and advance to the finals?\p"
 # 1049 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2117,7 +2117,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 # 1059 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 # 1060 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
-	.string "And now… The TRAINER standing in\n"
+	.string "And now… The 训练家 standing in\n"
 # 1061 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "{PLAYER}'s record-setting path…\p"
 # 1062 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"

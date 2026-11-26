@@ -275,7 +275,7 @@ VictoryRoad_B1F_Text_ShannonPostBattle:
 # 138 "data/maps/VictoryRoad_B1F/scripts.pory"
 	.string "By being together all the time, trust\n"
 # 139 "data/maps/VictoryRoad_B1F/scripts.pory"
-	.string "grows between Pokémon and TRAINERS.$"
+	.string "grows between Pokémon and 训练家S.$"
 # 140 "data/maps/VictoryRoad_B1F/scripts.pory"
 
 # 141 "data/maps/VictoryRoad_B1F/scripts.pory"

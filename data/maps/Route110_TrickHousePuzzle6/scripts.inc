@@ -113,7 +113,7 @@ Route110_TrickHousePuzzle6_Text_SophiaIntro:
 # 57 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
 # 58 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	.string "I've discovered a tough TRAINER!$"
+	.string "I've discovered a tough 训练家!$"
 # 59 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 
 # 60 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"

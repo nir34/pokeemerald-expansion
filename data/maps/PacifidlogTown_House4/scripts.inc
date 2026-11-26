@@ -63,7 +63,7 @@ PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon:
 # 32 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "People were saying they saw a Pokémon\n"
 # 33 "data/maps/PacifidlogTown_House4/scripts.pory"
-	.string "flying high above HOENN.\p"
+	.string "flying high above 丰缘.\p"
 # 34 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "Is it flying around all the time?\n"
 # 35 "data/maps/PacifidlogTown_House4/scripts.pory"

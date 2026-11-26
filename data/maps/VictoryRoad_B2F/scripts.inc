@@ -145,7 +145,7 @@ VictoryRoad_B2F_Text_JulieIntro:
 # 73 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "You shouldn't get complacent just\n"
 # 74 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "because you have a lot of GYM BADGES.\p"
+	.string "because you have a lot of GYM 徽章S.\p"
 # 75 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "There's always going to be someone\n"
 # 76 "data/maps/VictoryRoad_B2F/scripts.pory"
@@ -161,9 +161,9 @@ VictoryRoad_B2F_Text_JulieDefeat:
 # 81 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_JuliePostBattle:
 # 82 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "Gaze on your collected BADGES and\n"
+	.string "Gaze on your collected 徽章S and\n"
 # 83 "data/maps/VictoryRoad_B2F/scripts.pory"
-	.string "remember the TRAINERS you've faced.$"
+	.string "remember the 训练家S you've faced.$"
 # 84 "data/maps/VictoryRoad_B2F/scripts.pory"
 
 # 85 "data/maps/VictoryRoad_B2F/scripts.pory"

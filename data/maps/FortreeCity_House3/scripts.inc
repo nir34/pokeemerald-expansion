@@ -29,7 +29,7 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 # 15 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "I remembered something.\p"
 # 16 "data/maps/FortreeCity_House3/scripts.pory"
-	.string "I met this TRAINER, STEVEN, when\n"
+	.string "I met this 训练家, STEVEN, when\n"
 # 17 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "I was searching for rare stones.\p"
 # 18 "data/maps/FortreeCity_House3/scripts.pory"
@@ -43,7 +43,7 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 # 22 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "He might even be stronger than the\n"
 # 23 "data/maps/FortreeCity_House3/scripts.pory"
-	.string "GYM LEADER in this town…$"
+	.string "道馆馆主 in this town…$"
 # 24 "data/maps/FortreeCity_House3/scripts.pory"
 
 # 25 "data/maps/FortreeCity_House3/scripts.pory"

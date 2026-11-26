@@ -59,7 +59,7 @@ MossdeepCity_PokemonCenter_1F_EventScript_Girl::
 # 30 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
 # 31 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
-	.string "The GYM LEADERS in this town are\n"
+	.string "The 道馆馆主S in this town are\n"
 # 32 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 	.string "a formidable duo.\p"
 # 33 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"

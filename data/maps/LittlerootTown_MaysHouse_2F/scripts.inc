@@ -35,7 +35,7 @@ LittlerootTown_MaysHouse_2F_EventScript_CheckShouldUpdateMayPos::
 # 18 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	goto_if_set FLAG_MET_RIVAL_LILYCOVE, LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos
 # 19 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
-	goto_if_ge VAR_BIRCH_LAB_STATE, 2, LittlerootTown_MaysHouse_2F_EventScript_Ret
+	goto_if_ge VAR_小田卷_LAB_STATE, 2, LittlerootTown_MaysHouse_2F_EventScript_Ret
 # 20 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	goto LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos
 # 21 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -151,7 +151,7 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 # 76 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
 # 77 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_小田卷S_LAB_小田卷
 # 78 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	savebgm MUS_DUMMY
 # 79 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"

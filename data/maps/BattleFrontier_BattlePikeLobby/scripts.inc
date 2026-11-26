@@ -549,7 +549,7 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 # 275 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
 # 276 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
-	.string "Where the luck of TRAINERS\n"
+	.string "Where the luck of 训练家S\n"
 # 277 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "is put to the test…\p"
 # 278 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
@@ -799,7 +799,7 @@ BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
 # 400 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "now, but I've never had to battle\l"
 # 401 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
-	.string "a TRAINER once.$"
+	.string "a 训练家 once.$"
 # 402 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
 # 403 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
@@ -827,7 +827,7 @@ BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
 # 414 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "of times, but all I ever do is run into\l"
 # 415 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
-	.string "TRAINERS whichever path I choose.$"
+	.string "训练家S whichever path I choose.$"
 # 416 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
 # 417 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"

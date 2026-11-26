@@ -1923,7 +1923,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 # 962 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "Which of these Pokémon was chasing\n"
 # 963 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "PROF. BIRCH?$"
+	.string "小田卷博士?$"
 # 964 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 965 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -2011,7 +2011,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
 # 1006 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 4 QUIZ.\p"
 # 1007 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
-	.string "In the TRAINER'S SCHOOL, how many\n"
+	.string "In the 训练家'S SCHOOL, how many\n"
 # 1008 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "girl students were there?$"
 # 1009 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"

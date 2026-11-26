@@ -25,17 +25,17 @@ RustboroCity_House2_EventScript_LittleGirl::
 # 13 "data/maps/RustboroCity_House2/scripts.pory"
 RustboroCity_House2_Text_TrainerSchoolExcellent:
 # 14 "data/maps/RustboroCity_House2/scripts.pory"
-	.string "The TRAINER'S SCHOOL is excellent.\p"
+	.string "The 训练家'S SCHOOL is excellent.\p"
 # 15 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "If you study there, you could even\n"
 # 16 "data/maps/RustboroCity_House2/scripts.pory"
-	.string "become a GYM LEADER.$"
+	.string "become a 道馆馆主.$"
 # 17 "data/maps/RustboroCity_House2/scripts.pory"
 
 # 18 "data/maps/RustboroCity_House2/scripts.pory"
 RustboroCity_House2_Text_RoxanneKnowsALot:
 # 19 "data/maps/RustboroCity_House2/scripts.pory"
-	.string "ROXANNE, the GYM LEADER, really knows\n"
+	.string "ROXANNE, the 道馆馆主, really knows\n"
 # 20 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "a lot about Pokémon.\p"
 # 21 "data/maps/RustboroCity_House2/scripts.pory"

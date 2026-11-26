@@ -235,7 +235,7 @@ OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 # 118 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "That PC in the corner there is\n"
 # 119 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	.string "for any Pokémon TRAINER to use.\p"
+	.string "for any Pokémon 训练家 to use.\p"
 # 120 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "Naturally, that means you're welcome\n"
 # 121 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"

@@ -235,7 +235,7 @@ MtPyre_2F_Text_LeahDefeat:
 # 118 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_LeahPostBattle:
 # 119 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Our family has been TRAINERS here\n"
+	.string "Our family has been 训练家S here\n"
 # 120 "data/maps/MtPyre_2F/scripts.pory"
 	.string "since my great-grandmother's time…\p"
 # 121 "data/maps/MtPyre_2F/scripts.pory"

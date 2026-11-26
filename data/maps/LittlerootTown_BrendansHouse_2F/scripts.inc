@@ -35,7 +35,7 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckShouldUpdateBrendanPos::
 # 18 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	goto_if_set FLAG_MET_RIVAL_LILYCOVE, LittlerootTown_BrendansHouse_2F_EventScript_TryUpdateBrendanPos
 # 19 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	goto_if_ge VAR_BIRCH_LAB_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_Ret
+	goto_if_ge VAR_小田卷_LAB_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_Ret
 # 20 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	goto LittlerootTown_BrendansHouse_2F_EventScript_TryUpdateBrendanPos
 # 21 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -153,7 +153,7 @@ LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendan::
 # 77 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 # 78 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_小田卷S_LAB_小田卷
 # 79 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	savebgm MUS_DUMMY
 # 80 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"

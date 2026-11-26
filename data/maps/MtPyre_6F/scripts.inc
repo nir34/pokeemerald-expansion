@@ -131,7 +131,7 @@ MtPyre_6F_Text_CedricDefeat:
 # 66 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_CedricPostBattle:
 # 67 "data/maps/MtPyre_6F/scripts.pory"
-	.string "I had this feeling that a lost TRAINER\n"
+	.string "I had this feeling that a lost 训练家\n"
 # 68 "data/maps/MtPyre_6F/scripts.pory"
 	.string "would be panicked and easy to beat.\p"
 # 69 "data/maps/MtPyre_6F/scripts.pory"

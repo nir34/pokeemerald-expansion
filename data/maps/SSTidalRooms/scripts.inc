@@ -227,7 +227,7 @@ SSTidalRooms_Text_JedPostBattle:
 # 114 "data/maps/SSTidalRooms/scripts.pory"
 	.string "dovey power couldn't prevail!\l"
 # 115 "data/maps/SSTidalRooms/scripts.pory"
-	.string "You must be an awesome TRAINER!$"
+	.string "You must be an awesome 训练家!$"
 # 116 "data/maps/SSTidalRooms/scripts.pory"
 
 # 117 "data/maps/SSTidalRooms/scripts.pory"
@@ -259,7 +259,7 @@ SSTidalRooms_Text_LeaPostBattle:
 # 130 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Our lovey-dovey power failed…\l"
 # 131 "data/maps/SSTidalRooms/scripts.pory"
-	.string "You must be an awesome TRAINER!$"
+	.string "You must be an awesome 训练家!$"
 # 132 "data/maps/SSTidalRooms/scripts.pory"
 
 # 133 "data/maps/SSTidalRooms/scripts.pory"
@@ -299,7 +299,7 @@ SSTidalRooms_Text_GarretPostBattle:
 # 150 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_NaomiIntro:
 # 151 "data/maps/SSTidalRooms/scripts.pory"
-	.string "Oh, you're such an adorable TRAINER.\n"
+	.string "Oh, you're such an adorable 训练家.\n"
 # 152 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Would you like to have tea?\l"
 # 153 "data/maps/SSTidalRooms/scripts.pory"
@@ -323,7 +323,7 @@ SSTidalRooms_Text_NaomiPostBattle:
 # 162 "data/maps/SSTidalRooms/scripts.pory"
 	.string "But, I will admit there is an appealing\n"
 # 163 "data/maps/SSTidalRooms/scripts.pory"
-	.string "side to touring HOENN by ferry.$"
+	.string "side to touring 丰缘 by ferry.$"
 # 164 "data/maps/SSTidalRooms/scripts.pory"
 
 # 165 "data/maps/SSTidalRooms/scripts.pory"

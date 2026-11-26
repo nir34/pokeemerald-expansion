@@ -72,11 +72,11 @@ gBirchDexRatingText_LessThan130::
 gBirchDexRatingText_LessThan140::
 	.string "I've heard of Pokémon that evolve\n"
 	.string "when they come to fully love their\l"
-	.string "TRAINERS.$"
+	.string "训练家S.$"
 
 gBirchDexRatingText_LessThan150::
 	.string "I had no idea that there were so\n"
-	.string "many Pokémon species 放进了HOENN\l"
+	.string "many Pokémon species 放进了丰缘\l"
 	.string "region.$"
 
 gBirchDexRatingText_LessThan160::
@@ -87,7 +87,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about\n"
-	.string "the Pokémon of the HOENN region\l"
+	.string "the Pokémon of the 丰缘 region\l"
 	.string "by looking through your Pokédex.$"
 
 gBirchDexRatingText_LessThan180::

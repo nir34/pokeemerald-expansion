@@ -89,7 +89,7 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
 # 45 "data/maps/SlateportCity_Mart/scripts.pory"
 SlateportCity_Mart_Text_GreatBallIsBetter:
 # 46 "data/maps/SlateportCity_Mart/scripts.pory"
-	.string "A GREAT BALL is better than a POKé BALL\n"
+	.string "A GREAT BALL is better than a 精灵球\n"
 # 47 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "at catching Pokémon.\p"
 # 48 "data/maps/SlateportCity_Mart/scripts.pory"
