@@ -952,7 +952,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ETHER] =
     {
-        .name = _("单项小补剂"),
+        .name = _("单项小补"),
         .price = (I_PRICE >= GEN_2) ? 1200 : 1,
         .holdEffectParam = 10,
         .description = COMPOUND_STRING(
@@ -971,7 +971,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MAX_ETHER] =
     {
-        .name = _("单项全补剂"),
+        .name = _("单项全补"),
         .price = (I_PRICE >= GEN_2) ? 2000 : 1,
         .holdEffectParam = 255,
         .description = COMPOUND_STRING(
@@ -990,7 +990,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ELIXIR] =
     {
-        .name = _("多项小补剂"),
+        .name = _("多项小补"),
         .price = (I_PRICE >= GEN_2) ? 3000 : 1,
         .holdEffectParam = 10,
         .description = COMPOUND_STRING(
@@ -1008,7 +1008,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MAX_ELIXIR] =
     {
-        .name = _("多项全补剂"),
+        .name = _("多项全补"),
         .price = 100,
         .holdEffectParam = 255,
         .description = COMPOUND_STRING(
@@ -1168,7 +1168,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CASTELIACONE] =
     {
-        .name = _("飞云冰淇淋"),
+        .name = _("飞云冰淇"),
         .price = (I_PRICE >= GEN_7) ? 350 : 100,
         .description = sFullHealDesc,
         .pocket = POCKET_ITEMS,
@@ -1213,7 +1213,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BIG_MALASADA] =
     {
-        .name = _("大马拉萨达"),
+        .name = _("大马拉萨"),
         .price = 350,
         .description = sFullHealDesc,
         .pocket = POCKET_ITEMS,
@@ -1246,7 +1246,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PROTEIN] =
     {
-        .name = _("攻击增强剂"),
+        .name = _("攻击增强"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
@@ -1263,7 +1263,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_IRON] =
     {
-        .name = _("防御增强剂"),
+        .name = _("防御增强"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
@@ -1280,7 +1280,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CALCIUM] =
     {
-        .name = _("特攻增强剂"),
+        .name = _("特攻增强"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
@@ -1297,7 +1297,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ZINC] =
     {
-        .name = _("特防增强剂"),
+        .name = _("特防增强"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
             "Raises the base\n"
@@ -1314,7 +1314,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CARBOS] =
     {
-        .name = _("速度增强剂"),
+        .name = _("速度增强"),
         .pluralName = _("Carbos"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
@@ -1349,7 +1349,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PP_MAX] =
     {
-        .name = _("极限提升剂"),
+        .name = _("极限提升"),
         .pluralName = _("PP Maxes"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
@@ -1489,7 +1489,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LONELY_MINT] =
     {
-        .name = _("怕寂寞薄荷"),
+        .name = _("怕寂寞薄"),
         .price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
@@ -1642,7 +1642,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MILD_MINT] =
     {
-        .name = _("慢吞吞薄荷"),
+        .name = _("慢吞吞薄"),
         .price = (I_PRICE >= GEN_9) ? 20000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
@@ -1980,7 +1980,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BLUE_FLUTE] =
     {
-        .name = _("蓝色玻璃哨"),
+        .name = _("蓝色玻璃"),
         .price = (I_PRICE >= GEN_7) ? 20 : 100,
         .description = COMPOUND_STRING(
             "A glass flute that\n"
@@ -1999,7 +1999,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_YELLOW_FLUTE] =
     {
-        .name = _("黄色玻璃哨"),
+        .name = _("黄色玻璃"),
         .price = (I_PRICE >= GEN_7) ? 20 : 300,
         .description = COMPOUND_STRING(
             "A glass flute that\n"
@@ -2018,7 +2018,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_RED_FLUTE] =
     {
-        .name = _("红色玻璃哨"),
+        .name = _("红色玻璃"),
         .price = (I_PRICE >= GEN_7) ? 20 : 200,
         .description = COMPOUND_STRING(
             "A glass flute that\n"
@@ -2039,7 +2039,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BLACK_FLUTE] =
     {
-        .name = _("黑色玻璃哨"),
+        .name = _("黑色玻璃"),
         .price = (I_PRICE >= GEN_7) ? 20 : 400,
         .holdEffectParam = 50,
         .description = COMPOUND_STRING(
@@ -2057,7 +2057,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_WHITE_FLUTE] =
     {
-        .name = _("白色玻璃哨"),
+        .name = _("白色玻璃"),
         .price = (I_PRICE >= GEN_7) ? 20 : 500,
         .holdEffectParam = 150,
         .description = COMPOUND_STRING(
@@ -2407,7 +2407,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_FLUFFY_TAIL] =
     {
-        .name = _("向尾喵的尾巴"),
+        .name = _("向尾喵的"),
         .price = (I_PRICE >= GEN_7) ? 100 : 1000,
         .description = sPokeDollDesc,
         .pocket = POCKET_ITEMS,
@@ -3940,7 +3940,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CRACKED_POT] =
     {
-        .name = _("破裂的茶壶"),
+        .name = _("破裂的茶"),
         .price = 500,
         .description = COMPOUND_STRING(
             "A cracked teapot\n"
@@ -3957,7 +3957,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CHIPPED_POT] =
     {
-        .name = _("缺损的茶壶"),
+        .name = _("缺损的茶"),
         .price = 500,
         .description = COMPOUND_STRING(
             "A chipped teapot\n"
@@ -4062,7 +4062,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ELECTIRIZER] =
     {
-        .name = _("电力增幅器"),
+        .name = _("电力增幅"),
         .price = 500,
         .description = COMPOUND_STRING(
             "Loved by a certain\n"
@@ -4079,7 +4079,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MAGMARIZER] =
     {
-        .name = _("熔岩增幅器"),
+        .name = _("熔岩增幅"),
         .price = 500,
         .description = COMPOUND_STRING(
             "Loved by a certain\n"
@@ -4248,7 +4248,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CLOVER_SWEET] =
     {
-        .name = _("幸运草糖饰"),
+        .name = _("幸运草糖"),
         .price = 500 * TREASURE_FACTOR,
         .description = COMPOUND_STRING(
             "A clover-shaped\n"
@@ -4296,7 +4296,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_RIBBON_SWEET] =
     {
-        .name = _("蝴蝶结糖饰"),
+        .name = _("蝴蝶结糖"),
         .price = 500 * TREASURE_FACTOR,
         .description = COMPOUND_STRING(
             "A ribbon-shaped\n"
@@ -4331,7 +4331,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_RED_NECTAR] =
     {
-        .name = _("朱红色花蜜"),
+        .name = _("朱红色花"),
         .price = 300,
         .holdEffectParam = 0,
         .description = sNectarDesc,
@@ -4345,7 +4345,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_YELLOW_NECTAR] =
     {
-        .name = _("金黄色花蜜"),
+        .name = _("金黄色花"),
         .price = 300,
         .holdEffectParam = 0,
         .description = sNectarDesc,
@@ -4359,7 +4359,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PINK_NECTAR] =
     {
-        .name = _("桃粉色花蜜"),
+        .name = _("桃粉色花"),
         .price = 300,
         .holdEffectParam = 0,
         .description = sNectarDesc,
@@ -4373,7 +4373,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PURPLE_NECTAR] =
     {
-        .name = _("兰紫色花蜜"),
+        .name = _("兰紫色花"),
         .price = 300,
         .holdEffectParam = 0,
         .description = sNectarDesc,
@@ -4788,7 +4788,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_FIRE_MEMORY] =
     {
-        .name = _("火焰存储碟"),
+        .name = _("火焰存储"),
         .pluralName = _("Fire Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4808,7 +4808,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_WATER_MEMORY] =
     {
-        .name = _("清水存储碟"),
+        .name = _("清水存储"),
         .pluralName = _("Water Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4848,7 +4848,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GRASS_MEMORY] =
     {
-        .name = _("青草存储碟"),
+        .name = _("青草存储"),
         .pluralName = _("Grass Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4868,7 +4868,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ICE_MEMORY] =
     {
-        .name = _("冰雪存储碟"),
+        .name = _("冰雪存储"),
         .pluralName = _("Ice Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4928,7 +4928,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GROUND_MEMORY] =
     {
-        .name = _("大地存储碟"),
+        .name = _("大地存储"),
         .pluralName = _("Ground Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4948,7 +4948,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_FLYING_MEMORY] =
     {
-        .name = _("飞翔存储碟"),
+        .name = _("飞翔存储"),
         .pluralName = _("Flying Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -4988,7 +4988,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BUG_MEMORY] =
     {
-        .name = _("虫子存储碟"),
+        .name = _("虫子存储"),
         .pluralName = _("Bug Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5008,7 +5008,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ROCK_MEMORY] =
     {
-        .name = _("岩石存储碟"),
+        .name = _("岩石存储"),
         .pluralName = _("Rock Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5028,7 +5028,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GHOST_MEMORY] =
     {
-        .name = _("幽灵存储碟"),
+        .name = _("幽灵存储"),
         .pluralName = _("Ghost Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5068,7 +5068,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_DARK_MEMORY] =
     {
-        .name = _("黑暗存储碟"),
+        .name = _("黑暗存储"),
         .pluralName = _("Dark Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5088,7 +5088,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_STEEL_MEMORY] =
     {
-        .name = _("钢铁存储碟"),
+        .name = _("钢铁存储"),
         .pluralName = _("Steel Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5108,7 +5108,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_FAIRY_MEMORY] =
     {
-        .name = _("妖精存储碟"),
+        .name = _("妖精存储"),
         .pluralName = _("Fairy Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
@@ -5160,7 +5160,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_RED_ORB] =
     {
-        .name = _("朱红色宝珠"),
+        .name = _("朱红色宝"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_PRIMAL_ORB,
         .description = COMPOUND_STRING(
@@ -5176,7 +5176,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BLUE_ORB] =
     {
-        .name = _("靛蓝色宝珠"),
+        .name = _("靛蓝色宝"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_PRIMAL_ORB,
         .description = COMPOUND_STRING(
@@ -5194,7 +5194,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_VENUSAURITE] =
     {
-        .name = _("妙蛙花进化石"),
+        .name = _("妙蛙花进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5241,7 +5241,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BLASTOISINITE] =
     {
-        .name = _("水箭龟进化石"),
+        .name = _("水箭龟进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5258,7 +5258,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BEEDRILLITE] =
     {
-        .name = _("大针蜂进化石"),
+        .name = _("大针蜂进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5275,7 +5275,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PIDGEOTITE] =
     {
-        .name = _("大比鸟进化石"),
+        .name = _("大比鸟进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5292,7 +5292,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ALAKAZITE] =
     {
-        .name = _("胡地进化石"),
+        .name = _("胡地进化"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5309,7 +5309,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SLOWBRONITE] =
     {
-        .name = _("呆壳兽进化石"),
+        .name = _("呆壳兽进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5326,7 +5326,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GENGARITE] =
     {
-        .name = _("耿鬼进化石"),
+        .name = _("耿鬼进化"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5343,7 +5343,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KANGASKHANITE] =
     {
-        .name = _("袋兽进化石"),
+        .name = _("袋兽进化"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5360,7 +5360,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PINSIRITE] =
     {
-        .name = _("凯罗斯进化石"),
+        .name = _("凯罗斯进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5377,7 +5377,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GYARADOSITE] =
     {
-        .name = _("暴鲤龙进化石"),
+        .name = _("暴鲤龙进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5394,7 +5394,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_AERODACTYLITE] =
     {
-        .name = _("化石翼龙进化石"),
+        .name = _("化石翼龙"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5411,7 +5411,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MEWTWONITE_X] =
     {
-        .name = _("超梦进化石"),
+        .name = _("超梦进化"),
         .pluralName = _("Mewtwonites X"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
@@ -5426,7 +5426,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MEWTWONITE_Y] =
     {
-        .name = _("超梦进化石"),
+        .name = _("超梦进化"),
         .pluralName = _("Mewtwonites Y"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
@@ -5441,7 +5441,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_AMPHAROSITE] =
     {
-        .name = _("电龙进化石"),
+        .name = _("电龙进化"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5458,7 +5458,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_STEELIXITE] =
     {
-        .name = _("大钢蛇进化石"),
+        .name = _("大钢蛇进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5475,7 +5475,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SCIZORITE] =
     {
-        .name = _("巨钳螳螂进化石"),
+        .name = _("巨钳螳螂"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5492,7 +5492,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HERACRONITE] =
     {
-        .name = _("赫拉克罗斯进化石"),
+        .name = _("赫拉克罗"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5509,7 +5509,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HOUNDOOMINITE] =
     {
-        .name = _("黑鲁加进化石"),
+        .name = _("黑鲁加进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5526,7 +5526,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TYRANITARITE] =
     {
-        .name = _("班基拉斯进化石"),
+        .name = _("班基拉斯"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5543,7 +5543,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SCEPTILITE] =
     {
-        .name = _("蜥蜴王进化石"),
+        .name = _("蜥蜴王进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5560,7 +5560,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BLAZIKENITE] =
     {
-        .name = _("火焰鸡进化石"),
+        .name = _("火焰鸡进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5577,7 +5577,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SWAMPERTITE] =
     {
-        .name = _("巨沼怪进化石"),
+        .name = _("巨沼怪进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5594,7 +5594,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GARDEVOIRITE] =
     {
-        .name = _("沙奈朵进化石"),
+        .name = _("沙奈朵进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5611,7 +5611,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SABLENITE] =
     {
-        .name = _("勾魂眼进化石"),
+        .name = _("勾魂眼进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5628,7 +5628,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MAWILITE] =
     {
-        .name = _("大嘴娃进化石"),
+        .name = _("大嘴娃进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5645,7 +5645,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_AGGRONITE] =
     {
-        .name = _("波士可多拉进化石"),
+        .name = _("波士可多"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5662,7 +5662,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MEDICHAMITE] =
     {
-        .name = _("恰雷姆进化石"),
+        .name = _("恰雷姆进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5679,7 +5679,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MANECTITE] =
     {
-        .name = _("雷电兽进化石"),
+        .name = _("雷电兽进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5696,7 +5696,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SHARPEDONITE] =
     {
-        .name = _("巨牙鲨进化石"),
+        .name = _("巨牙鲨进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5713,7 +5713,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CAMERUPTITE] =
     {
-        .name = _("喷火驼进化石"),
+        .name = _("喷火驼进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5730,7 +5730,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ALTARIANITE] =
     {
-        .name = _("七夕青鸟进化石"),
+        .name = _("七夕青鸟"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5747,7 +5747,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_BANETTITE] =
     {
-        .name = _("诅咒娃娃进化石"),
+        .name = _("诅咒娃娃"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5764,7 +5764,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ABSOLITE] =
     {
-        .name = _("阿勃梭鲁进化石"),
+        .name = _("阿勃梭鲁"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5781,7 +5781,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GLALITITE] =
     {
-        .name = _("冰鬼护进化石"),
+        .name = _("冰鬼护进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5798,7 +5798,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SALAMENCITE] =
     {
-        .name = _("暴飞龙进化石"),
+        .name = _("暴飞龙进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5815,7 +5815,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_METAGROSSITE] =
     {
-        .name = _("巨金怪进化石"),
+        .name = _("巨金怪进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5832,7 +5832,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LATIASITE] =
     {
-        .name = _("拉帝亚斯进化石"),
+        .name = _("拉帝亚斯"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5849,7 +5849,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LATIOSITE] =
     {
-        .name = _("拉帝欧斯进化石"),
+        .name = _("拉帝欧斯"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5866,7 +5866,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LOPUNNITE] =
     {
-        .name = _("长耳兔进化石"),
+        .name = _("长耳兔进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5883,7 +5883,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GARCHOMPITE] =
     {
-        .name = _("烈咬陆鲨进化石"),
+        .name = _("烈咬陆鲨"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5900,7 +5900,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LUCARIONITE] =
     {
-        .name = _("路卡利欧进化石"),
+        .name = _("路卡利欧"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5917,7 +5917,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ABOMASITE] =
     {
-        .name = _("暴雪王进化石"),
+        .name = _("暴雪王进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5934,7 +5934,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GALLADITE] =
     {
-        .name = _("艾路雷朵进化石"),
+        .name = _("艾路雷朵"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5951,7 +5951,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_AUDINITE] =
     {
-        .name = _("差不多娃娃进化石"),
+        .name = _("差不多娃"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -5968,7 +5968,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_DIANCITE] =
     {
-        .name = _("蒂安希进化石"),
+        .name = _("蒂安希进"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
@@ -6167,7 +6167,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_PSYCHIC_GEM] =
     {
-        .name = _("超能力宝石"),
+        .name = _("超能力宝"),
         .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_GEMS,
         .holdEffectParam = GEM_BOOST_PARAM,
@@ -6704,7 +6704,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_INCINIUM_Z] =
     {
-        .name = _("炽焰咆哮虎"),
+        .name = _("炽焰咆哮"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = COMPOUND_STRING(
@@ -6772,7 +6772,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KOMMONIUM_Z] =
     {
-        .name = _("杖尾鳞甲龙"),
+        .name = _("杖尾鳞甲"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = COMPOUND_STRING(
@@ -6806,7 +6806,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SOLGANIUM_Z] =
     {
-        .name = _("索尔迦雷欧"),
+        .name = _("索尔迦雷"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = COMPOUND_STRING(
@@ -7357,7 +7357,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MACHO_BRACE] =
     {
-        .name = _("强制锻炼器"),
+        .name = _("强制锻炼"),
         .price = 3000,
         .holdEffect = HOLD_EFFECT_MACHO_BRACE,
         .description = COMPOUND_STRING(
@@ -7672,7 +7672,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TWISTED_SPOON] =
     {
-        .name = _("弯曲的汤匙"),
+        .name = _("弯曲的汤"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_PSYCHIC_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -8341,7 +8341,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LEFTOVERS] =
     {
-        .name = _("吃剩的东西"),
+        .name = _("吃剩的东"),
         .pluralName = _("Leftovers"),
         .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_LEFTOVERS,
@@ -10344,7 +10344,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FOCUS_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM01Desc,
         .importance = I_REUSABLE_TMS,
@@ -10356,7 +10356,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAGON_CLAW] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM02Desc,
         .importance = I_REUSABLE_TMS,
@@ -10368,7 +10368,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FLIP_TURN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM03Desc,
         .importance = I_REUSABLE_TMS,
@@ -10380,7 +10380,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_CALM_MIND] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM04Desc,
         .importance = I_REUSABLE_TMS,
@@ -10392,7 +10392,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROAR] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM05Desc,
         .importance = I_REUSABLE_TMS,
@@ -10404,7 +10404,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TOXIC] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM06Desc,
         .importance = I_REUSABLE_TMS,
@@ -10416,7 +10416,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SNOWSCAPE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM07Desc,
         .importance = I_REUSABLE_TMS,
@@ -10428,7 +10428,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BULK_UP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM08Desc,
         .importance = I_REUSABLE_TMS,
@@ -10440,7 +10440,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BULLET_SEED] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 1000,
         .description = sTM09Desc,
         .importance = I_REUSABLE_TMS,
@@ -10452,7 +10452,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HIDDEN_POWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM10Desc,
         .importance = I_REUSABLE_TMS,
@@ -10464,7 +10464,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SUNNY_DAY] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM11Desc,
         .importance = I_REUSABLE_TMS,
@@ -10476,7 +10476,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TAUNT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM12Desc,
         .importance = I_REUSABLE_TMS,
@@ -10488,7 +10488,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICE_BEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = COMPOUND_STRING(
             "Fires an icy cold\n"
@@ -10507,7 +10507,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BLIZZARD] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = COMPOUND_STRING(
         #if B_USE_FROSTBITE == TRUE
@@ -10528,7 +10528,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ELECTROWEB] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM15Desc,
         .importance = I_REUSABLE_TMS,
@@ -10540,7 +10540,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LIGHT_SCREEN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM16Desc,
         .importance = I_REUSABLE_TMS,
@@ -10552,7 +10552,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PROTECT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM17Desc,
         .importance = I_REUSABLE_TMS,
@@ -10564,7 +10564,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_RAIN_DANCE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM18Desc,
         .importance = I_REUSABLE_TMS,
@@ -10576,7 +10576,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GIGA_DRAIN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM19Desc,
         .importance = I_REUSABLE_TMS,
@@ -10588,7 +10588,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HYPER_VOICE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM20Desc,
         .importance = I_REUSABLE_TMS,
@@ -10600,7 +10600,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICY_WIND] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM21Desc,
         .importance = I_REUSABLE_TMS,
@@ -10612,7 +10612,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SOLAR_BEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM22Desc,
         .importance = I_REUSABLE_TMS,
@@ -10624,7 +10624,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_IRON_TAIL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM23Desc,
         .importance = I_REUSABLE_TMS,
@@ -10636,7 +10636,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THUNDERBOLT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM24Desc,
         .importance = I_REUSABLE_TMS,
@@ -10648,7 +10648,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THUNDER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM25Desc,
         .importance = I_REUSABLE_TMS,
@@ -10660,7 +10660,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_EARTHQUAKE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM26Desc,
         .importance = I_REUSABLE_TMS,
@@ -10672,7 +10672,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_RETURN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM27Desc,
         .importance = I_REUSABLE_TMS,
@@ -10684,7 +10684,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DIG] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM28Desc,
         .importance = I_REUSABLE_TMS,
@@ -10696,7 +10696,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PSYCHIC] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM29Desc,
         .importance = I_REUSABLE_TMS,
@@ -10708,7 +10708,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SHADOW_BALL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM30Desc,
         .importance = I_REUSABLE_TMS,
@@ -10720,7 +10720,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BRICK_BREAK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM31Desc,
         .importance = I_REUSABLE_TMS,
@@ -10732,7 +10732,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SOLAR_BLADE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM32Desc,
         .importance = I_REUSABLE_TMS,
@@ -10744,7 +10744,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_REFLECT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM33Desc,
         .importance = I_REUSABLE_TMS,
@@ -10756,7 +10756,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TELEPORT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM34Desc,
         .importance = I_REUSABLE_TMS,
@@ -10768,7 +10768,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FLAMETHROWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM35Desc,
         .importance = I_REUSABLE_TMS,
@@ -10780,7 +10780,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SLUDGE_BOMB] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM36Desc,
         .importance = I_REUSABLE_TMS,
@@ -10792,7 +10792,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SANDSTORM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM37Desc,
         .importance = I_REUSABLE_TMS,
@@ -10804,7 +10804,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FIRE_BLAST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM38Desc,
         .importance = I_REUSABLE_TMS,
@@ -10816,7 +10816,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROCK_TOMB] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM39Desc,
         .importance = I_REUSABLE_TMS,
@@ -10828,7 +10828,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_AERIAL_ACE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM40Desc,
         .importance = I_REUSABLE_TMS,
@@ -10840,7 +10840,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAGON_DANCE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM41Desc,
         .importance = I_REUSABLE_TMS,
@@ -10852,7 +10852,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FACADE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM42Desc,
         .importance = I_REUSABLE_TMS,
@@ -10864,7 +10864,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DEFOG] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM43Desc,
         .importance = I_REUSABLE_TMS,
@@ -10876,7 +10876,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_REST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM44Desc,
         .importance = I_REUSABLE_TMS,
@@ -10888,7 +10888,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAINING_KISS] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM45Desc,
         .importance = I_REUSABLE_TMS,
@@ -10900,7 +10900,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THIEF] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM46Desc,
         .importance = I_REUSABLE_TMS,
@@ -10912,7 +10912,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STEEL_WING] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM47Desc,
         .importance = I_REUSABLE_TMS,
@@ -10924,7 +10924,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_METEOR_BEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM48Desc,
         .importance = I_REUSABLE_TMS,
@@ -10936,7 +10936,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LEECH_LIFE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM49Desc,
         .importance = I_REUSABLE_TMS,
@@ -10948,7 +10948,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_OVERHEAT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM50Desc,
         .importance = I_REUSABLE_TMS,
@@ -10960,7 +10960,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROOST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM51Desc,
         .importance = I_REUSABLE_TMS,
@@ -10972,7 +10972,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FOCUS_BLAST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM52Desc,
         .importance = I_REUSABLE_TMS,
@@ -10984,7 +10984,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ENERGY_BALL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM53Desc,
         .importance = I_REUSABLE_TMS,
@@ -10996,7 +10996,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GRASSY_GLIDE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM54Desc,
         .importance = I_REUSABLE_TMS,
@@ -11008,7 +11008,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_EXPANDING_FORCE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM55Desc,
         .importance = I_REUSABLE_TMS,
@@ -11020,7 +11020,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POWER_UP_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM56Desc,
         .importance = I_REUSABLE_TMS,
@@ -11032,7 +11032,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_CHARGE_BEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM57Desc,
         .importance = I_REUSABLE_TMS,
@@ -11044,7 +11044,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_RISING_VOLTAGE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM58Desc,
         .importance = I_REUSABLE_TMS,
@@ -11056,7 +11056,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAGON_PULSE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM59Desc,
         .importance = I_REUSABLE_TMS,
@@ -11068,7 +11068,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAIN_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM60Desc,
         .importance = I_REUSABLE_TMS,
@@ -11080,7 +11080,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_WILL_O_WISP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM61Desc,
         .importance = I_REUSABLE_TMS,
@@ -11092,7 +11092,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SILVER_WIND] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM62Desc,
         .importance = I_REUSABLE_TMS,
@@ -11104,7 +11104,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_VENOSHOCK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM63Desc,
         .importance = I_REUSABLE_TMS,
@@ -11116,7 +11116,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_EXPLOSION] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM64Desc,
         .importance = I_REUSABLE_TMS,
@@ -11128,7 +11128,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SHADOW_CLAW] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM65Desc,
         .importance = I_REUSABLE_TMS,
@@ -11140,7 +11140,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DAZZLING_GLEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM66Desc,
         .importance = I_REUSABLE_TMS,
@@ -11152,7 +11152,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POLTERGEIST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM67Desc,
         .importance = I_REUSABLE_TMS,
@@ -11164,7 +11164,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DUAL_CHOP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM68Desc,
         .importance = I_REUSABLE_TMS,
@@ -11176,7 +11176,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROCK_POLISH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM69Desc,
         .importance = I_REUSABLE_TMS,
@@ -11188,7 +11188,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TRIPLE_AXEL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM70Desc,
         .importance = I_REUSABLE_TMS,
@@ -11200,7 +11200,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STONE_EDGE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM71Desc,
         .importance = I_REUSABLE_TMS,
@@ -11212,7 +11212,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PSYSHOCK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM72Desc,
         .importance = I_REUSABLE_TMS,
@@ -11224,7 +11224,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THUNDER_WAVE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM73Desc,
         .importance = I_REUSABLE_TMS,
@@ -11236,7 +11236,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GYRO_BALL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM74Desc,
         .importance = I_REUSABLE_TMS,
@@ -11248,7 +11248,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SWORDS_DANCE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM75Desc,
         .importance = I_REUSABLE_TMS,
@@ -11260,7 +11260,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STEALTH_ROCK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM76Desc,
         .importance = I_REUSABLE_TMS,
@@ -11272,7 +11272,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FLAME_CHARGE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM77Desc,
         .importance = I_REUSABLE_TMS,
@@ -11284,7 +11284,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LOW_SWEEP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM78Desc,
         .importance = I_REUSABLE_TMS,
@@ -11296,7 +11296,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DARK_PULSE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM79Desc,
         .importance = I_REUSABLE_TMS,
@@ -11308,7 +11308,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROCK_SLIDE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM80Desc,
         .importance = I_REUSABLE_TMS,
@@ -11320,7 +11320,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_X_SCISSOR] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM81Desc,
         .importance = I_REUSABLE_TMS,
@@ -11332,7 +11332,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SLEEP_TALK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM82Desc,
         .importance = I_REUSABLE_TMS,
@@ -11344,7 +11344,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SCALD] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM83Desc,
         .importance = I_REUSABLE_TMS,
@@ -11356,7 +11356,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POISON_JAB] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM84Desc,
         .importance = I_REUSABLE_TMS,
@@ -11368,7 +11368,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FUTURE_SIGHT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM85Desc,
         .importance = I_REUSABLE_TMS,
@@ -11380,7 +11380,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GRASS_KNOT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM86Desc,
         .importance = I_REUSABLE_TMS,
@@ -11392,7 +11392,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LOW_KICK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM87Desc,
         .importance = I_REUSABLE_TMS,
@@ -11404,7 +11404,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PLUCK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM88Desc,
         .importance = I_REUSABLE_TMS,
@@ -11416,7 +11416,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_U_TURN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM89Desc,
         .importance = I_REUSABLE_TMS,
@@ -11428,7 +11428,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SUBSTITUTE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM90Desc,
         .importance = I_REUSABLE_TMS,
@@ -11440,7 +11440,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FLASH_CANNON] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM91Desc,
         .importance = I_REUSABLE_TMS,
@@ -11452,7 +11452,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_VOLT_SWITCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM92Desc,
         .importance = I_REUSABLE_TMS,
@@ -11464,7 +11464,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRAGON_TAIL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM93Desc,
         .importance = I_REUSABLE_TMS,
@@ -11476,7 +11476,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TRAILBLAZE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM94Desc,
         .importance = I_REUSABLE_TMS,
@@ -11488,7 +11488,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ACROBATICS] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM95Desc,
         .importance = I_REUSABLE_TMS,
@@ -11500,7 +11500,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BULLDOZE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM96Desc,
         .importance = I_REUSABLE_TMS,
@@ -11512,7 +11512,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SNARL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM97Desc,
         .importance = I_REUSABLE_TMS,
@@ -11524,7 +11524,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_WORK_UP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM98Desc,
         .importance = I_REUSABLE_TMS,
@@ -11536,7 +11536,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_WILD_CHARGE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM99Desc,
         .importance = I_REUSABLE_TMS,
@@ -11548,7 +11548,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DUAL_WINGBEAT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM100Desc,
         .importance = I_REUSABLE_TMS,
@@ -11560,7 +11560,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SUPERPOWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM101Desc,
         .importance = I_REUSABLE_TMS,
@@ -11572,7 +11572,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SCORCHING_SANDS] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM102Desc,
         .importance = I_REUSABLE_TMS,
@@ -11584,7 +11584,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SMACK_DOWN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM103Desc,
         .importance = I_REUSABLE_TMS,
@@ -11596,7 +11596,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HEAT_CRASH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM104Desc,
         .importance = I_REUSABLE_TMS,
@@ -11608,7 +11608,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BODY_PRESS] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM105Desc,
         .importance = I_REUSABLE_TMS,
@@ -11620,7 +11620,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TRICK_ROOM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM106Desc,
         .importance = I_REUSABLE_TMS,
@@ -11632,7 +11632,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BRAVE_BIRD] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM107Desc,
         .importance = I_REUSABLE_TMS,
@@ -11644,7 +11644,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICE_SPINNER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM108Desc,
         .importance = I_REUSABLE_TMS,
@@ -11656,7 +11656,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BUG_BITE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM109Desc,
         .importance = I_REUSABLE_TMS,
@@ -11668,7 +11668,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STOMPING_TANTRUM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM110Desc,
         .importance = I_REUSABLE_TMS,
@@ -11680,7 +11680,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FIRE_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM111Desc,
         .importance = I_REUSABLE_TMS,
@@ -11692,7 +11692,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICE_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM112Desc,
         .importance = I_REUSABLE_TMS,
@@ -11704,7 +11704,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THUNDER_PUNCH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM113Desc,
         .importance = I_REUSABLE_TMS,
@@ -11716,7 +11716,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FIRE_FANG] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM114Desc,
         .importance = I_REUSABLE_TMS,
@@ -11728,7 +11728,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICE_FANG] =
     {
-    .name = _("招式学习器"),
+    .name = _("招式学习"),
     .price = 100,
     .description = sTM115Desc,
     .importance = I_REUSABLE_TMS,
@@ -11740,7 +11740,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_THUNDER_FANG] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM116Desc,
         .importance = I_REUSABLE_TMS,
@@ -11752,7 +11752,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PSYCHIC_FANGS] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM117Desc,
         .importance = I_REUSABLE_TMS,
@@ -11764,7 +11764,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POISON_FANG] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM118Desc,
         .importance = I_REUSABLE_TMS,
@@ -11776,7 +11776,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_IRON_HEAD] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM119Desc,
         .importance = I_REUSABLE_TMS,
@@ -11788,7 +11788,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LIQUIDATION] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM120Desc,
         .importance = I_REUSABLE_TMS,
@@ -11800,7 +11800,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HYDRO_PUMP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM121Desc,
         .importance = I_REUSABLE_TMS,
@@ -11812,7 +11812,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRILL_RUN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM122Desc,
         .importance = I_REUSABLE_TMS,
@@ -11824,7 +11824,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BLAZE_KICK] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM123Desc,
         .importance = I_REUSABLE_TMS,
@@ -11836,7 +11836,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PAIN_SPLIT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM124Desc,
         .importance = I_REUSABLE_TMS,
@@ -11848,7 +11848,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ZEN_HEADBUTT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM125Desc,
         .importance = I_REUSABLE_TMS,
@@ -11860,7 +11860,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_WEATHER_BALL] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM126Desc,
         .importance = I_REUSABLE_TMS,
@@ -11872,7 +11872,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_AIR_SLASH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM127Desc,
         .importance = I_REUSABLE_TMS,
@@ -11884,7 +11884,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HEX] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM128Desc,
         .importance = I_REUSABLE_TMS,
@@ -11896,7 +11896,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_MYSTICAL_FIRE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM129Desc,
         .importance = I_REUSABLE_TMS,
@@ -11908,7 +11908,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SEED_BOMB] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM130Desc,
         .importance = I_REUSABLE_TMS,
@@ -11920,7 +11920,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_LEAF_BLADE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM131Desc,
         .importance = I_REUSABLE_TMS,
@@ -11932,7 +11932,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_KNOCK_OFF] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM132Desc,
         .importance = I_REUSABLE_TMS,
@@ -11944,7 +11944,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POWER_GEM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM133Desc,
         .importance = I_REUSABLE_TMS,
@@ -11956,7 +11956,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ROCK_BLAST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM134Desc,
         .importance = I_REUSABLE_TMS,
@@ -11968,7 +11968,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PIN_MISSILE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM135Desc,
         .importance = I_REUSABLE_TMS,
@@ -11980,7 +11980,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ICICLE_SPEAR] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM136Desc,
         .importance = I_REUSABLE_TMS,
@@ -11992,7 +11992,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TAIL_SLAP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM137Desc,
         .importance = I_REUSABLE_TMS,
@@ -12004,7 +12004,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ARM_THRUST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM138Desc,
         .importance = I_REUSABLE_TMS,
@@ -12016,7 +12016,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FOUL_PLAY] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM139Desc,
         .importance = I_REUSABLE_TMS,
@@ -12028,7 +12028,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_IRON_DEFENSE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM140Desc,
         .importance = I_REUSABLE_TMS,
@@ -12040,7 +12040,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_NASTY_PLOT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM141Desc,
         .importance = I_REUSABLE_TMS,
@@ -12052,7 +12052,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_EARTH_POWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM142Desc,
         .importance = I_REUSABLE_TMS,
@@ -12064,7 +12064,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_AURA_SPHERE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM143Desc,
         .importance = I_REUSABLE_TMS,
@@ -12076,7 +12076,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HEAT_WAVE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM144Desc,
         .importance = I_REUSABLE_TMS,
@@ -12088,7 +12088,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HURRICANE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM145Desc,
         .importance = I_REUSABLE_TMS,
@@ -12100,7 +12100,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_POWER_WHIP] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM146Desc,
         .importance = I_REUSABLE_TMS,
@@ -12112,7 +12112,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HIGH_HORSEPOWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM147Desc,
         .importance = I_REUSABLE_TMS,
@@ -12124,7 +12124,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BUG_BUZZ] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM148Desc,
         .importance = I_REUSABLE_TMS,
@@ -12136,7 +12136,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PHANTOM_FORCE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM149Desc,
         .importance = I_REUSABLE_TMS,
@@ -12148,7 +12148,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_FLARE_BLITZ] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM150Desc,
         .importance = I_REUSABLE_TMS,
@@ -12160,7 +12160,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STORED_POWER] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM151Desc,
         .importance = I_REUSABLE_TMS,
@@ -12172,7 +12172,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GUNK_SHOT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM152Desc,
         .importance = I_REUSABLE_TMS,
@@ -12184,7 +12184,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TAILWIND] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM153Desc,
         .importance = I_REUSABLE_TMS,
@@ -12196,7 +12196,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_MEGAHORN] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM154Desc,
         .importance = I_REUSABLE_TMS,
@@ -12208,7 +12208,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRACO_METEOR] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM155Desc,
         .importance = I_REUSABLE_TMS,
@@ -12220,7 +12220,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_CLOSE_COMBAT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM156Desc,
         .importance = I_REUSABLE_TMS,
@@ -12232,7 +12232,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_MOONBLAST] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM157Desc,
         .importance = I_REUSABLE_TMS,
@@ -12244,7 +12244,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_BODY_SLAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM158Desc,
         .importance = I_REUSABLE_TMS,
@@ -12256,7 +12256,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PLAY_ROUGH] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM159Desc,
         .importance = I_REUSABLE_TMS,
@@ -12268,7 +12268,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_WATER_PULSE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM160Desc,
         .importance = I_REUSABLE_TMS,
@@ -12282,7 +12282,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DARK_HOLE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM161Desc,
         .importance = I_REUSABLE_TMS,
@@ -12296,7 +12296,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SLUDGE_WAVE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM162Desc,
         .importance = I_REUSABLE_TMS,
@@ -12310,7 +12310,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SUPERCELL_SLAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM163Desc,
         .importance = I_REUSABLE_TMS,
@@ -12324,7 +12324,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TEMPER_FLARE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM164Desc,
         .importance = I_REUSABLE_TMS,
@@ -12338,7 +12338,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SCALE_SHOT] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM165Desc,
         .importance = I_REUSABLE_TMS,
@@ -12352,7 +12352,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_PSYCHIC_NOISE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM166Desc,
         .importance = I_REUSABLE_TMS,
@@ -12366,7 +12366,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_ALLURING_VOICE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM167Desc,
         .importance = I_REUSABLE_TMS,
@@ -12380,7 +12380,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_VACUUM_WAVE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM168Desc,
         .importance = I_REUSABLE_TMS,
@@ -12394,7 +12394,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_SPIKES] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM169Desc,
         .importance = I_REUSABLE_TMS,
@@ -12408,7 +12408,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_STEEL_BEAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM170Desc,
         .importance = I_REUSABLE_TMS,
@@ -12422,7 +12422,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_DRACO_BARRAGE] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM171Desc,
         .importance = I_REUSABLE_TMS,
@@ -12436,7 +12436,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_HEAVY_SLAM] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM172Desc,
         .importance = I_REUSABLE_TMS,
@@ -12450,7 +12450,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_GRAVITY] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM173Desc,
         .importance = I_REUSABLE_TMS,
@@ -12464,7 +12464,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_MISTY_EXPLOSION] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM174Desc,
         .importance = I_REUSABLE_TMS,
@@ -12478,7 +12478,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM175] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM175Desc,
         .importance = I_REUSABLE_TMS,
@@ -12492,7 +12492,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM176] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM176Desc,
         .importance = I_REUSABLE_TMS,
@@ -12506,7 +12506,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM177] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM177Desc,
         .importance = I_REUSABLE_TMS,
@@ -12520,7 +12520,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM178] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM178Desc,
         .importance = I_REUSABLE_TMS,
@@ -12534,7 +12534,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM179] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM179Desc,
         .importance = I_REUSABLE_TMS,
@@ -12548,7 +12548,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM180] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM180Desc,
         .importance = I_REUSABLE_TMS,
@@ -12562,7 +12562,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM181] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM181Desc,
         .importance = I_REUSABLE_TMS,
@@ -12576,7 +12576,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM182] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM182Desc,
         .importance = I_REUSABLE_TMS,
@@ -12589,7 +12589,7 @@ const struct Item gItemsInfo[] =
     },
     [ITEM_TM183] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM183Desc,
         .importance = I_REUSABLE_TMS,
@@ -12603,7 +12603,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM184] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM184Desc,
         .importance = I_REUSABLE_TMS,
@@ -12617,7 +12617,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM185] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM185Desc,
         .importance = I_REUSABLE_TMS,
@@ -12631,7 +12631,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM186] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM186Desc,
         .importance = I_REUSABLE_TMS,
@@ -12645,7 +12645,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM187] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM187Desc,
         .importance = I_REUSABLE_TMS,
@@ -12659,7 +12659,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM188] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM188Desc,
         .importance = I_REUSABLE_TMS,
@@ -12673,7 +12673,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM189] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM189Desc,
         .importance = I_REUSABLE_TMS,
@@ -12687,7 +12687,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM190] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM190Desc,
         .importance = I_REUSABLE_TMS,
@@ -12701,7 +12701,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM191] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM191Desc,
         .importance = I_REUSABLE_TMS,
@@ -12715,7 +12715,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM192] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM192Desc,
         .importance = I_REUSABLE_TMS,
@@ -12729,7 +12729,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM193] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM193Desc,
         .importance = I_REUSABLE_TMS,
@@ -12743,7 +12743,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM194] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM194Desc,
         .importance = I_REUSABLE_TMS,
@@ -12757,7 +12757,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM195] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM195Desc,
         .importance = I_REUSABLE_TMS,
@@ -12771,7 +12771,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM196] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM196Desc,
         .importance = I_REUSABLE_TMS,
@@ -12785,7 +12785,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM197] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM197Desc,
         .importance = I_REUSABLE_TMS,
@@ -12799,7 +12799,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM198] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM198Desc,
         .importance = I_REUSABLE_TMS,
@@ -12813,7 +12813,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM199] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM199Desc,
         .importance = I_REUSABLE_TMS,
@@ -12827,7 +12827,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM200] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM200Desc,
         .importance = I_REUSABLE_TMS,
@@ -12841,7 +12841,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM201] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM201Desc,
         .importance = I_REUSABLE_TMS,
@@ -12855,7 +12855,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM202] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM202Desc,
         .importance = I_REUSABLE_TMS,
@@ -12869,7 +12869,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM203] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM203Desc,
         .importance = I_REUSABLE_TMS,
@@ -12883,7 +12883,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM204] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM204Desc,
         .importance = I_REUSABLE_TMS,
@@ -12897,7 +12897,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM205] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM205Desc,
         .importance = I_REUSABLE_TMS,
@@ -12911,7 +12911,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM206] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM206Desc,
         .importance = I_REUSABLE_TMS,
@@ -12925,7 +12925,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM207] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM207Desc,
         .importance = I_REUSABLE_TMS,
@@ -12939,7 +12939,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM208] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM208Desc,
         .importance = I_REUSABLE_TMS,
@@ -12953,7 +12953,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM209] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM209Desc,
         .importance = I_REUSABLE_TMS,
@@ -12967,7 +12967,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM210] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM210Desc,
         .importance = I_REUSABLE_TMS,
@@ -12981,7 +12981,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM211] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM211Desc,
         .importance = I_REUSABLE_TMS,
@@ -12995,7 +12995,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM212] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM212Desc,
         .importance = I_REUSABLE_TMS,
@@ -13009,7 +13009,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM213] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM213Desc,
         .importance = I_REUSABLE_TMS,
@@ -13023,7 +13023,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM214] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM214Desc,
         .importance = I_REUSABLE_TMS,
@@ -13037,7 +13037,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM215] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM215Desc,
         .importance = I_REUSABLE_TMS,
@@ -13051,7 +13051,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM216] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM216Desc,
         .importance = I_REUSABLE_TMS,
@@ -13065,7 +13065,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM217] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM217Desc,
         .importance = I_REUSABLE_TMS,
@@ -13079,7 +13079,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM218] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM218Desc,
         .importance = I_REUSABLE_TMS,
@@ -13093,7 +13093,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM219] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM219Desc,
         .importance = I_REUSABLE_TMS,
@@ -13107,7 +13107,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM220] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM220Desc,
         .importance = I_REUSABLE_TMS,
@@ -13121,7 +13121,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM221] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM221Desc,
         .importance = I_REUSABLE_TMS,
@@ -13135,7 +13135,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM222] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM222Desc,
         .importance = I_REUSABLE_TMS,
@@ -13149,7 +13149,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM223] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM223Desc,
         .importance = I_REUSABLE_TMS,
@@ -13163,7 +13163,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM224] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM224Desc,
         .importance = I_REUSABLE_TMS,
@@ -13177,7 +13177,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM225] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM225Desc,
         .importance = I_REUSABLE_TMS,
@@ -13191,7 +13191,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM226] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM226Desc,
         .importance = I_REUSABLE_TMS,
@@ -13205,7 +13205,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM227] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM227Desc,
         .importance = I_REUSABLE_TMS,
@@ -13219,7 +13219,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM228] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM228Desc,
         .importance = I_REUSABLE_TMS,
@@ -13233,7 +13233,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM229] =
     {
-        .name = _("招式学习器"),
+        .name = _("招式学习"),
         .price = 100,
         .description = sTM229Desc,
         .importance = I_REUSABLE_TMS,
@@ -13431,7 +13431,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_CUT] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Attacks the foe\n"
@@ -13446,7 +13446,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_FLY] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Flies up on the\n"
@@ -13461,7 +13461,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_SURF] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Creates a huge\n"
@@ -13476,7 +13476,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_STRENGTH] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Builds enormous\n"
@@ -13491,7 +13491,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_FLASH] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Looses a powerful\n"
@@ -13506,7 +13506,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_ROCK_SMASH] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A rock-crushingly\n"
@@ -13521,7 +13521,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_HM_WATERFALL] =
     {
-        .name = _("秘传学习器"),
+        .name = _("秘传学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Attacks the foe\n"
@@ -13636,7 +13636,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GRACIDEA] =
     {
-        .name = _("葛拉西蒂亚花"),
+        .name = _("葛拉西蒂"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -13686,7 +13686,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ZYGARDE_CUBE] =
     {
-        .name = _("基格尔德多面体"),
+        .name = _("基格尔德"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -13718,7 +13718,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_N_SOLARIZER] =
     {
-        .name = _("奈克洛索尔合体器"),
+        .name = _("奈克洛索"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -13734,7 +13734,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_N_LUNARIZER] =
     {
-        .name = _("奈克洛露奈合体器"),
+        .name = _("奈克洛露"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -13834,7 +13834,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MACH_BIKE] =
     {
-        .name = _("音速自行车"),
+        .name = _("音速自行"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A folding bicycle\n"
@@ -13851,7 +13851,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ACRO_BIKE] =
     {
-        .name = _("越野自行车"),
+        .name = _("越野自行"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A folding bicycle\n"
@@ -13951,7 +13951,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_VS_SEEKER] =
     {
-        .name = _("对战搜寻器"),
+        .name = _("对战搜寻"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A rechargeable unit\n"
@@ -13971,7 +13971,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_CASE] =
     {
-        .name = _("招式学习器盒"),
+        .name = _("招式学习"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A convenient case\n"
@@ -14051,7 +14051,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_WAILMER_PAIL] =
     {
-        .name = _("吼吼鲸喷壶"),
+        .name = _("吼吼鲸喷"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A tool used for\n"
@@ -14115,7 +14115,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_POKE_FLUTE] =
     {
-        .name = _("宝可梦之笛"),
+        .name = _("宝可梦之"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A sweet-sounding\n"
@@ -14247,7 +14247,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LETTER] =
     {
-        .name = _("给大吾的信"),
+        .name = _("给大吾的"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A letter to Steven\n"
@@ -14263,7 +14263,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_DEVON_PARTS] =
     {
-        .name = _("得文的物品"),
+        .name = _("得文的物"),
         .pluralName = _("Devon Parts"),
         .price = 0,
         .description = COMPOUND_STRING(
@@ -14297,7 +14297,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_DEVON_SCOPE] =
     {
-        .name = _("得文侦测镜"),
+        .name = _("得文侦测"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A device by Devon\n"
@@ -14361,7 +14361,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KEY_TO_ROOM_1] =
     {
-        .name = _("号客房的钥匙"),
+        .name = _("号客房的"),
         .pluralName = _("Keys to Room 1"),
         .price = 0,
         .description = sKeyToRoomDesc,
@@ -14375,7 +14375,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KEY_TO_ROOM_2] =
     {
-        .name = _("号客房的钥匙"),
+        .name = _("号客房的"),
         .pluralName = _("Keys to Room 2"),
         .price = 0,
         .description = sKeyToRoomDesc,
@@ -14389,7 +14389,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KEY_TO_ROOM_4] =
     {
-        .name = _("号客房的钥匙"),
+        .name = _("号客房的"),
         .pluralName = _("Keys to Room 4"),
         .price = 0,
         .description = sKeyToRoomDesc,
@@ -14403,7 +14403,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_KEY_TO_ROOM_6] =
     {
-        .name = _("号客房的钥匙"),
+        .name = _("号客房的"),
         .pluralName = _("Keys to Room 6"),
         .price = 0,
         .description = sKeyToRoomDesc,
@@ -14448,7 +14448,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CONTEST_PASS] =
     {
-        .name = _("华丽大赛参加证"),
+        .name = _("华丽大赛"),
         .pluralName = _("Contest Passes"),
         .price = 0,
         .description = COMPOUND_STRING(
@@ -14562,7 +14562,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_SILPH_SCOPE] =
     {
-        .name = _("西尔佛检视镜"),
+        .name = _("西尔佛检"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Silph Co's scope\n"
@@ -15165,7 +15165,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_GRISEOUS_CORE] =
     {
-        .name = _("大白金宝玉"),
+        .name = _("大白金宝"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A large, glowing gem\n"
@@ -15527,7 +15527,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_POKE_VIAL] =
     {
-        .name = _("PokéVial"),
+        .name = _("Poké"),
         .price = 0,
         .importance = 1,
         .description = sPokeVialDesc,
@@ -15800,7 +15800,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_POKESHI_DOLL] =
     {
-        .name = _("Pokéshi Doll"),
+        .name = _("Poké"),
         .price = 2000,
         .description = COMPOUND_STRING(
             "A wooden toy\n"
