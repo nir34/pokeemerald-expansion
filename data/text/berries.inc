@@ -111,7 +111,7 @@ Route123_BerryMastersHouse_Text_DoneForToday:
 
 Route123_BerryMastersHouse_Text_HeardAGoodSayingLately:
 	.string "The way my husband grows Berries,\n"
-	.string "oh, he's the best in the world.\p"
+	.string "oh, he's the best 放进了world.\p"
 	.string "He makes me proud, that he does.\p"
 	.string "Incidentally, child, have you heard\n"
 	.string "a good saying lately?$"
@@ -154,7 +154,7 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "Berries grow on trees that thrive\n"
 	.string "only in soft, loamy soil.\p"
 	.string "If you take some Berries, be sure to\n"
-	.string "plant one in the loamy soil again.\p"
+	.string "plant one 放进了loamy soil again.\p"
 	.string "A planted Berry will soon sprout,\n"
 	.string "grow into a plant, flower beautifully,\l"
 	.string "then grow Berries again.\p"
@@ -224,7 +224,7 @@ SootopolisCity_Text_LikeSeasonBornIn:
 	.string "summer, do you like the summer?$"
 
 SootopolisCity_Text_ThenILoveAutumn:
-	.string "Then Kiri was born in the autumn,\n"
+	.string "Then Kiri was born 放进了autumn,\n"
 	.string "so I love the autumn!\p"
 	.string "Which season do you like?$"
 

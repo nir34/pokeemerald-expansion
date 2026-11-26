@@ -572,7 +572,7 @@ MatchCall_DifferentRouteBattleRequestText8::
 	.string "This is {STR_VAR_1} speaking.\p"
 	.string "I hope you're doing well.\n"
 	.string "My Pokémon are very frisky.\p"
-	.string "If you're ever in the area, please\n"
+	.string "If you're ever 放进了area, please\n"
 	.string "give me a rematch.\p"
 	.string "I'll be around {STR_VAR_2}.\n"
 	.string "Until then, good-bye!$"
@@ -646,7 +646,7 @@ MatchCall_PersonalizedText1::
 	.string "{STR_VAR_1}!\p"
 	.string "Well, since we met, have you grown\n"
 	.string "to appreciate the mountains more?\p"
-	.string "I rarely see you in the mountains…\p"
+	.string "I rarely see you 放进了mountains…\p"
 	.string "Next time, we'll meet somewhere\n"
 	.string "around {STR_VAR_2}.$"
 
@@ -801,7 +801,7 @@ MatchCall_PersonalizedText15::
 	.string "The trainers out at sea are\n"
 	.string "the toughest of the tough!\p"
 	.string "You should learn from me and train\n"
-	.string "in the sea…\p"
+	.string "放进了sea…\p"
 	.string "Whoops, giant surf rising!\p"
 	.string "It's a great training opportunity!\n"
 	.string "Sorry, but I have to go!$"
@@ -1061,7 +1061,7 @@ MatchCall_PersonalizedText35::
 
 MatchCall_PersonalizedText36::
 	.string "Yo, this is {STR_VAR_1}! I'm smack\n"
-	.string "in the middle of a triathlon!\p"
+	.string "放进了middle of a triathlon!\p"
 	.string "But, hey, I've always got time to\n"
 	.string "shoot the breeze!\p"
 	.string "Working out with Pokémon feels\n"
@@ -1111,7 +1111,7 @@ MatchCall_PersonalizedText40::
 	.string "Hello, this is {STR_VAR_1}.\p"
 	.string "Out of the three triathlon events,\n"
 	.string "I like swimming best.\p"
-	.string "But if I stay in the sea too long,\n"
+	.string "But if I stay 放进了sea too long,\n"
 	.string "won't I get all prune-like?\p"
 	.string "Ooh, triathlon is such a grueling\n"
 	.string "test of human endurance! Bye!$"
@@ -1134,7 +1134,7 @@ MatchCall_PersonalizedText42::
 MatchCall_PersonalizedText43::
 	.string "It is {STR_VAR_1} here.\p"
 	.string "I have continued with my studies\n"
-	.string "in the art of concealment.\p"
+	.string "放进了art of concealment.\p"
 	.string "But I have been too successful.\n"
 	.string "No one has been able to find me.\l"
 	.string "My success makes me lonely…\p"
@@ -1161,7 +1161,7 @@ MatchCall_PersonalizedText45::
 MatchCall_PersonalizedText46::
 	.string "Hi, {STR_VAR_1} here.\p"
 	.string "Did you know that it's easier to\n"
-	.string "float in the sea than a pool?\p"
+	.string "float 放进了sea than a pool?\p"
 	.string "Just by lying still, your body will\n"
 	.string "float on its own.\p"
 	.string "But if you float for too long,\n"
@@ -1173,7 +1173,7 @@ MatchCall_PersonalizedText46::
 MatchCall_PersonalizedText47::
 	.string "Oh, {PLAYER}{KUN}, hello!\n"
 	.string "This is {STR_VAR_1}.\l"
-	.string "I'm up in the mountains now.\p"
+	.string "I'm up 放进了mountains now.\p"
 	.string "But the ground is too bumpy.\n"
 	.string "I can't pitch my tent here…\p"
 	.string "Oh, I had a brilliant idea!\p"
@@ -1210,7 +1210,7 @@ MatchCall_PersonalizedText50::
 MatchCall_PersonalizedText51::
 	.string "This is {STR_VAR_1}.\p"
 	.string "Are you raising your Pokémon\n"
-	.string "in the optimal way?\p"
+	.string "放进了optimal way?\p"
 	.string "The air is clean where I am.\n"
 	.string "It's the perfect environment for\l"
 	.string "raising Pokémon.\p"
@@ -1230,7 +1230,7 @@ MatchCall_PersonalizedText52::
 MatchCall_PersonalizedText53::
 	.string "{STR_VAR_1} here.\p"
 	.string "If you cooperate with Pokémon,\n"
-	.string "one can be comfortable in the wild.\p"
+	.string "one can be comfortable 放进了wild.\p"
 	.string "Everyone should realize that and\n"
 	.string "cooperate with Pokémon more.\p"
 	.string "That would be ideal.\n"
@@ -1901,7 +1901,7 @@ MatchCall_BattlePyramidText2::
 	.string "Hello, it's {STR_VAR_1}!\n"
 	.string "I heard about you!\p"
 	.string "They said you won your way through\n"
-	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
+	.string "{STR_VAR_3} floors 放进了{STR_VAR_2}.\p"
 	.string "Wow, that's fantastic!\n"
 	.string "I'd better raise my Pokémon, too!$"
 
@@ -1910,7 +1910,7 @@ MatchCall_BattlePyramidText3::
 	.string "It's me, {STR_VAR_1}.\l"
 	.string "How's it going?\p"
 	.string "I heard you climbed {STR_VAR_3} floors\n"
-	.string "in the {STR_VAR_2}!\p"
+	.string "放进了{STR_VAR_2}!\p"
 	.string "Try to do even better next time!\n"
 	.string "Catch you soon!$"
 
@@ -1918,7 +1918,7 @@ MatchCall_BattlePyramidText4::
 	.string "Hey, {PLAYER}{KUN}.\n"
 	.string "{STR_VAR_1} here.\p"
 	.string "I heard you scaled {STR_VAR_3} floors\n"
-	.string "in the {STR_VAR_2}.\p"
+	.string "放进了{STR_VAR_2}.\p"
 	.string "I'd better work hard and try\n"
 	.string "to keep up!$"
 
@@ -1926,7 +1926,7 @@ MatchCall_BattlePyramidText5::
 	.string "Hiya, {PLAYER}{KUN}!\n"
 	.string "It's {STR_VAR_1}.\p"
 	.string "I heard you climbed {STR_VAR_3} floors\n"
-	.string "in the {STR_VAR_2}.\p"
+	.string "放进了{STR_VAR_2}.\p"
 	.string "I'd better get with it, too!\n"
 	.string "See you soon!$"
 
@@ -1934,7 +1934,7 @@ MatchCall_BattlePyramidText6::
 	.string "Hey, {PLAYER}{KUN}?\n"
 	.string "{STR_VAR_1} here. How are you?\p"
 	.string "By the way, I heard you got through\n"
-	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
+	.string "{STR_VAR_3} floors 放进了{STR_VAR_2}.\p"
 	.string "I'd better raise my Pokémon before\n"
 	.string "you pull further ahead.$"
 
@@ -1954,7 +1954,7 @@ MatchCall_BattlePyramidText8::
 	.string "I hope you're doing well.\l"
 	.string "Oh, but, you are.\p"
 	.string "I've heard that you got through\n"
-	.string "{STR_VAR_3} floors in the {STR_VAR_2}.\p"
+	.string "{STR_VAR_3} floors 放进了{STR_VAR_2}.\p"
 	.string "That's quite impressive!\n"
 	.string "I must raise my Pokémon like you.\l"
 	.string "See you again.$"
@@ -1963,7 +1963,7 @@ MatchCall_BattlePyramidText9::
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"
 	.string "This is {STR_VAR_1}!\p"
 	.string "I heard! You won your way through\n"
-	.string "{STR_VAR_3} floors in the {STR_VAR_2}!\p"
+	.string "{STR_VAR_3} floors 放进了{STR_VAR_2}!\p"
 	.string "That is so cool!\n"
 	.string "I'd better try harder, too!$"
 
@@ -2001,7 +2001,7 @@ MatchCall_BattlePyramidText13::
 	.string "This is {STR_VAR_1}!\l"
 	.string "I hope you've been keeping well.\p"
 	.string "They say you climbed {STR_VAR_3} floors\n"
-	.string "in the {STR_VAR_2}?\p"
+	.string "放进了{STR_VAR_2}?\p"
 	.string "I admire your energy!\n"
 	.string "Bye now.$"
 
@@ -2010,7 +2010,7 @@ MatchCall_BattlePyramidText14::
 	.string "This is {STR_VAR_1}.\l"
 	.string "I heard about you!\p"
 	.string "Didn't you get through {STR_VAR_3} floors\n"
-	.string "in the {STR_VAR_2}?\p"
+	.string "放进了{STR_VAR_2}?\p"
 	.string "You're an inspiration!\n"
 	.string "See you again!$"
 
@@ -2025,7 +2025,7 @@ MatchCall_Text_Mom1::
 MatchCall_Text_Mom2::
 	.string "Mom: Hi, {PLAYER}!\n"
 	.string "Your father keeps himself locked\l"
-	.string "away in the Petalburg Gym.\p"
+	.string "away 放进了Petalburg Gym.\p"
 	.string "He comes home every so often.\n"
 	.string "But he goes back to the Gym when\l"
 	.string "he's eaten everything he can.\p"
@@ -2156,7 +2156,7 @@ MatchCall_Text_Flannery3::
 	.string "Flannery: Oh, {PLAYER}?\n"
 	.string "Our Gym's ready!\p"
 	.string "Come to Lavaridge for a soak\n"
-	.string "in the hot spring and a challenge!$"
+	.string "放进了hot spring and a challenge!$"
 
 MatchCall_Text_Flannery4::
 	.string "Flannery: {PLAYER}…\n"
@@ -2313,7 +2313,7 @@ MatchCall_Text_MayRayquazaCall:
 	.string "I was just in Pacifidlog a little\n"
 	.string "while ago.\p"
 	.string "I saw a giant green Pokémon\n"
-	.string "flying high in the sky.\p"
+	.string "flying high 放进了sky.\p"
 	.string "I…\n"
 	.string "I've never seen anything like it.\p"
 	.string "I wonder what it was.\n"
@@ -2380,7 +2380,7 @@ MatchCall_Text_May5::
 MatchCall_Text_May6::
 	.string "May: Hi, {PLAYER}{KUN}!\p"
 	.string "Did you know about the Mirage\n"
-	.string "Tower in the desert?\p"
+	.string "Tower 放进了desert?\p"
 	.string "They say, like a mirage, it seems\n"
 	.string "to mysteriously come and go.\p"
 	.string "I wish I could see it.$"
@@ -2501,13 +2501,13 @@ MatchCall_Text_Brendan5::
 	.string "Hey, I'm out on Route 111 now.\p"
 	.string "I'm going to rest up at an old\n"
 	.string "lady's house north of the desert.\p"
-	.string "If you're in the area, you should\n"
+	.string "If you're 放进了area, you should\n"
 	.string "visit her, too.$"
 
 MatchCall_Text_Brendan6::
 	.string "Brendan: Hey, {PLAYER}!\p"
 	.string "Did you know about the Mirage\n"
-	.string "Tower in the desert?\p"
+	.string "Tower 放进了desert?\p"
 	.string "They say, like a mirage, it can be\n"
 	.string "seen only sometimes.\p"
 	.string "I'd like to see that!$"
@@ -2644,7 +2644,7 @@ MatchCall_Text_Scott1::
 	.string "Scott: Howdy, {PLAYER}{KUN}!\p"
 	.string "You know how Pokémon can be found\n"
 	.string "everywhere?\p"
-	.string "Like in the mountains, in the sea,\n"
+	.string "Like 放进了mountains, 放进了sea,\n"
 	.string "in tall grass anywhere?\p"
 	.string "Just like Pokémon, you can find\n"
 	.string "trainers everywhere, too.\p"
@@ -2713,7 +2713,7 @@ MatchCall_Text_Norman1::
 	.string "Dad: In Rustboro, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the CUTTER.\p"
-	.string "If you're in the area, you should\n"
+	.string "If you're 放进了area, you should\n"
 	.string "pay him a visit.$"
 
 MatchCall_Text_Norman2::
@@ -2751,7 +2751,7 @@ MatchCall_Text_Norman5::
 MatchCall_Text_Norman6::
 	.string "Dad: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
-	.string "You caught me right in the middle\n"
+	.string "You caught me right 放进了middle\n"
 	.string "of a Pokémon training session!$"
 
 MatchCall_Text_Norman7::
@@ -2766,7 +2766,7 @@ MatchCall_Text_Norman8::
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
-	.string "I'm waiting in the Petalburg Gym.\n"
+	.string "I'm waiting 放进了Petalburg Gym.\n"
 	.string "Accept my challenge anytime!$"
 
 MatchCall_Text_Norman9::
@@ -2839,12 +2839,12 @@ MatchCall_Text_BirchRegisterCall:
 	.string "Well, I should register, too!\p"
 	.string "That way, I'd be able to examine\n"
 	.string "your Pokédex even while you're\l"
-	.string "out in the field.\p"
+	.string "out 放进了field.\p"
 	.string "… … … … … …$"
 
 MatchCall_Text_RegisteredBirch:
 	.string "Registered Prof. Birch\n"
-	.string "in the PokéNav.$"
+	.string "放进了PokéNav.$"
 
 MatchCall_Text_UnusedProfBirch:
 	.string "Prof. Birch: When one has both\n"
@@ -2891,7 +2891,7 @@ MatchCall_Text_MrStone4::
 	.string "Did you know that Devon was\n"
 	.string "digging the Rusturf Tunnel?\p"
 	.string "But we shut down the operation to\n"
-	.string "protect the Pokémon in the area.\p"
+	.string "protect the Pokémon 放进了area.\p"
 	.string "It's a no-brainer, really.\p"
 	.string "It's more important to let Pokémon\n"
 	.string "live in peace than worry about our\l"

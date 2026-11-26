@@ -41,7 +41,7 @@ BattleDome_Text_Potential14::
 	.string "A team with very low potential.$"
 
 BattleDome_Text_Potential15::
-	.string "A team unlikely to win the tournament.$"
+	.string "A team unlikely to w放进了tournament.$"
 
 BattleDome_Text_Potential16::
 	.string "The team most unlikely to win.$"

@@ -36,7 +36,7 @@ gBirchDexRatingText_LessThan50::
 
 gBirchDexRatingText_LessThan60::
 	.string "Are you using any RODS?\n"
-	.string "There are many Pokémon in the sea.$"
+	.string "There are many Pokémon 放进了sea.$"
 
 gBirchDexRatingText_LessThan70::
 	.string "Instead of just catching Pokémon,\n"
@@ -76,7 +76,7 @@ gBirchDexRatingText_LessThan140::
 
 gBirchDexRatingText_LessThan150::
 	.string "I had no idea that there were so\n"
-	.string "many Pokémon species in the HOENN\l"
+	.string "many Pokémon species 放进了HOENN\l"
 	.string "region.$"
 
 gBirchDexRatingText_LessThan160::

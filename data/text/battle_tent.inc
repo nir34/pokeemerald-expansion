@@ -17,9 +17,9 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 	.string "All participants enter with a team of\n"
 	.string "three POKéMON.\p"
 	.string "The three POKéMON must be lined up\n"
-	.string "in the order that they are to appear in.\p"
+	.string "放进了order that they are to appear in.\p"
 	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
+	.string "one at a time 放进了preset order.\p"
 	.string "Once a POKéMON enters battle, it must\n"
 	.string "remain out until the match is decided.\p"
 	.string "If a match remains undecided in\n"
@@ -336,7 +336,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules:
 	.string "swap for one of your defeated\l"
 	.string "opponent's POKéMON.\p"
 	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
+	.string "with the third TRAINER 放进了event.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "There are two key points to be aware\n"
@@ -370,7 +370,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
 	.string "Here at the VERDANTURF BATTLE TENT,\n"
 	.string "POKéMON are required to think and\l"
 	.string "battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
+	.string "Unlike 放进了wild, POKéMON that live\n"
 	.string "with people behave differently\l"
 	.string "depending on their nature.$"
 

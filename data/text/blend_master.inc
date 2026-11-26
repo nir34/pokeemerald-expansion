@@ -48,7 +48,7 @@ BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "You don't appear to have gotten\n"
 	.string "the {POKEBLOCK} CASE!\p"
 	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "Obta放进了{POKEBLOCK} CASE and hurry back!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
 	.string "Hmmm!\p"
@@ -80,6 +80,6 @@ BerryBlender_Text_QualitiesOfBlendMaster:
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
 	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
+	.string "on his skills deep 放进了mountains.\p"
 	.string "Sometimes, he comes to LILYCOVE\n"
 	.string "to blend BERRIES all day long.$"

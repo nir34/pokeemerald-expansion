@@ -6,14 +6,14 @@ gText_TheBagIsFull::
 
 gText_PutItemInPocket::
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} Pocket.$"
+	.string "放进了{STR_VAR_3} Pocket.$"
 
 gText_PutItemInPC::
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the PC since Bag is full.$"
+	.string "放进了PC since Bag is full.$"
 
 gText_PlayerFoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{PLAYER}发现了{STR_VAR_2}!$"
 
 gText_TooBadBagIsFull::
 	.string "Too bad!\n"
@@ -25,7 +25,7 @@ gText_TooBadBagAndPCAreFull::
 
 gText_PlayerPutItemInBag::
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the Bag.$"
+	.string "放进了Bag.$"
 
 gText_ObtainedTheDecor::
 	.string "Obtained the {STR_VAR_2}!$"

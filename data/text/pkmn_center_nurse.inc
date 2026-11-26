@@ -10,12 +10,12 @@ gText_IllTakeYourPkmn::
 	.string "for a few seconds.$"
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
+	.string "久等了。\p"
 	.string "We've restored your Pokémon\n"
 	.string "to full health.$"
 
 gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "期待您的再次光临！$"
 
 gText_WelcomeCutShort::
 	.string "Hello, and welcome to\n"
@@ -45,7 +45,7 @@ gText_IllTakeYourPkmn2::
 	.string "for a few seconds.$"
 
 gText_ThankYouForWaiting::
-	.string "Thank you for waiting.$"
+	.string "久等了。$"
 
 gText_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+	.string "期待您的再次光临！$"

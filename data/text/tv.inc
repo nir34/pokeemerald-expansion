@@ -49,7 +49,7 @@ gTVBravoTrainerText00::
 	.string "Today, we're going to profile a POKéMON\n"
 	.string "belonging to {STR_VAR_1}.\p"
 	.string "Now, this POKéMON boasts a {STR_VAR_3}\n"
-	.string "Rank in the {STR_VAR_2} Category.$"
+	.string "Rank 放进了{STR_VAR_2} Category.$"
 
 gTVBravoTrainerText01::
 	.string "Introducing {STR_VAR_2} the\n"
@@ -69,7 +69,7 @@ gTVBravoTrainerText03::
 	.string "{STR_VAR_1} happily replied with a huge\l"
 	.string "grin, “{STR_VAR_2}!”\p"
 	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
+	.string "number {STR_VAR_3} 放进了CONTEST.\p"
 	.string "That line perfectly suits {STR_VAR_1}\n"
 	.string "right now, I'd say!$"
 
@@ -78,7 +78,7 @@ gTVBravoTrainerText04::
 	.string "{STR_VAR_1} replied with a tinge of\l"
 	.string "bitterness, “{STR_VAR_2}.”\p"
 	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
+	.string "number {STR_VAR_3} 放进了CONTEST.\p"
 	.string "{STR_VAR_1}'s disappointment comes across\n"
 	.string "loud and clear, I'd say!$"
 
@@ -184,7 +184,7 @@ BravoTrainerBattleTower_Text_Lost::
 	.string "{STR_VAR_1} in match number {STR_VAR_2}.\l"
 	.string "Nice try, TRAINER!\p"
 	.string "But, hey, it's just bad luck to run into\n"
-	.string "{STR_VAR_1} so early in the challenge.\p"
+	.string "{STR_VAR_1} so early 放进了challenge.\p"
 	.string "We asked the TRAINER for impressions\n"
 	.string "on the match with {STR_VAR_1}.$"
 
@@ -563,14 +563,14 @@ gTVMassOutbreakText00::
 	.string "We've just received word of a very\n"
 	.string "rare occurrence.\p"
 	.string "There have been reports of a mass\n"
-	.string "outbreak of {STR_VAR_2} in the vicinity\l"
+	.string "outbreak of {STR_VAR_2} 放进了vicinity\l"
 	.string "of {STR_VAR_1}.\p"
 	.string "{STR_VAR_2}, as you're probably aware,\n"
 	.string "is known as a POKéMON that's rare\l"
 	.string "and hard to find.\p"
 	.string "It sounds like a rare opportunity to\n"
 	.string "see the mystifying outbreak of\l"
-	.string "{STR_VAR_2} in the wild.\p"
+	.string "{STR_VAR_2} 放进了wild.\p"
 	.string "That's the news on POKéMON NEWS.$"
 
 gTV3CheersForPokeblocksText00::
@@ -1025,7 +1025,7 @@ gTVPokemonTodaySuccessfulText11::
 	.string "Well, gang, this is it for today.\n"
 	.string "See you again next time!\p"
 	.string "BIG BRO: Remember, it could be your\n"
-	.string "POKéMON in the spotlight next time!$"
+	.string "POKéMON 放进了spotlight next time!$"
 
 SmartShopper_Text_Intro::
 	.string "Hello!\p"
@@ -1178,24 +1178,24 @@ gTVTodaysRivalTrainerText07::
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's around {STR_VAR_3} now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the Pokédex.$"
+	.string "{STR_VAR_2} POKéMON 放进了Pokédex.$"
 
 gTVTodaysRivalTrainerText08::
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's in a SECRET BASE now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the Pokédex.$"
+	.string "{STR_VAR_2} POKéMON 放进了Pokédex.$"
 
 gTVTodaysRivalTrainerText09::
 	.string "Today's rival TRAINER is {STR_VAR_1}.\p"
 	.string "So far, {STR_VAR_1} has registered\n"
-	.string "{STR_VAR_2} POKéMON in the Pokédex.$"
+	.string "{STR_VAR_2} POKéMON 放进了Pokédex.$"
 
 gTVTodaysRivalTrainerText10::
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's on a ferry now.\p"
 	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the Pokédex.$"
+	.string "{STR_VAR_2} POKéMON 放进了Pokédex.$"
 
 	.string "$"
 
@@ -1916,14 +1916,14 @@ gTVPokemonNewsBattleFrontierText04::
 gTVPokemonNewsBattleFrontierText05::
 	.string "The TRAINER {STR_VAR_1} set a new\n"
 	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
+	.string "competing 放进了BATTLE DOME's\l"
 	.string "SINGLE BATTLE Tournaments.\p"
 	.string "Here's to {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText06::
 	.string "The TRAINER {STR_VAR_1} set a new\n"
 	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
+	.string "competing 放进了BATTLE DOME's\l"
 	.string "DOUBLE BATTLE Tournaments.\p"
 	.string "Here's to {STR_VAR_1}!$"
 
@@ -1951,7 +1951,7 @@ gTVPokemonNewsBattleFrontierText09::
 gTVPokemonNewsBattleFrontierText10::
 	.string "The TRAINER {STR_VAR_1} set a new\n"
 	.string "{STR_VAR_2}-win-streak record while\l"
-	.string "competing in the BATTLE ARENA's\l"
+	.string "competing 放进了BATTLE ARENA's\l"
 	.string "Set KO Tournaments.\p"
 	.string "Here's to {STR_VAR_1}!$"
 
@@ -2083,7 +2083,7 @@ gTVWhatsNo1InHoennTodayText08::
 
 TVSecretBaseSecrets_Text_Intro::
 	.string "SECRET BASE SECRETS!\p"
-	.string "What do TRAINERS do in the secrecy\n"
+	.string "What do TRAINERS do 放进了secrecy\n"
 	.string "of SECRET BASES?\p"
 	.string "Today, we investigate {STR_VAR_1}'s\n"
 	.string "SECRET BASE.\p"
@@ -2369,7 +2369,7 @@ gTVSafariFanClubText00::
 	.string "SAFARI FAN CLUB!\p"
 	.string "REPORTER: All right, mates!\n"
 	.string "Tossing them SAFARI BALLS, are you?\p"
-	.string "You can bet I am here in the SAFARI\n"
+	.string "You can bet I am here 放进了SAFARI\n"
 	.string "ZONE chock-full of amazing POKéMON!\p"
 	.string "Let's get with it and have a chat with\n"
 	.string "this good fellow of a SAFARI GUIDE!\p"
@@ -2464,8 +2464,8 @@ ContestLiveUpdates_Text_WonBothRounds::
 
 ContestLiveUpdates_Text_BetterRound2::
 	.string "Spectator: The {STR_VAR_2} didn't do\n"
-	.string "well in the primary judging, but it\l"
-	.string "cleaned up in the secondary judging!\p"
+	.string "well 放进了primary judging, but it\l"
+	.string "cleaned up 放进了secondary judging!\p"
 	.string "It was a miraculous comeback\n"
 	.string "for that {STR_VAR_2}. Yippee!$"
 
@@ -2597,8 +2597,8 @@ ContestLiveUpdates_Text_NotExcitingEnough::
 	.string "excitement to a fever pitch next time.$"
 
 ContestLiveUpdates_Text_LostAfterWinningRound1::
-	.string "While finishing first in the primary\n"
-	.string "judging, its appeals in the secondary\l"
+	.string "While finishing first 放进了primary\n"
+	.string "judging, its appeals 放进了secondary\l"
 	.string "judging failed to click.\p"
 	.string "It suffered a humiliating come-from-\n"
 	.string "behind loss.\p"
@@ -2837,7 +2837,7 @@ gTVInSearchOfTrainersText00::
 	.string "GABBY: Hi! Today I'm visiting an area\n"
 	.string "near {STR_VAR_1}.\p"
 	.string "We're trying to spot some up-and-\n"
-	.string "coming new talent in the field.\p"
+	.string "coming new talent 放进了field.\p"
 	.string "Today, we turned our lens on the\n"
 	.string "TRAINER {PLAYER}.\p"
 	.string "There's something about this TRAINER\n"
@@ -2869,7 +2869,7 @@ gTVInSearchOfTrainersText03::
 	.string "{STR_VAR_3} was divine!\p"
 	.string "The sight of them--{STR_VAR_1} and\n"
 	.string "{STR_VAR_3}--selflessly supporting\l"
-	.string "each other in the thick of battle…\p"
+	.string "each other 放进了thick of battle…\p"
 	.string "It was a marvelous sight to behold!\p"
 	.string "{STR_VAR_2} was the move the TRAINER\n"
 	.string "used last in our battle.\p"

@@ -396,7 +396,7 @@ CableClub_Text_WelcomeUnionRoomEnter:
 	.string "Would you like to enter the ROOM?$"
 
 CableClub_Text_UnionRoomInfo:
-	.string "The TRAINERS in the UNION ROOM\n"
+	.string "The TRAINERS 放进了UNION ROOM\n"
 	.string "will be those players around you\l"
 	.string "who have also entered the ROOM.\p"
 	.string "You may do all sorts of things\n"
@@ -470,7 +470,7 @@ CableClub_Text_ExplainWirelessClub:
 	.string "You may trade or battle POKéMON\n"
 	.string "with your friends in this room.\p"
 	.string "Sometimes, you may not be able to\n"
-	.string "find your friends in the UNION ROOM\l"
+	.string "find your friends 放进了UNION ROOM\l"
 	.string "or the DIRECT CORNER.\p"
 	.string "In that case, please move closer\n"
 	.string "to your friends.\p"

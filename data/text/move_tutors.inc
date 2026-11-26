@@ -44,7 +44,7 @@ MoveTutor_Text_RolloutWhichMon:
 	.string "the POKéMON looked like me.$"
 
 MoveTutor_Text_RolloutTaught:
-	.string "Rolling around in the grass makes me\n"
+	.string "Rolling around 放进了grass makes me\n"
 	.string "happy. Come on, let's roll!$"
 
 MoveTutor_Text_FuryCutterTeach:
@@ -213,7 +213,7 @@ MoveTutor_Text_DoubleEdgeTaught:
 
 MoveTutor_Text_ExplosionTeach:
 	.string "I don't intend to be going nowhere\n"
-	.string "fast in the sticks like this forever.\p"
+	.string "fast 放进了sticks like this forever.\p"
 	.string "You watch me, I'll get out to the city\n"
 	.string "and become a huge hit.\p"
 	.string "Seriously, I'm going to cause\n"
@@ -223,7 +223,7 @@ MoveTutor_Text_ExplosionTeach:
 
 MoveTutor_Text_ExplosionDeclined:
 	.string "Gaah! You're turning me down because\n"
-	.string "I live in the country?$"
+	.string "I live 放进了country?$"
 
 MoveTutor_Text_ExplosionWhichMon:
 	.string "Fine! An EXPLOSION it is!\n"

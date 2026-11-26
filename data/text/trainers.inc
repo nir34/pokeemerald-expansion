@@ -282,7 +282,7 @@ Route104_Text_IvanPostBattle:
 	.string "I forgot I had to raise my Pokémon…$"
 
 Route104_Text_BillyIntro:
-	.string "Leaving footprints in the sand is\n"
+	.string "Leaving footprints 放进了sand is\n"
 	.string "so fun!$"
 
 Route104_Text_BillyDefeat:
@@ -454,7 +454,7 @@ Route105_Text_DominikPostBattle:
 	.string "SLATEPORT, but I forgot.$"
 
 Route105_Text_BeverlyIntro:
-	.string "My body feels lighter in the water.\n"
+	.string "My body feels lighter 放进了water.\n"
 	.string "It's as if I've gotten slimmer!$"
 
 Route105_Text_BeverlyDefeated:
@@ -462,7 +462,7 @@ Route105_Text_BeverlyDefeated:
 
 Route105_Text_PostBattle:
 	.string "Your body weight is reduced to just\n"
-	.string "one tenth in the water.\p"
+	.string "one tenth 放进了water.\p"
 	.string "That would make me…\n"
 	.string "Whoops! I'm not telling you my weight!$"
 
@@ -488,7 +488,7 @@ Route105_Text_AndresDefeated:
 
 Route105_Text_AndresPostBattle:
 	.string "I'm sure there are many secrets to be\n"
-	.string "discovered in the world's seas.\p"
+	.string "discovered 放进了world's seas.\p"
 	.string "I mean to find them all!$"
 
 Route105_Text_AndresRegister:
@@ -531,7 +531,7 @@ Route106_Text_ElliotDefeated:
 
 Route106_Text_ElliotPostBattle:
 	.string "Fishing is the greatest whether it's\n"
-	.string "in the sea or a stream.\l"
+	.string "放进了sea or a stream.\l"
 	.string "You agree with me, right?$"
 
 Route106_Text_ElliotRegister:
@@ -553,7 +553,7 @@ Route106_Text_NedIntro:
 	.string "What do people do if they need to go\n"
 	.string "to a washroom?\p"
 	.string "What if my ROD hooks a big one while\n"
-	.string "I'm in the washroom? I just can't go…$"
+	.string "I'm 放进了washroom? I just can't go…$"
 
 Route106_Text_NedDefeated:
 	.string "I lost because I'm trying to not go\n"
@@ -588,7 +588,7 @@ Route106_Text_KylaPostBattle:
 Route107_Text_DarrinIntro:
 	.string "Yawn…\p"
 	.string "I must have drifted off to sleep while\n"
-	.string "I was drifting in the waves.$"
+	.string "I was drifting 放进了waves.$"
 
 Route107_Text_DarrinDefeated:
 	.string "Ahaha, I lost…\n"
@@ -618,7 +618,7 @@ Route107_Text_TonyRegister:
 	.string "Well, so you won't forget me…$"
 
 Route107_Text_TonyRematchIntro:
-	.string "Swimming in the big, wide sea,\n"
+	.string "Swimming 放进了big, wide sea,\n"
 	.string "my Pokémon has grown stronger!$"
 
 Route107_Text_TonyRematchDefeated:
@@ -689,7 +689,7 @@ Route107_Text_RayNotEnoughPokemon:
 	.string "go bring some more Pokémon!$"
 
 Route107_Text_CamronIntro:
-	.string "I'm in the middle of a triathlon,\n"
+	.string "I'm 放进了middle of a triathlon,\n"
 	.string "but I'm nowhere near tired!$"
 
 Route107_Text_CamronDefeated:
@@ -1041,7 +1041,7 @@ Route110_Text_BenjaminRematchPostBattle:
 	.string "Take it easy. There's plenty of time.$"
 
 Route110_Text_AbigailIntro:
-	.string "The triathlon is hard in the extreme.\p"
+	.string "The triathlon is hard 放进了extreme.\p"
 	.string "You have to complete the three events\n"
 	.string "of swimming, cycling, and running.$"
 
@@ -1174,7 +1174,7 @@ Route110_Text_IsabelRematchPostBattle:
 	.string "But I like to battle, too!$"
 
 Route110_Text_TimmyIntro:
-	.string "I found some cool Pokémon in the grass\n"
+	.string "I found some cool Pokémon 放进了grass\n"
 	.string "around here!$"
 
 Route110_Text_TimmyDefeated:
@@ -1235,7 +1235,7 @@ Route111_Text_DrewPostBattle:
 	.string "That makes me happy!$"
 
 Route111_Text_HeidiIntro:
-	.string "I'm having a picnic in the desert.\p"
+	.string "I'm having a picnic 放进了desert.\p"
 	.string "You can always find a trainer,\n"
 	.string "so I can enjoy a battle here, too!$"
 
@@ -1263,13 +1263,13 @@ Route111_Text_BeauPostBattle:
 
 Route111_Text_BeckyIntro:
 	.string "I heard there are fossils to be found\n"
-	.string "in the desert. Where could they be?$"
+	.string "放进了desert. Where could they be?$"
 
 Route111_Text_BeckyDefeat:
 	.string "I came up short…$"
 
 Route111_Text_BeckyPostBattle:
-	.string "If they can find fossils in the desert,\n"
+	.string "If they can find fossils 放进了desert,\n"
 	.string "it must have been a sea before.$"
 
 Route111_Text_DustyIntro:
@@ -1749,7 +1749,7 @@ Route113_Text_SophiePostBattle:
 	.string "Zzz!$"
 
 Route113_Text_LawrenceIntro:
-	.string "Were you maybe in the middle\n"
+	.string "Were you maybe 放进了middle\n"
 	.string "of gathering volcanic ashes?$"
 
 Route113_Text_LawrenceDefeat:
@@ -1790,7 +1790,7 @@ Route114_Text_LennyPostBattle:
 
 Route114_Text_LucasIntro:
 	.string "If you're not prepared, you shouldn't\n"
-	.string "be up in the mountains!$"
+	.string "be up 放进了mountains!$"
 
 Route114_Text_LucasDefeat:
 	.string "The mountains are unforgiving…$"
@@ -1915,7 +1915,7 @@ Route114_Text_NolanPostBattle:
 
 Route114_Text_TyraIntro:
 	.string "TYRA: Well, sure.\n"
-	.string "I'm in the mood for it.\l"
+	.string "I'm 放进了mood for it.\l"
 	.string "I'll teach you a little about Pokémon.$"
 
 Route114_Text_TyraDefeat:
@@ -1962,7 +1962,7 @@ Route114_Text_CharlotteIntro:
 	.string "I'm not just a pretty face!$"
 
 Route114_Text_CharlotteDefeat:
-	.string "That wasn't cute in the least!$"
+	.string "That wasn't cute 放进了least!$"
 
 Route114_Text_CharlottePostBattle:
 	.string "I don't want a Pokémon that's\n"
@@ -2381,7 +2381,7 @@ Route117_Text_LydiaPostRematch:
 	.string "of {POKEBLOCK}S, depending on their nature.$"
 
 Route117_Text_DylanIntro:
-	.string "I'm in the middle of a triathlon, but,\n"
+	.string "I'm 放进了middle of a triathlon, but,\n"
 	.string "whatever, let's have a battle!$"
 
 Route117_Text_DylanDefeat:
@@ -2397,7 +2397,7 @@ Route117_Text_DylanRegister:
 	.string "I'd like you to train me!$"
 
 Route117_Text_DylanRematchIntro:
-	.string "I'm smack in the middle of a triathlon,\n"
+	.string "I'm smack 放进了middle of a triathlon,\n"
 	.string "but I'm comfortably ahead.\l"
 	.string "Let's make this a quick battle!$"
 
@@ -3170,7 +3170,7 @@ Route121_Text_WalterPostRematch:
 
 Route121_Text_TammyIntro:
 	.string "There are powers beyond our\n"
-	.string "understanding in the world…$"
+	.string "understanding 放进了world…$"
 
 Route121_Text_TammyDefeat:
 	.string "I have lost…$"
@@ -3599,7 +3599,7 @@ Route124_Text_RolandDefeat:
 
 Route124_Text_RolandPostBattle:
 	.string "I'm getting chilled…\n"
-	.string "I've been in the water too long…\p"
+	.string "I've been 放进了water too long…\p"
 	.string "I wish I could ride a Pokémon like you…$"
 
 Route124_Text_JennyIntro:
@@ -3620,7 +3620,7 @@ Route124_Text_JennyRegister:
 	.string "you to register me in your PokéNav.$"
 
 Route124_Text_JennyRematchIntro:
-	.string "If you just float in the sea like this,\n"
+	.string "If you just float 放进了sea like this,\n"
 	.string "trainers challenge you!$"
 
 Route124_Text_JennyRematchDefeat:
@@ -3658,7 +3658,7 @@ Route124_Text_ChadPostBattle:
 
 Route124_Text_LilaIntro:
 	.string "LILA: Sigh…\p"
-	.string "Here I am in the sea, but who's with me?\n"
+	.string "Here I am 放进了sea, but who's with me?\n"
 	.string "My little brother!\p"
 	.string "Let's battle so I won't have to dwell\n"
 	.string "on that!$"
@@ -3700,7 +3700,7 @@ Route124_Text_RoyNotEnoughMons:
 
 Route124_Text_LilaRematchIntro:
 	.string "LILA: Sigh…\p"
-	.string "Here I am in the sea, but who's with me?\n"
+	.string "Here I am 放进了sea, but who's with me?\n"
 	.string "My little brother!\p"
 	.string "Oh, hi, it's been a while. Let's battle\n"
 	.string "so I won't have to dwell on things!$"
@@ -3893,7 +3893,7 @@ Route125_Text_AuronDefeat:
 
 Route125_Text_AuronPostBattle:
 	.string "I found an unsightly bottle bobbing\n"
-	.string "in the waves earlier.\p"
+	.string "放进了waves earlier.\p"
 	.string "It angers me that someone would\n"
 	.string "pollute the sea!$"
 
@@ -4045,7 +4045,7 @@ Route127_Text_JonahDefeat:
 
 Route127_Text_JonahPostBattle:
 	.string "It matters not that I catch nothing.\n"
-	.string "The line remains in the water…$"
+	.string "The line remains 放进了water…$"
 
 Route127_Text_HenryIntro:
 	.string "Whoops! Don't tell me I snagged\n"
@@ -4162,7 +4162,7 @@ Route128_Text_KatelynDefeat:
 
 Route128_Text_KatelynPostBattle:
 	.string "I have to ride a BIKE next, but…\n"
-	.string "I'm about to throw in the towel…$"
+	.string "I'm about to throw 放进了towel…$"
 
 Route128_Text_KatelynRegister:
 	.string "Well, I may as well make the best\n"
@@ -4256,7 +4256,7 @@ Route129_Text_ChasePostBattle:
 	.string "give it my all.$"
 
 Route129_Text_AllisonIntro:
-	.string "I'm in the middle of a triathlon,\n"
+	.string "I'm 放进了middle of a triathlon,\n"
 	.string "but, sure, why don't we battle?$"
 
 Route129_Text_AllisonDefeat:
@@ -4308,7 +4308,7 @@ Route129_Text_ClarencePostBattle:
 
 Route130_Text_RodneyIntro:
 	.string "What a surprise! I didn't expect to\n"
-	.string "see a trainer out in the sea.\p"
+	.string "see a trainer out 放进了sea.\p"
 	.string "I think we should battle!$"
 
 Route130_Text_RodneyDefeat:

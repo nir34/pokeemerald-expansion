@@ -593,7 +593,7 @@ gText_ApprenticePleaseTeach14::
 	.string "I'm really embarrassed to say this,\n"
 	.string "but I explore ancient ruins and such.\p"
 	.string "I'm even more embarrassed to admit\n"
-	.string "I'm interested in the BATTLE FRONTIER.\p"
+	.string "I'm interested 放进了BATTLE FRONTIER.\p"
 	.string "{PLAYER}{KUN}, you have a reputation as\n"
 	.string "a tough TRAINER…\p"
 	.string "It's hard for me to say this,\n"
