@@ -26,8 +26,7 @@ permissions:
 jobs:
   build:
     name: make all (modern)
-    runs-on: ubuntu-latest
-    container: devkitpro/devkitarm:latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
       GAME_VERSION: EMERALD
@@ -40,10 +39,15 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: 安装宿主依赖
+      # 用 INSTALL.md 里官方推荐的 apt 工具链（gcc 13），
+      # 而不是 devkitpro/devkitarm:latest —— 后者已经升到 gcc 16，
+      # 其 stddef.h 里的 nullptr 会让 src/agb_flash*.c 直接编译失败。
+      - name: 安装工具链
         run: |
-          apt-get update
-          apt-get install -y --no-install-recommends build-essential libpng-dev ca-certificates
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential binutils-arm-none-eabi gcc-arm-none-eabi \
+            libnewlib-arm-none-eabi libpng-dev
           arm-none-eabi-gcc --version | head -1
 
       - name: 准备预生成文件（仓库未内置 poryscript）
@@ -54,57 +58,26 @@ jobs:
           find data -name '*.pory' -exec touch -d '2020-01-01 00:00:00' {} +
 
       - name: 编译
+        id: build
         run: |
           set +e
-          which make gcc arm-none-eabi-gcc
-          # 仓库里提交了旧的 pokeemerald.gba，先删掉，避免误判"构建成功"
+          # 仓库里提交了旧的 pokeemerald.gba，先删掉，避免误判“构建成功”
           rm -f pokeemerald.gba pokeemerald.elf pokeemerald.map
           make -j"$(nproc)" -O all > build.log 2>&1
           rc=$?
-          echo "$rc" > build.rc
           echo "make exit=$rc"
-          tail -80 build.log
-          exit $rc
-
-      - name: 结果摘要
-        id: diag
-        if: always()
-        continue-on-error: true
-        env:
-          BRANCH: ${{ github.head_ref || github.ref_name }}
-        run: |
-          set +e
-          rc=$(cat build.rc 2>/dev/null || echo 1)
-          if [ "$rc" = "0" ] && [ -f pokeemerald.gba ]; then
-            echo "tag=OK" >> "$GITHUB_OUTPUT"
-            exit 0
+          tail -60 build.log
+          if [ "$rc" -ne 0 ]; then
+            msg=$(grep -aE '\*\*\*|: error|Error [0-9]|No such file|cannot' build.log \
+                  | tail -6 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
+            echo "::error title=make 失败::$msg"
+            exit "$rc"
           fi
-          msg=$(grep -aiE 'error|undefined reference|cannot find|no such file|overflows' build.log 2>/dev/null | head -4 | tr -d '\r' | tr -c 'A-Za-z0-9._-' '_' | tr -s '_' | tail -c 120)
-          [ -z "$msg" ] && msg=$(tail -6 build.log 2>/dev/null | tr -d '\r' | tr -c 'A-Za-z0-9._-' '_' | tr -s '_' | tail -c 120)
-          [ -z "$msg" ] && msg="no-build-log"
-          echo "tag=$msg" >> "$GITHUB_OUTPUT"
-          echo "=== 日志尾部 ==="
-          tail -30 build.log
-          # 去掉编译命令回显（-Werror 会误命中关键字），保留真正的报错上下文
-          ann=$(grep -avE '^[a-z+]+ .*(-Wall|-std=)' build.log | tail -12 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
-          echo "::error title=make失败::$ann"
-          mkerr=$(grep -aE '\*\*\*|: error|Error [0-9]|No such|cannot|Permission denied' build.log | tail -8 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
-          echo "::error title=make报错行::$mkerr"
-
-          # 把失败日志提交回分支：即使 runner 日志下载被限制，也能从 git 里读到
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp build.log ci-build.log
-          git add -f ci-build.log
-          git commit -m "ci: 构建失败日志 [skip ci]"
-          echo "commit rc=$?"
-          git push origin "HEAD:${BRANCH}"
-          echo "push rc=$?"
 
       - name: 校验 ROM
-        if: steps.diag.outputs.tag == 'OK'
         run: |
           set -euo pipefail
+          test -f pokeemerald.gba || { echo "::error::没有生成 pokeemerald.gba"; exit 1; }
           size=$(stat -c%s pokeemerald.gba)
           echo "ROM 大小: $size 字节"
           test "$size" = "33554432" || { echo "::error::ROM 大小异常"; exit 1; }
@@ -121,10 +94,9 @@ jobs:
           fi
 
       - name: 上传产物
-        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.diag.outputs.tag == 'OK' && format('pokeemerald-{0}', github.sha) || format('diag-{0}', steps.diag.outputs.tag) }}
+          name: pokeemerald-${{ github.sha }}
           path: |
             pokeemerald.gba
             pokeemerald.map
@@ -133,25 +105,28 @@ jobs:
           retention-days: 30
 
       - name: 把新 ROM 提交回分支
-        if: github.event_name == 'workflow_dispatch' && inputs.commit_rom && steps.diag.outputs.tag == 'OK'
+        if: |
+          (github.event_name == 'pull_request') ||
+          (github.event_name == 'workflow_dispatch' && inputs.commit_rom)
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm -q --cached ci-build.log 2>/dev/null || true
           git add pokeemerald.gba
           if git diff --cached --quiet; then
             echo "ROM 无变化，跳过提交"
             exit 0
           fi
           git commit -m "chore(rom): 云端构建 $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          git push origin "HEAD:${BRANCH}"
 
   release:
     name: 发布 Release（打 tag 时）
     if: startsWith(github.ref, 'refs/tags/')
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
