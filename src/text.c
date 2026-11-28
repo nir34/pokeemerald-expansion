@@ -14,30 +14,46 @@
 #include "dynamic_placeholder_text_util.h"
 #include "fonts.h"
 
+static void SetCjkGlyphPixel(u32 x, u32 y, u8 color)
+{
+    u8 *dst = (y < 8) ? ((u8 *)gCurGlyph.gfxBufferTop + y * 4) : ((u8 *)gCurGlyph.gfxBufferBottom + (y - 8) * 4);
+    u8 *tile = (x >= 8) ? dst + 32 : dst;
+    u32 byteIdx = (x & 7) >> 1;
+    u32 shift = (x & 1) * 4;
+    tile[byteIdx] = (tile[byteIdx] & ~(0xF << shift)) | (color << shift);
+}
+
+// 12x12 1bpp CJK glyphs. The stored bitmap only holds the ink; the 1px drop
+// shadow is derived here so that CJK text gets the same shadow colour (index 3)
+// the Latin fonts bake into their glyphs, instead of looking thin and washed
+// out next to them.
 static void DecompressGlyph_Cjk12(u8 hi, u8 lo)
 {
     u32 idx = (u32)(hi - 0x21) * 247 + lo;
     const u8 *glyph;
+    u16 rows[12];
     u32 y, x;
     if (idx >= CJK_FONT_COUNT)
         idx = 0;
     glyph = gFontCjk12_Glyphs[idx];
+    for (y = 0; y < 12; y++)
+        rows[y] = ((u16)glyph[y * 2] << 4) | (glyph[y * 2 + 1] >> 4);
     memset(gCurGlyph.gfxBufferTop, 0x11, sizeof(gCurGlyph.gfxBufferTop));
     memset(gCurGlyph.gfxBufferBottom, 0x11, sizeof(gCurGlyph.gfxBufferBottom));
     for (y = 0; y < 12; y++)
     {
-        u16 row = ((u16)glyph[y * 2] << 4) | (glyph[y * 2 + 1] >> 4);
-        u8 *dst = (y < 8) ? ((u8 *)gCurGlyph.gfxBufferTop + y * 4) : ((u8 *)gCurGlyph.gfxBufferBottom + (y - 8) * 4);
         for (x = 0; x < 12; x++)
         {
-            if (row & (1 << (11 - x)))
-            {
-                u8 *tile = (x < 8) ? dst : (dst + 32);
-                u32 tx = x & 7;
-                u32 byteIdx = tx >> 1;
-                u32 shift = (tx & 1) * 4;
-                tile[byteIdx] = (tile[byteIdx] & ~(0xF << shift)) | (0x2 << shift);
-            }
+            if (rows[y] & (1 << (11 - x)))
+                SetCjkGlyphPixel(x, y, 2);
+        }
+    }
+    for (y = 0; y < 11; y++)
+    {
+        for (x = 0; x < 11; x++)
+        {
+            if ((rows[y] & (1 << (11 - x))) && !(rows[y + 1] & (1 << (10 - x))))
+                SetCjkGlyphPixel(x + 1, y + 1, 3);
         }
     }
     gCurGlyph.width = 12;
