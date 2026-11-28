@@ -111,19 +111,28 @@ jobs:
         env:
           BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pokeemerald.gba
-          if git diff --cached --quiet; then
-            echo "ROM 无变化，跳过提交"
-            exit 0
-          fi
-          git commit -m "chore(rom): 云端构建 $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
-          if ! git push origin "HEAD:${BRANCH}" 2>push.err; then
-            echo "::error title=提交 ROM 失败::$(tail -4 push.err | tr -d '\r' | tr '\n' '~' | cut -c1-800)"
-            exit 1
-          fi
+          for i in 1 2 3; do
+            # 以远端最新提交为基准，只提交 pokeemerald.gba 这一处变化，避免 non-fast-forward
+            git fetch --depth=1 origin "${BRANCH}" || { sleep 5; continue; }
+            git reset --soft FETCH_HEAD
+            git add -f pokeemerald.gba
+            if git diff --cached --quiet; then
+              echo "ROM 与远端一致，无需提交"
+              exit 0
+            fi
+            git commit -q -m "chore(rom): 云端构建 $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]" || true
+            if git push origin "HEAD:${BRANCH}" 2>push.err; then
+              echo "已推送第 $i 次尝试"
+              exit 0
+            fi
+            echo "第 $i 次推送失败:"; tail -3 push.err
+            sleep 5
+          done
+          echo "::error title=提交 ROM 失败::$(tail -4 push.err | tr -d '\r' | tr '\n' '~' | cut -c1-800)"
+          exit 1
 
   release:
     name: 发布 Release（打 tag 时）
