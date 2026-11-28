@@ -85,8 +85,8 @@ jobs:
           echo "tag=$msg" >> "$GITHUB_OUTPUT"
           echo "=== 日志尾部 ==="
           tail -30 build.log
-          ann=$(grep -aiE 'error|undefined reference|cannot find|no such file|overflows' build.log 2>/dev/null | head -6 | tr -d '\r' | tr '\n' '~' | cut -c1-800)
-          [ -z "$ann" ] && ann=$(tail -6 build.log | tr -d '\r' | tr '\n' '~' | cut -c1-800)
+          # 去掉编译命令回显（-Werror 会误命中关键字），保留真正的报错上下文
+          ann=$(grep -avE '^[a-z+]+ .*(-Wall|-std=)' build.log | tail -20 | tr -d '\r' | tr '\n' '~' | cut -c1-3000)
           echo "::error title=make失败::$ann"
 
           # 把失败日志提交回分支：即使 runner 日志下载被限制，也能从 git 里读到
