@@ -57,8 +57,11 @@ jobs:
         run: |
           set +e
           which make gcc arm-none-eabi-gcc
+          # 仓库里提交了旧的 pokeemerald.gba，先删掉，避免误判"构建成功"
+          rm -f pokeemerald.gba pokeemerald.elf pokeemerald.map
           make -j"$(nproc)" -O all > build.log 2>&1
           rc=$?
+          echo "$rc" > build.rc
           echo "make exit=$rc"
           tail -80 build.log
           exit $rc
@@ -71,7 +74,8 @@ jobs:
           BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
           set +e
-          if [ -f pokeemerald.gba ]; then
+          rc=$(cat build.rc 2>/dev/null || echo 1)
+          if [ "$rc" = "0" ] && [ -f pokeemerald.gba ]; then
             echo "tag=OK" >> "$GITHUB_OUTPUT"
             exit 0
           fi
