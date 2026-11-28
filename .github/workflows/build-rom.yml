@@ -120,7 +120,10 @@ jobs:
             exit 0
           fi
           git commit -m "chore(rom): 云端构建 $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
-          git push origin "HEAD:${BRANCH}"
+          if ! git push origin "HEAD:${BRANCH}" 2>push.err; then
+            echo "::error title=提交 ROM 失败::$(tail -4 push.err | tr -d '\r' | tr '\n' '~' | cut -c1-800)"
+            exit 1
+          fi
 
   release:
     name: 发布 Release（打 tag 时）
