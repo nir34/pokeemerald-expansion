@@ -54,7 +54,16 @@ jobs:
           find data -name '*.pory' -exec touch -d '2020-01-01 00:00:00' {} +
 
       - name: 编译
-        run: make -j"$(nproc)" -O all
+        run: |
+          set -o pipefail
+          make -j"$(nproc)" -O all 2>&1 | tee build.log
+
+      - name: 构建失败摘要
+        if: failure()
+        run: |
+          [ -f build.log ] || exit 0
+          msg=$(awk '{gsub(/%/,"%25"); gsub(/\r/,""); printf "%s%%0A", $0}' build.log | tail -c 3500)
+          echo "::error title=make 失败::$msg"
 
       - name: 校验 ROM
         run: |
@@ -76,6 +85,7 @@ jobs:
           fi
 
       - name: 上传产物
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: pokeemerald-${{ github.sha }}
@@ -83,6 +93,7 @@ jobs:
             pokeemerald.gba
             pokeemerald.map
             rom.sha1
+            build.log
           retention-days: 30
 
       - name: 把新 ROM 提交回分支
