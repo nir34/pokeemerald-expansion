@@ -58,25 +58,40 @@ jobs:
           set -o pipefail
           make -j"$(nproc)" -O all 2>&1 | tee build.log
 
-      - name: 构建失败摘要
+      - name: 失败诊断（annotation + 评论 + 提交日志）
         if: failure()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+          REPO: ${{ github.repository }}
         run: |
-          [ -f build.log ] || exit 0
-          msg=$(awk '{gsub(/%/,"%25"); gsub(/\r/,""); printf "%s%%0A", $0}' build.log | tail -c 3500)
-          echo "::error title=make 失败::$msg"
+          set +e
+          if [ ! -f build.log ]; then echo "没有 build.log"; exit 0; fi
+          echo "=== build.log 尾部 ==="
+          tail -25 build.log
 
-      - name: 失败时把构建日志提交回分支
-        if: failure()
-        run: |
-          set -euo pipefail
-          [ -f build.log ] || exit 0
-          branch="${{ github.head_ref || github.ref_name }}"
+          echo "--- 通道1: annotation ---"
+          short=$(tail -15 build.log | tr -d '\r' | sed 's/%/%25/g' | tr '\n' '~' | cut -c1-1200)
+          echo "::error title=make失败::$short"
+
+          echo "--- 通道2: 提交日志到分支 ---"
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp build.log ci-build.log
           git add -f ci-build.log
-          git commit -m "ci: 构建失败日志 [skip ci]" || exit 0
-          git push origin "HEAD:${branch}" || echo "::warning::token 无写权限，日志只保留在 artifact 里"
+          git commit -m "ci: 构建失败日志 [skip ci]" 2>&1 | tail -3
+          echo "commit rc=$?"
+          git push origin "HEAD:${BRANCH}" 2>&1 | tail -5
+          echo "push rc=$?"
+
+          echo "--- 通道3: PR 评论 ---"
+          if [ -n "${PR_NUMBER}" ] && command -v jq >/dev/null; then
+            tail -c 4000 build.log | jq -Rs '{body: ("构建失败日志（尾部）：\n\n```\n" + . + "\n```")}' \
+              | curl -sS -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/${REPO}/issues/${PR_NUMBER}/comments" -d @- | head -c 200
+          fi
 
       - name: 校验 ROM
         run: |
