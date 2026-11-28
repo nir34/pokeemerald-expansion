@@ -65,6 +65,19 @@ jobs:
           msg=$(awk '{gsub(/%/,"%25"); gsub(/\r/,""); printf "%s%%0A", $0}' build.log | tail -c 3500)
           echo "::error title=make 失败::$msg"
 
+      - name: 失败时把构建日志提交回分支
+        if: failure()
+        run: |
+          set -euo pipefail
+          [ -f build.log ] || exit 0
+          branch="${{ github.head_ref || github.ref_name }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp build.log ci-build.log
+          git add -f ci-build.log
+          git commit -m "ci: 构建失败日志 [skip ci]" || exit 0
+          git push origin "HEAD:${branch}" || echo "::warning::token 无写权限，日志只保留在 artifact 里"
+
       - name: 校验 ROM
         run: |
           set -euo pipefail
