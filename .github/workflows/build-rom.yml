@@ -55,11 +55,17 @@ jobs:
 
       - name: 编译
         run: |
-          set -o pipefail
-          make -j"$(nproc)" -O all 2>&1 | tee build.log
+          set +e
+          echo "shell: $0 | pwd: $(pwd)"
+          which make gcc arm-none-eabi-gcc || true
+          make -j"$(nproc)" -O all > build.log 2>&1
+          rc=$?
+          echo "make exit=$rc"
+          tail -60 build.log
+          exit $rc
 
       - name: 失败诊断（annotation + 评论 + 提交日志）
-        if: failure()
+        if: always()
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -68,7 +74,12 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set +e
-          if [ ! -f build.log ]; then echo "没有 build.log"; exit 0; fi
+          if [ -f pokeemerald.gba ]; then echo "构建成功，跳过诊断"; exit 0; fi
+          if [ ! -f build.log ]; then
+            echo "::error title=没有build.log::pwd=$(pwd) files=$(ls | tr '~' ' ' | tr '\n' ' ')"
+            exit 0
+          fi
+          echo "build.log 大小: $(wc -c < build.log)"
           echo "=== build.log 尾部 ==="
           tail -25 build.log
 
