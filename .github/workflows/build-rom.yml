@@ -86,8 +86,10 @@ jobs:
           echo "=== 日志尾部 ==="
           tail -30 build.log
           # 去掉编译命令回显（-Werror 会误命中关键字），保留真正的报错上下文
-          ann=$(grep -avE '^[a-z+]+ .*(-Wall|-std=)' build.log | tail -20 | tr -d '\r' | tr '\n' '~' | cut -c1-3000)
+          ann=$(grep -avE '^[a-z+]+ .*(-Wall|-std=)' build.log | tail -12 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
           echo "::error title=make失败::$ann"
+          mkerr=$(grep -aE '\*\*\*|: error|Error [0-9]|No such|cannot|Permission denied' build.log | tail -8 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
+          echo "::error title=make报错行::$mkerr"
 
           # 把失败日志提交回分支：即使 runner 日志下载被限制，也能从 git 里读到
           git config user.name  "github-actions[bot]"
