@@ -79,8 +79,8 @@ jobs:
             echo "tag=OK" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          msg=$(grep -aiE 'error|undefined reference|cannot find|no such file|overflows' build.log 2>/dev/null | head -4 | tr -d '\r' | tr -c 'A-Za-z0-9._:/-' '_' | tr -s '_' | tail -c 300)
-          [ -z "$msg" ] && msg=$(tail -6 build.log 2>/dev/null | tr -d '\r' | tr -c 'A-Za-z0-9._:/-' '_' | tr -s '_' | tail -c 150)
+          msg=$(grep -aiE 'error|undefined reference|cannot find|no such file|overflows' build.log 2>/dev/null | head -4 | tr -d '\r' | tr -c 'A-Za-z0-9._-' '_' | tr -s '_' | tail -c 300)
+          [ -z "$msg" ] && msg=$(tail -6 build.log 2>/dev/null | tr -d '\r' | tr -c 'A-Za-z0-9._-' '_' | tr -s '_' | tail -c 150)
           [ -z "$msg" ] && msg="no-build-log"
           echo "tag=$msg" >> "$GITHUB_OUTPUT"
           echo "=== 日志尾部 ==="
