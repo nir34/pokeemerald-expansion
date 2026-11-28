@@ -23,8 +23,8 @@ script GraniteCave_B1F_Trigger_NeedEightBadges{
 }
 
 text GraniteCave_B1F_FeelDarkForce{
-	"You feel a strong, dark presence coming\n"
-	"from the bottom of the ladder.\p"
-	"It would be wise to wait until you have\n"
-	"more Badges before proceeding."
+	"你感觉到梯子底部\n"
+	"传来强烈而阴暗的气息。\p"
+	"在拿到更多徽章之前，\n"
+	"最好先别下去。"
 }

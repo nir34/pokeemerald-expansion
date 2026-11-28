@@ -64,20 +64,20 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 	end
 
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
-	.string "Learn to use items properly.\n"
-	.string "That's basic, really.$"
+	.string "学会正确使用道具。\n"
+	.string "这其实是最基本的。$"
 
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband:
-	.string "My husband is waiting at home.\n"
-	.string "What would make a good gift for him?$"
+	.string "我丈夫在家等着。\n"
+	.string "给他买什么好呢？$"
 
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
-	.string "I'm leaving on a long journey soon.\n"
-	.string "I need to stock up on items.$"
+	.string "我马上要出远门。\n"
+	.string "得囤些道具。$"
 
 LilycoveCity_DepartmentStore_2F_Text_HereTakeThis:
-	.string "Oh, here, it looks like you should\n"
-	.string "have this!$"
+	.string "哦，这个，看来你\n"
+	.string "应该收下这个！$"
 
 `
 

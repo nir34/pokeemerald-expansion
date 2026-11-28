@@ -329,260 +329,264 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 # 165 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 # 166 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Welcome to LILYCOVE MUSEUM.\p"
+	.string "欢迎来到水静博物馆。\p"
 # 167 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Please take the time to enjoy our\n"
+	.string "请慢慢欣赏我们以宝可梦\n"
 # 168 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "collection of fantastic artwork\l"
+	.string "为主题的美术收藏。$"
 # 169 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "featuring Pokémon.$"
+
 # 170 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 171 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
+# 171 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "我是这座美术馆的馆长。\p"
 # 172 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I'm the CURATOR of this MUSEUM of\n"
+	.string "在馆里看到像你这么\n"
 # 173 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "fine arts.\p"
+	.string "年轻的人，真让人欣慰。\p"
 # 174 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's heartening to see someone so\n"
+	.string "你已经看过我们的\n"
 # 175 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "young as you in our MUSEUM.\p"
+	.string "画作收藏了吗？$"
 # 176 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Have you viewed our collection of\n"
+
 # 177 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "paintings already?$"
-# 178 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 179 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
+# 178 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "啊，那我就不打扰你了。\n"
+# 179 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "请慢慢看。$"
 # 180 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Ah, then let me not disturb you.\n"
+
 # 181 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Please, do take your time.$"
-# 182 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 183 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
+# 182 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "哦？我看你好像是\n"
+# 183 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "宝可梦训练家。\p"
 # 184 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Oh? I do believe that you seem to\n"
+	.string "你对画作也有\n"
 # 185 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "be a Pokémon 训练家.\p"
+	.string "兴趣吗？$"
 # 186 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Have you an interest in paintings,\n"
+
 # 187 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "too?$"
-# 188 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 189 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
+# 188 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "原来如此……\p"
+# 189 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "即便如此你还愿意\n"
 # 190 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I see…\p"
+	.string "来参观，我很荣幸。$"
 # 191 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I'm honored that you would visit\n"
+
 # 192 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "us in spite of that.$"
-# 193 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 194 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
+# 193 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "啊，太好了！\n"
+# 194 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "你果然喜欢画作！\p"
 # 195 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Ah, excellent!\n"
+	.string "那么，能请你跟我\n"
 # 196 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "You do like paintings!\p"
+	.string "来一下吗？$"
 # 197 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Then, may I ask you to come with me?$"
+
 # 198 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 199 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
+# 199 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一幅很旧的画。\n"
 # 200 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a very old painting.\n"
+	.string "颜料到处在剥落。$"
 # 201 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "The paint is peeling here and there.$"
+
 # 202 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 203 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
+# 203 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一幅奇怪的风景画，\n"
 # 204 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's an odd landscape with bizarre\n"
+	.string "景色奇异又美妙。$"
 # 205 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "and fantastic scenery.$"
+
 # 206 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 207 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman:
+# 207 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "画上是一位微笑的美丽\n"
 # 208 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a painting of a beautiful, smiling\n"
+	.string "女人，膝上抱着一只宝可梦。$"
 # 209 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "woman with a Pokémon on her lap.$"
+
 # 210 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 211 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
+# 211 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一幅很久以前的\n"
 # 212 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a painting of a legendary Pokémon\n"
+	.string "传说宝可梦的画。\p"
 # 213 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "from long ago.\p"
+	.string "画家是凭想象画的。$"
 # 214 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "The artist painted this from\n"
+
 # 215 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "imagination.$"
-# 216 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 217 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
+# 216 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一幅草属性宝可梦\n"
+# 217 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "在微风中摇曳的画。\p"
 # 218 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a painting of GRASS Pokémon\n"
+	.string "它们似乎很享受风的\n"
 # 219 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "swaying in a breeze.\p"
+	.string "轻柔抚摸。$"
 # 220 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "They appear to be enjoying the wind's\n"
+
 # 221 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "gentle caress.$"
-# 222 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 223 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
+# 222 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一幅看起来很好吃\n"
+# 223 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "的树果画。\p"
 # 224 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a delicious-looking painting\n"
+	.string "这幅画会让人\n"
 # 225 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "of BERRIES.\p"
+	.string "肚子饿！$"
 # 226 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "This painting could make you hungry!$"
+
 # 227 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
-# 228 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
+# 228 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "这是一件著名雕塑的\n"
 # 229 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a replica of a famous sculpture.\p"
+	.string "复制品。\p"
 # 230 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It depicts an ancient Bird Pokémon.$"
+	.string "它描绘的是一只\n"
 # 231 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "古代鸟宝可梦。$"
 # 232 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
+
 # 233 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a big 精灵球 carved from\n"
+LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
 # 234 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "a black stone.\p"
+	.string "这是一颗用黑石头雕成\n"
 # 235 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It was apparently used in festivals\n"
+	.string "的大精灵球。\p"
 # 236 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "in the olden days.$"
+	.string "据说古时候的节庆\n"
 # 237 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "上用过它。$"
 # 238 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
+
 # 239 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's a huge stone tablet inscribed\n"
+LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 # 240 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "with Pokémon and dense text in the\l"
+	.string "这是一块巨大的石碑，\n"
 # 241 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "small characters of an ancient,\l"
+	.string "上面刻着宝可梦和\l"
 # 242 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "unreadable language.$"
+	.string "密密麻麻的古代文字，\l"
 # 243 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "已经没人能读懂了。$"
 # 244 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
+
 # 245 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Hmmm…\n"
+LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
 # 246 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "What works of great magnificence…$"
+	.string "嗯……\n"
 # 247 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "多么宏大的杰作……$"
 # 248 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
+
 # 249 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Battling with Pokémon is fun,\n"
+LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 # 250 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I'll grant you that.\p"
+	.string "和宝可梦对战很有趣，\n"
 # 251 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "But one mustn't forget our love for\n"
+	.string "这我承认。\p"
 # 252 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "the fine arts.$"
+	.string "可人不能忘记对\n"
 # 253 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "美术的热爱。$"
 # 254 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
+
 # 255 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "This ART MUSEUM… Well, you could\n"
+LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
 # 256 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "see many fantastic paintings.\p"
+	.string "这座美术馆……嗯，你能\n"
 # 257 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "And the CURATOR is a wonderful person.\p"
+	.string "看到许多美妙的画。\p"
 # 258 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Among artists like myself, this MUSEUM\n"
+	.string "而且馆长是个很好的人。\p"
 # 259 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "is an inspiration.$"
+	.string "在我们这些画家里，这座\n"
 # 260 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "美术馆就是灵感来源。$"
 # 261 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
+
 # 262 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "This lady is pretty!\n"
+LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
 # 263 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "She's like Mommy!$"
+	.string "这位女士真美！\n"
 # 264 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "就像妈妈一样！$"
 # 265 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
+
 # 266 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "This Pokémon is adorable!\n"
+LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
 # 267 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Just like our little boy!$"
+	.string "这只宝可梦真可爱！\n"
 # 268 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "就像我们的小儿子！$"
 # 269 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
+
 # 270 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I'd heard that this ART MUSEUM got\n"
+LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
 # 271 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "in some new paintings.\p"
+	.string "我听说这座美术馆收了\n"
 # 272 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "So, naturally I hurried over.\p"
+	.string "几幅新画。\p"
 # 273 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Are the new paintings up on\n"
+	.string "所以我当然赶紧\n"
 # 274 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "the second floor?$"
+	.string "跑来了。\p"
 # 275 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "新画是在二楼吗？$"
 # 276 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
+
 # 277 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Lately, the CURATOR has been\n"
+LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
 # 278 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "unusually cheerful.\p"
+	.string "最近馆长心情好得\n"
 # 279 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I bet something good happened for him.\n"
+	.string "不寻常。\p"
 # 280 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "Definitely.$"
+	.string "我打赌他遇到好事了。\n"
 # 281 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-
+	.string "一定。$"
 # 282 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
-# 283 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I aim to see many great paintings\n"
-# 284 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "here and learn from them.\p"
-# 285 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "I have this dream of one day having\n"
-# 286 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "my artwork exhibited here.$"
-# 287 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 
+# 283 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
+# 284 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "我的目标是多看点这里\n"
+# 285 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "的名画，向它们学习。\p"
+# 286 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "我有个梦想，就是有\n"
+# 287 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "一天让我的作品也\l"
 # 288 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
+	.string "在这里展出。$"
 # 289 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "The ART MUSEUM has become a favorite\n"
+
 # 290 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "tourist destination.\p"
+LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 # 291 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "It's great for LILYCOVE…\n"
+	.string "美术馆成了很受欢迎的\n"
 # 292 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "No, great for the 丰缘 region!\p"
+	.string "观光地。\p"
 # 293 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "This is what I've heard--a lone 训练家\n"
+	.string "这对水静市……不，对\n"
 # 294 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
-	.string "procured all the paintings upstairs.$"
+	.string "丰缘地区都是好事！\p"
+# 295 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "我听说，楼上的画全是\n"
+# 296 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+	.string "一个训练家找来的。$"

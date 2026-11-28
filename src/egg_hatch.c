@@ -654,7 +654,7 @@ static void CB2_EggHatch(void)
             sEggHatchData->state++;
         break;
     case 5:
-        // "{mon} hatched from egg" message/fanfare
+        // "{mon}从蛋中孵化了" message/fanfare
         GetMonNickname(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_HatchedFromEgg);
         EggHatchPrintMessage(sEggHatchData->windowId, gStringVar4, 0, 3, TEXT_SKIP_DRAW);

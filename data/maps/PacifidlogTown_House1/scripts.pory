@@ -7,9 +7,9 @@ PacifidlogTown_House1_EventScript_Woman::
 	end
 
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
-	.string "“Six dots open three doors.”\p"
-	.string "Grandpa used to say that, but I don't\n"
-	.string "know what he meant.$"
+	.string "“六个点开三道门。”\p"
+	.string "爷爷以前常这么说，\n"
+	.string "可我不知道什么意思。$"
 
 `
 
@@ -34,11 +34,11 @@ script PacifidlogTown_House1_EventScript_Man {
 	}
 
 	msgbox(GenesectManSwapDrive)
-	dynmultipush("Douse", ITEM_DOUSE_DRIVE)
-	dynmultipush("Shock", ITEM_SHOCK_DRIVE)
-	dynmultipush("Burn", ITEM_BURN_DRIVE)
-	dynmultipush("Chill", ITEM_CHILL_DRIVE)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("水流", ITEM_DOUSE_DRIVE)
+	dynmultipush("闪电", ITEM_SHOCK_DRIVE)
+	dynmultipush("火焰", ITEM_BURN_DRIVE)
+	dynmultipush("冰冻", ITEM_CHILL_DRIVE)
+    dynmultipush("取消", MULTI_B_PRESSED)
 
     // // setting initial selected to a non-existant ID will always have it point to the first option
 	dynmultistack(0, 0, FALSE, 6, FALSE, ITEM_DOUSE_DRIVE, DYN_MULTICHOICE_CB_NONE)
@@ -50,40 +50,40 @@ script PacifidlogTown_House1_EventScript_Man {
 
 	copyvar(VAR_0x8005, VAR_RESULT)
 	removeitem(VAR_0x8004)
-	msgbox("Cool, let's swap drives then.")
+	msgbox("好啊，那我们交换卡带吧。")
 	giveitem(VAR_0x8005)
-	msgbox("Come back if you want to trade\ndrives again!")
+	msgbox("想再交换卡带的话\n就再来吧！")
 	release
 	end
 }
 
 
 script PacifidlogTown_House1_EventScript_GenesectManNo {
-    msgbox("No worries, you can come back and trade\ndrives with me anytime.")
+    msgbox("没关系，你随时都可以\n回来找我交换卡带。")
     release
     end
 }
 
 text PacifidlogTown_House1_GenesectManIntro {
-	"People always tell me that I'm really\n"
-	"driven, but what they don't know is\l"
-	"that I just have a lot of drives.\p"
-	"Want to see what I mean?\n"
-	"Here, take this."
+	"大家都说我特别有\n"
+	"干劲，可他们不知道，\l"
+	"我只是有很多卡带。\p"
+	"想看看我什么意思吗？\n"
+	"来，拿着这个。"
 }
 
 text PacifidlogTown_House1_SeeGoodDrive {
-	"Come back anytime if you want a\n"
-	"different drive."
+	"想要别的卡带，\n"
+	"随时再来。"
 }
 
 text GenesectManSwapDrive {
-	"Oh hey, you came back! Does this mean\n"
-	"you want to trade drives?\p"
-	"Great! Which Drive do you want?"
+	"哦，你回来了！是说\n"
+	"你想交换卡带吗？\p"
+	"太好了！你想要哪张卡带？"
 }
 
 text PacifidlogTown_House1_Text_NoDrives {
-	"Hmm? You don't have any drives to trade\n"
-	"with me."
+	"嗯？你身上没有\n"
+	"能和我交换的卡带。"
 }

@@ -2936,7 +2936,7 @@ static void GetQuizTitle(u8 *dst)
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gText_Lady);
     }
 
-    // "<author>'s Quiz"
+    // "<author>的问答"
     DynamicPlaceholderTextUtil_ExpandPlaceholders(dst, gText_F700sQuiz);
 }
 
@@ -5417,7 +5417,7 @@ void ShowEasyChatProfile(void)
     ShowFieldAutoScrollMessage(gStringVar4);
 }
 
-// The phrase that a man in Dewford Hall suggests has a "deep link" to the current trendy phrase
+// The phrase that a man in Dewford Hall suggests has a "深链接" to the current trendy phrase
 void BufferDeepLinkPhrase(void)
 {
     int groupId = Random() & 1 ? EC_GROUP_HOBBIES : EC_GROUP_LIFESTYLE;
@@ -5428,11 +5428,11 @@ void BufferDeepLinkPhrase(void)
 /*
     ### Trendy Sayings
 
-    Not to be confused with Dewford Town's "trendy phrase".
+    Not to be confused with Dewford Town's "流行语".
 
     This is a group of easy chat words (EC_GROUP_TRENDY_SAYING) that are normally inaccessible.
-    They can be unlocked either through Mystery Event (where they're referred to as "rare" words)
-    or from the "Hipster" variety of the Mauville Old Man. The Hipster can unlock one word each
+    They can be unlocked either through Mystery Event (where they're referred to as "稀有" words)
+    or from the "潮人" variety of the Mauville Old Man. The Hipster can unlock one word each
     time he is received via record mixing (and once if he is the player's default Old Man).
 
     Which words have been unlocked is saved in the unlockedTrendySayings bitfield in SaveBlock1

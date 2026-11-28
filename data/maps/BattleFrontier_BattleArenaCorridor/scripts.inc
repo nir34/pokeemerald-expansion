@@ -179,6 +179,6 @@ BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay:
 # 90 "data/maps/BattleFrontier_BattleArenaCorridor/scripts.pory"
 BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn:
 # 91 "data/maps/BattleFrontier_BattleArenaCorridor/scripts.pory"
-	.string "Your battles shall be waged in\n"
+	.string "你的对战将在下一个房间\n"
 # 92 "data/maps/BattleFrontier_BattleArenaCorridor/scripts.pory"
-	.string "the next room. Please step in!$"
+	.string "进行。请进！$"

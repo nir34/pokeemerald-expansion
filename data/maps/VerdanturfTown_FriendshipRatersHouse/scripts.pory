@@ -64,43 +64,44 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	end
 
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
-	.string "Let me see your Pokémon.\n"
-	.string "I'll check to see how much it likes you.\p"
-	.string "Oh.\n"
-	.string "Your Pokémon…$"
+	.string "让我看看你的宝可梦。\n"
+	.string "我查查它有多喜欢你。\p"
+	.string "哦。\n"
+	.string "你的宝可梦……$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
-	.string "It adores you.\n"
-	.string "It can't possibly love you any more.\l"
-	.string "I even feel happy seeing it.$"
+	.string "它非常崇拜你。\n"
+	.string "不可能再更爱你了。\l"
+	.string "连我看着都高兴。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy:
-	.string "It seems to be very happy.\n"
-	.string "It obviously likes you a whole lot.$"
+	.string "它看起来非常开心。\n"
+	.string "显然非常喜欢你。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot:
-	.string "It likes you quite a lot.\n"
-	.string "It seems to want to be babied a little.$"
+	.string "它挺喜欢你的。\n"
+	.string "好像想再被宠一宠。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
-	.string "It's getting used to you.\n"
-	.string "It seems to believe in you.$"
+	.string "它渐渐习惯你了。\n"
+	.string "好像很信任你。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
-	.string "It's not very used to you yet.\n"
-	.string "It neither loves nor hates you.$"
+	.string "它还不太习惯你。\n"
+	.string "既不喜欢也不讨厌你。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
-	.string "It's very wary.\n"
-	.string "It has scary viciousness in its eyes.\l"
-	.string "It doesn't like you much at all.$"
+	.string "它非常警惕。\n"
+	.string "眼神里带着可怕的敌意。\l"
+	.string "它几乎一点也不喜欢你。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
-	.string "This is a little hard for me to say…\p"
-	.string "Your Pokémon simply detests you.\n"
-	.string "Doesn't that make you uncomfortable?$"
+	.string "这话有点难说出口……\p"
+	.string "你的宝可梦简直\n"
+	.string "讨厌你。\l"
+	.string "你不觉得难受吗？$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
-	.string "PIKACHU: Pika pika!$"
+	.string "皮卡丘：皮卡皮卡！$"
 
 `

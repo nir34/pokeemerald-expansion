@@ -23,22 +23,22 @@ MtPyre_5F_EventScript_Atsushi::
 # 12 "data/maps/MtPyre_4F/scripts.pory"
 MtPyre_5F_Text_AtsushiIntro:
 # 13 "data/maps/MtPyre_4F/scripts.pory"
-	.string "Teacher…\n"
+	.string "老师……\n"
 # 14 "data/maps/MtPyre_4F/scripts.pory"
-	.string "Please watch over my progress!$"
+	.string "请看着我的成长！$"
 # 15 "data/maps/MtPyre_4F/scripts.pory"
 
 # 16 "data/maps/MtPyre_4F/scripts.pory"
 MtPyre_5F_Text_AtsushiDefeat:
 # 17 "data/maps/MtPyre_4F/scripts.pory"
-	.string "Teacher…\n"
+	.string "老师……\n"
 # 18 "data/maps/MtPyre_4F/scripts.pory"
-	.string "Please forgive me!$"
+	.string "请原谅我！$"
 # 19 "data/maps/MtPyre_4F/scripts.pory"
 
 # 20 "data/maps/MtPyre_4F/scripts.pory"
 MtPyre_5F_Text_AtsushiPostBattle:
 # 21 "data/maps/MtPyre_4F/scripts.pory"
-	.string "Until I improve, my teacher, who rests\n"
+	.string "在我进步之前，长眠\n"
 # 22 "data/maps/MtPyre_4F/scripts.pory"
-	.string "here, will never find true peace…$"
+	.string "在此的老师无法安息……$"

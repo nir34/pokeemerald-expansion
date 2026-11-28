@@ -147,10 +147,11 @@ PokeVialHealScriptItem::
 	end
 
 PokeVialText::
-	.string "Your party was fully healed.$"
+	.string "您的队伍已经完全恢复了。$"
 
 PokeVial2Text::
-	.string "Your party was… almost fully healed.$"
+	.string "你的队伍……\n"
+	.string "差不多全恢复了。$"
 
 Movement_PkmnCenterNurse_Turn:
 	walk_in_place_faster_left

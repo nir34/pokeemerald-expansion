@@ -11,13 +11,15 @@ LilycoveCity_House4_EventScript_Man2::
 	end
 
 LilycoveCity_House4_Text_MysteriesAtBottomOfSea:
-	.string "This planet's biggest mysteries are\n"
-	.string "at the bottom of the sea.\p"
-	.string "Somebody said that, but I don't know…$"
+	.string "这个星球最大的谜团\n"
+	.string "都在海底。\p"
+	.string "有人这么说，不过\n"
+	.string "我不太懂……$"
 
 LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
-	.string "There's a deep underwater trench\n"
-	.string "between MOSSDEEP and SOOTOPOLIS.\p"
-	.string "That's what someone told me, anyway.$"
+	.string "琉璃市和绿岭市之间有\n"
+	.string "一条很深的海底沟。\p"
+	.string "反正有人这么\n"
+	.string "告诉我的。$"
 
 `

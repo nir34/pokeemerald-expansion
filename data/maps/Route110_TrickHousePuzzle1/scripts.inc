@@ -79,76 +79,80 @@ Route110_TrickHousePuzzle1_EventScript_Robin::
 # 40 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 # 41 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 42 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 43 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "“Trick Master is fabulous.”\n"
+	.string "“机关大师真了不起。”\n"
 # 44 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "… … … … … … … …\p"
 # 45 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 46 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 47 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_SallyIntro:
 # 48 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "I'll hack and slash my way to victory\n"
+	.string "我要用刚学会的居合斩\n"
 # 49 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "with the CUT we just learned!$"
+	.string "一路砍到胜利！$"
 # 50 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 51 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_SallyDefeat:
 # 52 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "Why are you so serious?$"
+	.string "你为什么这么认真？$"
 # 53 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 54 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_SallyPostBattle:
 # 55 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "I never get tired of hacking\n"
+	.string "我砍啊砍，永远\n"
 # 56 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "and slashing!$"
+	.string "砍不腻！$"
 # 57 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 58 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_EddieIntro:
 # 59 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "I wandered into this weird house\n"
+	.string "我不小心闯进了这间\n"
 # 60 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "by accident…$"
+	.string "怪房子……$"
 # 61 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 62 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_EddieDefeat:
 # 63 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "And now I've lost…$"
+	.string "然后我现在输了……$"
 # 64 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
 # 65 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
 # 66 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "I lost my way, I lost a battle, and I'm\n"
+	.string "我迷了路、输了比赛，\n"
 # 67 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "now even more lost… I can't get out…$"
+	.string "现在更迷路了……\l"
 # 68 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-
+	.string "我出不去了……$"
 # 69 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-Route110_TrickHousePuzzle1_Text_RobinIntro:
+
 # 70 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "Just who is the Trick Master?$"
+Route110_TrickHousePuzzle1_Text_RobinIntro:
 # 71 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-
+	.string "机关大师到底是谁？$"
 # 72 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-Route110_TrickHousePuzzle1_Text_RobinDefeat:
-# 73 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "I lost while I was lost in thought!$"
-# 74 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 
+# 73 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+Route110_TrickHousePuzzle1_Text_RobinDefeat:
+# 74 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+	.string "我一边想事一边\n"
 # 75 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-Route110_TrickHousePuzzle1_Text_RobinPostBattle:
+	.string "就输了！$"
 # 76 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "You're strong!\n"
+
 # 77 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	.string "Just who are you?$"
+Route110_TrickHousePuzzle1_Text_RobinPostBattle:
+# 78 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+	.string "你好强！\n"
+# 79 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+	.string "你到底是谁？$"

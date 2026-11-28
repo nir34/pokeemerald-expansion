@@ -317,23 +317,23 @@ SlateportCity_BattleTentCorridor_Movement_AttendantExit:
 # 159 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_AdviceForContests:
 # 160 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Want a tasty little bit of advice\n"
+	.string "想听听关于华丽大赛的\n"
 # 161 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "for CONTESTS?\p"
+	.string "有用建议吗？\p"
 # 162 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Using a certain move after another\n"
+	.string "在某个招式之后使用\n"
 # 163 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "certain kind of move sometimes gets\l"
+	.string "特定种类的招式，\l"
 # 164 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "you extra attention.\p"
+	.string "有时能获得额外的关注。\p"
 # 165 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "If you know what you're doing,\n"
+	.string "只要你懂得诀窍，\n"
 # 166 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "you can score big in appeal.\p"
+	.string "就能赚到很高的分数。\p"
 # 167 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Of course, your opponents might try\n"
+	.string "当然，对手可能会来\n"
 # 168 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "disrupting your Pokémon's showing.$"
+	.string "干扰你宝可梦的表演。$"
 # 169 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
 # 170 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -341,214 +341,218 @@ SlateportCity_ContestHall_Text_AdviceForContests:
 # 171 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
 # 172 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "My papa, he's a CONTEST JUDGE.\p"
+	.string "我爸爸是华丽大赛的\n"
 # 173 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I wonder what I should be when I\n"
+	.string "评审。\p"
 # 174 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "grow up, a JUDGE or a 道馆馆主?$"
+	.string "我长大后该当评审呢，\n"
 # 175 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "还是当道馆馆主呢？$"
 # 176 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+
 # 177 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
+@ Unused
 # 178 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Hey, man, I'm like majorly cheesed,\n"
+SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 # 179 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "you know. Like, you know, I just\l"
+	.string "嘿，哥们，我真是\n"
 # 180 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "wanted to know why my Pokémon\l"
+	.string "火大得不行。\p"
 # 181 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "never won, you know, like, hey?\p"
+	.string "我就是想知道，我的宝可梦\n"
 # 182 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "So, like, I gave the JUDGE my two\n"
+	.string "为什么老是赢不了，对吧？\p"
 # 183 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "cents, you know, they're free.\p"
+	.string "所以我就去跟评审\n"
 # 184 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "And he wouldn't hear me out, like, hey!\n"
+	.string "提了意见，反正是免费的。\p"
 # 185 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "So, like, total bummer, man!\p"
+	.string "可他根本不听我说！\n"
 # 186 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Hey, like, you! Zip it, you know?\n"
+	.string "真是气死人了！\p"
 # 187 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Just, you know, take this!$"
+	.string "喂，你！闭嘴，知道吗？\n"
 # 188 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "就，拿上这个吧！$"
 # 189 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+
 # 190 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_ExplainTorment:
+@ Unused
 # 191 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "That's, like, TM41, you know?\n"
+SlateportCity_ContestHall_Text_ExplainTorment:
 # 192 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Hey, it's TORMENT, you hearing me?\p"
+	.string "那是学习器41号，知道吧？\n"
 # 193 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Like, it won't let the other guy\n"
+	.string "嘿，是折磨，听到了吗？\p"
 # 194 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "use the same move twice in a row, see?\p"
+	.string "它能让对手无法连续\n"
 # 195 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Hey, now, you listen here, like,\n"
+	.string "使用同一个招式，懂吗？\p"
 # 196 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I'm not laying a torment on you!$"
+	.string "喂，听着，我可不是在\n"
 # 197 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "折磨你！$"
 # 198 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+
 # 199 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
+@ Unused
 # 200 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "MC: Oh, my, my!\n"
+SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
 # 201 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Now isn't that a dandy of a Pokémon?\p"
+	.string "主持：哦，天哪！\n"
 # 202 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Please! Do step right up and take\n"
+	.string "这宝可梦可真漂亮！\p"
 # 203 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "part in our splendid CONTESTS!\p"
+	.string "来吧！请走上前来，\n"
 # 204 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "You'll do well! I'm sure of it!\n"
+	.string "参加我们精彩的华丽大赛！\p"
 # 205 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "My eyes have never failed me!$"
+	.string "你一定会表现出色的！\n"
 # 206 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "我的眼光从没看错过！$"
 # 207 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+
 # 208 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
+@ Unused
 # 209 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "JUDGE: Well, hello there!\n"
+SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
 # 210 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I see that you're a 训练家!\p"
+	.string "评审：哦，你好！\n"
 # 211 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Then, it just wouldn't do for you\n"
+	.string "我看得出你是训练家！\p"
 # 212 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "to miss a Pokémon CONTEST!\p"
+	.string "那么，你要是错过了\n"
 # 213 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Get a CONTEST PASS in VERDANTURF\n"
+	.string "宝可梦华丽大赛\l"
 # 214 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "CITY and enter anytime!$"
+	.string "可就太可惜了！\p"
 # 215 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "去绿荫镇领取参赛证，\n"
 # 216 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "随时都能参加！$"
 # 217 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_ItsAppealTime:
+
 # 218 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "It's appeal time!\n"
+@ Unused
 # 219 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "What should I lead with?$"
+SlateportCity_ContestHall_Text_ItsAppealTime:
 # 220 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "到表演时间了！\n"
 # 221 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "我该以什么开场？$"
 # 222 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
+
 # 223 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "They didn't pay much attention to\n"
+@ Unused
 # 224 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "my Pokémon's appeal…\p"
+SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
 # 225 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Humph, that JUDGE, he doesn't know\n"
+	.string "他们根本没怎么注意\n"
 # 226 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "a good thing when he sees it.$"
+	.string "我宝可梦的表演……\p"
 # 227 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "哼，那个评审，好东西\n"
 # 228 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "摆在眼前都不识货。$"
 # 229 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_RewardWithSageAdvice:
+
 # 230 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Oh, hi! You must be a serious fan to get\n"
+@ Unused
 # 231 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "this close to the action.\p"
+SlateportCity_ContestHall_Text_RewardWithSageAdvice:
 # 232 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I'll reward your enthusiasm with\n"
+	.string "哦，你好！能靠得这么近，\n"
 # 233 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "this sage advice.\p"
+	.string "你一定是铁杆粉丝。\p"
 # 234 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "If a move goes over really well,\n"
+	.string "为了奖励你的热情，\n"
 # 235 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "the audience will get excited.\p"
+	.string "我给你一条明智的建议。\p"
 # 236 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "The Pokémon that makes its appeal\n"
+	.string "如果某个招式反响很好，\n"
 # 237 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "right when everyone's excited…\p"
+	.string "观众就会兴奋起来。\p"
 # 238 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Well, you'd think something good has\n"
+	.string "在大家都兴奋的时候\n"
 # 239 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "to happen!$"
+	.string "正好表演的宝可梦……\p"
 # 240 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "嗯，你想想，那肯定\n"
 # 241 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "会有好事发生！$"
 # 242 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
+
 # 243 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I can't do this! I'm more freaked out\n"
+@ Unused
 # 244 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "than my Pokémon.\p"
+SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
 # 245 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "I'm shivering and my heart is racing!$"
+	.string "我做不到！我比我的宝可梦\n"
 # 246 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "还要紧张。\p"
 # 247 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "我浑身发抖，心跳得厉害！$"
 # 248 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_BattleAndContestAlike:
+
 # 249 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "A battle and a CONTEST aren't the\n"
+@ Unused
 # 250 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "same, but they are alike, too.\p"
+SlateportCity_ContestHall_Text_BattleAndContestAlike:
 # 251 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "You need to work hard and believe\n"
+	.string "对战和华丽大赛虽然不同，\n"
 # 252 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "in the Pokémon you've raised.$"
+	.string "但也很相似。\p"
 # 253 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "都需要努力，还要相信\n"
 # 254 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "自己培养的宝可梦。$"
 # 255 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
+
 # 256 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "That Pokémon looks like it's on top\n"
+@ Unused
 # 257 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "of its game, huh?\p"
+SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
 # 258 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "A Pokémon that does good in the\n"
+	.string "那只宝可梦看起来\n"
 # 259 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "secondary judging seems to be more\l"
+	.string "状态很好吧？\p"
 # 260 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "relaxed when it's doing appeals.$"
+	.string "在二次评审中表现好的\n"
 # 261 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "宝可梦，表演时似乎\l"
 # 262 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "也更加从容。$"
 # 263 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
+
 # 264 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Will you look at that sorry sight?\p"
+@ Unused
 # 265 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Heh, my Pokémon's absolutely better\n"
+SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
 # 266 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "than that lot!$"
+	.string "你看那副可怜样？\p"
 # 267 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-
+	.string "嘿，我的宝可梦可比\n"
 # 268 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-@ Unused
+	.string "那一群强多了！$"
 # 269 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
-# 270 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Don't you get the urge to move with\n"
-# 271 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Pokémon if they're putting on an\l"
-# 272 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "energetic appeal?$"
-# 273 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
-# 274 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+# 270 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 @ Unused
+# 271 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
+# 272 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+	.string "看到宝可梦跳起充满活力的\n"
+# 273 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+	.string "表演，你不也想\l"
+# 274 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+	.string "跟着动起来吗？$"
 # 275 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-SlateportCity_ContestHall_Text_HyperRankStage:
+
 # 276 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "Pokémon CONTESTS\n"
+@ Unused
 # 277 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
-	.string "HYPER RANK STAGE!$"
+SlateportCity_ContestHall_Text_HyperRankStage:
+# 278 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+	.string "宝可梦华丽大赛\n"
+# 279 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+	.string "超级级别会场！$"

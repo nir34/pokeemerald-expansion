@@ -343,155 +343,155 @@ MossdeepCity_EventScript_FormerDynamicPunchTutor::
 	end
 
 MossdeepCity_Text_FormerDynamicPunchTutor:
-	.string "I used to be able to punch dynamically…\n"
-	.string "Oh, what happened?$"
+	.string "我以前能动力十足地出拳……\n"
+	.string "唉，怎么了呢？$"
 
 MossdeepCity_Text_StevenPreRocket:
-	.string "Oh, hello there, {PLAYER}. We figured\n"
-	.string "you'd show up here eventually.\p"
-	.string "Drake and I are planning to stop whatever\n"
-	.string "Team Magma is planning here.\p"
-	.string "Why don't you take on the Mossdeep Gym\n"
-	.string "challenge and then join us afterwards?$"
+	.string "哦，你好，{PLAYER}。我们\n"
+	.string "就猜你早晚会来。\p"
+	.string "我和源治打算阻止熔岩队\n"
+	.string "在这里的计划。\p"
+	.string "你不如先去挑战绿岭道馆，\n"
+	.string "之后再来找我们？$"
 
 MossdeepCity_Text_DrakePreRocket:
-	.string "{PLAYER}. Steven and I will handle\n"
-	.string "these insolent pups.$"
+	.string "{PLAYER}。大吾和我会\n"
+	.string "收拾这些没规矩的小子。$"
 
 MossdeepCity_Text_Grunt1:
-	.string "What are you looking at, brat? Get lost.$"
+	.string "你看什么看，小鬼？滚开。$"
 
 MossdeepCity_Text_Grunt2:
-	.string "This mission is gonna be a huge\n"
-	.string "success!$"
+	.string "这次任务一定大成功！$"
 
 MossdeepCity_Text_Grunt3:
-	.string "The boss is so smart, I don't know how\n"
-	.string "he thinks of these plans.$"
+	.string "老板太聪明了，我都不\n"
+	.string "知道他怎么想出这些计划。$"
 
 MossdeepCity_Text_Grunt4:
-	.string "Scram!$"
+	.string "滚！$"
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from Steven, but I don't\n"
-	.string "know what it's good for.\p"
-	.string "I think it's called King'S Rock.\n"
-	.string "Do you want it?$"
+	.string "我从大吾那儿得到的，\n"
+	.string "可我不知道有什么用。\p"
+	.string "好像叫王者之证。\n"
+	.string "你想要吗？$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Why would you want it?\n"
-	.string "You're weird.\p"
-	.string "You can keep it, but keep it a secret\n"
-	.string "from Steven.$"
+	.string "你为什么想要这个？\n"
+	.string "你真怪。\p"
+	.string "你留着吧，可别让\n"
+	.string "大吾知道。$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "Steven's house is right over there!$"
+	.string "大吾的家就在那边！$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-	.string "Yeah, you think so, too! What are you\n"
-	.string "supposed to do with some weird rock?$"
+	.string "对吧，你也这么想！一块\n"
+	.string "怪石头能拿来干什么？$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around Mossdeep, you can see wild\n"
-	.string "Wailmer.\p"
-	.string "It's called, uh…\n"
-	.string "What was it now…\p"
-	.string "Wai, Wai, Wai…\p"
-	.string "Wailmer watching!$"
+	.string "在绿岭附近能看到野生\n"
+	.string "的吼吼鲸。\p"
+	.string "这叫，呃……\n"
+	.string "那叫什么来着……\p"
+	.string "吼、吼、吼……\p"
+	.string "观吼吼鲸！$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's Space Center has been\n"
-	.string "launching huge rockets.\p"
-	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "岛上的太空中心一直在\n"
+	.string "发射巨大的火箭。\p"
+	.string "最近他们收到一封信，\n"
+	.string "引起了一阵骚动。$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's Space Center has been\n"
-	.string "launching huge rockets.$"
+	.string "岛上的太空中心一直在\n"
+	.string "发射巨大的火箭。$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a sailor buddy that\n"
-	.string "Team Aqua set up shop in Lilycove.\p"
-	.string "I also heard that someone came along\n"
-	.string "and wiped the floor with them!\p"
-	.string "But Mossdeep here's been targeted\n"
-	.string "by that Team Magma.\p"
-	.string "If you want to know what they're up to,\n"
-	.string "go visit the Space Center.$"
+	.string "我听一个水手朋友说，\n"
+	.string "水舰队占据了水静市。\p"
+	.string "我还听说有人来把\n"
+	.string "他们打得落花流水！\p"
+	.string "可绿岭这里又被熔岩队\n"
+	.string "盯上了。\p"
+	.string "想知道他们要干什么，\n"
+	.string "就去太空中心看看。$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-	.string "I'm a sailor, so the sea's obviously\n"
-	.string "more important to me.\p"
-	.string "But you know? When I get back on land\n"
-	.string "after a long voyage, I do feel relief!$"
+	.string "我是水手，海对我来说\n"
+	.string "当然更重要。\p"
+	.string "可你知道吗？远航之后\n"
+	.string "一回到陆地，\l"
+	.string "我确实松了口气！$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string "Wouldn't it be nice?\p"
-	.string "If the whole world was covered in\n"
-	.string "plants and flowers like this island?$"
+	.string "要是世界都像这座岛\n"
+	.string "一样长满花草，\l"
+	.string "那不是很好吗？$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
-	.string "All life needs the sea to live, even\n"
-	.string "though it makes its home on the land.\p"
-	.string "Life, having run its course, becomes\n"
-	.string "soil and returns to the land.\p"
-	.string "And the sea is always connected to\n"
-	.string "the land.\p"
-	.string "Yes, like the very shoreline here.$"
+	.string "所有生命都要靠海才能活，\n"
+	.string "就算它安家在陆地上。\p"
+	.string "生命走完旅程，变成泥土，\n"
+	.string "回到大地。\p"
+	.string "而海永远和大陆相连。\p"
+	.string "对，就像这里的海岸线。$"
 
 MossdeepCity_Text_SurfExhilarating:
-	.string "A voyage on a ship is fine.\p"
-	.string "But crossing the sea with Pokémon\n"
-	.string "using Surf…\p"
-	.string "Now that's an exhilarating trip!\n"
-	.string "Wouldn't you agree, youngster?$"
+	.string "坐船航行是不错。\p"
+	.string "但用宝可梦的冲浪\n"
+	.string "横渡大海……\p"
+	.string "那才是痛快之旅！\n"
+	.string "你说是不是，年轻人？$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
-	.string "This rock has a special meaning to\n"
-	.string "the people at the Space Center.\p"
-	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
-	.string "When you make a wish, what do you use?\n"
-	.string "Do you wish upon a star?\p"
-	.string "I use a wish tag to make it happen.\n"
-	.string "That's what I do.$"
+	.string "这块石头对太空中心的\n"
+	.string "人来说有特别的意义。\p"
+	.string "他们把它放在这里，\n"
+	.string "祝愿火箭平安升空。\p"
+	.string "你许愿的时候用什么？\n"
+	.string "对星星许愿吗？\p"
+	.string "我是用许愿签的。\n"
+	.string "我就是这样。$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "是一块白色的石头。$"
 
 MossdeepCity_Text_GymSign:
-	.string "Mossdeep City Pokémon Gym\n"
-	.string "Leaders: Liza & Tate\p"
-	.string "“The mystic combination!”$"
+	.string "绿岭市宝可梦道馆\n"
+	.string "馆主：枫和南\p"
+	.string "“神秘的双人组合！”$"
 
 MossdeepCity_Text_CitySign:
-	.string "Mossdeep City\n"
-	.string "“Our slogan: Cherish Pokémon!”$"
+	.string "绿岭市\n"
+	.string "“我们的口号：珍爱宝可梦！”$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "Mossdeep Space Center\n"
-	.string "“The closest place to space.”$"
+	.string "绿岭太空中心\n"
+	.string "“离宇宙最近的地方。”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "{PLAYER}{KUN}, feeling good?\n"
-	.string "I'm doing great!\p"
-	.string "I'd heard Mossdeep's Gym Leader is\n"
-	.string "pretty strong, so I decided to come\l"
-	.string "take a look-see for myself.\p"
-	.string "But Team Magma's presence here... It's\n"
-	.string "making me a bit uneasy, I'm going to\l"
-	.string "split before things start going down.\p"
-	.string "I'm sure you'll take care of business as\n"
-	.string "usual, {PLAYER}.$"
+	.string "{PLAYER}，感觉好吗？\n"
+	.string "我很好！\p"
+	.string "我听说绿岭的道馆馆主\n"
+	.string "挺强的，就决定\l"
+	.string "亲自来看看。\p"
+	.string "可熔岩队在这儿……\n"
+	.string "让我有点不安，\l"
+	.string "我打算在出事之前\l"
+	.string "先离开。\p"
+	.string "{PLAYER}，我相信你会\n"
+	.string "照常把事情搞定。$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-	.string "Ahh… It feels great letting the waves\n"
-	.string "wash over my feet…\p"
-	.string "Speaking of the waves, you know that\n"
-	.string "island city Sootopolis?\p"
-	.string "I think the Gym there had a new\n"
-	.string "leader come in.\p"
-	.string "People tell me the new leader once\n"
-	.string "mentored Wallace.$"
+	.string "啊……让海浪冲过脚背\n"
+	.string "真舒服……\p"
+	.string "说到海浪，你知道那座\n"
+	.string "岛上的城市琉璃市吗？\p"
+	.string "我想那边的道馆来了\n"
+	.string "新的馆主。\p"
+	.string "人家告诉我，新馆主\n"
+	.string "曾经指导过亚当。$"
 
 `

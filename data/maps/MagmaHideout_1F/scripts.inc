@@ -39,68 +39,70 @@ MagmaHideout_1F_EventScript_Grunt2::
 # 20 "data/maps/MagmaHideout_1F/scripts.pory"
 MagmaHideout_1F_Text_Grunt1Intro:
 # 21 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "When Team Magma has roll call, we get\n"
+	.string "水舰队点名的时候，我们\n"
 # 22 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "important guarding assignments in\l"
+	.string "按站队的顺序领\l"
 # 23 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "the order that we line up.\p"
+	.string "重要守卫任务。\p"
 # 24 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "That's why I'm stuck off in this corner.\n"
+	.string "所以我才被塞在\n"
 # 25 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "I'm always late to roll call!$"
+	.string "这个角落。我点名\l"
 # 26 "data/maps/MagmaHideout_1F/scripts.pory"
-
+	.string "总是迟到！$"
 # 27 "data/maps/MagmaHideout_1F/scripts.pory"
-MagmaHideout_1F_Text_Grunt1Defeat:
+
 # 28 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "I'm always late for training sessions,\n"
+MagmaHideout_1F_Text_Grunt1Defeat:
 # 29 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "too!\p"
+	.string "我训练也总是迟到！\p"
 # 30 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "I hate to say it, but I'm wimpy…$"
+	.string "不想承认，不过\n"
 # 31 "data/maps/MagmaHideout_1F/scripts.pory"
-
+	.string "我真是个软脚虾……$"
 # 32 "data/maps/MagmaHideout_1F/scripts.pory"
-MagmaHideout_1F_Text_Grunt1PostBattle:
+
 # 33 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "Okay, I'll try to put a little more\n"
+MagmaHideout_1F_Text_Grunt1PostBattle:
 # 34 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "effort into things from now on…$"
+	.string "好吧，我从现在起\n"
 # 35 "data/maps/MagmaHideout_1F/scripts.pory"
-
+	.string "会多用点力……$"
 # 36 "data/maps/MagmaHideout_1F/scripts.pory"
-MagmaHideout_1F_Text_Grunt2Intro:
+
 # 37 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "Our leader told us to dig into\n"
+MagmaHideout_1F_Text_Grunt2Intro:
 # 38 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "MT. CHIMNEY, so we dug and dug.\p"
+	.string "老大让我们往烟囱山\n"
 # 39 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "And in the course of digging, we came\n"
+	.string "里挖，我们就一直挖。\p"
 # 40 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "across something that blew our minds!\p"
+	.string "挖的过程中，我们挖到了\n"
 # 41 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "What did we find?\p"
+	.string "让人瞠目结舌的东西！\p"
 # 42 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "Fuhahaha!\n"
+	.string "挖到了什么？\p"
 # 43 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "I'll tell you if you beat me!$"
+	.string "哈哈哈！\n"
 # 44 "data/maps/MagmaHideout_1F/scripts.pory"
-
+	.string "你打赢我我就告诉你！$"
 # 45 "data/maps/MagmaHideout_1F/scripts.pory"
-MagmaHideout_1F_Text_Grunt2Defeat:
-# 46 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "Arrgh!\n"
-# 47 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "Taken down!$"
-# 48 "data/maps/MagmaHideout_1F/scripts.pory"
 
+# 46 "data/maps/MagmaHideout_1F/scripts.pory"
+MagmaHideout_1F_Text_Grunt2Defeat:
+# 47 "data/maps/MagmaHideout_1F/scripts.pory"
+	.string "呃啊！\n"
+# 48 "data/maps/MagmaHideout_1F/scripts.pory"
+	.string "被打倒了！$"
 # 49 "data/maps/MagmaHideout_1F/scripts.pory"
-MagmaHideout_1F_Text_Grunt2PostBattle:
+
 # 50 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "I won't tell you after all.\n"
+MagmaHideout_1F_Text_Grunt2PostBattle:
 # 51 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "You'll find out when you get there!\p"
+	.string "算了，我不告诉你。\n"
 # 52 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "It'd be better if you saved surprises\n"
+	.string "你到了那儿就知道了！\p"
 # 53 "data/maps/MagmaHideout_1F/scripts.pory"
-	.string "to the end, don't you think?$"
+	.string "惊喜留到最后比较\n"
+# 54 "data/maps/MagmaHideout_1F/scripts.pory"
+	.string "好吧，你不觉得吗？$"

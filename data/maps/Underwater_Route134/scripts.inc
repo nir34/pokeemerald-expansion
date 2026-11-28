@@ -39,8 +39,8 @@ StopPlayerUp:
 
 PowerfulAura::
 # 22 "data/maps/Underwater_Route134/scripts.pory"
-	.string "You feel an extremely powerful\n"
-	.string "aura radiating from something\l"
-	.string "further ahead.\p"
-	.string "It's probably best to come back once\n"
-	.string "you've become stronger.$"
+	.string "你感觉到前方有\n"
+	.string "某种东西散发出\l"
+	.string "极其强大的气息。\p"
+	.string "最好等你变强\n"
+	.string "再来。$"

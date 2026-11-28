@@ -62,28 +62,30 @@ FallarborTown_MoveRelearnersHouse_EventScript_ReceivedTms::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ExplainTms:
-	.string "That's all the moves that I knew how to\n"
-	.string "teach. Here, I'll even list them off, I\l"
-	.string "just gave you the TMs for:\p"
-	.string "Dragon Claw, Thunder, Teleport, Fire\n"
-	.string "Blast, Poltergeist, Thunder Wave, Iron\l"
-	.string "Head, Liquidation, Hydro Pump, Drill Run,\l"
-	.string "Blaze Kick, Zen Headbutt, Weather Ball,\l"
-	.string "Air Slash, Hex, Mystical Fire, Seed Bomb,\l"
-	.string "Leaf Blade, Knock Off, Power Gem, Rock\l"
-	.string "Blast, Pin Missile, Icicle Spear, Tail\l"
-	.string "Slap, Arm Thrust, Foul Play, Iron\l"
-	.string "Defense, Body Slam, Play Rough,\l"
-	.string "and Blizzard.\p"
-	.string "Now you can take those moves with you\n"
-	.string "and teach them to your Pokémon\l"
-	.string "wherever you are!$"
+	.string "我会教的招式就这些了。\n"
+	.string "我把它们列出来吧，\l"
+	.string "我刚给了你这些学习器：\p"
+	.string "龙爪、打雷、瞬间移动、\n"
+	.string "大字爆炎、灵骚、电磁波、\l"
+	.string "铁头、水流裂破、水炮、\l"
+	.string "直冲钻、火焰踢、意念头锤、\l"
+	.string "气象球、空气斩、祸不单行、\l"
+	.string "魔法火焰、种子炸弹、\l"
+	.string "叶刃、拍落、力量宝石、\l"
+	.string "岩石爆击、飞弹针、冰锥、\l"
+	.string "摔打、猛推、欺诈、铁壁、\l"
+	.string "泰山压顶、嬉闹、暴风雪。\p"
+	.string "现在你能把这些招式随时\n"
+	.string "带在身上，在哪里\l"
+	.string "都能教给宝可梦了！$"
 
 FallarborTown_MoveRelearnersHouse_Text_NowYoureAMoveTutor:
-	.string "Now YOU'RE a Move Tutor! Hah!$"
+	.string "现在你也是招式的\n"
+	.string "教学师父了！哈！$"
 
 FallarborTown_MoveRelearnersHouse_Text_ReceivedSeveralTMs::
-	.string "{PLAYER} received several TMs!$"
+	.string "{PLAYER}收到了\n"
+	.string "好几个学习器！$"
 
 
 FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearnerOriginal::
@@ -137,54 +139,55 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutorPreLava:
-	.string "I'm the Move Tutor.\n"
-	.string "Or at least I used to be. I got tired of\l"
-	.string "collecting Heart Scales and teaching\l"
-	.string "Pokémon the same moves over and over\l"
-	.string "again, and trainers got tired of coming\l"
-	.string "all the way out here just to have me\l"
-	.string "teach them moves. So, I solved both\l"
-	.string "problems by making these!\p"
-	.string "Hmm, on second thought, you don't even\n"
-	.string "4 Badges yet.\p"
-	.string "I'm not sure you're ready for all of\n"
-	.string "these TMs I've made.\p"
-	.string "Come back once you've got 4 Badges\n"
-	.string "and we'll talk.$"
+	.string "我是招式教学师父。\n"
+	.string "至少以前是。我厌倦了\l"
+	.string "收集心之鳞片、一遍遍\l"
+	.string "教宝可梦同样的招式，\l"
+	.string "训练家也厌倦了为了\l"
+	.string "学招式特地跑这么远。\l"
+	.string "于是我就做了这些，\l"
+	.string "把两个问题一起解决了！\p"
+	.string "嗯，不过想想，你连\n"
+	.string "四枚徽章都还没有。\p"
+	.string "我不确定你准备好接受\n"
+	.string "我做的这些学习器了。\p"
+	.string "等你拿到四枚徽章\n"
+	.string "再来，我们再说。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "Well, well, look at you!\n"
-	.string "I see you've got 4 Badges now, I think\l"
-	.string "that means you're ready for these.$"
+	.string "哦哦，看看你！\n"
+	.string "我看你已经拿到四枚徽章，\l"
+	.string "我想你准备好收下这些了。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness Heart Scale!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+	.string "哦！就是这个！这可是\n"
+	.string "货真价实的心之鳞片！\p"
+	.string "让我猜猜，你想让我\n"
+	.string "教你一个招式？$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which Pokémon needs tutoring?$"
+	.string "要让哪只宝可梦\n"
+	.string "学习？$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "要教哪个招式？$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "抱歉……\p"
+	.string "好像我没有什么招式\n"
+	.string "能教给那只宝可梦。$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one Heart Scale\n"
-	.string "in exchange.$"
+	.string "{PLAYER}交出了\n"
+	.string "一枚心之鳞片。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your Pokémon need to learn a move,\n"
-	.string "come back with a Heart Scale.$"
+	.string "你的宝可梦要是想学招式，\n"
+	.string "就带心之鳞片再来。$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an Egg.$"	
+	.string "嗯？蛋根本学不会\n"
+	.string "任何招式。$"
 
 `
 
@@ -193,10 +196,10 @@ script FallarborTown_MoveRelearnersHouse_EventScript_StarterEggGive {
 	faceplayer
 	msgbox(EggManIntro)
 
-	dynmultipush("{COLOR RED}{SHADOW LIGHT_RED}Fire", ITEM_RED_SHARD)
-	dynmultipush("{COLOR BLUE}{SHADOW LIGHT_BLUE}Water", ITEM_BLUE_SHARD)
-	dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Grass", ITEM_GREEN_SHARD)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("{COLOR RED}{SHADOW LIGHT_RED}火", ITEM_RED_SHARD)
+	dynmultipush("{COLOR BLUE}{SHADOW LIGHT_BLUE}水", ITEM_BLUE_SHARD)
+	dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}草", ITEM_GREEN_SHARD)
+    dynmultipush("取消", MULTI_B_PRESSED)
 
     // // setting initial selected to a non-existant ID will always have it point to the first option
 	dynmultistack(0, 0, FALSE, 6, FALSE, 3, DYN_MULTICHOICE_CB_NONE)
@@ -213,12 +216,12 @@ script FallarborTown_MoveRelearnersHouse_EventScript_StarterEggGive {
 	if (var(VAR_RESULT) == ITEM_BLUE_SHARD)
 	{
 		goto(FallarborTown_MoveRelearnersHouse_EventScript_GiveWaterEgg)
-		msgbox("Come back if you have more shards!")
+		msgbox("还有碎片的话，请再来！")
 	}
 	if (var(VAR_RESULT) == ITEM_GREEN_SHARD)
 	{
 		goto(FallarborTown_MoveRelearnersHouse_EventScript_GiveGrassEgg)
-		msgbox("Come back if you have more shards!")
+		msgbox("还有碎片的话，请再来！")
 	}
 	release
 	end
@@ -230,13 +233,13 @@ script FallarborTown_MoveRelearnersHouse_EventScript_GiveFireEgg {
 	goto_if_eq(VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithRedShard)
 	getpartysize
 	goto_if_eq(VAR_RESULT, PARTY_SIZE, FallarborTown_MoveRelearnersHouse_EventScript_NoRoomForEgg)
-	msgbox("A wise choice. Here you go.")
+	msgbox("明智的选择。给你。")
 	playfanfare(MUS_OBTAIN_ITEM)
 	message(FallarborTown_MoveRelearnersHouse_Text_ReceivedTheEgg)
 	waitfanfare
 	giveegg(SPECIES_CHARMANDER)
 	removeitem(ITEM_RED_SHARD)
-	msgbox("Come back if you have more shards!")
+	msgbox("还有碎片的话，请再来！")
 	release
 	end
 }
@@ -246,13 +249,13 @@ script FallarborTown_MoveRelearnersHouse_EventScript_GiveWaterEgg {
 	goto_if_eq(VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithBlueShard)
 	getpartysize
 	goto_if_eq(VAR_RESULT, PARTY_SIZE, FallarborTown_MoveRelearnersHouse_EventScript_NoRoomForEgg)
-	msgbox("A wise choice. Here you go.")
+	msgbox("明智的选择。给你。")
 	playfanfare(MUS_OBTAIN_ITEM)
 	message(FallarborTown_MoveRelearnersHouse_Text_ReceivedTheEgg)
 	waitfanfare
 	giveegg(SPECIES_SQUIRTLE)
 	removeitem(ITEM_BLUE_SHARD)
-	msgbox("Come back if you have more shards!")
+	msgbox("还有碎片的话，请再来！")
 	release
 	end
 }
@@ -262,19 +265,19 @@ script FallarborTown_MoveRelearnersHouse_EventScript_GiveGrassEgg {
 	goto_if_eq(VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithGreenShard)
 	getpartysize
 	goto_if_eq(VAR_RESULT, PARTY_SIZE, FallarborTown_MoveRelearnersHouse_EventScript_NoRoomForEgg)
-	msgbox("A wise choice. Here you go.")
+	msgbox("明智的选择。给你。")
 	playfanfare(MUS_OBTAIN_ITEM)
 	message(FallarborTown_MoveRelearnersHouse_Text_ReceivedTheEgg)
 	waitfanfare
 	giveegg(SPECIES_BULBASAUR)
 	removeitem(ITEM_GREEN_SHARD)
-	msgbox("Come back if you have more shards!")
+	msgbox("还有碎片的话，请再来！")
 	release
 	end
 }
 
 script FallarborTown_MoveRelearnersHouse_EventScript_EggManNo {
-    msgbox("I see. Come back when you\nwant a starter egg.")
+    msgbox("我明白了。想要初始宝可梦\n的蛋时再来吧。")
     release
     end
 }
@@ -307,37 +310,37 @@ script FallarborTown_MoveRelearnersHouse_EventScript_NoRoomForEgg {
 
 
 text EggManIntro {
-	"Hello, I am a shard collector. If you\n"
-	"give me a Red Shard, I can give you an\l"
-	"Egg for a Fire-type starter Pokémon.\p"
-	"I can do the same with Blue Shards and\n"
-	"Green Shards for the other types of\l"
-	"starters.\p"
-	"Which type of Egg do you want?"
+	"你好，我是碎片收藏家。\n"
+	"你给我红色碎片，我就能给你\l"
+	"一颗火属性初始宝可梦的蛋。\p"
+	"用蓝色碎片和绿色碎片，\n"
+	"我也能为其他属性的\l"
+	"初始宝可梦做同样的事。\p"
+	"你想要哪种属性的蛋？"
 	
 }
 
 text FallarborTown_MoveRelearnersHouse_Text_ComeBackWithRedShard {
-	"It doesn't look like you have a Red\n"
-	"Shard. Come back when you do."
+	"看来你没有\n"
+	"绿色碎片。有了再来吧。"
 }
 
 text FallarborTown_MoveRelearnersHouse_Text_ComeBackWithBlueShard {
-	"It doesn't look like you have a Blue\n"
-	"Shard. Come back when you do."
+	"看来你没有\n"
+	"绿色碎片。有了再来吧。"
 }
 
 text FallarborTown_MoveRelearnersHouse_Text_ComeBackWithGreenShard {
-	"It doesn't look like you have a Green\n"
-	"Shard. Come back when you do."
+	"看来你没有\n"
+	"绿色碎片。有了再来吧。"
 }
 
 text FallarborTown_MoveRelearnersHouse_Text_NoRoomForThisEgg {
-	"Oh? You've too many Pokémon.\n"
-	"There's no room for this Egg."
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这颗蛋。"
 }
 
 text FallarborTown_MoveRelearnersHouse_Text_ReceivedTheEgg {
-	"{PLAYER} received the Egg."
+	"{PLAYER}收到了蛋。"
 }
 	

@@ -79,6 +79,6 @@ BattleFrontier_BattlePikeRoomFinal_EventScript_TurnPlayerNorth::
 # 40 "data/maps/BattleFrontier_BattlePikeRoomFinal/scripts.pory"
 BattleFrontier_BattlePikeRoomFinal_Text_CongratsThisWayPlease:
 # 41 "data/maps/BattleFrontier_BattlePikeRoomFinal/scripts.pory"
-	.string "Congratulations…\n"
+	.string "恭喜……\n"
 # 42 "data/maps/BattleFrontier_BattlePikeRoomFinal/scripts.pory"
-	.string "Now, this way, please…$"
+	.string "现在，请往这边走……$"

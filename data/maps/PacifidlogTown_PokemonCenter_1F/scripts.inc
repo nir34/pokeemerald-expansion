@@ -71,131 +71,133 @@ PacifidlogTown_PokemonCenter_1F_EventScript_FormerExplosionTutor::
 # 36 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 PacifidlogTown_PokemonCenter_1F_Text_FormerExplosionTutor:
 # 37 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "I used to be able to cause huge\n"
+	.string "我以前能炸出好大的\n"
 # 38 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "explosions… Oh, what happened?$"
+	.string "爆炸……唉，怎么了呢？$"
 # 39 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 
 # 40 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 # 41 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "What color is your 训练家 CARD?\n"
+	.string "你的训练家卡\n"
 # 42 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "Mine's copper!$"
+	.string "是什么颜色？\l"
 # 43 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-
+	.string "我的是铜色！$"
 # 44 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
+
 # 45 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "PACIFIDLOG TOWN floats on top of\n"
+PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
 # 46 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "a colony of CORSOLA.\p"
+	.string "水静市浮在一大群\n"
 # 47 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "If I told you that, would you believe\n"
+	.string "太阳珊瑚上面。\p"
 # 48 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "me?$"
+	.string "我这么说，\n"
+# 49 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "你信吗？$"
 
 PacifidlogTown_PokemonCenter_1F_EventScript_EggMan::
-# 52 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	lock
 # 53 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	faceplayer
+	lock
 # 54 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	faceplayer
+# 55 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	msgbox PacifidlogTown_PokemonCenter_1F_PseudoManIntro, MSGBOX_YESNO
-# 56 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+# 57 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq PacifidlogTown_PokemonCenter_1F_EventScript_EggMan_2
 PacifidlogTown_PokemonCenter_1F_EventScript_EggMan_1:
-# 61 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	checkitem ITEM_YELLOW_SHARD
 # 62 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, PacifidlogTown_PokemonCenter_1F_EventScript_ComeBackWithYellowShard
+	checkitem ITEM_YELLOW_SHARD
 # 63 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	getpartysize
+	goto_if_eq VAR_RESULT, FALSE, PacifidlogTown_PokemonCenter_1F_EventScript_ComeBackWithYellowShard
 # 64 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	goto_if_eq VAR_RESULT, PARTY_SIZE, PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg
+	getpartysize
 # 65 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	msgbox PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
+	goto_if_eq VAR_RESULT, PARTY_SIZE, PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg
 # 66 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
 # 67 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	message PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg
+	playfanfare MUS_OBTAIN_ITEM
 # 68 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	waitfanfare
+	message PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg
 # 69 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	giveegg SPECIES_DRATINI
+	waitfanfare
 # 70 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	removeitem ITEM_YELLOW_SHARD
+	giveegg SPECIES_DRATINI
 # 71 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	msgbox PacifidlogTown_PokemonCenter_1F_ComeBackWithMore, MSGBOX_DEFAULT
+	removeitem ITEM_YELLOW_SHARD
 # 72 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	msgbox PacifidlogTown_PokemonCenter_1F_ComeBackWithMore, MSGBOX_DEFAULT
+# 73 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 PacifidlogTown_PokemonCenter_1F_EventScript_EggMan_2:
-# 58 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+# 59 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	goto PacifidlogTown_PokemonCenter_1F_EventScript_PseudoEggManManNo
 	goto PacifidlogTown_PokemonCenter_1F_EventScript_EggMan_1
 
 
 PacifidlogTown_PokemonCenter_1F_EventScript_PseudoEggManManNo::
-# 78 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	msgbox PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined, MSGBOX_DEFAULT
 # 79 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	msgbox PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined, MSGBOX_DEFAULT
+# 80 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 PacifidlogTown_PokemonCenter_1F_EventScript_ComeBackWithYellowShard::
-# 84 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	msgbox PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard, MSGBOX_DEFAULT
 # 85 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard, MSGBOX_DEFAULT
+# 86 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 PacifidlogTown_PokemonCenter_1F_EventScript_NoRoomForEgg::
-# 90 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	msgbox PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg, MSGBOX_DEFAULT
 # 91 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg, MSGBOX_DEFAULT
+# 92 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 PacifidlogTown_PokemonCenter_1F_PseudoManIntro::
-# 95 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "Hello, trainer. I have several rare Eggs\n"
-	.string "here with me.\p"
-	.string "I am currently seeking Yellow Shards,\n"
-	.string "would you be willing to exchange a\l"
-	.string "Yellow Shard in exchange for one of\l"
-	.string "these Eggs?$"
+# 96 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "你好，训练家。我手上有几颗\n"
+	.string "稀有的蛋。\p"
+	.string "我现在正需要黄色碎片，\n"
+	.string "你愿意用一枚黄色碎片\l"
+	.string "来换其中\l"
+	.string "一颗蛋吗？$"
 
 PacifidlogTown_PokemonCenter_1F_PseudoEggManDeclined::
-# 104 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "I see. Please come back if you change\n"
-	.string "your mind.$"
+# 105 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "我明白了。若你改变主意，\n"
+	.string "请再来。$"
 
 PacifidlogTown_PokemonCenter_1F_Text_ComeBackWithYellowShard::
-# 110 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "It doesn't look like you have a\n"
-	.string "Yellow Shard. Come back when you do.$"
+# 111 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "看来你没有\n"
+	.string "黄色碎片。有了再来吧。$"
 
 PacifidlogTown_PokemonCenter_1F_Text_NoRoomForThisEgg::
-# 115 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "Oh? You've too many Pokémon.\n"
-	.string "There's no room for this Egg…$"
+# 116 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "哦？你的宝可梦太多了。\n"
+	.string "没地方放这颗蛋……$"
 
 PacifidlogTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg::
-# 120 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "Good! I hope you'll walk plenty with\n"
-	.string "this here Egg!$"
+# 121 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "好！希望你能带着\n"
+	.string "这颗蛋多走走！$"
 
 PacifidlogTown_PokemonCenter_1F_Text_ReceivedTheEgg::
-# 125 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "{PLAYER} received the Egg.$"
+# 126 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "{PLAYER}收到了蛋。$"
 
 PacifidlogTown_PokemonCenter_1F_ComeBackWithMore::
-# 129 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
-	.string "Please come back if you have more\n"
-	.string "Yellow Shards you'd like to exchange.$"
+# 130 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+	.string "若还有更多想交换的\n"
+	.string "黄色碎片，请再来。$"

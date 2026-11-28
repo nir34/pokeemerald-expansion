@@ -69,53 +69,55 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield::
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian:
-	.string "I've been trained in the way of the\n"
-	.string "sword, I'm all about offense.\p"
-	.string "If you can show me a Pokémon that\n"
-	.string "fits that philosophy, I'll give you a\l"
-	.string "nice Item for it.$"
+	.string "我修习剑之道，\n"
+	.string "全是攻击。\p"
+	.string "你要是能给我看符合\n"
+	.string "这个理念的宝可梦，\l"
+	.string "我就送你一件好道具。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword:
-	.string "Excellent! That Pokémon definitely\n"
-	.string "knows the way of the sword!\p"
-	.string "Here, please take this!$"
+	.string "太好了！那只宝可梦\n"
+	.string "绝对懂剑之道！\p"
+	.string "来，请收下这个！$"
 
 
 SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword:
-	.string "I hope you and your Pokémon use that\n"
-	.string "sword for some high-powered offense!$"
+	.string "希望你和你的宝可梦用\n"
+	.string "那把剑打出强力攻击！$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontZacian:
-	.string "I see, you don't have a Pokémon that\n"
-	.string "fits my philosophy.$"
+	.string "我明白了，你没有符合\n"
+	.string "我理念的宝可梦。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_NotZacian:
-	.string "That Pokémon doesn't fit my philosophy.$"
+	.string "那只宝可梦不符合\n"
+	.string "我的理念。$"
 
 
 
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta:
-	.string "I've been trained in the way of the\n"
-	.string "shield, I'm all about defense.\p"
-	.string "If you can show me a Pokémon that\n"
-	.string "fits that philosophy, I'll give you a\l"
-	.string "nice Item for it.$"
+	.string "我修习盾之道，\n"
+	.string "全是防御。\p"
+	.string "你要是能给我看符合\n"
+	.string "这个理念的宝可梦，\l"
+	.string "我就送你一件好道具。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield:
-	.string "Excellent! That Pokémon definitely\n"
-	.string "knows the way of the shield!\p"
-	.string "Here, please take this!$"
+	.string "太好了！那只宝可梦\n"
+	.string "绝对懂盾之道！\p"
+	.string "来，请收下这个！$"
 
 
 SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield:
-	.string "I hope you and your Pokémon use that\n"
-	.string "shield for some high-powered defense!$"
+	.string "希望你和你的宝可梦用\n"
+	.string "那面盾打出强力防御！$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta:
-	.string "I see, you don't have a Pokémon that\n"
-	.string "fits my philosophy.$"
+	.string "我明白了，你没有符合\n"
+	.string "我理念的宝可梦。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta:
-	.string "That Pokémon doesn't fit my philosophy.$"
+	.string "那只宝可梦不符合\n"
+	.string "我的理念。$"
 `

@@ -1443,256 +1443,274 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 # 722 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
 # 723 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "You're being watched…$"
+	.string "你正被看着……$"
 # 724 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
 # 725 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
 # 726 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+	.string "哈？啧……\p"
 # 727 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+	.string "你怎么知道我藏在\n"
 # 728 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "beneath this desk? You're sharp!$"
+	.string "这张桌子下面的？\l"
 # 729 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你真敏锐！$"
 # 730 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
+
 # 731 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
 # 732 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+	.string "哈？啧……\p"
 # 733 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "behind this tree? You're sharp!$"
+	.string "你怎么知道我藏在\n"
 # 734 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "这棵树后面的？\l"
 # 735 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedInDresser:
+	.string "你真敏锐！$"
 # 736 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+
 # 737 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+Route110_TrickHouseEntrance_Text_ConcealedInDresser:
 # 738 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "in this dresser? You're sharp!$"
+	.string "哈？啧……\p"
 # 739 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你怎么知道我藏在\n"
 # 740 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
+	.string "这个衣柜里的？\l"
 # 741 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+	.string "你真敏锐！$"
 # 742 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+
 # 743 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "beyond this window? You're sharp!$"
+Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
 # 744 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "哈？啧……\p"
 # 745 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
+	.string "你怎么知道我藏在\n"
 # 746 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+	.string "这扇窗户外的？\l"
 # 747 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+	.string "你真敏锐！$"
 # 748 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "in this planter? You're sharp!$"
-# 749 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
+# 749 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
 # 750 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
+	.string "哈？啧……\p"
 # 751 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+	.string "你怎么知道我藏在\n"
 # 752 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+	.string "这个花盆里的？\l"
 # 753 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "in this cupboard? You're sharp!$"
+	.string "你真敏锐！$"
 # 754 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
 # 755 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
+Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
 # 756 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
+	.string "哈？啧……\p"
 # 757 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
+	.string "你怎么知道我藏在\n"
 # 758 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "behind this window? You're sharp!$"
+	.string "这个碗柜里的？\l"
 # 759 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你真敏锐！$"
 # 760 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-# 761 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? Grrr…\p"
-# 762 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "How did you know I concealed myself\n"
-# 763 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "beneath this cushion? You're sharp!$"
-# 764 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
+# 761 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
+# 762 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "哈？啧……\p"
+# 763 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "你怎么知道我藏在\n"
+# 764 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "这扇窗户后的？\l"
 # 765 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
+	.string "你真敏锐！$"
 # 766 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Behold!\p"
+
 # 767 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "For I am the greatest living mystery\n"
+Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
 # 768 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "of a man in all of Hoenn!\l"
+	.string "哈？啧……\p"
 # 769 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "They call me…\p"
+	.string "你怎么知道我藏在\n"
 # 770 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "The Trick Master!\n"
+	.string "这个坐垫下的？\l"
 # 771 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "你真敏锐！$"
 # 772 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
 # 773 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
+Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 # 774 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "You, you've come to challenge\n"
+	.string "看吧！\p"
 # 775 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "my Trick House, haven't you?\p"
+	.string "因为我是全丰缘活着的\n"
 # 776 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "That's why you're here, isn't it?\n"
+	.string "最神秘的男子！\l"
 # 777 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Yes, it is!\p"
+	.string "大家叫我……\p"
 # 778 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Consider your challenge accepted!\p"
+	.string "机关大师！\n"
 # 779 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Enter through the scroll there,\n"
+	.string "哇哈哈哈！幸会！$"
 # 780 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "and let your challenge commence!\p"
+
 # 781 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "I shall be waiting in the back!$"
+Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 # 782 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你，你是来挑战我的\n"
 # 783 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ItsAScroll:
+	.string "机关屋的吧？\p"
 # 784 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "It's a scroll.$"
+	.string "你就是为这个来的，\n"
 # 785 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "对吧？对！\p"
 # 786 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
+	.string "那我就接受你的挑战！\p"
 # 787 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "There is a big hole behind the scroll!\p"
+	.string "从那边的卷轴进去，\n"
 # 788 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Want to go in?$"
+	.string "开始你的挑战吧！\p"
 # 789 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "我在最里面等你！$"
 # 790 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
+
 # 791 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "There is a note affixed to the scroll…\p"
+Route110_TrickHouseEntrance_Text_ItsAScroll:
 # 792 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "“I am leaving on a journey.\n"
+	.string "是一卷卷轴。$"
 # 793 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Don't look for me. Trick Master”$"
+
 # 794 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
 # 795 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
+	.string "卷轴后面有个大洞！\p"
 # 796 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "For the next time, I'll use this trick,\n"
+	.string "要进去吗？$"
 # 797 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "and that scheme, and those ruses…\p"
+
 # 798 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Mufufufu… If I may say so, it's\n"
+Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
 # 799 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "brilliantly difficult, even for me!$"
+	.string "卷轴上贴着张便条……\p"
 # 800 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "“我出门旅行了。\n"
 # 801 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
+	.string "别找我。机关大师”$"
 # 802 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah? What?!\n"
+
 # 803 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Oh, it's you!\p"
+Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
 # 804 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "I'm in the midst of devising new tricky\n"
+	.string "下次我要用这个机关、\n"
 # 805 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "challenges!\p"
+	.string "那个把戏，还有\l"
 # 806 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "It's not too much to ask for a bit more\n"
+	.string "那些计谋……\p"
 # 807 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "time for me to think, is it now?\l"
+	.string "嗯哼哼哼……不客气地说，\n"
 # 808 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "You wouldn't begrudge me that?\l"
+	.string "连我都觉得难！$"
 # 809 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Come back in a little while!$"
+
 # 810 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 # 811 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
+	.string "哈？什么？！\n"
 # 812 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Ah, it's you! You're here to accept the\n"
+	.string "哦，是你啊！\p"
 # 813 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "reward from before, isn't that right?\l"
+	.string "我正在设计新的\n"
 # 814 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Yes, right I am!\p"
+	.string "机关挑战！\p"
 # 815 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Here!\n"
+	.string "让我多花点时间想，\n"
 # 816 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "I'll give it to you now!$"
+	.string "这点要求不过分吧？\l"
 # 817 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你不会怪我吧？\l"
 # 818 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
+	.string "过阵子再来！$"
 # 819 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Hah?\n"
+
 # 820 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "Did you not come to claim your reward?$"
+Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
 # 821 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "啊，是你！你是来领\n"
 # 822 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_MechadollWhichTent:
+	.string "之前的奖励的吧？\l"
 # 823 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "MECHADOLL 5 I AM!\n"
+	.string "对，就是这样！\p"
 # 824 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
+	.string "拿来！\n"
 # 825 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
+	.string "现在就给你！$"
 # 826 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "RED TENT OR BLUE TENT,\n"
+
 # 827 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "WHICH DO YOU PREFER?$"
+Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
 # 828 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "哈？\n"
 # 829 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_ThenFarewell:
+	.string "你不是来领奖励的吗？$"
 # 830 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "THEN FAREWELL.$"
+
 # 831 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+Route110_TrickHouseEntrance_Text_MechadollWhichTent:
 # 832 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_PCFullAgain:
+	.string "我是机械人偶5号！\n"
 # 833 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
+	.string "如果你不领走奖励，\l"
 # 834 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "MEAN, YOU ARE.$"
+	.string "就不能跟随机关大师。\p"
 # 835 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "红色帐篷还是蓝色帐篷，\n"
 # 836 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHousePuzzle_Text_FoundAScroll:
+	.string "你更喜欢哪个？$"
 # 837 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} found a scroll.$"
+
 # 838 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+Route110_TrickHouseEntrance_Text_ThenFarewell:
 # 839 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
+	.string "那么，再见。$"
 # 840 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "{PLAYER} memorized the secret code\n"
+
 # 841 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "written on the scroll.$"
+Route110_TrickHouseEntrance_Text_PCFullAgain:
 # 842 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-
+	.string "你的电脑状态：又满了。\n"
 # 843 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
+	.string "你真麻烦。$"
 # 844 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "A secret code is written on it.$"
-# 845 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
+# 845 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+Route110_TrickHousePuzzle_Text_FoundAScroll:
 # 846 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
+	.string "{PLAYER}找到了一卷卷轴。$"
 # 847 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "The door is locked.\p"
+
 # 848 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "…On closer inspection, this is written\n"
+Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
 # 849 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	.string "on it: “Write the secret code here.”$"
+	.string "{PLAYER}记住了卷轴上\n"
+# 850 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "写的密码。$"
+# 851 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+
+# 852 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
+# 853 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "上面写着密码。$"
+# 854 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+
+# 855 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
+# 856 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "门锁着。\p"
+# 857 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "……仔细一看，上面写着：\l"
+# 858 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+	.string "“在这里写密码。”$"

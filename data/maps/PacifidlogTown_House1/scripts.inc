@@ -17,11 +17,11 @@ PacifidlogTown_House1_EventScript_Woman::
 # 9 "data/maps/PacifidlogTown_House1/scripts.pory"
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
 # 10 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "“Six dots open three doors.”\p"
+	.string "“六个点开三道门。”\p"
 # 11 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Grandpa used to say that, but I don't\n"
+	.string "爷爷以前常这么说，\n"
 # 12 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "know what he meant.$"
+	.string "可我不知道什么意思。$"
 
 PacifidlogTown_House1_EventScript_Man::
 # 17 "data/maps/PacifidlogTown_House1/scripts.pory"
@@ -103,56 +103,56 @@ PacifidlogTown_House1_EventScript_GenesectManNo::
 
 PacifidlogTown_House1_EventScript_Man_Text_0:
 # 37 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Douse$"
+	.string "水流$"
 
 PacifidlogTown_House1_EventScript_Man_Text_1:
 # 38 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Shock$"
+	.string "闪电$"
 
 PacifidlogTown_House1_EventScript_Man_Text_2:
 # 39 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Burn$"
+	.string "火焰$"
 
 PacifidlogTown_House1_EventScript_Man_Text_3:
 # 40 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Chill$"
+	.string "冰冻$"
 
 PacifidlogTown_House1_EventScript_Man_Text_4:
 # 41 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Cancel$"
+	.string "取消$"
 
 PacifidlogTown_House1_EventScript_Man_Text_5:
 # 53 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Cool, let's swap drives then.$"
+	.string "好啊，那我们交换卡带吧。$"
 
 PacifidlogTown_House1_EventScript_Man_Text_6:
 # 55 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Come back if you want to trade\ndrives again!$"
+	.string "想再交换卡带的话\n就再来吧！$"
 
 PacifidlogTown_House1_EventScript_GenesectManNo_Text_0:
 # 62 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "No worries, you can come back and trade\ndrives with me anytime.$"
+	.string "没关系，你随时都可以\n回来找我交换卡带。$"
 
 PacifidlogTown_House1_GenesectManIntro::
 # 67 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "People always tell me that I'm really\n"
-	.string "driven, but what they don't know is\l"
-	.string "that I just have a lot of drives.\p"
-	.string "Want to see what I mean?\n"
-	.string "Here, take this.$"
+	.string "大家都说我特别有\n"
+	.string "干劲，可他们不知道，\l"
+	.string "我只是有很多卡带。\p"
+	.string "想看看我什么意思吗？\n"
+	.string "来，拿着这个。$"
 
 PacifidlogTown_House1_SeeGoodDrive::
 # 75 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Come back anytime if you want a\n"
-	.string "different drive.$"
+	.string "想要别的卡带，\n"
+	.string "随时再来。$"
 
 GenesectManSwapDrive::
 # 80 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Oh hey, you came back! Does this mean\n"
-	.string "you want to trade drives?\p"
-	.string "Great! Which Drive do you want?$"
+	.string "哦，你回来了！是说\n"
+	.string "你想交换卡带吗？\p"
+	.string "太好了！你想要哪张卡带？$"
 
 PacifidlogTown_House1_Text_NoDrives::
 # 86 "data/maps/PacifidlogTown_House1/scripts.pory"
-	.string "Hmm? You don't have any drives to trade\n"
-	.string "with me.$"
+	.string "嗯？你身上没有\n"
+	.string "能和我交换的卡带。$"

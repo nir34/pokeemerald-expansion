@@ -79,63 +79,65 @@ OldaleTown_PokemonCenter_1F_EventScript_NoRoomForEgg::
 	end
 
 OldaleTown_PokemonCenter_1F_Text_NotReadyForEggYet:
-	.string "I have an Egg here, and I am looking for\n"
-	.string "a trainer with enough experience to\l"
-	.string "take it from me to hatch it.\p"
-	.string "You don't seem like you have quite\n"
-	.string "enough experience yet; perhaps come\l"
-	.string "back after you've received a Pokédex.$"
+	.string "我这里有个蛋，想找个\n"
+	.string "够有经验的训练家\l"
+	.string "拿去孵化。\p"
+	.string "你好像经验还不够；\n"
+	.string "等你拿到宝可梦图鉴\l"
+	.string "再来吧。$"
 
 OldaleTown_PokemonCenter_1F_Text_EverySoOftenEggFoundAtDayCare:
-	.string "I truly have no idea what\n"
-	.string "is inside that egg.$"
+	.string "我真不知道那个蛋里\n"
+	.string "面是什么。$"
 
 OldaleTown_PokemonCenter_1F_Text_HaveEggWillYouTakeIt:
-	.string "I have an Egg here, but I'm too old to be\n"
-	.string "running around for long enough for it\l"
-	.string "to hatch.\p"
-	.string "I see you have a Pokédex, you must be a\n"
-	.string "trustworthy trainer.\p"
-	.string "Will you take this Egg from me?$"
+	.string "我这里有个蛋，可我年纪\n"
+	.string "太大了，没法跑那么久\l"
+	.string "把它孵出来。\p"
+	.string "我看你有宝可梦图鉴，\n"
+	.string "一定是个值得信任的\l"
+	.string "训练家。\p"
+	.string "你愿意把这个蛋\n"
+	.string "拿走吗？$"
 
 OldaleTown_PokemonCenter_1F_Text_AsYouWishThen:
-	.string "As you wish, then…\p"
-	.string "If you have a change of heart about\n"
-	.string "hatching this Egg, I will be here.$"
+	.string "那就随你吧……\p"
+	.string "要是你回心转意想孵\n"
+	.string "这个蛋，我一直在这儿。$"
 
 OldaleTown_PokemonCenter_1F_Text_NoRoomForThisEgg:
-	.string "Oh? You've too many Pokémon.\n"
-	.string "There's no room for this Egg…$"
+	.string "哦？你的宝可梦太多了。\n"
+	.string "没地方放这个蛋……$"
 
 OldaleTown_PokemonCenter_1F_Text_HopeYoullWalkPlentyWithEgg:
-	.string "Good! I hope you'll walk plenty with\n"
-	.string "that there Egg!$"
+	.string "好！希望你带着那个蛋\n"
+	.string "多走走！$"
 
 OldaleTown_PokemonCenter_1F_Text_ReceivedTheEgg:
-	.string "{PLAYER} received the Egg.$"
+	.string "{PLAYER}得到了蛋。$"
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
-	.string "That PC in the corner there is\n"
-	.string "for any Pokémon TRAINER to use.\p"
-	.string "Naturally, that means you're welcome\n"
-	.string "to use it, too.$"
+	.string "角落那台电脑，任何\n"
+	.string "宝可梦训练家都能用。\p"
+	.string "当然，这也意味着\n"
+	.string "你也随时可以用。$"
 
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
-	.string "Pokémon CENTERS are great!\p"
-	.string "You can use their services as much\n"
-	.string "as you like, and it's all for free.\l"
-	.string "You never have to worry!$"
+	.string "宝可梦中心真棒！\p"
+	.string "服务想用多少次都行，\n"
+	.string "而且全都免费。\l"
+	.string "你完全不用操心！$"
 
 OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
-	.string "The Pokémon WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "But they say they're still making\n"
-	.string "adjustments.$"
+	.string "二楼新开了个\n"
+	.string "宝可梦无线俱乐部。\p"
+	.string "不过他们说还在\n"
+	.string "调整中。$"
 
 OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
-	.string "The Pokémon WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "I traded Pokémon right away.$"
+	.string "二楼新开了个\n"
+	.string "宝可梦无线俱乐部。\p"
+	.string "我马上就交换了宝可梦。$"
 
 `
 
@@ -143,25 +145,25 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse {
     lock
     faceplayer
 	msgbox(HelloHowCanIHelp)
-	dynmultipush("Nature Change", 0)
-	dynmultipush("Gender Swap", 1)
+	dynmultipush("性格更改", 0)
+	dynmultipush("性别互换", 1)
 	if(!flag(FLAG_MET_REGULAR_MOVE_TUTOR)){
-		dynmultipush("{COLOR WHITE}{SHADOW LIGHT_GRAY}Set Mon to Lvl Cap{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}", 2)
+		dynmultipush("{COLOR WHITE}{SHADOW LIGHT_GRAY}把宝可梦设为上限等级{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}", 2)
 	}
 	else{
-		dynmultipush("Set Mon to Lvl Cap", 2)
+		dynmultipush("把宝可梦设为上限等级", 2)
 	}
 
 	if(!flag(FLAG_MET_REGULAR_MOVE_TUTOR)){
-		dynmultipush("{COLOR WHITE}{SHADOW LIGHT_GRAY}Set Box to Lvl Cap{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}", 3)
+		dynmultipush("{COLOR WHITE}{SHADOW LIGHT_GRAY}把盒子设为上限等级{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}", 3)
 	}
 	else{
-		dynmultipush("Set Box to Lvl Cap", 3)
+		dynmultipush("把盒子设为上限等级", 3)
 	}
 	
-	dynmultipush("White Out Counter", 4)
-	dynmultipush("Mode Info", 5)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("全员倒下计数", 4)
+	dynmultipush("模式信息", 5)
+    dynmultipush("取消", MULTI_B_PRESSED)
     // setting initial selected to a non-existant ID will always have it point to the first option
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
 	dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
@@ -203,7 +205,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse {
 }
 
 script OldDaleTown_PokemonCenter_EventScript_SecondNurse_ChangeNature{
-	msgbox("Which Pokémon?")
+	msgbox("哪只宝可梦？")
 	special(ChoosePartyMon)
 	waitstate
 	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
@@ -212,107 +214,107 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_ChangeNature{
 	}
 	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
 	if(var(VAR_RESULT) == SPECIES_EGG) {
-		msgbox("I can't change the Nature of an Egg.")
+		msgbox("蛋的性格\n我改不了。")
 		release
 		end
 	}
 	special(BufferMonNickname)
-	msgbox("Which new Nature suits {STR_VAR_1}\nbest?")
+	msgbox("{STR_VAR_1}适合哪种\n性格？")
 	if (var(VAR_NATURE_ORDER) == 1) {
 	// Attack boosting natures (+Atk -Atk, +Atk -Def, +Atk -Speed, +Atk -SpAtk, +Atk -SpDef)
-	dynmultipush("Lonely         {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_LONELY)
-	dynmultipush("Brave           {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed     ", NATURE_BRAVE)
-	dynmultipush("Adamant       {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk", NATURE_ADAMANT)
-	dynmultipush("Naughty      {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_NAUGHTY)
+	dynmultipush("孤僻         {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_LONELY)
+	dynmultipush("勇敢           {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度     ", NATURE_BRAVE)
+	dynmultipush("固执       {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻", NATURE_ADAMANT)
+	dynmultipush("调皮      {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_NAUGHTY)
 
 	// Defense boosting natures (+Def -Atk, +Def -Def, +Def -Speed, +Def -SpAtk, +Def -SpDef)
-	dynmultipush("Bold             {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk       ", NATURE_BOLD)
-	dynmultipush("Relaxed       {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed   ", NATURE_RELAXED)
-	dynmultipush("Impish         {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_IMPISH)
-	dynmultipush("Lax              {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_LAX)
+	dynmultipush("大胆             {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击       ", NATURE_BOLD)
+	dynmultipush("悠闲       {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度   ", NATURE_RELAXED)
+	dynmultipush("顽皮         {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_IMPISH)
+	dynmultipush("乐天              {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_LAX)
 
 	// Speed boosting natures (+Speed -Atk, +Speed -Def, +Speed -Speed, +Speed -SpAtk, +Speed -SpDef)
-	dynmultipush("Timid           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_TIMID)
-	dynmultipush("Hasty          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_HASTY)
-	dynmultipush("Jolly           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_JOLLY)
-	dynmultipush("Naive          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_NAIVE)
+	dynmultipush("胆小           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_TIMID)
+	dynmultipush("急躁          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_HASTY)
+	dynmultipush("爽朗           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_JOLLY)
+	dynmultipush("天真          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_NAIVE)
 
 	// Special Attack boosting natures (+SpAtk -Atk, +SpAtk -Def, +SpAtk -Speed, +SpAtk -SpAtk, +SpAtk -SpDef)
-	dynmultipush("Modest        {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_MODEST)
-	dynmultipush("Mild             {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def   ", NATURE_MILD)
-	dynmultipush("Quiet          {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_QUIET)
-	dynmultipush("Rash            {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_RASH)
+	dynmultipush("内敛        {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_MODEST)
+	dynmultipush("慢吞吞             {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御   ", NATURE_MILD)
+	dynmultipush("冷静          {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_QUIET)
+	dynmultipush("马虎            {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_RASH)
 
 	// Special Defense boosting natures (+SpDef -Atk, +SpDef -Def, +SpDef -Speed, +SpDef -SpAtk, +SpDef -SpDef)
-	dynmultipush("Calm             {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk     ", NATURE_CALM)
-	dynmultipush("Gentle         {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_GENTLE)
-	dynmultipush("Sassy          {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_SASSY)
-	dynmultipush("Careful       {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_CAREFUL)
+	dynmultipush("温和             {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击     ", NATURE_CALM)
+	dynmultipush("温柔         {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_GENTLE)
+	dynmultipush("狂妄          {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_SASSY)
+	dynmultipush("慎重       {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_CAREFUL)
 
 	// Neutral natures
-	dynmultipush("Bashful        Neutral         ", NATURE_BASHFUL)
-	dynmultipush("Docile          Neutral         ", NATURE_DOCILE)
-	dynmultipush("Hardy           Neutral         ", NATURE_HARDY)
-	dynmultipush("Quirky          Neutral         ", NATURE_QUIRKY)
-	dynmultipush("Serious       Neutral         ", NATURE_SERIOUS)	
+	dynmultipush("害羞            中性            ", NATURE_BASHFUL)
+	dynmultipush("坦率            中性            ", NATURE_DOCILE)
+	dynmultipush("勤奋            中性            ", NATURE_HARDY)
+	dynmultipush("浮躁            中性            ", NATURE_QUIRKY)
+	dynmultipush("认真            中性            ", NATURE_SERIOUS)	
 
 	} 
 	elif(var(VAR_NATURE_ORDER) == 2)
 	{
-    dynmultipush("Adamant       {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk", NATURE_ADAMANT)
-    dynmultipush("Modest        {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_MODEST)
-    dynmultipush("Timid           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_TIMID)
-    dynmultipush("Jolly           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_JOLLY)
-    dynmultipush("Hasty          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_HASTY)
-    dynmultipush("Naive          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_NAIVE)
-    dynmultipush("Mild             {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def   ", NATURE_MILD)
-    dynmultipush("Naughty      {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_NAUGHTY)
-    dynmultipush("Rash            {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_RASH)
-    dynmultipush("Lonely         {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_LONELY)
-    dynmultipush("Brave           {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed     ", NATURE_BRAVE)
-    dynmultipush("Quiet          {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_QUIET)
-    dynmultipush("Calm             {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk     ", NATURE_CALM)
-    dynmultipush("Impish         {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_IMPISH)
-    dynmultipush("Sassy          {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_SASSY)
-    dynmultipush("Careful       {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_CAREFUL)
-    dynmultipush("Relaxed       {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed   ", NATURE_RELAXED)
-    dynmultipush("Bold             {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk       ", NATURE_BOLD)
-    dynmultipush("Bashful        Neutral         ", NATURE_BASHFUL)
-    dynmultipush("Lax              {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_LAX)
-    dynmultipush("Gentle         {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_GENTLE)
-    dynmultipush("Docile          Neutral         ", NATURE_DOCILE)
-    dynmultipush("Hardy           Neutral         ", NATURE_HARDY)
-    dynmultipush("Quirky          Neutral         ", NATURE_QUIRKY)
-    dynmultipush("Serious       Neutral         ", NATURE_SERIOUS)
+    dynmultipush("固执       {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻", NATURE_ADAMANT)
+    dynmultipush("内敛        {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_MODEST)
+    dynmultipush("胆小           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_TIMID)
+    dynmultipush("爽朗           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_JOLLY)
+    dynmultipush("急躁          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_HASTY)
+    dynmultipush("天真          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_NAIVE)
+    dynmultipush("慢吞吞             {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御   ", NATURE_MILD)
+    dynmultipush("调皮      {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_NAUGHTY)
+    dynmultipush("马虎            {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_RASH)
+    dynmultipush("孤僻         {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_LONELY)
+    dynmultipush("勇敢           {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度     ", NATURE_BRAVE)
+    dynmultipush("冷静          {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_QUIET)
+    dynmultipush("温和             {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击     ", NATURE_CALM)
+    dynmultipush("顽皮         {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_IMPISH)
+    dynmultipush("狂妄          {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_SASSY)
+    dynmultipush("慎重       {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_CAREFUL)
+    dynmultipush("悠闲       {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度   ", NATURE_RELAXED)
+    dynmultipush("大胆             {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击       ", NATURE_BOLD)
+    dynmultipush("害羞            中性            ", NATURE_BASHFUL)
+    dynmultipush("乐天              {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_LAX)
+    dynmultipush("温柔         {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_GENTLE)
+    dynmultipush("坦率            中性            ", NATURE_DOCILE)
+    dynmultipush("勤奋            中性            ", NATURE_HARDY)
+    dynmultipush("浮躁            中性            ", NATURE_QUIRKY)
+    dynmultipush("认真            中性            ", NATURE_SERIOUS)
 	} else {
 
-	dynmultipush("Adamant       {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk", NATURE_ADAMANT)
-	dynmultipush("Bashful        Neutral         ", NATURE_BASHFUL)
-	dynmultipush("Bold             {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk       ", NATURE_BOLD)
-	dynmultipush("Brave           {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed     ", NATURE_BRAVE)
-	dynmultipush("Calm             {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk     ", NATURE_CALM)
-	dynmultipush("Careful       {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_CAREFUL)
-	dynmultipush("Docile          Neutral         ", NATURE_DOCILE)
-	dynmultipush("Gentle         {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_GENTLE)
-	dynmultipush("Hardy           Neutral         ", NATURE_HARDY)
-	dynmultipush("Hasty          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_HASTY)
-	dynmultipush("Impish         {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_IMPISH)
-	dynmultipush("Jolly           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpAtk   ", NATURE_JOLLY)
-	dynmultipush("Lax              {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_LAX)
-	dynmultipush("Lonely         {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def     ", NATURE_LONELY)
-	dynmultipush("Mild             {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Def   ", NATURE_MILD)
-	dynmultipush("Modest        {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_MODEST)
-	dynmultipush("Naive          {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_NAIVE)
-	dynmultipush("Naughty      {COLOR RED}{SHADOW LIGHT_RED}+Atk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef   ", NATURE_NAUGHTY)
-	dynmultipush("Quiet          {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_QUIET)
-	dynmultipush("Quirky          Neutral         ", NATURE_QUIRKY)
-	dynmultipush("Rash            {COLOR RED}{SHADOW LIGHT_RED}+SpAtk{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-SpDef ", NATURE_RASH)
-	dynmultipush("Relaxed       {COLOR RED}{SHADOW LIGHT_RED}+Def{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed   ", NATURE_RELAXED)
-	dynmultipush("Sassy          {COLOR RED}{SHADOW LIGHT_RED}+SpDef{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Speed ", NATURE_SASSY)
-	dynmultipush("Serious       Neutral         ", NATURE_SERIOUS)
-	dynmultipush("Timid           {COLOR RED}{SHADOW LIGHT_RED}+Speed{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-Atk   ", NATURE_TIMID)
+	dynmultipush("固执       {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻", NATURE_ADAMANT)
+	dynmultipush("害羞            中性            ", NATURE_BASHFUL)
+	dynmultipush("大胆             {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击       ", NATURE_BOLD)
+	dynmultipush("勇敢           {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度     ", NATURE_BRAVE)
+	dynmultipush("温和             {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击     ", NATURE_CALM)
+	dynmultipush("慎重       {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_CAREFUL)
+	dynmultipush("坦率            中性            ", NATURE_DOCILE)
+	dynmultipush("温柔         {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_GENTLE)
+	dynmultipush("勤奋            中性            ", NATURE_HARDY)
+	dynmultipush("急躁          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_HASTY)
+	dynmultipush("顽皮         {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_IMPISH)
+	dynmultipush("爽朗           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特攻   ", NATURE_JOLLY)
+	dynmultipush("乐天              {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_LAX)
+	dynmultipush("孤僻         {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御     ", NATURE_LONELY)
+	dynmultipush("慢吞吞             {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-防御   ", NATURE_MILD)
+	dynmultipush("内敛        {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_MODEST)
+	dynmultipush("天真          {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_NAIVE)
+	dynmultipush("调皮      {COLOR RED}{SHADOW LIGHT_RED}+攻击{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防   ", NATURE_NAUGHTY)
+	dynmultipush("冷静          {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_QUIET)
+	dynmultipush("浮躁            中性            ", NATURE_QUIRKY)
+	dynmultipush("马虎            {COLOR RED}{SHADOW LIGHT_RED}+特攻{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-特防 ", NATURE_RASH)
+	dynmultipush("悠闲       {COLOR RED}{SHADOW LIGHT_RED}+防御{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度   ", NATURE_RELAXED)
+	dynmultipush("狂妄          {COLOR RED}{SHADOW LIGHT_RED}+特防{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-速度 ", NATURE_SASSY)
+	dynmultipush("认真            中性            ", NATURE_SERIOUS)
+	dynmultipush("胆小           {COLOR RED}{SHADOW LIGHT_RED}+速度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}/{COLOR BLUE}{SHADOW LIGHT_BLUE}-攻击   ", NATURE_TIMID)
 	}
-	dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("取消", MULTI_B_PRESSED)
 	// // setting initial selected to a non-existant ID will always have it point to the first option
 	dynmultistack(0, 0, FALSE, 6, FALSE, 25, DYN_MULTICHOICE_CB_NONE)
 
@@ -330,14 +332,14 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_ChangeNature{
 		goto(OldDaleTown_PokemonCenter_EventScript_SecondNurseNo)
 	}
 
-	msgbox("Excellent. We shall begin at once!")
+	msgbox("很好。我这就开始！")
 	fadescreen(FADE_TO_BLACK)
 	special(ChangeMonNature)
 	playfanfare(MUS_OBTAIN_ITEM)
 	waitfanfare
 	closemessage
 	fadescreen(FADE_FROM_BLACK)
-	msgbox("{STR_VAR_1}'s Nature has been\nchanged. Come again if you need\lsomething else.")
+	msgbox("{STR_VAR_1}的性格\n已经改变。若还需要别的，\l请再来。")
 	release
 	end
 }
@@ -372,27 +374,27 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SwapGender{
 			{
 				goto(OldDaleTown_PokemonCenter_EventScript_SecondNurseNo)
 			}
-            msgbox("Excellent. We shall begin at once!")
+            msgbox("很好。我这就开始！")
 			fadescreen(FADE_TO_BLACK)
 			special(ChangeMonGender)
 			playfanfare(MUS_OBTAIN_ITEM)
 			waitfanfare
 			closemessage
 			fadescreen(FADE_FROM_BLACK)
-			msgbox("{STR_VAR_1}'s Gender has been\nswapped. Come again if you need\lsomething else.")
+			msgbox("{STR_VAR_1}的性别\n已经互换。若还需要别的，\l请再来。")
 
 		case SPECIES_EGG:
-			msgbox("I can't swap the Gender of an Egg.")
+			msgbox("蛋的性别\n我换不了。")
 
         default:
-            msgbox("Sorry, I can't swap the Gender of\nthat Pokémon.")
+            msgbox("抱歉，那只宝可梦的\n性别我换不了。")
     }
 	release
 	end
 }
 
 script OldDaleTown_PokemonCenter_EventScript_SecondNurseNo {
-    msgbox("I see. Come back if you need\nsomething else.")
+    msgbox("我明白了。若还需要别的，\n请再来。")
     release
     end
 }
@@ -411,7 +413,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SetToLevelCap{
 	{
 		goto(OldDaleTown_PokemonCenter_EventScript_SecondNurseNo)
 	}
-	msgbox("Which Pokémon?")
+	msgbox("哪只宝可梦？")
 	special(ChoosePartyMon)
 	waitstate
 	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
@@ -420,7 +422,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SetToLevelCap{
 	}
 	specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
 	if(var(VAR_RESULT) == SPECIES_EGG) {
-		msgbox("I can't level up an Egg.")
+		msgbox("蛋不能升级。")
 		release
 		end
 	}
@@ -433,7 +435,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SetToLevelCap{
 	{
 		goto(OldDaleTown_PokemonCenter_EventScript_SecondNurseNo)
 	}
-	msgbox("Excellent. We shall begin at once!")
+	msgbox("很好。我这就开始！")
 	fadescreen(FADE_TO_BLACK)
 	special(SetMonToLevelCap)
 	playfanfare(MUS_OBTAIN_ITEM)
@@ -464,7 +466,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SetBoxToLevelCap{
 	{
 		goto(OldDaleTown_PokemonCenter_EventScript_SecondNurseNo)
 	}
-	msgbox("Excellent. We shall begin at once!")
+	msgbox("很好。我这就开始！")
 	fadescreen(FADE_TO_BLACK)
 	special(LevelBoxesToCap)
 	playfanfare(MUS_OBTAIN_ITEM)
@@ -477,7 +479,7 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_SetBoxToLevelCap{
 }
 
 script OldDaleTown_PokemonCenter_EventScript_SecondNurse_MonAlreadyAtCap{
-	msgbox("That Pokémon is already level {STR_VAR_3}.")
+	msgbox("那只宝可梦已经是{STR_VAR_3}级了。")
 	release
 	end
 }
@@ -486,12 +488,12 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_GetWhiteOutCount{
 	specialvar(VAR_RESULT, GetWhiteOutCountForText)
 	if (var(VAR_RESULT) == 0)
 	{
-		msgbox("Current White Out Count: 0")
+		msgbox("当前全员倒下次数：0")
 	}
 	else
 	{
 		buffernumberstring(STR_VAR_1, VAR_RESULT)
-		msgbox("Current White Out Count: {STR_VAR_1}")
+		msgbox("当前全员倒下次数：{STR_VAR_1}")
 	}
 	release
 	end
@@ -522,32 +524,32 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_ModeInfo{
 			msgbox(NormalMode)
 		}
 	}
-	msgbox("Randomizer options:")
+	msgbox("随机化选项：")
 	if(flag(FLAG_RANDOMIZER_ENABLED))
 	{
 		switch(var(VAR_RANDOMIZER_MODE))
 		{
 			case MON_RANDOM:
-				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Species")
+				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通种族")
 			case MON_RANDOM_BST:
-				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Species")
+				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放种族")
 			case MON_RANDOM_LEGEND_AWARE:
-				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species")
+				msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族")
 			default:
-				msgbox("Species not randomized")
+				msgbox("种族未随机化")
 		}
 	}
 	if(flag(FLAG_RANDOM_ABILITIES_ENABLED))
 	{
-		msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}Abilities")
+		msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}特性")
 	}
 	if(flag(FLAG_RANDOM_LEARNSETS_ENABLED))
 	{
-		msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnsets")
+		msgbox("{COLOR GREEN}{SHADOW LIGHT_GREEN}招式表")
 	}
 	if(!flag(FLAG_RANDOMIZER_ENABLED) && !flag(FLAG_RANDOM_ABILITIES_ENABLED) && !flag(FLAG_RANDOM_LEARNSETS_ENABLED))
 	{
-		msgbox("{COLOR RED}{SHADOW LIGHT_RED}None")
+		msgbox("{COLOR RED}{SHADOW LIGHT_RED}无")
 	}
 	release
 	end
@@ -555,117 +557,117 @@ script OldDaleTown_PokemonCenter_EventScript_SecondNurse_ModeInfo{
 
 text HelloHowCanIHelp
 {
-	"Hello there, what can I help you\n"
-	"with today?"
+	"你好，今天有\n"
+	"什么能帮你的？"
 }
 
 text AreYouSureNatureChange
 {
-	"I will now change\n"
-	"{STR_VAR_1}'s Nature to {STR_VAR_2}.\p"
-	"Is that okay?"
+	"我现在更改\n"
+	"{STR_VAR_1}的性格改为{STR_VAR_2}。\p"
+	"这样可以吗？"
 }
 
 
 text GenderSwapInfo
 {
-	"I can swap the Gender of the\n"
-	"following Pokémon:\p"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Snorunt, Ralts, Kirlia, Salandit, Burmy,\n"
-	"Combee, Espurr, Basculin, and Lechonk.\p"
-	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This is because these Pokémon have\n"
-	"Gender-based evolutions.\p"
-	"Which Pokémon's Gender should I swap?"
+	"我可以互换\n"
+	"以下宝可梦的性别：\p"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}雪童子、拉鲁拉丝、奇鲁莉安、\n"
+	"夜盗火蜥、结草儿、三蜜蜂、\l妙喵、野蛮鲈鱼、爱吃豚。\p"
+	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}因为这些宝可梦具有\n"
+	"依性别而异的进化。\p"
+	"要互换哪只宝可梦的性别？"
 }
 
 text AreYouSureGenderSwap
 {
-	"I will now swap\n"
-	"{STR_VAR_1}'s Gender.\p"
-	"Is that okay?"
+	"我现在互换\n"
+	"{STR_VAR_1}的性别。\p"
+	"这样可以吗？"
 }
 
 text TellLevelCapAndAsk
 {
-	"Current Level Cap: {STR_VAR_3}.\p"
-	"Would you like to set a Pokémon\n"
-	"to level {STR_VAR_3}?"
+	"当前等级上限：{STR_VAR_3}。\p"
+	"要把一只宝可梦\n"
+	"设为{STR_VAR_3}级吗？"
 }
 
 text AreYouSureLevelCap
 {
-	"I will now set {STR_VAR_1}\n"
-	"to level {STR_VAR_3}.\p"
-	"Is that okay?"
+	"我现在把{STR_VAR_1}\n"
+	"设为{STR_VAR_3}级。\p"
+	"这样可以吗？"
 }
 
 text MonHasBeenSetToLevelCap
 {
-	"{STR_VAR_1} has been set\n"
-	"to level {STR_VAR_3}.\p"
-	"Come again if you need something else."
+	"{STR_VAR_1}已\n"
+	"设为{STR_VAR_3}级。\p"
+	"若还需要别的，请再来。"
 }
 
 text TellLevelCapAndAskBox
 {
-	"Current Level Cap: {STR_VAR_3}.\p"
-	"I can set all Unmarked Pokémon in your\n"
-	"PC and Party to level {STR_VAR_3}.\p"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}You can Mark Pokémon to NOT be leveled\n"
-	"up using the “Mark” option in your PC.\p"
-	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Would you like me to set all Unmarked\n"
-	"Pokémon to level {STR_VAR_3}?"
+	"当前等级上限：{STR_VAR_3}。\p"
+	"我可以把电脑和队伍里所有\n"
+	"未标记的宝可梦设为{STR_VAR_3}级。\p"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}你可以在电脑里用“标记”\n"
+	"让宝可梦不被升级。\p"
+	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}要把所有未标记的宝可梦\n"
+	"设为{STR_VAR_3}级吗？"
 }
 
 text AreYouSureLevelCapBox
 {
-	"I will now set all Unmarked Pokémon in\n"
-	"your PC and Party to level {STR_VAR_3}.\p"
-	"Is that okay?"
+	"我现在把电脑和队伍里所有\n"
+	"未标记的宝可梦设为{STR_VAR_3}级。\p"
+	"这样可以吗？"
 }
 
 text BoxHasBeenSetToLevelCap
 {
-	"All Unmarked Pokémon in your PC and\n"
-	"Party have been set to level {STR_VAR_3}.\p"
-	"Come again if you need something else."
+	"电脑和队伍里所有未标记的\n"
+	"宝可梦已设为{STR_VAR_3}级。\p"
+	"若还需要别的，请再来。"
 }
 
 text FeatureAvailableAfterMoveTutor
 {
-	"This feature will become available once\n"
-	"you have met the Move Relearner in\l"
-	"Dewford Town."
+	"等你见到武斗镇的\n"
+	"招式教学师父后，\l"
+	"这项功能就会开放。"
 }
 
 text VersionNumber
 {
-	"Version: 1.3.1"
+	"版本：1.3.1"
 }
 
 text EasyMode
 {
-	"Difficulty: {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode"
+	"难度：{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式"
 }
 
 text EasyModeWithMgm
 {
-	"Difficulty: {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode\n"
-	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}with {COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode"
+	"难度：{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式\n"
+	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}搭配{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式"
 }
 
 text NormalMode
 {
-	"Difficulty: {COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode"
+	"难度：{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式"
 }
 
 text NormalModeWithMgm
 {
-	"Difficulty: {COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode\n"
-	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}with {COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode"
+	"难度：{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式\n"
+	"{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}搭配{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式"
 }
 
 text LevelCapIncreasedTo
 {
-	"{COLOR BLUE}{SHADOW LIGHT_BLUE}Level Cap increased to: {STR_VAR_3}."
+	"{COLOR BLUE}{SHADOW LIGHT_BLUE}等级上限提升至：{STR_VAR_3}。"
 }

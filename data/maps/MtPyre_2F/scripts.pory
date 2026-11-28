@@ -44,94 +44,96 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string "我宝贝向尾喵的回忆……\n"
+	.string "一想到就泪水盈眶。$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-	.string "Ooch, ouch… There are holes in the\n"
-	.string "ground here and there.\p"
-	.string "I didn't notice and took a tumble from\n"
-	.string "the floor above.$"
+	.string "哎哟哎哟……这里地上\n"
+	.string "到处都有洞。\p"
+	.string "我没注意，从楼上\n"
+	.string "摔下来了。$"
 
 MtPyre_2F_Text_MarkIntro:
-	.string "Hey! Are you searching for Pokémon?\n"
-	.string "You came along after me! You're rude!$"
+	.string "嘿！你在找宝可梦？\n"
+	.string "你跟着我来的！真没礼貌！$"
 
 MtPyre_2F_Text_MarkDefeat:
-	.string "Ayieeeeh!\n"
-	.string "I'm sorry, forgive me, please!$"
+	.string "哇啊啊！\n"
+	.string "对不起，请原谅我！$"
 
 MtPyre_2F_Text_MarkPostBattle:
-	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare Pokémon.$"
+	.string "这里很少有人来，所以我\n"
+	.string "以为会有稀有宝可梦。$"
 
 MtPyre_2F_Text_LukeIntro:
-	.string "LUKE: We're here on a dare.\p"
-	.string "Heheh, if I show her how cool I am,\n"
-	.string "she'll fall for me. I know it!\p"
-	.string "I know! I'll cream you and show her\n"
-	.string "how cool I am!$"
+	.string "卢克：我们是打赌来的。\p"
+	.string "嘿嘿，让她看看我有多帅，\n"
+	.string "她一定会爱上我。\l"
+	.string "我确定！\p"
+	.string "有了！我要打垮你，\n"
+	.string "让她看看我多帅！$"
 
 MtPyre_2F_Text_LukeDefeat:
-	.string "LUKE: Whoopsie!$"
+	.string "卢克：哎哟！$"
 
 MtPyre_2F_Text_LukePostBattle:
-	.string "LUKE: Well, we lost but that's okay!\n"
-	.string "I'm right here by your side.\l"
-	.string "We'll make it through this dare!$"
+	.string "卢克：输了也没关系！\n"
+	.string "我就在你身边。\l"
+	.string "这个赌我们撑得过去！$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more Pokémon.\p"
-	.string "If you don't, I won't be able to show\n"
-	.string "off to my girl how cool I am!$"
+	.string "卢克：想跟我打，\n"
+	.string "就多带几只宝可梦来。\p"
+	.string "不然我没法在女朋友\n"
+	.string "面前耍帅！$"
 
 MtPyre_2F_Text_DezIntro:
-	.string "DEZ: I came here on a dare with my\n"
-	.string "boyfriend.\p"
-	.string "It's really scary, but I'm with my\n"
-	.string "boyfriend. It's okay.\p"
-	.string "I know! I'll get my boyfriend to look\n"
-	.string "cool by beating you!$"
+	.string "黛兹：我和男朋友\n"
+	.string "打赌来这里的。\p"
+	.string "真的很可怕，不过有\n"
+	.string "男朋友在，没事的。\p"
+	.string "有了！我要打败你，\n"
+	.string "让男朋友显得很帅！$"
 
 MtPyre_2F_Text_DezDefeat:
-	.string "DEZ: Waaaah! I'm scared!$"
+	.string "黛兹：哇啊啊！好可怕！$"
 
 MtPyre_2F_Text_DezPostBattle:
-	.string "DEZ: We're lovey-dovey, so we don't\n"
-	.string "care if we lose!$"
+	.string "黛兹：我们甜甜蜜蜜，\n"
+	.string "输了也不在乎！$"
 
 MtPyre_2F_Text_DezNotEnoughMons:
-	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two Pokémon.\p"
-	.string "My boyfriend's strong.\n"
-	.string "Just one Pokémon won't do at all.$"
+	.string "黛兹：想挑战我们，\n"
+	.string "至少带两只宝可梦来。\p"
+	.string "我男朋友很强。\n"
+	.string "只有一只绝对不行。$"
 
 MtPyre_2F_Text_LeahIntro:
-	.string "You are an unfamiliar sight…\n"
-	.string "Depart before anything befalls you!$"
+	.string "看你这张陌生面孔……\n"
+	.string "在灾祸临头前离开吧！$"
 
 MtPyre_2F_Text_LeahDefeat:
-	.string "Hmm…\n"
-	.string "You're durable.$"
+	.string "嗯……\n"
+	.string "你还挺耐打。$"
 
 MtPyre_2F_Text_LeahPostBattle:
-	.string "Our family has been TRAINERS here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "从我曾祖母那辈起，我们\n"
+	.string "家就在这儿当训练家……\p"
+	.string "守护这座山是\n"
+	.string "我的职责……$"
 
 MtPyre_2F_Text_ZanderIntro:
-	.string "Kiyaaaaah!\n"
-	.string "I'm terrified!$"
+	.string "呀啊啊啊！\n"
+	.string "我好害怕！$"
 
 MtPyre_2F_Text_ZanderDefeat:
-	.string "Nooooooo!\n"
-	.string "I lost my wits!$"
+	.string "不要啊啊！\n"
+	.string "我吓傻了！$"
 
 MtPyre_2F_Text_ZanderPostBattle:
-	.string "I get freaked out every time I see\n"
-	.string "anything move…\p"
-	.string "I shouldn't have come here to train…$"
+	.string "我一看到有东西动\n"
+	.string "就吓得不行……\p"
+	.string "我不该来这里\n"
+	.string "训练的……$"
 
 `

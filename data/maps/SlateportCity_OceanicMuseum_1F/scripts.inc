@@ -457,420 +457,432 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 # 229 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
 # 230 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Welcome to the Oceanic Museum.\p"
+	.string "欢迎来到海洋博物馆。\p"
 # 231 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "The entrance fee is ¥50.\n"
+	.string "门票50元。\n"
 # 232 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Would you like to enter?$"
+	.string "你要进去吗？$"
 # 233 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
 # 234 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
 # 235 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Please enjoy yourself.$"
+	.string "请慢慢参观。$"
 # 236 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
 # 237 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
 # 238 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Oh? I'm sorry, but you don't seem to\n"
+	.string "哦？抱歉，你的钱\n"
 # 239 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "have enough money.$"
+	.string "好像不够。$"
 # 240 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
 # 241 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
 # 242 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Oh? You're with that group that\n"
+	.string "哦？你是刚才那批\n"
 # 243 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "went in earlier?\p"
+	.string "进去的人？\p"
 # 244 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "You're the only one who's late.\n"
+	.string "就你一个来晚了。\n"
 # 245 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "You'd better go catch up to them!$"
+	.string "快去追上他们吧！$"
 # 246 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
 # 247 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
 # 248 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "We, Team Aqua, exist for the good\n"
+	.string "我们水舰队，\n"
 # 249 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "of all!$"
+	.string "是为了大家的利益而存在！$"
 # 250 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
 # 251 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
 # 252 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "We were told to assemble here,\n"
+	.string "我们接到集合的命令\n"
 # 253 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "so we did, but…\p"
+	.string "就来了，可是……\p"
 # 254 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Our boss, the linchpin, isn't here.$"
+	.string "我们的老大，那个核心人物，\n"
 # 255 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "还没到。$"
 # 256 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
+
 # 257 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "If I ripped off the stuff here,\n"
+SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
 # 258 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "would it make me rich?$"
+	.string "要是我把这儿的东西\n"
 # 259 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "都抢走，能发财吗？$"
 # 260 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
+
 # 261 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "What I learn here, I can put to use on\n"
+SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
 # 262 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "nefarious deeds…$"
+	.string "我在这儿学到的东西，\n"
 # 263 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "能用在坏事上……$"
 # 264 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
+
 # 265 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "If our goons didn't bungle things\n"
+SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
 # 266 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "in Rustboro, we wouldn't be here!$"
+	.string "要不是我们的人在卡那兹\n"
 # 267 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "搞砸了，我们也不用在这儿！$"
 # 268 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
+
 # 269 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I didn't have ¥50, so it took a long\n"
+SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
 # 270 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "time getting by the receptionist.$"
+	.string "我没有50元，\n"
 # 271 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "所以花了很久才通过前台。$"
 # 272 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
+
 # 273 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I want to learn about the sea and\n"
+SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
 # 274 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "use that knowledge for battling.$"
+	.string "我想了解大海，\n"
 # 275 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "再把那些知识用在对战上。$"
 # 276 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
+
 # 277 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I get all giddy and gooey when\n"
+SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
 # 278 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I see the sea!\p"
+	.string "一看到大海，我就\n"
 # 279 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "For me, Capt. Stern is the number\n"
+	.string "心潮澎湃！\p"
 # 280 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "one role model!$"
+	.string "对我来说，斯图船长就是\n"
 # 281 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "第一号的榜样！$"
 # 282 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
+
 # 283 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "The sea is vast without end, and\n"
+SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
 # 284 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "infinitely deep…\p"
+	.string "大海无边无际，\n"
 # 285 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "There must be many Pokémon that\n"
+	.string "深不可测……\p"
 # 286 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "we don't know about.$"
+	.string "一定还有很多我们\n"
 # 287 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "不知道的宝可梦。$"
 # 288 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
+
 # 289 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I want a sea Pokémon.\p"
+SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
 # 290 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I think it would feel cool and nice\n"
+	.string "我想要一只海里的\n"
 # 291 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "to hug.$"
+	.string "宝可梦。\p"
 # 292 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "抱着它一定会觉得\n"
 # 293 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
+	.string "又凉快又舒服。$"
 # 294 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Aiyeeeh!\n"
+
 # 295 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "What are you doing here?\p"
+SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
 # 296 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Me? I'm the Team Aqua member\n"
+	.string "哇啊啊！\n"
 # 297 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "you thumped before, remember?\l"
+	.string "你在这儿干什么？\p"
 # 298 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Back in Rusturf Tunnel?\p"
+	.string "我？我就是之前在碎石隧道\n"
 # 299 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Here, take this!\n"
+	.string "被你揍过的\l"
 # 300 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "You have to forgive me!$"
+	.string "水舰队成员，记得吗？\p"
 # 301 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "来，拿着这个！\n"
 # 302 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
+	.string "你一定要原谅我！$"
 # 303 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Me? I'm Flip Turning out of here!\n"
+
 # 304 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Hope I never see you again!\p"
+SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
 # 305 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Wahahaha!$"
+	.string "我？我要赶紧溜走！\n"
 # 306 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "希望再也见不到你！\p"
 # 307 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
+	.string "哇哈哈！$"
 # 308 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Awww, come on!\n"
+
 # 309 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "You have to take this and let me go!$"
+SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
 # 310 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "哎哟，别这样！\n"
 # 311 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
+	.string "你收下这个，就放我走吧！$"
 # 312 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "A blue fluid is spiraling inside\n"
+
 # 313 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "a glass vessel.\p"
+SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
 # 314 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“This is an experiment to create a\n"
+	.string "玻璃容器里，蓝色的液体\n"
 # 315 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "whirlpool artificially using wind.”$"
+	.string "在打着旋。\p"
 # 316 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "“这是利用风人工制造\n"
 # 317 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
+	.string "漩涡的实验。”$"
 # 318 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "A red ball is bobbing up and down\n"
+
 # 319 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "inside a glass vessel.\p"
+SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
 # 320 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“This is an experiment simulating a\n"
+	.string "玻璃容器里，红色的球\n"
 # 321 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "waterfall using the ball's buoyancy.”$"
+	.string "在上下浮动。\p"
 # 322 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "“这是利用球的浮力\n"
 # 323 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
+	.string "模拟瀑布的实验。”$"
 # 324 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "It's a sample of soil from the ocean\n"
+
 # 325 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "floor.\p"
+SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
 # 326 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“Over many years, the remains of\n"
+	.string "这是海底土壤的\n"
 # 327 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "life-forms settle at the bottom of\l"
+	.string "样本。\p"
 # 328 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "the sea, making sedimentary layers.\p"
+	.string "“经过许多年，生物的\n"
 # 329 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“By analyzing these layers, the\n"
+	.string "遗骸沉积在海底，\l"
 # 330 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "ancient past is revealed.”$"
+	.string "形成沉积层。\p"
 # 331 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "“通过分析这些沉积层，\n"
 # 332 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
+	.string "就能看清远古的过去。”$"
 # 333 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "It's a sample of beach sand.\p"
+
 # 334 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“Stones from mountains are washed\n"
+SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
 # 335 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "down by rivers where they are\l"
+	.string "这是沙滩沙子的\n"
 # 336 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "chipped and ground down.\p"
+	.string "样本。\p"
 # 337 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“They are reduced to grains and end\n"
+	.string "“山上的石头被河水\n"
 # 338 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "up as sand on beaches.”$"
+	.string "冲下来，在途中\l"
 # 339 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "被削碎、磨细。\p"
 # 340 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
+	.string "“它们被磨成颗粒，\n"
 # 341 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“OCEANIC MINIFACT 1\n"
+	.string "最后成为沙滩上的沙。”$"
 # 342 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Why is seawater blue?\p"
+
 # 343 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“Light is composed of many colors.\p"
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
 # 344 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“When light passes through water,\n"
+	.string "“海洋小知识1\n"
 # 345 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "most kinds of light lose color.\p"
+	.string "为什么海水是蓝色的？\p"
 # 346 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“However, blue light retains its\n"
+	.string "“光是由许多颜色\n"
 # 347 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "color, making the sea appear blue.”$"
+	.string "组成的。\p"
 # 348 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "“光穿过水时，\n"
 # 349 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
+	.string "大部分颜色都会褪去。\p"
 # 350 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“OCEANIC MINIFACT 2\n"
+	.string "“只有蓝光保留了颜色，\n"
 # 351 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Why is the sea salty?\p"
+	.string "所以大海看起来是蓝的。”$"
 # 352 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“Seawater contains dissolved salt in\n"
+
 # 353 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "the form of sodium and chlorine ions.\p"
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
 # 354 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“These ions leech out of rocks\n"
+	.string "“海洋小知识2\n"
 # 355 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "and are carried out to sea by rain.\p"
+	.string "为什么海水是咸的？\p"
 # 356 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“The concentration of dissolved salt\n"
+	.string "“海水中溶解着盐，\n"
 # 357 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "makes the sea salty.”$"
+	.string "以钠离子和氯离子的\l"
 # 358 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "形式存在。\p"
 # 359 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
+	.string "“这些离子从岩石中渗出，\n"
 # 360 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“OCEANIC MINIFACT 3\n"
+	.string "被雨水带进大海。\p"
 # 361 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Which is bigger? The sea or land?\p"
+	.string "“溶解盐的浓度\n"
 # 362 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“The sea covers about 70% of\n"
+	.string "让海水变咸。”$"
 # 363 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "the planet, and the rest is land.\p"
+
 # 364 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“The sea is therefore more than twice\n"
+SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
 # 365 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "the size of land.”$"
+	.string "“海洋小知识3\n"
 # 366 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-
+	.string "海和陆地哪个更大？\p"
 # 367 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
+	.string "“海洋覆盖了地球大约\n"
 # 368 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "It's a fossil with wavy ridges on it.\p"
+	.string "70%的表面，其余是陆地。\p"
 # 369 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“Soil on the ocean floor gets scoured\n"
+	.string "“所以海洋的面积\n"
 # 370 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "by the tide.\p"
+	.string "是陆地的两倍多。”$"
 # 371 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“The flowing seawater marks the soil\n"
-# 372 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "with small ridges and valleys.\p"
-# 373 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "“If this soil becomes fossilized, it is\n"
-# 374 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "called a ripple mark.”$"
-# 375 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 
+# 372 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
+# 373 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "这是一块带有波浪状\n"
+# 374 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "纹路的化石。\p"
+# 375 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "“海底的泥土会\n"
 # 376 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
+	.string "被潮水冲刷。\p"
 # 377 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "A strange machine is rotating under\n"
+	.string "“流动的海水在泥土上\n"
 # 378 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "a glass dome.\p"
+	.string "留下细小的脊和沟。\p"
 # 379 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Maybe it's for measuring the depth\n"
+	.string "“如果这种泥土变成化石，\n"
 # 380 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "of something…$"
+	.string "就叫波痕。”$"
+# 381 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+
+# 382 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
+# 383 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "玻璃罩里有台奇怪的\n"
+# 384 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "机器在转动。\p"
+# 385 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "也许是用来测量\n"
+# 386 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "什么的深度……$"
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeTrigger1::
-# 385 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 391 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	setvar VAR_0x8008, 1
-# 386 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 392 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	goto SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene
 	end
 
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeTrigger2::
-# 392 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 398 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	setvar VAR_0x8008, 2
-# 393 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 399 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	goto SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene
 	end
 
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeScene::
-# 399 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	lockall
-# 400 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	call_if_eq VAR_0x8008, 1, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer1
-# 401 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	call_if_eq VAR_0x8008, 2, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer2
-# 402 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	msgbox SlateportCity_OceanicMuseum_1FDrakeIntro, MSGBOX_DEFAULT
-# 403 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	closemessage
-# 404 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	delay 10
 # 405 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	call ApplyMovementDrakeExit
+	lockall
 # 406 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	removeobject LOCALID_DRAKE
+	call_if_eq VAR_0x8008, 1, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer1
 # 407 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	setvar VAR_DRAKE_SLATEPORT, 2
+	call_if_eq VAR_0x8008, 2, SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer2
 # 408 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	msgbox SlateportCity_OceanicMuseum_1FDrakeIntro, MSGBOX_DEFAULT
+# 409 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	closemessage
+# 410 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	delay 10
+# 411 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	call ApplyMovementDrakeExit
+# 412 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	removeobject LOCALID_DRAKE
+# 413 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	setvar VAR_DRAKE_SLATEPORT, 2
+# 414 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	releaseall
 	end
 
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer1::
-# 413 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 419 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	playse SE_DOOR
-# 414 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 420 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	addobject LOCALID_DRAKE
-# 415 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 421 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	applymovement LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer
-# 416 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 422 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	waitmovement 0
 	return
 
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeApproachPlayer2::
-# 421 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 427 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	playse SE_DOOR
-# 422 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 428 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	setobjectxyperm LOCALID_DRAKE, 10, 8
-# 423 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 429 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	addobject LOCALID_DRAKE
-# 424 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 430 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	applymovement LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer
-# 425 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 431 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	waitmovement 0
 	return
 
 
 SlateportCity_OceanicMuseum_1F_Movement_DrakeApproachPlayer::
-# 430 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 436 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	walk_up
-# 431 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 437 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	step_end
 	return
 
 
 ApplyMovementDrakeExit::
-# 435 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 441 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	playse SE_DOOR
-# 436 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 442 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	applymovement LOCALID_DRAKE, SlateportCity_OceanicMuseum_1F_EventScript_DrakeExit
-# 437 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 443 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	waitmovement 0
 	return
 
 
 SlateportCity_OceanicMuseum_1F_EventScript_DrakeExit::
-# 442 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 448 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	walk_down
-# 443 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+# 449 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	step_end
 	return
 
 
 SlateportCity_OceanicMuseum_1FDrakeIntro::
-# 446 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "Hmph. Oh, I apologize for bumping into\n"
-	.string "you.\p"
-	.string "I happened to be in the area and saw\n"
-	.string "several members of Team Aqua fleeing\l"
-	.string "from this museum.\p"
-	.string "Do you happen to know anything about\n"
-	.string "why they were fleeing?\p"
-	.string "… … … … … …\p"
-	.string "I see, so they were after some Devon\n"
-	.string "Parts meant for Capt. Stern, but you\l"
-	.string "defeated them in battle and scared\l"
-	.string "them off.\p"
-	.string "Sounds like you must be quite the\n"
-	.string "trainer to be able to deal with Team\l"
-	.string "Aqua all by yourself.\p"
-	.string "Allow me to introduce myself then, I am\n"
-	.string "Drake of the Elite Four, and you are?\p"
-	.string "… … … … … …\p"
-	.string "I see. Well, excellent work, {PLAYER}.\n"
-	.string "I'll be going now, but I have a feeling\l"
-	.string "our paths may cross again sometime.$"
+# 452 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
+	.string "哼。哦，抱歉，\n"
+	.string "撞到你了。\p"
+	.string "我正好在这附近，看到\n"
+	.string "几个水舰队的成员从这座\l"
+	.string "博物馆里逃出来。\p"
+	.string "你知道他们\n"
+	.string "为什么逃跑吗？\p"
+	.string "………………\p"
+	.string "原来如此，他们是冲着要\n"
+	.string "交给史特恩船长的大吾零件，\l"
+	.string "结果被你打败，\l"
+	.string "吓跑了。\p"
+	.string "能一个人对付水舰队，\n"
+	.string "看来你\l"
+	.string "相当厉害。\p"
+	.string "那我也自我介绍一下，我是\n"
+	.string "四天王的源治，你是？\p"
+	.string "………………\p"
+	.string "原来如此。干得漂亮，{PLAYER}。\n"
+	.string "我这就走了，不过我总觉得\l"
+	.string "我们还会再见。$"

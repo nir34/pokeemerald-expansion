@@ -137,9 +137,9 @@ enum {
     NUM_RESULTS_PAGES,
 };
 // Random pages, see above
-// "Neatness" is how many of the player's inputs were at a regular interval
-// "Cooperative" is how often the player pressed A at the same time as others
-// "Power" is how much of the time the player spent pressing A
+// "整洁度" is how many of the player's inputs were at a regular interval
+// "配合度" is how often the player pressed A at the same time as others
+// "力量" is how much of the time the player spent pressing A
 enum {
     RESULTS_PAGE_NEATNESS,
     RESULTS_PAGE_COOPERATIVE,
@@ -563,8 +563,8 @@ static const struct WindowTemplate sWindowTemplates_Results[] =
 // 2 players, 3 players, 4 players, or 5 players
 static const u8 sResultsWindowHeights[][MAX_RFU_PLAYERS - 1] =
 {
-    {6, 8, 9, 11},    // "Presses" and "Neatness/Cooperative/Power" pages
-    {12, 14, 15, 16}, // "Crushing" page
+    {6, 8, 9, 11},    // "按压" and "整洁/配合/力量" pages
+    {12, 14, 15, 16}, // "粉碎中" page
 };
 
 static const u32 sPressingSpeedConversionTable[] =
@@ -905,7 +905,7 @@ static const struct DigitObjUtilTemplate sDigitObjTemplates[] =
 
 static const u8 *const sResultsTexts[] =
 {
-    [RESULTS_PAGE_PRESSES]  = gText_SpaceTimes2, // " times"
+    [RESULTS_PAGE_PRESSES]  = gText_SpaceTimes2, // " 次"
     [RESULTS_PAGE_RANDOM]   = gText_XDotY,       // "##.##", for Neatness, Cooperation, or Power value
     [RESULTS_PAGE_CRUSHING] = gText_Var1Berry,
 
@@ -2576,7 +2576,7 @@ static void HandlePartnerInput(struct BerryCrushGame *game)
             numPlayersPressed++;
             timeDiff = game->timer - game->players[i].inputTime;
 
-            // If the interval between inputs is regular, the input is considered "neat"
+            // If the interval between inputs is regular, the input is considered "巧"
             // This counts toward the player's neatness score
             if (timeDiff >= game->players[i].timeSincePrevInput - 1
              && timeDiff <= game->players[i].timeSincePrevInput + 1)
@@ -3061,8 +3061,8 @@ static u32 Cmd_TabulateResults(struct BerryCrushGame *game, u8 *args)
             case RESULTS_PAGE_NEATNESS:
                 if (game->players[i].numAPresses != 0)
                 {
-                    // Calculate percentage of inputs that were in largest "neat" streak
-                    // "Neat" inputs are those done at a regular interval
+                    // Calculate percentage of inputs that were in largest "巧" streak
+                    // "巧" inputs are those done at a regular interval
                     temp1 = game->players[i].maxNeatInputStreak;
                     temp1 = Q_24_8(temp1);
                     temp1 = MathUtil_Mul32(temp1, Q_24_8(100));
@@ -3124,7 +3124,7 @@ static u32 Cmd_TabulateResults(struct BerryCrushGame *game, u8 *args)
         {
             for (j = game->playerCount - 1; j > i; j--)
             {
-                // Calculate player rankings for "Number of Presses" by sorting arrays
+                // Calculate player rankings for "按压次数" by sorting arrays
                 if (game->results.stats[RESULTS_PAGE_PRESSES][j - 1] < game->results.stats[RESULTS_PAGE_PRESSES][j])
                 {
                     SWAP(game->results.stats[RESULTS_PAGE_PRESSES][j],

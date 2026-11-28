@@ -294,12 +294,12 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
-static const u8 sMenuText_Select[] = _("SELECT");
-static const u8 sMenuText_ByName[] = _("Name");
-static const u8 sMenuText_ByAmount[] = _("Amount");
-static const u8 sMenuText_ByType[] = _("Type");
-static const u8 sMenuText_ByNumber[] = _("Number");
-static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+static const u8 sMenuText_Select[] = _("选择");
+static const u8 sMenuText_ByName[] = _("名称");
+static const u8 sMenuText_ByAmount[] = _("数量");
+static const u8 sMenuText_ByType[] = _("种类");
+static const u8 sMenuText_ByNumber[] = _("编号");
+static const u8 sText_NothingToSort[] = _("没有可排序的东西！");
 
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      {ItemMenu_UseOutOfBattle}},
@@ -1308,7 +1308,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
             {
                 if ((gBagMenu->numItemStacks[gBagPosition.pocket] - 1) <= 1) //can't sort with 0 or 1 item in bag
                 {
-                    static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+                    static const u8 sText_NothingToSort[] = _("没有可排序的东西！");
                     PlaySE(SE_FAILURE);
                     DisplayItemMessage(taskId, 1, sText_NothingToSort, HandleErrorMessage);
                     break;
@@ -2080,7 +2080,7 @@ static void ItemMenu_Cancel(u8 taskId)
 }
 
 //tx_registered_items_menu
-static const u8 gText_TooManyRegistered[] = _("You already have too\nmany items registered!");
+static const u8 gText_TooManyRegistered[] = _("登记的道具\n已经太多了！");
 
 static void ItemMenu_Cancel2(u8 taskId)
 {
@@ -2823,11 +2823,11 @@ enum BagSortOptions
     SORT_BY_TYPE,
 };
 
-static const u8 sText_SortItemsHow[] = _("Sort items how?");
-static const u8 sText_Name[] = _("name");
-static const u8 sText_Amount[] = _("amount");
-static const u8 sText_ItemType[] = _("type");
-static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+static const u8 sText_SortItemsHow[] = _("按什么排序？");
+static const u8 sText_Name[] = _("名称");
+static const u8 sText_Amount[] = _("数量");
+static const u8 sText_ItemType[] = _("种类");
+static const u8 sText_ItemsSorted[] = _("已按{STR_VAR_1}排序！");
 static const u8 *const sSortTypeStrings[] = 
 {
     [SORT_ALPHABETICALLY] = sText_Name,

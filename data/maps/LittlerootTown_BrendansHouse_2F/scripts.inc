@@ -967,162 +967,180 @@ CheatCodeExit::
 # 484 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 EnterCheatCode_EnterCheatCodeText:
 # 485 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "It's a Nintendo GameCube.\p"
+	.string "这是一台任天堂\n"
 # 486 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Enter a cheat code?$"
+	.string "GameCube。\p"
 # 487 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "输入作弊码吗？$"
 # 488 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-EnterCheatCode_FailedText:
+
 # 489 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Cheat code failed.$"
+EnterCheatCode_FailedText:
 # 490 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	
+	.string "作弊码失败。$"
 # 491 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-EnterCheatCode_SucceededText:
+	
 # 492 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Cheat code succeeded.$"
+EnterCheatCode_SucceededText:
 # 493 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "作弊码成功。$"
 # 494 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeDexAllOn_Text:
+
 # 495 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "DexAll cheat enabled.$"
+CheatCodeDexAllOn_Text:
 # 496 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "图鉴全开作弊已启用。$"
 # 497 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeDexAllOff_Text:
+
 # 498 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "DexAll cheat disabled.$"
+CheatCodeDexAllOff_Text:
 # 499 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "图鉴全开作弊已关闭。$"
 # 500 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeCaughtEmAll_Text:
+
 # 501 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "CaughtAll cheat enabled.$"
+CheatCodeCaughtEmAll_Text:
 # 502 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "全捕获作弊已启用。$"
 # 503 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeMaxMoney_Text:
+
 # 504 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Money set to max amount.$"
+CheatCodeMaxMoney_Text:
 # 505 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "金钱已设为最大值。$"
 # 506 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeEzCatchOn_Text:
+
 # 507 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "EZCatch cheat enabled.$"
+CheatCodeEzCatchOn_Text:
 # 508 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "简易捕获作弊已启用。$"
 # 509 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeEzCatchOff_Text:
+
 # 510 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "EZCatch cheat disabled.$"
+CheatCodeEzCatchOff_Text:
 # 511 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "简易捕获作弊已关闭。$"
 # 512 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeMegaStonesGiven_Text:
+
 # 513 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "All Mega Stones given.$"
+CheatCodeMegaStonesGiven_Text:
 # 514 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "已赠送所有超级石。$"
 # 515 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeShinyStartersOn_Text:
+
 # 516 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ShinyStarters cheat enabled.$"
+CheatCodeShinyStartersOn_Text:
 # 517 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "闪光初始宝可梦作弊\n"
 # 518 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeShinyStartersOff_Text:
+	.string "已启用。$"
 # 519 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ShinyStarters cheat disabled.$"
-# 520 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
+# 520 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+CheatCodeShinyStartersOff_Text:
 # 521 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeShinyRoamersOn_Text:
+	.string "闪光初始宝可梦作弊\n"
 # 522 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ShinyRoamers cheat enabled.$"
+	.string "已关闭。$"
 # 523 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 524 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeShinyRoamersOff_Text:
+CheatCodeShinyRoamersOn_Text:
 # 525 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ShinyRoamers cheat disabled.$"
+	.string "闪光游荡宝可梦作弊\n"
 # 526 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "已启用。$"
 # 527 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeMonoStartersOn_Text:
+
 # 528 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Monotype Starters cheat enabled.$"
+CheatCodeShinyRoamersOff_Text:
 # 529 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+	.string "闪光游荡宝可梦作弊\n"
 # 530 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeMonoStartersOff_Text:
+	.string "已关闭。$"
 # 531 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Monotype Starters cheat disabled.$"
+
 # 532 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
+CheatCodeMonoStartersOn_Text:
 # 533 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeGiveMenuOn_Text:
+	.string "单一属性初始宝可梦\n"
 # 534 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Give Menu enabled:\n"
+	.string "作弊已启用。$"
 # 535 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Hold “A” and press “Start” to open.$"
-# 536 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
+# 536 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+CheatCodeMonoStartersOff_Text:
 # 537 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-CheatCodeGiveMenuOff_Text:
+	.string "单一属性初始宝可梦\n"
 # 538 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Give Menu disabled.$"
+	.string "作弊已关闭。$"
 # 539 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 540 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-PlayersHouse_2F_Text_ClockIsStopped:
+CheatCodeGiveMenuOn_Text:
 # 541 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "The clock is stopped…\p"
+	.string "赠送菜单已启用：\n"
 # 542 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Better set it and start it!$"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}按住A键并按下Start键打开。$"
 # 543 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 544 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
+CheatCodeGiveMenuOff_Text:
 # 545 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "{PLAYER}, how do you like your\n"
+	.string "赠送菜单已关闭。$"
 # 546 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "new room?\p"
-# 547 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Good! Everything's put away neatly!\p"
-# 548 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "They finished moving everything in\n"
-# 549 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "downstairs, too.\p"
-# 550 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Pokémon movers are so convenient!\p"
-# 551 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Oh, you should make sure that\n"
-# 552 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "everything's all there on your desk.$"
-# 553 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
+# 547 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+PlayersHouse_2F_Text_ClockIsStopped:
+# 548 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "钟停了……\p"
+# 549 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "最好调好时间\n"
+# 550 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "再让它走！$"
+# 551 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+
+# 552 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
+# 553 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "{PLAYER}，你的新房间\n"
 # 554 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-PlayersHouse_2F_Text_Notebook:
+	.string "怎么样？\p"
 # 555 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "{PLAYER} flipped open the notebook.\p"
+	.string "好！东西都收拾得\n"
 # 556 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ADVENTURE RULE NO. 1\n"
+	.string "整整齐齐！\p"
 # 557 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Open the Start Menu with START.\p"
+	.string "楼下也都搬完了。\p"
 # 558 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "ADVENTURE RULE NO. 2\n"
+	.string "宝可梦搬家真方便！\p"
 # 559 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Open the L Menu with L.\p"
+	.string "哦，你该确认一下桌上\n"
 # 560 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "The remaining pages are blank…$"
+	.string "东西都齐了。$"
 # 561 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 562 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-Common_Text_LookCloserAtMap:
+PlayersHouse_2F_Text_Notebook:
 # 563 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "{PLAYER} took a closer look at the\n"
+	.string "{PLAYER}翻开了笔记本。\p"
 # 564 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Hoenn region map.$"
+	.string "冒险守则第1条\n"
+# 565 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "按START打开开始菜单。\p"
+# 566 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "冒险守则第2条\n"
+# 567 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "按L打开L菜单。\p"
+# 568 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "剩下的页面是\n"
+# 569 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "空白的……$"
+# 570 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+
+# 571 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+Common_Text_LookCloserAtMap:
+# 572 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "{PLAYER}仔细看了看丰缘地区\n"
+# 573 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "的地图。$"

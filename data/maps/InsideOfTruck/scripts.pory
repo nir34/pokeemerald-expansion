@@ -78,51 +78,55 @@ InsideOfTruck_EventScript_MovingBox::
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
-	.string "The box is printed with a Pokémon logo.\p"
-	.string "It's a Pokémon brand moving and\n"
-	.string "delivery service.$"
+	.string "箱子上印着宝可梦的标志。\p"
+	.string "这是宝可梦品牌的搬家\n"
+	.string "和运送服务。$"
 
 InsideOfTruck_Text_ReadCarefully:
-	.string "{COLOR RED}{SHADOW LIGHT_RED}Please take a moment to read the\n"
-	.string "following carefully.$"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}请花点时间仔细阅读\n"
+	.string "以下内容。$"
 
 InsideOfTruck_Text_WantToUseDefaultSettings:
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Would you like to play Pokémon Emerald\n"
-	.string "Imperium with the default settings?\p"
-	.string "The default settings are as follows:\p"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal difficulty{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - challenging boss\n"
-	.string "battles with hard level caps enforced.\p"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode is ON{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - this\n"
-	.string "guarantees all Pokémon will have\l"
-	.string "perfect IVs, and EVs cannot be\l"
-	.string "obtained.  Boss Pokémon will not have\l"
-	.string "EVs either.\p"
-	.string "Randomizer {COLOR RED}{SHADOW LIGHT_RED}OFF{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} - no additional\n"
-	.string "randomization will be enabled.\p"
-	.string "With this information in mind:\n"
-	.string "Would you like to play Pokémon Emerald\l"
-	.string "Imperium with the default settings?$"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}你想用默认设置游玩\n"
+	.string "Pokémon Emerald\l"
+	.string "Imperium 吗？\p"
+	.string "默认设置如下：\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}普通难度{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} —— 有挑战性的\n"
+	.string "BOSS战，并强制\l"
+	.string "执行严格的等级上限。\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}最少刷级模式开启{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
+	.string "保证所有宝可梦个体值\l"
+	.string "全满，且无法获得\l"
+	.string "努力值。BOSS宝可梦\l"
+	.string "也不会有努力值。\p"
+	.string "随机化 {COLOR RED}{SHADOW LIGHT_RED}关闭{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} ——\n"
+	.string "不启用任何额外\l"
+	.string "随机化。\p"
+	.string "了解了这些之后：\n"
+	.string "你想用默认设置游玩\l"
+	.string "Pokémon Emerald\l"
+	.string "Imperium 吗？$"
 
 InsideOfTruck_Text_DefaultSettingsSaved:
-	.string "Default settings saved.\n"
-	.string "Good luck!$"
+	.string "默认设置已保存。\n"
+	.string "祝你好运！$"
 `
 
 script InsideOfTruck_EventScript_StartSettingsMenu {
 	msgbox(WhichOption)
 	if(flag(FLAG_MIN_GRINDING_MODE))
 	{
-		dynmultipush("Difficulty Options", 0)
-		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode", 1)
-		dynmultipush("Randomizer Options", 2)
-		dynmultipush("Done", 3)
+		dynmultipush("难度选项", 0)
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式", 1)
+		dynmultipush("随机化选项", 2)
+		dynmultipush("完成", 3)
 	}
 	else
 	{
-		dynmultipush("Difficulty Options", 0)
-		dynmultipush("{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode", 1)
-		dynmultipush("Randomizer Options", 2)
-		dynmultipush("Done", 3)
+		dynmultipush("难度选项", 0)
+		dynmultipush("{COLOR RED}{SHADOW LIGHT_RED}最少练级模式", 1)
+		dynmultipush("随机化选项", 2)
+		dynmultipush("完成", 3)
 	}
 	
     // setting initial selected to a non-existant ID will always have it point to the first option
@@ -155,19 +159,19 @@ script InsideOfTruck_EventScript_DifficultyOptions {
 	switch(var(VAR_GAME_SETTING_DIFFICULTY_MODE))
 	{
 		case GAME_SETTING_DIFFICULTY_NORMAL_MODE:
-            dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
-			dynmultipush("Easy", GAME_SETTING_DIFFICULTY_EASY_MODE)
-			dynmultipush("Done", MULTI_B_PRESSED)
+            dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
 
         case GAME_SETTING_DIFFICULTY_EASY_MODE:
-			dynmultipush("Normal", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
-			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy", GAME_SETTING_DIFFICULTY_EASY_MODE)
-			dynmultipush("Done", MULTI_B_PRESSED)
+			dynmultipush("普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
 		
 		default:
-			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
-			dynmultipush("Easy", GAME_SETTING_DIFFICULTY_EASY_MODE)
-			dynmultipush("Done", MULTI_B_PRESSED)
+			dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通", GAME_SETTING_DIFFICULTY_NORMAL_MODE)
+			dynmultipush("简单", GAME_SETTING_DIFFICULTY_EASY_MODE)
+			dynmultipush("完成", MULTI_B_PRESSED)
 	}
 	
 	// setting initial selected to a non-existant ID will always have it point to the first option
@@ -247,37 +251,37 @@ script InsideOfTruck_EventScript_RandomzierOptions {
 	msgbox(WhichRandomizerOption)
 	if(flag(FLAG_RANDOMIZER_ENABLED))
 	{
-		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Species", 0)
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}种族", 0)
 	}
 		
 	else
 	{
-		dynmultipush("Species", 0)
+		dynmultipush("种族", 0)
 	}
 		
 
 	if(flag(FLAG_RANDOM_ABILITIES_ENABLED))
 	{
-		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability", 1)
+		dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}特性", 1)
 	}
 		
 	else
 	{
-		dynmultipush("Ability", 1)
+		dynmultipush("特性", 1)
 	}
 		
 
 	// if(flag(FLAG_RANDOM_LEARNSETS_ENABLED))
 	// {
-	// 	dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset", 2)
+	// 	dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}招式", 2)
 	// }
 		
 	// else
 	// {
-	// 	dynmultipush("Learnset", 2)
+	// 	dynmultipush("招式", 2)
 	// }
 
-	dynmultipush("Done", MULTI_B_PRESSED)
+	dynmultipush("完成", MULTI_B_PRESSED)
 	
 	// setting initial selected to a non-existant ID will always have it point to the first option
 	//.macro dynmultistack left:req, top:req, ignoreBPress:req, maxBeforeScroll:req, shouldSort:req, initialSelected:req, callbacks:req
@@ -347,44 +351,44 @@ script InsideOfTruck_EventScript_SpeciesRandomizerOptions {
 	msgbox(WhichSpeciesRandomizerOption)
 	if(!flag(FLAG_RANDOMIZER_ENABLED))
 	{
-		dynmultipush("Normal species", MON_RANDOM)
-		dynmultipush("Scaled species", MON_RANDOM_BST)
-		dynmultipush("Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-		dynmultipush("Done", MULTI_B_PRESSED)
+		dynmultipush("普通种族", MON_RANDOM)
+		dynmultipush("强度缩放种族", MON_RANDOM_BST)
+		dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+		dynmultipush("完成", MULTI_B_PRESSED)
 	}
 	else
 	{
 		switch(var(VAR_RANDOMIZER_MODE))
 		{
 			case MON_RANDOM:
-				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal species", MON_RANDOM)
-				dynmultipush("Scaled species", MON_RANDOM_BST)
-				dynmultipush("Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-				dynmultipush("Done", MULTI_B_PRESSED)
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
 
 			case MON_RANDOM_BST:
-				dynmultipush("Normal species", MON_RANDOM)
-				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled species", MON_RANDOM_BST)
-				dynmultipush("Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-				dynmultipush("Done", MULTI_B_PRESSED)
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
 
 			case MON_RANDOM_LEGEND_AWARE:
-				dynmultipush("Normal species", MON_RANDOM)
-				dynmultipush("Scaled species", MON_RANDOM_BST)
-				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-				dynmultipush("Done", MULTI_B_PRESSED)
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
 
 			case MAX_MON_MODE:
-				dynmultipush("Normal species", MON_RANDOM)
-				dynmultipush("Scaled species", MON_RANDOM_BST)
-				dynmultipush("Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-				dynmultipush("Done", MULTI_B_PRESSED)
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
 			
 			default:
-				dynmultipush("Normal species", MON_RANDOM)
-				dynmultipush("Scaled species", MON_RANDOM_BST)
-				dynmultipush("Legendary-aware species", MON_RANDOM_LEGEND_AWARE)
-				dynmultipush("Done", MULTI_B_PRESSED)
+				dynmultipush("普通种族", MON_RANDOM)
+				dynmultipush("强度缩放种族", MON_RANDOM_BST)
+				dynmultipush("考虑传说的种族", MON_RANDOM_LEGEND_AWARE)
+				dynmultipush("完成", MULTI_B_PRESSED)
 		}
 
 	}
@@ -487,318 +491,185 @@ script InsideOfTruck_EventScript_SaveSettingsDone {
 
 text WhichOption
 {
-	"Which option would you like\n"
-	"to customize?"
+	"要自定义\n哪个选项？"
 }
 
 text WhichDifficulty
 {
-	"Which difficulty mode would you\n"
-	"like to play on?"
+	"要以哪种难度\n模式游玩？"
 }
 
 text WhichRandomizerOption
 {
-	"Which randomizer option would you\n"
-	"like to customize?"
+	"要自定义哪个\n随机化选项？"
 }
 
 text WhichSpeciesRandomizerOption
 {
-	"Which Species Randomizer option would\n"
-	"you like to customize?"
+	"要自定义哪个种族\n随机化选项？"
 }
 
 text NormalDifficultyCurrentlySelected
 {
-	"This is the recommended difficulty\n"
-	"mode and is what this game is primarily\l"
-	"balanced around.\p"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} has challenging boss\n"
-	"battles with hard level caps enforced.\p"
-	"The player cannot access the Bag\n"
-	"during trainer battles, and the battle\l"
-	"style is forced to Set.\p"
-	"You currently have {COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.\n"
-	"Please select a different difficulty\l"
-	"mode if you wish to change it."
+	"这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。"
 }
 
 text EasyDifficultyCurrentlySelected
 {
-	"There are still level caps in {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n"
-	"however, the Boss Pokémon will be 2\l"
-	"levels lower than in Normal.\l"
-	"Boss teams are otherwise unchanged.\p"
-	"The player is allowed to access the\n"
-	"Bag during any battle.\p"
-	"Additionally, the player can change the\n"
-	"battle style from Set to Shift.\p"
-	"This will still be more difficult than a\n"
-	"vanilla Pokémon game.\p"
-	"You currently have {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled.\n"
-	"Please select a different difficulty\l"
-	"mode if you wish to change it."
+	"在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p你目前已启用{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}。\n如果要更改，\l请选择其他难度模式。"
 }
 
 text NormalDifficultyYesNo
 {
-	"This is the recommended difficulty\n"
-	"mode and is what this game is primarily\l"
-	"balanced around.\p"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} has challenging boss\n"
-	"battles with hard level caps enforced.\p"
-	"The player cannot access the Bag\n"
-	"during trainer battles, and the battle\l"
-	"style is forced to Set.\p"
-	"Do you want to turn on\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode?"
+	"这是推荐的难度模式，\n本游戏的平衡主要\l围绕它设计。\p{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}有充满挑战的BOSS战，\n并强制严格的等级上限。\p在训练家对战中无法打开包包，\n且对战方式被强制为\l“替换”。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式吗？"
 }
 
 text EasyDifficultyYesNo
 {
-	"There are still level caps in {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode,{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n"
-	"however, the Boss Pokémon will be 2\l"
-	"levels lower than in Normal.\l"
-	"Boss teams are otherwise unchanged.\p"
-	"The player is allowed to access the\n"
-	"Bag during any battle.\p"
-	"Additionally, the player can change the\n"
-	"battle style from Set to Shift.\p"
-	"This will still be more difficult than a\n"
-	"vanilla Pokémon game.\p"
-	"Do you want to turn on\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode?"
+	"在{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}中仍有等级上限，\n但BOSS宝可梦会比普通模式\l低2级。\lBOSS队伍其他方面不变。\p玩家可以在任何对战中\n打开包包。\p此外，玩家可以把对战方式\n从“替换”改为“切换”。\p不过，这仍会比原版\n宝可梦游戏更难。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式吗？"
 }
 
 text NormalDifficultyEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}普通模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。"
 }
 
 text EasyDifficultyEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}简单模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}已启用。"
 }
 
 text MinGrindingAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} guarantees all\n"
-	"Pokémon to have perfect IVs,\l"
-	"and EVs cannot be obtained.\l"
-	"Boss Pokémon will not have EVs either.\p"
-	"If this mode is disabled, obtainable\n"
-	"Pokémon will have random IVs and can be\l"
-	"EV trained.\p"
-	"Boss Pokémon will still have perfect\n"
-	"IVs and will be EV trained.\p"
-	"Do you want to turn\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode off?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}最少练级模式吗？"
 }
 
 text MinGrindingAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} guarantees all\n"
-	"Pokémon to have perfect IVs,\l"
-	"and EVs cannot be obtained.\l"
-	"Boss Pokémon will not have EVs either.\p"
-	"If this mode is disabled, obtainable\n"
-	"Pokémon will have random IVs and can be\l"
-	"EV trained.\p"
-	"Boss Pokémon will still have perfect\n"
-	"IVs and will be EV trained.\p"
-	"Do you want to turn\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode on?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}保证所有\n宝可梦拥有完美的个体值，\l且无法获得努力值。\lBOSS宝可梦也没有努力值。\p如果关闭此模式，可获得的\n宝可梦将拥有随机的个体值，\l并可锻炼努力值。\pBOSS宝可梦仍拥有完美\n个体值并获得努力值。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式吗？"
 }
 
 text MinGrindingEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Minimal Grinding Mode enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}最少练级模式已启用。"
 }
 
 text MinGrindingDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Minimal Grinding Mode disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}最少练级模式已关闭。"
 }
 
 
 text RandomAbilitiesAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes abilities\n"
-	"for the player, but doesn't affect\l"
-	"abilities on Boss Pokémon.\p"
-	"Do you want to turn off the\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Ability Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}特性随机化吗？"
 }
 
 text RandomAbilitiesAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes abilities\n"
-	"for the player, but doesn't affect\l"
-	"abilities on Boss Pokémon.\p"
-	"Do you want to turn on the\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n玩家的特性，但不会影响\lBOSS宝可梦的特性。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化吗？"
 }
 
 
 text RandomAbilitiesEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Ability Randomizer enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}特性随机化已启用。"
 }
 
 text RandomAbilitiesDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Ability Randomizer disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}特性随机化已关闭。"
 }
 
 
 text RandomLearnsetsAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	"Pokémon learnsets.\p"
-	"It does not randomize TMs or\n"
-	"move tutors.\p"
-	"Boss Pokémon also keep their normal\n"
-	"movesets.\p"
-	"Do you want to turn off the\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Learnset Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}招式随机化吗？"
 }
 
 text RandomLearnsetsAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	"Pokémon learnsets.\p"
-	"It does not randomize TMs or\n"
-	"move tutors.\p"
-	"Boss Pokémon also keep their normal\n"
-	"movesets.\p"
-	"Do you want to turn on the\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n宝可梦的招式学习表。\p它不会随机化招式学习器\n或招式教学。\pBOSS宝可梦也会保留\n通常的招式组合。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化吗？"
 }
 
 
 text RandomLearnsetsEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Learnset Randomizer enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}招式随机化已启用。"
 }
 
 text RandomLearnsetsDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Learnset Randomizer disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}招式随机化已关闭。"
 }
 
 
 text NormalSpeciesRandomizerAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	"encounters, trainers, and gifts.\l"
-	"It does not randomize boss battles.\p"
-	"Many legendaries cannot be\n"
-	"encountered.\p"
-	"Do you want to turn off the\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Species Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}种族随机化吗？"
 }
 
 text NormalSpeciesRandomizerAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} randomizes\n"
-	"encounters, trainers, and gifts.\l"
-	"It does not randomize boss battles.\p"
-	"Many legendaries cannot be\n"
-	"encountered.\p"
-	"Do you want to turn on the\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}会随机化\n野外遇敌、训练家和赠礼。\l它不会随机化BOSS战。\p许多传说的宝可梦\n将无法遇到。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化吗？"
 }
 
 
 text NormalSpeciesRandomizerEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Species Randomizer enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}种族随机化已启用。"
 }
 
 text NormalSpeciesRandomizerDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Species Randomizer disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}种族随机化已关闭。"
 }
 
 
 text ScaledSpeciesRandomizerAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} only gives\n"
-	"reasonable Pokémon for your location\l"
-	"in the game.\p"
-	"This randomization is based off the\n"
-	"base stat total of the original\l"
-	"encounter.\l"
-	"It does not randomize boss battles.\p"
-	"Do you want to turn off the\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Scaled Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化吗？"
 }
 
 text ScaledSpeciesRandomizerAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} only gives\n"
-	"reasonable Pokémon for your location\l"
-	"in the game.\p"
-	"This randomization is based off the\n"
-	"base stat total of the original\l"
-	"encounter.\l"
-	"It does not randomize boss battles.\p"
-	"Do you want to turn on the\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}只会给出\n符合你所在地点的宝可梦。\p这种随机化基于原本遇敌的\n种族值总和。\l它不会随机化BOSS战。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化吗？"
 }
 
 
 text ScaledSpeciesRandomizerEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Scaled Randomizer enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}强度缩放随机化已启用。"
 }
 
 text ScaledSpeciesRandomizerDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Scaled Randomizer disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}强度缩放随机化已关闭。"
 }
 
 text LegendsAwareRandomizerAlreadyOnYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} is\n"
-	"the same thing as the Species\l"
-	"Randomizer, with the only difference\l"
-	"being that legendary Pokémon will be\l"
-	"guaranteed to be randomized into\l"
-	"legendary Pokémon.\p"
-	"Do you want to turn off the\n"
-	"{COLOR RED}{SHADOW LIGHT_RED}Legendary-aware Species Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要关闭\n{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化吗？"
 }
 
 text LegendsAwareRandomizerAlreadyOffYesNo
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} is\n"
-	"the same thing as the Species\l"
-	"Randomizer, with the only difference\l"
-	"being that legendary Pokémon will be\l"
-	"guaranteed to be randomized into\l"
-	"legendary Pokémon.\p"
-	"Do you want to turn on the\n"
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer?"
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}与\n种族随机化基本相同，\l唯一区别是传说的宝可梦\l必定会被随机化成\l传说的宝可梦。\p要开启\n{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化吗？"
 }
 
 
 text LegendsAwareRandomizerEnabled
 {
-	"{COLOR GREEN}{SHADOW LIGHT_GREEN}Legendary-aware Species Randomizer\n"
-	"enabled."
+	"{COLOR GREEN}{SHADOW LIGHT_GREEN}考虑传说的种族随机化\n已启用。"
 }
 
 text LegendsAwareRandomizerDisabled
 {
-	"{COLOR RED}{SHADOW LIGHT_RED}Legendary-aware Species Randomizer\n" 
-	"disabled."
+	"{COLOR RED}{SHADOW LIGHT_RED}考虑传说的种族随机化\n已关闭。"
 }
 
 
 text CustomSettingsSaved
 {
-	"Custom settings saved.\n"
-	"Good luck!"
+	"自定义设置已保存。\n祝你好运！"
 }

@@ -491,491 +491,489 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 # 246 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 # 247 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "We're developing a device for talking\n"
+	.string "我们正在开发能和宝可梦\n"
 # 248 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "with Pokémon.\p"
+	.string "说话的装置。\p"
 # 249 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "But we haven't had much success…$"
+	.string "不过还没什么进展……$"
 # 250 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
 # 251 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 # 252 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I'm trying to develop a device that\n"
+	.string "我想开发能把宝可梦的梦\n"
 # 253 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "visually reproduces the dreams of\l"
+	.string "变成画面的装置……\p"
 # 254 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Pokémon…\p"
+	.string "可是进行得不顺利。$"
 # 255 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "But it's not going well.$"
+
 # 256 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 257 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
+# 257 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我一直在开发能从化石里\n"
 # 258 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I've been trying to develop a device\n"
+	.string "让宝可梦复活的装置……\p"
 # 259 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "that resurrects Pokémon from fossils…\p"
+	.string "而且，成功了！$"
 # 260 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "And, it's working!$"
+
 # 261 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 262 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
+# 262 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "等等！你手上的那个……\n"
 # 263 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Wait! That thing you have there…\n"
+	.string "是宝可梦的化石吗？\p"
 # 264 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Is that a Pokémon fossil?\p"
+	.string "你想不想让那只宝可梦\n"
 # 265 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Would you like to bring that Pokémon\n"
+	.string "复活过来？\p"
 # 266 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "back to life?\p"
+	.string "用我新开发的\n"
 # 267 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I can with my newly developed\n"
+	.string "化石复原机就能做到。$"
 # 268 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "FOSSIL REGENERATOR.$"
+
 # 269 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 270 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
+# 270 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "哦，是这样啊。\p"
 # 271 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Oh, is that so?\p"
+	.string "得文的技术实力\n"
 # 272 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "DEVON's technological expertise\n"
+	.string "可是很了不起的。$"
 # 273 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "is outstanding, I tell you.$"
+
 # 274 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 275 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
+# 275 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "哦，这倒让我吃了一惊！\n"
 # 276 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Oh, now that's a surprise!\n"
+	.string "你不止一块，有两块化石？\p"
 # 277 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "You have not one, but two, fossils?\p"
+	.string "可惜我的机器一次只能\n"
 # 278 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Unfortunately, my machine can only\n"
+	.string "复原一只宝可梦。\p"
 # 279 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "regenerate one Pokémon at a time.\p"
+	.string "你想从两块化石里\n"
 # 280 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Would you like to pick one of your\n"
+	.string "挑一块来复原吗？$"
 # 281 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "fossils for regeneration?$"
+
 # 282 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 283 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
+# 283 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "太好了！\n"
 # 284 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Excellent!\n"
+	.string "我们马上开始吧。\p"
 # 285 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Let's do this right away.\p"
+	.string "{PLAYER}把{STR_VAR_1}交给了\n"
 # 286 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
+	.string "得文的研究员。$"
 # 287 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "the DEVON RESEARCHER.$"
+
 # 288 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 289 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
+# 289 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我做的化石复原机\n"
 # 290 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "The FOSSIL REGENERATOR, which I made,\n"
+	.string "非常厉害。\p"
 # 291 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "is incredible.\p"
+	.string "不过有个缺点——\n"
 # 292 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "But it has one drawback--it takes\n"
+	.string "它要花很长时间。\p"
 # 293 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "a long time to work.\p"
+	.string "所以……你要不要\n"
 # 294 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "So, uh… How about you go for a stroll\n"
+	.string "出去转转，等一会儿？$"
 # 295 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "and look around for a while?$"
+
 # 296 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 297 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
+# 297 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "让你久等了！\p"
 # 298 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Thanks for waiting!\p"
+	.string "你的化石宝可梦\n"
 # 299 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Your fossilized Pokémon has been\n"
+	.string "已经复活过来了！\p"
 # 300 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "brought back to life!\p"
+	.string "这块化石是古代宝可梦。\n"
 # 301 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "The fossil was an ancient Pokémon.\n"
+	.string "是{STR_VAR_2}！$"
 # 302 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "{STR_VAR_2}, it was!$"
+
 # 303 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 304 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
+# 304 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "{PLAYER}从得文研究员那里\n"
 # 305 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "{PLAYER} received {STR_VAR_2} from\n"
+	.string "得到了{STR_VAR_2}。$"
 # 306 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "the DEVON RESEARCHER.$"
+
 # 307 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 308 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 @ Unused
-# 309 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 308 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
+# 309 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "糟糕，你的宝可梦太多了。\n"
 # 310 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Uh-oh, you've got too many Pokémon.\n"
+	.string "没地方放这一只。$"
 # 311 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "You have no room for this one.$"
+
 # 312 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-
-# 313 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
+# 313 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我正在给宝可梦导航\n"
 # 314 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I'm trying to develop a new feature\n"
+	.string "开发新功能……\p"
 # 315 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "for the PokéNav…\p"
+	.string "可是进行得不顺利。$"
 # 316 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "But it's not going well.$"
-# 317 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
-# 318 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 317 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
+# 318 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "那么，接下来开发\n"
 # 319 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Well, now what shall I work on\n"
+	.string "什么好呢？\p"
 # 320 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "developing next?\p"
+	.string "公司允许我们把灵感\n"
 # 321 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Our company allows us to make our\n"
+	.string "变成现实。\p"
 # 322 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "inspirations into reality.\p"
+	.string "作为工程师，\n"
 # 323 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "One couldn't ask for a better\n"
-# 324 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "environment as an engineer.$"
+	.string "没有比这更好的环境了。$"
 
 RustboroCity_DevonCorp_2F_EventScript_DNASplicers::
-# 330 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 329 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	lock
-# 331 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 330 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	faceplayer
-# 333 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 332 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_unset FLAG_BADGE08_GET, RustboroCity_DevonCorp_2F_EventScript_DNASplicers_2
-# 339 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 338 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_set FLAG_RECEIVED_DNA_SPLICERS, RustboroCity_DevonCorp_2F_EventScript_DNASplicers_5
-# 345 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 344 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_DnaSplicersReady, MSGBOX_DEFAULT
-# 346 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 345 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	special ChoosePartyMon
-# 347 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 346 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	waitstate
-# 348 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 347 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	copyvar VAR_RESULT, VAR_0x8004
-# 349 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 348 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelKyurem
-# 350 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 349 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
-# 351 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 350 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	switch VAR_RESULT
-# 352 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 351 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_KYUREM, RustboroCity_DevonCorp_2F_EventScript_DNASplicers_9
-# 353 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 352 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_KYUREM_WHITE, RustboroCity_DevonCorp_2F_EventScript_DNASplicers_9
-# 354 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 353 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_KYUREM_BLACK, RustboroCity_DevonCorp_2F_EventScript_DNASplicers_9
-# 360 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 359 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_NotKyurem, MSGBOX_DEFAULT
-# 361 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 360 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_DNASplicers_2:
-# 334 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 333 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT
-# 335 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 334 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_DNASplicers_5:
-# 340 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 339 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers, MSGBOX_DEFAULT
-# 341 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 340 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_DNASplicers_7:
-# 365 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 364 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers, MSGBOX_DEFAULT
-# 366 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 365 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_DNASplicers_9:
-# 355 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 354 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseSplicers, MSGBOX_DEFAULT
-# 356 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 355 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	giveitem ITEM_DNA_SPLICERS
-# 357 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 356 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	setflag FLAG_RECEIVED_DNA_SPLICERS
 	goto RustboroCity_DevonCorp_2F_EventScript_DNASplicers_7
 
 
 RustboroCity_DevonCorp_2F_EventScript_CancelKyurem::
-# 371 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 370 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_DontHaveKyurem, MSGBOX_DEFAULT
-# 372 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 371 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 
 RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity::
-# 419 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 418 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	lock
-# 420 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 419 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	faceplayer
-# 422 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 421 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_unset FLAG_BADGE08_GET, RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_2
-# 428 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 427 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_set FLAG_RECEIVED_REINS_OF_UNITY, RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_5
-# 434 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 433 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_ReinsReady, MSGBOX_DEFAULT
-# 435 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 434 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	special ChoosePartyMon
-# 436 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 435 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	waitstate
-# 437 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 436 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	copyvar VAR_RESULT, VAR_0x8004
-# 438 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 437 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelCalyrex
-# 439 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 438 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
-# 440 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 439 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	switch VAR_RESULT
-# 441 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 440 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_CALYREX, RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_9
-# 442 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 441 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_CALYREX_ICE, RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_9
-# 443 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 442 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_CALYREX_SHADOW, RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_9
-# 449 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 448 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_NotCalyrex, MSGBOX_DEFAULT
-# 450 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 449 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_2:
-# 423 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 422 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT
-# 424 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 423 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_5:
-# 429 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 428 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity, MSGBOX_DEFAULT
-# 430 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 429 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_7:
-# 454 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 453 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity, MSGBOX_DEFAULT
-# 455 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 454 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_9:
-# 444 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 443 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseReins, MSGBOX_DEFAULT
-# 445 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 444 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	giveitem ITEM_REINS_OF_UNITY
-# 446 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 445 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	setflag FLAG_RECEIVED_REINS_OF_UNITY
 	goto RustboroCity_DevonCorp_2F_EventScript_ReinsOfUnity_7
 
 
 RustboroCity_DevonCorp_2F_EventScript_CancelCalyrex::
-# 460 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 459 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_DontHaveCalyrex, MSGBOX_DEFAULT
-# 461 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 460 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 
 RustboroCity_DevonCorp_2F_EventScript_NFusions::
-# 499 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 498 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	lock
-# 500 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 499 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	faceplayer
-# 502 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 501 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_unset FLAG_BADGE08_GET, RustboroCity_DevonCorp_2F_EventScript_NFusions_2
-# 508 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 507 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_set FLAG_RECEIVED_NECROZMA_FUSION, RustboroCity_DevonCorp_2F_EventScript_NFusions_5
-# 514 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 513 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_NFusionsReady, MSGBOX_DEFAULT
-# 515 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 514 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	special ChoosePartyMon
-# 516 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 515 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	waitstate
-# 517 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 516 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	copyvar VAR_RESULT, VAR_0x8004
-# 518 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 517 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, RustboroCity_DevonCorp_2F_EventScript_CancelNecrozma
-# 519 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 518 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
-# 520 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 519 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	switch VAR_RESULT
-# 521 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 520 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_NECROZMA, RustboroCity_DevonCorp_2F_EventScript_NFusions_9
-# 522 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 521 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_NECROZMA_DUSK_MANE, RustboroCity_DevonCorp_2F_EventScript_NFusions_9
-# 523 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 522 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_NECROZMA_DAWN_WINGS, RustboroCity_DevonCorp_2F_EventScript_NFusions_9
-# 524 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 523 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	case SPECIES_NECROZMA_ULTRA, RustboroCity_DevonCorp_2F_EventScript_NFusions_9
-# 531 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 530 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_NotNecrozma, MSGBOX_DEFAULT
-# 532 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 531 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_NFusions_2:
-# 503 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 502 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_DoingFusionResearch, MSGBOX_DEFAULT
-# 504 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 503 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_NFusions_5:
-# 509 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 508 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions, MSGBOX_DEFAULT
-# 510 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 509 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_NFusions_7:
-# 536 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 535 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions, MSGBOX_DEFAULT
-# 537 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 536 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_NFusions_9:
-# 525 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 524 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseNFusions, MSGBOX_DEFAULT
-# 526 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 525 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	giveitem ITEM_N_SOLARIZER
-# 527 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 526 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	giveitem ITEM_N_LUNARIZER
-# 528 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 527 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	setflag FLAG_RECEIVED_NECROZMA_FUSION
 	goto RustboroCity_DevonCorp_2F_EventScript_NFusions_7
 
 
 RustboroCity_DevonCorp_2F_EventScript_CancelNecrozma::
-# 542 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 541 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_2F_Text_DontHaveNecrozma, MSGBOX_DEFAULT
-# 543 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+# 542 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	release
 	end
 
 
 RustboroCity_DevonCorp_2F_Text_DnaSplicersReady::
-# 376 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Our research is finally complete!\n"
-	.string "I'm looking for a trainer with Kyurem\l"
-	.string "who would be willing to try these DNA\l"
-	.string "Splicers.\p"
-	.string "Do you have a Kyurem?$"
+# 375 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我们的研究终于完成了！\n"
+	.string "我在找一位拥有酋雷姆、\l"
+	.string "愿意试试这些基因之楔\l"
+	.string "的训练家。\p"
+	.string "你有酋雷姆吗？$"
 
 RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseSplicers::
-# 384 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Amazing! Here, take these DNA Splicers.$"
+# 383 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "太棒了！来，这些基因之楔给你。$"
 
 RustboroCity_DevonCorp_2F_DoingFusionResearch::
-# 388 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "My colleagues and I are doing research\n"
-	.string "into fusing various Pokémon species.\p"
-	.string "I think our research is progressing\n"
-	.string "nicely, but we need a little more time\l"
-	.string "until we are ready to give our\l"
-	.string "technology to a real trainer.$"
+# 387 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我和同事们正在研究如何\n"
+	.string "把各种宝可梦融合起来。\p"
+	.string "我觉得研究进展得\n"
+	.string "不错，不过还需要一点时间，\l"
+	.string "才能把技术交给\l"
+	.string "真正的训练家。$"
 
 RustboroCity_DevonCorp_2F_Text_GiveUsDataDnaSplicers::
-# 397 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "You can use those DNA Splicers to fuse\n"
-	.string "Kyurem with either Zekrom or Reshiram.\l"
-	.string "You can also un-fuse them if you want!\p"
-	.string "You'll have to come back and let us know\n"
-	.string "how the fusion technology is\l"
-	.string "performing!\p"
-	.string "We would love to get more data from\n"
-	.string "real-world usage!$"
+# 396 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "用那些基因之楔，可以把酋雷姆\n"
+	.string "和捷克罗姆或莱希拉姆融合。\l"
+	.string "想拆开也可以！\p"
+	.string "记得回来告诉我们\n"
+	.string "这套融合技术的\l"
+	.string "使用效果！\p"
+	.string "我们很想收集更多来自\n"
+	.string "实际使用的数据！$"
 
 RustboroCity_DevonCorp_2F_Text_DontHaveKyurem::
-# 408 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I see, you don't have Kyurem.$"
+# 407 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我明白了，你没有酋雷姆。$"
 
 RustboroCity_DevonCorp_2F_Text_NotKyurem::
-# 411 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "That's not Kyurem.$"
+# 410 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "那不是酋雷姆。$"
 
 RustboroCity_DevonCorp_2F_Text_ReinsReady::
-# 465 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Our research is finally complete!\n"
-	.string "I'm looking for a trainer with Calyrex\l"
-	.string "who would be willing to try these Reins\l"
-	.string "of Unity.\p"
-	.string "Do you have a Calyrex?$"
+# 464 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我们的研究终于完成了！\n"
+	.string "我在找一位拥有蕾冠王、\l"
+	.string "愿意试试这根牵绊缰绳\l"
+	.string "的训练家。\p"
+	.string "你有蕾冠王吗？$"
 
 RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseReins::
-# 473 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Incredible! Here, take these Reins of\n"
-	.string "Unity.$"
+# 472 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "太惊人了！来，这根牵绊\n"
+	.string "缰绳给你。$"
 
 RustboroCity_DevonCorp_2F_Text_GiveUsDataReinsOfUnity::
-# 478 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "You can use those Reins of Unity to\n"
-	.string "fuse Calyrex with either Glastrier or\l"
-	.string "Spectrier.\l"
-	.string "You can also un-fuse them if you want!\p"
-	.string "You'll have to come back and let us know\n"
-	.string "how the fusion technology is\l"
-	.string "performing!\p"
-	.string "We would love to get more data from\n"
-	.string "real-world usage!$"
+# 477 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "用那根牵绊缰绳，可以把蕾冠王\n"
+	.string "和雪暴马或灵幽马\l"
+	.string "融合。\l"
+	.string "想拆开也可以！\p"
+	.string "记得回来告诉我们\n"
+	.string "这套融合技术的\l"
+	.string "使用效果！\p"
+	.string "我们很想收集更多来自\n"
+	.string "实际使用的数据！$"
 
 RustboroCity_DevonCorp_2F_Text_DontHaveCalyrex::
-# 490 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I see, you don't have Calyrex.$"
+# 489 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我明白了，你没有蕾冠王。$"
 
 RustboroCity_DevonCorp_2F_Text_NotCalyrex::
-# 493 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "That's not Calyrex.$"
+# 492 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "那不是蕾冠王。$"
 
 RustboroCity_DevonCorp_2F_Text_NFusionsReady::
-# 547 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Our research is finally complete!\n"
-	.string "I'm looking for a trainer with Necrozma\l"
-	.string "who would be willing to try this N-\l"
-	.string "Solarizer and N-Lunarizer.\p"
-	.string "Do you have a Necrozma?$"
+# 546 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我们的研究终于完成了！\n"
+	.string "我在找一位拥有奈克洛兹玛、\l"
+	.string "愿意试试合体器与\l"
+	.string "合体器的训练家。\p"
+	.string "你有奈克洛兹玛吗？$"
 
 RustboroCity_DevonCorp_2F_Text_PleaseTakeTheseNFusions::
-# 555 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "Wonderful! Here, take this N-Solarizer\n"
-	.string "and N-Lunarizer.$"
+# 554 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "太好了！来，这两件奈克洛索尔\n"
+	.string "合体器和奈克洛露奈合体器，给你。$"
 
 RustboroCity_DevonCorp_2F_Text_GiveUsDataNFusions::
-# 560 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "You can use the N-Solarizer to fuse\n"
-	.string "Necrozma with Solgaleo, and you can use\l"
-	.string "the N-Lunarizer fuse Necrozma with\l"
-	.string "Lunala.\l"
-	.string "You can also un-fuse them if you want!\p"
-	.string "You'll have to come back and let us know\n"
-	.string "how the fusion technology is\l"
-	.string "performing!\p"
-	.string "We would love to get more data from\n"
-	.string "real-world usage!$"
+# 559 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "用奈克洛索尔合体器可以把\n"
+	.string "奈克洛兹玛和索尔迦雷欧融合，\l"
+	.string "用奈克洛露奈合体器则可以把\l"
+	.string "奈克洛兹玛和露奈雅拉融合。\l"
+	.string "想拆开也可以！\p"
+	.string "记得回来告诉我们\n"
+	.string "这套融合技术的\l"
+	.string "使用效果！\p"
+	.string "我们很想收集更多来自\n"
+	.string "实际使用的数据！$"
 
 RustboroCity_DevonCorp_2F_Text_DontHaveNecrozma::
-# 573 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "I see, you don't have Necrozma.$"
+# 572 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "我明白了，你没有奈克洛兹玛。$"
 
 RustboroCity_DevonCorp_2F_Text_NotNecrozma::
-# 576 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
-	.string "That's not Necrozma.$"
+# 575 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+	.string "那不是奈克洛兹玛。$"

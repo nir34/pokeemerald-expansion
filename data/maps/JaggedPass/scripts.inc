@@ -295,342 +295,350 @@ JaggedPass_EventScript_Autumn::
 # 148 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EricIntro:
 # 149 "data/maps/JaggedPass/scripts.pory"
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
+	.string "烟囱山的崎岖小径……\p"
 # 150 "data/maps/JaggedPass/scripts.pory"
-	.string "Now this is what I've always wanted\n"
+	.string "这才是我一直想要的山。\p"
 # 151 "data/maps/JaggedPass/scripts.pory"
-	.string "in a mountain.\p"
+	.string "这种崎岖不平……\n"
 # 152 "data/maps/JaggedPass/scripts.pory"
-	.string "This jagged bumpiness…\n"
+	.string "震撼我的灵魂！$"
 # 153 "data/maps/JaggedPass/scripts.pory"
-	.string "It rocks my soul!$"
+
 # 154 "data/maps/JaggedPass/scripts.pory"
-
-# 155 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EricDefeat:
+# 155 "data/maps/JaggedPass/scripts.pory"
+	.string "输了真让我不甘心！$"
 # 156 "data/maps/JaggedPass/scripts.pory"
-	.string "Losing left me bitter!$"
-# 157 "data/maps/JaggedPass/scripts.pory"
 
-# 158 "data/maps/JaggedPass/scripts.pory"
+# 157 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EricPostBattle:
+# 158 "data/maps/JaggedPass/scripts.pory"
+	.string "在宝可梦上，我确实\n"
 # 159 "data/maps/JaggedPass/scripts.pory"
-	.string "Yes, I did lose at Pokémon…\p"
+	.string "输了……\p"
 # 160 "data/maps/JaggedPass/scripts.pory"
-	.string "But, when it comes to the love of\n"
+	.string "可要说到对山的热爱，\n"
 # 161 "data/maps/JaggedPass/scripts.pory"
-	.string "the mountains, I have you beat!$"
+	.string "我可赢过你！$"
 # 162 "data/maps/JaggedPass/scripts.pory"
 
 # 163 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_DianaIntro:
 # 164 "data/maps/JaggedPass/scripts.pory"
-	.string "This place isn't your casual hike.\n"
+	.string "这地方可不是随便\n"
 # 165 "data/maps/JaggedPass/scripts.pory"
-	.string "It's not suited for a picnic.$"
+	.string "散散步的。\l"
 # 166 "data/maps/JaggedPass/scripts.pory"
-
+	.string "也不适合野餐。$"
 # 167 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaDefeat:
+
 # 168 "data/maps/JaggedPass/scripts.pory"
-	.string "Ohhh, no!\n"
+JaggedPass_Text_DianaDefeat:
 # 169 "data/maps/JaggedPass/scripts.pory"
-	.string "The ground is too bumpy…$"
+	.string "哦哦，不行！\n"
 # 170 "data/maps/JaggedPass/scripts.pory"
-
+	.string "地面太颠簸了……$"
 # 171 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaPostBattle:
+
 # 172 "data/maps/JaggedPass/scripts.pory"
-	.string "Did you know?\p"
+JaggedPass_Text_DianaPostBattle:
 # 173 "data/maps/JaggedPass/scripts.pory"
-	.string "Some people cleverly ride their\n"
+	.string "你知道吗？\p"
 # 174 "data/maps/JaggedPass/scripts.pory"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "有些人很厉害，会骑着\n"
 # 175 "data/maps/JaggedPass/scripts.pory"
-
+	.string "自行车爬上这条\l"
 # 176 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaRegister:
+	.string "颠得可怕的坡道。$"
 # 177 "data/maps/JaggedPass/scripts.pory"
-	.string "Will you ever be back in this area?\n"
+
 # 178 "data/maps/JaggedPass/scripts.pory"
-	.string "If you do return, I'd like a rematch.$"
+JaggedPass_Text_DianaRegister:
 # 179 "data/maps/JaggedPass/scripts.pory"
-
+	.string "你还会再来这一带吗？\n"
 # 180 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaRematchIntro:
+	.string "要是再来，我想再打一场。$"
 # 181 "data/maps/JaggedPass/scripts.pory"
-	.string "Picnics are fun wherever you go.\n"
+
 # 182 "data/maps/JaggedPass/scripts.pory"
-	.string "Just like Pokémon!$"
+JaggedPass_Text_DianaRematchIntro:
 # 183 "data/maps/JaggedPass/scripts.pory"
-
+	.string "不管去哪儿，野餐\n"
 # 184 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaRematchDefeat:
+	.string "都很好玩。就像宝可梦！$"
 # 185 "data/maps/JaggedPass/scripts.pory"
-	.string "I only lost because the ground is\n"
+
 # 186 "data/maps/JaggedPass/scripts.pory"
-	.string "too bumpy!$"
+JaggedPass_Text_DianaRematchDefeat:
 # 187 "data/maps/JaggedPass/scripts.pory"
-
+	.string "我会输只是因为地面\n"
 # 188 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_DianaPostRematch:
+	.string "太颠簸了！$"
 # 189 "data/maps/JaggedPass/scripts.pory"
-	.string "I'll forget about losing and just\n"
+
 # 190 "data/maps/JaggedPass/scripts.pory"
-	.string "enjoy this bumpy hike.$"
+JaggedPass_Text_DianaPostRematch:
 # 191 "data/maps/JaggedPass/scripts.pory"
-
+	.string "我不去想输的事，\n"
 # 192 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanIntro:
+	.string "就享受这趟颠簸的徒步。$"
 # 193 "data/maps/JaggedPass/scripts.pory"
-	.string "JAGGED PASS is hard to walk on.\n"
+
 # 194 "data/maps/JaggedPass/scripts.pory"
-	.string "It's a good place for training.$"
+JaggedPass_Text_EthanIntro:
 # 195 "data/maps/JaggedPass/scripts.pory"
-
+	.string "崎岖小径很难走。\n"
 # 196 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanDefeat:
+	.string "这里很适合训练。$"
 # 197 "data/maps/JaggedPass/scripts.pory"
-	.string "It was all over while we were still\n"
+
 # 198 "data/maps/JaggedPass/scripts.pory"
-	.string "trying to find a good footing…$"
+JaggedPass_Text_EthanDefeat:
 # 199 "data/maps/JaggedPass/scripts.pory"
-
+	.string "我们还在找落脚点，\n"
 # 200 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanPostBattle:
+	.string "胜负就已经分出来了……$"
 # 201 "data/maps/JaggedPass/scripts.pory"
-	.string "If I had an ACRO BIKE, I'd be able to\n"
+
 # 202 "data/maps/JaggedPass/scripts.pory"
-	.string "jump ledges.$"
+JaggedPass_Text_EthanPostBattle:
 # 203 "data/maps/JaggedPass/scripts.pory"
-
+	.string "要是我有技巧自行车，\n"
 # 204 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanRegister:
+	.string "就能跳上台阶了。$"
 # 205 "data/maps/JaggedPass/scripts.pory"
-	.string "When I get more used to this bumpiness,\n"
+
 # 206 "data/maps/JaggedPass/scripts.pory"
-	.string "I'll be sure to win!\p"
+JaggedPass_Text_EthanRegister:
 # 207 "data/maps/JaggedPass/scripts.pory"
-	.string "Can you register me in your PokéNav?$"
+	.string "等我更习惯这种颠簸，\n"
 # 208 "data/maps/JaggedPass/scripts.pory"
-
+	.string "一定会赢！\p"
 # 209 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanRematchIntro:
+	.string "能把我登录到你的\n"
 # 210 "data/maps/JaggedPass/scripts.pory"
-	.string "I got used to this bumpiness.\n"
+	.string "导航里吗？$"
 # 211 "data/maps/JaggedPass/scripts.pory"
-	.string "I sing while I climb now.$"
+
 # 212 "data/maps/JaggedPass/scripts.pory"
-
+JaggedPass_Text_EthanRematchIntro:
 # 213 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanRematchDefeat:
+	.string "我已经习惯这颠簸了。\n"
 # 214 "data/maps/JaggedPass/scripts.pory"
-	.string "It's still not easy to battle on this\n"
+	.string "现在爬山时还会唱歌。$"
 # 215 "data/maps/JaggedPass/scripts.pory"
-	.string "bumpy ground…$"
+
 # 216 "data/maps/JaggedPass/scripts.pory"
-
+JaggedPass_Text_EthanRematchDefeat:
 # 217 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_EthanPostRematch:
+	.string "在这颠簸的地面上\n"
 # 218 "data/maps/JaggedPass/scripts.pory"
-	.string "I should get an ACRO BIKE from RYDEL\n"
+	.string "对战还是不容易……$"
 # 219 "data/maps/JaggedPass/scripts.pory"
-	.string "in MAUVILLE CITY…$"
+
 # 220 "data/maps/JaggedPass/scripts.pory"
-
+JaggedPass_Text_EthanPostRematch:
 # 221 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_GruntIntro:
+	.string "我该去紫堇市找莱德尔\n"
 # 222 "data/maps/JaggedPass/scripts.pory"
-	.string "Wah!\n"
+	.string "买辆技巧自行车……$"
 # 223 "data/maps/JaggedPass/scripts.pory"
-	.string "What are you doing here?\p"
+
 # 224 "data/maps/JaggedPass/scripts.pory"
-	.string "What am I doing in a place like this?\p"
+JaggedPass_Text_GruntIntro:
 # 225 "data/maps/JaggedPass/scripts.pory"
-	.string "What business is it of yours?$"
+	.string "哇！\n"
 # 226 "data/maps/JaggedPass/scripts.pory"
-
+	.string "你在这儿干什么？\p"
 # 227 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_GruntDefeat:
+	.string "我在这种地方\n"
 # 228 "data/maps/JaggedPass/scripts.pory"
-	.string "Urrrgh…\p"
+	.string "做什么？\p"
 # 229 "data/maps/JaggedPass/scripts.pory"
-	.string "I should've ducked into our Hideout\n"
+	.string "关你什么事？$"
 # 230 "data/maps/JaggedPass/scripts.pory"
-	.string "right away…$"
+
 # 231 "data/maps/JaggedPass/scripts.pory"
-
+JaggedPass_Text_GruntDefeat:
 # 232 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_GoWhereverYouWant:
+	.string "呃啊……\p"
 # 233 "data/maps/JaggedPass/scripts.pory"
-	.string "Okay, oh-kay!\n"
+	.string "我该马上钻进\n"
 # 234 "data/maps/JaggedPass/scripts.pory"
-	.string "I admit it--you're strong!\p"
+	.string "我们的基地的……$"
 # 235 "data/maps/JaggedPass/scripts.pory"
-	.string "Don't worry about me.\n"
-# 236 "data/maps/JaggedPass/scripts.pory"
-	.string "Go wherever you want!$"
-# 237 "data/maps/JaggedPass/scripts.pory"
 
+# 236 "data/maps/JaggedPass/scripts.pory"
+JaggedPass_Text_GoWhereverYouWant:
+# 237 "data/maps/JaggedPass/scripts.pory"
+	.string "好好，知道了！\n"
 # 238 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_BoulderShakingInResponseToEmblem:
+	.string "我承认——你很强！\p"
 # 239 "data/maps/JaggedPass/scripts.pory"
-	.string "Oh! This boulder is shaking in response\n"
+	.string "别管我了。\n"
 # 240 "data/maps/JaggedPass/scripts.pory"
-	.string "to the Magma Emblem!$"
+	.string "你想去哪儿就去哪儿！$"
 # 241 "data/maps/JaggedPass/scripts.pory"
 
 # 242 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_AutumnIntro:
+JaggedPass_Text_BoulderShakingInResponseToEmblem:
 # 243 "data/maps/JaggedPass/scripts.pory"
-	.string "I climb this hill every day.\n"
+	.string "哦！这块岩石在呼应\n"
 # 244 "data/maps/JaggedPass/scripts.pory"
-	.string "I have confidence in my strength!$"
+	.string "熔岩徽章而颤动！$"
 # 245 "data/maps/JaggedPass/scripts.pory"
 
 # 246 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_AutumnDefeat:
+JaggedPass_Text_AutumnIntro:
 # 247 "data/maps/JaggedPass/scripts.pory"
-	.string "Hmm…\n"
+	.string "我每天都爬这座山。\n"
 # 248 "data/maps/JaggedPass/scripts.pory"
-	.string "What went wrong?$"
+	.string "我对自己的力气有信心！$"
 # 249 "data/maps/JaggedPass/scripts.pory"
 
 # 250 "data/maps/JaggedPass/scripts.pory"
-JaggedPass_Text_AutumnPostBattle:
+JaggedPass_Text_AutumnDefeat:
 # 251 "data/maps/JaggedPass/scripts.pory"
-	.string "What is that odd rock protrusion\n"
+	.string "嗯……\n"
 # 252 "data/maps/JaggedPass/scripts.pory"
-	.string "a little up the hill from here?$"
+	.string "哪里出错了？$"
+# 253 "data/maps/JaggedPass/scripts.pory"
+
+# 254 "data/maps/JaggedPass/scripts.pory"
+JaggedPass_Text_AutumnPostBattle:
+# 255 "data/maps/JaggedPass/scripts.pory"
+	.string "山坡上去一点那奇怪的\n"
+# 256 "data/maps/JaggedPass/scripts.pory"
+	.string "岩石突起，是什么呢？$"
 
 JaggedPass_EventScript_Maylene::
-# 257 "data/maps/JaggedPass/scripts.pory"
-	lockall
-# 258 "data/maps/JaggedPass/scripts.pory"
-	applymovement 7, Common_Movement_FacePlayer
-# 259 "data/maps/JaggedPass/scripts.pory"
-	goto_if_defeated TRAINER_MAYLENE, JaggedPass_EventScript_MayleneDefeated
-# 260 "data/maps/JaggedPass/scripts.pory"
-	goto_if_set FLAG_TEMP_1, JaggedPass_EventScript_MayleneRequestBattleAgain
 # 261 "data/maps/JaggedPass/scripts.pory"
-	msgbox Maylene_Greeting, MSGBOX_YESNO
+	lockall
 # 262 "data/maps/JaggedPass/scripts.pory"
+	applymovement 7, Common_Movement_FacePlayer
+# 263 "data/maps/JaggedPass/scripts.pory"
+	goto_if_defeated TRAINER_MAYLENE, JaggedPass_EventScript_MayleneDefeated
+# 264 "data/maps/JaggedPass/scripts.pory"
+	goto_if_set FLAG_TEMP_1, JaggedPass_EventScript_MayleneRequestBattleAgain
+# 265 "data/maps/JaggedPass/scripts.pory"
+	msgbox Maylene_Greeting, MSGBOX_YESNO
+# 266 "data/maps/JaggedPass/scripts.pory"
 	goto JaggedPass_EventScript_BattleMaylenePrompt
 	end
 
 
 JaggedPass_EventScript_MayleneRequestBattleAgain::
-# 267 "data/maps/JaggedPass/scripts.pory"
+# 271 "data/maps/JaggedPass/scripts.pory"
 	msgbox Maylene_ReadyYet, MSGBOX_YESNO
-# 268 "data/maps/JaggedPass/scripts.pory"
+# 272 "data/maps/JaggedPass/scripts.pory"
 	goto JaggedPass_EventScript_BattleMaylenePrompt
 	end
 
 
 JaggedPass_EventScript_BattleMaylenePrompt::
-# 273 "data/maps/JaggedPass/scripts.pory"
+# 277 "data/maps/JaggedPass/scripts.pory"
 	call_if_eq VAR_RESULT, YES, JaggedPass_EventScript_BattleMaylene
-# 274 "data/maps/JaggedPass/scripts.pory"
+# 278 "data/maps/JaggedPass/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, JaggedPass_EventScript_DeclineMayleneBattle
-# 275 "data/maps/JaggedPass/scripts.pory"
+# 279 "data/maps/JaggedPass/scripts.pory"
 	closemessage
 	end
 
 
 JaggedPass_EventScript_DeclineMayleneBattle::
-# 280 "data/maps/JaggedPass/scripts.pory"
+# 284 "data/maps/JaggedPass/scripts.pory"
 	setflag FLAG_TEMP_1
-# 281 "data/maps/JaggedPass/scripts.pory"
+# 285 "data/maps/JaggedPass/scripts.pory"
 	msgbox Maylene_ComeBackWhenReady, MSGBOX_DEFAULT
-# 282 "data/maps/JaggedPass/scripts.pory"
+# 286 "data/maps/JaggedPass/scripts.pory"
 	release
 	end
 
 
 JaggedPass_EventScript_BattleMaylene::
-# 287 "data/maps/JaggedPass/scripts.pory"
+# 291 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_EventScript_BattleMaylene_Text_0, MSGBOX_DEFAULT
-# 288 "data/maps/JaggedPass/scripts.pory"
+# 292 "data/maps/JaggedPass/scripts.pory"
 	trainerbattle_no_intro TRAINER_MAYLENE, Maylene_Outro
-# 289 "data/maps/JaggedPass/scripts.pory"
+# 293 "data/maps/JaggedPass/scripts.pory"
 	goto JaggedPass_EventScript_MayleneGiveItems
 	return
 
 
 JaggedPass_EventScript_MayleneDefeated::
-# 295 "data/maps/JaggedPass/scripts.pory"
+# 299 "data/maps/JaggedPass/scripts.pory"
 	msgbox PostBattle_Maylene, MSGBOX_DEFAULT
-# 296 "data/maps/JaggedPass/scripts.pory"
+# 300 "data/maps/JaggedPass/scripts.pory"
 	releaseall
 	end
 
 
 JaggedPass_EventScript_MayleneGiveItems::
-# 301 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_TM_FOCUS_PUNCH
-# 302 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_TM_FOCUS_BLAST
-# 303 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_TM_DRAIN_PUNCH
-# 304 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_TM_BODY_PRESS
 # 305 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_TM_AURA_SPHERE
+	giveitem ITEM_TM_FOCUS_PUNCH
 # 306 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_LUCARIONITE
+	giveitem ITEM_TM_FOCUS_BLAST
 # 307 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_MACHAMPITE
+	giveitem ITEM_TM_DRAIN_PUNCH
 # 308 "data/maps/JaggedPass/scripts.pory"
-	giveitem ITEM_EXPERT_BELT
+	giveitem ITEM_TM_BODY_PRESS
 # 309 "data/maps/JaggedPass/scripts.pory"
-	msgbox Maylene_ExplainItems
+	giveitem ITEM_TM_AURA_SPHERE
 # 310 "data/maps/JaggedPass/scripts.pory"
+	giveitem ITEM_LUCARIONITE
+# 311 "data/maps/JaggedPass/scripts.pory"
+	giveitem ITEM_MACHAMPITE
+# 312 "data/maps/JaggedPass/scripts.pory"
+	giveitem ITEM_EXPERT_BELT
+# 313 "data/maps/JaggedPass/scripts.pory"
+	msgbox Maylene_ExplainItems
+# 314 "data/maps/JaggedPass/scripts.pory"
 	release
 	end
 
 
 JaggedPass_EventScript_BattleMaylene_Text_0:
-# 287 "data/maps/JaggedPass/scripts.pory"
-	.string "Bring it!$"
+# 291 "data/maps/JaggedPass/scripts.pory"
+	.string "来吧！$"
 
 Maylene_Greeting::
-# 314 "data/maps/JaggedPass/scripts.pory"
-	.string "Well, well! Is this finally a worthy\n"
-	.string "opponent? I can tell that you seem\l"
-	.string "pretty strong.\p"
-	.string "My name is Maylene, and I came over here\n"
-	.string "from the Sinnoh region because I\l"
-	.string "needed to reinvigorate my training.\p"
-	.string "Things had gotten boring back home, so\n"
-	.string "I came out here to find tough trainers.\p"
-	.string "Now, let's see if my instincts about you\n"
-	.string "are correct!\p"
-	.string "What do you say, will you battle\n"
-	.string "with me?$"
+# 318 "data/maps/JaggedPass/scripts.pory"
+	.string "哎呀呀！终于来了个\n"
+	.string "像样的对手？看得出你\l"
+	.string "挺强的。\p"
+	.string "我叫阿李，从神奥地区\n"
+	.string "过来，因为需要\l"
+	.string "重新振作训练。\p"
+	.string "家乡那边太无趣了，\n"
+	.string "所以我来这儿找强手。\p"
+	.string "现在，看看我对你的\n"
+	.string "直觉准不准！\p"
+	.string "怎么样，要不要和\n"
+	.string "我打一场？$"
 
 Maylene_ReadyYet::
-# 329 "data/maps/JaggedPass/scripts.pory"
-	.string "Ready for some training yet?$"
+# 333 "data/maps/JaggedPass/scripts.pory"
+	.string "准备好训练了吗？$"
 
 Maylene_ComeBackWhenReady::
-# 333 "data/maps/JaggedPass/scripts.pory"
-	.string "That's fine, I'll be here training.$"
+# 337 "data/maps/JaggedPass/scripts.pory"
+	.string "没关系，我就在这儿训练。$"
 
 Maylene_ExplainItems::
-# 337 "data/maps/JaggedPass/scripts.pory"
-	.string "Those are some of the most powerful\n"
-	.string "Fighting-type TMs out there, I'm sure\l"
-	.string "you will be able to make use of them.\p"
-	.string "I threw in some of my favorite Mega\n"
-	.string "Stones as well.\p"
-	.string "Finally, the Expert Belt is used for\n"
-	.string "boosting moves that are super\l"
-	.string "effective. Good luck, trainer!$"
+# 341 "data/maps/JaggedPass/scripts.pory"
+	.string "那些都是相当强力的\n"
+	.string "格斗属性学习器，\l"
+	.string "你一定能用得上。\p"
+	.string "我还加了几颗我最喜欢的\n"
+	.string "超级石。\p"
+	.string "最后，达人带能增强\n"
+	.string "效果绝佳的\l"
+	.string "招式。祝你好运，训练家！$"
 
 Maylene_Outro::
-# 348 "data/maps/JaggedPass/scripts.pory"
-	.string "My instincts were right!$"
+# 352 "data/maps/JaggedPass/scripts.pory"
+	.string "我的直觉没错！$"
 
 PostBattle_Maylene::
-# 352 "data/maps/JaggedPass/scripts.pory"
-	.string "Gotta. Get. Stronger.$"
+# 356 "data/maps/JaggedPass/scripts.pory"
+	.string "我。要。变强。$"

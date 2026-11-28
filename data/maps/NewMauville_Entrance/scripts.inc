@@ -99,18 +99,18 @@ NewMauville_Entrance_EventScript_DontOpenDoor::
 # 50 "data/maps/NewMauville_Entrance/scripts.pory"
 NewMauville_Entrance_Text_DoorIsLocked:
 # 51 "data/maps/NewMauville_Entrance/scripts.pory"
-	.string "The door is locked.$"
+	.string "门锁着。$"
 # 52 "data/maps/NewMauville_Entrance/scripts.pory"
 
 # 53 "data/maps/NewMauville_Entrance/scripts.pory"
 NewMauville_Entrance_Text_UseBasementKey:
 # 54 "data/maps/NewMauville_Entrance/scripts.pory"
-	.string "Use the Basement Key?$"
+	.string "要使用地下室钥匙吗？$"
 # 55 "data/maps/NewMauville_Entrance/scripts.pory"
 
 # 56 "data/maps/NewMauville_Entrance/scripts.pory"
 NewMauville_Entrance_Text_UsedBasementKey:
 # 57 "data/maps/NewMauville_Entrance/scripts.pory"
-	.string "{PLAYER} used the Basement Key.\p"
+	.string "{PLAYER}使用了地下室钥匙。\p"
 # 58 "data/maps/NewMauville_Entrance/scripts.pory"
-	.string "The door opened!$"
+	.string "门开了！$"

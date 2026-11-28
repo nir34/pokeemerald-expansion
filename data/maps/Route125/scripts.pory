@@ -120,7 +120,7 @@ script Route125_EventScript_DeclineRoarkBattle {
 }
 
 script Route125_EventScript_BattleRoark{
-	msgbox("Okay then!", MSGBOX_DEFAULT)
+	msgbox("那就来吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_ROARK, Roark_Outro)
 	goto(Route125_EventScript_RoarkGiveItems)
 	return
@@ -178,51 +178,51 @@ script SetRoarkPermLoc {
 }
 
 text Roark_Greeting{
-	"Oh, hello there. I take it you're a\n"
-	"trainer who wants to get into this\l"
-	"cave?\p"
-	"Well, I did some investigating, and\n"
-	"there are a lot of strong Pokémon\l"
-	"inside, so I've decided to stay out here\l"
-	"and make sure no weak trainers enter.\p"
-	"So if you want to go in, you'll have to\n"
-	"go through me.\p"
-	"… … … … … …\p"
-	"Who am I to have such authority?\n"
-	"I'm Roark, the 1st Gym Leader from\l"
-	"the Sinnoh region, of course!\p"
-	"I may be the 1st Gym Leader back home,\n"
-	"but I brought my strongest team with\l"
-	"me here for exploring!\p"
-	"But enough talk, are you here to\n"
-	"challenge me or not?"
+	"哦，你好。我猜你是想\n"
+	"进这个洞窟的\l"
+	"训练家？\p"
+	"我调查过了，里面\n"
+	"有很多强大的宝可梦，\l"
+	"所以我决定守在外头，\l"
+	"不让弱小的训练家进去。\p"
+	"所以你想进去，就得\n"
+	"先过我这关。\p"
+	"………………\p"
+	"我凭什么管这事？\n"
+	"我是神奥地区的\l"
+	"第一位道馆馆主，瓢太！\p"
+	"我在家乡虽只是第一位道馆馆主，\n"
+	"但这次来探险，我带的是\l"
+	"最强的队伍！\p"
+	"不过废话少说，你是来\n"
+	"挑战我的吗？"
 }
 
 text Roark_ReadyYet{
-	"Up to the challenge now?"
+	"现在准备好挑战了吗？"
 }
 
 text Roark_ComeBackWhenReady{
-	"Well, you're not getting into this cave\n"
-	"unless you can beat me."
+	"唉，你打不赢我，\n"
+	"就进不了这个洞窟。"
 }
 
 text Roark_ExplainItems{
-	"Those are some of my favorite TMs!\n"
-	"You'll have to be smart with how you use\l"
-	"them, but they sure do hit hard if you\l"
-	"use them correctly!\p"
-	"I'll step out of the way now and\n"
-	"let you through."
+	"那些可都是我喜欢的招式学习器！\n"
+	"你得想清楚再用，\l"
+	"不过只要用得对，\l"
+	"威力绝对够猛！\p"
+	"我现在就让开，\n"
+	"让你过去。"
 }
 	
 text Roark_Outro{
-	"Looks like you'll be just fine in this\n"
-	"cave."
+	"看来你在这个洞窟里\n"
+	"没问题。"
 }
 
 
 text PostBattle_Roark{
-	"The Pokémon in there are strong,\n"
-	"aren't they?"
+	"里面的宝可梦很强吧，\n"
+	"对吧？"
 }

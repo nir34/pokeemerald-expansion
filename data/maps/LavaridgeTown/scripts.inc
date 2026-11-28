@@ -569,337 +569,367 @@ LavaridgeTown_MiniMart:
 # 285 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
 # 286 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Hey {PLAYER}! Glad I caught you here.\p"
+	.string "嘿，{PLAYER}！真高兴\n"
 # 287 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I arrived from Petalburg a little while\n"
+	.string "在这儿碰上你。\p"
 # 288 "data/maps/LavaridgeTown/scripts.pory"
-	.string "ago to see if you'd beaten Flannery\l"
+	.string "我前不久从橙华过来，\n"
 # 289 "data/maps/LavaridgeTown/scripts.pory"
-	.string "yet, and look at that, great timing!\p"
+	.string "想看看你有没有\l"
 # 290 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I just met your Dad at the Petalburg\n"
+	.string "打赢亚莎，结果刚好\l"
 # 291 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Gym, and he told me that if I bumped\l"
+	.string "赶上，太巧了！\p"
 # 292 "data/maps/LavaridgeTown/scripts.pory"
-	.string "into you, I should give you these.$"
+	.string "我刚在橙华道馆遇到你\n"
 # 293 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "爸爸，他说要是我\l"
 # 294 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
+	.string "碰见你，就把这些\l"
 # 295 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Those Go-Goggles will let you get\n"
+	.string "交给你。$"
 # 296 "data/maps/LavaridgeTown/scripts.pory"
-	.string "through the desert in Route 111.\p"
+
 # 297 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I threw in some Safety Goggles as well,\n"
+LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 # 298 "data/maps/LavaridgeTown/scripts.pory"
-	.string "can never have too many goggles,\l"
+	.string "这副护目镜能让你\n"
 # 299 "data/maps/LavaridgeTown/scripts.pory"
-	.string "you know?\p"
+	.string "穿过111号道路的沙漠。\p"
 # 300 "data/maps/LavaridgeTown/scripts.pory"
-	.string "When I spoke to your Dad, he said to\n"
+	.string "我还附了些安全护目镜，\n"
 # 301 "data/maps/LavaridgeTown/scripts.pory"
-	.string "give you that Mega Ring so it would be a\l"
+	.string "护目镜这种东西\l"
 # 302 "data/maps/LavaridgeTown/scripts.pory"
-	.string "fair fight when you decided to\l"
+	.string "多多益善嘛。\p"
 # 303 "data/maps/LavaridgeTown/scripts.pory"
-	.string "challenge him.\p"
+	.string "我跟你说的时候，你爸爸\n"
 # 304 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Oh, and one last thing.\p"
+	.string "说要给你那个超级环，\l"
 # 305 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I spoke with Wally's dad, and he told me\n"
+	.string "这样你挑战他时\l"
 # 306 "data/maps/LavaridgeTown/scripts.pory"
-	.string "he was going to give you the {COLOR GREEN}{SHADOW LIGHT_GREEN}HM03 Surf,\l"
+	.string "才算公平。\p"
 # 307 "data/maps/LavaridgeTown/scripts.pory"
-	.string "but he accidentally dropped it out in\l"
+	.string "哦，还有最后一件事。\p"
 # 308 "data/maps/LavaridgeTown/scripts.pory"
-	.string "the desert somewhere.\p"
+	.string "我跟小胜的爸爸聊过，\n"
 # 309 "data/maps/LavaridgeTown/scripts.pory"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Okay, I think that's everything, I'll see\n"
+	.string "他说本来要给你\l"
 # 310 "data/maps/LavaridgeTown/scripts.pory"
-	.string "you around, {PLAYER}! Congrats on\l"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}秘传学习器03冲浪，\l"
 # 311 "data/maps/LavaridgeTown/scripts.pory"
-	.string "beating Flannery, but don't get too\l"
+	.string "结果不小心把它掉在\l"
 # 312 "data/maps/LavaridgeTown/scripts.pory"
-	.string "comfortable because Dawn and I are\l"
+	.string "沙漠里了。\p"
 # 313 "data/maps/LavaridgeTown/scripts.pory"
-	.string "training hard too!$"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}好，我想就这些了，\n"
 # 314 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "回头见，{PLAYER}！\l"
 # 315 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "恭喜你打赢亚莎，\l"
 # 316 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
+	.string "可别松懈，因为\l"
 # 317 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Hey {PLAYER}! Glad I caught you here.\p"
+	.string "小光和我都在拼命\l"
 # 318 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I arrived from Petalburg a little while\n"
+	.string "训练！$"
 # 319 "data/maps/LavaridgeTown/scripts.pory"
-	.string "ago to see if you'd beaten Flannery\l"
+
 # 320 "data/maps/LavaridgeTown/scripts.pory"
-	.string "yet, and look at that, great timing!\p"
+
 # 321 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I just met your Dad at the Petalburg\n"
+LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 # 322 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Gym, and he told me that if I bumped\l"
+	.string "嘿，{PLAYER}！真高兴\n"
 # 323 "data/maps/LavaridgeTown/scripts.pory"
-	.string "into you, I should give you these.$"
+	.string "在这儿碰上你。\p"
 # 324 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "我前不久从橙华过来，\n"
 # 325 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
+	.string "想看看你有没有\l"
 # 326 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Those Go-Goggles will let you get\n"
+	.string "打赢亚莎，结果刚好\l"
 # 327 "data/maps/LavaridgeTown/scripts.pory"
-	.string "through the desert in Route 111.\p"
+	.string "赶上，太巧了！\p"
 # 328 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I threw in some Safety Goggles as well,\n"
+	.string "我刚在橙华道馆遇到你\n"
 # 329 "data/maps/LavaridgeTown/scripts.pory"
-	.string "can never have too many goggles,\l"
+	.string "爸爸，他说要是我\l"
 # 330 "data/maps/LavaridgeTown/scripts.pory"
-	.string "you know?\p"
+	.string "碰见你，就把这些\l"
 # 331 "data/maps/LavaridgeTown/scripts.pory"
-	.string "When I spoke to your Dad, he said to\n"
+	.string "交给你。$"
 # 332 "data/maps/LavaridgeTown/scripts.pory"
-	.string "give you that Mega Ring so it would be a\l"
+
 # 333 "data/maps/LavaridgeTown/scripts.pory"
-	.string "fair fight when you decided to\l"
+LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 # 334 "data/maps/LavaridgeTown/scripts.pory"
-	.string "challenge him.\p"
+	.string "这副护目镜能让你\n"
 # 335 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Oh, and one last thing.\p"
+	.string "穿过111号道路的沙漠。\p"
 # 336 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I spoke with Wally's dad, and he told me\n"
+	.string "我还附了些安全护目镜，\n"
 # 337 "data/maps/LavaridgeTown/scripts.pory"
-	.string "he was going to give you the {COLOR GREEN}{SHADOW LIGHT_GREEN}HM03 Surf,\l"
+	.string "护目镜这种东西\l"
 # 338 "data/maps/LavaridgeTown/scripts.pory"
-	.string "but he accidentally dropped it out in\l"
+	.string "多多益善嘛。\p"
 # 339 "data/maps/LavaridgeTown/scripts.pory"
-	.string "the desert somewhere.\p"
+	.string "我跟你说的时候，你爸爸\n"
 # 340 "data/maps/LavaridgeTown/scripts.pory"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Okay, I think that's everything, I'll see\n"
+	.string "说要给你那个超级环，\l"
 # 341 "data/maps/LavaridgeTown/scripts.pory"
-	.string "you around, {PLAYER}! Congrats on\l"
+	.string "这样你挑战他时\l"
 # 342 "data/maps/LavaridgeTown/scripts.pory"
-	.string "beating Flannery, but don't get too\l"
+	.string "才算公平。\p"
 # 343 "data/maps/LavaridgeTown/scripts.pory"
-	.string "comfortable because Dawn and I are\l"
+	.string "哦，还有最后一件事。\p"
 # 344 "data/maps/LavaridgeTown/scripts.pory"
-	.string "training hard too!$"
+	.string "我跟小胜的爸爸聊过，\n"
 # 345 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "他说本来要给你\l"
 # 346 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_HotSpringsNeverRunDry:
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}秘传学习器03冲浪，\l"
 # 347 "data/maps/LavaridgeTown/scripts.pory"
-	.string "We draw as much hot water as we need,\n"
+	.string "结果不小心把它掉在\l"
 # 348 "data/maps/LavaridgeTown/scripts.pory"
-	.string "and yet the hot springs never run dry.\p"
+	.string "沙漠里了。\p"
 # 349 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Isn't it magical?\p"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}好，我想就这些了，\n"
 # 350 "data/maps/LavaridgeTown/scripts.pory"
-	.string "These hot springs appear near active\n"
+	.string "回头见，{PLAYER}！\l"
 # 351 "data/maps/LavaridgeTown/scripts.pory"
-	.string "volcanoes. Veins of water under the\l"
+	.string "恭喜你打赢亚莎，\l"
 # 352 "data/maps/LavaridgeTown/scripts.pory"
-	.string "ground are heated by magma to well up\l"
+	.string "可别松懈，因为\l"
 # 353 "data/maps/LavaridgeTown/scripts.pory"
-	.string "as hot springs.$"
+	.string "小光和我都在拼命\l"
 # 354 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "训练！$"
 # 355 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_PokemonNippedBackside:
+
 # 356 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Being buried in this hot sand is…\n"
+LavaridgeTown_Text_HotSpringsNeverRunDry:
 # 357 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Sigh…\p"
+	.string "我们想要多少热水\n"
 # 358 "data/maps/LavaridgeTown/scripts.pory"
-	.string "So warm and heavenly…\p"
+	.string "就取多少，\l"
 # 359 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Eh? Gyaah! Ouch!\p"
+	.string "可温泉从来不会枯竭。\p"
 # 360 "data/maps/LavaridgeTown/scripts.pory"
-	.string "A Pokémon nipped my backside!$"
+	.string "很神奇吧？\p"
 # 361 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "这些温泉出现在活火山\n"
 # 362 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_OhYouLikeHotSprings:
+	.string "附近。地下的水脉\l"
 # 363 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Oh, you like hot springs, do you?\p"
+	.string "被岩浆加热，涌上来\l"
 # 364 "data/maps/LavaridgeTown/scripts.pory"
-	.string "That's surprising for one as young\n"
+	.string "就成了温泉。$"
 # 365 "data/maps/LavaridgeTown/scripts.pory"
-	.string "as you.$"
+
 # 366 "data/maps/LavaridgeTown/scripts.pory"
-
+LavaridgeTown_Text_PokemonNippedBackside:
 # 367 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_BatheInHotSpringsEveryDay:
+	.string "被这热沙子埋着……\n"
 # 368 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I bathe in the hot springs every day.\p"
+	.string "唉……\p"
 # 369 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I want to become a beautiful and strong\n"
+	.string "又暖和又舒服……\p"
 # 370 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Gym Leader like Flannery.$"
+	.string "咦？哇啊！好痛！\p"
 # 371 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "有宝可梦咬了我的\n"
 # 372 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_IfPokemonInHotSprings:
+	.string "屁股！$"
 # 373 "data/maps/LavaridgeTown/scripts.pory"
-	.string "If people put Pokémon in hot springs,\n"
-# 374 "data/maps/LavaridgeTown/scripts.pory"
-	.string "it might be seriously strange.\p"
-# 375 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Why, it might be an electric bath, or\n"
-# 376 "data/maps/LavaridgeTown/scripts.pory"
-	.string "a bubble bath, or even a lava bath…$"
-# 377 "data/maps/LavaridgeTown/scripts.pory"
 
+# 374 "data/maps/LavaridgeTown/scripts.pory"
+LavaridgeTown_Text_OhYouLikeHotSprings:
+# 375 "data/maps/LavaridgeTown/scripts.pory"
+	.string "哦，你喜欢温泉啊？\p"
+# 376 "data/maps/LavaridgeTown/scripts.pory"
+	.string "像你这么年轻，\n"
+# 377 "data/maps/LavaridgeTown/scripts.pory"
+	.string "还真少见。$"
 # 378 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_HotSpringsClaims:
+
 # 379 "data/maps/LavaridgeTown/scripts.pory"
-	.string "They're claiming that these hot springs\n"
+LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 # 380 "data/maps/LavaridgeTown/scripts.pory"
-	.string "are good for calming nervous tension,\l"
+	.string "我每天都泡温泉。\p"
 # 381 "data/maps/LavaridgeTown/scripts.pory"
-	.string "relieving aching muscles, solving\l"
+	.string "我想成为像亚莎那样\n"
 # 382 "data/maps/LavaridgeTown/scripts.pory"
-	.string "romantic problems, and attracting\l"
+	.string "又美丽又强大的\l"
 # 383 "data/maps/LavaridgeTown/scripts.pory"
-	.string "money…$"
+	.string "道馆馆主。$"
 # 384 "data/maps/LavaridgeTown/scripts.pory"
 
 # 385 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_TownSign:
+LavaridgeTown_Text_IfPokemonInHotSprings:
 # 386 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Lavaridge Town\p"
+	.string "要是人们把宝可梦\n"
 # 387 "data/maps/LavaridgeTown/scripts.pory"
-	.string "“Pokémon Center Hot Springs\n"
+	.string "放进温泉里，那可真是\l"
 # 388 "data/maps/LavaridgeTown/scripts.pory"
-	.string "An excellent place for relaxing!”$"
+	.string "相当奇怪的事。\p"
 # 389 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "说不定会变成电浴、\n"
 # 390 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_GymSign:
+	.string "泡泡浴，甚至是\l"
 # 391 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Lavaridge Town Pokémon Gym\n"
+	.string "熔岩浴……$"
 # 392 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Leader: Flannery\l"
+
 # 393 "data/maps/LavaridgeTown/scripts.pory"
-	.string "“One with a fiery passion that burns!”$"
+LavaridgeTown_Text_HotSpringsClaims:
 # 394 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "他们宣称这些温泉能\n"
 # 395 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_HerbShopSign:
+	.string "缓解神经紧张、\l"
 # 396 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Pokémon Herb Shop\n"
+	.string "消除肌肉酸痛、解决\l"
 # 397 "data/maps/LavaridgeTown/scripts.pory"
-	.string "“Bitter taste--better cure!”$"
+	.string "感情烦恼，还能\l"
 # 398 "data/maps/LavaridgeTown/scripts.pory"
-
+	.string "招财……$"
 # 399 "data/maps/LavaridgeTown/scripts.pory"
-LavaridgeTown_Text_Sandygast:
+
 # 400 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Sandygast: Sssssssss!$"
+LavaridgeTown_Text_TownSign:
+# 401 "data/maps/LavaridgeTown/scripts.pory"
+	.string "釜炎镇\p"
+# 402 "data/maps/LavaridgeTown/scripts.pory"
+	.string "“宝可梦中心温泉——\n"
+# 403 "data/maps/LavaridgeTown/scripts.pory"
+	.string "放松身心的好地方！”$"
+# 404 "data/maps/LavaridgeTown/scripts.pory"
+
+# 405 "data/maps/LavaridgeTown/scripts.pory"
+LavaridgeTown_Text_GymSign:
+# 406 "data/maps/LavaridgeTown/scripts.pory"
+	.string "釜炎镇宝可梦道馆\n"
+# 407 "data/maps/LavaridgeTown/scripts.pory"
+	.string "馆主：亚莎\l"
+# 408 "data/maps/LavaridgeTown/scripts.pory"
+	.string "“燃烧的炽热之心！”$"
+# 409 "data/maps/LavaridgeTown/scripts.pory"
+
+# 410 "data/maps/LavaridgeTown/scripts.pory"
+LavaridgeTown_Text_HerbShopSign:
+# 411 "data/maps/LavaridgeTown/scripts.pory"
+	.string "宝可梦药草店\n"
+# 412 "data/maps/LavaridgeTown/scripts.pory"
+	.string "“味道越苦，药效越好！”$"
+# 413 "data/maps/LavaridgeTown/scripts.pory"
+
+# 414 "data/maps/LavaridgeTown/scripts.pory"
+LavaridgeTown_Text_Sandygast:
+# 415 "data/maps/LavaridgeTown/scripts.pory"
+	.string "沙丘娃：沙啊啊啊啊！$"
 
 LavaridgeTown_EventScript_EggWoman::
-# 404 "data/maps/LavaridgeTown/scripts.pory"
+# 419 "data/maps/LavaridgeTown/scripts.pory"
 	lock
-# 405 "data/maps/LavaridgeTown/scripts.pory"
+# 420 "data/maps/LavaridgeTown/scripts.pory"
 	faceplayer
-# 406 "data/maps/LavaridgeTown/scripts.pory"
+# 421 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_EggWomanIntro, MSGBOX_YESNO
-# 408 "data/maps/LavaridgeTown/scripts.pory"
+# 423 "data/maps/LavaridgeTown/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq LavaridgeTown_EventScript_EggWoman_2
 LavaridgeTown_EventScript_EggWoman_1:
-# 413 "data/maps/LavaridgeTown/scripts.pory"
+# 428 "data/maps/LavaridgeTown/scripts.pory"
 	checkitem ITEM_YELLOW_SHARD
-# 414 "data/maps/LavaridgeTown/scripts.pory"
+# 429 "data/maps/LavaridgeTown/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, LavaridgeTown_EventScript_ComeBackWithYellowShard
-# 415 "data/maps/LavaridgeTown/scripts.pory"
+# 430 "data/maps/LavaridgeTown/scripts.pory"
 	getpartysize
-# 416 "data/maps/LavaridgeTown/scripts.pory"
+# 431 "data/maps/LavaridgeTown/scripts.pory"
 	goto_if_eq VAR_RESULT, PARTY_SIZE, LavaridgeTown_EventScript_NoRoomForEgg
-# 417 "data/maps/LavaridgeTown/scripts.pory"
+# 432 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
-# 418 "data/maps/LavaridgeTown/scripts.pory"
+# 433 "data/maps/LavaridgeTown/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 419 "data/maps/LavaridgeTown/scripts.pory"
+# 434 "data/maps/LavaridgeTown/scripts.pory"
 	message LavaridgeTown_Text_ReceivedTheEgg
-# 420 "data/maps/LavaridgeTown/scripts.pory"
+# 435 "data/maps/LavaridgeTown/scripts.pory"
 	waitfanfare
-# 421 "data/maps/LavaridgeTown/scripts.pory"
+# 436 "data/maps/LavaridgeTown/scripts.pory"
 	giveegg SPECIES_KLAWF
-# 422 "data/maps/LavaridgeTown/scripts.pory"
+# 437 "data/maps/LavaridgeTown/scripts.pory"
 	removeitem ITEM_YELLOW_SHARD
-# 423 "data/maps/LavaridgeTown/scripts.pory"
+# 438 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_ComeBackWithMore, MSGBOX_DEFAULT
-# 424 "data/maps/LavaridgeTown/scripts.pory"
+# 439 "data/maps/LavaridgeTown/scripts.pory"
 	release
 	end
 
 LavaridgeTown_EventScript_EggWoman_2:
-# 410 "data/maps/LavaridgeTown/scripts.pory"
+# 425 "data/maps/LavaridgeTown/scripts.pory"
 	goto LavaridgeTown_EventScript_EggWomanManNo
 	goto LavaridgeTown_EventScript_EggWoman_1
 
 
 LavaridgeTown_EventScript_EggWomanManNo::
-# 430 "data/maps/LavaridgeTown/scripts.pory"
+# 445 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_EggWomanDeclined, MSGBOX_DEFAULT
-# 431 "data/maps/LavaridgeTown/scripts.pory"
+# 446 "data/maps/LavaridgeTown/scripts.pory"
 	release
 	end
 
 
 LavaridgeTown_EventScript_ComeBackWithYellowShard::
-# 436 "data/maps/LavaridgeTown/scripts.pory"
+# 451 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_Text_ComeBackWithYellowShard, MSGBOX_DEFAULT
-# 437 "data/maps/LavaridgeTown/scripts.pory"
+# 452 "data/maps/LavaridgeTown/scripts.pory"
 	release
 	end
 
 
 LavaridgeTown_EventScript_NoRoomForEgg::
-# 442 "data/maps/LavaridgeTown/scripts.pory"
+# 457 "data/maps/LavaridgeTown/scripts.pory"
 	msgbox LavaridgeTown_Text_NoRoomForThisEgg, MSGBOX_DEFAULT
-# 443 "data/maps/LavaridgeTown/scripts.pory"
+# 458 "data/maps/LavaridgeTown/scripts.pory"
 	release
 	end
 
 
 LavaridgeTown_EggWomanIntro::
-# 447 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Hello, trainer. I have several large\n"
-	.string "Eggs here with me.\p"
-	.string "I am currently seeking Yellow Shards,\n"
-	.string "would you be willing to exchange a\l"
-	.string "Yellow Shard in exchange for one of\l"
-	.string "these Eggs?$"
+# 462 "data/maps/LavaridgeTown/scripts.pory"
+	.string "你好，训练家。我手上有几颗\n"
+	.string "很大的蛋。\p"
+	.string "我现在正需要黄色碎片，\n"
+	.string "你愿意用一枚黄色碎片\l"
+	.string "来换其中\l"
+	.string "一颗蛋吗？$"
 
 LavaridgeTown_EggWomanDeclined::
-# 456 "data/maps/LavaridgeTown/scripts.pory"
-	.string "I see. Please come back if you change\n"
-	.string "your mind.$"
+# 471 "data/maps/LavaridgeTown/scripts.pory"
+	.string "我明白了。若你改变主意，\n"
+	.string "请再来。$"
 
 LavaridgeTown_Text_ComeBackWithYellowShard::
-# 462 "data/maps/LavaridgeTown/scripts.pory"
-	.string "It doesn't look like you have a\n"
-	.string "Yellow Shard. Come back when you do.$"
+# 477 "data/maps/LavaridgeTown/scripts.pory"
+	.string "看来你没有\n"
+	.string "黄色碎片。有了再来吧。$"
 
 LavaridgeTown_Text_NoRoomForThisEgg::
-# 467 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Oh? You've too many Pokémon.\n"
-	.string "There's no room for this Egg…$"
+# 482 "data/maps/LavaridgeTown/scripts.pory"
+	.string "哦？你的宝可梦太多了。\n"
+	.string "没地方放这颗蛋……$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg::
-# 472 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Good! I hope you'll walk plenty with\n"
-	.string "this here Egg!$"
+# 487 "data/maps/LavaridgeTown/scripts.pory"
+	.string "好！希望你能带着\n"
+	.string "这颗蛋多走走！$"
 
 LavaridgeTown_Text_ReceivedTheEgg::
-# 477 "data/maps/LavaridgeTown/scripts.pory"
-	.string "{PLAYER} received the Egg.$"
+# 492 "data/maps/LavaridgeTown/scripts.pory"
+	.string "{PLAYER}收到了蛋。$"
 
 LavaridgeTown_ComeBackWithMore::
-# 481 "data/maps/LavaridgeTown/scripts.pory"
-	.string "Please come back if you have more\n"
-	.string "Yellow Shards you'd like to exchange.$"
+# 496 "data/maps/LavaridgeTown/scripts.pory"
+	.string "若还有更多想交换的\n"
+	.string "黄色碎片，请再来。$"

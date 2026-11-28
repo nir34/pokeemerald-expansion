@@ -51,46 +51,46 @@ FortreeCity_House2_EventScript_FormerSleepTalkTutor::
 	end
 
 FortreeCity_House2_Text_FormerSleepTalkTutor:
-	.string "I used to be able to talk in my sleep…\n"
-	.string "Oh, what happened?$"
+	.string "我以前能在梦里\n"
+	.string "说话……唉，怎么没了？$"
 
 FortreeCity_House2_Text_StoredPowersArousedByNature:
-	.string "People… Pokémon…\p"
-	.string "Their stored powers are aroused by\n"
-	.string "living in natural environments…$"
+	.string "人……宝可梦……\p"
+	.string "它们潜在的力量，会在\n"
+	.string "自然环境里被唤醒……$"
 
 FortreeCity_House2_Text_CoinInWhichHand:
-	.string "Let this old woman see if your stored\n"
-	.string "power has awoken…\p"
-	.string "I hold a coin in my hand.\p"
-	.string "Now, tell me, have I palmed it in\n"
-	.string "the right hand? Or in the left?$"
+	.string "让老太婆看看，你的\n"
+	.string "潜在力量有没有觉醒……\p"
+	.string "我手里握着一枚硬币。\p"
+	.string "说吧，我把它藏在了\n"
+	.string "右手？还是左手？$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "哦！对，没错！\p"
+	.string "我们再试一次。\p"
+	.string "我把硬币藏在了哪只手？\n"
+	.string "右还是左？$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "哦！对，没错！\p"
+	.string "我们再试一次。\p"
+	.string "我把硬币藏在了哪只手？\n"
+	.string "右还是左？$"
 
 FortreeCity_House2_Text_YourStoredPowerHasAwoken:
-	.string "Oh! Splendid!\n"
-	.string "Your stored power has awoken!\p"
-	.string "Here, take this and awaken the stored\n"
-	.string "power of your Pokémon.$"
+	.string "哦！太好了！\n"
+	.string "你的潜在力量觉醒了！\p"
+	.string "来，拿着这个，唤醒你\n"
+	.string "宝可梦的潜在力量。$"
 
 FortreeCity_House2_Text_ExplainStoredPower:
-	.string "Stored Power is a move that does\n"
-	.string "more damage based on the stat\l"
-	.string "raises your Pokémon has.$"
+	.string "辅助力量这个招式，\n"
+	.string "会随你宝可梦能力\l"
+	.string "提升的次数提高威力。$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
-	.string "No, too bad.\n"
-	.string "You guessed wrong.$"
+	.string "不，太可惜了。\n"
+	.string "你猜错了。$"
 
 `

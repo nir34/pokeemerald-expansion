@@ -111,108 +111,108 @@ SootopolisCity_House2_EventScript_ArceusExpertNo::
 
 SootopolisCity_House2_EventScript_ExpertF_Text_0:
 # 28 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Fighting$"
+	.string "格斗$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_1:
 # 29 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Flying$"
+	.string "飞行$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_2:
 # 30 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Poison$"
+	.string "毒$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_3:
 # 31 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Ground$"
+	.string "地面$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_4:
 # 32 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Rock$"
+	.string "岩石$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_5:
 # 33 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Bug$"
+	.string "虫$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_6:
 # 34 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Ghost$"
+	.string "幽灵$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_7:
 # 35 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Steel$"
+	.string "钢$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_8:
 # 36 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Fire$"
+	.string "火$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_9:
 # 37 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Water$"
+	.string "水$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_10:
 # 38 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Grass$"
+	.string "草$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_11:
 # 39 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Electric$"
+	.string "电$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_12:
 # 40 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Psychic$"
+	.string "超能力$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_13:
 # 41 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Ice$"
+	.string "冰$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_14:
 # 42 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Dragon$"
+	.string "龙$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_15:
 # 43 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Dark$"
+	.string "恶$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_16:
 # 44 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Fairy$"
+	.string "妖精$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_17:
 # 45 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Cancel$"
+	.string "取消$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_18:
 # 57 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Good choice, let us exchange Plates.$"
+	.string "好选择，我们交换石板吧。$"
 
 SootopolisCity_House2_EventScript_ExpertF_Text_19:
 # 59 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Come back if you want to trade\nPlates again.$"
+	.string "想再交换石板\n就再来吧。$"
 
 SootopolisCity_House2_EventScript_ArceusExpertNo_Text_0:
 # 66 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "I see, come back if you change\nyour mind.$"
+	.string "我明白了，改主意\n再来吧。$"
 
 SootopolisCity_House2_ArceusExpertIntro::
 # 71 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Hello, young trainer. I can tell from the\n"
-	.string "look on your face that you have what it\l"
-	.string "takes to use this Item correctly; I've\l"
-	.string "been waiting for someone like you.$"
+	.string "你好，年轻的训练家。从你的\n"
+	.string "表情我就看得出，你有能力\l"
+	.string "正确使用这件道具；我一直在\l"
+	.string "等像你这样的人。$"
 
 SootopolisCity_House2_SeeGoodPlate::
 # 78 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "I've spent years collecting these\n"
-	.string "Plates, come back if you want to swap\l"
-	.string "for a new type of Plate.$"
+	.string "我花了好几年收集这些\n"
+	.string "石板，想换一块别的\l"
+	.string "属性的石板就再来。$"
 
 ArceusExpertSwapPlate::
 # 84 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Welcome back, young trainer. I see you \n"
-	.string "want to trade Plates.\p"
-	.string "Which Plate do you want?$"
+	.string "欢迎回来，年轻的训练家。看来\n"
+	.string "你想交换石板。\p"
+	.string "你想要哪块石板？$"
 
 SootopolisCity_House2_Text_NoPlates::
 # 90 "data/maps/SootopolisCity_House2/scripts.pory"
-	.string "Ah, I see you don't have one of the\n"
-	.string "Plates with you. Come back when you do.$"
+	.string "啊，看来你身上\n"
+	.string "没有石板。有了再来吧。$"

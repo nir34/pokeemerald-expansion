@@ -449,135 +449,138 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-	.string "Excellent…\n"
-	.string "Let me restore your Pokémon.$"
+	.string "很好……\n"
+	.string "让我为你的宝可梦回复。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
-	.string "The 2nd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第2位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent:
-	.string "The 3rd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第3位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent:
-	.string "The 4th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第4位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent:
-	.string "The 5th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第5位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent:
-	.string "The 6th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第6位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
-	.string "The 7th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "接下来是第7位对手。\n"
+	.string "准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "你想保存并退出\n"
+	.string "游戏吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
-	.string "Do you wish to quit your challenge?$"
+	.string "你想退出挑战吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-	.string "Saving the data.\n"
-	.string "Have patience…$"
+	.string "正在保存数据。\n"
+	.string "请耐心等待……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
-	.string "Do you wish to record your latest\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "你想把最近一场比赛记到\n"
+	.string "开拓区通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-	.string "And now…\p"
-	.string "By winning consistently, you have\n"
-	.string "earned the privilege of challenging\l"
-	.string "our master, the PALACE MAVEN…$"
+	.string "现在……\p"
+	.string "因为你一直赢，你已经\n"
+	.string "赢得挑战我们主人——\l"
+	.string "宫殿大君的资格……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
-	.string "I shall send for the PALACE MAVEN.\n"
-	.string "Are you ready?$"
+	.string "我去请宫殿大君。\n"
+	.string "你准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
-	.string "Let great fanfare announce the arrival\n"
-	.string "of the PALACE MAVEN, SPENSER!$"
+	.string "让我们隆重宣布\n"
+	.string "宫殿大君斯宾塞登场！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
-	.string "SPENSER: My physical being is with\n"
-	.string "Pokémon always!\p"
-	.string "My heart beats as one with\n"
-	.string "Pokémon always!\p"
-	.string "Young one of a TRAINER!\n"
-	.string "Do you believe in your Pokémon?\p"
-	.string "Can you believe them through\n"
-	.string "and through?\p"
-	.string "If your bonds of trust are frail,\n"
-	.string "you will never beat my brethren!$"
+	.string "斯宾塞：我的身体永远\n"
+	.string "和宝可梦同在！\p"
+	.string "我的心永远和宝可梦\n"
+	.string "一起跳动！\p"
+	.string "年轻的训练家！\n"
+	.string "你相信你的宝可梦吗？\p"
+	.string "你能彻底相信\n"
+	.string "它们吗？\p"
+	.string "要是你的信任脆弱，\n"
+	.string "你永远打不赢我的同伴！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
-	.string "The bond you share with your Pokémon!\n"
-	.string "Prove it to me here!$"
+	.string "你和宝可梦之间的羁绊！\n"
+	.string "就在这儿向我证明！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Hah, you never fell for my bluster!\n"
-	.string "Sorry for trying that stunt!\p"
-	.string "Here!\n"
-	.string "Bring me the thing!$"
+	.string "斯宾塞：哇哈哈！\p"
+	.string "哈，你根本没被我的\n"
+	.string "虚张声势骗到！\l"
+	.string "抱歉我耍了那么一手！\p"
+	.string "来！\n"
+	.string "把那东西拿来！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-	.string "My, my, if only you could maintain that\n"
-	.string "facade of distinguished authority…\p"
-	.string "Here!\n"
-	.string "Let's see your FRONTIER PASS!$"
+	.string "哎呀呀，要是你能一直\n"
+	.string "保持那种威严就好了……\p"
+	.string "来！\n"
+	.string "让我看看你的开拓区通行证！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
-	.string "The Spirits Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "精神象征被印在了\n"
+	.string "开拓区通行证上！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
-	.string "SPENSER: Your Pokémon's eyes are \n"
-	.string "truly clear and unclouded.\p"
-	.string "I will eagerly await the next\n"
-	.string "opportunity to see you.$"
+	.string "斯宾塞：你宝可梦的眼睛\n"
+	.string "真是清澈无云。\p"
+	.string "我会热切期待下次\n"
+	.string "再见到你。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
-	.string "SPENSER: Gwahahah!\n"
-	.string "You've battled your way up again?\p"
-	.string "You must have developed a truly\n"
-	.string "formidable bond with your Pokémon.\p"
-	.string "So be it!\p"
-	.string "This time, I won't bluster or hold back.\n"
-	.string "This time, there's no fooling around.\p"
-	.string "Ready now?\n"
-	.string "Prepare to lose!$"
+	.string "斯宾塞：哇哈哈！\n"
+	.string "你又一路打上来了？\p"
+	.string "你一定和宝可梦建立了\n"
+	.string "真正强大的羁绊。\p"
+	.string "那就来吧！\p"
+	.string "这次我不虚张声势，\n"
+	.string "也不留手。这次不闹了。\p"
+	.string "准备好了吗？\n"
+	.string "准备输吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
-	.string "… … …Kaaah!$"
+	.string "… … …咔啊！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
-	.string "SPENSER: Well, that was some display!\n"
-	.string "Even fully unleashed, my brethren\l"
-	.string "could not overpower you.\p"
-	.string "Your team spirit is truly admirable!\p"
-	.string "Here!\n"
-	.string "Bring me that thing, will you?$"
+	.string "斯宾塞：哎呀，那真是\n"
+	.string "一场好戏！\p"
+	.string "就算全部放开，我的同伴\n"
+	.string "也没能压过你。\p"
+	.string "你的团队精神真令人\n"
+	.string "钦佩！\p"
+	.string "来！\n"
+	.string "把那东西拿来，好吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-	.string "My, my, if only you could maintain\n"
-	.string "a certain level of decorum…\p"
-	.string "Gaaah, here!\n"
-	.string "Hurry with that FRONTIER PASS, you!$"
+	.string "哎呀呀，要是你能保持\n"
+	.string "一定的礼数就好了……\p"
+	.string "嘎啊，来！\n"
+	.string "快把那开拓区通行证拿来！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
-	.string "The Spirits Symbol took on\n"
-	.string "a golden shine!$"
+	.string "精神象征泛起了\n"
+	.string "金色的光芒！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Come see me time and again!\n"
-	.string "My brethren and I will be waiting!$"
+	.string "斯宾塞：哇哈哈！\p"
+	.string "一次又一次来找我吧！\n"
+	.string "我和我的同伴会等着！$"
 `

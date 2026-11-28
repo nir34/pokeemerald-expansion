@@ -138,9 +138,10 @@ SealedChamber_InnerRoom_EventScript_BrailleStoryPart6::
 	end
 
 SealedChamber_InnerRoom_Text_NotStrongEnoughYet:
-	.string "You sense you are not strong enough to\n"
-	.string "take on this Pokémon yet.\p"
-	.string "And you also shouldn't be here you\n"
-	.string "little DexNav-abusing cheater.$"
+	.string "你感觉到自己还不够强，\n"
+	.string "还对付不了这只宝可梦。\p"
+	.string "而且你这种滥用导航的\n"
+	.string "小作弊者也不该\l"
+	.string "来这儿。$"
 
 `

@@ -400,118 +400,118 @@ Route116_EventScript_Johnson::
 	end
 
 Route116_Text_ScoundrelMadeOffWithPeeko:
-	.string "Ohhh, what am I to do?\p"
-	.string "We were on our walk, Peeko and I, when\n"
-	.string "we were jumped by an odd thug…\p"
-	.string "The scoundrel made off with my\n"
-	.string "darling Peeko!\p"
-	.string "Wrrrooooooaaaar! Peeko!$"
+	.string "哦哦，我该怎么办啊？\p"
+	.string "我和皮皮正在散步，\n"
+	.string "突然被一个奇怪的\l"
+	.string "混混缠上了……\p"
+	.string "那混蛋把我心爱的\n"
+	.string "皮皮抢走了！\p"
+	.string "呜哇啊啊！皮皮！$"
 
 Route116_Text_WantToDigTunnel:
-	.string "Nnn… Roar!\p"
-	.string "I want to dig that tunnel!$"
+	.string "嗯……吼！\p"
+	.string "我想挖那个隧道！$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "Nnn… Roar!\n"
-	.string "What's going on?\p"
-	.string "I was digging the tunnel without any\n"
-	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with Pokémon\n"
-	.string "that react badly to loud noises.\l"
-	.string "They could cause an uproar.\p"
-	.string "That's why we stopped using heavy\n"
-	.string "equipment for tunneling…\p"
-	.string "I'm worried that the goon will do\n"
-	.string "something stupid and startle the\l"
-	.string "Pokémon into an uproar.$"
+	.string "嗯……吼！\n"
+	.string "这是怎么了？\p"
+	.string "我正徒手挖着隧道，\n"
+	.string "就有个混混把我赶了出来！\p"
+	.string "那个隧道里住着很多\n"
+	.string "怕大声响的宝可梦，\l"
+	.string "弄不好会闹起来。\p"
+	.string "所以挖隧道时就不再用\n"
+	.string "重型机械了……\p"
+	.string "我怕那混混干出什么蠢事，\n"
+	.string "把宝可梦惊得闹起来。$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
-	.string "Nnn… Roar!\p"
-	.string "That goofy goon hightailed it out of\n"
-	.string "the tunnel! I can go back to digging!$"
+	.string "嗯……吼！\p"
+	.string "那个傻混混从隧道里\n"
+	.string "跑掉了！我又能挖了！$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
-	.string "Oh! It's you!\p"
-	.string "You're that person who not only helped\n"
-	.string "me in PETALBURG WOODS, but also got\l"
-	.string "back my stolen package and then even\l"
-	.string "graciously delivered it to SLATEPORT!\p"
-	.string "CAPT. STERN informed us that the\n"
-	.string "package arrived, too!\p"
-	.string "I thank you very, very much!\p"
-	.string "Why, if I were a rain cloud, I would\n"
-	.string "shower you with gratitude and hail\l"
-	.string "you as a hero!\p"
-	.string "For you, the most wonderful TRAINER,\n"
-	.string "I bear good news!\p"
-	.string "Recently, our company developed\n"
-	.string "a new kind of POKé BALL.\p"
-	.string "As a token of our appreciation, this\n"
-	.string "is our gift to our wonderful TRAINER!$"
+	.string "哦！是你！\p"
+	.string "你就是那位在橙华森林\n"
+	.string "帮了我，又帮我拿回被抢的\l"
+	.string "包裹，还把它送到凯那市的\l"
+	.string "那个人吧！\p"
+	.string "斯图船长也通知我们\n"
+	.string "包裹送到了！\p"
+	.string "真是太感谢你了！\p"
+	.string "如果我是雨云，一定会\n"
+	.string "把感谢全下给你，\l"
+	.string "把你当成英雄来赞美！\p"
+	.string "对你这最棒的训练家，\n"
+	.string "我有个好消息！\p"
+	.string "最近我们公司开发了\n"
+	.string "一种新的精灵球。\p"
+	.string "作为一点心意，\n"
+	.string "这是我们送给最棒的\l"
+	.string "训练家的礼物！$"
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Our new POKé BALL will be available\n"
-	.string "at the Pokémon MART in RUSTBORO.\p"
-	.string "Please do try it out!\n"
-	.string "Thank you and bye-bye!$"
+	.string "我们的新精灵球将在\n"
+	.string "卡那兹市的宝可梦商店发售。\p"
+	.string "请一定要试试！\n"
+	.string "谢谢，再见！$"
 
 Route116_Text_BagIsJamPacked:
-	.string "Your BAG is jam-packed.\n"
-	.string "I can't give you this REPEAT BALL.$"
+	.string "你的背包已经塞满了。\n"
+	.string "这个重复球没法给你。$"
 
 Route116_Text_TokenOfAppreciation:
-	.string "As a token of our appreciation for\n"
-	.string "your delivering our package, I have\l"
-	.string "a gift of a new kind of POKé BALL\l"
-	.string "for our most wonderful TRAINER!$"
+	.string "为了感谢你送来了包裹，\n"
+	.string "我准备了一种新精灵球，\l"
+	.string "送给最棒的你这位训练家！$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
-	.string "I dropped my glasses…\n"
-	.string "Can you help me find them?$"
+	.string "我的眼镜掉了……\n"
+	.string "你能帮我找找吗？$"
 
 Route116_Text_MayISeeThoseGlasses:
-	.string "Those glasses!\n"
-	.string "May I see them for a second?$"
+	.string "那副眼镜！\n"
+	.string "能让我看一下吗？$"
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…\p"
-	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
+	.string "嗯……\n"
+	.string "这是黑色眼镜。\l"
+	.string "不是我要找的东西……\p"
+	.string "也许我的眼镜\n"
+	.string "不在这附近……$"
 
 Route116_Text_CantFindGlassesNotHere:
-	.string "Hmm…\n"
-	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
+	.string "嗯……\n"
+	.string "哪里都找不到我的眼镜……\l"
+	.string "也许不在这附近……$"
 
 Route116_Text_NotWhatImLookingFor:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "嗯……\n"
+	.string "这是黑色眼镜。\l"
+	.string "不是我要找的东西……$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "116号道路\n"
+	.string "{LEFT_ARROW} 卡那兹市$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "碎石隧道\n"
+	.string "“连接卡那兹与绿荫\p"
+	.string "“隧道工程已经\n"
+	.string "取消了。”$"
 
 Route116_Text_TunnelersRestHouse:
-	.string "TUNNELER'S REST HOUSE$"
+	.string "隧道工人休息屋$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "Trainer Tips\p"
-	.string "Press the “L” button to open a very\n"
-	.string "useful 2nd menu if you haven't already.$"
+	.string "训练家入门\p"
+	.string "按“L”键就能打开一个\n"
+	.string "很好用的第二菜单。$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "Trainer Tips\p"
-	.string "You can reuse TMs as many times as\n"
-	.string "you want.$"
+	.string "训练家入门\p"
+	.string "学习器可以反复使用\n"
+	.string "任意多次。$"
 
 `
 
@@ -548,7 +548,7 @@ script Route116_EventScript_DeclineCandiceBattle {
 }
 
 script Route116_EventScript_BattleCandice{
-	msgbox("Let's do this!", MSGBOX_DEFAULT)
+	msgbox("来吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_CANDICE, Candice_Outro)
 	goto(Route116_EventScript_CandiceGiveRockTomb)
 	return
@@ -571,60 +571,60 @@ script Route116_EventScript_CandiceGiveRockTomb{
 }
 
 text Candice_ExplainRockTombAndMuscleBand{
-	"That Technical Machine, TM21,\n"
-	"contains Icy Wind.\p"
-	"It not only inflicts damage with a cold\n"
-	"breeze, it also lowers Speed.\p"
-	"I think you'll find it to be quite useful\n"
-	"against the first Gym Leader here!\p"
-	"If you use a TM, it instantly teaches\n"
-	"the move to a Pokémon.\p"
-	"Thanks to some great advances in\n"
-	"technology, now you can use a TM as\l"
-	"many times as you want!\p"
-	"And the Muscle Band will boost your\n"
-	"Attack if held!"
+	"这个招式学习器21号，\n"
+	"里面装着冰冻之风。\p"
+	"它不只以寒气造成伤害，\n"
+	"还会降低速度。\p"
+	"你对付这儿的第一个\n"
+	"道馆馆主时会用得上！\p"
+	"使用学习器，就能立刻\n"
+	"让宝可梦学会招式。\p"
+	"多亏了技术的\n"
+	"进步，现在学习器\l"
+	"想用多少次都行！\p"
+	"而力量头带能提高持有者的\n"
+	"攻击！"
 }
 
 text Candice_Greeting{
-	"Oh, hello. I'm Candice, the 7th Gym\n"
-	"Leader from the Sinnoh region.\p"
-	"I came to this Rustboro City to pay a\n"
-	"visit to the Trainer School and check\l"
-	"out the quality of education here in\l"
-	"the Hoenn region.\p"
-	"I am a teacher myself, you know!\p"
-	"You look like a trainer who has just\n"
-	"started out their journey, perhaps\l"
-	"you'd like to battle as a warmup for\l"
-	"your first Gym challenge?"
+	"哦，你好。我是小菘，神奥地区\n"
+	"的第七位道馆馆主。\p"
+	"我来卡那兹市，是想\n"
+	"参观训练家学校，看看\l"
+	"丰缘地区这里的\l"
+	"教育水准。\p"
+	"我自己也是老师哦！\p"
+	"你看起来像刚踏上旅程的\n"
+	"训练家，要不要先和我\l"
+	"打一场，当作第一次\l"
+	"道馆挑战的热身？"
 }
 
 text Candice_WillYouBattleMe{
-	"Don't worry, I brought a team of lower-\n"
-	"level Pokémon, just in case I bumped\l"
-	"into any promising new trainers, so you\l"
-	"won't have to face my full force!\p"
-	"What do you say we have a battle?"
+	"放心，我带的是等级较低的\n"
+	"队伍，以防遇到有前途的\l"
+	"新训练家，所以你不用\l"
+	"面对我的全部实力！\p"
+	"来打一场怎么样？"
 }
 	
 text Candice_Outro{
-	"Looks like the trainers here are\n"
-	"pretty strong! Please, take these\l"
-	"as rewards for beating me."
+	"看来这儿的训练家\n"
+	"都很强！请收下这些，\l"
+	"算打赢我的奖励。"
 }
 
 
 text PostBattle_Candice{
-	"It seems the quality of education here\n"
-	"in Hoenn is on par with ours in Sinnoh!"
+	"看来丰缘这里的教育\n"
+	"水准不比神奥差！"
 }
 
 text Ready_Yet{
-	"Ready for our battle now?"
+	"准备好对战了吗？"
 }
 
 text Come_Back_When_Ready{
-	"Come back when you're ready."
+	"准备好了再来。"
 }
 	

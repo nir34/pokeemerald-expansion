@@ -179,18 +179,20 @@ Route112_CableCarStation_Movement_ExitCableCar:
 # 90 "data/maps/Route112_CableCarStation/scripts.pory"
 Route112_CableCarStation_Text_CableCarReadyGetOn:
 # 91 "data/maps/Route112_CableCarStation/scripts.pory"
-	.string "The Cable Car is ready to go up.\n"
+	.string "缆车已经准备好上山了。\n"
 # 92 "data/maps/Route112_CableCarStation/scripts.pory"
-	.string "Would you like to be on it?$"
+	.string "你要乘坐吗？$"
 # 93 "data/maps/Route112_CableCarStation/scripts.pory"
 
 # 94 "data/maps/Route112_CableCarStation/scripts.pory"
 Route112_CableCarStation_Text_StepThisWay:
 # 95 "data/maps/Route112_CableCarStation/scripts.pory"
-	.string "Please step this way.$"
+	.string "请往这边走。$"
 # 96 "data/maps/Route112_CableCarStation/scripts.pory"
 
 # 97 "data/maps/Route112_CableCarStation/scripts.pory"
 Route112_CableCarStation_Text_RideAnotherTime:
 # 98 "data/maps/Route112_CableCarStation/scripts.pory"
-	.string "Please ride with us another time.$"
+	.string "下次请再乘坐\n"
+# 99 "data/maps/Route112_CableCarStation/scripts.pory"
+	.string "我们的缆车。$"

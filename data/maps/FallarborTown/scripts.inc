@@ -109,82 +109,86 @@ FallarborTown_EventScript_MoveTutorSign::
 # 55 "data/maps/FallarborTown/scripts.pory"
 FallarborTown_Text_ShadyCharactersCozmosHome:
 # 56 "data/maps/FallarborTown/scripts.pory"
-	.string "Something's happening,\n"
+	.string "出事了，我可不\n"
 # 57 "data/maps/FallarborTown/scripts.pory"
-	.string "and I don't like it!\p"
+	.string "喜欢这样！\p"
 # 58 "data/maps/FallarborTown/scripts.pory"
-	.string "I've seen shady characters wandering\n"
+	.string "我看见一些可疑的家伙\n"
 # 59 "data/maps/FallarborTown/scripts.pory"
-	.string "in and out of Prof. Cozmo's home…$"
+	.string "在科斯莫博士家\l"
 # 60 "data/maps/FallarborTown/scripts.pory"
-
+	.string "进进出出……$"
 # 61 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_RegionKnownForMeteors:
+
 # 62 "data/maps/FallarborTown/scripts.pory"
-	.string "This region's been known for meteors\n"
+FallarborTown_Text_RegionKnownForMeteors:
 # 63 "data/maps/FallarborTown/scripts.pory"
-	.string "since the olden days.\p"
+	.string "这个地方自古以来\n"
 # 64 "data/maps/FallarborTown/scripts.pory"
-	.string "They say Meteor Falls was gouged out\n"
+	.string "就以陨石闻名。\p"
 # 65 "data/maps/FallarborTown/scripts.pory"
-	.string "by a falling meteorite long ago.$"
+	.string "据说流星瀑布是很久\n"
 # 66 "data/maps/FallarborTown/scripts.pory"
-
+	.string "以前一颗落下的陨石\l"
 # 67 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_MyPreciousAzurill:
+	.string "砸出来的。$"
 # 68 "data/maps/FallarborTown/scripts.pory"
-	.string "See! Take a look!\n"
+
 # 69 "data/maps/FallarborTown/scripts.pory"
-	.string "This is my precious Azurill!\p"
+FallarborTown_Text_MyPreciousAzurill:
 # 70 "data/maps/FallarborTown/scripts.pory"
-	.string "It's slick and smooth and plushy, too!$"
+	.string "看！你看！\n"
 # 71 "data/maps/FallarborTown/scripts.pory"
-
+	.string "这是我最宝贝的露力丽！\p"
 # 72 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_Azurill:
+	.string "它又滑又软，还毛茸茸的！$"
 # 73 "data/maps/FallarborTown/scripts.pory"
-	.string "Azurill: Rooreelooo.$"
+
 # 74 "data/maps/FallarborTown/scripts.pory"
-
+FallarborTown_Text_Azurill:
 # 75 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_HaveYouChallengedFlannery:
+	.string "露力丽：露哩噜噜。$"
 # 76 "data/maps/FallarborTown/scripts.pory"
-	.string "Have you already challenged Flannery,\n"
+
 # 77 "data/maps/FallarborTown/scripts.pory"
-	.string "the Leader of Lavaridge Gym?\p"
+FallarborTown_Text_HaveYouChallengedFlannery:
 # 78 "data/maps/FallarborTown/scripts.pory"
-	.string "The girl's grandfather was famous.\n"
+	.string "你挑战过釜炎道馆的\n"
 # 79 "data/maps/FallarborTown/scripts.pory"
-	.string "He was one of the Elite Four in the\l"
+	.string "馆主亚莎了吗？\p"
 # 80 "data/maps/FallarborTown/scripts.pory"
-	.string "Pokémon League at one point.\p"
+	.string "那姑娘的爷爷很有名。\n"
 # 81 "data/maps/FallarborTown/scripts.pory"
-	.string "It wouldn't surprise me to see Flannery\n"
+	.string "他曾经是宝可梦联盟\l"
 # 82 "data/maps/FallarborTown/scripts.pory"
-	.string "become a great trainer in her own\l"
+	.string "四天王之一。\p"
 # 83 "data/maps/FallarborTown/scripts.pory"
-	.string "right.$"
+	.string "亚莎凭自己的本事\n"
 # 84 "data/maps/FallarborTown/scripts.pory"
-
+	.string "成为了不起的训练家，\l"
 # 85 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_BattleTentSign:
+	.string "我一点也不意外。$"
 # 86 "data/maps/FallarborTown/scripts.pory"
-	.string "Battle Tent Fallarbor Site\n"
+
 # 87 "data/maps/FallarborTown/scripts.pory"
-	.string "“May the Greatest Teams Gather!”$"
+FallarborTown_Text_BattleTentSign:
 # 88 "data/maps/FallarborTown/scripts.pory"
-
+	.string "对战帐篷 秋叶会场\n"
 # 89 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_TownSign:
+	.string "“愿最强的队伍齐聚！”$"
 # 90 "data/maps/FallarborTown/scripts.pory"
-	.string "Fallarbor Town\n"
-# 91 "data/maps/FallarborTown/scripts.pory"
-	.string "“A farm community with small gardens.”$"
-# 92 "data/maps/FallarborTown/scripts.pory"
 
+# 91 "data/maps/FallarborTown/scripts.pory"
+FallarborTown_Text_TownSign:
+# 92 "data/maps/FallarborTown/scripts.pory"
+	.string "秋叶镇\n"
 # 93 "data/maps/FallarborTown/scripts.pory"
-FallarborTown_Text_MoveTutorSign:
+	.string "“带小菜园的农庄小镇。”$"
 # 94 "data/maps/FallarborTown/scripts.pory"
-	.string "Move Tutor's House\n"
+
 # 95 "data/maps/FallarborTown/scripts.pory"
-	.string "“New moves taught to Pokémon.”$"
+FallarborTown_Text_MoveTutorSign:
+# 96 "data/maps/FallarborTown/scripts.pory"
+	.string "招式教学之家\n"
+# 97 "data/maps/FallarborTown/scripts.pory"
+	.string "“教宝可梦新招式。”$"

@@ -474,13 +474,13 @@ static void ShowPyramidFloorWindow(void)
 // If you want to shorten the dates to Sat., Sun., etc., change this to 70
 #define CLOCK_WINDOW_WIDTH 75
 
-const u8 gText_Saturday[] = _("Saturday,");
-const u8 gText_Sunday[] = _("Sunday,");
-const u8 gText_Monday[] = _("Monday,");
-const u8 gText_Tuesday[] = _("Tuesday,");
-const u8 gText_Wednesday[] = _("Wednesday,");
-const u8 gText_Thursday[] = _("Thursday,");
-const u8 gText_Friday[] = _("Friday,");
+const u8 gText_Saturday[] = _("星期六，");
+const u8 gText_Sunday[] = _("星期日，");
+const u8 gText_Monday[] = _("星期一，");
+const u8 gText_Tuesday[] = _("星期二，");
+const u8 gText_Wednesday[] = _("星期三，");
+const u8 gText_Thursday[] = _("星期四，");
+const u8 gText_Friday[] = _("星期五，");
 
 const u8 *const gDayNameStringsTable[7] = {
     gText_Saturday,

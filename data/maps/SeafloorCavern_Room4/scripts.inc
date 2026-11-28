@@ -29,44 +29,44 @@ SeafloorCavern_Room4_EventScript_Grunt4::
 # 15 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt3Intro:
 # 16 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "Who are you?\n"
+	.string "你是谁？\n"
 # 17 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "Where did you come in from?$"
+	.string "你从哪儿进来的？$"
 # 18 "data/maps/SeafloorCavern_Room4/scripts.pory"
 
 # 19 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt3Defeat:
 # 20 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "Lost it…$"
+	.string "糟了……$"
 # 21 "data/maps/SeafloorCavern_Room4/scripts.pory"
 
 # 22 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
 # 23 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "I can't find the way out!\p"
+	.string "我找不到出口！\p"
 # 24 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "I'm not afraid. Don't get me wrong!$"
+	.string "我不怕。别误会！$"
 # 25 "data/maps/SeafloorCavern_Room4/scripts.pory"
 
 # 26 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt4Intro:
 # 27 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "Who are you?\n"
+	.string "你是谁？\n"
 # 28 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "Where do you think you're going?$"
+	.string "你以为你要去哪儿？$"
 # 29 "data/maps/SeafloorCavern_Room4/scripts.pory"
 
 # 30 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt4Defeat:
 # 31 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "I failed to win!$"
+	.string "我没赢成！$"
 # 32 "data/maps/SeafloorCavern_Room4/scripts.pory"
 
 # 33 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_Text_Grunt4PostBattle:
 # 34 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "My partner forgot the map in that\n"
+	.string "我搭档把地图忘在\n"
 # 35 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "submarine!\p"
+	.string "那艘潜水艇里了！\p"
 # 36 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	.string "How's that for being useless?$"
+	.string "你说这算多没用？$"

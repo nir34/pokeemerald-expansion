@@ -565,336 +565,346 @@ MauvilleCity_Gym_EventScript_Luxray::
 # 283 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_GymGuideAdvice:
 # 284 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Hey, how's it going, 冠军-\n"
+	.string "嘿，冠军候补的{PLAYER}，\n"
 # 285 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "bound {PLAYER}?\p"
+	.string "最近怎么样？\p"
 # 286 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson, the LEADER of MAUVILLE\n"
+	.string "紫堇道馆的馆主铁旋\n"
 # 287 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "GYM, uses ELECTRIC-type Pokémon.\p"
+	.string "使的是电属性宝可梦。\p"
 # 288 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "If you challenge him with WATER-type\n"
+	.string "要是用水属性宝可梦去\n"
 # 289 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Pokémon, he'll zap them! Bzzt!\p"
+	.string "挑战，会被他电得吱吱响！\p"
 # 290 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "And, he's put in switch-controlled\n"
+	.string "而且他在道馆里到处\n"
 # 291 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "doors all over his GYM! Eccentric!\p"
+	.string "装上了开关门！真是怪人！\p"
 # 292 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Hey, go for it!$"
+	.string "嘿，去吧！$"
 # 293 "data/maps/MauvilleCity_Gym/scripts.pory"
 
 # 294 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_GymGuidePostVictory:
 # 295 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Whoa, you're electrifying!\n"
+	.string "哇，你真是电光四射！\n"
 # 296 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You've powered the door open!$"
+	.string "你把门通上电打开来了！$"
 # 297 "data/maps/MauvilleCity_Gym/scripts.pory"
 
 # 298 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_KirkIntro:
 # 299 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "My electric soul, it'll shatter your\n"
+	.string "我这电气般的灵魂，\n"
 # 300 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "dreams whole, whoa-yeahah!$"
+	.string "会把你的梦想震碎，哇耶！$"
 # 301 "data/maps/MauvilleCity_Gym/scripts.pory"
 
 # 302 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_KirkDefeat:
 # 303 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "That was plugged in, amped up,\n"
+	.string "那真是通电、加压、\n"
 # 304 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "over-driven electric, man!$"
+	.string "过载的电气啊！$"
 # 305 "data/maps/MauvilleCity_Gym/scripts.pory"
 
 # 306 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_KirkPostBattle:
 # 307 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Pokémon and rock, it's all about heart,\n"
+	.string "宝可梦和摇滚，\n"
 # 308 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "whoa-yeah!$"
+	.string "讲的就是心，哇耶！$"
 # 309 "data/maps/MauvilleCity_Gym/scripts.pory"
 
 # 310 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_Text_ShawnIntro:
 # 311 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I trained under Wattson!\n"
+	.string "我是在铁旋手下\n"
 # 312 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "There ain't no way I'll lose easily!$"
+	.string "训练出来的！\l"
 # 313 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "我可不会轻易认输！$"
 # 314 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_ShawnDefeat:
+
 # 315 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Unplugged and turned off…$"
+MauvilleCity_Gym_Text_ShawnDefeat:
 # 316 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "被拔掉插头，\n"
 # 317 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_ShawnPostBattle:
+	.string "断电了……$"
 # 318 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson, our 道馆馆主, has been\n"
+
 # 319 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "around for a long, long time.\p"
+MauvilleCity_Gym_Text_ShawnPostBattle:
 # 320 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "He was battling even before your\n"
+	.string "我们馆主铁旋，\n"
 # 321 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "daddy was born, that tough coot.$"
+	.string "可是老资格了。\p"
 # 322 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "你爸爸还没出生的时候，\n"
 # 323 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_BenIntro:
+	.string "他就在对战了，老顽固。$"
 # 324 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "This GYM's got puzzles!\n"
+
 # 325 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Isn't it fun?$"
+MauvilleCity_Gym_Text_BenIntro:
 # 326 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "这个道馆有机关！\n"
 # 327 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_BenDefeat:
+	.string "好玩吧？$"
 # 328 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "It's no fun to lose…$"
+
 # 329 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_BenDefeat:
 # 330 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_BenPostBattle:
+	.string "输了可不好玩……$"
 # 331 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson says he likes setting up\n"
+
 # 332 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "little traps with switches.$"
+MauvilleCity_Gym_Text_BenPostBattle:
 # 333 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "铁旋说他就喜欢\n"
 # 334 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_VivianIntro:
+	.string "用开关设小陷阱。$"
 # 335 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "With my charm and my Pokémon's moves,\n"
+
 # 336 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "you'll be shocked!$"
+MauvilleCity_Gym_Text_VivianIntro:
 # 337 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "凭我的魅力和宝可梦\n"
 # 338 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_VivianDefeat:
+	.string "的招式，包你触电！$"
 # 339 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I'm shocked by your power!$"
+
 # 340 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_VivianDefeat:
 # 341 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_VivianPostBattle:
+	.string "你的力量把我电到了！$"
 # 342 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I've heard that MAUVILLE was founded\n"
+
 # 343 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "by Wattson.\p"
+MauvilleCity_Gym_Text_VivianPostBattle:
 # 344 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "He was a 训练家 long before we\n"
+	.string "听说紫堇市是\n"
 # 345 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "became 训练家S.\l"
+	.string "铁旋建起来的。\p"
 # 346 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "He must know all sorts of things!$"
+	.string "我们还没当训练家的时候，\n"
 # 347 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "他就已经是了。\l"
 # 348 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_AngeloIntro:
+	.string "他一定什么都懂！$"
 # 349 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I love shiny things!$"
+
 # 350 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_AngeloIntro:
 # 351 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_AngeloDefeat:
+	.string "我最喜欢亮闪闪\n"
 # 352 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Oh…\n"
+	.string "的东西！$"
 # 353 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "My eyes are frazzled…$"
+
 # 354 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_AngeloDefeat:
 # 355 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_AngeloPostBattle:
+	.string "哦……\n"
 # 356 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Mauville GYM's Wattson has a shiny\n"
+	.string "我的眼睛都花了……$"
 # 357 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "forehead. It makes me happy!$"
+
 # 358 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_AngeloPostBattle:
 # 359 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonIntro:
+	.string "紫堇道馆的铁旋，\n"
 # 360 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I've given up on my plans to convert\n"
+	.string "额头亮闪闪的。\l"
 # 361 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "the city, I have.\p"
+	.string "看着就让我高兴！$"
 # 362 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "And so, I put my time into making\n"
+
 # 363 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "door traps in my Gym.\p"
+MauvilleCity_Gym_Text_WattsonIntro:
 # 364 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Oh? Now, what are you doing here?\p"
+	.string "我已经放弃改造\n"
 # 365 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "What's that? You say you've gotten\n"
+	.string "城市的计划了。\p"
 # 366 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "past all my rigged doors?\p"
+	.string "所以我就把时间花在\n"
 # 367 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wahahahah!\n"
+	.string "给道馆装门上。\p"
 # 368 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Now, that is amusing!\p"
+	.string "哦？你来这儿\n"
 # 369 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Then, I, Wattson, the Leader of\n"
+	.string "做什么？\p"
 # 370 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Mauville Gym, shall electrify you!$"
+	.string "什么？你说你\n"
 # 371 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "闯过了我所有的机关门？\p"
 # 372 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonDefeat:
+	.string "哇哈哈哈！\n"
 # 373 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wahahahah!\n"
+	.string "这倒有意思！\p"
 # 374 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Fine, I lost!\p"
+	.string "那么，我，紫堇道馆馆主\n"
 # 375 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You ended up giving me a thrill!\n"
+	.string "铁旋，就让你触电吧！$"
 # 376 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Take this Badge!$"
+
 # 377 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_WattsonDefeat:
 # 378 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_ReceivedDynamoBadge:
+	.string "哇哈哈哈！\n"
 # 379 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "{PLAYER} received the Dynamo Badge\n"
+	.string "好，我输了！\p"
 # 380 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "from Wattson.$"
+	.string "你倒让我痛快了一场！\n"
 # 381 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "拿去吧，徽章！$"
 # 382 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
+
 # 383 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "With the Dynamo Badge, Pokémon can\n"
+MauvilleCity_Gym_Text_ReceivedDynamoBadge:
 # 384 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "use Rock Smash out of battle.\p"
+	.string "{PLAYER}从铁旋那里\n"
 # 385 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Hmm…\n"
+	.string "得到了电力徽章。$"
 # 386 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You should take this, too!$"
+
 # 387 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 # 388 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_ExplainVoltSwitch:
+	.string "有了电力徽章，宝可梦\n"
 # 389 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "That TM92 there contains Volt Switch.\n"
+	.string "就能在战斗外使用碎岩。\p"
 # 390 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "It will let you zap an opponent and\l"
+	.string "嗯……\n"
 # 391 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "then switch out immediately, pretty\l"
+	.string "这个你也拿去吧！$"
 # 392 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "handy!\p"
+
 # 393 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I also included some of my\n"
+MauvilleCity_Gym_Text_ExplainVoltSwitch:
 # 394 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "favorite Mega Stones, hopefully once\l"
+	.string "那个学习器92号里\n"
 # 395 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "you get the Mega Ring they'll be of\l"
+	.string "是伏特替换。\p"
 # 396 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "some use to you.\p"
+	.string "能让对手触电，然后\n"
 # 397 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "… … … … … …$"
+	.string "马上换下场，\l"
 # 398 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "挺方便的！\p"
 # 399 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_RegisteredWattson:
+	.string "我还附上了一些我最喜欢的\n"
 # 400 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Registered Gym Leader Wattson\n"
+	.string "超级石，等你有超级环，\l"
 # 401 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "in the PokéNav.$"
+	.string "应该能派上用场。\p"
 # 402 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "… … … … … …$"
 # 403 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonPostBattle:
+
 # 404 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I swell with optimism, seeing a promising\n"
+MauvilleCity_Gym_Text_RegisteredWattson:
 # 405 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "young trainer like you!$"
+	.string "在宝可梦导航里登录了\n"
 # 406 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "道馆馆主铁旋。$"
 # 407 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
+
 # 408 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wahahahah!\n"
+MauvilleCity_Gym_Text_WattsonPostBattle:
 # 409 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Go forth and endeavor, youngster!$"
+	.string "看到你这样有前途的\n"
 # 410 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "年轻训练家，\l"
 # 411 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_GymStatue:
+	.string "我真是满怀希望！$"
 # 412 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Mauville City Pokémon Gym$"
+
 # 413 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 # 414 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_GymStatueCertified:
+	.string "哇哈哈哈！\n"
 # 415 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Mauville City Pokémon Gym\p"
+	.string "去吧，年轻人，去拼搏吧！$"
 # 416 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson'S Certified Trainers:\n"
+
 # 417 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "{PLAYER}$"
+MauvilleCity_Gym_Text_GymStatue:
 # 418 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "紫堇市宝可梦道馆$"
 # 419 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonPreRematch:
+
 # 420 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson: Ah-ha! Here at last!\n"
+MauvilleCity_Gym_Text_GymStatueCertified:
 # 421 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I know what you want.\l"
+	.string "紫堇市宝可梦道馆\p"
 # 422 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You want to battle my Pokémon!\p"
+	.string "铁旋认定的训练家：\n"
 # 423 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wahahahaha!\p"
+	.string "{PLAYER}$"
 # 424 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I'll make sparks fly from you!\n"
+
 # 425 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Don't say I didn't warn you!$"
+MauvilleCity_Gym_Text_WattsonPreRematch:
 # 426 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "铁旋：啊哈！终于来了！\n"
 # 427 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonRematchDefeat:
+	.string "我知道你想要什么。\l"
 # 428 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Oof…\n"
+	.string "你想和我的宝可梦对战！\p"
 # 429 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Our batteries ran dry…$"
+	.string "哇哈哈哈！\p"
 # 430 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "我要让你火花四溅！\n"
 # 431 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonPostRematch:
+	.string "可别怪我没提醒你！$"
 # 432 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson: We'll have to recharge our\n"
+
 # 433 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "batteries again.\p"
+MauvilleCity_Gym_Text_WattsonRematchDefeat:
 # 434 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "When we're fully charged up, we'll\n"
+	.string "哎哟……\n"
 # 435 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "gladly accept your challenge.\p"
+	.string "我们的电池耗光了……$"
 # 436 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "So, come back again sometime,\n"
+
 # 437 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "won't you?$"
+MauvilleCity_Gym_Text_WattsonPostRematch:
 # 438 "data/maps/MauvilleCity_Gym/scripts.pory"
-
+	.string "铁旋：我们得再充电了。\p"
 # 439 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
+	.string "充满电之后，我们会\n"
 # 440 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wattson: Ah-ha! Here at last!\n"
+	.string "乐意接受你的挑战。\p"
 # 441 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "I know what you want.\l"
+	.string "所以，有空再来，\n"
 # 442 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You want to battle my Pokémon!\p"
+	.string "好吗？$"
 # 443 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Wahahahaha!\p"
-# 444 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Oops! Wait!\n"
-# 445 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "You've only one Pokémon with you!\p"
-# 446 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Come see me with two or more\n"
-# 447 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Pokémon, all right?$"
-# 448 "data/maps/MauvilleCity_Gym/scripts.pory"
 
+# 444 "data/maps/MauvilleCity_Gym/scripts.pory"
+MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
+# 445 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "铁旋：啊哈！终于来了！\n"
+# 446 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "我知道你想要什么。\l"
+# 447 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "你想和我的宝可梦对战！\p"
+# 448 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "哇哈哈哈！\p"
 # 449 "data/maps/MauvilleCity_Gym/scripts.pory"
-MauvilleCity_Gym_Text_Luxray:
+	.string "哎！等等！\n"
 # 450 "data/maps/MauvilleCity_Gym/scripts.pory"
-	.string "Luxray: Raaaah ah raah!$"
+	.string "你只带了一只宝可梦！\p"
+# 451 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "请带两只以上再来\n"
+# 452 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "找我，好吗？$"
+# 453 "data/maps/MauvilleCity_Gym/scripts.pory"
+
+# 454 "data/maps/MauvilleCity_Gym/scripts.pory"
+MauvilleCity_Gym_Text_Luxray:
+# 455 "data/maps/MauvilleCity_Gym/scripts.pory"
+	.string "伦琴猫：吼啊啊啊！$"

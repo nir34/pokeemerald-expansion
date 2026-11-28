@@ -1155,561 +1155,561 @@ Route111_EventScript_TrainerHillSign::
 # 578 "data/maps/Route111/scripts.pory"
 Route111_Text_WhereTheHellAmI:
 # 579 "data/maps/Route111/scripts.pory"
-	.string "WHERE THE HELL AM I?!$"
+	.string "我到底在\n"
 # 580 "data/maps/Route111/scripts.pory"
-
+	.string "什么地方啊？！$"
 # 581 "data/maps/Route111/scripts.pory"
-Route111_Text_BattleOurFamily:
+
 # 582 "data/maps/Route111/scripts.pory"
-	.string "Hello! I take it you're a traveler.\p"
+Route111_Text_BattleOurFamily:
 # 583 "data/maps/Route111/scripts.pory"
-	.string "How's this? What do you say to taking\n"
+	.string "你好！看来你是个\n"
 # 584 "data/maps/Route111/scripts.pory"
-	.string "on our family of four in a series of\l"
+	.string "旅行者。\p"
 # 585 "data/maps/Route111/scripts.pory"
-	.string "Pokémon battles?$"
+	.string "怎么样？要不要和我们\n"
 # 586 "data/maps/Route111/scripts.pory"
-
+	.string "一家四口来几场\l"
 # 587 "data/maps/Route111/scripts.pory"
-Route111_Text_IsThatSo:
+	.string "宝可梦对战？$"
 # 588 "data/maps/Route111/scripts.pory"
-	.string "Is that so?\n"
+
 # 589 "data/maps/Route111/scripts.pory"
-	.string "Drop in, if you change your mind!$"
+Route111_Text_IsThatSo:
 # 590 "data/maps/Route111/scripts.pory"
-
+	.string "这样啊？\n"
 # 591 "data/maps/Route111/scripts.pory"
-Route111_Text_ShouldGetStronger:
+	.string "要是改主意了，就来吧！$"
 # 592 "data/maps/Route111/scripts.pory"
-	.string "Hmm… Maybe you should get a little\n"
-# 593 "data/maps/Route111/scripts.pory"
-	.string "stronger before you take on the family.\p"
-# 594 "data/maps/Route111/scripts.pory"
-	.string "If you can show me the Heat Badge, then\n"
-# 595 "data/maps/Route111/scripts.pory"
-	.string "I'll know you're strong enough.$"
-# 596 "data/maps/Route111/scripts.pory"
 
+# 593 "data/maps/Route111/scripts.pory"
+Route111_Text_ShouldGetStronger:
+# 594 "data/maps/Route111/scripts.pory"
+	.string "嗯……在挑战我们一家\n"
+# 595 "data/maps/Route111/scripts.pory"
+	.string "之前，你也许该\l"
+# 596 "data/maps/Route111/scripts.pory"
+	.string "再变强一点。\p"
 # 597 "data/maps/Route111/scripts.pory"
-Route111_Text_VictorIntro:
+	.string "你要是能拿出烈焰徽章，\n"
 # 598 "data/maps/Route111/scripts.pory"
-	.string "That's the spirit! I like you!$"
+	.string "我就知道你已经够强了。$"
 # 599 "data/maps/Route111/scripts.pory"
 
 # 600 "data/maps/Route111/scripts.pory"
-Route111_Text_VictorDefeat:
+Route111_Text_VictorIntro:
 # 601 "data/maps/Route111/scripts.pory"
-	.string "Aiyah!\n"
+	.string "这才对！我喜欢你！$"
 # 602 "data/maps/Route111/scripts.pory"
-	.string "You're a lot tougher than I expected!$"
+
 # 603 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VictorDefeat:
 # 604 "data/maps/Route111/scripts.pory"
-Route111_Text_VictorPostBattle:
+	.string "哎呀！\n"
 # 605 "data/maps/Route111/scripts.pory"
-	.string "Hey, all!\n"
+	.string "你比我预想的强多了！$"
 # 606 "data/maps/Route111/scripts.pory"
-	.string "I've found a pretty strong 训练家!$"
+
 # 607 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VictorPostBattle:
 # 608 "data/maps/Route111/scripts.pory"
-Route111_Text_VictoriaIntro:
+	.string "喂，大家！\n"
 # 609 "data/maps/Route111/scripts.pory"
-	.string "Oh, my goodness! Aren't you young?\p"
+	.string "我找到一个很强的训练家！$"
 # 610 "data/maps/Route111/scripts.pory"
-	.string "You must be quite the 训练家 to beat\n"
+
 # 611 "data/maps/Route111/scripts.pory"
-	.string "my husband, though.\p"
+Route111_Text_VictoriaIntro:
 # 612 "data/maps/Route111/scripts.pory"
-	.string "It's my turn to battle now!$"
+	.string "哎呀！你还这么年轻？\p"
 # 613 "data/maps/Route111/scripts.pory"
-
+	.string "不过能打赢我丈夫，\n"
 # 614 "data/maps/Route111/scripts.pory"
-Route111_Text_VictoriaDefeat:
+	.string "你一定很厉害。\p"
 # 615 "data/maps/Route111/scripts.pory"
-	.string "Oh, gosh!\n"
+	.string "现在轮到我了！$"
 # 616 "data/maps/Route111/scripts.pory"
-	.string "I can't get over how strong you are!$"
+
 # 617 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VictoriaDefeat:
 # 618 "data/maps/Route111/scripts.pory"
-Route111_Text_VictoriaPostBattle:
+	.string "天哪！\n"
 # 619 "data/maps/Route111/scripts.pory"
-	.string "There's a strong 训练家 here!\n"
+	.string "你的强大真让我惊叹！$"
 # 620 "data/maps/Route111/scripts.pory"
-	.string "This one's really strong!$"
+
 # 621 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VictoriaPostBattle:
 # 622 "data/maps/Route111/scripts.pory"
-Route111_Text_ViviIntro:
+	.string "这里有个很强的训练家！\n"
 # 623 "data/maps/Route111/scripts.pory"
-	.string "You're stronger than Mommy? Wow!\p"
+	.string "这个真的很强！$"
 # 624 "data/maps/Route111/scripts.pory"
-	.string "But I'm strong, too!\n"
-# 625 "data/maps/Route111/scripts.pory"
-	.string "Really! Honestly!$"
-# 626 "data/maps/Route111/scripts.pory"
 
+# 625 "data/maps/Route111/scripts.pory"
+Route111_Text_ViviIntro:
+# 626 "data/maps/Route111/scripts.pory"
+	.string "你比妈妈还强？哇！\p"
 # 627 "data/maps/Route111/scripts.pory"
-Route111_Text_ViviDefeat:
+	.string "不过我也很强！\n"
 # 628 "data/maps/Route111/scripts.pory"
-	.string "Huh? Did I just lose?$"
+	.string "真的！真的哦！$"
 # 629 "data/maps/Route111/scripts.pory"
 
 # 630 "data/maps/Route111/scripts.pory"
-Route111_Text_ViviPostBattle:
+Route111_Text_ViviDefeat:
 # 631 "data/maps/Route111/scripts.pory"
-	.string "This stinks…\p"
+	.string "咦？我刚刚输了吗？$"
 # 632 "data/maps/Route111/scripts.pory"
-	.string "…Snivel… Grandma!$"
+
 # 633 "data/maps/Route111/scripts.pory"
-
+Route111_Text_ViviPostBattle:
 # 634 "data/maps/Route111/scripts.pory"
-Route111_Text_VickyIntro:
+	.string "真讨厌……\p"
 # 635 "data/maps/Route111/scripts.pory"
-	.string "How dare you make my granddaughter\n"
+	.string "……呜……奶奶！$"
 # 636 "data/maps/Route111/scripts.pory"
-	.string "cry!\p"
+
 # 637 "data/maps/Route111/scripts.pory"
-	.string "For that, I'm going to smack you!\n"
+Route111_Text_VickyIntro:
 # 638 "data/maps/Route111/scripts.pory"
-	.string "Prepare to lose!$"
+	.string "你竟敢把我孙女\n"
 # 639 "data/maps/Route111/scripts.pory"
-
+	.string "弄哭！\p"
 # 640 "data/maps/Route111/scripts.pory"
-Route111_Text_VickyDefeat:
+	.string "看招，我可要揍你！\n"
 # 641 "data/maps/Route111/scripts.pory"
-	.string "Kwah! You are strong…\n"
+	.string "准备输吧！$"
 # 642 "data/maps/Route111/scripts.pory"
-	.string "My granddaughter was right…$"
+
 # 643 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VickyDefeat:
 # 644 "data/maps/Route111/scripts.pory"
-Route111_Text_VickyPostBattle:
+	.string "哇！你真强……\n"
 # 645 "data/maps/Route111/scripts.pory"
-	.string "If you're not in any hurry,\n"
+	.string "我孙女说得没错……$"
 # 646 "data/maps/Route111/scripts.pory"
-	.string "visit with us awhile.$"
+
 # 647 "data/maps/Route111/scripts.pory"
-
+Route111_Text_VickyPostBattle:
 # 648 "data/maps/Route111/scripts.pory"
-Route111_Text_ToughToKeepWinningUpTheRanks:
+	.string "你要是不急着走，\n"
 # 649 "data/maps/Route111/scripts.pory"
-	.string "If you don't raise your Pokémon some\n"
+	.string "就陪我们聊一会儿。$"
 # 650 "data/maps/Route111/scripts.pory"
-	.string "more, it could be tough to keep winning\l"
+
 # 651 "data/maps/Route111/scripts.pory"
-	.string "up through the ranks.\p"
+Route111_Text_ToughToKeepWinningUpTheRanks:
 # 652 "data/maps/Route111/scripts.pory"
-	.string "I've heard the Pokémon LEAGUE's\n"
+	.string "如果不好好培养宝可梦，\n"
 # 653 "data/maps/Route111/scripts.pory"
-	.string "ELITE FOUR are far stronger than\l"
+	.string "想一路赢上去\l"
 # 654 "data/maps/Route111/scripts.pory"
-	.string "any 道馆馆主.$"
+	.string "可不容易。\p"
 # 655 "data/maps/Route111/scripts.pory"
-
+	.string "我听说宝可梦联盟的四天王\n"
 # 656 "data/maps/Route111/scripts.pory"
-Route111_Text_WinstrateFamilyDestroyedMe:
+	.string "比任何道馆馆主都强得多。$"
 # 657 "data/maps/Route111/scripts.pory"
-	.string "I challenged the WINSTRATE family,\n"
+
 # 658 "data/maps/Route111/scripts.pory"
-	.string "but four matches in a row is tough\l"
+Route111_Text_WinstrateFamilyDestroyedMe:
 # 659 "data/maps/Route111/scripts.pory"
-	.string "going… They destroyed me.$"
+	.string "我挑战了温斯特一家，\n"
 # 660 "data/maps/Route111/scripts.pory"
-
+	.string "可连打四场太吃力了……\l"
 # 661 "data/maps/Route111/scripts.pory"
-Route111_Text_RouteSignMauville:
+	.string "他们把我都打垮了。$"
 # 662 "data/maps/Route111/scripts.pory"
-	.string "ROUTE 111\n"
+
 # 663 "data/maps/Route111/scripts.pory"
-	.string "{DOWN_ARROW} MAUVILLE CITY$"
+Route111_Text_RouteSignMauville:
 # 664 "data/maps/Route111/scripts.pory"
-
+	.string "111号道路\n"
 # 665 "data/maps/Route111/scripts.pory"
-Route111_Text_WinstrateHouseSign:
+	.string "{DOWN_ARROW} 紫堇市$"
 # 666 "data/maps/Route111/scripts.pory"
-	.string "“Our family's hearts beat as one!”\n"
+
 # 667 "data/maps/Route111/scripts.pory"
-	.string "THE WINSTRATE'S HOUSE$"
+Route111_Text_WinstrateHouseSign:
 # 668 "data/maps/Route111/scripts.pory"
-
+	.string "“全家的心合而为一！”\n"
 # 669 "data/maps/Route111/scripts.pory"
-Route111_Text_RouteSign112:
+	.string "温斯特之家$"
 # 670 "data/maps/Route111/scripts.pory"
-	.string "ROUTE 111\n"
+
 # 671 "data/maps/Route111/scripts.pory"
-	.string "{LEFT_ARROW} ROUTE 112$"
+Route111_Text_RouteSign112:
 # 672 "data/maps/Route111/scripts.pory"
-
+	.string "111号道路\n"
 # 673 "data/maps/Route111/scripts.pory"
-Route111_Text_RouteSign113:
+	.string "{LEFT_ARROW} 112号道路$"
 # 674 "data/maps/Route111/scripts.pory"
-	.string "ROUTE 111\n"
+
 # 675 "data/maps/Route111/scripts.pory"
-	.string "{LEFT_ARROW} ROUTE 113$"
+Route111_Text_RouteSign113:
 # 676 "data/maps/Route111/scripts.pory"
-
+	.string "111号道路\n"
 # 677 "data/maps/Route111/scripts.pory"
-Route111_Text_OldLadysRestStopSign:
+	.string "{LEFT_ARROW} 113号道路$"
 # 678 "data/maps/Route111/scripts.pory"
-	.string "Nurse Here$"
+
 # 679 "data/maps/Route111/scripts.pory"
-
+Route111_Text_OldLadysRestStopSign:
 # 680 "data/maps/Route111/scripts.pory"
-Route111_Text_TrainerTipsSpAtkSpDef:
+	.string "这里有护士$"
 # 681 "data/maps/Route111/scripts.pory"
-	.string "Trainer Tips\p"
+
 # 682 "data/maps/Route111/scripts.pory"
-	.string "You can press the “A” button while\n"
+Route111_Text_TrainerTipsSpAtkSpDef:
 # 683 "data/maps/Route111/scripts.pory"
-	.string "viewing a Pokémon's stats in the\l"
+	.string "训练家入门\p"
 # 684 "data/maps/Route111/scripts.pory"
-	.string "summary screen to view data about\l"
+	.string "在查看宝可梦能力时，\n"
 # 685 "data/maps/Route111/scripts.pory"
-	.string "their EVs and IVs as well.$"
+	.string "按“A”键就能\l"
 # 686 "data/maps/Route111/scripts.pory"
-
+	.string "看到它的努力值\l"
 # 687 "data/maps/Route111/scripts.pory"
-Route111_Text_ShouldBeMirageTowerAroundHere:
+	.string "和个体值数据。$"
 # 688 "data/maps/Route111/scripts.pory"
-	.string "There should be a tower made of sand\n"
+
 # 689 "data/maps/Route111/scripts.pory"
-	.string "around here somewhere.\p"
+Route111_Text_ShouldBeMirageTowerAroundHere:
 # 690 "data/maps/Route111/scripts.pory"
-	.string "But for some reason, it can be seen\n"
+	.string "这附近应该有一座\n"
 # 691 "data/maps/Route111/scripts.pory"
-	.string "sometimes, and sometimes not.\p"
+	.string "沙子做的塔。\p"
 # 692 "data/maps/Route111/scripts.pory"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string "可不知为什么，它有时\n"
 # 693 "data/maps/Route111/scripts.pory"
-
+	.string "看得见，有时看不见。\p"
 # 694 "data/maps/Route111/scripts.pory"
-Route111_Text_MirageTowerClearlyVisible:
+	.string "所以我叫它幻影塔。$"
 # 695 "data/maps/Route111/scripts.pory"
-	.string "I see it!\n"
+
 # 696 "data/maps/Route111/scripts.pory"
-	.string "The tower of sand!\p"
+Route111_Text_MirageTowerClearlyVisible:
 # 697 "data/maps/Route111/scripts.pory"
-	.string "The sand tower they called a mirage\n"
+	.string "我看见了！\n"
 # 698 "data/maps/Route111/scripts.pory"
-	.string "is clearly visible!\p"
+	.string "那座沙塔！\p"
 # 699 "data/maps/Route111/scripts.pory"
-	.string "But it looks so fragile…\n"
+	.string "大家称作幻影的沙塔，\n"
 # 700 "data/maps/Route111/scripts.pory"
-	.string "It could crumble away anytime…\p"
+	.string "清清楚楚看得见！\p"
 # 701 "data/maps/Route111/scripts.pory"
-	.string "I want to go inside it, but I can't\n"
+	.string "可它看起来很脆弱……\n"
 # 702 "data/maps/Route111/scripts.pory"
-	.string "get my courage up for it…$"
+	.string "随时都可能塌掉……\p"
 # 703 "data/maps/Route111/scripts.pory"
-
+	.string "我想进去看看，可就是\n"
 # 704 "data/maps/Route111/scripts.pory"
-Route111_Text_ThatWasShockingSandRainedDown:
+	.string "提不起勇气……$"
 # 705 "data/maps/Route111/scripts.pory"
-	.string "Whoa…\n"
+
 # 706 "data/maps/Route111/scripts.pory"
-	.string "That was shocking.\p"
+Route111_Text_ThatWasShockingSandRainedDown:
 # 707 "data/maps/Route111/scripts.pory"
-	.string "Sand rained down in chunks all of\n"
+	.string "哇……\n"
 # 708 "data/maps/Route111/scripts.pory"
-	.string "a sudden.\p"
+	.string "真吓人。\p"
 # 709 "data/maps/Route111/scripts.pory"
-	.string "What was it like inside?\n"
+	.string "沙子突然一块一块地\n"
 # 710 "data/maps/Route111/scripts.pory"
-	.string "Were there sandy ghosts and such?$"
+	.string "往下掉。\p"
 # 711 "data/maps/Route111/scripts.pory"
-
+	.string "里面是什么样子？\n"
 # 712 "data/maps/Route111/scripts.pory"
-Route111_Text_MirageTowerHasntBeenSeenSince:
+	.string "有沙子做的鬼吗？$"
 # 713 "data/maps/Route111/scripts.pory"
-	.string "Since I spoke to you, the tower of sand\n"
+
 # 714 "data/maps/Route111/scripts.pory"
-	.string "hasn't been seen.\p"
+Route111_Text_MirageTowerHasntBeenSeenSince:
 # 715 "data/maps/Route111/scripts.pory"
-	.string "Perhaps it really was\n"
+	.string "自从和你说话以后，\n"
 # 716 "data/maps/Route111/scripts.pory"
-	.string "the MIRAGE TOWER…$"
+	.string "那座沙塔就不见了。\p"
 # 717 "data/maps/Route111/scripts.pory"
-
+	.string "也许它真的是\n"
 # 718 "data/maps/Route111/scripts.pory"
-Route111_Text_ClawFossilDisappeared:
+	.string "幻影塔……$"
 # 719 "data/maps/Route111/scripts.pory"
-	.string "The CLAW FOSSIL disappeared into\n"
+
 # 720 "data/maps/Route111/scripts.pory"
-	.string "the sand…$"
+Route111_Text_ClawFossilDisappeared:
 # 721 "data/maps/Route111/scripts.pory"
-
+	.string "爪之化石\n"
 # 722 "data/maps/Route111/scripts.pory"
-Route111_Text_RootFossilDisappeared:
+	.string "消失在了沙子里……$"
 # 723 "data/maps/Route111/scripts.pory"
-	.string "The ROOT FOSSIL disappeared into\n"
+
 # 724 "data/maps/Route111/scripts.pory"
-	.string "the sand…$"
+Route111_Text_RootFossilDisappeared:
 # 725 "data/maps/Route111/scripts.pory"
-
+	.string "根之化石\n"
 # 726 "data/maps/Route111/scripts.pory"
-Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
+	.string "消失在了沙子里……$"
 # 727 "data/maps/Route111/scripts.pory"
-	.string "Oh, no!\p"
-# 728 "data/maps/Route111/scripts.pory"
-	.string "My uncle in MAUVILLE told me to take\n"
-# 729 "data/maps/Route111/scripts.pory"
-	.string "ROCK SMASH with me if I was going to\l"
-# 730 "data/maps/Route111/scripts.pory"
-	.string "ROUTE 111!\p"
-# 731 "data/maps/Route111/scripts.pory"
-	.string "My uncle? He lives across from\n"
-# 732 "data/maps/Route111/scripts.pory"
-	.string "the bike shop in MAUVILLE.$"
-# 733 "data/maps/Route111/scripts.pory"
 
+# 728 "data/maps/Route111/scripts.pory"
+Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
+# 729 "data/maps/Route111/scripts.pory"
+	.string "糟了！\p"
+# 730 "data/maps/Route111/scripts.pory"
+	.string "我在紫堇市的叔叔说，\n"
+# 731 "data/maps/Route111/scripts.pory"
+	.string "要去111号道路\l"
+# 732 "data/maps/Route111/scripts.pory"
+	.string "就得带上碎岩！\p"
+# 733 "data/maps/Route111/scripts.pory"
+	.string "我叔叔？他住在紫堇市\n"
 # 734 "data/maps/Route111/scripts.pory"
-Route111_Text_TrainerHillSign:
+	.string "自行车店对面。$"
 # 735 "data/maps/Route111/scripts.pory"
-	.string "训练家 HILL\n"
+
 # 736 "data/maps/Route111/scripts.pory"
-	.string "UNDER DEVELOPMENT$"
+Route111_Text_TrainerHillSign:
+# 737 "data/maps/Route111/scripts.pory"
+	.string "训练家之丘\n"
+# 738 "data/maps/Route111/scripts.pory"
+	.string "正在开发中$"
 
 Route111_EventScript_DawnTrigger1::
-# 741 "data/maps/Route111/scripts.pory"
+# 743 "data/maps/Route111/scripts.pory"
 	setvar VAR_0x8008, 1
-# 742 "data/maps/Route111/scripts.pory"
+# 744 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnScene
 	end
 
 
 Route111_EventScript_DawnTrigger2::
-# 748 "data/maps/Route111/scripts.pory"
+# 750 "data/maps/Route111/scripts.pory"
 	setvar VAR_0x8008, 2
-# 749 "data/maps/Route111/scripts.pory"
+# 751 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnScene
 	end
 
 
 Route111_EventScript_DawnTrigger3::
-# 754 "data/maps/Route111/scripts.pory"
+# 756 "data/maps/Route111/scripts.pory"
 	setvar VAR_0x8008, 3
-# 755 "data/maps/Route111/scripts.pory"
+# 757 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnScene
 	end
 
 
 Route111_EventScript_DawnTrigger4::
-# 761 "data/maps/Route111/scripts.pory"
+# 763 "data/maps/Route111/scripts.pory"
 	setvar VAR_0x8008, 4
-# 762 "data/maps/Route111/scripts.pory"
+# 764 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnScene
 	end
 
 
 Route111_EventScript_DawnScene::
-# 768 "data/maps/Route111/scripts.pory"
-	lockall
-# 769 "data/maps/Route111/scripts.pory"
-	call Route104_EventScript_PlayDawnMusic
 # 770 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Common_Movement_WalkInPlaceFasterDown
+	lockall
 # 771 "data/maps/Route111/scripts.pory"
-	waitmovement 0
+	call Route104_EventScript_PlayDawnMusic
 # 772 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Common_Movement_ExclamationMark
+	applymovement LOCALID_DAWN, Common_Movement_WalkInPlaceFasterDown
 # 773 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 # 774 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Common_Movement_Delay48
+	applymovement LOCALID_DAWN, Common_Movement_ExclamationMark
 # 775 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 # 776 "data/maps/Route111/scripts.pory"
-	delay 30
+	applymovement LOCALID_DAWN, Common_Movement_Delay48
 # 777 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 1, Route111_EventScript_DawnApproachPlayer1
+	waitmovement 0
 # 778 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 2, Route111_EventScript_DawnApproachPlayer2
+	delay 30
 # 779 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 3, Route111_EventScript_DawnApproachPlayer3
+	call_if_eq VAR_0x8008, 1, Route111_EventScript_DawnApproachPlayer1
 # 780 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 4, Route111_EventScript_DawnApproachPlayer4
+	call_if_eq VAR_0x8008, 2, Route111_EventScript_DawnApproachPlayer2
 # 781 "data/maps/Route111/scripts.pory"
-	goto Route111_EventScript_DawnRivalBattle
+	call_if_eq VAR_0x8008, 3, Route111_EventScript_DawnApproachPlayer3
 # 782 "data/maps/Route111/scripts.pory"
+	call_if_eq VAR_0x8008, 4, Route111_EventScript_DawnApproachPlayer4
+# 783 "data/maps/Route111/scripts.pory"
+	goto Route111_EventScript_DawnRivalBattle
+# 784 "data/maps/Route111/scripts.pory"
 	releaseall
 	end
 
 
 Route111_EventScript_DawnRivalBattle::
-# 787 "data/maps/Route111/scripts.pory"
-	msgbox Route111_Text_Dawn_Greeting
-# 788 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_DAWN_ROUTE_111, Route111_Text_Dawn_Defeated
 # 789 "data/maps/Route111/scripts.pory"
+	msgbox Route111_Text_Dawn_Greeting
+# 790 "data/maps/Route111/scripts.pory"
+	trainerbattle_no_intro TRAINER_DAWN_ROUTE_111, Route111_Text_Dawn_Defeated
+# 791 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnDefeated
 	end
 
 
 Route111_EventScript_DawnDefeated::
-# 794 "data/maps/Route111/scripts.pory"
-	msgbox Route111_Text_Dawn_MagmaAndAqua
-# 795 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_TM_ROOST
 # 796 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_TM_SCALD
+	msgbox Route111_Text_Dawn_MagmaAndAqua
 # 797 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_TM_FLASH_CANNON
+	giveitem ITEM_TM_ROOST
 # 798 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_ABILITY_PATCH, 999
+	giveitem ITEM_TM_SCALD
 # 799 "data/maps/Route111/scripts.pory"
-	msgbox Route111_Text_DawnGoodbye
+	giveitem ITEM_TM_FLASH_CANNON
 # 800 "data/maps/Route111/scripts.pory"
+	giveitem ITEM_ABILITY_PATCH, 999
+# 801 "data/maps/Route111/scripts.pory"
+	msgbox Route111_Text_DawnGoodbye
+# 802 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_DawnExit
 	end
 
 
 Route111_EventScript_DawnApproachPlayer1::
-# 807 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer1
-# 808 "data/maps/Route111/scripts.pory"
-	waitmovement 0
 # 809 "data/maps/Route111/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn1
+	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer1
 # 810 "data/maps/Route111/scripts.pory"
+	waitmovement 0
+# 811 "data/maps/Route111/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn1
+# 812 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_Movement_FaceDawn1::
-# 815 "data/maps/Route111/scripts.pory"
+# 817 "data/maps/Route111/scripts.pory"
 	walk_in_place_faster_right
-# 816 "data/maps/Route111/scripts.pory"
+# 818 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_Movement_FaceDawn2::
-# 820 "data/maps/Route111/scripts.pory"
+# 822 "data/maps/Route111/scripts.pory"
 	walk_in_place_faster_left
-# 821 "data/maps/Route111/scripts.pory"
+# 823 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_Movement_DawnApproachPlayer1::
-# 825 "data/maps/Route111/scripts.pory"
-	walk_down
-# 826 "data/maps/Route111/scripts.pory"
-	walk_down
 # 827 "data/maps/Route111/scripts.pory"
-	walk_left
+	walk_down
 # 828 "data/maps/Route111/scripts.pory"
+	walk_down
+# 829 "data/maps/Route111/scripts.pory"
+	walk_left
+# 830 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_DawnApproachPlayer2::
-# 832 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer2
-# 833 "data/maps/Route111/scripts.pory"
-	waitmovement 0
 # 834 "data/maps/Route111/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn1
+	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer2
 # 835 "data/maps/Route111/scripts.pory"
+	waitmovement 0
+# 836 "data/maps/Route111/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn1
+# 837 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_Movement_DawnApproachPlayer2::
-# 840 "data/maps/Route111/scripts.pory"
-	walk_down
-# 841 "data/maps/Route111/scripts.pory"
-	walk_down
 # 842 "data/maps/Route111/scripts.pory"
-	walk_in_place_faster_left
+	walk_down
 # 843 "data/maps/Route111/scripts.pory"
+	walk_down
+# 844 "data/maps/Route111/scripts.pory"
+	walk_in_place_faster_left
+# 845 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_DawnApproachPlayer3::
-# 847 "data/maps/Route111/scripts.pory"
+# 849 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer3
-# 848 "data/maps/Route111/scripts.pory"
+# 850 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_Movement_DawnApproachPlayer3::
-# 853 "data/maps/Route111/scripts.pory"
+# 855 "data/maps/Route111/scripts.pory"
 	walk_down
-# 854 "data/maps/Route111/scripts.pory"
+# 856 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_DawnApproachPlayer4::
-# 858 "data/maps/Route111/scripts.pory"
-	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer4
-# 859 "data/maps/Route111/scripts.pory"
-	waitmovement 0
 # 860 "data/maps/Route111/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn2
+	applymovement LOCALID_DAWN, Route111_Movement_DawnApproachPlayer4
 # 861 "data/maps/Route111/scripts.pory"
+	waitmovement 0
+# 862 "data/maps/Route111/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_FaceDawn2
+# 863 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_Movement_DawnApproachPlayer4::
-# 866 "data/maps/Route111/scripts.pory"
-	walk_down
-# 867 "data/maps/Route111/scripts.pory"
-	walk_down
 # 868 "data/maps/Route111/scripts.pory"
-	walk_in_place_faster_right
+	walk_down
 # 869 "data/maps/Route111/scripts.pory"
+	walk_down
+# 870 "data/maps/Route111/scripts.pory"
+	walk_in_place_faster_right
+# 871 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_DawnExit::
-# 873 "data/maps/Route111/scripts.pory"
-	closemessage
-# 874 "data/maps/Route111/scripts.pory"
-	delay 45
 # 875 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 1, Route111_EventScript_ApplyMovementDawn1
+	closemessage
 # 876 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 2, Route111_EventScript_ApplyMovementDawn2
+	delay 45
 # 877 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 3, Route111_EventScript_ApplyMovementDawn3
+	call_if_eq VAR_0x8008, 1, Route111_EventScript_ApplyMovementDawn1
 # 878 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_0x8008, 4, Route111_EventScript_ApplyMovementDawn4
+	call_if_eq VAR_0x8008, 2, Route111_EventScript_ApplyMovementDawn2
 # 879 "data/maps/Route111/scripts.pory"
-	removeobject LOCALID_DAWN
+	call_if_eq VAR_0x8008, 3, Route111_EventScript_ApplyMovementDawn3
 # 880 "data/maps/Route111/scripts.pory"
-	setflag FLAG_DAWN_111
+	call_if_eq VAR_0x8008, 4, Route111_EventScript_ApplyMovementDawn4
 # 881 "data/maps/Route111/scripts.pory"
-	setvar VAR_FOUGHT_DAWN_111, 1
+	removeobject LOCALID_DAWN
 # 882 "data/maps/Route111/scripts.pory"
-	savebgm MUS_DUMMY
+	setflag FLAG_DAWN_111
 # 883 "data/maps/Route111/scripts.pory"
-	fadedefaultbgm
+	setvar VAR_FOUGHT_DAWN_111, 1
 # 884 "data/maps/Route111/scripts.pory"
+	savebgm MUS_DUMMY
+# 885 "data/maps/Route111/scripts.pory"
+	fadedefaultbgm
+# 886 "data/maps/Route111/scripts.pory"
 	releaseall
 	end
 
 
 Route111_EventScript_ApplyMovementDawn1::
-# 922 "data/maps/Route111/scripts.pory"
+# 924 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_DAWN, Route111_EventScript_DawnExit1
-# 923 "data/maps/Route111/scripts.pory"
+# 925 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_EventScript_DawnExit1::
-# 928 "data/maps/Route111/scripts.pory"
-	walk_down
-# 929 "data/maps/Route111/scripts.pory"
-	walk_down
 # 930 "data/maps/Route111/scripts.pory"
 	walk_down
 # 931 "data/maps/Route111/scripts.pory"
@@ -1725,23 +1725,23 @@ Route111_EventScript_DawnExit1::
 # 936 "data/maps/Route111/scripts.pory"
 	walk_down
 # 937 "data/maps/Route111/scripts.pory"
+	walk_down
+# 938 "data/maps/Route111/scripts.pory"
+	walk_down
+# 939 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_ApplyMovementDawn2::
-# 941 "data/maps/Route111/scripts.pory"
+# 943 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_DAWN, Route111_EventScript_DawnExit2
-# 942 "data/maps/Route111/scripts.pory"
+# 944 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_EventScript_DawnExit2::
-# 947 "data/maps/Route111/scripts.pory"
-	walk_down
-# 948 "data/maps/Route111/scripts.pory"
-	walk_down
 # 949 "data/maps/Route111/scripts.pory"
 	walk_down
 # 950 "data/maps/Route111/scripts.pory"
@@ -1757,25 +1757,25 @@ Route111_EventScript_DawnExit2::
 # 955 "data/maps/Route111/scripts.pory"
 	walk_down
 # 956 "data/maps/Route111/scripts.pory"
+	walk_down
+# 957 "data/maps/Route111/scripts.pory"
+	walk_down
+# 958 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_ApplyMovementDawn3::
-# 960 "data/maps/Route111/scripts.pory"
+# 962 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_DAWN, Route111_EventScript_DawnExit3
-# 961 "data/maps/Route111/scripts.pory"
+# 963 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_EventScript_DawnExit3::
-# 966 "data/maps/Route111/scripts.pory"
-	walk_right
-# 967 "data/maps/Route111/scripts.pory"
-	walk_down
 # 968 "data/maps/Route111/scripts.pory"
-	walk_down
+	walk_right
 # 969 "data/maps/Route111/scripts.pory"
 	walk_down
 # 970 "data/maps/Route111/scripts.pory"
@@ -1793,23 +1793,23 @@ Route111_EventScript_DawnExit3::
 # 976 "data/maps/Route111/scripts.pory"
 	walk_down
 # 977 "data/maps/Route111/scripts.pory"
+	walk_down
+# 978 "data/maps/Route111/scripts.pory"
+	walk_down
+# 979 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_EventScript_ApplyMovementDawn4::
-# 981 "data/maps/Route111/scripts.pory"
+# 983 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_DAWN, Route111_EventScript_DawnExit4
-# 982 "data/maps/Route111/scripts.pory"
+# 984 "data/maps/Route111/scripts.pory"
 	waitmovement 0
 	return
 
 
 Route111_EventScript_DawnExit4::
-# 987 "data/maps/Route111/scripts.pory"
-	walk_down
-# 988 "data/maps/Route111/scripts.pory"
-	walk_down
 # 989 "data/maps/Route111/scripts.pory"
 	walk_down
 # 990 "data/maps/Route111/scripts.pory"
@@ -1825,173 +1825,177 @@ Route111_EventScript_DawnExit4::
 # 995 "data/maps/Route111/scripts.pory"
 	walk_down
 # 996 "data/maps/Route111/scripts.pory"
+	walk_down
+# 997 "data/maps/Route111/scripts.pory"
+	walk_down
+# 998 "data/maps/Route111/scripts.pory"
 	step_end
 	return
 
 
 Route111_Trigger_BlockTrainerHillEntrance::
-# 1001 "data/maps/Route111/scripts.pory"
-	lockall
-# 1002 "data/maps/Route111/scripts.pory"
-	msgbox TrainerHillDev
 # 1003 "data/maps/Route111/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, StopPlayer
+	lockall
 # 1004 "data/maps/Route111/scripts.pory"
-	waitmovement 0
+	msgbox TrainerHillDev
 # 1005 "data/maps/Route111/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, StopPlayer
+# 1006 "data/maps/Route111/scripts.pory"
+	waitmovement 0
+# 1007 "data/maps/Route111/scripts.pory"
 	releaseall
 	end
 
 
 Route111_EventScript_Daisuke::
-# 1017 "data/maps/Route111/scripts.pory"
-	lockall
-# 1018 "data/maps/Route111/scripts.pory"
-	applymovement 30, Common_Movement_FacePlayer
 # 1019 "data/maps/Route111/scripts.pory"
-	goto_if_defeated TRAINER_DAISUKE, Route111_EventScript_DaisukeDefeated
+	lockall
 # 1020 "data/maps/Route111/scripts.pory"
-	goto_if_set FLAG_TEMP_1, Route111_EventScript_DaisukeRequestBattleAgain
+	applymovement 30, Common_Movement_FacePlayer
 # 1021 "data/maps/Route111/scripts.pory"
-	msgbox Daisuke_Greeting, MSGBOX_YESNO
+	goto_if_defeated TRAINER_DAISUKE, Route111_EventScript_DaisukeDefeated
 # 1022 "data/maps/Route111/scripts.pory"
+	goto_if_set FLAG_TEMP_1, Route111_EventScript_DaisukeRequestBattleAgain
+# 1023 "data/maps/Route111/scripts.pory"
+	msgbox Daisuke_Greeting, MSGBOX_YESNO
+# 1024 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_BattleDaisukePrompt
 	end
 
 
 Route111_EventScript_DaisukeRequestBattleAgain::
-# 1027 "data/maps/Route111/scripts.pory"
+# 1029 "data/maps/Route111/scripts.pory"
 	msgbox Daisuke_ReadyYet, MSGBOX_YESNO
-# 1028 "data/maps/Route111/scripts.pory"
+# 1030 "data/maps/Route111/scripts.pory"
 	goto Route111_EventScript_BattleDaisukePrompt
 	end
 
 
 Route111_EventScript_BattleDaisukePrompt::
-# 1033 "data/maps/Route111/scripts.pory"
-	call_if_eq VAR_RESULT, YES, Route111_EventScript_BattleDaisuke
-# 1034 "data/maps/Route111/scripts.pory"
-	goto_if_eq VAR_RESULT, NO, Route111_EventScript_DeclineDaisukeBattle
 # 1035 "data/maps/Route111/scripts.pory"
+	call_if_eq VAR_RESULT, YES, Route111_EventScript_BattleDaisuke
+# 1036 "data/maps/Route111/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route111_EventScript_DeclineDaisukeBattle
+# 1037 "data/maps/Route111/scripts.pory"
 	closemessage
 	end
 
 
 Route111_EventScript_DeclineDaisukeBattle::
-# 1040 "data/maps/Route111/scripts.pory"
-	setflag FLAG_TEMP_1
-# 1041 "data/maps/Route111/scripts.pory"
-	msgbox Daisuke_ComeBackWhenReady, MSGBOX_DEFAULT
 # 1042 "data/maps/Route111/scripts.pory"
+	setflag FLAG_TEMP_1
+# 1043 "data/maps/Route111/scripts.pory"
+	msgbox Daisuke_ComeBackWhenReady, MSGBOX_DEFAULT
+# 1044 "data/maps/Route111/scripts.pory"
 	release
 	end
 
 
 Route111_EventScript_BattleDaisuke::
-# 1047 "data/maps/Route111/scripts.pory"
-	msgbox Route111_EventScript_BattleDaisuke_Text_0, MSGBOX_DEFAULT
-# 1048 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_DAISUKE, Daisuke_Outro
 # 1049 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_PROTECTIVE_PADS
+	msgbox Route111_EventScript_BattleDaisuke_Text_0, MSGBOX_DEFAULT
 # 1050 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_PUNCHING_GLOVE
+	trainerbattle_no_intro TRAINER_DAISUKE, Daisuke_Outro
 # 1051 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_KICKING_SHOES
+	giveitem ITEM_PROTECTIVE_PADS
 # 1052 "data/maps/Route111/scripts.pory"
-	giveitem ITEM_LOADED_DICE
+	giveitem ITEM_PUNCHING_GLOVE
 # 1053 "data/maps/Route111/scripts.pory"
-	msgbox Daisuke_ExplainItems, MSGBOX_DEFAULT
+	giveitem ITEM_KICKING_SHOES
 # 1054 "data/maps/Route111/scripts.pory"
+	giveitem ITEM_LOADED_DICE
+# 1055 "data/maps/Route111/scripts.pory"
+	msgbox Daisuke_ExplainItems, MSGBOX_DEFAULT
+# 1056 "data/maps/Route111/scripts.pory"
 	release
 	end
 
 
 Route111_EventScript_DaisukeDefeated::
-# 1060 "data/maps/Route111/scripts.pory"
+# 1062 "data/maps/Route111/scripts.pory"
 	msgbox PostBattle_Daisuke, MSGBOX_DEFAULT
-# 1061 "data/maps/Route111/scripts.pory"
+# 1063 "data/maps/Route111/scripts.pory"
 	releaseall
 	end
 
 
 Route111_EventScript_BattleDaisuke_Text_0:
-# 1047 "data/maps/Route111/scripts.pory"
-	.string "Bring it on!$"
+# 1049 "data/maps/Route111/scripts.pory"
+	.string "来吧！$"
 
 Route111_Text_Dawn_Greeting::
-# 888 "data/maps/Route111/scripts.pory"
-	.string "Hey, {PLAYER}! Long time no see! Wow,\n"
-	.string "looks like you got the Dynamo Badge\l"
-	.string "from Wattson, pretty impressive!\p"
-	.string "I had a hard time making it to Lavaridge\n"
-	.string "Town to take on Flannery, so I figured I\l"
-	.string "would head back this way to train a\l"
-	.string "little…\p"
-	.string "I guess that makes this some\n"
-	.string "good timing, get ready!$"
+# 890 "data/maps/Route111/scripts.pory"
+	.string "嘿，{PLAYER}！好久不见！哇，\n"
+	.string "看来你已经从铁旋那儿拿到了\l"
+	.string "电力徽章，真厉害！\p"
+	.string "我好不容易才走到釜炎镇\n"
+	.string "去挑战亚莎，所以我想\l"
+	.string "还是原路返回，先练一练\l"
+	.string "再说……\p"
+	.string "看来这还挺\n"
+	.string "巧的，准备好吧！$"
 
 Route111_Text_Dawn_Defeated::
-# 900 "data/maps/Route111/scripts.pory"
-	.string "I really need more training if I'm losing\n"
-	.string "to you again!$"
+# 902 "data/maps/Route111/scripts.pory"
+	.string "要是我又输给你，那可\n"
+	.string "真得多练练了！$"
 
 Route111_Text_Dawn_MagmaAndAqua::
-# 905 "data/maps/Route111/scripts.pory"
-	.string "Oh by the way, when I was walking\n"
-	.string "around the mountain up ahead, I heard\l"
-	.string "some rumblings about Team Aqua\l"
-	.string "fighting with another team called\l"
-	.string "Team Magma.\p"
-	.string "I'm not really sure what's going on,\n"
-	.string "but be careful going ahead.\p"
-	.string "In the meantime, I have some spare\n"
-	.string "Items you can have, hope they help!$"
+# 907 "data/maps/Route111/scripts.pory"
+	.string "对了，我在前面那座山\n"
+	.string "附近转的时候，听到\l"
+	.string "有水舰队在和另一个叫\l"
+	.string "熔岩队的组织\l"
+	.string "打架。\p"
+	.string "我不太清楚发生了什么，\n"
+	.string "但你往前要小心。\p"
+	.string "对了，我有些多余的\n"
+	.string "道具，给你吧，希望有用！$"
 
 Route111_Text_DawnGoodbye::
-# 917 "data/maps/Route111/scripts.pory"
-	.string "Back to training, see you later!$"
+# 919 "data/maps/Route111/scripts.pory"
+	.string "我回去训练了，回头见！$"
 
 TrainerHillDev::
-# 1009 "data/maps/Route111/scripts.pory"
-	.string "训练家 HILL\n"
-	.string "UNDER DEVELOPMENT$"
+# 1011 "data/maps/Route111/scripts.pory"
+	.string "训练家之丘\n"
+	.string "建设中$"
 
 Daisuke_Greeting::
-# 1065 "data/maps/Route111/scripts.pory"
-	.string "Yo! I'm working on becoming the karate\n"
-	.string "master of this region. If you can help\l"
-	.string "me with my training, I'll reward you with\l"
-	.string "some of the Items I've been using on my\l"
-	.string "Pokémon during our training.\p"
-	.string "What do you say?$"
+# 1067 "data/maps/Route111/scripts.pory"
+	.string "哟！我正朝着成为这个地区\n"
+	.string "空手道大师的目标努力。你若肯\l"
+	.string "陪我练练，我就把我训练时\l"
+	.string "用在宝可梦身上的道具\l"
+	.string "给宝可梦用了不少。\p"
+	.string "你觉得如何？$"
 
 Daisuke_ReadyYet::
-# 1074 "data/maps/Route111/scripts.pory"
-	.string "Are you willing to help me become the\n"
-	.string "karate master now?$"
+# 1076 "data/maps/Route111/scripts.pory"
+	.string "现在愿意帮我成为\n"
+	.string "空手道大师了吗？$"
 
 Daisuke_ComeBackWhenReady::
-# 1079 "data/maps/Route111/scripts.pory"
-	.string "No worries, I'll keep training on my own\n"
-	.string "out here.$"
+# 1081 "data/maps/Route111/scripts.pory"
+	.string "没关系，我就自己\n"
+	.string "在这儿继续练。$"
 
 Daisuke_ExplainItems::
-# 1084 "data/maps/Route111/scripts.pory"
-	.string "I've used those Items a bunch for my\n"
-	.string "Pokémon during our training.\p"
-	.string "They boost the power of certain moves,\n"
-	.string "like punching or kicking moves.\p"
-	.string "They can be pretty niche, but they are\n"
-	.string "super useful when you need them!$"
+# 1086 "data/maps/Route111/scripts.pory"
+	.string "那些道具我在训练时\n"
+	.string "给宝可梦用了不少。\p"
+	.string "它们能增强某些招式的威力，\n"
+	.string "比如拳类或踢类招式。\p"
+	.string "虽然用途挺专一的，但\n"
+	.string "真的需要时超级好用！$"
 
 Daisuke_Outro::
-# 1093 "data/maps/Route111/scripts.pory"
-	.string "Great battle! I know I'll be leaving\n"
-	.string "these Items in good hands.$"
+# 1095 "data/maps/Route111/scripts.pory"
+	.string "打得真好！把这些道具交给你，\n"
+	.string "我很放心。$"
 
 PostBattle_Daisuke::
-# 1099 "data/maps/Route111/scripts.pory"
-	.string "Looks like I still have a long way to go.\n"
-	.string "Hope you're making good use of\l"
-	.string "those Items!$"
+# 1101 "data/maps/Route111/scripts.pory"
+	.string "看来我还差得远。\n"
+	.string "希望你好好\l"
+	.string "用那些道具！$"

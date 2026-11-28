@@ -157,106 +157,116 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_GruntScared:
-	.string "I've had enough! I quit! I don't know\n"
-	.string "what Maxie's doing back there, but he's\l"
-	.string "going to bring this whole mountain down\l"
-	.string "on top of us!$"
+	.string "我受够了！我不干了！\n"
+	.string "我不知道马克西在里面\l"
+	.string "干什么，可他要把\l"
+	.string "整座山压到我们\l"
+	.string "头上了！$"
 
 MagmaHideout_4F_Text_GruntScared2:
-	.string "Hail Arceus, full of gra….$"
+	.string "阿尔宙斯保佑，满心\n"
+	.string "慈悲……$"
 
 MagmaHideout_4F_Text_GruntRightThing:
-	.string "I can't believe I lost to you again…$"
+	.string "真不敢信我又输给你了……$"
 
 MagmaHideout_4F_Text_NeverStopMaxie:
-	.string "You'll never stop Maxie now.\n"
-	.string "Mwuahahahahahaha!$"
+	.string "你现在永远阻止不了\n"
+	.string "马克西了。哈哈哈！$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
-	.string "You're not finished yet!\n"
-	.string "You're not getting by me easily!$"
+	.string "你还没完呢！\n"
+	.string "别想轻易过我这一关！$"
 
 MagmaHideout_4F_Text_Grunt13Defeat:
-	.string "I can't believe I lost to you again…$"
+	.string "真不敢信我又输给你了……$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "Courtney: {PLAYER} is weakened now,\n"
-	.string "finish them off, Tabitha.$"
+	.string "科特妮：{PLAYER}现在\n"
+	.string "弱了，塔比莎，\l"
+	.string "收拾他。$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "嘿嘿嘿！\n"
+	.string "你都到这儿了，我就告诉你！\p"
+	.string "没错！\n"
+	.string "前面固拉多正在沉睡！\p"
+	.string "马克西几秒前刚去\n"
+	.string "找固拉多了！\p"
+	.string "它马上就会醒！\n"
+	.string "嘿嘿！嘿嘿嘿！$"
 
 MagmaHideout_4F_Text_TabithaDefeat:
-	.string "I may not have been able to defeat you,\n"
-	.string "but I bet I still accomplished the\l"
-	.string "mission…$"
+	.string "我可能没能打败你，\n"
+	.string "不过我打赌我还是\l"
+	.string "完成了任务……$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
-	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "……而且你跟我耗时间\n"
+	.string "的时候，马克西应该\l"
+	.string "已经唤醒固拉多了……$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "Groudon…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This Red Orb though… This will awaken\n"
-	.string "your Primal powers, won't it?\p"
-	.string "I have brought you the Red Orb.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And finally…\n"
-	.string "You will be mine!$"
+	.string "固拉多……\p"
+	.string "你沉睡在岩浆之中，\n"
+	.string "什么都唤不醒你……\p"
+	.string "可这颗红色宝珠……\n"
+	.string "它能唤醒你的原始力量，\l"
+	.string "对吧？\p"
+	.string "我把红色宝珠带来了。\n"
+	.string "让它的光辉唤醒你！\p"
+	.string "终于……\n"
+	.string "你是我的了！$"
 
 MagmaHideout_4F_Text_MaxieMasterBall:
-	.string "Master Ball, go!$"
+	.string "大师球，去吧！$"
 
 MagmaHideout_4F_Text_MaxieCaputredGroudon:
-	.string "YES! Groudon is mine! And with this Red\n"
-	.string "Orb to unleash its Primal powers, there\l"
-	.string "is no one that can stop me…$"
+	.string "好！固拉多是我的了！\n"
+	.string "有这颗红色宝珠释放\l"
+	.string "它的原始力量，谁也\l"
+	.string "阻止不了我……$"
 
 MagmaHideout_4F_Text_NotEvenYou:
-	.string "Not even you, {PLAYER}. Prepare to\n"
-	.string "become the first witness of the\l"
-	.string "terrible power of Primal Groudon!$"
+	.string "连你也不行，{PLAYER}。\n"
+	.string "准备好成为原始固拉多\l"
+	.string "可怕力量的\l"
+	.string "第一个见证者吧！$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "Maxie: GROUDON!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+	.string "马克西：固拉多！\n"
+	.string "怎么了？\p"
+	.string "不是蓝色宝珠才是\n"
+	.string "关键吗？\p"
+	.string "固拉多！\n"
+	.string "你去哪儿了……$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "Maxie: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "马克西：哦，原来是你？\p"
+	.string "我见过你在各处\n"
+	.string "不请自来地打探……\p"
+	.string "我明白了！\n"
+	.string "你一定耍了什么手段！$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
-	.string "NO! No, no, no, no, NO!$"
+	.string "不！不不不不不！$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "What?! Groudon escaped my Master Ball?\n"
-	.string "That's impossible! Perhaps its power\l"
-	.string "cannot be contained after all…\p"
-	.string "… … … … … …\p"
-	.string "Does this mean Groudon will start to\n"
-	.string "rampage out of control?\p"
-	.string "… … … … … …\p"
-	.string "This wasn't a part of my plan…\p"
-	.string "I never intended for things to go this\n"
-	.string "way, I wanted to be in full control of\l"
-	.string "Groudon to reshape the Earth, but now…\p"
-	.string "I have to go, I fear I may have made a\n"
-	.string "grave mistake.$"
+	.string "什么？！固拉多从我\n"
+	.string "大师球里跑了？那不可能！\l"
+	.string "也许它的力量根本\l"
+	.string "装不住……\p"
+	.string "………………\p"
+	.string "这是不是意味着固拉多\n"
+	.string "会失控暴走？\p"
+	.string "………………\p"
+	.string "这不在我的计划里……\p"
+	.string "我从没想过会变成这样，\n"
+	.string "我本想完全控制\l"
+	.string "固拉多，重塑大地，\l"
+	.string "可现在……\p"
+	.string "我得走了，我怕我犯了\n"
+	.string "一个重大的错误。$"
 `
 
 script MagmaHideout_EventScript_MaxieTrigger1{
@@ -383,35 +393,35 @@ script TabithaLost {
 }
 
 text DelayForMaxie {
-	"Tabitha: Listen up, Courtney! We have\n"
-	"to do everything we can to stall\l"
-	"that brat!\p"
-	"We know {PLAYER} is on their way here\n"
-	"right now, and even though our coward\l"
-	"comrades quit on us, we need to buy\l"
-	"time for Maxie to capture Groudon!"
+	"塔比莎：听好了，科特妮！我们\n"
+	"得想尽办法拖住\l"
+	"那个小鬼！\p"
+	"我们知道{PLAYER}正在赶来这里，\n"
+	"虽然那些胆小的同伴跑了，\l"
+	"但我们必须为赤焰\l"
+	"捕获固拉多争取时间！"
 }
 
 text GetThem {
-	"Tabitha: It's {PLAYER}! Don't just\n"
-	"stand there, get them!"
+	"塔比莎：是{PLAYER}！别傻\n"
+	"站着，上啊！"
 }
 
 text YesSir {
-	"Courtney: You're not my boss anymore,\n"
-	"Tabitha. We're equals.\p"
-	"But I'll pummel this brat as revenge for\n"
-	"Mt. Chimney!$"
+	"科特妮：塔比莎，你已经不是\n"
+	"我的上司了。我们是平级。\p"
+	"不过为了烟囱山之仇，\n"
+	"我会把这小鬼揍扁！$"
 }
 
 text DealWithYouMyself{
-	"Tabitha: Looks like I get to deal the\n"
-	"final blow myself!"
+	"塔比莎：看来这次\n"
+	"由我来给他最后一击！"
 }
 
 text ThinkWeDidOurJobs{
-	"Something tells me we did our jobs… Do\n"
-	"you feel that aura of power in the air?"
+	"总觉得我们该做的都做了……你\n"
+	"感觉到空气中那股强大的气息了吗？"
 }
 
 script SetMagmaAdminsPermLoc {

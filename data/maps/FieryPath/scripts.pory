@@ -19,13 +19,12 @@ FieryPath_EventScript_Scientist::
 	end
 
 FieryPath_Text_BlockedOff:
-	.string "There's been an uptick in seismic\n"
-	.string "activity in this area, so I'm conducting\l"
-	.string "some important research.\p"
-	.string "Please don't bother me while I'm\n"
-	.string "working, and make sure you walk\l"
-	.string "very carefully while you're here in\l"
-	.string "Fiery Path so you don't interfere with\l"
-	.string "my data!$"
+	.string "这一带的地震活动\n"
+	.string "最近有所增加，\l"
+	.string "所以我正在做重要的研究。\p"
+	.string "我工作的时候请别打扰我，\n"
+	.string "在这里的炎热小径上\l"
+	.string "走路也请小心，\l"
+	.string "别干扰我的数据！$"
 
 `

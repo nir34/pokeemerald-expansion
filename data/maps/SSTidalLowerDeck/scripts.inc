@@ -29,50 +29,52 @@ SSTidalLowerDeck_EventScript_Leonard::
 # 15 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_PhillipIntro:
 # 16 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "Arrrgh! I'm fed up and dog-tired of\n"
+	.string "啊——！打扫这么大的\n"
 # 17 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "cleaning this huge place!\p"
+	.string "地方，我累死了！\p"
 # 18 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "Let's have a quick battle!$"
+	.string "来场快速对战吧！$"
 # 19 "data/maps/SSTidalLowerDeck/scripts.pory"
 
 # 20 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_PhillipDefeat:
 # 21 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "Little bro, I lost!$"
+	.string "小弟我输了！$"
 # 22 "data/maps/SSTidalLowerDeck/scripts.pory"
 
 # 23 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_PhillipPostBattle:
 # 24 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "We're the CLEANUP BROTHERS!\p"
+	.string "我们是清扫兄弟！\p"
 # 25 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "The old one dumps the detergent,\n"
+	.string "老的倒洗涤剂，\n"
 # 26 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "and the young one does the scrubbing!$"
+	.string "小的负责刷！$"
 # 27 "data/maps/SSTidalLowerDeck/scripts.pory"
 
 # 28 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_LeonardIntro:
 # 29 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "This is the bottom of the ship's hull.\n"
+	.string "这是船底。\n"
 # 30 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "There's plenty of room.\l"
+	.string "地方很宽敞。\l"
 # 31 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "It'll be alright for a Pokémon battle.$"
+	.string "在这儿打宝可梦对战\l"
 # 32 "data/maps/SSTidalLowerDeck/scripts.pory"
-
+	.string "没问题。$"
 # 33 "data/maps/SSTidalLowerDeck/scripts.pory"
-SSTidalLowerDeck_Text_LeonardDefeat:
-# 34 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "Big bro, I lost!$"
-# 35 "data/maps/SSTidalLowerDeck/scripts.pory"
 
+# 34 "data/maps/SSTidalLowerDeck/scripts.pory"
+SSTidalLowerDeck_Text_LeonardDefeat:
+# 35 "data/maps/SSTidalLowerDeck/scripts.pory"
+	.string "大哥我输了！$"
 # 36 "data/maps/SSTidalLowerDeck/scripts.pory"
-SSTidalLowerDeck_Text_LeonardPostBattle:
+
 # 37 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "We're the CLEANUP BROTHERS!\p"
+SSTidalLowerDeck_Text_LeonardPostBattle:
 # 38 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "The old one dumps the detergent,\n"
+	.string "我们是清扫兄弟！\p"
 # 39 "data/maps/SSTidalLowerDeck/scripts.pory"
-	.string "and the young one does the scrubbing!$"
+	.string "老的倒洗涤剂，\n"
+# 40 "data/maps/SSTidalLowerDeck/scripts.pory"
+	.string "小的负责刷！$"

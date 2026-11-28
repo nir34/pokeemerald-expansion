@@ -3179,7 +3179,7 @@ static void SpriteCB_Flygon(struct Sprite *sprite)
 #define COLOR_CHANGES 9 // Number of stages for changing the letter color
 
 // For the letters in "Game Freak"
-// Also intended for the letters in "Presents", which is never shown
+// Also intended for the letters in "呈现", which is never shown
 static void SpriteCB_LogoLetter(struct Sprite *sprite)
 {
     switch (sprite->sState)

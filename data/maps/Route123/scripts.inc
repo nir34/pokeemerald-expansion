@@ -331,50 +331,52 @@ Route123_EventScript_RematchFernando::
 # 166 "data/maps/Route123/scripts.pory"
 Route123_Text_LoveGrassMonsHaveAny:
 # 167 "data/maps/Route123/scripts.pory"
-	.string "I love GRASS-type Pokémon!\p"
+	.string "我最爱草属性宝可梦！\p"
 # 168 "data/maps/Route123/scripts.pory"
-	.string "Do you have any GRASS-type Pokémon?$"
+	.string "你有草属性\n"
 # 169 "data/maps/Route123/scripts.pory"
-
+	.string "宝可梦吗？$"
 # 170 "data/maps/Route123/scripts.pory"
-Route123_Text_YouLikeGrassMonsTooHaveThis:
+
 # 171 "data/maps/Route123/scripts.pory"
-	.string "Oh?\p"
+Route123_Text_YouLikeGrassMonsTooHaveThis:
 # 172 "data/maps/Route123/scripts.pory"
-	.string "You like GRASS-type Pokémon, too,\n"
+	.string "哦？\p"
 # 173 "data/maps/Route123/scripts.pory"
-	.string "don't you?\p"
+	.string "你也喜欢草属性\n"
 # 174 "data/maps/Route123/scripts.pory"
-	.string "I'm so happy, you can have this!\n"
+	.string "宝可梦，对吧？\p"
 # 175 "data/maps/Route123/scripts.pory"
-	.string "It's a token of our friendship.$"
+	.string "我太高兴了，这个给你！\n"
 # 176 "data/maps/Route123/scripts.pory"
-
+	.string "这是我们友情的证明。$"
 # 177 "data/maps/Route123/scripts.pory"
-Route123_Text_CheckTreesWithMyGrassMon:
+
 # 178 "data/maps/Route123/scripts.pory"
-	.string "I check trees with my GRASS-type\n"
+Route123_Text_CheckTreesWithMyGrassMon:
 # 179 "data/maps/Route123/scripts.pory"
-	.string "Pokémon. I'm like a tree doctor.$"
+	.string "我用草属性宝可梦\n"
 # 180 "data/maps/Route123/scripts.pory"
-
+	.string "检查树木。就像树医生。$"
 # 181 "data/maps/Route123/scripts.pory"
-Route123_Text_RouteSign:
+
 # 182 "data/maps/Route123/scripts.pory"
-	.string "{RIGHT_ARROW} ROUTE 123\n"
+Route123_Text_RouteSign:
 # 183 "data/maps/Route123/scripts.pory"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string "{RIGHT_ARROW} 123号道路\n"
 # 184 "data/maps/Route123/scripts.pory"
-
+	.string "{LEFT_ARROW} 118号道路$"
 # 185 "data/maps/Route123/scripts.pory"
-Route123_Text_RouteSignMtPyre:
-# 186 "data/maps/Route123/scripts.pory"
-	.string "{UP_ARROW} MT. PYRE\n"
-# 187 "data/maps/Route123/scripts.pory"
-	.string "“Forbidden to the faint of heart.”$"
-# 188 "data/maps/Route123/scripts.pory"
 
+# 186 "data/maps/Route123/scripts.pory"
+Route123_Text_RouteSignMtPyre:
+# 187 "data/maps/Route123/scripts.pory"
+	.string "{UP_ARROW} 送神火山\n"
+# 188 "data/maps/Route123/scripts.pory"
+	.string "“胆小者禁入。”$"
 # 189 "data/maps/Route123/scripts.pory"
-Route123_Text_BerryMastersHouse:
+
 # 190 "data/maps/Route123/scripts.pory"
-	.string "BERRY MASTER'S HOUSE$"
+Route123_Text_BerryMastersHouse:
+# 191 "data/maps/Route123/scripts.pory"
+	.string "树果名人之家$"

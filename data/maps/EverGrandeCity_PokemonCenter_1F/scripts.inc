@@ -153,141 +153,147 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 # 77 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
 # 78 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "The Pokémon League is only a short\n"
+	.string "宝可梦联盟就在冠军之路\n"
 # 79 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "distance after the Victory Road.\p"
+	.string "过去不远。\p"
 # 80 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "If you've come this far, what choice\n"
+	.string "你都走到这里了，除了\n"
 # 81 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "do you have but to keep going?$"
+	.string "继续前进还有\l"
 # 82 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-
+	.string "什么选择？$"
 # 83 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
+
 # 84 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "Scott: {PLAYER}{KUN}, you've clawed your\n"
+EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 # 85 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "way up to face the Pokémon League!\p"
+	.string "史考特：{PLAYER}，你一路\n"
 # 86 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "I'm happy for you!\n"
+	.string "爬上来，要挑战宝可梦\l"
 # 87 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "You made my cheering worthwhile!\p"
+	.string "联盟了！\p"
 # 88 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "{PLAYER}{KUN}, if you were to become\n"
+	.string "我为你高兴！\n"
 # 89 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "the Pokémon League Champion…\p"
+	.string "我的加油没白费！\p"
 # 90 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "I'll get in touch with you then.\p"
+	.string "{PLAYER}，要是你成了\n"
 # 91 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "Okay, {PLAYER}{KUN}.\n"
+	.string "宝可梦联盟冠军……\p"
 # 92 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "Go for greatness!$"
+	.string "到时候我会\n"
+# 93 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "联系你。\p"
+# 94 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "好，{PLAYER}。\n"
+# 95 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "去成就伟大吧！$"
 
 EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM::
-# 97 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	lock
-# 98 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	faceplayer
 # 100 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	lock
+# 101 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	faceplayer
+# 103 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	goto_if_set FLAG_RECEIVED_ZYGARDE_CUBE, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_2
-# 106 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	msgbox EverGrandeCity_PokemonCenter_1F_Text_IHaveCube, MSGBOX_DEFAULT
-# 107 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	special ChoosePartyMon
-# 108 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	waitstate
 # 109 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	copyvar VAR_RESULT, VAR_0x8004
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_IHaveCube, MSGBOX_DEFAULT
 # 110 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend
+	special ChoosePartyMon
 # 111 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	waitstate
 # 112 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	switch VAR_RESULT
+	copyvar VAR_RESULT, VAR_0x8004
 # 113 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	goto_if_eq VAR_RESULT, PARTY_NOTHING_CHOSEN, EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend
 # 114 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE_50, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
 # 115 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE_10, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	switch VAR_RESULT
 # 116 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE_10_AURA_BREAK, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	case SPECIES_ZYGARDE, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
 # 117 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE_10_POWER_CONSTRUCT, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	case SPECIES_ZYGARDE_50, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
 # 118 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	case SPECIES_ZYGARDE_50_POWER_CONSTRUCT, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+	case SPECIES_ZYGARDE_10, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
 # 119 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	case SPECIES_ZYGARDE_10_AURA_BREAK, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+# 120 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	case SPECIES_ZYGARDE_10_POWER_CONSTRUCT, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+# 121 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	case SPECIES_ZYGARDE_50_POWER_CONSTRUCT, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
+# 122 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	case SPECIES_ZYGARDE_COMPLETE, EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6
-# 125 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 128 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_NotLegend, MSGBOX_DEFAULT
-# 126 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 129 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_2:
-# 101 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 104 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_UseThatCube, MSGBOX_DEFAULT
-# 102 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 105 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_4:
-# 130 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 133 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_UseThatCube, MSGBOX_DEFAULT
-# 131 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 134 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_6:
-# 120 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 123 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_PleaseTakeThisCube, MSGBOX_DEFAULT
-# 121 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 124 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	giveitem ITEM_ZYGARDE_CUBE
-# 122 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 125 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	setflag FLAG_RECEIVED_ZYGARDE_CUBE
 	goto EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM_4
 
 
 EverGrandeCity_PokemonCenter_1F_EventScript_CancelLegend::
-# 136 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 139 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_DontHaveLegend, MSGBOX_DEFAULT
-# 137 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+# 140 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 EverGrandeCity_PokemonCenter_1F_Text_IHaveCube::
-# 141 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "A promising trainer I see. I knew if I\n"
-	.string "waited at this Pokémon Center,\l"
-	.string "eventually a trainer of your caliber\l"
-	.string "would arrive.\p"
-	.string "I've spent a long time collecting cells\n"
-	.string "to make a highly-advanced Cube to\l"
-	.string "change the form of a certain Pokémon.\p"
-	.string "If you show me you have this Pokémon, I\n"
-	.string "can give you the Cube.$"
+# 144 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "我看出你是个有前途的训练家。我就\n"
+	.string "知道只要在这宝可梦中心等，\l"
+	.string "迟早会有你这种水准的\l"
+	.string "训练家出现。\p"
+	.string "我花了很长时间收集细胞，\n"
+	.string "做成了一个能改变某只\l"
+	.string "宝可梦形态的高级核心。\p"
+	.string "只要让我看看你有那只宝可梦，\n"
+	.string "我就把核心送你。$"
 
 EverGrandeCity_PokemonCenter_1F_Text_PleaseTakeThisCube::
-# 153 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "That's it! That's the Pokémon that this\n"
-	.string "Cube will work on.\p"
-	.string "Please, use this technology to the\n"
-	.string "fullest extent.$"
+# 156 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "就是它！这个核心正是\n"
+	.string "用在那只宝可梦上的。\p"
+	.string "请把这项技术\n"
+	.string "发挥到极致。$"
 
 EverGrandeCity_PokemonCenter_1F_Text_UseThatCube::
-# 160 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "That Cube will bring out the true power\n"
-	.string "of Zygarde.\p"
-	.string "It took me many years to find the cells\n"
-	.string "needed to make it, so please use it well.$"
+# 163 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "这个核心能引出基格尔德\n"
+	.string "真正的力量。\p"
+	.string "我花了好几年才找齐\n"
+	.string "制作它所需的细胞，请好好使用。$"
 
 EverGrandeCity_PokemonCenter_1F_Text_DontHaveLegend::
-# 167 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "I see, you don't have the Pokémon I am\n"
-	.string "looking for.$"
+# 170 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "我明白了，你没有我\n"
+	.string "在找的宝可梦。$"
 
 EverGrandeCity_PokemonCenter_1F_Text_NotLegend::
-# 171 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "That's not the Pokémon that can use\n"
-	.string "this Cube.$"
+# 174 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "那只宝可梦用不了\n"
+	.string "这个核心。$"

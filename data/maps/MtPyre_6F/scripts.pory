@@ -29,43 +29,47 @@ MtPyre_6F_EventScript_Cedric::
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "When I'm here…\n"
-	.string "A curious power flows into me…$"
+	.string "我在这里的时候……\n"
+	.string "有一股奇妙的力量\l"
+	.string "流进身体……$"
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "The power is ebbing away…$"
+	.string "力量正在退去……$"
 
 MtPyre_6F_Text_ValeriePostBattle:
-	.string "Perhaps the power is from the spirits\n"
-	.string "of Pokémon in fitful sleep here…$"
+	.string "也许这股力量来自在这里\n"
+	.string "不安沉睡的宝可梦灵魂……$"
 
 MtPyre_6F_Text_ValerieRegister:
-	.string "Fufufu… I lost the match, but…\n"
-	.string "I have this little ability…\p"
-	.string "Without ever laying my hands on\n"
-	.string "your PokéNav… Hiyah!$"
+	.string "呵呵呵……我输了对战，\n"
+	.string "不过我有点小本事……\p"
+	.string "我的手完全没碰到\n"
+	.string "你的导航……\l"
+	.string "嘿呀！$"
 
 MtPyre_6F_Text_ValerieRematchIntro:
-	.string "Behind you…\n"
-	.string "What is it…$"
+	.string "你身后……\n"
+	.string "有东西……$"
 
 MtPyre_6F_Text_ValerieRematchDefeat:
-	.string "Something faded away…$"
+	.string "有什么东西\n"
+	.string "消失了……$"
 
 MtPyre_6F_Text_ValeriePostRematch:
-	.string "The Pokémon at rest here…\n"
-	.string "Sometimes, they play…$"
+	.string "在这里安息的宝可梦……\n"
+	.string "有时候，它们会玩耍……$"
 
 MtPyre_6F_Text_CedricIntro:
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "你迷路了吗？\n"
+	.string "别怕，有我在！$"
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Weren't you lost?$"
+	.string "你不是迷路了吗？$"
 
 MtPyre_6F_Text_CedricPostBattle:
-	.string "I had this feeling that a lost TRAINER\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "我感觉迷路的训练家\n"
+	.string "会慌慌张张，很好对付。\p"
+	.string "这招不光彩，\n"
+	.string "我不会再用了……$"
 
 `

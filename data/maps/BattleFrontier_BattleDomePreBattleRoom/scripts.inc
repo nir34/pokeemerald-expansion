@@ -549,238 +549,222 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 # 275 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
 # 276 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your 1st-round match is next.\n"
+	.string "接下来是你的第一轮比赛。\n"
 # 277 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 278 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 279 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
 # 280 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your 2nd-round match is next.\n"
+	.string "接下来是你的第二轮比赛。\n"
 # 281 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 282 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 283 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
 # 284 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your semifinal match is next.\n"
+	.string "接下来是半决赛。\n"
 # 285 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 286 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 287 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
 # 288 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your final match is next.\n"
+	.string "接下来是决赛。\n"
 # 289 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 290 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 291 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
 # 292 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Please choose the two Pokémon\n"
+	.string "请选择要上场对战的\n"
 # 293 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "that are to appear in battle.$"
+	.string "两只宝可梦。$"
 # 294 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 295 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
 # 296 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Right this way, please.$"
+	.string "请往这边走。$"
 # 297 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 298 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
 # 299 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Thank you for competing!\p"
+	.string "感谢参赛！\p"
 # 300 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "I'll restore your Pokémon to\n"
+	.string "我来把你的宝可梦\n"
 # 301 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "full health.$"
+	.string "完全回复。$"
 # 302 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 303 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
 # 304 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "All 1st-round matches have been\n"
+	.string "第一轮比赛全部结束了。\p"
 # 305 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "completed.\p"
+	.string "这些是晋级的队伍！$"
 # 306 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "These are the teams that advanced!$"
+
 # 307 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 308 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
+# 308 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "第二轮比赛全部结束了。\p"
 # 309 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "All 2nd-round matches have been\n"
+	.string "这些是晋级的队伍！$"
 # 310 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "completed.\p"
+
 # 311 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "These are the teams that advanced!$"
-# 312 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 313 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
+# 312 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "半决赛比赛全部结束了。\p"
+# 313 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "这些是晋级的队伍！$"
 # 314 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "All semifinal matches have been\n"
+
 # 315 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "completed.\p"
+@ Unused
 # 316 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "These are the teams that advanced!$"
-# 317 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 318 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-@ Unused
-# 319 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
+# 317 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "恭喜你通过第一轮。\p"
+# 318 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "接下来是第二轮。\n"
+# 319 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "准备好了吗？$"
 # 320 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Congratulations for getting through\n"
+
 # 321 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "the 1st round.\p"
+@ Unused
 # 322 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The 2nd round is next.\n"
-# 323 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
-# 324 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 325 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-@ Unused
-# 326 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
+# 323 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "恭喜你进入半决赛。\p"
+# 324 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "四支最强的队伍在这一轮相遇。\n"
+# 325 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "准备好了吗？$"
+# 326 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+
 # 327 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Congratulations for advancing\n"
-# 328 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "to the semifinals.\p"
-# 329 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The best four teams meet in this round.\n"
-# 330 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
-# 331 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 332 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 @ Unused
-# 333 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 328 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
-# 334 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Congratulations for advancing\n"
-# 335 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "to the final match.\p"
-# 336 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "You're one win from the championship.\n"
-# 337 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
-# 338 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 329 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "恭喜你进入决赛。\p"
+# 330 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "只差一胜就是冠军。\n"
+# 331 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "准备好了吗？$"
+# 332 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
-# 339 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 333 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
+# 334 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "{PLAYER}的下一个对手\n"
+# 335 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "是这位训练家。$"
+# 336 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+
+# 337 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
+# 338 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "大赛正在进行第一轮。$"
+# 339 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+
 # 340 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "{PLAYER}'s next opponent\n"
+BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
 # 341 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "is this 训练家.$"
+	.string "大赛正在进行第二轮。$"
 # 342 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 343 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
+BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
 # 344 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The tournament is in the 1st round.$"
+	.string "大赛正在进行半决赛。$"
 # 345 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 346 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
+BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
 # 347 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The tournament is in the 2nd round.$"
+	.string "大赛已进入决赛。$"
 # 348 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 349 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
-# 350 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The tournament is in the semifinals.$"
-# 351 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 352 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
-# 353 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "The tournament is up to the final.$"
-# 354 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 355 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-# 356 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Would you like to save and\n"
-# 357 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "quit the game?$"
-# 358 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 350 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "你想保存并退出\n"
+# 351 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "游戏吗？$"
+# 352 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
-# 359 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 353 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-# 360 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Would you like to retire from your\n"
-# 361 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Battle Tournament challenge?$"
-# 362 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 354 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "你想退出对战大赛\n"
+# 355 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "挑战吗？$"
+# 356 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
-# 363 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 357 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
-# 364 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "I am saving your data.\n"
-# 365 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Please wait.$"
-# 366 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 358 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "我正在保存数据。\n"
+# 359 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "请稍等。$"
+# 360 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
-# 367 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 361 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
+# 362 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "要我把你上一场比赛记到\n"
+# 363 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "开拓区通行证上吗？$"
+# 364 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+
+# 365 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
+# 366 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "恭喜你进入决赛。\p"
+# 367 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "决赛中，你将挑战\n"
 # 368 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Should I record your last match\n"
+	.string "巨蛋之星塔克。\p"
 # 369 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "on your FRONTIER PASS?$"
+	.string "准备好了吗？$"
 # 370 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 371 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
+@ Identical to ReadyForTuckerSilver
 # 372 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Congratulations for advancing\n"
+BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
 # 373 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "to the final match.\p"
+	.string "恭喜你进入决赛。\p"
 # 374 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "For the final match, you will challenge\n"
+	.string "决赛中，你将挑战\n"
 # 375 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "the DOME ACE TUCKER.\p"
+	.string "巨蛋之星塔克。\p"
 # 376 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 377 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 378 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-@ Identical to ReadyForTuckerSilver
-# 379 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
-# 380 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Congratulations for advancing\n"
-# 381 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "to the final match.\p"
-# 382 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "For the final match, you will challenge\n"
-# 383 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "the DOME ACE TUCKER.\p"
-# 384 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Are you ready?$"
-# 385 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-
-# 386 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
-# 387 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your final battle against TUCKER is\n"
-# 388 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "next. Are you ready?$"
-# 389 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 379 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "接下来是你和塔克的\n"
+# 380 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "决赛。准备好了吗？$"
+# 381 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
-# 390 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 382 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 @ Identical again
-# 391 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+# 383 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
-# 392 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "Your final battle against TUCKER is\n"
-# 393 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	.string "next. Are you ready?$"
+# 384 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "接下来是你和塔克的\n"
+# 385 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	.string "决赛。准备好了吗？$"

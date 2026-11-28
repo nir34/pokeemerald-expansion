@@ -1061,98 +1061,96 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 # 531 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_FerryUnavailable:
 # 532 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "I beg your pardon?\n"
+	.string "抱歉，你说什么？\n"
 # 533 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "You're looking for a ship?\p"
+	.string "你在找船？\p"
 # 534 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "I'm sorry, the ferry service isn't\n"
+	.string "很抱歉，渡轮服务\n"
 # 535 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "available at present…$"
+	.string "目前没有运营……$"
 # 536 "data/maps/LilycoveCity_Harbor/scripts.pory"
 
 # 537 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
 # 538 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Hello, are you here for the ferry?\n"
+	.string "你好，你是来坐渡轮的吗？\n"
 # 539 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "May I see your TICKET?$"
+	.string "可以让我看看你的船票吗？$"
 # 540 "data/maps/LilycoveCity_Harbor/scripts.pory"
 
 # 541 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_NoTicket:
 # 542 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "{PLAYER} doesn't have the TICKET…\p"
+	.string "{PLAYER}没有船票……\p"
 # 543 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "I'm terribly sorry.\p"
+	.string "非常抱歉。\p"
 # 544 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "You must have a TICKET to board\n"
+	.string "坐渡轮必须要有船票。$"
 # 545 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "the ferry.$"
+
 # 546 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 547 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
+# 547 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "{PLAYER}出示了船票。\p"
 # 548 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "{PLAYER} flashed the TICKET.\p"
+	.string "太好了！这就够了！\p"
 # 549 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Perfect! That's all you need!\p"
+	.string "那么，您要去哪里？$"
 # 550 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "And where would you like to go?$"
+
 # 551 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 552 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SailAnotherTime:
+# 552 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "请下次再乘坐我们的船！$"
 # 553 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Please sail with us another time!$"
+
 # 554 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 555 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SlateportItIs:
+# 555 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "那就去凯那市！$"
 # 556 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "SLATEPORT CITY it is, then!$"
+
 # 557 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 558 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
+# 558 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "那就去对战开拓区！$"
 # 559 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "对战开拓区 it is, then!$"
+
 # 560 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 561 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_PleaseBoard:
+# 561 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "请登船等候出发。$"
 # 562 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Please board the ferry and wait for\n"
+
 # 563 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "departure.$"
-# 564 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 565 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
+# 564 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "那么，您要去哪里？$"
+# 565 "data/maps/LilycoveCity_Harbor/scripts.pory"
+
 # 566 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Then, where would you like to go?$"
-# 567 "data/maps/LilycoveCity_Harbor/scripts.pory"
-
-# 568 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
+# 567 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "在渡轮造好之前，我们\n"
+# 568 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "船员都没事可做……\p"
 # 569 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Until they finish making the ferry,\n"
+	.string "真希望凯那造船厂的\n"
 # 570 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "we sailors have nothing to do…\p"
+	.string "人快点。$"
 # 571 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "I wish they'd get a move on, the folks\n"
-# 572 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "at the SHIPYARD in SLATEPORT.$"
-# 573 "data/maps/LilycoveCity_Harbor/scripts.pory"
 
-# 574 "data/maps/LilycoveCity_Harbor/scripts.pory"
+# 572 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
+# 573 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "渡轮潮汐号终于\n"
+# 574 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	.string "开始运营了。\p"
 # 575 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "The ferry S.S. TIDAL is finally in\n"
+	.string "凯那造船厂的人一定\n"
 # 576 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "operation.\p"
+	.string "特别拼命。\p"
 # 577 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "The folks at the SHIPYARD in SLATEPORT\n"
+	.string "好了，轮到我\n"
 # 578 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "must've worked extra hard.\p"
-# 579 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	.string "Well, it's my turn to get busy now!$"
+	.string "忙起来了！$"

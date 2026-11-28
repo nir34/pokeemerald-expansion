@@ -297,4 +297,6 @@ Route124_EventScript_Isabella::
 # 149 "data/maps/Route124/scripts.pory"
 Route124_Text_HuntersHouse:
 # 150 "data/maps/Route124/scripts.pory"
-	.string "FORM CHANGERS HERE$"
+	.string "形态变换器\n"
+# 151 "data/maps/Route124/scripts.pory"
+	.string "在这边$"

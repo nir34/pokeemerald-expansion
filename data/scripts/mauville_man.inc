@@ -87,63 +87,63 @@ MauvilleCity_PokemonCenter_1F_EventScript_TeachWord::
 
 @ Trader
 MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor:
-	.string "Hi, I'm the TRADER.\n"
-	.string "Want to trade decorations with me?$"
+	.string "嗨，我是交换商。\n"
+	.string "想和我交换装饰品吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "哦……\n"
+	.string "你让我好失落……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeveAlreadyTraded:
-	.string "But we've traded decorations already,\n"
-	.string "you and I.$"
+	.string "可我们已经交换过\n"
+	.string "装饰品了啊。$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickADecorItem:
-	.string "If you see any decorative item that\n"
-	.string "you want of mine, speak up.$"
+	.string "看到我哪件装饰品想要，\n"
+	.string "就告诉我。$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything:
-	.string "You don't want anything?\n"
-	.string "I feel unwanted…$"
+	.string "什么都不要？\n"
+	.string "我觉得自己不受欢迎……$"
 
 MauvilleCity_PokemonCenter_1F_Text_OnceBelongedToPlayerDoYouWantIt:
-	.string "That decorative item once belonged\n"
-	.string "to {STR_VAR_1}.\p"
-	.string "Do you want it?$"
+	.string "那件装饰品原本是\n"
+	.string "{STR_VAR_1}的。\p"
+	.string "你想要吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontHaveAnyDecor:
-	.string "Uh… Wait a second. You don't have a\n"
-	.string "single piece of decoration!$"
+	.string "呃……等一下。你连一件\n"
+	.string "装饰品都没有啊！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickTheDecorToTrade:
-	.string "Okay, pick the decoration that you'll\n"
-	.string "trade to me.$"
+	.string "好，请挑一件要和我\n"
+	.string "交换的装饰品。$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantToTrade:
-	.string "You won't trade with me?\n"
-	.string "I feel unwanted…$"
+	.string "不和我交换？\n"
+	.string "我觉得自己不受欢迎……$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouveNoRoomForThis:
-	.string "You've got all the {STR_VAR_2}S that can\n"
-	.string "be stored. You've no room for this.$"
+	.string "你能存放的{STR_VAR_2}已经满了。\n"
+	.string "没地方放这个了。$"
 
 MauvilleCity_PokemonCenter_1F_Text_SoWellTradeTheseDecor:
-	.string "Okay, so we'll trade my {STR_VAR_3}\n"
-	.string "for your {STR_VAR_2}?$"
+	.string "好，那就用我的{STR_VAR_3}\n"
+	.string "换你的{STR_VAR_2}？$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatDecorIsInUse:
-	.string "That piece of decoration is in use.\n"
-	.string "You can't trade it.$"
+	.string "那件装饰品正在使用中。\n"
+	.string "不能交换。$"
 
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC:
-	.string "Then we'll trade!\n"
-	.string "I'll send my decoration to your PC.$"
+	.string "那就交换吧！\n"
+	.string "我会把装饰品送到你的电脑。$"
 
 MauvilleCity_PokemonCenter_1F_Text_CantTradeThatOne:
-	.string "Oops! Sorry! That's a really rare\n"
-	.string "piece of decoration.\l"
-	.string "I can't trade that one away!\p"
-	.string "Can I interest you in something else?$"
+	.string "哎呀！抱歉！那是非常稀有的\n"
+	.string "装饰品。\l"
+	.string "那件可不能换出去！\p"
+	.string "要看看别的吗？$"
 
 MauvilleCity_PokemonCenter_1F_EventScript_Trader::
 	lock
@@ -233,560 +233,561 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor::
 
 @ Storyteller
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
-	.string "I'm the STORYTELLER.\n"
-	.string "I'll tell you tales of legendary\l"
-	.string "TRAINERS.\p"
-	.string "Will you hear my tale?$"
+	.string "我是说书人。\n"
+	.string "我会讲传说中训练家的故事。\p"
+	.string "要听我讲吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "哦……\n"
+	.string "你让我好失落……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
-	.string "I know of these legends.\n"
-	.string "Which tale will you have me tell?$"
+	.string "我知道这些传说。\n"
+	.string "要听哪一个？$"
 
 MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
-	.string "But, I know of no legendary TRAINERS.\n"
-	.string "Hence, I know no tales.\p"
-	.string "Where does one find a TRAINER worthy\n"
-	.string "of a legendary tale?$"
+	.string "可是，我不知道有什么\n"
+	.string "传说中的训练家。\p"
+	.string "所以也就没有故事。\p"
+	.string "哪里才能找到值得\n"
+	.string "传说的训练家呢？$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
-	.string "What's that?!\n"
-	.string "You… You…\p"
+	.string "什么？！\n"
+	.string "你……你……\p"
 	.string "{STR_VAR_2}\n"
-	.string "{STR_VAR_1} time(s)?!\p"
-	.string "That is indeed magnificent!\n"
-	.string "It's the birth of a new legend!$"
+	.string "{STR_VAR_1}次？！\p"
+	.string "这可真是了不起！\n"
+	.string "新的传说诞生了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
-	.string "It gets me thinking, could there be\n"
-	.string "other TRAINERS with more impressive\l"
-	.string "legends awaiting discovery?$"
+	.string "这让我想，会不会还有\n"
+	.string "其他更了不得的训练家\l"
+	.string "传说等着被发现呢？$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
-	.string "Are you a TRAINER?\p"
-	.string "Then tell me, have you any tales that\n"
-	.string "are even remotely legendary?$"
+	.string "你是训练家吗？\p"
+	.string "那么告诉我，你有没有\n"
+	.string "哪怕沾点边的传说故事？$"
 
 @ Unused
 MauvilleCity_PokemonCenter_1F_Text_HearAnotherLegendaryTale:
-	.string "Incidentally… Would you care to hear\n"
-	.string "another legendary tale?$"
+	.string "顺便问一句……\n"
+	.string "要再听一个传说吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
-	.string "Hmm…\n"
-	.string "I'm not satisfied…\p"
-	.string "I wish you would bring me news worthy\n"
-	.string "of being called a legend.$"
+	.string "嗯……\n"
+	.string "我不太满意……\p"
+	.string "希望你带来些配得上\n"
+	.string "传说之名的消息。$"
 
 MauvilleCity_PokemonCenter_1F_Text_IWishMorePeopleWereInterested:
-	.string "I wish more people would be interested\n"
-	.string "in hearing my epic tales of legendary\l"
-	.string "TRAINERS.$"
+	.string "要是更多人愿意听我讲\n"
+	.string "关于传说训练家的故事\l"
+	.string "就好了。$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
-	.string "The Save-Happy TRAINER$"
+	.string "存档达人训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
-	.string "Saved the game$"
+	.string "保存了游戏$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER saved the game\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "A more cautious TRAINER than\n"
-	.string "{STR_VAR_3} one will never find!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家保存游戏\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "再也找不到比{STR_VAR_3}\n"
+	.string "更谨慎的训练家了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedTitle::
-	.string "The Trendsetter TRAINER$"
+	.string "潮流先驱训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedAction::
-	.string "Started trends$"
+	.string "开创了流行$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER started new trends\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is setting trends for all\n"
-	.string "the HOENN region!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家开创流行\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}正在引领\n"
+	.string "整个丰缘的潮流！$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle::
-	.string "The BERRY-Planting TRAINER$"
+	.string "种树果训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedAction::
-	.string "Planted BERRIES$"
+	.string "种下了树果$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER planted BERRIES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a legendary lover of\n"
-	.string "BERRIES!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家种下树果\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}是传说中的\n"
+	.string "树果爱好者！$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesTitle::
-	.string "The BIKE-Loving TRAINER$"
+	.string "自行车爱好者$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesAction::
-	.string "Traded BIKES$"
+	.string "交换了自行车$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER swapped BIKES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love BIKES deeply\n"
-	.string "and passionately!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家换过自行车\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定深爱着\n"
+	.string "自行车！$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsTitle::
-	.string "The Interviewed TRAINER$"
+	.string "受访训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsAction::
-	.string "Got interviewed$"
+	.string "接受了采访$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got interviewed\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who's\n"
-	.string "attracting much attention!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家接受采访\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位备受\n"
+	.string "瞩目的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
-	.string "The Battle-Happy TRAINER$"
+	.string "好战训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
-	.string "Battled$"
+	.string "进行了对战$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER battled {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who can\n"
-	.string "never refuse a chance to battle!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家对战\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位\n"
+	.string "从不拒绝对战的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
-	.string "The POKéMON-Catching TRAINER$"
+	.string "宝可梦捕捉者$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
-	.string "Caught POKéMON$"
+	.string "捕捉宝可梦$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} POKéMON!\p"
-	.string "{STR_VAR_3} is a legendary catcher of\n"
-	.string "wild POKéMON!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家捕捉了\n"
+	.string "{STR_VAR_1}只宝可梦！\p"
+	.string "{STR_VAR_3}是传说中的\n"
+	.string "野生宝可梦捕捉者！$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle::
-	.string "The Fishing TRAINER$"
+	.string "钓鱼训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction::
-	.string "Caught POKéMON with a ROD$"
+	.string "用钓竿捕捉宝可梦$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} POKéMON while fishing!\p"
-	.string "{STR_VAR_3} is a legendary fishing\n"
-	.string "expert!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家钓鱼捕捉了\n"
+	.string "{STR_VAR_1}只宝可梦！\p"
+	.string "{STR_VAR_3}是传说中的\n"
+	.string "钓鱼高手！$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
-	.string "The EGG-Warming TRAINER$"
+	.string "孵蛋训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction::
-	.string "Hatched EGGS$"
+	.string "孵化了蛋$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER hatched {STR_VAR_1} POKéMON\n"
-	.string "from EGGS!\p"
-	.string "{STR_VAR_3} is a legendary warmer\n"
-	.string "of EGGS!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家孵化了\n"
+	.string "{STR_VAR_1}只宝可梦！\p"
+	.string "{STR_VAR_3}是传说中的\n"
+	.string "孵化能手！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle::
-	.string "The Evolver TRAINER$"
+	.string "进化训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction::
-	.string "Evolved POKéMON$"
+	.string "让宝可梦进化$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {STR_VAR_1} POKéMON\n"
-	.string "evolve!\p"
-	.string "{STR_VAR_3} is the ultimate evolver\n"
-	.string "of POKéMON!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家让{STR_VAR_1}只\n"
+	.string "宝可梦进化了！\p"
+	.string "{STR_VAR_3}是宝可梦进化的\n"
+	.string "终极大师！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle::
-	.string "The POKéMON CENTER-Loving TRAINER$"
+	.string "宝可梦中心之友$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction::
-	.string "Used POKéMON CENTERS$"
+	.string "使用宝可梦中心$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed POKéMON\n"
-	.string "{STR_VAR_1} times at POKéMON CENTERS!\p"
-	.string "There could be no greater lover of\n"
-	.string "POKéMON CENTERS than {STR_VAR_3}!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在宝可梦中心\n"
+	.string "回复宝可梦{STR_VAR_1}次！\p"
+	.string "没有人比{STR_VAR_3}更爱\n"
+	.string "宝可梦中心了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle::
-	.string "The Homebody TRAINER$"
+	.string "恋家训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction::
-	.string "Rested POKéMON at home$"
+	.string "在家回复宝可梦$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed POKéMON\n"
-	.string "{STR_VAR_1} times at home!\p"
-	.string "There could be no more of a homebody\n"
-	.string "than {STR_VAR_3}!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在家回复宝可梦\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "没有人比{STR_VAR_3}\n"
+	.string "更爱待在家里了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesTitle::
-	.string "The SAFARI-Loving TRAINER$"
+	.string "狩猎地带爱好者$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesAction::
-	.string "Entered the SAFARI ZONE$"
+	.string "进入了狩猎地带$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER went into the SAFARI ZONE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER whose wild side\n"
-	.string "must come out in the SAFARI ZONE!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家进入狩猎地带\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是那种在狩猎\n"
+	.string "地带才露出野性的人！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle::
-	.string "The CUT-Frenzy TRAINER$"
+	.string "居合劈狂人$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutAction::
-	.string "Used CUT$"
+	.string "使用了居合劈$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used CUT\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who just must\n"
-	.string "love to CUT!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家使用居合斩\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是个\n"
+	.string "不斩不快的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
-	.string "The ROCK-SMASHING TRAINER$"
+	.string "碎岩训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
-	.string "Smashed rocks$"
+	.string "打碎了岩石$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used ROCK SMASH\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
-	.string "can't leave a stone unsmashed!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家使用碎岩\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是见到石头\n"
+	.string "就想砸的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesTitle::
-	.string "The Move-Loving TRAINER$"
+	.string "爱搬家训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesAction::
-	.string "Moved the SECRET BASE$"
+	.string "搬迁了秘密基地$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER moved the SECRET BASE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who loves\n"
-	.string "to move houses often!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家搬秘密基地\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}是喜欢经常\n"
+	.string "搬家的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
-	.string "The SPLASH-Happy TRAINER$"
+	.string "跃起训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashAction::
-	.string "Used SPLASH$"
+	.string "使用了跃起$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used SPLASH\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who must love\n"
-	.string "SPLASHING around!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家使用跃起\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是个\n"
+	.string "爱到处乱跳的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleTitle::
-	.string "The Tenacious TRAINER$"
+	.string "顽强训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction::
-	.string "Resorted to using STRUGGLE$"
+	.string "使出了挣扎$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER had to rely on STRUGGLE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a tenacious TRAINER\n"
-	.string "who never gives in to adversity!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家被迫使用挣扎\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}是绝不向逆境\n"
+	.string "低头的顽强训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle::
-	.string "The SLOT Champ$"
+	.string "老虎机冠军$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsAction::
-	.string "Won the jackpot on the SLOTS$"
+	.string "在老虎机中了头奖$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won the jackpot on\n"
-	.string "the SLOTS {STR_VAR_1} times.\p"
-	.string "{STR_VAR_3} is a TRAINER who was lucky\n"
-	.string "on the SLOTS!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在老虎机上\n"
+	.string "中大奖{STR_VAR_1}次。\p"
+	.string "{STR_VAR_3}在老虎机上\n"
+	.string "运气很好！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle::
-	.string "The ROULETTE Champ$"
+	.string "轮盘冠军$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
-	.string "Had consecutive ROULETTE wins of$"
+	.string "在轮盘连续获胜$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won in ROULETTE\n"
-	.string "{STR_VAR_1} times in a row.\p"
-	.string "{STR_VAR_3} was lucky when the ball\n"
-	.string "bounced in ROULETTE!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在轮盘上\n"
+	.string "连胜{STR_VAR_1}次。\p"
+	.string "球弹起来时，{STR_VAR_3}\n"
+	.string "运气真好！$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle::
-	.string "The BATTLE TOWER Challenger$"
+	.string "对战塔挑战者$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction::
-	.string "Took the BATTLE TOWER challenge$"
+	.string "挑战了对战塔$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER took the BATTLE TOWER\n"
-	.string "challenge {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who aspires\n"
-	.string "for excellence in the BATTLE TOWER!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家挑战对战塔\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}是渴望在对战塔\n"
+	.string "出类拔萃的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
-	.string "The Blend-Loving TRAINER$"
+	.string "爱做宝可方块训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction::
-	.string "Made {POKEBLOCK}S$"
+	.string "制作了宝可方块$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {POKEBLOCK}S\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "There is none better at using a BERRY\n"
-	.string "BLENDER than {STR_VAR_3}!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家制作宝可方块\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "没人比{STR_VAR_3}更会用\n"
+	.string "树果搅拌器！$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle::
-	.string "The CONTEST-Loving TRAINER$"
+	.string "华丽大赛爱好者$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction::
-	.string "Entered CONTESTS$"
+	.string "参加了华丽大赛$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER entered CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love showing off\n"
-	.string "POKéMON to others!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家参加华丽大赛\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定很喜欢\n"
+	.string "向人炫耀宝可梦！$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
-	.string "The CONTEST Master$"
+	.string "华丽大赛大师$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "Won CONTESTS$"
+	.string "赢得了华丽大赛$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be an incredible\n"
-	.string "CONTEST master!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在华丽大赛中\n"
+	.string "获胜{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是了不起的\n"
+	.string "华丽大赛大师！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle::
-	.string "The Happy Shopper$"
+	.string "购物达人$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedAction::
-	.string "Shopped$"
+	.string "购物了$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bought items in shops\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be one of those\n"
-	.string "people who are born to shop.$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家在商店购物\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是那种\n"
+	.string "天生爱购物的人。$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
-	.string "The Item-Finding TRAINER$"
+	.string "寻物训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "Used an ITEMFINDER$"
+	.string "使用了探测器$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used an ITEMFINDER\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must enjoy scouring the\n"
-	.string "ground for hidden items!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家使用道具探测器\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定喜欢翻遍\n"
+	.string "地面找隐藏道具！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedTitle::
-	.string "The Rain-Soaked TRAINER$"
+	.string "淋雨训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction::
-	.string "Got rained on$"
+	.string "被雨淋了$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got soaked by rain\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3}'s charisma must even\n"
-	.string "attract rain!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家被雨淋\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}的魅力连雨\n"
+	.string "都能吸引来！$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle::
-	.string "The Avid Pokédex Reader$"
+	.string "热心的图鉴读者$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction::
-	.string "Checked a Pokédex$"
+	.string "查看宝可梦图鉴$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked a Pokédex\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love inspecting\n"
-	.string "POKéMON in a Pokédex!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家查看宝可梦图鉴\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定喜欢在图鉴里\n"
+	.string "查看宝可梦！$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle::
-	.string "The RIBBON Collector$"
+	.string "缎带收藏家$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction::
-	.string "Received RIBBONS$"
+	.string "获得了缎带$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER received RIBBONS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
-	.string "loves to collect RIBBONS!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家获得缎带\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位喜欢\n"
+	.string "收集缎带的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle::
-	.string "The Ledge-Jumping TRAINER$"
+	.string "爱跳台阶训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
-	.string "Jumped down ledges$"
+	.string "跳下了台阶$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER jumped down ledges\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "If there's a ledge to be jumped,\n"
-	.string "{STR_VAR_3} can't ignore it!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家跳下台阶\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "只要有台阶可跳，\n"
+	.string "{STR_VAR_3}绝不放过！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle::
-	.string "The Legendary TV Viewer$"
+	.string "电视迷$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction::
-	.string "Watched TV$"
+	.string "看了电视$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER watched TV\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love watching TV!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家看电视\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定很喜欢看电视！$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle::
-	.string "The Time-Conscious TRAINER$"
+	.string "守时训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction::
-	.string "Checked the time$"
+	.string "查看了时间$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked the time\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a punctual TRAINER\n"
-	.string "who's conscious of the time.$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家查看时间\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位守时、\n"
+	.string "很在意时间的训练家。$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle::
-	.string "The POKéMON LOTTERY Wizard$"
+	.string "宝可梦彩票大师$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction::
-	.string "Won POKéMON LOTTERIES$"
+	.string "中宝可梦彩票$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won POKéMON LOTTERIES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must have many friends\n"
-	.string "to trade POKéMON with!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家中了宝可梦彩票\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定有很多\n"
+	.string "可以交换宝可梦的朋友！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "The DAY CARE-Using Trainer$"
+	.string "寄养训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
-	.string "Left POKéMON at the DAY CARE$"
+	.string "把宝可梦寄放在培育屋$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left POKéMON with the\n"
-	.string "DAY CARE {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a real go-getter\n"
-	.string "who raises POKéMON aggressively!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家把宝可梦寄放在\n"
+	.string "培育屋{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位积极\n"
+	.string "培育宝可梦的实干家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::
-	.string "The CABLE CAR-Loving TRAINER$"
+	.string "缆车爱好者$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction::
-	.string "Rode the CABLE CAR$"
+	.string "乘坐了缆车$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER rode the CABLE CAR\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a busy TRAINER\n"
-	.string "who's up and down all the time!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家乘坐缆车\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}一定是位\n"
+	.string "上上下下忙个不停的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsTitle::
-	.string "The Hot Spring-Loving TRAINER$"
+	.string "温泉爱好者$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsAction::
-	.string "Bathed in hot springs$"
+	.string "泡了温泉$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bathed in hot springs\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER with\n"
-	.string "baby-smooth skin!$"
+	.string "这是关于一位名叫\n"
+	.string "{STR_VAR_3}的训练家的故事。\p"
+	.string "这位训练家泡温泉\n"
+	.string "{STR_VAR_1}次！\p"
+	.string "{STR_VAR_3}的皮肤一定\n"
+	.string "像婴儿一样光滑！$"
 
 
 MauvilleCity_PokemonCenter_1F_EventScript_Storyteller::
@@ -856,21 +857,21 @@ MauvilleCity_PokemonCenter_1F_EventScript_StorytellerEnd::
 
 @ Giddy
 MauvilleCity_PokemonCenter_1F_Text_HearMyStory:
-	.string "I'm GIDDY!\n"
-	.string "I have a scintillating story for you!\p"
-	.string "Would you like to hear my story?$"
+	.string "我是话匣子！\n"
+	.string "我有精彩的故事给你！\p"
+	.string "想听我的故事吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "哦……\n"
+	.string "你让我好失落……$"
 
 MauvilleCity_PokemonCenter_1F_Text_AlsoIWasThinking:
-	.string "Also, I was thinking…$"
+	.string "还有，我在想……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeShouldChatAgain:
-	.string "That's about it, I think…\p"
-	.string "We should chat again!\n"
-	.string "Bye-bye!$"
+	.string "大概就这样吧……\p"
+	.string "我们再聊吧！\n"
+	.string "拜拜！$"
 
 MauvilleCity_PokemonCenter_1F_EventScript_Giddy::
 	lock
@@ -919,58 +920,58 @@ MauvilleCity_PokemonCenter_1F_EventScript_ToldEnoughTales::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong:
-	.string "Hi, I'm the BARD.\n"
-	.string "Would you like to hear my song?$"
+	.string "嗨，我是吟游诗人。\n"
+	.string "想听我的歌吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "哦……\n"
+	.string "你让我好失落……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
-	.string "Oh, what a moving song…\n"
-	.string "I wish I could play it for others…$"
+	.string "哦，多么动人的歌……\n"
+	.string "真希望能弹给别人听……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
-	.string "So?\n"
-	.string "How do you like my song?\p"
-	.string "But I'm none too happy about\n"
-	.string "the lyrics.\p"
-	.string "How would you like to write some\n"
-	.string "new lyrics for me?$"
+	.string "怎么样？\n"
+	.string "你喜欢我的歌吗？\p"
+	.string "不过我对歌词\n"
+	.string "不太满意。\p"
+	.string "要不要为我写段\n"
+	.string "新歌词？$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "哦……\n"
+	.string "你让我好失落……$"
 
 MauvilleCity_PokemonCenter_1F_Text_LetMeSingItForYou:
-	.string "Thank you kindly!\n"
-	.string "Let me sing it for you.$"
+	.string "太感谢了！\n"
+	.string "我来唱给你听。$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatHowYouWantedSongToGo:
-	.string "Was that how you wanted your song\n"
-	.string "to go?$"
+	.string "你希望你的歌\n"
+	.string "这样唱吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_IllSingThisSongForAWhile:
-	.string "Okay! That's it, then.\n"
-	.string "I'll sing this song for a while.$"
+	.string "好！那就这样。\n"
+	.string "这首歌我会唱一阵子。$"
 
 MauvilleCity_PokemonCenter_1F_Text_TeachWhatsHipAndHappening:
-	.string "Hey, yo! They call me the HIPSTER.\n"
-	.string "I'll teach you what's hip and happening.$"
+	.string "嘿，哟！大家叫我潮人。\n"
+	.string "我来教你现在流行什么。$"
 
 MauvilleCity_PokemonCenter_1F_Text_IAlreadyTaughtYou:
-	.string "But, hey, I taught you what's hip and\n"
-	.string "happening already.\p"
-	.string "I'd like to spread the good word to\n"
-	.string "other folks.$"
+	.string "不过，嘿，我已经教过你\n"
+	.string "流行什么了。\p"
+	.string "我想把这门道传给别人。$"
 
 MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
-	.string "But, hey, you already know a lot about\n"
-	.string "what's hip and happening.\p"
-	.string "I've got nothing new to teach you!$"
+	.string "不过，嘿，你已经很懂\n"
+	.string "现在流行什么了。\p"
+	.string "我没什么新东西\n"
+	.string "能教你了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
-	.string "Hey, have you heard about\n"
-	.string "“{STR_VAR_1}”?\p"
-	.string "What's it mean? Well…\n"
-	.string "Ask your daddy or mommy, okay?$"
+	.string "嘿，你听说过\n"
+	.string "“{STR_VAR_1}”吗？\p"
+	.string "什么意思？这个嘛……\n"
+	.string "去问爸爸妈妈吧，好吗？$"

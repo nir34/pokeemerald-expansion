@@ -17,7 +17,7 @@ SootopolisCity_House5_EventScript_Kingambit::
 	end
 
 SootopolisCity_House5_Text_Kingambit:
-	.string "Kingambit: Uuhuuhuuhuuahahuuhu!$"
+	.string "仆刀将军：呜呼呼呼呼呼！$"
 
 
 SootopolisCity_House5_EventScript_Dragapult::
@@ -31,7 +31,7 @@ SootopolisCity_House5_EventScript_Dragapult::
 	end
 
 SootopolisCity_House5_Text_Dragapult:
-	.string "Dragapult: Huuuuuuureeeeeeee!$"
+	.string "多龙巴鲁托：呜噜噜噜咿！$"
 
 
 SootopolisCity_House5_EventScript_Greninja::
@@ -45,7 +45,7 @@ SootopolisCity_House5_EventScript_Greninja::
 	end
 
 SootopolisCity_House5_Text_Greninja:
-	.string "Greninja: Rruuueelelel!$"
+	.string "甲贺忍蛙：噜诶诶诶！$"
 
 `
 
@@ -143,50 +143,50 @@ script SootopolisCity_House5_EventScript_ExplainMeloetta {
 }
 
 text Natn_Greeting{
-	"Hey, my name's Natn, and I was the first\n"
-	"person to beat this game in Normal mode\l"
-	"when it released.\p"
-	"I didn't really do a lot of talking in the\n"
-	"early days, I just showed up, blitzed\l"
-	"through the game, then posted my Hall\l"
-	"of Fame team.\p"
-	"My rules are the same, if you can beat\n"
-	"me, I'll give you a Mythical.\p"
-	"Interested in battling?"
+	"嘿，我叫Natn，我是这游戏\n"
+	"发售时第一个在普通模式下\l"
+	"通关的人。\p"
+	"早期我不太爱说话，\n"
+	"只是出现、飞快通关，\l"
+	"然后晒出我的名人堂\l"
+	"队伍。\p"
+	"我的规矩也一样，你若能\n"
+	"打赢我，我就送你幻之宝可梦。\p"
+	"有兴趣对战吗？"
 }
 
 text Natn_ReadyYet{
-	"Want to battle now?"
+	"现在想打吗？"
 }
 
 text Natn_YoureOn{
-	"Let's do this."
+	"来吧。"
 }
 
 text Natn_ComeBackWhenReady{
-	"Let me know if you change your mind."
+	"改主意了就告诉我。"
 }
 
 text Natn_Outro{
-	"Not bad at all.\n"
+	"相当不错。\n"
 }
 
 text SootopolisCity_House5_Text_PlayerReceivedMeloetta{
-	"{PLAYER} received Meloetta!"
+	"{PLAYER}得到了美洛耶塔！"
 }
 
 text Natn_ExplainMeloetta{
-	"There's your Mythical.\n"
-	"I'm sure you know it's gimmick by now,\l"
-	"but if you use its signature move, Relic\l"
-	"Song, you can change forms in battle.\p"
-	"Really makes you wonder how Maylene\n"
-	"got one that started in Pirouette form."
+	"你的幻之宝可梦。\n"
+	"你大概知道它的花样了，\l"
+	"只要用它专属的古老之歌，\l"
+	"就能在对战中改变形态。\p"
+	"真让人好奇阿李是怎么拿到\n"
+	"一开始就是舞步形态的那只的。"
 }
 
 text PostBattle_Natn{
-	"Honestly, this game was pretty easy.\n"
-	"I'll be here waiting for Hardcore mode."
+	"说真的，这游戏挺简单的。\n"
+	"我就在这儿等硬核模式。"
 }
 
 
@@ -284,48 +284,48 @@ script SootopolisCity_House5_EventScript_ExplainMarshadow {
 }
 
 text MasterPoucine_Greeting{
-	"Hi there! I'm MasterPoucine, and I was\n"
-	"the third person to beat this game once\l"
-	"it released, and the first to do so\l"
-	"using the mascot, Empoleon!\p"
-	"I am also a content creator, so check\n"
-	"me out on YouTube!\p"
-	"Just like the other Champions, if you\n"
-	"can beat me, I'll give you a Mythical.\p"
-	"Do you want to battle me?"
+	"你好！我是MasterPoucine，\n"
+	"我是这游戏发售后第三个\l"
+	"通关的人，也是第一个用它\l"
+	"招牌帝王拿波通关的人！\p"
+	"我也是内容创作者，\n"
+	"欢迎在YouTube上看我！\p"
+	"和其他冠军一样，你若能\n"
+	"打赢我，我就送你幻之宝可梦。\p"
+	"要和我对战吗？"
 }
 
 text MasterPoucine_ReadyYet{
-	"Do you want to battle now?"
+	"现在要打吗？"
 }
 
 text MasterPoucine_YoureOn{
-	"You're on!"
+	"来吧！"
 }
 
 text MasterPoucine_ComeBackWhenReady{
-	"Come back if you decide you want\n"
-	"to battle."
+	"决定要打的话，\n"
+	"就再来找我。"
 }
 
 text MasterPoucine_Outro{
-	"Wow, that was an impressive battle!"
+	"哇，这场对战真精彩！"
 }
 
 text SootopolisCity_House5_Text_PlayerReceivedMarshadow{
-	"{PLAYER} received Marshadow!"
+	"{PLAYER}得到了玛夏多！"
 }
 
 text MasterPoucine_ExplainMarshadow{
-	"Now that's a good reward! Marshadow is\n"
-	"definitely one of the strongest\l"
-	"Mythicals, so I hope you use it well."
+	"这才叫好奖励！玛夏多绝对\n"
+	"是最强的幻之宝可梦\l"
+	"之一，希望你好生使用。"
 }
 
 text PostBattle_MasterPoucine{
-	"I can't wait for a harder game mode to\n"
-	"come out so I can speed through that\l"
-	"one too!"
+	"我等不及想看更难的\n"
+	"模式出了，那样我也能\l"
+	"速通一遍！"
 }
 
 
@@ -423,46 +423,45 @@ script SootopolisCity_House5_EventScript_ExplainZarude {
 }
 
 text OblivionWing_Greeting{
-	"Hello, I'm OblivionWing, and I was the\n"
-	"first person ever to beat this game\l"
-	"after it released.\p"
-	"I sped through the game on Easy mode\n"
-	"and finished it just one day after it\l"
-	"came out!\p"
-	"If you can beat me, I'll give you a\n"
-	"Mythical, just like everyone else.\p"
-	"Does that sound good to you?"
+	"你好，我是OblivionWing，\n"
+	"我是这游戏发售后\l"
+	"第一个通关的人。\p"
+	"我在简单模式下飞速通关，\n"
+	"在它发售后仅仅一天\l"
+	"就打完了！\p"
+	"你若能打赢我，我就送你\n"
+	"幻之宝可梦，和别人一样。\p"
+	"你觉得这样行吗？"
 }
 
 text OblivionWing_ReadyYet{
-	"Ready to battle?"
+	"准备好对战了吗？"
 }
 
 text OblivionWing_YoureOn{
-	"Good luck, you'll need it!"
+	"祝你好运，你会需要的！"
 }
 
 text OblivionWing_ComeBackWhenReady{
-	"You know where to find me if you change\n"
-	"your mind."
+	"改主意的话，知道来这儿找我。"
 }
 
 text OblivionWing_Outro{
-	"Not bad! If you were a little faster,\n"
-	"maybe you could've been the first to\l"
-	"beat this game!"
+	"不错！你要是再快一点，\n"
+	"说不定就是第一个\l"
+	"通关这游戏的人了！"
 }
 
 text SootopolisCity_House5_Text_PlayerReceivedZarude{
-	"{PLAYER} received Zarude!"
+	"{PLAYER}得到了萨戮德！"
 }
 
 text OblivionWing_ExplainZarude{
-	"There you go, a Mythical for you.\n"
-	"I think that's a pretty good one too, if\l"
-	"I do say so myself."
+	"给你，你的幻之宝可梦。\n"
+	"我觉得这只也挺好的，\l"
+	"我自己都这么觉得。"
 }
 
 text PostBattle_OblivionWing{
-	"Best of luck with the rest of the game!"
+	"祝你接下来游戏顺利！"
 }

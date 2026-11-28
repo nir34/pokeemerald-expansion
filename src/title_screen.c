@@ -145,7 +145,7 @@ static const struct SpriteTemplate sMonSpriteTemplate2 =
     .callback = SpriteCallbackDummy,
 };
 
-// Used to blend "Emerald Version" as it passes over over the Pokémon banner.
+// Used to blend "绿宝石版" as it passes over over the Pokémon banner.
 // Also used by the intro to blend the Game Freak name/logo in and out as they appear and disappear
 const u16 gTitleScreenAlphaBlend[64] =
 {

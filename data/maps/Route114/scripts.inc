@@ -453,46 +453,48 @@ Route114_EventScript_Kai::
 # 227 "data/maps/Route114/scripts.pory"
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
 # 228 "data/maps/Route114/scripts.pory"
-	.string "All my Pokémon does is ROAR…\n"
+	.string "我的宝可梦只会吼叫……\n"
 # 229 "data/maps/Route114/scripts.pory"
-	.string "No one dares to come near me…\p"
+	.string "没人敢靠近我……\p"
 # 230 "data/maps/Route114/scripts.pory"
-	.string "Sigh… If you would, please take\n"
+	.string "唉……要是你愿意，\n"
 # 231 "data/maps/Route114/scripts.pory"
-	.string "this TM away…$"
+	.string "请把这个学习器\l"
 # 232 "data/maps/Route114/scripts.pory"
-
+	.string "拿走吧……$"
 # 233 "data/maps/Route114/scripts.pory"
-Route114_Text_ExplainRoar:
+
 # 234 "data/maps/Route114/scripts.pory"
-	.string "TM05 contains ROAR.\n"
+Route114_Text_ExplainRoar:
 # 235 "data/maps/Route114/scripts.pory"
-	.string "A ROAR sends Pokémon scurrying.$"
+	.string "学习器05号里是吼叫。\n"
 # 236 "data/maps/Route114/scripts.pory"
-
+	.string "吼叫能把宝可梦吓跑。$"
 # 237 "data/maps/Route114/scripts.pory"
-Route114_Text_Poochyena:
+
 # 238 "data/maps/Route114/scripts.pory"
-	.string "Bow! Bowwow!$"
+Route114_Text_Poochyena:
 # 239 "data/maps/Route114/scripts.pory"
-
+	.string "汪！汪汪！$"
 # 240 "data/maps/Route114/scripts.pory"
-Route114_Text_MeteorFallsSign:
+
 # 241 "data/maps/Route114/scripts.pory"
-	.string "METEOR FALLS\n"
+Route114_Text_MeteorFallsSign:
 # 242 "data/maps/Route114/scripts.pory"
-	.string "Rustboro CITY THROUGH HERE$"
+	.string "流星瀑布\n"
 # 243 "data/maps/Route114/scripts.pory"
-
+	.string "由此通往卡那兹市$"
 # 244 "data/maps/Route114/scripts.pory"
-Route114_Text_FossilManiacsHouseSign:
-# 245 "data/maps/Route114/scripts.pory"
-	.string "FOSSIL MANIAC'S HOUSE\n"
-# 246 "data/maps/Route114/scripts.pory"
-	.string "“Fossils gratefully accepted!”$"
-# 247 "data/maps/Route114/scripts.pory"
 
+# 245 "data/maps/Route114/scripts.pory"
+Route114_Text_FossilManiacsHouseSign:
+# 246 "data/maps/Route114/scripts.pory"
+	.string "化石狂之家\n"
+# 247 "data/maps/Route114/scripts.pory"
+	.string "“欢迎惠赐化石！”$"
 # 248 "data/maps/Route114/scripts.pory"
-Route114_Text_LanettesHouse:
+
 # 249 "data/maps/Route114/scripts.pory"
-	.string "LANETTE'S HOUSE$"
+Route114_Text_LanettesHouse:
+# 250 "data/maps/Route114/scripts.pory"
+	.string "拉奈特的家$"

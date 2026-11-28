@@ -8,15 +8,16 @@ FortreeCity_CreatorHouse_EventScript_Iriv24PC::
 	end
 
 FortreeCity_CreatorHouse_Iriv24sComputer:
-	.string "Hey, it's the creator's computer! Wait,\n"
-	.string "he's making Drake do WHAT?$"
+	.string "嘿，这是作者的电脑！等等，\n"
+	.string "他让源治去做什么？$"
 
 FortreeCity_CreatorHouse_EventScript_Iriv24PCTwo::
 	msgbox FortreeCity_CreatorHouse_Iriv24sComputerTwo, MSGBOX_SIGN
 	end
 
 FortreeCity_CreatorHouse_Iriv24sComputerTwo:
-	.string "Is that me? Is this all scripted?$"
+	.string "那是我吗？这些都是\n"
+	.string "安排好的剧本？$"
 
 
 FortreeCity_CreatorHouse_EventScript_CapPC::
@@ -24,18 +25,18 @@ FortreeCity_CreatorHouse_EventScript_CapPC::
 	end
 
 FortreeCity_CreatorHouse_CapsComputer:
-	.string "Man, he's really got this guy editing\n"
-	.string "normal trainers, wild encounters, and\l"
-	.string "manually copying data from RRDex.\l"
-	.string "That's crazy.$"
+	.string "老兄，他真让这家伙编辑\n"
+	.string "普通训练家、野生遭遇，\l"
+	.string "还手动从RRDex抄数据。\l"
+	.string "太夸张了。$"
 
 FortreeCity_CreatorHouse_EventScript_XPC::
 	msgbox FortreeCity_CreatorHouse_XsComputer, MSGBOX_SIGN
 	end
 
 FortreeCity_CreatorHouse_XsComputer:
-	.string "So that's how they made the Mega\n"
-	.string "Torterra sprite.$"
+	.string "原来超级土台龟的图\n"
+	.string "是这么做出来的。$"
 
 FortreeCity_CreatorHouse_EventScript_Empoleon::
 	lock
@@ -48,7 +49,7 @@ FortreeCity_CreatorHouse_EventScript_Empoleon::
 	end
 
 FortreeCity_CreatorHouse_Text_Empoleon:
-	.string "Empoleon: Brrrrrrrebrrreey!$"
+	.string "帝王拿波：布咿咿咿咿！$"
 
 FortreeCity_CreatorHouse_EventScript_Torterra::
 	lock
@@ -61,7 +62,7 @@ FortreeCity_CreatorHouse_EventScript_Torterra::
 	end
 
 FortreeCity_CreatorHouse_Text_Torterra:
-	.string "Torterra: Truhhhheeruhhhhhhh!$"
+	.string "土台龟：呜噜噜噜噜！$"
 
 FortreeCity_CreatorHouse_EventScript_Lanturn::
 	lock
@@ -74,7 +75,7 @@ FortreeCity_CreatorHouse_EventScript_Lanturn::
 	end
 
 FortreeCity_CreatorHouse_Text_Lanturn:
-	.string "Lanturn: Bzzzdoooo!$"
+	.string "电灯怪：滋滋滋滋！$"
 
 `
 
@@ -109,7 +110,7 @@ script FortreeCity_CreatorHouse_EventScript_DeclineIriv24Battle {
 }
 
 script FortreeCity_CreatorHouse_EventScript_BattleIriv24{
-	msgbox("Alright, let's do this.", MSGBOX_DEFAULT)
+	msgbox("好，那就开始吧。", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_IRIV24, Iriv24_Outro)
 	goto(FortreeCity_CreatorHouse_EventScript_Iriv24GiveItems)
 	return
@@ -135,55 +136,54 @@ script FortreeCity_CreatorHouse_EventScript_Iriv24GiveItems{
 
 
 text Iriv24_Greeting{
-	"Hi there, {PLAYER}, I am the creator of\n"
-	"this hack.\l"
-	"I hope you are enjoying it so far.\p"
-	"Since you've made it to here, I would\n"
-	"like to offer my sincere appreciation\l"
-	"to you for playing this game.\p"
-	"It was a lot of fun to make, and I\n"
-	"hope I succeeded in making it very\l"
-	"challenging, but not unbeatable.\p"
-	"Now to business: I've got a team of my\n"
-	"favorite Pokémon here and am ready to\l"
-	"battle.\p"
-	"If you win, I'll give you the Mega\n"
-	"Stones for the Water starters,\l"
-	"including Empoleon's 2nd Mega form.\p"
-	"I'll also give you the TM for Substitute\n"
-	"(broken move btw) and a Choice Scarf.\p"
-	"If those rewards are worth it to you,\n"
-	"then say the word and we can battle.\l"
-	"What do you say?"
+	"{PLAYER}，你好，我是这个改版的\n"
+	"作者。\l"
+	"希望你玩得开心。\p"
+	"既然你一路走到了这里，\n"
+	"我想由衷地感谢你\l"
+	"玩这个游戏。\p"
+	"制作它非常有趣，我\n"
+	"希望自己成功把它做得\l"
+	"既有挑战，又并非打不过。\p"
+	"说正事：我这里有一支我最喜欢的\n"
+	"宝可梦队伍，随时可以\l"
+	"对战。\p"
+	"如果你赢了，我就送你水系初始\n"
+	"宝可梦的超级石，\l"
+	"包括帝王拿波的第二种超级形态。\p"
+	"我还会送你替身的招式学习器\n"
+	"（顺带一提这招是坏的），\l还有讲究围巾。\p"
+	"如果这些奖励对你值得，\n"
+	"说一声，我们就开打。\l"
+	"怎么样？"
 }
 
 text Iriv24_ReadyYet{
-	"Want to battle now?"
+	"现在要打吗？"
 }
 
 text Iriv24_ComeBackWhenReady{
-	"Let me know when you want to battle."
+	"想对战时告诉我。"
 }
 
 text Iriv24_ExplainItems{
-	"There you go, as promised. Now, keep\n"
-	"moving forward! There are still plenty\l"
-	"of tough battles ahead, but if you've\l"
-	"made it this far, I believe you can beat\l"
-	"the game.\p"
-	"Thanks again for playing,\n"
-	"good luck out there, {PLAYER}!"
+	"说好的，给你。接下来继续\n"
+	"前进吧！前方还有很多\l"
+	"艰难的对战，但你既然能\l"
+	"走到这里，我相信你能打通\l"
+	"这个游戏。\p"
+	"再次感谢你游玩，\n"
+	"{PLAYER}，外面好运！"
 }
 
 text Iriv24_Outro{
-	"Looks like you've got a pretty good\n"
-	"team over there!"
+	"看来你的队伍挺不错！"
 }
 
 text PostBattle_Iriv24{
-	"Can't believe I got beat in my own game,\n"
-	"definitely gonna give myself a cracked\l"
-	"team in the next version."
+	"不敢相信我在自己的游戏里被打了，\n"
+	"下个版本我一定要给自己\l"
+	"配一套变态队伍。"
 }
 
 
@@ -220,7 +220,7 @@ script FortreeCity_CreatorHouse_EventScript_DeclineCapBattle {
 }
 
 script FortreeCity_CreatorHouse_EventScript_BattleCap{
-	msgbox("You're cooked buddy.", MSGBOX_DEFAULT)
+	msgbox("朋友，你完蛋了。", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_CAP, Cap_Outro)
 	goto(FortreeCity_CreatorHouse_EventScript_CapGiveItems)
 	return
@@ -245,41 +245,40 @@ script FortreeCity_CreatorHouse_EventScript_CapGiveItems{
 }
 
 text Cap_Greeting{
-	"I was too lazy to send the creator a\n"
-	"script, so this is the nonsense I have\l"
-	"to say instead!\p"
-	"If you lose to me, it means you're a\n"
-	"literal gerber baby because this game\l"
-	"is easy.\p"
-	"If you manage to beat me, I'll give you\n"
-	"the Mega Stones for the Fire starters,\l"
-	"the TM for Dragon Dance, and a set of\l"
-	"Choice Specs.\p" 
-	"So we battling or what?"
+	"我懒得给作者写脚本，\n"
+	"所以只好说这些废话！\p"
+	"你要是输给我，说明你是个\n"
+	"彻头彻尾的菜鸟，因为这游戏\l"
+	"简单得很。\p"
+	"要是你能打赢我，我就送你\n"
+	"火系初始宝可梦的超级石，\l"
+	"龙之舞的招式学习器，还有一套\l"
+	"讲究眼镜。\p" 
+	"那到底打不打？"
 }
 
 text Cap_ReadyYet{
-	"Ready or what?"
+	"准备好了没？"
 }
 
 text Cap_ComeBackWhenReady{
-	"Lame."
+	"真没劲。"
 }
 
 text Cap_ExplainItems{
-	"Honestly the rewards for beating me\n"
-	"are goated, this was probably worth the\l"
-	"hassle."
+	"说实话，打赢我的奖励\n"
+	"超值，大概值这点\l"
+	"麻烦。"
 }
 
 text Cap_Outro{
-	"Looks like the team I constructed was\n"
-	"trash, better luck next hack I guess."
+	"看来我组的队伍\n"
+	"太烂了，希望下个改版运气好点。"
 }
 
 
 text PostBattle_Cap{
-	"Back to.. doing nothing really."
+	"回去……继续什么都不干。"
 }
 
 
@@ -316,7 +315,7 @@ script FortreeCity_CreatorHouse_EventScript_DeclineXBattle {
 }
 
 script FortreeCity_CreatorHouse_EventScript_BattleX{
-	msgbox("You're on!", MSGBOX_DEFAULT)
+	msgbox("来啊！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_X, X_Outro)
 	goto(FortreeCity_CreatorHouse_EventScript_XGiveItems)
 	return
@@ -341,45 +340,45 @@ script FortreeCity_CreatorHouse_EventScript_XGiveItems{
 }
 
 text X_Greeting{
-	"Yo! I was just about to have lunch on\n"
-	"my Torterra's back, but I guess that\l"
-	"can wait. Do you want to battle in the\l"
-	"mean time?\p"
-	"If you can beat me, I'll give you the\n"
-	"Mega Stones for the Grass starters,\l"
-	"the TM for Earthquake, and a Choice\l"
-	"Band. You in?"
+	"哟！我正要在土台龟的背上\n"
+	"吃午饭，不过那事\l"
+	"可以等等。你要趁现在\l"
+	"打一场吗？\p"
+	"你要是能打赢我，我就送你\n"
+	"草系初始宝可梦的超级石，\l"
+	"地震的招式学习器，还有\l"
+	"讲究头带。来不来？"
 }
 
 text X_ReadyYet{
-	"You in now?"
+	"现在来吗？"
 }
 
 text X_ComeBackWhenReady{
-	"You know where to find me if you change\n"
-	"your mind."
+	"要是改主意，\n"
+	"你知道在哪儿找我。"
 }
 
 text X_ExplainItems{
-	"This move Earthquake carried me\n"
-	"through many a Pearl run back in the\l"
-	"day.\p"
-	"Though, this game should be a biiiit\n"
-	"more challenging (unless you use\l"
-	"Torterra because he's the GOAT, don't\l"
-	"let anyone else tell you otherwise).\p"
-    "What could be better than a picnic on\n"
-    "his back? Maybe a Starly in the tree.\p"
-    "Anyways, hope you like the Mega sprite,\n"
-    "I designed it myself!"
+	"当年这一招地震，\n"
+	"帮我打通了好多次珍珠版\l"
+	"流程。\p"
+	"不过这个游戏应该会\n"
+	"难上一点（当然，除非你用\l"
+	"土台龟，因为它是神，别\l"
+	"听别人乱说）。\p"
+    "还有比在他背上野餐\n"
+    "更棒的吗？也许树上还有姆克儿。\p"
+    "总之，希望你喜欢超级形态的\n"
+    "图，我自己设计的！"
 }
 	
 text X_Outro{
-	"Well now you've gone and spoiled my\n"
-    "appetite..."
+	"你啊，把我的\n"
+    "胃口都弄没了……"
 }
 
 
 text PostBattle_X{
-	"... don't even deserve this sandwich..."
+	"……连这顿三明治都不配吃……"
 }

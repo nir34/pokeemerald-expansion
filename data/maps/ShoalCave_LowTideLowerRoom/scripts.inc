@@ -326,180 +326,180 @@ ShoalCave_LowTideLowerRoom_EventScript_SummonWomanManNo::
 
 ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom_Text_0:
 # 63 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Entrance Room$"
+	.string "入口房间$"
 
 ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom_Text_1:
 # 64 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Inner Room$"
+	.string "内部房间$"
 
 ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom_Text_2:
 # 65 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Stairs Room$"
+	.string "楼梯房间$"
 
 ShoalCave_LowTideLowerRoom_EventScript_ChooseRoom_Text_3:
 # 66 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Cancel$"
+	.string "取消$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_0:
 # 97 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Great Tusk$"
+	.string "雄伟牙$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_1:
 # 98 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Scream Tail$"
+	.string "吼叫尾$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_2:
 # 99 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Brute Bonnet$"
+	.string "猛恶菇$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_3:
 # 100 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Flutter Mane$"
+	.string "振翼发$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_4:
 # 101 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Slither Wing$"
+	.string "爬地翅$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_5:
 # 102 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Sandy Shocks$"
+	.string "沙铁皮$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_6:
 # 103 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Roaring Moon$"
+	.string "轰鸣月$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_7:
 # 104 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Walking Wake$"
+	.string "波荡水$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_8:
 # 105 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Gouging Fire$"
+	.string "破空焰$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_9:
 # 106 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Raging Bolt$"
+	.string "猛雷鼓$"
 
 ShoalCave_LowTideLowerRoom_EventScript_EntranceRoom_Text_10:
 # 107 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Back$"
+	.string "返回$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_0:
 # 128 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Treads$"
+	.string "铁辙迹$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_1:
 # 129 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Bundle$"
+	.string "铁包袱$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_2:
 # 130 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Hands$"
+	.string "铁臂膀$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_3:
 # 131 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Jugulis$"
+	.string "铁脖颈$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_4:
 # 132 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Moth$"
+	.string "铁毒蛾$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_5:
 # 133 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Thorns$"
+	.string "铁荆棘$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_6:
 # 134 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Valiant$"
+	.string "铁武者$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_7:
 # 135 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Leaves$"
+	.string "铁叶$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_8:
 # 136 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Boulder$"
+	.string "铁磐岩$"
 
 ShoalCave_LowTideLowerRoom_EventScript_InnerRoom_Text_9:
 # 137 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Iron Crown$"
+	.string "铁头壳$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_0:
 # 159 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Nihilego$"
+	.string "虚吾伊德$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_1:
 # 160 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Guzzlord$"
+	.string "恶食大王$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_2:
 # 161 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Xurkitree$"
+	.string "电束木$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_3:
 # 162 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Buzzwole$"
+	.string "爆肌蚊$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_4:
 # 163 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Blacephalon$"
+	.string "砰头小丑$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_5:
 # 164 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Stakataka$"
+	.string "垒磊石$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_6:
 # 165 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Poipole$"
+	.string "毒贝比$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_7:
 # 166 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Pheromosa$"
+	.string "费洛美螂$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_8:
 # 167 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Celesteela$"
+	.string "铁火辉夜$"
 
 ShoalCave_LowTideLowerRoom_EventScript_StairsRoom_Text_9:
 # 168 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Kartana$"
+	.string "纸御剑$"
 
 ShoalCave_LowTideLowerRoom_Text_SummonerIntro::
 # 219 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Hello, young trainer.\p"
-	.string "I've come to this remote location\n"
-	.string "because I have learned a powerful\l"
-	.string "technique that allows me to summon one\l"
-	.string "Pokémon from almost anywhere in this\l"
-	.string "cave.\p"
-	.string "Would you like me to summon a Pokémon\n"
-	.string "here so you can battle it?$"
+	.string "你好，年轻的训练家。\p"
+	.string "我来到这个偏僻的地方，\n"
+	.string "是因为学会了一门强力的\l"
+	.string "技艺，能从这洞穴里几乎\l"
+	.string "任何地方召唤出一只\l"
+	.string "宝可梦。\p"
+	.string "要我把一只宝可梦召唤\n"
+	.string "到这儿来和你对战吗？$"
 
 ShoalCave_LowTideLowerRoom_Text_SummonerIntroQuick::
 # 230 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Would you like me to summon a Pokémon\n"
-	.string "here so you can battle it?$"
+	.string "要我把一只宝可梦召唤\n"
+	.string "到这儿来和你对战吗？$"
 
 ShoalCave_LowTideLowerRoom_Text_WhichRoom::
 # 235 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Which room would you like me to summon a\n"
-	.string "Pokémon from?$"
+	.string "你想让我从哪个房间\n"
+	.string "召唤宝可梦？$"
 
 ShoalCave_LowTideLowerRoom_Text_WhichPokemon::
 # 240 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Which Pokémon would you like me to\n"
-	.string "summon so you can battle?$"
+	.string "你想让我召唤哪只\n"
+	.string "宝可梦和你对战？$"
 
 ShoalCave_LowTideLowerRoom_Text_ConfirmSummon::
 # 245 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "So you want me to summon a\n"
-	.string "{STR_VAR_1} for you to battle?$"
+	.string "那么，你想让我召唤一只\n"
+	.string "{STR_VAR_1}来和你对战吗？$"
 
 ShoalCave_LowTideLowerRoom_Text_VeryWell::
 # 250 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "Very well, prepare yourself for battle.$"
+	.string "很好，做好对战的准备吧。$"
 
 ShoalCave_LowTideLowerRoom_SummonWomanDeclined::
 # 254 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	.string "I see. Let me know if you change\n"
-	.string "your mind.$"
+	.string "我明白了。若你改变主意，\n"
+	.string "就告诉我。$"

@@ -61,82 +61,82 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 # 31 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 # 32 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 33 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 34 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "“Trick Master I love.”\n"
+	.string "“我爱机关大师。”\n"
 # 35 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "… … … … … … … …\p"
 # 36 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 37 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 38 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentIntro:
 # 39 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "Not many 训练家S have made it\n"
+	.string "没多少训练家能\n"
 # 40 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "this far.$"
+	.string "走到这里。$"
 # 41 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 42 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
 # 43 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "That must mean you're tough, too…$"
+	.string "那说明你也很强……$"
 # 44 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 45 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
 # 46 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "You've beaten the Pokémon LEAGUE\n"
+	.string "你打赢了宝可梦联盟\n"
 # 47 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "冠军? That's too much!$"
+	.string "冠军？太厉害了！$"
 # 48 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 49 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
 # 50 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "Consider yourself lucky to be\n"
+	.string "能和我对战，你\n"
 # 51 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "battling me!$"
+	.string "该觉得走运！$"
 # 52 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 53 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
 # 54 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "This isn't right!\n"
+	.string "不对劲！\n"
 # 55 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "I can't lose!$"
+	.string "我不能输！$"
 # 56 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 57 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
 # 58 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "It's a miracle that you beat me.\n"
+	.string "你打赢我是奇迹。\n"
 # 59 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "You can brag about it.$"
+	.string "你可以去炫耀。$"
 # 60 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 61 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
 # 62 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "You've been slugging through the TRICK\n"
+	.string "你也是一路闯过\n"
 # 63 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "HOUSE challenge, too.$"
+	.string "机关屋挑战来的。$"
 # 64 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 65 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 # 66 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "I see…\n"
+	.string "我明白了……\n"
 # 67 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "You possess an extraordinary style.$"
+	.string "你的风格非同一般。$"
 # 68 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
 # 69 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
 # 70 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "Seeing someone like you should please\n"
+	.string "见到你这样的人，机关\n"
 # 71 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	.string "the Trick Master.$"
+	.string "大师应该会高兴。$"

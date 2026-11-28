@@ -363,37 +363,37 @@ Route121_EventScript_RematchCristin::
 # 182 "data/maps/Route121/scripts.pory"
 Route121_Text_OkayMoveOutToMtPyre:
 # 183 "data/maps/Route121/scripts.pory"
-	.string "Okay!\n"
+	.string "好！\n"
 # 184 "data/maps/Route121/scripts.pory"
-	.string "We're to move out to Mt. Pyre!$"
+	.string "我们往送神火山出发！$"
 # 185 "data/maps/Route121/scripts.pory"
 
 # 186 "data/maps/Route121/scripts.pory"
 Route121_Text_AheadLoomsMtPyre:
 # 187 "data/maps/Route121/scripts.pory"
-	.string "Ahead looms Mt. Pyre…\p"
+	.string "前方就是送神火山……\p"
 # 188 "data/maps/Route121/scripts.pory"
-	.string "It is a natural monument to the spirits \n"
+	.string "它是安放逝去宝可梦\n"
 # 189 "data/maps/Route121/scripts.pory"
-	.string "of departed Pokémon…$"
+	.string "灵魂的天然纪念碑……$"
 # 190 "data/maps/Route121/scripts.pory"
 
 # 191 "data/maps/Route121/scripts.pory"
 Route121_Text_MtPyrePierSign:
 # 192 "data/maps/Route121/scripts.pory"
-	.string "MT. PYRE PIER\p"
+	.string "送神火山栈桥\p"
 # 193 "data/maps/Route121/scripts.pory"
-	.string "…The sign is old and worn out.\n"
+	.string "……牌子又旧又破。\n"
 # 194 "data/maps/Route121/scripts.pory"
-	.string "The words are barely legible…$"
+	.string "字几乎看不清了……$"
 # 195 "data/maps/Route121/scripts.pory"
 
 # 196 "data/maps/Route121/scripts.pory"
 Route121_Text_SafariZoneSign:
 # 197 "data/maps/Route121/scripts.pory"
-	.string "“Filled with rare Pokémon!”\n"
+	.string "“满是稀有宝可梦！”\n"
 # 198 "data/maps/Route121/scripts.pory"
-	.string "SAFARI ZONE$"
+	.string "狩猎地带$"
 
 Route121_EventScript_Byron::
 # 203 "data/maps/Route121/scripts.pory"
@@ -623,72 +623,72 @@ StopPlayerLeft:
 
 Route121_EventScript_BattleByron_Text_0:
 # 233 "data/maps/Route121/scripts.pory"
-	.string "Excellent!$"
+	.string "太好了！$"
 
 Route121_Psyduck1_Text_0:
 # 359 "data/maps/Route121/scripts.pory"
-	.string "Psyduck: Psyyyyyyy.$"
+	.string "可达鸭：呱————。$"
 
 Route121_Psyduck2_Text_0:
 # 371 "data/maps/Route121/scripts.pory"
-	.string "Psyduck: Psy?$"
+	.string "可达鸭：呱？$"
 
 Route121_Psyduck3_Text_0:
 # 382 "data/maps/Route121/scripts.pory"
-	.string "Psyduck: Psyyyy?$"
+	.string "可达鸭：呱————？$"
 
 Route121_Psyduck4_Text_0:
 # 393 "data/maps/Route121/scripts.pory"
-	.string "Psyduck: PSYYY!!!!$"
+	.string "可达鸭：呱啊！！！！$"
 
 Byron_Greeting::
 # 305 "data/maps/Route121/scripts.pory"
-	.string "Well hello there, you look like a well-\n"
-	.string "traveled person. Did you happen to run\l"
-	.string "into a young man named Roark during\l"
-	.string "your journey?\p"
-	.string "… … … … … …\p"
-	.string "Oh, you haven't seen him yet?\n"
-	.string "That's quite alright, I'm sure you'll\l"
-	.string "know him when you see him.\p"
-	.string "Oh, where are my manners, I'm Byron, a\n"
-	.string "Gym Leader from the Sinnoh region.\p"
-	.string "Say, since you are a strong trainer, how\n"
-	.string "would you feel about having a battle\l"
-	.string "with me?$"
+	.string "你好啊，看你这身风尘，\n"
+	.string "是个走南闯北的人。你旅途中\l"
+	.string "有没有遇到一个叫\l"
+	.string "瓢太的年轻人？\p"
+	.string "………………\p"
+	.string "哦，你还没见过他？\n"
+	.string "没关系，你见到他\l"
+	.string "一定会认出来的。\p"
+	.string "哦，都忘了自我介绍，我是东瓜，\n"
+	.string "神奥地区的道馆馆主。\p"
+	.string "我说，既然你是个强手，\n"
+	.string "愿不愿意和我\l"
+	.string "打一场？$"
 
 Byron_ReadyYet::
 # 321 "data/maps/Route121/scripts.pory"
-	.string "Would you like to battle now?$"
+	.string "现在想打一场吗？$"
 
 Byron_ComeBackWhenReady::
 # 325 "data/maps/Route121/scripts.pory"
-	.string "That's alright, I'll be here if you\n"
-	.string "change your mind.$"
+	.string "没关系，你要是改主意，\n"
+	.string "我就在这儿。$"
 
 Route121_Text_PlayerReceivedJirachi::
 # 330 "data/maps/Route121/scripts.pory"
-	.string "{PLAYER} received Jirachi!$"
+	.string "{PLAYER}得到了基拉祈！$"
 
 Byron_ExplainJirachi::
 # 334 "data/maps/Route121/scripts.pory"
-	.string "Jirachi is one of my\n"
-	.string "favorite Steel-types, I hope you treat\l"
-	.string "that Jirachi kindly and raise it well.$"
+	.string "基拉祈是我最喜欢的\n"
+	.string "钢属性之一，希望你能\l"
+	.string "善待它、好好培育它。$"
 
 Byron_Outro::
 # 341 "data/maps/Route121/scripts.pory"
-	.string "I see how you were able to defeat my\n"
-	.string "son. I'm confident I'll be leaving this\l"
-	.string "Pokémon in good hands.$"
+	.string "我明白你是怎么打败我\n"
+	.string "儿子了。我把这只宝可梦\l"
+	.string "交给你很放心。$"
 
 PostBattle_Byron::
 # 348 "data/maps/Route121/scripts.pory"
-	.string "I'm off to find Roark, I'm sure he's\n"
-	.string "going to explore the underground of\l"
-	.string "this region.$"
+	.string "我去找瓢太了，他肯定会\n"
+	.string "去探索这个地区的\l"
+	.string "地下。$"
 
 GoBeatWinona::
 # 399 "data/maps/Route121/scripts.pory"
-	.string "You should defeat Winona before\n"
-	.string "moving on to here.$"
+	.string "等你打赢娜琪，\n"
+	.string "再来这里吧。$"

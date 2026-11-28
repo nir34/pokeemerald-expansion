@@ -132,46 +132,46 @@ SootopolisCity_House4_EventScript_CancelLegend::
 
 SootopolisCity_House4_Text_PleaseShowLegend::
 # 82 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "Well now, don't you look like the\n"
-	.string "promising young trainer.\p"
-	.string "I've traveled far and wide in my\n"
-	.string "lifetime, and I have here some very\l"
-	.string "powerful relics from another region\l"
-	.string "that I am looking to give to a\l"
-	.string "trustworthy trainer.\p"
-	.string "If you can show me one of the Pokémon\n"
-	.string "that uses these relics, I'll know you\l"
-	.string "are worth possessing one.$"
+	.string "哦呀，你看起来\n"
+	.string "是个很有前途的年轻训练家。\p"
+	.string "我这一生走遍了\n"
+	.string "天南地北，手头有些来自\l"
+	.string "别的地区的强力遗物，\l"
+	.string "想交给一位\l"
+	.string "值得信赖的训练家。\p"
+	.string "只要你能让我看到一只\n"
+	.string "能用这些遗物的宝可梦，\l"
+	.string "我就知道你配得上拥有。$"
 
 SootopolisCity_House4_Text_PleaseTakeThisRelic::
 # 95 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "Oh my! That is one of the of the\n"
-	.string "Pokémon that can use this relic.\p"
-	.string "Here, you are clearly a trainer worthy\n"
-	.string "of wielding its power.$"
+	.string "哎呀！那正是能用\n"
+	.string "这件遗物的宝可梦之一。\p"
+	.string "来，你显然是位配得上\n"
+	.string "驾驭它力量的训练家。$"
 
 SootopolisCity_House4_Text_UseThatRelic::
 # 102 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "I believe you can harness the full\n"
-	.string "power of that relic.$"
+	.string "我相信你能发挥出\n"
+	.string "那件遗物的全部力量。$"
 
 SootopolisCity_House4_Text_UseThoseRelics::
 # 107 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "That's all the relics I'd collected over\n"
-	.string "the years.\p"
-	.string "I hope you use them wisely.$"
+	.string "这些就是我多年收集的\n"
+	.string "全部遗物。\p"
+	.string "希望你好生使用。$"
 
 SootopolisCity_House4_Text_AlreadyGaveRelic::
 # 113 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "I already gave you the relic for that\n"
-	.string "Pokémon.$"
+	.string "我已经把适合那只宝可梦的\n"
+	.string "遗物给你了。$"
 
 SootopolisCity_House4_Text_DontHaveLegend::
 # 118 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "I see, you don't have one of the\n"
-	.string "Pokémon that can use these relics.$"
+	.string "我明白了，你没有能用\n"
+	.string "这些遗物的宝可梦。$"
 
 SootopolisCity_House4_Text_NotLegend::
 # 122 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "That's not one of the Pokémon that can\n"
-	.string "use these relics.$"
+	.string "那只宝可梦用不了\n"
+	.string "这些遗物。$"

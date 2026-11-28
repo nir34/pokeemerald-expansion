@@ -576,164 +576,166 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_WhereTheHellAmI:
-	.string "WHERE THE HELL AM I?!$"
+	.string "我到底在\n"
+	.string "什么地方啊？！$"
 
 Route111_Text_BattleOurFamily:
-	.string "Hello! I take it you're a traveler.\p"
-	.string "How's this? What do you say to taking\n"
-	.string "on our family of four in a series of\l"
-	.string "Pokémon battles?$"
+	.string "你好！看来你是个\n"
+	.string "旅行者。\p"
+	.string "怎么样？要不要和我们\n"
+	.string "一家四口来几场\l"
+	.string "宝可梦对战？$"
 
 Route111_Text_IsThatSo:
-	.string "Is that so?\n"
-	.string "Drop in, if you change your mind!$"
+	.string "这样啊？\n"
+	.string "要是改主意了，就来吧！$"
 
 Route111_Text_ShouldGetStronger:
-	.string "Hmm… Maybe you should get a little\n"
-	.string "stronger before you take on the family.\p"
-	.string "If you can show me the Heat Badge, then\n"
-	.string "I'll know you're strong enough.$"
+	.string "嗯……在挑战我们一家\n"
+	.string "之前，你也许该\l"
+	.string "再变强一点。\p"
+	.string "你要是能拿出烈焰徽章，\n"
+	.string "我就知道你已经够强了。$"
 
 Route111_Text_VictorIntro:
-	.string "That's the spirit! I like you!$"
+	.string "这才对！我喜欢你！$"
 
 Route111_Text_VictorDefeat:
-	.string "Aiyah!\n"
-	.string "You're a lot tougher than I expected!$"
+	.string "哎呀！\n"
+	.string "你比我预想的强多了！$"
 
 Route111_Text_VictorPostBattle:
-	.string "Hey, all!\n"
-	.string "I've found a pretty strong TRAINER!$"
+	.string "喂，大家！\n"
+	.string "我找到一个很强的训练家！$"
 
 Route111_Text_VictoriaIntro:
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the TRAINER to beat\n"
-	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string "哎呀！你还这么年轻？\p"
+	.string "不过能打赢我丈夫，\n"
+	.string "你一定很厉害。\p"
+	.string "现在轮到我了！$"
 
 Route111_Text_VictoriaDefeat:
-	.string "Oh, gosh!\n"
-	.string "I can't get over how strong you are!$"
+	.string "天哪！\n"
+	.string "你的强大真让我惊叹！$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "There's a strong TRAINER here!\n"
-	.string "This one's really strong!$"
+	.string "这里有个很强的训练家！\n"
+	.string "这个真的很强！$"
 
 Route111_Text_ViviIntro:
-	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
-	.string "Really! Honestly!$"
+	.string "你比妈妈还强？哇！\p"
+	.string "不过我也很强！\n"
+	.string "真的！真的哦！$"
 
 Route111_Text_ViviDefeat:
-	.string "Huh? Did I just lose?$"
+	.string "咦？我刚刚输了吗？$"
 
 Route111_Text_ViviPostBattle:
-	.string "This stinks…\p"
-	.string "…Snivel… Grandma!$"
+	.string "真讨厌……\p"
+	.string "……呜……奶奶！$"
 
 Route111_Text_VickyIntro:
-	.string "How dare you make my granddaughter\n"
-	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
-	.string "Prepare to lose!$"
+	.string "你竟敢把我孙女\n"
+	.string "弄哭！\p"
+	.string "看招，我可要揍你！\n"
+	.string "准备输吧！$"
 
 Route111_Text_VickyDefeat:
-	.string "Kwah! You are strong…\n"
-	.string "My granddaughter was right…$"
+	.string "哇！你真强……\n"
+	.string "我孙女说得没错……$"
 
 Route111_Text_VickyPostBattle:
-	.string "If you're not in any hurry,\n"
-	.string "visit with us awhile.$"
+	.string "你要是不急着走，\n"
+	.string "就陪我们聊一会儿。$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "If you don't raise your Pokémon some\n"
-	.string "more, it could be tough to keep winning\l"
-	.string "up through the ranks.\p"
-	.string "I've heard the Pokémon LEAGUE's\n"
-	.string "ELITE FOUR are far stronger than\l"
-	.string "any GYM LEADER.$"
+	.string "如果不好好培养宝可梦，\n"
+	.string "想一路赢上去\l"
+	.string "可不容易。\p"
+	.string "我听说宝可梦联盟的四天王\n"
+	.string "比任何道馆馆主都强得多。$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "I challenged the WINSTRATE family,\n"
-	.string "but four matches in a row is tough\l"
-	.string "going… They destroyed me.$"
+	.string "我挑战了温斯特一家，\n"
+	.string "可连打四场太吃力了……\l"
+	.string "他们把我都打垮了。$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
-	.string "{DOWN_ARROW} MAUVILLE CITY$"
+	.string "111号道路\n"
+	.string "{DOWN_ARROW} 紫堇市$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "“Our family's hearts beat as one!”\n"
-	.string "THE WINSTRATE'S HOUSE$"
+	.string "“全家的心合而为一！”\n"
+	.string "温斯特之家$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 112$"
+	.string "111号道路\n"
+	.string "{LEFT_ARROW} 112号道路$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 113$"
+	.string "111号道路\n"
+	.string "{LEFT_ARROW} 113号道路$"
 
 Route111_Text_OldLadysRestStopSign:
-	.string "Nurse Here$"
+	.string "这里有护士$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-	.string "Trainer Tips\p"
-	.string "You can press the “A” button while\n"
-	.string "viewing a Pokémon's stats in the\l"
-	.string "summary screen to view data about\l"
-	.string "their EVs and IVs as well.$"
+	.string "训练家入门\p"
+	.string "在查看宝可梦能力时，\n"
+	.string "按“A”键就能\l"
+	.string "看到它的努力值\l"
+	.string "和个体值数据。$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "There should be a tower made of sand\n"
-	.string "around here somewhere.\p"
-	.string "But for some reason, it can be seen\n"
-	.string "sometimes, and sometimes not.\p"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string "这附近应该有一座\n"
+	.string "沙子做的塔。\p"
+	.string "可不知为什么，它有时\n"
+	.string "看得见，有时看不见。\p"
+	.string "所以我叫它幻影塔。$"
 
 Route111_Text_MirageTowerClearlyVisible:
-	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
-	.string "is clearly visible!\p"
-	.string "But it looks so fragile…\n"
-	.string "It could crumble away anytime…\p"
-	.string "I want to go inside it, but I can't\n"
-	.string "get my courage up for it…$"
+	.string "我看见了！\n"
+	.string "那座沙塔！\p"
+	.string "大家称作幻影的沙塔，\n"
+	.string "清清楚楚看得见！\p"
+	.string "可它看起来很脆弱……\n"
+	.string "随时都可能塌掉……\p"
+	.string "我想进去看看，可就是\n"
+	.string "提不起勇气……$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "Whoa…\n"
-	.string "That was shocking.\p"
-	.string "Sand rained down in chunks all of\n"
-	.string "a sudden.\p"
-	.string "What was it like inside?\n"
-	.string "Were there sandy ghosts and such?$"
+	.string "哇……\n"
+	.string "真吓人。\p"
+	.string "沙子突然一块一块地\n"
+	.string "往下掉。\p"
+	.string "里面是什么样子？\n"
+	.string "有沙子做的鬼吗？$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "Since I spoke to you, the tower of sand\n"
-	.string "hasn't been seen.\p"
-	.string "Perhaps it really was\n"
-	.string "the MIRAGE TOWER…$"
+	.string "自从和你说话以后，\n"
+	.string "那座沙塔就不见了。\p"
+	.string "也许它真的是\n"
+	.string "幻影塔……$"
 
 Route111_Text_ClawFossilDisappeared:
-	.string "The CLAW FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "爪之化石\n"
+	.string "消失在了沙子里……$"
 
 Route111_Text_RootFossilDisappeared:
-	.string "The ROOT FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "根之化石\n"
+	.string "消失在了沙子里……$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "Oh, no!\p"
-	.string "My uncle in MAUVILLE told me to take\n"
-	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
-	.string "My uncle? He lives across from\n"
-	.string "the bike shop in MAUVILLE.$"
+	.string "糟了！\p"
+	.string "我在紫堇市的叔叔说，\n"
+	.string "要去111号道路\l"
+	.string "就得带上碎岩！\p"
+	.string "我叔叔？他住在紫堇市\n"
+	.string "自行车店对面。$"
 
 Route111_Text_TrainerHillSign:
-	.string "TRAINER HILL\n"
-	.string "UNDER DEVELOPMENT$"
+	.string "训练家之丘\n"
+	.string "正在开发中$"
 
 `
 
@@ -886,36 +888,36 @@ script Route111_EventScript_DawnExit{
 }
 
 text Route111_Text_Dawn_Greeting{
-	"Hey, {PLAYER}! Long time no see! Wow,\n"
-	"looks like you got the Dynamo Badge\l"
-	"from Wattson, pretty impressive!\p" 
-	"I had a hard time making it to Lavaridge\n"
-	"Town to take on Flannery, so I figured I\l"
-	"would head back this way to train a\l"
-	"little…\p"
-	"I guess that makes this some\n"
-	"good timing, get ready!"
+	"嘿，{PLAYER}！好久不见！哇，\n"
+	"看来你已经从铁旋那儿拿到了\l"
+	"电力徽章，真厉害！\p" 
+	"我好不容易才走到釜炎镇\n"
+	"去挑战亚莎，所以我想\l"
+	"还是原路返回，先练一练\l"
+	"再说……\p"
+	"看来这还挺\n"
+	"巧的，准备好吧！"
 }
 
 text Route111_Text_Dawn_Defeated{
-	"I really need more training if I'm losing\n"
-	"to you again!"
+	"要是我又输给你，那可\n"
+	"真得多练练了！"
 }
 
 text Route111_Text_Dawn_MagmaAndAqua{
-	"Oh by the way, when I was walking\n"
-	"around the mountain up ahead, I heard\l"
-	"some rumblings about Team Aqua\l"
-	"fighting with another team called\l"
-	"Team Magma.\p"
-	"I'm not really sure what's going on,\n"
-	"but be careful going ahead.\p"
-	"In the meantime, I have some spare\n"
-	"Items you can have, hope they help!"
+	"对了，我在前面那座山\n"
+	"附近转的时候，听到\l"
+	"有水舰队在和另一个叫\l"
+	"熔岩队的组织\l"
+	"打架。\p"
+	"我不太清楚发生了什么，\n"
+	"但你往前要小心。\p"
+	"对了，我有些多余的\n"
+	"道具，给你吧，希望有用！"
 }
 
 text Route111_Text_DawnGoodbye{
-	"Back to training, see you later!"
+	"我回去训练了，回头见！"
 }
 
 script Route111_EventScript_ApplyMovementDawn1{
@@ -1007,8 +1009,8 @@ script Route111_Trigger_BlockTrainerHillEntrance{
 }
 
 text TrainerHillDev{
-	"TRAINER HILL\n"
-	"UNDER DEVELOPMENT"
+	"训练家之丘\n"
+	"建设中"
 }
 
 
@@ -1044,7 +1046,7 @@ script Route111_EventScript_DeclineDaisukeBattle {
 }
 
 script Route111_EventScript_BattleDaisuke{
-	msgbox("Bring it on!", MSGBOX_DEFAULT)
+	msgbox("来吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_DAISUKE, Daisuke_Outro)
 	giveitem(ITEM_PROTECTIVE_PADS)
 	giveitem(ITEM_PUNCHING_GLOVE)
@@ -1063,41 +1065,41 @@ script Route111_EventScript_DaisukeDefeated{
 }
 
 text Daisuke_Greeting{
-	"Yo! I'm working on becoming the karate\n"
-	"master of this region. If you can help\l"
-	"me with my training, I'll reward you with\l"
-	"some of the Items I've been using on my\l"
-	"Pokémon during our training.\p"
-	"What do you say?"
+	"哟！我正朝着成为这个地区\n"
+	"空手道大师的目标努力。你若肯\l"
+	"陪我练练，我就把我训练时\l"
+	"用在宝可梦身上的道具\l"
+	"给宝可梦用了不少。\p"
+	"你觉得如何？"
 }
 
 text Daisuke_ReadyYet{
-	"Are you willing to help me become the\n"
-	"karate master now?"
+	"现在愿意帮我成为\n"
+	"空手道大师了吗？"
 }
 
 text Daisuke_ComeBackWhenReady{
-	"No worries, I'll keep training on my own\n"
-	"out here."
+	"没关系，我就自己\n"
+	"在这儿继续练。"
 }
 
 text Daisuke_ExplainItems{
-	"I've used those Items a bunch for my\n"
-	"Pokémon during our training.\p"
-	"They boost the power of certain moves,\n"
-	"like punching or kicking moves.\p"
-	"They can be pretty niche, but they are\n"
-	"super useful when you need them!"
+	"那些道具我在训练时\n"
+	"给宝可梦用了不少。\p"
+	"它们能增强某些招式的威力，\n"
+	"比如拳类或踢类招式。\p"
+	"虽然用途挺专一的，但\n"
+	"真的需要时超级好用！"
 }
 	
 text Daisuke_Outro{
-	"Great battle! I know I'll be leaving\n"
-	"these Items in good hands."
+	"打得真好！把这些道具交给你，\n"
+	"我很放心。"
 }
 
 
 text PostBattle_Daisuke{
-	"Looks like I still have a long way to go.\n"
-	"Hope you're making good use of\l"
-	"those Items!"
+	"看来我还差得远。\n"
+	"希望你好好\l"
+	"用那些道具！"
 }

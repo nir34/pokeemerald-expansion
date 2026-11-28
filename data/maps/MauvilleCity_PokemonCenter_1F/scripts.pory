@@ -32,21 +32,22 @@ MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
-	.string "That man over there, he has so many\n"
-	.string "Costume Pikachus!$"
+	.string "那边那个人，他有好多\n"
+	.string "换装皮卡丘！$"
 
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
-	.string "When I accessed the RECORD CORNER,\n"
-	.string "the data for what's hot in DEWFORD\l"
-	.string "got updated.\p"
-	.string "Now that bit of data is the same\n"
-	.string "as my friend's!$"
+	.string "我去了记录角以后，\n"
+	.string "武斗镇的热门数据\l"
+	.string "就更新了。\p"
+	.string "现在那点数据和我朋友的\n"
+	.string "一样了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
-	.string "A RECORD CORNER opened upstairs in\n"
-	.string "the Pokémon CENTER.\p"
-	.string "I don't know what it's about, but it\n"
-	.string "sounds fun. I'll go check it out!$"
+	.string "宝可梦中心楼上开了\n"
+	.string "一个记录角。\p"
+	.string "我不知道是干什么的，\n"
+	.string "不过听起来很有趣。\l"
+	.string "我去看看！$"
 
 `
 
@@ -55,15 +56,15 @@ script MauvilleCity_PokemonCenter_1F_EventScript_CostumePikachuGive {
 	faceplayer
 	msgbox(PikachuManIntro)
 
-	dynmultipush("Pikachu Cosplay", SPECIES_PIKACHU_COSPLAY)
-	dynmultipush("Pikachu Rock Star", SPECIES_PIKACHU_ROCK_STAR)
-	dynmultipush("Pikachu Belle", SPECIES_PIKACHU_BELLE)
-	dynmultipush("Pikachu Pop Star", SPECIES_PIKACHU_POP_STAR)
-	dynmultipush("Pikachu PhD", SPECIES_PIKACHU_PHD)
-	dynmultipush("Pikachu Libre", SPECIES_PIKACHU_LIBRE)
-	dynmultipush("Pikachu Surfing", SPECIES_PIKACHU_SURFING)
-	dynmultipush("Pikachu Flying", SPECIES_PIKACHU_FLYING)
-    dynmultipush("Cancel", MULTI_B_PRESSED)
+	dynmultipush("换装皮卡丘", SPECIES_PIKACHU_COSPLAY)
+	dynmultipush("摇滚皮卡丘", SPECIES_PIKACHU_ROCK_STAR)
+	dynmultipush("千金皮卡丘", SPECIES_PIKACHU_BELLE)
+	dynmultipush("偶像皮卡丘", SPECIES_PIKACHU_POP_STAR)
+	dynmultipush("博士皮卡丘", SPECIES_PIKACHU_PHD)
+	dynmultipush("蒙面皮卡丘", SPECIES_PIKACHU_LIBRE)
+	dynmultipush("冲浪皮卡丘", SPECIES_PIKACHU_SURFING)
+	dynmultipush("飞行皮卡丘", SPECIES_PIKACHU_FLYING)
+    dynmultipush("取消", MULTI_B_PRESSED)
 
     // // setting initial selected to a non-existant ID will always have it point to the first option
 	dynmultistack(0, 0, FALSE, 6, FALSE, 3, DYN_MULTICHOICE_CB_NONE)
@@ -78,20 +79,20 @@ script MauvilleCity_PokemonCenter_1F_EventScript_CostumePikachuGive {
 	goto_if_eq(VAR_RESULT, FALSE, MauvilleCity_PokemonCenter_1F_EventScript_ComeBackWithYellowShard)
 	getpartysize
 	goto_if_eq(VAR_RESULT, PARTY_SIZE, MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForPikachu)
-	msgbox("That's my favorite one, great choice!")
+	msgbox("那只是我最喜欢的，好眼光！")
 	playfanfare(MUS_OBTAIN_ITEM)
 	message(MauvilleCity_PokemonCenter_1F_Text_ReceivedThePikachu)
 	waitfanfare
 	givemonrandom(VAR_0x8005, 25)
 	removeitem(ITEM_YELLOW_SHARD)
-	msgbox("Come back if you want more Pikachus!")
+	msgbox("还想要更多皮卡丘就再来！")
 	release
 	end
 	
 }
 
 script MauvilleCity_PokemonCenter_1F_EventScript_PikachuManNo {
-    msgbox("More for me then!")
+    msgbox("那就都归我了！")
     release
     end
 }
@@ -109,22 +110,22 @@ script MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForPikachu {
 }
 
 text PikachuManIntro {
-	"Hi, hi! I'm the number one Pikachu guy!\n"
-	"For just one Yellow Shard, any Costume\l"
-	"Pikachu can be yours, what do you say,\l"
-	"do you want one of these Pikachus?"
+	"嗨嗨！我是一号皮卡丘迷！\n"
+	"只要一枚黄色碎片，任何换装\l"
+	"皮卡丘都归你，怎么样，\l"
+	"想要一只这样的皮卡丘吗？"
 }
 
 text MauvilleCity_PokemonCenter_1F_Text_ComeBackWithYellowShard {
-	"It doesn't look like you have a\n"
-	"Yellow Shard. Come back when you do."
+	"看来你没有\n"
+	"黄色碎片。有了再来吧。"
 }
 
 text MauvilleCity_PokemonCenter_1F_Text_NoRoomForThisPikachu {
-	"Oh? You've too many Pokémon.\n"
-	"There's no room for this Pikachu."
+	"哦？你的宝可梦太多了。\n"
+	"没地方放这只皮卡丘。"
 }
 
 text MauvilleCity_PokemonCenter_1F_Text_ReceivedThePikachu {
-	"{PLAYER} received the Pikachu!"
+	"{PLAYER}收到了皮卡丘！"
 }

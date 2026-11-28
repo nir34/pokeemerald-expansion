@@ -37,27 +37,30 @@ VerdanturfTown_House_EventScript_Oricorio::
 	end
 
 VerdanturfTown_House_Text_Oricorio:
-	.string "Oricorio: Tweeeeeeeet tweet!$"
+	.string "花舞鸟：啾——啾！$"
 
 VerdanturfTown_House_Text_MorePassion:
-	.string "More passion! More passion! More\n"
-	.string "passion! More energy! More energy!$"
+	.string "再热情点！再热情点！\n"
+	.string "再热情点！再加油！\l"
+	.string "再加把劲！$"
 
 VerdanturfTown_House_Text_ImproveFootwork:
-	.string "I've got to improve my footwork!$"
+	.string "我得把脚步练得\n"
+	.string "更好！$"
 
 VerdanturfTown_House_Text_LittleBoyDancing:
-	.string "Whew! I'm pooped!$"
+	.string "呼！我累坏了！$"
 
 VerdanturfTown_House_Text_MomDancing:
-	.string "He's becoming such a good little dancer,\n"
-	.string "I'm so proud of him!$"
+	.string "他跳得越来越好了，\n"
+	.string "我真为他骄傲！$"
 
 VerdanturfTown_House_Text_DadDancing:
-	.string "Where does she get all this energy?$"
+	.string "她哪来这么多\n"
+	.string "精力？$"
 
 VerdanturfTown_House_Text_LittleGirlDancing:
-	.string "Look at my twirls daddy!!!$"
+	.string "爸爸看我的转圈！！！$"
 
 `
 
@@ -94,7 +97,7 @@ script VerdanturfTown_EventScript_DeclineUrsulaBattle {
 }
 
 script VerdanturfTown_EventScript_BattleUrsula{
-	msgbox("Let's boogie!", MSGBOX_DEFAULT)
+	msgbox("起舞吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_URSULA, UrsulaDefeat)
 	goto(VerdanturfTown_EventScript_UrsulaGiveItems)
 	return
@@ -123,41 +126,41 @@ script VerdanturfTown_EventScript_UrsulaGiveItems{
 }
 
 text UrsulaGreeting {
-	"Welcome to my dance studio! I see you\n"
-	"have the Dynamo Badge now, not too\l"
-	"shabby!\p"
-	"You may be a good at Pokémon\n"
-	"battles, but let's see how you fare in\l"
-	"a dance battle!\p"
-	"And by the way, this is going to be\n"
-	"a double battle, so I'd recommend \l"
-	"bringing more than one Pokémon\l"
-	"to dance!"
+	"欢迎来到我的舞蹈教室！看来你\n"
+	"已经拿到电力徽章了，\l"
+	"还不错嘛！\p"
+	"你也许擅长宝可梦\n"
+	"对战，但看看你在\l"
+	"舞蹈对决里表现如何！\p"
+	"顺便说，这是一场\n"
+	"双打对战，所以我建议\l"
+	"带一只以上的宝可梦\l"
+	"来共舞！"
 }
 	
 
 text UrsulaDefeat{
-	"Nice moves! Now I've got some nice\n"
-	"moves for you to take!"
+	"舞步不错！现在我有些不错的\n"
+	"招式要送给你！"
 }
 
 text VerdanturfTown_House_Text_ExplainTms{
-	"Now THOSE are some nice moves! Good\n"
-	"luck against my sister, if you ever make\l"
-	"it far enough to meet her!"
+	"这才叫好招式！你要是能走到\n"
+	"那一步遇到我姐姐，\l"
+	"祝你好运！"
 }
 	
 
 text VerdanturfTown_House_Text_UrsulaPostBattle{
-	"Back to dancing for me!"
+	"我回去跳舞了！"
 }
 
 text WillYouDance{
-	"So what do you say, want to\n"
-	"dance?"
+	"怎么样，想不想\n"
+	"跳一曲？"
 }
 
 text Ready_Dance_Yet{
-	"Ready for a dance?"
+	"准备好跳舞了吗？"
 }
 	

@@ -491,278 +491,290 @@ Route117_EventScript_Aisha::
 # 246 "data/maps/Route117/scripts.pory"
 Route117_Text_MelinaDaycare:
 # 247 "data/maps/Route117/scripts.pory"
-	.string "Yo I actually don't know if the eggs out\n"
+	.string "哟，其实我也不知道\n"
 # 248 "data/maps/Route117/scripts.pory"
-	.string "of the day care will have perfect IVs,\l"
+	.string "培育屋的蛋会不会有\l"
 # 249 "data/maps/Route117/scripts.pory"
-	.string "you sure can try though.$"
+	.string "满个体值，不过\l"
 # 250 "data/maps/Route117/scripts.pory"
-
+	.string "你可以试试看。$"
 # 251 "data/maps/Route117/scripts.pory"
-Route117_Text_DerekYouFoundMe:
+
 # 252 "data/maps/Route117/scripts.pory"
-	.string "Wow, you found me! I didn't think anyone\n"
+Route117_Text_DerekYouFoundMe:
 # 253 "data/maps/Route117/scripts.pory"
-	.string "ever would! I guess I don't have Hidden\l"
+	.string "哇，你找到我了！我\n"
 # 254 "data/maps/Route117/scripts.pory"
-	.string "Power anymore, so you should have it!$"
+	.string "还以为没人会来！\l"
 # 255 "data/maps/Route117/scripts.pory"
-
+	.string "看来我已经没有觉醒力量了，\l"
 # 256 "data/maps/Route117/scripts.pory"
-Route117_Text_ExplainHP:
+	.string "那就给你吧！$"
 # 257 "data/maps/Route117/scripts.pory"
-	.string "TM10 contains Hidden Power. That\n"
+
 # 258 "data/maps/Route117/scripts.pory"
-	.string "move's type can change depending on\l"
+Route117_Text_ExplainHP:
 # 259 "data/maps/Route117/scripts.pory"
-	.string "how your IVs are set. There's a guy\l"
+	.string "学习器10号里是觉醒力量。\n"
 # 260 "data/maps/Route117/scripts.pory"
-	.string "somewhere who can change your IVs for\l"
+	.string "这个招式的属性会随\l"
 # 261 "data/maps/Route117/scripts.pory"
-	.string "that, I think he's further ahead\l"
+	.string "你的个体值变化。\l"
 # 262 "data/maps/Route117/scripts.pory"
-	.string "though.$"
+	.string "我听说前面有个家伙\l"
 # 263 "data/maps/Route117/scripts.pory"
-
+	.string "能帮你改个体值，\l"
 # 264 "data/maps/Route117/scripts.pory"
-Route117_Text_DayCarePokemonHadNewMove:
+	.string "不过他还在更前面。$"
 # 265 "data/maps/Route117/scripts.pory"
-	.string "I left my Pokémon at the DAY CARE.\p"
+
 # 266 "data/maps/Route117/scripts.pory"
-	.string "When I got it back, it had a new move\n"
+Route117_Text_DayCarePokemonHadNewMove:
 # 267 "data/maps/Route117/scripts.pory"
-	.string "that I didn't teach it.\l"
+	.string "我把宝可梦寄放在培育屋。\p"
 # 268 "data/maps/Route117/scripts.pory"
-	.string "I was really, really surprised.$"
+	.string "取回来的时候，它多了\n"
 # 269 "data/maps/Route117/scripts.pory"
-
+	.string "一个我没教过的招式。\l"
 # 270 "data/maps/Route117/scripts.pory"
-Route117_Text_ArentTheseFlowersPretty:
+	.string "我真是吓了一跳。$"
 # 271 "data/maps/Route117/scripts.pory"
-	.string "What do you think?\n"
+
 # 272 "data/maps/Route117/scripts.pory"
-	.string "Aren't these flowers pretty?\p"
+Route117_Text_ArentTheseFlowersPretty:
 # 273 "data/maps/Route117/scripts.pory"
-	.string "I planted them all!$"
+	.string "你觉得怎么样？\n"
 # 274 "data/maps/Route117/scripts.pory"
-
+	.string "这些花很漂亮吧？\p"
 # 275 "data/maps/Route117/scripts.pory"
-Route117_Text_LittleBoyDancing:
+	.string "全是我种的！$"
 # 276 "data/maps/Route117/scripts.pory"
-	.string "Weeee! This dance is so fun!$"
+
 # 277 "data/maps/Route117/scripts.pory"
-
+Route117_Text_LittleBoyDancing:
 # 278 "data/maps/Route117/scripts.pory"
-Route117_Text_MomDancing:
+	.string "哇——！这个舞\n"
 # 279 "data/maps/Route117/scripts.pory"
-	.string "I hope we get to do outdoor lessons\n"
+	.string "真好玩！$"
 # 280 "data/maps/Route117/scripts.pory"
-	.string "more often!$"
+
 # 281 "data/maps/Route117/scripts.pory"
-
+Route117_Text_MomDancing:
 # 282 "data/maps/Route117/scripts.pory"
-Route117_Text_DadDancing:
+	.string "希望我们能多上几次\n"
 # 283 "data/maps/Route117/scripts.pory"
-	.string "I have no idea what I'm doing, but I'm\n"
+	.string "户外课！$"
 # 284 "data/maps/Route117/scripts.pory"
-	.string "glad my daughter is having fun.$"
-# 285 "data/maps/Route117/scripts.pory"
 
+# 285 "data/maps/Route117/scripts.pory"
+Route117_Text_DadDancing:
 # 286 "data/maps/Route117/scripts.pory"
-Route117_Text_LittleGirlDancing:
+	.string "我完全不知道自己在\n"
 # 287 "data/maps/Route117/scripts.pory"
-	.string "I love spinning!! Thanks for taking me\n"
+	.string "做什么，不过\l"
 # 288 "data/maps/Route117/scripts.pory"
-	.string "dancing, dad!$"
+	.string "女儿玩得开心就好。$"
 # 289 "data/maps/Route117/scripts.pory"
 
 # 290 "data/maps/Route117/scripts.pory"
-Route117_Text_DanceInstructor:
+Route117_Text_LittleGirlDancing:
 # 291 "data/maps/Route117/scripts.pory"
-	.string "It's such a beautiful day that I\n"
+	.string "我最喜欢转圈了！！\n"
 # 292 "data/maps/Route117/scripts.pory"
-	.string "thought we'd have class outside!\p"
+	.string "谢谢爸爸带我来跳舞！$"
 # 293 "data/maps/Route117/scripts.pory"
-	.string "Oh, you must be wondering what the\n"
+
 # 294 "data/maps/Route117/scripts.pory"
-	.string "Elite Four member Phoebe is doing way\l"
+Route117_Text_DanceInstructor:
 # 295 "data/maps/Route117/scripts.pory"
-	.string "out here…\p"
+	.string "今天天气这么好，\n"
 # 296 "data/maps/Route117/scripts.pory"
-	.string "… … …\p"
+	.string "我想就在外面上课吧！\p"
 # 297 "data/maps/Route117/scripts.pory"
-	.string "Surprise! I'm her twin sister, Ursula! I\n"
+	.string "哦，你一定在想，\n"
 # 298 "data/maps/Route117/scripts.pory"
-	.string "may not be as good a battler as Phoebe,\l"
+	.string "四天王的芙蓉\l"
 # 299 "data/maps/Route117/scripts.pory"
-	.string "but I'm a way better dancer!\p"
+	.string "怎么会跑到这种地方来……\p"
 # 300 "data/maps/Route117/scripts.pory"
-	.string "Tell you what, if you can beat Wattson,\n"
+	.string "……\p"
 # 301 "data/maps/Route117/scripts.pory"
-	.string "come see me in Verdanturf Town and I'll\l"
+	.string "惊喜！我是她的双胞胎\n"
 # 302 "data/maps/Route117/scripts.pory"
-	.string "give you a lesson!$"
+	.string "姐姐，宇苏拉！\l"
 # 303 "data/maps/Route117/scripts.pory"
-
+	.string "我可能没芙蓉那么会对战，\l"
 # 304 "data/maps/Route117/scripts.pory"
-Route117_Text_RouteSignVerdanturf:
+	.string "但跳舞可比她强多了！\p"
 # 305 "data/maps/Route117/scripts.pory"
-	.string "ROUTE 117\n"
+	.string "这样吧，你要是能打赢\n"
 # 306 "data/maps/Route117/scripts.pory"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "铁旋，就来绿荫镇找我，\l"
 # 307 "data/maps/Route117/scripts.pory"
-
+	.string "我教你一课！$"
 # 308 "data/maps/Route117/scripts.pory"
-Route117_Text_RouteSignMauville:
-# 309 "data/maps/Route117/scripts.pory"
-	.string "ROUTE 117\n"
-# 310 "data/maps/Route117/scripts.pory"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
-# 311 "data/maps/Route117/scripts.pory"
 
+# 309 "data/maps/Route117/scripts.pory"
+Route117_Text_RouteSignVerdanturf:
+# 310 "data/maps/Route117/scripts.pory"
+	.string "117号道路\n"
+# 311 "data/maps/Route117/scripts.pory"
+	.string "{LEFT_ARROW} 绿荫镇$"
 # 312 "data/maps/Route117/scripts.pory"
-Route117_Text_DayCareSign:
+
 # 313 "data/maps/Route117/scripts.pory"
-	.string "Pokémon DAY CARE\n"
+Route117_Text_RouteSignMauville:
 # 314 "data/maps/Route117/scripts.pory"
-	.string "“Let us raise your Pokémon.”$"
+	.string "117号道路\n"
+# 315 "data/maps/Route117/scripts.pory"
+	.string "{RIGHT_ARROW} 紫堇市$"
+# 316 "data/maps/Route117/scripts.pory"
+
+# 317 "data/maps/Route117/scripts.pory"
+Route117_Text_DayCareSign:
+# 318 "data/maps/Route117/scripts.pory"
+	.string "宝可梦培育屋\n"
+# 319 "data/maps/Route117/scripts.pory"
+	.string "“让我们来培育你的\l"
+# 320 "data/maps/Route117/scripts.pory"
+	.string "宝可梦。”$"
 
 Route117_EventScript_Fantina::
-# 319 "data/maps/Route117/scripts.pory"
+# 325 "data/maps/Route117/scripts.pory"
 	lockall
-# 320 "data/maps/Route117/scripts.pory"
+# 326 "data/maps/Route117/scripts.pory"
 	applymovement 29, Common_Movement_FacePlayer
-# 321 "data/maps/Route117/scripts.pory"
+# 327 "data/maps/Route117/scripts.pory"
 	goto_if_defeated TRAINER_FANTINA, Route117_EventScript_FantinaDefeated
-# 322 "data/maps/Route117/scripts.pory"
+# 328 "data/maps/Route117/scripts.pory"
 	goto_if_set FLAG_TEMP_3, Route117_EventScript_FantinaRequestBattleAgain
-# 323 "data/maps/Route117/scripts.pory"
-	msgbox Fantina_Greeting, MSGBOX_YESNO
-# 324 "data/maps/Route117/scripts.pory"
-	goto Route117_EventScript_BattleFantinaPrompt
-	end
-
-
-Route117_EventScript_FantinaRequestBattleAgain::
 # 329 "data/maps/Route117/scripts.pory"
-	msgbox Fantina_ReadyYet, MSGBOX_YESNO
+	msgbox Fantina_Greeting, MSGBOX_YESNO
 # 330 "data/maps/Route117/scripts.pory"
 	goto Route117_EventScript_BattleFantinaPrompt
 	end
 
 
-Route117_EventScript_BattleFantinaPrompt::
+Route117_EventScript_FantinaRequestBattleAgain::
 # 335 "data/maps/Route117/scripts.pory"
-	call_if_eq VAR_RESULT, YES, Route117_EventScript_BattleFantina
+	msgbox Fantina_ReadyYet, MSGBOX_YESNO
 # 336 "data/maps/Route117/scripts.pory"
+	goto Route117_EventScript_BattleFantinaPrompt
+	end
+
+
+Route117_EventScript_BattleFantinaPrompt::
+# 341 "data/maps/Route117/scripts.pory"
+	call_if_eq VAR_RESULT, YES, Route117_EventScript_BattleFantina
+# 342 "data/maps/Route117/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, Route117_EventScript_DeclineFantinaBattle
-# 337 "data/maps/Route117/scripts.pory"
+# 343 "data/maps/Route117/scripts.pory"
 	closemessage
 	end
 
 
 Route117_EventScript_DeclineFantinaBattle::
-# 342 "data/maps/Route117/scripts.pory"
+# 348 "data/maps/Route117/scripts.pory"
 	setflag FLAG_TEMP_3
-# 343 "data/maps/Route117/scripts.pory"
+# 349 "data/maps/Route117/scripts.pory"
 	msgbox Fantina_ComeBackWhenReady, MSGBOX_DEFAULT
-# 344 "data/maps/Route117/scripts.pory"
+# 350 "data/maps/Route117/scripts.pory"
 	release
 	end
 
 
 Route117_EventScript_BattleFantina::
-# 349 "data/maps/Route117/scripts.pory"
+# 355 "data/maps/Route117/scripts.pory"
 	msgbox Route117_EventScript_BattleFantina_Text_0, MSGBOX_DEFAULT
-# 350 "data/maps/Route117/scripts.pory"
+# 356 "data/maps/Route117/scripts.pory"
 	trainerbattle_no_intro TRAINER_FANTINA, Fantina_Outro
-# 351 "data/maps/Route117/scripts.pory"
+# 357 "data/maps/Route117/scripts.pory"
 	goto Route117_EventScript_FantinaGiveItems
 	return
 
 
 Route117_EventScript_FantinaDefeated::
-# 357 "data/maps/Route117/scripts.pory"
+# 363 "data/maps/Route117/scripts.pory"
 	msgbox PostBattle_Fantina, MSGBOX_DEFAULT
-# 358 "data/maps/Route117/scripts.pory"
+# 364 "data/maps/Route117/scripts.pory"
 	releaseall
 	end
 
 
 Route117_EventScript_FantinaGiveItems::
-# 363 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_TM_PSYCHIC
-# 364 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_TM_SHADOW_BALL
-# 365 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_TM_BRICK_BREAK
-# 366 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_BANETTITE
-# 367 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_SABLENITE
-# 368 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_GENGARITE
 # 369 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_DUSKNOIRITE
+	giveitem ITEM_TM_PSYCHIC
 # 370 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_METRONOME
+	giveitem ITEM_TM_SHADOW_BALL
 # 371 "data/maps/Route117/scripts.pory"
-	giveitem ITEM_LEFTOVERS
+	giveitem ITEM_TM_BRICK_BREAK
 # 372 "data/maps/Route117/scripts.pory"
-	msgbox Fantina_ExplainItems
+	giveitem ITEM_BANETTITE
 # 373 "data/maps/Route117/scripts.pory"
+	giveitem ITEM_SABLENITE
+# 374 "data/maps/Route117/scripts.pory"
+	giveitem ITEM_GENGARITE
+# 375 "data/maps/Route117/scripts.pory"
+	giveitem ITEM_DUSKNOIRITE
+# 376 "data/maps/Route117/scripts.pory"
+	giveitem ITEM_METRONOME
+# 377 "data/maps/Route117/scripts.pory"
+	giveitem ITEM_LEFTOVERS
+# 378 "data/maps/Route117/scripts.pory"
+	msgbox Fantina_ExplainItems
+# 379 "data/maps/Route117/scripts.pory"
 	release
 	end
 
 
 Route117_EventScript_BattleFantina_Text_0:
-# 349 "data/maps/Route117/scripts.pory"
-	.string "Let us begin then!$"
+# 355 "data/maps/Route117/scripts.pory"
+	.string "那就开始吧！$"
 
 Fantina_Greeting::
-# 377 "data/maps/Route117/scripts.pory"
-	.string "Oh, hello there, my name is Fantina.\n"
-	.string "Did you come here to enjoy the\l"
-	.string "flowers too?\p"
-	.string "I've heard tales of the wonderful\n"
-	.string "flower patches here in the Hoenn\l"
-	.string "region, so I had to come see them\l"
-	.string "for myself!\p"
-	.string "Oh, you didn't come to admire the\n"
-	.string "flowers? That's fine, I also came here\l"
-	.string "to battle new trainers.\p"
-	.string "Is that what you came here for?$"
+# 383 "data/maps/Route117/scripts.pory"
+	.string "哦，你好，我叫梅丽。\n"
+	.string "你也是来欣赏\l"
+	.string "这些花的吗？\p"
+	.string "我听说丰缘地区这里\n"
+	.string "有很美的花田，\l"
+	.string "所以特意\l"
+	.string "来看看！\p"
+	.string "哦，你不是来赏花的？\n"
+	.string "没关系，我来这儿\l"
+	.string "也是为了和新训练家对战。\p"
+	.string "你是为此而来的吗？$"
 
 Fantina_ReadyYet::
-# 391 "data/maps/Route117/scripts.pory"
-	.string "Hm? Is it time for our battle?$"
+# 397 "data/maps/Route117/scripts.pory"
+	.string "嗯？到我们对战的时候了吗？$"
 
 Fantina_ComeBackWhenReady::
-# 395 "data/maps/Route117/scripts.pory"
-	.string "I'll just enjoy the flowers until\n"
-	.string "you're ready.$"
+# 401 "data/maps/Route117/scripts.pory"
+	.string "那我就赏赏花，\n"
+	.string "等你准备好。$"
 
 Fantina_ExplainItems::
-# 400 "data/maps/Route117/scripts.pory"
-	.string "Those three are some very\n"
-	.string "powerful moves. In addition, I had\l"
-	.string "a few spare Mega Stones for some\l"
-	.string "Ghost-type Pokémon, though you'll need\l"
-	.string "a Mega Ring if you want to use them.\p"
-	.string "Finally, the Metronome is used for\n"
-	.string "boosting moves that are used multiple\l"
-	.string "times in succession.\p"
-	.string "I'm, sure you'll put it to\n"
-	.string "good use. Best of luck!$"
+# 406 "data/maps/Route117/scripts.pory"
+	.string "那三个招式都\n"
+	.string "非常强力。另外，我还有几颗\l"
+	.string "备用的超级石，适合一些\l"
+	.string "幽灵属性宝可梦，不过要用\l"
+	.string "还得有超级环。\p"
+	.string "最后，节拍器能增强\n"
+	.string "连续多次使用的\l"
+	.string "招式。\p"
+	.string "我相信你能\n"
+	.string "好好运用。祝你好运！$"
 
 Fantina_Outro::
-# 413 "data/maps/Route117/scripts.pory"
-	.string "My my! To think, there are such strong\n"
-	.string "trainers here in the Hoenn region. I\l"
-	.string "think you can make good use of these.$"
+# 419 "data/maps/Route117/scripts.pory"
+	.string "哎呀呀！没想到丰缘地区\n"
+	.string "有这么强的训练家。\l"
+	.string "我看这些你能用得好。$"
 
 PostBattle_Fantina::
-# 420 "data/maps/Route117/scripts.pory"
-	.string "Maybe I'll head to Ever Grande City\n"
-	.string "after this, I've heard the flowers\l"
-	.string "there are extraordinary.$"
+# 426 "data/maps/Route117/scripts.pory"
+	.string "这之后我也许会去彩幽市，\n"
+	.string "听说那里的花\l"
+	.string "美得非凡。$"

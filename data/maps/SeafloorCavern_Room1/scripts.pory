@@ -8,14 +8,14 @@ SeafloorCavern_Room1_EventScript_Grunt1::
 	end
 
 SeafloorCavern_Room1_Text_Grunt1Intro:
-	.string "We don't need a kid around!\n"
-	.string "Go on home already!$"
+	.string "我们不需要小鬼！\n"
+	.string "快回家去！$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
-	.string "I want to go home…$"
+	.string "我想回家……$"
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
-	.string "I want to get a promotion so I can\n"
-	.string "boss around the GRUNTS…$"
+	.string "我想升职，好使唤\n"
+	.string "那些小兵……$"
 
 `

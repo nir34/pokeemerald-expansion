@@ -992,393 +992,393 @@ NicknameBoxMon_2:
 
 NewBirchsLab_EventScript_Birch_Text_0:
 # 28 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 1$"
+	.string "第1世代$"
 
 NewBirchsLab_EventScript_Birch_Text_1:
 # 29 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 2$"
+	.string "第2世代$"
 
 NewBirchsLab_EventScript_Birch_Text_2:
 # 30 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 3$"
+	.string "第3世代$"
 
 NewBirchsLab_EventScript_Birch_Text_3:
 # 31 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 4$"
+	.string "第4世代$"
 
 NewBirchsLab_EventScript_Birch_Text_4:
 # 32 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 5$"
+	.string "第5世代$"
 
 NewBirchsLab_EventScript_Birch_Text_5:
 # 33 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 6$"
+	.string "第6世代$"
 
 NewBirchsLab_EventScript_Birch_Text_6:
 # 34 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 7$"
+	.string "第7世代$"
 
 NewBirchsLab_EventScript_Birch_Text_7:
 # 35 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 8$"
+	.string "第8世代$"
 
 NewBirchsLab_EventScript_Birch_Text_8:
 # 36 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Gen 9$"
+	.string "第9世代$"
 
 NewBirchsLab_EventScript_Birch_Text_9:
 # 37 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Cancel$"
+	.string "取消$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_0:
 # 71 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Fighting$"
+	.string "格斗$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_1:
 # 72 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Flying$"
+	.string "飞行$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_2:
 # 73 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Poison$"
+	.string "毒$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_3:
 # 74 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Ground$"
+	.string "地面$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_4:
 # 75 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Rock$"
+	.string "岩石$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_5:
 # 76 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Bug$"
+	.string "虫$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_6:
 # 77 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Ghost$"
+	.string "幽灵$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_7:
 # 78 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Steel$"
+	.string "钢$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_8:
 # 79 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Electric$"
+	.string "电$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_9:
 # 80 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Psychic$"
+	.string "超能力$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_10:
 # 81 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Ice$"
+	.string "冰$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_11:
 # 82 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Dragon$"
+	.string "龙$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_12:
 # 83 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Dark$"
+	.string "恶$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_13:
 # 84 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Normal$"
+	.string "普通$"
 
 NewBirchsLab_EventScript_BirchMonotypeStarters_Text_14:
 # 85 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Fairy$"
+	.string "妖精$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_0:
 # 120 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 1.$"
+	.string "正在显示第1世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_1:
 # 122 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 2.$"
+	.string "正在显示第2世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_2:
 # 124 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 3.$"
+	.string "正在显示第3世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_3:
 # 126 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 4.$"
+	.string "正在显示第4世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_4:
 # 128 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 5.$"
+	.string "正在显示第5世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_5:
 # 130 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 6.$"
+	.string "正在显示第6世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_6:
 # 132 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 7.$"
+	.string "正在显示第7世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_7:
 # 134 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 8.$"
+	.string "正在显示第8世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_8:
 # 136 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing starters for Gen 9.$"
+	.string "正在显示第9世代的初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayGenShowing_Text_9:
 # 138 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Now showing starters.$"
+	.string "现在显示初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_0:
 # 148 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Fighting-type starters.$"
+	.string "正在显示格斗属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_1:
 # 150 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Flying-type starters.$"
+	.string "正在显示飞行属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_2:
 # 152 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Poison-type starters.$"
+	.string "正在显示毒属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_3:
 # 154 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Ground-type starters.$"
+	.string "正在显示地面属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_4:
 # 156 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Rock-type starters.$"
+	.string "正在显示岩石属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_5:
 # 158 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Bug-type starters.$"
+	.string "正在显示虫属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_6:
 # 160 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Ghost-type starters.$"
+	.string "正在显示幽灵属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_7:
 # 162 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Steel-type starters.$"
+	.string "正在显示钢属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_8:
 # 164 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Electric-type starters.$"
+	.string "正在显示电属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_9:
 # 166 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Psychic-type starters.$"
+	.string "正在显示超能力属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_10:
 # 168 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Ice-type starters.$"
+	.string "正在显示冰属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_11:
 # 170 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Dragon-type starters.$"
+	.string "正在显示龙属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_12:
 # 172 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Dark-type starters.$"
+	.string "正在显示恶属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_13:
 # 174 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Normal-type starters.$"
+	.string "正在显示普通属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_SayMonoShowing_Text_14:
 # 176 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Showing Fairy-type starters.$"
+	.string "正在显示妖精属性初始宝可梦。$"
 
 NewBirchsLab_EventScript_PokeballOne_Text_0:
 # 191 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Ask Professor Birch about this!$"
+	.string "去问问小田卷博士吧！$"
 
 NewBirchsLab_EventScript_PokeballOne_Text_1:
 # 203 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Better not get greedy!$"
+	.string "还是别太贪心！$"
 
 NewBirchsLab_EventScript_HandleGrassStarterChoice_Text_0:
 # 213 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Do you want to choose {STR_VAR_1}?$"
+	.string "要选{STR_VAR_1}吗？$"
 
 NewBirchsLab_EventScript_HandleGrassStarterChoice_Text_1:
 # 219 "data/maps/NewBirchsLab/scripts.pory"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+	.string "{PLAYER}得到了{STR_VAR_1}！$"
 
 NewBirchsLab_EventScript_HandleGrassStarterChoice_Text_2:
 # 235 "data/maps/NewBirchsLab/scripts.pory"
-	.string "No More Room$"
+	.string "没有位置了$"
 
 NicknamePartyMon_Text_0:
 # 524 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Give a nickname?$"
+	.string "要起个昵称吗？$"
 
 NicknameBoxMon_Text_0:
 # 540 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Transferred to PC.$"
+	.string "已传送到电脑。$"
 
 NewBirchsLab_NotChosen::
 # 543 "data/maps/NewBirchsLab/scripts.pory"
-	.string "You did not choose this Pokemon.$"
+	.string "你没有选择这只宝可梦。$"
 
 NewBirchsLab_NotYet::
 # 547 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Better not touch these yet!\p"
-	.string "Maybe you should talk to {RIVAL}.$"
+	.string "还是先别碰这些！\p"
+	.string "也许你该去和{RIVAL}谈谈。$"
 
 NewBirchsLab_WelcomePlayerMale::
 # 552 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Hello there! I'm Prof. Birch, and you\n"
-	.string "must be {PLAYER}. You just missed\l"
-	.string "{RIVAL}, she stopped by and grabbed\l"
-	.string "one of my Starter Pokémon and then\l"
-	.string "rushed out of here.\p"
-	.string "I told her to be on the lookout for a\n"
-	.string "trainer named {PLAYER}, who just moved\l"
-	.string "into the house next door!\p"
-	.string "I hope the two of you can be friends\n"
-	.string "who can start a new Pokémon journey\l"
-	.string "together.\p"
-	.string "How about this, I'll give you one of\n"
-	.string "these Starter Pokémon, and then if you\l"
-	.string "can beat {RIVAL} with your Pokémon,\l"
-	.string "come back and I'll give you a Pokédex!\p"
-	.string "I'll tell you which Starter she chose\n"
-	.string "after you pick yours, it wouldn't be\l"
-	.string "fair if you knew before you picked!\p"
-	.string "I can let you choose from any\n"
-	.string "Generation of Starter Pokémon, just\l"
-	.string "ask me if you want to change them.$"
+	.string "你好！我是小田卷博士，你\n"
+	.string "就是{PLAYER}吧。你刚错过\l"
+	.string "{RIVAL}，她刚才来过，拿了\l"
+	.string "一只初始宝可梦就\l"
+	.string "冲出去了。\p"
+	.string "我让她留意一位\n"
+	.string "叫{PLAYER}的训练家，他刚\l"
+	.string "搬到隔壁！\p"
+	.string "希望你们俩能成为朋友，\n"
+	.string "一起踏上新的宝可梦\l"
+	.string "旅程。\p"
+	.string "这样吧，我给你一只\n"
+	.string "初始宝可梦，然后你若能用\l"
+	.string "你的宝可梦打赢{RIVAL}，\l"
+	.string "回来我就送你宝可梦图鉴！\p"
+	.string "你选完我再告诉你她选了\n"
+	.string "哪只，在你选之前就说\l"
+	.string "可就不公平了！\p"
+	.string "我可以让你从任意\n"
+	.string "世代的初始宝可梦里选，\l"
+	.string "想换的话就找我。$"
 
 NewBirchsLab_WelcomePlayerFemale::
 # 576 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Hello there! I'm Prof. Birch, and you\n"
-	.string "must be {PLAYER}. You just missed\l"
-	.string "{RIVAL}, he stopped by and grabbed\l"
-	.string "one of my Starter Pokémon and then\l"
-	.string "rushed out of here.\p"
-	.string "I told him to be on the lookout for a\n"
-	.string "trainer named {PLAYER}, who just moved\l"
-	.string "into the house next door!\p"
-	.string "I hope the two of you can be friends\n"
-	.string "who can start a new Pokémon journey\l"
-	.string "together.\p"
-	.string "How about this, I'll give you one of\n"
-	.string "these Starter Pokémon, and then if you\l"
-	.string "can beat {RIVAL} with your Pokémon,\l"
-	.string "come back and I'll give you a Pokédex!\p"
-	.string "I'll tell you which Starter he chose\n"
-	.string "after you pick yours, it wouldn't be\l"
-	.string "fair if you knew before you picked!\p"
-	.string "I can let you choose from any\n"
-	.string "Generation of Starter Pokémon, just\l"
-	.string "ask me if you want to change them.$"
+	.string "你好！我是小田卷博士，你\n"
+	.string "就是{PLAYER}吧。你刚错过\l"
+	.string "{RIVAL}，他刚才来过，拿了\l"
+	.string "一只初始宝可梦就\l"
+	.string "冲出去了。\p"
+	.string "我让他留意一位\n"
+	.string "叫{PLAYER}的训练家，他刚\l"
+	.string "搬到隔壁！\p"
+	.string "希望你们俩能成为朋友，\n"
+	.string "一起踏上新的宝可梦\l"
+	.string "旅程。\p"
+	.string "这样吧，我给你一只\n"
+	.string "初始宝可梦，然后你若能用\l"
+	.string "你的宝可梦打赢{RIVAL}，\l"
+	.string "回来我就送你宝可梦图鉴！\p"
+	.string "你选完我再告诉你他选了\n"
+	.string "哪只，在你选之前就说\l"
+	.string "可就不公平了！\p"
+	.string "我可以让你从任意\n"
+	.string "世代的初始宝可梦里选，\l"
+	.string "想换的话就找我。$"
 
 NewBirchsLab_WelcomePlayerMaleMonotype::
 # 600 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Hello there! I'm Prof. Birch, and you\n"
-	.string "must be {PLAYER}. You just missed\l"
-	.string "{RIVAL}, she stopped by and grabbed\l"
-	.string "one of my Starter Pokémon and then\l"
-	.string "rushed out of here.\p"
-	.string "I told her to be on the lookout for a\n"
-	.string "trainer named {PLAYER}, who just moved\l"
-	.string "into the house next door!\p"
-	.string "I hope the two of you can be friends\n"
-	.string "who can start a new Pokémon journey\l"
-	.string "together.\p"
-	.string "How about this, I'll give you one of\n"
-	.string "these Starter Pokémon, and then if you\l"
-	.string "can beat {RIVAL} with your Pokémon,\l"
-	.string "come back and I'll give you a Pokédex!\p"
-	.string "I'll tell you which Starter she chose\n"
-	.string "after you pick yours, it wouldn't be\l"
-	.string "fair if you knew before you picked!\p"
-	.string "I can let you choose from any\n"
-	.string "Type of Starter Pokémon, just\l"
-	.string "ask me if you want to change them.$"
+	.string "你好！我是小田卷博士，你\n"
+	.string "就是{PLAYER}吧。你刚错过\l"
+	.string "{RIVAL}，她刚才来过，拿了\l"
+	.string "一只初始宝可梦就\l"
+	.string "冲出去了。\p"
+	.string "我让她留意一位\n"
+	.string "叫{PLAYER}的训练家，他刚\l"
+	.string "搬到隔壁！\p"
+	.string "希望你们俩能成为朋友，\n"
+	.string "一起踏上新的宝可梦\l"
+	.string "旅程。\p"
+	.string "这样吧，我给你一只\n"
+	.string "初始宝可梦，然后你若能用\l"
+	.string "你的宝可梦打赢{RIVAL}，\l"
+	.string "回来我就送你宝可梦图鉴！\p"
+	.string "你选完我再告诉你她选了\n"
+	.string "哪只，在你选之前就说\l"
+	.string "可就不公平了！\p"
+	.string "我可以让你从任意\n"
+	.string "属性的初始宝可梦里选，\l"
+	.string "想换的话就找我。$"
 
 NewBirchsLab_WelcomePlayerFemaleMonotype::
 # 624 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Hello there! I'm Prof. Birch, and you\n"
-	.string "must be {PLAYER}. You just missed\l"
-	.string "{RIVAL}, he stopped by and grabbed\l"
-	.string "one of my Starter Pokémon and then\l"
-	.string "rushed out of here.\p"
-	.string "I told him to be on the lookout for a\n"
-	.string "trainer named {PLAYER}, who just moved\l"
-	.string "into the house next door!\p"
-	.string "I hope the two of you can be friends\n"
-	.string "who can start a new Pokémon journey\l"
-	.string "together.\p"
-	.string "How about this, I'll give you one of\n"
-	.string "these Starter Pokémon, and then if you\l"
-	.string "can beat {RIVAL} with your Pokémon,\l"
-	.string "come back and I'll give you a Pokédex!\p"
-	.string "I'll tell you which Starter he chose\n"
-	.string "after you pick yours, it wouldn't be\l"
-	.string "fair if you knew before you picked!\p"
-	.string "I can let you choose from any\n"
-	.string "Type of Starter Pokémon, just\l"
-	.string "ask me if you want to change them.$"
+	.string "你好！我是小田卷博士，你\n"
+	.string "就是{PLAYER}吧。你刚错过\l"
+	.string "{RIVAL}，他刚才来过，拿了\l"
+	.string "一只初始宝可梦就\l"
+	.string "冲出去了。\p"
+	.string "我让他留意一位\n"
+	.string "叫{PLAYER}的训练家，他刚\l"
+	.string "搬到隔壁！\p"
+	.string "希望你们俩能成为朋友，\n"
+	.string "一起踏上新的宝可梦\l"
+	.string "旅程。\p"
+	.string "这样吧，我给你一只\n"
+	.string "初始宝可梦，然后你若能用\l"
+	.string "你的宝可梦打赢{RIVAL}，\l"
+	.string "回来我就送你宝可梦图鉴！\p"
+	.string "你选完我再告诉你他选了\n"
+	.string "哪只，在你选之前就说\l"
+	.string "可就不公平了！\p"
+	.string "我可以让你从任意\n"
+	.string "属性的初始宝可梦里选，\l"
+	.string "想换的话就找我。$"
 
 NewBirchsLab_Route103PlayerMale::
 # 648 "data/maps/NewBirchsLab/scripts.pory"
-	.string "{RIVAL} yelled she was heading to\n"
-	.string "Route 103 as she ran out the door,\l"
-	.string "perhaps you should look for her there.$"
+	.string "{RIVAL}喊着要出门，\n"
+	.string "跑去103号道路了，\l"
+	.string "也许你该去那儿找她。$"
 
 NewBirchsLab_Route103PlayerFemale::
 # 655 "data/maps/NewBirchsLab/scripts.pory"
-	.string "{RIVAL} yelled he was heading to\n"
-	.string "Route 103 as he ran out the door,\l"
-	.string "perhaps you should look for him there.$"
+	.string "{RIVAL}喊着要出门，\n"
+	.string "跑去103号道路了，\l"
+	.string "也许你该去那儿找他。$"
 
 NewBirchsLab_RivalStarterTreeckoPlayerMale::
 # 662 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Treecko as\l"
-	.string "her Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了木守宫做\l"
+	.string "她的初始宝可梦！$"
 
 NewBirchsLab_RivalStarterTreeckoPlayerFemale::
 # 669 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Treecko as\l"
-	.string "his Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了木守宫做\l"
+	.string "他的初始宝可梦！$"
 
 NewBirchsLab_RivalStarterMudkipPlayerMale::
 # 676 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Mudkip as\l"
-	.string "her Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了水跃鱼做\l"
+	.string "她的初始宝可梦！$"
 
 NewBirchsLab_RivalStarterMudkipPlayerFemale::
 # 683 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Mudkip as\l"
-	.string "his Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了水跃鱼做\l"
+	.string "他的初始宝可梦！$"
 
 NewBirchsLab_RivalStarterTorchicPlayerMale::
 # 690 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Torchic as\l"
-	.string "her Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了火稚鸡做\l"
+	.string "她的初始宝可梦！$"
 
 NewBirchsLab_RivalStarterTorchicPlayerFemale::
 # 697 "data/maps/NewBirchsLab/scripts.pory"
-	.string "A great choice, but also an unlucky one!\n"
-	.string "{RIVAL} chose a Torchic as\l"
-	.string "his Starter!$"
+	.string "好选择，不过运气不太好！\n"
+	.string "{RIVAL}选了火稚鸡做\l"
+	.string "他的初始宝可梦！$"
 
 NewBirchsLab_ChangeStarters::
 # 704 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Which Generation of Starters would you\n"
-	.string "like to see? You can change\l"
-	.string "Generations as many times as you want.$"
+	.string "你想看哪个世代的\n"
+	.string "初始宝可梦？\l"
+	.string "世代可以随便换多少次。$"
 
 NewBirchsLab_ChangeStartersMonotypes::
 # 710 "data/maps/NewBirchsLab/scripts.pory"
-	.string "Which Type of Starters would you\n"
-	.string "like to see? You can change\l"
-	.string "Types as many times as you want.$"
+	.string "你想看哪种属性的\n"
+	.string "初始宝可梦？\l"
+	.string "属性可以随便换多少次。$"

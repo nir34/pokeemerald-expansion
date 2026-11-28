@@ -255,38 +255,38 @@ static const u16 sBlenderOuter_Pal[] = INCBIN_U16("graphics/berry_blender/outer.
 static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapal");
 static const u16 sEmpty_Pal[16 * 14] = {0};
 
-static const u8 sText_BerryBlenderStart[] = _("Starting up the BERRY BLENDER.\pPlease select a BERRY from your BAG\nto put in the BERRY BLENDER.\p");
+static const u8 sText_BerryBlenderStart[] = _("启动树果混合机。\p请从包包中选择要放入\n树果混合机的树果。\p");
 static const u8 sText_NewParagraph[] = _("\p");
-static const u8 sText_WasMade[] = _(" was made!");
+static const u8 sText_WasMade[] = _(" 做好了！");
 
 static const u8 *const sBlenderOpponentsNames[] =
 {
-    [BLENDER_MISTER] = COMPOUND_STRING("MISTER"),
-    [BLENDER_LADDIE] = COMPOUND_STRING("LADDIE"),
-    [BLENDER_LASSIE] = COMPOUND_STRING("LASSIE"),
-    [BLENDER_MASTER] = COMPOUND_STRING("MASTER"),
-    [BLENDER_DUDE]   = COMPOUND_STRING("DUDE"),
-    [BLENDER_MISS]   = COMPOUND_STRING("MISS"),
+    [BLENDER_MISTER] = COMPOUND_STRING("先生"),
+    [BLENDER_LADDIE] = COMPOUND_STRING("小哥"),
+    [BLENDER_LASSIE] = COMPOUND_STRING("小姐"),
+    [BLENDER_MASTER] = COMPOUND_STRING("老爷"),
+    [BLENDER_DUDE]   = COMPOUND_STRING("兄弟"),
+    [BLENDER_MISS]   = COMPOUND_STRING("小姐"),
 };
 
-static const u8 sText_CommunicationStandby[] = _("Communication standby…");
-static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another BERRY?");
-static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIES for\nblending in the BERRY BLENDER.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
-static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
-static const u8 sText_BlendingResults[] = _("RESULTS OF BLENDING");
-static const u8 sText_SpaceBerry[] = _(" BERRY");
-static const u8 sText_Time[] = _("Time:");
-static const u8 sText_Min[] = _(" min. ");
-static const u8 sText_Sec[] = _(" sec.");
-static const u8 sText_MaximumSpeed[] = _("MAXIMUM SPEED");
-static const u8 sText_RPM[] = _(" RPM");
+static const u8 sText_CommunicationStandby[] = _("等待通信……");
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("要再混合一次树果吗？");
+static const u8 sText_RunOutOfBerriesForBlending[] = _("用于树果混合机的\n树果已经用完了。\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("你的宝可方块盒已满。\p");
+static const u8 sText_HasNoBerriesToPut[] = _(" 没有可以放入\n树果混合机的树果。");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("的宝可方块盒已满。\p");
+static const u8 sText_BlendingResults[] = _("混合结果");
+static const u8 sText_SpaceBerry[] = _(" 树果");
+static const u8 sText_Time[] = _("时间：");
+static const u8 sText_Min[] = _(" 分 ");
+static const u8 sText_Sec[] = _(" 秒");
+static const u8 sText_MaximumSpeed[] = _("最高速度");
+static const u8 sText_RPM[] = _(" 转/分");
 static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
-static const u8 sText_Ranking[] = _("RANKING");
-static const u8 sText_TheLevelIs[] = _("The level is ");
-static const u8 sText_TheFeelIs[] = _(", and the feel is ");
+static const u8 sText_Ranking[] = _("排名");
+static const u8 sText_TheLevelIs[] = _("等级为 ");
+static const u8 sText_TheFeelIs[] = _("，口感为 ");
 static const u8 sText_Dot2[] = _(".");
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -882,7 +882,7 @@ static const u8 sBerryMasterBerries[] = {
     ITEM_TO_BERRY(ITEM_BELUE_BERRY) - 1
 };
 
-// "0 players" is link
+// "0名玩家" is link
 static const u8 sNumPlayersToSpeedDivisor[] = {1, 1, 2, 3, 4};
 
 // Black pokeblocks will use one of these random combinations of flavors
@@ -901,7 +901,7 @@ static const u8 sBlackPokeblockFlavorFlags[] = {
 
 static const u8 sJPText_GoodTvReady[] = _("\nいいTVができました "); // Unused
 static const u8 sJPText_BadTvReady[] = _("\nダメTVができました "); // Unused
-static const u8 sJPText_Flavors[][5] = {_("からい"), _("しぶい"), _("あまい"), _("にがい"), _("すっぱい")}; // Unused
+static const u8 sJPText_Flavors[][5] = {_("辣"), _("涩"), _("甜"), _("苦"), _("酸")}; // Unused
 
 static const u8 sUnused[] = {
     6, 6, 6, 6, 5,
@@ -2070,7 +2070,7 @@ static void UpdateOpponentScores(void)
 
     if (gSpecialVar_0x8004 != 0)
     {
-        // Local game, "send" players score to itself
+        // Local game, "发送" players score to itself
         if (gSendCmd[BLENDER_COMM_SCORE] != 0)
         {
             gRecvCmds[0][BLENDER_COMM_SCORE] = gSendCmd[BLENDER_COMM_SCORE];
@@ -2988,7 +2988,7 @@ static void ProcessLinkPlayerCmds(void)
                 // Link leader has indicated play is stopping, read signal to determine why
                 switch (gRecvCmds[0][BLENDER_COMM_STOP_TYPE])
                 {
-                case LINKCMD_CONT_BLOCK: // Someone selected "No" to continue playing
+                case LINKCMD_CONT_BLOCK: // Someone selected "否" to continue playing
                     sBerryBlender->canceledPlayerCmd = LINKCMD_CONT_BLOCK;
                     sBerryBlender->canceledPlayerId = gRecvCmds[0][BLENDER_COMM_PLAYER_ID];
                     break;
@@ -3011,7 +3011,7 @@ static void ProcessLinkPlayerCmds(void)
             }
         }
 
-        // If player is link leader, check for responses to the "Continue playing" prompt (even if it's not up yet)
+        // If player is link leader, check for responses to the "继续游戏" prompt (even if it's not up yet)
         if (GetMultiplayerId() == 0
             && sBerryBlender->playerContinueResponses[0] != LINKCMD_BLENDER_STOP
             && sBerryBlender->playerContinueResponses[0] != LINKCMD_SEND_LINK_TYPE)
@@ -3025,10 +3025,10 @@ static void ProcessLinkPlayerCmds(void)
                 {
                     switch (gRecvCmds[i][BLENDER_COMM_RESP])
                     {
-                    case LINKCMD_CONT_BLOCK: // Selected "No"
+                    case LINKCMD_CONT_BLOCK: // Selected "否"
                         sBerryBlender->playerContinueResponses[i] = LINKCMD_CONT_BLOCK;
                         break;
-                    case LINKCMD_BLENDER_PLAY_AGAIN: // Selected "Yes"
+                    case LINKCMD_BLENDER_PLAY_AGAIN: // Selected "是"
                         sBerryBlender->playerContinueResponses[i] = LINKCMD_BLENDER_PLAY_AGAIN;
                         break;
                     case LINKCMD_BLENDER_NO_BERRIES:

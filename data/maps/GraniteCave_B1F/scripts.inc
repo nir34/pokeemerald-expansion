@@ -39,7 +39,7 @@ GraniteCave_B1F_Trigger_NeedEightBadges::
 
 GraniteCave_B1F_FeelDarkForce::
 # 25 "data/maps/GraniteCave_B1F/scripts.pory"
-	.string "You feel a strong, dark presence coming\n"
-	.string "from the bottom of the ladder.\p"
-	.string "It would be wise to wait until you have\n"
-	.string "more Badges before proceeding.$"
+	.string "你感觉到梯子底部\n"
+	.string "传来强烈而阴暗的气息。\p"
+	.string "在拿到更多徽章之前，\n"
+	.string "最好先别下去。$"

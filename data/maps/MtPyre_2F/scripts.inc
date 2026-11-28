@@ -91,180 +91,184 @@ MtPyre_2F_EventScript_Zander::
 # 46 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_MemoriesOfSkitty:
 # 47 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Memories of my darling SKITTY…\n"
+	.string "我宝贝向尾喵的回忆……\n"
 # 48 "data/maps/MtPyre_2F/scripts.pory"
-	.string "My eyes overflow thinking about it.$"
+	.string "一想到就泪水盈眶。$"
 # 49 "data/maps/MtPyre_2F/scripts.pory"
 
 # 50 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_TumbledFromFloorAbove:
 # 51 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Ooch, ouch… There are holes in the\n"
+	.string "哎哟哎哟……这里地上\n"
 # 52 "data/maps/MtPyre_2F/scripts.pory"
-	.string "ground here and there.\p"
+	.string "到处都有洞。\p"
 # 53 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I didn't notice and took a tumble from\n"
+	.string "我没注意，从楼上\n"
 # 54 "data/maps/MtPyre_2F/scripts.pory"
-	.string "the floor above.$"
+	.string "摔下来了。$"
 # 55 "data/maps/MtPyre_2F/scripts.pory"
 
 # 56 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_MarkIntro:
 # 57 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Hey! Are you searching for Pokémon?\n"
+	.string "嘿！你在找宝可梦？\n"
 # 58 "data/maps/MtPyre_2F/scripts.pory"
-	.string "You came along after me! You're rude!$"
+	.string "你跟着我来的！真没礼貌！$"
 # 59 "data/maps/MtPyre_2F/scripts.pory"
 
 # 60 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_MarkDefeat:
 # 61 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Ayieeeeh!\n"
+	.string "哇啊啊！\n"
 # 62 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I'm sorry, forgive me, please!$"
+	.string "对不起，请原谅我！$"
 # 63 "data/maps/MtPyre_2F/scripts.pory"
 
 # 64 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_MarkPostBattle:
 # 65 "data/maps/MtPyre_2F/scripts.pory"
-	.string "People don't come here often, so\n"
+	.string "这里很少有人来，所以我\n"
 # 66 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I thought there'd be rare Pokémon.$"
+	.string "以为会有稀有宝可梦。$"
 # 67 "data/maps/MtPyre_2F/scripts.pory"
 
 # 68 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_LukeIntro:
 # 69 "data/maps/MtPyre_2F/scripts.pory"
-	.string "LUKE: We're here on a dare.\p"
+	.string "卢克：我们是打赌来的。\p"
 # 70 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Heheh, if I show her how cool I am,\n"
+	.string "嘿嘿，让她看看我有多帅，\n"
 # 71 "data/maps/MtPyre_2F/scripts.pory"
-	.string "she'll fall for me. I know it!\p"
+	.string "她一定会爱上我。\l"
 # 72 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I know! I'll cream you and show her\n"
+	.string "我确定！\p"
 # 73 "data/maps/MtPyre_2F/scripts.pory"
-	.string "how cool I am!$"
+	.string "有了！我要打垮你，\n"
 # 74 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "让她看看我多帅！$"
 # 75 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LukeDefeat:
+
 # 76 "data/maps/MtPyre_2F/scripts.pory"
-	.string "LUKE: Whoopsie!$"
+MtPyre_2F_Text_LukeDefeat:
 # 77 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "卢克：哎哟！$"
 # 78 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LukePostBattle:
+
 # 79 "data/maps/MtPyre_2F/scripts.pory"
-	.string "LUKE: Well, we lost but that's okay!\n"
+MtPyre_2F_Text_LukePostBattle:
 # 80 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I'm right here by your side.\l"
+	.string "卢克：输了也没关系！\n"
 # 81 "data/maps/MtPyre_2F/scripts.pory"
-	.string "We'll make it through this dare!$"
+	.string "我就在你身边。\l"
 # 82 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "这个赌我们撑得过去！$"
 # 83 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LukeNotEnoughMons:
+
 # 84 "data/maps/MtPyre_2F/scripts.pory"
-	.string "LUKE: If you want to take me on,\n"
+MtPyre_2F_Text_LukeNotEnoughMons:
 # 85 "data/maps/MtPyre_2F/scripts.pory"
-	.string "bring some more Pokémon.\p"
+	.string "卢克：想跟我打，\n"
 # 86 "data/maps/MtPyre_2F/scripts.pory"
-	.string "If you don't, I won't be able to show\n"
+	.string "就多带几只宝可梦来。\p"
 # 87 "data/maps/MtPyre_2F/scripts.pory"
-	.string "off to my girl how cool I am!$"
+	.string "不然我没法在女朋友\n"
 # 88 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "面前耍帅！$"
 # 89 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_DezIntro:
+
 # 90 "data/maps/MtPyre_2F/scripts.pory"
-	.string "DEZ: I came here on a dare with my\n"
+MtPyre_2F_Text_DezIntro:
 # 91 "data/maps/MtPyre_2F/scripts.pory"
-	.string "boyfriend.\p"
+	.string "黛兹：我和男朋友\n"
 # 92 "data/maps/MtPyre_2F/scripts.pory"
-	.string "It's really scary, but I'm with my\n"
+	.string "打赌来这里的。\p"
 # 93 "data/maps/MtPyre_2F/scripts.pory"
-	.string "boyfriend. It's okay.\p"
+	.string "真的很可怕，不过有\n"
 # 94 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I know! I'll get my boyfriend to look\n"
+	.string "男朋友在，没事的。\p"
 # 95 "data/maps/MtPyre_2F/scripts.pory"
-	.string "cool by beating you!$"
+	.string "有了！我要打败你，\n"
 # 96 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "让男朋友显得很帅！$"
 # 97 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_DezDefeat:
+
 # 98 "data/maps/MtPyre_2F/scripts.pory"
-	.string "DEZ: Waaaah! I'm scared!$"
+MtPyre_2F_Text_DezDefeat:
 # 99 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "黛兹：哇啊啊！好可怕！$"
 # 100 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_DezPostBattle:
+
 # 101 "data/maps/MtPyre_2F/scripts.pory"
-	.string "DEZ: We're lovey-dovey, so we don't\n"
+MtPyre_2F_Text_DezPostBattle:
 # 102 "data/maps/MtPyre_2F/scripts.pory"
-	.string "care if we lose!$"
+	.string "黛兹：我们甜甜蜜蜜，\n"
 # 103 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "输了也不在乎！$"
 # 104 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_DezNotEnoughMons:
+
 # 105 "data/maps/MtPyre_2F/scripts.pory"
-	.string "DEZ: If you want to challenge us, you\n"
+MtPyre_2F_Text_DezNotEnoughMons:
 # 106 "data/maps/MtPyre_2F/scripts.pory"
-	.string "should bring at least two Pokémon.\p"
+	.string "黛兹：想挑战我们，\n"
 # 107 "data/maps/MtPyre_2F/scripts.pory"
-	.string "My boyfriend's strong.\n"
+	.string "至少带两只宝可梦来。\p"
 # 108 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Just one Pokémon won't do at all.$"
+	.string "我男朋友很强。\n"
 # 109 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "只有一只绝对不行。$"
 # 110 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LeahIntro:
+
 # 111 "data/maps/MtPyre_2F/scripts.pory"
-	.string "You are an unfamiliar sight…\n"
+MtPyre_2F_Text_LeahIntro:
 # 112 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Depart before anything befalls you!$"
+	.string "看你这张陌生面孔……\n"
 # 113 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "在灾祸临头前离开吧！$"
 # 114 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LeahDefeat:
+
 # 115 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Hmm…\n"
+MtPyre_2F_Text_LeahDefeat:
 # 116 "data/maps/MtPyre_2F/scripts.pory"
-	.string "You're durable.$"
+	.string "嗯……\n"
 # 117 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "你还挺耐打。$"
 # 118 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_LeahPostBattle:
+
 # 119 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Our family has been 训练家S here\n"
+MtPyre_2F_Text_LeahPostBattle:
 # 120 "data/maps/MtPyre_2F/scripts.pory"
-	.string "since my great-grandmother's time…\p"
+	.string "从我曾祖母那辈起，我们\n"
 # 121 "data/maps/MtPyre_2F/scripts.pory"
-	.string "It is my duty to protect this\n"
+	.string "家就在这儿当训练家……\p"
 # 122 "data/maps/MtPyre_2F/scripts.pory"
-	.string "mountain…$"
+	.string "守护这座山是\n"
 # 123 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "我的职责……$"
 # 124 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_ZanderIntro:
+
 # 125 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Kiyaaaaah!\n"
+MtPyre_2F_Text_ZanderIntro:
 # 126 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I'm terrified!$"
+	.string "呀啊啊啊！\n"
 # 127 "data/maps/MtPyre_2F/scripts.pory"
-
+	.string "我好害怕！$"
 # 128 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_ZanderDefeat:
-# 129 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Nooooooo!\n"
-# 130 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I lost my wits!$"
-# 131 "data/maps/MtPyre_2F/scripts.pory"
 
+# 129 "data/maps/MtPyre_2F/scripts.pory"
+MtPyre_2F_Text_ZanderDefeat:
+# 130 "data/maps/MtPyre_2F/scripts.pory"
+	.string "不要啊啊！\n"
+# 131 "data/maps/MtPyre_2F/scripts.pory"
+	.string "我吓傻了！$"
 # 132 "data/maps/MtPyre_2F/scripts.pory"
-MtPyre_2F_Text_ZanderPostBattle:
+
 # 133 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I get freaked out every time I see\n"
+MtPyre_2F_Text_ZanderPostBattle:
 # 134 "data/maps/MtPyre_2F/scripts.pory"
-	.string "anything move…\p"
+	.string "我一看到有东西动\n"
 # 135 "data/maps/MtPyre_2F/scripts.pory"
-	.string "I shouldn't have come here to train…$"
+	.string "就吓得不行……\p"
+# 136 "data/maps/MtPyre_2F/scripts.pory"
+	.string "我不该来这里\n"
+# 137 "data/maps/MtPyre_2F/scripts.pory"
+	.string "训练的……$"

@@ -45,16 +45,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "Cut down!\p"
-	.string "Would you like to Cut it?$"
+	.string "这棵树看起来可以\n"
+	.string "砍倒！\p"
+	.string "要砍倒它吗？$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}使用了{STR_VAR_2}！$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "Cut down!$"
+	.string "这棵树看起来可以\n"
+	.string "砍倒！$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -220,12 +220,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use Rock Smash?$"
+	.string "这块岩石好像能打碎。\n"
+	.string "要使用碎岩吗？$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a Pokémon\n"
-	.string "may be able to smash it.$"
+	.string "是块坚硬的岩石，不过\n"
+	.string "宝可梦也许能打碎它。$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -271,22 +271,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a Pokémon\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use Strength?$"
+	.string "是块大石头，不过\n"
+	.string "宝可梦也许能推开它。\p"
+	.string "要使用怪力吗？$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used Strength!\p"
-	.string "{STR_VAR_1}'s Strength made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1}使用了怪力！\p"
+	.string "{STR_VAR_1}的怪力让\n"
+	.string "大石头能移动了！$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a Pokémon\n"
-	.string "may be able to push it aside.$"
+	.string "是块大石头，不过\n"
+	.string "宝可梦也许能推开它。$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "用怪力推开了\n"
+	.string "拦路的岩石。$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -311,15 +311,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "水墙伴随着巨大的轰鸣\n"
+	.string "倾泻而下。$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use Waterfall?$"
+	.string "是很宽的瀑布。\n"
+	.string "要使用攀瀑吗？$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used Waterfall.$"
+	.string "{STR_VAR_1}使用了攀瀑。$"
 
 EventScript_UseDive::
 	lockall
@@ -386,68 +386,68 @@ EventScript_UseDig::
 	goto EventScript_DigCommon
 
 Text_CantDive:
-	.string "The sea is deep here. A Pokémon\n"
-	.string "may be able to go underwater.$"
+	.string "这里的海很深。宝可梦\n"
+	.string "也许能潜到水底。$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use Dive?$"
+	.string "这里的海很深。\n"
+	.string "要使用潜水吗？$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used Dive.$"
+	.string "{STR_VAR_1}使用了潜水。$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A Pokémon may be able to surface.$"
+	.string "光从上方照下来。\n"
+	.string "宝可梦也许能浮上水面。$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use Dive?$"
+	.string "光从上方照下来。\n"
+	.string "要使用潜水吗？$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "看来这里什么都没有……$"
 
 EventScript_DisableAutoRun::
     msgbox AutoRunDisabled MSGBOX_SIGN
     end
 AutoRunDisabled:
-    .string "Auto Run {COLOR RED}disabled{COLOR DARK_GRAY}.$"
+    .string "自动奔跑{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
     
 EventScript_EnableAutoRun::
     msgbox AutoRunEnabled MSGBOX_SIGN
     end
 AutoRunEnabled:
-    .string "Auto Run {COLOR GREEN}enabled{COLOR DARK_GRAY}.$"
+    .string "自动奔跑{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
 
 EventScript_DisableFollowers::
 	callnative RemoveFollowingPokemon
     msgbox FollowersDisabled MSGBOX_SIGN
     end
 FollowersDisabled:
-    .string "Followers {COLOR RED}disabled{COLOR DARK_GRAY}.$"
+    .string "跟随{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
     
 EventScript_EnableFollowers::
 	callnative UpdateFollowingPokemon
     msgbox FollowersEnabled MSGBOX_SIGN
     end
 FollowersEnabled:
-    .string "Followers {COLOR GREEN}enabled{COLOR DARK_GRAY}.$"
+    .string "跟随{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
 
 EventScript_DisableInfiniteRepel::
     msgbox InfiniteRepelDisabled MSGBOX_SIGN
     end
 InfiniteRepelDisabled:
-    .string "Infinite Repel {COLOR RED}disabled{COLOR DARK_GRAY}.$"
+    .string "无限除虫喷雾{COLOR RED}已关闭{COLOR DARK_GRAY}。$"
     
 EventScript_EnableInfiniteRepel::
     msgbox InfiniteRepelEnabled MSGBOX_SIGN
     end
 InfiniteRepelEnabled:
-    .string "Infinite Repel {COLOR GREEN}enabled{COLOR DARK_GRAY}.$"
+    .string "无限除虫喷雾{COLOR GREEN}已开启{COLOR DARK_GRAY}。$"
 
 EventScript_TimeChanger::
 	dynmultipush TimeChanger_Text_Day, 0
@@ -504,16 +504,16 @@ TimeChanger_Text_Dusk:
 	.string "Dusk$"
 
 TimeChanger_Text_ItIsNowDay:
-	.string "Time set to 10:00 AM.$"
+	.string "时间设为上午10:00。$"
 
 TimeChanger_Text_ItIsNowNight:
-	.string "Time set to 8:00 PM.$"
+	.string "时间设为晚上8:00。$"
 
 TimeChanger_Text_ItIsNowMorning:
-	.string "Time set to 6:00 AM.$"
+	.string "时间设为早上6:00。$"
 
 TimeChanger_Text_ItIsNowDusk:
-	.string "Time set to 7:00 PM.$"
+	.string "时间设为晚上7:00。$"
 
 TimeChanger_Text_Exit:
 	.string "Cancel$"
@@ -522,4 +522,4 @@ EventScript_NoWildMonsFound::
     msgbox NoWildMonsFound MSGBOX_SIGN
     end
 NoWildMonsFound:
-    .string "There are no wild Pokémon in this area!$"
+    .string "这个区域没有野生宝可梦！$"

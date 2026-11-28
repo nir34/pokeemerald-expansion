@@ -1337,99 +1337,99 @@ MauvilleCity_TMSales:
 # 669 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
 # 670 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "This is MAUVILLE GAME CORNER.$"
+	.string "这里是紫堇游戏城。$"
 # 671 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 672 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
 # 673 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Okay, you wanted some COINS for\n"
+	.string "好，你是想要代币\n"
 # 674 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the games?\p"
+	.string "玩游戏？\p"
 # 675 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "But you don't have a COIN CASE for\n"
+	.string "可你没有装代币的\n"
 # 676 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "stowing the COINS.$"
+	.string "代币盒。$"
 # 677 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 678 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
 # 679 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Were you looking for COINS?\p"
+	.string "你在找代币？\p"
 # 680 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "It's ¥1000 for 50 COINS.\n"
+	.string "1000元换50枚代币。\n"
 # 681 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Would you like some?$"
+	.string "要换吗？$"
 # 682 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 683 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
 # 684 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Thank you very much!\n"
+	.string "非常感谢！\n"
 # 685 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Here are your COINS!$"
+	.string "这是你的代币！$"
 # 686 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 687 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
 # 688 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Um… You don't appear to have\n"
+	.string "嗯……你好像没有\n"
 # 689 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "enough money…$"
+	.string "足够的钱……$"
 # 690 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 691 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_CoinCaseIsFull:
 # 692 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Oh?\n"
+	.string "哦？\n"
 # 693 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Your COIN CASE is full.$"
+	.string "你的代币盒满了。$"
 # 694 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 695 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 # 696 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Oh… You don't need COINS, then?\n"
+	.string "哦……那你不需要\n"
 # 697 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Good luck on your adventure!$"
+	.string "代币？祝冒险顺利！$"
 # 698 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 699 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
 # 700 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Welcome.\p"
+	.string "欢迎。\p"
 # 701 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You can exchange your COINS for\n"
+	.string "你可以在这里用代币\n"
 # 702 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "prizes here.$"
+	.string "兑换奖品。$"
 # 703 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 704 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_WhichPrize:
 # 705 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Which prize would you like?$"
+	.string "你想要哪个奖品？$"
 # 706 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 707 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
 # 708 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "So your choice is\n"
+	.string "你的选择是\n"
 # 709 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the {STR_VAR_1} {STR_VAR_2}?$"
+	.string "{STR_VAR_1}{STR_VAR_2}？$"
 # 710 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 711 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_SendToYourHomePC:
 # 712 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Thank you!\n"
+	.string "谢谢！\n"
 # 713 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "We'll send it to your PC at home.$"
+	.string "我们会送到你家里的电脑。$"
 # 714 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 715 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
 # 716 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You don't have enough COINS.$"
+	.string "你的代币不够。$"
 # 717 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 718 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1437,31 +1437,31 @@ MauvilleCity_GameCorner_Text_NotEnoughCoins:
 # 719 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
 # 720 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "There isn't any room available for\n"
+	.string "没有空位放置\n"
 # 721 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "placing {STR_VAR_1}.$"
+	.string "{STR_VAR_1}。$"
 # 722 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 723 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_OhIsThatSo:
 # 724 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Oh, is that so? \n"
+	.string "哦，是这样吗？\n"
 # 725 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You need to save some COINS before\l"
+	.string "你得先攒点代币，\l"
 # 726 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "coming back here.$"
+	.string "再来这里。$"
 # 727 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 728 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_SoYourChoiceIsX:
 # 729 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "So your choice is {STR_VAR_1}?$"
+	.string "你的选择是{STR_VAR_1}？$"
 # 730 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 731 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_HereYouGo:
 # 732 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Here you go!$"
+	.string "给你！$"
 # 733 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
 # 734 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1469,166 +1469,174 @@ MauvilleCity_GameCorner_Text_HereYouGo:
 # 735 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
 # 736 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Oh, you can't carry any more than that.$"
+	.string "哦，你带不了\n"
 # 737 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "更多了。$"
 # 738 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
+
 # 739 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "I made a mistake and got two of\n"
+MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
 # 740 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the same DOLLS.\p"
+	.string "我弄错了，多拿了一个\n"
 # 741 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Would you like one of them?$"
+	.string "同样的玩偶。\p"
 # 742 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "你要不要一个？$"
 # 743 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_HereYouGo2:
+
 # 744 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Here you go!$"
+MauvilleCity_GameCorner_Text_HereYouGo2:
 # 745 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "给你！$"
 # 746 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_YouWantItButNotNow:
+
 # 747 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Huh?\n"
+MauvilleCity_GameCorner_Text_YouWantItButNotNow:
 # 748 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You want it, but not right now?$"
+	.string "嗯？\n"
 # 749 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "你想要，可现在不方便？$"
 # 750 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_DontBeNegative:
+
 # 751 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Oh, don't be so negative!\n"
+MauvilleCity_GameCorner_Text_DontBeNegative:
 # 752 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You can have this!$"
+	.string "哦，别这么消极！\n"
 # 753 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "这个给你！$"
 # 754 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_CantWinJackpot:
+
 # 755 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "There's a prize I want, but I can't win\n"
+MauvilleCity_GameCorner_Text_CantWinJackpot:
 # 756 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the jackpot.$"
+	.string "有我想要的头奖，\n"
 # 757 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "可我抽不中。$"
 # 758 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor:
+
 # 759 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Hey, kid, if you want to play here,\n"
+MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor:
 # 760 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "you need a COIN CASE.\p"
+	.string "嘿，孩子，想在这儿玩，\n"
 # 761 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "I think the young lady next door\n"
+	.string "你需要一个代币盒。\p"
 # 762 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "had one. Go see her!$"
+	.string "我想隔壁那位小姐\n"
 # 763 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "有一个。去找她吧！$"
 # 764 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins:
+
 # 765 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "My luck can only last so long.\n"
+MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins:
 # 766 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "This is too much for me.\l"
+	.string "我的运气持续不了多久。\n"
 # 767 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Here, take some COINS!$"
+	.string "这对我来说太多了。\l"
 # 768 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "来，拿些代币去吧！$"
 # 769 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
+
 # 770 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Mauville has something for\n"
+MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
 # 771 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "everyone.\p"
+	.string "紫堇市什么都有。\p"
 # 772 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "For me, it's the GAME CORNER.$"
+	.string "对我来说，就是\n"
 # 773 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "游戏城。$"
 # 774 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
+
 # 775 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "The ROULETTE tables have different\n"
+MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
 # 776 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "rates.\p"
+	.string "轮盘桌的赔率\n"
 # 777 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Check your COINS if you're going to\n"
+	.string "各不相同。\p"
 # 778 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "pick a table.$"
+	.string "要选桌子，先看看\n"
 # 779 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "你的代币。$"
 # 780 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
+
 # 781 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "It's easy to lose track of time in here. \n"
+MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
 # 782 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "I should get back to work.$"
+	.string "在这里很容易忘了\n"
 # 783 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "时间。我该回去工作了。$"
 # 784 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
+
 # 785 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "COINS are needed to play here\n"
+MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
 # 786 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "in the GAME CORNER.$"
+	.string "在这里的游戏城玩，\n"
 # 787 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "需要代币。$"
 # 788 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
+
 # 789 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "This ROULETTE thing…\n"
+MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
 # 790 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "It's rather demanding.\p"
+	.string "这个轮盘……\n"
 # 791 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Win or lose, it's only by luck.$"
+	.string "要求还挺高。\p"
 # 792 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "赢也好输也好，\n"
 # 793 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
+	.string "全靠运气。$"
 # 794 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Up to three COINS can be used to play\n"
+
 # 795 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the SLOTS.$"
+MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
 # 796 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "最多可以用三枚代币\n"
 # 797 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_DifficultToStopOn7:
+	.string "来玩老虎机。$"
 # 798 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "It's very difficult to make it stop\n"
+
 # 799 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "right on “7.”\p"
+MauvilleCity_GameCorner_Text_DifficultToStopOn7:
 # 800 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "If it stops on “7” during the REEL TIME\n"
+	.string "要让转轮刚好停在\n"
 # 801 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "bonus game, you'll receive extra COINS.$"
+	.string "“7”上非常难。\p"
 # 802 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-
+	.string "如果它在转轮时间\n"
 # 803 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
+	.string "奖励游戏中停在“7”，\l"
 # 804 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "Here's some information for you\n"
+	.string "就能拿到额外代币。$"
 # 805 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "about the SLOTS.\p"
-# 806 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "The more lightning bolts you stock,\n"
-# 807 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "the more REEL TIME chances you get.\p"
-# 808 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "In a game with the maximum five\n"
-# 809 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "REEL TIME chances…\p"
-# 810 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "It is possible to receive four regular\n"
-# 811 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "bonuses, then a big bonus.\p"
-# 812 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "That would total 660 COINS, but it's\n"
-# 813 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "very difficult to get.$"
-# 814 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
+# 806 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
+# 807 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "给你讲讲老虎机的\n"
+# 808 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "一些知识。\p"
+# 809 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "存的闪电标记越多，\n"
+# 810 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "得到的转轮时间机会\l"
+# 811 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "就越多。\p"
+# 812 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "在一局有最多五次转轮\n"
+# 813 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "时间机会的游戏里……\p"
+# 814 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "有可能拿到四次普通\n"
 # 815 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
+	.string "奖励，再拿一次大奖励。\p"
 # 816 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "You can't play if you don't have\n"
+	.string "那总共是660枚代币，\n"
 # 817 "data/maps/MauvilleCity_GameCorner/scripts.pory"
-	.string "a COIN CASE.$"
+	.string "不过非常难拿到。$"
+# 818 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+
+# 819 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
+# 820 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "没有代币盒就\n"
+# 821 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+	.string "不能玩。$"

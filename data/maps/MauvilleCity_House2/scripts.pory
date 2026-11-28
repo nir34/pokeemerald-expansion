@@ -43,26 +43,25 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 	end
 
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
-	.string "If I had a BIKE, it'd be easy to cycle to\n"
-	.string "SLATEPORT for some shopping.\p"
-	.string "I'd be able to buy HARBOR MAIL at the\n"
-	.string "Pokémon MART in SLATEPORT…$"
+	.string "要是有自行车，骑车去\n"
+	.string "凯那市购物就方便了。\p"
+	.string "我就能在凯那的宝可梦商店\n"
+	.string "买到港口邮件了……$"
 
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
-	.string "Oh! You have HARBOR MAIL?\n"
-	.string "Will you trade it for a COIN CASE?$"
+	.string "哦！你有港口邮件？\n"
+	.string "要和我换代币盒吗？$"
 
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
-	.string "Oh, I'm so happy!\n"
-	.string "Okay, I'll trade you a COIN CASE!$"
+	.string "哦，我太高兴了！\n"
+	.string "好，我跟你换代币盒！$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
-	.string "That COIN CASE can be used\n"
-	.string "at the GAME CORNER.$"
+	.string "那个代币盒可以在\n"
+	.string "游戏城里用。$"
 
 MauvilleCity_House2_Text_ThatsDisappointing:
-	.string "Oh, that's disappointing.\p"
-	.string "A COIN CASE is needed for the\n"
-	.string "GAME CORNER.$"
+	.string "哦，真让人失望。\p"
+	.string "游戏城需要代币盒。$"
 
 `

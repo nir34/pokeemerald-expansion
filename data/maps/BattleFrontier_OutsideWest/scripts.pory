@@ -309,220 +309,220 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 	end
 
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
-	.string "This is the Battle Dome!\n"
-	.string "Your path to the invincible superstar!$"
+	.string "这里是对战巨蛋！\n"
+	.string "通往无敌超级明星之路！$"
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
-	.string "This is the Battle Factory!\n"
-	.string "Seek out the toughest Pokémon!$"
+	.string "这里是对战工厂！\n"
+	.string "寻找最强宝可梦！$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
-	.string "This is the Battle Pike!\n"
-	.string "Choose one of three paths!$"
+	.string "这里是对战管道！\n"
+	.string "从三条路里选一条！$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
-	.string "This is the Battle Tower.\p"
-	.string "Trainers bring their best-raised\n"
-	.string "Pokémon for elimination-style matches.$"
+	.string "这里是对战塔。\p"
+	.string "训练家带来培养得最好的\n"
+	.string "宝可梦参加淘汰赛制对战。$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your ticket?$"
+	.string "你好，你是来坐渡轮的吗？\n"
+	.string "能让我看看票吗？$"
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
-	.string "{PLAYER} doesn't have the ticket…\p"
-	.string "I'm terribly sorry.\p"
-	.string "You must have a ticket to board\n"
-	.string "the ferry.$"
+	.string "{PLAYER}没有票……\p"
+	.string "非常抱歉。\p"
+	.string "必须要有票才能\n"
+	.string "上渡轮。$"
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
-	.string "{PLAYER} flashed the ticket.\p"
-	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "{PLAYER}出示了票。\p"
+	.string "太好了！这样就够了！\p"
+	.string "你想去哪儿？$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "Slateport City it is, then!$"
+	.string "那就去凯那市！$"
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
-	.string "Lilycove City it is, then!$"
+	.string "那就去绿岭市！$"
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "请下次再乘我们的船！$"
 
 BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
-	.string "Please board the ferry and wait for\n"
-	.string "departure.$"
+	.string "请上船等待\n"
+	.string "出发。$"
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
-	.string "Then, where would you like to go?$"
+	.string "那么，你想去哪儿？$"
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
-	.string "I'm the best out of all my friends.\n"
-	.string "But here…\l"
-	.string "I've been useless!$"
+	.string "在我朋友里我最强。\n"
+	.string "可在这儿……\l"
+	.string "我一点用都没有！$"
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
-	.string "I want to go to the Battle Tower,\n"
-	.string "but I can't find it even though I have\l"
-	.string "a map of the Battle Frontier.\p"
-	.string "This place is just too big!$"
+	.string "我想去对战塔，可我有\n"
+	.string "对战开拓区的地图也找不到。\p"
+	.string "这地方实在太大了！$"
 
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
-	.string "I wanted to take a challenge as soon\n"
-	.string "as I arrived here.\p"
-	.string "But on the way, I got seasick…\n"
-	.string "Urrrrp…$"
+	.string "我本想一到就去挑战。\p"
+	.string "可来的路上，我晕船了……\n"
+	.string "呃……$"
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
-	.string "It's not as if just anyone can come\n"
-	.string "here, you know?\p"
-	.string "Only those trainers who've been\n"
-	.string "recognized as tough are brought here.\p"
-	.string "That's why many trainers don't even\n"
-	.string "know about the Battle Frontier.$"
+	.string "你知道不是谁都能\n"
+	.string "来这里的吧？\p"
+	.string "只有被认可为强者的\n"
+	.string "训练家才会被带到这儿。\p"
+	.string "所以很多训练家根本\n"
+	.string "不知道对战开拓区。$"
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
-	.string "Hey, bro…\p"
-	.string "Are you sure we can make challenges\n"
-	.string "even if we don't have any Pokémon?$"
+	.string "嘿，兄弟……\p"
+	.string "我们真的没有宝可梦\n"
+	.string "也能挑战吗？$"
 
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
-	.string "Uh…\n"
-	.string "I'm sure it'll be okay.\p"
-	.string "I think…\p"
-	.string "But remember that big scary guy?\n"
-	.string "He said, “I'll lend you Pokémon!”$"
+	.string "呃……\n"
+	.string "我想没问题吧。\p"
+	.string "大概……\p"
+	.string "不过你记得那个可怕的大\n"
+	.string "个子吗？他说：“我借你宝可梦！”$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
-	.string "That's the Battle Factory.\n"
-	.string "You can rent strong Pokémon there.\p"
-	.string "But it makes me wonder.\n"
-	.string "Who's raising those rental Pokémon?$"
+	.string "那是对战工厂。\n"
+	.string "在那儿可以租到强宝可梦。\p"
+	.string "不过我一直在想。\n"
+	.string "那些租借宝可梦是谁养的？$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-	.string "I'm scared of going into the Battle\n"
-	.string "Pike because of Seviper…\p"
-	.string "B-but I came all the way here, so I will\n"
-	.string "try to conquer everything!\l"
-	.string "…Shudder…$"
+	.string "因为有饭匙蛇，我怕进\n"
+	.string "对战管道……\p"
+	.string "不、不过我大老远来的，\n"
+	.string "我会努力全部征服！\l"
+	.string "……抖……$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
-	.string "Let's play rock, paper, scissors!\n"
-	.string "One, two, three!\p"
+	.string "来玩石头剪刀布吧！\n"
+	.string "一、二、三！\p"
 	.string "… … … … … …$"
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
-	.string "Yay! I won!\n"
-	.string "I will take the Battle Pike challenge!$"
+	.string "耶！我赢了！\n"
+	.string "我要去挑战对战管道！$"
 
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
-	.string "Oh, no…\n"
-	.string "I lost.\p"
-	.string "I guess I'm not very lucky today.\n"
-	.string "I'll put off my Battle Pike challenge\l"
-	.string "until tomorrow.$"
+	.string "哦，不……\n"
+	.string "我输了。\p"
+	.string "看来我今天运气不好。\n"
+	.string "对战管道的挑战我推到\l"
+	.string "明天吧。$"
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
-	.string "I believe I'm the only person here who,\n"
-	.string "for some unknown reason, would choose\l"
-	.string "fishing over battling.\p"
-	.string "Huh? You can't catch anything here?\n"
-	.string "That's disappointing…$"
+	.string "我相信这儿只有我，\n"
+	.string "不知为什么，会选钓鱼\l"
+	.string "而不是对战。\p"
+	.string "嗯？这里钓不到东西？\n"
+	.string "真失望……$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
-	.string "Today, I'm going to keep battling, no\n"
-	.string "matter what, until I get a Symbol.$"
+	.string "今天我要一直对战下去，\n"
+	.string "不管怎样，直到拿到\l"
+	.string "象征。$"
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
-	.string "Oh? You're off to challenge\n"
-	.string "the Battle Dome?\p"
-	.string "I'll wish you the best of luck.\n"
-	.string "Let us both win our way up and meet\l"
-	.string "in challenges.$"
+	.string "哦？你要去挑战\n"
+	.string "对战巨蛋？\p"
+	.string "祝你好运。\n"
+	.string "让我们都一路赢上去，\l"
+	.string "在挑战中相遇。$"
 
 BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
-	.string "Grandpa, over here!\n"
-	.string "The Battle Dome is here!\l"
-	.string "Go get 'em, Grandpa!$"
+	.string "爷爷，这边！\n"
+	.string "对战巨蛋在这儿！\l"
+	.string "上啊，爷爷！$"
 
 BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
-	.string "Ah, so this here is the Battle Dome?\n"
-	.string "I won't let gentlemen beat me!\p"
-	.string "But where is the entrance?$"
+	.string "啊，这里就是对战巨蛋？\n"
+	.string "我可不让绅士们赢我！\p"
+	.string "可入口在哪儿？$"
 
 BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
-	.string "There used to be nothing here not all\n"
-	.string "that long ago.\p"
-	.string "But, now look at this place! Amazing!\n"
-	.string "I'll bring my mother out to see this.$"
+	.string "不久前这里还什么都\n"
+	.string "没有。\p"
+	.string "可你看看现在！真了不起！\n"
+	.string "我要带我妈妈来看看。$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
-	.string "I've finally arrived at the Battle\n"
-	.string "Frontier!\p"
-	.string "I'm sure to grab attention with\n"
-	.string "my looks and ability!$"
+	.string "我终于到对战\n"
+	.string "开拓区了！\p"
+	.string "凭我的长相和实力，\n"
+	.string "一定能引人注目！$"
 
 BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
-	.string "Munch, munch…\p"
-	.string "It looks like this square's filled with\n"
-	.string "tough people.\p"
-	.string "Munch, munch…$"
+	.string "嚼，嚼……\p"
+	.string "这个广场好像挤满了\n"
+	.string "厉害的人。\p"
+	.string "嚼，嚼……$"
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
-	.string "Crunch, munch…\p"
-	.string "A while back, I met this older girl\n"
-	.string "at the Battle Pike.\p"
-	.string "She had these eyes that were scary\n"
-	.string "in a real ornery way.\p"
-	.string "Crunch, munch…\p"
-	.string "She got all furious: “Will you quit\n"
-	.string "eating!” Then she whaled on me.\p"
-	.string "It was a hair-raising kind of\n"
-	.string "scary experience, sure enough.\p"
-	.string "Crunch, munch…$"
+	.string "咔嚓，嚼……\p"
+	.string "前阵子我在对战管道\n"
+	.string "遇到一个大姐姐。\p"
+	.string "她的眼神凶得\n"
+	.string "让人害怕。\p"
+	.string "咔嚓，嚼……\p"
+	.string "她大发雷霆：“你能不能\n"
+	.string "别吃了！”然后狠狠揍了我。\p"
+	.string "那真是毛骨悚然的\n"
+	.string "经历。\p"
+	.string "咔嚓，嚼……$"
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
-	.string "Huh? Will you listen to yourself?\n"
-	.string "That's nothing!\p"
-	.string "Why, the last time I cheered for him,\n"
-	.string "our eyes met and sparks flew!$"
+	.string "嗯？你听听自己在说什么？\n"
+	.string "那算什么！\p"
+	.string "上次我给他加油，\n"
+	.string "我们目光一对，火花四溅！$"
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
-	.string "Whaaaaaat?!\n"
-	.string "Pfft!\p"
-	.string "That only happened because\n"
-	.string "I happened to be sitting next to you!\p"
-	.string "The Dome Ace only looked our way\n"
-	.string "because my cheering was so loud!$"
+	.string "什么————？！\n"
+	.string "噗！\p"
+	.string "那只是因为我刚好\n"
+	.string "坐在你旁边！\p"
+	.string "巨蛋之星看我们这边，\n"
+	.string "是因为我加油声太大！$"
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
-	.string "Oh, shush!\n"
-	.string "Keep that racket down!\p"
-	.string "You fair-weather fans should stick\n"
-	.string "to cheering for some Gym Leader!\p"
-	.string "The Dome Ace is mine!\n"
-	.string "The only idol for me!$"
+	.string "哦，小声点！\n"
+	.string "别吵！\p"
+	.string "你们这些凑热闹的粉丝\n"
+	.string "该去给道馆馆主加油！\p"
+	.string "巨蛋之星是我的！\n"
+	.string "我唯一的偶像！$"
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
-	.string "Those people squabbling over there…\p"
-	.string "It's hard to believe, but they once\n"
-	.string "were trainers, and good ones, too.\p"
-	.string "They used to be incredibly tough,\n"
-	.string "and they were famous, too.\p"
-	.string "But they were obliterated by this\n"
-	.string "certain trainer at a tournament.\p"
-	.string "They were so thoroughly whipped,\n"
-	.string "they became smitten by the trainer.\p"
-	.string "Now they're just fans of the trainer.\n"
-	.string "They go cheer for their idol at the\l"
-	.string "Battle Dome every day now.$"
+	.string "那边吵架的人……\p"
+	.string "很难相信，可他们以前\n"
+	.string "也是训练家，还挺强。\p"
+	.string "他们曾经强得惊人，\n"
+	.string "也很有名。\p"
+	.string "可他们在一场大赛里\n"
+	.string "被某位训练家彻底打爆。\p"
+	.string "他们被揍得太惨，\n"
+	.string "反而迷上了那位训练家。\p"
+	.string "现在他们只是那位训练家的\n"
+	.string "粉丝。每天去对战巨蛋\l"
+	.string "给偶像加油。$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
-	.string "I heard a rumor that someone saw\n"
-	.string "a Pokémon with an unusually long tail\l"
-	.string "somewhere in the Battle Frontier.\p"
-	.string "It must be adorable. I'm sure of it…\p"
-	.string "Oh, challenges can wait. I feel driven\n"
-	.string "to find the delightful creature!$"
+	.string "我听说有个传闻，说有人\n"
+	.string "在对战开拓区某处看到\l"
+	.string "一只尾巴特别长的宝可梦。\p"
+	.string "一定很可爱。我敢肯定……\p"
+	.string "哦，挑战可以先等等。\n"
+	.string "我非得找到那只\l"
+	.string "可爱的小家伙！$"
 
 `

@@ -141,25 +141,25 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_UseThatShield::
 # 71 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZacian:
 # 72 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I've been trained in the way of the\n"
+	.string "我修习剑之道，\n"
 # 73 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "sword, I'm all about offense.\p"
+	.string "全是攻击。\p"
 # 74 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "If you can show me a Pokémon that\n"
+	.string "你要是能给我看符合\n"
 # 75 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "fits that philosophy, I'll give you a\l"
+	.string "这个理念的宝可梦，\l"
 # 76 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "nice Item for it.$"
+	.string "我就送你一件好道具。$"
 # 77 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 78 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword:
 # 79 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "Excellent! That Pokémon definitely\n"
+	.string "太好了！那只宝可梦\n"
 # 80 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "knows the way of the sword!\p"
+	.string "绝对懂剑之道！\p"
 # 81 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "Here, please take this!$"
+	.string "来，请收下这个！$"
 # 82 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 83 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -167,25 +167,25 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisSword:
 # 84 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_UseThatSword:
 # 85 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I hope you and your Pokémon use that\n"
+	.string "希望你和你的宝可梦用\n"
 # 86 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "sword for some high-powered offense!$"
+	.string "那把剑打出强力攻击！$"
 # 87 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 88 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_DontZacian:
 # 89 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I see, you don't have a Pokémon that\n"
+	.string "我明白了，你没有符合\n"
 # 90 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "fits my philosophy.$"
+	.string "我理念的宝可梦。$"
 # 91 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 92 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_NotZacian:
 # 93 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "That Pokémon doesn't fit my philosophy.$"
+	.string "那只宝可梦不符合\n"
 # 94 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-
+	.string "我的理念。$"
 # 95 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 96 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -193,48 +193,52 @@ SootopolisCity_LotadAndSeedotHouse_Text_NotZacian:
 # 97 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 98 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta:
+
 # 99 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I've been trained in the way of the\n"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowZamazenta:
 # 100 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "shield, I'm all about defense.\p"
+	.string "我修习盾之道，\n"
 # 101 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "If you can show me a Pokémon that\n"
+	.string "全是防御。\p"
 # 102 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "fits that philosophy, I'll give you a\l"
+	.string "你要是能给我看符合\n"
 # 103 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "nice Item for it.$"
+	.string "这个理念的宝可梦，\l"
 # 104 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-
+	.string "我就送你一件好道具。$"
 # 105 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield:
-# 106 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "Excellent! That Pokémon definitely\n"
-# 107 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "knows the way of the shield!\p"
-# 108 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "Here, please take this!$"
-# 109 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
+# 106 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseTakeThisShield:
+# 107 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "太好了！那只宝可梦\n"
+# 108 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "绝对懂盾之道！\p"
+# 109 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "来，请收下这个！$"
 # 110 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 111 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield:
+
 # 112 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I hope you and your Pokémon use that\n"
+SootopolisCity_LotadAndSeedotHouse_Text_UseThatShield:
 # 113 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "shield for some high-powered defense!$"
+	.string "希望你和你的宝可梦用\n"
 # 114 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-
+	.string "那面盾打出强力防御！$"
 # 115 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta:
-# 116 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "I see, you don't have a Pokémon that\n"
-# 117 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "fits my philosophy.$"
-# 118 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
+# 116 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+SootopolisCity_LotadAndSeedotHouse_Text_DontZamazenta:
+# 117 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我明白了，你没有符合\n"
+# 118 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我理念的宝可梦。$"
 # 119 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta:
+
 # 120 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
-	.string "That Pokémon doesn't fit my philosophy.$"
+SootopolisCity_LotadAndSeedotHouse_Text_NotZamazenta:
+# 121 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "那只宝可梦不符合\n"
+# 122 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+	.string "我的理念。$"

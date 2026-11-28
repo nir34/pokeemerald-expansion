@@ -27,28 +27,32 @@ AbandonedShip_Corridors_1F_EventScript_Charlie::
 # 14 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 AbandonedShip_Corridors_1F_Text_CharlieIntro:
 # 15 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "What's so funny about having my inner\n"
+	.string "我带着游泳圈上船，\n"
 # 16 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "tube aboard the ship?$"
+	.string "有那么好笑吗？$"
 # 17 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 
 # 18 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 AbandonedShip_Corridors_1F_Text_CharlieDefeat:
 # 19 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "Whoa, you overwhelmed me!$"
+	.string "哇，你把我打\n"
 # 20 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-
+	.string "得毫无还手之力！$"
 # 21 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-AbandonedShip_Corridors_1F_Text_CharliePostBattle:
-# 22 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "It's not easy throwing Poké Balls\n"
-# 23 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "while hanging on to an inner tube!$"
-# 24 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 
+# 22 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
+AbandonedShip_Corridors_1F_Text_CharliePostBattle:
+# 23 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
+	.string "一边抓着游泳圈一边\n"
+# 24 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
+	.string "扔精灵球可不容易！$"
 # 25 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-AbandonedShip_Corridors_1F_Text_IsntItFunHere:
+
 # 26 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "Isn't it fun here?\n"
+AbandonedShip_Corridors_1F_Text_IsntItFunHere:
 # 27 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	.string "I get excited just being here!$"
+	.string "这里好玩吧？\n"
+# 28 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
+	.string "光是待在这儿我就\l"
+# 29 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
+	.string "兴奋！$"

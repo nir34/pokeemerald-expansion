@@ -146,110 +146,114 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
-	.string "Now this is what I've always wanted\n"
-	.string "in a mountain.\p"
-	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "烟囱山的崎岖小径……\p"
+	.string "这才是我一直想要的山。\p"
+	.string "这种崎岖不平……\n"
+	.string "震撼我的灵魂！$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Losing left me bitter!$"
+	.string "输了真让我不甘心！$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Yes, I did lose at Pokémon…\p"
-	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!$"
+	.string "在宝可梦上，我确实\n"
+	.string "输了……\p"
+	.string "可要说到对山的热爱，\n"
+	.string "我可赢过你！$"
 
 JaggedPass_Text_DianaIntro:
-	.string "This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.$"
+	.string "这地方可不是随便\n"
+	.string "散散步的。\l"
+	.string "也不适合野餐。$"
 
 JaggedPass_Text_DianaDefeat:
-	.string "Ohhh, no!\n"
-	.string "The ground is too bumpy…$"
+	.string "哦哦，不行！\n"
+	.string "地面太颠簸了……$"
 
 JaggedPass_Text_DianaPostBattle:
-	.string "Did you know?\p"
-	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "你知道吗？\p"
+	.string "有些人很厉害，会骑着\n"
+	.string "自行车爬上这条\l"
+	.string "颠得可怕的坡道。$"
 
 JaggedPass_Text_DianaRegister:
-	.string "Will you ever be back in this area?\n"
-	.string "If you do return, I'd like a rematch.$"
+	.string "你还会再来这一带吗？\n"
+	.string "要是再来，我想再打一场。$"
 
 JaggedPass_Text_DianaRematchIntro:
-	.string "Picnics are fun wherever you go.\n"
-	.string "Just like Pokémon!$"
+	.string "不管去哪儿，野餐\n"
+	.string "都很好玩。就像宝可梦！$"
 
 JaggedPass_Text_DianaRematchDefeat:
-	.string "I only lost because the ground is\n"
-	.string "too bumpy!$"
+	.string "我会输只是因为地面\n"
+	.string "太颠簸了！$"
 
 JaggedPass_Text_DianaPostRematch:
-	.string "I'll forget about losing and just\n"
-	.string "enjoy this bumpy hike.$"
+	.string "我不去想输的事，\n"
+	.string "就享受这趟颠簸的徒步。$"
 
 JaggedPass_Text_EthanIntro:
-	.string "JAGGED PASS is hard to walk on.\n"
-	.string "It's a good place for training.$"
+	.string "崎岖小径很难走。\n"
+	.string "这里很适合训练。$"
 
 JaggedPass_Text_EthanDefeat:
-	.string "It was all over while we were still\n"
-	.string "trying to find a good footing…$"
+	.string "我们还在找落脚点，\n"
+	.string "胜负就已经分出来了……$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "If I had an ACRO BIKE, I'd be able to\n"
-	.string "jump ledges.$"
+	.string "要是我有技巧自行车，\n"
+	.string "就能跳上台阶了。$"
 
 JaggedPass_Text_EthanRegister:
-	.string "When I get more used to this bumpiness,\n"
-	.string "I'll be sure to win!\p"
-	.string "Can you register me in your PokéNav?$"
+	.string "等我更习惯这种颠簸，\n"
+	.string "一定会赢！\p"
+	.string "能把我登录到你的\n"
+	.string "导航里吗？$"
 
 JaggedPass_Text_EthanRematchIntro:
-	.string "I got used to this bumpiness.\n"
-	.string "I sing while I climb now.$"
+	.string "我已经习惯这颠簸了。\n"
+	.string "现在爬山时还会唱歌。$"
 
 JaggedPass_Text_EthanRematchDefeat:
-	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
+	.string "在这颠簸的地面上\n"
+	.string "对战还是不容易……$"
 
 JaggedPass_Text_EthanPostRematch:
-	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "我该去紫堇市找莱德尔\n"
+	.string "买辆技巧自行车……$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Wah!\n"
-	.string "What are you doing here?\p"
-	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+	.string "哇！\n"
+	.string "你在这儿干什么？\p"
+	.string "我在这种地方\n"
+	.string "做什么？\p"
+	.string "关你什么事？$"
 
 JaggedPass_Text_GruntDefeat:
-	.string "Urrrgh…\p"
-	.string "I should've ducked into our Hideout\n"
-	.string "right away…$"
+	.string "呃啊……\p"
+	.string "我该马上钻进\n"
+	.string "我们的基地的……$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "好好，知道了！\n"
+	.string "我承认——你很强！\p"
+	.string "别管我了。\n"
+	.string "你想去哪儿就去哪儿！$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-	.string "Oh! This boulder is shaking in response\n"
-	.string "to the Magma Emblem!$"
+	.string "哦！这块岩石在呼应\n"
+	.string "熔岩徽章而颤动！$"
 
 JaggedPass_Text_AutumnIntro:
-	.string "I climb this hill every day.\n"
-	.string "I have confidence in my strength!$"
+	.string "我每天都爬这座山。\n"
+	.string "我对自己的力气有信心！$"
 
 JaggedPass_Text_AutumnDefeat:
-	.string "Hmm…\n"
-	.string "What went wrong?$"
+	.string "嗯……\n"
+	.string "哪里出错了？$"
 
 JaggedPass_Text_AutumnPostBattle:
-	.string "What is that odd rock protrusion\n"
-	.string "a little up the hill from here?$"
+	.string "山坡上去一点那奇怪的\n"
+	.string "岩石突起，是什么呢？$"
 
 `
 
@@ -284,7 +288,7 @@ script JaggedPass_EventScript_DeclineMayleneBattle {
 }
 
 script JaggedPass_EventScript_BattleMaylene{
-	msgbox("Bring it!", MSGBOX_DEFAULT)
+	msgbox("来吧！", MSGBOX_DEFAULT)
 	trainerbattle_no_intro(TRAINER_MAYLENE, Maylene_Outro)
 	goto(JaggedPass_EventScript_MayleneGiveItems)
 	return
@@ -312,44 +316,44 @@ script JaggedPass_EventScript_MayleneGiveItems{
 }
 
 text Maylene_Greeting{
-	"Well, well! Is this finally a worthy\n"
-	"opponent? I can tell that you seem\l"
-	"pretty strong.\p"
-	"My name is Maylene, and I came over here\n"
-	"from the Sinnoh region because I\l"
-	"needed to reinvigorate my training.\p"
-	"Things had gotten boring back home, so\n"
-	"I came out here to find tough trainers.\p"
-	"Now, let's see if my instincts about you\n"
-	"are correct!\p"
-	"What do you say, will you battle\n"
-	"with me?"
+	"哎呀呀！终于来了个\n"
+	"像样的对手？看得出你\l"
+	"挺强的。\p"
+	"我叫阿李，从神奥地区\n"
+	"过来，因为需要\l"
+	"重新振作训练。\p"
+	"家乡那边太无趣了，\n"
+	"所以我来这儿找强手。\p"
+	"现在，看看我对你的\n"
+	"直觉准不准！\p"
+	"怎么样，要不要和\n"
+	"我打一场？"
 }
 
 text Maylene_ReadyYet{
-	"Ready for some training yet?"
+	"准备好训练了吗？"
 }
 
 text Maylene_ComeBackWhenReady{
-	"That's fine, I'll be here training."
+	"没关系，我就在这儿训练。"
 }
 
 text Maylene_ExplainItems{
-	"Those are some of the most powerful\n"
-	"Fighting-type TMs out there, I'm sure\l"
-	"you will be able to make use of them.\p"
-	"I threw in some of my favorite Mega\n"
-	"Stones as well.\p"
-	"Finally, the Expert Belt is used for\n"
-	"boosting moves that are super\l"
-	"effective. Good luck, trainer!"
+	"那些都是相当强力的\n"
+	"格斗属性学习器，\l"
+	"你一定能用得上。\p"
+	"我还加了几颗我最喜欢的\n"
+	"超级石。\p"
+	"最后，达人带能增强\n"
+	"效果绝佳的\l"
+	"招式。祝你好运，训练家！"
 }
 	
 text Maylene_Outro{
-	"My instincts were right!"
+	"我的直觉没错！"
 }
 
 text PostBattle_Maylene{
-	"Gotta. Get. Stronger."
+	"我。要。变强。"
 }
 

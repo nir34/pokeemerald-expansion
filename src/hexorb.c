@@ -16,25 +16,25 @@ static const void Hexorb_BufferBlockedStatusMessage(u32 status)
     switch (status)
     {
         case STATUS1_SLEEP:
-            StringCopy(gStringVar3,COMPOUND_STRING("asleep"));
+            StringCopy(gStringVar3,COMPOUND_STRING("睡着了"));
             break;
         case STATUS1_TOXIC_POISON:
-            StringCopy(gStringVar3,COMPOUND_STRING("poisoned"));
+            StringCopy(gStringVar3,COMPOUND_STRING("中毒了"));
             break;
         case STATUS1_BURN:
-            StringCopy(gStringVar3,COMPOUND_STRING("burned"));
+            StringCopy(gStringVar3,COMPOUND_STRING("灼伤了"));
             break;
         case STATUS1_FROSTBITE:
-            StringCopy(gStringVar3,COMPOUND_STRING("frostbit"));
+            StringCopy(gStringVar3,COMPOUND_STRING("冻伤了"));
             break;
         case STATUS1_FREEZE:
-            StringCopy(gStringVar3,COMPOUND_STRING("frozen"));
+            StringCopy(gStringVar3,COMPOUND_STRING("冰冻了"));
             break;
         case STATUS1_PARALYSIS:
-            StringCopy(gStringVar3,COMPOUND_STRING("paralyzed"));
+            StringCopy(gStringVar3,COMPOUND_STRING("麻痹了"));
             break;
         default:
-            StringCopy(gStringVar3,COMPOUND_STRING("new status!"));
+            StringCopy(gStringVar3,COMPOUND_STRING("新状态！"));
             break;
     }
 }
@@ -43,25 +43,25 @@ static const void Hexorb_BufferStatusFailureText(u32 status)
     switch (status)
     {
         case STATUS1_SLEEP:
-            StringCopy(gStringVar3,COMPOUND_STRING("falling asleep"));
+            StringCopy(gStringVar3,COMPOUND_STRING("陷入睡眠"));
             break;
         case STATUS1_TOXIC_POISON:
-            StringCopy(gStringVar3,COMPOUND_STRING("being poisoned"));
+            StringCopy(gStringVar3,COMPOUND_STRING("中毒"));
             break;
         case STATUS1_BURN:
-            StringCopy(gStringVar3,COMPOUND_STRING("being burned"));
+            StringCopy(gStringVar3,COMPOUND_STRING("被灼伤"));
             break;
         case STATUS1_FROSTBITE:
-            StringCopy(gStringVar3,COMPOUND_STRING("getting frostbite"));
+            StringCopy(gStringVar3,COMPOUND_STRING("被冻伤"));
             break;
         case STATUS1_FREEZE:
-            StringCopy(gStringVar3,COMPOUND_STRING("being frozen"));
+            StringCopy(gStringVar3,COMPOUND_STRING("被冰冻"));
             break;
         case STATUS1_PARALYSIS:
-            StringCopy(gStringVar3,COMPOUND_STRING("being paralyzed"));
+            StringCopy(gStringVar3,COMPOUND_STRING("陷入麻痹"));
             break;
         default:
-            StringCopy(gStringVar3,COMPOUND_STRING("new status!"));
+            StringCopy(gStringVar3,COMPOUND_STRING("新状态！"));
             break;
     }
 }
@@ -71,25 +71,25 @@ static void Hexorb_BufferStatusAfflictionText(u32 status)
     switch (status)
     {
         case STATUS1_SLEEP:
-            StringCopy(gStringVar2, COMPOUND_STRING("fell asleep"));
+            StringCopy(gStringVar2, COMPOUND_STRING("睡着了"));
             break;
         case STATUS1_TOXIC_POISON:
-            StringCopy(gStringVar2, COMPOUND_STRING("was poisoned"));
+            StringCopy(gStringVar2, COMPOUND_STRING("中毒了"));
             break;
         case STATUS1_BURN:
-            StringCopy(gStringVar2, COMPOUND_STRING("was burned"));
+            StringCopy(gStringVar2, COMPOUND_STRING("灼伤了"));
             break;
         case STATUS1_FROSTBITE:
-            StringCopy(gStringVar2, COMPOUND_STRING("got frostbite"));
+            StringCopy(gStringVar2, COMPOUND_STRING("冻伤了"));
             break;
         case STATUS1_FREEZE:
-            StringCopy(gStringVar2, COMPOUND_STRING("was frozen solid"));
+            StringCopy(gStringVar2, COMPOUND_STRING("被冻住了"));
             break;
         case STATUS1_PARALYSIS:
-            StringCopy(gStringVar2, COMPOUND_STRING("is paralyzed"));
+            StringCopy(gStringVar2, COMPOUND_STRING("麻痹了"));
             break;
         default:
-            StringCopy(gStringVar2, COMPOUND_STRING("new status!"));
+            StringCopy(gStringVar2, COMPOUND_STRING("新状态！"));
     }
 }
 
@@ -162,7 +162,7 @@ void Hexorb_ConstructSuccessMessage(struct Pokemon* mon, u32 status)
 {
     GetMonNickname(mon, gStringVar1);
     Hexorb_BufferStatusAfflictionText(status);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1} {STR_VAR_2}!{PAUSE_UNTIL_PRESS}"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}{STR_VAR_2}！{PAUSE_UNTIL_PRESS}"));
 }
 
 void Hexorb_ConstructTypeFailureMessage(struct Pokemon *mon, u32 status, enum HexorbResultCodes result)
@@ -171,7 +171,7 @@ void Hexorb_ConstructTypeFailureMessage(struct Pokemon *mon, u32 status, enum He
     GetMonNickname(mon, gStringVar1);
     StringCopy(gStringVar2, gTypesInfo[type].name);
     Hexorb_BufferStatusFailureText(status);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}'s {STR_VAR_2}-type prevents it from\n{STR_VAR_3}!{PAUSE_UNTIL_PRESS}"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}的{STR_VAR_2}属性\n使它无法{STR_VAR_3}！{PAUSE_UNTIL_PRESS}"));
 }
 
 void Hexorb_ConstructAbilityFailureMessage(struct Pokemon* mon, u32 status)
@@ -181,7 +181,7 @@ void Hexorb_ConstructAbilityFailureMessage(struct Pokemon* mon, u32 status)
     GetMonNickname(mon, gStringVar1);
     StringCopy(gStringVar2, gAbilitiesInfo[ability].name);
     Hexorb_BufferStatusFailureText(status);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}'s {STR_VAR_2}\nprevents it from {STR_VAR_3}!{PAUSE_UNTIL_PRESS}"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}的{STR_VAR_2}\n使它无法{STR_VAR_3}！{PAUSE_UNTIL_PRESS}"));
 }
 
 void Hexorb_ConstructStatusFailureMessage(struct Pokemon* mon)
@@ -189,7 +189,7 @@ void Hexorb_ConstructStatusFailureMessage(struct Pokemon* mon)
     u32 status = GetMonData(mon, MON_DATA_STATUS);
     GetMonNickname(mon, gStringVar1);
     Hexorb_BufferBlockedStatusMessage(status);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1} is already {STR_VAR_3}!{PAUSE_UNTIL_PRESS}"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_1}已经{STR_VAR_3}了！{PAUSE_UNTIL_PRESS}"));
 }
 
 void Task_UseHexorbFromField(u8 taskId)

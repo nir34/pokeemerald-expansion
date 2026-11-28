@@ -23,5 +23,5 @@ Underwater_Route128__Trigger_BlockCavernEntrance::
 
 GoBeatMagma::
 # 17 "data/maps/Underwater_Route128/scripts.pory"
-	.string "You should focus on taking Team Magma\n"
-	.string "down in Jagged Pass first.$"
+	.string "你应该先去凹凸山路\n"
+	.string "解决熔岩队。$"

@@ -220,131 +220,134 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 	end
 
 Route119_WeatherInstitute_2F_Text_MattIntro:
-	.string "Hehehe…\p"
-	.string "I'm a cut above the Grunts you've seen\n"
-	.string "so far.\p"
-	.string "You know what that means right?\n"
-	.string "I'm going to pulverize you!$"
+	.string "嘿嘿嘿……\p"
+	.string "我可不是你之前见过的\n"
+	.string "那些小兵。\p"
+	.string "你懂这意味着什么吧？\n"
+	.string "我要把你打个粉碎！$"
 
 Route119_WeatherInstitute_2F_Text_MattDefeat:
-	.string "Hehehe…\n"
-	.string "Our plan's being spoiled by a kid?$"
+	.string "嘿嘿嘿……\n"
+	.string "我们的计划被小鬼搅了？$"
 
 Route119_WeatherInstitute_2F_Text_MattPostBattle:
-	.string "Hehehe…\p"
-	.string "It's fine that I lost here,\n"
-	.string "I'm certain Shelly will take care\l"
-	.string "of you.$"
+	.string "嘿嘿嘿……\p"
+	.string "我在这儿输了没关系，\n"
+	.string "后面的希莉会\l"
+	.string "好好收拾你的。$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro:
-	.string "We're Team Aqua!\n"
-	.string "We appear wherever anything rare is\l"
-	.string "found!$"
+	.string "我们是水舰队！\n"
+	.string "哪里有好东西，\l"
+	.string "我们就出现在哪里！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Defeat:
-	.string "You got me!$"
+	.string "算你狠！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle:
-	.string "You don't have any idea what we of\n"
-	.string "Team Aqua are working towards!\l"
-	.string "You stay out of our way!$"
+	.string "你根本不知道我们\n"
+	.string "水舰队在做什么！\l"
+	.string "别挡我们的路！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro:
-	.string "Don't tell me you're looking for that\n"
-	.string "weather Pokémon, too?\p"
-	.string "That's a no-no!\n"
-	.string "We were here to get it first!$"
+	.string "别告诉我你也是来找\n"
+	.string "那只天气宝可梦的？\p"
+	.string "那可不行！\n"
+	.string "是我们先来的！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
-	.string "Oh, will you look at my Pokémon?$"
+	.string "哎呀，看看我的宝可梦？$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
-	.string "Humph, so what?\n"
-	.string "What we want…\p"
-	.string "What we really want isn't here…\n"
-	.string "Ihihihihi…$"
+	.string "哼，那又怎样？\n"
+	.string "我们想要的东西……\p"
+	.string "我们真正想要的\n"
+	.string "可不在这里……\l"
+	.string "嘻嘻嘻嘻……$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
-	.string "Ahahahaha!\p"
-	.string "You're going to meddle in Team Aqua's\n"
-	.string "affairs?\p"
-	.string "You're either absolutely fearless,\n"
-	.string "simply ignorant, or both!\p"
-	.string "You're so cute, you're disgusting!\n"
-	.string "I'll put you down, kiddy!$"
+	.string "啊哈哈哈哈！\p"
+	.string "你要插手水舰队的\n"
+	.string "事情？\p"
+	.string "你要么是胆子大得离谱，\n"
+	.string "要么就是什么都不知道，\l"
+	.string "说不定两者都是！\p"
+	.string "你可爱得让人恶心！\n"
+	.string "小鬼，我送你上路！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat:
-	.string "Ahahahaha!\n"
-	.string "You're disgustingly strong!$"
+	.string "啊哈哈哈哈！\n"
+	.string "你强得让人恶心！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-	.string "It's bad enough to have Team Magma\n"
-	.string "blunder about, but now there's you!\p"
-	.string "What makes you want to sniff around\n"
-	.string "in our business, anyway?$"
+	.string "熔岩队到处乱来已经\n"
+	.string "够糟了，现在还有你！\p"
+	.string "你到底为什么非要\n"
+	.string "来打听我们的事？$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
-	.string "We have a situation here!\p"
-	.string "A Team Magma mob just passed\n"
-	.string "the Weather Institute.\p"
-	.string "They appear to be headed for\n"
-	.string "Mt. Pyre!$"
+	.string "出状况了！\p"
+	.string "一群熔岩队的人刚经过\n"
+	.string "天气研究所。\p"
+	.string "他们好像正往\n"
+	.string "送神火山去！$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
-	.string "What?!\p"
-	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to Mt. Pyre, too!\p"
-	.string "Ahahahaha!\n"
-	.string "Team Magma, just you wait!$"
+	.string "什么？！\p"
+	.string "我们不能在这里\n"
+	.string "浪费时间了！\l"
+	.string "得赶紧也去送神火山！\p"
+	.string "啊哈哈哈哈！\n"
+	.string "熔岩队，等着瞧！$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseDontTakePokemon:
-	.string "Thanks to you, we're safe!\n"
-	.string "Normally, I would give you a Pokémon as\l"
-	.string "token of our appreciation, but I think\l"
-	.string "in this case, you'll be better off\l"
-	.string "without it.\p"
-	.string "Don't worry, though, Castform can now\n"
-	.string "be found out in the wild!$"
+	.string "多亏你，我们安全了！\n"
+	.string "本来想送你一只宝可梦\l"
+	.string "表示感谢，不过我想\l"
+	.string "这次你还是不要比较好。\p"
+	.string "不过别担心，现在野外\n"
+	.string "也能遇到漂浮泡泡了！$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
-	.string "Hm? You don't seem to have any room\n"
-	.string "for this Pokémon.$"
+	.string "嗯？你好像没有\n"
+	.string "收下这只宝可梦的空位。$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received Castform!$"
+	.string "{PLAYER}收下了\n"
+	.string "漂浮泡泡！$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
-	.string "That Pokémon changes shape according\n"
-	.string "to the weather conditions.\p"
-	.string "There're plenty of them in the\n"
-	.string "Institute--go ahead and take it.$"
+	.string "那只宝可梦会随着天气\n"
+	.string "改变样子。\p"
+	.string "研究所里还有很多——\n"
+	.string "你就拿走一只吧。$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
-	.string "I've been researching rain for many\n"
-	.string "years, but it's ridiculous to think that\l"
-	.string "humans can freely change the weather.$"
+	.string "我研究雨很多年了，\n"
+	.string "可要说人类能随意\l"
+	.string "改变天气，那太荒唐了。$"
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
-	.string "I track weather patterns over\n"
-	.string "the Hoenn region.\p"
-	.string "Presently, a drought has been recorded\n"
-	.string "in {STR_VAR_1}.\p"
-	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "我追踪丰缘地区的\n"
+	.string "天气变化。\p"
+	.string "目前{STR_VAR_1}记录到了\n"
+	.string "干旱。\p"
+	.string "难道说，在{STR_VAR_1}\n"
+	.string "附近……$"
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
-	.string "I track weather patterns over\n"
-	.string "the Hoenn region.\p"
-	.string "Presently, heavy rainfall has been\n"
-	.string "recorded over {STR_VAR_1}.\p"
-	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "我追踪丰缘地区的\n"
+	.string "天气变化。\p"
+	.string "目前{STR_VAR_1}记录到了\n"
+	.string "大暴雨。\p"
+	.string "难道说，在{STR_VAR_1}\n"
+	.string "附近……$"
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
-	.string "Abnormal weather conditions are\n"
-	.string "no longer being reported.\p"
-	.string "The occasional rainfall is a blessing,\n"
-	.string "really.$"
+	.string "已不再有异常天气\n"
+	.string "的报告了。\p"
+	.string "偶尔下点雨，\n"
+	.string "其实是好事。$"
 
 `

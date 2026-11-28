@@ -18,7 +18,7 @@ SootopolisCity_ChampHouse_EventScript_Urshifu::
 	end
 
 SootopolisCity_ChampHouse_Text_Urshifu:
-	.string "Urshifu: Huaaaaah!$"
+	.string "武道熊师：呼啊啊啊啊！$"
 
 SootopolisCity_ChampHouse_EventScript_Meowscarada::
 	lock
@@ -31,7 +31,7 @@ SootopolisCity_ChampHouse_EventScript_Meowscarada::
 	end
 
 SootopolisCity_ChampHouse_Text_Meowscarada:
-	.string "Meowscarada: Tzchrowwwwww!$"
+	.string "魔幻假面喵：嚓嗷嗷嗷！$"
 
 SootopolisCity_ChampHouse_EventScript_Gengar::
 	lock
@@ -44,7 +44,7 @@ SootopolisCity_ChampHouse_EventScript_Gengar::
 	end
 
 SootopolisCity_ChampHouse_Text_Gengar:
-	.string "Gengar: Errrraaaaauhh!$"
+	.string "耿鬼：诶诶诶啊啊！$"
 
 SootopolisCity_ChampHouse_EventScript_Spidops::
 	lock
@@ -57,7 +57,7 @@ SootopolisCity_ChampHouse_EventScript_Spidops::
 	end
 
 SootopolisCity_ChampHouse_Text_Spidops:
-	.string "Spidops: Ghhsghsghhhhh!$"
+	.string "操陷蛛：嘶嘶嘶嘶！$"
 
 `
 
@@ -160,43 +160,43 @@ script SootopolisCity_ChampHouse_EventScript_ExplainGenesect {
 }
 
 text Danni_Greeting{
-	"Ello ello, trainer. Nice to see you’ve\n"
-	"gotten this far. How bout a battle with\l"
-	"a nuzlocke legend?\p"
-	"Win here and you get a rad Mythical\n"
-	"from me. You in?"
+	"你好呀，训练家。很高兴看到你\n"
+	"走到这一步。要不要和我这位\l"
+	"单命通关传说打一场？\p"
+	"赢了我，就送你一只\n"
+	"超酷的幻之宝可梦。要来吗？"
 }
 
 text Danni_ReadyYet{
-	"Ready yet?"
+	"准备好了吗？"
 }
 
 text Danni_YoureOn{
-	"You'll never beat this squad!"
+	"你们是赢不了我这队的！"
 }
 
 text Danni_ComeBackWhenReady{
-	"Didn't think so!"
+	"我就知道！"
 }
 
 text Danni_Outro{
-	"Huh. You defeated me. Kudos and\n"
-	"congrats."
+	"哦？你打败我了。恭喜，\n"
+	"了不起。"
 }
 
 text SootopolisCity_ChampHouse_Text_PlayerReceivedGenesect{
-	"{PLAYER} received Genesect!"
+	"{PLAYER}得到了盖诺赛克特！"
 }
 
 text Danni_ExplainGenesect{
-	"As promised, there's your Mythical.\n"
-	"That one is pretty strong too, I'd say."
+	"说好的幻之宝可梦，给你。\n"
+	"我看这只也挺强的。"
 }
 
 text PostBattle_Danni{
-	"I was the first player ever to nuzlocke\n"
-	"this game! And, I did it deathless!\l"
-	"How do you like that?"
+	"我是第一个以单命模式通关\n"
+	"这游戏的人！而且一次没死！\l"
+	"厉害吧？"
 }
 
 script SootopolisCity_ChampHouse_EventScript_MastaJanes{
@@ -293,50 +293,48 @@ script SootopolisCity_ChampHouse_EventScript_ExplainDitto {
 }
 
 text MastaJanes_Greeting{
-	"Hi there trainer, my name is MastaJanes.\n"
-	"I was the 5th person to beat this game,\l"
-	"and most notably, I beat it on the\l"
-	"MyBoy emulator.\p"
-	"Even though there were several crashes\n"
-	"in that version of the game at the time,\l"
-	"and even though the creator told me\l"
-	"not to use MyBoy, I persevered and\l"
-	"finished the game anyway.\p"
-	"Now, if you can beat me, I'll give you a\n"
-	"shiny Ditto you can use to breed more\l"
-	"shiny Pokémon.\p"
-	"Do you want to battle?"
+	"你好，训练家，我叫MastaJanes。\n"
+	"我是第5个通关这游戏的人，\l"
+	"而且最特别的是，我是用\l"
+	"MyBoy模拟器通关的。\p"
+	"当时那个版本的游戏经常\n"
+	"崩溃，制作者也劝我别用\l"
+	"MyBoy，但我还是坚持\l"
+	"把它打通了。\p"
+	"现在，你若能打赢我，我就送你\n"
+	"一只异色百变怪，可以拿去\l"
+	"孵化更多异色宝可梦。\p"
+	"要来对战吗？"
 }
 
 text MastaJanes_ReadyYet{
-	"Are you ready now?"
+	"现在准备好了吗？"
 }
 
 text MastaJanes_YoureOn{
-	"You're going down!"
+	"你要输了！"
 }
 
 text MastaJanes_ComeBackWhenReady{
-	"You know where to find me if you change\n"
-	"your mind."
+	"改变主意的话，知道来这儿找我。"
 }
 
 text MastaJanes_Outro{
-	"Wow, I didn't think I could lose.\n"
+	"哇，我没想到自己会输。\n"
 }
 
 text SootopolisCity_ChampHouse_Text_PlayerReceivedDitto{
-	"{PLAYER} received Ditto!"
+	"{PLAYER}得到了百变怪！"
 }
 
 text MastaJanes_ExplainDitto{
-	"Here's your shiny Ditto!\n"
-	"Hope you can use it to get many more\l"
-	"shiny Pokémon."
+	"这是给你的异色百变怪！\n"
+	"希望你能用它孵出更多\l"
+	"异色宝可梦。"
 }
 
 text PostBattle_MastaJanes{
-	"I'm still playing on MyBoy to this day."
+	"我到现在还在用MyBoy玩呢。"
 }
 
 script SootopolisCity_ChampHouse_EventScript_Befools{
@@ -433,47 +431,47 @@ script SootopolisCity_ChampHouse_EventScript_ExplainHoopa {
 }
 
 text Befools_Greeting{
-	"I'm Befools, and I used my trusty\n"
-	"Gengar here to put every single\l"
-	"Pokémon in this game to sleep, and then\l"
-	"knocked them out.\p"
-	"If the creator ends up nerfing sleep\n"
-	"even more in a future update, it will\l"
-	"probably be my fault, sorry about that!\p"
-	"Anyway, just like everyone else, if you\n"
-	"beat me, I'll give you a Mythical.\p"
-	"So, do you want to battle?"
+	"我是Befools，我用我这只可靠的\n"
+	"耿鬼，把这游戏里每一只\l"
+	"宝可梦都催眠，然后\l"
+	"一一打倒。\p"
+	"要是制作者以后又把催眠\n"
+	"削弱一次，那大概也是\l"
+	"我的锅，抱歉啦！\p"
+	"总之，和别人一样，你\n"
+	"打赢我就送你幻之宝可梦。\p"
+	"那么，要打一场吗？"
 }
 
 text Befools_ReadyYet{
-	"Ready for this snooze-fest?"
+	"准备好来这场催眠大会了吗？"
 }
 
 text Befools_YoureOn{
-	"There is no escaping it. Give up."
+	"逃不掉的。放弃吧。"
 }
 
 text Befools_ComeBackWhenReady{
-	"You probably didn't have enough Chesto\n"
-	"Berries equipped anyway."
+	"反正你多半也没带够\n"
+	"零余果吧。"
 }
 
 text Befools_Outro{
-	"Even through all my Hypnosis attempts!\n"
+	"我可是试了那么多次催眠！\n"
 }
 
 text SootopolisCity_ChampHouse_Text_PlayerReceivedHoopa{
-	"{PLAYER} received Hoopa!"
+	"{PLAYER}得到了胡帕！"
 }
 
 text Befools_ExplainHoopa{
-	"As promised, there's your Mythical!\n"
-	"It's not as good a Ghost-type as\l"
-	"Gengar, but I think it will do."
+	"说好的幻之宝可梦，给你！\n"
+	"它当幽灵属性是不如\l"
+	"耿鬼，不过也够用了。"
 }
 
 text PostBattle_Befools{
-	"Gengar use Hypnosis!"
+	"耿鬼，用催眠术！"
 }
 
 
@@ -576,47 +574,47 @@ script SootopolisCity_ChampHouse_EventScript_ExplainVolcanion {
 }
 
 text Burak_Greeting{
-	"Come on Spidops, you're so close to\n"
-	"OHKO-ing that Reshiram…\p"
-	"Oh, hello, I was just preparing my\n"
-	"strategy for the Elite 4.\p"
-	"I think Spidops here is going to pick up\n"
-	"double-digit frags for this run.\p"
-	"Anyway, if you can beat me, I'll give you\n"
-	"a gift Mythical, which is unfortunately\l"
-	"not a Spidops, but it's still solid.\p"
-	"What do you say?"
+	"加油啊操陷蛛，就差一点\n"
+	"就能一击打掉莱希拉姆了……\p"
+	"哦，你好，我刚在准备\n"
+	"四天王的战术。\p"
+	"我看这只操陷蛛这轮能拿下\n"
+	"两位数的击倒数。\p"
+	"总之，你若能打赢我，我就送你\n"
+	"一只幻之宝可梦，可惜\l"
+	"不是操陷蛛，但也很实在。\p"
+	"你觉得如何？"
 }
 
 text Burak_ReadyYet{
-	"Are you ready?\n"
-	"I'll tell Spidops to go easy on you."
+	"准备好了吗？\n"
+	"我会让操陷蛛对你手下留情的。"
 }
 
 text Burak_YoureOn{
-	"It was all a ploy, GO MEGA APE!!!"
+	"都是计策，上吧超级猿！！！"
 }
 
 text Burak_ComeBackWhenReady{
-	"That's fine, I'll be here training\n"
-	"Spidops."
+	"没关系，我就在这儿\n"
+	"训练操陷蛛。"
 }
 
 text Burak_Outro{
-	"Well at least I'm still first on\n"
-	"THE SHEET."
+	"至少我在那张榜上\n"
+	"还是第一。"
 }
 
 text SootopolisCity_ChampHouse_Text_PlayerReceivedVolcanion{
-	"{PLAYER} received Volcanion!"
+	"{PLAYER}得到了波尔凯尼恩！"
 }
 
 text Burak_ExplainVolcanion{
-	"There you go! It's no Spidops, but I\n"
-	"think it'll do just fine."
+	"给你！它虽不是操陷蛛，但\n"
+	"我觉得够用了。"
 }
 
 text PostBattle_Burak{
-	"Good As Spidops.\n"
-	"Stats irrelevant."
+	"和操陷蛛一样强。\n"
+	"种族值无关紧要。"
 }

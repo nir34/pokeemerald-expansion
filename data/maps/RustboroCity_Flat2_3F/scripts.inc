@@ -25,14 +25,14 @@ RustboroCity_Flat2_3F_EventScript_Woman::
 # 13 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
 RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones:
 # 14 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
-	.string "DEVON's PRESIDENT likes to collect\n"
+	.string "得文的社长喜欢\n"
 # 15 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
-	.string "rare stones.$"
+	.string "收集稀有的石头。$"
 # 16 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
 
 # 17 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
 RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones:
 # 18 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
-	.string "I think the PRESIDENT's son also\n"
+	.string "听说社长的儿子也\n"
 # 19 "data/maps/RustboroCity_Flat2_3F/scripts.pory"
-	.string "collects rare stones.$"
+	.string "收集稀有的石头。$"

@@ -53,9 +53,8 @@ static void AddTreeBonus(struct BerryTree *tree, u8 bonus);
 
 const struct Berry gBerries[] =
 {
-    [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Cheri"),
+    [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("樱子"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 20,
@@ -76,9 +75,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Chesto"),
+    [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("零余"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 80,
@@ -99,9 +97,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pecha"),
+    [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("桃桃"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_PINK,
         .size = 40,
@@ -122,9 +119,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Rawst"),
+    [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("莓莓"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 32,
@@ -145,9 +141,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Aspear"),
+    [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("利木"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 50,
@@ -168,9 +163,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Leppa"),
+    [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("苹野"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_RED,
         .size = 28,
@@ -191,9 +185,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Oran"),
+    [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("橙橙"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_BLUE,
         .size = 35,
@@ -214,9 +207,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Persim"),
+    [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("柿仔"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 47,
@@ -237,9 +229,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Lum"),
+    [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("木子"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 34,
@@ -260,9 +251,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Sitrus"),
+    [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("文柚"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 95,
@@ -283,9 +273,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Figy"),
+    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("勿花"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 100,
@@ -306,9 +295,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Wiki"),
+    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("异奇"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 115,
@@ -329,9 +317,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Mago"),
+    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("芒芒"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 126,
@@ -352,9 +339,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Aguav"),
+    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("乐芭"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 64,
@@ -375,9 +361,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Iapapa"),
+    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("芭亚"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 223,
@@ -398,9 +383,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Razz"),
+    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("蔓莓"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_RED,
         .size = 120,
@@ -421,9 +405,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Bluk"),
+    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("墨莓"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_PURPLE,
         .size = 108,
@@ -444,9 +427,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Nanab"),
+    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("蕉香"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 77,
@@ -467,9 +449,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Wepear"),
+    [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("西梨"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 74,
@@ -490,9 +471,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pinap"),
+    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("凰梨"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 80,
@@ -513,9 +493,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pomeg"),
+    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("榴石"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_RED,
         .size = 135,
@@ -536,9 +515,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Kelpsy"),
+    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("藻根"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_BLUE,
         .size = 150,
@@ -559,9 +537,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Qualot"),
+    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("比巴"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 110,
@@ -582,9 +559,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Hondew"),
+    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("哈密"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 162,
@@ -605,9 +581,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Grepa"),
+    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("萄葡"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 149,
@@ -628,9 +603,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Tamato"),
+    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("茄番"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 200,
@@ -651,9 +625,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Cornn"),
+    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("玉黍"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 75,
@@ -674,9 +647,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Magost"),
+    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("岳竹"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 140,
@@ -697,9 +669,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Rabuta"),
+    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("茸丹"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_GREEN,
         .size = 226,
@@ -720,9 +691,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Nomel"),
+    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("檬柠"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 285,
@@ -743,9 +713,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Spelon"),
+    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("刺角"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 133,
@@ -766,9 +735,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pamtre"),
+    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("椰木"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_PURPLE,
         .size = 244,
@@ -789,9 +757,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Watmel"),
+    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("瓜西"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_PINK,
         .size = 250,
@@ -812,9 +779,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Durin"),
+    [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("金枕"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 280,
@@ -835,9 +801,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Belue"),
+    [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("靛莓"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_PURPLE,
         .size = 300,
@@ -858,9 +823,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Chilan"),
+    [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("灯浆"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 34,
@@ -881,9 +845,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Occa"),
+    [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("巧可"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_RED,
         .size = 90,
@@ -904,9 +867,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Passho"),
+    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("千香"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_BLUE,
         .size = 33,
@@ -927,9 +889,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Wacan"),
+    [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("烛木"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 250,
@@ -950,9 +911,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Rindo"),
+    [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("罗子"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_GREEN,
         .size = 156,
@@ -973,9 +933,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Yache"),
+    [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("番荔"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_BLUE,
         .size = 135,
@@ -996,9 +955,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_CHOPLE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Chople"),
+    [ITEM_CHOPLE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("莲蒲"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 77,
@@ -1019,9 +977,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_KEBIA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Kebia"),
+    [ITEM_KEBIA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("通通"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 90,
@@ -1042,9 +999,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_SHUCA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Shuca"),
+    [ITEM_SHUCA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("腰木"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 42,
@@ -1065,9 +1021,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_COBA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Coba"),
+    [ITEM_COBA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("棱瓜"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_BLUE,
         .size = 278,
@@ -1088,9 +1043,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_PAYAPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Payapa"),
+    [ITEM_PAYAPA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("福禄"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_PURPLE,
         .size = 252,
@@ -1111,9 +1065,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_TANGA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Tanga"),
+    [ITEM_TANGA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("扁樱"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_GREEN,
         .size = 42,
@@ -1134,9 +1087,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_CHARTI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Charti"),
+    [ITEM_CHARTI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("草蚕"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 28,
@@ -1157,9 +1109,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_KASIB_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Kasib"),
+    [ITEM_KASIB_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("佛柑"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 144,
@@ -1180,9 +1131,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_HABAN_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Haban"),
+    [ITEM_HABAN_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("莓榴"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 23,
@@ -1203,9 +1153,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_COLBUR_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Colbur"),
+    [ITEM_COLBUR_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("刺耳"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 39,
@@ -1226,9 +1175,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_BABIRI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Babiri"),
+    [ITEM_BABIRI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("霹霹"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 265,
@@ -1249,9 +1197,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_ROSELI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Roseli"),
+    [ITEM_ROSELI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("洛玫"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 35,
@@ -1272,9 +1219,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 4,
     },
 
-    [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Liechi"),
+    [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("枝荔"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_RED,
         .size = 111,
@@ -1295,9 +1241,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Ganlon"),
+    [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("龙睛"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 33,
@@ -1318,9 +1263,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Salac"),
+    [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("沙鳞"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 95,
@@ -1341,9 +1285,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Petaya"),
+    [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("龙火"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 237,
@@ -1364,9 +1307,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Apicot"),
+    [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("杏仔"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_BLUE,
         .size = 75,
@@ -1387,9 +1329,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Lansat"),
+    [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("兰萨"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 97,
@@ -1410,9 +1351,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 1,
     },
 
-    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Starf"),
+    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("星桃"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_GREEN,
         .size = 153,
@@ -1433,9 +1373,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 1,
     },
 
-    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Enigma"),
+    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("谜芝"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 155,
@@ -1456,9 +1395,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 0,
     },
 
-    [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Micle"),
+    [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("奇秘"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_GREEN,
         .size = 41,
@@ -1479,9 +1417,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 0,
     },
 
-    [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Custap"),
+    [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("释陀"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_RED,
         .size = 267,
@@ -1502,9 +1439,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 0,
     },
 
-    [ITEM_JABOCA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Jaboca"),
+    [ITEM_JABOCA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("嘉珍"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_YELLOW,
         .size = 33,
@@ -1525,9 +1461,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 0,
     },
 
-    [ITEM_ROWAP_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Rowap"),
+    [ITEM_ROWAP_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("雾莲"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_BLUE,
         .size = 52,
@@ -1548,9 +1483,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 0,
     },
 
-    [ITEM_KEE_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Kee"),
+    [ITEM_KEE_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("亚开"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_YELLOW,
         .size = 0,
@@ -1571,9 +1505,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_MARANGA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Marnga"), // "Maranga" is too long
+    [ITEM_MARANGA_BERRY - FIRST_BERRY_INDEX] = {
+        .name = _("香罗"), // "Maranga" is too long
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_BLUE,
         .size = 0,
@@ -1594,9 +1527,8 @@ const struct Berry gBerries[] =
         .pestsBonus = 2,
     },
 
-    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Enigma"),
+    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] = {
+        .name = _("谜之"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_PURPLE,
         .size = 0,

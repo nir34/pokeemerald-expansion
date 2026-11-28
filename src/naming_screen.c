@@ -2154,7 +2154,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
     .title = gText_TellHimTheWords,
 };
 
-static const u8 sText_CheatCode[] = _("Enter cheat code:");
+static const u8 sText_CheatCode[] = _("输入作弊码：");
 static const struct NamingScreenTemplate sCheatCodeScreenTemplate = 
 {
     .copyExistingString = FALSE,

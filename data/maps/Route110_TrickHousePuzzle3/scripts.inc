@@ -609,82 +609,88 @@ Route110_TrickHousePuzzle3_EventScript_Alan::
 # 305 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
 # 306 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "{PLAYER} wrote down the secret code\n"
+	.string "{PLAYER}把密码写在了\n"
 # 307 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "on the door.\p"
+	.string "门上。\p"
 # 308 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "“Trick Master is coveted.”\n"
+	.string "“机关大师真让人眼馋。”\n"
 # 309 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	.string "… … … … … … … …\p"
 # 310 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 # 311 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 
 # 312 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 Route110_TrickHousePuzzle3_Text_RustyIntro:
 # 313 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I keep coming back to this same place!$"
+	.string "我老是转回同一个\n"
 # 314 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "地方！$"
 # 315 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_RustyDefeat:
+
 # 316 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I'm already having trouble, and then\n"
+Route110_TrickHousePuzzle3_Text_RustyDefeat:
 # 317 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "you have to beat me? It's not fair!$"
+	.string "我都已经够麻烦了，\n"
 # 318 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "你还要打赢我？\l"
 # 319 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_RustyPostBattle:
+	.string "不公平！$"
 # 320 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "It's full of doors here!\n"
+
 # 321 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "It's too small and dark in here! Help!$"
+Route110_TrickHousePuzzle3_Text_RustyPostBattle:
 # 322 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "这里全是门！\n"
 # 323 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_MarthaIntro:
+	.string "又小又黑！救命！$"
 # 324 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I don't know what's going on here.\n"
+
 # 325 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I'm starting to feel sad…$"
+Route110_TrickHousePuzzle3_Text_MarthaIntro:
 # 326 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "我不知道这里怎么了。\n"
 # 327 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_MarthaDefeat:
+	.string "我开始觉得难过……$"
 # 328 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "You… You're awful!$"
+
 # 329 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+Route110_TrickHousePuzzle3_Text_MarthaDefeat:
 # 330 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
+	.string "你……你真讨厌！$"
 # 331 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I know I'm weak!\n"
+
 # 332 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "And, I have no sense of direction!$"
+Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
 # 333 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "我知道我很弱！\n"
 # 334 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_AlanIntro:
+	.string "而且我还没方向感！$"
 # 335 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I don't get it. What would anyone want\n"
+
 # 336 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "with a house this bizarre?$"
+Route110_TrickHousePuzzle3_Text_AlanIntro:
 # 337 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-
+	.string "我不懂。谁要这么\n"
 # 338 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_AlanDefeat:
+	.string "古怪的房子啊？$"
 # 339 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I don't get it.\n"
-# 340 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "How did I lose?$"
-# 341 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 
+# 340 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+Route110_TrickHousePuzzle3_Text_AlanDefeat:
+# 341 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+	.string "我不懂。\n"
 # 342 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-Route110_TrickHousePuzzle3_Text_AlanPostBattle:
+	.string "我怎么就输了？$"
 # 343 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "I don't get it.\n"
+
 # 344 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "How many traps are in this house?\p"
+Route110_TrickHousePuzzle3_Text_AlanPostBattle:
 # 345 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	.string "You may be the one to solve that.$"
+	.string "我不懂。\n"
+# 346 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+	.string "这房子里到底有\l"
+# 347 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+	.string "多少陷阱？\p"
+# 348 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+	.string "也许只有你能解开。$"

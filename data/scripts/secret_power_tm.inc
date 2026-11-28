@@ -1,30 +1,29 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
-	.string "What's that?\n"
-	.string "What am I doing?\p"
-	.string "I'm thinking about making my own room\n"
-	.string "here using a Pokémon move.\p"
-	.string "Or at least, that's what I used to do.\n"
-	.string "Now, I guess I just clear fog out of the\l"
-	.string "air. Want the ability to do the same?$"
+	.string "什么？\n"
+	.string "我在做什么？\p"
+	.string "我在想用宝可梦的招式\n"
+	.string "在这里造一个自己的房间。\p"
+	.string "至少以前是这样。现在嘛，\n"
+	.string "我只是在清除巢穴里的雾。\l"
+	.string "想要同样的能力吗？$"
 
 Route111_Text_ExplainSecretPower:
-	.string "In a past life, I'd give you the move\n"
-	.string "Secret Power right about now. However,\l"
-	.string "Secret Bases were removed from the\l"
-	.string "game, so I gave you that instead.\p"
-	.string " You can at least use to clear\n"
-	.string "terrains in battle, which is\l"
-	.string "pretty cool.\p"
-	.string "Okay, bye now!$"
+	.string "换作从前，我这时会给你\n"
+	.string "秘密之力这个招式。不过，\l"
+	.string "秘密基地已从游戏中移除，\l"
+	.string "所以我给了你那个东西。\p"
+	.string "至少可以在对战中用它\n"
+	.string "清除场地，那也挺酷的。\p"
+	.string "好了，再见！$"
 
 Route111_Text_DontWantThis:
-	.string "Oh, you don't want this?\n"
-	.string "If you change your mind, tell me, okay?$"
+	.string "哦，你不要这个？\n"
+	.string "要是改主意，就告诉我，好吗？$"
 
 Route111_Text_DontHaveAnyRoom:
-	.string "Oh, you don't have any room for this.\p"
-	.string "I'll hold on to it, so come back for it\n"
-	.string "another time, okay?$"
+	.string "哦，你没地方放这个。\p"
+	.string "我先替你保管，\n"
+	.string "以后再来拿，好吗？$"
 
 Route111_EventScript_SecretPowerMan::
 	lock

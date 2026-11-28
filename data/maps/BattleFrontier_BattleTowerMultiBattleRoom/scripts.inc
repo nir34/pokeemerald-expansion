@@ -895,49 +895,49 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft:
 # 448 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet:
 # 449 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 2nd set of opponents is next.\n"
+	.string "接下来是第2组对手。\n"
 # 450 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 451 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 452 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet:
 # 453 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 3rd set of opponents is next.\n"
+	.string "接下来是第3组对手。\n"
 # 454 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 455 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 456 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet:
 # 457 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 4th set of opponents is next.\n"
+	.string "接下来是第4组对手。\n"
 # 458 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 459 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 460 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet:
 # 461 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 5th set of opponents is next.\n"
+	.string "接下来是第5组对手。\n"
 # 462 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 463 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 464 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet:
 # 465 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 6th set of opponents is next.\n"
+	.string "接下来是第6组对手。\n"
 # 466 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 467 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 468 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
 # 469 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 7th set of opponents is next.\n"
+	.string "接下来是第7组对手。\n"
 # 470 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Are you ready?$"
+	.string "准备好了吗？$"
 # 471 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 472 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -945,9 +945,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
 # 473 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
 # 474 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 2nd set of opponents is next.\n"
+	.string "接下来是第2组对手。\n"
 # 475 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 476 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 477 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -955,9 +955,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
 # 478 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
 # 479 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 3rd set of opponents is next.\n"
+	.string "接下来是第3组对手。\n"
 # 480 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 481 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 482 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -965,9 +965,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
 # 483 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
 # 484 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 4th set of opponents is next.\n"
+	.string "接下来是第4组对手。\n"
 # 485 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 486 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 487 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -975,9 +975,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
 # 488 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
 # 489 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 5th set of opponents is next.\n"
+	.string "接下来是第5组对手。\n"
 # 490 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 491 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 492 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -985,9 +985,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
 # 493 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
 # 494 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 6th set of opponents is next.\n"
+	.string "接下来是第6组对手。\n"
 # 495 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 496 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 497 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -995,22 +995,22 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
 # 498 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
 # 499 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "The 7th set of opponents is next.\n"
+	.string "接下来是第7组对手。\n"
 # 500 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Do your best!$"
+	.string "加油！$"
 # 501 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 502 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 gText_LinkStandby3::
 # 503 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Link standby…$"
+	.string "联机待机……$"
 # 504 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 505 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 gText_YourPartnerHasRetired::
 # 506 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Your partner has retired.\p"
+	.string "你的搭档退出了。\p"
 # 507 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "Your BATTLE ROOM challenge\n"
+	.string "你的对战房间挑战\n"
 # 508 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	.string "will be canceled.$"
+	.string "将被取消。$"

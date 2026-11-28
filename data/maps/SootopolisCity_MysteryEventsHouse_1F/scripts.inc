@@ -337,67 +337,67 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 # 169 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
 # 170 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "When I was young, I traveled the world\n"
+	.string "我年轻时作为宝可梦训练家\n"
 # 171 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "as a Pokémon 训练家.\p"
+	.string "走遍了世界。\p"
 # 172 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Now that I've become an old buzzard,\n"
+	.string "现在我成了个老头子，\n"
 # 173 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "my only amusement is watching young\l"
+	.string "唯一的乐趣就是\l"
 # 174 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "训练家S battle.$"
+	.string "看年轻训练家对战。$"
 # 175 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 176 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 # 177 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "The door appears to be locked.$"
+	.string "门好像锁着。$"
 # 178 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 179 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
 # 180 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "A 训练家 named {STR_VAR_1}\n"
+	.string "一个叫{STR_VAR_1}的训练家\n"
 # 181 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "is visiting my home.\p"
+	.string "正在我家做客。\p"
 # 182 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Would you like to challenge\n"
+	.string "你想挑战{STR_VAR_1}吗？$"
 # 183 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "{STR_VAR_1}?$"
+
 # 184 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-
-# 185 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
+# 185 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+	.string "你不打吗？看不到你对战，\n"
 # 186 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "You won't battle? I'm disappointed\n"
+	.string "我真失望……$"
 # 187 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "that I can't see you battle…$"
+
 # 188 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-
-# 189 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
+# 189 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+	.string "哦，好，好！\p"
 # 190 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Oh, good, good!\p"
+	.string "不过我的房子不太结实。\p"
 # 191 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "But my house isn't all that sturdy.\p"
+	.string "能不能请你以三对三\n"
 # 192 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Could I ask you to keep it down to\n"
+	.string "来打？$"
 # 193 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "a 3-on-3 match?$"
+
 # 194 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-
-# 195 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
+# 195 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+	.string "你们两个对战之前，\n"
 # 196 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Before you two battle, you should\n"
+	.string "该先保存进度。$"
 # 197 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "save your progress.$"
-# 198 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
-# 199 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+# 198 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch:
+# 199 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+	.string "希望能看到一场\n"
 # 200 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "I hope to see a good match!$"
+	.string "精彩的对战！$"
 # 201 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 202 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
@@ -411,17 +411,17 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie:
 # 206 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw:
 # 207 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "The match ended up a draw.$"
+	.string "对战最后打成了平手。$"
 # 208 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 209 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff:
 # 210 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "So, it became a standoff.\p"
+	.string "于是，打成了平手。\p"
 # 211 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "It was a brilliant match in which\n"
+	.string "这是一场双方都不肯\n"
 # 212 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "neither side conceded a step!$"
+	.string "退让一步的精彩对战！$"
 # 213 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 214 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
@@ -435,11 +435,11 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Won:
 # 218 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_ThatWasSuperlative:
 # 219 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "That was superlative!\p"
+	.string "太精彩了！\p"
 # 220 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Why, it was like seeing myself in\n"
+	.string "简直就像看到了\n"
 # 221 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "my youth again!$"
+	.string "年轻时的自己！$"
 # 222 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 
 # 223 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
@@ -453,8 +453,8 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost:
 # 227 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
 # 228 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "Ah, too bad for you!\p"
+	.string "啊，真可惜！\p"
 # 229 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "But it was a good match.\n"
+	.string "不过这是一场好对战。\n"
 # 230 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
-	.string "I hope you can win next time.$"
+	.string "希望下次你能赢。$"

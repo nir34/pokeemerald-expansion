@@ -303,45 +303,48 @@ Route110_TrickHousePuzzle3_EventScript_Alan::
 	end
 
 Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“Trick Master is coveted.”\n"
+	.string "{PLAYER}把密码写在了\n"
+	.string "门上。\p"
+	.string "“机关大师真让人眼馋。”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "锁咔嗒一声开了！$"
 
 Route110_TrickHousePuzzle3_Text_RustyIntro:
-	.string "I keep coming back to this same place!$"
+	.string "我老是转回同一个\n"
+	.string "地方！$"
 
 Route110_TrickHousePuzzle3_Text_RustyDefeat:
-	.string "I'm already having trouble, and then\n"
-	.string "you have to beat me? It's not fair!$"
+	.string "我都已经够麻烦了，\n"
+	.string "你还要打赢我？\l"
+	.string "不公平！$"
 
 Route110_TrickHousePuzzle3_Text_RustyPostBattle:
-	.string "It's full of doors here!\n"
-	.string "It's too small and dark in here! Help!$"
+	.string "这里全是门！\n"
+	.string "又小又黑！救命！$"
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro:
-	.string "I don't know what's going on here.\n"
-	.string "I'm starting to feel sad…$"
+	.string "我不知道这里怎么了。\n"
+	.string "我开始觉得难过……$"
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat:
-	.string "You… You're awful!$"
+	.string "你……你真讨厌！$"
 
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
-	.string "I know I'm weak!\n"
-	.string "And, I have no sense of direction!$"
+	.string "我知道我很弱！\n"
+	.string "而且我还没方向感！$"
 
 Route110_TrickHousePuzzle3_Text_AlanIntro:
-	.string "I don't get it. What would anyone want\n"
-	.string "with a house this bizarre?$"
+	.string "我不懂。谁要这么\n"
+	.string "古怪的房子啊？$"
 
 Route110_TrickHousePuzzle3_Text_AlanDefeat:
-	.string "I don't get it.\n"
-	.string "How did I lose?$"
+	.string "我不懂。\n"
+	.string "我怎么就输了？$"
 
 Route110_TrickHousePuzzle3_Text_AlanPostBattle:
-	.string "I don't get it.\n"
-	.string "How many traps are in this house?\p"
-	.string "You may be the one to solve that.$"
+	.string "我不懂。\n"
+	.string "这房子里到底有\l"
+	.string "多少陷阱？\p"
+	.string "也许只有你能解开。$"
 
 `

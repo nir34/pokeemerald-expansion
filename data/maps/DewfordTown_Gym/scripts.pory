@@ -299,178 +299,178 @@ DewfordTown_Gym_EventScript_Hariyama::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, Champion-\n"
-	.string "bound {PLAYER}?\p"
-	.string "Dewford's Gym Leader Brawly commands\n"
-	.string "Fighting-type Pokémon.\p"
-	.string "Going against him with Normal-type\n"
-	.string "Pokémon is asking for trouble.\p"
-	.string "Fighting Pokémon will lay a serious\n"
-	.string "smack down on Normal Pokémon,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the Gym is as dark as\n"
-	.string "the ocean floor.\p"
-	.string "But it will get brighter after defeating\n"
-	.string "the trainers in your way.\p"
-	.string "Hey, okay, go for it!$"
+	.string "嘿，冠军候补的\n"
+	.string "{PLAYER}，最近怎么样？\p"
+	.string "武斗的馆主藤树使的是\n"
+	.string "格斗属性宝可梦。\p"
+	.string "用一般属性宝可梦去对付他，\n"
+	.string "那是自找麻烦。\p"
+	.string "格斗宝可梦会狠狠教训\n"
+	.string "一般宝可梦，\l"
+	.string "所以要小心！\p"
+	.string "更糟的是，这道馆黑得\n"
+	.string "像海底一样。\p"
+	.string "不过，打败挡路的训练家，\n"
+	.string "里面就会亮起来。\p"
+	.string "嘿，那就去吧！$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!$"
+	.string "哇！这里变得太亮了！\p"
+	.string "你的未来也一样光明！$"
 
 DewfordTown_Gym_Text_TakaoIntro:
-	.string "Might is right!\n"
-	.string "Come on!$"
+	.string "力量就是一切！\n"
+	.string "来吧！$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Not enough power…$"
+	.string "力量不够……$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
+	.string "你的技巧胜过了我的力量！\n"
+	.string "你的技术值得称赞！$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for Brawly to be\n"
-	.string "involved!\p"
-	.string "I'll crush you!$"
+	.string "根本用不着藤树出手！\p"
+	.string "我来把你打下！$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
-	.string "But… How?\n"
-	.string "How could I lose so easily?$"
+	.string "可是……怎么会？\n"
+	.string "我怎么会输得这么容易？$"
 
 DewfordTown_Gym_Text_JocelynPostBattle:
-	.string "I'm not going to waste this loss.\n"
-	.string "I'll use it to motivate me to train!\p"
-	.string "One day I'll become a Gym Leader…\p"
-	.string "No, I'll become the Pokémon League\n"
-	.string "Champion!$"
+	.string "我不能白白输这一次。\n"
+	.string "我要把它当成训练的动力！\p"
+	.string "总有一天我要当上馆主……\p"
+	.string "不，我要当上宝可梦联盟\n"
+	.string "冠军！$"
 
 DewfordTown_Gym_Text_LauraIntro:
-	.string "Don't you dare brush me off!\n"
-	.string "It's not my fault if you cry!$"
+	.string "别看不起我！\n"
+	.string "要是哭鼻子可别怪我！$"
 
 DewfordTown_Gym_Text_LauraDefeat:
-	.string "Waaaaaaah!\n"
-	.string "I lost!$"
+	.string "哇啊啊啊！\n"
+	.string "我输了！$"
 
 DewfordTown_Gym_Text_LauraPostBattle:
-	.string "I battle in the dark to make my heart\n"
-	.string "stronger.\p"
-	.string "But because it's so dark, I can never\n"
-	.string "see Brawly's face…$"
+	.string "我在黑暗中对战，\n"
+	.string "是为了让心变强。\p"
+	.string "不过因为太黑了，\n"
+	.string "我总也看不见藤树的脸……$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
+	.string "呵呵……\n"
+	.string "你在黑暗里摸来摸去吗？$"
 
 DewfordTown_Gym_Text_LilithDefeat:
-	.string "Oh, you…\n"
-	.string "I don't want to know you!$"
+	.string "哦，你……\n"
+	.string "我不想认识你了！$"
 
 DewfordTown_Gym_Text_LilithPostBattle:
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
+	.string "你就该继续迷路，\n"
+	.string "然后又走回入口去！$"
 
 DewfordTown_Gym_Text_BrendenIntro:
-	.string "I'll show you the gumption of\n"
-	.string "a sailing man!$"
+	.string "我来让你看看\n"
+	.string "航海男儿的胆量！$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
-	.string "How'd this happen?\n"
-	.string "It's not like me to lose this way!$"
+	.string "怎么会这样？\n"
+	.string "这样输可不像我！$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "Oh, aye! You're worthy of seeing\n"
-	.string "our Gym Leader.$"
+	.string "哦，好样的！你有资格\n"
+	.string "去见我们的馆主。$"
 
 DewfordTown_Gym_Text_CristianIntro:
-	.string "If you mean to pass, it has to be\n"
-	.string "through me!$"
+	.string "想过去，就得先\n"
+	.string "过我这一关！$"
 
 DewfordTown_Gym_Text_CristianDefeat:
-	.string "Grrrrr!\n"
-	.string "Vastly overpowered!$"
+	.string "唔唔唔！\n"
+	.string "被彻底压制了！$"
 
 DewfordTown_Gym_Text_CristianPostBattle:
-	.string "You win!\n"
-	.string "Go after that Badge!$"
+	.string "你赢了！\n"
+	.string "去拿那枚徽章吧！$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm Brawly!\n"
-	.string "Dewford's Gym Leader!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string "我是藤树！\n"
+	.string "武斗的道馆馆主！\p"
+	.string "我在这片海域的巨浪里\n"
+	.string "翻滚过，在这漆黑的\l"
+	.string "洞窟里变得更强！\p"
+	.string "你想挑战我？\n"
+	.string "那就让我看看你的本事！$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this Gym Badge!$"
+	.string "哇，好家伙！你溅起的水花\n"
+	.string "比我预想的还大！\p"
+	.string "你把我淹没了！\p"
+	.string "好吧，我服了。\n"
+	.string "拿去吧，道馆徽章！$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the Knuckle Badge\n"
-	.string "from Brawly.$"
+	.string "{PLAYER}从藤树那里\n"
+	.string "得到了拳击徽章。$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-    .string "You'll now be able to use the HM move\n"
-	.string "Flash outside of battle.\p"
-	.string "If you'd like, use this Technical\n"
-	.string "Machine, too.$"
+    .string "现在可以在战斗外使用\n"
+	.string "秘传招式闪光了。\p"
+	.string "愿意的话，这个招式\n"
+	.string "学习器也请用吧。$"
 
 DewfordTown_Gym_Text_ExplainLowSweep:
-	.string "That TM78 contains Low Sweep. It's a\n"
-	.string "move that lowers your opponent's Speed\l"
-	.string "stat. It's pretty gnarly, dude.\p"
+	.string "那个学习器78号里\n"
+	.string "是下盘踢。\p"
+	.string "是能降低对手速度的\n"
+	.string "招式。挺带劲的吧。\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered Gym Leader Brawly\n"
-	.string "in the PokéNav.$"
+	.string "在宝可梦导航里登录了\n"
+	.string "道馆馆主藤树。$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among trainers one day!$"
+	.string "我能看出你的才能会变成\n"
+	.string "巨浪，有一天让训练家们\l"
+	.string "都大吃一惊！$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "Dewford Town Pokémon Gym$"
+	.string "武斗镇宝可梦道馆$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "Dewford Town Pokémon Gym\p"
-	.string "Brawly'S Certified trainers:\n"
+	.string "武斗镇宝可梦道馆\p"
+	.string "藤树认定的训练家：\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "Brawly: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
+	.string "藤树：浪可以退去，\n"
+	.string "但它总会回到岸边。\p"
+	.string "像你这样的才能巨浪……\n"
+	.string "我就知道你会回来！\p"
+	.string "让我看看你又升高了\n"
+	.string "多少！$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
-	.string "Wow!\n"
-	.string "Swamped again!$"
+	.string "哇！\n"
+	.string "又被你淹没了！$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "Brawly: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of Hoenn!$"
+	.string "藤树：对战既辽阔又深邃。\n"
+	.string "你根本看不到底。\l"
+	.string "就像丰缘的大海一样！$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "Brawly: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one Pokémon\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two Pokémon.$"
+	.string "藤树：浪可以退去，\n"
+	.string "但它总会回到岸边。\p"
+	.string "像你这样的才能巨浪……\n"
+	.string "我就知道你会回来！\p"
+	.string "哦？你只有一只宝可梦\n"
+	.string "能参加对战。\p"
+	.string "抱歉，请你至少带两只\n"
+	.string "宝可梦再来。$"
 
 DewfordTown_Gym_Text_Hariyama:
-	.string "Hariyama: Har- Har- HARIYAMA!$"
+	.string "铁掌力士：哈- 哈- 铁掌！$"
 `

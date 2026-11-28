@@ -485,601 +485,601 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 # 243 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_Enemies:
 # 244 "data/maps/LilycoveCity/scripts.pory"
-	.string "Hey... If we kill all of our enemies...\n"
+	.string "嘿……如果我们把敌人\n"
 # 245 "data/maps/LilycoveCity/scripts.pory"
-	.string "over there... will we finally... be free?\p"
+	.string "全杀光……\l"
 # 246 "data/maps/LilycoveCity/scripts.pory"
-	.string "...\p"
+	.string "那边的……我们终于\l"
 # 247 "data/maps/LilycoveCity/scripts.pory"
-	.string "What the -- I mean uh, look at those \n"
+	.string "能自由了吗？\p"
 # 248 "data/maps/LilycoveCity/scripts.pory"
-	.string "Wailmer! Right Mikayla?$"
+	.string "……\p"
 # 249 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "什——我是说，呃，你看\n"
 # 250 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "那些吼吼鲸！对吧，米凯拉？$"
 # 251 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MovedLootIntoHideoutToday:
+
 # 252 "data/maps/LilycoveCity/scripts.pory"
-	.string "Aaron look! We finally made it to the\n"
+
 # 253 "data/maps/LilycoveCity/scripts.pory"
-	.string "sea! Aaron?$"
+LilycoveCity_Text_MovedLootIntoHideoutToday:
 # 254 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "亚伦你看！我们终于\n"
 # 255 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "到海边了！亚伦？$"
 # 256 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ChanceToDoBigThings:
+
 # 257 "data/maps/LilycoveCity/scripts.pory"
-	.string "I hate seeing Aaron lost in thought\n"
+
 # 258 "data/maps/LilycoveCity/scripts.pory"
-	.string "like this, I know Armie does too.$"
+LilycoveCity_Text_ChanceToDoBigThings:
 # 259 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "亚伦这样发呆，我\n"
 # 260 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_DontGoNearCaveInCove:
+	.string "看着难受，阿米也一样。$"
 # 261 "data/maps/LilycoveCity/scripts.pory"
-	.string "Hey, you!\p"
+
 # 262 "data/maps/LilycoveCity/scripts.pory"
-	.string "Don't go near the cave in the cove!\p"
+LilycoveCity_Text_DontGoNearCaveInCove:
 # 263 "data/maps/LilycoveCity/scripts.pory"
-	.string "Why? You don't need a reason why!\n"
+	.string "喂，你！\p"
 # 264 "data/maps/LilycoveCity/scripts.pory"
-	.string "I'm an adult, so you just listen to me!$"
+	.string "别靠近小湾里的\n"
 # 265 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "那个洞窟！\p"
 # 266 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_IfWorldBecomesOurs:
+	.string "为什么？你不需要理由！\n"
 # 267 "data/maps/LilycoveCity/scripts.pory"
-	.string "If this whole wide world becomes ours,\n"
+	.string "我是大人，你听话就行！$"
 # 268 "data/maps/LilycoveCity/scripts.pory"
-	.string "Team Aqua's, it will be a happier\l"
+
 # 269 "data/maps/LilycoveCity/scripts.pory"
-	.string "place for Pokémon, too.$"
+LilycoveCity_Text_IfWorldBecomesOurs:
 # 270 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "如果这整个世界都变成\n"
 # 271 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_WailmerLeapOutOfWater:
+	.string "我们水舰队的，宝可梦\l"
 # 272 "data/maps/LilycoveCity/scripts.pory"
-	.string "There! Wailmer!\n"
+	.string "也会过得更幸福。$"
 # 273 "data/maps/LilycoveCity/scripts.pory"
-	.string "Leap out of the water now!$"
+
 # 274 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_WailmerLeapOutOfWater:
 # 275 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_GetLostMessingUpTraining:
+	.string "就现在！吼吼鲸！\n"
 # 276 "data/maps/LilycoveCity/scripts.pory"
-	.string "Hunh? What do you want?\p"
+	.string "从水里跳出来！$"
 # 277 "data/maps/LilycoveCity/scripts.pory"
-	.string "You're messing up our training,\n"
+
 # 278 "data/maps/LilycoveCity/scripts.pory"
-	.string "so can you, like, get lost?$"
+LilycoveCity_Text_GetLostMessingUpTraining:
 # 279 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "嗯？你想干什么？\p"
 # 280 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ContestHallInTown:
+	.string "你妨碍我们训练了，\n"
 # 281 "data/maps/LilycoveCity/scripts.pory"
-	.string "There's a Pokémon Contest Hall\n"
+	.string "能不能走开？$"
 # 282 "data/maps/LilycoveCity/scripts.pory"
-	.string "right in this here town. \p"
+
 # 283 "data/maps/LilycoveCity/scripts.pory"
-	.string "That means well-raised Pokémon will\n"
+LilycoveCity_Text_ContestHallInTown:
 # 284 "data/maps/LilycoveCity/scripts.pory"
-	.string "come from all over the country.\p"
+	.string "这个镇上就有宝可梦\n"
 # 285 "data/maps/LilycoveCity/scripts.pory"
-	.string "My heart swells with excitement!$"
+	.string "华丽大赛会场。\p"
 # 286 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "这意味全国养得好的\n"
 # 287 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_StrangeCaveInCove:
+	.string "宝可梦都会来这里。\p"
 # 288 "data/maps/LilycoveCity/scripts.pory"
-	.string "Have you seen that strange cave in\n"
+	.string "我兴奋得心都胀了！$"
 # 289 "data/maps/LilycoveCity/scripts.pory"
-	.string "the cove at the edge of town?$"
+
 # 290 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_StrangeCaveInCove:
 # 291 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_GoingToMoveDeleterForHMs:
+	.string "你看到镇子边上小湾里\n"
 # 292 "data/maps/LilycoveCity/scripts.pory"
-	.string "I'm going to teach my Pokémon some new\n"
+	.string "那个奇怪的洞窟了吗？$"
 # 293 "data/maps/LilycoveCity/scripts.pory"
-	.string "moves for entering a contest.$"
+
 # 294 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_GoingToMoveDeleterForHMs:
 # 295 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ImFromKanto:
+	.string "我要教我的宝可梦\n"
 # 296 "data/maps/LilycoveCity/scripts.pory"
-	.string "I came from Kanto.\p"
+	.string "一些参加大赛的新招式。$"
 # 297 "data/maps/LilycoveCity/scripts.pory"
-	.string "The Hoenn region is beautiful with\n"
+
 # 298 "data/maps/LilycoveCity/scripts.pory"
-	.string "all its water and verdant nature.\p"
+LilycoveCity_Text_ImFromKanto:
 # 299 "data/maps/LilycoveCity/scripts.pory"
-	.string "Hunh? Wait a second…\p"
+	.string "我从关都来的。\p"
 # 300 "data/maps/LilycoveCity/scripts.pory"
-	.string "Could there be rare Pokémon that live\n"
+	.string "丰缘地区到处是水和\n"
 # 301 "data/maps/LilycoveCity/scripts.pory"
-	.string "only in this area?$"
+	.string "绿色的自然，真美。\p"
 # 302 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "Hm？等一下……\p"
 # 303 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
+	.string "会不会有只在这片\n"
 # 304 "data/maps/LilycoveCity/scripts.pory"
-	.string "Team Aqua's been training their\n"
+	.string "地区生活的稀有宝可梦？$"
 # 305 "data/maps/LilycoveCity/scripts.pory"
-	.string "Wailmer in the cove.\p"
+
 # 306 "data/maps/LilycoveCity/scripts.pory"
-	.string "We sailors can't get our boats out\n"
+LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 # 307 "data/maps/LilycoveCity/scripts.pory"
-	.string "to sea with them in the way!$"
+	.string "水舰队一直在小湾里\n"
 # 308 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "训练他们的吼吼鲸。\p"
 # 309 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_SomeonePuntedTeamAquaOut:
+	.string "那些家伙挡着，我们的\n"
 # 310 "data/maps/LilycoveCity/scripts.pory"
-	.string "Ahoy, did you know?\p"
+	.string "船出不了海！$"
 # 311 "data/maps/LilycoveCity/scripts.pory"
-	.string "Someone punted Team Aqua out of\n"
+
 # 312 "data/maps/LilycoveCity/scripts.pory"
-	.string "the way for us!\p"
+LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 # 313 "data/maps/LilycoveCity/scripts.pory"
-	.string "That got the Wailmer out of the cove,\n"
+	.string "嗨，你知道吗？\p"
 # 314 "data/maps/LilycoveCity/scripts.pory"
-	.string "so we can get our boats out again.$"
+	.string "有人替我们把水舰队\n"
 # 315 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "赶走了！\p"
 # 316 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_SomeoneStoleMyPokemon:
+	.string "吼吼鲸也离开了小湾，\n"
 # 317 "data/maps/LilycoveCity/scripts.pory"
-	.string "I was taking a relaxing snooze at the\n"
+	.string "我们的船又能出海了。$"
 # 318 "data/maps/LilycoveCity/scripts.pory"
-	.string "seaside inn to the sound of waves…\p"
-# 319 "data/maps/LilycoveCity/scripts.pory"
-	.string "When someone stole my Pokémon!\p"
-# 320 "data/maps/LilycoveCity/scripts.pory"
-	.string "Who's the abductor?\n"
-# 321 "data/maps/LilycoveCity/scripts.pory"
-	.string "Team Aqua? Is it Team Aqua?$"
-# 322 "data/maps/LilycoveCity/scripts.pory"
 
+# 319 "data/maps/LilycoveCity/scripts.pory"
+LilycoveCity_Text_SomeoneStoleMyPokemon:
+# 320 "data/maps/LilycoveCity/scripts.pory"
+	.string "我在海边旅馆听着\n"
+# 321 "data/maps/LilycoveCity/scripts.pory"
+	.string "海浪打盹……\p"
+# 322 "data/maps/LilycoveCity/scripts.pory"
+	.string "结果有人偷走了\n"
 # 323 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MissingPokemonCameBack:
+	.string "我的宝可梦！\p"
 # 324 "data/maps/LilycoveCity/scripts.pory"
-	.string "My missing Pokémon…\n"
+	.string "犯人是谁？\n"
 # 325 "data/maps/LilycoveCity/scripts.pory"
-	.string "It came back without me noticing!$"
+	.string "水舰队？是水舰队吗？$"
 # 326 "data/maps/LilycoveCity/scripts.pory"
 
 # 327 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ImArtDealer:
+LilycoveCity_Text_MissingPokemonCameBack:
 # 328 "data/maps/LilycoveCity/scripts.pory"
-	.string "I'm an art dealer.\p"
+	.string "我丢的宝可梦……\n"
 # 329 "data/maps/LilycoveCity/scripts.pory"
-	.string "I am a buyer and seller of fine art,\n"
+	.string "自己偷偷回来了！$"
 # 330 "data/maps/LilycoveCity/scripts.pory"
-	.string "especially paintings.\p"
+
 # 331 "data/maps/LilycoveCity/scripts.pory"
-	.string "I've heard that the museum here has\n"
+LilycoveCity_Text_ImArtDealer:
 # 332 "data/maps/LilycoveCity/scripts.pory"
-	.string "magnificent works on exhibit…$"
+	.string "我是画商。\p"
 # 333 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "我做美术品买卖，\n"
 # 334 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_SeaRemainsForeverYoung:
+	.string "尤其是画作。\p"
 # 335 "data/maps/LilycoveCity/scripts.pory"
-	.string "Even as we grow old and wrinkled,\n"
+	.string "我听说这里的博物馆\n"
 # 336 "data/maps/LilycoveCity/scripts.pory"
-	.string "the sea remains forever young with\l"
+	.string "展出着了不起的作品……$"
 # 337 "data/maps/LilycoveCity/scripts.pory"
-	.string "the vivid brilliance of life…\p"
+
 # 338 "data/maps/LilycoveCity/scripts.pory"
-	.string "Fwohoho fwohohohoho…$"
+LilycoveCity_Text_SeaRemainsForeverYoung:
 # 339 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "就算我们变老长皱纹，\n"
 # 340 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
+	.string "大海也永远年轻，\l"
 # 341 "data/maps/LilycoveCity/scripts.pory"
-	.string "It was sixty years ago that my husband\n"
+	.string "闪着生命的光辉……\p"
 # 342 "data/maps/LilycoveCity/scripts.pory"
-	.string "proposed to me here.\l"
+	.string "呼呵呵呵呵……$"
 # 343 "data/maps/LilycoveCity/scripts.pory"
-	.string "The sea remains as beautiful as ever.\p"
+
 # 344 "data/maps/LilycoveCity/scripts.pory"
-	.string "Mufufufu mufufufufufu…$"
+LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
 # 345 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "六十年前，我丈夫\n"
 # 346 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_TeamAquaRenovatedCavern:
+	.string "就是在这里向我求婚的。\l"
 # 347 "data/maps/LilycoveCity/scripts.pory"
-	.string "Hm, you know of the peculiar cavern\n"
+	.string "大海还和从前一样美。\p"
 # 348 "data/maps/LilycoveCity/scripts.pory"
-	.string "in this cove?\p"
+	.string "呵呵呵呵呵……$"
 # 349 "data/maps/LilycoveCity/scripts.pory"
-	.string "That had been a natural formation,\n"
+
 # 350 "data/maps/LilycoveCity/scripts.pory"
-	.string "but then that Team Aqua lot came\l"
+LilycoveCity_Text_TeamAquaRenovatedCavern:
 # 351 "data/maps/LilycoveCity/scripts.pory"
-	.string "along and made their renovations.\p"
+	.string "嗯，你知道这个小湾里\n"
 # 352 "data/maps/LilycoveCity/scripts.pory"
-	.string "They call themselves\n"
+	.string "那个奇特的洞窟吗？\p"
 # 353 "data/maps/LilycoveCity/scripts.pory"
-	.string "the “nature-loving Team Aqua”!\p"
+	.string "那本来是天然形成的，\n"
 # 354 "data/maps/LilycoveCity/scripts.pory"
-	.string "But what they do and what they say\n"
+	.string "后来水舰队那群家伙\l"
 # 355 "data/maps/LilycoveCity/scripts.pory"
-	.string "don't match at all!$"
+	.string "来改造过。\p"
 # 356 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "他们自称“热爱自然的\n"
 # 357 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_TeamAquaLotGoneForGood:
+	.string "水舰队”！\p"
 # 358 "data/maps/LilycoveCity/scripts.pory"
-	.string "That cave in the cove…\p"
+	.string "可他们的所作所为和\n"
 # 359 "data/maps/LilycoveCity/scripts.pory"
-	.string "I didn't notice it right away,\n"
+	.string "嘴上说的完全不一样！$"
 # 360 "data/maps/LilycoveCity/scripts.pory"
-	.string "but it's completely empty now.\p"
+
 # 361 "data/maps/LilycoveCity/scripts.pory"
-	.string "That Team Aqua lot, they must\n"
+LilycoveCity_Text_TeamAquaLotGoneForGood:
 # 362 "data/maps/LilycoveCity/scripts.pory"
-	.string "have gone away for good.$"
+	.string "小湾里那个洞窟……\p"
 # 363 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "我没马上注意到，\n"
 # 364 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_CitySign:
+	.string "不过现在里面空了。\p"
 # 365 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove City\p"
+	.string "水舰队那群人，\n"
 # 366 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Where the land ends and the\n"
+	.string "一定彻底走了。$"
 # 367 "data/maps/LilycoveCity/scripts.pory"
-	.string "sea begins.”$"
-# 368 "data/maps/LilycoveCity/scripts.pory"
 
+# 368 "data/maps/LilycoveCity/scripts.pory"
+LilycoveCity_Text_CitySign:
 # 369 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ContestHallSign:
+	.string "水静市\p"
 # 370 "data/maps/LilycoveCity/scripts.pory"
-	.string "Pokémon Contest Hall\n"
+	.string "“大地尽头，\n"
 # 371 "data/maps/LilycoveCity/scripts.pory"
-	.string "“The gathering place for trainers!”$"
+	.string "海洋起点。”$"
 # 372 "data/maps/LilycoveCity/scripts.pory"
 
 # 373 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MotelSign:
+LilycoveCity_Text_ContestHallSign:
 # 374 "data/maps/LilycoveCity/scripts.pory"
-	.string "Cove Lily Motel\p"
+	.string "宝可梦华丽大赛会场\n"
 # 375 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Remember us as Cove Lily of\n"
+	.string "“训练家的聚集地！”$"
 # 376 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove.”$"
+
 # 377 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_MotelSign:
 # 378 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MuseumSign:
+	.string "水静湾旅馆\p"
 # 379 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove Museum\p"
+	.string "“请记住水静市的\n"
 # 380 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Pokémon Masterpiece Collection\n"
+	.string "水静湾。”$"
 # 381 "data/maps/LilycoveCity/scripts.pory"
-	.string "on exhibit!”$"
+
 # 382 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_MuseumSign:
 # 383 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MuseumSignPlayersExhibit:
+	.string "水静博物馆\p"
 # 384 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove Museum\p"
+	.string "“宝可梦名作收藏展\n"
 # 385 "data/maps/LilycoveCity/scripts.pory"
-	.string "“{PLAYER}'s Pokémon Collection\n"
+	.string "正在展出！”$"
 # 386 "data/maps/LilycoveCity/scripts.pory"
-	.string "on exhibit!”$"
+
 # 387 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_MuseumSignPlayersExhibit:
 # 388 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_HarborSignUnderConstruction:
+	.string "水静博物馆\p"
 # 389 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove City Harbor\p"
+	.string "“{PLAYER}的宝可梦\n"
 # 390 "data/maps/LilycoveCity/scripts.pory"
-	.string "“The ferry S.S. Tidal is under\n"
+	.string "收藏展正在展出！”$"
 # 391 "data/maps/LilycoveCity/scripts.pory"
-	.string "construction in Slateport City.\p"
+
 # 392 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Service is scheduled to begin\n"
+LilycoveCity_Text_HarborSignUnderConstruction:
 # 393 "data/maps/LilycoveCity/scripts.pory"
-	.string "shortly.”$"
+	.string "水静市港口\p"
 # 394 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "“渡轮潮汐号正在\n"
 # 395 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_HarborSign:
+	.string "凯那市建造中。\p"
 # 396 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove City Harbor\p"
+	.string "“预计不久后\n"
 # 397 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Enjoy a delightful cruise on\n"
+	.string "开始运营。”$"
 # 398 "data/maps/LilycoveCity/scripts.pory"
-	.string "the ferry S.S. Tidal.”$"
+
 # 399 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_HarborSign:
 # 400 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_TrainerFanClubSign:
+	.string "水静市港口\p"
 # 401 "data/maps/LilycoveCity/scripts.pory"
-	.string "Pokémon Trainer Fan Club\p"
+	.string "“欢迎乘坐渡轮潮汐号\n"
 # 402 "data/maps/LilycoveCity/scripts.pory"
-	.string "The names of trainers are scribbled\n"
+	.string "享受愉快航程。”$"
 # 403 "data/maps/LilycoveCity/scripts.pory"
-	.string "all over the sign…$"
+
 # 404 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_TrainerFanClubSign:
 # 405 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_DepartmentStoreSign:
+	.string "宝可梦训练家粉丝俱乐部\p"
 # 406 "data/maps/LilycoveCity/scripts.pory"
-	.string "Lilycove Department Store\p"
+	.string "牌子上到处涂满了\n"
 # 407 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Overflowing with great merchandise\n"
+	.string "训练家的名字……$"
 # 408 "data/maps/LilycoveCity/scripts.pory"
-	.string "and excitement!\p"
-# 409 "data/maps/LilycoveCity/scripts.pory"
-	.string "“A great place to find that something\n"
-# 410 "data/maps/LilycoveCity/scripts.pory"
-	.string "you need!”$"
-# 411 "data/maps/LilycoveCity/scripts.pory"
 
+# 409 "data/maps/LilycoveCity/scripts.pory"
+LilycoveCity_Text_DepartmentStoreSign:
+# 410 "data/maps/LilycoveCity/scripts.pory"
+	.string "水静百货\p"
+# 411 "data/maps/LilycoveCity/scripts.pory"
+	.string "“好商品和兴奋感\n"
 # 412 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_MoveDeletersHouseSign:
+	.string "满得要溢出来！\p"
 # 413 "data/maps/LilycoveCity/scripts.pory"
-	.string "Egg Move Tutor's House\p"
+	.string "“找你需要的东西，\n"
 # 414 "data/maps/LilycoveCity/scripts.pory"
-	.string "“Teach Pokémon Egg Moves.”$"
+	.string "这里最合适！”$"
 # 415 "data/maps/LilycoveCity/scripts.pory"
 
 # 416 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_DoYouKnowAboutBerryBlender:
+LilycoveCity_Text_MoveDeletersHouseSign:
 # 417 "data/maps/LilycoveCity/scripts.pory"
-	.string "Do you know about the machine\n"
+	.string "蛋招式教学之家\p"
 # 418 "data/maps/LilycoveCity/scripts.pory"
-	.string "Berry Blender?$"
+	.string "“教宝可梦蛋招式。”$"
 # 419 "data/maps/LilycoveCity/scripts.pory"
 
 # 420 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_FasterSpinBetterPokeblocks:
+LilycoveCity_Text_DoYouKnowAboutBerryBlender:
 # 421 "data/maps/LilycoveCity/scripts.pory"
-	.string "People have to work together to get it\n"
+	.string "你知道做宝可方块的\n"
 # 422 "data/maps/LilycoveCity/scripts.pory"
-	.string "to spin faster.\p"
+	.string "机器——宝可方块混合器吗？$"
 # 423 "data/maps/LilycoveCity/scripts.pory"
-	.string "The faster you can make it spin, the\n"
+
 # 424 "data/maps/LilycoveCity/scripts.pory"
-	.string "better {POKEBLOCK}S you can get, I've heard.$"
+LilycoveCity_Text_FasterSpinBetterPokeblocks:
 # 425 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "得大家合作才能让它\n"
 # 426 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_ExplainBerryBlender:
+	.string "转得更快。\p"
 # 427 "data/maps/LilycoveCity/scripts.pory"
-	.string "It's used for making a kind of candy\n"
+	.string "听说转得越快，\n"
 # 428 "data/maps/LilycoveCity/scripts.pory"
-	.string "called a {POKEBLOCK}.\p"
+	.string "做出的{POKEBLOCK}越好。$"
 # 429 "data/maps/LilycoveCity/scripts.pory"
-	.string "If you give a good {POKEBLOCK} to a Pokémon,\n"
+
 # 430 "data/maps/LilycoveCity/scripts.pory"
-	.string "its condition will improve by a lot.$"
+LilycoveCity_Text_ExplainBerryBlender:
 # 431 "data/maps/LilycoveCity/scripts.pory"
-
+	.string "它是用来做一种叫\n"
 # 432 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_HeardTowerCalledSkyPillar:
+	.string "{POKEBLOCK}的糖果的。\p"
 # 433 "data/maps/LilycoveCity/scripts.pory"
-	.string "I heard there's a tower somewhere out\n"
+	.string "给宝可梦吃好的{POKEBLOCK}，\n"
 # 434 "data/maps/LilycoveCity/scripts.pory"
-	.string "on the sea routes.\p"
+	.string "它的状态会提升很多。$"
 # 435 "data/maps/LilycoveCity/scripts.pory"
-	.string "It's called the Sky Pillar, I hear.$"
+
 # 436 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_HeardTowerCalledSkyPillar:
 # 437 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_SawTallTowerOnRoute131:
+	.string "我听说海上的某条航路\n"
 # 438 "data/maps/LilycoveCity/scripts.pory"
-	.string "I saw this tall tower somewhere\n"
+	.string "上有一座塔。\p"
 # 439 "data/maps/LilycoveCity/scripts.pory"
-	.string "around Route 131.\p"
+	.string "听说叫天空之柱。$"
 # 440 "data/maps/LilycoveCity/scripts.pory"
-	.string "Could that possibly be…?$"
+
 # 441 "data/maps/LilycoveCity/scripts.pory"
-
+LilycoveCity_Text_SawTallTowerOnRoute131:
 # 442 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_JustArrivedAndSawRarePokemon:
+	.string "我在131号道路附近\n"
 # 443 "data/maps/LilycoveCity/scripts.pory"
-	.string "We just arrived here on our\n"
+	.string "看到过一座高塔。\p"
 # 444 "data/maps/LilycoveCity/scripts.pory"
-	.string "honeymoon vacation.\p"
+	.string "那难道就是……？$"
 # 445 "data/maps/LilycoveCity/scripts.pory"
-	.string "We happened to see a Dragon-type\n"
-# 446 "data/maps/LilycoveCity/scripts.pory"
-	.string "Pokémon flying way up in the sky.\p"
-# 447 "data/maps/LilycoveCity/scripts.pory"
-	.string "Do cool Pokémon like that live in\n"
-# 448 "data/maps/LilycoveCity/scripts.pory"
-	.string "the Hoenn region?$"
-# 449 "data/maps/LilycoveCity/scripts.pory"
 
+# 446 "data/maps/LilycoveCity/scripts.pory"
+LilycoveCity_Text_JustArrivedAndSawRarePokemon:
+# 447 "data/maps/LilycoveCity/scripts.pory"
+	.string "我们刚到这里度\n"
+# 448 "data/maps/LilycoveCity/scripts.pory"
+	.string "蜜月假期。\p"
+# 449 "data/maps/LilycoveCity/scripts.pory"
+	.string "碰巧看到一只龙属性\n"
 # 450 "data/maps/LilycoveCity/scripts.pory"
-LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
+	.string "宝可梦在高空飞。\p"
 # 451 "data/maps/LilycoveCity/scripts.pory"
-	.string "On our honeymoon, we vowed to see as\n"
+	.string "丰缘地区有那种\n"
 # 452 "data/maps/LilycoveCity/scripts.pory"
-	.string "many rare Pokémon as we can.\p"
+	.string "帅气的宝可梦吗？$"
 # 453 "data/maps/LilycoveCity/scripts.pory"
-	.string "So we were delighted to see a rare\n"
+
 # 454 "data/maps/LilycoveCity/scripts.pory"
-	.string "Pokémon as soon as we arrived.\p"
+LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 # 455 "data/maps/LilycoveCity/scripts.pory"
-	.string "I mean, we are totally happy!$"
+	.string "蜜月时我们发誓要\n"
+# 456 "data/maps/LilycoveCity/scripts.pory"
+	.string "看尽量多的稀有宝可梦。\p"
+# 457 "data/maps/LilycoveCity/scripts.pory"
+	.string "所以一到就看见一只\n"
+# 458 "data/maps/LilycoveCity/scripts.pory"
+	.string "稀有宝可梦，太开心了。\p"
+# 459 "data/maps/LilycoveCity/scripts.pory"
+	.string "我的意思是，我们\n"
+# 460 "data/maps/LilycoveCity/scripts.pory"
+	.string "幸福得不得了！$"
 
 LilycoveCity_EventScript_DawnTrigger1::
-# 460 "data/maps/LilycoveCity/scripts.pory"
+# 465 "data/maps/LilycoveCity/scripts.pory"
 	setvar VAR_0x8008, 1
-# 461 "data/maps/LilycoveCity/scripts.pory"
+# 466 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DawnScene
 	end
 
 
 LilycoveCity_EventScript_DawnTrigger2::
-# 467 "data/maps/LilycoveCity/scripts.pory"
+# 472 "data/maps/LilycoveCity/scripts.pory"
 	setvar VAR_0x8008, 2
-# 468 "data/maps/LilycoveCity/scripts.pory"
+# 473 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DawnScene
 	end
 
 
 LilycoveCity_EventScript_DawnScene::
-# 474 "data/maps/LilycoveCity/scripts.pory"
-	lockall
-# 475 "data/maps/LilycoveCity/scripts.pory"
-	call Route104_EventScript_PlayDawnMusic
-# 476 "data/maps/LilycoveCity/scripts.pory"
-	applymovement 22, Common_Movement_WalkInPlaceFasterDown
-# 477 "data/maps/LilycoveCity/scripts.pory"
-	waitmovement 0
-# 478 "data/maps/LilycoveCity/scripts.pory"
-	applymovement 22, Common_Movement_ExclamationMark
 # 479 "data/maps/LilycoveCity/scripts.pory"
-	waitmovement 0
+	lockall
 # 480 "data/maps/LilycoveCity/scripts.pory"
-	applymovement 22, Common_Movement_Delay48
+	call Route104_EventScript_PlayDawnMusic
 # 481 "data/maps/LilycoveCity/scripts.pory"
-	waitmovement 0
+	applymovement 22, Common_Movement_WalkInPlaceFasterDown
 # 482 "data/maps/LilycoveCity/scripts.pory"
-	delay 30
+	waitmovement 0
 # 483 "data/maps/LilycoveCity/scripts.pory"
-	call_if_eq VAR_0x8008, 1, LilycoveCity_EventScript_DawnApproachPlayer1
+	applymovement 22, Common_Movement_ExclamationMark
 # 484 "data/maps/LilycoveCity/scripts.pory"
-	call_if_eq VAR_0x8008, 2, LilycoveCity_EventScript_DawnApproachPlayer2
+	waitmovement 0
 # 485 "data/maps/LilycoveCity/scripts.pory"
-	goto LilycoveCity_EventScript_DawnRivalBattle
+	applymovement 22, Common_Movement_Delay48
 # 486 "data/maps/LilycoveCity/scripts.pory"
+	waitmovement 0
+# 487 "data/maps/LilycoveCity/scripts.pory"
+	delay 30
+# 488 "data/maps/LilycoveCity/scripts.pory"
+	call_if_eq VAR_0x8008, 1, LilycoveCity_EventScript_DawnApproachPlayer1
+# 489 "data/maps/LilycoveCity/scripts.pory"
+	call_if_eq VAR_0x8008, 2, LilycoveCity_EventScript_DawnApproachPlayer2
+# 490 "data/maps/LilycoveCity/scripts.pory"
+	goto LilycoveCity_EventScript_DawnRivalBattle
+# 491 "data/maps/LilycoveCity/scripts.pory"
 	releaseall
 	end
 
 
 LilycoveCity_EventScript_DawnRivalBattle::
-# 491 "data/maps/LilycoveCity/scripts.pory"
+# 496 "data/maps/LilycoveCity/scripts.pory"
 	msgbox LilycoveCity_Text_Dawn_Greeting
-# 492 "data/maps/LilycoveCity/scripts.pory"
+# 497 "data/maps/LilycoveCity/scripts.pory"
 	trainerbattle_no_intro TRAINER_DAWN_LILYCOVE, LilycoveCity_Text_Dawn_Defeated
-# 493 "data/maps/LilycoveCity/scripts.pory"
+# 498 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DawnDefeated
 	end
 
 
 LilycoveCity_EventScript_DawnDefeated::
-# 498 "data/maps/LilycoveCity/scripts.pory"
-	msgbox LilycoveCity_Text_Dawn_MagmaAndAqua
-# 499 "data/maps/LilycoveCity/scripts.pory"
-	giveitem ITEM_EMPOLEONITE_D
-# 500 "data/maps/LilycoveCity/scripts.pory"
-	giveitem ITEM_AIR_BALLOON, 10
-# 501 "data/maps/LilycoveCity/scripts.pory"
-	giveitem ITEM_ASSAULT_VEST
-# 502 "data/maps/LilycoveCity/scripts.pory"
-	msgbox LilycoveCity_Text_DawnGoodbye
 # 503 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_Text_Dawn_MagmaAndAqua
+# 504 "data/maps/LilycoveCity/scripts.pory"
+	giveitem ITEM_EMPOLEONITE_D
+# 505 "data/maps/LilycoveCity/scripts.pory"
+	giveitem ITEM_AIR_BALLOON, 10
+# 506 "data/maps/LilycoveCity/scripts.pory"
+	giveitem ITEM_ASSAULT_VEST
+# 507 "data/maps/LilycoveCity/scripts.pory"
+	msgbox LilycoveCity_Text_DawnGoodbye
+# 508 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DawnExit
 	end
 
 
 LilycoveCity_EventScript_DawnApproachPlayer1::
-# 510 "data/maps/LilycoveCity/scripts.pory"
+# 515 "data/maps/LilycoveCity/scripts.pory"
 	applymovement 22, LilycoveCity_Movement_DawnApproachPlayer1
-# 511 "data/maps/LilycoveCity/scripts.pory"
+# 516 "data/maps/LilycoveCity/scripts.pory"
 	waitmovement 0
 	return
 
 
 LilycoveCity_Movement_DawnApproachPlayer1::
-# 516 "data/maps/LilycoveCity/scripts.pory"
+# 521 "data/maps/LilycoveCity/scripts.pory"
 	walk_right
-# 517 "data/maps/LilycoveCity/scripts.pory"
+# 522 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
-# 518 "data/maps/LilycoveCity/scripts.pory"
+# 523 "data/maps/LilycoveCity/scripts.pory"
 	step_end
 	return
 
 
 LilycoveCity_EventScript_DawnApproachPlayer2::
-# 522 "data/maps/LilycoveCity/scripts.pory"
+# 527 "data/maps/LilycoveCity/scripts.pory"
 	applymovement 22, LilycoveCity_Movement_DawnApproachPlayer2
-# 523 "data/maps/LilycoveCity/scripts.pory"
+# 528 "data/maps/LilycoveCity/scripts.pory"
 	waitmovement 0
 	return
 
 
 LilycoveCity_Movement_DawnApproachPlayer2::
-# 528 "data/maps/LilycoveCity/scripts.pory"
+# 533 "data/maps/LilycoveCity/scripts.pory"
 	walk_right
-# 529 "data/maps/LilycoveCity/scripts.pory"
+# 534 "data/maps/LilycoveCity/scripts.pory"
 	walk_right
-# 530 "data/maps/LilycoveCity/scripts.pory"
+# 535 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
-# 531 "data/maps/LilycoveCity/scripts.pory"
+# 536 "data/maps/LilycoveCity/scripts.pory"
 	step_end
 	return
 
 
 LilycoveCity_EventScript_DawnExit::
-# 536 "data/maps/LilycoveCity/scripts.pory"
-	closemessage
-# 537 "data/maps/LilycoveCity/scripts.pory"
-	delay 45
-# 538 "data/maps/LilycoveCity/scripts.pory"
-	call_if_eq VAR_0x8008, 1, LilycoveCity_EventScript_ApplyMovementDawn1
-# 539 "data/maps/LilycoveCity/scripts.pory"
-	call_if_eq VAR_0x8008, 2, LilycoveCity_EventScript_ApplyMovementDawn2
-# 540 "data/maps/LilycoveCity/scripts.pory"
-	removeobject 22
 # 541 "data/maps/LilycoveCity/scripts.pory"
-	setflag FLAG_DAWN_LILYCOVE
-# 542 "data/maps/LilycoveCity/scripts.pory"
-	setvar VAR_FOUGHT_DAWN_LILYCOVE, 1
-# 543 "data/maps/LilycoveCity/scripts.pory"
-	delay 30
-# 544 "data/maps/LilycoveCity/scripts.pory"
-	playfanfare MUS_LEVEL_UP
-# 545 "data/maps/LilycoveCity/scripts.pory"
-	specialvar VAR_0x8006, GetLevelCapForText
-# 546 "data/maps/LilycoveCity/scripts.pory"
-	buffernumberstring STR_VAR_3, VAR_0x8006
-# 547 "data/maps/LilycoveCity/scripts.pory"
-	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
-# 548 "data/maps/LilycoveCity/scripts.pory"
-	waitfanfare
-# 549 "data/maps/LilycoveCity/scripts.pory"
 	closemessage
-# 550 "data/maps/LilycoveCity/scripts.pory"
+# 542 "data/maps/LilycoveCity/scripts.pory"
+	delay 45
+# 543 "data/maps/LilycoveCity/scripts.pory"
+	call_if_eq VAR_0x8008, 1, LilycoveCity_EventScript_ApplyMovementDawn1
+# 544 "data/maps/LilycoveCity/scripts.pory"
+	call_if_eq VAR_0x8008, 2, LilycoveCity_EventScript_ApplyMovementDawn2
+# 545 "data/maps/LilycoveCity/scripts.pory"
+	removeobject 22
+# 546 "data/maps/LilycoveCity/scripts.pory"
+	setflag FLAG_DAWN_LILYCOVE
+# 547 "data/maps/LilycoveCity/scripts.pory"
+	setvar VAR_FOUGHT_DAWN_LILYCOVE, 1
+# 548 "data/maps/LilycoveCity/scripts.pory"
 	delay 30
+# 549 "data/maps/LilycoveCity/scripts.pory"
+	playfanfare MUS_LEVEL_UP
+# 550 "data/maps/LilycoveCity/scripts.pory"
+	specialvar VAR_0x8006, GetLevelCapForText
 # 551 "data/maps/LilycoveCity/scripts.pory"
-	savebgm MUS_DUMMY
+	buffernumberstring STR_VAR_3, VAR_0x8006
 # 552 "data/maps/LilycoveCity/scripts.pory"
-	fadedefaultbgm
+	msgbox LevelCapIncreasedTo, MSGBOX_DEFAULT
 # 553 "data/maps/LilycoveCity/scripts.pory"
+	waitfanfare
+# 554 "data/maps/LilycoveCity/scripts.pory"
+	closemessage
+# 555 "data/maps/LilycoveCity/scripts.pory"
+	delay 30
+# 556 "data/maps/LilycoveCity/scripts.pory"
+	savebgm MUS_DUMMY
+# 557 "data/maps/LilycoveCity/scripts.pory"
+	fadedefaultbgm
+# 558 "data/maps/LilycoveCity/scripts.pory"
 	releaseall
 	end
 
 
 LilycoveCity_EventScript_ApplyMovementDawn1::
-# 598 "data/maps/LilycoveCity/scripts.pory"
+# 603 "data/maps/LilycoveCity/scripts.pory"
 	applymovement 22, LilycoveCity_EventScript_DawnExit1
-# 599 "data/maps/LilycoveCity/scripts.pory"
+# 604 "data/maps/LilycoveCity/scripts.pory"
 	waitmovement 0
 	return
 
 
 LilycoveCity_EventScript_DawnExit1::
-# 604 "data/maps/LilycoveCity/scripts.pory"
-	walk_right
-# 605 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 606 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 607 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 608 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
 # 609 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
+	walk_right
 # 610 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
 # 611 "data/maps/LilycoveCity/scripts.pory"
@@ -1087,31 +1087,31 @@ LilycoveCity_EventScript_DawnExit1::
 # 612 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
 # 613 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 614 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 615 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 616 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 617 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 618 "data/maps/LilycoveCity/scripts.pory"
 	step_end
 	return
 
 
 LilycoveCity_EventScript_ApplyMovementDawn2::
-# 617 "data/maps/LilycoveCity/scripts.pory"
+# 622 "data/maps/LilycoveCity/scripts.pory"
 	applymovement 22, LilycoveCity_EventScript_DawnExit2
-# 618 "data/maps/LilycoveCity/scripts.pory"
+# 623 "data/maps/LilycoveCity/scripts.pory"
 	waitmovement 0
 	return
 
 
 LilycoveCity_EventScript_DawnExit2::
-# 623 "data/maps/LilycoveCity/scripts.pory"
-	walk_left
-# 624 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 625 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 626 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
-# 627 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
 # 628 "data/maps/LilycoveCity/scripts.pory"
-	walk_down
+	walk_left
 # 629 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
 # 630 "data/maps/LilycoveCity/scripts.pory"
@@ -1119,46 +1119,56 @@ LilycoveCity_EventScript_DawnExit2::
 # 631 "data/maps/LilycoveCity/scripts.pory"
 	walk_down
 # 632 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 633 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 634 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 635 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 636 "data/maps/LilycoveCity/scripts.pory"
+	walk_down
+# 637 "data/maps/LilycoveCity/scripts.pory"
 	step_end
 	return
 
 
 LilycoveCity_Text_Dawn_Greeting::
-# 557 "data/maps/LilycoveCity/scripts.pory"
-	.string "{PLAYER}! Fancy seeing you here!\p"
-	.string "{RIVAL} told me about the amazing\n"
-	.string "department store here, so I had to come\l"
-	.string "check it out myself.\p"
-	.string "It did not disappoint!\p"
-	.string "It might even be better than\n"
-	.string "the one in Veilstone City back\l"
-	.string "home.\p"
-	.string "Anyway, it's been a little while,\n"
-	.string "what do you say we have a battle?$"
+# 562 "data/maps/LilycoveCity/scripts.pory"
+	.string "{PLAYER}！真巧在这儿遇到你！\p"
+	.string "{RIVAL}跟我说这里的\n"
+	.string "百货商店很棒，所以\l"
+	.string "我特意来看看。\p"
+	.string "果然没让我失望！\p"
+	.string "说不定比我家那边\n"
+	.string "帷幕市的\l"
+	.string "还棒。\p"
+	.string "总之，也有一阵子没见了，\n"
+	.string "来打一场怎么样？$"
 
 LilycoveCity_Text_Dawn_Defeated::
-# 570 "data/maps/LilycoveCity/scripts.pory"
-	.string "Crushing it as always, {PLAYER}.$"
+# 575 "data/maps/LilycoveCity/scripts.pory"
+	.string "还是一如既往地厉害，{PLAYER}。$"
 
 LilycoveCity_Text_Dawn_MagmaAndAqua::
-# 574 "data/maps/LilycoveCity/scripts.pory"
-	.string "Geez, I'm running out of things I can\n"
-	.string "give you, hope these will suffice.$"
+# 579 "data/maps/LilycoveCity/scripts.pory"
+	.string "哎呀，我都快没什么\n"
+	.string "能送你的了，希望这些够用。$"
 
 LilycoveCity_Text_DawnGoodbye::
-# 579 "data/maps/LilycoveCity/scripts.pory"
-	.string "On a more serious note, I'm starting to\n"
-	.string "get a little concerned about Team Aqua\l"
-	.string "and Team Magma's activities.\p"
-	.string "They seem to be ramping up, and I have a\n"
-	.string "bad feeling about all of it...\p"
-	.string "I even heard that Elite Four Drake is\n"
-	.string "doing some investigating into what's\l"
-	.string "been going on.\p"
-	.string "You've been doing a great job shutting\n"
-	.string "them down, but I think I'm going to call\l"
-	.string "a friend of mine in the Sinnoh region.\p"
-	.string "I want to see if we can get some\n"
-	.string "back-up here, just in case.\p"
-	.string "In the meantime, stay safe, {PLAYER},\n"
-	.string "and keep up the good work!$"
+# 584 "data/maps/LilycoveCity/scripts.pory"
+	.string "说正经的，我开始对\n"
+	.string "水舰队和熔岩队的\l"
+	.string "动向有点担心了。\p"
+	.string "他们好像越来越活跃，\n"
+	.string "我总有种不祥的预感……\p"
+	.string "我还听说四天王的源治\n"
+	.string "正在调查到底\l"
+	.string "发生了什么。\p"
+	.string "你一路阻止他们，\n"
+	.string "做得很棒，不过我想\l"
+	.string "联络神奥地区的一位朋友。\p"
+	.string "看看能不能请些\n"
+	.string "支援过来，以防万一。\p"
+	.string "在此之前，注意安全，{PLAYER}，\n"
+	.string "继续加油！$"

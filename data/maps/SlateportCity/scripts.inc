@@ -1935,874 +1935,888 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 # 968 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_Text_AbilityGuruSellWhatYouNeed:
 # 969 "data/maps/SlateportCity/scripts.pory"
-	.string "I'm the Ability Guru! I'll go for it\n"
+	.string "我是特性大师！我会想办法\n"
 # 970 "data/maps/SlateportCity/scripts.pory"
-	.string "and sell you what you need!$"
+	.string "卖给你需要的东西！$"
 # 971 "data/maps/SlateportCity/scripts.pory"
 
 # 972 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_Text_OhYourPokemon:
 # 973 "data/maps/SlateportCity/scripts.pory"
-	.string "Oh?\n"
+	.string "哦？\n"
 # 974 "data/maps/SlateportCity/scripts.pory"
-	.string "Your {STR_VAR_1}…$"
+	.string "你的{STR_VAR_1}……$"
 # 975 "data/maps/SlateportCity/scripts.pory"
 
 # 976 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
 # 977 "data/maps/SlateportCity/scripts.pory"
-	.string "Went for it stupendously!\p"
+	.string "真是太拼了！\p"
 # 978 "data/maps/SlateportCity/scripts.pory"
-	.string "As its reward, please give it this\n"
+	.string "作为奖励，请给它\n"
 # 979 "data/maps/SlateportCity/scripts.pory"
-	.string "Effort Ribbon.$"
+	.string "戴上这枚努力缎带。$"
 # 980 "data/maps/SlateportCity/scripts.pory"
 
 # 981 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_Text_ReceivedEffortRibbon:
 # 982 "data/maps/SlateportCity/scripts.pory"
-	.string "{PLAYER} received the Effort Ribbon.$"
+	.string "{PLAYER}得到了\n"
 # 983 "data/maps/SlateportCity/scripts.pory"
-
+	.string "努力缎带。$"
 # 984 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_PutEffortRibbonOnMon:
+
 # 985 "data/maps/SlateportCity/scripts.pory"
-	.string "{PLAYER} put the Effort Ribbon\n"
+SlateportCity_Text_PutEffortRibbonOnMon:
 # 986 "data/maps/SlateportCity/scripts.pory"
-	.string "on {STR_VAR_1}.$"
+	.string "{PLAYER}把努力缎带\n"
 # 987 "data/maps/SlateportCity/scripts.pory"
-
+	.string "戴在了{STR_VAR_1}身上。$"
 # 988 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_GoForItLittleHarder:
+
 # 989 "data/maps/SlateportCity/scripts.pory"
-	.string "You have to go for it a little harder.\p"
+SlateportCity_Text_GoForItLittleHarder:
 # 990 "data/maps/SlateportCity/scripts.pory"
-	.string "If you do, I'll give your Pokémon\n"
+	.string "你还需要再努力一点。\p"
 # 991 "data/maps/SlateportCity/scripts.pory"
-	.string "something nice.$"
+	.string "要是做到了，我就给你的\n"
 # 992 "data/maps/SlateportCity/scripts.pory"
-
+	.string "宝可梦一点好东西。$"
 # 993 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_EffortRibbonLooksGoodOnIt:
+
 # 994 "data/maps/SlateportCity/scripts.pory"
-	.string "Oh! Your {STR_VAR_1}, that Effort\n"
+SlateportCity_Text_EffortRibbonLooksGoodOnIt:
 # 995 "data/maps/SlateportCity/scripts.pory"
-	.string "Ribbon looks good on it!$"
+	.string "哦！你的{STR_VAR_1}，\n"
 # 996 "data/maps/SlateportCity/scripts.pory"
-
+	.string "那枚努力缎带很合适！$"
 # 997 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
+
 # 998 "data/maps/SlateportCity/scripts.pory"
-	.string "The light of the lighthouse reaches\n"
+SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
 # 999 "data/maps/SlateportCity/scripts.pory"
-	.string "dozens of miles away.\p"
+	.string "灯塔的光能照到\n"
 # 1000 "data/maps/SlateportCity/scripts.pory"
-	.string "I wonder if it doesn't startle Pokémon\n"
+	.string "几十英里以外。\p"
 # 1001 "data/maps/SlateportCity/scripts.pory"
-	.string "in the sea.$"
+	.string "不知道会不会吓到\n"
 # 1002 "data/maps/SlateportCity/scripts.pory"
-
+	.string "海里的宝可梦。$"
 # 1003 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SeaweedFullOfLife:
+
 # 1004 "data/maps/SlateportCity/scripts.pory"
-	.string "Ooh, look at this!\p"
+SlateportCity_Text_SeaweedFullOfLife:
 # 1005 "data/maps/SlateportCity/scripts.pory"
-	.string "The seaweed you can get around these\n"
+	.string "哦，你看这个！\p"
 # 1006 "data/maps/SlateportCity/scripts.pory"
-	.string "parts is fresh and full of life.\p"
+	.string "这一带能采到的海藻，\n"
 # 1007 "data/maps/SlateportCity/scripts.pory"
-	.string "Why, it looks like it can even rear up\n"
+	.string "新鲜又充满活力。\p"
 # 1008 "data/maps/SlateportCity/scripts.pory"
-	.string "and attack!$"
+	.string "它看起来简直会\n"
 # 1009 "data/maps/SlateportCity/scripts.pory"
-
+	.string "竖起来攻击人！$"
 # 1010 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_HowTownIsBornAndGrows:
+
 # 1011 "data/maps/SlateportCity/scripts.pory"
-	.string "Where the water is clean, the fruits\n"
+SlateportCity_Text_HowTownIsBornAndGrows:
 # 1012 "data/maps/SlateportCity/scripts.pory"
-	.string "of bountiful harvest gather.\p"
+	.string "水干净的地方，\n"
 # 1013 "data/maps/SlateportCity/scripts.pory"
-	.string "And where people gather, a market\n"
+	.string "丰收的果实就会聚集。\p"
 # 1014 "data/maps/SlateportCity/scripts.pory"
-	.string "soon starts.\p"
+	.string "人聚集的地方，\n"
 # 1015 "data/maps/SlateportCity/scripts.pory"
-	.string "That is how a town is born and grows.$"
+	.string "市场很快就会形成。\p"
 # 1016 "data/maps/SlateportCity/scripts.pory"
-
+	.string "城镇就是这样诞生\n"
 # 1017 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SlateportWonderfulPlace:
+	.string "并成长起来的。$"
 # 1018 "data/maps/SlateportCity/scripts.pory"
-	.string "Shopping where you can breathe the\n"
+
 # 1019 "data/maps/SlateportCity/scripts.pory"
-	.string "scent of the ocean…\p"
+SlateportCity_Text_SlateportWonderfulPlace:
 # 1020 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport is such a wonderful place!$"
+	.string "能闻着海的味道购物……\p"
 # 1021 "data/maps/SlateportCity/scripts.pory"
-
+	.string "凯那真是个\n"
 # 1022 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
+	.string "好地方！$"
 # 1023 "data/maps/SlateportCity/scripts.pory"
-	.string "If you put dolls or cushions on\n"
+
 # 1024 "data/maps/SlateportCity/scripts.pory"
-	.string "the floor, they'll get dirty.\p"
+SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 # 1025 "data/maps/SlateportCity/scripts.pory"
-	.string "I'm going to buy some bricks so my\n"
+	.string "把娃娃或靠垫放在地上，\n"
 # 1026 "data/maps/SlateportCity/scripts.pory"
-	.string "dolls and cushions won't get dirty\l"
+	.string "会弄脏的。\p"
 # 1027 "data/maps/SlateportCity/scripts.pory"
-	.string "when I leave them out.$"
+	.string "我要买些砖块铺上，\n"
 # 1028 "data/maps/SlateportCity/scripts.pory"
-
+	.string "这样把娃娃和靠垫\l"
 # 1029 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_GoingToCompeteInBattleTent:
+	.string "摆出来也不会脏。$"
 # 1030 "data/maps/SlateportCity/scripts.pory"
-	.string "Wroooar! I'm going to compete in\n"
+
 # 1031 "data/maps/SlateportCity/scripts.pory"
-	.string "the Battle Tent, too!\p"
+SlateportCity_Text_GoingToCompeteInBattleTent:
 # 1032 "data/maps/SlateportCity/scripts.pory"
-	.string "But before that, I need to catch\n"
+	.string "吼！我也要去参加\n"
 # 1033 "data/maps/SlateportCity/scripts.pory"
-	.string "some Pokémon!$"
+	.string "对战帐篷的比赛！\p"
 # 1034 "data/maps/SlateportCity/scripts.pory"
-
+	.string "不过在那之前，\n"
 # 1035 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BushedHikingFromMauville:
+	.string "我得先抓些宝可梦！$"
 # 1036 "data/maps/SlateportCity/scripts.pory"
-	.string "Whew… I'm just bushed…\p"
+
 # 1037 "data/maps/SlateportCity/scripts.pory"
-	.string "I hiked over from Mauville City.\n"
+SlateportCity_Text_BushedHikingFromMauville:
 # 1038 "data/maps/SlateportCity/scripts.pory"
-	.string "But, boy, this city's huge.\p"
+	.string "呼……我累坏了……\p"
 # 1039 "data/maps/SlateportCity/scripts.pory"
-	.string "If I'd known this, I would've ridden\n"
+	.string "我从紫堇市走过来。\n"
 # 1040 "data/maps/SlateportCity/scripts.pory"
-	.string "my bike here.$"
+	.string "不过，这城市可真大。\p"
 # 1041 "data/maps/SlateportCity/scripts.pory"
-
+	.string "早知道这样，我就\n"
 # 1042 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_EveryoneCallsHimCaptStern:
+	.string "骑车来了。$"
 # 1043 "data/maps/SlateportCity/scripts.pory"
-	.string "Stern, the fellow who built the\n"
+
 # 1044 "data/maps/SlateportCity/scripts.pory"
-	.string "museum, also happens to be the leader\l"
+SlateportCity_Text_EveryoneCallsHimCaptStern:
 # 1045 "data/maps/SlateportCity/scripts.pory"
-	.string "of an undersea exploration team.\p"
+	.string "建了博物馆的斯图，\n"
 # 1046 "data/maps/SlateportCity/scripts.pory"
-	.string "So, everyone calls him Capt. Stern.$"
+	.string "同时也是海底探险队的\l"
 # 1047 "data/maps/SlateportCity/scripts.pory"
-
+	.string "队长。\p"
 # 1048 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_WhatsLongLineOverThere:
+	.string "所以大家都叫他\n"
 # 1049 "data/maps/SlateportCity/scripts.pory"
-	.string "What is that over there?\n"
+	.string "斯图船长。$"
 # 1050 "data/maps/SlateportCity/scripts.pory"
-	.string "That long line…$"
+
 # 1051 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_WhatsLongLineOverThere:
 # 1052 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_VisitedMuseumOften:
+	.string "那边是什么？\n"
 # 1053 "data/maps/SlateportCity/scripts.pory"
-	.string "When I was a child, I visited\n"
+	.string "那么长的队伍……$"
 # 1054 "data/maps/SlateportCity/scripts.pory"
-	.string "the museum often.\p"
+
 # 1055 "data/maps/SlateportCity/scripts.pory"
-	.string "I used to dream about the mysteries of\n"
+SlateportCity_Text_VisitedMuseumOften:
 # 1056 "data/maps/SlateportCity/scripts.pory"
-	.string "the sea after seeing the exhibits.$"
+	.string "我小时候常去\n"
 # 1057 "data/maps/SlateportCity/scripts.pory"
-
+	.string "博物馆。\p"
 # 1058 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_QuitPushing:
+	.string "看了那些展品，我总\n"
 # 1059 "data/maps/SlateportCity/scripts.pory"
-	.string "Hey, there! Quit pushing!\n"
+	.string "梦想着大海的奥秘。$"
 # 1060 "data/maps/SlateportCity/scripts.pory"
-	.string "This is the line, can't you see?$"
+
 # 1061 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_QuitPushing:
 # 1062 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_AquaHasPolicy:
+	.string "喂！别挤！\n"
 # 1063 "data/maps/SlateportCity/scripts.pory"
-	.string "Team Aqua has a policy of\n"
+	.string "你没看见在排队吗？$"
 # 1064 "data/maps/SlateportCity/scripts.pory"
-	.string "assembling and dispersing at\l"
+
 # 1065 "data/maps/SlateportCity/scripts.pory"
-	.string "the operation site.$"
+SlateportCity_Text_AquaHasPolicy:
 # 1066 "data/maps/SlateportCity/scripts.pory"
-
+	.string "水舰队的规矩是\n"
 # 1067 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BossIsBrilliant:
+	.string "在行动地点集合、\l"
 # 1068 "data/maps/SlateportCity/scripts.pory"
-	.string "Our boss is brilliant.\p"
+	.string "再分散行动。$"
 # 1069 "data/maps/SlateportCity/scripts.pory"
-	.string "What would he want to do with\n"
+
 # 1070 "data/maps/SlateportCity/scripts.pory"
-	.string "a museum now?$"
+SlateportCity_Text_BossIsBrilliant:
 # 1071 "data/maps/SlateportCity/scripts.pory"
-
+	.string "我们老大很了不起。\p"
 # 1072 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_RemindsMeOfLongLineForGames:
+	.string "他现在要博物馆\n"
 # 1073 "data/maps/SlateportCity/scripts.pory"
-	.string "A long line, huh?\p"
+	.string "做什么呢？$"
 # 1074 "data/maps/SlateportCity/scripts.pory"
-	.string "It reminds me of the times I lined up to\n"
+
 # 1075 "data/maps/SlateportCity/scripts.pory"
-	.string "buy smash-hit games…$"
+SlateportCity_Text_RemindsMeOfLongLineForGames:
 # 1076 "data/maps/SlateportCity/scripts.pory"
-
+	.string "排长队啊？\p"
 # 1077 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_WhyAreWeLiningUp:
+	.string "让我想起以前排队\n"
 # 1078 "data/maps/SlateportCity/scripts.pory"
-	.string "Why are we even lining up and paying?\n"
+	.string "买热销游戏的日子……$"
 # 1079 "data/maps/SlateportCity/scripts.pory"
-	.string "We should just march in!$"
+
 # 1080 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_WhyAreWeLiningUp:
 # 1081 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_NoWeaklings:
+	.string "我们干嘛要排队付钱？\n"
 # 1082 "data/maps/SlateportCity/scripts.pory"
-	.string "Get lost, kid! No weaklings are getting\n"
+	.string "直接冲进去不就行了！$"
 # 1083 "data/maps/SlateportCity/scripts.pory"
-	.string "through here right now.$"
+
 # 1084 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_NoWeaklings:
 # 1085 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_MoralSupport:
+	.string "滚开，小鬼！现在\n"
 # 1086 "data/maps/SlateportCity/scripts.pory"
-	.string "I'm mostly just here for moral\n"
+	.string "这里不让弱者通过。$"
 # 1087 "data/maps/SlateportCity/scripts.pory"
-	.string "support.$"
+
 # 1088 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_MoralSupport:
 # 1089 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ThisArea:
+	.string "我主要是来\n"
 # 1090 "data/maps/SlateportCity/scripts.pory"
-	.string "No one's getting into this area\n"
+	.string "帮大家打气的。$"
 # 1091 "data/maps/SlateportCity/scripts.pory"
-	.string "right now.$"
+
 # 1092 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_ThisArea:
 # 1093 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_WhatDoYouWant:
+	.string "现在这一带\n"
 # 1094 "data/maps/SlateportCity/scripts.pory"
-	.string "What?\n"
+	.string "谁都不许进去。$"
 # 1095 "data/maps/SlateportCity/scripts.pory"
-	.string "What do you want?$"
+
 # 1096 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_WhatDoYouWant:
 # 1097 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_IllReadSignForYou:
+	.string "什么？\n"
 # 1098 "data/maps/SlateportCity/scripts.pory"
-	.string "You want to read this sign?\n"
+	.string "你想干什么？$"
 # 1099 "data/maps/SlateportCity/scripts.pory"
-	.string "I'll read it for you!$"
+
 # 1100 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_IllReadSignForYou:
 # 1101 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
+	.string "你想读这块牌子？\n"
 # 1102 "data/maps/SlateportCity/scripts.pory"
-	.string "Let's see…\p"
+	.string "我来读给你听！$"
 # 1103 "data/maps/SlateportCity/scripts.pory"
-	.string "Um… I think it says something like\n"
+
 # 1104 "data/maps/SlateportCity/scripts.pory"
-	.string "“the life in the sea is endless.”\p"
+SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
 # 1105 "data/maps/SlateportCity/scripts.pory"
-	.string "Yup, I'm pretty sure that's what\n"
+	.string "我看看……\p"
 # 1106 "data/maps/SlateportCity/scripts.pory"
-	.string "it says.$"
+	.string "嗯……好像是说\n"
 # 1107 "data/maps/SlateportCity/scripts.pory"
-
+	.string "“海中的生命无穷无尽”。\p"
 # 1108 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ShouldveBroughtMyGameBoy:
+	.string "对，我确定就是\n"
 # 1109 "data/maps/SlateportCity/scripts.pory"
-	.string "Grumble…\p"
+	.string "这个意思。$"
 # 1110 "data/maps/SlateportCity/scripts.pory"
-	.string "I should've brought my Game Boy\n"
+
 # 1111 "data/maps/SlateportCity/scripts.pory"
-	.string "Advance so I wouldn't get bored in line…\p"
+SlateportCity_Text_ShouldveBroughtMyGameBoy:
 # 1112 "data/maps/SlateportCity/scripts.pory"
-	.string "Grumble…$"
+	.string "嘀咕……\p"
 # 1113 "data/maps/SlateportCity/scripts.pory"
-
+	.string "我该带Game Boy Advance来，\n"
 # 1114 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_HotSpringsAfterOperation:
+	.string "这样排队就不会无聊了……\p"
 # 1115 "data/maps/SlateportCity/scripts.pory"
-	.string "When this operation's over, I'll take\n"
+	.string "嘀咕……$"
 # 1116 "data/maps/SlateportCity/scripts.pory"
-	.string "you to a hot spring spa!\p"
+
 # 1117 "data/maps/SlateportCity/scripts.pory"
-	.string "That's what our leader said.\n"
+SlateportCity_Text_HotSpringsAfterOperation:
 # 1118 "data/maps/SlateportCity/scripts.pory"
-	.string "I can't wait!$"
+	.string "等这次行动结束，\n"
 # 1119 "data/maps/SlateportCity/scripts.pory"
-
+	.string "我带你到温泉去！\p"
 # 1120 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SeaIsSoWet:
+	.string "我们老大这么说的。\n"
 # 1121 "data/maps/SlateportCity/scripts.pory"
-	.string "The sea is just so vast…\p"
+	.string "我都等不及了！$"
 # 1122 "data/maps/SlateportCity/scripts.pory"
-	.string "Could the sea have been made by\n"
+
 # 1123 "data/maps/SlateportCity/scripts.pory"
-	.string "the tears shed by Pokémon?$"
+SlateportCity_Text_SeaIsSoWet:
 # 1124 "data/maps/SlateportCity/scripts.pory"
-
+	.string "大海真是太辽阔了……\p"
 # 1125 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SinkOldBoats:
+	.string "海会不会是宝可梦\n"
 # 1126 "data/maps/SlateportCity/scripts.pory"
-	.string "Do you know what they do with old\n"
+	.string "流下的眼泪汇成的呢？$"
 # 1127 "data/maps/SlateportCity/scripts.pory"
-	.string "ships that become too creaky to sail?\p"
+
 # 1128 "data/maps/SlateportCity/scripts.pory"
-	.string "They sink them in the sea so they\n"
+SlateportCity_Text_SinkOldBoats:
 # 1129 "data/maps/SlateportCity/scripts.pory"
-	.string "become habitats for Pokémon.$"
+	.string "你知道那些旧得再也\n"
 # 1130 "data/maps/SlateportCity/scripts.pory"
-
+	.string "不能航行的船会怎样吗？\p"
 # 1131 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BuyTooMuch:
+	.string "会被沉进海里，变成\n"
 # 1132 "data/maps/SlateportCity/scripts.pory"
-	.string "Whenever I visit here, I get carried\n"
+	.string "宝可梦的栖息地。$"
 # 1133 "data/maps/SlateportCity/scripts.pory"
-	.string "away and buy too much.$"
+
 # 1134 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_BuyTooMuch:
 # 1135 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_GetNameRaterToHelpYou:
+	.string "每次来这里，我都会\n"
 # 1136 "data/maps/SlateportCity/scripts.pory"
-	.string "If you want to change your Pokémon's\n"
+	.string "买过头。$"
 # 1137 "data/maps/SlateportCity/scripts.pory"
-	.string "nickname, check the options in the\l"
+
 # 1138 "data/maps/SlateportCity/scripts.pory"
-	.string "party menu.$"
+SlateportCity_Text_GetNameRaterToHelpYou:
 # 1139 "data/maps/SlateportCity/scripts.pory"
-
+	.string "想改宝可梦的昵称，\n"
 # 1140 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_CantChangeTradeMonName:
+	.string "去看看队伍菜单里的\l"
 # 1141 "data/maps/SlateportCity/scripts.pory"
-	.string "Any Pokémon you get in a trade,\n"
+	.string "选项吧。$"
 # 1142 "data/maps/SlateportCity/scripts.pory"
-	.string "you can't change its nickname.\p"
+
 # 1143 "data/maps/SlateportCity/scripts.pory"
-	.string "The original trainer's love for that\n"
+SlateportCity_Text_CantChangeTradeMonName:
 # 1144 "data/maps/SlateportCity/scripts.pory"
-	.string "Pokémon is in the nickname.$"
+	.string "交换来的宝可梦，\n"
 # 1145 "data/maps/SlateportCity/scripts.pory"
-
+	.string "昵称是改不了的。\p"
 # 1146 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BattleTentBuiltRecently:
+	.string "因为有原训练家对它的\n"
 # 1147 "data/maps/SlateportCity/scripts.pory"
-	.string "Recently, a Battle Tent was built\n"
+	.string "感情在那昵称里。$"
 # 1148 "data/maps/SlateportCity/scripts.pory"
-	.string "in Slateport.\p"
+
 # 1149 "data/maps/SlateportCity/scripts.pory"
-	.string "Gyms are fun, but the Battle Tent's\n"
+SlateportCity_Text_BattleTentBuiltRecently:
 # 1150 "data/maps/SlateportCity/scripts.pory"
-	.string "awesome in its own way.\p"
+	.string "最近凯那市建了\n"
 # 1151 "data/maps/SlateportCity/scripts.pory"
-	.string "You should go find tough Pokémon\n"
+	.string "一座对战帐篷。\p"
 # 1152 "data/maps/SlateportCity/scripts.pory"
-	.string "for the Battle Tent!$"
+	.string "道馆很好玩，不过对战\n"
 # 1153 "data/maps/SlateportCity/scripts.pory"
-
+	.string "帐篷也有自己的妙处。\p"
 # 1154 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_CaptSternBeingInterviewed:
+	.string "你真该为对战帐篷\n"
 # 1155 "data/maps/SlateportCity/scripts.pory"
-	.string "I was hoping that it was a famous star\n"
+	.string "培养些强大的宝可梦！$"
 # 1156 "data/maps/SlateportCity/scripts.pory"
-	.string "so I could get an autograph.\p"
+
 # 1157 "data/maps/SlateportCity/scripts.pory"
-	.string "But who's that being interviewed?\n"
+SlateportCity_Text_CaptSternBeingInterviewed:
 # 1158 "data/maps/SlateportCity/scripts.pory"
-	.string "Isn't that Capt. Stern?$"
+	.string "我还以为是哪个明星，\n"
 # 1159 "data/maps/SlateportCity/scripts.pory"
-
+	.string "好去要个签名。\p"
 # 1160 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_InterviewerSoCool:
+	.string "可是被采访的是谁？\n"
 # 1161 "data/maps/SlateportCity/scripts.pory"
-	.string "That lady interviewer is so cool\n"
+	.string "那不是斯图船长吗？$"
 # 1162 "data/maps/SlateportCity/scripts.pory"
-	.string "and pretty.\p"
+
 # 1163 "data/maps/SlateportCity/scripts.pory"
-	.string "When I grow up, I'm going to be\n"
+SlateportCity_Text_InterviewerSoCool:
 # 1164 "data/maps/SlateportCity/scripts.pory"
-	.string "an international journalist!$"
+	.string "那位女记者\n"
 # 1165 "data/maps/SlateportCity/scripts.pory"
-
+	.string "又漂亮又酷。\p"
 # 1166 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternSaysDiscoveredSomething:
+	.string "等我长大了，也要当\n"
 # 1167 "data/maps/SlateportCity/scripts.pory"
-	.string "Capt. Stern says they discovered\n"
+	.string "国际记者！$"
 # 1168 "data/maps/SlateportCity/scripts.pory"
-	.string "something at the bottom of the sea.\p"
+
 # 1169 "data/maps/SlateportCity/scripts.pory"
-	.string "I wonder what it is?\n"
+SlateportCity_Text_SternSaysDiscoveredSomething:
 # 1170 "data/maps/SlateportCity/scripts.pory"
-	.string "What could it be?$"
+	.string "斯图船长说他们在海底\n"
 # 1171 "data/maps/SlateportCity/scripts.pory"
-
+	.string "发现了什么。\p"
 # 1172 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_CaptainComeBackWithBigFish:
+	.string "到底是什么呢？\n"
 # 1173 "data/maps/SlateportCity/scripts.pory"
-	.string "What's going on here?\p"
+	.string "会是什么呢？$"
 # 1174 "data/maps/SlateportCity/scripts.pory"
-	.string "Did the good Captain come back with\n"
+
 # 1175 "data/maps/SlateportCity/scripts.pory"
-	.string "a big fish from the ocean floor?$"
+SlateportCity_Text_CaptainComeBackWithBigFish:
 # 1176 "data/maps/SlateportCity/scripts.pory"
-
+	.string "这里怎么了？\p"
 # 1177 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_AmIOnTV:
+	.string "船长从海底带回了\n"
 # 1178 "data/maps/SlateportCity/scripts.pory"
-	.string "Hey! Are you watching?\n"
+	.string "一条大鱼吗？$"
 # 1179 "data/maps/SlateportCity/scripts.pory"
-	.string "Am I on TV?$"
+
 # 1180 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_AmIOnTV:
 # 1181 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_CaptainsACelebrity:
+	.string "嘿！你在看吗？\n"
 # 1182 "data/maps/SlateportCity/scripts.pory"
-	.string "A TV interview! Here!\n"
+	.string "我上电视了吗？$"
 # 1183 "data/maps/SlateportCity/scripts.pory"
-	.string "The Captain's a celebrity!$"
+
 # 1184 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_CaptainsACelebrity:
 # 1185 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BigSmileForCamera:
+	.string "电视采访！就在这里！\n"
 # 1186 "data/maps/SlateportCity/scripts.pory"
-	.string "TY: Okay, Capt. Stern, a big smile\n"
+	.string "船长成名人啦！$"
 # 1187 "data/maps/SlateportCity/scripts.pory"
-	.string "for the camera!$"
+
 # 1188 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_BigSmileForCamera:
 # 1189 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_MostInvaluableExperience:
+	.string "TY：好，斯图船长，\n"
 # 1190 "data/maps/SlateportCity/scripts.pory"
-	.string "Gabby: I see, I see. You've had a most\n"
+	.string "对着镜头笑一个！$"
 # 1191 "data/maps/SlateportCity/scripts.pory"
-	.string "invaluable experience…$"
+
 # 1192 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_MostInvaluableExperience:
 # 1193 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternMoveAheadWithExploration:
+	.string "加比：我明白了，明白了。\n"
 # 1194 "data/maps/SlateportCity/scripts.pory"
-	.string "Capt. Stern: Yes, indeed. We intend to\n"
+	.string "您经历了极其宝贵的事……$"
 # 1195 "data/maps/SlateportCity/scripts.pory"
-	.string "move ahead with our exploration.$"
+
 # 1196 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_SternMoveAheadWithExploration:
 # 1197 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_GabbyWonderfulThanksForInterview:
+	.string "斯图船长：是的，没错。\n"
 # 1198 "data/maps/SlateportCity/scripts.pory"
-	.string "Gabby: That's wonderful, Capt. Stern!\n"
+	.string "我们打算继续推进探险。$"
 # 1199 "data/maps/SlateportCity/scripts.pory"
-	.string "Thank you for taking the time from\l"
+
 # 1200 "data/maps/SlateportCity/scripts.pory"
-	.string "your busy schedule to talk to us.\p"
+SlateportCity_Text_GabbyWonderfulThanksForInterview:
 # 1201 "data/maps/SlateportCity/scripts.pory"
-	.string "We hope we can interview you again\n"
+	.string "加比：那太好了，斯图船长！\n"
 # 1202 "data/maps/SlateportCity/scripts.pory"
-	.string "with news of more discoveries!$"
+	.string "感谢您在百忙之中\l"
 # 1203 "data/maps/SlateportCity/scripts.pory"
-
+	.string "抽时间接受采访。\p"
 # 1204 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternWhewFirstInterview:
+	.string "希望下次还能就更多\n"
 # 1205 "data/maps/SlateportCity/scripts.pory"
-	.string "Capt. Stern: Whew…\p"
+	.string "发现再来采访您！$"
 # 1206 "data/maps/SlateportCity/scripts.pory"
-	.string "That was my first time to be filmed for\n"
+
 # 1207 "data/maps/SlateportCity/scripts.pory"
-	.string "TV. That was nerve-wracking.$"
+SlateportCity_Text_SternWhewFirstInterview:
 # 1208 "data/maps/SlateportCity/scripts.pory"
-
+	.string "斯图船长：呼……\p"
 # 1209 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_OhPlayerWeMadeDiscovery:
+	.string "这是我第一次\n"
 # 1210 "data/maps/SlateportCity/scripts.pory"
-	.string "Oh! {PLAYER}{KUN}!\n"
+	.string "上电视。真紧张。$"
 # 1211 "data/maps/SlateportCity/scripts.pory"
-	.string "You're looking great!\p"
+
 # 1212 "data/maps/SlateportCity/scripts.pory"
-	.string "We made a huge discovery on our last\n"
+SlateportCity_Text_OhPlayerWeMadeDiscovery:
 # 1213 "data/maps/SlateportCity/scripts.pory"
-	.string "seafloor exploration.\p"
+	.string "哦！{PLAYER}！\n"
 # 1214 "data/maps/SlateportCity/scripts.pory"
-	.string "We found an underwater cavern on\n"
+	.string "你看上去气色很好！\p"
 # 1215 "data/maps/SlateportCity/scripts.pory"
-	.string "Route 128.\p"
+	.string "我们在上次海底探险中\n"
 # 1216 "data/maps/SlateportCity/scripts.pory"
-	.string "We think it's the habitat of a Pokémon\n"
+	.string "有了重大发现。\p"
 # 1217 "data/maps/SlateportCity/scripts.pory"
-	.string "that's said to have been long extinct.$"
+	.string "我们在128号道路找到了\n"
 # 1218 "data/maps/SlateportCity/scripts.pory"
-
+	.string "一个海底洞窟。\p"
 # 1219 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
+	.string "我们认为那里住着一种\n"
 # 1220 "data/maps/SlateportCity/scripts.pory"
-	.string "Fufufu…\n"
+	.string "传说早已灭绝的宝可梦。$"
 # 1221 "data/maps/SlateportCity/scripts.pory"
-	.string "Capt. Stern, I presume.\p"
+
 # 1222 "data/maps/SlateportCity/scripts.pory"
-	.string "We of Team Aqua will assume\n"
+SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 # 1223 "data/maps/SlateportCity/scripts.pory"
-	.string "control of your submarine!\p"
+	.string "呵呵呵……\n"
 # 1224 "data/maps/SlateportCity/scripts.pory"
-	.string "Your objections are meaningless!\n"
+	.string "想必你就是斯图船长吧。\p"
 # 1225 "data/maps/SlateportCity/scripts.pory"
-	.string "We expect your total cooperation!\p"
+	.string "我们水舰队要接管\n"
 # 1226 "data/maps/SlateportCity/scripts.pory"
-	.string "Fufufu…\n"
+	.string "你的潜水艇！\p"
 # 1227 "data/maps/SlateportCity/scripts.pory"
-	.string "Just watch and learn what Team\l"
+	.string "你的反对毫无意义！\n"
 # 1228 "data/maps/SlateportCity/scripts.pory"
-	.string "Aqua has planned!$"
+	.string "我们要求你全面配合！\p"
 # 1229 "data/maps/SlateportCity/scripts.pory"
-
+	.string "呵呵呵……\n"
 # 1230 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternWhatWasAllThat:
+	.string "就等着看水舰队\l"
 # 1231 "data/maps/SlateportCity/scripts.pory"
-	.string "Capt. Stern: What was that all about?\p"
+	.string "的计划吧！$"
 # 1232 "data/maps/SlateportCity/scripts.pory"
-	.string "It sounded like someone using\n"
+
 # 1233 "data/maps/SlateportCity/scripts.pory"
-	.string "a megaphone…\p"
+SlateportCity_Text_SternWhatWasAllThat:
 # 1234 "data/maps/SlateportCity/scripts.pory"
-	.string "Where did it come from?$"
+	.string "斯图船长：那到底\n"
 # 1235 "data/maps/SlateportCity/scripts.pory"
-
+	.string "是怎么回事？\p"
 # 1236 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_FromHarborTryingToTakeSub:
+	.string "听起来像是有人\n"
 # 1237 "data/maps/SlateportCity/scripts.pory"
-	.string "It's from the Harbor!\p"
+	.string "在用扩音器……\p"
 # 1238 "data/maps/SlateportCity/scripts.pory"
-	.string "The submarine!\n"
+	.string "是从哪儿传来的？$"
 # 1239 "data/maps/SlateportCity/scripts.pory"
-	.string "They're trying to take it!$"
-# 1240 "data/maps/SlateportCity/scripts.pory"
 
+# 1240 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_FromHarborTryingToTakeSub:
 # 1241 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_PleaseComeWithMe:
+	.string "是从港口传来的！\p"
 # 1242 "data/maps/SlateportCity/scripts.pory"
-	.string "{PLAYER}{KUN}!\n"
+	.string "是潜水艇！\n"
 # 1243 "data/maps/SlateportCity/scripts.pory"
-	.string "Please, come with me!$"
+	.string "他们想把它抢走！$"
 # 1244 "data/maps/SlateportCity/scripts.pory"
 
 # 1245 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BattleTentSign:
+SlateportCity_Text_PleaseComeWithMe:
 # 1246 "data/maps/SlateportCity/scripts.pory"
-	.string "Battle Tent Slateport Site\n"
+	.string "{PLAYER}！\n"
 # 1247 "data/maps/SlateportCity/scripts.pory"
-	.string "“Find it! The ultimate Pokémon!”$"
+	.string "请跟我来！$"
 # 1248 "data/maps/SlateportCity/scripts.pory"
 
 # 1249 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternsShipyardWantedSign:
+SlateportCity_Text_BattleTentSign:
 # 1250 "data/maps/SlateportCity/scripts.pory"
-	.string "Stern's Shipyard\p"
+	.string "对战帐篷 凯那会场\n"
 # 1251 "data/maps/SlateportCity/scripts.pory"
-	.string "“Wanted: A sailor capable of sailing\n"
+	.string "“找到它！最强的宝可梦！”$"
 # 1252 "data/maps/SlateportCity/scripts.pory"
-	.string "in all currents.”$"
+
 # 1253 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_SternsShipyardWantedSign:
 # 1254 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternsShipyardNearsCompletion:
+	.string "斯图造船厂\p"
 # 1255 "data/maps/SlateportCity/scripts.pory"
-	.string "Stern's Shipyard\p"
+	.string "“诚征：能在任何\n"
 # 1256 "data/maps/SlateportCity/scripts.pory"
-	.string "“The ferry S.S. Tidal nears\n"
+	.string "水流中航行的船员。”$"
 # 1257 "data/maps/SlateportCity/scripts.pory"
-	.string "completion for serving the ports of\l"
+
 # 1258 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport and Lilycove.”$"
+SlateportCity_Text_SternsShipyardNearsCompletion:
 # 1259 "data/maps/SlateportCity/scripts.pory"
-
+	.string "斯图造船厂\p"
 # 1260 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_SternsShipyardFerryComplete:
+	.string "“渡轮潮汐号即将完工，\n"
 # 1261 "data/maps/SlateportCity/scripts.pory"
-	.string "Stern's Shipyard\p"
+	.string "将往返于凯那与\l"
 # 1262 "data/maps/SlateportCity/scripts.pory"
-	.string "“Boarding of the Slateport-Lilycove\n"
+	.string "水静市之间。”$"
 # 1263 "data/maps/SlateportCity/scripts.pory"
-	.string "ferry S.S. Tidal is handled at the\l"
-# 1264 "data/maps/SlateportCity/scripts.pory"
-	.string "Harbor.”$"
-# 1265 "data/maps/SlateportCity/scripts.pory"
 
+# 1264 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_SternsShipyardFerryComplete:
+# 1265 "data/maps/SlateportCity/scripts.pory"
+	.string "斯图造船厂\p"
 # 1266 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_PokemonFanClubSign:
+	.string "“凯那—水静渡轮潮汐号\n"
 # 1267 "data/maps/SlateportCity/scripts.pory"
-	.string "Pokémon Fan Club\n"
+	.string "的乘船手续请到\l"
 # 1268 "data/maps/SlateportCity/scripts.pory"
-	.string "“Calling all fans of Pokémon!”$"
+	.string "港口办理。”$"
 # 1269 "data/maps/SlateportCity/scripts.pory"
 
 # 1270 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_OceanicMuseumSign:
+SlateportCity_Text_PokemonFanClubSign:
 # 1271 "data/maps/SlateportCity/scripts.pory"
-	.string "“The endless sea sustains\n"
+	.string "宝可梦粉丝俱乐部\n"
 # 1272 "data/maps/SlateportCity/scripts.pory"
-	.string "all life.”\p"
+	.string "“召集所有宝可梦粉丝！”$"
 # 1273 "data/maps/SlateportCity/scripts.pory"
-	.string "Oceanic Museum$"
+
 # 1274 "data/maps/SlateportCity/scripts.pory"
-
+SlateportCity_Text_OceanicMuseumSign:
 # 1275 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_CitySign:
+	.string "“无边的大海养育\n"
 # 1276 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport City\p"
+	.string "一切生命。”\p"
 # 1277 "data/maps/SlateportCity/scripts.pory"
-	.string "“The port where people and Pokémon\n"
+	.string "海洋博物馆$"
 # 1278 "data/maps/SlateportCity/scripts.pory"
-	.string "cross paths.”$"
-# 1279 "data/maps/SlateportCity/scripts.pory"
 
+# 1279 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_CitySign:
 # 1280 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_MarketSign:
+	.string "凯那市\p"
 # 1281 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport Market\n"
+	.string "“人与宝可梦\n"
 # 1282 "data/maps/SlateportCity/scripts.pory"
-	.string "“Unique items found nowhere else!”$"
+	.string "交汇的港口。”$"
 # 1283 "data/maps/SlateportCity/scripts.pory"
 
 # 1284 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_HarborFerryUnderConstruction:
+SlateportCity_Text_MarketSign:
 # 1285 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport Harbor\p"
+	.string "凯那市场\n"
 # 1286 "data/maps/SlateportCity/scripts.pory"
-	.string "“The ferry S.S. Tidal is under\n"
+	.string "“别处找不到的独特商品！”$"
 # 1287 "data/maps/SlateportCity/scripts.pory"
-	.string "construction in the Shipyard.\p"
+
 # 1288 "data/maps/SlateportCity/scripts.pory"
-	.string "“Service is scheduled to begin\n"
+SlateportCity_Text_HarborFerryUnderConstruction:
 # 1289 "data/maps/SlateportCity/scripts.pory"
-	.string "shortly.”$"
+	.string "凯那港\p"
 # 1290 "data/maps/SlateportCity/scripts.pory"
-
+	.string "“渡轮潮汐号正在\n"
 # 1291 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_HarborSign:
+	.string "造船厂建造中。\p"
 # 1292 "data/maps/SlateportCity/scripts.pory"
-	.string "Slateport Harbor\p"
+	.string "“预计不久后\n"
 # 1293 "data/maps/SlateportCity/scripts.pory"
-	.string "“Enjoy a delightful cruise on\n"
+	.string "开始运营。”$"
 # 1294 "data/maps/SlateportCity/scripts.pory"
-	.string "the ferry S.S. Tidal.”$"
-# 1295 "data/maps/SlateportCity/scripts.pory"
 
+# 1295 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_HarborSign:
 # 1296 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_NameRatersHouseSign:
+	.string "凯那港\p"
 # 1297 "data/maps/SlateportCity/scripts.pory"
-	.string "Move Deleter's House\n"
+	.string "“乘坐渡轮潮汐号，\n"
 # 1298 "data/maps/SlateportCity/scripts.pory"
-	.string "“Pokémon moves deleted.”$"
+	.string "享受愉快的航程。”$"
 # 1299 "data/maps/SlateportCity/scripts.pory"
 
 # 1300 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ExplainBerries:
+SlateportCity_Text_NameRatersHouseSign:
 # 1301 "data/maps/SlateportCity/scripts.pory"
-	.string "If a wild Pokémon gets hurt, it heals\n"
+	.string "忘招之家\n"
 # 1302 "data/maps/SlateportCity/scripts.pory"
-	.string "itself by chewing on berries.\p"
+	.string "“帮宝可梦忘记招式。”$"
 # 1303 "data/maps/SlateportCity/scripts.pory"
-	.string "Did you know that?\p"
+
 # 1304 "data/maps/SlateportCity/scripts.pory"
-	.string "Somebody saw that and got the idea\n"
+SlateportCity_Text_ExplainBerries:
 # 1305 "data/maps/SlateportCity/scripts.pory"
-	.string "of making medicine from berries.\p"
+	.string "野生宝可梦受伤时，\n"
 # 1306 "data/maps/SlateportCity/scripts.pory"
-	.string "Did you know that?\p"
+	.string "会嚼树果来治疗自己。\p"
 # 1307 "data/maps/SlateportCity/scripts.pory"
-	.string "To turn berries into medicine,\n"
+	.string "你知道吗？\p"
 # 1308 "data/maps/SlateportCity/scripts.pory"
-	.string "they must be crushed into powder.\p"
+	.string "有人看到这个，就想到了\n"
 # 1309 "data/maps/SlateportCity/scripts.pory"
-	.string "Did you know that?\p"
+	.string "用树果做药。\p"
 # 1310 "data/maps/SlateportCity/scripts.pory"
-	.string "You seem to have an interest\n"
+	.string "你知道吗？\p"
 # 1311 "data/maps/SlateportCity/scripts.pory"
-	.string "in berries!\p"
+	.string "要把树果变成药，\n"
 # 1312 "data/maps/SlateportCity/scripts.pory"
-	.string "I've got something good for someone\n"
+	.string "得先把它磨成粉。\p"
 # 1313 "data/maps/SlateportCity/scripts.pory"
-	.string "like you.$"
+	.string "你知道吗？\p"
 # 1314 "data/maps/SlateportCity/scripts.pory"
-
+	.string "看来你对树果\n"
 # 1315 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ExplainBerryPowder:
+	.string "很感兴趣！\p"
 # 1316 "data/maps/SlateportCity/scripts.pory"
-	.string "I recently had machines installed at\n"
+	.string "对这样的人，\n"
 # 1317 "data/maps/SlateportCity/scripts.pory"
-	.string "Pokémon Centers for crushing berries.\p"
+	.string "我有好东西。$"
 # 1318 "data/maps/SlateportCity/scripts.pory"
-	.string "The Berry Crush machines are at\n"
-# 1319 "data/maps/SlateportCity/scripts.pory"
-	.string "the Direct Corner upstairs.\p"
-# 1320 "data/maps/SlateportCity/scripts.pory"
-	.string "Did you know?\p"
-# 1321 "data/maps/SlateportCity/scripts.pory"
-	.string "Could you make Berry Powder for\n"
-# 1322 "data/maps/SlateportCity/scripts.pory"
-	.string "me using those machines?\p"
-# 1323 "data/maps/SlateportCity/scripts.pory"
-	.string "I can make you all sorts of medicine\n"
-# 1324 "data/maps/SlateportCity/scripts.pory"
-	.string "if you bring me lots of Berry Powder.$"
-# 1325 "data/maps/SlateportCity/scripts.pory"
 
+# 1319 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_ExplainBerryPowder:
+# 1320 "data/maps/SlateportCity/scripts.pory"
+	.string "最近宝可梦中心装了\n"
+# 1321 "data/maps/SlateportCity/scripts.pory"
+	.string "磨树果的机器。\p"
+# 1322 "data/maps/SlateportCity/scripts.pory"
+	.string "树果粉碎机就在楼上\n"
+# 1323 "data/maps/SlateportCity/scripts.pory"
+	.string "的直连角。\p"
+# 1324 "data/maps/SlateportCity/scripts.pory"
+	.string "你知道吗？\p"
+# 1325 "data/maps/SlateportCity/scripts.pory"
+	.string "你能用那些机器\n"
 # 1326 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_BroughtMeSomeBerryPowder:
+	.string "帮我做点树果粉吗？\p"
 # 1327 "data/maps/SlateportCity/scripts.pory"
-	.string "Have you brought me some\n"
+	.string "只要你带来足够的树果粉，\n"
 # 1328 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder?$"
+	.string "我就能做出各种药。$"
 # 1329 "data/maps/SlateportCity/scripts.pory"
 
 # 1330 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ExchangeWhatWithIt:
+SlateportCity_Text_BroughtMeSomeBerryPowder:
 # 1331 "data/maps/SlateportCity/scripts.pory"
-	.string "What would you like to exchange\n"
+	.string "你给我带了\n"
 # 1332 "data/maps/SlateportCity/scripts.pory"
-	.string "it with?$"
+	.string "树果粉吗？$"
 # 1333 "data/maps/SlateportCity/scripts.pory"
 
 # 1334 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ExchangeBerryPowderForItem:
+SlateportCity_Text_ExchangeWhatWithIt:
 # 1335 "data/maps/SlateportCity/scripts.pory"
-	.string "Okay, you want to exchange your\n"
+	.string "你想用它\n"
 # 1336 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder for one {STR_VAR_1}?$"
+	.string "换什么？$"
 # 1337 "data/maps/SlateportCity/scripts.pory"
 
 # 1338 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_DontHaveEnoughBerryPowder:
+SlateportCity_Text_ExchangeBerryPowderForItem:
 # 1339 "data/maps/SlateportCity/scripts.pory"
-	.string "Oh, dear. You don't have enough\n"
+	.string "好，你想用树果粉\n"
 # 1340 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder.$"
+	.string "换一个{STR_VAR_1}？$"
 # 1341 "data/maps/SlateportCity/scripts.pory"
 
 # 1342 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_FineBerryPowderTradeSomethingElse:
+SlateportCity_Text_DontHaveEnoughBerryPowder:
 # 1343 "data/maps/SlateportCity/scripts.pory"
-	.string "This is fine Berry Powder.\n"
+	.string "哎呀，你的树果粉\n"
 # 1344 "data/maps/SlateportCity/scripts.pory"
-	.string "It will make excellent medicine.\p"
+	.string "不够啊。$"
 # 1345 "data/maps/SlateportCity/scripts.pory"
-	.string "Would you like to trade more of your\n"
-# 1346 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder for something else?$"
-# 1347 "data/maps/SlateportCity/scripts.pory"
 
+# 1346 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_FineBerryPowderTradeSomethingElse:
+# 1347 "data/maps/SlateportCity/scripts.pory"
+	.string "这是很好的树果粉。\n"
 # 1348 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_WhenYouGetMoreBringItToMe:
+	.string "能做成上等的药。\p"
 # 1349 "data/maps/SlateportCity/scripts.pory"
-	.string "Okay! When you get some more\n"
+	.string "你还想再用树果粉\n"
 # 1350 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder, bring it to me, please!$"
+	.string "换点别的东西吗？$"
 # 1351 "data/maps/SlateportCity/scripts.pory"
 
 # 1352 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_ComeBackToTradeBerryPowder:
+SlateportCity_Text_WhenYouGetMoreBringItToMe:
 # 1353 "data/maps/SlateportCity/scripts.pory"
-	.string "Come back if you'd like to trade your\n"
+	.string "好！等你再多攒些\n"
 # 1354 "data/maps/SlateportCity/scripts.pory"
-	.string "Berry Powder for some medicine.\p"
+	.string "树果粉，就带来给我吧！$"
 # 1355 "data/maps/SlateportCity/scripts.pory"
-	.string "I'm always running a bazaar here.\p"
+
 # 1356 "data/maps/SlateportCity/scripts.pory"
-	.string "Did you know?$"
+SlateportCity_Text_ComeBackToTradeBerryPowder:
 # 1357 "data/maps/SlateportCity/scripts.pory"
-
+	.string "想用树果粉换药，\n"
 # 1358 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_YouDroveTeamAquaAway:
+	.string "就再来找我吧。\p"
 # 1359 "data/maps/SlateportCity/scripts.pory"
-	.string "Huh? Oh, I remember you!\n"
+	.string "我这儿总是在摆摊。\p"
 # 1360 "data/maps/SlateportCity/scripts.pory"
-	.string "You're the trainer I gave the Exp. Share\l"
+	.string "你知道吗？$"
 # 1361 "data/maps/SlateportCity/scripts.pory"
-	.string "to back in Petalburg.\p"
+
 # 1362 "data/maps/SlateportCity/scripts.pory"
-	.string "Have I introduced myself to you?\n"
+SlateportCity_Text_YouDroveTeamAquaAway:
 # 1363 "data/maps/SlateportCity/scripts.pory"
-	.string "If not, my name's Scott.\p"
+	.string "嗯？哦，我记得你！\n"
 # 1364 "data/maps/SlateportCity/scripts.pory"
-	.string "I just saw Team Aqua run away from\n"
+	.string "你就是在橙华市\l"
 # 1365 "data/maps/SlateportCity/scripts.pory"
-	.string "here like they were stung.\p"
+	.string "我送学习装置的那个训练家。\p"
 # 1366 "data/maps/SlateportCity/scripts.pory"
-	.string "And even stranger, I think I saw\n"
+	.string "我跟你自我介绍过吗？\n"
 # 1367 "data/maps/SlateportCity/scripts.pory"
-	.string "Elite Four Drake walk out of here just\l"
+	.string "要是没有，我叫史考特。\p"
 # 1368 "data/maps/SlateportCity/scripts.pory"
-	.string "now. What a crazy day.\p"
+	.string "我刚才看见水舰队\n"
 # 1369 "data/maps/SlateportCity/scripts.pory"
-	.string "Anyway let me guess--you drove Team\n"
+	.string "像被蛰了一样从这儿跑了。\p"
 # 1370 "data/maps/SlateportCity/scripts.pory"
-	.string "Aqua away?$"
+	.string "更奇怪的是，我好像还看见\n"
 # 1371 "data/maps/SlateportCity/scripts.pory"
-
+	.string "四天王之一的源治\l"
 # 1372 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_MaybeThisTrainer:
+	.string "刚从里面出来。\l"
 # 1373 "data/maps/SlateportCity/scripts.pory"
-	.string "Scott: Hmm…\n"
+	.string "真是个疯狂的日子。\p"
 # 1374 "data/maps/SlateportCity/scripts.pory"
-	.string "Maybe, just maybe, this trainer…$"
+	.string "总之让我猜猜——\n"
 # 1375 "data/maps/SlateportCity/scripts.pory"
-
+	.string "是你把水舰队赶走的？$"
 # 1376 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_LetsRegisterEachOther:
+
 # 1377 "data/maps/SlateportCity/scripts.pory"
-	.string "Scott: All right! I think you're going\n"
+SlateportCity_Text_MaybeThisTrainer:
 # 1378 "data/maps/SlateportCity/scripts.pory"
-	.string "to become a good friend.\p"
+	.string "史考特：嗯……\n"
 # 1379 "data/maps/SlateportCity/scripts.pory"
-	.string "So, let's register each other in our\n"
+	.string "也许，只是也许，这个训练家……$"
 # 1380 "data/maps/SlateportCity/scripts.pory"
-	.string "PokéNavs.\p"
+
 # 1381 "data/maps/SlateportCity/scripts.pory"
-	.string "… … … … … …$"
+SlateportCity_Text_LetsRegisterEachOther:
 # 1382 "data/maps/SlateportCity/scripts.pory"
-
+	.string "史考特：好吧！我觉得你会\n"
 # 1383 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_RegisteredScott:
+	.string "成为我的好朋友。\p"
 # 1384 "data/maps/SlateportCity/scripts.pory"
-	.string "Registered this Scott person\n"
+	.string "那就在彼此的导航里\n"
 # 1385 "data/maps/SlateportCity/scripts.pory"
-	.string "in the PokéNav.$"
+	.string "登录一下吧。\p"
 # 1386 "data/maps/SlateportCity/scripts.pory"
-
+	.string "… … … … … …$"
 # 1387 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-# 1388 "data/maps/SlateportCity/scripts.pory"
-	.string "Scott: What I'd like to do is tag along\n"
-# 1389 "data/maps/SlateportCity/scripts.pory"
-	.string "with you, but I do want to keep an eye\l"
-# 1390 "data/maps/SlateportCity/scripts.pory"
-	.string "on the talents of other people, too.\p"
-# 1391 "data/maps/SlateportCity/scripts.pory"
-	.string "So, I'll be off to roam other towns\n"
-# 1392 "data/maps/SlateportCity/scripts.pory"
-	.string "a bit more.\p"
-# 1393 "data/maps/SlateportCity/scripts.pory"
-	.string "Be seeing you, {PLAYER}{KUN}!$"
-# 1394 "data/maps/SlateportCity/scripts.pory"
 
+# 1388 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_RegisteredScott:
+# 1389 "data/maps/SlateportCity/scripts.pory"
+	.string "在宝可梦导航里登录了\n"
+# 1390 "data/maps/SlateportCity/scripts.pory"
+	.string "这位叫史考特的人。$"
+# 1391 "data/maps/SlateportCity/scripts.pory"
+
+# 1392 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
+# 1393 "data/maps/SlateportCity/scripts.pory"
+	.string "史考特：我真想\n"
+# 1394 "data/maps/SlateportCity/scripts.pory"
+	.string "跟着你一起走，\l"
 # 1395 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Text_TakingBattleTentChallenge:
+	.string "不过我也想多看看\l"
 # 1396 "data/maps/SlateportCity/scripts.pory"
-	.string "Scott: Oh, hey!\n"
+	.string "别人的才能。\p"
 # 1397 "data/maps/SlateportCity/scripts.pory"
-	.string "If it isn't {PLAYER}{KUN}!\p"
+	.string "所以我再去别的城镇\n"
 # 1398 "data/maps/SlateportCity/scripts.pory"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
+	.string "转转。\p"
 # 1399 "data/maps/SlateportCity/scripts.pory"
-	.string "to take the Battle Tent challenge?\p"
+	.string "再见了，{PLAYER}！$"
 # 1400 "data/maps/SlateportCity/scripts.pory"
-	.string "Yeah! That's a good idea!\n"
+
 # 1401 "data/maps/SlateportCity/scripts.pory"
-	.string "That's a really great idea!\p"
+SlateportCity_Text_TakingBattleTentChallenge:
 # 1402 "data/maps/SlateportCity/scripts.pory"
-	.string "After all, a tough trainer is\n"
+	.string "史考特：哦，嘿！\n"
 # 1403 "data/maps/SlateportCity/scripts.pory"
-	.string "the perfect fit for the Battle Tent!\p"
+	.string "这不是{PLAYER}吗！\p"
 # 1404 "data/maps/SlateportCity/scripts.pory"
-	.string "Give it your best effort!$"
+	.string "{PLAYER}，让我猜猜——\n"
+# 1405 "data/maps/SlateportCity/scripts.pory"
+	.string "你是要去挑战\l"
+# 1406 "data/maps/SlateportCity/scripts.pory"
+	.string "对战帐篷吧？\p"
+# 1407 "data/maps/SlateportCity/scripts.pory"
+	.string "对！这主意不错！\n"
+# 1408 "data/maps/SlateportCity/scripts.pory"
+	.string "这主意真是太好了！\p"
+# 1409 "data/maps/SlateportCity/scripts.pory"
+	.string "毕竟，强壮的训练家\n"
+# 1410 "data/maps/SlateportCity/scripts.pory"
+	.string "最适合对战帐篷了！\p"
+# 1411 "data/maps/SlateportCity/scripts.pory"
+	.string "好好加油！$"

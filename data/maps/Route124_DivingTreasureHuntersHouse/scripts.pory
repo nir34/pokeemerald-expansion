@@ -291,62 +291,66 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_GreetingMan:
-	.string "My wife was quite the strong trainer\n"
-	.string "back in our youth.$"
+	.string "我妻子年轻时可是\n"
+	.string "个很强的训练家。$"
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "I'm the DIVING TREASURE HUNTER!\p"
-	.string "I'm the awesome dude who makes\n"
-	.string "deep-sea dives to gather treasures\l"
-	.string "resting at the bottom.$"
+	.string "我是潜水寻宝人！\p"
+	.string "我就是那个超厉害的\n"
+	.string "家伙，潜到深海\l"
+	.string "把沉在海底的\l"
+	.string "宝物捞上来。$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Tell me, have you seen any SHARDS of\n"
-	.string "tools made in ancient times?$"
+	.string "告诉我，你见过古代\n"
+	.string "工具的碎片吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "You haven't got any treasures\n"
-	.string "for me…\p"
-	.string "If you see any SHARDS, like the RED\n"
-	.string "SHARD, you've got to trade it with me!$"
+	.string "你没有我要的\n"
+	.string "宝物……\p"
+	.string "要是看到碎片，比如\n"
+	.string "红色碎片，一定要\l"
+	.string "拿来跟我换！$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Oh, hey! That…\n"
-	.string "That's a SHARD! I'm looking for those!\p"
-	.string "Oh, man, you've got to trade that\n"
-	.string "with me! I'll give you something good!$"
+	.string "哦，嘿！那……\n"
+	.string "那是碎片！我正\l"
+	.string "找这个！\p"
+	.string "哦，天啊，你一定\n"
+	.string "要跟我换！我给你\l"
+	.string "好东西！$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "What do you want to trade?$"
+	.string "你想换什么？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "You'll trade your {STR_VAR_1} for\n"
-	.string "my {STR_VAR_2}, then?$"
+	.string "你要用{STR_VAR_1}换\n"
+	.string "我的{STR_VAR_2}吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "It's a done deal!\n"
-	.string "Use that wisely!$"
+	.string "成交！\n"
+	.string "好好用啊！$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Do you want to trade something else?$"
+	.string "还要换别的吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Whoops, your BAG's full.\n"
-	.string "Get rid of some items, friend!$"
+	.string "哎呀，你的包包满了。\n"
+	.string "清掉一些道具吧，朋友！$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "No? That's a downer.\n"
-	.string "Well, if you change your mind, come back.$"
+	.string "不换？真扫兴。\n"
+	.string "好吧，改主意就回来。$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+	.string "{CLEAR_TO 0x0f}红色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}火之石{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+	.string "{CLEAR_TO 0x06}黄色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}雷之石{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+	.string "{CLEAR_TO 0x0c}蓝色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}水之石{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}想要道具{CLEAR_TO 0x7c}交换道具\n"
+	.string "{CLEAR_TO 0x08}绿色碎片{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}叶之石$"
 
 `
 
@@ -373,15 +377,15 @@ script Route124_DivingTreasureHuntersHouse_EventScript_ReceivedFormChangers
 }
 
 text Route124_TakeTheseFormChangers {
-	"Well, well. You must be quite the strong\n"
-	"trainer having made it all the way here,\l"
-	"especially in this heat!\p"
-	"Here, take these, I'm sure a trainer like\n"
-	"you can make good use of them."
+	"哎呀呀。能一路来到这里，\n"
+	"你一定是个相当强的训练家，\l"
+	"尤其是这么热的天！\p"
+	"来，这些给你，像你这样的\n"
+	"训练家一定用得上。"
 }
 
 text Route124_ExplainFormChangers {
-	"It's my understanding that you can\n"
-	"change the forms of some very powerful\l"
-	"Pokémon using those."
+	"据我所知，用这些可以\n"
+	"改变一些非常强大的\l"
+	"宝可梦的形态。"
 }

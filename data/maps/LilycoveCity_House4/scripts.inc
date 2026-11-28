@@ -25,18 +25,22 @@ LilycoveCity_House4_EventScript_Man2::
 # 13 "data/maps/LilycoveCity_House4/scripts.pory"
 LilycoveCity_House4_Text_MysteriesAtBottomOfSea:
 # 14 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "This planet's biggest mysteries are\n"
+	.string "这个星球最大的谜团\n"
 # 15 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "at the bottom of the sea.\p"
+	.string "都在海底。\p"
 # 16 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "Somebody said that, but I don't know…$"
+	.string "有人这么说，不过\n"
 # 17 "data/maps/LilycoveCity_House4/scripts.pory"
-
+	.string "我不太懂……$"
 # 18 "data/maps/LilycoveCity_House4/scripts.pory"
-LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
+
 # 19 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "There's a deep underwater trench\n"
+LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
 # 20 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "between MOSSDEEP and SOOTOPOLIS.\p"
+	.string "琉璃市和绿岭市之间有\n"
 # 21 "data/maps/LilycoveCity_House4/scripts.pory"
-	.string "That's what someone told me, anyway.$"
+	.string "一条很深的海底沟。\p"
+# 22 "data/maps/LilycoveCity_House4/scripts.pory"
+	.string "反正有人这么\n"
+# 23 "data/maps/LilycoveCity_House4/scripts.pory"
+	.string "告诉我的。$"

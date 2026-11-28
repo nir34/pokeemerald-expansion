@@ -1057,607 +1057,611 @@ Route109_EventScript_Elijah::
 # 529 "data/maps/Route109/scripts.pory"
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 # 530 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: Ahoy!\n"
+	.string "布林尼先生：嗨！\n"
 # 531 "data/maps/Route109/scripts.pory"
-	.string "We've made land in Slateport!\p"
+	.string "我们在凯那上岸了！\p"
 # 532 "data/maps/Route109/scripts.pory"
-	.string "I suppose you're going to visit Capt.\n"
+	.string "我想你是要去见史登\n"
 # 533 "data/maps/Route109/scripts.pory"
-	.string "Stern and deliver the Devon Goods?$"
+	.string "船长、送得文的货吧？$"
 # 534 "data/maps/Route109/scripts.pory"
 
 # 535 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineySailToDewfordQuestion:
 # 536 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: I thought you're supposed\n"
+	.string "布林尼先生：我以为你是\n"
 # 537 "data/maps/Route109/scripts.pory"
-	.string "to deliver the Devon Goods.\p"
+	.string "要送得文的货。\p"
 # 538 "data/maps/Route109/scripts.pory"
-	.string "Would you like to sail back to\n"
+	.string "那你要坐船回\n"
 # 539 "data/maps/Route109/scripts.pory"
-	.string "Dewford, then?$"
+	.string "武斗吗？$"
 # 540 "data/maps/Route109/scripts.pory"
 
 # 541 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineyDewfordItIs:
 # 542 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: Dewford it is, then!\p"
+	.string "布林尼先生：那就去\n"
 # 543 "data/maps/Route109/scripts.pory"
-	.string "Anchors aweigh!\n"
+	.string "武斗！\p"
 # 544 "data/maps/Route109/scripts.pory"
-	.string "Peeko, we're setting sail, my darling!$"
+	.string "起锚！\n"
 # 545 "data/maps/Route109/scripts.pory"
-
+	.string "皮皮，我们出海了，\l"
 # 546 "data/maps/Route109/scripts.pory"
-Route109_Text_BrineyDeliverDevonGoods:
+	.string "亲爱的！$"
 # 547 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: Then you go on and deliver\n"
+
 # 548 "data/maps/Route109/scripts.pory"
-	.string "the Devon Goods. I'll be waiting.$"
+Route109_Text_BrineyDeliverDevonGoods:
 # 549 "data/maps/Route109/scripts.pory"
-
+	.string "布林尼先生：那你去送\n"
 # 550 "data/maps/Route109/scripts.pory"
-DewfordTown_Text_BrineyLandedInSlateport:
+	.string "得文的货吧，我等着。$"
 # 551 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: Ahoy! We've made land in\n"
+
 # 552 "data/maps/Route109/scripts.pory"
-	.string "Slateport!\p"
+DewfordTown_Text_BrineyLandedInSlateport:
 # 553 "data/maps/Route109/scripts.pory"
-	.string "You just go on and tell me whenever\n"
+	.string "布林尼先生：嗨！我们在\n"
 # 554 "data/maps/Route109/scripts.pory"
-	.string "you want to set sail again!$"
+	.string "凯那上岸了！\p"
 # 555 "data/maps/Route109/scripts.pory"
-
+	.string "你什么时候想再出海，\n"
 # 556 "data/maps/Route109/scripts.pory"
-Route109_Text_BrineyWhereAreWeBound:
+	.string "告诉我一声就行！$"
 # 557 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: Ahoy!\n"
+
 # 558 "data/maps/Route109/scripts.pory"
-	.string "For you, I'll go out to sea anytime!\p"
+Route109_Text_BrineyWhereAreWeBound:
 # 559 "data/maps/Route109/scripts.pory"
-	.string "Now, my friend, where are we bound?$"
+	.string "布林尼先生：嗨！\n"
 # 560 "data/maps/Route109/scripts.pory"
-
+	.string "为了你，我随时出海！\p"
 # 561 "data/maps/Route109/scripts.pory"
-Route109_Text_BrineyTellMeWhenYouNeedToSail:
+	.string "那么，朋友，\n"
 # 562 "data/maps/Route109/scripts.pory"
-	.string "Mr. Briney: You just tell me whenever\n"
+	.string "我们去哪儿？$"
 # 563 "data/maps/Route109/scripts.pory"
-	.string "you need to set sail again!$"
+
 # 564 "data/maps/Route109/scripts.pory"
-
+Route109_Text_BrineyTellMeWhenYouNeedToSail:
 # 565 "data/maps/Route109/scripts.pory"
-Route109_Text_LittleKidsDartAround:
+	.string "布林尼先生：你什么时候\n"
 # 566 "data/maps/Route109/scripts.pory"
-	.string "Little kids can dart around so quickly…\p"
+	.string "需要再出海，\l"
 # 567 "data/maps/Route109/scripts.pory"
-	.string "You don't dare take your eyes off them\n"
+	.string "告诉我一声就行！$"
 # 568 "data/maps/Route109/scripts.pory"
-	.string "for an instant. It's very taxing.\p"
+
 # 569 "data/maps/Route109/scripts.pory"
-	.string "Mine are with my Pokémon, so they\n"
+Route109_Text_LittleKidsDartAround:
 # 570 "data/maps/Route109/scripts.pory"
-	.string "should be okay, but…$"
+	.string "小孩子跑得又快又\n"
 # 571 "data/maps/Route109/scripts.pory"
-
+	.string "难抓……\p"
 # 572 "data/maps/Route109/scripts.pory"
-Route109_Text_SandCastleTakingLongTime:
+	.string "一刻都不能把眼睛\n"
 # 573 "data/maps/Route109/scripts.pory"
-	.string "Our sand castle's taking a long time\n"
+	.string "移开。真累人。\p"
 # 574 "data/maps/Route109/scripts.pory"
-	.string "to make.$"
+	.string "我的孩子和我的宝可梦\n"
 # 575 "data/maps/Route109/scripts.pory"
-
+	.string "在一起，应该没事，\l"
 # 576 "data/maps/Route109/scripts.pory"
-Route109_Text_YouCanHaveThis:
+	.string "可是……$"
 # 577 "data/maps/Route109/scripts.pory"
-	.string "You can have this!$"
+
 # 578 "data/maps/Route109/scripts.pory"
-
+Route109_Text_SandCastleTakingLongTime:
 # 579 "data/maps/Route109/scripts.pory"
-Route109_Text_WereGoingToMakeBigCastle:
+	.string "我们的沙堡做起来\n"
 # 580 "data/maps/Route109/scripts.pory"
-	.string "We're going to get all the sand from\n"
+	.string "要好久。$"
 # 581 "data/maps/Route109/scripts.pory"
-	.string "the beach and make a big castle!\p"
+
 # 582 "data/maps/Route109/scripts.pory"
-	.string "And then we're going to be a king and\n"
+Route109_Text_YouCanHaveThis:
 # 583 "data/maps/Route109/scripts.pory"
-	.string "queen.\p"
+	.string "这个给你！$"
 # 584 "data/maps/Route109/scripts.pory"
-	.string "We'll let you be a servant.$"
+
 # 585 "data/maps/Route109/scripts.pory"
-
+Route109_Text_WereGoingToMakeBigCastle:
 # 586 "data/maps/Route109/scripts.pory"
-Route109_Text_ZigzagoonPicksUpLitter:
+	.string "我们要把沙滩上所有\n"
 # 587 "data/maps/Route109/scripts.pory"
-	.string "The water around these parts is clean.\p"
+	.string "沙子都拿来堆个大城堡！\p"
 # 588 "data/maps/Route109/scripts.pory"
-	.string "But, I get my Zigzagoon to pick up\n"
+	.string "然后我们当国王\n"
 # 589 "data/maps/Route109/scripts.pory"
-	.string "litter from the shoreline at times.\p"
+	.string "和王后。\p"
 # 590 "data/maps/Route109/scripts.pory"
-	.string "Dirty water becomes rain and joins our\n"
+	.string "我们让你当仆人。$"
 # 591 "data/maps/Route109/scripts.pory"
-	.string "rivers, which we drink from…\p"
+
 # 592 "data/maps/Route109/scripts.pory"
-	.string "If we pollute the sea, it all comes\n"
+Route109_Text_ZigzagoonPicksUpLitter:
 # 593 "data/maps/Route109/scripts.pory"
-	.string "back to haunt us eventually.$"
+	.string "这一带的水很干净。\p"
 # 594 "data/maps/Route109/scripts.pory"
-
+	.string "不过我有时候会让我的\n"
 # 595 "data/maps/Route109/scripts.pory"
-Route109_Text_ZigzagoonCry:
+	.string "蛇纹熊去捡岸边的\l"
 # 596 "data/maps/Route109/scripts.pory"
-	.string "Zigzagoon: Guguu?$"
+	.string "垃圾。\p"
 # 597 "data/maps/Route109/scripts.pory"
-
+	.string "脏水会变成雨，汇进\n"
 # 598 "data/maps/Route109/scripts.pory"
-Route109_Text_SeashoreHouseSign:
+	.string "我们喝的河里……\p"
 # 599 "data/maps/Route109/scripts.pory"
-	.string "Hot House\p"
+	.string "要是污染了大海，\n"
 # 600 "data/maps/Route109/scripts.pory"
-	.string "“May hot battles rage on hot sands!\n"
+	.string "最后都会报应到\l"
 # 601 "data/maps/Route109/scripts.pory"
-	.string "The place for hot trainers!”$"
+	.string "我们自己身上。$"
 # 602 "data/maps/Route109/scripts.pory"
 
 # 603 "data/maps/Route109/scripts.pory"
-Route109_Text_TrainerTipsSign:
+Route109_Text_ZigzagoonCry:
 # 604 "data/maps/Route109/scripts.pory"
-	.string "Trainer Tips\p"
+	.string "蛇纹熊：咕咕？$"
 # 605 "data/maps/Route109/scripts.pory"
-	.string "Some areas are blocked off until\n"
+
 # 606 "data/maps/Route109/scripts.pory"
-	.string "certain events are completed, such as\l"
+Route109_Text_SeashoreHouseSign:
 # 607 "data/maps/Route109/scripts.pory"
-	.string "obtaining a new Gym Badge.$"
+	.string "海边小屋\p"
 # 608 "data/maps/Route109/scripts.pory"
-
+	.string "“愿热烈的对战在\n"
 # 609 "data/maps/Route109/scripts.pory"
-
+	.string "热沙上继续！\l"
 # 610 "data/maps/Route109/scripts.pory"
-Route109_Text_ThanksForPlaying:
+	.string "炎热训练家的地方！”$"
 # 611 "data/maps/Route109/scripts.pory"
-	.string "Yo, trainer!\p"
+
 # 612 "data/maps/Route109/scripts.pory"
-	.string "Looks like you beat the trainers in the\n"
+Route109_Text_TrainerTipsSign:
 # 613 "data/maps/Route109/scripts.pory"
-	.string "Hot House no problem!\p"
+	.string "训练家提示\p"
 # 614 "data/maps/Route109/scripts.pory"
-	.string "Thanks for stopping by, and feel free\n"
+	.string "有些区域要完成特定\n"
 # 615 "data/maps/Route109/scripts.pory"
-	.string "to come take the challenge again\l"
+	.string "事件才会开放，\l"
 # 616 "data/maps/Route109/scripts.pory"
-	.string "anytime, yo!$"
+	.string "比如拿到新的道馆徽章。$"
+# 617 "data/maps/Route109/scripts.pory"
+
+# 618 "data/maps/Route109/scripts.pory"
+
+# 619 "data/maps/Route109/scripts.pory"
+Route109_Text_ThanksForPlaying:
+# 620 "data/maps/Route109/scripts.pory"
+	.string "哟，训练家！\p"
+# 621 "data/maps/Route109/scripts.pory"
+	.string "看来你轻松打赢了\n"
+# 622 "data/maps/Route109/scripts.pory"
+	.string "海边小屋的训练家！\p"
+# 623 "data/maps/Route109/scripts.pory"
+	.string "谢谢你顺路来，随时\n"
+# 624 "data/maps/Route109/scripts.pory"
+	.string "欢迎再来挑战，哟！$"
 
 Route109_EventScript_HotHouseGirl::
-# 620 "data/maps/Route109/scripts.pory"
+# 628 "data/maps/Route109/scripts.pory"
 	lock
-# 621 "data/maps/Route109/scripts.pory"
+# 629 "data/maps/Route109/scripts.pory"
 	faceplayer
-# 622 "data/maps/Route109/scripts.pory"
+# 630 "data/maps/Route109/scripts.pory"
 	goto_if_unset FLAG_BADGE02_GET, Route109_EventScript_SeashoreHouseGirlNoBadge
-# 623 "data/maps/Route109/scripts.pory"
+# 631 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_HotHouseFullIntro
-# 624 "data/maps/Route109/scripts.pory"
+# 632 "data/maps/Route109/scripts.pory"
 	closemessage
-# 625 "data/maps/Route109/scripts.pory"
+# 633 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	return
 
 
 Route109_EventScript_WhichRewardMenu::
-# 629 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_IntroQuestion
-# 631 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_WhichRewardMenu_Text_0, 2
-# 633 "data/maps/Route109/scripts.pory"
-	goto_if_unset FLAG_BADGE03_GET, Route109_EventScript_WhichRewardMenu_2
 # 637 "data/maps/Route109/scripts.pory"
+	msgbox Route109_Text_IntroQuestion
+# 639 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_WhichRewardMenu_Text_0, 2
+# 641 "data/maps/Route109/scripts.pory"
+	goto_if_unset FLAG_BADGE03_GET, Route109_EventScript_WhichRewardMenu_2
+# 645 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_2, 3
 Route109_EventScript_WhichRewardMenu_1:
-# 640 "data/maps/Route109/scripts.pory"
+# 648 "data/maps/Route109/scripts.pory"
 	goto_if_unset FLAG_BADGE04_GET, Route109_EventScript_WhichRewardMenu_6
-# 644 "data/maps/Route109/scripts.pory"
+# 652 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_4, 4
 Route109_EventScript_WhichRewardMenu_5:
-# 647 "data/maps/Route109/scripts.pory"
+# 655 "data/maps/Route109/scripts.pory"
 	goto_if_unset FLAG_BADGE05_GET, Route109_EventScript_WhichRewardMenu_10
-# 651 "data/maps/Route109/scripts.pory"
+# 659 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_6, 5
 Route109_EventScript_WhichRewardMenu_9:
-# 654 "data/maps/Route109/scripts.pory"
+# 662 "data/maps/Route109/scripts.pory"
 	goto_if_unset FLAG_BADGE06_GET, Route109_EventScript_WhichRewardMenu_14
-# 658 "data/maps/Route109/scripts.pory"
+# 666 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_8, 6
 Route109_EventScript_WhichRewardMenu_13:
-# 661 "data/maps/Route109/scripts.pory"
+# 669 "data/maps/Route109/scripts.pory"
 	goto_if_unset FLAG_BADGE07_GET, Route109_EventScript_WhichRewardMenu_18
-# 665 "data/maps/Route109/scripts.pory"
+# 673 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_10, 7
 Route109_EventScript_WhichRewardMenu_17:
-# 668 "data/maps/Route109/scripts.pory"
+# 676 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_11, MULTI_B_PRESSED
-# 671 "data/maps/Route109/scripts.pory"
+# 679 "data/maps/Route109/scripts.pory"
 	dynmultistack 0, 0, FALSE, 6, FALSE, 2, DYN_MULTICHOICE_CB_NONE
-# 673 "data/maps/Route109/scripts.pory"
+# 681 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_WhichRewardMenu_22
 Route109_EventScript_WhichRewardMenu_21:
-# 679 "data/maps/Route109/scripts.pory"
+# 687 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8005, VAR_RESULT
-# 682 "data/maps/Route109/scripts.pory"
+# 690 "data/maps/Route109/scripts.pory"
 	specialvar VAR_0x8006, GetNumBadges
-# 684 "data/maps/Route109/scripts.pory"
+# 692 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8006, VAR_0x8005
-# 685 "data/maps/Route109/scripts.pory"
+# 693 "data/maps/Route109/scripts.pory"
 	goto_if_lt Route109_EventScript_SorryNotEnoughBadges
-# 686 "data/maps/Route109/scripts.pory"
+# 694 "data/maps/Route109/scripts.pory"
 	buffernumberstring STR_VAR_1, VAR_0x8005
-# 688 "data/maps/Route109/scripts.pory"
+# 696 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 2
 	goto_if_eq Route109_EventScript_WhichRewardMenu_25
 Route109_EventScript_WhichRewardMenu_24:
-# 693 "data/maps/Route109/scripts.pory"
+# 701 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 3
 	goto_if_eq Route109_EventScript_WhichRewardMenu_28
 Route109_EventScript_WhichRewardMenu_27:
-# 698 "data/maps/Route109/scripts.pory"
+# 706 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 4
 	goto_if_eq Route109_EventScript_WhichRewardMenu_31
 Route109_EventScript_WhichRewardMenu_30:
-# 703 "data/maps/Route109/scripts.pory"
+# 711 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 5
 	goto_if_eq Route109_EventScript_WhichRewardMenu_34
 Route109_EventScript_WhichRewardMenu_33:
-# 708 "data/maps/Route109/scripts.pory"
+# 716 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 6
 	goto_if_eq Route109_EventScript_WhichRewardMenu_37
 Route109_EventScript_WhichRewardMenu_36:
-# 713 "data/maps/Route109/scripts.pory"
+# 721 "data/maps/Route109/scripts.pory"
 	compare VAR_0x8005, 7
 	goto_if_eq Route109_EventScript_WhichRewardMenu_40
 Route109_EventScript_WhichRewardMenu_39:
-# 718 "data/maps/Route109/scripts.pory"
+# 726 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_HotHouseNo
 	return
 
 Route109_EventScript_WhichRewardMenu_2:
-# 634 "data/maps/Route109/scripts.pory"
+# 642 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_1, 3
 	goto Route109_EventScript_WhichRewardMenu_1
 
 Route109_EventScript_WhichRewardMenu_6:
-# 641 "data/maps/Route109/scripts.pory"
+# 649 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_3, 4
 	goto Route109_EventScript_WhichRewardMenu_5
 
 Route109_EventScript_WhichRewardMenu_10:
-# 648 "data/maps/Route109/scripts.pory"
+# 656 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_5, 5
 	goto Route109_EventScript_WhichRewardMenu_9
 
 Route109_EventScript_WhichRewardMenu_14:
-# 655 "data/maps/Route109/scripts.pory"
+# 663 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_7, 6
 	goto Route109_EventScript_WhichRewardMenu_13
 
 Route109_EventScript_WhichRewardMenu_18:
-# 662 "data/maps/Route109/scripts.pory"
+# 670 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_WhichRewardMenu_Text_9, 7
 	goto Route109_EventScript_WhichRewardMenu_17
 
 Route109_EventScript_WhichRewardMenu_22:
-# 675 "data/maps/Route109/scripts.pory"
+# 683 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_HotHouseNo
 	goto Route109_EventScript_WhichRewardMenu_21
 
 Route109_EventScript_WhichRewardMenu_25:
-# 690 "data/maps/Route109/scripts.pory"
+# 698 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge2Options
 	goto Route109_EventScript_WhichRewardMenu_24
 
 Route109_EventScript_WhichRewardMenu_28:
-# 695 "data/maps/Route109/scripts.pory"
+# 703 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge3Options
 	goto Route109_EventScript_WhichRewardMenu_27
 
 Route109_EventScript_WhichRewardMenu_31:
-# 700 "data/maps/Route109/scripts.pory"
+# 708 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge4Options
 	goto Route109_EventScript_WhichRewardMenu_30
 
 Route109_EventScript_WhichRewardMenu_34:
-# 705 "data/maps/Route109/scripts.pory"
+# 713 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge5Options
 	goto Route109_EventScript_WhichRewardMenu_33
 
 Route109_EventScript_WhichRewardMenu_37:
-# 710 "data/maps/Route109/scripts.pory"
+# 718 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge6Options
 	goto Route109_EventScript_WhichRewardMenu_36
 
 Route109_EventScript_WhichRewardMenu_40:
-# 715 "data/maps/Route109/scripts.pory"
+# 723 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_Badge7Options
 	goto Route109_EventScript_WhichRewardMenu_39
 
 
 Route109_EventScript_Badge2Options::
-# 723 "data/maps/Route109/scripts.pory"
+# 731 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_BadgeRewardsQuestion
-# 725 "data/maps/Route109/scripts.pory"
+# 733 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_Badge2Options_Text_0, 1
-# 726 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_1, 2
-# 727 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_2, 3
-# 728 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_3, 4
-# 729 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
 # 734 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 1, DYN_MULTICHOICE_CB_NONE
+	dynmultipush Route109_EventScript_Badge2Options_Text_1, 2
+# 735 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_2, 3
 # 736 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_3, 4
+# 737 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 742 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 1, DYN_MULTICHOICE_CB_NONE
+# 744 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge2Options_2
 Route109_EventScript_Badge2Options_1:
-# 742 "data/maps/Route109/scripts.pory"
+# 750 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 743 "data/maps/Route109/scripts.pory"
+# 751 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge2Options_2:
-# 738 "data/maps/Route109/scripts.pory"
+# 746 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge2Options_1
 
 
 Route109_EventScript_Badge3Options::
-# 748 "data/maps/Route109/scripts.pory"
+# 756 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_BadgeRewardsQuestion
-# 750 "data/maps/Route109/scripts.pory"
+# 758 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_Badge3Options_Text_0, 5
-# 751 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge3Options_Text_1, 6
-# 752 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge3Options_Text_2, 7
-# 753 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge3Options_Text_3, 8
-# 754 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
 # 759 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 5, DYN_MULTICHOICE_CB_NONE
+	dynmultipush Route109_EventScript_Badge3Options_Text_1, 6
+# 760 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge3Options_Text_2, 7
 # 761 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge3Options_Text_3, 8
+# 762 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 767 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 5, DYN_MULTICHOICE_CB_NONE
+# 769 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge3Options_2
 Route109_EventScript_Badge3Options_1:
-# 767 "data/maps/Route109/scripts.pory"
+# 775 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 768 "data/maps/Route109/scripts.pory"
+# 776 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge3Options_2:
-# 763 "data/maps/Route109/scripts.pory"
+# 771 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge3Options_1
 
 
 Route109_EventScript_Badge4Options::
-# 773 "data/maps/Route109/scripts.pory"
+# 781 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_BadgeRewardsQuestion
-# 775 "data/maps/Route109/scripts.pory"
+# 783 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_Badge4Options_Text_0, 9
-# 776 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge4Options_Text_1, 10
-# 777 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge4Options_Text_2, 11
-# 778 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge4Options_Text_3, 12
-# 779 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
 # 784 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 9, DYN_MULTICHOICE_CB_NONE
+	dynmultipush Route109_EventScript_Badge4Options_Text_1, 10
+# 785 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge4Options_Text_2, 11
 # 786 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge4Options_Text_3, 12
+# 787 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 792 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 9, DYN_MULTICHOICE_CB_NONE
+# 794 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge4Options_2
 Route109_EventScript_Badge4Options_1:
-# 792 "data/maps/Route109/scripts.pory"
+# 800 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 793 "data/maps/Route109/scripts.pory"
+# 801 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge4Options_2:
-# 788 "data/maps/Route109/scripts.pory"
+# 796 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge4Options_1
 
 
 Route109_EventScript_Badge5Options::
-# 798 "data/maps/Route109/scripts.pory"
+# 806 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_BadgeRewardsQuestion
-# 800 "data/maps/Route109/scripts.pory"
+# 808 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_Badge5Options_Text_0, 13
-# 801 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge5Options_Text_1, 14
-# 802 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
-# 807 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 13, DYN_MULTICHOICE_CB_NONE
 # 809 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge5Options_Text_1, 14
+# 810 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 815 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 13, DYN_MULTICHOICE_CB_NONE
+# 817 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge5Options_2
 Route109_EventScript_Badge5Options_1:
-# 815 "data/maps/Route109/scripts.pory"
+# 823 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 816 "data/maps/Route109/scripts.pory"
+# 824 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge5Options_2:
-# 811 "data/maps/Route109/scripts.pory"
+# 819 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge5Options_1
 
 
 Route109_EventScript_Badge6Options::
-# 821 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_BadgeRewardsQuestion
-# 823 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge6Options_Text_0, 15
-# 824 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
 # 829 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 15, DYN_MULTICHOICE_CB_NONE
+	msgbox Route109_Text_BadgeRewardsQuestion
 # 831 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge6Options_Text_0, 15
+# 832 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 837 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 15, DYN_MULTICHOICE_CB_NONE
+# 839 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge6Options_2
 Route109_EventScript_Badge6Options_1:
-# 837 "data/maps/Route109/scripts.pory"
+# 845 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 838 "data/maps/Route109/scripts.pory"
+# 846 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge6Options_2:
-# 833 "data/maps/Route109/scripts.pory"
+# 841 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge6Options_1
 
 
 Route109_EventScript_Badge7Options::
-# 843 "data/maps/Route109/scripts.pory"
+# 851 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_BadgeRewardsQuestion
-# 845 "data/maps/Route109/scripts.pory"
+# 853 "data/maps/Route109/scripts.pory"
 	dynmultipush Route109_EventScript_Badge7Options_Text_0, 16
-# 846 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge7Options_Text_1, 17
-# 847 "data/maps/Route109/scripts.pory"
-	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
-# 852 "data/maps/Route109/scripts.pory"
-	dynmultistack 0, 0, FALSE, 6, FALSE, 16, DYN_MULTICHOICE_CB_NONE
 # 854 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge7Options_Text_1, 17
+# 855 "data/maps/Route109/scripts.pory"
+	dynmultipush Route109_EventScript_Badge2Options_Text_4, MULTI_B_PRESSED
+# 860 "data/maps/Route109/scripts.pory"
+	dynmultistack 0, 0, FALSE, 6, FALSE, 16, DYN_MULTICHOICE_CB_NONE
+# 862 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, MULTI_B_PRESSED
 	goto_if_eq Route109_EventScript_Badge7Options_2
 Route109_EventScript_Badge7Options_1:
-# 860 "data/maps/Route109/scripts.pory"
+# 868 "data/maps/Route109/scripts.pory"
 	copyvar VAR_0x8004, VAR_RESULT
-# 861 "data/maps/Route109/scripts.pory"
+# 869 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_ConfirmAndEnterHotHouse
 	return
 
 Route109_EventScript_Badge7Options_2:
-# 856 "data/maps/Route109/scripts.pory"
+# 864 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_WhichRewardMenu
 	goto Route109_EventScript_Badge7Options_1
 
 
 Route109_EventScript_ConfirmAndEnterHotHouse::
-# 866 "data/maps/Route109/scripts.pory"
+# 874 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_EnterCantLeave, MSGBOX_YESNO
-# 868 "data/maps/Route109/scripts.pory"
+# 876 "data/maps/Route109/scripts.pory"
 	compare VAR_RESULT, NO
 	goto_if_eq Route109_EventScript_ConfirmAndEnterHotHouse_2
 Route109_EventScript_ConfirmAndEnterHotHouse_1:
-# 874 "data/maps/Route109/scripts.pory"
-	copyvar VAR_HOT_HOUSE_STATE, VAR_0x8004
-# 875 "data/maps/Route109/scripts.pory"
-	setvar VAR_ENTERING_HOT_HOUSE, 1
-# 877 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_GoodLuckTrainer, MSGBOX_DEFAULT
-# 878 "data/maps/Route109/scripts.pory"
-	closemessage
-# 880 "data/maps/Route109/scripts.pory"
-	switch VAR_FACING
 # 882 "data/maps/Route109/scripts.pory"
+	copyvar VAR_HOT_HOUSE_STATE, VAR_0x8004
+# 883 "data/maps/Route109/scripts.pory"
+	setvar VAR_ENTERING_HOT_HOUSE, 1
+# 885 "data/maps/Route109/scripts.pory"
+	msgbox Route109_Text_GoodLuckTrainer, MSGBOX_DEFAULT
+# 886 "data/maps/Route109/scripts.pory"
+	closemessage
+# 888 "data/maps/Route109/scripts.pory"
+	switch VAR_FACING
+# 890 "data/maps/Route109/scripts.pory"
 	case DIR_EAST, Route109_EventScript_ConfirmAndEnterHotHouse_6
-# 887 "data/maps/Route109/scripts.pory"
+# 895 "data/maps/Route109/scripts.pory"
 	case DIR_NORTH, Route109_EventScript_ConfirmAndEnterHotHouse_7
-# 892 "data/maps/Route109/scripts.pory"
-	case DIR_WEST, Route109_EventScript_ConfirmAndEnterHotHouse_8
-# 898 "data/maps/Route109/scripts.pory"
-	applymovement LOCALID_LITTLE_GIRL, HotHouseGirlUnblockStepWest
-# 899 "data/maps/Route109/scripts.pory"
-	waitmovement 0
 # 900 "data/maps/Route109/scripts.pory"
+	case DIR_WEST, Route109_EventScript_ConfirmAndEnterHotHouse_8
+# 906 "data/maps/Route109/scripts.pory"
+	applymovement LOCALID_LITTLE_GIRL, HotHouseGirlUnblockStepWest
+# 907 "data/maps/Route109/scripts.pory"
+	waitmovement 0
+# 908 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerEnterHotHouseStepNorth
-# 901 "data/maps/Route109/scripts.pory"
+# 909 "data/maps/Route109/scripts.pory"
 	waitmovement 0
 Route109_EventScript_ConfirmAndEnterHotHouse_4:
-# 905 "data/maps/Route109/scripts.pory"
+# 913 "data/maps/Route109/scripts.pory"
 	warp MAP_ROUTE109_SEASHORE_HOUSE, 6, 9
-# 906 "data/maps/Route109/scripts.pory"
+# 914 "data/maps/Route109/scripts.pory"
 	waitstate
-# 907 "data/maps/Route109/scripts.pory"
+# 915 "data/maps/Route109/scripts.pory"
 	release
 	end
 
 Route109_EventScript_ConfirmAndEnterHotHouse_2:
-# 870 "data/maps/Route109/scripts.pory"
+# 878 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_HotHouseNo
 	goto Route109_EventScript_ConfirmAndEnterHotHouse_1
 
 Route109_EventScript_ConfirmAndEnterHotHouse_6:
-# 883 "data/maps/Route109/scripts.pory"
+# 891 "data/maps/Route109/scripts.pory"
 	applymovement LOCALID_LITTLE_GIRL, HotHouseGirlUnblockStepEast
-# 884 "data/maps/Route109/scripts.pory"
+# 892 "data/maps/Route109/scripts.pory"
 	waitmovement 0
-# 885 "data/maps/Route109/scripts.pory"
+# 893 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerEnterHotHouseStepEast
-# 886 "data/maps/Route109/scripts.pory"
+# 894 "data/maps/Route109/scripts.pory"
 	waitmovement 0
 	goto Route109_EventScript_ConfirmAndEnterHotHouse_4
 
 Route109_EventScript_ConfirmAndEnterHotHouse_7:
-# 888 "data/maps/Route109/scripts.pory"
+# 896 "data/maps/Route109/scripts.pory"
 	applymovement LOCALID_LITTLE_GIRL, HotHouseGirlUnblockStepWest
-# 889 "data/maps/Route109/scripts.pory"
+# 897 "data/maps/Route109/scripts.pory"
 	waitmovement 0
-# 890 "data/maps/Route109/scripts.pory"
+# 898 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerEnterHotHouseStepNorth
-# 891 "data/maps/Route109/scripts.pory"
+# 899 "data/maps/Route109/scripts.pory"
 	waitmovement 0
 	goto Route109_EventScript_ConfirmAndEnterHotHouse_4
 
 Route109_EventScript_ConfirmAndEnterHotHouse_8:
-# 893 "data/maps/Route109/scripts.pory"
+# 901 "data/maps/Route109/scripts.pory"
 	applymovement LOCALID_LITTLE_GIRL, HotHouseGirlUnblockStepWest
-# 894 "data/maps/Route109/scripts.pory"
+# 902 "data/maps/Route109/scripts.pory"
 	waitmovement 0
-# 895 "data/maps/Route109/scripts.pory"
+# 903 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerEnterHotHouseStepWest
-# 896 "data/maps/Route109/scripts.pory"
+# 904 "data/maps/Route109/scripts.pory"
 	waitmovement 0
 	goto Route109_EventScript_ConfirmAndEnterHotHouse_4
 
 
 Route109_EventScript_SeashoreHouseGirlNoBadge::
-# 912 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_PapasSpotGettingFixed
-# 913 "data/maps/Route109/scripts.pory"
-	release
-	end
-
-
-Route109_EventScript_HotHouseNo::
-# 918 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_HotHouseNo
-# 919 "data/maps/Route109/scripts.pory"
-	setvar VAR_HOT_HOUSE_STATE, 0
 # 920 "data/maps/Route109/scripts.pory"
-	setvar VAR_ENTERING_HOT_HOUSE, 0
+	msgbox Route109_Text_PapasSpotGettingFixed
 # 921 "data/maps/Route109/scripts.pory"
 	release
 	end
 
 
-Route109_EventScript_SorryNotEnoughBadges::
+Route109_EventScript_HotHouseNo::
 # 926 "data/maps/Route109/scripts.pory"
-	msgbox Route109_Text_SorryNotEnoughBadges
+	msgbox Route109_Text_HotHouseNo
 # 927 "data/maps/Route109/scripts.pory"
 	setvar VAR_HOT_HOUSE_STATE, 0
 # 928 "data/maps/Route109/scripts.pory"
@@ -1667,245 +1671,257 @@ Route109_EventScript_SorryNotEnoughBadges::
 	end
 
 
-HotHouseGirlUnblockStepWest::
+Route109_EventScript_SorryNotEnoughBadges::
+# 934 "data/maps/Route109/scripts.pory"
+	msgbox Route109_Text_SorryNotEnoughBadges
 # 935 "data/maps/Route109/scripts.pory"
-	walk_left
+	setvar VAR_HOT_HOUSE_STATE, 0
 # 936 "data/maps/Route109/scripts.pory"
-	face_right
+	setvar VAR_ENTERING_HOT_HOUSE, 0
 # 937 "data/maps/Route109/scripts.pory"
+	release
+	end
+
+
+HotHouseGirlUnblockStepWest::
+# 943 "data/maps/Route109/scripts.pory"
+	walk_left
+# 944 "data/maps/Route109/scripts.pory"
+	face_right
+# 945 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 HotHouseGirlUnblockStepEast::
-# 942 "data/maps/Route109/scripts.pory"
+# 950 "data/maps/Route109/scripts.pory"
 	walk_right
-# 943 "data/maps/Route109/scripts.pory"
+# 951 "data/maps/Route109/scripts.pory"
 	face_left
-# 944 "data/maps/Route109/scripts.pory"
+# 952 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 PlayerEnterHotHouseStepEast::
-# 949 "data/maps/Route109/scripts.pory"
+# 957 "data/maps/Route109/scripts.pory"
 	walk_right
-# 950 "data/maps/Route109/scripts.pory"
+# 958 "data/maps/Route109/scripts.pory"
 	walk_up
-# 951 "data/maps/Route109/scripts.pory"
+# 959 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 PlayerEnterHotHouseStepWest::
-# 956 "data/maps/Route109/scripts.pory"
+# 964 "data/maps/Route109/scripts.pory"
 	walk_left
-# 957 "data/maps/Route109/scripts.pory"
+# 965 "data/maps/Route109/scripts.pory"
 	walk_up
-# 958 "data/maps/Route109/scripts.pory"
+# 966 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 PlayerEnterHotHouseStepNorth::
-# 963 "data/maps/Route109/scripts.pory"
+# 971 "data/maps/Route109/scripts.pory"
 	walk_up
-# 964 "data/maps/Route109/scripts.pory"
+# 972 "data/maps/Route109/scripts.pory"
 	walk_up
-# 965 "data/maps/Route109/scripts.pory"
+# 973 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 PlayerEnteredHotHouse::
-# 970 "data/maps/Route109/scripts.pory"
+# 978 "data/maps/Route109/scripts.pory"
 	walk_up
-# 971 "data/maps/Route109/scripts.pory"
+# 979 "data/maps/Route109/scripts.pory"
 	step_end
 	return
 
 
 SetHotHouseGirlPermLoc::
-# 975 "data/maps/Route109/scripts.pory"
+# 983 "data/maps/Route109/scripts.pory"
 	setobjectxyperm LOCALID_LITTLE_GIRL, 11, 6
 	end
 
 
 Route109_EventScript_WhichRewardMenu_Text_0:
-# 631 "data/maps/Route109/scripts.pory"
-	.string "Badge 2$"
+# 639 "data/maps/Route109/scripts.pory"
+	.string "2枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_1:
-# 634 "data/maps/Route109/scripts.pory"
-	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}Badge 3{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 642 "data/maps/Route109/scripts.pory"
+	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}3枚徽章{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_EventScript_WhichRewardMenu_Text_2:
-# 637 "data/maps/Route109/scripts.pory"
-	.string "Badge 3$"
+# 645 "data/maps/Route109/scripts.pory"
+	.string "3枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_3:
-# 641 "data/maps/Route109/scripts.pory"
-	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}Badge 4{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 649 "data/maps/Route109/scripts.pory"
+	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}4枚徽章{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_EventScript_WhichRewardMenu_Text_4:
-# 644 "data/maps/Route109/scripts.pory"
-	.string "Badge 4$"
+# 652 "data/maps/Route109/scripts.pory"
+	.string "4枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_5:
-# 648 "data/maps/Route109/scripts.pory"
-	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}Badge 5{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 656 "data/maps/Route109/scripts.pory"
+	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}5枚徽章{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_EventScript_WhichRewardMenu_Text_6:
-# 651 "data/maps/Route109/scripts.pory"
-	.string "Badge 5$"
+# 659 "data/maps/Route109/scripts.pory"
+	.string "5枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_7:
-# 655 "data/maps/Route109/scripts.pory"
-	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}Badge 6{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 663 "data/maps/Route109/scripts.pory"
+	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}6枚徽章{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_EventScript_WhichRewardMenu_Text_8:
-# 658 "data/maps/Route109/scripts.pory"
-	.string "Badge 6$"
+# 666 "data/maps/Route109/scripts.pory"
+	.string "6枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_9:
-# 662 "data/maps/Route109/scripts.pory"
-	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}Badge 7{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 670 "data/maps/Route109/scripts.pory"
+	.string "{COLOR WHITE}{SHADOW LIGHT_GRAY}7枚徽章{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_EventScript_WhichRewardMenu_Text_10:
-# 665 "data/maps/Route109/scripts.pory"
-	.string "Badge 7$"
+# 673 "data/maps/Route109/scripts.pory"
+	.string "7枚徽章$"
 
 Route109_EventScript_WhichRewardMenu_Text_11:
-# 668 "data/maps/Route109/scripts.pory"
-	.string "Cancel$"
+# 676 "data/maps/Route109/scripts.pory"
+	.string "取消$"
 
 Route109_EventScript_Badge2Options_Text_0:
-# 725 "data/maps/Route109/scripts.pory"
-	.string "Tyrogue$"
+# 733 "data/maps/Route109/scripts.pory"
+	.string "无畏小子$"
 
 Route109_EventScript_Badge2Options_Text_1:
-# 726 "data/maps/Route109/scripts.pory"
-	.string "Pansage$"
+# 734 "data/maps/Route109/scripts.pory"
+	.string "花椰猴$"
 
 Route109_EventScript_Badge2Options_Text_2:
-# 727 "data/maps/Route109/scripts.pory"
-	.string "Panpour$"
+# 735 "data/maps/Route109/scripts.pory"
+	.string "冷水猴$"
 
 Route109_EventScript_Badge2Options_Text_3:
-# 728 "data/maps/Route109/scripts.pory"
-	.string "Pansear$"
+# 736 "data/maps/Route109/scripts.pory"
+	.string "爆香猴$"
 
 Route109_EventScript_Badge2Options_Text_4:
-# 729 "data/maps/Route109/scripts.pory"
-	.string "Back$"
+# 737 "data/maps/Route109/scripts.pory"
+	.string "返回$"
 
 Route109_EventScript_Badge3Options_Text_0:
-# 750 "data/maps/Route109/scripts.pory"
-	.string "Misdreavus$"
+# 758 "data/maps/Route109/scripts.pory"
+	.string "梦妖$"
 
 Route109_EventScript_Badge3Options_Text_1:
-# 751 "data/maps/Route109/scripts.pory"
-	.string "Pinsir$"
+# 759 "data/maps/Route109/scripts.pory"
+	.string "凯罗斯$"
 
 Route109_EventScript_Badge3Options_Text_2:
-# 752 "data/maps/Route109/scripts.pory"
-	.string "Heracross$"
+# 760 "data/maps/Route109/scripts.pory"
+	.string "赫拉克罗斯$"
 
 Route109_EventScript_Badge3Options_Text_3:
-# 753 "data/maps/Route109/scripts.pory"
-	.string "Scyther$"
+# 761 "data/maps/Route109/scripts.pory"
+	.string "飞天螳螂$"
 
 Route109_EventScript_Badge4Options_Text_0:
-# 775 "data/maps/Route109/scripts.pory"
-	.string "Eevee$"
+# 783 "data/maps/Route109/scripts.pory"
+	.string "伊布$"
 
 Route109_EventScript_Badge4Options_Text_1:
-# 776 "data/maps/Route109/scripts.pory"
-	.string "Magby$"
+# 784 "data/maps/Route109/scripts.pory"
+	.string "鸭嘴宝宝$"
 
 Route109_EventScript_Badge4Options_Text_2:
-# 777 "data/maps/Route109/scripts.pory"
-	.string "Elekid$"
+# 785 "data/maps/Route109/scripts.pory"
+	.string "电击怪$"
 
 Route109_EventScript_Badge4Options_Text_3:
-# 778 "data/maps/Route109/scripts.pory"
-	.string "Smoochum$"
+# 786 "data/maps/Route109/scripts.pory"
+	.string "迷唇娃$"
 
 Route109_EventScript_Badge5Options_Text_0:
-# 800 "data/maps/Route109/scripts.pory"
-	.string "Riolu$"
+# 808 "data/maps/Route109/scripts.pory"
+	.string "利欧路$"
 
 Route109_EventScript_Badge5Options_Text_1:
-# 801 "data/maps/Route109/scripts.pory"
-	.string "Togepi$"
+# 809 "data/maps/Route109/scripts.pory"
+	.string "波克比$"
 
 Route109_EventScript_Badge6Options_Text_0:
-# 823 "data/maps/Route109/scripts.pory"
-	.string "Type: Null$"
+# 831 "data/maps/Route109/scripts.pory"
+	.string "属性：空$"
 
 Route109_EventScript_Badge7Options_Text_0:
-# 845 "data/maps/Route109/scripts.pory"
-	.string "Charcadet$"
+# 853 "data/maps/Route109/scripts.pory"
+	.string "炭小侍$"
 
 Route109_EventScript_Badge7Options_Text_1:
-# 846 "data/maps/Route109/scripts.pory"
-	.string "Aerodactyl$"
+# 854 "data/maps/Route109/scripts.pory"
+	.string "化石翼龙$"
 
 Route109_Text_PapasSpotGettingFixed::
-# 979 "data/maps/Route109/scripts.pory"
-	.string "Yo, trainer!\p"
-	.string "Sorry, my papa's spot is getting fixed\n"
-	.string "up right now.\p"
-	.string "Make sure you come back later to see\n"
-	.string "the hottest spot in town, though!$"
+# 987 "data/maps/Route109/scripts.pory"
+	.string "哟，训练家！\p"
+	.string "抱歉，我老爸的场子现在\n"
+	.string "正在整修。\p"
+	.string "不过之后一定要再来看看\n"
+	.string "镇上最热火的场子！$"
 
 Route109_Text_HotHouseFullIntro::
-# 987 "data/maps/Route109/scripts.pory"
-	.string "Yo, trainer!\n"
-	.string "Looks like you've got the right stuff\l"
-	.string "to enter the new Hot House!\p"
-	.string "My papa totally revamped it, and we've\n"
-	.string "got all sorts of great rewards now, but\l"
-	.string "the trainers inside will be stronger if\l"
-	.string "you try to go for better rewards!\p"
-	.string "You can also come back and challenge\n"
-	.string "the Hot House as many times as you'd\l"
-	.string "like, {COLOR GREEN}{SHADOW LIGHT_GREEN}but be careful, because once you\l"
-	.string "enter, you can't leave or access your\l"
-	.string "portable PC!{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
+# 995 "data/maps/Route109/scripts.pory"
+	.string "哟，训练家！\n"
+	.string "看来你有实力闯进\l"
+	.string "全新的热焰馆！\p"
+	.string "我老爸把它彻底翻新了，\n"
+	.string "现在奖励五花八门，不过\l"
+	.string "你要是冲着更好的奖励去，\l"
+	.string "里面的训练家也会更强！\p"
+	.string "你也可以多次回来\n"
+	.string "挑战热焰馆，\l"
+	.string "随你多少次，{COLOR GREEN}{SHADOW LIGHT_GREEN}但要小心，因为\l"
+	.string "一旦进去，就不能离开，\l"
+	.string "也不能用便携电脑！{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}$"
 
 Route109_Text_IntroQuestion::
-# 1002 "data/maps/Route109/scripts.pory"
-	.string "Which reward level do you want to\n"
-	.string "compete for?$"
+# 1010 "data/maps/Route109/scripts.pory"
+	.string "你想参加哪个\n"
+	.string "等级的奖励赛？$"
 
 Route109_Text_BadgeRewardsQuestion::
-# 1007 "data/maps/Route109/scripts.pory"
-	.string "Which Badge {STR_VAR_1} reward Pokémon do you\n"
-	.string "want to compete for?$"
+# 1015 "data/maps/Route109/scripts.pory"
+	.string "你想竞争哪只{STR_VAR_1}徽章\n"
+	.string "奖励宝可梦？$"
 
 Route109_Text_EnterCantLeave::
-# 1012 "data/maps/Route109/scripts.pory"
-	.string "You got it, trainer!\n"
-	.string "Papa said I have to warn everyone again\l"
-	.string "before they go inside:\p"
-	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Once you enter the Hot House, you can't\n"
-	.string "leave or use your PC until you white out\l"
-	.string "or beat all the trainers; {COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}is that okay?$"
+# 1020 "data/maps/Route109/scripts.pory"
+	.string "明白了，训练家！\n"
+	.string "老爸说我得在每个人进去前\l"
+	.string "再提醒一遍：\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}进入热焰馆后，在全员倒下\n"
+	.string "或打赢所有训练家之前，不能\l"
+	.string "离开或使用电脑，{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}可以吗？$"
 
 Route109_Text_GoodLuckTrainer::
-# 1021 "data/maps/Route109/scripts.pory"
-	.string "That's what I'm talking about, yeah!\n"
-	.string "You got this, trainer, good luck in\l"
-	.string "there!$"
+# 1029 "data/maps/Route109/scripts.pory"
+	.string "这才对嘛！\n"
+	.string "你没问题的，训练家，\l"
+	.string "祝你好运！$"
 
 Route109_Text_HotHouseNo::
-# 1028 "data/maps/Route109/scripts.pory"
-	.string "No worries! The Hot House is open if you\n"
-	.string "change your mind!$"
+# 1036 "data/maps/Route109/scripts.pory"
+	.string "没关系！你要是改主意，\n"
+	.string "热焰馆随时开着！$"
 
 Route109_Text_SorryNotEnoughBadges::
-# 1033 "data/maps/Route109/scripts.pory"
-	.string "It looks like you don't have enough\n"
-	.string "Badges to compete for that reward yet.\l"
-	.string "Come back once you have more Badges!$"
+# 1041 "data/maps/Route109/scripts.pory"
+	.string "看来你的徽章还不够\n"
+	.string "参加那个等级的奖励赛。\l"
+	.string "等你拿到更多徽章再来吧！$"

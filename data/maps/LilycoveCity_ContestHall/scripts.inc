@@ -677,400 +677,412 @@ LilycoveCity_ContestHall_EventScript_SmartStageSign::
 # 339 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
 # 340 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "This Pokémon won the BEAUTY CONTEST\n"
+	.string "这只宝可梦以前在这里\n"
 # 341 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "here before.\p"
+	.string "赢过美丽大赛。\p"
 # 342 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Well, guess what? Today, I made it\n"
+	.string "结果你猜？今天我让它\n"
 # 343 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "win a SMARTNESS CONTEST!\p"
+	.string "赢了聪明大赛！\p"
 # 344 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My abilities scare even me…$"
+	.string "我的本事连我自己\n"
 # 345 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "都害怕……$"
 # 346 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
+
 # 347 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I've entered a bunch of CONTESTS,\n"
+LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 # 348 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "so I'm seeing how things work.\p"
+	.string "我参加过好多大赛，\n"
 # 349 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "If you're in a COOLNESS CONTEST,\n"
+	.string "所以看得懂门道。\p"
 # 350 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "cool moves go over as appeals.\p"
+	.string "在帅气大赛里，帅气的\n"
 # 351 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "But smart moves and cute moves\n"
+	.string "招式作为表演很受欢迎。\p"
 # 352 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "don't go over well, for instance.$"
+	.string "可聪明招式和可爱招式，\n"
 # 353 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "就不太吃香了，比如。$"
 # 354 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
+
 # 355 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "That young man who won earlier had\n"
+LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
 # 356 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "a whole bunch of different {POKEBLOCK}S.\p"
+	.string "刚才赢的那个年轻人，\n"
 # 357 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Can you win if you had that many\n"
+	.string "带了一大堆不同的{POKEBLOCK}。\p"
 # 358 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "of those things?$"
+	.string "带那么多，\n"
 # 359 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "就能赢吗？$"
 # 360 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
+
 # 361 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Whoa, isn't this place humongous!\p"
+LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
 # 362 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "The tension in the air… It's not\n"
+	.string "哇，这地方真大！\p"
 # 363 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "like a CONTEST hall in the sticks.$"
+	.string "空气里的紧张感……\n"
 # 364 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "和小地方的大会场\l"
 # 365 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
+	.string "完全不一样。$"
 # 366 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "MC: Okay, SMART Pokémon and their\n"
+
 # 367 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "训练家S, are you ready?!\p"
+LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
 # 368 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Give it your best showing!\n"
+	.string "主持人：好，聪明的宝可梦\n"
 # 369 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Let's appeal!$"
+	.string "和训练家们，准备好了吗？！\p"
 # 370 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "拿出最好的表现！\n"
 # 371 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
+	.string "开始表演！$"
 # 372 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "JUDGE: Are you enjoying this CONTEST?\p"
+
 # 373 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Come back with three friends, and\n"
+LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 # 374 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "all of you may enter a CONTEST!$"
+	.string "评委：大家享受这场\n"
 # 375 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "大赛吗？\p"
 # 376 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_EnteredWrongContest:
+	.string "带三个朋友回来，你们\n"
 # 377 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Ayayayay…\n"
+	.string "全都可以参赛！$"
 # 378 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I entered the wrong CONTEST.\p"
+
 # 379 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I entered this tough Pokémon in\n"
+LilycoveCity_ContestHall_Text_EnteredWrongContest:
 # 380 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "the SMARTNESS CONTEST…\p"
+	.string "哎呀呀呀……\n"
 # 381 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Come on, wow them with a smart-looking\n"
+	.string "我报错大赛了。\p"
 # 382 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "ROCK SMASH.$"
+	.string "我把这只强壮的宝可梦\n"
 # 383 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "报进了聪明大赛……\p"
 # 384 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
+	.string "来吧，用看起来很聪明的\n"
 # 385 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I've spent many a year, and all my\n"
+	.string "碎岩震住他们。$"
 # 386 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "wisdom besides, raising this Pokémon\l"
+
 # 387 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "to be smart.\p"
+LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 # 388 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "It won't be easily bested by some\n"
+	.string "我花了好多年，还有我\n"
 # 389 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "young pup's Pokémon.\p"
+	.string "全部的智慧，把这宝可梦\l"
 # 390 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My dear wife, are you seeing this?$"
+	.string "培养得很聪明。\p"
 # 391 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "它可不会被哪家小毛孩的\n"
 # 392 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
+	.string "宝可梦轻易比下去。\p"
 # 393 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "There it is!\p"
+	.string "亲爱的老伴，你看到了吗？$"
 # 394 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "If my Pokémon pulls a smart move next,\n"
+
 # 395 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "the audience's excitement will peak!$"
+LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
 # 396 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "就是这样！\p"
 # 397 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
+	.string "我的宝可梦下一步要是使出\n"
 # 398 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Oh, dear, no!\p"
+	.string "聪明招式，观众的\l"
 # 399 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My darling ZUBAT's LEECH LIFE is so\n"
+	.string "情绪就会到顶点！$"
 # 400 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "cute I kept using it over and over!\p"
+
 # 401 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "But these mean people don't appreciate\n"
+LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
 # 402 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "it at all!$"
+	.string "哦，不要！\p"
 # 403 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "我宝贝超音蝠的吸取\n"
 # 404 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
+	.string "太可爱了，我一直在用！\p"
 # 405 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Kiyaaah! You're beautiful, Grandpa!$"
+	.string "可这些没眼光的家伙\n"
 # 406 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "一点也不欣赏！$"
 # 407 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
-# 408 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Even when 训练家S enter the same\n"
-# 409 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "kind of Pokémon, they all seem to use\l"
-# 410 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "different moves for appeals.\p"
-# 411 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "It's just like the way people have\n"
-# 412 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "different styles for battling.$"
-# 413 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
+# 408 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
+# 409 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "呀啊啊！爷爷真帅！$"
+# 410 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+
+# 411 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
+# 412 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "就算训练家带同一种\n"
+# 413 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "宝可梦，大家用来\l"
 # 414 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
+	.string "表演的招式也不一样。\p"
 # 415 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I think the Pokémon look smarter\n"
+	.string "就像大家战斗的风格\n"
 # 416 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "than their 训练家S. By a lot.$"
+	.string "各不相同一样。$"
 # 417 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 418 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
+LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
 # 419 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "When all's said and done, I still love\n"
+	.string "我觉得宝可梦看起来\n"
 # 420 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "SMARTNESS CONTESTS.\p"
+	.string "比它们的训练家聪明。\l"
 # 421 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "That intellectual green color…\n"
+	.string "而且聪明得多。$"
 # 422 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "It's so… So… Cool.$"
+
 # 423 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
 # 424 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
+	.string "说到底，我还是最喜欢\n"
 # 425 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "MC: Are you entering the BEAUTY\n"
+	.string "聪明大赛。\p"
 # 426 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "CONTEST, too? Good luck!$"
+	.string "那种知性的绿色……\n"
 # 427 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "真是……真是……酷。$"
 # 428 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
+
 # 429 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "JUDGE: Ah, every Pokémon here is\n"
+LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
 # 430 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "a model of pristine beauty!\p"
+	.string "主持人：你也要参加\n"
 # 431 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Why, I almost forgot to score them!$"
+	.string "美丽大赛吗？祝你好运！$"
 # 432 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 433 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
+LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
 # 434 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "A Pokémon this beautiful…\n"
+	.string "评委：啊，这里的每只宝可梦\n"
 # 435 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "There isn't another one like it.\p"
+	.string "都是纯洁美丽的典范！\p"
 # 436 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Everyone's eyes will be glued to\n"
+	.string "我差点忘了打分了！$"
 # 437 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "my beauty.$"
+
 # 438 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
 # 439 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_OverdidGrooming:
+	.string "这么美的宝可梦……\n"
 # 440 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Waaaah!\p"
+	.string "再没有第二只了。\p"
 # 441 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I brushed and groomed my Pokémon\n"
+	.string "所有人的眼睛都会\n"
 # 442 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "carefully for this CONTEST…\p"
+	.string "粘在我的宝可梦上。$"
 # 443 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "But I overdid it…\n"
+
 # 444 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My Pokémon's coat turned all scraggly…\p"
+LilycoveCity_ContestHall_Text_OverdidGrooming:
 # 445 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "What should I do?$"
+	.string "哇啊啊！\p"
 # 446 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "为了这次大赛，我仔细地\n"
 # 447 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
+	.string "给宝可梦刷毛打扮……\p"
 # 448 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "This AURORA BEAM is so dazzling,\n"
+	.string "可我弄过头了……\n"
 # 449 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "the JUDGE won't be able to see it.\p"
+	.string "毛全乱糟糟的……\p"
 # 450 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Uh, wait a second…\n"
+	.string "我该怎么办？$"
 # 451 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "That'll be meaningless, then!$"
+
 # 452 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
 # 453 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
+	.string "这招极光光束太耀眼，\n"
 # 454 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "This pretty Pokémon looks just like\n"
+	.string "评委会看不见的。\p"
 # 455 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "me when I was younger.\p"
+	.string "呃，等一下……\n"
 # 456 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Right when I said that, my husband\n"
+	.string "那不就白费了吗！$"
 # 457 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "spewed the coffee he was drinking.\p"
-# 458 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Did I say something funny?$"
-# 459 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
+# 458 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
+# 459 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "这只漂亮的宝可梦，\n"
 # 460 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
+	.string "和我年轻时一模一样。\p"
 # 461 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "You know, if I win at a BEAUTY\n"
+	.string "我刚这么说，我丈夫就\n"
 # 462 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "CONTEST, sure it makes me\l"
+	.string "把嘴里的咖啡喷出来了。\p"
 # 463 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "happy. More than usual, anyway.$"
+	.string "我说了什么好笑的吗？$"
 # 464 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 465 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
+LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
 # 466 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Wahahahah!\p"
+	.string "你知道吗，在美丽大赛\n"
 # 467 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Will you take a gander at all those\n"
+	.string "赢下来，我当然会\l"
 # 468 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "pretty Pokémon!\l"
+	.string "高兴。反正比平时高兴。$"
 # 469 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I just love this sort of glitz!$"
+
 # 470 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
 # 471 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
+	.string "哇哈哈哈哈！\p"
 # 472 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "You can't always win on just beauty\n"
+	.string "你来看看这些漂亮的\n"
 # 473 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "alone.\p"
+	.string "宝可梦！我就爱\l"
 # 474 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "You have to groom your Pokémon so\n"
+	.string "这种华丽的感觉！$"
 # 475 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "it's nice and glossy like mine.$"
+
 # 476 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
 # 477 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
+	.string "光靠美丽是赢不了的。\p"
 # 478 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "MC: Uh-oh! Hello!\n"
+	.string "你得把宝可梦梳理得\n"
 # 479 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "We're in the middle of a CONTEST!\p"
+	.string "像我的这样光亮。$"
 # 480 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Please enter at our registration\n"
+
 # 481 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "counter and come out, okay?$"
+LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
 # 482 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "主持人：哎呀！你好！\n"
 # 483 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
+	.string "大赛正进行中呢！\p"
 # 484 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "JUDGE: Oh, such charming and cute\n"
+	.string "请先到报名处报名\n"
 # 485 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "appeals!\p"
+	.string "再出来，好吗？$"
 # 486 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Oh, my goodness! What a perfectly\n"
-# 487 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "adorable WATER SPORT appeal!$"
-# 488 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
+# 487 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
+# 488 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "评委：哦，多么迷人可爱的\n"
 # 489 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
+	.string "表演啊！\p"
 # 490 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Oh, no… My sweet AZURILL was\n"
+	.string "天啊！这个可爱的\n"
 # 491 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "distracted by another Pokémon.$"
+	.string "水之运动表演完美无缺！$"
 # 492 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 493 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
+LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
 # 494 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My Pokémon has never won in a battle,\n"
+	.string "哦，不……我可爱的露力丽\n"
 # 495 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "but put it in a CONTEST and look out!$"
+	.string "被别的宝可梦分心了。$"
 # 496 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 497 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
+LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
 # 498 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My Pokémon's PETAL DANCE is a marvel\n"
+	.string "我的宝可梦从没在对战\n"
 # 499 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "of elegance.\p"
+	.string "赢过，可一进大赛\l"
 # 500 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I won't let anyone disturb its\n"
+	.string "你就看着吧！$"
 # 501 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "performance.$"
+
 # 502 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
 # 503 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
+	.string "我宝可梦的花瓣舞\n"
 # 504 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Everyone's Pokémon are very cute.\p"
+	.string "优雅得惊人。\p"
 # 505 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "However, if my Pokémon were to make\n"
+	.string "我不会让任何人\n"
 # 506 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "a cute appeal…\p"
+	.string "打扰它的表演。$"
 # 507 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I'm sure that it would be so much \n"
+
 # 508 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "cuter than the others.$"
+LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
 # 509 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "大家的宝可梦都很可爱。\p"
 # 510 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_MyChildIsInContest:
+	.string "不过，要是我的宝可梦\n"
 # 511 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "My child is in this CONTEST.$"
+	.string "做出可爱的表演……\p"
 # 512 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "我相信一定比别的\n"
 # 513 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_ComeOnDear:
+	.string "宝可梦可爱得多。$"
 # 514 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Come on, dear. Go for it!\n"
-# 515 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Your Pokémon is the best!$"
-# 516 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
+# 515 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_MyChildIsInContest:
+# 516 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "我的孩子正在参加\n"
 # 517 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
+	.string "这场大赛。$"
 # 518 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I think that girl over there is\n"
+
 # 519 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "the cutest of the lot.\p"
+LilycoveCity_ContestHall_Text_ComeOnDear:
 # 520 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "What's that? They're judging\n"
+	.string "加油，宝贝。上啊！\n"
 # 521 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Pokémon by their looks?$"
+	.string "你的宝可梦最棒！$"
 # 522 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 523 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
+LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
 # 524 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "Ohh, seeing all these cute Pokémon,\n"
+	.string "我觉得那边那个女孩\n"
 # 525 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "they make we want to get my own!\p"
+	.string "是全场最可爱的。\p"
 # 526 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "I'm going to go catch some!$"
+	.string "什么？他们是在按外表\n"
 # 527 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "给宝可梦打分？$"
 # 528 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_BeautyContestStage:
+
 # 529 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "BEAUTY CONTEST STAGE\n"
+LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
 # 530 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "BE ALLURED BY BEAUTIFUL Pokémon!$"
+	.string "哦，看到这么多可爱的\n"
 # 531 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-
+	.string "宝可梦，我也想养一只！\p"
 # 532 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_CuteContestStage:
+	.string "我这就去抓！$"
 # 533 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "CUTENESS CONTEST STAGE\n"
-# 534 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "BE CHARMED BY CUTE Pokémon!$"
-# 535 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
+# 534 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_BeautyContestStage:
+# 535 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "美丽大赛会场\n"
 # 536 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-LilycoveCity_ContestHall_Text_SmartContestStage:
+	.string "被美丽的宝可梦迷住吧！$"
 # 537 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "SMARTNESS CONTEST STAGE\n"
+
 # 538 "data/maps/LilycoveCity_ContestHall/scripts.pory"
-	.string "BE IMPRESSED BY SMART Pokémon!$"
+LilycoveCity_ContestHall_Text_CuteContestStage:
+# 539 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "可爱大赛会场\n"
+# 540 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "被可爱的宝可梦迷住吧！$"
+# 541 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+
+# 542 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+LilycoveCity_ContestHall_Text_SmartContestStage:
+# 543 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "聪明大赛会场\n"
+# 544 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+	.string "被聪明的宝可梦折服吧！$"

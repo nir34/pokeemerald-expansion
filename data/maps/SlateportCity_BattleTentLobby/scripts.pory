@@ -279,39 +279,39 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "So, like, I couldn't find myself any\n"
-	.string "Pokémon that were, like, for me.\p"
-	.string "So, I figured, like, hey, I should file\n"
-	.string "a complaint to the guy there?\p"
-	.string "And he wouldn't hear me out, like, hey!\n"
-	.string "So, like, total bummer, man!\p"
-	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!$"
+	.string "所以啊，我一直找不到\n"
+	.string "适合自己的宝可梦。\p"
+	.string "所以我就想，嘿，我该去\n"
+	.string "跟那家伙投诉一下？\p"
+	.string "可他根本不听我说！\n"
+	.string "真是气死人了！\p"
+	.string "喂，你！闭嘴，知道吗？\n"
+	.string "就，拿上这个吧！$"
 
 SlateportCity_BattleTentLobby_Text_ExplainThief:
-	.string "That's, like, TM46, you know?\n"
-	.string "I saw it fall out of one of those Team\p"
-	.string "Aqua member's pocket and snatched it\n"
-	.string "up. I have no need for it, but maybe you\l"
-	.string "can put it to good use.$"
+	.string "那是学习器46号，知道吧？\p"
+	.string "我看见它从水舰队成员的\n"
+	.string "口袋里掉出来，就捡了。\l"
+	.string "我用不上，也许你能\l"
+	.string "派上用场。$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG Pokémon,\n"
-	.string "but maybe I'll try using some for\l"
-	.string "a change of pace.\p"
-	.string "Who knows, I might even get to like\n"
-	.string "them!$"
+	.string "我不太喜欢虫宝可梦，\n"
+	.string "不过也许换个心情\l"
+	.string "试着用用看。\p"
+	.string "说不定我会喜欢上\n"
+	.string "它们呢！$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
-	.string "You can battle all you want here even\n"
-	.string "if you don't have any tough Pokémon.$"
+	.string "就算没有强力的宝可梦，\n"
+	.string "在这里也能尽情对战。$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-	.string "Wouldn't it be nice if they had more of\n"
-	.string "a selection?$"
+	.string "要是种类再多一些\n"
+	.string "就好了。$"
 
 SlateportCity_BattleTentLobby_Text_UnderDevelopment:
-	.string "The Battle Tent is currently\n"
-	.string "under development.$"
+	.string "对战帐篷目前\n"
+	.string "正在开发中。$"
 
 `

@@ -1,234 +1,234 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
-	.string "Dad: Hi, {PLAYER}!\p"
-	.string "I just received a very rare Berry.\n"
-	.string "I'd like you to have it.$"
+	.string "爸爸：嗨，{PLAYER}！\p"
+	.string "我刚收到一颗非常稀有的树果。\n"
+	.string "我想把它给你。$"
 
 Route104_Text_PlantBerriesInSoilTakeThis:
-	.string "If you see Berries growing in loamy\n"
-	.string "soil, feel free to take them.\p"
-	.string "But make sure you plant a Berry in the\n"
-	.string "same spot. That's common courtesy.\p"
-	.string "Here, I'll share this with you.$"
+	.string "你要是看到肥沃土壤里长出的树果，\n"
+	.string "尽可以摘。\p"
+	.string "不过一定要在同一处\n"
+	.string "再种下一颗树果。这是基本的礼貌。\p"
+	.string "来，我分你一份。$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
-	.string "The way you look, you must be a\n"
-	.string "trainer, no?\p"
-	.string "Trainers often make Pokémon hold\n"
-	.string "Berries.\p"
-	.string "It's up to you whether to grow Berries\n"
-	.string "or use them.$"
+	.string "看你这打扮，一定是训练家吧？\p"
+	.string "训练家常常让宝可梦\n"
+	.string "携带树果。\p"
+	.string "是种树果还是用树果，\n"
+	.string "全看你自己。$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry:
-	.string "I watered the plants every day.\n"
-	.string "They grew lots of flowers.\p"
-	.string "And they gave me lots of Berries, too.\p"
-	.string "Here you go!\n"
-	.string "You can have it!$"
+	.string "我每天都给植物浇水。\n"
+	.string "它们开出了好多花。\p"
+	.string "还给了我好多树果。\p"
+	.string "给你！\n"
+	.string "你拿去吧！$"
 
 Route111_Text_GoingToTryToMakeDifferentColorBerries:
-	.string "I'm going to try really hard and make\n"
-	.string "Berries in different colors.\p"
-	.string "I hope you try hard, too!$"
+	.string "我要好好努力，种出\n"
+	.string "不同颜色的树果。\p"
+	.string "希望你也努力！$"
 
 Route111_Text_WhatColorBerriesToLookForToday:
-	.string "I wonder what color Berries I'll look\n"
-	.string "for today?$"
+	.string "不知道今天该去找\n"
+	.string "什么颜色的树果呢？$"
 
 Route114_Text_LoveUsingBerryCrushShareBerry:
-	.string "I love using the Berry Crush machine,\n"
-	.string "so I'm collecting Berries.\p"
-	.string "I'll share one with you, if you'd like.$"
+	.string "我很喜欢用树果混合机，\n"
+	.string "所以在收集树果。\p"
+	.string "你要是愿意，我分你一颗。$"
 
 Route114_Text_TryBerryCrushWithFriends:
-	.string "You should try the Berry Crush\n"
-	.string "machine with your friends.$"
+	.string "你该和朋友一起试试\n"
+	.string "树果混合机。$"
 
 Route114_Text_FunToThinkAboutBerries:
-	.string "Which Berry should be planted?\n"
-	.string "Should you use or hoard Berries?\p"
-	.string "It's fun to think about.$"
+	.string "该种哪种树果？\n"
+	.string "树果是用掉还是攒着？\p"
+	.string "想想就很有意思。$"
 
 Route120_Text_BerriesExpressionOfLoveIsntIt:
-	.string "Berries grow by soaking up sunlight.\p"
-	.string "We help the Berries grow by watering\n"
-	.string "them regularly.\p"
-	.string "It's an expression of love, isn't it?$"
+	.string "树果靠吸收阳光成长。\p"
+	.string "我们定时浇水，\n"
+	.string "帮树果长大。\p"
+	.string "这也是一种爱的表达，对吧？$"
 
 Route120_Text_YesYouUnderstand:
-	.string "Yes, yes.\n"
-	.string "You understand what I mean.\p"
-	.string "You should take this.$"
+	.string "对，对。\n"
+	.string "你明白我的意思。\p"
+	.string "这个你该收下。$"
 
 Route120_Text_MakeYourOwnImpressions:
-	.string "Oh… But it is important to make your\n"
-	.string "own impressions, I guess…\p"
-	.string "You can have this.$"
+	.string "哦……不过自己形成看法\n"
+	.string "也很重要，我想……\p"
+	.string "这个给你。$"
 
 Route120_Text_BerryIsRareRaiseItWithCare:
-	.string "I think that Berry is rare.\n"
-	.string "I hope you raise it with loving care.$"
+	.string "我觉得那颗树果很稀有。\n"
+	.string "希望你能用心好好培育它。$"
 
 Route120_Text_IllGetMoreBerriesFromBerryMaster:
-	.string "I'll get more Berries from\n"
-	.string "the Berry Master.$"
+	.string "我会再去树果大师那里\n"
+	.string "多拿些树果。$"
 
 LilycoveCity_Text_BerrySuitsYou:
-	.string "When it gets right down to it…\p"
-	.string "The same way suits suit me perfectly,\n"
-	.string "a crisp breeze suits the sea.\p"
-	.string "And you, a Berry suits you to a “T”…\p"
-	.string "Why should that be so?$"
+	.string "说到底……\p"
+	.string "就像西装最适合我，\n"
+	.string "清爽的风最适合大海。\p"
+	.string "而你，树果最适合你……\p"
+	.string "为什么会这样呢？$"
 
 LilycoveCity_Text_BecauseYoureTrainer:
-	.string "When it gets right down to it…\p"
-	.string "It's because you're a trainer!$"
+	.string "说到底……\p"
+	.string "因为你是训练家！$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon:
-	.string "When it gets right down to it…\p"
-	.string "The way dignified simplicity suits me,\n"
-	.string "{POKEBLOCK}S perfectly suit Pokémon.$"
+	.string "说到底……\p"
+	.string "就像高雅的朴素最适合我，\n"
+	.string "宝可方块最适合宝可梦。$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
-	.string "You may call me the Berry Master.\p"
-	.string "I dream of filling the world with\n"
-	.string "beautiful flowers, so I raise Berries\l"
-	.string "and hand them out to everyone.\p"
-	.string "You're deserving of one!$"
+	.string "你可以叫我树果大师。\p"
+	.string "我梦想让世界开满美丽的花，\n"
+	.string "所以我培育树果，\l"
+	.string "分给大家。\p"
+	.string "你配得上这一颗！$"
 
 Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother:
-	.string "Why be stingy?\n"
-	.string "Take another!$"
+	.string "何必小气呢？\n"
+	.string "再拿一颗！$"
 
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop:
-	.string "Be sure to visit the PRETTY PETAL\n"
-	.string "flower shop near RUSTBORO.\p"
-	.string "Let flowers fill the world!$"
+	.string "一定要去卡那兹附近的\n"
+	.string "美丽花店看看。\p"
+	.string "让世界开满花！$"
 
 Route123_BerryMastersHouse_Text_DoneForToday:
-	.string "I'm done for today.\n"
-	.string "Come again another day.\p"
-	.string "Let flowers fill the world!$"
+	.string "我今天已经给完了。\n"
+	.string "改天再来吧。\p"
+	.string "让世界开满花！$"
 
 Route123_BerryMastersHouse_Text_HeardAGoodSayingLately:
-	.string "The way my husband grows Berries,\n"
-	.string "oh, he's the best 放进了world.\p"
-	.string "He makes me proud, that he does.\p"
-	.string "Incidentally, child, have you heard\n"
-	.string "a good saying lately?$"
+	.string "我丈夫种树果的本事，\n"
+	.string "哦，那可是世界第一。\p"
+	.string "他让我很骄傲。\p"
+	.string "对了，孩子，你最近听过\n"
+	.string "什么好话吗？$"
 
 Route123_BerryMastersHouse_Text_InspirationalTakeThis:
-	.string "Ah! What a remarkable saying!\n"
-	.string "Inspirational, it is!\p"
-	.string "I want you to have this.$"
+	.string "啊！这话说得真了不起！\n"
+	.string "真让人受鼓舞！\p"
+	.string "这个我想给你。$"
 
 Route123_BerryMastersHouse_Text_GoodSayingTakeThis:
-	.string "Oh! A good saying it is.\n"
-	.string "You're quite remarkable.\p"
-	.string "I want you to have this.$"
+	.string "哦！这话说得好。\n"
+	.string "你相当了不起。\p"
+	.string "这个我想给你。$"
 
 Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife:
-	.string "Our four grandchildren should become\n"
-	.string "more accomplished than my husband.\p"
-	.string "Joy never goes out of my life!$"
+	.string "我们的四个孙子该比我丈夫\n"
+	.string "更有出息才行。\p"
+	.string "我人生中的快乐从没断过！$"
 
 Route123_BerryMastersHouse_Text_Ah:
-	.string "Ah…$"
+	.string "啊……$"
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
-	.string "Hello!\p"
-	.string "This is the PRETTY PETAL flower shop.\n"
-	.string "Spreading flowers all over the world!$"
+	.string "你好！\p"
+	.string "这里是美丽花店。\n"
+	.string "把花传遍全世界！$"
 
 Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries:
-	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "Berries?$"
+	.string "{PLAYER}{KUN}，你想了解\n"
+	.string "树果吗？$"
 
 Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries:
-	.string "Your name is?\p"
-	.string "{PLAYER}{KUN}.\n"
-	.string "That's a nice name.\p"
-	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "Berries?$"
+	.string "你叫什么名字？\p"
+	.string "{PLAYER}{KUN}。\n"
+	.string "这名字真好听。\p"
+	.string "{PLAYER}{KUN}，你想了解\n"
+	.string "树果吗？$"
 
 Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
-	.string "Berries grow on trees that thrive\n"
-	.string "only in soft, loamy soil.\p"
-	.string "If you take some Berries, be sure to\n"
-	.string "plant one 放进了loamy soil again.\p"
-	.string "A planted Berry will soon sprout,\n"
-	.string "grow into a plant, flower beautifully,\l"
-	.string "then grow Berries again.\p"
-	.string "I want to see the whole wide world\n"
-	.string "filled with beautiful flowers.\l"
-	.string "That's my dream.\p"
-	.string "Please help me, {PLAYER}{KUN}. Plant Berries\n"
-	.string "and bring more flowers into the world.$"
+	.string "树果只长在松软肥沃\n"
+	.string "土壤里的树上。\p"
+	.string "摘了树果后，一定要\n"
+	.string "再在松软土壤里种下一个。\p"
+	.string "种下的树果很快会发芽，\n"
+	.string "长成植株，开出美丽的花，\l"
+	.string "然后再次结出树果。\p"
+	.string "我想看到整个世界\n"
+	.string "都开满美丽的花。\l"
+	.string "那是我的梦想。\p"
+	.string "请帮帮我，{PLAYER}{KUN}。\n"
+	.string "种下树果，让世界多些花。$"
 
 Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
-	.string "Flowers bring so much happiness to\n"
-	.string "people, don't they?$"
+	.string "花能给人带来这么多幸福，\n"
+	.string "对吧？$"
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
-	.string "Hello!\p"
-	.string "The more attention you give to flowers,\n"
-	.string "the more beautifully they bloom.\p"
-	.string "You'll like tending flowers. I'm sure\n"
-	.string "of it. You can have this.$"
+	.string "你好！\p"
+	.string "你对花越用心，\n"
+	.string "它们就开得越漂亮。\p"
+	.string "你一定会喜欢照料花的，\n"
+	.string "我肯定。这个给你。$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
-	.string "While Berry plants are growing,\n"
-	.string "water them with the Wailmer Pail.\p"
-	.string "Oh, another thing.\p"
-	.string "If you don't pick Berries for a while,\n"
-	.string "they'll drop off onto the ground.\l"
-	.string "But they'll sprout again.\p"
-	.string "Isn't that awesome?\n"
-	.string "It's like they have the will to live.$"
+	.string "树果正在生长时，\n"
+	.string "就用吼鲸水壶浇水。\p"
+	.string "哦，还有一件事。\p"
+	.string "要是你很久不摘树果，\n"
+	.string "它们会掉到地上。\l"
+	.string "不过它们还会再发芽。\p"
+	.string "是不是很棒？\n"
+	.string "就像它们有活下去的意志。$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-	.string "I'm trying to be like my big sisters.\n"
-	.string "I'm growing flowers, too!\p"
-	.string "Here you go!\n"
-	.string "It's for you!$"
+	.string "我想像姐姐们一样。\n"
+	.string "我也在种花！\p"
+	.string "给你！\n"
+	.string "这是给你的！$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
-	.string "You can plant a Berry and grow it big,\n"
-	.string "or you can make a Pokémon hold it.\p"
-	.string "But now they have a machine that mixes\n"
-	.string "up different Berries and makes candies\l"
-	.string "for Pokémon.\p"
-	.string "I want some candy, too.$"
+	.string "你可以种树果，把它养大，\n"
+	.string "也可以让宝可梦携带。\p"
+	.string "不过现在有机器能把不同\n"
+	.string "树果混合起来，做成给宝可梦\l"
+	.string "吃的糖果。\p"
+	.string "我也想尝尝糖果。$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
-	.string "Hi, what's your name?\p"
+	.string "嗨，你叫什么名字？\p"
 	.string "… … …  … … …  … … …\n"
-	.string "Okay. That's nice!\p"
-	.string "My name is Kiri.\p"
-	.string "My mommy and daddy named me that so\n"
-	.string "I would grow healthy and warmhearted.\l"
-	.string "That's what they wished.\p"
-	.string "You can have one of these.$"
+	.string "好。真好听！\p"
+	.string "我叫小雾。\p"
+	.string "爸爸妈妈给我起这名字，是希望我\n"
+	.string "健康又温柔。\l"
+	.string "那是他们的心愿。\p"
+	.string "这个给你一颗。$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:
-	.string "Kiri will give you this Berry, too!\n"
-	.string "I really like it lots!$"
+	.string "小雾再送你这颗树果！\n"
+	.string "我真的很喜欢它！$"
 
 SootopolisCity_Text_WhatKindOfWishInYourName:
-	.string "I wonder what kind of wish is included\n"
-	.string "in your name.$"
+	.string "不知道你的名字里\n"
+	.string "藏着什么样的心愿。$"
 
 SootopolisCity_Text_LikeSeasonBornIn:
-	.string "Spring, summer, autumn, and winter.\p"
-	.string "If you're born in springtime, do you like\n"
-	.string "the spring, and if you're born in the\l"
-	.string "summer, do you like the summer?$"
+	.string "春、夏、秋、冬。\p"
+	.string "要是生在春天，你会喜欢\n"
+	.string "春天吗？生在夏天的人，\l"
+	.string "会喜欢夏天吗？$"
 
 SootopolisCity_Text_ThenILoveAutumn:
-	.string "Then Kiri was born 放进了autumn,\n"
-	.string "so I love the autumn!\p"
-	.string "Which season do you like?$"
+	.string "后来纪莉出生在秋天，\n"
+	.string "所以我就喜欢秋天！\p"
+	.string "你喜欢哪个季节？$"
 
 SootopolisCity_Text_OhDoesntMatter:
-	.string "Oh…\n"
-	.string "It doesn't matter…\p"
-	.string "There's so much that I want to know…$"
+	.string "哦……\n"
+	.string "没关系……\p"
+	.string "我想知道的事情\n"
+	.string "太多了……$"

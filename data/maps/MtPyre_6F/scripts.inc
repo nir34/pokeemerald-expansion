@@ -61,78 +61,86 @@ MtPyre_6F_EventScript_Cedric::
 # 31 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_ValerieIntro:
 # 32 "data/maps/MtPyre_6F/scripts.pory"
-	.string "When I'm here…\n"
+	.string "我在这里的时候……\n"
 # 33 "data/maps/MtPyre_6F/scripts.pory"
-	.string "A curious power flows into me…$"
+	.string "有一股奇妙的力量\l"
 # 34 "data/maps/MtPyre_6F/scripts.pory"
-
+	.string "流进身体……$"
 # 35 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValerieDefeat:
+
 # 36 "data/maps/MtPyre_6F/scripts.pory"
-	.string "The power is ebbing away…$"
+MtPyre_6F_Text_ValerieDefeat:
 # 37 "data/maps/MtPyre_6F/scripts.pory"
-
+	.string "力量正在退去……$"
 # 38 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValeriePostBattle:
+
 # 39 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Perhaps the power is from the spirits\n"
+MtPyre_6F_Text_ValeriePostBattle:
 # 40 "data/maps/MtPyre_6F/scripts.pory"
-	.string "of Pokémon in fitful sleep here…$"
+	.string "也许这股力量来自在这里\n"
 # 41 "data/maps/MtPyre_6F/scripts.pory"
-
+	.string "不安沉睡的宝可梦灵魂……$"
 # 42 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValerieRegister:
+
 # 43 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Fufufu… I lost the match, but…\n"
+MtPyre_6F_Text_ValerieRegister:
 # 44 "data/maps/MtPyre_6F/scripts.pory"
-	.string "I have this little ability…\p"
+	.string "呵呵呵……我输了对战，\n"
 # 45 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Without ever laying my hands on\n"
+	.string "不过我有点小本事……\p"
 # 46 "data/maps/MtPyre_6F/scripts.pory"
-	.string "your PokéNav… Hiyah!$"
+	.string "我的手完全没碰到\n"
 # 47 "data/maps/MtPyre_6F/scripts.pory"
-
+	.string "你的导航……\l"
 # 48 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValerieRematchIntro:
+	.string "嘿呀！$"
 # 49 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Behind you…\n"
+
 # 50 "data/maps/MtPyre_6F/scripts.pory"
-	.string "What is it…$"
+MtPyre_6F_Text_ValerieRematchIntro:
 # 51 "data/maps/MtPyre_6F/scripts.pory"
-
+	.string "你身后……\n"
 # 52 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValerieRematchDefeat:
+	.string "有东西……$"
 # 53 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Something faded away…$"
+
 # 54 "data/maps/MtPyre_6F/scripts.pory"
-
+MtPyre_6F_Text_ValerieRematchDefeat:
 # 55 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_ValeriePostRematch:
+	.string "有什么东西\n"
 # 56 "data/maps/MtPyre_6F/scripts.pory"
-	.string "The Pokémon at rest here…\n"
+	.string "消失了……$"
 # 57 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Sometimes, they play…$"
+
 # 58 "data/maps/MtPyre_6F/scripts.pory"
-
+MtPyre_6F_Text_ValeriePostRematch:
 # 59 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_CedricIntro:
+	.string "在这里安息的宝可梦……\n"
 # 60 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Have you lost your bearings?\n"
+	.string "有时候，它们会玩耍……$"
 # 61 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Have no fear for I am here!$"
-# 62 "data/maps/MtPyre_6F/scripts.pory"
 
+# 62 "data/maps/MtPyre_6F/scripts.pory"
+MtPyre_6F_Text_CedricIntro:
 # 63 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_CedricDefeat:
+	.string "你迷路了吗？\n"
 # 64 "data/maps/MtPyre_6F/scripts.pory"
-	.string "Weren't you lost?$"
+	.string "别怕，有我在！$"
 # 65 "data/maps/MtPyre_6F/scripts.pory"
 
 # 66 "data/maps/MtPyre_6F/scripts.pory"
-MtPyre_6F_Text_CedricPostBattle:
+MtPyre_6F_Text_CedricDefeat:
 # 67 "data/maps/MtPyre_6F/scripts.pory"
-	.string "I had this feeling that a lost 训练家\n"
+	.string "你不是迷路了吗？$"
 # 68 "data/maps/MtPyre_6F/scripts.pory"
-	.string "would be panicked and easy to beat.\p"
+
 # 69 "data/maps/MtPyre_6F/scripts.pory"
-	.string "It's dirty and I won't try it again…$"
+MtPyre_6F_Text_CedricPostBattle:
+# 70 "data/maps/MtPyre_6F/scripts.pory"
+	.string "我感觉迷路的训练家\n"
+# 71 "data/maps/MtPyre_6F/scripts.pory"
+	.string "会慌慌张张，很好对付。\p"
+# 72 "data/maps/MtPyre_6F/scripts.pory"
+	.string "这招不光彩，\n"
+# 73 "data/maps/MtPyre_6F/scripts.pory"
+	.string "我不会再用了……$"

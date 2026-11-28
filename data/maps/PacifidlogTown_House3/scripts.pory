@@ -52,40 +52,41 @@ PacifidlogTown_House3_EventScript_Girl::
 	end
 
 PacifidlogTown_House3_Text_WillingToTradeIt:
-	.string "I found this weird robot bird thing…\n"
-	.string "I'm not a huge fan, I kind of wanted to\l"
-	.string "find the original.\p"
-	.string "Say, you wouldn't happen to have a\n"
-	.string "Delibird would you?\p"
-	.string "I'll trade you this Iron Bundle for it\n"
-	.string "if you do!$"
+	.string "我找到了这个怪模怪样\n"
+	.string "的机器鸟……我不太\l"
+	.string "喜欢，我想要的是\l"
+	.string "原版。\p"
+	.string "对了，你该不会有\n"
+	.string "信使鸟吧？\p"
+	.string "有的话，我用这个\n"
+	.string "铁包袱跟你换！$"
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou:
-	.string "Awesome, it's the original thing!\n"
-	.string "I don't know where this cheap knock off\l"
-	.string "came from, but you can never beat the\l"
-	.string "real deal.\p"
-	.string "Thank you so much!$"
+	.string "太好了，是原版！\n"
+	.string "我不知道这个廉价\l"
+	.string "仿货是从哪儿来的，\l"
+	.string "但真货永远最强。\p"
+	.string "太谢谢你了！$"
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon:
-	.string "Hey that's not a Delibird!\n"
-	.string "What are you trying to pull here?$"
+	.string "嘿，那不是信使鸟！\n"
+	.string "你想糊弄我？$"
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything:
-	.string "Oh, so you're not going to go through\n"
-	.string "with this?\p"
-	.string "That's cool. I'm not desperate to make\n"
-	.string "a trade or anything.$"
+	.string "哦，那你不换了？\p"
+	.string "也好。我也不是\n"
+	.string "非要交换。$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
-	.string "I don't even know where you found\n"
-	.string "this Delibird, I searched high and low\l"
-	.string "and all I found was that weird robot.$"
+	.string "我都不知道你是在\n"
+	.string "哪儿找到这只信使鸟的，\l"
+	.string "我到处找，只找到那个\l"
+	.string "怪机器。$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
-	.string "Is that a Pokédex?\p"
-	.string "Did you get to meet a lot of different\n"
-	.string "Pokémon?\p"
-	.string "I wish I was like you.$"
+	.string "那是宝可梦图鉴？\p"
+	.string "你是不是见到了很多\n"
+	.string "不同的宝可梦？\p"
+	.string "真希望我也像你一样。$"
 
 `

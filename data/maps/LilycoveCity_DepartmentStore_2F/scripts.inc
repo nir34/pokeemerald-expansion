@@ -131,33 +131,33 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 # 66 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 # 67 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "Learn to use items properly.\n"
+	.string "学会正确使用道具。\n"
 # 68 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "That's basic, really.$"
+	.string "这其实是最基本的。$"
 # 69 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 
 # 70 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband:
 # 71 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "My husband is waiting at home.\n"
+	.string "我丈夫在家等着。\n"
 # 72 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "What would make a good gift for him?$"
+	.string "给他买什么好呢？$"
 # 73 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 
 # 74 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 # 75 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "I'm leaving on a long journey soon.\n"
+	.string "我马上要出远门。\n"
 # 76 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "I need to stock up on items.$"
+	.string "得囤些道具。$"
 # 77 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 
 # 78 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
 LilycoveCity_DepartmentStore_2F_Text_HereTakeThis:
 # 79 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "Oh, here, it looks like you should\n"
+	.string "哦，这个，看来你\n"
 # 80 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
-	.string "have this!$"
+	.string "应该收下这个！$"
 
 LilycoveCity_DepartmentStore_2F_EventScript_PokefanF::
 # 85 "data/maps/LilycoveCity_DepartmentStore_2F/scripts.pory"
