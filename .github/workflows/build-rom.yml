@@ -1,0 +1,155 @@
+name: Build ROM
+
+# 每次 push / PR / 手动 / 每周一次，在 GitHub 免费云端编译 pokeemerald.gba
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - 'pokeemerald.gba'      # 机器人提交 ROM 时不重复触发
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      commit_rom:
+        description: '构建完成后把 pokeemerald.gba 提交回本分支'
+        type: boolean
+        default: true
+  schedule:
+    - cron: '0 20 * * 0'       # 每周一 04:00 (UTC+8)
+
+concurrency:
+  group: build-rom-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: make all (modern)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      GAME_VERSION: EMERALD
+      GAME_REVISION: 0
+      GAME_LANGUAGE: ENGLISH
+      UNUSED_ERROR: 0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # 用 INSTALL.md 里官方推荐的 apt 工具链（gcc 13），
+      # 而不是 devkitpro/devkitarm:latest —— 后者已经升到 gcc 16，
+      # 其 stddef.h 里的 nullptr 会让 src/agb_flash*.c 直接编译失败。
+      - name: 安装工具链
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential binutils-arm-none-eabi gcc-arm-none-eabi \
+            libnewlib-arm-none-eabi libpng-dev
+          arm-none-eabi-gcc --version | head -1
+
+      - name: 准备预生成文件（仓库未内置 poryscript）
+        # data/*.inc 是仓库里的权威版本，但 Makefile 里有 data/%.inc: data/%.pory 规则。
+        # 全新 clone 后 mtime 相同，make 会去调用不存在的 tools/poryscript/poryscript 而失败。
+        run: |
+          find data -name '*.inc'  -exec touch {} +
+          find data -name '*.pory' -exec touch -d '2020-01-01 00:00:00' {} +
+
+      - name: 编译
+        id: build
+        run: |
+          set +e
+          # 仓库里提交了旧的 pokeemerald.gba，先删掉，避免误判“构建成功”
+          rm -f pokeemerald.gba pokeemerald.elf pokeemerald.map
+          make -j"$(nproc)" -O all > build.log 2>&1
+          rc=$?
+          echo "make exit=$rc"
+          tail -60 build.log
+          if [ "$rc" -ne 0 ]; then
+            msg=$(grep -aE '\*\*\*|: error|Error [0-9]|No such file|cannot' build.log \
+                  | tail -6 | tr -d '\r' | tr '\n' '~' | cut -c1-1500)
+            echo "::error title=make 失败::$msg"
+            exit "$rc"
+          fi
+
+      - name: 校验 ROM
+        run: |
+          set -euo pipefail
+          test -f pokeemerald.gba || { echo "::error::没有生成 pokeemerald.gba"; exit 1; }
+          size=$(stat -c%s pokeemerald.gba)
+          echo "ROM 大小: $size 字节"
+          test "$size" = "33554432" || { echo "::error::ROM 大小异常"; exit 1; }
+          title=$(dd if=pokeemerald.gba bs=1 skip=160 count=12 2>/dev/null | tr -d '\0')
+          code=$(dd if=pokeemerald.gba bs=1 skip=172 count=4 2>/dev/null)
+          echo "标题: ${title}"
+          echo "代码: ${code}"
+          test "$code" = "BPEE" || { echo "::error::游戏代码不是 BPEE"; exit 1; }
+          sha1sum pokeemerald.gba | tee rom.sha1
+          if git diff --quiet -- pokeemerald.gba; then
+            echo "::notice::仓库里的 pokeemerald.gba 与本次构建一致"
+          else
+            echo "::warning::仓库里的 pokeemerald.gba 已过期（与本次构建不一致）"
+          fi
+
+      - name: 上传产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokeemerald-${{ github.sha }}
+          path: |
+            pokeemerald.gba
+            pokeemerald.map
+            rom.sha1
+            build.log
+          retention-days: 30
+
+      - name: 把新 ROM 提交回分支
+        if: |
+          (github.event_name == 'pull_request') ||
+          (github.event_name == 'workflow_dispatch' && inputs.commit_rom)
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          set -uo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            # 以远端最新提交为基准，只提交 pokeemerald.gba 这一处变化，避免 non-fast-forward
+            git fetch --depth=1 origin "${BRANCH}" || { sleep 5; continue; }
+            git reset --soft FETCH_HEAD
+            git add -f pokeemerald.gba
+            if git diff --cached --quiet; then
+              echo "ROM 与远端一致，无需提交"
+              exit 0
+            fi
+            git commit -q -m "chore(rom): 云端构建 $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]" || true
+            if git push origin "HEAD:${BRANCH}" 2>push.err; then
+              echo "已推送第 $i 次尝试"
+              exit 0
+            fi
+            echo "第 $i 次推送失败:"; tail -3 push.err
+            sleep 5
+          done
+          echo "::error title=提交 ROM 失败::$(tail -4 push.err | tr -d '\r' | tr '\n' '~' | cut -c1-800)"
+          exit 1
+
+  release:
+    name: 发布 Release（打 tag 时）
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - name: 下载产物
+        uses: actions/download-artifact@v4
+        with:
+          name: pokeemerald-${{ github.sha }}
+
+      - name: 创建 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            pokeemerald.gba
+            rom.sha1
