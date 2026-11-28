@@ -14,6 +14,42 @@
 #include "dynamic_placeholder_text_util.h"
 #include "fonts.h"
 
+// 当前文本颜色（调色板索引），由 GenerateFontHalfRowLookupTable() 写入。
+// CJK 字模是直接画进「解压后的 4bpp 图块缓冲」的，所以必须用这三个真实索引，
+// 不能写死成 2/3，否则在不同调色板的窗口里会画错颜色。
+static u16 sLastTextBgColor;
+static u16 sLastTextFgColor;
+static u16 sLastTextShadowColor;
+
+#define CJK_GLYPH_WIDTH  12
+#define CJK_GLYPH_HEIGHT 12
+
+// 原版文字调色板里，同一组索引在不同窗口含义完全不同：
+// 例如 graphics/battle_interface/text.pal 的 1 号是纯红、3 号是橙色，
+// 而普通对话框的 1 号才是白色背景、3 号才是灰色投影。
+// 所以只有当投影色确实是「中性灰」时才画 1px 阴影，否则会把 12x12 的
+// 字块糊成一块彩色（用户看到的红块就是这么来的）。
+static bool32 CjkShadowIsUsable(u16 shadowColor, u16 bgColor, u16 fgColor, u16 windowId)
+{
+    u16 palNum, rgb;
+    u32 r, g, b, max, min;
+
+    if (shadowColor == bgColor || shadowColor == fgColor)
+        return FALSE;
+
+    palNum = gWindows[windowId].window.paletteNum;
+    rgb = gPlttBufferUnfaded[palNum * 16 + shadowColor];
+    if (rgb == 0)
+        return FALSE; // 调色板还没载入，别画出一团黑
+
+    r = rgb & 0x1F;
+    g = (rgb >> 5) & 0x1F;
+    b = (rgb >> 10) & 0x1F;
+    max = (r > g) ? ((r > b) ? r : b) : ((g > b) ? g : b);
+    min = (r < g) ? ((r < b) ? r : b) : ((g < b) ? g : b);
+    return (max - min) <= 6; // 只接受灰阶（RGB 三通道接近）
+}
+
 static void SetCjkGlyphPixel(u32 x, u32 y, u8 color)
 {
     u8 *dst = (y < 8) ? ((u8 *)gCurGlyph.gfxBufferTop + y * 4) : ((u8 *)gCurGlyph.gfxBufferBottom + (y - 8) * 4);
@@ -24,40 +60,52 @@ static void SetCjkGlyphPixel(u32 x, u32 y, u8 color)
 }
 
 // 12x12 1bpp CJK glyphs. The stored bitmap only holds the ink; the 1px drop
-// shadow is derived here so that CJK text gets the same shadow colour (index 3)
-// the Latin fonts bake into their glyphs, instead of looking thin and washed
-// out next to them.
-static void DecompressGlyph_Cjk12(u8 hi, u8 lo)
+// shadow is derived here so that CJK text gets the same shadow the Latin fonts
+// bake into their glyphs, instead of looking thin and washed out next to them.
+static void DecompressGlyph_Cjk12(u8 hi, u8 lo, bool32 drawShadow)
 {
     u32 idx = (u32)(hi - 0x21) * 247 + lo;
     const u8 *glyph;
-    u16 rows[12];
+    u16 rows[CJK_GLYPH_HEIGHT];
     u32 y, x;
+    u8 fg = sLastTextFgColor;
+    u8 shadow = sLastTextShadowColor;
+
     if (idx >= CJK_FONT_COUNT)
         idx = 0;
     glyph = gFontCjk12_Glyphs[idx];
-    for (y = 0; y < 12; y++)
+    for (y = 0; y < CJK_GLYPH_HEIGHT; y++)
         rows[y] = ((u16)glyph[y * 2] << 4) | (glyph[y * 2 + 1] >> 4);
-    memset(gCurGlyph.gfxBufferTop, 0x11, sizeof(gCurGlyph.gfxBufferTop));
-    memset(gCurGlyph.gfxBufferBottom, 0x11, sizeof(gCurGlyph.gfxBufferBottom));
-    for (y = 0; y < 12; y++)
+
+    // 一律用 0（透明）清屏，不铺背景色：
+    // 拉丁字体的背景色只落在紧贴笔画的小方框内，看不出来；
+    // 而 12x12 的 CJK 几乎填满整格，铺 bgColor 就会在
+    // 「1 号色不是白/透明」的调色板里糊出整块颜色。
+    memset(gCurGlyph.gfxBufferTop, 0, sizeof(gCurGlyph.gfxBufferTop));
+    memset(gCurGlyph.gfxBufferBottom, 0, sizeof(gCurGlyph.gfxBufferBottom));
+
+    for (y = 0; y < CJK_GLYPH_HEIGHT; y++)
     {
-        for (x = 0; x < 12; x++)
+        for (x = 0; x < CJK_GLYPH_WIDTH; x++)
         {
             if (rows[y] & (1 << (11 - x)))
-                SetCjkGlyphPixel(x, y, 2);
+                SetCjkGlyphPixel(x, y, fg);
         }
     }
-    for (y = 0; y < 11; y++)
+    if (drawShadow)
     {
-        for (x = 0; x < 11; x++)
+        for (y = 0; y < CJK_GLYPH_HEIGHT - 1; y++)
         {
-            if ((rows[y] & (1 << (11 - x))) && !(rows[y + 1] & (1 << (10 - x))))
-                SetCjkGlyphPixel(x + 1, y + 1, 3);
+            for (x = 0; x < CJK_GLYPH_WIDTH - 1; x++)
+            {
+                // 右下 1px 投影：右下角不是墨迹时才落影，避免糊掉笔画
+                if ((rows[y] & (1 << (11 - x))) && !(rows[y + 1] & (1 << (10 - x))))
+                    SetCjkGlyphPixel(x + 1, y + 1, shadow);
+            }
         }
     }
-    gCurGlyph.width = 12;
-    gCurGlyph.height = 12;
+    gCurGlyph.width = CJK_GLYPH_WIDTH;
+    gCurGlyph.height = CJK_GLYPH_HEIGHT;
 }
 
 static u16 RenderText(struct TextPrinter *);
@@ -96,10 +144,6 @@ static EWRAM_DATA struct TextPrinter sTempTextPrinter = {0};
 static EWRAM_DATA struct TextPrinter sTextPrinters[WINDOWS_MAX] = {0};
 
 static u16 sFontHalfRowLookupTable[0x51];
-static u16 sLastTextBgColor;
-static u16 sLastTextFgColor;
-static u16 sLastTextShadowColor;
-
 COMMON_DATA const struct FontInfo *gFonts = NULL;
 COMMON_DATA bool8 gDisableTextPrinters = 0;
 COMMON_DATA struct TextGlyph gCurGlyph = {0};
@@ -1182,7 +1226,11 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 if (currChar >= 0x21)
                 {
                     u8 lo = *textPrinter->printerTemplate.currentChar++;
-                    DecompressGlyph_Cjk12(currChar, lo);
+                    bool32 drawShadow = CjkShadowIsUsable(textPrinter->printerTemplate.shadowColor,
+                                                          textPrinter->printerTemplate.bgColor,
+                                                          textPrinter->printerTemplate.fgColor,
+                                                          textPrinter->printerTemplate.windowId);
+                    DecompressGlyph_Cjk12(currChar, lo, drawShadow);
                     CopyGlyphToWindow(textPrinter);
                     textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
                     return RENDER_PRINT;
@@ -1680,7 +1728,18 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
             case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
             case EXT_CTRL_CODE_WAIT_SE:
             case EXT_CTRL_CODE_FILL_WINDOW:
+                break;
             default:
+                // CJK 字形是 "FC hi lo" 三字节、固定 12px 宽，必须计入行宽，
+                // 否则按宽度右对齐/居中/换行的界面会把最后几个字裁掉。
+                if (*str >= 0x21)
+                {
+                    glyphWidth = CJK_GLYPH_WIDTH;
+                    if (minGlyphWidth > 0 && glyphWidth < minGlyphWidth)
+                        glyphWidth = minGlyphWidth;
+                    lineWidth += glyphWidth + localLetterSpacing;
+                    ++str; // 跳过 lo 字节
+                }
                 break;
             }
             break;
